@@ -1,0 +1,27 @@
+{
+    "name": "RestHooks Fields List",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/resthook/fields",
+    "method": "GET",
+    "getparams": {
+        "api_key*": "@apikey@",
+        "api_secret*": "@secret@"
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "Get list of fields which are available on your LoginRadius for RestHook.",
+    "parameters": {
+        "Get Params": [{
+            "name": "api_key",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+        }, {
+            "name": "api_secret",
+            "is_required": true,
+            "description": "LoginRadius API Secret"
+        }]
+    }
+}

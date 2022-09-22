@@ -1,0 +1,7 @@
+{
+    "name": "Code Highlight",
+    "discription":"Code Highlight Discription",
+    "weight": "100",
+    "isActive": true,
+    "load": "code-highlight/code-highlight.php"
+}

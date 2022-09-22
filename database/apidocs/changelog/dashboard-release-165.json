@@ -1,0 +1,20 @@
+{
+  "name": "Admin-console release 16.5",
+  "description": "This new LoginRadius Admin Console Release brings useful functionality that will simplify the process of editing your LoginRadius registration form, along with a new help widget.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "'Advanced Options' tab in Standard Login area: The Advanced Options section provides you with various workflow configurations so you can choose how you wish the login/registration form to behave with a simple tick in the desired checkbox."
+      },
+      {
+        "text": "New Help Widget: We’ve added all of our support tools into a single, easy to use widget on the bottom left corner of your Admin Console (where the chat icon used to be). Click it for easy navigation to relevant documentation, create support tickets, or reach support via chat."
+      },
+      {
+        "text": "Integration Platform Revamp: We’ve improved the interface design for the integrations section."
+      }
+    ]
+  },
+  "auther": "Pascal",
+  "created_date": "2018-01-04",
+  "status": "public"
+}

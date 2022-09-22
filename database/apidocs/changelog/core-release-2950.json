@@ -1,0 +1,34 @@
+{
+    "name": "Core Release 29.5.0",
+    "description": "We are excited to announce our new core release! This new core release brings some new features as per the security perspective and some improvements.",
+    "changelog": {
+    "ADDED": [
+        {
+          "text": "If the <a href='https://adminconsole.loginradius.com/platform-security/account-protection/session-management/force-logout'>Force Logout </a> feature is enabled, upon a password change, all active PIN Session tokens will be invalidated along with the session from where the password has been changed."
+        },
+        {
+          "text": "If the <a href='https://adminconsole.loginradius.com/platform-security/account-protection/session-management/force-logout'>Force Logout </a> feature is enabled, upon doing a PIN change, all active Access tokens will be invalidated apart from the session from where the PIN has been changed." 
+        },
+        {
+          "text": "For security purposes, we have Masked sensitive data in API responses." 
+        }
+    ],
+    "IMPROVED": [
+        {
+          "text": "If the <a href='/docs/api/v2/customer-identity-api/multi-factor-authentication/overview/'>Multi-Factor Authentication </a> feature is enabled, the Passwordless Login API will automatically be disabled." 
+        },
+        {
+            "text": "In the <a href='/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-email/'>Passwordless Login by Email API </a>, any URL used as the 'verificationurl' needs to be whitelisted in the Admin Console." 
+        },
+        {
+            "text": "In the <a href='/docs/api/v2/customer-identity-api/authentication/pin-authentication/forgot-pin-by-email/'>Forgot PIn by Email API </a>, any URL used as the 'resetpinurl' needs to be whitelisted in the Admin Console." 
+        },
+        {
+            "text": "Fixed compatibility issues with the 'Sign-in with Apple' feature when using the Safari web browser." 
+        }]
+      },
+    "auther": "Swati",
+    "created_date": "2020-04-28",
+    "status": "public"
+  }
+  

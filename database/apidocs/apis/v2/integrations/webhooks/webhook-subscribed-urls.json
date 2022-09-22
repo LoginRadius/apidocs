@@ -1,0 +1,49 @@
+{
+    "name": "Webhook Subscribed URLs",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/webhook",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@",
+        "event": ""
+    },
+    "postparams": {},
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to fatch all the subscribed URLs, for particular event.",
+    "parameters": {
+        "Query Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            },
+            {
+                "name": "event",
+                "is_required": true,
+                "description": "Allowed events: Login, Register, UpdateProfile, ResetPassword, ChangePassword, emailVerification, AddEmail, RemoveEmail, BlockAccount, DeleteAccount, SetUsername, AssignRoles, UnassignRoles, SetPassword, LinkAccount, UnlinkAccount, UpdatePhoneId, VerifyPhoneNumber, CreateCustomObject, UpdateCustomobject, DeleteCustomObject"
+            }
+        ]
+    },
+    "outputFormat": {
+        "data": [
+            {
+                "TargetUrl": "https://xxxx.abc.com/acjhgj/gkgkj",
+                "Event": "AssignRoles"
+            },
+            {
+                "TargetUrl": "https://xxxx.abc.com/kjnplatfhjhjorhjhgm-confihgjghguratihjon/stjyxxxndardn",
+                "Event": "AssignRoles"
+            }
+        ],
+        "Count": 2
+    }
+}

@@ -1,0 +1,16 @@
+{
+"name": "Admin Console Release 24.6.0",
+    "description": "This release of the Admin Console brings you an enhancement, see below for details on the notable changes applied to the Admin Console.",
+    "changelog": {
+    "IMPROVED":
+    [
+        {
+            "text": "AllowSSOLoginOnly feature will allow login into Admin Console leveraging SSO using your identity provider like Azure AD"
+        }
+    ]
+},
+
+"auther": "Vaibhav Jain",
+"created_date": "2021-02-18",
+"status": "public"
+}

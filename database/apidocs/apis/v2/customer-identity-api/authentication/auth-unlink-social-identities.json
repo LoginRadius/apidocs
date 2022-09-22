@@ -1,0 +1,44 @@
+{
+    "name": "Auth Unlink Social Identities",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/socialIdentity",
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@apikey@"
+    },
+    "postparams": {
+        "provider": "xxxxxxxxxxx",
+        "providerid": "xxxxxxxxxxxxxxxxxxx"
+    },
+    "headers": {
+        "content-Type": "application/json",
+		"Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to unlink up a social provider account with the specified account based on the access token and the social providers user access token. The unlinked account will automatically get removed from your database.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            }],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }],	
+        "Post Parameters": [{
+                "name": "provider",
+                "is_required": true,
+                "description": "Name of the provider"
+            }, {
+                "name": "providerid",
+                "is_required": true,
+                "description": "Unique ID of the linked account"
+            }
+        ]
+    },
+    "outputFormat": {
+        "IsDeleted": true
+    }
+}

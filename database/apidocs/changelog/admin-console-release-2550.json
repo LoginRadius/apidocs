@@ -1,0 +1,19 @@
+{ "name": "Admin Console Release 25.5.0",
+    "description":"This release of the Admin Console brings you a few new features and some improvements, see below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "IMPROVED": [
+            {
+                "text": "Reset Password URL field in the Customer Profile section of Admin Console now has a default value"
+            },
+            {
+                "text": "Reset password validation rules in the Customer Profile section are same as the rules defined in Data Schema."
+            },
+            {
+                "text": "Account Subscription Details are available in the Billing section of Admin Console."
+            }
+        ]},
+
+    "auther": "Bhavya Tugnawat",
+    "created_date": "2022-03-05",
+    "status": "public"
+}

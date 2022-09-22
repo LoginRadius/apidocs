@@ -1,0 +1,17 @@
+{
+    "name": "New LoginRadius SAML APIs",
+    "description": "LoginRadius has recently completed it's transition to a new set of SAML APIs that provide additional capabilities from our original SAML APIs. While it is not mandatory to upgrade to the newer SAML Endpoints, we highly recommend it to take advantage of our new features and future updates, as of now you can expect the following features in the newer APIs. For a more detailed version of this release please refer to our <a href=\"\/api\/v2\/announcements\/new-saml-apis\">announcement<\/a>.",
+    "changelog": {
+        "ADDED": [{
+                "text": "New Session Index feature: When the SAML response is sent from the IDP(LoginRadius) to SP(Service Provider), in the SAML assertion we have added one extra property SeesionIndex, which contains the access token of the logged-in user."
+        }, {
+                "text": "Better Error Logging: In some cases when running into a configuration error, the APIs will now give you more information regarding the configuration for troubleshooting."
+        },{
+                "text": "SAML Compatibility: More compatiblity with 3rd Party SAML systems."
+        } ]
+    },
+
+"auther": "Pascal",
+"created_date": "2020-03-25",
+"status": "public"
+}

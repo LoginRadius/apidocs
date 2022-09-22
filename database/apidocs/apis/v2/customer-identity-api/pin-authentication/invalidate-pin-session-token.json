@@ -1,0 +1,34 @@
+{
+  "name": "Invalidate PIN Session Token",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/auth/session_token/InValidate",
+  "method": "GET",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "session_token*": ""
+  },
+  "postparams": {},
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "Use this endpoint to invalidate session tokens that have been created as part of the PIN workflows.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "session_token",
+        "is_required": true, 
+        "description": "session_token associated to a PIN authentication."
+      }],
+    "Post Params": []
+  },
+    "outputFormat": 
+{
+    "IsPosted": true
+}
+}

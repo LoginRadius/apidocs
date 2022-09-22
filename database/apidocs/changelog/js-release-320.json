@@ -1,0 +1,27 @@
+{
+    "name": "JS Release 3.2.0",
+    "description": "This new JavaScript Release handles Idempotent API requests. ",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Added support for Idempotent requests: We have added a new JavaScript option <a href=https://www.loginradius.com/docs/api/v2/deployment/js-libraries/getting-started>'disableButtonOnsubmit'</a> that can be added to your JavaScript to handle Idempotent requests."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "Changed JSONP call for Passwordless login to AJAX call for better performance"
+            }
+        ],
+        "FIXED": [
+            {
+                "text": "Resolved the console error that was displayed when using the privacy policy or social login feature"
+            },
+            {
+                "text": "Form validation was not working on the change password form. This issue is now resolved"
+            }
+        ]
+    },
+    "author": "Jitender",
+    "created_date": "2019-05-15",
+    "status": "public"
+}

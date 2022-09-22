@@ -1,0 +1,39 @@
+{
+	"name": "Auth Send Welcome Email",
+	"domain": "https://api.loginradius.com",
+	"path": "/identity/v2/auth/account/sendwelcomeemail",
+	"method": "GET",
+	"getparams": {
+		"apikey*": "@apikey@",
+		"welcomeemailtemplate":""
+	},
+	"postparams": "",
+	"headers": {
+        "content-Type": "application/json",
+		"Authorization":"Bearer "
+    },
+	"response": "json",
+	"description": "This Endpoint sends a welcome email.",
+	"parameters": {
+		"Get Params": [
+			{
+				"name": "apikey",
+				"is_required": true,
+				"description": "LoginRadius API Key"
+			},
+			{
+				"name": "welcomeemailtemplate",
+				"is_required": false,
+				"description":"Name of the welcome email template"
+			}
+		],
+		"Headers Parameters": [{
+			"name": "Authorization",
+            "is_required": true,
+            "description": "Bearer &lt;ACCESS_TOKEN&gt; (Customer's access_token)"
+        }]
+	},
+	"outputFormat": {
+		"IsPosted": true
+	}
+}

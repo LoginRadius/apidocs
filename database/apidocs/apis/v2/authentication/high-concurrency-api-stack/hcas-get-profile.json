@@ -1,0 +1,47 @@
+{
+  "name": "High Concurrency API Stack Account Profiles by Email",
+  "domain": "https://api.loginradius.com",
+  "path": "/hpa/v1/profile",
+  "method": "GET",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "access_token*": "",
+    "email*": "", 
+    "fields":""
+  },
+  "postparams": "",
+  "headers": {
+    "content-Type": "application/x-www-form-urlencoded"
+  },
+  "response": "json",
+  "description": "This API will return profile data of the user; by default it will only return a few fields. If additional fields are passed with call or configured on app level, more data will be returned",
+  "parameters": {
+    "Get Params": [{
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "access_token",
+        "is_required": true,
+        "description": "LoginRadius Access Token"
+      },
+      {
+        "name": "email",
+        "is_required": true,
+        "description": "User's email address"
+      }, 
+      {
+        "name":"fields", 
+        "is_required": false, 
+        "description": "Additional fields of profile data to be returned"
+      }
+    ]
+  },
+  "outputFormat": {
+    "Identities": ["&ltArray of Identites&gt"],
+    "fieldA":"abc", 
+    "fieldB":"bcd", 
+    "fieldC":"efg"
+  }
+}

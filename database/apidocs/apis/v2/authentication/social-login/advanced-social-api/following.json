@@ -1,0 +1,67 @@
+{
+    "name": "Following",
+    "domain":"https://api.loginradius.com",
+    "path": "/api/v2/following",
+    "method": "GET",
+    "getparams": {
+        "access_token*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "Get the following user list from the user’s social account.<br><br><b>Supported Providers:</b> Twitter",
+    "parameters": {
+        "Get Params": [{
+            "name": "access_token",
+            "is_required": true,
+            "description": "Uniquely generated identifier key by LoginRadius that is activated after successful authentication."
+        }]
+    },
+    "outputFormat":
+    [
+    {
+        "Name": "User1",
+        "EmailID": "",
+        "PhoneNumber": "",
+        "ID": "1***785",
+        "ProfileUrl": "https://www.twitter.com/user1",
+        "ImageUrl": "http://pbs.twimg.com/profile_images/718*****02367232/ypY***CQ_normal.jpg",
+        "Status": "",
+        "Industry": null,
+        "Country": null,
+        "Location": "India",
+        "Gender": null,
+        "DateOfBirth": null
+    },
+    {
+        "Name": "User2",
+        "EmailID": "",
+        "PhoneNumber": "",
+        "ID": "50***60",
+        "ProfileUrl": "https://www.twitter.com/user2",
+        "ImageUrl": "http://pbs.twimg.com/profile_images/929*******4708992/io***z49P_normal.jpg",
+        "Status": "",
+        "Industry": null,
+        "Country": null,
+        "Location": "Seattle, WA",
+        "Gender": null,
+        "DateOfBirth": null
+    },
+    {
+        "Name": "User3",
+        "EmailID": "",
+        "PhoneNumber": "",
+        "ID": "42***85",
+        "ProfileUrl": "https://www.twitter.com/user3",
+        "ImageUrl": "http://pbs.twimg.com/profile_images/2***4802/bm0r011u***nd6ndtn9_normal.jpeg",
+        "Status": "",
+        "Industry": null,
+        "Country": null,
+        "Location": "",
+        "Gender": null,
+        "DateOfBirth": null
+    }
+]
+}

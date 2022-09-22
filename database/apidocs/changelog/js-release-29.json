@@ -1,0 +1,17 @@
+{
+    "name": "JS Release 2.9",
+    "description": "We have just launched a new version of the LoginRadiusV2.js interface, it comes with 2 changes that will improve your experience when using the JavaScript Interfaces.",
+    "changelog": {
+    "ADDED": [{
+                "text": "Projection of Fields: You can now select which primary/root fields you would like the API to return when using the JavaScript Interfaces. With this feature, you can choose to receive either the access_token or just the profile depending on the interface you're using. see the <a href='/api/v2/user-registration/advanced-customization#projectionoffields20'>Advanced Customization</a> documentation for more details."
+        }
+            ],
+"IMPROVED": [
+    {
+        "text": "Browser Cache Time Set to 1 Hour: Configurations in your LoginRadius Admin Console that impacts the LoginRadiusV2.js interfaces will now be cached for one hour. If you would like to avoid waiting after making a change in the Admin Console, you can simply perform a hard refresh for immediate propagation."
+    }]
+    },
+"auther": "Pascal",
+"created_date": "2017-12-7",
+"status": "public"
+}

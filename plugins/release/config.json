@@ -1,0 +1,7 @@
+{
+    "name": "Release",
+    "discription":"Change js/css file path release discription",
+    "weight": "1",
+    "isActive": true,
+    "load": "release/release.php"
+}

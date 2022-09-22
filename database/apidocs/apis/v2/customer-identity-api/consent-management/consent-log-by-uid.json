@@ -1,0 +1,148 @@
+{
+    "name": "Consent Log by UID",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/{uid}/consent/logs",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to fetch consent logs by UID.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            }, {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }],
+            "Template Params": [
+                {
+                    "name": "uid",
+                    "is_required": true,
+                    "description": "UID, the unified identifier for each user account"
+                }
+            ]
+    },
+        "outputFormat": {
+            "Uid": "b32*****fec7*****0e76*****4bfbc5e",
+            "ConsentLogs": [
+              {
+                "Id": "5d8*****bcf12f2*****58ec",
+                "UpdateType": "Default",
+                "CurrentConsentFormsVersions": [
+                  {
+                    "Event": "Login",
+                    "Version": 1,
+                    "IsCustom": false
+                  },
+                  {
+                    "Event": "Register",
+                    "Version": 1,
+                    "IsCustom": false
+                  }
+                ],
+                "LoggedOnDate": "2019-09-17T10:30:25.4740000Z",
+                "UserAgent": "GuzzleHttp/6.2.1 curl/7.64.0 PHP/7.3.9",
+                "IP": "103.207.169.211",
+                "Host": "api.loginradius.com",
+                "ConsentLogs": [
+                  {
+                    "ConsentId": "email_consent",
+                    "Event": "Subscribe"
+                  },
+                  {
+                    "ConsentId": "sms_consent",
+                    "Event": "Subscribe"
+                  },
+                  {
+                    "ConsentId": "marketing_consent",
+                    "Event": "Subscribe"
+                  }
+                ]
+              },
+              {
+                "Id": "5d80b72*****564d1*****bf",
+                "UpdateType": "Default",
+                "CurrentConsentFormsVersions": [
+                  {
+                    "Event": "Register",
+                    "Version": 1,
+                    "IsCustom": false
+                  },
+                  {
+                    "Event": "Login",
+                    "Version": 1,
+                    "IsCustom": false
+                  }
+                ],
+                "LoggedOnDate": "2019-09-17T10:36:30.7200000Z",
+                "UserAgent": "GuzzleHttp/6.2.1 curl/7.64.0 PHP/7.3.9",
+                "IP": "103.207.169.211",
+                "Host": "api.loginradius.com",
+                "ConsentLogs": [
+                  {
+                    "ConsentId": "email_consent",
+                    "Event": "Subscribe"
+                  },
+                  {
+                    "ConsentId": "sms_consent",
+                    "Event": "Subscribe"
+                  },
+                  {
+                    "ConsentId": "marketing_consent",
+                    "Event": "Subscribe"
+                  }
+                ]
+              },
+              {
+                "Id": "5d8*****399b564d*****766",
+                "UpdateType": "ConsentEditor",
+                "CurrentConsentFormsVersions": [
+                  {
+                    "Event": "Login",
+                    "Version": 1,
+                    "IsCustom": false
+                  },
+                  {
+                    "Event": "Register",
+                    "Version": 1,
+                    "IsCustom": false
+                  },
+                  {
+                    "Event": "Register",
+                    "Version": 1,
+                    "IsCustom": false
+                  },
+                  {
+                    "Event": "Login",
+                    "Version": 1,
+                    "IsCustom": false
+                  }
+                ],
+                "LoggedOnDate": "2019-09-17T10:38:35.0160000Z",
+                "UserAgent": "GuzzleHttp/6.2.1 curl/7.64.0 PHP/7.3.9",
+                "IP": "103.207.169.211",
+                "Host": "api.loginradius.com",
+                "ConsentLogs": [
+                  {
+                    "ConsentId": "email_consent",
+                    "Event": "Subscribe"
+                  },
+                  {
+                    "ConsentId": "sms_consent",
+                    "Event": "Subscribe"
+                  }
+                ]
+              }
+            ]
+          }
+          
+}

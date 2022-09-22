@@ -1,0 +1,37 @@
+{
+    "name": "Get Security Questions By Access Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/securityquestion/accesstoken",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@"
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded",
+	    "Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to retrieve the list of questions that are configured on the respective LoginRadius site.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            }
+        ],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }]
+    },
+    "outputFormat": 
+            [
+                {
+                    "QuestionId": "0a67b****343fdab*****fe9a5c16b",
+                    "Question": "what is your middlename?"
+                }
+            ]
+}

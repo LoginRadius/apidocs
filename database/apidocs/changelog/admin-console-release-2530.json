@@ -1,0 +1,21 @@
+{ "name": "Admin Console Release 25.3.0",
+    "description": "This release of the Admin Console brings you a few new features and some improvements, see below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Validation for App Name in Federated SSO configuration in the Admin Console."
+            },
+            {
+                "text": "Ability to share the customer’s profile URL with the team members within the Admin Console."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "Updated JWT configuration UI with default values, e.g., email mapping, Default expiration time, etc. in the JWT configuration in the Admin Console."
+            }
+        ]},
+
+    "auther": "Pratik Kumar Jha",
+    "created_date": "2022-01-21",
+    "status": "public"
+}

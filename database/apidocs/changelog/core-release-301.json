@@ -1,0 +1,17 @@
+{
+    "name": "Core Release 30.1.0",
+    "description": "We have released another version of the core release! This core release brings improvements to our few APIs.",
+    "changelog": {
+    "IMPROVED": [
+        {
+          "text": "Now, you can pass the <strong>SocialAppName</strong> parameter in our following Native Access Token APIs. Allowing you to configure multiple apps for the same social provider. <br> <a href='/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-google-token/'> Access Token via Google Token </a> <br> <a href='/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-google-auth-code/'> Access Token via Google AuthCode </a> <br> <a href='/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-linkedin-token/'> Access Token via LinkedIn Token</a> <br> <a href='/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-facebook-token/'> Access Token via Facebook Token </a> <br> <a href='/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-twitter-token/'> Access Token via Twitter Token </a> <br> <a href='/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-apple-id-code/'> Access Token via Apple ID Code </a> " 
+        },
+        {
+            "text": "Added <strong>isWeb</strong> parameter in <a href='/docs/api/v2/customer-identity-api/refresh-token/refresh-token/'> Refresh Token API</a>, allowing you to  specify if its Web or Native Access Token." 
+        }]
+      },
+    "auther": "Swati",
+    "created_date": "2020-06-24",
+    "status": "public"
+  }
+  

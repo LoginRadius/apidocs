@@ -1,0 +1,24 @@
+{
+    "name": "Core API Release 31.1.0",
+    "description": "This release brings you an enhancement and some bug fixes to our LoginRadius Core API, please see below for details:",
+    "changelog":
+   {
+    "FIXED": 
+    [
+        
+        {
+          "text": "Fixed the issue with Password History configuration changes, now it can be enabled/disabled via Admin Console."
+        }
+    
+    ],
+    "ADDED":
+    [
+        {
+            "text": "Added MFA and re-authentication by Security Questions."
+        }
+    ]
+    },
+    "auther": "Vaibhav Jain",
+    "created_date": "2021-06-10",
+    "status": "public"
+  }

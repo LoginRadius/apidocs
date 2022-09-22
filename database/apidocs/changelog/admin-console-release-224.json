@@ -1,0 +1,77 @@
+{
+  "name": "Admin Console release 22.4",
+  "description": "It’s time for an Admin Console update! In our new version 22.4, the Admin Console is restructured to make it more intuitive and easy-to-use! You will find most of these changes in the Platform Configuration, Platform Security and Deployment tab. Please see our updated Support and API docs through this transition. Here are the details:",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "A new tab 'Platform Security' with all the relevant sections has been added in the top navigation bar. The 'Platform Security' tab contains Account Protection, Multi-layered security and Data Access Protection pages."
+      },
+      {
+        "text": "Anonymous Login and Advance Login Methods pages have been added under the new section Platform Security. The Advance Login Methods contains sections for Smart Login Settings, One Touch Login Settings and Email/SMS Template. These sections show if the feature is enabled or not for your application."
+      },
+      {
+        "text": "Passwordless login and Social login matrics have been added to Account Workflow(Platform configuration->Identity Workflow->Auth Workflow->Account Workflow)."
+      },
+      {
+        "text": "Secure Cookie matrix has been added to Advanced Workflow(Platform configuration->Identity Workflow->Auth Workflow->Advnaced Workflow)."
+      },
+      {
+        "text": "Global SMS and Email settings have been added to Communication Configuration(Platform configuration->Identity Workflow->Communication Configuration)."
+      },
+      {
+        "text": "The SSO Connector page for Shopify, BigCommerce and PerfectMind was added to Access Configuration(Platform Configuration->Access Configuration)."
+      },
+      {
+        "text": "A new 'Send Test Email' button has been added to each email template in the LoginRadius Admin Console, making it easier to test email templates."
+      },
+      {
+        "text": "'Email Template' dropdown is added to 'Add a New User' section under Customer Management(Profile Management -> Customer Management) is to select a specific email template when the 'Send Email Verification' option is selected."
+      }
+    ],
+    "IMPROVED": [
+      {
+        "text": "The Standard Login page was moved to the new subsection 'Authentication Configuration' under Platform Configuration. The Standard Login page was updated to include more sections-Data Schema, Registration Data, Email Templates with subsections-Verification Email, Forgot Password Email, Welcome Email, Delete Account Email, Add Email."
+      },
+      {
+        "text": "The API Secrets data type was updated to be hidden in the Admin Console."
+      },
+      {
+        "text": "Validation was added under Customer Segmentation (Profile Management -> Customer Segmentation) and Data Query (Integration ->Data Query) to restrict the export of customers to a maximum of 500,000 or 25% of the total profiles. If a request returns more than 500,000 or 25% of total profiles, an error message is displayed."
+      },
+      {
+        "text": "Bot Protection and IP Access Control were moved to the subsection Data Access Protection under Platform Configuration"
+      },
+      {
+        "text": "Hosted Registration and LoginScreen have been renamed to 'Identity Experience Framework (Hosted)' and 'Identity Experience Framework (Self-Hosted)' respectively"
+      },
+      {
+        "text": "The Configuration, Web & Mobile, and Profile Swap sections are now grouped under the Deployment tab. The Deployment tab contains Email Workflow, API Credentials, Apps, Progressive Profiling,Identity Experience Framework (Hosted), Identity Experience Framework (Self-Hosted), JS Widgets, Libraries & Plugins, Production Release"
+      },
+      {
+        "text": "Metrics for customer accounts with multiple profiles have been removed from the Customer Stats section (Customer Insignts->Customer Stats)." }
+    ],
+    "FIXED": [
+      {
+        "text": "Under 'My Account -> LOGIN SESSION' a blank message was showing when clicking 'Sign Out All Web Sessions'."
+      },
+      {
+        "text": "The Icon image for profiles under Customer management (Profile management -> Customer management) was not loading properly."
+      },
+      {
+        "text": "Privacy: The Privacy button in the Admin Console's footer now points to an updated address."
+      },
+      {
+        "text": "Issue related to adding a field to a data source under 'Registration Data' (Platform Configuration > Authentication Configuration->Standard Login->Registration Data) is resolved."
+      },
+      {
+        "text": "'Basic Segmentation' (Profile management -> Customer Segmentation->Basic Segmentation) the filter button had issues when using dates as part of the criteria"
+      },
+      {
+        "text": "When doing a segmented export, start and end dates input parameters are removed from the filtered Query. "
+      }
+    ]
+  },
+"auther": "Jitender",
+"created_date": "2019-05-27",
+"status": "public"
+}

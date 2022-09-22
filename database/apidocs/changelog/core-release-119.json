@@ -1,0 +1,45 @@
+{
+    "name": "Core Release 11.9",
+    "description": "This section is for complete release notes for the LoginRadius API and SDK Libraries.<br><h2>Release 11.1 notes (2016-04-14)</h2>We are pleased to announce the release of new version of platform API version. The improvements include:<ul><li>Several bug fixes to allow more flexibility in client side implementations</li><li>New API added to get list of <a href='/'>subscribed URLs</a></li></ul>The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "New email template added for 'Welcome Email'"
+            },{
+                "text": "Getting the number of logins for a user by introducing a new field in profile JSON"
+            },{
+                "text": "Fetching email from Amazon login"
+            },{
+                "text": "Fetching email from Twitter login"
+            },{
+                "text": "More options for encoding passwords"
+            }],
+        "FIXED":[{
+                "text": "Issue with login using Twitter"
+            },{
+                "text": "There were dd-mm-yyyy validation for DOB"
+            },{
+                "text": "welcome email template for Social register (two emails were being receiving)"
+            },{
+                "text": "Password encoding was not working"
+            },{
+                "text": "Uid was getting change when facebook primary email id update by user"
+            },{
+                "text": "Rest hook UnSubscribe api, when was not passing the target_url then no error were showing"
+            },{
+                "text": "Check target_url validation, for some urls api was giving incorrect response."
+            },{
+                "text": "when pass the event in Camel casing then api was showing error"
+            },{
+                "text": "Get all subscribed URLs: when pass invalid event then showing blank array"
+            },{
+                "text": "Rest hook subscribe api, when were not passing the parameter values then showing error"
+            },{
+                "text": "password encoding: was not working when pass hexadecimal"
+            },{
+                "text": "Check target_url validation: when pass invalid url,api was giving incorrect response"
+            }]
+    },
+    "auther": "Deepak Gupta",
+    "created_date": "2016-5-1",
+    "status": "public"
+}

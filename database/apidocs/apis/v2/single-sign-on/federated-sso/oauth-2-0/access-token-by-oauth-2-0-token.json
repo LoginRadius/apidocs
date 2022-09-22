@@ -1,0 +1,51 @@
+{
+    "name": "Access token by OAuth 2 token",
+    "domain": "https://cloud-api.loginradius.com",
+    "path": "/sso/oauth/access_token",
+    "method": "POST",
+    "getparams": {},
+    "postparams": {
+        "client_id": "",
+        "client_secret":"",
+        "redirect_uri":"",
+        "response_type":"token",
+        "code":""
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API allows get a LoginRadius access_token from an OAuth 2.0 Token.",
+    "parameters": {
+        "Body Params": [
+          {
+            "name": "client_id",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+          },
+          {
+            "name": "client_secret",
+            "is_required": true,
+            "description": "LoginRadius Secret Key"
+          },{
+            "name": "redirect_uri",
+            "is_required": true,
+            "description": "Redirection URI"
+          },{
+            "name": "response_type",
+            "is_required": true,
+            "description": "Needs to be 'token'"
+          },{
+            "name": "code",
+            "is_required": true,
+            "description": "Code Parameter, given when Login Dialog is performed"
+          }
+        ]
+    },
+    "outputFormat": {
+    "access_token": "********-****-****-*****************",
+    "token_type": "access_token",
+    "expires_in": 394,
+    "refresh_token": "********-****-****-*****************"
+}
+}

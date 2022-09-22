@@ -1,0 +1,53 @@
+{
+    "name": "MFA Step-Up Authentication by Email OTP",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/auth/account/reauth/2fa/otp/email/verify",
+    "method": "PUT",
+    "getparams": {
+      "apikey*": "@apikey@",
+      "access_token*": ""
+    },
+    "postparams": 
+    {
+         "emailid":"xyz@example.com",
+        "Otp":"xxxxxx"
+        
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to validate the triggered MFA authentication flow with an Email OTP.",
+    "parameters": {
+      "Get Params": [
+          {
+        "name": "apikey",
+        "is_required": true,
+        "description": "Your LoginRadius API Key"
+      },
+      {
+      "name": "Authorization",
+      "is_required": true,
+      "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+     }
+    ],
+     
+      "Post Params": [
+          {
+        "name": "Email_Id",
+        "is_required": true,
+        "description": "Required user's email ID"
+      },
+      {
+        "name": "Otp",
+        "is_required": true,
+        "description": "The One Time Passcode sent to the user"      
+      }
+    ]
+    },
+    "outputFormat": 
+    {
+        "SecondFactorValidationToken": "e1******-****-****-b**e-e8*******cc7",
+        "ExpireIn": "2018-06-13T06:25:42.8937286Z"
+    } 
+}

@@ -1,0 +1,429 @@
+{
+    "name": "User Identity with Custom Object",
+    "domain": "https://cloud-api.loginradius.com",
+    "path": "/identity/customobject",
+    "method": "POST",
+    "getparams": {
+      "apikey*": "@apikey@",
+      "apisecret*": "@secret@",
+      "customObject": ""
+    },
+    "postparams": {
+      "from": "yyyy-mm-dd",
+      "to": "yyyy-mm-dd",
+      "q": {},
+      "size": 100
+    },
+    "headers": {
+      "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to get the identity based on the query and all the custom object records related to that identity.",
+    "parameters": {
+      "Get Params": [
+        {
+          "name": "apikey",
+          "is_required": true,
+          "description": "LoginRadius API Key"
+        },
+        {
+          "name": "apisecret",
+          "is_required": true,
+          "description": "LoginRadius API secret or LoginRadius API Secondary secret with <b> Cloud Directory API permission enabled</b>"
+        },
+        {
+          "name": "customObject",
+          "is_required": false,
+          "description": "Custom Object Name"
+        },
+        {
+            "name": "Note",
+            "is_required": false,
+            "description": "You can pass multiple custom object names with ',' (comma) separated. If you do not pass any custom object name then by default, it will retrieve all the custom objects."
+          }
+      ],
+      "Post Params": [
+        {
+          "name": "from",
+          "is_required": true,
+          "description": "The start date for the records you would like to retrieve yyyy-mm-dd"
+        },
+        {
+          "name": "to",
+          "is_required": true,
+          "description": "The end data for the records you would like to retrive yyyy-mm-dd"
+        },
+        {
+          "name": "q",
+          "is_required": false,
+          "description": "The query that you would like to pull data on details on query format can be found <a href='/docs/api/v2/cloud-directory-api/identity/getting-started/#queryingbasicfields6'>here</a>"
+        },
+        {
+          "name": "size",
+          "is_required": false,
+          "description": "The number of records to be fetched per request, should be > 1 && < 1000. Defaults to 20"
+        }
+      ]
+    },
+    "outputFormat": {
+      "total": 3297,
+      "data": [
+        {
+          "AppName": "internal-example",
+          "Uid": "1149*****fe74a77*****48fac33462c",
+          "ID": "ce3a*****b524df2*****5622****60c",
+          "Provider": "RAAS",
+          "Prefix": "",
+          "FirstName": "Dname",
+          "MiddleName": null,
+          "LastName": "Zen",
+          "Suffix": null,
+          "FullName": "Dname Zen",
+          "NickName": null,
+          "ProfileName": null,
+          "BirthDate": "10-12-1985",
+          "Gender": "M",
+          "Website": null,
+          "Email": [
+            {
+              "Type": "Primary",
+              "Value": "d1@mailazy.com"
+            },
+            {
+              "Type": "Secondary",
+              "Value": "d3@mailazy.com"
+            }
+          ],
+          "Country": {
+            "Code": "IN",
+            "Name": "India"
+          },
+          "ThumbnailImageUrl": null,
+          "ImageUrl": null,
+          "Favicon": null,
+          "ProfileUrl": null,
+          "HomeTown": null,
+          "State": "Alberta",
+          "City": "Edmonton",
+          "Industry": null,
+          "About": null,
+          "TimeZone": null,
+          "LocalLanguage": null,
+          "CoverPhoto": null,
+          "TagLine": null,
+          "Language": null,
+          "Verified": null,
+          "UpdatedTime": null,
+          "Positions": [
+            {
+              "Company": {
+                "Industry": "",
+                "Name": "",
+                "Type": ""
+              },
+              "EndDate": "",
+              "IsCurrent": "",
+              "Position": null,
+              "StartDate": "",
+              "Summary": "An astronaut."
+            }
+          ],
+          "Educations": [
+            {
+              "EndDate": null,
+              "School": null,
+              "StartDate": null,
+              "activities": null,
+              "degree": null,
+              "fieldofstudy": null,
+              "notes": null,
+              "type": null,
+              "year": null
+            }
+          ],
+          "PhoneNumbers": null,
+          "IMAccounts": [
+            {
+              "AccountName": null,
+              "AccountType": null
+            }
+          ],
+          "Addresses": [
+            {
+              "City": "Edmonton",
+              "Country": "Canada",
+              "State": "Alberta",
+              "Type": "Primary"
+            }
+          ],
+          "MainAddress": null,
+          "Created": null,
+          "CreatedDate": "2018-12-27T05:00:53.944Z",
+          "ModifiedDate": "2019-06-21T17:59:11.756Z",
+          "ProfileModifiedDate": "2019-06-21T17:40:34.618Z",
+          "LocalCity": "Washington",
+          "ProfileCity": null,
+          "LocalCountry": "United States",
+          "ProfileCountry": "India",
+          "FirstLogin": false,
+          "IsProtected": false,
+          "RelationshipStatus": null,
+          "Quota": null,
+          "InterestedIn": [
+            "blah",
+            "blah"
+          ],
+          "Interests": [
+            {
+              "InterestedName": null,
+              "InterestedType": null
+            }
+          ],
+          "Religion": null,
+          "Political": null,
+          "Sports": [
+            {
+              "Name": null,
+              "_id": null
+            }
+          ],
+          "InspirationalPeople": [
+            {
+              "Name": null,
+              "_id": null
+            }
+          ],
+          "HttpsImageUrl": null,
+          "FollowersCount": 0,
+          "FriendsCount": 0,
+          "IsGeoEnabled": null,
+          "TotalStatusesCount": 0,
+          "Associations": null,
+          "NumRecommenders": 0,
+          "Honors": null,
+          "Awards": null,
+          "Skills": null,
+          "CurrentStatus": null,
+          "Certifications": null,
+          "Courses": null,
+          "Volunteer": null,
+          "RecommendationsReceived": null,
+          "Languages": null,
+          "Projects": null,
+          "Games": null,
+          "Family": null,
+          "TeleVisionShow": null,
+          "MutualFriends": null,
+          "Movies": null,
+          "Books": null,
+          "AgeRange": null,
+          "PublicRepository": null,
+          "Hireable": false,
+          "RepositoryUrl": null,
+          "Age": "33",
+          "Patents": null,
+          "FavoriteThings": null,
+          "ProfessionalHeadline": null,
+          "RelatedProfileViews": null,
+          "KloutScore": null,
+          "LRUserID": null,
+          "PlacesLived": null,
+          "Publications": null,
+          "JobBookmarks": null,
+          "Suggestions": null,
+          "Badges": null,
+          "MemberUrlResources": null,
+          "TotalPrivateRepository": 0,
+          "Currency": null,
+          "StarredUrl": null,
+          "GistsUrl": null,
+          "PublicGists": 0,
+          "PrivateGists": 0,
+          "Subscription": null,
+          "Company": null,
+          "GravatarImageUrl": null,
+          "ProfileImageUrls": null,
+          "WebProfiles": {
+            "Large": "https://graph.facebook.com/*****/picture?type=large",
+            "Profile": "https://graph.facebook.com/******/picture?type=normal",
+            "Small": "https://graph.facebook.com/*****/picture?type=small",
+            "Square": "https://graph.Profile.com/*****/picture?type=square"
+          },
+          "PinsCount": 0,
+          "BoardsCount": 0,
+          "LikesCount": 0,
+          "EmailVerifiedFromSocial": false,
+          "SignupDate": "2018-12-27T05:00:53.944Z",
+          "LastLoginDate": "2019-06-21T17:59:11.756Z",
+          "CustomFields": null,
+          "LastPasswordChangeDate": "2018-12-27T06:09:07.622Z",
+          "PasswordExpirationDate": null,
+          "LastPasswordChangeToken": null,
+          "EmailVerified": true,
+          "IsActive": true,
+          "IsDeleted": false,
+          "IsEmailSubscribed": false,
+          "UserName": null,
+          "NoOfLogins": 2,
+          "PreviousUids": null,
+          "PhoneId": null,
+          "PhoneIdVerified": false,
+          "Roles": [],
+          "ExternalUserLoginId": null,
+          "FailedLoginAttempt": 0,
+          "SecurityQuestionFailedResetPasswordAttempts": 0,
+          "SecurityQuestionFailedLoginAttempt": 0,
+          "DisableLogin": false,
+          "RegistrationProvider": "RAAS",
+          "IsLoginLocked": false,
+          "LoginLockedType": "None",
+          "LastLoginLocation": "India",
+          "RegistrationSource": "API",
+          "IsCustomUid": false,
+          "UnverifiedEmail": [],
+          "RoleContext": null,
+          "KnownLoginVariables": null,
+          "IsSecurePassword": false,
+          "PrivacyPolicy": null,
+          "LoginLockedTimeout": null,
+          "ExternalIds": [
+            {
+              "Source": "source_name{{PerfectMind}}",
+              "SourceId": "id{{*******}}"
+            }
+          ],
+          "IsRequiredFieldsFilledOnce": true,
+          "SignupLog": {
+            "Host": "",
+            "IP": "104.45.149.51",
+            "UserAgent": "GuzzleHttp/6.2.1 curl/7.59.0 PHP/5.6.38"
+          },
+          "LastAcceptedConsentVersion": 0,
+          "user_agent": {
+            "device": {
+              "name": "Other"
+            },
+            "name": "curl",
+            "original": "GuzzleHttp/6.2.1 curl/7.59.0 PHP/5.6.38",
+            "version": "7.59.0"
+          },
+          "CustomObject": {
+            "key1": "asd",
+            "key2": [
+              "lower",
+              "upper",
+              "down"
+            ],
+            "key3": 123,
+            "key4": [
+              {
+                "Type": "Primary",
+                "Value": "youtube"
+              },
+              {
+                "Type": "Secondary",
+                "Value": "vimeo"
+              }
+            ],
+            "key5": {
+              "Code": "Dr",
+              "Name": "Doctor"
+            }
+          },
+          "_id": 12349
+        },
+        {
+          "IsActive": true,
+          "DateCreated": "2018-01-31T09:03:14.940Z",
+          "DateModified": "2018-01-31T09:03:14.940Z",
+          "IsDeleted": false,
+          "Uid": "b7d2a7fee54a4f168e6ac33a2f295e94",
+          "CustomObject": {
+            "key1": "hello",
+            "key2": [
+              "middle"
+            ],
+            "key3": 124,
+            "key4": [
+              {
+                "Type": "Primary",
+                "Value": "google"
+              },
+              {
+                "Type": "Secondary",
+                "Value": "vimeo"
+              }
+            ],
+            "key5": {
+              "Code": "CH",
+              "Name": "Chef"
+            }
+          },
+          "_id": 12350
+        },
+        {
+          "IsActive": true,
+          "DateCreated": "2018-01-31T09:03:25.420Z",
+          "DateModified": "2018-01-31T09:03:25.420Z",
+          "IsDeleted": false,
+          "Uid": "f78f2a163bce44e1b3118d8eb029c532",
+          "CustomObject": {
+            "key1": "test123",
+            "key2": [
+              "middle",
+              "lower"
+            ],
+            "key3": 125,
+            "key4": [
+              {
+                "Type": "Primary",
+                "Value": "twitch"
+              },
+              {
+                "Type": "Secondary",
+                "Value": "vimeo"
+              }
+            ],
+            "key5": {
+              "Code": "MS",
+              "Name": "Master"
+            }
+          },
+          "_id": 12351
+        },
+        {
+          "IsActive": true,
+          "DateCreated": "2018-01-31T10:18:22.470Z",
+          "DateModified": "2018-01-31T10:18:22.470Z",
+          "IsDeleted": false,
+          "Uid": "909e8731190640eaa3b76bd7a24bec13",
+          "CustomObject": {
+            "key1": "test1234",
+            "key2": [
+              "middle",
+              "lower",
+              "upper",
+              "down"
+            ],
+            "key3": 126,
+            "key4": [
+              {
+                "Type": "Primary",
+                "Value": "facebook"
+              },
+              {
+                "Type": "Secondary",
+                "Value": "vimeo"
+              }
+            ],
+            "key5": {
+              "Code": "Mr",
+              "Name": "Mister"
+            }
+          },
+          "_id": 12352
+        }
+      ],
+      "next": "DXF1ZX*******************bW5vd05Rb3lDWjlj******BIZw=="
+    }
+  }

@@ -1,0 +1,59 @@
+{
+  "name": "LoginRadius API Core Release V22.5.0",
+  "description": "We have just launched the LoginRadius API V2 Core Release 22.5.0. Several existing features are improved, and new functionalities are added to broaden the range of support for your needs. ",
+  "changelog": {
+    "ADDED": [{
+        "text": "Unlock API: We have added this new API to allow customers with a valid session to unlock their accounts with an access_token. Click <a href=\"https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token\">here</a> for more information."
+      },
+      {
+        "text": "Forgot Password API: A new endpoint has been added to the Account API; calls can now be made to trigger the sending of a Forgot Password email with your LoginRadius api key and secret.click <a href=\"https://www.loginradius.com/docs/api/v2/customer-identity-api/account/get-forgot-password-token\">here</a> for more information."
+      },
+      {
+        "text": "IPv6: Support for IPv6 has now been added to the Core API platform"
+      }, {
+        "text": "Temporary Configuration: We have added Temporary Configurations to application configuration settings to buffer breaking changes in existing implementation."
+      }
+    ],
+    "IMPROVED": [{
+        "text": "Better error messages for One-touch log-in and Smart log-in."
+      },
+      {
+        "text": "Smart log-in and One-touch log-in APIs: Now with better error messages and support for “OTP Email Verification” feature."
+      },
+      {
+        "text": "Duplicate email ID and unique username workflow support: All APIs now support the OTP Email Verification feature with the “Allow duplicate email ID and unique username” workflow enabled.Click <a href=\"https://www.loginradius.com/docs/api/v2/customer-identity-api/overview#usernamelogin3\">here</a> for more information."
+      },
+      {
+        "text": "Expanded lockout support: <a href=\"https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/overview#googleauthenticatorworkflow4\">Google Authenticator</a>, Change Password, <a href=\"https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-backup-code#protactedContent\">Login By Back-up Code</a>, and Re-Auth API endpoints will now increment failed attempts and result in lockout after threshold is reached."
+      },
+      {
+        "text": "Password Policy: Added password policy to <a href=\"https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-update\">Auth Update Account API</a>."
+      },
+      {
+        "text": "Duplicate Account Prevention: Customers who have registered with their emails will not be able to perform social login with Social Provider accounts registered under the same email. "
+      }
+    ],
+    "FIXED": [{
+        "text": "Select error responses now returning X-LoginRadius-Server header as expected."
+      },
+      {
+        "text": "The Account Management Update Profile API will retain correct login lockout flag.click <a href=\"https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-update\">here</a> for more information"
+      },
+      {
+        "text":"Customers who have already verified their phone numbers will no longer be asked to validate their phone numbers by the Login API.click <a href=\"https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-login\">here</a> for more information"
+      }, 
+      {
+        "text":"Issues with phone number format validation are now resolved."
+      }, 
+      {
+        "text":"<a href=\"https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-add-email#protactedContent\">Add Email API </a>is now using the configured email settings."
+      }, 
+      {
+        "text":"First Login field gets a value upon login if you have the email verification workflow enabled."
+      }
+    ]
+  },
+  "auther": "Ti",
+  "created_date": "2019-2-21",
+  "status": "public"
+}

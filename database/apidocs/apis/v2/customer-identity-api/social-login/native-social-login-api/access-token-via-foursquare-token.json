@@ -1,0 +1,31 @@
+{
+    "name": "Access Token via Foursquare Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/access_token/foursquare",
+    "method": "GET",
+    "getparams": {
+        "key*": "@apikey@",
+        "fs_access_token*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "The API is used to get LoginRadius access token by sending Foursquare’s access token. It will be valid for the specific duration of time specified in the response.",
+    "parameters": {
+        "Get Params": [{
+            "name": "key",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+        }, {
+            "name": "fs_access_token",
+            "is_required": true,
+            "description": "Foursquare Access Token"
+        }]
+    },
+    "outputFormat": {
+        "access_token": "a123qwe2-9**3-4202-833c-320aoo58**66",
+        "expires_in": "2017-10-09T06:07:00.296Z"
+    }
+    }

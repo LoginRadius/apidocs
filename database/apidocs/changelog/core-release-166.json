@@ -1,0 +1,29 @@
+{
+  "name": "LoginRadius API Core Release V16.6",
+  "description": "This new release of the LoginRadius APIs, brings enhancements with new features. Please see below for more details:",
+  "changelog": {
+  "ADDED": [
+      {
+        "text": "Access Token Invalidation: All of the access tokens will be automatically invalidated as soon as the user is archived."
+      },
+	  {
+        "text": "Default Role: The new 'default role' feature allows you to have a preconfigured role that is automatically set when creating a new user. Please contact LoginRadius Support to enable this feature."
+      },
+	  {
+        "text": "Roles for Secondary API Secret: When generating a secondary API Secret, you can now decide its level of access. Please contact LoginRadius Support to enable this feature."
+      }],
+  "IMPROVED": [
+      {
+      "text": "New Webhook Events: UpdateCustomobject, DeleteCustomObject, CreateCustomObject."
+      },
+	  {
+      "text": "AutoLogin API: We have added one more parameter in the AutoLogin API. Now you can pass 'redirectUrl' to redirect on a particular URL after clicking on the link."
+      },
+	  {
+      "text": "nullsupport as QueryParameter: Now you can now pass 'nullsupport' as a query parameter to update the user profile fields to null."
+      }]
+    },
+  "auther": "Naren",
+  "created_date": "2017-05-17",
+  "status": "public"
+}

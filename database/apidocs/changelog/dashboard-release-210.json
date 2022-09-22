@@ -1,0 +1,20 @@
+{
+  "name": "Admin-console Release 21.0",
+  "description": "This new release of the LoginRadius Admin Console brings additional options that allow you to configure security measures on who has access to login.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "IP Access Control: We have added a new IP Access Control section under auth security which can be used to add allowed/denied IPs for API access."
+      },
+      {
+        "text": "QQ Tencent Captcha Menu: New section added under Auth Security to easily configure your Tencent QQ Captcha. "
+      },
+      {
+        "text": "Suspend Account Lockout type: Added a new 'Suspend Account'  lockout type under 'Auth Security' in the Brute Force Lockout section, which allows you to set accounts as suspended. "
+      }
+    ]
+  },
+  "auther": "Pascal",
+  "created_date": "2018-08-30",
+  "status": "public"
+}

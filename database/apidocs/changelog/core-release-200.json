@@ -1,0 +1,33 @@
+{
+  "name": "LoginRadius API Core Release V20.0.0",
+  "description": "Introducing the LoginRadius Core API release 20.0.0 that includes brand new functionality and enhancements. see below for a summary of the changes and improvements ",
+  "changelog": {
+  "ADDED": [
+      {
+        "text": "Privacy Policy Versioning: To keep track of the privacy policy version that a user has agreed to on your site, you now have the ability to save and update this information directly in the user profile."
+      },
+      {
+        "text": "Access Token on Registration Event:This new workflow will help streamline the implementation process and reduce the number of API calls necessary by providing the capability to get an access_token on registration, given that your LoginRadius site has either Optional or Disabled Email verification flows enabled."
+      },
+	    {
+        "text": "Registration Workflow Options: Additional options that restricts the registration workflow on a granular level have been added. This will allow you to block certain types of registrations, such as social registration, custom provider registration, and traditional registration, etc."
+      },
+            {
+        "text": "Event-Based Re-Authentication: We have added this new security feature to trigger re-authentication on selected events, such as delete profile, update profile, and more."
+      }],
+  "IMPROVED": [
+      {
+        "text": "Change Password Validation: The Change Password API can now apply back-end validation."
+      },
+     {
+        "text": "Forgot Password API:  The forgot password API is now case-insensitive."
+      },
+      {
+        "text": "Forgot Password API: Added support for requesting password resets via UserName."
+      }
+  ]
+    },
+  "auther": "Pascal",
+  "created_date": "2018-3-13",
+  "status": "public"
+}

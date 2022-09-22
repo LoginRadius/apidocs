@@ -1,0 +1,54 @@
+{
+    "name": "Request Device Code",
+    "domain": "",
+    "path": "https://{siteurl}/api/oidc/{OidcAppName}/device/code",
+    "method": "POST",
+    "getparams": {},
+    "postparams": {
+      "client_id": "",
+      "Scope": ""
+    },
+    "headers": {
+      "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API allows you to requests a new device code, user code from the Device code Endpoint",
+    "parameters": 
+    {
+        "Template Params": [
+	  {
+            "name": "OidcAppName",
+            "is_required": true,
+            "description": "OIDC App Name"
+          }, 
+          {
+            "name": "siteurl",
+            "is_required": true,
+            "description": "Hosted/Custom Domain"
+          }       ],
+
+          "Body Params": [
+        {
+          "name": "client_id",
+          "is_required": true,
+          "description": "Your application's Client ID."
+        },
+        {
+          "name": "scope",
+          "is_required": false,
+          "description": "The scope for this is email profile."
+        }
+      ]
+    },
+    "outputFormat": 
+        {
+          
+            "interval": 10,
+            "expires_in": 1800,
+            "device_code": "af2a4121179546c1b121995414cc4530",
+            "user_code": "oP5lLq",
+            "verification_uri": "https://**__**/federation/device/activate.php",
+            "verification_uri_complete": "https://**__**/federation/device/activate.php?user_code=MXD-TPV"
+          
+        }
+  }

@@ -1,0 +1,48 @@
+{
+    "name": "Request Device Code",
+    "domain": "",
+    "path": "https://{siteurl}/api/oauth/{OAuthName}/device/code",
+    "method": "POST",
+    "getparams": {},
+    "postparams": {
+      "client_id": "",
+      "Scope":""
+    },
+    "headers": {
+      "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API allows you to requests a new device code, user code from the Device code Endpoint",
+    "parameters": 
+    {
+        "Template Params": [
+	  {
+            "name": "Oauthappname",
+            "is_required": true,
+            "description": "OAuth App Name"
+          }        ],
+
+          "Body Params": [
+        {
+          "name": "client_id",
+          "is_required": true,
+          "description": "Your application's Client ID."
+        },
+        {
+          "name": "scope",
+          "is_required": false,
+          "description": "The scope for this is email profile."
+        }
+      ]
+    },
+    "outputFormat": 
+        {
+          
+            "device_code": "af2a4121179546c1b121995414cc4530",
+            "user_code": "oP5lLq",
+            "verification_uri": "https://**__**/federation/device/activate.php",
+            "interval": 10,
+            "expires_in": 1800
+          
+        }
+  }

@@ -1,0 +1,54 @@
+{
+    "name": "Delete Custom Object Set",
+    "domain": "https://api.loginradius.com",
+    "path": "/raas/v1/user/customObject/status",
+    "method": "POST",
+    "getparams": {
+        "appkey*": "@apikey@",
+        "appsecret*": "@secret@",
+        "objectid*": "",
+        "accountid*": ""
+    },
+    "postparams": {
+        "isblock": true
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This api is use to remove all the Custom Objects based on account Id(UID).",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "appkey",
+                "is_required": true,
+                "description": "Your LoginRadius API Key"
+            },
+            {
+                "name": "appsecret",
+                "is_required": true,
+                "description": "Your LoginRadius API Secret"
+            },
+            {
+                "name": "objectid",
+                "is_required": true,
+                "description": "Your LoginRadius Custom Object ID"
+            },
+            {
+                "name": "accountid",
+                "is_required": true,
+                "description": "User's accountid"
+            }
+        ],
+        "Post Params": [
+            {
+                "name": "isblock",
+                "is_required": true,
+                "description": "Pass true if wants to delete Custom Objects otherwise pass False"
+            }
+        ]
+    },
+        "outputFormat": {
+            "isPosted": true
+        }
+    }

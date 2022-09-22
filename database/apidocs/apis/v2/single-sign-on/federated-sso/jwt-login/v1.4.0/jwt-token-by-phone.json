@@ -1,0 +1,64 @@
+{
+  "name": "JWT Token by Phone and Password",
+  "domain": "https://cloud-api.loginradius.com",
+  "path": "/sso/jwt/api/login",
+  "method": "POST",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "jwtapp*": "",
+    "verificationurl": "",
+    "loginurl": "",
+    "emailtemplate": ""
+  },
+  "postparams": {
+    "phone": "",
+    "password": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API is used to get JWT token by phone and password. <br><br> <b>Note:</b> This JWT API endpoint will be deprecated soon. Refer to the new <a href='/docs/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token-by-phone/' style='color: #008ecf;'>JWT Token by Phone and Password</a> API for the latest JWT API endpoint.",
+  "parameters": {
+    "Get Params": [{
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "jwtapp",
+        "is_required": true,
+        "description": "JWT App Name"
+      },
+      {
+        "name": "verificationurl",
+        "is_required": false,
+        "description": "Verification URL"
+      },
+      {
+        "name": "loginurl",
+        "is_required": false,
+        "description": "Login URL"
+      },
+      {
+        "name": "emailtemplate",
+        "is_required": false,
+        "description": "Email template Name"
+      }
+    ],
+    "Post Params": [{
+        "name": "phone",
+        "is_required": true,
+        "description": "User's registered Phone number"
+      },
+      {
+        "name": "password",
+        "is_required": true,
+        "description": "User's password"
+      }
+    ]
+  },
+  "outputFormat": {
+    "signature": "vZ2lucmFkaXVzLmNvbSIsImlhdCI6MTUxMTkyOTgyNy**********NTExOTI5ODI3LCJleHAiOjE1MTE5"
+  }
+}

@@ -1,0 +1,44 @@
+{
+    "name": "Phone Verification OTP by Token",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/auth/phone/otp",
+    "method": "PUT",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "otp*": "",
+        "smstemplate": ""
+    },
+    "postparams": {},
+    "headers": {
+        "content-Type": "application/json",
+		"Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to consume the verification code sent to verify a user's phone number. Use this call for front-end purposes in cases where the user is already logged in by passing the user's access token.",
+	"parameters": {
+        "Get Params": [
+          {
+            "name": "apikey",
+            "is_required": true,
+            "description": "Login Radius API Key"
+          },
+          {
+            "name": "otp",
+            "is_required": true,
+            "description": "The Verification Code"
+          },
+          {
+            "name": "smstemplate",
+            "is_required": false,
+            "description": "SMS Template Name"
+          }
+        ],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }]
+    }, "outputFormat": {
+  "IsPosted": true
+}
+}

@@ -1,0 +1,41 @@
+{
+    "name": "Access Token based on UID or User impersonation API",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/access_token",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@",
+        "uid*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "The API is used to get LoginRadius access token based on UID.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            },
+            {
+                "name": "uid",
+                "is_required": true,
+                "description": "UID, the unified identifier for each user account"
+            }
+        ]
+    },
+    "outputFormat": {
+        "access_token": "0******6-****-49**-ac0c-4f******b*84",
+        "refresh_token": "89*****2-5**6-4**1-**7a-d54a******55",
+        "expires_in": "2018-09-18T07:16:02.6565131Z"
+    }
+}

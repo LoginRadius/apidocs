@@ -1,0 +1,23 @@
+{ "name": "Admin Console Release 22.1",
+    "description": "This release of the Admin Console focused on the UX (user experience), please see below for details on some of the more notable changes applied to the different Admin Console sections. ",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Customer Segmentation: Ability to segment customers using the ExternalIds field in the Customer Segmentation has been added."
+            },
+            {
+                "text": "Customer Segmentation: Sorting Segmentation fields in alphabetical order is now possible directly via the Admin Console. "
+            }],
+        "IMPROVED": [
+            {
+                "text": "Profile Management: the ExternalIds applied to a customer are now displayed under the Account Info tab when viewing the profile with 'Full View'."
+            },
+            {
+                "text": "Data Governance: The Privacy Versioning section has been updated to have fewer steps during configuration."
+            }
+        ]},
+
+    "auther": "Pascal",
+    "created_date": "2019-03-28",
+    "status": "public"
+}

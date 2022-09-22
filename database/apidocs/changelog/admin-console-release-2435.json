@@ -1,0 +1,13 @@
+{
+    "name": "Admin Console Release 24.3.5",
+    "description": "This release of the Admin Console brings you a new feature, see below for details over the notable change applied to the Admin Console.",
+    "changelog": {
+      "ADDED": [
+        {
+          "text": " Identity Broker- Multiple app support for social providers."
+        }        
+      ]},
+  "auther": "Abhishek Singh",
+  "created_date": "2020-10-05",
+  "status": "public"
+  }

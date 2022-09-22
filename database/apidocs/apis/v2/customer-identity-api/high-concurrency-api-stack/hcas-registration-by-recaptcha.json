@@ -1,0 +1,216 @@
+{
+  "name": "High Concurrency API Stack Registration By Recaptcha",
+  "domain": "https://api.loginradius.com",
+  "path": "/hpa/v1/auth/register/captcha",
+  "method": "POST",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "verificationurl": "",
+        "emailtemplate": ""
+    },
+    "postparams":
+     {
+      "username": "",
+      "password": "",
+      "FirstName": "Test",
+      "MiddleName": null,
+      "LastName": "Account",
+      "Suffix": null,
+      "gender":"M",
+      "Email":
+          [{
+            "Type": "Primary",
+            "Value": "example@example.com"
+
+          }],
+        "Uid": "xxxx",
+        "CustomFields": null,
+       
+        "PhoneId": "***********",
+	    "customfields":{"CfName":"CfData"}, 
+	    "GoogleRecaptchaResponse": "<googleCaptcha>", 
+	    "QQCaptchaTicket": "<qqCaptchaTicket>", 
+	    "QQCaptchaRandStr": "<qqCaptchaRandStr>"
+      },
+    
+      "headers":
+       {
+        "content-Type": "application/json"
+        },
+    
+        "response": "json",
+         "description": "This API creates a user in the database using ReCaptcha.",
+        "parameters": 
+      {
+          "Get Parameters":
+       [
+          {
+              "name": "apikey",
+              "is_required": true,
+              "description": "LoginRadius API Key"
+          },
+          {
+               "name": "verificationurl",
+               "is_required": false,
+               "description": "Email verification url"
+          },
+          {
+                "name": "emailtemplate",
+                "is_required": false,
+                 "description": "Name of the email template to be sent out"
+           }
+
+        ],
+
+      "Post Parameters": [
+        {
+            "name": "Email",
+            "is_required": true,
+            "description": "<b>Array</b> of <b>Email Objects</b>.<br> <b>Email Object</b> consist 2 properties:<br><b>'Value'</b>: The email string.<br><b>'Type'</b>: A string describing the email.<br> We suggest using 'Primary' as the <b>'Type'</b> on the first email registration.<br> See the <b>Body</b> tab below to see an example"
+        },
+        {
+            "name": "Password",
+            "is_required": true,
+            "description": "Password for the email"
+        },
+        {
+            "name": "FirstName",
+            "is_required": false,
+            "description": "FirstName of the user"
+          },
+          {
+            "name": "LastName",
+            "is_required": false,
+            "description": "LastName of the user"
+          },
+          {
+            "name": "Gender",
+            "is_required": false,
+            "description": "Gender of the user"
+          },
+          {
+            "name": "CustomFields",
+            "is_required": false,
+            "description": "Custom fields as you have set on your LoginRadius Admin Console."
+          },
+        {
+            "name": "g-recaptcha-response",
+            "is_required": false,
+            "description": "Pass the acknowledgement received by Google in Google recaptcha authorisation process."
+        },
+         {
+            "name": "qq_captcha_randstr",
+            "is_required": false,
+            "description": "If <a href='/docs/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>CAPTCHA lockout</a> is enabled with QQ, and the customer is locked, pass the value of the cusotmer's random string retrieved from the QQ captcha."
+        },
+        {
+            "name": "qq_captcha_ticket",
+            "is_required": false,
+            "description": "If <a href='/docs/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>CAPTCHA lockout</a> is enabled with QQ, and the customer is locked, you must provide the QQ Captcha ticket."
+        }
+      ]
+    },
+
+    "outputFormat": {
+            "ID": "cc21e0137a8e4d659956fbe347085ca6",
+            "IsActive": true,
+            "IsDeleted": false,
+            "EmailVerified": false,
+            "Email": [
+                {
+                    "Type": "Primary",
+                    "Value": "test34@mailazy.com"
+                }
+            ],
+            "NoOfLogins": 0,
+            "Provider": "RAAS",
+            "LastPasswordChangeDate": "0001-01-01T00:00:00Z",
+            "LastPasswordChangeToken": null,
+            "FullName": "don first last test",
+            "FirstName": "first",
+            "LastName": "last",
+            "Uid": "f1ef40e1a76e4cdba124e68785b38248",
+            "CreatedDate": "2019-10-08T21:15:44.6992664Z",
+            "ModifiedDate": "2019-10-08T21:15:44.6992664Z",
+            "RegistrationProvider": "RAAS",
+            "ExternalIds": null,
+            "UnverifiedEmail": null,
+            "IsCustomUid": null,
+            "RegistrationSource": "API",
+            "Prefix": "don",
+            "MiddleName": null,
+            "Suffix": "test",
+            "NickName": null,
+            "ProfileName": null,
+            "BirthDate": null,
+            "Gender": "M",
+            "Website": null,
+            "ThumbnailImageUrl": null,
+            "ImageUrl": null,
+            "Favicon": null,
+            "ProfileUrl": null,
+            "HomeTown": null,
+            "State": null,
+            "City": null,
+            "Industry": null,
+            "About": null,
+            "TimeZone": null,
+            "CoverPhoto": null,
+            "TagLine": null,
+            "Country": null,
+            "LastLoginDate": null
+        },
+  "errorcodes" : [
+    "901",
+    "908",
+    "909",
+    "920",
+    "922",
+    "936",
+    "942",
+    "958",
+    "965",
+    "968",
+    "970",
+    "982",
+    "991",
+    "993",
+    "1017",
+    "1030",
+    "1038",
+    "1048",
+    "1049",
+    "1056",
+    "1058",
+    "1071",
+    "1083",
+    "1090",
+    "1091",
+    "1093",
+    "1094",
+    "1095",
+    "1096",
+    "1107",
+    "1124",
+    "1125",
+    "1134",
+    "1144",
+    "1149",
+    "1150",
+    "1151",
+    "1153",
+    "1157",
+    "1159",
+    "1163",
+    "1190",
+    "1196",
+    "1201",
+    "1202",
+    "1203",
+    "1213",
+    "1216",
+    "1234"
+    ] 
+}
+  
+  

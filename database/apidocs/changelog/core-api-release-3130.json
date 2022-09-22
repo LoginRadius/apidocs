@@ -1,0 +1,30 @@
+{
+    "name": "Core API Release 31.3.0",
+    "description": "We have released another version of the core! This core release brings an enhancement in Multi Factor Authentication.",
+    "changelog":
+   {
+    "ADDED": 
+    [
+        
+        {
+            "text": "Added capability of sending RBA email alerts for unusual consumer behaviour to the Multi-Factor Authentication flows."
+        },
+
+        {
+            "text": "MFA token will expire if the consumer changes or reset the password when the Force Logout feature is enabled."
+        }
+    
+    ],
+    "IMPROVED": 
+    [
+        
+        {
+          "text": "Error message for error code 975 is improved"
+        }
+    
+    ]
+    },
+    "auther": "Ashish Kumar Yadav",
+    "created_date": "2021-07-20",
+    "status": "public"
+  }

@@ -1,0 +1,56 @@
+{
+  "name": "Remove Permissions",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/manage/role/{role_name}/permission",
+  "method": "DELETE",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "apisecret*": "@secret@"
+  },
+  "postparams": {
+    "permissions": [
+      "permission_name1"
+    ]
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "API is used to remove permissions from a role.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "apisecret",
+        "is_required": true,
+        "description": "LoginRadius API Secret"
+      }
+	],
+	"Template Params": [
+      {
+        "name": "role_name",
+        "is_required": true,
+        "description": "Created Rolename"
+      }
+    ],
+    "Post Params": [
+      {
+        "name": "permissions",
+        "is_required": true,
+        "description": "Permission name which you want to remove from the particular role"
+      }
+    ]
+  },
+  "outputFormat": {
+    "Name": "Editor",
+    "Permissions": {
+      "xyz": true,
+      "lmn": true,
+      "ABC": true
+    }
+  }
+}

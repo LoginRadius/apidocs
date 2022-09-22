@@ -1,0 +1,28 @@
+{
+    "name": "Admin Console Release 24.5.0",
+    "description": "This release of the Admin Console brings you a few bug fixes, see below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+    "FIXED": 
+    [
+    {
+        "text": "Site owners can now be optionally added in CC while creating a support ticket."
+    },
+    {
+        "text": "Admin console is now showing the correct status of additional email ids."
+    },
+    {
+        "text": "Removed <strong>Optional</strong> word in certificate configurations which was misleading at the time of Azure configuration."
+    }
+    ],
+    "IMPROVED":
+    [
+        {
+            "text":"ID provider certificate is now required for <a href='https://adminconsole.loginradius.com/account/team/single-sign-on'>Team Management -> SSO -> SAML</a>"
+        }
+    ]
+},
+
+"auther": "Vaibhav Jain",
+"created_date": "2021-01-19",
+"status": "public"
+}

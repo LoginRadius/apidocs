@@ -1,0 +1,30 @@
+{
+    "name": "Auth Check UserName Availability",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/username",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "username*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to check the UserName exists or not on your site.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            }, {
+                "name": "username",
+                "is_required": true,
+                "description": "Username which is to be checked"
+            }]
+    },
+        "outputFormat": {
+            "IsExist": false
+        }
+}

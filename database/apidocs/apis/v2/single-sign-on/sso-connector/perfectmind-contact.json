@@ -1,0 +1,54 @@
+{
+    "name": "Perfectmind Contact",
+    "domain": "https://cloud-api.loginradius.com",
+    "path": "/sso/perfectmind/contact",
+    "method": "GET",
+    "getparams": {
+      "apikey*": "@apikey@",
+      "perfectMindSiteName*": "",
+      "access_token*": ""
+    },
+
+    "headers": {
+      "content-Type": "application/x-www-form-urlencoded"
+      
+    },
+    "response": "json",
+    "description": "This API is used to Get PerfectMind ContactIDs by Email .",
+    "parameters": {
+      "Get Params": [
+        {
+          "name": "apikey",
+          "is_required": true,
+          "description": "LoginRadius API Key"
+        },
+        {
+          "name": "perfectMindSiteName",
+          "is_required": true,
+          "description": "LoginRadius Hosted Plugin Configuration Store Name"
+        },
+      {
+        "name": "Authorization",
+        "is_required": true,
+        "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+    }]
+    },
+
+    "outputFormat": {
+
+            "Email": "cynthia6@mail7.io",
+        
+            "ContactId": [
+        
+                "eadd5d78-afbe-488a-8310-471bcf790bc7",
+        
+                "cb61d75f-1d77-4ef6-a759-dbfb9ee033bd",
+        
+                "c157e380-c96e-4533-8118-fe1b6b77a94e"
+        
+            ]
+        
+        
+    }
+}
+        

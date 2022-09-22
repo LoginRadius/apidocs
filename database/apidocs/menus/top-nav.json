@@ -1,0 +1,26 @@
+[
+     {
+        "url": "",
+        "title": "Home",
+        "type": "DOC"
+    },
+    {
+        "url": "authentication/quick-start/standard-login/",
+        "title": "Quick Start",
+        "type": "DOC"
+    },
+    {
+        "url": "api/",
+        "title": "API Reference",
+        "type": "DOC"
+    },
+    {
+        "url": "libraries/deployment/overview",
+        "title": "Libraries",
+        "type": "DOC"
+    },{
+        "url": "api/changelog",
+        "title": "Changelog",
+        "type": "DOC"
+    }
+]

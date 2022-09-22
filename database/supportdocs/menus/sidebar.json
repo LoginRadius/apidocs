@@ -1,0 +1,1319 @@
+{
+  "Authentication": {
+    "basic": [
+      {
+        "url": "authentication/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      }
+    ],
+  
+    "Quick Start": [
+      {
+        "url": "authentication/quick-start/standard-login/",
+        "title": "Standard Login",
+        "type": "DOC"
+      },
+      {
+        "url": "authentication/quick-start/social-login/",
+        "title": "Social Login",
+        "type": "DOC"
+      },
+      {
+        "url": "authentication/quick-start/sso-implementation/",
+        "title": "SSO Implementation",
+        "type": "DOC"
+      }
+    ],
+   
+    "Tutorial": {
+      "basic": [
+        {
+          "url": "authentication/tutorial/phone-login/",
+          "title": "Phone Login",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/tutorial/one-touch-login/",
+          "title": "One Touch Login",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/tutorial/passwordless-login",
+          "title": "Passwordless Login",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/tutorial/smart-login/",
+          "title": "Smart Login",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/tutorial/username-login/",
+          "title": "Username Login",
+          "type": "DOC"
+        }
+      ]
+    },
+    "Concepts": {
+      "basic": [
+        {
+          "url": "authentication/concepts/password-policy/",
+          "title": "Password Policy",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/concepts/email-communications/",
+          "title": "Email Communications and Configuration",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/concepts/sms-configuration/",
+          "title": "SMS Provider Configuration",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/concepts/roles-and-membership/",
+          "title": "Roles, Permissions and Context",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/concepts/ui-ux-customizations-idx/",
+          "title": "UI and UX Customizations of IDX",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/concepts/email-verification-workflow/",
+          "title": "Email Verification Workflow",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/concepts/advanced-workflow/",
+          "title": "Advanced Workflow",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/concepts/session-management/",
+          "title": "Session Management",
+          "type": "DOC"
+        },
+        {
+        "url": "authentication/concepts/sms-communication/",
+        "title": "SMS Communication and Configuration",
+        "type": "DOC"
+        },
+        {
+          "url": "authentication/concepts/customer-security/",
+          "title": "Customer Security",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/concepts/progressive-profiling/",
+          "title": "Progressive Profiling",
+          "type": "DOC"
+        }
+      ],
+
+      "Customer Data Management": [ 
+        {
+          "url": "authentication/concepts/introduction/",
+          "title": "Introduction",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/concepts/customer-management/",
+          "title": "Customer Management",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/concepts/customer-segmentation/",
+          "title": "Customer Segmentation",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/concepts/customer-data-export/",
+          "title": "Customer Data Export",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/concepts/customer-data-query/",
+          "title": "Customer Data Query",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/concepts/profile-editor/",
+          "title": "Customer Profile Editor",
+          "type": "DOC"
+        }
+      ]
+    },
+    "FAQ": {
+      "basic": [
+        {
+          "url": "authentication/faq/troubleshooting/",
+          "title": "Troubleshooting",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/faq/account-linking/",
+          "title": "Account Linking",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/faq/age-verification/",
+          "title": "Age Verification",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/faq/billing-faq/",
+          "title": "Billing FAQ",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/faq/identity-provider-apps/",
+          "title": "Identity Provider Apps",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/faq/support-faq/",
+          "title": "Support FAQ",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/faq/supported-browsers/",
+          "title": "Supported Browsers",
+          "type": "DOC"
+        }
+
+      ]
+    }
+  },
+  "Single Sign On": {
+    "basic": [
+      {
+        "url": "single-sign-on/overview/",
+        "title": "SSO Overview",
+        "type": "DOC"
+      }
+    ],
+    "Tutorial": {
+       "basic": [
+        {
+        "url": "single-sign-on/tutorial/web-sso/overview/",
+        "title": "Web SSO",
+        "type": "DOC"
+      },
+      {
+        "url": "single-sign-on/tutorial/mobile-sso/overview/",
+        "title": "Mobile SSO",
+        "type": "DOC"
+      }
+    ],
+    "Federated SSO": {
+      "basic": [
+        {
+          "url": "single-sign-on/tutorial/federated-sso/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/",
+          "title": "OAuth 2.0",
+          "type": "DOC"
+        },
+        {
+          "url": "single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/",
+          "title": "OpenID Connect",
+          "type": "DOC"
+        },
+        {
+          "url": "single-sign-on/tutorial/federated-sso/pkce-flow/",
+          "title": "PKCE Flow",
+          "type": "DOC"
+        }
+      ],
+      "JWT Login": {
+        "basic": [
+          {
+            "url": "single-sign-on/tutorial/federated-sso/jwt-login/jwt-login-overview/",
+            "title": "JWT Login Overview",
+            "type": "DOC"
+          },
+          {
+            "url": "single-sign-on/tutorial/federated-sso/jwt-login/jwt-implementation-guide/",
+            "title": "JWT Implementation Guide",
+            "type": "DOC"
+          },
+          {
+            "url": "single-sign-on/tutorial/federated-sso/jwt-login/jwt-generate-algos/",
+            "title": "Generate JWT Algos",
+            "type": "DOC"
+          }
+          
+        ] 
+      },
+        "SAML": {
+          "basic": [
+            {
+              "url": "single-sign-on/tutorial/federated-sso/saml/overview/",
+              "title": "Overview",
+              "type": "DOC"
+            },
+            {
+              "url": "single-sign-on/tutorial/federated-sso/saml/idp-initiated/",
+              "title": "IDP-initiated",
+              "type": "DOC"
+            },
+            {
+              "url": "single-sign-on/tutorial/federated-sso/saml/sp-initiated/",
+              "title": "SP-initiated",
+              "type": "DOC"
+            }
+          ] 
+        },
+        "WS Federation": {
+          "basic": [
+            {
+              "url": "single-sign-on/tutorial/federated-sso/ws-federation/overview/",
+              "title": "Overview",
+              "type": "DOC"
+            }
+          ]
+          }
+    },
+    "Cross Device SSO": {
+      "basic": [
+        {
+          "url": "single-sign-on/tutorial/cross-device-sso/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        }
+      ]
+    },
+   "Custom IDPs": {
+      "basic": [
+        {
+          "url": "single-sign-on/tutorial/custom-identity-providers/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        }, 
+        {
+          "url": "single-sign-on/tutorial/custom-identity-providers/custom-oauth-provider/",
+          "title": "Custom OAuth Provider",
+          "type": "DOC"
+        },
+        {
+          "url": "single-sign-on/tutorial/custom-identity-providers/custom-jwt-provider/",
+          "title": "Custom JWT Provider",
+          "type": "DOC"
+        },
+        {
+          "url": "single-sign-on/tutorial/custom-identity-providers/custom-saml-provider/",
+          "title": "Custom SAML Provider",
+          "type": "DOC"
+        },
+        {
+          "url": "single-sign-on/tutorial/custom-identity-providers/custom-adfs-provider/",
+          "title": "Custom ADFS Provider",
+          "type": "DOC"
+        }
+      ]
+    }
+    },
+  
+  "Concept": {
+    "Custom IDP Providers": [
+      {
+        "url": "single-sign-on/concept/custom-idp-provider/azure-ad/",
+        "title": "Azure AD",
+        "type": "DOC"
+      },
+      {
+        "url": "single-sign-on/concept/custom-idp-provider/doximity/",
+        "title": "Doximity",
+        "type": "DOC"
+      },
+      {
+        "url": "single-sign-on/concept/custom-idp-provider/alipay/",
+        "title": "AliPay",
+        "type": "DOC"
+      },
+      {
+        "url": "single-sign-on/concept/custom-idp-provider/aws-cognito/",
+        "title": "AWS Cognito",
+        "type": "DOC"
+      },
+      {
+        "url": "single-sign-on/concept/custom-idp-provider/autho/",
+        "title": "AuthO",
+        "type": "DOC"
+      },
+      {
+        "url": "single-sign-on/concept/custom-idp-provider/lr-as-custom-idp-into-another-lr-app/",
+        "title": "LoginRadius as Custom IDP into  another LoginRadius App",
+        "type": "DOC"
+      },
+      {
+        "url": "single-sign-on/concept/custom-idp-provider/wechat/",
+        "title": "WeChat",
+        "type": "DOC"
+      }
+    ],
+    "SAML Providers": [
+      {
+        "url": "single-sign-on/concept/saml-providers/domo/",
+        "title": "DOMO",
+        "type": "DOC"
+      },
+      {
+        "url": "single-sign-on/concept/saml-providers/jira/",
+        "title": "JIRA",
+        "type": "DOC"
+      },
+      {
+        "url": "single-sign-on/concept/saml-providers/salesforce/",
+        "title": "Salesforce",
+        "type": "DOC"
+      },
+      {
+        "url": "single-sign-on/concept/saml-providers/office365/",
+        "title": "Office 365",
+        "type": "DOC"
+      },
+      {
+        "url": "single-sign-on/concept/saml-providers/SharePoint/",
+        "title": "SharePoint",
+        "type": "DOC"
+      }
+    ],
+    "OIDC Providers": [
+      {
+        "url": "single-sign-on/concept/oidc-providers/azure-ad-b2c/",
+        "title": "Azure AD B2C",
+        "type": "DOC"
+      }
+    ],
+    "WS Federation Provider": [
+      {
+        "url": "single-sign-on/concept/ws-fed-provider/sharepoint/",
+        "title": "SharePoint",
+        "type": "DOC"
+      }
+    ],
+    "SAML Miscellaneous": [
+      {
+        "url": "single-sign-on/concept/saml-miscellaneous/samlfaq/",
+        "title": "SAML FAQ",
+        "type": "DOC"
+      },
+      {
+        "url": "single-sign-on/concept/saml-miscellaneous/Usage/",
+        "title": "Troubleshooting",
+        "type": "DOC"
+      },
+      {
+        "url": "single-sign-on/concept/saml-miscellaneous/certificate/",
+        "title": "Generate LoginRadius' Certificate and Key",
+        "type": "DOC"
+      }
+    ]
+  }
+},
+  "Libraries": {
+    "basic": [
+      {
+        "url": "libraries/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      }
+    ],
+    "JS Libraries": [
+      {
+        "url": "libraries/js-libraries/getting-started/",
+        "title": "Getting Started",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/js-libraries/javascript-hooks/",
+        "title": "Javascript Hooks",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/js-libraries/advanced-js-customizations/",
+        "title": "Advanced JS Customizations",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/js-libraries/js-form-library/",
+        "title": "JS Form Library",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/js-libraries/localization/",
+        "title": "Localization",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/js-libraries/customization-by-context/",
+        "title": "Customization by Context",
+        "type": "DOC"
+      }
+    ],
+    "Identity Experience Framework": {
+      "basic": [{
+        "url": "libraries/identity-experience-framework/overview/",
+          "title": "Overview",
+          "type": "DOC"
+          },
+          {
+            "url": "libraries/identity-experience-framework/usage/",
+            "title": "Usage",
+            "type": "DOC"
+          },
+        {
+          "url": "libraries/identity-experience-framework/customization/",
+          "title": "Customization",
+          "type": "DOC"
+        },
+        {
+          "url": "libraries/identity-experience-framework/features-use-cases/",
+          "title": "Features Use Cases",
+          "type": "DOC"
+        },
+        {
+          "url": "libraries/identity-experience-framework/multi-branding-configuration/",
+          "title": "Multi-Branding Configuration",
+          "type": "DOC"
+        },
+        {
+          "url": "libraries/identity-experience-framework/idx-selfhosted/",
+          "title": "Self-Hosted Framework",
+          "type": "DOC"
+        }
+      ]
+    },
+    "SDK Libraries": [
+      {
+        "url": "libraries/sdk-libraries/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/sdk-libraries/html5-library/",
+        "title": "HTML5 Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/sdk-libraries/asp-net-library/",
+        "title": "ASP Net Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/sdk-libraries/java-library/",
+        "title": "Java Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/sdk-libraries/php-library/",
+        "title": "PHP Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/sdk-libraries/coldfusion-library/",
+        "title": "Coldfusion Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/sdk-libraries/node-js-library/",
+        "title": "Node.js Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/sdk-libraries/python-library/",
+        "title": "Python Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/sdk-libraries/ruby-library/",
+        "title": "Ruby Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/sdk-libraries/golang-library/",
+        "title": "Golang Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/sdk-libraries/elixir-library/",
+        "title": "Elixir Library",
+        "type": "SDK"
+      }
+    ],
+    "Mobile SDK Libraries": [
+      {
+        "url": "libraries/mobile-sdk-libraries/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/mobile-sdk-libraries/ios-library/",
+        "title": "iOS Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/mobile-sdk-libraries/android-library/",
+        "title": "Android Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/mobile-sdk-libraries/ionic-library/",
+        "title": "Ionic Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/mobile-sdk-libraries/ionic-2-library/",
+        "title": "Ionic 2 Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/mobile-sdk-libraries/phonegap-library/",
+        "title": "PhoneGap Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/mobile-sdk-libraries/xamarin-library/",
+        "title": "Xamarin Library",
+        "type": "SDK"
+      },
+      {
+        "url": "libraries/mobile-sdk-libraries/react-native-library/",
+        "title": "React Native Library",
+        "type": "SDK"
+      }
+    ],
+    "Turn-key Plugins": [
+      {
+        "url": "libraries/turn-key-plugins/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/general-cms-integrations/",
+        "title": "General CMS Integrations",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/perfectmind/",
+        "title": "PerfectMind",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/drupal-v7-x-customer-identity-module-instructions/",
+        "title": "Drupal v7.x Plugin",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/drupal-v8-x-customer-identity-module-instructions/",
+        "title": "Drupal v8.x and v9.x Plugin",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/joomla-v2-x-and-v3-x-customer-identity-module-instructions/",
+        "title": "Joomla v2.x and v3.x Plugin",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/magento-1-x-extension/",
+        "title": "Magento 1.x Extension",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/magento-2-x-extension/",
+        "title": "Magento 2.x Extension",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/sitecore-integration/",
+        "title": "Sitecore Plugin",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/wordpress-2-x-plugin/",
+        "title": "Wordpress 2.x Plugin",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/bigcommerce-blueprint-plugin/",
+        "title": "BigCommerce BluePrint Plugin",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/bigcommerce-stencil-plugin/",
+        "title": "BigCommerce Stencil Plugin",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/shopify-multipass-integration/",
+        "title": "Shopify Multipass Hosted Plugin",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/salesforce-commerce-cloud-cartridge/",
+        "title": "Salesforce Commerce Cloud Cartridge",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/aem-Integration/",
+        "title": "AEM Plugin",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/turn-key-plugins/hybris-Integration/",
+        "title": "Hybris Plugin",
+        "type": "DOC"
+      }
+    ],
+    "Use Cases/Demos": [
+      {
+        "url": "libraries/demos/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/html-and-js-demo/",
+        "title": "HTML and JS Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/html-themed-demo/",
+        "title": "HTML Themed Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/iframe-implementation-demo/",
+        "title": "Iframe Implementation Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/amp-demo/",
+        "title": "AMP Configuration",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/angularjs-demo/",
+        "title": "AngularJS Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/angular-6-demo/",
+        "title": "Angular 6 Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/emberjs-demo/",
+        "title": "EmberJS Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/google-assistant-demo/",
+        "title": "Google Assistant Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/polymer-demo/",
+        "title": "Polymer Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/react-demo/",
+        "title": "React Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/vue-demo/",
+        "title": "Vue Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/preact-demo/",
+        "title": "Preact Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/aurelia-demo/",
+        "title": "Aurelia Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/meteor-demo/",
+        "title": "Meteor Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/backbonejs-demo/",
+        "title": "Backbone.JS Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/cakephp-demo/",
+        "title": "CakePHP Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/codeigniter-demo/",
+        "title": "CodeIgniter Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/laravel-demo/",
+        "title": "Laravel Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/symfony-demo/",
+        "title": "Symfony Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/yii-demo/",
+        "title": "YII Demo",
+        "type": "DOC"
+      },
+      {
+        "url": "libraries/demos/alexa-demo/",
+        "title": "Alexa Demo",
+        "type": "DOC"
+      }
+    ]
+  },
+  "Security": {
+    "basic": [
+      {
+        "url": "security/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      }
+    ],
+    "Infrastructure": [
+      {
+        "url": "security/infrastructure/loginradius-cdn/",
+        "title": "LoginRadius Global CDN",
+        "type": "DOC"
+      },
+      {
+        "url": "security/Infrastructure/multiple-environment/",
+        "title": "Environment Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "security/infrastructure/smtp-overview/",
+        "title": "SMTP Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "security/infrastructure/ip-addresses-list/",
+        "title": "IP addresses of LoginRadius",
+        "type": "DOC"
+      },
+      {
+        "url": "security/infrastructure/loginradius-data-regions/",
+        "title": "LoginRadius Data Regions",
+        "type": "DOC"
+      }
+    ],
+    "Platform Security": [
+      {
+        "url": "security/platform-security/account-verification-overview/",
+        "title": "Account Verification Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "security/platform-security/threat-prevention/",
+        "title": "Threat Prevention On The LoginRadius Platform",
+        "type": "DOC"
+      },
+      {
+        "url": "security/platform-security/identity-data-compliance/",
+        "title": "Identity Data Compliance",
+        "type": "DOC"
+      },
+      {
+        "url": "security/platform-security/social-data-compliance/",
+        "title": "Social Data Compliance",
+        "type": "DOC"
+      },
+      {
+        "url": "security/platform-security/password-security/",
+        "title": "Password Security Concepts",
+        "type": "DOC"
+      },
+      {
+        "url": "security/platform-security/cryptographic-hashing-algorithms/",
+        "title": "Cryptographic Hashing Algorithms",
+        "type": "DOC"
+      },
+      {
+        "url": "security/platform-security/data-migration-security/",
+        "title": "Data Migration Security and Sanitization",
+        "type": "DOC"
+      }
+    ],
+    "Data Management": {
+      "basic": [
+        {
+          "url": "security/data-management/user-data-overview/",
+          "title": "User Data Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "security/data-management/confidentiality-integrity-and-availability/",
+          "title": "Confidentiality, Integrity, and Availability with LoginRadius",
+          "type": "DOC"
+        },
+        {
+          "url": "security/data-management/loginradius-tokens/",
+          "title": "About LoginRadius Tokens",
+          "type": "DOC"
+        },
+        {
+          "url": "security/data-management/data-auditing-andlogging/",
+          "title": "Data Auditing and Logging",
+          "type": "DOC"
+        },
+        {
+          "url": "security/data-management/consumer-audit-log/",
+          "title": "Consumer Audit Log",
+          "type": "DOC"
+        },
+        {
+          "url": "security/data-management/browser-information-storage-cookies/",
+          "title": "Browser - Data Storage & Cookies",
+          "type": "DOC"
+        }
+      ]
+    },
+    "Customer Security": [
+      {
+        "url": "security/user-security/fraud-prevention/",
+        "title": "Fraud Prevention",
+        "type": "DOC"
+      },
+      {
+        "url": "security/user-security/multi-factor-authentication/",
+        "title": "Multi-Factor Authentication (MFA)",
+        "type": "DOC"
+      },
+      {
+        "url": "security/user-security/registration-security/",
+        "title": "Registration Security",
+        "type": "DOC"
+      },
+      {
+        "url": "security/user-security/login-security/",
+        "title": "Login Security",
+        "type": "DOC"
+      },
+      {
+        "url": "security/user-security/password-management/",
+        "title": "Password Management",
+        "type": "DOC"
+      }
+    ]
+  },
+  "Governance": {
+    "basic": [
+      {
+        "url": "governance/data-governance-overview/",
+        "title": "Overview",
+        "type": "Doc"
+      },
+      {
+        "url": "governance/data-schema/",
+        "title": "Standard Login Form Fields",
+        "type": "Doc"
+      },
+      {
+        "url": "governance/custom-field-configuration/",
+        "title": "Custom Field Configuration",
+        "type": "Doc"
+      },
+      {
+        "url": "governance/configure-social-data-settings/",
+        "title": "Social Data Settings",
+        "type": "Doc"
+      },
+      {
+        "url": "governance/advanced-social-data-points/",
+        "title": "Advanced Data-points",
+        "type": "Doc"
+      }
+    ],
+    "Customer Profiling": {
+      "basic": [
+        {
+          "url": "governance/customer-profiling/custom-fields-and-custom-objects/",
+          "title": "Customer Data Storage",
+          "type": "DOC"
+        },
+        {
+          "url": "governance/customer-profiling/custom-object-overview/",
+          "title": "Custom Object",
+          "type": "DOC"
+        },
+        {
+          "url": "governance/customer-profiling/user-profile-scopes/",
+          "title": "Customer Profile Scopes",
+          "type": "DOC"
+        },
+        {
+          "url": "governance/customer-profiling/consent-management/",
+          "title": "Consent Management",
+          "type": "DOC"
+        },
+        {
+          "url": "governance/customer-profiling/privacy-policy/",
+          "title": "Privacy Policy",
+          "type": "DOC"
+        },
+        {
+          "url": "governance/customer-profiling/data-security/",
+          "title": "Data Security",
+          "type": "DOC"
+        }
+      ]
+    }
+  },
+  "Customer Management": {
+    "basic": [
+      {
+        "url": "customer-management/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-management/add-a-new-customer/",
+        "title": "Add A New Customer",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-management/profile-view/",
+        "title": "View and Manage Profile",
+        "type": "DOC"
+      },
+
+      {
+        "url": "customer-management/blocked-customer/",
+        "title": "Blocked Customer",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-management/search-customers/",
+        "title": "Search Customers",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-management/data-etl-service/",
+        "title": "Data ETL Service",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-management/self-serve-data-migration/",
+        "title": "Self-Serve Data Migration",
+        "type": "DOC"
+      }
+    ],
+    "Customer Segmentation": [
+      {
+        "url": "customer-management/customer-segmentation/customer-segmentation/",
+        "title": "Customer Segmentation Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-management/customer-segmentation/basic-segmentation/",
+        "title": "Basic Segmentation",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-management/customer-segmentation/advanced-segmentation/",
+        "title": "Advanced Segmentation",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-management/customer-segmentation/exporting-a-segmented-list/",
+        "title": "Exporting A Segmentation",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-management/customer-segmentation/save-segmentation/",
+        "title": "Save Segmentation",
+        "type": "DOC"
+      }
+    ],
+    "Data Query": [
+      {
+        "url": "customer-management/data-query/data-query-overview/",
+        "title": "Data Query Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-management/data-query/customer-query/",
+        "title": "Customer Query",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-management/data-query/custom-object-query/",
+        "title": "Custom Object Query",
+        "type": "DOC"
+      }
+    ],
+    "User Data Export": [
+      {
+        "url": "customer-management/user-data-export/data-export-overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-management/user-data-export/on-demand-export/",
+        "title": "On-Demand Export",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-management/user-data-export/scheduled-export/",
+        "title": "Scheduled Export",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-management/user-data-export/export-logs/",
+        "title": "Export Logs",
+        "type": "DOC"
+      }
+    ]
+  },
+  "Customer Intelligence": {
+    "basic": [
+      {
+        "url": "customer-intelligence/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-intelligence/key-terminology/",
+        "title": "Key Terminology",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-intelligence/analytics-overview/",
+        "title": "Analytics Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-intelligence/identity-analytics/",
+        "title": "Identity Analytics",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-intelligence/provider-analytics/",
+        "title": "Provider Analytics",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-intelligence/login-analytics/",
+        "title": "Login Analytics",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-intelligence/comparative-analysis/",
+        "title": "Comparative Analysis",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-intelligence/utilize-insights-data/",
+        "title": "Utilize Insights Data",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-intelligence/api-analytics/",
+        "title": "API Analytics",
+        "type": "DOC"
+      },
+      {
+        "url": "customer-intelligence/sms-analytics/",
+        "title": "Communication Analytics",
+        "type": "DOC"
+      }
+    ]
+  },
+  "Integrations": {
+    "basic": [
+      {
+        "url": "integrations/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/available-integrations/",
+        "title": "Available Integrations",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/webhook/",
+        "title": "Webhook",
+        "type": "DOC"
+      }
+    ],
+
+    "Cloud Connectors": [{
+      "url": "integrations/server-side-cloud-connectors/overview/",
+      "title": "Overview",
+      "type": "DOC"
+    }], 
+
+  "Client Side Connectors": [
+      {
+        "url": "integrations/client-side-connectors/getting-started/",
+        "title": "Getting Started",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/amplitude/",
+        "title": "Amplitude",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/customerio/",
+        "title": "Customerio",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/facebook-app-events/",
+        "title": "Facebook App Events",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/google-analytics/",
+        "title": "Google Analytics",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/google-dfp/",
+        "title": "Google DFP",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/gosquared/",
+        "title": "GoSquared",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/hubspot/",
+        "title": "Hubspot",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/intercom/",
+        "title": "Intercom",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/keen/",
+        "title": "Keen",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/kissmetrics/",
+        "title": "Kissmetrics",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/lotame/",
+        "title": "Lotame",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/matomo/",
+        "title": "Matomo",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/mixpanel/",
+        "title": "Mixpanel",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/olark/",
+        "title": "Olark",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/salesmachine/",
+        "title": "Salesmachine",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/wootric/",
+        "title": "Wootric",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/client-side-connectors/zendesk/",
+        "title": "Zendesk",
+        "type": "DOC"
+      }
+    ],
+    "Third Party Integration Platforms": [
+      {
+        "url": "integrations/third-party-integration-platforms/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/third-party-integration-platforms/segment/",
+        "title": "Segment",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/third-party-integration-platforms/zapier/",
+        "title": "Zapier",
+        "type": "DOC"
+      }
+    ],
+    "Internet of Things (IoT)": [
+      {
+        "url": "integrations/internet-of-things-iot/alexa-skills-kit/",
+        "title": "Alexa Skills Kit",
+        "type": "DOC"
+      },
+      {
+        "url": "integrations/internet-of-things-iot/google-assistant/",
+        "title": "Google Assistant",
+        "type": "DOC"
+      }
+    ],
+    "Marketplace": [{
+      "url": "integrations/marketplace/microsoft-dynamics/",
+      "title": "Microsoft Dynamics",
+      "type": "DOC"
+    },
+    {
+      "url": "integrations/marketplace/disqus/",
+      "title": "Disqus",
+      "type": "DOC"
+    },
+    {
+      "url": "integrations/marketplace/zendesk-app/",
+      "title": "Zendesk App",
+      "type": "DOC"
+    }
+  ]
+},
+"Reference Docs": {
+  "basic": [
+    {
+      "url": "api/v2/getting-started/introduction/",
+      "title": "",
+      "type": ""
+    }
+  ]
+}
+  
+}

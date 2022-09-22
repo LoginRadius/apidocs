@@ -1,0 +1,7 @@
+{
+    "name": "HTML minify",
+    "discription":"HTML minify discription",
+    "weight": "1",
+    "isActive": false,
+    "load": "minify/minify.php"
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Router Handler",
+    "discription":"Router discription",
+    "weight": "1000000000",
+    "isActive": true,
+    "load": "routing/routing.php"
+}

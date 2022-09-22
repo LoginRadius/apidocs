@@ -1,0 +1,51 @@
+{
+    "name": "Privacy Policy History by Access Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/privacypolicy/history",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@"
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded",
+		"Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API will return all the accepted privacy policies for the user by providing the access_token of that user.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            }],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }]
+    },
+        "outputFormat": {
+    "Uid":"ba94e******a488095******6e4****6",
+    "Current": {
+           "Version": "version1",
+           "AcceptSource": "https://Your-Site-Name.hub.loginradius.com/auth.aspx",
+           "AcceptDateTime": "2018-02-27T06:25:14.484Z" 
+       },
+    "History": [{
+           "Version": "version1",
+           "AcceptSource": "https://Your-Site-Name.hub.loginradius.com/auth.aspx",
+           "AcceptDateTime": "2018-02-27T06:25:14.484Z"  
+       },
+        {
+           "Version": "version2",
+           "AcceptSource": "https://Your-Site-Name.hub.loginradius.com/auth.aspx",
+           "AcceptDateTime": "2018-02-27T06:25:14.484Z"  
+       },
+        {
+           "Version": "version3",
+           "AcceptSource": "https://Your-Site-Name.hub.loginradius.com/auth.aspx",
+           "AcceptDateTime": "2018-02-27T06:25:14.484Z"  
+       }]
+        }
+}

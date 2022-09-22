@@ -1,0 +1,7 @@
+{
+    "name": "wootric",
+    "discription":"WooTric",
+    "weight": "1",
+    "isActive": true,
+    "load": "wootric/wootric.php"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "MFA Reset Backup Code by UID",
+  "domain":"https://api.loginradius.com",
+  "path":"/identity/v2/manage/account/2FA/backupcode/reset",
+  "method":"GET",
+  "getparams":{
+    "apikey*":"@apikey@",
+    "apisecret*":"",
+    "uid*":""
+  },
+  "postparams":"",
+  "headers":{
+    "content-Type":"application/x-www-form-urlencoded"
+  },
+  "response":"json",
+  "description": "This API is used to reset the backup codes on a given account via the UID. This API call will generate 10 new codes, each code can only be consumed once.",
+  "parameters": {
+    "Get Params": [{
+      "name": "apikey",
+      "is_required": true,
+      "description": "LoginRadius API Key"
+    }, {
+      "name": "apisecret",
+      "is_required": true,
+      "description": "LoginRadius Secret Key"
+    }, {
+      "name": "uid",
+      "is_required": true,
+      "description": "LoginRadius unique identifier"
+    }]
+  },
+  "outputFormat": {
+  "BackUpCodes": [
+    "02ea0-de2bd",
+    "6r4b8-94465",
+    "bh5d2-8346j",
+    "8581c-3b182",
+    "00734-79162",
+    "90a4f-af583",
+    "262b0-0bf3c",
+    "1b6b0-d45be",
+    "bfd4e-75b77",
+    "313eb-215c7"
+  ]
+}
+}

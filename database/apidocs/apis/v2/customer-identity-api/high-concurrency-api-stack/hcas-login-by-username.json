@@ -1,0 +1,42 @@
+
+{
+  "name": "High Concurrency API Stack Login By Username",
+  "domain": "https://api.loginradius.com",
+  "path": "/hpa/v1/login",
+  "method": "POST",
+  "getparams": {
+    "apikey*": "@apikey@"
+  },
+  "postparams": {
+    "username": "",
+    "password": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API returns the access token only",
+  "parameters": {
+    "Get Parameters": [{
+      "name": "apikey",
+      "is_required": true,
+      "description": "Login Radius API Key"
+    }],
+    "Post Parameters": [{
+        "name": "username",
+        "is_required": true,
+        "description": "Username of the user"
+      },
+      {
+        "name": "password",
+        "is_required": true,
+        "description": "Password of the user"
+      }
+    ]
+  },
+  "outputFormat": {
+    "access_token": "e******f-***5-4**2-***8-1d6******8a6",
+    "refresh_token": "b*****44-****-4***-****-182***94***6",
+    "expires_in": "2018-11-20T13:28:40.2339631Z"
+  }
+}

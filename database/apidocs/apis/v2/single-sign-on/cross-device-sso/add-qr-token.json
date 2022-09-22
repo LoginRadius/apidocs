@@ -1,0 +1,41 @@
+{
+    "name": "Add QR Token",
+    "domain": "https://cloud-api.loginradius.com",
+    "path": "/sso/mobile/token",
+    "method": "POST",
+    "getparams": {
+      "apikey*": "@apikey@"
+    },
+    "postparams": {
+      "access_token": "",
+      "code":""
+    },
+    "headers": {
+      "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to add/insert the QR code string with the access token into the database. This API needs to be triggered by the mobile device when scanning the QR image or getting QR code string.",
+    "parameters": {
+          "Get Params": [
+        {
+              "name": "apikey",
+              "is_required": true,
+              "description":  "LoginRadius API Key"
+            }        ],
+      "Body Params": [{
+          "name": "access_token",
+          "is_required": true,
+          "description": "User's access token"
+        },
+        {
+          "name": "code",
+          "is_required": true,
+          "description": "Generated unique code string from the <a href='/docs/api/v2/single-sign-on/cross-device-sso/generate-qr-code-string/'> Generate QR Code Image API </a>"
+        }
+      ]
+    },
+    "outputFormat": {
+      "isPosted": true
+    }
+  }
+  

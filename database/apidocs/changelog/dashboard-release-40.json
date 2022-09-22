@@ -1,0 +1,42 @@
+{
+  "name": "Admin-console release 4.0",
+  "description": "This release deploys an updated Cloud Directory interaction, improving many of the analytics and user management features as well as improving response times on queries and large data sets. This release also covers some improvements to the admin usability, simplifying some of the admin process and improving the UX.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Hosted Page: Added the hosted page configuration section to Deployment which allows you to configure a centralized hosted page to handle the authentication/registration processes."
+      },
+      {
+        "text": "One Click Login Email: Added the One Click Login Email templates section to the Email template options allowing you to customize and localize your one click login templates."
+      }
+    ],
+    "IMPROVED": [
+      {
+        "text": "Billing: Revamped billing section to display subscription and invoices pulled directly from the billing service"
+      },
+      {
+        "text": "Analytics: Improved the analytics charts displayed throughout the Admin-console. These charts now render near real-time updates of your user analytics."
+      },
+      {
+        "text": "User Management Search: Improved search functionality that drastically increases the response times of the User Management search."
+      },
+      {
+        "text": "User Segmentation: Revamped UI and added additional filtration options to support commonly used segments as well as custom fields."
+      },
+      {
+        "text": "Team: Reduced complexity of the add team member options and allow for admins to trigger email verification messages to added team members."
+      }
+    ],
+    "FIXED": [
+      {
+        "text": "Large Volume Customer Data: Fixed a bug with analytics that would display inaccurate numbers for total user counts and analytics for sites with a large number of users."
+      },
+      {
+        "text": "Analytics Charts: Reworked existing charts and removed some UX discrepancies."
+      }
+    ]
+  },
+  "auther": "Karl Wittig",
+  "created_date": "2016-11-1",
+  "status": "public"
+}

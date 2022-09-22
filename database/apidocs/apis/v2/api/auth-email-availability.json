@@ -1,0 +1,30 @@
+{
+    "name": "Auth Check Email Availability",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/email",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "email*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to check the email exists or not on your site.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            }, {
+                "name": "email",
+                "is_required": true,
+                "description": "Email which is to be checked"
+            }]
+    },
+        "outputFormat": {
+            "IsExist": true
+        }
+}

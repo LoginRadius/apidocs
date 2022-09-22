@@ -1,0 +1,17 @@
+{
+    "name": "JS Release 3.11.0",
+    "description": "This JavaScript Release adds the “Access Token via Header” and “Pre-registered user Identification via Username” features to our LoginRadius V2 JavaScript library, please see below for details.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Option “passAccessTokenInHeader” has been added to the LoginRadius existing commonOptions list to pass the Access Token with the header in a more secure way."
+            },
+            {
+                "text": "Option “existUsername” has been added to the LoginRadius existing commonOptions list for Username identification at the time of registration."
+            }
+        ]
+    },
+    "auther": "Swati",
+    "created_date": "2020-04-14",
+    "status": "public"
+}

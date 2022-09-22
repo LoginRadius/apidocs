@@ -1,0 +1,7 @@
+{
+    "name": "Google Tag Manager",
+    "discription":"Google Tag Manager discription",
+    "weight": "1",
+    "isActive": true,
+    "load": "google-tag-manager/tag-manager.php"
+}

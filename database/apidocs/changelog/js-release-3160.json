@@ -1,0 +1,19 @@
+{
+    "name": "JS Release 3.16.0",
+    "description": "This JavaScript Release brings an improvement and a new feature to our LoginRadius V2JS library, please see below for details:",
+    "changelog": {
+        "IMPROVED": [
+            {
+                "text": "Increased the size of Facebook Pop-Up Window."
+            }
+        ],
+        "ADDED": [
+            {
+                "text": "Added MultiFactor Authentication with Email OTP feature in the LoginRadiusV2.js."
+            }
+        ]
+    },
+    "auther": "Vaibhav Jain",
+    "created_date": "2021-05-11",
+    "status": "public"
+}

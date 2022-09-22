@@ -1,0 +1,52 @@
+{
+    "name": "Delete Custom Object by ObjectRecordId",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/{uid}/customobject/{objectrecordid}",
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@",
+        "objectname": ""
+    },
+    "postparams": {
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to remove the specified Custom Object data using ObjectRecordId of specified account.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            },
+            {
+                "name": "objectname",
+                "is_required": true,
+                "description": "LoginRadius Custom Object Name"
+            }
+        ],
+        "Template Params": [
+            {
+                "name": "uid",
+                "is_required": true,
+                "description": "UID, the unified identifier for each user account"
+            },
+            {
+                "name": "objectrecordid",
+                "is_required": true,
+                "description": "Unique identifier of the user's record in Custom Object"
+            }
+        ]
+    },
+    "outputFormat":{
+    "IsDeleted": true
+    }
+}

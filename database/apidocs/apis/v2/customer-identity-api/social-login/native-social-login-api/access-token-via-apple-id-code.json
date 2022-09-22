@@ -1,0 +1,38 @@
+{
+    "name": "Access Token via Apple ID Code",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/access_token/apple",
+    "method": "GET",
+    "getparams": {
+        "key*": "@apikey@",
+        "code*": "",
+        "socialappname": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "The API is used to get LoginRadius access token by sending a valid Apple ID OAuth Code. It will be valid for the specific duration of time specified in the response.",
+    "parameters": {
+        "Get Params": [{
+            "name": "key",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+        }, {
+            "name": "code",
+            "is_required": true,
+            "description": "Apple Id OAuth Code"
+        },
+        {
+            "name": "socialappname",
+            "is_required": false,
+            "description": "AppName of the multiple social provider"
+          }]
+    },
+    "outputFormat": {
+        "access_token": "f5*****7-7**6-4**4-***2-6**d*****350",
+        "refresh_token": "1bd****d-5**9-***7-***f-2c*****2e**9",
+        "expires_in": "2020-01-02T10:01:39.0342693Z"
+    }
+    }

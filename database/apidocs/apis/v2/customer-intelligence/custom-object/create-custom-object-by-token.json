@@ -1,0 +1,62 @@
+{
+    "name": "Create Custom Object by Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/customobject",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "objectname*": ""
+    },
+    "postparams": {
+        "customdata1": "Store my customdata1 value",
+        "customdata2": "Store my customdata2 value"
+    },
+    "headers": {
+        "content-Type": "application/json",
+		"Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to write information in JSON format to the custom object for the specified account.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            }, {
+                "name": "objectname",
+                "is_required": true,
+                "description": "LoginRadius Custom Object Name"
+            }
+        ],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }],
+        "Post Params": [
+            {
+                "name": "customdata1",
+                "is_required": true,
+                "description": "Valid JSON data as per your schema"
+            }, {
+                "name": "customdata2",
+                "is_required": true,
+                "description": "Valid JSON data as per your schema"
+            }
+        ]
+    },
+    "outputFormat": {
+  "Id": "XXXXXXXXXXXXXXXXXXXXXXXX",
+  "IsActive": true,
+  "DateCreated": "2017-09-29T23:55:33.4420376Z",
+  "DateModified": "2017-09-29T23:55:33.4420376Z",
+  "IsDeleted": false,
+  "Uid": "XXXXXXXXXXXXXXXXXXXXXXXX",
+  "CustomObject": {
+    "customdata1": "Store my customdata1 value",
+    "customdata2": "Store my customdata2 value"
+  }
+}
+
+}

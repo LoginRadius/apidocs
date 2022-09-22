@@ -1,0 +1,24 @@
+{
+    "name": "Core HPA Release 1.0.5",
+    "description": "This release brings you with a new API and a bug fix to our LoginRadius HPS API , please see below for details:",
+    "changelog":
+   {
+    "FIXED": 
+    [
+        
+        {
+          "text": "Show error message for already verified account in the HPS verify email API call."
+        }
+    
+    ],
+    "ADDED":
+    [
+        {
+            "text": "New <a href='https://www.loginradius.com/docs/api/v2/customer-identity-api/high-concurrency-api-stack/hcas-validate-access-token/'> HPS API </a> that validates the access token."
+        }
+    ]
+    },
+    "auther": "Abhishek Singh",
+    "created_date": "2021-01-08",
+    "status": "public"
+  }

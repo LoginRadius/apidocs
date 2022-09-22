@@ -1,0 +1,23 @@
+{
+  "name": "Admin-console release 10.0",
+  "description": "Introducing Version 10 of the LoginRadius User Admin Console. This release focuses on new improvements to the team area for your staff and experience improvements.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Team Section Site Owner: The Team section now shows the site owner so that all Admin Console users know who the main account holder is."
+      },
+      {
+        "text": "Added Support Role: Created a new 'Support Role' that has access to the following: User Management, User Profiling, Customer Insights, Billing Section"
+      },
+      {
+        "text": "New plain-text email template field: A new textarea for plain-text emails has been added."
+      },
+      {
+        "text": "Custom OAuth: We added the ability to have custom fields when using the Cutom OAuth feature."
+      }
+    ]
+  },
+  "auther": "Pascal",
+  "created_date": "2017-4-19",
+  "status": "public"
+}

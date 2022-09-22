@@ -1,0 +1,32 @@
+{
+    "name": "Core Release 14.0",
+    "description": "We are pleased to announce our core API release 14.0! In this release we've included notable features such as:<br>A) One Click Sign In has been added to our API V2 for a simpler login experience.<br>B) New ways to your track user data with the Account Deleted User Profile APIs.<br>C) Increased SAML capabilities.<br>D) Invalidate an account and prompt the user to re-validate via email verification.",
+    "changelog": {
+        "ADDED": [{
+                "text": "ADFS SP implementation with SAML: Using ADFS (Active Directory Federation Services) you can now add any SAML provider as Identity provider"
+            }, {
+                "text": "Invalidate Email API: Invalidate a verified account and send an email to prompt the user to re-validate the account"
+            }, {
+                "text": "Account Archived or Account Deleted User Profile APIs: get quick & easy access to historical data on your users"
+            }],
+        "IMPROVED": [{
+                "text": "SAML as a Service Provider: We can act as a service provider for SAML."
+            }, {
+                "text": "SAML IDP: New Identifier dynamic mapping option"
+            }, {
+                "text": "SAML IDP: Allow for mapping of LoginRadius Custom fields to your SAML assertion"
+            }, {
+                "text": "SAML IDP: Set an Attribute Name as URL to support standard attribute conventions"
+            }, {
+                "text": "One Click Sign In API V2: Newly introduced to our V2 APIs. Create a Seamless login experience by providing your users with a One Click Sign In solution"
+            }, {
+                "text": "One Click Sign In Verification API V2: In relation to the above context, we have also added the ability to verify emails for Single Sign In"
+            }],
+        "FIXED": [{
+                "text": "Amazon OAuth support updated to the latest version"
+            }]
+    },
+    "auther": "Pascal",
+    "created_date": "2016-12-1",
+    "status": "public"
+}

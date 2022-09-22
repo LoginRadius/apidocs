@@ -1,0 +1,223 @@
+{
+    "name": "Account Profiles",
+    "domain": "https://api.loginradius.com",
+    "path": "/raas/v1/account",
+    "method": "GET",
+    "getparams": {
+        "appkey*": "@apikey@",
+        "appsecret*": "@secret@",
+        "accountid*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to get all of the profile data from each of the linked social provider accounts associated with the account. Example: A user has linked his Facebook and Google account then this api will retrieve both profile data.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "api_key",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "api_secret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            },
+            {
+                "name": "accountid",
+                "is_required": true,
+                "description": "User's accountid"
+            }
+        ]
+    },
+
+    "outputFormat": [
+    {
+        "Password": "Rfc2898De**********1000$****HH6yV7**********aw==$Idjkd*****BqfEO**********2N+IC7aJurg2g****0=",
+        "LastPasswordChangeDate": "2017-08-24T13:04:12.1810017Z",
+        "PasswordExpirationDate": null,
+        "LastPasswordChangeToken": null,
+        "EmailVerified": true,
+        "IsActive": true,
+        "IsDeleted": false,
+        "Uid": "5***14e**********c5***2df******3",
+        "CustomFields": null,
+        "IsEmailSubscribed": true,
+        "UserName": "tswatit",
+        "NoOfLogins": 6,
+        "PreviousUids": null,
+        "PhoneId": null,
+        "PhoneIdVerified": false,
+        "ExternalUserLoginId": null,
+        "RegistrationProvider": null,
+        "IsLoginLocked": false,
+        "LoginLockedType": "None",
+        "LastLoginLocation": "Mumbai, India",
+        "RegistrationSource": null,
+        "IsCustomUid": false,
+        "UnverifiedEmail": null,
+        "IsSecurePassword": null,
+        "ID": "4***c65*****29***0b*****32a0**6",
+        "Provider": "RAAS",
+        "Prefix": null,
+        "FirstName": "Testyhgt",
+        "MiddleName": null,
+        "LastName": "Accoghgunt",
+        "Suffix": null,
+        "FullName": "Testyhgt Accoghgunt",
+        "NickName": "",
+        "ProfileName": "",
+        "BirthDate": "10-13-1985",
+        "Gender": "F",
+        "Website": "",
+        "Email": [
+            {
+                "Type": "Primary",
+                "Value": "example@example.com"
+            },
+            {
+                "Type": "Personal",
+                "Value": "example.123@example.com"
+            }
+        ],
+        "Country": {
+            "Code": "IN",
+            "Name": "India"
+        },
+        "ThumbnailImageUrl": "",
+        "ImageUrl": "",
+        "Favicon": null,
+        "ProfileUrl": null,
+        "HomeTown": "",
+        "State": "Alberta",
+        "City": "Edmonton",
+        "Industry": "",
+        "About": "",
+        "TimeZone": "",
+        "LocalLanguage": null,
+        "CoverPhoto": null,
+        "TagLine": null,
+        "Language": null,
+        "Verified": null,
+        "UpdatedTime": null,
+        "Positions": null,
+        "Educations": null,
+        "PhoneNumbers": [
+            {
+                "PhoneType": "Mobile",
+                "PhoneNumber": "1234567890"
+            }
+        ],
+        "IMAccounts": null,
+        "Addresses": [
+            {
+                "Type": "Personal",
+                "Address1": "",
+                "Address2": "",
+                "City": "Edmonton",
+                "State": "Alberta",
+                "PostalCode": "",
+                "Region": null,
+                "Country": ""
+            }
+        ],
+        "MainAddress": null,
+        "Created": null,
+        "CreatedDate": "2017-12-13T10:06:45.951Z",
+        "ModifiedDate": "2017-12-22T06:55:36.375Z",
+        "LocalCity": null,
+        "ProfileCity": "Edmonton",
+        "LocalCountry": null,
+        "ProfileCountry": "India",
+        "FirstLogin": false,
+        "IsProtected": false,
+        "RelationshipStatus": null,
+        "Quota": null,
+        "Quote": null,
+        "InterestedIn": null,
+        "Interests": null,
+        "Religion": null,
+        "Political": null,
+        "Sports": null,
+        "InspirationalPeople": null,
+        "HttpsImageUrl": null,
+        "FollowersCount": 0,
+        "FriendsCount": 0,
+        "IsGeoEnabled": null,
+        "TotalStatusesCount": 0,
+        "Associations": null,
+        "NumRecommenders": 0,
+        "Honors": null,
+        "Awards": null,
+        "Skills": null,
+        "CurrentStatus": null,
+        "Certifications": null,
+        "Courses": null,
+        "Volunteer": null,
+        "RecommendationsReceived": null,
+        "Languages": [
+            {
+                "Id": "",
+                "Name": "English",
+                "Proficiency": ""
+            },
+            {
+                "Id": "",
+                "Name": "French",
+                "Proficiency": ""
+            },
+            {
+                "Id": "",
+                "Name": "Spanish",
+                "Proficiency": ""
+            }
+        ],
+        "Projects": null,
+        "Games": null,
+        "Family": null,
+        "TeleVisionShow": null,
+        "MutualFriends": null,
+        "Movies": null,
+        "Books": null,
+        "AgeRange": null,
+        "PublicRepository": null,
+        "Hireable": false,
+        "RepositoryUrl": null,
+        "Age": "32",
+        "Patents": null,
+        "FavoriteThings": null,
+        "ProfessionalHeadline": null,
+        "ProviderAccessCredential": null,
+        "RelatedProfileViews": null,
+        "KloutScore": null,
+        "LRUserID": null,
+        "PlacesLived": null,
+        "Publications": null,
+        "JobBookmarks": null,
+        "Suggestions": null,
+        "Badges": null,
+        "MemberUrlResources": null,
+        "TotalPrivateRepository": 0,
+        "Currency": null,
+        "StarredUrl": null,
+        "GistsUrl": null,
+        "PublicGists": 0,
+        "PrivateGists": 0,
+        "Subscription": null,
+        "Company": "",
+        "GravatarImageUrl": null,
+        "ProfileImageUrls": null,
+        "WebProfiles": {
+            "Profile": "https://myprofile.com"
+        },
+        "PinsCount": 0,
+        "BoardsCount": 0,
+        "LikesCount": 0,
+        "SignupDate": "2017-12-13T10:06:45.951Z",
+        "LastLoginDate": "2017-12-18T12:20:40.872Z"
+    }
+]
+}

@@ -1,0 +1,1 @@
+##This Repo contains docs on API endpoints that have been replaced, it's important that we keep them for future support purposes however we want to encourage our customers to use the upgraded API Endpoints.

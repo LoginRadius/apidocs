@@ -1,0 +1,49 @@
+{
+    "name": "Active Session By Profile ID",
+    "domain":"https://api.loginradius.com",
+    "path":"/api/v2/access_token/activeSession",
+    "method":"GET",
+    "getparams":{
+        "profileid*":"",
+        "key*": "@apikey@",
+        "secret*":"@secret@"
+    },
+    "postparams":"",
+    "headers":{
+        "content-Type":"application/x-www-form-urlencoded"
+    },
+    "response":"json",
+    "description": "This API Is used to get active login sessions for an account profile.",
+    "parameters": {
+        "Get Params": [{
+            "name": "profileid",
+            "is_required": true,
+            "description": "Unique profile ID for each user account"
+        }, {
+            "name": "key",
+            "is_required": true,
+            "description": "Login Radius API Key"
+        }, {
+            "name": "secret",
+            "is_required": true,
+            "description": "LoginRadius API secret"
+        }]
+    },
+    "outputFormat": {
+        "data": [
+            {
+              "AccessToken": "8h******-****-8**5-***c-e8c*******9b",
+              "Browser": "Chrome",
+              "Device": "PC",
+              "Os": "Windows",
+              "DeviceType": "Computer",
+              "City": "****",
+              "Country": "a**d",
+              "Ip": "***.0*6.1*2.**1",
+              "LoginDate": "2017-10-02T10:02:52.534Z"
+            }
+          ],
+          "nextcursor": 0
+}
+}
+

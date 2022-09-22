@@ -1,0 +1,45 @@
+{
+    "name": "Custom Object Delete by Record Id And Token",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/auth/customobject/{objectrecordid}",
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "objectname*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded",
+		"Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to remove the specified Custom Object data using ObjectRecordId of a specified account.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            }, {
+                "name": "objectname",
+                "is_required": true,
+                "description": "LoginRadius Custom Object Name"
+            }
+        ],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }],
+        "Template Params": [
+            {
+                "name": "objectrecordid",
+                "is_required": true,
+                "description": "UID, the unified identifier for each user account"
+            }
+        ]
+    },
+    "outputFormat":{
+    "IsDeleted": true
+    }
+}

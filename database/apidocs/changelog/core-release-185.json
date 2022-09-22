@@ -1,0 +1,27 @@
+{
+  "name": "LoginRadius API Core Release V18.5.0",
+  "description": "Announcing the LoginRadius API V18.5.0 which brings many new features and improvements, many making how you interact with the API much easier.",
+  "changelog": {
+  "ADDED": [
+      {
+        "text": "API Key and Secret via POST header: Now you can pass your API Key and Secret via your POST header when using our Management API."
+      },
+      
+	    {
+        "text": "Account Identities by Email: This new API call allows you to get all of the identities that exist under a particular email."
+      },
+            {
+        "text": "Password Strength Indicator Field:  You can change your password validation rules and enforce existing users to adhere to your rules. There is a new option you can enable that will flag the user profile with IsSecurePassword based on your set rules."
+      }],
+  "IMPROVED": [
+      {
+        "text": "Store Registration Schema Fields Only: In order to improve data privacy on social profiles, we have introduced a new option where we can filter the social user profile data during login/registration from a social provider based on what you would like to retrieve and save from the user’s social profile. When this option is enabled, we will only store the selected data fields from the user’s social profile."
+      },
+     {
+        "text": "Allow Duplicate Email Registration With Unique User Name: Our Authentication and Management APIs will now support the registration of the same email multiple times provided that the user has a unique username for each registration (please contact LoginRadius support for details)."
+      }]
+    },
+  "auther": "Pascal",
+  "created_date": "2017-11-20",
+  "status": "public"
+}

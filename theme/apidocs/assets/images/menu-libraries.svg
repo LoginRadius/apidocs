@@ -1,0 +1,87 @@
+<svg id="b5e9630a-b9cd-40c7-9866-a78855305d3b" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 692.06 540">
+  <defs>
+    <style>
+      .afed2d62-c7c8-40d2-8a3a-0ded47c3cc55 {
+        fill: #e3f1f8;
+      }
+
+      .ab836c8a-c97c-425f-b867-5f1bf9b3545d, .b7e7e800-c6cf-486c-9feb-6f2b0ece5468, .f3b7cb14-68f1-4807-a42c-6f14b06845e9, .f772363f-08c1-424a-826c-df9601820d61 {
+        fill: none;
+        stroke-width: 2px;
+      }
+
+      .f3b7cb14-68f1-4807-a42c-6f14b06845e9, .f772363f-08c1-424a-826c-df9601820d61 {
+        stroke: #09263c;
+      }
+
+      .f772363f-08c1-424a-826c-df9601820d61 {
+        stroke-miterlimit: 10;
+      }
+
+      .b7e7e800-c6cf-486c-9feb-6f2b0ece5468 {
+        stroke: #008ecf;
+      }
+
+      .ab836c8a-c97c-425f-b867-5f1bf9b3545d, .b7e7e800-c6cf-486c-9feb-6f2b0ece5468, .f3b7cb14-68f1-4807-a42c-6f14b06845e9 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .ab836c8a-c97c-425f-b867-5f1bf9b3545d {
+        stroke: #e3f1f8;
+      }
+    </style>
+  </defs>
+  <circle class="afed2d62-c7c8-40d2-8a3a-0ded47c3cc55" cx="253.56" cy="331.48" r="168.81"/>
+  <circle class="f772363f-08c1-424a-826c-df9601820d61" cx="170.93" cy="291.13" r="143"/>
+  <circle class="f772363f-08c1-424a-826c-df9601820d61" cx="562.83" cy="150.62" r="101.3"/>
+  <circle class="f772363f-08c1-424a-826c-df9601820d61" cx="592.05" cy="389.12" r="66"/>
+  <circle class="f772363f-08c1-424a-826c-df9601820d61" cx="91.92" cy="62.67" r="22.96"/>
+  <circle class="f772363f-08c1-424a-826c-df9601820d61" cx="385.05" cy="448.12" r="18"/>
+  <line class="f772363f-08c1-424a-826c-df9601820d61" x1="310.24" y1="323.55" x2="527.76" y2="374.16"/>
+  <line class="f772363f-08c1-424a-826c-df9601820d61" x1="467.45" y1="184.82" x2="305.57" y2="242.86"/>
+  <line class="f772363f-08c1-424a-826c-df9601820d61" x1="402.36" y1="443.19" x2="528.56" y2="407.22"/>
+  <g id="a124584b-18dc-4239-8af5-e6ecedcdbf1a" data-name="book-library-2">
+    <path id="e5d0e1b4-2022-41fa-abc4-25720f71aaf5" data-name="Rectangle-path 16" class="b7e7e800-c6cf-486c-9feb-6f2b0ece5468" d="M101.83,227a9.89,9.89,0,0,1,9.91-9.91h19.81a9.89,9.89,0,0,1,9.91,9.91v94.2a9.89,9.89,0,0,1-9.91,9.91H111.74a9.89,9.89,0,0,1-9.91-9.91Z"/>
+    <path id="b6cd486c-a1e8-463f-9ea6-f13092152225" data-name="Rectangle-path 17" class="b7e7e800-c6cf-486c-9feb-6f2b0ece5468" d="M141.61,227a9.89,9.89,0,0,1,9.91-9.91h19.82a9.89,9.89,0,0,1,9.91,9.91v94.2a9.89,9.89,0,0,1-9.91,9.91H151.52a9.89,9.89,0,0,1-9.91-9.91Z"/>
+    <path id="bfa13ec1-5dd8-4a7e-b68d-f1b24464bb9a" data-name="Rectangle-path 18" class="b7e7e800-c6cf-486c-9feb-6f2b0ece5468" d="M187.65,239.47A9.73,9.73,0,0,1,196,228.34l9.91-1.37a9.72,9.72,0,0,1,11.13,8.38l12.19,83.53A9.72,9.72,0,0,1,220.88,330L211,331.38A9.72,9.72,0,0,1,199.84,323Z"/>
+    <path id="b47d4e25-0499-4e4e-91dc-cdc95c2fe1c9" data-name="Shape 187" class="f3b7cb14-68f1-4807-a42c-6f14b06845e9" d="M91.92,341.14a9.89,9.89,0,0,0,9.91,9.91H230.64a9.91,9.91,0,0,0,0-19.82H101.83A9.79,9.79,0,0,0,91.92,341.14Z"/>
+    <path id="bc287cfb-6093-46d9-99a4-b0290df2faf0" data-name="Shape 188" class="f3b7cb14-68f1-4807-a42c-6f14b06845e9" d="M106.71,351.05v14.78"/>
+    <path id="ae9a1901-8d21-47a8-95e2-d9c9e94322f8" data-name="Shape 189" class="f3b7cb14-68f1-4807-a42c-6f14b06845e9" d="M225.91,351.05v14.78"/>
+  </g>
+  <g id="a67ebcdb-2939-4697-8f67-f715479695d4" data-name="Interface-Essential / Password / password-desktop-lock">
+    <g id="ad167f16-232e-4183-8379-3391247b7c4f" data-name="Group 107">
+      <g id="ed63353d-10ae-4f96-974f-714de9d60cbe" data-name="password-desktop-lock">
+        <path id="b24cfc43-2db1-4929-b902-7ddf64b69638" data-name="Shape 670" class="f3b7cb14-68f1-4807-a42c-6f14b06845e9" d="M554.1,200.89a29.15,29.15,0,0,0,5.67-16"/>
+        <path id="eb6d0e5f-cd16-4328-ad75-671d9e5c522c" data-name="Shape 671" class="f3b7cb14-68f1-4807-a42c-6f14b06845e9" d="M577.93,200.89a29.15,29.15,0,0,1-5.67-16"/>
+        <path id="ab3e6dfd-cc78-499b-adcd-33f2175a03d0" data-name="Shape 672" class="f3b7cb14-68f1-4807-a42c-6f14b06845e9" d="M547.28,200.89h37.47"/>
+        <path id="f6d3e960-b418-4c33-9eeb-62b46a8d6190" data-name="Shape 673" class="f3b7cb14-68f1-4807-a42c-6f14b06845e9" d="M518.14,172.92h95.74"/>
+        <path id="b180c5a6-612a-4d21-be5e-a32646f082b4" data-name="Shape 674" class="f3b7cb14-68f1-4807-a42c-6f14b06845e9" d="M576.42,109H522.31a4.09,4.09,0,0,0-4.17,4v67.94a4.08,4.08,0,0,0,4.17,4h87.41a4.07,4.07,0,0,0,4.16-4v-20"/>
+        <path id="ee64216b-689d-441a-a5aa-98aa0f9da01f" data-name="Shape 675" class="b7e7e800-c6cf-486c-9feb-6f2b0ece5468" d="M568.1,152.94H539a4.09,4.09,0,0,1-4.17-4V133a4.09,4.09,0,0,1,4.17-4H568.1"/>
+        <path id="e2e74496-2185-4d70-a04b-cb142635841e" data-name="Rectangle-path 32" class="b7e7e800-c6cf-486c-9feb-6f2b0ece5468" d="M576.42,129.12a4.16,4.16,0,0,1,4.16-4.16h29.14a4.16,4.16,0,0,1,4.16,4.16v19.65a4.17,4.17,0,0,1-4.16,4.17H580.58a4.17,4.17,0,0,1-4.16-4.17Z"/>
+        <path id="a84aec62-0def-4bd1-a279-7b20a6d4a5d1" data-name="Shape 676" class="b7e7e800-c6cf-486c-9feb-6f2b0ece5468" d="M595.15,135a4,4,0,1,0,4.17,4A4.08,4.08,0,0,0,595.15,135Z"/>
+        <path id="f1411de4-0213-4b79-b41c-73ca332415e5" data-name="Shape 677" class="b7e7e800-c6cf-486c-9feb-6f2b0ece5468" d="M584.75,125v-6a10.41,10.41,0,0,1,20.81,0v6"/>
+        <path id="af728071-f71a-493d-b96d-e6ee625207c6" data-name="Shape 678" class="b7e7e800-c6cf-486c-9feb-6f2b0ece5468" d="M549.36,140a1,1,0,1,1-1,1,1,1,0,0,1,1-1"/>
+        <path id="aeef69e5-bcee-449e-bee0-d37488aaf449" data-name="Shape 679" class="b7e7e800-c6cf-486c-9feb-6f2b0ece5468" d="M566,140a1,1,0,1,1-1,1,1,1,0,0,1,1-1"/>
+      </g>
+    </g>
+  </g>
+  <g id="ad29be59-07d6-441e-a29f-b85ee4d2a48a" data-name="Business-Products / Performances / performance-presentation-graph">
+    <g id="f24efdc0-c133-4e0f-936f-fefc003c1acb" data-name="Group 160">
+      <g id="b801debb-3492-47eb-a9e7-1b339f32fcc2" data-name="performance-presentation-graph">
+        <path id="a43c90ef-c812-42a3-bad5-4938766ddbb7" data-name="Rectangle-path 40" class="f3b7cb14-68f1-4807-a42c-6f14b06845e9" d="M554,362.28a3.53,3.53,0,0,1,3.52-3.52H628a3.52,3.52,0,0,1,3.52,3.52V411.6a3.52,3.52,0,0,1-3.52,3.52H557.56A3.53,3.53,0,0,1,554,411.6Z"/>
+        <path id="bd88aef8-e49a-4d0b-aeb8-926c9f5f91ce" data-name="Shape 1165" class="b7e7e800-c6cf-486c-9feb-6f2b0ece5468" d="M562.83,390.45l6.66-6.64a3.5,3.5,0,0,1,5,0l4.15,4.15a3.53,3.53,0,0,0,5,0l9.86-9.87a3.53,3.53,0,0,1,5,0l7.58,7.58a3.53,3.53,0,0,0,5,0l13.48-13.49"/>
+        <path id="bd20f83f-84de-415b-982c-16591b057da4" data-name="Shape 1166" class="b7e7e800-c6cf-486c-9feb-6f2b0ece5468" d="M613.92,397.51h10.57"/>
+        <path id="b090e4d7-29e3-486c-aabf-5971d20ac804" data-name="Shape 1167" class="b7e7e800-c6cf-486c-9feb-6f2b0ece5468" d="M624.49,404.55H606.88"/>
+        <path id="b9268f12-1003-4977-9a8d-810799113886" data-name="Shape 1168" class="f3b7cb14-68f1-4807-a42c-6f14b06845e9" d="M592.79,351.72v7"/>
+        <path id="e9a94f1e-4155-4f5c-b5b8-858129beec51" data-name="Shape 1169" class="f3b7cb14-68f1-4807-a42c-6f14b06845e9" d="M592.79,415.12v8.81"/>
+        <path id="b702e6dc-9a9a-418c-9565-507762cbf2cb" data-name="Shape 1170" class="f3b7cb14-68f1-4807-a42c-6f14b06845e9" d="M592.79,423.93l-12.33,8.8"/>
+        <path id="f4957de9-a62c-47da-a2fa-bb7fb7e8fc6b" data-name="Shape 1171" class="f3b7cb14-68f1-4807-a42c-6f14b06845e9" d="M592.79,423.93l12.33,8.8"/>
+      </g>
+    </g>
+  </g>
+  <path id="bf7a466b-5acb-4d7a-8b0f-15bcd4679fc1" data-name="Shape 1452" class="ab836c8a-c97c-425f-b867-5f1bf9b3545d" d="M377,131.47a2.25,2.25,0,0,1-1.63.69,2.29,2.29,0,0,1-1.63-.69L352.26,109.1a13.68,13.68,0,0,1-2.56-15.76h0a13.66,13.66,0,0,1,21.87-3.55l3.76,3.77,3.77-3.77A13.65,13.65,0,0,1,401,93.34h0a13.66,13.66,0,0,1-2.55,15.76Z"/>
+  <line class="f772363f-08c1-424a-826c-df9601820d61" x1="123.87" y1="156.06" x2="99.35" y2="84.4"/>
+  <line class="f3b7cb14-68f1-4807-a42c-6f14b06845e9" x1="199.88" y1="78.62" x2="266.6" y2="78.62"/>
+  <line class="ab836c8a-c97c-425f-b867-5f1bf9b3545d" x1="166.23" y1="89.15" x2="217.11" y2="89.15"/>
+</svg>

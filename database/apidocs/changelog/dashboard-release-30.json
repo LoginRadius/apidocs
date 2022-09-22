@@ -1,0 +1,60 @@
+{
+  "name": "Admin-console release 3.0",
+  "description": "We’ve now released version 3 of the user Admin-console. This release contains several enhancements, improvements and bug fixes geared towards making the admin-console more intuitive, informative and easy to use. The following are the details.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Ownership of the LoginRadius account can be transferred to other team members from the Team page."
+      },
+      {
+        "text": "Pinterest social ID provider can now be directly added from the social login page."
+      },
+      {
+        "text": "Additional scopes now can be added from the social login page, under the External Permissions tab."
+      },
+      {
+        "text": "Existing tickets can now be seen on support ticket page."
+      },
+      {
+        "text": "New field types such as checkbox,password and hidden have been added."
+      },
+      {
+        "text": "Users currently logged in can be seen on the team page with respective roles."
+      }
+    ],
+    "IMPROVED": [
+      {
+        "text": "User selected site will remain selected after login."
+      },
+      {
+        "text": "Team management page has been revamped for the ease of use and understanding."
+      },
+      {
+        "text": "Field ID can now be seen against disabled fields of the page."
+      },
+      {
+        "text": "Loading messages are now updated with their respective actions."
+      },
+      {
+        "text": "More support ticket categories have been added to the support ticket page."
+      },
+      {
+        "text": "\"Remove Rule\" option has been added to the User Segmentation page."
+      },
+      {
+        "text": "SSO page title text updated for increased relevancy."
+      }
+    ],
+    "FIXED": [
+      {
+        "text": "User Segmentation: renamed RAAS to \"Email\" and ID provider to \"Provider\"."
+      },
+      {
+        "text": "Basic social data setting is no longer removable."
+      }
+    ]
+  },
+  "auther": "Ashrujit Bhattacharya",
+  "created_date": "2016-8-1",
+  "status": "public"
+}

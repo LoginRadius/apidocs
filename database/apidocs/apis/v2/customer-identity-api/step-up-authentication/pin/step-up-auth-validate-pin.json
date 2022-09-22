@@ -1,0 +1,51 @@
+{
+  "name": "Step-Up Auth Validate PIN",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/manage/account/{uid}/reAuth/pin",
+  "method": "POST",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "apisecret*": ""
+  },
+  "postparams": {
+      "secondfactorvalidationtoken": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API is used server-side to validate and verify the 'secondfactorvalidationtoken' created by the Step-Up Authenticate By PIN API.",
+  "parameters": {
+    "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+    ],
+    "Post Params": [
+        {
+        "name": "secondfactorvalidationtoken",
+        "is_required": true,
+        "description": "The secondfactorvalidation token obtained after having entered the PIN with the re-authentication API."
+      }],
+
+    "Template Params": [
+            {
+                "name": "uid",
+                "is_required": true,
+                "description": "UID, the unified identifier for each customer account."
+            }
+        ]
+  },
+
+    "outputFormat": 
+{
+"IsValid" :  true
+}
+}

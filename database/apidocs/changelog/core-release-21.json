@@ -1,0 +1,16 @@
+{
+    "name": "Core Release 2.1",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "FIXED": [{
+                "text": "Twitter login failure issue"
+            }, {
+                "text": "Linkedin profile image issue, allowed original and thumbnail image both."
+            }, {
+                "text": "Bot crawling prevention"
+            }]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2013-6-1",
+    "status": "public"
+}

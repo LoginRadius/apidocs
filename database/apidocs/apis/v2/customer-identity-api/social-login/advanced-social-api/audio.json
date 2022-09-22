@@ -1,0 +1,32 @@
+{
+    "name": "Audio",
+    "domain":"https://api.loginradius.com",
+    "path":"/api/v2/audio",
+    "method":"GET",
+    "getparams":{"access_token*":""},
+    "postparams":"",
+    "headers":{"content-Type":"application/x-www-form-urlencoded"},
+    "response": "json",
+    "description": "The Audio API is used to get audio files data from the user’s social account.<br><br><b>Supported Providers:</b> Live, Vkontakte",
+    "parameters": {
+        "Get Params": [{
+            "name": "access_token",
+            "is_required": true,
+            "description": "Uniquely generated identifier key by LoginRadius that is activated after successful authentication."
+        }]
+    },
+    "outputFormat":
+[
+    {
+        "Artist": "Artist Name",
+        "Url": "https://xxxxxxx.com/direct_file_link/",
+        "Title": "Audio Title",
+        "UpdatedDate": "6/03/2014 14:34 ",
+        "OwnerName": "FirstName LastName",
+        "CreatedDate": "6/03/2014 14:27 ",
+        "Duration": "51000",
+        "OwnerId": "1111111111111",
+        "ID": "file.1111111111.1111111!101"
+    }
+]
+}

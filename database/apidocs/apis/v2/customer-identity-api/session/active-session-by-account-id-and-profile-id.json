@@ -1,0 +1,63 @@
+{
+    "name": "Active Session By Account ID and Profile ID",
+    "domain":"https://api.loginradius.com",
+    "path":"/api/v2/access_token/activeSession",
+    "method":"GET",
+    "getparams":{
+        "accountid":"",
+        "profileid":"",
+        "token":"",
+        "key*": "@apikey@",
+        "secret*":"@secret@"
+    },
+    "postparams":"",
+    "headers":{
+        "content-Type":"application/x-www-form-urlencoded"
+    },
+    "response":"json",
+    "description": "This API is used to get active login sessions for an account using account ID and profile ID.",
+    "parameters": {
+        "Get Params": [ {
+            "name": "accountid",
+            "is_required": false,
+            "description": "Unique account ID for each user account"
+        },{
+            "name": "profileid",
+            "is_required": false,
+            "description": "Unique profile ID for each user account"
+        },{
+            "name": "token",
+            "is_required": false,
+            "description": "Uniquely generated identifier key by LoginRadius that is activated after successful authentication."
+        },
+        {
+            "name": "key",
+            "is_required": true,
+            "description": "Login Radius API Key"
+        },{
+            "name": "secret",
+            "is_required": true,
+            "description": "LoginRadius API secret"
+        },{
+            "name": "Note",
+            "is_required": false,
+            "description": "Either you need to pass 'accountid', 'profileid' or 'token' as per your requirement."
+          }]
+    },
+    "outputFormat": {
+        "data": [
+            {
+              "AccessToken": "8h******-****-8**5-***c-e8c*******9b",
+              "Browser": "Chrome",
+              "Device": "PC",
+              "Os": "Windows",
+              "DeviceType": "Computer",
+              "City": "****",
+              "Country": "a**d",
+              "Ip": "***.0*6.1*2.**1",
+              "LoginDate": "2017-10-02T10:02:52.534Z"
+            }
+          ],
+          "nextcursor": 0
+}
+}

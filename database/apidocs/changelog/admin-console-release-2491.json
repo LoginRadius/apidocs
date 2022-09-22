@@ -1,0 +1,18 @@
+{
+    "name": "Admin Console Release 24.9.1",
+    "description": "This release brings you bug fixes to our LoginRadius Admin Console, please see below for details:",
+    "changelog":
+   {
+    "FIXED": 
+    [
+        
+        {
+          "text": "The issue with the Saml Login into the Admin Console, when the SSO Login only feature is enabled for the Admin Console, has been fixed."
+        }
+    
+    ]
+    },
+    "auther": "Ashish Kumar Yadav",
+    "created_date": "2021-08-20",
+    "status": "public"
+  }

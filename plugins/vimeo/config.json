@@ -1,0 +1,7 @@
+{
+    "name": "Vimeo RSS",
+    "discription":"Vimeo RSS discription",
+    "weight": "1",
+    "isActive": true,
+    "load": "vimeo/vimeo.php"
+}

@@ -1,0 +1,113 @@
+SMS Communication and Configuration
+=====
+
+This guide will take you through the following aspects for configuring the Global SMS and SMS Template settings which are available in the LoginRadius Admin Console.
+
+- [**Global SMS Settings:**](/authentication/concepts/sms-communication/#partglobalsmssettings0) You can customize various global SMS settings like OTP length, OTP type and more.
+- [**SMS Templates:**](/authentication/concepts/sms-communication/#partsmstemplatesettings1) You can view the existing list of default SMS templates available for various events like phone number registration, forgot password and more. In addition, you can manage existing SMS templates or create a new SMS template based on the requirements.
+
+## Part 1 - Global SMS Settings
+
+This section will take you through the configuration of the global SMS settings in your LoginRadius Admin Console. These settings are applicable for all the SMS templates until defined for individual SMS settings. The individual SMS settings are available in the respective feature section like Phone Login, Passwordless Login and more.
+
+The following explains the global SMS settings and how you can configure them:
+
+
+**Step1:** Login to your <a href = https://adminconsole.loginradius.com/ target=_blank>**Admin Console**</a> account and navigate to <a href = https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/global-sms-settings target=_blank>**Platform Configuration > Identity Workflow >  Global SMS Settings**</a>. From the left navigation panel, select the **Global SMS Settings** option. 
+
+The following screen will appear:
+![SMS Communication and Configuration](https://apidocs.lrcontent.com/images/sms1_240485e7fa5475967d5.30687754.png "SMS Communication and Configuration")
+
+**Step 2:** You can update the default values for the following global SMS settings:
+- **OTP Length:** The length of the one-time passcode you want to set for the SMS.
+- **OTP Type:** The type of OTP you want to send to the customer from available options like Numeric, AlphaNumeric, and more.
+- **Request Limit:** The number of times a customer can request an SMS/ OTP during the request period (in seconds) before this feature is temporarily disabled. For example, a customer can request an OTP 5 times (Request Limit) over the course of 120 seconds (Request Period) before the feature is disabled.
+- **Request Disabled Period (Minutes):** The duration for which an SMS/ OTP request will be disabled once the request limit is reached.
+- **OTP Validity Limit (Seconds):** The amount of time (in seconds) for which an OTP is valid.
+
+**Step 3:** Click the **Save **button to save the **Global SMS settings**.
+
+> **Note:** Only the above settings can be configured globally for the SMS. The SMS templates need to be configured and managed at the individual feature level. For example, phone number verification SMS can only be managed from <a href = https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/phone-login/phone-number-verification target=_blank>here</a>.
+
+## Part 2 - SMS Template Settings
+
+This section will take you through the available actions for managing and customizing the various SMS templates available in your account. 
+
+For all SMS templates (except Welcome SMS), you can manage the following SMS template settings:
+
+- **Request Limit:** The number of times a customer can request an SMS/ OTP during the request period (in seconds) before this feature is temporarily disabled. For example, a customer can request an OTP 5 times (Request Limit) over the course of 120 seconds (Request Period) before the feature is disabled.
+- **Request Disabled Period (Minutes):** The duration for which an SMS/ OTP request will be disabled once the request limit is reached.
+- **OTP Validity Limit (Seconds):** The amount of time (in seconds) for which an OTP is valid.
+The following screen displays the above settings configured for the **Phone Number Verification** template:
+![SMS Communication and Configuration](https://apidocs.lrcontent.com/images/pasted-image-0_259295e7fa704253993.63317385.png "SMS Communication and Configuration")
+
+### SMS Template Management
+
+The SMS Templates are available with their respective feature in the LoginRadius Admin Console. Each SMS Template has the following customization options available:
+
+- [Edit Template](/authentication/concepts/sms-communication/#edittemplate3)
+- [Add Template](/authentication/concepts/sms-communication/#addtemplate4)
+- [Delete Template](/authentication/concepts/sms-communication/#deletetemplate5)
+- [Reset Template](/authentication/concepts/sms-communication/#resettemplate6)
+
+While adding or editing the content of SMS templates, you can also use predefined [placeholder tags](/authentication/concepts/sms-communication/#placeholdertags7).
+
+The following explains how you can manage the SMS templates available in the LoginRadius Admin Console: 
+
+#### Edit Template
+
+For all SMS templates, you can edit the content or add/update [placeholders](/authentication/concepts/sms-communication/#placeholdertags7) as explained below:
+
+Select the desired template from the left navigation panel and click the **Edit Template** button. For example, to edit the **Phone Number Verification** template, select it from the left navigation panel and then click the **Edit** button. 
+
+The following screen will appear in edit mode:
+
+![SMS Communication and Configuration](https://apidocs.lrcontent.com/images/smsedit_87025e81317aeb07a0.12905932.png "SMS Communication and Configuration")
+
+ In the **SMS CONTENT** section, you can update the given text or use [Placeholder Tags](/authentication/concepts/sms-communication/#placeholdertags7) from the predefined list. Save the template once you are done with the updates.
+
+Similarly, you can manage SMS templates available for other features like [Passwordless Login](/authentication/tutorial/passwordless-login), [One Touch Login](/authentication/tutorial/one-touch-login/), [Multi-Factor Authentication](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/multi-factor-auth/#multi-factor-authentication-configuration) and more.
+
+#### Add Template
+
+Using this option, you can create a new SMS template option within the default SMS templates. For example, if you click the **Add **button from **Phone Number Verification Settings** SMS template screen, the following screen will appear:
+![SMS Communication and Configuration](https://apidocs.lrcontent.com/images/sms4_59795e7fb1ae5236f3.32360927.png "SMS Communication and Configuration")
+
+
+Add the desired **TEMPLATE ID, SMS CONTENT** in the respective sections and click the Add button to create the template. 
+
+The following screen will display the added TEMPLATE ID in the drop-down list:
+![SMS Communication and Configuration](https://apidocs.lrcontent.com/images/sms5_50415e7fb1f92e51d8.38800269.png "SMS Communication and Configuration")
+
+This way, you can maintain multiple sub-templates for a default template and use the desired TEMPLATE ID in the implementation.
+
+
+#### Delete Template
+
+Use this option to delete a sub-template. To delete, select the respective TEMPLATE ID from the drop-down list, and the following template screen appears:
+![SMS Communication and Configuration](https://apidocs.lrcontent.com/images/sms6_114505e7fb21d5d28c3.04007066.png "SMS Communication and Configuration")
+
+
+Click the **Delete** button and then confirm the action to delete the template.
+
+Note: You can only delete the new template(s) that you created, i.e. you are not allowed to delete the default templates.
+
+#### Reset Template
+
+Use this option to reset the default templates in the original state, if you have updated the content or placeholder tags.
+
+> **Note:** The reset template option is only available for the default templates that come with the LoginRadius Identity Platform. 
+
+### Placeholder Tags
+
+The following are the predefined placeholders that you can use in the SMS CONTENT:
+
+- **#Name#**: Displays the customer's name as defined in the registration form.
+- **#OTP#**: Displays the OTP received in SMS.
+- **#FirstName#**: Displays the first name from the registered customer's profile.
+- **#LastName#**: Displays the last name from the registered customer's profile.
+- **#userName#**: If username login is enabled for your web application, you can use this tag to display the username in the forgot password message. 
+- **#OTPExpiry#**: Display the expiration time of an OTP in seconds. It displays the value of the **'OTPExpire'** field of particular SMS type settings. The default value of OTP expiry is 300 seconds.
+- **#Email#**: Displays the email address from the registered customer's profile.
+
+> **Note:** For details around SMS Provider Configurations, refer to [SMS Provider Configuration documentation](/authentication/concepts/sms-configuration/).

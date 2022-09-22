@@ -1,0 +1,75 @@
+{
+  "name": "JWT token by Username and Password",
+  "domain": "",
+  "path": "https://{siteurl}/api/jwt/{jwtappname}/login",
+  "method": "POST",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "verificationurl": "",
+    "loginurl": "",
+    "emailtemplate": ""
+  },
+  "postparams": {
+    "username":"",
+    "password":""
+  },
+  "templateparams": {
+    "siteurl*": "",
+    "jwtappname*": ""
+  },
+  "headers": { "content-Type":"application/json" },
+  "response": "json",
+  "description": "This API is used to get a JWT token by Username and Password.  <br><br> <b>Note:</b> Above is the recent version of JWT API endpoint. If you are still working with the old JWT API endpoint which would be depricated soon, then refer to <a href='/docs/api/v2/single-sign-on/federated-sso/jwt-login/v1.4.0/jwt-token-by-username/' style='color: #008ecf;'>JWT Token by Username and Password</a> API.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "verificationurl",
+        "is_required": false,
+        "description": "Verification URL"
+      },
+      {
+        "name": "loginurl",
+        "is_required": false,
+        "description": "Login URL"
+      },
+      {
+        "name": "emailtemplate",
+        "is_required": false,
+        "description": "Email template Name"
+      }
+    ],
+    "Post Params": [
+        {
+        "name": "username",
+        "is_required": true,
+        "description": "User's registered username"
+      },
+      {
+        "name": "password",
+        "is_required": true,
+        "description": "User's password"
+      }
+    ],
+    "Template Params": [
+      {
+          "name": "siteurl",
+          "is_required": true,
+          "description": "This field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of site URL"
+      },
+      {
+        "name": "jwtappname",
+        "is_required": true,
+        "description": "JWT App Name"
+      }
+    ]
+  },
+  "outputFormat": {
+    "signature": "NTExOTI5ODI3LCJleHAiOjE1MTE5*********.*74bizmpE47oJJmqN00Pzcm******VE5kXzCTkc****"
+  }
+}
+

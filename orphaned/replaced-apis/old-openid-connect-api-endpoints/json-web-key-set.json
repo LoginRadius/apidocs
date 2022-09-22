@@ -1,0 +1,33 @@
+{
+    "name": "Get JSON Web Key Set",
+    "domain": "https://cloud-api.loginradius.com",
+    "path": "/sso/oidc/{appname}/jwks",
+    "method": "GET",
+    "getparams": {},
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API provides the JSON Web Key Set (JWKS) that can be used to verify any JWT token.",
+    "parameters": {
+        "Template Params": [
+	  {
+            "name": "sitename",
+            "is_required": true,
+            "description": "Your LoginRadius appname"
+          }
+        ]
+    },
+    "outputFormat": {
+"keys": [
+    {
+      "kty": "RSA",
+      "use": "sig",
+      "alg": "RS256",
+      "kid": "206",
+      "n": "nvJHvAs6aEq9w6Cb793lk9-METOxd9mEDY4a5YKj74lg5EuNy0j1FP...",
+      "e": "AQAB"
+    }
+  ]
+}
+}

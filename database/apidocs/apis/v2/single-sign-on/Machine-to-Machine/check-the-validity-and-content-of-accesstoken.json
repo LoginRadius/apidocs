@@ -1,0 +1,51 @@
+{
+    "name": "Check the validity and content of the Access Token",
+    "domain": "",
+    "path": "https://{siteurl}/service/oauth/introspect",
+    "method": "POST",
+
+    "getparams": {
+},"templateparams": {
+},
+    "postparams": {
+        "token": "<AccessToken>",
+        "token_type_hint":"access_token",
+        "client_id": "",
+        "client_secret": ""
+    },
+      
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API checks the validate and content of Access Token.Kindly note: if you are using Custom Domain please use the Custom Domain URL in siteurl",
+    "parameters": {
+        "Post Params": [
+            {
+                "name": "ClientID",
+                "is_required": true,
+                "description": "Machine to Machine App client ID"
+            },
+            {
+                "name": "Client Secret",
+                "is_required": true,
+                "description": "Machine to Machine App client Secret"
+            }
+        ],
+        "Template Params": [
+            {
+                "name": "siteurl",
+                "is_required": true,
+                "description": "This field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of site URL"
+            }
+        ]
+
+    },
+    "outputFormat": {
+
+        "active":true,
+  "iss":"",
+  "aud":"",
+  "sub":""
+    }
+}

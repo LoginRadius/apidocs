@@ -1,0 +1,54 @@
+{
+    "name": "Account Link",
+    "domain": "https://api.loginradius.com",
+    "path": "/raas/v1/account/link",
+    "method": "POST",
+    "getparams": {
+        "appkey*": "@apikey@",
+        "appsecret*": "@secret@"
+    },
+    "postparams": {
+        "accountid": "",
+        "provider": "",
+        "providerid": ""
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to link up a social provider account with the specified account based on the account ID(UID) and the social providers user ID(ID).",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "api_key",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "api_secret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ],
+        "Post Params": [
+            {
+                "name": "accountid",
+                "is_required": true,
+                "description": "User's social provider accountid"
+            },
+            {
+            "name": "provider",
+            "is_required": true,
+            "description": "Social provider's name which you want to link up"
+            },
+            {
+            "name": "providerid",
+            "is_required": true,
+            "description": "Social providers user ID"
+            }
+        ]
+    },
+    "outputFormat": {
+        "isPosted": true
+    }
+}

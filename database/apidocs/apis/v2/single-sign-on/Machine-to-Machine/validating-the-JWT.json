@@ -1,0 +1,40 @@
+{
+    "name": "To Validate the JWT",
+    "domain": "",
+    "path": "https://{siteurl}/service/oauth/jwks",
+    "method": "GET",
+    "getparams": {
+    },
+    "templateparams": {
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to validate the JWT. Kindly note: if you are using Custom Domain please use the Custom Domain URL in siteurl",
+    "parameters": {
+        "Template Params": [
+            {
+                "name": "siteurl",
+                "is_required": true,
+                "description": "This field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of site URL"
+            }
+        ]
+    },
+
+ "outputFormat": 
+ {
+        "keys": 
+        [
+            {
+                "kty": "RSA",
+                "kid": "201",
+                "use": "sig",
+                "alg": "RS256",
+                "n": "7kTAa3QY73iMGGReccFXp5E56xzss2i5RPZshfVYpyvzqPlKozHfFbsU0XqN9pgEnjK3e4yTnX1ckhYminLgmCcz4owJdQia-dPBQb6E0lpBIlvbYKTtqRuc3LJ_Yr7k-1ALnREn_f0YOQpjSZwIcMXL34LS5baU7X4JFDmX7h0vtTWE8bE351B0HHvWxxiM1FYWGcQwv90zu47HAf-6rf2Oy6qNUKOTCy6stwtOmvY3lunn6Dz0_zctRIEbnyJ5VcJn9veAC2KI2aiAVArvP7RP3GcSebSDt4moz3afgpPEqMs5gyDdPdKv4oiKZ28ZwQexSh32-uyz2UJwhGS0Lw",
+                "e": "AQAB"
+            }
+        ]
+    
+ }
+}

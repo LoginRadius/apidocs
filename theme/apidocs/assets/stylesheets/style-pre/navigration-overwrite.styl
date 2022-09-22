@@ -1,0 +1,108 @@
+/*---Navigation overwrite---*/
+header.md-header
+	height 58px !important
+
+header
+	// background pink !important
+	nav.md-header-nav
+		padding 0 2rem
+	nav.md-grid
+		max-width calc(112rem - (2rem * 2))
+		margin-right auto
+	    margin-left auto
+	.md-flex
+		display inline-block
+		position relative
+		// width 100%
+		min-width 770px
+	.logo
+		// position absolute
+		// top 5px
+		// transform-origin left center
+		padding-top 15px
+		display inline-block
+		img
+			margin-right 0
+			float none
+			height auto
+		a.md-icon.md-header-nav__button
+			width 104px
+			height 25px
+		a.md-icon.md-header-nav__button:after
+			content: "docs"
+			display: inline-block
+			position: absolute
+			padding-left: 4px;
+			padding-top: 3px;
+			top 14px
+			right 0
+			bottom 0
+			height 16px
+			font-size 16px
+			color #06B0EF
+			font-weight 500
+			line-height 20px
+			vertical-align top
+	.md-flex__cell
+		display inline-block
+		.md-flex__ellipsis
+			display inline-block
+			.material_sel-box
+				float none
+		&:last-of-type
+			position absolute
+			right 0
+	.md-flex__cell--shrink
+		width auto
+		.md-nav--primary
+		.md-nav
+			@media only screen and (max-width: 76.1875em)
+				display line-block
+				background-color initial
+				position relative
+			.md-header-nav__title
+				display inline-block
+				a
+					font-size 15px
+					line-height 55px
+					margin 0
+					padding-right 16px
+					color #0A2135
+					transition: all 0.3s ease-in-out;
+					&:hover
+						color: #06B0EF;
+						
+		.md-header-nav__button.md-icon--search
+			display inline-block
+			position static
+			top -1.5px
+			
+.md-icon--search:before
+	color: #939da3 !important
+	display inline-block
+	text-align center
+	position relative
+	top 18px
+	transform: translate(0, -50%);
+span.algolia-autocomplete
+	input
+		width auto !important
+.algolia-autocomplete
+	top -23px
+	input
+		background rgba(255, 255, 255, 0) !important
+		font-size 15px
+
+
+
+
+
+
+
+
+
+
+
+
+
+			

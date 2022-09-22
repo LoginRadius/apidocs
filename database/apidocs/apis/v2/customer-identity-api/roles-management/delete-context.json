@@ -1,0 +1,45 @@
+{
+    "name": "Delete Role Context",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/{uid}/rolecontext/{rolecontextname}",
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams":{},
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API Deletes the specified Role Context",
+    "parameters": {
+        "Get Params": [
+          {
+            "name": "apikey",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+          },
+          {
+            "name": "apisecret",
+            "is_required": true,
+            "description": "LoginRadius API Secret"
+          }
+        ],
+        "Template Param": [
+          {
+            "name": "uid",
+            "is_required": true,
+            "description": "User's UID"
+          },
+          {
+            "name": "rolecontextname",
+            "is_required": true,
+            "description": "The name of the role context which to be deleted"
+          }
+        ]
+    },
+  "outputFormat": {
+    "IsDeleted": true
+  }
+}

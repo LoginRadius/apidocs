@@ -1,0 +1,38 @@
+{
+  "name": "JWT token by Access Token",
+  "domain": "https://cloud-api.loginradius.com",
+  "path": "/sso/jwt/api/token",
+  "method": "GET",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "jwtapp*": "",
+    "access_token*": ""
+  },
+  "headers": {
+    "content-Type": "application/x-www-form-urlencoded"
+  },
+  "response": "json",
+  "description": "This API is used to get the JWT token by access token. <br><br> <b>Note:</b> This JWT API endpoint will be deprecated soon. Refer to the new <a href='/docs/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token/' style='color: #008ecf;'>JWT Token by Access Token</a> API for the latest JWT API endpoint.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "jwtapp",
+        "is_required": true,
+        "description": "JWT App Name"
+      },
+      {
+        "name": "access_token",
+        "is_required": true,
+        "description": "Token generated from a successful oauth from social platform"
+      }
+    ]
+  },
+  "outputFormat": {
+    "signature": "eyJhbG**********4NiIsInR5cCI*****VCJ9.eyJpc3**********czy****udGVybmFsL"
+  }
+}

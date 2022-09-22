@@ -1,0 +1,56 @@
+{
+  "name": "Smart Login By Username",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/auth/login/smartlogin",
+  "method": "GET",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "username*": "",
+    "clientguid*": "",
+    "smartloginemailtemplate": "",
+    "welcomeemailtemplate": "",
+	"redirecturl": ""
+  },
+  "headers": {
+    "content-Type": "application/x-www-form-urlencoded"
+  },
+  "response": "json",
+  "description": "This API sends a Smart Login link to the user's Email Id.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "username",
+        "is_required": true,
+        "description": "Username of the user"
+      },
+      {
+        "name": "clientguid",
+        "is_required": true,
+        "description": "An unique string per request"
+      },
+      {
+        "name": "smartloginemailtemplate",
+        "is_required": false,
+        "description": "Email template for the Smart Login link"
+      },
+      {
+        "name": "welcomeemailtemplate",
+        "is_required": false,
+        "description": "Email template for welcome email."
+      },
+	  {
+        "name": "redirecturl",
+        "is_required": false,
+        "description": "Redirect URL after login."
+      }
+    ]
+  },
+    "outputFormat": {
+             "IsPosted": true
+    }
+}

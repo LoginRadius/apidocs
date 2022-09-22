@@ -1,0 +1,33 @@
+{ "name": "Admin Console Release 25.9.0",
+    "description":"This release of the Admin Console brings you new features and improvements. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Added the ability to configure multiple SMTP in Admin Console."
+            },
+            {
+                "text": "Added ability to view and edit Advanced profile fields under the Customer Management in the Admin Console."
+            },
+            {
+                "text": "Option to check the SAML configuration error Logs under the Platform Configuration >Access Configuration > Federated SSO > Logs section of Admin Console."
+            },
+            {
+                "text": "Webhook Configuration change will be captured under the Audit Logs section in the Admin Console."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "We have removed the  Dev/Staging/Sandbox Website URL option available under the Deployment > Apps > Web Apps of Admin Console."
+            },
+            {
+                "text": "Added the AllowSSOLoginOnly option under Team management > Single-Sign-On in the Admin Console to allow login to the Admin console using SSO only."
+            },
+            {
+                "text": "We have added the option in the Admin Console’s IDX section for managing the jQuery version via UI ."
+            }
+        ]},
+
+    "auther": "Bhavya Tugnawat",
+    "created_date": "2022-08-23",
+    "status": "public"
+}

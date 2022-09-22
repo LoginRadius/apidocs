@@ -1,0 +1,47 @@
+{
+    "name": "Account Block Unblock",
+    "domain": "https://api.loginradius.com",
+    "path": "/raas/v1/account/status",
+    "method": "POST",
+    "getparams": {
+        "appkey*": "@apikey@",
+        "appsecret*": "@secret@",
+        "accountid*": ""
+    },
+    "postparams": {
+        "isblock": ""
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to block or unblock a Users account. It prevents them from logging in or registering for a new account.",
+    "parameters": {
+    "Get Params": [
+        {
+            "name": "api_key",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+        },
+        {
+            "name": "api_secret",
+            "is_required": true,
+            "description": "LoginRadius API Secret"
+        },
+        {
+            "name": "accountid",
+            "is_required": true,
+            "description": "User's accountid"
+        }
+    ],
+    "Post Params": [
+        {
+            "name": "isblock",
+            "is_required": true,
+            "description": "Pass true if you want to block a user else pass false"
+        }
+    ]},
+    "outputFormat": {
+    "isPosted": true
+}
+}

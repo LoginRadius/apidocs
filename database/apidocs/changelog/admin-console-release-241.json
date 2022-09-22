@@ -1,0 +1,22 @@
+{
+    "name": "Admin Console Release 24.1",
+    "description": "This release of the Admin Console brings you a new feature and a few bug fixes, see below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [{
+                "text": "New Data Migration feature under the <a href='https://adminconsole.loginradius.com/deployment/migration/data-migration'> Deployment </a> section, allowing you to perform limited self-service data migrations. Refer to the <a href='/docs/customer-management/data-migration/'> Data Migration document </a> for more details."
+        }
+            ],
+
+    "FIXED": [{
+                "text": "All the Custom fields (Active/Inactive) are visible in the <a href='https://adminconsole.loginradius.com/profile-management/customer-management/search-customers'> Admin Console </a> under the Customer Management section."
+    },
+              {
+                "text": "Uploading a file with the same name will reflect the changes on the  <a href='https://adminconsole.loginradius.com/deployment/identity-experience-framework-hosted'> IDX </a> page now."
+    }
+        ]
+    },
+
+"auther": "Swati",
+"created_date": "2020-05-18",
+"status": "public"
+}

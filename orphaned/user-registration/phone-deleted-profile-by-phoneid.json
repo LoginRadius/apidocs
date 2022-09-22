@@ -1,0 +1,35 @@
+{
+  "name": "Phone Deleted Profile by Phone ID",
+  "domain": "https://api.loginradius.com",
+  "path": "/api/v2/identity/archived",
+  "method": "GET",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "apisecret*": "@secret@",
+    "phone*": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API is used to retrieve all of the profile data, associated with the account by Phone ID in Cloud Directory.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "Login Radius API Key"
+      },
+      {
+        "name": "apisecret",
+        "is_required": true,
+        "description": "Uniquely generated identifier key by LoginRadius"
+      },
+      {
+        "name": "phone",
+        "is_required": true,
+        "description": "Phone ID, Unique Phone Number Identifier of the user"
+      }
+    ]
+  }
+}

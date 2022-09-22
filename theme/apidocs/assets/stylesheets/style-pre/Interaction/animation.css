@@ -1,0 +1,25 @@
+.animation-target {
+  -webkit-animation: animation 3000ms linear both;
+  animation: animation 3000ms linear both;
+}
+
+/* Generated with Bounce.js. Edit at https://goo.gl/ynck9V */
+
+@-webkit-keyframes animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  4.9% { -webkit-transform: matrix3d(1.094, 0, 0, 0, 0, 1.094, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.094, 0, 0, 0, 0, 1.094, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  9.81% { -webkit-transform: matrix3d(1.115, 0, 0, 0, 0, 1.115, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.115, 0, 0, 0, 0, 1.115, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  32.43% { -webkit-transform: matrix3d(1.034, 0, 0, 0, 0, 1.034, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.034, 0, 0, 0, 0, 1.034, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  54.95% { -webkit-transform: matrix3d(1.004, 0, 0, 0, 0, 1.004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.004, 0, 0, 0, 0, 1.004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+@keyframes animation { 
+  0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  4.9% { -webkit-transform: matrix3d(1.094, 0, 0, 0, 0, 1.094, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.094, 0, 0, 0, 0, 1.094, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  9.81% { -webkit-transform: matrix3d(1.115, 0, 0, 0, 0, 1.115, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.115, 0, 0, 0, 0, 1.115, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  32.43% { -webkit-transform: matrix3d(1.034, 0, 0, 0, 0, 1.034, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.034, 0, 0, 0, 0, 1.034, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  54.95% { -webkit-transform: matrix3d(1.004, 0, 0, 0, 0, 1.004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.004, 0, 0, 0, 0, 1.004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+

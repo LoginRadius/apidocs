@@ -1,0 +1,49 @@
+{
+    "name": "Send MFA Email OTP by Access Token",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/auth/account/2fa/otp/email",
+    "method": "GET",
+    "getparams": {
+      "apikey*": "@apikey@",
+      "emailid*":"",
+      "access_token*": "",
+      "EmailTemplate2FA":""
+     
+    },
+    "headers": {
+      "content-Type": "application/json"
+
+    },
+    "response": "json",
+    "description": "This API is created to send the OTP to the email if email OTP authenticator is enabled in app's MFA configuration.",
+    
+    "parameters": {
+      "Get Params": [{
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "Authorization",
+        "is_required": true,
+        "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+    },
+    {
+        "name": "EmailID",
+        "is_required": true,
+        "description": "OTP will be send to this emailId. It should be part of profile."
+    },
+
+        {
+          "name": "EmailTemplate2FA",
+          "is_required": false,
+          "description": "Name of the customized email template"
+        }
+        
+      ]
+    },
+    "outputFormat": {
+    "IsPosted": true
+  }
+  }
+  

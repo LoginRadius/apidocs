@@ -1,0 +1,64 @@
+{
+    "name": "Get Trackable Status Stats",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/status/trackable/js",
+    "method": "GET",
+    "getparams": {
+        "access_token*": "",
+        "status*": "",
+        "title": "",
+        "url": "",
+        "imageurl": "",
+        "caption": "",
+        "description": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "The Trackable status API works very similar to the Status API but it returns a Post id that you can use to track the stats(shares, likes, comments) for a specific share/post/status update. This API requires setting permissions in your LoginRadius Admin Console.<br><br> The Trackable Status API is used to update the status on the user’s wall and return an Post ID value. It is commonly referred to as Permission based sharing or Push notifications.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "access_token",
+                "is_required": true,
+                "description": "Login Radius Access Token"
+            },
+            {
+                "name": "status",
+                "is_required": true,
+                "description": "Status"
+            },
+            {
+                "name": "title",
+                "is_required": true,
+                "description": "Title of the status"
+            },
+            {
+                "name": "url",
+                "is_required": true,
+                "description": "URL of status"
+            },
+            {
+                "name": "imageurl",
+                "is_required": true,
+                "description": "Image URL"
+            },
+            {
+                "name": "caption",
+                "is_required": true,
+                "description": "Caption of status"
+            },
+            {
+                "name": "description",
+                "is_required": true,
+                "description": "Description of status"
+            }
+        ]
+    },
+    "outputFormat": {
+        "Id": "5a8*******1cc*******8b18",
+        "Url": null
+    }
+}

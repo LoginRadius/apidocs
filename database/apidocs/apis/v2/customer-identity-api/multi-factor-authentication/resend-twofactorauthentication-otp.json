@@ -1,0 +1,37 @@
+{
+  "name": "Resend TwoFactorAuthentication OTP",
+  "domain":"https://api.loginradius.com",
+  "path":"/identity/v2/auth/login/2fa/resend",
+  "method":"GET",
+  "getparams":{
+    "apikey*":"@apikey@",
+    "secondfactorauthenticationtoken*":"",
+    "smstemplate2fa":""
+  },
+  "postparams":"",
+  "headers":{
+    "content-Type":"application/x-www-form-urlencoded"
+  },
+  "response":"json",
+  "description": "This API is used to resend the twofactorauthentication otp to logging-in via SmsAuthenticator",
+  "parameters": {
+    "Get Params": [{
+      "name": "apikey",
+      "is_required": true,
+      "description": "LoginRadius API Key"
+    }, {
+      "name": "secondfactorauthenticationtoken",
+      "is_required": true,
+      "description": "SecondFactorAuthenticationToken from the response of 2FA authentication API"
+    }, {
+      "name": "smstemplate2fa",
+      "is_required": false,
+      "description": "SMS Template Name (This template is used for 2FA OTP template)"
+    }]
+  },
+  "outputFormat": {
+  
+    "AccountSid": null,
+    "Sid": "8071aba1-2aa4-4878-9997-381129f561b1"
+}
+}

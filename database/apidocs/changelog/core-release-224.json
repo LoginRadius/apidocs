@@ -1,0 +1,29 @@
+{
+  "name": "LoginRadius API Core Release V22.4.0",
+  "description": "We have just launched the LoginRadius API V2 Core Release 22.4.0 which brings a range of use-case specific features, allowing greater customizability in your workflows.",
+  "changelog": {
+  "ADDED": [
+      {
+        "text": "Access Token via Google AuthCode API: We have added this new API to allow you to obtain an access_token via the Google Authorization Code for your Android customers. <a href=\"https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-google-auth-code\">click here</a> for details."
+      },
+      {
+        "text": "Prevent the Refreshing of Invalidated Access Tokens: We have added a new optional <b>preventRefresh </b>parameter to the <a href=\"https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-invalidate-access-token\">Access Token Invalidate API</a> allowing you to revoke the capability of refreshing a session when the access_token is invalidated."
+      },
+	    {
+        "text": "PreviousUids field: The PreviousUids field is now included in the social profiles when receiving an API response, this field allows you to see if the social profile was previously under a different Account UID."
+      }  ],
+  "IMPROVED": [
+      {
+        "text": "Extension header for the Google Album APIs: As Google will be deprecating the Picasa Album APIs, we have added an extension header in the Picasa APIs as suggested by Google to continue support for these APIs until the deadline of March 2019."
+      },
+      {
+        "text": "Access Token via Google Token API: We have added two new optional parameters to support token refresh via a mobile device, more details <a href=\"https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-google-token\">here</a>."
+      }],
+  "FIXED": [
+      {
+        "text": "Duplicate Welcome Email Issue: As certain implementation flows would result in sending duplicate Welcome emails by default, we've removed sending the Welcome email as a default on the Auth Verify Email API, please refer to the <a href=\"https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-send-welcome-email\">Auth Send Welcome Email</a> to send the Welcome email."
+      } ]},
+  "auther": "Pascal",
+  "created_date": "2019-1-09",
+  "status": "public"
+}

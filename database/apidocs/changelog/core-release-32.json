@@ -1,0 +1,12 @@
+{
+    "name": "Core Release 3.2",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "Major performance improvements in product"
+            }]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2013-11-1",
+    "status": "public"
+}

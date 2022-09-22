@@ -1,0 +1,46 @@
+{
+    "name": "Core Release 9.6",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Major performance enahancements"
+            },
+            {
+                "text": "FirstLogin field inroduced in userprofile"
+            },
+            {
+                "text": "Restrict number of email sending daily by setting up frequency option."
+            },
+            {
+                "text": "Custom expiration of email verifcation link"
+            },
+            {
+                "text": "Custom validation rules option using Regex"
+            },
+            {
+                "text": "New Cloud Directory API"
+            },
+            {
+                "text": "Removed support of old insights API"
+            }
+        ],
+        "FIXED": [
+            {
+                "text": "Email case sensitivity issues"
+            },
+            {
+                "text": "In rare case VK profile was coming with all null values"
+            },
+            {
+                "text": "Email verifcation link issues with Hash url"
+            },
+            {
+                "text": "Social login safari private mode issue"
+            }
+        ]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2015-6-1",
+    "status": "public"
+}

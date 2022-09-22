@@ -1,0 +1,736 @@
+{
+  "name": "Account Create",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/manage/account",
+  "method": "POST",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "apisecret*": "@secret@"
+  },
+  "postparams": {
+    "Prefix": "",
+    "FirstName": "Test",
+    "MiddleName": null,
+    "LastName": "Account",
+    "Suffix": null,
+    "FullName": "Test Account",
+    "NickName": null,
+    "ProfileName": null,
+    "BirthDate": "10-12-1985",
+    "Gender": "M",
+    "Website": null,
+    "Email": [
+      {
+        "Type": "Primary",
+        "Value": "example@example.com"
+      }
+    ],
+    "Country": {
+      "Code": "",
+      "Name": "India"
+    },
+    "ThumbnailImageUrl": null,
+    "ImageUrl": null,
+    "Favicon": null,
+    "ProfileUrl": null,
+    "HomeTown": null,
+    "State": "Alberta",
+    "City": "Edmonton",
+    "Industry": null,
+    "About": null,
+    "TimeZone": null,
+    "LocalLanguage": null,
+    "CoverPhoto": null,
+    "TagLine": null,
+    "Positions": [
+      {
+        "Positions": "astronaut",
+        "Summary": "An astronaut.",
+        "StartDate": "",
+        "EndDate": "",
+        "IsCurrent": "",
+        "Location": "",
+        "Company": {
+          "Name": "",
+          "Type": "",
+          "Industry": ""
+        }
+      }
+    ],
+    "Educations": [
+      {
+        "School": null,
+        "year": null,
+        "type": null,
+        "notes": null,
+        "activities": null,
+        "degree": null,
+        "fieldofstudy": null,
+        "StartDate": null,
+        "EndDate": null
+      }
+    ],
+    "PhoneNumbers": [
+      {
+        "PhoneType": "Mobile",
+        "PhoneNumber": "18882052816"
+      }
+    ],
+    "IMAccounts": [
+      {
+        "AccountType": null,
+        "AccountName": null
+      }
+    ],
+    "Addresses": [
+      {
+        "Type": "Primary",
+        "Address1": null,
+        "Address2": null,
+        "City": "Edmonton",
+        "State": "Alberta",
+        "PostalCode": null,
+        "Region": null,
+        "Country": "Canada"
+      }
+    ],
+    "MainAddress": null,
+    "LocalCity": null,
+    "ProfileCity": "Edmonton",
+    "LocalCountry": null,
+    "ProfileCountry": "Canada",
+    "IsProtected": false,
+    "RelationshipStatus": null,
+    "Quota": null,
+    "Quote": null,
+    "InterestedIn": [
+      "blah",
+      "blah"
+    ],
+    "Interests": [
+      {
+        "InterestedType": null,
+        "InterestedName": null
+      }
+    ],
+    "Religion": null,
+    "Political": null,
+    "Sports": [
+      {
+        "Id": null,
+        "Name": null
+      }
+    ],
+    "InspirationalPeople": [
+      {
+        "Id": null,
+        "Name": null
+      }
+    ],
+    "HttpsImageUrl": null,
+    "FollowersCount": 0,
+    "FriendsCount": 0,
+    "IsGeoEnabled": null,
+    "TotalStatusesCount": 0,
+    "Associations": null,
+    "NumRecommenders": 0,
+    "Honors": null,
+    "Awards": null,
+    "Skills": null,
+    "CurrentStatus": null,
+    "Certifications": null,
+    "Courses": null,
+    "Volunteer": null,
+    "RecommendationsReceived": null,
+    "Languages": null,
+    "Projects": null,
+    "Games": null,
+    "Family": null,
+    "TeleVisionShow": null,
+    "MutualFriends": null,
+    "Movies": null,
+    "Books": null,
+    "AgeRange": null,
+    "PublicRepository": null,
+    "Hireable": false,
+    "RepositoryUrl": null,
+    "Age": null,
+    "Patents": null,
+    "FavoriteThings": null,
+    "ProfessionalHeadline": null,
+    "ProviderAccessCredential": null,
+    "RelatedProfileViews": null,
+    "KloutScore": null,
+    "LRUserID": null,
+    "PlacesLived": null,
+    "Publications": null,
+    "JobBookmarks": null,
+    "Suggestions": null,
+    "Badges": null,
+    "MemberUrlResources": null,
+    "TotalPrivateRepository": 0,
+    "Currency": null,
+    "StarredUrl": null,
+    "GistsUrl": null,
+    "PublicGists": 0,
+    "PrivateGists": 0,
+    "Subscription": null,
+    "Company": null,
+    "GravatarImageUrl": null,
+    "ProfileImageUrls": null,
+    "WebProfiles": {
+      "Small": "https://graph.facebook.com/*****/picture?type=small",
+      "Square": "https://graph.Profile.com/*****/picture?type=square",
+      "Large": "https://graph.facebook.com/*****/picture?type=large",
+      "Profile": "https://graph.facebook.com/******/picture?type=normal"
+    },
+    "Password": "xxxxxxxxxxxx",
+    "CustomFields": null,
+    "IsEmailSubscribed": false,
+    "UserName": null,
+    "PhoneId": "xxxxxxxxxxxxxxx"
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API is used to create an account in Cloud Directory. This API bypasses the normal email verification process and manually creates the user. In order to use this API, you need to format a JSON request body with all of the mandatory fields.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "Login Radius API Key"
+      },
+      {
+        "name": "apisecret",
+        "is_required": true,
+        "description": "LoginRadius API Secret"
+      }
+    ],
+    "Post Params": [
+      {
+        "name": "Email",
+        "is_required": true,
+        "description": "Email of the user"
+      },
+      {
+        "name": "Password",
+        "is_required": true,
+        "description": "Password of the user"
+      },
+      {
+        "name": "FirstName",
+        "is_required": false,
+        "description": "FirstName of the user"
+      },
+      {
+        "name": "LastName",
+        "is_required": false,
+        "description": "LastName of the user"
+      },
+      {
+        "name": "Gender",
+        "is_required": false,
+        "description": "Gender of the user"
+      },
+      {
+        "name": "BirthDate",
+        "is_required": false,
+        "description": "BirthDate of the user"
+      },
+      {
+        "name": "Country",
+        "is_required": false,
+        "description": "Country of the user"
+      },
+      {
+        "name": "City",
+        "is_required": false,
+        "description": "City of the user"
+      },
+      {
+        "name": "State",
+        "is_required": false,
+        "description": "State of the user"
+      },
+      {
+        "name": "CustomFields",
+        "is_required": false,
+        "description": "Custom fields as you have set on your LoginRadius Admin Console."
+      }
+    ]
+  },
+  "outputFormat": {
+    "Password": "********************",
+    "LastPasswordChangeDate": "2018-03-05T22:13:36.48263Z",
+    "PasswordExpirationDate": "2028-02-07T19:02:55.803Z",
+    "LastPasswordChangeToken": "1542daac-4df0-4270-b5b5-5d7922492d7e",
+    "EmailVerified": false,
+    "IsActive": true,
+    "IsDeleted": false,
+    "Uid": "ffa5884ec3a943db8b5484f0d18e2fde",
+    "CustomFields": {
+      "CustomField1": "Custom data value 1 ",
+      "CustomField2": "Custom data value 2"
+    },
+    "IsEmailSubscribed": false,
+    "UserName": "Johndoe123",
+    "NoOfLogins": 7,
+    "PreviousUids": "61432e56***1495e89d3a100e36aeb8b",
+    "PhoneId": "+16045552368",
+    "PhoneIdVerified": false,
+    "ExternalUserLoginId": "Johndoe123",
+    "RegistrationProvider": "Email",
+    "IsLoginLocked": false,
+    "LoginLockedType": "None",
+    "LastLoginLocation": "Vancouver, Canada",
+    "RegistrationSource": "API",
+    "IsCustomUid": false,
+    "UnverifiedEmail": [
+      {
+        "Type": "Secondary",
+        "Value": "abc@example.com"
+      }
+    ],
+    "IsSecurePassword": true,
+    "ID": "0e0d1f048d8844408315aeb100f39649",
+    "Provider": "Email",
+    "Prefix": "Dr.",
+    "FirstName": "John",
+    "MiddleName": "Doe",
+    "LastName": "Order",
+    "Suffix": "Sr.",
+    "FullName": "John Doe Order",
+    "NickName": "Johnny",
+    "ProfileName": "Johnny",
+    "BirthDate": "10-12-1985",
+    "Gender": "M",
+    "Website": "www.example.com",
+    "Email": [
+      {
+        "Type": "Primary",
+        "Value": "example@example.com"
+      }
+    ],
+    "Country": {
+      "Code": "ca",
+      "Name": "Canada"
+    },
+    "ThumbnailImageUrl": "https://example.com/image_thumb.png",
+    "ImageUrl": "https://example.com/image_full.png",
+    "Favicon": "https://example.com/image_fav.png",
+    "ProfileUrl": "https://example.com/profile",
+    "HomeTown": "Vancouver",
+    "State": "British-Columbia",
+    "City": "Vancouver",
+    "Industry": "IT",
+    "About": "I keep track of the latest trends",
+    "TimeZone": "-8",
+    "LocalLanguage": "en-US",
+    "CoverPhoto": "https://example.com/profile/cover/cover_img.png",
+    "TagLine": "To be or not to be, that is the question",
+    "Language": "en-US",
+    "Verified": true,
+    "UpdatedTime": "2018-02-06T19:02:55.803Z",
+    "Positions": [
+      {
+        "Position": "astronaut",
+        "Summary": "An astronaut.",
+        "StartDate": "2008-02-07T19:02:55.803Z",
+        "EndDate": "2015-02-07T19:02:55.803Z",
+        "IsCurrent": "false",
+        "Location": "Houston",
+        "Comapny": {
+          "Name": "NASA",
+          "Type": "astronaut",
+          "Industry": "National secure"
+        },
+        "Company": {
+          "Name": "NASA",
+          "Type": "astronaut",
+          "Industry": "National secure"
+        }
+      }
+    ],
+    "Educations": [
+      {
+        "School": "UCL",
+        "year": "2010",
+        "type": "student",
+        "notes": "great",
+        "activities": "sports",
+        "degree": "master",
+        "fieldofstudy": "astronaut",
+        "StartDate": "2004-02-07T19:02:55.803Z",
+        "EndDate": "2005-02-07T19:02:55.803Z"
+      }
+    ],
+    "PhoneNumbers": [
+      {
+        "PhoneType": "Mobile",
+        "PhoneNumber": "+16045552368"
+      }
+    ],
+    "IMAccounts": [
+      {
+        "AccountType": "primary",
+        "AccountName": "Example"
+      }
+    ],
+    "Addresses": [
+      {
+        "Type": "Primary",
+        "Address1": "1281 West Mall",
+        "Address2": "Room 121",
+        "City": "Edmonton",
+        "State": "Alberta",
+        "PostalCode": "546841",
+        "Region": "Myself",
+        "Country": "Canada"
+      }
+    ],
+    "MainAddress": "1281 West Mall rm 121",
+    "Created": "5/20/2008 12:33:35 AM +00:00",
+    "CreatedDate": "2018-03-05T22:13:36.2013716Z",
+    "ModifiedDate": "2018-03-05T22:13:36.48263Z",
+    "LocalCity": "Vancouver",
+    "ProfileCity": "Vancouver",
+    "LocalCountry": "Canada",
+    "ProfileCountry": "Canada",
+    "FirstLogin": false,
+    "IsProtected": false,
+    "RelationshipStatus": "Single",
+    "Quota": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "InterestedIn": [
+      "female"
+    ],
+    "Interests": [
+      {
+        "InterestedType": "Sports",
+        "InterestedName": "Badminton"
+      }
+    ],
+    "Religion": "Undecided",
+    "Political": "Undecided",
+    "Sports": [
+      {
+        "Id": "23423534563463466",
+        "Name": "Badminton"
+      }
+    ],
+    "InspirationalPeople": [
+      {
+        "Id": "234523234323423423432424",
+        "Name": "Bill Gates"
+      }
+    ],
+    "HttpsImageUrl": "https://www.example.com/profile/image.png",
+    "FollowersCount": 70,
+    "FriendsCount": 800,
+    "IsGeoEnabled": "false",
+    "TotalStatusesCount": 11,
+    "Associations": "Board of Canada",
+    "NumRecommenders": 3,
+    "Honors": "Valedictorian",
+    "Awards": [
+      {
+        "Id": "001",
+        "Name": "One of Smith",
+        "Issuer": "Lord Smith"
+      }
+    ],
+    "Skills": [
+      {
+        "Id": "123",
+        "Name": "C++"
+      }
+    ],
+    "CurrentStatus": [
+      {
+        "Id": "328",
+        "Text": "Gone for help",
+        "Source": "examplesource",
+        "CreateDate": "2006-02-07T19:02:55.803Z"
+      }
+    ],
+    "Certifications": [
+      {
+        "Id": "512",
+        "Name": "Engineer certification",
+        "Authority": "The Great Engineer Association",
+        "Number": "1",
+        "StartDate": "2006-02-07T19:02:55.803Z",
+        "EndDate": "2007-02-07T19:02:55.803Z"
+      }
+    ],
+    "Courses": [
+      {
+        "Id": "888",
+        "Name": "Advanced Algorithm",
+        "Number": "1"
+      }
+    ],
+    "Volunteer": [
+      {
+        "Id": "456",
+        "Role": "Teacher",
+        "Organization": "The Great Wall",
+        "Cause": "Teaching people to defend the Wall"
+      }
+    ],
+    "RecommendationsReceived": [
+      {
+        "Id": "846",
+        "RecommendationType": "Primary",
+        "RecommendationText": "The Great Wall",
+        "Recommender": "King"
+      }
+    ],
+    "Languages": [
+      {
+        "Id": "484",
+        "Name": "Latin",
+        "Proficiency": "Business"
+      }
+    ],
+    "Projects": [
+      {
+        "Id": "789",
+        "Name": "Night Watcher",
+        "Summary": "Defend the wall",
+        "With": [
+          {
+            "Id": "555",
+            "Name": "Meng"
+          }
+        ],
+        "StartDate": "2010-02-07T19:02:55.803Z",
+        "EndDate": "2011-02-07T19:02:55.803Z",
+        "isCurrent": "false"
+      }
+    ],
+    "Games": [
+      {
+        "Id": "777",
+        "Name": "Battleship",
+        "Category": "Strategy",
+        "CreateDate": "2010-10-07T19:02:55.803Z"
+      }
+    ],
+    "Family": [
+      {
+        "Id": "055",
+        "Name": "Robb Smith",
+        "Relationship": "Brother"
+      },
+      {
+        "Id": "056",
+        "Name": "Eddard Smith",
+        "Relationship": "Father"
+      }
+    ],
+    "TeleVisionShow": [
+      {
+        "Id": "777",
+        "Name": "Getting out",
+        "Category": "Comedy",
+        "CreateDate": "2011-02-07T19:02:55.803Z"
+      }
+    ],
+    "MutualFriends": [
+      {
+        "Id": "060",
+        "Name": "Robb Smith",
+        "FirstName": "Robb",
+        "LastName": "Smith",
+        "Birthday": "2000-08-24T12:21:41.808Z",
+        "Hometown": "Vancouver",
+        "Link": "classmate",
+        "Gender": "M"
+      },
+      {
+        "Id": "061",
+        "Name": "Sansa Smith",
+        "FirstName": "Sansa",
+        "LastName": "Smith",
+        "Birthday": "2000-08-24T12:21:41.808Z",
+        "Hometown": "Vancouver",
+        "Link": "classmate",
+        "Gender": "F"
+      }
+    ],
+    "Movies": [
+      {
+        "Id": "788",
+        "Name": "Le Voyage dans la Lune",
+        "Category": "Sci-Fi",
+        "CreateDate": "2017-02-07T19:02:55.803Z"
+      }
+    ],
+    "Books": [
+      {
+        "Id": "788",
+        "Name": "Macbeth",
+        "Category": "Theatre",
+        "CreateDate": "2000-01-15T19:02:55.803Z"
+      }
+    ],
+    "AgeRange": {
+      "Min": "15",
+      "Max": "20"
+    },
+    "PublicRepository": 5,
+    "Hireable": false,
+    "RepositoryUrl": "https://api.example.com/users/johnnyd/repos",
+    "Age": "32",
+    "Patents": [
+      {
+        "Id": "516",
+        "Title": "Machine that flies",
+        "Date": "2009-02-07T19:02:55.803Z"
+      }
+    ],
+    "FavoriteThings": [
+      {
+        "Id": "781",
+        "Name": "BasketBall",
+        "Type": "Sports"
+      }
+    ],
+    "ProfessionalHeadline": "Always, ready",
+    "ProviderAccessCredential": {
+      "AccessToken": "**************************************",
+      "TokenSecret": "**************************************"
+    },
+    "RelatedProfileViews": [
+      {
+        "Id": "884",
+        "FirstName": "Jemery",
+        "LastName": "Fir"
+      }
+    ],
+    "KloutScore": {
+      "KloutId": "51656",
+      "Score": "52.0"
+    },
+    "LRUserID": "user32134",
+    "PlacesLived": [
+      {
+        "Name": "Allision road",
+        "IsPrimary": "True"
+      }
+    ],
+    "Publications": [
+      {
+        "Id": "51656",
+        "Title": "ASA",
+        "Publisher": "Fisher",
+        "Authors": [
+          {
+            "Id": "51",
+            "Name": "Darker"
+          }
+        ],
+        "Date": "1997-02-07T19:02:55.803Z",
+        "Url": "whatwebsite.com",
+        "Summary": "What would you do as soon as you can?"
+      }
+    ],
+    "JobBookmarks": [
+      {
+        "IsApplied": "true",
+        "ApplyTimestamp": "541",
+        "IsSaved": "false",
+        "SavedTimestamp": "588",
+        "Job": {
+          "Active": "true",
+          "Id": "51",
+          "DescriptionSnippet": "Darker",
+          "Compony": {
+            "Id": "489",
+            "Name": "Night Watch"
+          },
+          "Position": {
+            "Title": "Commander"
+          },
+          "PostingTimestamp": "988"
+        }
+      }
+    ],
+    "Suggestions": {
+      "CompaniestoFollow": [
+        {
+          "Id": "568",
+          "Name": "Amazon"
+        }
+      ],
+      "IndustriestoFollow": [
+        {
+          "Id": "695",
+          "Name": "Software"
+        }
+      ],
+      "NewssourcetoFollow": [
+        {
+          "Id": "352",
+          "Name": "NewYorkFans"
+        }
+      ],
+      "PeopletoFollow": [
+        {
+          "Id": "845",
+          "Name": "Anna Smith"
+        }
+      ]
+    },
+    "Badges": [
+      {
+        "BadgeId": "531",
+        "Name": "MVP",
+        "BadgeMessage": "Most Valuable Person",
+        "Description": "An award to triple double",
+        "ImageUrl": "www.imageMVP.com"
+      }
+    ],
+    "MemberUrlResources": [
+      {
+        "Url": "www.memberurl.com",
+        "UrlName": "MemberURL"
+      }
+    ],
+    "TotalPrivateRepository": 0,
+    "Currency": "CAD",
+    "StarredUrl": "www.image.com",
+    "GistsUrl": "www.gists.com",
+    "PublicGists": 0,
+    "PrivateGists": 0,
+    "Subscription": {
+      "Name": "test",
+      "Space": "none",
+      "PrivateRepos": "testRepo1",
+      "Collaborators": "John"
+    },
+    "Company": "Night Watch",
+    "GravatarImageUrl": "www.gravatar.com/avatar/*********************",
+    "ProfileImageUrls": {
+      "Image Url": "https://example.com.com/*****/picture?type=small",
+      "ThumbnailImage Url": "https://example.com/*****/picture?type=square"
+    },
+    "WebProfiles": {
+      "Small": "https://graph.facebook.com/*****/picture?type=small",
+      "Square": "https://graph.Profile.com/*****/picture?type=square",
+      "Large": "https://graph.facebook.com/*****/picture?type=large",
+      "Profile": "https://graph.facebook.com/******/picture?type=normal"
+    },
+    "PinsCount": 2,
+    "BoardsCount": 3,
+    "LikesCount": 20,
+    "SignupDate": "2018-03-05T22:13:36.2013716Z",
+    "LastLoginDate": "0001-01-01T00:00:00",
+    "Identities": [
+      "&ltArray of Identities&gt"
+    ]
+  }
+}

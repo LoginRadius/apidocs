@@ -1,0 +1,16 @@
+{
+  "name": "LoginRadius API Core Release V18.4.0",
+  "description": "In this release, we bring new API capabilities that make it easier to work with the existing APIs, along with a few exciting new features",
+  "changelog": {
+  "ADDED": [{
+        "text": "Account Email Add/Update: You can use this new API call to easily add or update emails from a user profile."
+      },{
+        "text": "Disable Custom Object Client-side Access: In order to improve custom object security and usability, we’ve added the ability to restrict custom object access to only API calls that are not a part of our front-end authentication APIs. You can set this option with the body parameter 'IsClientSideDisable' when creating a custom object."
+      },
+      {
+        "text": "Custom Scopes and External Permissions Enhancement: The social login/registration parameter 'is_custom_scope' can be used to pass only specified custom scopes and ignore the default ones."
+      }]    },
+  "auther": "Pascal",
+  "created_date": "2017-10-13",
+  "status": "public"
+}

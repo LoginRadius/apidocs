@@ -1,0 +1,134 @@
+/*---Navigation overwrite---*/
+
+header.md-header {
+  height: 58px !important;
+}
+
+header {
+  margin-left: auto;
+}
+
+header nav.md-header-nav {
+  padding: 0 2rem;
+}
+
+header nav.md-grid {
+  max-width: calc(112rem - (2rem * 2));
+  margin-right: auto;
+}
+
+header .md-flex {
+  display: inline-block;
+  position: relative;
+  min-width: 770px;
+}
+
+header .logo {
+  padding-top: 15px;
+  display: inline-block;
+}
+
+header .logo img {
+  margin-right: 0;
+  float: none;
+  height: auto;
+}
+
+header .logo a.md-icon.md-header-nav__button {
+  width: 104px;
+  height: 25px;
+}
+
+header .logo a.md-icon.md-header-nav__button:after {
+  content: "docs";
+  display: inline-block;
+  position: absolute;
+  padding-left: 4px;
+  padding-top: 3px;
+  top: 14px;
+  right: 0;
+  bottom: 0;
+  height: 16px;
+  font-size: 16px;
+  color: #06b0ef;
+  font-weight: 500;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+header .md-flex__cell {
+  display: inline-block;
+}
+
+header .md-flex__cell .md-flex__ellipsis {
+  display: inline-block;
+}
+
+header .md-flex__cell .md-flex__ellipsis .material_sel-box {
+  float: none;
+}
+
+header .md-flex__cell:last-of-type {
+  position: absolute;
+  right: 0;
+}
+
+header .md-flex__cell--shrink {
+  width: auto;
+}
+
+@media only screen and (max-width: 76.1875em) {
+  header .md-flex__cell--shrink .md-nav--primary, header .md-flex__cell--shrink .md-nav {
+    display: line-block;
+    background-color: initial;
+    position: relative;
+  }
+}
+
+header .md-flex__cell--shrink .md-nav--primary .md-header-nav__title, header .md-flex__cell--shrink .md-nav .md-header-nav__title {
+  display: inline-block;
+}
+
+header .md-flex__cell--shrink .md-nav--primary .md-header-nav__title a, header .md-flex__cell--shrink .md-nav .md-header-nav__title a {
+  font-size: 15px;
+  line-height: 55px;
+  margin: 0;
+  padding-right: 16px;
+  color: #0a2135;
+  transition: all 0.3s ease-in-out;
+}
+
+header .md-flex__cell--shrink .md-nav--primary .md-header-nav__title a:hover, header .md-flex__cell--shrink .md-nav .md-header-nav__title a:hover {
+  color: #06b0ef;
+}
+
+header .md-flex__cell--shrink .md-header-nav__button.md-icon--search {
+  display: inline-block;
+  position: static;
+  top: -1.5px;
+  max-width: 40px;
+}
+
+.md-icon--search:before {
+  color: #939da3 !important;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: 18px;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+span.algolia-autocomplete input {
+  width: auto !important;
+}
+
+.algolia-autocomplete {
+  top: -23px;
+}
+
+.algolia-autocomplete input {
+  background: rgba(255, 255, 255, 0) !important;
+  font-size: 15px;
+}

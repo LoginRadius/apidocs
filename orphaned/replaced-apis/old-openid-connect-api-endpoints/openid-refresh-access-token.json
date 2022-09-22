@@ -1,0 +1,60 @@
+{
+  "name": "Refresh Access Token",
+  "domain": "https://cloud-api.loginradius.com",
+  "path": "/sso/oidc/token",
+  "method": "POST",
+  "getparams": {},
+  "postparams": {
+    "grant_type": "refresh_token",
+    "client_id": "",
+    "client_secret": "",
+    "redirect_uri": "",
+    "response_type": "token",
+    "refresh_token": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API allows you to refresh an access_token",
+  "parameters": {
+    "Body Params": [{
+        "name": "grant_type",
+        "is_required": true,
+        "description": "This is the grant type to be used, you should provide 'refresh_token'"
+      },
+      {
+        "name": "client_id",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "client_secret",
+        "is_required": true,
+        "description": "LoginRadius API Secret"
+      },
+      {
+        "name": "redirect_uri",
+        "is_required": true,
+        "description": "Callback URL of your site where you want to redirect back your users"
+      },
+      {
+        "name": "response_type",
+        "is_required": false,
+        "description": "If used, you must pass 'token'"
+      },
+      {
+        "name": "refresh_token",
+        "is_required": true,
+        "description": "this is the refresh_token you received when you used the 'Access Token by OpenID Connect code' API call"
+      }
+    ]
+  },
+  "outputFormat": {
+    "access_token": "********-****-****-*****************",
+    "token_type": "access_token",
+    "Id_token": "eyJhbG**********4NiIsInR5cCI*****VCJ9.eyJpc3**********czy****udGVybmFsL***********WIubG9n",
+    "expires_in": 394,
+    "refresh_token": "********-****-****-*****************"
+  }
+}

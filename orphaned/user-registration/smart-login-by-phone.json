@@ -1,0 +1,44 @@
+{
+    "name": "Smart Login By Phone",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/login/smartlogin",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "phone*": "",
+        "clientguid*": "",
+        "smstemplate": ""
+    },
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API sends a Smart Login link to the user's Phone ID.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "phone",
+                "is_required": true,
+                "description": "Phone number of the user"
+            },
+            {
+                "name": "clientguid",
+                "is_required": true,
+                "description": "An unique string per request"
+            },
+            {
+                "name": "smstemplate",
+                "is_required": false,
+                "description": "SMS template."
+            }
+        ]
+    },
+    "outputFormat": {
+        "IsPosted": true
+    }
+}

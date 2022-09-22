@@ -1,0 +1,11 @@
+{
+    "name": "Core Release 2.0",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{"text": "Added following social providers : Amazon, Odonoclasiki, Salesforce, Paypal"}],
+        "FIXED": [{"text": "Console error in interface JavaScript"}]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2013-5-1",
+    "status": "public"
+}

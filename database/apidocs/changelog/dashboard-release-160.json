@@ -1,0 +1,37 @@
+{
+  "name": "Admin-console release 16.0",
+  "description": "This admin-console release includes a major redesign and UI improvements within User Management and User Insights, which includes the following changes",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Manage Users: The Registered Users tab in the Manage Users section (under User Management) now shows the top 10 registered user profiles."
+      },
+      {
+        "text": "Data Export: This feature has been updated with the ability to only export the fields that you have selected in case you’re only looking to retrieve specific data fields rather than the entire data set."
+      },
+      {
+        "text": "Segment Users: We’ve added a 'Basic Segmentation' tab that allows you to apply quick and simple filters for segmenting your users. The “Advanced Segmentation” has even more criteria you can set for more complex segmentation."
+      },
+      {
+        "text": "User Insights: We have redesigned and expanded the User Insights admin-console to include new sections such as “Login Analytics” and “Comparative Analytics”, along with even more user stats, charts, and graphs."
+      },
+      {
+        "text": "Quick and Full User Profile: You will now be able to choose between our new 'Quick View' or 'Full View' to see a user's profile. The quick view will contain key information while the Full View will display a complete profile, including custom fields and custom object."
+      },
+      {
+        "text": "Identity API: We have added a new section dedicated to our Identity API under 'Data Sync'. "
+      }
+    ],
+    "IMPROVED": [
+      {
+        "text": "User Insights: We have redesigned and expanded the User Insights admin-console to include new sections such as “Login Analytics” and “Comparative Analytics”, along with even more user stats, charts, and graphs. "
+      },
+      {
+        "text": "Configuration Sync: Configuration Sync now supports moving all of the standard configurations from one environment to the other."
+      }
+    ]
+  },
+  "auther": "Pascal",
+  "created_date": "2017-12-13",
+  "status": "public"
+}

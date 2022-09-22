@@ -1,0 +1,27 @@
+{ "name": "Admin Console Release 25.7.0",
+    "description":"This release of the Admin Console brings you new features and improvements. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Now, users can configure Custom Domain for IDX in the Admin Console."
+            },
+            {
+                "text": "You can enable or disable Case Sensitive Username, Social login via ping API, OTP Email Verification, IP Access Restriction, Step-up Authentication, etc. feature in the Admin Console."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "UI has been updated with a slider element for showing enabled/disbabled features, Advance workflow, Social Login, Custom Domain, Email Workflow, IP Access Restriction, Multi-Factor Authentication, and JS Widgets Setting in the Admin Console, etc."
+            },
+            {
+                "text": "Related Documents links have been added for all the respective sections of the Admin Console."
+            },
+            {
+                "text": "Reset button is added under Search and Blocked customer in the Customer Management in Admin Console."
+            }
+        ]},
+
+    "auther": "Bhavya Tugnawat",
+    "created_date": "2022-05-24",
+    "status": "public"
+}

@@ -1,0 +1,55 @@
+{"name": "Page", "domain":"https://api.loginradius.com",
+    "path": "/api/v2/page", "method": "GET", "getparams": {
+    "access_token*": "",
+    "pagename*": ""
+}, "postparams": "", "headers": {
+    "content-Type": "application/x-www-form-urlencoded"
+}, "response": "json",
+    "description": "The Page API is used to get the page data from the user’s social account.<br><br><b>Supported Providers:</b>  Facebook",
+    "parameters": {
+        "Get Params": [{
+            "name": "access_token",
+            "is_required": true,
+            "description": "Uniquely generated identifier key by LoginRadius that is activated after successful authentication."
+        },{
+            "name": "pagename",
+            "is_required": true,
+            "description": "Name of the page you want to retrieve info from"
+        }]
+    }
+    ,
+    "outputFormat": {
+  "ID": "5209**##*23497",
+  "Name": "Test",
+  "Url": "https://www.facebook.com/test/",
+  "Category": "Personal Website",
+  "Likes": null,
+  "Phone": "",
+  "Image": "https://example.xx.fbcdn.net/v/t1.0-1/p50x50/13907104_655733037918213_8811397138949895344_n.jpg?oh=0df8d70b581ea2695540b31ea9fb48c8&oe=5A47EB86",
+  "Website": "https://www.loginradius.com/",
+  "About": "Identity Secured and Simplified for Everyone",
+  "Description": "Email – example@example.com\nWebsite – https://www.loginradius.com/",
+  "Awards": "",
+  "CheckinCount": "0",
+  "Founded": null,
+  "Mission": "Identity Secured and Simplified for Everyone",
+  "Products": null,
+  "ReleaseDate": null,
+  "TalkingAboutCount": "6890*5",
+  "Published": true,
+  "UserName": "loginradius",
+  "Locations": null,
+  "CategoryList": null,
+  "CoverImage": {
+    "Id": "7412312*****338",
+    "Source": "https://example.xx.fbcdn.net/v/t1.0-9/s720x720/15894600_741235112701338_5488449219680208098_n.jpg?oh=dbf021ca949e9b44939ac7bcc3537243&oe=5A72B832",
+    "OffsetY": "0",
+    "OffsetX": "50"
+  },
+  "EmployeeCountRange": null,
+  "Industries": null,
+  "Specialties": null,
+  "Status": null,
+  "StockExchange": null
+}
+}

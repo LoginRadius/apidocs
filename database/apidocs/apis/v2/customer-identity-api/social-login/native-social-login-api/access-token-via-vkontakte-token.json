@@ -1,0 +1,31 @@
+{
+    "name": "Access Token via Vkontakte Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/access_token/vkontakte",
+    "method": "GET",
+    "getparams": {
+        "key*": "@apikey@",
+        "vk_access_token*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "The API is used to get LoginRadius access token by sending Vkontakte’s access token. It will be valid for the specific duration of time specified in the response.",
+    "parameters": {
+        "Get Params": [{
+            "name": "key",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+        }, {
+            "name": "vk_access_token",
+            "is_required": true,
+            "description": "Vkontakte Access Token"
+        }]
+    },
+    "outputFormat":{
+  "access_token": "********-****-****-****-************",
+  "expires_in": "2017-11-30T01:28:56.2681775Z"
+}
+}

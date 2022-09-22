@@ -1,0 +1,66 @@
+{
+    "name": "Auth Unlock Account by Access Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/account/unlock",
+    "method": "PUT",
+    "getparams": {
+        "apikey*": "@apikey@"
+    },
+    "postparams": {
+      "securityanswer": {
+          "db7****8a73e4******bd9****8c20": "Answer"
+      },
+      "qq_captcha_ticket": "",
+      "qq_captcha_randstr": "",
+      "g-recaptcha-response ": ""
+    }
+,
+    "headers": {
+    "content-Type": "application/json",
+		"Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to allow a customer with a valid access_token to unlock their account provided that they successfully pass the prompted Bot Protection challenges. The <b>Block</b> or <b>Suspend</b> block types are not applicable for this API. For additional details see our <a href=\"/docs/api/v2/admin-console/platform-security/auth-security-configuration\">Auth Security Configuration</a> documentation. <br><br>You are only required to pass the <b>Post Parameters</b> that correspond to the prompted challenges. ",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            }],
+        "Post Parameters": [{
+                "name": "securityanswer",
+                "is_required": false,
+                "description": "If the customer is challenged for a Security Question the answer must be provided via this parameter."
+            },{
+                "name": "g-recaptcha-response",
+                "is_required": false,
+                "description": "If the customer is challenged to fill out a reCAPTCHA provide the respone here."
+            },
+            {
+                "name": "qq_captcha_ticket",
+                "is_required": false,
+                "description": "If the customer is challenged to fill out a QQ Tencent Captcha provide the ticket here."
+            },
+            {
+                "name": "qq_captcha",
+                "is_required": false,
+                "description": "If the customer is challenged to fill out a QQ captcha provide the response here."
+            }
+        ],
+                    
+
+            
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (Customer's access_token)"
+            }]	
+},
+    "outputFormat": 
+    {
+        "IsPosted":true
+    }
+}
+
+
+

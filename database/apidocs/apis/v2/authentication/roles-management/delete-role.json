@@ -1,0 +1,40 @@
+{
+  "name": "Delete Role",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/manage/role/{role}",
+  "method": "DELETE",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "apisecret*": "@secret@"
+  },
+  "postparams": "",
+  "headers": {
+    "content-Type": "application/x-www-form-urlencoded"
+  },
+  "response": "json",
+  "description": "This API is used to delete a role.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "Login Radius API Key"
+      },
+      {
+        "name": "apisecret",
+        "is_required": true,
+        "description": "LoginRadius API Secret"
+      }
+    ],
+	"Template Params": [
+      {
+        "name": "role",
+        "is_required": true,
+        "description": "Created Rolename"
+      }
+    ]
+  },
+  "outputFormat": {
+    "IsDeleted": true
+  }
+}

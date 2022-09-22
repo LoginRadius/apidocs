@@ -1,0 +1,20 @@
+{
+  "name": "LoginRadius Core Release V27.0.0",
+  "description": "We are excited to announce our new core release! This new core release brings new PIN Authentication features that offer completely new workflows.",
+  "changelog": {
+  "ADDED": [
+      {
+        "text": "PIN Authentication: We're introducing a whole new workflow for PIN Authentication, with PIN Authentication your customers can authenticate by providing a PIN Code."
+      },
+      {
+        "text": "PIN Re-Authentication: We are also introducing PIN Re-Authentication, where customers can be challenged to re-authenticate again via a PIN in order to access a resource." 
+      }
+  ],
+  "IMPROVED": [
+      {
+        "text": "Re-Authentication API: We've added some additional endpoints and made some naming changes in our documentation." }]
+    },
+  "auther": "Pascal",
+  "created_date": "2019-08-12",
+  "status": "public"
+}

@@ -1,0 +1,18 @@
+{
+    "name": "New LoginRadius V2 OpenID APIs",
+    "description": "We've completely revamped our OpenID Connect 1.0 APIs with new endpoints that will give you more capabilities as per the OpenID Spec. Please see below for a short list of some of the new capabilities you'll find in our OpenID APIs, for a more comprehensive list please refer to our <a href=\"https://www.loginradius.com/docs/api/v2/single-sign-on/federated-sso/openid-connect/openid-connect-overview\">OpenID Overview</a> document.",
+    "changelog": {
+        "ADDED": [{
+                "text": "Multiple OpenID Apps: You can now have more than one OpenID App configured for your LoginRadius Environment."
+            },{
+                "text": "Implicit Flow: The OpenID APIs now provide the capability for the OpenID spec's Implicit flow."
+            },{
+                "text": "Hybrid Flow: The OpenID APIs now provide the capability for the OpenID spec's Hybrid flow." },
+                {
+                "text": "Request Claims via query parameters: You can now request claims via the 'claims' query parameter."
+            }]
+    },
+    "auther": "Pascal Noel",
+    "created_date": "2019-07-31",
+    "status": "public"
+}

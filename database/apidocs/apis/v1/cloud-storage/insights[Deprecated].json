@@ -1,0 +1,21 @@
+{
+    "name": "Aggregation Query Data",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/insights",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@",
+        "from*": "",
+        "to*": ""
+    },
+    "postparams": {
+        "firstDatapoint": "",
+        "statsType": ""
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to query the aggregation data from your LoginRadius ."
+}

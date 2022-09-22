@@ -1,0 +1,1246 @@
+[
+  {
+    "tags": ["default"],
+    "text": "Support Docs",
+    "link": "/docs/",
+    "target": "_blank"
+  },
+  {
+    "tags": ["default"],
+    "text": "API Docs",
+    "link": "/docs/api",
+    "target": "_blank"
+  },
+  {
+    "tags": ["default"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["default"],
+    "text": "Implementation Guide",
+    "link": "/docs/getting-started/introduction/implementation-guides",
+    "target": "_blank"
+  },
+  {
+    "tags": ["standard-login"],
+    "text": "User Registration Overview",
+    "link": "/docs/authentication/quick-start/standard-login",
+    "target": "_blank"
+  },
+  {
+    "tags": ["standard-login"],
+    "text": "User Data Storage",
+    "link": "/docs/governance/customer-profiling/custom-fields-and-custom-objects",
+    "target": "_blank"
+  },
+  {
+    "tags": ["standard-login"],
+    "text": "User Registration Form",
+    "link": "/docs/api/v2/deployment/js-libraries/getting-started#registration6",
+    "target": "_blank"
+  },
+  {
+    "tags": ["standard-login"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["social-login"],
+    "text": "Social Login Overview",
+    "link": "/docs/platform-features-overview/registration-services/social-login-feature",
+    "target": "_blank"
+  },
+  {
+    "tags": ["social-login"],
+    "text": "Social Profile Getting Started",
+    "link": "/docs/api/v2/social-login/getting-started#sociallogin7",
+    "target": "_blank"
+  },
+  {
+    "tags": ["social-login"],
+    "text": "Configure Social Apps",
+    "link": "/docs/api/v2/user-Admin-console/configure-social-apps",
+    "target": "_blank"
+  },
+  {
+    "tags": ["social-login"],
+    "text": "Set Provider Permissions",
+    "link": "/docs/api/v2/user-Admin-console/social-networks-permissions",
+    "target": "_blank"
+  },
+  {
+    "tags": ["social-login"],
+    "text": "Social Login Form",
+    "link": "/docs/api/v2/user-registration/user-registration-getting-started#sociallogin7",
+    "target": "_blank"
+  },
+  {
+    "tags": ["social-login"],
+    "text": "Advanced Social Profile Datapoints",
+    "link": "/docs/development/social-network/advanced-social-points-data-points",
+    "target": "_blank"
+  },
+  {
+    "tags": ["social-login"],
+    "text": "Social Provider FAQ",
+    "link": "/docs/development/social-network/social-provider-faqs",
+    "target": "_blank"
+  },
+  {
+    "tags": ["social-login"],
+    "text": "Google App Review Process",
+    "link": "/docs/development/social-network/google-app-review",
+    "target": "_blank"
+  },
+  {
+    "tags": ["social-login"],
+    "text": "Facebook App Review Process",
+    "link": "/docs/development/social-network/facebook-app-review",
+    "target": "_blank"
+  },
+  {
+    "tags": ["social-login"],
+    "text": "LinkedIn App Review",
+    "link": "/docs/development/social-network/linkedin-app-review",
+    "target": "_blank"
+  },
+  {
+    "tags": ["social-login"],
+    "text": "Instagram App Review",
+    "link": "/docs/development/social-network/instagram-app-review",
+    "target": "_blank"
+  },
+  {
+    "tags": ["email-workflow"],
+    "text": "SMTP Overview",
+    "link": "/docs/infrastructure-and-security/smtp-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["email-workflow"],
+    "text": "Email Workflow ",
+    "link": "/docs/platform-features-overview/registration-services/email-workflow",
+    "target": "_blank"
+  },
+  {
+    "tags": ["email-workflow"],
+    "text": "Configuring Your SMTP",
+    "link": "/docs/api/v2/user-Admin-console/smtp-configuration",
+    "target": "_blank"
+  },
+  {
+    "tags": ["email-workflow"],
+    "text": "IOT Login/Registration",
+    "link": "/docs/platform-features-overview/registration-services/iot-login-registration",
+    "target": "_blank"
+  },
+  {
+    "tags": ["email-workflow"],
+    "text": "IP Addresses",
+    "link": "/docs/infrastructure-and-security/ip-addresses-list",
+    "target": "_blank"
+  },
+  {
+    "tags": ["email-workflow"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["email-workflow"],
+    "text": "Email Workflow Settings",
+    "link": "/docs/api/v2/user-Admin-console/email-workflow-settings",
+    "target": "_blank"
+  },
+  {
+    "tags": ["email-workflow"],
+    "text": "Email Template Management",
+    "link": "/docs/api/v2/user-Admin-console/email-template-management",
+    "target": "_blank"
+  },
+  {
+    "tags": ["phone-login"],
+    "text": "Phone Auth Overview",
+    "link": "/docs/platform-features-overview/registration-services/phone-authentication-feature",
+    "target": "_blank"
+  },
+  {
+    "tags": ["phone-login"],
+    "text": "Phone and Standard Login",
+    "link": "/docs/platform-features-overview/registration-services/standard-and-phone-authentication",
+    "target": "_blank"
+  },
+  {
+    "tags": ["phone-login"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["passwordless-login"],
+    "text": "Passwordless Login overview",
+    "link": "/docs/platform-features-overview/registration-services/one-click-authentication",
+    "target": "_blank"
+  },
+  {
+    "tags": ["passwordless-login"],
+    "text": "Passwordless Login by Email",
+    "link": "/docs/api/v2/user-registration/one-click-signin-by-email",
+    "target": "_blank"
+  },
+  {
+    "tags": ["passwordless-login"],
+    "text": "Passwordless Login By Phone",
+    "link": "/docs/api/v2/user-registration/phone-login-using-one-time-passcode",
+    "target": "_blank"
+  },
+  {
+    "tags": ["passwordless-login"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["identity-workflow"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["identity-workflow"],
+    "text": "Platform Overview",
+    "link": "/docs/platform-features-overview/introduction/platform-features-section-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["auth-security"],
+    "text": "Security Overview",
+    "link": "/docs/security/platform-security/identity-data-compliance",
+    "target": "_blank"
+  },
+  {
+    "tags": ["auth-security"],
+    "text": "Setup Google Recaptcha",
+    "link": "/docs/api/v2/admin-console/platform-security/captcha-providers/google-recaptcha-configuration#googlerecaptchawithloginradiusvjs2",
+    "target": "_blank"
+  },
+  {
+    "tags": ["auth-security"],
+    "text": "Setup Tencent Captcha",
+    "link": "/docs/api/v2/admin-console/platform-security/captcha-providers/tencent-captcha-configuration",
+    "target": "_blank"
+  },
+  {
+    "tags": ["auth-security"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["auth-security"],
+    "text": "Implementation Guide",
+    "link": "/docs/getting-started/introduction/implementation-guides",
+    "target": "_blank"
+  },
+  {
+    "tags": ["login-security"],
+    "text": "Security Overview",
+    "link": "/docs/security/platform-security/identity-data-compliance",
+    "target": "_blank"
+  },
+  {
+    "tags": ["login-security"],
+    "text": "How Lockout works",
+    "link": "/docs/security/user-security/login-security/#force-logout",
+    "target": "_blank"
+  },
+  {
+    "tags": ["login-security"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["login-security"],
+    "text": "Implementation Guide",
+    "link": "/docs/getting-started/introduction/implementation-guides",
+    "target": "_blank"
+  },
+  {
+    "tags": ["password-policy"],
+    "text": "Password overview",
+    "link": "/docs/security/user-security/password-management/",
+    "target": "_blank"
+  },
+  {
+    "tags": ["password-policy"],
+    "text": "Password Security",
+    "link": "/docs/security/platform-security/password-security",
+    "target": "_blank"
+  },
+  {
+    "tags": ["password-policy"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["password-policy"],
+    "text": "Implementation Guide",
+    "link": "/docs/getting-started/introduction/implementation-guides",
+    "target": "_blank"
+  },
+  {
+    "tags": ["multi-factor-authentication"],
+    "text": "2FA Overview",
+    "link": "/docs/platform-features-overview/user-security/two-factor-authentication",
+    "target": "_blank"
+  },
+  {
+    "tags": ["multi-factor-authentication"],
+    "text": "2FA Configuration",
+    "link": "/docs/api/v2/customer-identity-api/multi-factor-authentication/overview#smsdashboardconfiguration1",
+    "target": "_blank"
+  },
+  {
+    "tags": ["multi-factor-authentication"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["multi-factor-authentication"],
+    "text": "Implementation Guide",
+    "link": "/docs/getting-started/introduction/implementation-guides",
+    "target": "_blank"
+  },
+  {
+    "tags": ["token-management"],
+    "text": "LoginRadius Tokens",
+    "link": "/docs/infrastructure-and-security/loginradius-tokens",
+    "target": "_blank"
+  },
+  {
+    "tags": ["token-management"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["token-management"],
+    "text": "Implementation Guide",
+    "link": "/docs/getting-started/introduction/implementation-guides",
+    "target": "_blank"
+  },
+  {
+    "tags": ["web-sso"],
+    "text": "Web SSO",
+    "link": "/docs/platform-features-overview/user-access-management/web-sso",
+    "target": "_blank"
+  },
+  {
+    "tags": ["web-sso"],
+    "text": "SSO Overview",
+    "link": "/docs/api/v2/single-sign-on/overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["web-sso"],
+    "text": "Web SSO Configuration",
+    "link": "/docs/api/v2/single-sign-on/getting-started",
+    "target": "_blank"
+  },
+  {
+    "tags": ["web-sso"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["web-sso"],
+    "text": "Implementation Guide",
+    "link": "/docs/getting-started/introduction/implementation-guides",
+    "target": "_blank"
+  },
+  {
+    "tags": ["federated-single-sign-on"],
+    "text": "SSO Overview",
+    "link": "/docs/api/v2/single-sign-on/overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["federated-single-sign-on"],
+    "text": "SAML Configuration",
+    "link": "/docs/api/v2/single-sign-on/saml-security-assertion-markup-language",
+    "target": "_blank"
+  },
+  {
+    "tags": ["federated-single-sign-on"],
+    "text": "JWT configuration",
+    "link": "/docs/api/v2/single-sign-on/jwt-login",
+    "target": "_blank"
+  },
+  {
+    "tags": ["federated-single-sign-on"],
+    "text": "Multipass configuration",
+    "link": "/docs/api/v2/single-sign-on/multipass",
+    "target": "_blank"
+  },
+  {
+    "tags": ["federated-single-sign-on"],
+    "text": "OAUTH2",
+    "link": "/docs/api/v2/single-sign-on/oauth2-single-sign-on",
+    "target": "_blank"
+  },
+  {
+    "tags": ["federated-single-sign-on"],
+    "text": "Delegation Auth",
+    "link": "/docs/api/v2/single-sign-on/delegation-login-api",
+    "target": "_blank"
+  },
+  {
+    "tags": ["federated-single-sign-on"],
+    "text": "Password Delegation",
+    "link": "/docs/api/v2/single-sign-on/password-delegation-api",
+    "target": "_blank"
+  },
+  {
+    "tags": ["federated-single-sign-on"],
+    "text": "Hosted plugin Shopify extension",
+    "link": "/docs/api/v2/deployment/turn-key-plugins/shopify-multipass-integration#addloginradiususerregistrationshopifyextensionlibrary6",
+    "target": "_blank"
+  },
+  {
+    "tags": ["federated-single-sign-on"],
+    "text": "Hosted plugin BigCommerce Configuration",
+    "link": "/docs/api/v2/cms-turn-key-plugins/bigcommerce-identity-plugin",
+    "target": "_blank"
+  },
+  {
+    "tags": ["id-provider-apps"],
+    "text": "Identity Provider App",
+    "link": "/docs/platform-features-overview/user-access-management/identity-provider-apps",
+    "target": "_blank"
+  },
+  {
+    "tags": ["id-provider-apps"],
+    "text": "IDP Overview",
+    "link": "/docs/api/v2/custom-identity-provider/custom-identity-provider-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["id-provider-apps"],
+    "text": "Custom OAuth configuration",
+    "link": "/docs/api/v2/custom-identity-provider/custom-oauth-provider",
+    "target": "_blank"
+  },
+  {
+    "tags": ["id-provider-apps"],
+    "text": "SAML Configuration",
+    "link": "/docs/api/v2/single-sign-on/saml-security-assertion-markup-language",
+    "target": "_blank"
+  },
+  {
+    "tags": ["id-provider-apps"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["roles-and-membership"],
+    "text": "Roles Overview",
+    "link": "/docs/platform-features-overview/user-access-management/roles-and-permissions",
+    "target": "_blank"
+  },
+  {
+    "tags": ["roles-and-membership"],
+    "text": "Roles Configuration",
+    "link": "/docs/api/v2/user-registration/roles-management-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["roles-and-membership"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-center"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-center"],
+    "text": "Platform Overview",
+    "link": "/docs/platform-features-overview/introduction/platform-features-section-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["standard-data-fields"],
+    "text": "Data Fields",
+    "link": "/docs/governance/customer-profiling/custom-fields-and-custom-objects/",
+    "target": "_blank"
+  },
+  {
+    "tags": ["standard-data-fields"],
+    "text": "Detailed Data Format",
+    "link": "/docs/api/v2/user-registration/detailed-data-point",
+    "target": "_blank"
+  },
+  {
+    "tags": ["standard-data-fields"],
+    "text": "Editable Fields",
+    "link": "/docs/api/v2/data-points-and-response-code/list-of-editable-data-fields",
+    "target": "_blank"
+  },
+  {
+    "tags": ["standard-data-fields"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["custom-data-fields"],
+    "text": "Data Fields",
+    "link": "/docs/governance/customer-profiling/custom-fields-and-custom-objects/",
+    "target": "_blank"
+  },
+  {
+    "tags": ["custom-data-fields"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["custom-data-fields"],
+    "text": "Platform Overview",
+    "link": "/docs/platform-features-overview/introduction/platform-features-section-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["custom-object"],
+    "text": "Data Fields",
+    "link": "/docs/governance/customer-profiling/custom-fields-and-custom-objects/",
+    "target": "_blank"
+  },
+  {
+    "tags": ["custom-object"],
+    "text": "Working with Custom objects",
+    "link": "/docs/governance/customer-profiling/custom-object-overview/",
+    "target": "_blank"
+  },
+  {
+    "tags": ["custom-object"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["hashing-algorithm"],
+    "text": "Password security overview",
+    "link": "/docs/infrastructure-and-security/password-security",
+    "target": "_blank"
+  },
+  {
+    "tags": ["hashing-algorithm"],
+    "text": "Supported Algorithm",
+    "link": "/api/v2/security/platform-security/cryptographic-hashing-algorithms",
+    "target": "_blank"
+  },
+  {
+    "tags": ["hashing-algorithm"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["hashing-algorithm"],
+    "text": "User Data Overview",
+    "link": "/docs/security/data-management/user-data-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["encryption-in-transit"],
+    "text": "User Data Governance and Security",
+    "link": "/docs/security/data-management/user-data-overview#data-governance-and-security",
+    "target": "_blank"
+  },
+  {
+    "tags": ["encryption-in-transit"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["encryption-in-transit"],
+    "text": "Platform overview",
+    "link": "/docs/platform-features-overview/introduction/platform-features-section-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["encryption-at-rest"],
+    "text": "User Data Governance and Security",
+    "link": "/docs/infrastructure-and-security/user-data-overview#data-governance-and-security",
+    "target": "_blank"
+  },
+  {
+    "tags": ["encryption-at-rest"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["encryption-at-rest"],
+    "text": "Platform overview",
+    "link": "/docs/platform-features-overview/introduction/platform-features-section-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["security-center"],
+    "text": "Identity Data Compliance",
+    "link": "/docs/infrastructure-and-security/identity-data-compliance#data-governance-and-security",
+    "target": "_blank"
+  },
+  {
+    "tags": ["security-center"],
+    "text": "Social Data Compliance",
+    "link": "/docs/infrastructure-and-security/social-data-compliance#data-governance-and-security",
+    "target": "_blank"
+  },
+  {
+    "tags": ["security-center"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["privacy-center"],
+    "text": "Identity Data Compliance",
+    "link": "/docs/infrastructure-and-security/identity-data-compliance#end-user-security-and-privacy-controls",
+    "target": "_blank"
+  },
+  {
+    "tags": ["privacy-center"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["privacy-center"],
+    "text": "Platform overview",
+    "link": "/docs/platform-features-overview/introduction/platform-features-section-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["apps"],
+    "text": "Adding Domains",
+    "link": "/docs/api/v2/user-Admin-console/dev-stagin-sandbox-environment",
+    "target": "_blank"
+  },
+  {
+    "tags": ["apps"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["apps"],
+    "text": "SOTT",
+    "link": "/docs/api/v2/customer-identity-api/sott-usage#sott-secured-one-time-token-",
+    "target": "_blank"
+  },
+  {
+    "tags": ["apps"],
+    "text": "Custom Domain",
+    "link": "/docs/api/v2/deployment/hosted-registration/getting-started#customdomain6",
+    "target": "_blank"
+  },
+
+  {
+    "tags": ["api-credentials"],
+    "text": "Get API Key and Secret",
+    "link": "/docs/api/v2/user-Admin-console/get-api-key-and-secret",
+    "target": "_blank"
+  },
+  {
+    "tags": ["api-credentials"],
+    "text": "Get Site Name",
+    "link": "/docs/api/v2/user-Admin-console/site-app-name",
+    "target": "_blank"
+  },
+  {
+    "tags": ["api-credentials"],
+    "text": "Check API Version",
+    "link": "/docs/api/v2/user-Admin-console/check-api-version",
+    "target": "_blank"
+  },
+  {
+    "tags": ["api-credentials"],
+    "text": "What is a site Name",
+    "link": "/docs/getting-started/introduction/loginradius-site-license-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["api-credentials"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["progressive-profiling"],
+    "text": "About Progressive Profiling",
+    "link": "/docs/api/v2/deployment/demos/progressive-profiling-demo",
+    "target": "_blank"
+  },
+  {
+    "tags": ["progressive-profiling"],
+    "text": "Implement Progressive Profiling using JS",
+    "link": "/docs/api/v2/deployment/js-libraries/getting-started#progressiveprofiling14",
+    "target": "_blank"
+  },
+  {
+    "tags": ["configuration-swap"],
+    "text": "Releasing to production",
+    "link": "/docs/api/v2/user-Admin-console/site-configuration-sync",
+    "target": "_blank"
+  },
+  {
+    "tags": ["configuration-swap"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["configuration-swap"],
+    "text": "Implementation Guide",
+    "link": "/docs/getting-started/introduction/implementation-guides",
+    "target": "_blank"
+  },
+  {
+    "tags": ["js-widgets"],
+    "text": "Implementation Workflows",
+    "link": "/docs/api/v2/getting-started/implementation-workflows",
+    "target": "_blank"
+  },
+  {
+    "tags": ["js-widgets"],
+    "text": "LoginRadius JS Overview",
+    "link": "/docs/api/v2/user-registration/user-registration-getting-started",
+    "target": "_blank"
+  },
+  {
+    "tags": ["js-widgets"],
+    "text": "Advanced JS Customization",
+    "link": "/docs/api/v2/deployment/js-libraries/advanced-js-customizations",
+    "target": "_blank"
+  },
+  {
+    "tags": ["js-widgets"],
+    "text": "Getting Started",
+    "link": "/docs/api/v2/deployment/js-libraries/getting-started",
+    "target": "_blank"
+  },
+  {
+    "tags": ["web-packages"],
+    "text": "Supported SDKS",
+    "link": "/docs/api/v2/deployment/sdk-libraries/overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["web-packages"],
+    "text": "Supported Mobile SDKs",
+    "link": "/docs/api/v2/deployment/mobile-sdk-libraries/overview",
+    "target": "_blank"
+  },
+
+  {
+    "tags": ["web-packages"],
+    "text": "Supported Plugins",
+    "link": "/docs/getting-started/general-questions/supported-cms-systems",
+    "target": "_blank"
+  },
+  {
+    "tags": ["web-packages"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["hosted-registration"],
+    "text": "Implementation Workflows",
+    "link": "/docs/api/v2/getting-started/implementation-workflows",
+    "target": "_blank"
+  },
+  {
+    "tags": ["hosted-registration"],
+    "text": "Hosted Registration Usage",
+    "link": "/docs/api/v2/user-registration/hosted-registration",
+    "target": "_blank"
+  },
+  {
+    "tags": ["hosted-registration"],
+    "text": "Hosted Page Customization",
+    "link": "/docs/api/v2/deployment/hosted-registration/customization",
+    "target": "_blank"
+  },
+  {
+    "tags": ["native-ios"],
+    "text": "iOS SDK",
+    "link": "/docs/api/v2/mobile-libraries/ios-library",
+    "target": "_blank"
+  },
+  {
+    "tags": ["native-ios"],
+    "text": "iOS Demo",
+    "link": "https://github.com/LoginRadius/ios-sdk/",
+    "target": "_blank"
+  },
+  {
+    "tags": ["native-ios"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["native-android"],
+    "text": "Android SDK",
+    "link": "/docs/api/v2/mobile-libraries/android",
+    "target": "_blank"
+  },
+  {
+    "tags": ["native-android"],
+    "text": "Android Demo",
+    "link": "https://github.com/LoginRadius/android-sdk/",
+    "target": "_blank"
+  },
+  {
+    "tags": ["native-android"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["other-sdks"],
+    "text": "ionic SDK",
+    "link": "/docs/api/v2/mobile-libraries/ionic",
+    "target": "_blank"
+  },
+  {
+    "tags": ["other-sdks"],
+    "text": "ionic2 SDK",
+    "link": "/docs/api/v2/mobile-libraries/ionic-2",
+    "target": "_blank"
+  },
+  {
+    "tags": ["other-sdks"],
+    "text": "PhoneGap SDK",
+    "link": "/docs/api/v2/mobile-libraries/phonegap",
+    "target": "_blank"
+  },
+  {
+    "tags": ["other-sdks"],
+    "text": "Xamarin SDK",
+    "link": "/docs/api/v2/mobile-libraries/xamarin-library",
+    "target": "_blank"
+  },
+  {
+    "tags": ["other-sdks"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["third-party-software"],
+    "text": "Platform Overview",
+    "link": "/docs/platform-features-overview/introduction/integration-platform-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["third-party-software"],
+    "text": "Client side Integration",
+    "link": "/docs/platform-features-overview/introduction/client-side-integration",
+    "target": "_blank"
+  },
+  {
+    "tags": ["third-party-software"],
+    "text": "Server side Integration",
+    "link": "/docs/platform-features-overview/introduction/server-side-integration",
+    "target": "_blank"
+  },
+  {
+    "tags": ["third-party-software"],
+    "text": "Supported Integrations",
+    "link": "/docs/getting-started/general-questions/supported-integrations",
+    "target": "_blank"
+  },
+  {
+    "tags": ["third-party-software"],
+    "text": "Client side Library",
+    "link": "/docs/api/v2/integrations/getting-started",
+    "target": "_blank"
+  },
+  {
+    "tags": ["third-party-software"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-sync"],
+    "text": "Webhooks Overview",
+    "link": "/docs/api/v2/web-hook/loginradius-web-hooks",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-sync"],
+    "text": "Resthooks Overview",
+    "link": "/docs/api/v1/cloud-directory/loginradius-resthooks",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-sync"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-sync"],
+    "text": "Integration Platform Overview",
+    "link": "/docs/platform-features-overview/introduction/integration-platform-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-export"],
+    "text": "User data Overview",
+    "link": "/docs/infrastructure-and-security/user-data-overview#user-data-export",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-export"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-export"],
+    "text": "On-Demand Export",
+    "link": "/docs/getting-started/general-questions/on-demand-export",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-export"],
+    "text": "Scheduled Export",
+    "link": "/docs/getting-started/general-questions/scheduled-export",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-export"],
+    "text": "Export Logs",
+    "link": "/docs/getting-started/general-questions/export-logs",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-export"],
+    "text": "Exporting a Segmented List",
+    "link": "/docs/customer-management/customer-segmentation/exporting-a-segmented-list",
+    "target": "_blank"
+  },
+  {
+    "tags": ["third-party-software"],
+    "text": "Social Sharing Configuration",
+    "link": "/docs/api/v2/customer-identity-api/social-login/social-sharing/getting-started-with-social-sharing-api",
+    "target": "_blank"
+  },
+  {
+    "tags": ["third-party-software"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["third-party-software"],
+    "text": "Implementation Guide",
+    "link": "/docs/getting-started/introduction/implementation-guides",
+    "target": "_blank"
+  },
+  {
+    "tags": ["customer-management"],
+    "text": "Customer Management Overview",
+    "link": "/docs/profile-management/customer-management",
+    "target": "_blank"
+  },
+  {
+    "tags": ["customer-management"],
+    "text": "Add a New Customer",
+    "link": "/docs/customer-management/add-a-new-customer",
+    "target": "_blank"
+  },
+  {
+    "tags": ["customer-management"],
+    "text": "Search Customer",
+    "link": "/docs/customer-management/search-customers",
+    "target": "_blank"
+  },
+  {
+    "tags": ["customer-management"],
+    "text": "View and manage profile",
+    "link": "/docs/customer-management/profile-view",
+    "target": "_blank"
+  },
+  {
+    "tags": ["customer-segmentation"],
+    "text": "Customer Segmentation Overview",
+    "link": "/docs/customer-management/customer-segmentation/customer-segmentation",
+    "target": "_blank"
+  },
+  {
+    "tags": ["customer-segmentation"],
+    "text": "Basic Segmentation",
+    "link": "/docs/profile-management/basic-segmentation",
+    "target": "_blank"
+  },
+  {
+    "tags": ["customer-segmentation"],
+    "text": "Advanced Segmentation",
+    "link": "/docs/profile-management/advanced-segmentation",
+    "target": "_blank"
+  },
+  {
+    "tags": ["customer-segmentation"],
+    "text": "Save Segmentation",
+    "link": "/docs/profile-management/save-segmentation",
+    "target": "_blank"
+  },
+  {
+    "tags": ["customer-segmentation"],
+    "text": "Exporting a Segmented List",
+    "link": "/docs/customer-management/customer-segmentation/exporting-a-segmented-list",
+    "target": "_blank"
+  },
+  {
+    "tags": ["customer-segmentation"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["overview"],
+    "text": "Key Terminology",
+    "link": "/docs/customer-intelligence/key-terminology",
+    "target": "_blank"
+  },
+  {
+    "tags": ["overview"],
+    "text": "Analytics Overview",
+    "link": "/docs/customer-intelligence/analytics-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["identity-analytics"],
+    "text": "Identity Analytics",
+    "link": "/docs/customer-intelligence/identity-analytics/",
+    "target": "_blank"
+  },
+  {
+    "tags": ["provider-analytics"],
+    "text": "Provider Analytics",
+    "link": "/docs/customer-intelligence/provider-analytics/",
+    "target": "_blank"
+  },
+  {
+    "tags": ["login-analytics"],
+    "text": "Login Analytics",
+    "link": "/docs/customer-intelligence/login-analytics/",
+    "target": "_blank"
+  },
+  {
+    "tags": ["comparative-analysis"],
+    "text": "Comparative Analytics",
+    "link": "/docs/customer-intelligence/comparative-analysis/",
+    "target": "_blank"
+  },
+  {
+    "tags": ["user-insights"],
+    "text": "Key Terminology",
+    "link": "/docs/customer-intelligence/key-terminology",
+    "target": "_blank"
+  },
+  {
+    "tags": ["user-insights"],
+    "text": "Overview of analytics charts",
+    "link": "/docs/customer-intelligence/analytics-overview/",
+    "target": "_blank"
+  },
+  {
+    "tags": ["user-insights"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["engagement-insights"],
+    "text": "Key Terminology",
+    "link": "/docs/customer-intelligence/key-terminology",
+    "target": "_blank"
+  },
+  {
+    "tags": ["engagement-insights"],
+    "text": "Overview of analytics charts",
+    "link": "/docs/customer-intelligence/analytics-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["engagement-insights"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["social-insights"],
+    "text": "Key Terminology",
+    "link": "/docs/customer-intelligence/key-terminology",
+    "target": "_blank"
+  },
+  {
+    "tags": ["social-insights"],
+    "text": "Overview of analytics charts",
+    "link": "/docs/customer-intelligence/analytics-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["social-insights"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["support-tickets"],
+    "text": "Support",
+    "link": "/docs/getting-started/general-questions/support-faq",
+    "target": "_blank"
+  },
+  {
+    "tags": ["support-tickets"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["account-settings"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["team"],
+    "text": "Manage Team Members",
+    "link": "/docs/api/v2/user-Admin-console/manage-team-members",
+    "target": "_blank"
+  },
+  {
+    "tags": ["team"],
+    "text": "Data Auditing and logging",
+    "link": "/docs/security/data-management/data-auditing-andlogging",
+    "target": "_blank"
+  },
+  {
+    "tags": ["team"],
+    "text": "Single Sign On Overview",
+    "link": "/docs/api/v2/single-sign-on/overview#single-sign-on-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["team"],
+    "text": "LoginRadius Web SSO",
+    "link": "/docs/api/v2/single-sign-on/web-and-mobile-sso/loginradius-web-sso",
+    "target": "_blank"
+  },
+  {
+    "tags": ["team"],
+    "text": "LoginRadius Mobile SSO",
+    "link": "/docs/api/v2/single-sign-on/web-and-mobile-sso/loginradius-mobile-sso",
+    "target": "_blank"
+  },
+  {
+    "tags": ["team"],
+    "text": "Setup Azure AD Plugin",
+    "link": "/docs/api/v2/admin-console/team-management/setup-azure-ad#setup-azure-ad-plugin",
+    "target": "_blank"
+  },
+  {
+    "tags": ["team"],
+    "text": "SAML",
+    "link": "/docs/api/v2/single-sign-on/federated-sso/saml/saml-security-assertion-markup-language-",
+    "target": "_blank"
+  },
+  {
+    "tags": ["team"],
+    "text": "Transfer Account Ownership",
+    "link": "/docs/api/v2/user-Admin-console/transfer-site-ownership",
+    "target": "_blank"
+  },
+  {
+    "tags": ["billing"],
+    "text": "Billing FAQ",
+    "link": "/docs/getting-started/general-questions/billing-faq",
+    "target": "_blank"
+  },
+  {
+    "tags": ["billing"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["billing"],
+    "text": "Support Overview",
+    "link": "/docs/getting-started/general-questions/support-faq",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-query"],
+    "text": "Data Query Overview",
+    "link": "/docs/profile-management/data-query-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-query"],
+    "text": "Customer Query",
+    "link": "/docs/profile-management/customer-query",
+    "target": "_blank"
+  },
+  {
+    "tags": ["data-query"],
+    "text": "Custom Object Query",
+    "link": "/docs/governance/customer-profiling/custom-object-overview",
+    "target": "_blank"
+  },
+  {
+    "tags": ["Admin-console"],
+    "text": "Support Docs",
+    "link": "/docs/",
+    "target": "_blank"
+  },
+  {
+    "tags": ["Admin-console"],
+    "text": "API Docs",
+    "link": "/docs/api",
+    "target": "_blank"
+  },
+  {
+    "tags": ["Admin-console"],
+    "text": "Admin-console Walkthrough",
+    "link": "/docs/getting-started/introduction/login-radius-basics",
+    "target": "_blank"
+  },
+  {
+    "tags": ["Admin-console"],
+    "text": "Implementation Guide",
+    "link": "/docs/getting-started/introduction/implementation-guides",
+    "target": "_blank"
+  } 
+]

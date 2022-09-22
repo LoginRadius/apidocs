@@ -1,0 +1,29 @@
+{
+  "name": "LoginRadius Core Release V22.0.0",
+  "description": "We are excited to announce our new core release! This new core release brings new security management features and other improvements.",
+  "changelog": {
+  "ADDED": [
+      {
+        "text": "Added NT Hash Algorithm:  The NT Hash Algorithm can now be enabled for storing customer passwords."
+      },
+      {
+        "text": "Login on Password Reset: Our APIs can now be enabled to login the user by returning the access_token along with the customer profile upon a successful password reset." 
+      },
+	    {
+        "text": "Refresh Access token API: The Refresh Token API now has a new 'expiresIn' parameter allowing you to set an expiration time on a refresh token."
+      }
+  ],
+  "IMPROVED": [
+      {
+        "text": "Forgot Password Token Generation Limit: You can now completely disable the limit for token generation when a user requests an email for a forgotten password." },
+      {
+        "text": "Phone Login: Phone Login can now be configured to be allowed with either the Optional or Disabled Email Verification workflows."
+      }],
+  "FIXED":[{
+        "text": "Email Templates with Gmail: When receiving an email actioned from LoginRadius, within Gmail sometimes only the plain text version of the email template configured in the LoginRadius Admin Console would be displayed. This issue has been resolved and the HTML template should show accordingly."
+      }]
+    },
+  "auther": "Pascal",
+  "created_date": "2018-08-02",
+  "status": "public"
+}

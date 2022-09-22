@@ -1,0 +1,79 @@
+{
+    "name": "LoginRadius API Core Release V15.0",
+    "description": "Introducing Version 15.0 of the LoginRadius API. This release brings many API experience improvements.",
+    "changelog": {
+        "ADDED": [{
+                "text": "SHA256 Algorithm: We have added the new SHA256 algorithm to our supported password algorithms."
+            }, {
+                "text": "Change/Update Password Encryption Algorithm: You can now change your existing password algorithm without affecting your user’s current passwords."
+            },
+            {
+                "text": "Custom OAuth Provider: Our custom OAuth provider feature now allows custom field mapping and a custom header."
+            }, {
+                "text": "HTML Email and Text Email: Added new field named ‘TextTemplate’ in Raas Email Config EmailTemplates. We will send both HTML and text Templates emails if the text template is configured"
+            }, {
+                "text": "Login Lockout: With the new whitelist and blacklist settings, you can control user access or registration to the LoginRadius site. You are able to either accept or reject the end users attempts to register based on their email addresses. "
+            },
+            {
+                "text": "Disabled JavaScript fallback on hosted: If JavaScript is disabled on the user’s browser, then they will be redirected to a hosted page (https://{your app name}.hub.loginradius.com/hosted/login). Note: For this to work API V2 must be enabled on the account and meta refresh must be enabled by the browser"
+            },
+            {
+                "text": "Refresh Token API V2: Our API V2 now has the capability of refreshing the traditional or email access token as well"
+            },
+            {
+                "text": "Email Verification Token API V2: Our API V2 now has the capability of Returning Email Verification tokens"
+            },
+            {
+                "text": "Forgot Password Token API V2: Our API V2 now has the capability of returning Forgot Password Tokens "
+            },
+            {
+                "text": "Access Token Token API V2: Our API V2 now has the capability to translate the Request Token returned during authentication into an Access Token that can be used with other API calls."
+            },
+            {
+                "text": "Check Token Validity API V2: Our API V2 now has the capability to validate access tokens, if valid then returns a response with its expiry otherwise it will return an error. "
+            },
+            {
+                "text": "Invalidate Access Token API V2: Our API V2 now has the capability to Invalidate access tokens."
+            },
+            {
+                "text": "Access Token using google JWT token for Native Mobile Login: This new API call for our V2 API returns a LoginRadius Access Token using Google's JWT token for Native Mobile Login."
+            },
+            {
+                "text": "Remove Google Authenticator: 2 new API calls have been added to our API V2 for Two-Factor Authentication allowing you to remove/reset Google Authenticator and SMS Authenticator by UID or by access token."
+            },
+            {
+                "text": "Registration with ReCaptcha: You can now register using ReCaptcha via API V2"
+            },
+            {
+                "text": "PlaintextPasswordEncoding otpion: Added in password encryption algo for supporting plantext password encoding before appending salt (for weather network customer)"
+            }],
+        "FIXED": [{
+                "text": "BirthDate Field Format : The BirthDate Field in our APIs V1 and V2 have now been standardized and need to be formatted one of the following ways: valid date format is 'mm-dd-yyyy', 'mm/dd/yyyy', 'm-d-yyyy', 'm/d/yyyy'"
+            }, {
+                "text": "Custom validation RegEx : the Pipe '|' character in your custom validation RegEx is now accessible by using 'or'"
+            },
+            {
+                "text": "Webhooks remove email : Now in case of email remove api in v1 and v2, Format of posted data in webhook will be { UserProfile = userProfile, RemovedEmail = emailName }"
+            },
+            {
+                "text": "Phone numbers array of objects update : Fixed and added new errorCode - PhoneType_CanNot_Same = 1124 "
+            }],
+        "IMPROVED": [{
+                "text": "HttpStatusCodes : status codes in our API V2 beta have been revamped for ease of usage."
+            }, {
+                "text": "Login Lockout : If a user fails to login with their password multiple times, their account will be temporarily locked. You have the ability to customize the number of failed login attempts allowed before the account is locked."
+            }, {
+                "text": "Email/SMS Request Limit : There will be an error message from the API if the email sending limit is exceeded."
+            }, {
+                "text": "Email/SMS Request Limit : The Invalidate Email (Reset Email Verification API) is an admin feature, and will work regardless of the email limit."
+            }, {
+                "text": "Age Field Auto Update : The Age field will automatically update based on BirthDate"
+            },
+            {
+                "text": "IsEmailSubscribed : IsEmailSubscribed is now an editable field via API"
+            }]
+    },
+    "auther": "Pascal",
+    "created_date": "2017-3-23",
+    "status": "public"
+}

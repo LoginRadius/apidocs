@@ -1,0 +1,35 @@
+{
+    "name": "Trackable Status Fetching",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/status/trackable",
+    "method": "GET",
+    "getparams": {
+        "secret*": "@secret@",
+        "postid*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "The Trackable status API works very similar to the Status API but it returns a Post id that you can use to track the stats(shares, likes, comments) for a specific share/post/status update. This API requires setting permissions in your LoginRadius Admin Console.<br><br> This API is used to retrieve a tracked post based on the passed in post ID value. This API requires setting permissions in your LoginRadius Admin Console.<br><br> <b>Note:</b> To utilize this API you need to find the ID for the post you want to track, which might require using Trackable Status Posting API first.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "secret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            },
+            {
+                "name": "postid",
+                "is_required": true,
+                "description": "Post ID value"
+            }
+        ]
+    },
+    "outputFormat": {
+        "Shares": 0,
+        "Likes": 0,
+        "Comments": 0
+    }
+}

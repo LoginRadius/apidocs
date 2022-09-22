@@ -1,0 +1,7 @@
+{
+    "name": "Google Search",
+    "discription":"Google Search discription",
+    "weight": "1",
+    "isActive": false,
+    "load": "google-search/search.php"
+}

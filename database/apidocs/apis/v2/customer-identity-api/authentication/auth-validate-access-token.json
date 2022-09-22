@@ -1,0 +1,32 @@
+{
+    "name": "Validate Access token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/access_token/Validate",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@"
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded",
+	    "Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This api validates access token, if valid then returns a response with its expiry otherwise error.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            }],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }]	
+    },
+        "outputFormat": {
+            "access_token": "f78d7139-****-419a-****-42afc553fd18",
+            "expires_in": "2017-08-02T21:12:53.469Z"
+        }
+}

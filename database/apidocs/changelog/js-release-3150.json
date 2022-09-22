@@ -1,0 +1,14 @@
+{
+    "name": "JS Release 3.15.0",
+    "description": "We have rolled out another version of the V2JS. This release brings you some improvements:",
+    "changelog": {
+        "IMPROVED": [
+            {
+                "text": "V2JS sends the Access Token in the API header instead of query in case of SSO login API."
+            }
+        ]
+    },
+    "auther": "Vaibhav Jain",
+    "created_date": "2021-02-18",
+    "status": "public"
+}

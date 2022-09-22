@@ -1,0 +1,46 @@
+{
+    "name": "Phone Resend Verification OTP",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/phone/otp",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "smstemplate": ""
+    },
+    "postparams": {
+        "phone": "xxxxxxxxxxxxx"
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to resend a verification OTP to verify a user's Phone Number. The user will receive a verification code that they will need to input.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "smstemplate",
+                "is_required": false,
+                "description": "SMS Template Name"
+            }
+        ],
+        "Post Params": [
+            {
+                "name": "phone",
+                "is_required": true,
+                "description": "The Registered Phone Number"
+            }
+        ]
+    },
+    "outputFormat":{
+  "IsPosted": true,
+  "Data": {
+    "AccountSid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "Sid": "SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  }
+    }
+}

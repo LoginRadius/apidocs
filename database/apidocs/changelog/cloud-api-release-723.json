@@ -1,0 +1,13 @@
+{
+    "name": "Cloud API Release 7.2.3",
+    "description": "We have rolled out another version of the Cloud APIs. This Cloud API release brings you with a bug fix.",
+    "changelog": {
+        "FIXED": [{
+                "text": "OpenID connect Authorization flow for forgot password and registration is fixed."
+            }
+        ]
+    },
+    "auther": "Rajeev Sharma",
+    "created_date": "2020-12-28",
+    "status": "public"
+}

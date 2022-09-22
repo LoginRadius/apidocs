@@ -1,0 +1,67 @@
+{
+    "name": "OIDC Discovery Endpoint",
+    "domain": "https://cloud-api.loginradius.com",
+    "path": "/sso/oidc/v2/{sitename}/{oidcappname}/.well-known/openid-configuration",
+    "method": "GET",
+    "getparams": {},
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "The OpenID Connect Discovery endpoint provides a client with configuration details about the OpenID Connect metadata of the Loginradius App.",
+    "parameters": {
+        "Template Params": [
+	  {
+            "name": "sitename",
+            "is_required": true,
+            "description": "Your LoginRadius sitename"
+          },
+	        {
+            "name": "oidcappname",
+            "is_required": true,
+            "description": "The name for the ODIC App you have configured in the LoginRadius Admin Console."
+          }
+        ]
+    },
+  "outputFormat":{
+  "issuer": "https://cloud-api.loginradius.com/sso/oidc/v2/{site-name}/{oidcappname}",
+  "authorization_endpoint": "https://cloud-api.loginradius.com/sso/oidc/authorize",
+  "token_endpoint": "https://cloud-api.loginradius.com/sso/oidc/token",
+  "revocation_endpoint": "https://cloud-api.loginradius.com/sso/oidc/revoke",
+  "userinfo_endpoint": "https://cloud-api.loginradius.com/sso/oidc/userinfo",
+  "jwks_uri": "https://cloud-api.loginradius.com/sso/oidc/app-name/app-name/jwks",
+  "scopes_supported": [
+    "openid"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "code token",
+    "code id_token",
+    "token id_token",
+    "code token id_token"
+  ],
+   "response_modes_supported": [
+      "query",
+      "form_post"
+   ],
+  "subject_types_supported": [
+    "public"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_post"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "claims_supported": [
+    "Email",
+    "FirstName",
+    "LastName",
+    "UserName",
+    "Country",
+    "Favicon"
+  ]
+}
+}

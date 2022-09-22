@@ -1,0 +1,57 @@
+{
+    "name": "Core Release 11.0",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "Resend email verification"
+            }, {
+                "text": "Change primary email address"
+            }, {
+                "text": "Forgot username option"
+            }, {
+                "text": "Vaildate access token API"
+            }, {
+                "text": "Expire access token API"
+            }, {
+                "text": "Option to add and customize placeholders for all forms"
+            }, {
+                "text": "developed API frameowrk for custom forms"
+            }, {
+                "text": "Expire token on SSO logout"
+            }, {
+                "text": "SSO login return token only if token nor expired"
+            }, {
+                "text": "Unlinked profile reregister option"
+            }, {
+                "text": "Ask email for unverified social account option"
+            }, {
+                "text": "Introduce new email flows - a) Email verification required b) Email verifcation disable c)Email verifcation optional"
+            }, {
+                "text": "Created landing pages for social sharing callback to close popup"
+            }],
+        "FIXED": [{
+                "text": "Facebook image count API"
+            }, {
+                "text": "Change username API bug"
+            }, {
+                "text": "Template parameter in user delete API"
+            }, {
+                "text": "Custom validation hook with date option bug"
+            }, {
+                "text": "Change password validation bug"
+            }, {
+                "text": "get profile by UID for unverified account"
+            }, {
+                "text": "SSO JS bug fixes"
+            }, {
+                "text": "Wrong error message for provider configuration issue"
+            }, {
+                "text": "Solved Console errors in few rare cases"
+            }, {
+                "text": "Fixed issue of UC browser on windoiws phone"
+            }]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2015-11-1",
+    "status": "public"
+}

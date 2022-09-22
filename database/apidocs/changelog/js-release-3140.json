@@ -1,0 +1,14 @@
+{
+    "name": "JS Release 3.14.0",
+    "description": "This JavaScript Release brings a bug fix to our LoginRadius V2JS library, please see below for details.",
+    "changelog": {
+        "FIXED": [
+            {
+                "text": "We’ve fixed the issue related to Consent Management form rendering during Social login."
+            }
+        ]
+    },
+    "auther": "Abhishek Singh",
+    "created_date": "2020-09-17",
+    "status": "public"
+}

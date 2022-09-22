@@ -1,0 +1,27 @@
+{
+    "name": "Core Release 30.5.0",
+    "description": "This release of the Core APIs brings you some bug fixes and some improvements, see below for details on some of the more notable changes applied to the Core APIs.",
+    "changelog": {
+    "FIXED": [
+        {
+          "text": "Updated how cookies were set during refresh of an expired cookie."
+        },
+        {
+          "text": "Added additional  webhook triggers for some login and registration workflows." 
+        },
+        {
+          "text": "Updated mapping to support changes to Google ProfileImageURL." 
+        },
+        {
+            "text": "<strong>Samesite</strong> attribute is set no defaulted to <strong>lax</strong> to resolve some browser compatibility issues." 
+        }
+    ],
+    "IMPROVED": [
+        {
+          "text": "Optimized Webhook processing to improve deliverability." 
+        }]
+      },
+    "auther": "Abhishek Singh",
+    "created_date": "2020-10-15",
+    "status": "public"
+  }

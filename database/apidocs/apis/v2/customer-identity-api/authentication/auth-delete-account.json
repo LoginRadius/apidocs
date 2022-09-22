@@ -1,0 +1,31 @@
+{
+    "name": "Auth Delete Account",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/account/delete",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "deletetoken*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to delete an account by passing it a delete token.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            }, {
+                "name": "deletetoken",
+                "is_required": true,
+                "description": "Delete token received in the email"
+            }
+        ]
+    },
+    "outputFormat": {
+        "IsPosted": true
+    }
+}

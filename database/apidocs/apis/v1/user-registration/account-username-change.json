@@ -1,0 +1,54 @@
+{
+    "name": "Account Username Change",
+    "domain": "https://api.loginradius.com",
+    "path": "/raas/v1/account/changeusername",
+    "method": "POST",
+    "getparams": {
+        "appkey*": "@apikey@",
+        "appsecret*": "@secret@",
+        "accountId*": ""
+    },
+    "postparams": {
+        "oldusername": "",
+        "newusername": ""
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This api is use to change the user's username based on account Id.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "api_key",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "api_secret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            },
+            {
+                "name": "accountId",
+                "is_required": true,
+                "description": "User's accountId"
+            }
+        ],
+        "Post Params": [
+            {
+                "name": "oldusername",
+                "is_required": true,
+                "description": "User's oldusername"
+            },
+            {
+                "name": "newusername",
+                "is_required": true,
+                "description": "User's newusername"
+            }
+        ]
+    },
+    "outputFormat": {
+    "isPosted": true
+}
+}

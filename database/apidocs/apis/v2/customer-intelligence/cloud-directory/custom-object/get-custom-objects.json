@@ -1,0 +1,191 @@
+{
+  "name": "Get Custom Objects",
+  "domain": "https://cloud-api.loginradius.com",
+  "path": "/customobject",
+  "method": "POST",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "apisecret*": "@secret@",
+    "customObject*": ""
+  },
+  "postparams": {
+    "from": "yyyy-mm-dd",
+    "to": "yyyy-mm-dd",
+    "q": {},
+    "size": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API allows you to query your LoginRadius Cloud Directory.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "apisecret",
+        "is_required": true,
+        "description": "LoginRadius API secret or LoginRadius API Secondary secret with <b> Cloud Directory API permission enabled</b>"
+      },
+      {
+        "name": "customObject",
+        "is_required": true,
+        "description": "Custom Object Name"
+      }
+    ],
+    "Post Params": [
+      {
+        "name": "from",
+        "is_required": true,
+        "description": "The start date for the records you would like to retrieve yyyy-mm-dd"
+      },
+      {
+        "name": "to",
+        "is_required": true,
+        "description": "The end data for the records you would like to retrive yyyy-mm-dd"
+      },
+      {
+        "name": "q",
+        "is_required": true,
+        "description": "The query that you would like to pull data on details on query format can be found <a href='/docs/api/v2/cloud-directory-api/custom-object/overview#formattingyourcustomobjectqueries1'>here</a>"
+      },
+      {
+        "name": "size",
+        "is_required": false,
+        "description": "The number of records to be fetched per request, should be > 1 && < 1000. Defaults to 20"
+      }
+    ]
+  },
+  "outputFormat": {
+    "total": 30,
+    "data": [
+      {
+        "IsActive": true,
+        "DateCreated": "2018-01-31T09:02:40.290Z",
+        "DateModified": "2018-01-31T09:02:40.290Z",
+        "IsDeleted": false,
+        "Uid": "8414f9491c9b461e942a19af5d23f936",
+        "CustomObject": {
+          "key1": "asd",
+          "key2": [
+            "lower",
+            "upper",
+            "down"
+          ],
+          "key3": 123,
+          "key4": [
+            {
+              "Type": "Primary",
+              "Value": "youtube"
+            },
+            {
+              "Type": "Secondary",
+              "Value": "vimeo"
+            }
+          ],
+          "key5": {
+            "Code": "Dr",
+            "Name": "Doctor"
+          }
+        },
+        "_id": 12349
+      },
+      {
+        "IsActive": true,
+        "DateCreated": "2018-01-31T09:03:14.940Z",
+        "DateModified": "2018-01-31T09:03:14.940Z",
+        "IsDeleted": false,
+        "Uid": "b7d2a7fee54a4f168e6ac33a2f295e94",
+        "CustomObject": {
+          "key1": "hello",
+          "key2": [
+            "middle"
+          ],
+          "key3": 124,
+          "key4": [
+            {
+              "Type": "Primary",
+              "Value": "google"
+            },
+            {
+              "Type": "Secondary",
+              "Value": "vimeo"
+            }
+          ],
+          "key5": {
+            "Code": "CH",
+            "Name": "Chef"
+          }
+        },
+        "_id": 12350
+      },
+      {
+        "IsActive": true,
+        "DateCreated": "2018-01-31T09:03:25.420Z",
+        "DateModified": "2018-01-31T09:03:25.420Z",
+        "IsDeleted": false,
+        "Uid": "f78f2a163bce44e1b3118d8eb029c532",
+        "CustomObject": {
+          "key1": "test123",
+          "key2": [
+            "middle",
+            "lower"
+          ],
+          "key3": 125,
+          "key4": [
+            {
+              "Type": "Primary",
+              "Value": "twitch"
+            },
+            {
+              "Type": "Secondary",
+              "Value": "vimeo"
+            }
+          ],
+          "key5": {
+            "Code": "MS",
+            "Name": "Master"
+          }
+        },
+        "_id": 12351
+      },
+      {
+        "IsActive": true,
+        "DateCreated": "2018-01-31T10:18:22.470Z",
+        "DateModified": "2018-01-31T10:18:22.470Z",
+        "IsDeleted": false,
+        "Uid": "909e8731190640eaa3b76bd7a24bec13",
+        "CustomObject": {
+          "key1": "test1234",
+          "key2": [
+            "middle",
+            "lower",
+            "upper",
+            "down"
+          ],
+          "key3": 126,
+          "key4": [
+            {
+              "Type": "Primary",
+              "Value": "facebook"
+            },
+            {
+              "Type": "Secondary",
+              "Value": "vimeo"
+            }
+          ],
+          "key5": {
+            "Code": "Mr",
+            "Name": "Mister"
+          }
+        },
+        "_id": 12352
+      }
+    ],
+    "next": "DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX=="
+  }
+}

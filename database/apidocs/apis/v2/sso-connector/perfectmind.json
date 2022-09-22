@@ -1,0 +1,41 @@
+{
+  "name": "PerfectMind",
+  "domain": "https://cloud-api.loginradius.com",
+  "path": "/sso/perfectmind/session",
+  "method": "GET",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "access_token*": "",
+    "perfectMindSiteName*": ""
+  },
+  "headers": {
+    "content-Type": "application/x-www-form-urlencoded"
+  },
+  "response": "json",
+  "description": "This API is used to get the PerfectMind Session ID and Login URL by Access Token.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "access_token",
+        "is_required": true,
+        "description": "LoginRadius User Access Token"
+      },
+      {
+        "name": "perfectMindSiteName",
+        "is_required": true,
+        "description": "LoginRadius Hosted Plugin Configuration Store Name"
+      }
+
+    ]
+  },
+  "outputFormat": {
+    "SessionId": "b*****b5-****-4**2-****-1f5******b21",
+    "URL": "https://example.example.com/Menu/Account/SessionSignIn?sessionId=b*****b5-****-4**2-****-1f5******b21",
+    "IsNewLink": true
+  }
+}

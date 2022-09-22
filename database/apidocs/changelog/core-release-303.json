@@ -1,0 +1,31 @@
+{
+    "name": "Core Release 30.3.0",
+    "description": "We have rolled out another version of the Core APIs. This core API release brings you with a few new features and improvements.",
+    "changelog": {
+    "ADDED": [
+
+         {
+            "text": "Added Passwordless email and username APIs with OTP support."
+         },
+         {
+            "text": "Added <strong>SocialLogin with Ping API</strong> with no callback feature." 
+         },
+         {
+            "text": "Previous verification tokens can now be expired once a new token is requested automatically." 
+         },
+         {
+            "text": "<strong>Resetpasswordurl</strong> whitelisting is required to use Forgot password feature." 
+         }
+            ],
+
+    "IMPROVED": [
+        {
+            "text": "Added <strong>OTP Code</strong> option for <strong>Passwordless Login by Email/Username</strong> APIs." 
+        }  
+            ]  
+    },
+
+    "auther": "Vaibhav Jain",
+    "created_date": "2020-11-06",
+    "status": "public"
+  }

@@ -1,0 +1,49 @@
+{
+    "name": "MFA Settings By Access Token",
+    "domain":"https://api.loginradius.com",
+    "path":"/identity/v2/auth/account/2FA",
+    "method":"GET",
+    "getparams":{
+		"apikey*":"@apikey@",
+    "access_token*": ""
+
+	},
+    "postparams":"",
+    "headers":{"content-Type":"application/x-www-form-urlencoded","Authorization":"Bearer "},
+    "response":"json",
+    "description": "This API is used to get the MFA setting configured on the profile with required google auth settings. This API used to set the Other MFA authenticator after login",
+    "parameters": {
+      "Get Params": [
+        {
+          "name": "apikey",
+          "is_required": true,
+          "description": "LoginRadius API Key"
+        }
+      ],
+	  "Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }]
+    },
+    "outputFormat": {
+      "QRCode": null,
+      "ManualEntryCode": null,
+      "IsGoogleAuthenticatorVerified": true,
+      "IsOTPAuthenticatorVerified": false,
+      "OTPPhoneNo": null,
+      "OTPStatus": null,
+        "IsEmailOtpAuthenticatorVerified": false,
+        "Email": [
+            "xyz@example.com"
+        ],
+        "EmailOTPStatus": null,
+     "IsSecurityQuestionEnabled": false,
+            "SecurityQuestions": [
+                {
+                    "QuestionId": "<QuestionId>",
+                    "Question": "<Question>"
+                }
+            ]
+    }
+}

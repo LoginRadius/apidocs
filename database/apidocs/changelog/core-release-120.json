@@ -1,0 +1,75 @@
+{
+    "name": "Core Release 12.0",
+    "description": "We are pleased to announce the release of new version of platform API. This release includes several important features and bug fixes. Some examples are :<br>a) New features such as being able to configure custom 0Auth 2.0 provider will help our customers to easily integrate with any new provider that conforms to oAuth2.0 standards.<br>b) Providing server side apis for password reset and user update will allow our customers to integrate this feature with their server side flow. Going forward, we will provide lot more server side apis to allow customers the flexibility to implement their own flow.",
+    "changelog": {
+        "ADDED": [{
+                "text": "Custom OAuth-2.0 provider - Support for any new OAuth 2.0 provider following the standard OAuth 2.0 flow"
+            },
+            {
+                "text": "Register with business-only e-mail"
+            },
+            {
+                "text": "Reordering social providers based on connected status"
+            },
+            {
+                "text": "Associating Total registered user count with the identity api"
+            },
+            {
+                "text": "Disabling new registration from social login"
+            },
+            {
+                "text": "Option to disable account linking"
+            },
+            {
+                "text": "Adding Pinterest as a new social provider"
+            },
+            {
+                "text": "One click login feature"
+            },
+            {
+                "text": "Password strength feature"
+            },
+            {
+                "text": "server side api to get active session details"
+            },
+            {
+                "text": "server-side api to reset password"
+            },
+            {
+                "text": "Customer Registration V2 API Beta version released"
+            },
+            {
+                "text": "Hub & API Projects merged"
+            }],
+        "FIXED": [{
+                "text": "List of Merged UIDs in user profile"
+            },
+            {
+                "text": "Missed data points of social ID provider"
+            },
+            {
+                "text": "Account Linking Social ID provider order"
+            },
+            {
+                "text": "Custom Object by UID API Error message"
+            },
+            {
+                "text": "Keyup event binding fails in firefox"
+            },
+            {
+                "text": "Refresh token API error message fix for Instagram"
+            },
+            {
+                "text": "New password can be set as old password"
+            },
+            {
+                "text": "SessionStorage or LocalStorage in Safari Private Mode"
+            },
+            {
+                "text": "Birthdate field is not being retrieved from Google Social Login."
+            }]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2016-7-1",
+    "status": "public"
+}

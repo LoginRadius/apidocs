@@ -1,0 +1,42 @@
+{
+    "name": "Reset MFA Email OTP Authenticator Settings by UID",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/2FA/authenticator/otp/email",
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "",
+        "uid":""
+      },
+      "postparams": "",
+      "headers": {
+          "content-Type": "application/json"
+      },
+      "response": "json",
+      "description": "This API is used to reset the Email OTP Authenticator settings for an MFA-enabled user.",
+      "parameters": {
+        "Get Params": [
+            {
+          "name": "apikey",
+          "is_required": true,
+          "description": "Your LoginRadius API Key"
+        },
+        {
+            "name": "apisecret",
+            "is_required": true,
+            "description": "LoginRadius API secret "
+          },
+          {
+            "name": "UID",
+            "is_required": true,
+            "description": "Valid Account ID"
+          }
+      ]
+        
+      },
+      "outputFormat": {
+      "IsDeleted": true
+    }
+    }
+    
+  

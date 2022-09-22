@@ -1,0 +1,277 @@
+{
+    "name": "Consent By Access Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/consent/profile",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "access_token*": ""
+    },
+    "postparams": {
+            "Events":[
+                {
+                    "Event": "Register",
+                    "IsCustom": true
+                },
+                {
+                    "Event": "CustomEvent",
+                    "IsCustom": false
+                }
+            ],
+            "Data": [
+                {
+                    "ConsentOptionId": "weeklyPromotionByEmailConsent",
+                    "IsAccepted": true
+                },
+                 {
+                    "ConsentOptionId": "weeklyPromotionBySmsConsent",
+                    "IsAccepted": true
+                },
+                {
+                    "ConsentOptionId": "marketingEmailConsent",
+                    "IsAccepted": false
+                },
+                {
+                    "ConsentOptionId": "cookieConsent",
+                    "IsAccepted": true
+                }
+            ]
+        },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to submit a consent form for particular event type by using access token.",
+    "parameters": {
+        "Get Parameters": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            },
+            {
+                "name": "access_token",
+                "is_required": true,
+                "description": "The access token received after successfull login"
+            }
+        ],
+        "Post Parameters": [
+            {
+                "name": "Event",
+                "is_required": true,
+                "description": "Event name on which consent form should be shown"
+            },
+            {
+                "name": "IsCustom",
+                "is_required": true,
+                "description": "Pass true, if the custom event is created by user, that is different from 3 LoginRadius events (Registration, FirstLogin, Login)"
+            },
+            {
+                "name": "ConsentOptionId",
+                "is_required": true,
+                "description": "Unique identifier to identify a particular consent option. User can retreive this identifier from user profile"
+            },
+            {
+                "name": "IsAccepted",
+                "is_required": true,
+                "description": "Pass true, if consent is acccepted by user"
+            }
+        ]
+    },
+        "outputFormat": {
+                "Password": "Rfc2898Der*****tes$1000$iYc1O1*****Yz/0hM3IlLw==$cy*****4UKE+2dxfPUEcRi*****Yl+uPI6sVlLm3fYM=",
+                "LastPasswordChangeDate": null,
+                "PasswordExpirationDate": "2020-02-07T05:07:13.8390000Z",
+                "LastPasswordChangeToken": null,
+                "EmailVerified": false,
+                "IsActive": true,
+                "IsDeleted": false,
+                "Uid": "b320c*****c744fca*****f2a4***c5e",
+                "CustomFields": null,
+                "IsEmailSubscribed": false,
+                "UserName": null,
+                "NoOfLogins": 6,
+                "PhoneId": null,
+                "PhoneIdVerified": false,
+                "Roles": [
+                  "teacher"
+                ],
+                "ExternalUserLoginId": null,
+                "RegistrationProvider": "Email",
+                "IsLoginLocked": false,
+                "LoginLockedType": "None",
+                "LastLoginLocation": "Jaipur, India",
+                "RegistrationSource": "API",
+                "IsCustomUid": false,
+                "UnverifiedEmail": null,
+                "IsSecurePassword": null,
+                "PrivacyPolicy": null,
+                "ExternalIds": null,
+                "IsRequiredFieldsFilledOnce": true,
+                "ConsentProfile": {
+                  "AcceptedConsentVersions": [
+                    {
+                      "Event": "Login",
+                      "Version": 1,
+                      "IsCustom": false
+                    },
+                    {
+                      "Event": "Register",
+                      "Version": 1,
+                      "IsCustom": false
+                    },
+                    {
+                      "Event": "Register",
+                      "Version": 1,
+                      "IsCustom": false
+                    },
+                    {
+                      "Event": "Login",
+                      "Version": 1,
+                      "IsCustom": false
+                    }
+                  ],
+                  "Consents": [
+                    {
+                      "ConsentOptionId": "email_consent",
+                      "AcceptOnDate": "2019-09-17T10:30:25.7030000Z"
+                    },
+                    {
+                      "ConsentOptionId": "sms_consent",
+                      "AcceptOnDate": "2019-09-17T10:30:25.7030000Z"
+                    },
+                    {
+                      "ConsentOptionId": "marketing_consent",
+                      "AcceptOnDate": "2019-09-17T10:30:25.7030000Z"
+                    }
+                  ]
+                },
+                "PIN": {
+                  "Skipped": null,
+                  "PIN": "Rfc2898D*****Bytes$1000$O*****wyrkykMfGpsxNVbA==$Yc*****1fSowcv52jJ*****T6oGCigqPrk8*****Peg=",
+                  "LastPINChangeDate": "2019-09-07T05:07:13.8400000Z",
+                  "SkippedDate": "0001-01-01T00:00:00.0000000Z"
+                },
+                "RegistrationData": null,
+                "ID": "da818*****0e436d*****483e*****8ea",
+                "Provider": "Email",
+                "Prefix": null,
+                "FirstName": null,
+                "MiddleName": null,
+                "LastName": null,
+                "Suffix": null,
+                "FullName": null,
+                "NickName": null,
+                "ProfileName": null,
+                "BirthDate": null,
+                "Gender": null,
+                "Website": null,
+                "Email": [
+                  {
+                    "Type": "Primary",
+                    "Value": "example@example.com"
+                  }
+                ],
+                "Country": null,
+                "ThumbnailImageUrl": null,
+                "ImageUrl": null,
+                "Favicon": null,
+                "ProfileUrl": null,
+                "HomeTown": null,
+                "State": null,
+                "City": null,
+                "Industry": null,
+                "About": null,
+                "TimeZone": null,
+                "LocalLanguage": null,
+                "CoverPhoto": null,
+                "TagLine": null,
+                "Language": null,
+                "Verified": null,
+                "UpdatedTime": null,
+                "Positions": null,
+                "Educations": null,
+                "PhoneNumbers": null,
+                "IMAccounts": null,
+                "Addresses": null,
+                "MainAddress": null,
+                "Created": null,
+                "CreatedDate": "2019-09-07T05:07:13.0580000Z",
+                "ModifiedDate": "2019-09-17T10:30:26.4620000Z",
+                "ProfileModifiedDate": null,
+                "LocalCity": null,
+                "ProfileCity": null,
+                "LocalCountry": null,
+                "ProfileCountry": null,
+                "FirstLogin": false,
+                "IsProtected": false,
+                "RelationshipStatus": null,
+                "Quota": null,
+                "Quote": null,
+                "InterestedIn": null,
+                "Interests": null,
+                "Religion": null,
+                "Political": null,
+                "Sports": null,
+                "InspirationalPeople": null,
+                "HttpsImageUrl": null,
+                "FollowersCount": 0,
+                "FriendsCount": 0,
+                "IsGeoEnabled": null,
+                "TotalStatusesCount": 0,
+                "Associations": null,
+                "NumRecommenders": 0,
+                "Honors": null,
+                "Awards": null,
+                "Skills": null,
+                "CurrentStatus": null,
+                "Certifications": null,
+                "Courses": null,
+                "Volunteer": null,
+                "RecommendationsReceived": null,
+                "Languages": null,
+                "Projects": null,
+                "Games": null,
+                "Family": null,
+                "TeleVisionShow": null,
+                "MutualFriends": null,
+                "Movies": null,
+                "Books": null,
+                "AgeRange": null,
+                "PublicRepository": null,
+                "Hireable": false,
+                "RepositoryUrl": null,
+                "Age": null,
+                "Patents": null,
+                "FavoriteThings": null,
+                "ProfessionalHeadline": null,
+                "ProviderAccessCredential": null,
+                "RelatedProfileViews": null,
+                "KloutScore": null,
+                "LRUserID": null,
+                "PlacesLived": null,
+                "Publications": null,
+                "JobBookmarks": null,
+                "Suggestions": null,
+                "Badges": null,
+                "MemberUrlResources": null,
+                "TotalPrivateRepository": 0,
+                "Currency": null,
+                "StarredUrl": null,
+                "GistsUrl": null,
+                "PublicGists": 0,
+                "PrivateGists": 0,
+                "Subscription": null,
+                "Company": null,
+                "GravatarImageUrl": null,
+                "ProfileImageUrls": null,
+                "WebProfiles": null,
+                "PinsCount": 0,
+                "BoardsCount": 0,
+                "LikesCount": 0,
+                "SignupDate": "2019-09-07T05:07:13.0580000Z",
+                "LastLoginDate": "2019-09-17T10:30:26.4610000Z",
+                "PreviousUids": null,
+                "Identities": null
+            }
+        }

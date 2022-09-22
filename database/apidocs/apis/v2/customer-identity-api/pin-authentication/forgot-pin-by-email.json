@@ -1,0 +1,49 @@
+{
+  "name": "Forgot PIN By Email",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/auth/pin/forgot/email",
+  "method": "POST",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "emailtemplate*": "",
+    "resetpinurl": ""
+  },
+  "postparams": {
+      "Email": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "Use this Endpoint to trigger the Forgot PIN process, where an email is sent to the customer.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "emailtemplate",
+        "is_required": false,
+        "description": "Name of the email template to send the customer."
+      },
+      {
+        "name": "resetpinurl",
+        "is_required": false,
+        "description": "URL location of the interface to allow the customer to reset the PIN."
+      }
+],
+    "Post Params": [
+        {
+        "name": "Email",
+        "is_required": true,
+        "description": "Email on Account that the PIN was forgotten."
+      }
+          ]
+  },
+    "outputFormat": 
+{
+    "IsPosted": true
+}
+}

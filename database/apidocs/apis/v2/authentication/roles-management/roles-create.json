@@ -1,0 +1,61 @@
+{
+    "name": "Roles Create",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/manage/role",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": {
+        "roles":[
+            {
+                "name":"role_name",
+                "permissions": {
+                    "permission_name1":true,
+                    "permission_name2":true,
+                    "permission_name3":true
+                }
+            }]
+
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API creates a role with permissions.",
+    "parameters": {
+        "Get Params": [
+          {
+            "name": "apikey",
+            "is_required": true,
+            "description": "Login Radius API Key"
+          },
+          {
+            "name": "apisecret",
+            "is_required": true,
+            "description": "LoginRadius API Secret"
+          }
+        ],
+        "Post Params": [
+          {
+            "name": "roles",
+            "is_required": true,
+            "description": "Array of Role JSON objects, see body tab for structure"
+          }
+        ]
+    },
+	"outputFormat": {
+        "data": [
+		{
+		  "Name": "SubAdministrator",
+		  "Permissions": {
+			"Edit": true,
+			"CreateUser": true,
+			"DeleteUser": true
+		  }
+		}
+	  ],
+	  "Count": 1
+    }
+}

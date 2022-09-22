@@ -1,0 +1,59 @@
+{
+    "name": "Custom Object by ObjectRecordId and UID",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/{uid}/customobject/{objectRecordId}",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@",
+        "objectname*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to retrieve the Custom Object data for the specified account.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            }, {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }, {
+                "name": "objectname",
+                "is_required": true,
+                "description": "LoginRadius Custom Object Name"
+            }
+        ],
+        "Template Params": [
+            {
+                "name": "uid",
+                "is_required": true,
+                "description": "UID, the unified identifier for each user account"
+            },
+            {
+                "name": "objectrecordid",
+                "is_required": true,
+                "description": "Unique identifier of the user's record in Custom Object"
+            }
+        ]
+    },
+    "outputFormat": {
+  "Id": "XXXXXXXXXXXXXXXXXXXXXXXX",
+  "IsActive": true,
+  "DateCreated": "2017-09-29T23:55:33.4420376Z",
+  "DateModified": "2017-09-29T23:55:33.4420376Z",
+  "IsDeleted": false,
+  "Uid": "XXXXXXXXXXXXXXXXXXXXXXXX",
+  "CustomObject": {
+    "customdata1": "Store my customdata1 value",
+    "customdata2": "Store my customdata2 value"
+  }
+}
+
+}

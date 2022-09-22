@@ -1,0 +1,36 @@
+{
+  "name": "LoginRadius API Core Release V20.3.0",
+  "description": "The new LoginRadius Core Release V20.0.3 brings new capabilities and improvements to the LoginRadius Platform that make it easier to customize your workflows.",
+  "changelog": {
+  "ADDED": [
+      {
+        "text": "QQ Tencent Captcha Integration: LoginRadius now supports QQ Tencent Captcha. This captcha service can be utilized and configured along with Google reCaptcha. "
+      },
+      {
+        "text": "Time-based Account Lockout: This security feature can be set to lock an account for a specific time period when the user reaches the maximum allowance for failed login attempts." 
+      },
+	    {
+        "text": "External IDs: The LoginRadius User Profile can now hold External IDs via the newly added ExternalIds field."
+      },
+            {
+        "text": "WebHook Control Header: WebHook calls/triggers can now be controlled via a custom HTTP header."
+      }],
+  "IMPROVED": [
+      {
+        "text": "Login Lockout: Our Login Lockout feature is now added into our Multi-Factor Authentication flows."
+      },
+     {
+        "text": "Facebook API Version Update: The LoginRadius APIs have been updated to integrate with Facebook API version 2.12."
+      },
+      {
+        "text": "Profile Modified Date: The LoginRadius User Profile now has a new 'ProfileModifiedDate' field to indicate the date when the profile has been modified or updated."
+      },
+      {
+        "text": "LoginRadius Subdomains Whitelisted: You will no longer need to manually whitelist LoginRadius domains, they will be whitelisted by default."
+      }
+  ]
+    },
+  "auther": "Pascal",
+  "created_date": "2018-04-11",
+  "status": "public"
+}

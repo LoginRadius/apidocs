@@ -1,0 +1,13 @@
+{
+"name": "Admin Console Release 24.7.0",
+    "description": "This release of the Admin Console brings you enhancements, see below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+      "ADDED": [
+        {
+          "text": " The passcode configuration UI for MFA via email is added in Admin Console."
+        }        
+      ]},
+  "auther": "Vaibhav Jain",
+  "created_date": "2021-05-18",
+  "status": "public"
+  }

@@ -1,0 +1,767 @@
+[ 
+  {
+    "title": "Admin Console Release 25.9.1",
+    "url": "admin-console-release-2591",
+    "date": "2022-08-30"
+  },
+  {
+    "title": "Admin Console Release 25.9.0",
+    "url": "admin-console-release-2590",
+    "date": "2022-08-23"
+  },
+  {
+    "title": "Admin Console Release 25.8.0",
+    "url": "admin-console-release-2580",
+    "date": "2022-06-30"
+  },
+  {
+    "title": "Admin Console Release 25.7.0",
+    "url": "admin-console-release-2570",
+    "date": "2022-05-24"
+  },
+  {
+    "title": "Admin Console Release 25.6.0",
+    "url": "admin-console-release-2560",
+    "date": "2022-04-19"
+  },
+  {
+    "title": "Admin Console Release 25.5.0",
+    "url": "admin-console-release-2550",
+    "date": "2022-03-05"
+  },
+  {
+    "title": "Admin Console Release 25.4.0",
+    "url": "admin-console-release-2540",
+    "date": "2022-02-11"
+  },
+  {
+    "title": "Admin Console Release 25.3.0",
+    "url": "admin-console-release-2530",
+    "date": "2022-01-21"
+  }, 
+
+  {
+    "title": "Admin Console Release 25.2.0",
+    "url": "admin-console-release-2520",
+    "date": "2022-01-05"
+  },
+  
+  {
+    "title": "Admin Console Release 25.1.0",
+    "url": "admin-console-release-2510",
+    "date": "2022-01-04"
+  },
+
+  {
+    "title": "JS Release 3.19.0",
+    "url": "js-release-3190",
+    "date": "2021-12-14"
+  },
+  {
+    "title": "Cloud API Release 5.5.0",
+    "url": "cloud-api-release-5.5.0",
+    "date": "2021-10-06"
+  },
+  {
+    "title": "JS Release | IDX 1.4.0",
+    "url": "js-release-idx-140",
+    "date": "2021-09-26"
+  },
+  
+  {
+    "title": "Admin Console Release 25.0.0",
+    "url": "admin-console-release-2500",
+    "date": "2021-09-09"
+  },
+  
+  {
+    "title": "Core API Release 32.0.0",
+    "url": "core-api-release-3200",
+    "date": "2021-09-09"
+  },
+
+  {
+    "title": "Admin Console Release 24.9.1",
+    "url": "admin-console-release-2491",
+    "date": "2021-08-20"
+  },
+
+  {
+    "title": "Core API Release 31.4.0",
+    "url": "core-api-release-3140",
+    "date": "2021-08-11"
+  },
+  {
+    "title": "Admin Console Release 24.9.0",
+    "url": "admin-console-release-24.9.0",
+    "date": "2021-07-29"
+  },
+  {
+    "title": "JS Release 3.18.0",
+    "url": "js-release-3180",
+    "date": "2021-07-20"
+  },
+  {
+    "title": "Core API Release 31.3.0",
+    "url": "core-api-release-3130",
+    "date": "2021-07-20"
+  },
+  {
+    "title": "Cloud Configuration API Release 4.5.0",
+    "url": "cloud-configuration-api-release-450",
+    "date": "2021-07-18"
+  },
+  {
+    "title": "Core API Release 31.1.0",
+    "url": "core-api-release-3110",
+    "date": "2021-06-10"
+  },
+ {
+    "title": "Admin Console Release 24.8.0",
+    "url": "admin-console-release-2480",
+    "date": "2021-06-03"
+  }, 
+  {
+    "title": "JS Release 3.17.0",
+    "url": "js-release-3170",
+    "date": "2021-06-03"
+  },
+  {
+    "title": "Cloud Configuration API Release 4.4.0",
+    "url": "cloud-configuration-api-release-440",
+    "date": "2021-06-2"
+  },
+  {
+    "title": "Cloud API Release 7.3.1",
+    "url": "cloud-api-release-731",
+    "date": "2021-05-18"
+  },
+  {
+    "title": "Admin Console Release 24.7.0",
+    "url": "admin-console-release-2470",
+    "date": "2021-05-18"
+  },  
+  {
+    "title": "JS Release 3.16.0",
+    "url": "js-release-3160",
+    "date": "2021-05-13"
+  },
+
+  {
+    "title": "Core API Release 31.0.0",
+    "url": "core-api-release-3100",
+    "date": "2021-05-08"
+  },
+
+  {
+    "title": "Cloud API Release 7.3.0",
+    "url": "cloud-api-release-730",
+    "date": "2021-04-21"
+  },
+
+  {
+    "title": "Core API Release 30.9.2",
+    "url": "core-api-release-3092",
+    "date": "2021-04-15"
+  },
+
+{
+    "title": "Admin Console Release 24.6.0",
+    "url": "admin-console-release-2460",
+    "date": "2021-02-18"
+  },  
+  {
+    "title": "JS Release 3.15.0",
+    "url": "js-release-3150",
+    "date": "2021-02-17"
+  },
+
+  {
+    "title": "Core API Release 30.9.1",
+    "url": "core-api-release-3091",
+    "date": "2021-02-12"
+  },
+  
+  {
+    "title": "Cloud API Release 5.4.0",
+    "url": "cloud-api-release-540",
+    "date": "2021-01-30"
+  },
+  
+  {
+    "title": "Admin Console Release 24.5.0",
+    "url": "admin-console-release-2450",
+    "date": "2021-01-19"
+  },
+  {
+    "title": "Core HPA Release 1.0.5",
+    "url": "core-hpa-release-105",
+    "date": "2021-01-08"
+  },
+  {
+    "title": "Core API Release 30.9.0",
+    "url": "core-api-release-3090",
+    "date": "2021-01-05"
+  },
+  {
+    "title": "Core API Release 30.7.0",
+    "url": "core-api-release-3070",
+    "date": "2020-12-29"
+  },
+  {
+    "title": "Cloud SSO Federation API Release v7.2.3",
+    "url": "cloud-api-release-723",
+    "date": "2020-12-28"
+  },
+  {
+    "title": "Core API Release 30.8.0",
+    "url": "core-release-308",
+    "date": "2020-12-24"
+  },
+  {
+    "title": "Cloud API Release 7.2.1",
+    "url": "cloud-api-release-721",
+    "date": "2020-12-08"
+  },
+  {
+    "title": "Core API Release 30.3.0",
+    "url": "core-release-303",
+    "date": "2020-11-06"
+  },
+  {
+    "title": "Core API Release 1.0.4",
+    "url": "core-release-104",
+    "date": "2020-11-03"
+  },
+  {
+    "title": "Admin Console Release 24.4.0",
+    "url": "admin-console-release-2440",
+    "date": "2020-10-27"
+  },
+  {
+    "title": "Core API Release 30.6.0",
+    "url": "core-release-3060",
+    "date": "2020-10-26"
+  },
+  {
+    "title": "Cloud API Release 1.7.0",
+    "url": "cloud-api-release-170",
+    "date": "2020-10-26"
+  },
+  {
+    "title": "JS Release 3.14.1",
+    "url": "js-release-3141",
+    "date": "2020-10-26"
+  },
+  {
+    "title": "Cloud API Release 7.1.0",
+    "url": "cloud-api-release-710",
+    "date": "2020-10-16"
+  },
+  {
+    "title": "Core API Release 30.5.0",
+    "url": "core-release-3050",
+    "date": "2020-10-15"
+  },
+  {
+    "title": "Admin Console Release 24.3.5",
+    "url": "admin-console-release-2435",
+    "date": "2020-10-05"
+  },
+  {
+    "title": "Cloud Connector Release 3.5.0",
+    "url": "cloud-connector-release-350",
+    "date": "2020-09-17"
+  },
+  {
+    "title": "Cloud SSO SAML API Release 7.1.1",
+    "url": "cloud-sso-saml-api-release-711",
+    "date": "2020-09-17"
+  },
+  {
+    "title": "JS Release 3.14.0",
+    "url": "js-release-3140",
+    "date": "2020-09-17"
+  },
+  {
+    "title": "Cloud Configuration API Release 4.1.0",
+    "url": "cloud-configuration-api-release-410",
+    "date": "2020-09-16"
+  },
+  {
+    "title": "SSO Login API Release 1.5.0",
+    "url": "sso-login-api-release-150",
+    "date": "2020-09-16"
+  },
+  {
+    "title": "Admin Console Release 24.3.4",
+    "url": "admin-console-release-2434",
+    "date": "2020-09-16"
+  },
+  {
+    "title": "Admin Console Release 24.3.3",
+    "url": "admin-console-release-2433",
+    "date": "2020-08-05"
+  },
+  {
+    "title": "Core Release 30.2.1",
+    "url": "core-release-3021",
+    "date": "2020-08-05"
+  },
+  {
+    "title": "JS Release 3.13.0",
+    "url": "js-release-3130",
+    "date": "2020-08-05"
+  },
+  {
+    "title": "Core Release 30.2.0",
+    "url": "core-release-302",
+    "date": "2020-07-23"
+  },
+  {
+    "title": "CDA Release 6.0.0",
+    "url": "cda-release-600",
+    "date": "2020-07-18"
+  },
+  {
+    "title": "JS Release 3.12.0",
+    "url": "js-release-3120",
+    "date": "2020-07-03"
+  },
+  {
+    "title": "Core Release 30.1.0",
+    "url": "core-release-301",
+    "date": "2020-06-24"
+  },
+  {
+    "title": "Admin Console Release 24.3",
+    "url": "admin-console-release-243",
+    "date": "2020-06-19"
+  },
+  {
+    "title": "Hosted Plugin Release 5.2.0",
+    "url": "hosted-plugin-release-520",
+    "date": "2020-06-12"
+  },
+  {
+    "title": "Core Release 29.9.0",
+    "url": "core-release-299",
+    "date": "2020-06-05"
+  },
+  {
+    "title": "Admin Console Release 24.2",
+    "url": "admin-console-release-242",
+    "date": "2020-06-03"
+  },
+  {
+    "title": "Core Release 29.8.0",
+    "url": "core-release-298",
+    "date": "2020-05-20"
+  },
+  {
+    "title": "Admin Console Release 24.1",
+    "url": "admin-console-release-241",
+    "date": "2020-05-18"
+  },
+  
+  {
+    "title": "Core Release 29.5.0",
+    "url": "core-release-2950",
+    "date": "2020-04-27"
+  },
+  {
+    "title": "Admin Console Release 23.3.0",
+    "url": "admin-console-release-2330",
+    "date": "2020-04-20"
+  },
+  {
+    "title": "JS Release 3.11.0",
+    "url": "js-release-3110",
+    "date": "2020-04-14"
+  },
+  {
+    "title": "Major Release - Admin Console 6.0",
+    "url": "admin-console-release-600",
+    "date": "2020-04-03"
+  },
+  {
+    "title": "New SAML API release",
+    "url": "new-saml-release-200",
+    "date": "2020-03-25"
+  },
+  {
+    "title": "LoginRadius iOS SDK release V5.4.0",
+    "url": "ios-sdk-release-540",
+    "date": "2020-02-25"
+  },
+  {
+    "title": "LoginRadius Android SDK release V4.6.0",
+    "url": "android-sdk-release-460",
+    "date": "2020-02-25"
+  },
+  {
+    "title": "Cloud Directory Release v5.10.9",
+    "url": "cloud-directory-release-512",
+    "date": "2019-11-06"
+  },{
+    "title": "LoginRadius Core Release v27.0.0",
+    "url": "core-release-270",
+    "date": "2019-08-08"
+  },{
+    "title": "New LoginRadius V2 OpenID APIs",
+    "url": "openid-api-update",
+    "date": "2019-07-31"
+  },
+  {
+    "title": "JS Interface release 3.2.0",
+    "url": "js-release-360",
+    "date": "2019-07-11"
+  },
+  {
+    "title": "Cloud Directory Release 5.9.0",
+    "url": "cloud-directory-release-590",
+    "date": "2019-06-06"
+  },
+  {
+    "title": "Admin Console Release v22.4",
+    "url": "admin-console-release-224",
+    "date": "2019-05-27"
+  },
+  {
+    "title": "JS Interface release 3.2.0",
+    "url": "js-release-320",
+    "date": "2019-05-15"
+  },
+  {
+    "title": "JS Interface release 3.1.4",
+    "url": "js-release-314",
+    "date": "2019-04-18"
+  },
+  {
+    "title": "Admin Console Release v22.1",
+    "url": "admin-console-release-221",
+    "date": "2019-03-28"
+  },
+  {
+    "title": "Core Release v22.5",
+    "url": "core-release-225",
+    "date": "2019-02-12"
+  },
+  {
+    "title": "Dashboard Release v21.3",
+    "url": "Dashboard-release-213",
+    "date": "2019-02-08"
+  },
+  {
+    "title": "Core Release v22.4.0",
+    "url": "core-release-224",
+    "date": "2019-01-09"
+  },
+  {
+    "title": "Dashboard Release v21.2",
+    "url": "Dashboard-release-212",
+    "date": "2018-05-10"
+  },
+  {
+    "title": "Core Release v22.1.0",
+    "url": "core-release-221",
+    "date": "2018-08-27"
+  },
+  {
+    "title": "Dashboard Release v20.0",
+    "url": "Dashboard-release-200",
+    "date": "2018-08-07"
+  },
+  {
+    "title": "Core Release v22.0.0",
+    "url": "core-release-220",
+    "date": "2018-08-02"
+  },
+  {
+    "title": "Dashboard Release 19.0.0",
+    "url": "Dashboard-release-190",
+    "date": "2018-05-10"
+  },
+  {
+    "title": "Core Release 20.4.0",
+    "url": "core-release-204",
+    "date": "2018-05-05"
+  },
+  {
+    "title": "Core Release 20.3.0",
+    "url": "core-release-203",
+    "date": "2018-04-11"
+  },
+  {
+    "title": "Dashboard release 18.0",
+    "url": "Dashboard-release-180",
+    "date": "2018-04-04"
+  },
+  {
+    "title": "Core Release 20.0",
+    "url": "core-release-200",
+    "date": "2018-03-13"
+  },
+  {
+    "title": "Core Release 19.0",
+    "url": "core-release-190",
+    "date": "2018-02-07"
+  },
+  {
+    "title": "JS Interface release 2.10",
+    "url": "js-release-210",
+    "date": "2018-01-31"
+  },
+  {
+    "title": "Dashboard release 16.5",
+    "url": "Dashboard-release-165",
+    "date": "2018-01-04"
+  },
+  {
+    "title": "Dashboard release 16.0",
+    "url": "Dashboard-release-160",
+    "date": "2017-12-13"
+  },
+  {
+    "title": "JS Interface release 2.9",
+    "url": "js-release-29",
+    "date": "2017-12-7"
+  },
+  {
+    "title": "Core release 18.5",
+    "url": "core-release-185",
+    "date": "2017-11-19"
+  },
+  {
+    "title": "JS Interface release 2.8",
+    "url": "js-release-28",
+    "date": "2017-10-19"
+  },
+  {
+    "title": "Core release 18.4.0",
+    "url": "core-release-184",
+    "date": "2017-10-13"
+  },
+  {
+    "title": "Dashboard release 14.0",
+    "url": "Dashboard-release-140",
+    "date": "2017-06-22"
+  },
+  {
+    "title": "Core release 18.0",
+    "url": "core-release-180",
+    "date": "2017-08-02"
+  },
+  {
+    "title": "Core release 17.0",
+    "url": "core-release-170",
+    "date": "2017-06-27"
+  },
+  {
+    "title": "Dashboard release 13.0",
+    "url": "Dashboard-release-130",
+    "date": "2017-06-27"
+  },
+  {
+    "title": "Dashboard release 12.0",
+    "url": "Dashboard-release-120",
+    "date": "2017-05-29"
+  },
+  {
+    "title": "Core release 16.6",
+    "url": "core-release-166",
+    "date": "2017-05-17"
+  },
+  {
+    "title": "Core release 16.5",
+    "url": "core-release-165",
+    "date": "2017-05-08"
+  },
+  {
+    "title": "Core release 16.0",
+    "url": "core-release-160",
+    "date": "2017-04-25"
+  },
+  {
+    "title": "Dashboard release 11.0",
+    "url": "Dashboard-release-110",
+    "date": "2017-04-30"
+  },
+  {
+    "title": "Dashboard release 10.0",
+    "url": "Dashboard-release-100",
+    "date": "2017-04-19"
+  },
+  {
+    "title": "Core release 15.0",
+    "url": "core-release-150",
+    "date": "2017-3-23"
+  },
+  {
+    "title": "Dashboard release 9.0",
+    "url": "Dashboard-release-90",
+    "date": "2017-3-20"
+  },
+  {
+    "title": "Dashboard release 8.0",
+    "url": "Dashboard-release-80",
+    "date": "2017-3-14"
+  },
+  {
+    "title": "Dashboard release 7.0",
+    "url": "Dashboard-release-70",
+    "date": "2017-2-10"
+  },
+  {
+    "title": "Dashboard release 6.0",
+    "url": "Dashboard-release-60",
+    "date": "2017-1-1"
+  },
+  {
+    "title": "Dashboard release 5.0",
+    "url": "Dashboard-release-50",
+    "date": "2016-12-1"
+  },
+  {
+    "title": "Core release 14.0",
+    "url": "core-release-140",
+    "date": "2016-12-1"
+  },
+  {
+    "title": "Core release 13.0",
+    "url": "core-release-130",
+    "date": "2016-11-1"
+  },
+  {
+    "title": "Dashboard release 4.0",
+    "url": "Dashboard-release-40",
+    "date": "2016-11-1"
+  },
+  {
+    "title": "Dashboard release 3.0",
+    "url": "Dashboard-release-30",
+    "date": "2016-8-1"
+  },
+  {
+    "title": "Core release 12.0",
+    "url": "core-release-120",
+    "date": "2016-7-1"
+  },
+  {
+    "title": "Dashboard release 2.0",
+    "url": "Dashboard-release-20",
+    "date": "2016-7-1"
+  },
+  {
+    "title": "Dashboard release 1.0",
+    "url": "Dashboard-release-10",
+    "date": "2016-6-1"
+  },
+  {
+    "title": "Core release 11.9",
+    "url": "core-release-119",
+    "date": "2016-5-1"
+  },
+  {
+    "title": "Core release 11.5",
+    "url": "core-release-115",
+    "date": "2016-1-1"
+  },
+  {
+    "title": "Core release 11.0",
+    "url": "core-release-110",
+    "date": "2015-11-1"
+  },
+  {
+    "title": "Core release 10.0",
+    "url": "core-release-100",
+    "date": "2015-10-1"
+  },
+  {
+    "title": "Core release 9.6",
+    "url": "core-release-96",
+    "date": "2015-6-1"
+  },
+  {
+    "title": "Core release 9.5",
+    "url": "core-release-95",
+    "date": "2015-5-1"
+  },
+  {
+    "title": "Core release 9.0",
+    "url": "core-release-90",
+    "date": "2015-4-1"
+  },
+  {
+    "title": "Core release 8.3",
+    "url": "core-release-83",
+    "date": "2015-2-1"
+  },
+  {
+    "title": "Core release 8.0",
+    "url": "core-release-80",
+    "date": "2014-12-1"
+  },
+  {
+    "title": "Core release 7.0",
+    "url": "core-release-70",
+    "date": "2014-10-1"
+  },
+  {
+    "title": "Core release 6.0",
+    "url": "core-release-60",
+    "date": "2014-9-1"
+  },
+  {
+    "title": "Core release 5.0",
+    "url": "core-release-50",
+    "date": "2014-8-1"
+  },
+  {
+    "title": "Core release 4.5",
+    "url": "core-release-45",
+    "date": "2014-6-1"
+  },
+  {
+    "title": "Core release 4.0",
+    "url": "core-release-40",
+    "date": "2014-1-1"
+  },
+  {
+    "title": "Core release 3.5",
+    "url": "core-release-35",
+    "date": "2013-12-1"
+  },
+  {
+    "title": "Core release 3.2",
+    "url": "core-release-32",
+    "date": "2013-11-1"
+  },
+  {
+    "title": "Core release 3.0",
+    "url": "core-release-30",
+    "date": "2013-10-1"
+  },
+  {
+    "title": "Core release 2.5",
+    "url": "core-release-25",
+    "date": "2013-8-1"
+  },
+  {
+    "title": "Core release 2.1",
+    "url": "core-release-21",
+    "date": "2013-6-1"
+  },
+  {
+    "title": "Core release 2.0",
+    "url": "core-release-20",
+    "date": "2013-5-1"
+  },
+  {
+    "title": "Core release 1.9",
+    "url": "core-release-19",
+    "date": "2013-2-1"
+  }
+
+
+]

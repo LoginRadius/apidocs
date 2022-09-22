@@ -1,0 +1,60 @@
+{
+    "name": "Privacy Policy History by UID",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/{uid}/privacypolicy/history",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to retrieve all of the accepted Policies by the user, associated with their UID.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ],
+        "Template Params": [
+            {
+                "name": "uid",
+                "is_required": true,
+                "description": "UID, the unified identifier for each user account"
+            }
+        ]
+    },
+    "outputFormat": {
+    "Uid":"ba9******81a*****55f*****e4****6",
+    "Current": {
+           "Version": "version4",
+           "AcceptSource": "https://Your-Site-Name.hub.loginradius.com/auth.aspx",
+           "AcceptDateTime": "2018-02-27T06:25:14.484Z"  
+       },
+    "History": [{
+           "Version": "version1",
+           "AcceptSource": "https://Your-Site-Name.hub.loginradius.com/auth.aspx",
+           "AcceptDateTime": "2018-02-27T06:25:14.484Z"  
+       },
+        {
+           "Version": "version2",
+           "AcceptSource": "https://Your-Site-Name.hub.loginradius.com/auth.aspx",
+           "AcceptDateTime": "2018-02-27T06:25:14.484Z"  
+       },
+        {
+           "Version": "version3",
+           "AcceptSource": "https://Your-Site-Name.hub.loginradius.com/auth.aspx",
+           "AcceptDateTime": "2018-02-27T06:25:14.484Z" 
+       }]
+    }
+}

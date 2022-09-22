@@ -1,0 +1,38 @@
+{
+    "Authentication": {
+      "description": "A quick run-through of authentication processes and features offered by the LoginRadius Identity Platform.",
+      "imagepath": "assets/images/apihome-authentication.svg"
+    },
+    "Single Sign On": {
+      "description": "Configure seamless authentication of your customers into your application or third-party applications.",
+      "imagepath": "assets/images/apihome-singlesignon.svg"
+    },
+    "Customer Management": {
+      "description": " Directly view and manage your customer data with these powerful Customer Management Systems.",
+      "imagepath": "assets/images/apihome-customermanagement.svg"
+    },
+    "Security": {
+      "description": "Understand and enable the different LoginRadius Identity Platform security features for your customers.",
+      "imagepath": "assets/images/apihome-security.svg"
+    },
+    "Governance": {
+      "description": "Discover data storage, security, and compliance features followed and offered by the LoginRadius Identity Platform. ",
+      "imagepath": "assets/images/apihome-governance.svg"
+    },
+    "Customer Intelligence": {
+      "description": "Analyze your customer information to gain useful insights, build stronger customer relationship and support your decision-making process.",
+      "imagepath": "assets/images/apihome-customerintelligenece.svg"
+    },
+    "Integrations": {
+      "description": "Integrate LoginRadius Identity Platform with any third-party software to work seamlessly with your existing application and enhance your productivity.",
+      "imagepath": "assets/images/apihome-integrations.svg"
+    },
+    "Reference Docs": {
+      "description": "Find detailed technical documentation to successfully configure and deploy the LoginRadius Identity Platform to meet your business needs.",
+      "imagepath": "assets/images/apihome-referencedocsapis.svg"
+    },
+    "Libraries": {
+      "description": "SDKs, Turnkey plugins, and JS Libraries that will help you to deploy your LoginRadius Identity Platform in no time.",
+      "imagepath": "assets/images/apihome-libraries.svg"
+    }
+  }

@@ -1,0 +1,436 @@
+// main: master.less
+
+
+/* Flex Container - display --------------------------------------------------------------------- */
+/* flex, inline-flex */
+.display(@display: flex) {
+    display: ~"-ms-@{arguments}box";
+    display: ~"-webkit-@{arguments}";
+    display: @arguments;
+}
+/* Usage
+.container {
+    .display(flex);
+}
+Values: (blank, outputs flex), (flex), (inline-flex)
+*/
+
+
+.displayFlexImp() {
+    display: -ms-flexbox !important;
+    display: -webkit-flex !important;
+    display: flex !important;
+}
+
+/* Flex Container - flex-direction -------------------------------------------------------------- */
+.flex-direction(@flex-direction: row) {
+    -webkit-flex-direction: @arguments;
+    -ms-flex-direction: @arguments;
+    flex-direction: @arguments;
+}
+
+/* Usage
+.container {
+    .flex-direction(row);
+}
+Values: (blank, outputs row), (row), (row-reverse), (column), (column-reverse)
+*/
+
+/* Flex Container - flex-wrap ------------------------------------------------------------------- */
+.flex-wrap(@flex-wrap: nowrap) {
+    -webkit-flex-wrap: @arguments;
+    -ms-flex-wrap: @arguments;
+    flex-wrap: @arguments;
+}
+
+/* Usage
+.container {
+    .flex-wrap(nowrap);
+}
+Values: (blank, outputs nowrap), (nowrap), (wrap), (wrap-reverse)
+*/
+
+
+/* Flex Container - flex-flow (shorthand for flex-direction and flex-wrap) ---------------------- */
+.flex-flow(@flex-direction: row; @flex-wrap: nowrap) {
+    -webkit-flex-flow: @arguments;
+    flex-flow: @arguments;
+}
+
+/* Usage
+.container {
+    .flex-flow(row, nowrap); <-- comma is required
+}
+First value - flex-direction: (blank, outputs row), (row), (row-reverse), (column), (column-reverse)
+Second value - flex-wrap: (blank, outputs nowrap), (nowrap), (wrap), (wrap-reverse)
+*/
+
+/* Flex Container - justify-content ------------------------------------------------------------- */
+.justify-content(@justify-content: flex-start) {
+
+    -webkit-justify-content: @justify-content;
+
+    ._(@justify-content);
+    ._(flex-start) {
+        -ms-flex-pack: start;
+    }
+    ._(flex-end) {
+        -ms-flex-pack: end;
+    }
+    ._(center) {
+        -ms-flex-pack: center;
+    }
+    ._(space-between) {
+        -ms-flex-pack: justify;
+    }
+    ._(space-around) {
+        -ms-flex-pack: distribute;
+    }
+    ._(space-evenly) {
+        -ms-flex-pack: center;
+    }
+
+    justify-content: @justify-content;
+}
+
+/* Usage
+.container {
+    .justify-content(flex-start);
+}
+Values: (blank, outputs flex-start), (flex-start), (flex-end), (center), (space-between), (space-around), (space-evenly)
+*/
+
+
+/* Flex Container - align-content --------------------------------------------------------------- */
+.align-content(@align-content: flex-start) {
+
+    -webkit-align-content: @align-content;
+
+    ._(@align-content);
+    ._(flex-start) {
+        -ms-flex-line-pack: start;
+    }
+    ._(flex-end) {
+        -ms-flex-line-pack: end;
+    }
+    ._(center) {
+        -ms-flex-line-pack: center;
+    }
+    ._(space-between) {
+        -ms-flex-line-pack: justify;
+    }
+    ._(space-around) {
+        -ms-flex-line-pack: distribute;
+    }
+    ._(stretch) {
+        -ms-flex-line-pack: stretch;
+
+    }
+
+    align-content: @align-content;
+}
+
+
+
+
+
+
+
+
+
+
+// TINTED IMAGE BACKGROUNDS
+
+.tinted-image-black(@url;@opacity;){
+    background-image: linear-gradient(rgba(0,0,0,@opacity), rgba(0,0,0,@opacity)),url(@url);
+}
+
+/* Usage
+.container {
+    .tinted-image-black("images/cat.png", 0.6);
+}
+*/
+
+.tinted-image-white(@url;@opacity;){
+    background-image: linear-gradient(rgba(255,255,255,@opacity), rgba(255,255,255,@opacity)),url(@url);
+}
+
+/* Usage
+.container {
+    .tinted-image-white("images/cat.png", 0.6);
+}
+*/
+
+.tinted-image-color(@url;@color;@opacity;@size;@position;){
+    background-image: linear-gradient(rgba(red(@color),green(@color),blue(@color),@opacity), rgba(red(@color),green(@color),blue(@color),@opacity)),url(@url);
+    
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, @size;
+    background-position: 50% 50%, @position;
+}
+
+// Usage
+//.tinted-image-color("images/magic.png", #FFF, 0.9, 2000px 700px, 50% 50%);
+
+
+
+
+
+
+
+
+
+
+
+
+/* Usage
+.container {
+    .align-content(flex-start);
+}
+Values: (blank, outputs flex-start), (flex-start), (flex-end), (center), (space-between), (space-around), (stretch)
+*/
+
+
+/* Flex Container - align-items ----------------------------------------------------------------- */
+.align-items(@align-items: flex-start) {
+
+    -webkit-align-items: @align-items;
+
+    ._(@align-items);
+    ._(flex-start) {
+        -ms-flex-align: start;
+    }
+    ._(flex-end) {
+        -ms-flex-align: end;
+    }
+    ._(center) {
+        -ms-flex-align: center;
+    }
+    ._(baseline) {
+        -ms-flex-align: baseline;
+    }
+    ._(stretch) {
+        -ms-flex-align: stretch;
+    }
+
+    align-items: @align-items;
+}
+
+/* Usage
+.container {
+    .align-items(flex-start);
+}
+Values: (blank, outputs flex-start), (flex-start), (flex-end), (center), (baseline), (stretch)
+*/
+
+
+/* Flex Item - align-self ----------------------------------------------------------------------- */
+.align-self(@align-self: auto) {
+
+    -webkit-align-self: @align-self;
+
+    ._(@align-self);
+    ._(auto) {
+        -ms-flex-item-align: auto;
+    }
+    ._(flex-start) {
+        -ms-flex-item-align: start;
+    }
+    ._(flex-end) {
+        -ms-flex-item-align: end;
+    }
+    ._(center) {
+        -ms-flex-item-align: center;
+    }
+    ._(baseline) {
+        -ms-flex-item-align: baseline;
+    }
+    ._(stretch) {
+        -ms-flex-item-align: stretch;
+    }
+
+    align-self: @align-self;
+}
+
+/* Usage
+.item {
+    .align-self(auto);
+}
+Values: (blank, outputs auto), (auto), (flex-start), (flex-end), (center), (baseline), (stretch)
+*/
+
+
+/* Flex Item - flex (shorthand for flex-grow, flex-shrink, flex-basis) -------------------------- */
+.flex(@flex-grow: 0; @flex-shrink: 1; @flex-basis: auto) {
+    -webkit-flex: @arguments;
+    -ms-flex: @arguments;
+    flex: @arguments;
+}
+
+/* Usage
+.container {
+    .flex(0, 1, auto); <-- commas are required
+    .flex(); <-- blank will output defaults
+}
+*/
+
+/* Flex Item - flex-grow ------------------------------------------------------------------------ */
+.flex-grow(@flex-grow: 0) {
+    -webkit-flex-grow: @arguments;
+    -ms-flex-positive: @arguments;
+    flex-grow: @arguments;
+}
+
+
+/* Flex Item - flex-shrink ---------------------------------------------------------------------- */
+.flex-shrink(@flex-shrink: 1) {
+    -webkit-flex-shrink: @arguments;
+    -ms-flex-negative: @arguments;
+    flex-shrink: @arguments;
+}
+
+
+/* Flex Item - flex-basis ----------------------------------------------------------------------- */
+.flex-basis(@flex-basis: auto) {
+    -webkit-box-basis: @arguments;
+    -ms-flex-preferred-size: @arguments;
+    flex-basis: @arguments;
+}
+
+/* Usage
+// should use .flex for shorthand, but you can target flex-grow, flex-shrink and flex-basis if you need to
+.item {
+    // blank will show the default
+    .flex-grow(0); // default is 0
+    .flex-shrink(1); // default is 1
+    .flex-basis(auto); // default is auto
+}
+*/
+
+
+/* Flex Item - order ---------------------------------------------------------------------------- */
+.order(@order: 0;) {
+    -webkit-order: @arguments;
+    -ms-flex-order: @arguments;
+    order: @arguments;
+}
+
+/* Usage
+.item {
+    .order(0); // same as blank
+}
+*/
+
+/* Transitions ---------------------------------------------------------------------------------- */
+.transition(@transition-property: all; @transition-duration: 0s; @transition-timing-function: ease; @transition-delay: 0s) {
+    // -webkit-transition: @arguments;
+    // -moz-transition: @arguments;
+    // -o-transition: @arguments;
+    transition: @arguments;
+}
+
+/* Usage Example - Transition */
+/*
+.item {
+    .transition(); <-- blank will output the defaults
+    .transition(background-color, 2s, ease-in, 0s); <-- commas are required
+}
+*/
+
+/* Transform ------------------------------------------------------------------------------------ */
+
+// Translate X Y
+.translate-x-y(@translateX: translateX(0);@translateY: translateY(0)) {
+    -webkit-transform: @arguments;
+    -ms-transform: @arguments;
+    transform: @arguments;
+}
+
+// Translate X
+.translate-x(@translateX: translateX(0)) {
+    -webkit-transform: @arguments;
+    -ms-transform: @arguments;
+    transform: @arguments;
+}
+
+// Translate Y
+.translate-y(@translateY: translateY(0)) {
+    -webkit-transform: @arguments;
+    -ms-transform: @arguments;
+    transform: @arguments;
+}
+
+/* Usage Example - Transform - translate-x-y, translate-x, translate-y */
+/*
+.item {
+    .translate-x-y(translateX(-50%), translateY(-50%)); <-- comma is required
+    .translate-x(translateX(-50%));
+    .translate-y(translateY(-50%));
+}
+*/
+
+.transform(@args) {
+    -webkit-transform: @args;
+    -ms-transform: @args;
+    transform: @args;
+}
+
+.filter(@args) {
+    -webkit-filter: @args;
+    filter: @args;
+}
+
+
+
+
+
+
+
+
+.animation(@args) {
+    -webkit-animation: @args;
+    animation: @args;
+}
+
+.animation-name(@args) {
+    -webkit-animation-name: @args;
+    animation-name: @args;
+}
+
+
+.animation-duration(@args) {
+    -webkit-animation-duration: @args;
+    animation-duration: @args;
+}
+
+.animation-fill-mode(@args) {
+    -webkit-animation-fill-mode: @args;
+    animation-fill-mode: @args;
+}
+
+.animation-direction(@args) {
+    -webkit-animation-direction: @args;
+    animation-direction: @args;
+}
+
+.animation-timing-function(@args) {
+    -webkit-animation-timing-function: @args;
+    animation-timing-function: @args;
+}
+
+
+
+.user-select(@args) {
+    -webkit-touch-callout: @args; /* iOS Safari */
+    -webkit-user-select: @args; /* Safari */
+     -khtml-user-select: @args; /* Konqueror HTML */
+       -moz-user-select: @args; /* Firefox */
+        -ms-user-select: @args; /* Internet Explorer/Edge */
+            user-select: @args;
+}
+
+
+
+
+
+

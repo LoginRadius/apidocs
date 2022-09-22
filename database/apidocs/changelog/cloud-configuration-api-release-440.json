@@ -1,0 +1,13 @@
+{
+    "name": "Cloud Configuration API Release 4.4.0",
+    "description": "This release of the Cloud API brings you addition of a new feature, see below for details on the  notable changes applied to the Cloud API.",
+    "changelog": {
+        "ADDED": [{
+                "text": "Added MFA with security question configuration in Appinfo response."
+            }
+        ]
+    },
+    "auther": "Ashish Kumar Yadav",
+    "created_date": "2021-06-2",
+    "status": "public"
+}

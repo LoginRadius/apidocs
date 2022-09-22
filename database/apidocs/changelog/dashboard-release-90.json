@@ -1,0 +1,23 @@
+{
+  "name": "Admin-console release 9.0",
+  "description": "Introducing Version 9 of the LoginRadius User Admin Console. This release focuses on integrations and ease of use in the Admin Console.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "User Search by wildcard: You can now search for emails using wildcards, improving your searching, for example you can now search on a per provider basis e.g. @gmail.com, @hotmail.com, hushmail.com, etc."
+      },
+      {
+        "text": "Filter clauses in User Segmentation: You can now filter using clauses in the User Segmentation area, ex: (=, !=, &lt;, ,&gt;=, LIKE, BETWEEN)"
+      },
+      {
+        "text": "New SSO area: a new area has been created for SSO, under 'Deployment -> Federated SSO' this area allows configuration of different single sign-on technologies such as JWT."
+      },
+      {
+        "text": "Delegation API: This feature can be found under the new SSO area, The Delegation API allows you to streamline authentication for a given application with LoginRadius SSO."
+      }
+    ]
+  },
+  "auther": "Pascal",
+  "created_date": "2017-3-20",
+  "status": "public"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Cloud API Release 5.5.0",
+        "description": "This Cloud API release brings you an added feature in Shopify SSO connectors. Please see below for more details:",
+        "changelog": {
+            "ADDED": [{
+                    "text": "Syncing of consumer’s address and phone numbers from LoginRadius to Shopify Store in Shopify SSO workflow."
+                }
+            ]
+        },
+        "auther": "Bhavya Tugnawat",
+        "created_date": "2021-10-06",
+        "status": "public"
+    }

@@ -1,0 +1,33 @@
+{
+    "name": "Webhook Test",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/webhook/test",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "API can be used to test a subscribed WebHook.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ]
+    },
+    "outputFormat": {
+        "IsAllowed": true
+    }
+}

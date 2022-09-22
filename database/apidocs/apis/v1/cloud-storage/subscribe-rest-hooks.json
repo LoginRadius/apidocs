@@ -1,0 +1,48 @@
+{
+    "name": "Subscribe RestHooks",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/resthook/subscribe",
+    "method": "POST",
+    "getparams": {
+        "api_key*": "@apikey@",
+        "api_secret*": "@secret@"
+    },
+    "postparams": {
+        "target_url": "",
+        "event": ""
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API allow you to subscribe RestHook on your LoginRadius site.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "api_key",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "api_secret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ],
+        "Post Params": [
+            {
+                "name": "target_url",
+                "is_required": true,
+                "description": "URL where trigger will send data when it invoke"
+            },
+            {
+                "name": "event",
+                "is_required": true,
+                "description": "Allowed events: Login, Register"
+            }
+        ]
+},
+"outputFormat": {
+    "isPosted": true
+}
+            }

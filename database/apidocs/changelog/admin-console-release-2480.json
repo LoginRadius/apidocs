@@ -1,0 +1,17 @@
+{ "name": "Admin Console Release 24.8.0",
+    "description": "This release of the Admin Console brings you enhancements, see below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "The UI for MFA via security questions is added in Admin Console."
+            }],
+        "IMPROVED": [
+            {
+                "text": "Improved Audit logs to identify team members making changes on the consumer’s profile in the Admin Console"
+            }
+        ]},
+
+    "auther": "Vaibhav Jain",
+    "created_date": "2021-06-03",
+    "status": "public"
+}

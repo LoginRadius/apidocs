@@ -1,0 +1,31 @@
+{
+  "name": "Generate QR Code String",
+  "domain": "https://cloud-api.loginradius.com",
+  "path": "/sso/mobile/generate",
+  "method": "GET",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "expiry (TTL in seconds)": ""
+  },
+  "headers": { "content-Type":"application/json" },
+"response": "json",
+  "description": "This API is used to get the QR code string and it will refresh the QR code in a specific time interval.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+          "name": "expiry (TTL in seconds)",
+          "is_required": false,
+          "description": "Expiry time (in second) of QR code string, it will be invalid to scan once the time expires. The default expiry time will be 60 sec."
+        }
+    ]
+  },
+  "outputFormat":
+  {
+      "code": "M*****JmMTEtYmQ3O*****gwLTliNmMtZTdlZDgxN2*****zIzIwMjAtMDctMTB*****MTc6NDguOTkxWg=="
+    }
+}

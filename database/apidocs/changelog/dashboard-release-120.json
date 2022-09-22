@@ -1,0 +1,38 @@
+{
+  "name": "Admin-console release 12.0",
+  "description": "It’s time for a great change as we introduce version 12 of our Admin Console! With this new Admin Console comes accessibility to numerous new features, as well as a more intuitive navigation throughout your account.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Menu Navigation: We’ve reorganized the layout of the menus to provide a more intuitive experience while navigating through the various sections of the Admin Console."
+      },
+      {
+        "text": "LoginRadius Admin Console login: The LoginRadius Admin Console can now be accessed via Single Sign On (SSO). It can also still be accessed via social login with the following social providers: Facebook, Google, and Linkedin."
+      },
+      {
+        "text": "LoginRadius Admin Console SAML Login: If you’re a LoginRadius customer and have SAML in your company’s infrastructure, you can now take advantage of SAML to log into your Admin Console."
+      },
+      {
+        "text": "Default Role: You can now define via the Admin Console if a specific role should be applied to a user by default."
+      }
+    ],
+    "IMPROVED": [
+      {
+        "text": "Menu Navigation: We’ve reorganized the layout of the menus to provide a more intuitive experience while navigating through the various sections of the Admin Console."
+      },
+      {
+        "text": "Generate API Secret: We have added the ability to easily generate a new API secret directly from the Admin Console."
+      },
+      {
+        "text": "Configuration Sync: The Configuration Sync feature is now able to sync the email templates and SMTP configurations from one site to the other. "
+      },
+      {
+        "text": "Billing: In your LoginRadius account, only team members whose roles are either admin, owner, or finance will be allowed to access the Billing area."
+      }
+    ]
+  },
+
+  "auther": "Pascal",
+  "created_date": "2017-5-29",
+  "status": "public"
+}

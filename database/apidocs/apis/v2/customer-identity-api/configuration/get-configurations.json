@@ -1,0 +1,241 @@
+{
+  "name": "Get Configurations",
+  "domain": "https://config.lrcontent.com",
+  "path": "/ciam/appinfo",
+  "method": "GET",
+  "getparams": {
+    "apikey*": "@apikey@"
+  },
+  "headers": {
+    "content-Type": "application/x-www-form-urlencoded"
+  },
+  "response": "json",
+  "description": "This API is used to get the configurations which are set in the LoginRadius Admin Console for a particular LoginRadius site/environment.",
+  "parameters": {
+    "Get Params": [{
+      "name": "apikey",
+      "is_required": true,
+      "description": "LoginRadius API Key"
+    }]
+  },
+  "outputFormat": {
+    "SocialSchema": {
+      "Providers": [{
+          "Name": "Twitter",
+          "Endpoint": "https://example-name.hub.loginradius.com/RequestHandlor.aspx?apikey=abcd-1234-abcd-1234-abcd-1234&provider=twitter"
+        },
+        {
+          "Name": "Facebook",
+          "Endpoint": "https://example-name.hub.loginradius.com/RequestHandlor.aspx?apikey=abcd-1234-abcd-1234-abcd-1234&provider=facebook"
+        },
+        {
+          "Name": "Google",
+          "Endpoint": "https://example-name.hub.loginradius.com/RequestHandlor.aspx?apikey=abcd-1234-abcd-1234-abcd-1234&provider=google"
+        }
+      ]
+    },
+    "RegistrationFormSchema": [{
+        "Checked": true,
+        "type": "string",
+        "name": "state",
+        "display": "State",
+        "rules": "",
+        "options": null,
+        "permission": "w",
+        "DataSource": null,
+        "Parent": "",
+        "ParentDataSource": null
+      },
+      {
+        "Checked": true,
+        "type": "string",
+        "name": "country",
+        "display": "Country",
+        "rules": "",
+        "options": null,
+        "permission": "w",
+        "DataSource": null,
+        "Parent": "",
+        "ParentDataSource": null
+      },
+      {
+        "Checked": true,
+        "type": "string",
+        "name": "city",
+        "display": "City",
+        "rules": "",
+        "options": null,
+        "permission": "w",
+        "DataSource": null,
+        "Parent": "",
+        "ParentDataSource": null
+      },
+      {
+        "Checked": true,
+        "type": "string",
+        "name": "company",
+        "display": "Company",
+        "rules": "",
+        "options": null,
+        "permission": "w",
+        "DataSource": null,
+        "Parent": "",
+        "ParentDataSource": null
+      },
+      {
+        "Checked": true,
+        "type": "string",
+        "name": "mainAddress",
+        "display": "Main Address",
+        "rules": "",
+        "options": null,
+        "permission": "w",
+        "DataSource": null,
+        "Parent": "",
+        "ParentDataSource": null
+      },
+      {
+        "Checked": true,
+        "type": "string",
+        "name": "firstname",
+        "display": "First Name",
+        "rules": "required",
+        "options": null,
+        "permission": "w",
+        "DataSource": null,
+        "Parent": "",
+        "ParentDataSource": null
+      },
+      {
+        "Checked": true,
+        "type": "string",
+        "name": "lastname",
+        "display": "Last Name",
+        "rules": "required",
+        "options": null,
+        "permission": "w",
+        "DataSource": null,
+        "Parent": "",
+        "ParentDataSource": null
+      },
+      {
+        "Checked": true,
+        "type": "string",
+        "name": "emailid",
+        "display": "Email Id",
+        "rules": "valid_email|required",
+        "options": null,
+        "permission": "w",
+        "DataSource": null,
+        "Parent": "",
+        "ParentDataSource": null
+      },
+      {
+        "Checked": true,
+        "type": "password",
+        "name": "password",
+        "display": "Password",
+        "rules": "min_length[8]|max_length[32]|required",
+        "options": null,
+        "permission": "w",
+        "DataSource": null,
+        "Parent": "",
+        "ParentDataSource": null
+      },
+      {
+        "Checked": true,
+        "type": "password",
+        "name": "confirmpassword",
+        "display": "Confirm Password",
+        "rules": "min_length[6]|max_length[32]|matches[password]|required",
+        "options": null,
+        "permission": "w",
+        "DataSource": null,
+        "Parent": "",
+        "ParentDataSource": null
+      }
+    ],
+    "SecurityQuestions": {
+      "Questions": [{
+        "QuestionId": "abcd1234abcd1234",
+        "Question": "This is an example security question"
+      }],
+      "SecurityQuestionCount": 1
+    },
+    "IsHttps": true,
+    "AppName": "example-name",
+    "IsCustomerRegistration": true,
+    "ApiVersion": {
+      "v1": false,
+      "v2": true
+    },
+    "EmailVerificationFlow": "required",
+    "IsPhoneLogin": true,
+    "IsDisabledSocialRegistration": false,
+    "IsDisabledAccountLinking": false,
+    "IsAgeRestriction": false,
+    "IsSecurityQuestion": true,
+    "AskRequiredFieldsOnTraditionalLogin": false,
+    "IsLogoutOnEmailVerification": false,
+    "IsNoCallbackForSocialLogin": true,
+    "IsUserNameLogin": false,
+    "IsMobileCallbackForSocialLogin": true,
+    "IsInvisibleRecaptcha": false,
+    "IsBackendJobEnabled": false,
+    "AskPasswordOnSocialLogin": false,
+    "AskEmailIdForUnverifiedUserLogin": true,
+    "AskOptionalFieldsOnSocialSignup": false,
+    "IsRiskBasedAuthentication": false,
+    "IsV2Recaptcha": false,
+    "CheckPhoneNoAvailabilityOnRegistration": false,
+    "DuplicateEmailWithUniqueUsername": false,
+    "StoreOnlyRegistrationFormFieldsForSocial": false,
+    "OTPEmailVerification": false,
+    "LoginLockedConfiguration": {
+      "LoginLockedType": "None",
+      "MaximumFailedLoginAttempts": 0,
+      "SuspendConfiguration": {
+        "EffectivePeriodInSeconds": 900
+      }
+    },
+    "IsInstantSignin": {
+      "EmailLink": true,
+      "SmsOtp": true
+    },
+    "IsLoginOnEmailVerification": false,
+    "LoginOnPasswordReset" : true,
+    "TwoFactorAuthentication": {
+      "IsEnabled": false,
+      "IsRequired": true,
+      "IsGoogleAuthenticator": false,
+      "IsEmailOTPAuthenticator": true,
+      "IsSecurityQuestionAuthenticator": true
+    },
+    "IsRememberMe": true,
+    "V2RecaptchaSiteKey": "",
+    "QQTencentCaptchaKey": "",
+    "NoRegistration": false,
+    "CustomDomain": null,
+    "PrivacyPolicyConfiguration": {
+      "IsEnabled": true,
+      "Mode": "Moderated",
+      "PrivacyPolicies": [{
+        "Version": "1.0.0",
+        "StartDateTime": "2019-01-03T21:55:05.397Z"
+      }]
+    },
+    "OptionalRecaptchaConfiguration": {
+      "IsEnabled": false,
+      "Apis": {
+        "PostForgotPasswordByEmail": false,
+        "PostForgotPasswordByPhone": false,
+        "PutChangePassword": false,
+        "PostLoginByEmailAndPassword": false,
+        "PostLoginByUserNameAndPassword": false,
+        "PostLoginByPhoneAndPassword": false,
+        "PutUpdateProfile": false
+      }
+    },
+    "ApiRequestSigningConfig": {}
+  }
+}

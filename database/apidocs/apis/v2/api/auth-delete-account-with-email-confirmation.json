@@ -1,0 +1,41 @@
+{
+    "name": "Auth Delete Account with Email Confirmation",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/account",
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "deleteurl": "",
+        "emailtemplate": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded",
+		"Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API will send a confirmation email for account deletion to the customer's email when passed the customer's access token.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            }, {
+                "name": "deleteurl",
+                "is_required": false,
+                "description": "Url of the site"
+            }, {
+                "name": "emailtemplate",
+                "is_required": false,
+                "description": "Name of the email template"
+            }],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (Customer's access token)"
+            }]		
+    },
+    "outputFormat": {
+        "IsDeleteRequestAccepted": true
+    }
+}

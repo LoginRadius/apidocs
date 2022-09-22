@@ -1,0 +1,42 @@
+{
+  "name": "Reset PIN By ResetToken",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/auth/pin/reset/token",
+  "method": "PUT",
+  "getparams": {
+    "apikey*": "@apikey@"
+  },
+  "postparams": {
+      "PIN": "",
+      "ResetToken": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "Use this Endpoint to complete the forgot PIN Process by setting a new PIN on the account by providing the ResetToken.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key."
+      }],
+    "Post Params": [
+        {
+        "name": "PIN",
+        "is_required": true,
+        "description": "New desired PIN."
+      },
+        {
+        "name": "ResetToken",
+        "is_required": true,
+        "description": "Your Reset Token obtained during forgot PIN process."
+      }
+          ]
+  },
+    "outputFormat": 
+{
+    "IsPosted": true
+}
+}

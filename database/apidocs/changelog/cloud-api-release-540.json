@@ -1,0 +1,16 @@
+{
+    "name": "Cloud API Release 5.4.0",
+        "description": "We have rolled out another version of the Cloud APIs. This Cloud API release brings you some bug fixes.",
+        "changelog": {
+            "FIXED": [{
+                    "text": "Issue related to account creation with the email with (+)  in the LoginRadius BigCommerce Plugin."
+                },
+                {
+                    "text":"BigCommerce password validation API throwing error for password containing double dollar sign($$)."
+                }
+            ]
+        },
+        "auther": "Vaibhav Jain",
+        "created_date": "2021-01-30",
+        "status": "public"
+    }

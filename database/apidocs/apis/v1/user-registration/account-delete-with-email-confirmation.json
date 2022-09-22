@@ -1,0 +1,51 @@
+{
+    "name": "Account Delete with Email Confirmation",
+    "domain": "https://api.loginradius.com",
+    "path": "/raas/v1/account/deleteuseremail",
+    "method": "GET",
+    "getparams": {
+        "appkey*": "@apikey@",
+        "appsecret*": "@secret@",
+        "accountid*": "",
+        "deleteuserlink*": "",
+        "template": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API deletes the User account with email confirmation and allows them to re-register for a new account.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "api_key",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "api_secret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            },
+            {
+                "name": "accountid",
+                "is_required": true,
+                "description": "user's accountid"
+            },
+            {
+                "name": "deleteuserlink",
+                "is_required": false,
+                "description": "Url of the site"
+            },
+            {
+                "name": "template",
+                "is_required": false,
+                "description": "Name of the email template"
+            }
+        ]
+    },
+        "outputFormat": {
+            "isPosted": true
+        }
+    }

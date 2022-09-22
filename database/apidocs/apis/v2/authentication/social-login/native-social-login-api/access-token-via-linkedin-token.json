@@ -1,0 +1,31 @@
+{
+    "name": "Access Token via LinkedIn Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/access_token/linkedin",
+    "method": "GET",
+    "getparams": {
+        "key*": "@apikey@",
+        "ln_access_token*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "The API is used to get LoginRadius access token by sending LinkedIn’s access token. It will be valid for the specific duration of time specified in the response.",
+    "parameters": {
+        "Get Params": [{
+            "name": "key",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+        }, {
+            "name": "ln_access_token",
+            "is_required": true,
+            "description": "LinkedIn Access Token"
+        }]
+    },
+    "outputFormat": {
+        "access_token": "83******-****-6**7-*****-******c***f9",
+        "expires_in": "2017-10-09T09:37:35.4884699Z"
+    }
+    }

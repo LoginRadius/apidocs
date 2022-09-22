@@ -1,0 +1,73 @@
+{
+    "name": "Core Release 8.0",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "MSN email id in contacts"
+            },
+            {
+                "text": "Developed  API"
+            },
+            {
+                "text": "Forgot social ID provider option"
+            },
+            {
+                "text": "Developed get password hash API"
+            },
+            {
+                "text": "Password length option in JavaScript"
+            },
+            {
+                "text": "Multiple registration/login/forgot password forms on single page"
+            },
+            {
+                "text": "After deleting profile reregister option"
+            },
+            {
+                "text": "Hook option in JavaScript to give raw data to parent page"
+            },
+            {
+                "text": "Hook option to customize error messages"
+            },
+            {
+                "text": "Short Url API released"
+            },
+            {
+                "text": "Option of share short URL through wall post API"
+            },
+            {
+                "text": "Client side version of trackable status update API."
+            },
+            {
+                "text": "API to get all linked profile by token"
+            },
+            {
+                "text": "Released Recaptcha v2"
+            },
+            {
+                "text": "Custom headers in all emails"
+            },
+            {
+                "text": "Hook option to customize validation messages"
+            }
+        ],
+        "FIXED": [
+            {
+                "text": "Custom fields through registration form bug"
+            },
+            {
+                "text": "Optional fields were showing every time when login through social"
+            },
+            {
+                "text": "System was not asking required field in case of SSO"
+            },
+            {
+                "text": "SSO logout on changing account on another site"
+            }
+        ]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2014-12-1",
+    "status": "public"
+}

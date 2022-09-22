@@ -1,0 +1,29 @@
+{
+  "name": "Admin-console release 11.0",
+  "description": "Introducing Version 11 of the LoginRadius User Admin Console. Please see below for a list of our new features: ",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Two Factor Authentication (2FA): Backup Codes are now part of the Admin Console"
+      },
+      {
+        "text": "Login Lockout: you can set if a user fails too many logins if they should be locked out until they complete a captcha or blocked. You can also configure the account lockout treshold"
+      },
+      {
+        "text": "Failed Login Captcha Type: If someone fails too many logins you can now choose which captcha type they should be prompted."
+      },
+      {
+        "text": "Invalidate Social Profiles: You can now Invalidate Accounts which contains linked social profiles. "
+      },
+      {
+        "text": "Username Case-Sensitivity: Usernames can now have upper case as well as lower case characters."
+      },
+      {
+        "text": "Team access list: You can now choose which section of the LoginRadius Admin Console your members have access to via roles."
+      }
+    ]
+  },
+  "auther": "Pascal",
+  "created_date": "2017-4-30",
+  "status": "public"
+}

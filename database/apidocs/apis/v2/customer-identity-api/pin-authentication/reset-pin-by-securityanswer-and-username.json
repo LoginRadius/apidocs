@@ -1,0 +1,46 @@
+{
+  "name": "Reset PIN By SecurityAnswer and UserName",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/auth/pin/reset/securityAnswer/username",
+  "method": "PUT",
+  "getparams": {
+    "apikey*": "@apikey@"
+  },
+  "postparams": {
+      "PIN": "",
+      "UserName": "",
+      "SecurityAnswer": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "Use this Endpoint to complete the forgot PIN Process by setting a new PIN on the account by providing the SecurityAnswer and UserName on the account.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      }],
+    "Post Params": [
+        {
+        "name": "PIN",
+        "is_required": true,
+        "description": "New desired PIN."
+      },
+        {
+        "name": "UserName",
+        "is_required": true,
+        "description": "UserName on the account where the PIN needs to be reset."
+      },{
+        "name": "SecurityAnswer",
+        "is_required": true,
+        "description": "SecurityAnswer object containing answers to the questions on the account to do the PIN reset."
+      }          ]
+  },
+    "outputFormat": 
+{
+    "IsPosted": true
+}
+}

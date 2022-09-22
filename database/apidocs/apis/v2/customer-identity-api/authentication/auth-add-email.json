@@ -1,0 +1,61 @@
+{
+    "name": "Auth Add Email",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/auth/email",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "verificationurl": "",
+        "emailtemplate": ""
+    },
+    "postparams": {
+        "email": "xyz@example.com",
+        "type": "Secondary"
+    },
+    "headers": {
+      "content-Type":"application/json",
+	  "Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to add additional emails to a user's account.",
+    "parameters": {
+       "Get Parameters": [
+          {
+            "name": "apikey",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+          },
+          {
+            "name": "verificationurl",
+            "is_required": false,
+            "description": "Email verification url"
+          },
+          {
+            "name": "emailtemplate",
+            "is_required": false,
+            "description": "Name of the email template to be sent out"
+          }
+       ],
+	   "Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }],
+       "Post Parameters": [
+          {
+            "name": "email",
+            "is_required": true,
+            "description": "Email to be added to the user's account"
+          },
+          {
+            "name": "type",
+            "is_required": true,
+            "description": "String to identify the type of email"
+          }
+       ]
+       
+    },
+    "outputFormat": {
+             "IsPosted": true
+    }
+}

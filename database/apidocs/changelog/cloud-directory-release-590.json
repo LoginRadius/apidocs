@@ -1,0 +1,14 @@
+{
+    "name": "Cloud Directory Release 5.9.0",
+    "description": "With this Cloud Directory Release we are introducing a whole new set of APIs for our Anonymous Login feature. To learn more, check out our Anonymous Login <a href=\"https://www.loginradius.com/docs/api/v2/cloud-directory-api/anonymous-auth/anonymous-login-api/\">Overview</a>.",
+    "changelog": {
+        "ADDED": [{
+                "text": "Get Anonymous User Identity: Query the profile for the Anonymous User in your LoginRadius Cloud Directory."
+            },{
+                "text": "Get Anonymous User Identity by Pagination ID: Allows you paginate through your anonymous users."
+            }]
+    },
+    "auther": "Pascal Noel",
+    "created_date": "2019-06-06",
+    "status": "public"
+}

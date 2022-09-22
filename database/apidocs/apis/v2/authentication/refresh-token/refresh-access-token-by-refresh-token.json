@@ -1,0 +1,38 @@
+{
+    "name": "Refresh Access Token by Refresh Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/access_token/refresh",
+    "method": "GET",
+    "getparams": {
+        "refresh_token*": "",
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to refresh an access_token via it's associated refresh_token.",
+    "parameters": {
+        "Get Params": [{
+            "name": "refresh_token",
+            "is_required": true,
+            "description": "LoginRadius refresh_token"
+        },{
+            "name": "ApiKey",
+            "is_required": true,
+            "description": "LoginRadius API Secret"
+        },
+        {
+            "name": "ApiSecret",
+            "is_required": true,
+            "description": "LoginRadius API Secret"
+        }]
+    },
+"outputFormat":	
+{
+ "access_token" : "bc*****d-****-***2-****-e8*****4***2",
+ "refresh_token" : "6e*****a-***f-***a-****-c******5***4",
+ "expires_in" : "2018-08-31T12:40:45.1818592Z"
+}}

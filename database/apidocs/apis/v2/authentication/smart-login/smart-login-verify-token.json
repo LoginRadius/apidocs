@@ -1,0 +1,39 @@
+{
+    "name": "Smart Login Verify Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/email/smartlogin",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "verificationtoken*": "",
+        "welcomeemailtemplate": ""
+    },
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API verifies the provided token for Smart Login.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "verificationtoken",
+                "is_required": true,
+                "description": "Verification token"
+            },
+            {
+                "name": "welcomeemailtemplate",
+                "is_required": false,
+                "description": "String containing welcome email template name"
+            }
+        ]
+    },
+    "outputFormat": {
+        "IsPosted": true,
+		"IsVerified": true
+    }
+}

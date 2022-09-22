@@ -1,0 +1,533 @@
+{
+    "name": "Auth User Registration by Email",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/register",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "verificationurl": "",
+        "emailtemplate": "",
+        "welcomeemailtemplate": "",
+		"options":""
+    },
+    "postparams": {
+        "Prefix": "",
+        "FirstName": "Test",
+        "MiddleName": null,
+        "LastName": "Account",
+        "Suffix": null,
+        "FullName": "Test Account",
+        "NickName": null,
+        "ProfileName": null,
+        "BirthDate": "10-12-1985",
+        "Gender": "M",
+        "Website": null,
+        "Email": [
+            {
+                "Type": "Primary",
+                "Value": "example@example.com"
+            }
+        ],
+        "Password": "******",
+        "PINInfo": {
+            "PIN": "",
+            "Skipped": true
+        },
+        "Consents": {
+            "Events": [
+                {
+                    "Event": "Register",
+                    "IsCustom": false
+                }
+            ],
+            "Data": [
+                {
+                    "ConsentOptionId": "someid",
+                    "IsAccepted": true
+                }
+            ]  
+          },
+        "Country": {
+            "Code": "",
+            "Name": "India"
+        },
+        "ThumbnailImageUrl": null,
+        "ImageUrl": null,
+        "Favicon": null,
+        "ProfileUrl": null,
+        "HomeTown": null,
+        "State": "Alberta",
+        "City": "Edmonton",
+        "Industry": null,
+        "About": null,
+        "TimeZone": null,
+        "LocalLanguage": null,
+        "CoverPhoto": null,
+        "TagLine": null,
+        "Positions": [
+            {
+                "Positions": "astronaut",
+                "Summary": "An astronaut.",
+                "StartDate": "",
+                "EndDate": "",
+                "IsCurrent": "",
+                "Location": "",
+                "Company": {
+                    "Name": "",
+                    "Type": "",
+                    "Industry": ""
+                }
+            }
+        ],
+        "Educations": [
+            {
+                "School": null,
+                "year": null,
+                "type": null,
+                "notes": null,
+                "activities": null,
+                "degree": null,
+                "fieldofstudy": null,
+                "StartDate": null,
+                "EndDate": null
+            }
+        ],
+        "PhoneNumbers": [
+            {
+                "PhoneType": "Mobile",
+                "PhoneNumber": "***********"
+            }
+        ],
+        "IMAccounts": [
+            {
+                "AccountType": "personal",
+                "AccountName": "AccountName"
+            }
+        ],
+        "Addresses": [
+            {
+                "Type": "Primary",
+                "Address1": null,
+                "Address2": null,
+                "City": "Edmonton",
+                "State": "Alberta",
+                "PostalCode": null,
+                "Region": null,
+                "Country": "Canada"
+            }
+        ],
+        "MainAddress": null,
+        "LocalCity": null,
+        "ProfileCity": "Edmonton",
+        "LocalCountry": null,
+        "ProfileCountry": "Canada",
+        "IsProtected": false,
+        "RelationshipStatus": null,
+        "Quota": null,
+        "Quote": null,
+        "InterestedIn": [
+            "blah",
+            "blah"
+        ],
+        "Interests": [
+            {
+                "InterestedType": null,
+                "InterestedName": null
+            }
+        ],
+        "Religion": null,
+        "Political": null,
+        "Sports": [
+            {
+                "Id": null,
+                "Name": null
+            }
+        ],
+        "InspirationalPeople": [
+            {
+                "Id": null,
+                "Name": null
+            }
+        ],
+        "HttpsImageUrl": null,
+        "FollowersCount": 0,
+        "FriendsCount": 0,
+        "IsGeoEnabled": null,
+        "TotalStatusesCount": 0,
+        "Associations": null,
+        "NumRecommenders": 0,
+        "Honors": null,
+        "Awards": null,
+        "Skills": null,
+        "CurrentStatus": null,
+        "Certifications": null,
+        "Courses": null,
+        "Volunteer": null,
+        "RecommendationsReceived": null,
+        "Languages": null,
+        "Projects": null,
+        "Games": null,
+        "Family": null,
+        "TeleVisionShow": null,
+        "MutualFriends": null,
+        "Movies": null,
+        "Books": null,
+        "AgeRange": null,
+        "PublicRepository": null,
+        "Hireable": false,
+        "RepositoryUrl": null,
+        "Age": null,
+        "Patents": null,
+        "FavoriteThings": null,
+        "ProfessionalHeadline": null,
+        "ProviderAccessCredential": null,
+        "RelatedProfileViews": null,
+        "LRUserID": null,
+        "PlacesLived": null,
+        "Publications": null,
+        "JobBookmarks": null,
+        "Suggestions": null,
+        "Badges": null,
+        "MemberUrlResources": null,
+        "TotalPrivateRepository": 0,
+        "Currency": null,
+        "StarredUrl": null,
+        "GistsUrl": null,
+        "PublicGists": 0,
+        "PrivateGists": 0,
+        "Subscription": null,
+        "Company": null,
+        "GravatarImageUrl": null,
+        "ProfileImageUrls": null,
+        "WebProfiles": {
+            "Small": "https://graph.facebook.com/*****/picture?type=small",
+            "Square": "https://graph.Profile.com/*****/picture?type=square",
+            "Large": "https://graph.facebook.com/*****/picture?type=large",
+            "Profile": "https://graph.facebook.com/******/picture?type=normal"
+        },
+        "Uid": "xxxx",
+        "CustomFields": null,
+        "IsEmailSubscribed": false,
+        "UserName": null,
+        "PhoneId": "***********"
+    },
+    "headers": {
+        "content-Type": "application/json",
+        "X-LoginRadius-Sott": "@sott@"
+    },
+    "response": "json",
+    "description": "This API creates a user in the database as well as sends a verification email to the user.",
+    "parameters": {
+        "Get Parameters": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            },
+            {
+                "name": "verificationurl",
+                "is_required": false,
+                "description": "Email verification url"
+            },
+            {
+                "name": "emailtemplate",
+                "is_required": false,
+                "description": "Name of the email template to be sent out"
+            },
+            {
+                "name": "welcomeemailtemplate",
+                "is_required": false,
+                "description": "Name of the email template to be sent out"
+            },
+			{
+				"name":	"options",
+				"is_required": false,
+				"description": "PreventVerificationEmail (Specifying this value prevents the verification email from being sent. Only applicable if you have the optional email verification flow)"
+			}
+        ],
+        "Headers Parameters": [{
+                "name": "X-LoginRadius-Sott",
+                "is_required": true,
+                "description": "Secured One Time Token (SOTT) Value, Details to generate one <a href='/docs/api/v2/customer-identity-api/sott-usage'>here</a>"
+            }],
+        "Post Parameters": [
+            {
+                "name": "Email",
+                "is_required": true,
+                "description": "<b>Array</b> of <b>Email Objects</b>.<br> <b>Email Object</b> consist 2 properties:<br><b>'Value'</b>: The email string.<br><b>'Type'</b>: A string describing the email.<br> We suggest using 'Primary' as the <b>'Type'</b> on the first email registration.<br> See the <b>Body</b> tab below to see an example"
+            },
+            {
+                "name": "Password",
+                "is_required": true,
+                "description": "Password for the email"
+            },
+            {
+                "name": "PIN",
+                "is_required": false,
+                "description": "New desired PIN"
+            },
+            {
+                "name": "Skipped",
+                "is_required": false,
+                "description": "Pass true, if user has skipped PIN popup otherwise pass false/null"
+            },
+            {
+                "name": "Event",
+                "is_required": false,
+                "description": "Event name on which consent form should be shown"
+            },
+            {
+                "name": "IsCustom",
+                "is_required": false,
+                "description": "Pass true, if the custom event is created by user, that is different from 3 LoginRadius events (Registration, FirstLogin, Login)"
+            },
+            {
+                "name": "ConsentOptionId",
+                "is_required": false,
+                "description": "Unique identifier to identify a particular consent option. User can retreive this identifier from user profile"
+            },   
+            {
+                "name": "IsAccepted",
+                "is_required": false,
+                "description": "Pass true, if consent is acccepted by user"
+            },
+            {
+                "name": "Note",
+                "is_required": false,
+                "description": " <b>PIN</b> and <b>Skipped</b> feilds are required only if <b>Pin Authentication flow</b> is enabled. <br> <b>Event</b>, <b>IsCustom</b>, <b>ConsentOptionId</b> and <b>IsAccepted</b> fields are required only if <b>Consent Management feature</b> is enabled."
+            
+              }
+        ]
+    },
+        "outputFormat": {
+                "IsPosted": true,
+                "Data": {
+                  "Profile": {
+                    "Password": "Rfc289*****veBytes$1*****CTahpWvWI*****QeTOiSg==$1e*****Ou8pryxrZlpZCz*****MzswdWV0Ir*****oQ=",
+                    "LastPasswordChangeDate": null,
+                    "PasswordExpirationDate": null,
+                    "LastPasswordChangeToken": null,
+                    "EmailVerified": false,
+                    "IsActive": true,
+                    "IsDeleted": false,
+                    "Uid": "4b4*****38724*****200196*****3959",
+                    "CustomFields": null,
+                    "IsEmailSubscribed": false,
+                    "UserName": null,
+                    "NoOfLogins": 1,
+                    "PhoneId": null,
+                    "PhoneIdVerified": false,
+                    "Roles": null,
+                    "ExternalUserLoginId": null,
+                    "RegistrationProvider": "Email",
+                    "IsLoginLocked": false,
+                    "LoginLockedType": "None",
+                    "LastLoginLocation": "Washington, United States",
+                    "RegistrationSource": "API",
+                    "IsCustomUid": false,
+                    "UnverifiedEmail": null,
+                    "IsSecurePassword": true,
+                    "PrivacyPolicy": null,
+                    "ExternalIds": null,
+                    "IsRequiredFieldsFilledOnce": true,
+                    "ConsentProfile": null,
+                    "PIN": {
+                      "Skipped": false,
+                      "PIN": "Rfc28*****iveBytes$100*****whUBfaF3s50M*****MA==$foHKnpz+J*****lEjyFzAulTvvgZE2Vs*****dGKkTA=",
+                      "LastPINChangeDate": "2019-09-30T09:36:21.3750000Z",
+                      "SkippedDate": "0001-01-01T00:00:00.0000000Z"
+                    },
+                    "RegistrationData": null,
+                    "ID": "e48*****38a14*****8fbd4ed*****c3",
+                    "Provider": "Email",
+                    "Prefix": null,
+                    "FirstName": null,
+                    "MiddleName": null,
+                    "LastName": null,
+                    "Suffix": null,
+                    "FullName": null,
+                    "NickName": null,
+                    "ProfileName": null,
+                    "BirthDate": null,
+                    "Gender": null,
+                    "Website": null,
+                    "Email": [
+                      {
+                        "Type": "Primary",
+                        "Value": "example@example.com"
+                      }
+                    ],
+                    "Country": null,
+                    "ThumbnailImageUrl": null,
+                    "ImageUrl": null,
+                    "Favicon": null,
+                    "ProfileUrl": null,
+                    "HomeTown": null,
+                    "State": null,
+                    "City": null,
+                    "Industry": null,
+                    "About": null,
+                    "TimeZone": null,
+                    "LocalLanguage": null,
+                    "CoverPhoto": null,
+                    "TagLine": null,
+                    "Language": null,
+                    "Verified": null,
+                    "UpdatedTime": null,
+                    "Positions": null,
+                    "Educations": null,
+                    "PhoneNumbers": null,
+                    "IMAccounts": null,
+                    "Addresses": null,
+                    "MainAddress": null,
+                    "Created": null,
+                    "CreatedDate": "2019-09-30T09:36:21.3720000Z",
+                    "ModifiedDate": "2019-09-30T09:36:22.9190000Z",
+                    "ProfileModifiedDate": null,
+                    "LocalCity": "Washington",
+                    "ProfileCity": null,
+                    "LocalCountry": "United States",
+                    "ProfileCountry": null,
+                    "FirstLogin": true,
+                    "IsProtected": false,
+                    "RelationshipStatus": null,
+                    "Quota": null,
+                    "Quote": null,
+                    "InterestedIn": null,
+                    "Interests": null,
+                    "Religion": null,
+                    "Political": null,
+                    "Sports": null,
+                    "InspirationalPeople": null,
+                    "HttpsImageUrl": null,
+                    "FollowersCount": 0,
+                    "FriendsCount": 0,
+                    "IsGeoEnabled": null,
+                    "TotalStatusesCount": 0,
+                    "Associations": null,
+                    "NumRecommenders": 0,
+                    "Honors": null,
+                    "Awards": null,
+                    "Skills": null,
+                    "CurrentStatus": null,
+                    "Certifications": null,
+                    "Courses": null,
+                    "Volunteer": null,
+                    "RecommendationsReceived": null,
+                    "Languages": null,
+                    "Projects": null,
+                    "Games": null,
+                    "Family": null,
+                    "TeleVisionShow": null,
+                    "MutualFriends": null,
+                    "Movies": null,
+                    "Books": null,
+                    "AgeRange": null,
+                    "PublicRepository": null,
+                    "Hireable": false,
+                    "RepositoryUrl": null,
+                    "Age": null,
+                    "Patents": null,
+                    "FavoriteThings": null,
+                    "ProfessionalHeadline": null,
+                    "ProviderAccessCredential": null,
+                    "RelatedProfileViews": null,
+                    "LRUserID": null,
+                    "PlacesLived": null,
+                    "Publications": null,
+                    "JobBookmarks": null,
+                    "Suggestions": null,
+                    "Badges": null,
+                    "MemberUrlResources": null,
+                    "TotalPrivateRepository": 0,
+                    "Currency": null,
+                    "StarredUrl": null,
+                    "GistsUrl": null,
+                    "PublicGists": 0,
+                    "PrivateGists": 0,
+                    "Subscription": null,
+                    "Company": null,
+                    "GravatarImageUrl": null,
+                    "ProfileImageUrls": null,
+                    "WebProfiles": null,
+                    "PinsCount": 0,
+                    "BoardsCount": 0,
+                    "LikesCount": 0,
+                    "SignupDate": "2019-09-30T09:36:21.3720000Z",
+                    "LastLoginDate": "2019-09-30T09:36:22.9196327Z",
+                    "PreviousUids": null,
+                    "Identities": null
+                  },
+                  "access_token": "991****9-d35b-4**a-9**f-f36****7df13",
+                  "refresh_token": "f****b85-e**5-4**8-b**0-1719*****f14",
+                  "expires_in": "2019-09-30T09:51:22.8149253Z",
+                  "session_token": "7da****7-9fde-4**9-b**c-27***cc5***6",
+                  "session_expires_in": "2019-10-07T09:36:22.8149403Z"
+                }
+              },
+              "errorcodes" : [
+                "901",
+                "908",
+                "909",
+                "920",
+                "922",
+                "936",
+                "938",
+                "942",
+                "965",
+                "966",
+                "968",
+                "970",
+                "982",
+                "991",
+                "993",
+                "1017",
+                "1030",
+                "1038",
+                "1048",
+                "1049",
+                "1056",
+                "1058",
+                "1071",
+                "1077",
+                "1083",
+                "1090",
+                "1091",
+                "1093",
+                "1094",
+                "1095",
+                "1096",
+                "1107",
+                "1122",
+                "1124",
+                "1125",
+                "1130",
+                "1132",
+                "1134",
+                "1148",
+                "1149",
+                "1150",
+                "1151",
+                "1153",
+                "1157",
+                "1159",
+                "1163",
+                "1176",
+                "1183",
+                "1190",
+                "1194",
+                "1196",
+                "1198",
+                "1201",
+                "1202",
+                "1203",
+                "1213",
+                "1215",
+                "1216",
+                "1120",
+                "1226",
+                "1234",
+                "1243"
+                ]            
+              
+        }

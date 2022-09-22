@@ -1,0 +1,46 @@
+{
+    "name":"Video",
+    "domain":"https://api.loginradius.com",
+    "path":"/api/v2/video",
+    "method":"GET",
+    "getparams":{
+        "access_token*":"",
+        "nextcursor":""
+    },
+    "postparams":"",
+    "headers":{
+        "content-Type":"application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "The Video API is used to get video files data from the user’s social account.<br><br><b>Supported Providers:</b>   Facebook, Google, Live, Vkontakte",
+    "parameters": {
+        "Get Params": [{
+            "name": "access_token",
+            "is_required": true,
+            "description": "Uniquely generated identifier key by LoginRadius that is activated after successful authentication."
+        },{
+            "name": "nextcursor",
+            "is_required": true,
+            "description": "Cursor value if not all contacts can be retrieved once"
+        }]
+    },
+    "outputFormat": {
+   "Data": [
+    {
+      "ID": "100005160959292",
+      "Description": "",
+      "Name": "",
+      "Image": "https://example.xx.fbcdn.net/v/t15.0-10/p128x128/22407983_131225364292605_6866076569270484992_n.jpg?oh=acf2ffa75ea244026e5b5ef07bf08d26&oe=5A740A0E",
+      "Source": "https://example.xx.fbcdn.net/v/t43.1792-2/22342688_468586186860699_8044118431353536512_n.mp4?efg=eyJybHIiOjE2NzQsInJsYuu6MTAyNCwidmVuY29kZV90YWciOiJzdmVfaGQifQ%3D%3D&rl=1674&vabr=1116&oh=84480f02b6385f1fc15bd6434cb661c9&oe=59DDE734",
+      "CreatedDate": "10/09/2017 11:09 ",
+      "OwnerId": "12****414305500",
+      "OwnerName": "Test Video",
+      "EmbedHtml": "***************",
+      "UpdatedDate": "10/09/2017 11:09 ",
+      "Duration": null,
+      "DirectLink": null
+    }
+  ],
+  "NextCursor": ""
+}
+}

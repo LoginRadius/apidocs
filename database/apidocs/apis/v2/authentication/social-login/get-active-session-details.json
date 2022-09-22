@@ -1,0 +1,52 @@
+{
+  "name": "Get Active Session Details",
+  "domain": "https://api.loginradius.com",
+  "path": "/api/v2/access_token/activeSession",
+  "method": "GET",
+  "getparams": {
+    "key*": "@apikey@",
+    "secret*": "@secret@",
+    "token*": ""
+  },
+  "postparams": "",
+  "headers": {
+    "content-Type": "application/x-www-form-urlencoded"
+  },
+  "response": "json",
+  "description": "This api is used to get all active sessions by Access Token.",
+  "parameters": {
+    "Get Parameters": [
+      {
+        "name": "key",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "secret",
+        "is_required": true,
+        "description": "LoginRadius Secret Key"
+      },
+      {
+        "name": "access_token",
+        "is_required": true,
+        "description": "User's access token"
+      }
+    ]
+  },
+  "outputFormat": {
+    "data": [
+      {
+        "AccessToken": "8h******-****-8**5-***c-e8c*******9b",
+        "Browser": "Chrome",
+        "Device": "PC",
+        "Os": "Windows",
+        "DeviceType": "Computer",
+        "City": "****",
+        "Country": "a**d",
+        "Ip": "***.0*6.1*2.**1",
+        "LoginDate": "2017-10-02T10:02:52.534Z"
+      }
+    ],
+    "nextcursor": 0
+  }
+}

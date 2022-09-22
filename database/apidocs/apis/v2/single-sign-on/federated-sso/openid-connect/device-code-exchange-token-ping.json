@@ -1,0 +1,63 @@
+{
+    "name": "Device Code Exchange Token Ping",
+    "domain": "",
+    "path": "https://{siteurl}/api/oidc/{OidcAppName}/token",
+    "method": "POST",
+    "getparams": {},
+    "postparams": {
+      "client_id": "",
+      "response_type": "",
+      "device_Code":"",
+      "grant_type": ""
+    },
+    "headers": {
+      "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API allows you to requests a new token,from the Device code",
+    "parameters": 
+    {
+        "Template Params": [
+	  {
+            "name": "OidcAppName",
+            "is_required": true,
+            "description": "OIDC App Name"
+          }, 
+          {
+            "name": "siteurl",
+            "is_required": true,
+            "description": "Hosted/Custom Domain"
+          }        ],
+
+          "Post Params": [
+        {
+          "name": "client_id",
+          "is_required": true,
+          "description": "Your application's Client ID."
+        },
+        {
+          "name": "response_type",
+          "is_required": true,
+          "description": "Token"
+        },
+        {
+            "name": "device_code",
+            "is_required": true,
+            "description": "Enter the device code"
+        },
+        {
+            "name": "Grant-Type",
+        "is_required": true,
+        "description": "Value should be used as <strong>urn:ietf:params:oauth:grant-type:device_code</strong>"
+        }
+      ]
+    },
+    "outputFormat": 
+    {
+      "access_token": "b8cb84c9-dff7-401a-94c1-7cd44ebf80a0",
+      "token_type": "access_token",
+      "refresh_token": "a795bbb0-5868-4079-a45b-606ad8aeee80",
+      "expires_in": 31103985,
+      "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzMWVlYzU2....2BTNoyTPC0dAzw"
+    }
+    }

@@ -1,0 +1,43 @@
+{
+    "name": "Email Verification token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/verify/token",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": {
+        "email": "example@example.com"
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API Returns an Email Verification token.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ],
+        "Post Params": [
+            {
+                "name": "email",
+                "is_required": true,
+                "description": "Email ID of the User"
+            }
+        ]
+    },
+        "outputFormat": {
+            "VerificationToken": "*****ae92c458c*****c76a9b29",
+            "expires_in": "2022-04-04T15:48:01.221Z"
+        }
+}

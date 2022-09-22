@@ -1,0 +1,40 @@
+{
+  "name": "Admin-console release 7.0",
+  "description": "Introducing version 7 of the LoginRadius User Admin Console. this release includes a very major improvement surrounding User Management, LoginRadius now gives the ability to manage the user accounts much more granularly via Admin Console.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "User Management: You can now add new users via the Admin Console"
+      },
+      {
+        "text": "User Management: If the account is a social only account you can now create a traditional profile for that user in the Admin Console"
+      },
+      {
+        "text": "User Management: If a user needs the verification email to be reissued this can now be accomplished via Admin Console"
+      },
+      {
+        "text": "User Management: You can now manually resend the verification email"
+      },
+      {
+        "text": "User Management: Manually updating some of the key fields is now possible"
+      },
+      {
+        "text": "User Management: You can now flag accounts as verified or unverified via Admin Console"
+      },
+      {
+        "text": "Data Export: export data seemlessly from your LoginRadius Cloud Directory"
+      }
+    ],
+    "IMPROVED": [
+      {
+        "text": "Welcome Email: enable or disable sending the welcome email in the email settings section."
+      },
+      {
+        "text": "Revamped Date Range for Analytics: The date range picker has been revamped to allow you to make more granular selections"
+      }
+    ]
+  },
+  "auther": "Pascal",
+  "created_date": "2017-2-1",
+  "status": "public"
+}

@@ -1,0 +1,15 @@
+{
+"name": "Core Release 1.0.4",
+    "description": "We have rolled out another version of the High Concurrency APIs.This release brings you two new APIs.",
+    "changelog": {
+        "ADDED": [{
+                "text": "Added HCSA Add Email API "
+            },
+           {
+                "text": "Added HCSA Registration By Re-captcha "
+            }]
+    },
+    "auther": "Vaibhav Jain",
+    "created_date": "2020-11-3",
+    "status": "public"
+}

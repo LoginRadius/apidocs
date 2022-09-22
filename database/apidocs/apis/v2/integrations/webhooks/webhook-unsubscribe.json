@@ -1,0 +1,48 @@
+{
+    "name": "WebHook Unsubscribe",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/webhook",
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": {
+        "targeturl": "",
+        "event": ""
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "API can be used to unsubscribe a WebHook configured on your LoginRadius site.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ],
+        "Post Params": [
+            {
+                "name": "targeturl",
+                "is_required": true,
+                "description": "URL where trigger will send data when it invoke"
+            },
+            {
+                "name": "event",
+                "is_required": true,
+                "description": "Allowed events: Login, Register, UpdateProfile, ResetPassword, ChangePassword, emailVerification, AddEmail, RemoveEmail, BlockAccount, DeleteAccount, SetUsername, AssignRoles, UnassignRoles, SetPassword, LinkAccount, UnlinkAccount, UpdatePhoneId, VerifyPhoneNumber, CreateCustomObject, UpdateCustomobject, DeleteCustomObject"
+            }
+        ]
+    },
+    "outputFormat": {
+        "IsDeleted": true
+    }
+}

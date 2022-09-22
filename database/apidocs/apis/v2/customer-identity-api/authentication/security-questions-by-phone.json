@@ -1,0 +1,36 @@
+{
+    "name": "Get Security Questions By Phone",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/securityquestion/phone",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "phone*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to retrieve the list of questions that are configured on the respective LoginRadius site.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "phone",
+                "is_required": true,
+                "description": "The Registered Phone Number"
+            }
+        ]
+    },
+    "outputFormat": [
+        {
+            "QuestionId": "******7ff343fda******9a5c16b",
+            "Question": "what is your middlename?"
+        }
+    ]
+}

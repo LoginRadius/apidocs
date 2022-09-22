@@ -1,0 +1,20 @@
+{
+    "name": "Admin Console release 23.3.0",
+    "description": "This release of the Admin Console brings you a few enhancements, see below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+      "IMPROVED": [
+        {
+          "text": "Enhanced <a href='/docs/customer-management/overview/'> Data ETL Service </a> feature, allowing you to perform the Update and Delete action."
+        },
+        {
+          "text": "Improved rendering time of <a href='/docs/customer-intelligence/api-analytics/'> API Analytics </a> metrics."
+        },
+        {
+          "text": "Removed Risk Based Authentication feature."
+        }
+        
+      ]},
+  "auther": "Swati",
+  "created_date": "2020-04-20",
+  "status": "public"
+  }

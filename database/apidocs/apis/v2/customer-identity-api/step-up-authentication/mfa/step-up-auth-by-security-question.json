@@ -1,0 +1,56 @@
+{
+    "name": "Step-Up Authentication by Security Question",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/account/reauth/2fa/securityquestionanswer/verify",
+    "method": "POST",
+    "getparams": {
+      "apikey*": "@apikey@",
+      "access_token*": ""
+    },
+    "postparams": {
+        "securityquestionanswer": [
+            {
+                "QuestionId": "db7****8a73e4******bd9****8c20",
+                "Answer": "<answer>"
+            }
+        ]
+    },
+    "headers": {
+      "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to validate the triggered MFA step-up authentication flow with security questions answers.",
+    "parameters": {
+      "Get Params": [
+              {
+                  "name": "apikey",
+                  "is_required": true,
+                  "description": "LoginRadius API Key"
+              },
+              {
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+              }
+      ],
+
+      "Post Params": [{
+        "name": "QuestionId",
+        "is_required": true,
+        "description": "Id of the security question"
+      },
+      {
+        "name": "Answer",
+        "is_required": true,
+        "description": "Answer of the security question"      
+      }
+
+    ]
+    },
+    "outputFormat": 
+    {
+        "SecondFactorValidationToken": "e1******-****-****-b**e-e8*******cc7",
+        "ExpireIn": "2018-06-13T06:25:42.8937286Z"
+      }
+    
+  }

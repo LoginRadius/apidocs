@@ -1,0 +1,16 @@
+{
+    "name": "LoginRadius iOS SDK release V5.4.0",
+    "description": "In our new LoginRadius <a href='https://github.com/LoginRadius/ios-sdk'>  iOS SDK V5.4.0 </a>, we are launching the highly anticipated capabilities for Native Apple Sign In and Native WeChat sign In.",
+    "changelog": {
+        "ADDED": [{
+                "text": "New <a href='/docs/api/v2/deployment/mobile-sdk-libraries/ios-library/#nativesociallogin9'> Apple SignIn Native Login </a>."
+        }, {
+                "text": "New <a href='/docs/api/v2/deployment/mobile-sdk-libraries/ios-library/#nativesociallogin9'> Wechat Native Login </a>."
+        }
+            ]
+    },
+
+"auther": "Swati",
+"created_date": "2020-02-25",
+"status": "public"
+}

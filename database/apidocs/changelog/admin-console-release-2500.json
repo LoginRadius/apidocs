@@ -1,0 +1,24 @@
+{ "name": "Admin Console Release 25.0.0",
+    "description": "This release of the Admin Console brings you a new feature and improvements. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "The option to disable password history  feature from the Admin Console is added."
+            },
+            {
+                "text": "M2M authentication feature has been added to add configuration for authenticating backend third-party applications from the LoginRadius platform."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "Added self-serve option to update the Access Token time up to 3 months from Admin Console."
+            },
+            {
+                "text": "A Pop-Up has been added in the Site Sync tool in the Admin Console to alert the customers for syncing the Integration configuration from the source site to destination site."
+            }
+        ]},
+
+    "auther": "Gurjyot Singh",
+    "created_date": "2021-09-09",
+    "status": "public"
+}

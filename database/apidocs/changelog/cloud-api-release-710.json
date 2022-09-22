@@ -1,0 +1,16 @@
+{
+    "name": "Cloud API Release 7.1.0",
+    "description": "This release of the Cloud SSO Federation API brings you some improvements, see below for details on the more notable changes applied to the Cloud SSO Federation API.",
+    "changelog": {
+        "IMPROVED": [{
+                "text": "Added OAuth Authorization with <a href='https://loginradius.com/docs/single-sign-on/tutorial/federated-sso/pkce-flow/#oauthpkceflow3'>PKCE flow</a>. "
+            },
+            {
+                "text": "Added OpenID Connect Authorization with <a href='https://loginradius.com/docs/single-sign-on/tutorial/federated-sso/pkce-flow/#oidcvpkceflow4'>PKCE flow</a>. "
+            }
+        ]
+    },
+    "auther": "Abhishek Singh",
+    "created_date": "2020-10-16",
+    "status": "public"
+}

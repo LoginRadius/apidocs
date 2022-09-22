@@ -1,0 +1,30 @@
+{
+    "name": "JS Release 2.8",
+    "description": "We are pleased to announce the release of JS version 2.8. The following list details the enhancements, updates, and bug fixes that are included in this release:",
+    "changelog": {
+        "ADDED": [{
+                "text": "Risk Based Authentication: If a user attempts to login from a new location, this feature will detect this as a possible unauthorized login attempt and will either request the user for additional information or prompt the user to answer the security question(s). This is handled via JavaScript with the newly created option 'riskBasedAuthentication'. <a href='/getting-started/general-questions/support-faq#how-do-i-contact-loginradius-support-'>LoginRadius Support</a> to enable this feature."
+        }, {
+                "text": "Registration field pre-populated data: This will support the 'dropdown custom fields' with large data sets. With this feature, our system now has the ability to set up large data sets with custom use cases."
+        }, {
+                "text": "Passwordless Login or Registration/Simplified Instant Registration: This feature allows the user to log in without the hassle of completing a registration form or generating a password. The only requirement to log in is an email or phone number and verification. To handle this, we have created the JavaScript action 'noRegistrationPasswordLessLogin'."
+        }
+            ],
+"IMPROVED": [
+    {
+        "text": "SOTT via header: Now, by default, the SOTT will pass via request headers. To pass it in as a query_string you will need to set the JavaScript 'enableHeaderSott' option to 'false'."
+    },{
+        "text": "Simultaneous Email and Phone Login: We have implemented a special validation which allows for email and phone login at the same time. The phone login option will need to be enabled in order for this to work."
+    }],
+
+    "FIXED": [{
+                "text": "Instant Link Login Button: This button will no longer be displayed on the hosted page by default."
+    },{
+                "text": "Custom Provider Image Not Showing: This has been fixed."
+    }]
+    },
+
+"auther": "Swati",
+"created_date": "2017-10-16",
+"status": "public"
+}

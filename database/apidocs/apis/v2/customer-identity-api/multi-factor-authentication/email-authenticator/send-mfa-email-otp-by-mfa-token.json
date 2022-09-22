@@ -1,0 +1,49 @@
+{
+    "name": "Send MFA Email OTP by MFA Token",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/auth/login/2fa/otp/email",
+    "method": "POST",
+    "getparams": {
+      "apikey*": "@apikey@",
+      "secondfactorauthenticationtoken*":"",
+      "EmailTemplate2FA":""
+    },
+    "postparams": {
+      "emailid":"xyz@example.com"
+                  },
+    "headers": {
+      "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is created to send the OTP to the email if email OTP authenticator is enabled in app's MFA configuration.",
+    "parameters": {
+      "Get Params": [{
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+
+        {
+          "name": "secondfactorauthenticationtoken",
+          "is_required": true,
+          "description": "A uniquely generated MFA identifier token after successful authentication."
+        },
+        {
+          "name": "EmailTemplate2FA",
+          "is_required": false,
+          "description": "Name of the customized email template"
+        }
+        
+      ],
+
+      "Post Params": [{
+        "name": "EmailId",
+        "is_required": true,
+        "description": "Email Address of the user"
+      }]
+    },
+    "outputFormat": {
+    "IsPosted": true
+  }
+  }
+  

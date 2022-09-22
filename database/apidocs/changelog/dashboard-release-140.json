@@ -1,0 +1,63 @@
+{
+  "name": "Admin-console release 14.0",
+  "description": "You can expect lots of user experience improvements for the Admin Console Release 14! Included in these changes are redesigned interfaces, enhanced functionalities, and more. Check out the updates detailed below:",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "JS Widget Preview: You can now preview what the interfaces using our JavaScript Widgets will look like."
+      },
+      {
+        "text": "Expandable Advanced Standard Fields: In the Standard Login area, if you select an Advanced Standard Field, the field’s editing options can now be expanded to include sub fields. For example, for Addresses, you can now add sub fields such as addressline1 and addressline2."
+      },
+      {
+        "text": "Feedback: We’ve added the ability to provide feedback via the Admin Console."
+      },
+      {
+        "text": "Custom Provider with Social Interface: Added a checkbox that can enable a given IDP to be included in the social schema."
+      },
+      {
+        "text": "Login Lockout type 'security question' : Added 'security question' as a new login lockout option, which allows you to prompt a user to answer their security question(s) once they’ve reached the threshold of failed login attempts."
+      },
+      {
+        "text": "Hosted Page Theme Preview: You can now preview your hosted pages."
+      },
+      {
+        "text": "Security question maximum attempt on password reset: You can now set the number of failed security question attempts allowed for password reset."
+      },
+      {
+        "text": "Custom Object Schema: You can now setup a permanent schema for your Custom Objects to make sure all of your custom data is standardized. This is a one-time setting that cannot be reversed or changed once it has been set."
+      },
+      {
+        "text": "Host Filter for Insights: Added the ability to filter all graphs based on specific domains."
+      },
+      {
+        "text": "Hosted Page Theme Preview: You can now preview your hosted pages."
+      },
+      {
+        "text": "User Management Search by ID and Custom Fields: The Search function in the Manage Users section can now be performed with the ID and Custom Fields."
+      }
+    ],
+
+    "IMPROVED": [
+      {
+        "text": "Standard Login UI Revamp: The Standard Login interface has been completely redesigned with improved clarity to provide a better user experience."
+      },
+      {
+        "text": "Configuration Sync: Configuration Sync now supports moving all of the standard configurations from one environment to the other."
+      },
+      {
+        "text": "User Segmentation with JSON: You can now use JSON to perform User Segmentation in the Admin Console."
+      },
+      {
+        "text": "Static SOTT for mobile Apps: Added the SOTT static settings and storage of the token for each mobile app."
+      },
+      {
+        "text": "Host Filter for User Management: Added ability to show only the user profiles for the selected domain."
+      }
+    ]
+  },
+
+  "auther": "Pascal",
+  "created_date": "2017-08-22",
+  "status": "public"
+}

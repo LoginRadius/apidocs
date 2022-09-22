@@ -1,0 +1,32 @@
+{
+  "name": "LoginRadius API Core Release V20.4.0",
+  "description": "Our Core API Release 20.4.0 brings new features to optimize the security of our existing functionalities. Please see the details below",
+  "changelog": {
+  "ADDED": [
+      {
+        "text": "API Request Signing: This is an enhanced method of securing your API request with a signature composed of the account credentials and the API post body."
+      },
+      {
+        "text": "OTP Lockout: OTP login now supports the lockout function for added security against malicious use." 
+      },
+	  {
+        "text": "Request Access Token Header and Payload Option: Additional options have been made available in how you communicate the access token with your API request."
+      },
+      {
+        "text": "Request Variables: User agent string, IP address, and language data can now be passed as a part of the API request as a custom header."
+      },
+      {
+        "text": "Option to Prevent Sending Email Verification: An option to prevent sending email verification in case of optional email verification flow."
+      }
+  ],
+  "IMPROVED": [
+      {
+        "text": "Deprecated APIs: We have made some changes to some of the alternative workflows and have deprecated the following APIs: No Registration, Auto Login, and One Click Signing. These have been replaced with: One Touch Login, Smart Login, and Passwordless Login, respectively. " },
+      {
+        "text": "Facebook Deprecated Permissions: As Facebook has deprecated some of their scopes, we have since updated how the scopes are provisioned."
+      }]
+    },
+  "auther": "Pascal",
+  "created_date": "2018-05-04",
+  "status": "public"
+}

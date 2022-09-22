@@ -1,0 +1,98 @@
+{
+    "name": "Update Consent By Access Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/consent",
+    "method": "PUT",
+    "getparams": {
+      "apikey*": "@apikey@",
+      "access_token*": ""
+    },
+    "postparams": {
+        "Consents": [
+            {
+                "ConsentOptionId": "weeklyPromotionByEmailConsent",
+                "IsAccepted": true
+            },
+             {
+                "ConsentOptionId": "weeklyPromotionBySmsConsent",
+                "IsAccepted": true
+            },
+            {
+                "ConsentOptionId": "marketingEmailConsent",
+                "IsAccepted": false
+            },
+            {
+                "ConsentOptionId": "cookieConsent",
+                "IsAccepted": true
+            }
+        ]
+  },
+    "headers": {
+      "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to update consents using access token.",
+    "parameters": {
+      "Get Parameters": [{
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },{
+        "name": "access_token",
+        "is_required": true,
+        "description": "The access token received after successful login "
+      }
+    ],
+      "Post Parameters": [{
+        "name": "ConsentOptionId",
+        "is_required": true,
+        "description": "Unique identifier to identify a particular consent option. User can retreive this identifier from user profile"
+      },
+      {
+        "name": "IsAccepted",
+        "is_required": true,
+        "description": "Pass true, if consent is acccepted by user"
+      }
+      ]
+    },
+    "outputFormat": {
+      "AcceptedConsentVersions": [
+        {
+          "Event": "Login",
+          "Version": 1,
+          "IsCustom": false
+        },
+        {
+          "Event": "Register",
+          "Version": 1,
+          "IsCustom": false
+        },
+        {
+          "Event": "Register",
+          "Version": 1,
+          "IsCustom": false
+        },
+        {
+          "Event": "Login",
+          "Version": 1,
+          "IsCustom": false
+        }
+      ],
+      "Consents": [
+        {
+          "ConsentOptionId": "email_consent",
+          "AcceptOnDate": "2019-09-17T10:30:25.7030000Z"
+        },
+        {
+          "ConsentOptionId": "sms_consent",
+          "AcceptOnDate": "2019-09-17T10:30:25.7030000Z"
+        },
+        {
+          "ConsentOptionId": "marketing_consent",
+          "AcceptOnDate": "2019-09-17T10:30:25.7030000Z"
+        }
+      ]
+    }
+    
+  }
+  

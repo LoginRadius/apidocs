@@ -1,0 +1,49 @@
+{
+  "name": "Admin-console Release 19.0",
+  "description": "The latest LoginRadius Admin Console Release 19 delivers a more intuitive design along with new functionality. Please see details below.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Unverify Customers: You can now Unverify customers that have been set as Verified in the Admin Console. Go to Profile Management and choose 'Full View' on the desired profile."
+      },
+      {
+        "text": "Admin-console Section Revamp: The main 'Admin-console' section now has new charts, such as the Login Activity chart, allowing you to see your logins per day."
+      },
+      {
+        "text": "Data Query: We have added a new Data Query section to allow you to do quick in-Admin-console lookups for your data, it also supports Custom Object search."
+      },
+      {
+        "text": "Customer Segmentation: New fields are have been added in this section and support for searching complex arrays has also been added."
+      },
+      {
+        "text": "Filter Customers: You can now filter customers using the query feature under Profile Management."
+      },
+      {
+        "text": "Password Expiration: In the Password Policy section, the Password Expiration feature has been improved for usability."
+      },
+      {
+        "text": "Phone Numbers: We have added the ability to add phone numbers to customer accounts via the Admin-console."
+      },
+      {
+        "text": "Registration Forms: We have added a new Registration Forms section under the 'Standard Login' area to help you easily generate registration form schemas."
+      }
+    ],
+    "IMPROVED": [
+      {
+        "text": "Structural Improvements: Several sections have been renamed to make navigation easier."
+      },
+      {
+        "text": "Design Improvements: Changes to design enhance admin-console experience and usability."
+      },
+      {
+        "text": "Profile Management Search: The search functionality allows searching of blocked customers."
+      },
+      {
+        "text": "Ticket Prioritization: You can now set the priority on the tickets you submit via the Support section."
+      }
+    ]
+  },
+  "auther": "Pascal",
+  "created_date": "2018-05-10",
+  "status": "public"
+}

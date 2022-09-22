@@ -1,0 +1,38 @@
+{
+  "name": "LoginRadius API Core Release V18.0",
+  "description": "Announcing the LoginRadius API V18.0 which brings many new features and improvements, many making how you interact with the API much easier.",
+  "changelog": {
+  "ADDED": [
+      {
+        "text": "Risk Based Authentication - the system can verify the user’s login request with a request for additional information, or even prompt the user to answer security questions when it detects possible risks associated with the login. For instance, if a user is logging in from a different location than usual, they may be prompted to answer additional security questions to verify that they are the user."
+      },
+	    {
+        "text": "Age Verification check on the server side for COPPA compliance - You can now easily enable and set the default age required for registration."
+      },
+	    {
+        "text": "Simultaneous Phone and Email Authentication - This flow allows users to log in using their PhoneId and email simultaneously."
+      },
+      {
+        "text": "Management API Call to Generate SOTT - You can now generate a new Secure One Time Token (SOTT) via our Management API."
+      },
+      {
+        "text": "Select Fields to Return - You can now select which fields you would like to be returned in your API V2 calls"
+      }],
+  "IMPROVED": [
+      {
+      "text": "Auto login API enhancement - We created a new set of APIs to verify your auto login tokens, which will allow you to fully customize your login workflows."
+      },
+      {
+      "text": "Email/SMS Notification on Password Reset:  When this option is enabled, our system will send an Email/SMS notification to the end user upon a successful password reset."
+      },
+      {
+      "text": "Context Role expiration - Added an option for Role context expiration, which will expire the user role context after the expiration date."
+      },
+      {
+      "text": "Date format: We are now supporting yyyy/mm/dd as an additional date format in our APIs."
+      }]
+    },
+  "auther": "Pascal",
+  "created_date": "2017-08-2",
+  "status": "public"
+}

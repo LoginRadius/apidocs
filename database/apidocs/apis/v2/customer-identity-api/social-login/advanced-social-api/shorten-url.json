@@ -1,0 +1,35 @@
+{
+    "name": "Shorten URL",
+    "domain": "https://api.loginradius.com",
+    "path": "/sharing/v1/shorturl",
+    "method": "GET",
+    "getparams": {
+        "key*": "@apikey@",
+        "url*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "The Shorten URL API is used to convert your URLs to the LoginRadius short URL - ish.re",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "key",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "url",
+                "is_required": true,
+                "description": "URL"
+            }
+        ]
+    },
+    "outputFormat": {
+        "UrlKey": 2980447,
+        "UrlBase36Key": "2KLM7",
+        "ShortUrl": "http://ish.re/2KLM7"
+    }
+}

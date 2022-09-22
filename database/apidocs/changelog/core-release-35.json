@@ -1,0 +1,25 @@
+{
+    "name": "Core Release 3.5",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "Various redirection related performance improvements"
+            }, {
+                "text": "XRDS doc request for open id"
+            }, {
+                "text": "Facebook sandbox mode"
+            },{
+                "text": "Developer email"
+            }, {
+                "text": "SQL code removal from core code."
+            }, {
+                "text": "Secured by LoginRadius in JS interface"
+            }],
+        "FIXED": [{
+                "text": "Firefox console error"
+            }]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2013-12-1",
+    "status": "public"
+}

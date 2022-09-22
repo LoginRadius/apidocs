@@ -1,0 +1,16 @@
+{
+    "name": "Cloud Connector Release 3.5.0",
+    "description": "In this release of the Cloud Connectors we have added  some new integration plugins, see below for details on the plugins added in this Cloud Connectors release.",
+    "changelog": {
+      "ADDED": [
+        {
+          "text": "Added a new integration plugin - <strong>Sendinblue</strong>."
+        },
+        {
+            "text": "Added a new integration plugin - <strong>Freshsales</strong>."
+          }
+        ]},
+  "auther": "Abhishek Singh",
+  "created_date": "2020-09-17",
+  "status": "public"
+  }

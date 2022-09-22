@@ -1,0 +1,45 @@
+{
+  "name": "Forgot PIN By Phone",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/auth/pin/forgot/otp",
+  "method": "POST",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "smstemplate*": ""
+  },
+  "postparams": {
+      "Phone ": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "Use this Endpoint to trigger the Forgot PIN process, where an SMS is sent to the customer with a One Time Passcode (OTP) to use in order to change their PIN.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "smstemplate",
+        "is_required": false,
+        "description": "Name of the SMS template to send the customer."
+      }],
+    "Post Params": [
+        {
+        "name": "Phone",
+        "is_required": true,
+        "description": "Phone Number on the Account that the PIN was forgotten."
+      }
+          ]
+  },
+    "outputFormat": 
+{
+    "IsPosted": true,
+    "Data": {
+        "AccountSid": "AC***30d********f06**fce*******630",
+        "Sid": "SM7*****fe57b****699ad79*****d7db2"
+    }
+}}

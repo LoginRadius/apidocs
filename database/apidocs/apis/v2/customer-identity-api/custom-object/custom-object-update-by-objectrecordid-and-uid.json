@@ -1,0 +1,82 @@
+{
+  "name": "Custom Object Update by UID",
+  "domain":"https://api.loginradius.com",
+  "path": "/identity/v2/manage/account/{uid}/customobject/{objectRecordId}",
+  "method": "PUT",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "apisecret*": "@secret@",
+    "objectname*": "",
+    "updatetype*":""
+  },
+  "postparams": {
+    "field1": "Store my field1 value",
+    "field2": "Store my field2 value"
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API is used to update the specified custom object data of a specified account. If the value of updatetype is 'replace' then it will fully replace custom object with new custom object and if the value of updatetype is partialreplace then it will perform an upsert type operation.",
+  "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            },
+            {
+                "name": "objectname",
+                "is_required": true,
+                "description": "LoginRadius Custom Object Name"
+            },
+            {
+                "name": "updatetype",
+                "is_required": true,
+                "description": "Possible values: replace, partialreplace. Find more details <a href='/docs/api/v2/customer-identity-api/advanced-api-usage#customobjectupdatetype6'>here</a>"
+            }
+        ],
+        "Template Params": [
+            {
+                "name": "uid",
+                "is_required": true,
+                "description": "UID, the unified identifier for each user account"
+            },
+            {
+                "name": "objectrecordid",
+                "is_required": true,
+                "description": "Unique identifier of the user's record in Custom Object"
+            }
+        ],
+        "Post Params": [
+            {
+                "name": "field1",
+                "is_required": true,
+                "description": "Valid JSON as per your schema"
+            },
+            {
+                "name": "field2",
+                "is_required": true,
+                "description": "Valid JSON as per your schema"
+            }
+        ]
+    },
+    "outputFormat": {
+  "Id": "XXXXXXXXXXXXXXXXXXXXXXXX",
+  "IsActive": true,
+  "DateCreated": "2017-09-29T23:55:33.4420376Z",
+  "DateModified": "2017-09-29T23:55:33.4420376Z",
+  "IsDeleted": false,
+  "Uid": "XXXXXXXXXXXXXXXXXXXXXXXX",
+  "CustomObject": {
+    "customdata1": "Store my customdata1 value",
+    "customdata2": "Store my customdata2 value"
+  }
+}
+
+}

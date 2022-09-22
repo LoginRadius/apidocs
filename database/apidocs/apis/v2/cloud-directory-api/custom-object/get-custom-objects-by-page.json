@@ -1,0 +1,168 @@
+{
+  "name": "Get Custom Objects by Pagination ID",
+  "domain": "https://cloud-api.loginradius.com",
+  "path": "/customobject",
+  "method": "GET",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "apisecret*": "@secret@",
+    "customObject*": "",
+    "next*": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API allows you to get subsequent batchs of results after calling the initial POST Custom Object API",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "apisecret",
+        "is_required": true,
+        "description": "LoginRadius API secret or LoginRadius API Secondary secret with <b> Cloud Directory API permission enabled</b>"
+      },
+      {
+        "name": "customObject",
+        "is_required": true,
+        "description": "Custom Object Name"
+      },
+      {
+        "name": "next",
+        "is_required": true,
+        "description": "Pagination id from initial POST request or previous GET "
+      }
+    ]
+  },
+  "outputFormat": {
+    "data": [
+      {
+        "IsActive": true,
+        "DateCreated": "2018-01-31T09:02:40.290Z",
+        "DateModified": "2018-01-31T09:02:40.290Z",
+        "IsDeleted": false,
+        "Uid": "8414f9491c9b461e942a19af5d23f936",
+        "CustomObject": {
+          "key1": "asd",
+          "key2": [
+            "lower",
+            "upper",
+            "down"
+          ],
+          "key3": 123,
+          "key4": [
+            {
+              "Type": "Primary",
+              "Value": "youtube"
+            },
+            {
+              "Type": "Secondary",
+              "Value": "vimeo"
+            }
+          ],
+          "key5": {
+            "Code": "Dr",
+            "Name": "Doctor"
+          }
+        },
+        "_id": 12345
+      },
+      {
+        "IsActive": true,
+        "DateCreated": "2018-01-31T09:03:14.940Z",
+        "DateModified": "2018-01-31T09:03:14.940Z",
+        "IsDeleted": false,
+        "Uid": "b7d2a7fee54a4f168e6ac33a2f295e94",
+        "CustomObject": {
+          "key1": "hello",
+          "key2": [
+            "middle"
+          ],
+          "key3": 124,
+          "key4": [
+            {
+              "Type": "Primary",
+              "Value": "google"
+            },
+            {
+              "Type": "Secondary",
+              "Value": "vimeo"
+            }
+          ],
+          "key5": {
+            "Code": "CH",
+            "Name": "Chef"
+          }
+        },
+        "_id": 12346
+      },
+      {
+        "IsActive": true,
+        "DateCreated": "2018-01-31T09:03:25.420Z",
+        "DateModified": "2018-01-31T09:03:25.420Z",
+        "IsDeleted": false,
+        "Uid": "f78f2a163bce44e1b3118d8eb029c532",
+        "CustomObject": {
+          "key1": "test123",
+          "key2": [
+            "middle",
+            "lower"
+          ],
+          "key3": 125,
+          "key4": [
+            {
+              "Type": "Primary",
+              "Value": "twitch"
+            },
+            {
+              "Type": "Secondary",
+              "Value": "vimeo"
+            }
+          ],
+          "key5": {
+            "Code": "MS",
+            "Name": "Master"
+          }
+        },
+        "_id": 12347
+      },
+      {
+        "IsActive": true,
+        "DateCreated": "2018-01-31T10:18:22.470Z",
+        "DateModified": "2018-01-31T10:18:22.470Z",
+        "IsDeleted": false,
+        "Uid": "909e8731190640eaa3b76bd7a24bec13",
+        "CustomObject": {
+          "key1": "test1234",
+          "key2": [
+            "middle",
+            "lower",
+            "upper",
+            "down"
+          ],
+          "key3": 126,
+          "key4": [
+            {
+              "Type": "Primary",
+              "Value": "facebook"
+            },
+            {
+              "Type": "Secondary",
+              "Value": "vimeo"
+            }
+          ],
+          "key5": {
+            "Code": "Mr",
+            "Name": "Mister"
+          }
+        },
+        "_id": 12348
+      }
+    ],
+    "next": "DXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX=="
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "MFA Reset SMS Authenticator by Token",
+  "domain":"https://api.loginradius.com",
+  "path": "/identity/v2/auth/account/2FA/authenticator",
+  "method": "DELETE",
+  "getparams": {
+    "apikey*": "@apikey@"
+  },
+  "postparams": {
+    "otpauthenticator":true
+  },
+  "headers": {
+    "content-Type": "application/json",
+    "Authorization":"Bearer "
+  },
+  "response": "json",
+  "description": "This API resets the SMS Authenticator configurations on a given account via the access_token.",
+  "parameters": {
+    "Get Params": [{
+      "name": "apikey",
+      "is_required": true,
+      "description": "LoginRadius API Key"
+    }],
+	"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }],
+    "Post Params": [{
+      "name": "otpauthenticator",
+      "is_required": true,
+      "description": "Pass true to remove SMS Authenticator"
+    }]
+  },
+  "outputFormat": {
+  "IsDeleted": true
+}
+}

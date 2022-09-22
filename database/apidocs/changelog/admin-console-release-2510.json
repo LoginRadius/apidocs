@@ -1,0 +1,24 @@
+{ "name": "Admin Console Release 25.1.0",
+    "description": "This release of the Admin Console brings you a new feature and improvements, see below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "The token expiration time field in the JWT/OIDC app configuration."
+            },
+            {
+                "text": "Added search feature in the Team Management section of the Admin Console."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "For better performance, removed the long date duration options ( All Time and 365 days) from the time dropdown in the insight charts."
+            },
+            {
+                "text": "Added Historical view of Privacy Policy under customer profile in the Admin Console."
+            }
+        ]},
+
+    "auther": "Gurjyot Singh",
+    "created_date": "2022-01-04",
+    "status": "public"
+}

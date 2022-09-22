@@ -1,0 +1,75 @@
+{
+    "name": "Verify Consent by Access Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/consent/verify",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "access_token*": "",
+        "event": "",
+        "IsCustom": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to check if consent is submitted for a particular event or not.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            }, 
+            {
+                "name": "accesstoken",
+                "is_required": true,
+                "description": "The access token received after successfull login "
+            },
+            {
+        
+            "name": "event",
+            "is_required": true,
+            "description": "The event associated with the consent form"
+        },
+        {
+        
+            "name": "IsCustom",
+            "is_required": true,
+            "description": "Pass true, if the custom event is created by user, that is different from 3 LoginRadius events (Registration, FirstLogin, Login)"
+        }
+        ]
+    },
+        "outputFormat": {
+                "ConsentProfile": {
+                  "AcceptedConsentVersions": [
+                    {
+                      "Event": "Login",
+                      "Version": 1,
+                      "IsCustom": false
+                    },
+                    {
+                      "Event": "Register",
+                      "Version": 1,
+                      "IsCustom": false
+                    }
+                  ],
+                  "Consents": [
+                    {
+                      "ConsentOptionId": "email_consent",
+                      "AcceptOnDate": "2019-09-17T10:30:25.7030000Z"
+                    },
+                    {
+                      "ConsentOptionId": "sms_consent",
+                      "AcceptOnDate": "2019-09-17T10:30:25.7030000Z"
+                    },
+                    {
+                      "ConsentOptionId": "marketing_consent",
+                      "AcceptOnDate": "2019-09-17T10:30:25.7030000Z"
+                    }
+                  ]
+                },
+                "IsValid": true
+              }
+              
+            }

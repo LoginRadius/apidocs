@@ -1,0 +1,40 @@
+{
+  "name": "Delete All Records by Datasource",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/manage/registrationdata/type/{type}",
+  "method": "DELETE",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "apisecret*": "@secret@"
+  },
+  "postparams": "",
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API allows you to delete all records contained in a datasource.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "apisecret",
+        "is_required": true,
+        "description": "LoginRadius API Secret"
+      }
+    ],
+    "Template Params":[
+      {
+        "name": "type",
+        "is_required": true,
+        "description": "the name of the datasource."
+      }
+    ]
+  },
+"outputFormat": {
+  "IsDeleted": true
+}
+}

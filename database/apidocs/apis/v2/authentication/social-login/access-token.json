@@ -1,0 +1,31 @@
+{
+    "name": "Access Token",
+    "domain":"https://api.loginradius.com",
+    "path":"/api/v2/access_token",
+    "method":"GET",
+    "getparams":{
+        "token*":"",
+        "secret*":"@secret@"
+    },
+    "postparams":"",
+    "headers":{
+        "content-Type":"application/x-www-form-urlencoded"
+    },
+    "response":"json",
+    "description": "This API Is used to translate the Request Token returned during authentication into an Access Token that can be used with other API calls.",
+    "parameters": {
+        "Get Params": [{
+            "name": "token",
+            "is_required": true,
+            "description": "Token generated from a successful oauth from social platform"
+        }, {
+            "name": "secret",
+            "is_required": true,
+            "description": "LoginRadius API secret"
+        }]
+    },
+    "outputFormat": {
+  "access_token": "a123qwe2-9**3-4202-833c-320aoo58**66",
+  "expires_in": "2017-10-09T06:07:00.296Z"
+}
+}

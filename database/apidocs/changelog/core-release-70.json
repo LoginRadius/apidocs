@@ -1,0 +1,14 @@
+{
+    "name": "Core Release 7.0",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "RaaS Password Hashing added"
+            }, {
+                "text": "Refresh Access token and get refreshed data"
+            }]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2014-10-1",
+    "status": "public"
+}

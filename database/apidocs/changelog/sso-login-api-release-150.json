@@ -1,0 +1,12 @@
+{
+    "name": "SSO Login API Release 1.5.0",
+    "description": "In this release of the SSO Login API, we have improved the functionality of handling allowed request header size.",
+    "changelog": {
+      "IMPROVED": [
+        {
+          "text": "Increased the Allowed Request Header Size from 4KB to 16KB."
+        }]},
+  "auther": "Abhishek Singh",
+  "created_date": "2020-09-16",
+  "status": "public"
+  }

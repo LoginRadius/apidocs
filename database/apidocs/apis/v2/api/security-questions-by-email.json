@@ -1,0 +1,36 @@
+{
+    "name": "Get Security Questions By Email",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/securityquestion/email",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "email*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to retrieve the list of questions that are configured on the respective LoginRadius site.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "email",
+                "is_required": true,
+                "description": "User's email address"
+            }
+        ]
+    },
+    "outputFormat": [
+        {
+            "QuestionId": "0a67bd*****3fdab3*****5c16b",
+            "Question": "what is your middlename?"
+        }
+    ]
+}

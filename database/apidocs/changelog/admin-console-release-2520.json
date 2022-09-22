@@ -1,0 +1,16 @@
+{ "name": "Admin Console Release 25.2.0",
+    "description": "This release of the Admin Console brings you improvements, see below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "IMPROVED": [
+            {
+                "text": "Added Audiences, Response Mode and Metadata input are added in JWT Configuration UI under the Federated SSO in the Admin Console."
+            },
+            {
+                "text": "Now LoginRadius supports up to 10 additional API secrets."
+            }
+        ]},
+
+    "auther": "Gurjyot Singh",
+    "created_date": "2022-01-05",
+    "status": "public"
+}

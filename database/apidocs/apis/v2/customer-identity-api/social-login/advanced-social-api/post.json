@@ -1,0 +1,28 @@
+{"name": "Post", "domain":"https://api.loginradius.com",
+    "path": "/api/v2/post", "method": "GET", "getparams": {
+    "access_token*": ""
+}, "postparams": "", "headers": {
+    "content-Type": "application/x-www-form-urlencoded"
+}, "response": "json",
+    "description": "The Post API is used to get post message data from the user’s social account.<br><br><b>Supported Providers:</b>  Facebook",
+    "parameters": {
+        "Get Params": [{
+            "name": "access_token",
+            "is_required": true,
+            "description": "Uniquely generated identifier key by LoginRadius that is activated after successful authentication."
+        }]
+    },
+    "outputFormat": {
+    "ID": "190****14300500_***14089#557806",
+    "Name": "Test Test",
+    "Title": null,
+    "StartTime": "10/09/2017 08:01:07",
+    "UpdateTime": "10/09/2017 08:01:07",
+    "Message": null,
+    "Place": "Trio Jaipur",
+    "Picture": null,
+    "Likes": 1,
+    "Share": 0,
+    "Type": "status"
+}
+}

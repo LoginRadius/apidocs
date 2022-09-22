@@ -1,0 +1,39 @@
+{
+    "name": "Auth Set or Change UserName",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/username",
+    "method": "PUT",
+    "getparams": {
+        "apikey*": "@apikey@"
+    },
+    "postparams": {
+        "username": "xxxxxxxxxxxx"
+    },
+    "headers": {
+        "content-Type": "application/json",
+	    "Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to set or change UserName by access token.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            }],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }],	
+        "Post Parameters": [{
+                "name": "username",
+                "is_required": true,
+                "description": "New username to be set or updated"
+            }
+        ]
+    },
+        "outputFormat": {
+            "IsPosted": true
+        }
+}

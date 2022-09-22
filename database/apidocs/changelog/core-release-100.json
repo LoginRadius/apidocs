@@ -1,0 +1,45 @@
+{
+    "name": "Core Release 10.0",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "New Analytics API added"
+            },{
+                "text": "Facebook API version upgraded to 2.5"
+            },{
+                "text": "Added new option to register and login with username and email"
+            },{
+                "text": "New APIs added : check whether username exists or not (Client)"
+            },{
+                "text": "New APIs added : check whether username exists or not (Server)"
+            },{
+                "text": "New APIs added : Change UserName by AcoountID"
+            },{
+                "text": "New APIs added : Set UserName by AcoountID"
+            },{
+                "text": "Added feature to populate Country code from Country name or vice versa"
+            },{
+                "text": "Instagram support for LoginRadius Photo, Video and Follower API added"
+            },{
+                "text": "Multiple email template option added"
+            },{
+                "text": "New API added that Generate reset password GUID"
+            },{
+                "text": "Console logs added to SSO JS"
+            }],
+        "FIXED":[{
+            "text":"Forgot password link expire"
+            },{
+            "text":"Error messages issue fixed of User Reg.API"
+            },{
+            "text":"Uid was getting changed after email verification"
+            },{
+            "text":"No email for verification in case of optional email verification option"
+            },{
+            "text":"Set password and change password are now work without account linking method, dependency removed"
+            }]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2015-10-1",
+    "status": "public"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Change PIN By Access Token",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/auth/pin/change",
+  "method": "PUT",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "access_token*": ""
+  },
+  "postparams": {
+      "OldPIN": "",
+      "NewPIN": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "Use this Endpoint to allow the customer to change their PIN (Provided that they know the existing PIN) and are logged in with a valid access_token.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      }],
+    "Post Params": [
+        {
+        "name": "OldPIN",
+        "is_required": true,
+        "description": "The Existing PIN on the acount."
+      },
+        {
+        "name": "NewPIN",
+        "is_required": true,
+        "description": "The New desired PIN for the account."
+      }
+          ]
+  },
+    "outputFormat": 
+{
+    "IsPosted": true
+}
+}

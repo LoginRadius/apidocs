@@ -1,0 +1,41 @@
+{
+    "name": "Account Delete by Email",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/manage/account", 
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@",
+        "email*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to delete all user profiles associated with an Email. ",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            },
+            {
+                "name": "email",
+                "is_required": true,
+                "description": "Email associated with an account"
+            }
+        ]
+    },
+        "outputFormat": {
+                "IsDeleted": true,
+                "RecordsDeleted": 1
+              
+          }
+    }

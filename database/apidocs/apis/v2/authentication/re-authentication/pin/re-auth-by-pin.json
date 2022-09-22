@@ -1,0 +1,42 @@
+{
+  "name": "Re-Authenticate By PIN",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/auth/account/reauth/pin",
+  "method": "PUT",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "access_token*": ""
+  },
+  "postparams": {
+      "PIN": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API is used to allow the customer to re-authenticate by passing the PIN code. Once the customer has authenticated a secondfactorauthentication will be generated which can then be validated against.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "Your LoginRadius API Key."
+      },
+      {
+        "name": "access_token",
+        "is_required": true,
+        "description": "The access_token for the current session."
+      }    ],
+    "Post Params": [
+        {
+        "name": "PIN",
+        "is_required": true,
+        "description": "PIN code to validate."
+      }]
+  },
+"outputFormat": 
+  {
+    "SecondFactorValidationToken": "e1******-****-****-b**e-e8*******cc7",
+    "ExpireIn": "2018-06-13T06:25:42.8937286Z"
+  }
+}

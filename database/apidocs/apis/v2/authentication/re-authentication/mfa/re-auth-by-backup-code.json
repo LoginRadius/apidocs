@@ -1,0 +1,43 @@
+{
+  "name": "Re-Authenticate by Backup Code",
+  "domain":"https://api.loginradius.com",
+  "path":"/identity/v2/auth/account/reauth/2fa/BackupCode",
+  "method":"PUT",
+  "getparams":{
+    "apikey*":"@apikey@"
+  },
+  "postparams": {
+  "backupcode": ""
+},
+  "headers":
+  {
+    "content-Type":"application/json","Authorization":"Bearer "
+  },
+  "response":"json",
+  "description": "This API is used to re-authenticate by set of backup codes via access_token on the site that has Multi-factor authentication enabled in re-authentication for the user that does not have the device. ",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      }
+    ],
+    "Headers Parameters": [{
+      "name": "Authorization",
+      "is_required": true,
+      "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+    }],
+    "Post Parameters": [{
+      "name": "backupcode",
+      "is_required": true,
+      "description": "Backup Code for login. "
+    }
+    ]
+  },
+  "outputFormat":
+  {
+    "SecondFactorValidationToken": "47*****5-7***-****-****-09*******ece",
+    "ExpireIn": "2018-06-13T06:35:13.0503845Z"
+  }
+}

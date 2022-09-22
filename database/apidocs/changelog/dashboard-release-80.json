@@ -1,0 +1,84 @@
+{
+  "name": "Admin-console release 8.0",
+  "description": "Introducing Version 8 of the LoginRadius User Admin Console. This release introduces many new features that will improve your user identity management.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Custom Domain: We have added the ability to add/edit/delete Custom Domain bindings."
+      },
+      {
+        "text": "Additional API Secrets: This section lets you add additional API Secrets for your LoginRadius site."
+      },
+      {
+        "text": "Security Question Area: You can manage and configure your security questions in this area."
+      },
+      {
+        "text": "Access Restrictions: With the new whitelist and blacklist settings, you can control user access or registration to the LoginRadius site. You are able to either accept or reject the end users attempts to register based on their email addresses. "
+      },
+      {
+        "text": "Configuration Sync: You are now able to sync your site settings or configuration from one site to another. For example: dev to prod or staging to prod site configuration."
+      },
+      {
+        "text": "SAML Configuration: You can add/edit/delete any SAML Apps connected via SSO."
+      },
+      {
+        "text": "Configuration Sync: You are now able to sync your site settings or configuration from one site to another. For example: dev to prod or staging to prod site configuration."
+      },
+      {
+        "text": "SAML Configuration: You can add/edit/delete any SAML Apps connected via SSO."
+      },
+      {
+        "text": "Manage Role and Permissions: You can now manage the roles and permissions for your user base."
+      },
+      {
+        "text": "Two Factor Authentication: Enable/Disable Two Factor Authentication directly from the Admin Console."
+      },
+      {
+        "text": "Phone Authentication: Customize the settings for each event based SMS triggered through LoginRadius."
+      },
+      {
+        "text": "Deployment: New Hashing Algorithm area. This area displays all password encryption values that are stored by the LoginRadius Cloud Directory"
+      },
+      {
+        "text": "Access Token: The new Access Token Area allows you to directly request to change the Access Token Expiration Time"
+      },
+      {
+        "text": "REST Hook Settings: You can customize your rest hook settings here."
+      },
+      {
+        "text": "Web hook: You can customize you web hook settings here."
+      }
+    ],
+    "FIXED": [
+      {
+        "Improved Segmentation UI": "The top 10 users are shown in the list and ordered by Created Date."
+      },
+      {
+        "Engagement Insights": "User Return Rate and Monthly Active Users graphs are moved to User Engagement; Provider Engagement that was in User Engagement is moved to the new Provider Engagement tab."
+      }
+    ],
+    "IMPROVED": [
+      {
+        "Search Users": "You can search for users by their Name, Email and UID."
+      },
+      {
+        "Create Traditional Profiles": "For users who only have a social account, you can now manually create a traditional email + password account for them from the Admin Console."
+      },
+      {
+        "Heat map": "A heat map has been added to show login activity. High Level Statistics for all criteria."
+      },
+      {
+        "Blocked Users": "Get a list of all of the blocked users."
+      },
+      {
+        "Team users": "You can manage additional users here. For example, delete team member, edit role, and send reset password emails. You can also transfer accounts."
+      },
+      {
+        "High-Level Statistics": "High-Level statistics for User Profiles and User Logs."
+      }
+    ]
+  },
+  "auther": "Pascal",
+  "created_date": "2017-3-14",
+  "status": "public"
+}

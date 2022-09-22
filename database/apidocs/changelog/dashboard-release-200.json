@@ -1,0 +1,23 @@
+{
+  "name": "Admin-console Release 20.0",
+  "description": "You may have noticed that the Admin Console's appearance has changed, we have just launched a new version of the LoginRadius Admin Console! Please see below for the list of changes",
+  "changelog": {
+    "IMPROVED": [
+      {
+        "text": "Faster Load Times: We have made code changes to improve the load times in the Admin Console."
+      },
+      {
+        "text": "Updated supported Ciphers list: New Ciphers have been added to our supported Ciphers list."
+      },
+      {
+        "text": "New Icons: We have updated the icons in the Admin Console to improve readability on different displays."
+      },
+      {
+        "text": "Revamped Sidebar: The sidebar has been completely revamped to improve Admin Console navigation."
+      }
+    ]
+  },
+  "auther": "Pascal",
+  "created_date": "2018-08-07",
+  "status": "public"
+}

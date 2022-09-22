@@ -1,0 +1,43 @@
+{  
+    "name": "Auth Resend Email Verification",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/register",
+    "method": "PUT",
+    "getparams": {  
+        "apikey*": "@apikey@",
+        "verificationurl": "",
+        "emailtemplate": ""
+    },
+    "postparams": {
+        "email": "xyz@example.com"
+    },
+    "headers": {  
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API resends the verification email to the user.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            }, {
+                "name": "verificationurl",
+                "is_required": false,
+                "description": "Url of the site where email will get verified"
+            }, {
+                "name": "emailtemplate",
+                "is_required": false,
+                "description": "Name of the email template."
+            }],
+        "Post Parameters": [{
+                "name": "email",
+                "is_required": true,
+                "description": "User's email"
+            }
+        ]
+    },
+        "outputFormat": {
+            "IsPosted": true
+        }
+}

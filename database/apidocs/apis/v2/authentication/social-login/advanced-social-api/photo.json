@@ -1,0 +1,50 @@
+{"name": "Photo", "domain":"https://api.loginradius.com",
+    "path": "/api/v2/photo", "method": "GET", "getparams": {
+    "access_token*": "",
+    "albumid*": ""
+}, "postparams": "", "headers": {
+    "content-Type": "application/x-www-form-urlencoded"
+}, "response": "json",
+    "description": "The Photo API is used to get photo data from the user’s social account.<br><br><b>Supported Providers:</b>  Facebook, Foursquare, Google, Live, Vkontakte",
+    "parameters": {
+        "Get Params": [{
+            "name": "access_token",
+            "is_required": true,
+            "description": "Uniquely generated identifier key by LoginRadius that is activated after successful authentication."
+        },{
+            "name": "albumid",
+            "is_required": true,
+            "description": "The id of the album you want to retrieve info from"
+        }]
+    },
+    "outputFormat": {
+    "ID": "131097778764597",
+    "AlbumId": "131099084572032",
+    "OwnerId": "122296489305500",
+    "OwnerName": "Test Test",
+    "Name": "my uploads",
+    "DirectUrl": "",
+    "ImageUrl": "https://example.xx.fbcdn.net/v/t1.0-0/s130x130/22279714_131097777638697_1268744604854149734_n.jpg?oh=a125147846111a98964a037450965889&oe=5A48F3C7",
+    "Location": "",
+    "Link": "https://www.facebook.com/example.php?fbid=131097777638697&set=a.131097760972032.1073741825.100022154272910&type=3",
+    "Description": null,
+    "Height": "525",
+    "Width": "700",
+    "CreatedDate": "10/09/2017 06:18:13",
+    "UpdatedDate": "10/09/2017 06:18:13",
+    "Images": [
+      {
+        "Dimensions": "700x525",
+        "Image": "https://example.xx.fbcdn.net/v/t1.0-9/22279714_131097777638697_1268744604854149734_n.jpg?oh=caadb1cc86f80a371775ec19963a6c24&oe=5A72D95A"
+      },
+      {
+        "Dimensions": "640x480",
+        "Image": "https://example.xx.fbcdn.net/v/t1.0-0/p480x480/22279714_131097777638697_1268744604854149734_n.jpg?oh=f1b88ce32b9ba43134545e30d2319bd4&oe=5A748FE1"
+      },
+      {
+        "Dimensions": "426x320",
+        "Image": "https://example.xx.fbcdn.net/v/t1.0-0/p320x320/22279714_131097777638697_1268744604854149734_n.jpg?oh=c400b6fa22dfbc5e646397fef6b0f8c9&oe=5A7DE0BB"
+      }
+    ]
+}
+}

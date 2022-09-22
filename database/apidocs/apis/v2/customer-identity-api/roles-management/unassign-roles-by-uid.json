@@ -1,0 +1,49 @@
+{
+    "name": "Unassign Roles by UID",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/{uid}/role",
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": {
+        "roles":["role_name"]
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to unassign roles from a user.",
+    "parameters": {
+        "Get Params": [
+          {
+            "name": "apikey",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+          },
+          {
+            "name": "apisecret",
+            "is_required": true,
+            "description": "LoginRadius API Secret"
+          }
+        ],
+        "Template Param": [
+          {
+            "name": "uid",
+            "is_required": true,
+            "description": "User's UID"
+          }
+        ],
+        "Post Param": [
+          {
+            "name": "roles",
+            "is_required": true,
+            "description": "Array of String, which represents the role name"
+          }
+        ]
+    },
+  "outputFormat": {
+    "IsDeleted": true
+  }
+}

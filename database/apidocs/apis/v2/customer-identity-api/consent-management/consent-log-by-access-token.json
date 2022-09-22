@@ -1,0 +1,66 @@
+{
+    "name": "Consent Log by Access Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/consent/logs",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "access_token*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to fetch consent logs.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            }, {
+                "name": "accesstoken",
+                "is_required": true,
+                "description": "The access token received after successfull login "
+            }]
+    },
+        "outputFormat": {
+          "Uid": "b320c*****c74*****e76af2*****c5e",
+          "ConsentLogs": [
+            {
+              "Id": "5d****c1bc****2fb0****ec",
+              "UpdateType": "Default",
+              "CurrentConsentFormsVersions": [
+                {
+                  "Event": "Login",
+                  "Version": 1,
+                  "IsCustom": false
+                },
+                {
+                  "Event": "Register",
+                  "Version": 1,
+                  "IsCustom": false
+                }
+              ],
+              "LoggedOnDate": "2019-09-17T10:30:25.4740000Z",
+              "UserAgent": "GuzzleHttp/6.2.1 curl/7.64.0 PHP/7.3.9",
+              "IP": "103.207.169.211",
+              "Host": "api.loginradius.com",
+              "ConsentLogs": [
+                {
+                  "ConsentId": "email_consent",
+                  "Event": "Subscribe"
+                },
+                {
+                  "ConsentId": "sms_consent",
+                  "Event": "Subscribe"
+                },
+                {
+                  "ConsentId": "marketing_consent",
+                  "Event": "Subscribe"
+                }
+              ]
+            }
+          ]
+        }        
+}

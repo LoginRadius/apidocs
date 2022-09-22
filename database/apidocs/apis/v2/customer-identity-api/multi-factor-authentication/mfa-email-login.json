@@ -1,0 +1,157 @@
+{
+  "name": "MFA Email Login",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/auth/login/2FA",
+  "method": "POST",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "loginurl": "",
+    "verificationurl": "",
+    "emailtemplate": "",
+    "EmailTemplate2FA":"",
+    "fields":"*"
+  },
+  "postparams": {
+  "email": "Email of the user",
+  "password": "Password of the user",
+  "securityanswer": {
+    "db7****8a73e4******bd9****8c20": "Answer"
+},
+"qq_captcha_ticket": "",
+"qq_captcha_randstr": "",
+"g-recaptcha-response ": ""
+},
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API can be used to login by emailid on a Multi-factor authentication enabled LoginRadius site.",
+  "errorcodes" : [
+    "901",
+    "908",
+    "920",
+    "922",
+    "938",
+    "965",
+    "966",
+    "982",
+    "991",
+    "1038",
+    "1071",
+    "1072",
+    "1077",
+    "1091",
+    "1094",
+    "1096",
+    "1097",
+    "1098",
+    "1101",
+    "1123",
+    "1130",
+    "1132",
+    "1148",
+    "1149",
+    "1159",
+    "1183",
+    "1194",
+    "1198",
+    "1220",
+    "1226"
+      ],
+  
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "loginurl",
+        "is_required": false,
+        "description": "Url where the user is logging from"
+      },
+      {
+        "name": "verificationurl",
+        "is_required": false,
+        "description": "Email Verification URL"
+      },
+      {
+        "name": "emailtemplate",
+        "is_required": false,
+        "description": "Verification Email Template Name"
+      },
+      {
+        "name": "EmailTemplate2FA",
+        "is_required": false,
+        "description": "Name of email template for mfa email otp"
+      },
+      {
+        "name": "fields",
+        "is_required": false,
+        "description": "Optional parameter determining fields returned in profile"
+      }
+    ],
+    "Post Params": [
+      {
+        "name": "email",
+        "is_required": true,
+        "description": "Email of the user"
+      }, {
+        "name": "password",
+        "is_required": true,
+        "description": "Password of the user"
+      },
+      {
+        "name": "securityanswer",
+        "is_required": false,
+        "description": "Valid JSON object of Unique Security Question ID and Answer of set Security Question. It is only required for locked accounts when logging in. Details about this feature <a href='/docs/platform-features-overview/user-security/password-management#security-question-during-password-reset-or-account-lockout'>here</a>"
+      },
+  
+      {
+        "name": "g-recaptcha-response",
+        "is_required": false,
+        "description": "It is required for locked accounts when logging in. You need to pass a valid recaptcha value ito the API for login if the account gets locked after continous n number of unsuccessful login attempts( Number of login attempts can be set through user account). Details about this feature <a href='/docs/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>here</a>"
+      },
+      {
+        "name": "qq_captcha_ticket",
+        "is_required": false,
+        "description": "If <a href='/docs/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>CAPTCHA lockout</a> is enabled with QQ, and the user is locked, you must provide the QQ Captcha ticket."
+      },
+      {
+        "name": "qq_captcha_randstr",
+        "is_required": false,
+        "description": "If <a href='/docs/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>CAPTCHA lockout</a> is enabled with QQ, and the user is locked, pass the value of the user's random string retrieved from the QQ captcha."
+      }
+      ]
+  },
+  "outputFormat": {
+    "SecondFactorAuthentication": {
+        "SecondFactorAuthenticationToken": "b1fbbba5-2a5e-41a2-96da-c216df36e6f4",
+        "ExpireIn": "2021-04-06T08:36:53.3005592Z",
+        "QRCode": "http://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=otpauth%3A%2F%2Ftotp%2Fanil1%40mail7.io%3Fsecret%3DHBRWENLDHEZGIMBYHFTDINJSMVRDANDBHE4WINJTMYZTCYZSGFRA%26issuer%3Ddev-aniltest",
+        "ManualEntryCode": "HBRWENLDHEZGIMBYHFTDINJSMVRDANDBHE4WINJTMYZTCYZSGFRA",
+        "IsGoogleAuthenticatorVerified": false,
+        "IsEmailOtpAuthenticatorVerified": false,
+        "IsOTPAuthenticatorVerified": false,
+        "OTPPhoneNo": null,
+        "OTPStatus": null,
+        "Email": [
+            "x**z@e****le.c*m"
+        ],
+        "EmailOTPStatus": {
+            "Email": "x**z@e****e.c*m"
+        },
+        "IsSecurityQuestionAuthenticatorVerified": false,
+        "SecurityQuestions": [
+            {
+                "QuestionId": "<QuestionId>",
+                "Question": "<Question>"
+            }
+        ]
+    },
+  "Profile": null,
+  "access_token": "00000000-0000-0000-0000-000000000000",
+  "expires_in": "0001-01-01T00:00:00"
+}
+}

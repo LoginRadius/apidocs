@@ -1,0 +1,85 @@
+<svg id="ab439b21-d175-4abd-9b07-8ea205ae8a57" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 692.06 540">
+  <defs>
+    <style>
+      .aece30b1-8e98-4c51-99e6-ab3816f5477d {
+        fill: #e3f1f8;
+      }
+
+      .a576f8f8-276b-4822-b7d1-088921b2091a, .ae71ac41-acdf-416a-9e12-629f5102a976, .b0047a0e-3610-4c2e-b3f1-42e7da62ecb4, .bf4c4a88-45ac-4ba6-a6c4-4d78c49fe68c {
+        fill: none;
+        stroke-width: 2px;
+      }
+
+      .ae71ac41-acdf-416a-9e12-629f5102a976, .bf4c4a88-45ac-4ba6-a6c4-4d78c49fe68c {
+        stroke: #09263c;
+      }
+
+      .bf4c4a88-45ac-4ba6-a6c4-4d78c49fe68c {
+        stroke-miterlimit: 10;
+      }
+
+      .b0047a0e-3610-4c2e-b3f1-42e7da62ecb4 {
+        stroke: #e3f1f8;
+      }
+
+      .a576f8f8-276b-4822-b7d1-088921b2091a, .ae71ac41-acdf-416a-9e12-629f5102a976, .b0047a0e-3610-4c2e-b3f1-42e7da62ecb4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .a576f8f8-276b-4822-b7d1-088921b2091a {
+        stroke: #008ecf;
+      }
+    </style>
+  </defs>
+  <circle class="aece30b1-8e98-4c51-99e6-ab3816f5477d" cx="485.47" cy="252.51" r="151.92"/>
+  <circle class="bf4c4a88-45ac-4ba6-a6c4-4d78c49fe68c" cx="533.56" cy="161.52" r="127.15"/>
+  <circle class="bf4c4a88-45ac-4ba6-a6c4-4d78c49fe68c" cx="336.63" cy="411.42" r="94.21"/>
+  <circle class="bf4c4a88-45ac-4ba6-a6c4-4d78c49fe68c" cx="97.35" cy="323.36" r="66"/>
+  <circle class="bf4c4a88-45ac-4ba6-a6c4-4d78c49fe68c" cx="575.69" cy="444.25" r="21.79"/>
+  <circle class="bf4c4a88-45ac-4ba6-a6c4-4d78c49fe68c" cx="150.95" cy="157.47" r="12.4"/>
+  <line class="bf4c4a88-45ac-4ba6-a6c4-4d78c49fe68c" x1="414.3" y1="205.7" x2="159.24" y2="300.39"/>
+  <line class="bf4c4a88-45ac-4ba6-a6c4-4d78c49fe68c" x1="394.95" y1="337.42" x2="454.86" y2="261.39"/>
+  <line class="bf4c4a88-45ac-4ba6-a6c4-4d78c49fe68c" x1="572.48" y1="422.7" x2="552.3" y2="287.3"/>
+  <line class="bf4c4a88-45ac-4ba6-a6c4-4d78c49fe68c" x1="147.11" y1="169.25" x2="117.38" y2="260.46"/>
+  <line class="b0047a0e-3610-4c2e-b3f1-42e7da62ecb4" x1="123.21" y1="66.01" x2="207.05" y2="66.01"/>
+  <line class="a576f8f8-276b-4822-b7d1-088921b2091a" x1="94.86" y1="78.28" x2="191.37" y2="78.28"/>
+  <path id="b98a75dc-5e7a-4564-9425-f4922e6225cb" data-name="Shape 494" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M565,139l-33.6,48.6L506,162.11"/>
+  <path id="e768cd53-34e6-4b51-b34d-a741422a4d9e" data-name="Shape 495" class="a576f8f8-276b-4822-b7d1-088921b2091a" d="M478.76,121v42.52a68.37,68.37,0,0,0,43.57,63.83l5.94,2.31a17.05,17.05,0,0,0,12.3,0l5.94-2.31a68.39,68.39,0,0,0,43.58-63.83V121a8.55,8.55,0,0,0-5-7.82,128.72,128.72,0,0,0-101.42,0A8.54,8.54,0,0,0,478.76,121Z"/>
+  <g id="b1bab194-63f5-4936-bad7-a7b07b7be7e7" data-name="Interface-Essential / TouchID / touch-id-user">
+    <g id="b874f236-0d73-462f-9030-2418c666c5cb" data-name="Group 66">
+      <g id="f7b8e401-05ff-46dc-9c78-59f6c3f0fe88" data-name="touch-id-user">
+        <path id="ec2f5c8e-89f5-46cf-a6e8-9fe012804925" data-name="Shape 352" class="a576f8f8-276b-4822-b7d1-088921b2091a" d="M349,454.4c0-9.87,8.34-17.88,18.62-17.88s18.63,8,18.63,17.88Z"/>
+        <path id="ad1fba42-a484-4bb9-9276-bf77eb61baef" data-name="Shape 353" class="a576f8f8-276b-4822-b7d1-088921b2091a" d="M357.88,416.1a19.49,19.49,0,0,0,21,4.06"/>
+        <path id="f5555892-6c4b-412f-8b57-ed984de8ac63" data-name="Oval 53" class="a576f8f8-276b-4822-b7d1-088921b2091a" d="M367.65,432.55a10.94,10.94,0,1,0-11.38-10.93A11.17,11.17,0,0,0,367.65,432.55Z"/>
+        <path id="fdcc443e-e7ca-45d2-b4b9-d14ac293ec96" data-name="Shape 354" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M365.58,398.77a34.82,34.82,0,0,0-9.49-23.85"/>
+        <path id="a6b4c440-fd2c-4a39-b7c2-14cc10f723ac" data-name="Shape 355" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M291.07,406.71v11.93c0,14.38,9,27.37,22.77,33"/>
+        <path id="ab2fc5ef-6e13-4e17-8e69-599cae77674e" data-name="Shape 356" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M347,367.79a38.64,38.64,0,0,0-36.36-.48,35.67,35.67,0,0,0-19.47,29.47"/>
+        <path id="b3c52c35-3a57-43d6-a1c1-6d23994e233a" data-name="Shape 357" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M318,377.08a25.73,25.73,0,0,1,23.76,1.61,23.64,23.64,0,0,1,11.43,20.08v5.66"/>
+        <path id="a756e232-e64f-4f15-9e8f-f1797e9fc5d8" data-name="Shape 358" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M346.84,434.53a25.55,25.55,0,0,1-27.38,6.38,23.89,23.89,0,0,1-16-22.27V398.77a23.22,23.22,0,0,1,6.32-15.9"/>
+        <path id="e1fb76c7-c2db-4142-99e6-c663fb385326" data-name="Shape 359" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M315.91,418.64a12.43,12.43,0,0,0,24.84,0V398.77a12.43,12.43,0,0,0-24.84,0v11.92"/>
+        <path id="a12434c1-1fb7-4314-a137-b281943d557f" data-name="Shape 360" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M328.33,398.77v11.92"/>
+        <path id="fb776c67-b4b1-482b-be80-eef57eac262d" data-name="Shape 361" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M328.33,418.64v4"/>
+        <path id="f1791f2f-f073-437a-bb94-0c8733d48271" data-name="Shape 362" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M328.33,454.4A38.33,38.33,0,0,0,338.77,453"/>
+      </g>
+    </g>
+  </g>
+  <g id="b5ae2614-3412-4ed1-9b0c-bcd99b156afb" data-name="Internet-Networks-Servers / Worldwide-Web / network-refresh">
+    <g id="edee0b33-c609-4e38-a39d-6af2c897f3c6" data-name="Group 16">
+      <g id="a07ea97d-8fee-42f4-90db-bf96e0266418" data-name="network-refresh">
+        <path id="bafa8959-85a1-483e-92c5-c8a9ce9e8bd3" data-name="Shape 121" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M69.32,338.34h32.89"/>
+        <path id="bd89e8cb-5e36-410d-ba61-a2b9fc60c24a" data-name="Shape 122" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M71,305.63h51.74"/>
+        <path id="a1da2bd7-2ef0-4e76-82ca-f1d85a51134d" data-name="Shape 123" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M118.65,322H65.54"/>
+        <path id="b44660f3-176a-43eb-a044-0696085d7b98" data-name="Shape 124" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M77.44,348a31.34,31.34,0,1,1,50.32-30"/>
+        <path id="a37800b7-2536-4788-adea-11478faf3c23" data-name="Shape 125" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M94.86,292.08c-13.66,14.8-15.7,33.32-6.46,51.73"/>
+        <path id="ad858e1d-287b-4996-93c0-751a035a5fea" data-name="Shape 126" class="ae71ac41-acdf-416a-9e12-629f5102a976" d="M98.84,292.08A42.75,42.75,0,0,1,111,322"/>
+        <path id="ec95cd49-e2c7-433b-8d39-5a506c91c686" data-name="Shape 127" class="a576f8f8-276b-4822-b7d1-088921b2091a" d="M110.48,334.25l13.62-8.18,4.09,15"/>
+        <path id="a0dc1039-3206-417d-bafe-91ff8bcfbdfe" data-name="Shape 128" class="a576f8f8-276b-4822-b7d1-088921b2091a" d="M123.62,326.37A34.07,34.07,0,0,1,90,354.69"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <path id="a91fd656-61ab-4652-834f-ddf13f567342" data-name="Shape 506" class="b0047a0e-3610-4c2e-b3f1-42e7da62ecb4" d="M294,100.77h-5.86L275.4,113.52a11.72,11.72,0,1,0,5.86,5.86L294,106.62Z"/>
+    <path id="ad807e41-5cc8-4e1d-ab40-9cf2211edf82" data-name="Oval 26" class="b0047a0e-3610-4c2e-b3f1-42e7da62ecb4" d="M270.58,127.86a3.66,3.66,0,1,0-3.67-3.66A3.66,3.66,0,0,0,270.58,127.86Z"/>
+  </g>
+</svg>

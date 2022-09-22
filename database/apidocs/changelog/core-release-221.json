@@ -1,0 +1,32 @@
+{
+  "name": "LoginRadius API Core Release V22.1.0",
+  "description": "We have just launched the LoginRadius API V2 Core Release 22.1. We have introduced great new features that allow you to customize further your Login flows.",
+  "changelog": {
+  "ADDED": [
+      {
+        "text": "One Touch Login Captcha Support: We have added two new endpoints allowing you to use a Captcha service with the One Touch Login APIs for phone and email."
+      },
+      {
+        "text": "Custom Registration Data API: You can now delete records by datasource via the new Delete All Records by Datasource endpoint."
+      },
+	    {
+        "text": "New 'IsRequiredFieldsFilledOnce' Profile Field:  We have added a new field to the LoginRadius Customer Profile called 'IsRequiredFieldsFilledOnce'. This field is used to indicate if a customer has filled the required fields at least once."
+      },
+            {
+        "text": "Revoke Refresh Token: Our new Revoke Refresh Token API allows you to revoke a provided 'refresh_token'."
+      },
+      {
+        "text": "Refresh Access Token by Refresh Token: We have added a Refresh Access Token by Refresh Token endpoint to facilitate refreshing a given LoginRadius 'access_token'."
+      },
+      {
+        "text": "Added Auth Access Token Info: Our new Auth Access Token Info API endpoint gives you information on the 'access_token', namely the provider that was used to obtain it and whether Remember Me was selected by the customer."
+      },
+      {
+        "text": "Account Update: The Account Update API now supports setting custom fields as `null`."
+      }
+  ]
+    },
+  "auther": "Pascal",
+  "created_date": "2018-8-27",
+  "status": "public"
+}

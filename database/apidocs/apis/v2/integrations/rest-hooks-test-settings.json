@@ -1,0 +1,27 @@
+{
+    "name": "RestHooks Test Settings",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/resthook/test",
+    "method": "GET",
+    "getparams": {
+        "api_key*": "@apikey@",
+        "api_secret*": "@secret@"
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "Test RestHooks settings on your LoginRadius site.",
+    "parameters": {
+        "Get Params": [{
+            "name": "api_key",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+        }, {
+            "name": "api_secret",
+            "is_required": true,
+            "description": "LoginRadius API Secret"
+        }]
+    }
+}

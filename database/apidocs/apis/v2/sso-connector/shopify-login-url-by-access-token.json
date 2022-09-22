@@ -1,0 +1,57 @@
+{
+  "name": "Shopify Login URL by Access Token",
+  "domain": "https://cloud-api.loginradius.com",
+  "path": "/sso/shopify/api/token",
+  "method": "GET",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "access_token*": "",
+    "store*": "",
+    "password":"",
+    "return_url": "",
+    "callback": ""
+  },
+  "headers": {
+    "content-Type": "application/x-www-form-urlencoded"
+  },
+  "response": "json",
+  "description": "This API is used to get the Shopify Login URL by access token.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "access_token",
+        "is_required": true,
+        "description": "LoginRadius User Access Token"
+      },
+      {
+        "name": "store",
+        "is_required": true,
+        "description": "Store Name"
+      },
+      {
+        "name": "password",
+        "is_required": false,
+        "description": "Shopify password for new user"
+      },
+      {
+        "name": "return_url",
+        "is_required": false,
+        "description": "After login page URL"
+      },
+      {
+        "name": "callback",
+        "is_required": false,
+        "description": "JSONP callback function name"
+      }
+
+    ]
+  },
+  "outputFormat": {
+    "loginUrl": "https://store-dummy.mybigcommerce.com/login/token/eyJh*****iJIUzI1********cCI6I*****J9.eyJpc3MiOiJxd*****c3ODc1******k1N2toZjVkcTd*******RkIiwic3RvcmVfaGFzaCI6Iml5a3*********LCJvcGVyYXRpb24iOiJj*******lcl9sb2dpbiIsIml********zMTgxODU5NSwianRpIjoiMmM2ZDc4ZTgtNTJiMi00YWE2LWI2ZWItODFi*********DdhIiwiY3VzdG9tZXJfaWQ********icmVkaXJlY3RfdG8iOiIva2l0Y2hlbiJ9.EW6n********lcxISNcm22PwLclWaaGtF-PvLbfpt7k"
+  }
+}

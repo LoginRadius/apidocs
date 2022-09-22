@@ -1,0 +1,13 @@
+{
+    "name": "Cloud Configuration API Release 4.1.0",
+    "description": "This release of the Cloud Configuration API brings you a bug fix, see below for details on the more notable changes applied to the Cloud Configuration API.",
+    "changelog": {
+        "FIXED": [{
+                "text": "Fixed a bug where in some cases even after disabling the Apple Sign In from the Social provider settings, this would still be shown on the Identity Experience Framework’s Auth page. "
+            }
+        ]
+    },
+    "auther": "Abhishek Singh",
+    "created_date": "2020-09-16",
+    "status": "public"
+}

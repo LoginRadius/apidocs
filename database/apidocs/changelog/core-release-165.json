@@ -1,0 +1,26 @@
+{
+  "name": "LoginRadius API Core Release V16.5",
+  "description": "This new release of the LoginRadius API, brings new additions, with many focusing on user roles. Please see below for more details:",
+  "changelog": {
+  "ADDED": [
+      {
+        "text": "Context-based Roles and Permissions Management: You can now provide context (a grouping) to your existing roles and depending on the context you can also add additional permissions to each role. A new set of API calls have been added for this purpose."
+      },
+      {
+        "text": "Verified and Unverified Email Fields: If an emailid is unverified then it will be saved in the 'UnverifiedEmail' list. When it becomes verified, this emailid will be removed from the 'UnverifiedEmail' list and be moved to the 'Verified' list."
+      },
+      {
+        "text": "Email Prompt Auto Login: This allows you to have a special workflow where the user provides a username/emailid and gets sent a link via email using the provided username/emailid, where the user can click the link on any device, the user then gets logged at the same place where they entered their username/emailid for login."
+      },
+      {
+        "text": "Disable JS Interface Debugging: For the following LoginRadius JS Interfaces LoginRadiusSSO.js and LoginRadius.1.0.js you can now use the DebugMode parameter to turn on or off debugging in your Web Console."
+      },
+      {
+        "text": "Get Basic Server Information: We have introduced a new API Call to retrieve the current server information."
+      }]
+
+    },
+  "auther": "Pascal",
+  "created_date": "2017-05-08",
+  "status": "public"
+}

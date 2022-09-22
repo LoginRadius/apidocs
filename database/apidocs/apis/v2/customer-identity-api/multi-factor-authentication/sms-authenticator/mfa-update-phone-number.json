@@ -1,0 +1,49 @@
+{
+  "name": "MFA Update Phone Number",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/auth/login/2FA",
+  "method": "PUT",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "secondfactorauthenticationtoken*": "",
+    "smstemplate2fa": ""
+  },
+  "postparams": {
+    "phoneno2fa": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API is used to update (if configured) the phone number used for Multi-factor authentication by sending the verification OTP to the provided phone number.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "secondfactorauthenticationtoken",
+        "is_required": true,
+        "description": "A Uniquely generated MFA identifier token after successful authentication."
+      },
+      {
+        "name": "smstemplate2fa",
+        "is_required": false,
+        "description": "SMS Template Name"
+      }
+    ],
+    "Post Params": [
+      {
+        "name": "phoneno2fa",
+        "is_required": true,
+        "description": "The Phone Number to be Updated"
+      }
+    ]
+  },
+  "outputFormat": {
+  "AccountSid": "XXXXXXXXXXXXXXXXXXXXX",
+  "Sid": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+}
+}

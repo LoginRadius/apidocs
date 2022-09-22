@@ -1,0 +1,62 @@
+{
+    "name": "Get User Insights",
+    "domain": "https://cloud-api.loginradius.com",
+    "path": "/insights/userprofiles",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": {
+        "from": "yyyy-mm-dd",
+        "to": "yyyy-mm-dd",
+        "q": {}
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API allows you to query your LoginRadius Cloud Directory.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API secret or LoginRadius API Secondary secret with <b> Analytics API permission enabled</b>"
+            }
+        ],
+        "Post Params": [
+            {
+                "name": "from",
+                "is_required": true,
+                "description": "The start date for the records you would like to retrieve yyyy-mm-dd"
+            },
+            {
+                "name": "to",
+                "is_required": true,
+                "description": "The end data for the records you would like to retrive yyyy-mm-dd"
+            },
+            {
+                "name": "q",
+                "is_required": true,
+                "description": "The query that you would like to pull data on details on query format can be found <a href='/docs/api/v2/cloud-directory-api/insights/overview#formattingyourinsightsqueries0'>here</a>"
+            }
+        ]
+    },
+    "outputFormat": {
+        "total": 403,
+        "aggregations": {
+            "userperyear": {
+                "RAAS": 370,
+                "google": 24,
+                "twitter": 6,
+                "facebook": 3
+            }
+        }
+    }
+}

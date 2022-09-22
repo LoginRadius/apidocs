@@ -1,0 +1,13 @@
+{
+    "name": "Admin Console Release 25.6.0",
+        "description": "This release of the Admin Console brings you new features. See below for details on some of the more notable changes applied to the Admin Console.",
+        "changelog": {
+          "ADDED": [
+            {
+              "text": " Now we are supporting Mailazy in SMTP providers under the Admin Console."
+            }        
+          ]},
+      "auther": "Vaibhav Jain",
+      "created_date": "2022-04-19",
+      "status": "public"
+      }

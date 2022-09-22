@@ -1,0 +1,7 @@
+{
+    "name": "authantication-system",
+    "discription":"Authantication System",
+    "weight": "1",
+    "isActive": true,
+    "load": "authantication-system/authantication-system.php"
+}

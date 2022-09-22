@@ -1,0 +1,24 @@
+{ "name": "Admin Console Release 25.4.0",
+    "description":"This release of the Admin Console brings you new features and improvements. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "JSON Sample is visible in UI at the time of data mapping under JWT configuration in Admin Console."
+            },
+            {
+                "text": "Added search box to quickly find any feature/section in the Admin Console."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "Option to search Profile Key field has been added in Data Mapping for JWT configuration UI."
+            },
+            {
+                "text": "The consumer’s login activity is shown as per user’s configured Time Zone in the Admin Console."
+            }
+        ]},
+
+    "auther": "Pratik Kumar Jha",
+    "created_date": "2022-02-11",
+    "status": "public"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Resthooks Subscribed URLs",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/resthook/subscription",
+    "method": "GET",
+    "getparams": {
+        "api_key*": "@apikey@",
+        "api_secret*": "@secret@",
+        "event*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API retrieves all of the Urls subscribed to a given RESTHook event.",
+    "parameters": {
+        "Get Params": [{
+            "name": "api_key",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+        }, {
+            "name": "api_secret",
+            "is_required": true,
+            "description": "LoginRadius API Secret"
+        }, {
+            "name": "event",
+            "is_required": true,
+            "description": "The event the URL is subscribed to. i.e. login, register."
+        }]
+    }
+}

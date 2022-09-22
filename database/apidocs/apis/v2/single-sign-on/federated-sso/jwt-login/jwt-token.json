@@ -1,0 +1,48 @@
+{
+  "name": "JWT token by Access Token",
+  "domain": "",
+  "path": "https://{siteurl}/api/jwt/{jwtappname}/token",
+  "method": "GET",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "access_token*": ""
+  },
+  "templateparams": {
+    "siteurl*": "",
+    "jwtappname*": ""
+  },
+  "headers": {
+    "content-Type": "application/x-www-form-urlencoded"
+  },
+  "response": "json",
+  "description": "This API is used to get a JWT token by access token. <br><br> <b>Note:</b> Above is the recent version of JWT API endpoint. If you are still working with the old JWT API endpoint which would be depricated soon, then refer to <a href='/docs/api/v2/single-sign-on/federated-sso/jwt-login/v1.4.0/jwt-token/' style='color: #008ecf;'>JWT Token by Access Token</a> API.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "access_token",
+        "is_required": true,
+        "description": "Token generated from a successful oauth from social platform"
+      }
+    ],
+    "Template Params": [
+      {
+          "name": "siteurl",
+          "is_required": true,
+          "description": "This field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of site URL"
+      },
+      {
+        "name": "jwtappname",
+        "is_required": true,
+        "description": "JWT App Name"
+      }
+    ]
+  },
+  "outputFormat": {
+    "signature": "eyJhbG**********4NiIsInR5cCI*****VCJ9.eyJpc3**********czy****udGVybmFsL"
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Access Token Invalidate",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/access_token/InValidate",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "preventRefresh": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded",
+	    "Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API call invalidates the active access_token or expires an access token's validity.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            }, {
+                "name": "preventRefresh",
+                "is_required": false,
+                "description": "Boolean value that when set as true, in addition of the access_token being invalidated, it will no longer have the capability of being refreshed."
+            }],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access_token)"
+            }]	
+    },
+        "outputFormat": {
+            "IsPosted": true
+        }
+}

@@ -1,0 +1,54 @@
+{
+    "name": "Revoke Access Token",
+    "domain": "",
+    "path": "https://{siteurl}/service/oauth/revoke",
+    "method": "POST",
+    "getparams": {
+        
+    },
+    "templateparams": {
+    },
+    "postparams": {
+        "token": "",
+        "client_id": "",
+        "client_secret": "",
+        "token_type_hint":"access_token"
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to revoke the accees token. Kindly note: if you are using Custom Domain please use the Custom Domain URL in siteurl",
+    "parameters": {
+        
+        "Post Params": [
+
+            {
+                "name": "Access Token",
+                "is_required": true,
+                "description": "Access token generated from client credential flow"
+            },
+            {
+                "name": "ClientID",
+                "is_required": true,
+                "description": "Machine to Machine App client ID"
+            },
+            {
+                "name": "Client Secret",
+                "is_required": true,
+                "description": "Machine to Machine App client Secret"
+            }
+        ],
+
+        "Template Params": [
+            {
+                "name": "siteurl",
+                "is_required": true,
+                "description": "This field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of site URL"
+            }
+        ]
+    },
+    "outputFormat": {
+
+    }
+}

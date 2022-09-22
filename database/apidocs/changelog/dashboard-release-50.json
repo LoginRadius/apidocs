@@ -1,0 +1,25 @@
+{
+  "name": "Admin-console release 5.0",
+  "description": "This release introduces improvements and updates in the Admin Console's content to facilitate usability.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Account Details: You now have the ability to pull recent details on your users from the Admin Console"
+      },
+      {
+        "text": "Ionic and Xamarin: Ionic and Xamarin SDK added to our Mobile SDK area to help developers"
+      }
+    ],
+    "IMPROVED": [
+      {
+        "text": "Amazon SES: Amazon SES has now been added as selecteable SMTP Provider in our SMTP providers list"
+      },
+      {
+        "text": "Social Provider Installation Steps Update: Our Built-in step by step guide for setting up social providers has been updated to contain the latest steps from the providers"
+      }
+    ]
+  },
+  "auther": "Pascal",
+  "created_date": "2016-12-1",
+  "status": "public"
+}

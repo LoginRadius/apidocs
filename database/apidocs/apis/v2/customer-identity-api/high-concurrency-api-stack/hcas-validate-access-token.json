@@ -1,0 +1,33 @@
+{
+    "name": "High Concurrency API Stack Validate Access Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/hpa/v1/auth/token/validate",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "access_token*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to validate the access token.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }
+        ]	
+    },
+        "outputFormat": {
+            "access_token": "f78d7139-****-419a-****-42afc553fd18",
+            "expires_in": "2017-08-02T21:12:53.469Z"
+        }
+}

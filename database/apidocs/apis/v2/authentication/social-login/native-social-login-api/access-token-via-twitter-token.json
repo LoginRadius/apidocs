@@ -1,0 +1,36 @@
+{
+    "name": "Access Token via Twitter Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/access_token/twitter",
+    "method": "GET",
+    "getparams": {
+        "key*": "@apikey@",
+        "tw_access_token*": "",
+        "tw_token_secret*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "The API is used to get LoginRadius access token by sending Twitter’s access token. It will be valid for the specific duration of time specified in the response.",
+    "parameters": {
+        "Get Params": [{
+            "name": "key",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+        }, {
+            "name": "tw_access_token",
+            "is_required": true,
+            "description": "Twitter Access Token"
+        }, {
+            "name": "tw_token_secret",
+            "is_required": true,
+            "description": "Twitter Token Secret"
+        }]
+    },
+    "outputFormat":{
+  "access_token": "********-****-****-****-************",
+  "expires_in": "2017-11-30T01:28:56.2681775Z"
+}
+}

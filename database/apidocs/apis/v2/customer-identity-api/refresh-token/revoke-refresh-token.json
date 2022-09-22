@@ -1,0 +1,35 @@
+{
+    "name": "Revoke Refresh Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/access_token/refresh/revoke",
+    "method": "GET",
+    "getparams": {
+        "refresh_token*": "",
+        "apikey*": "@secret@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "The Revoke Refresh Access Token API is used to revoke a refresh token or the Provider Access Token, revoking an existing refresh token will invalidate the refresh token but the associated access token will work until the expiry.",
+    "parameters": {
+        "Get Params": [{
+            "name": "refresh_token",
+            "is_required": true,
+            "description": "the refresh_token to be revoked."
+        },{
+            "name": "apiKey",
+            "is_required": true,
+            "description": "LoginRadius API Key."
+        },
+        {
+            "name": "apiSecret",
+            "is_required": true,
+            "description": "LoginRadius API Secret."
+        }]
+    },
+"outputFormat":{
+ "IsDeleted" : true
+}}

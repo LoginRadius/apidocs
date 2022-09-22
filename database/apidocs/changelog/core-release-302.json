@@ -1,0 +1,14 @@
+{
+    "name": "Core Release 30.2.0",
+    "description": "We have released another version of the core release! This core release brings a new API for <strong> Link Social Identities </strong>.",
+    "changelog": {
+    "ADDED": [
+         {
+            "text": "Added New <a href='/docs/api/v2/customer-identity-api/authentication/auth_link_social_identities_clientguid/'> <strong> Auth Link Social Identities by ClientGuid </strong> </a> API is added. This API is used to link a social provider identity with an existing LoginRadius account." 
+         }
+            ]
+                },
+    "auther": "Keshav",
+    "created_date": "2020-07-23",
+    "status": "public"
+  }

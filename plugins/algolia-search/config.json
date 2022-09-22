@@ -1,0 +1,7 @@
+{
+    "name": "Algolia Search",
+    "discription":"Algolia Search d2scription",
+    "weight": "1",
+    "isActive": true,
+    "load": "algolia-search/search.php"
+}

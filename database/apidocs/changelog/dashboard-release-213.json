@@ -1,0 +1,29 @@
+{
+  "name": "Admin-console Release 21.3",
+  "description": "Level up your identity game with this new Admin Console release, this new release introduces new ways to access your customer identites via the Admin Console, see below for details.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Added field counts for Segmentation & Data Query: All of the aggregated keyword fields such as Provider, Country etc. now show the matching profile count in the query builder itself. "
+      },
+      {
+        "text": "Added reset button for Segmentation & Data Query: A Reset button has been added to the Customer Segmentation & Data Query sections along-side a Filter button which resets both queries and displays filtered data."
+      },
+      {
+        "text": "Added new Search option in Segmentation & Data query: A search box is now prepended to fields listed in the query builder under Customer Segmentation & Data Query sections to facilitate searching your data."
+      }
+    ],
+    "IMPROVED": [
+      {
+        "text": "Your Timezone in Customer Insights: All the sections in customer insights now display data/charts/heat maps in accordance with your configured timezone."
+      },
+      {
+        "text": "Bot Protection: Added new area under the Auth Security section.  By enabling this option you can enforce your customers to pass reCAPTCHA in the listed Auth APIs."
+      }
+    ]
+  },
+
+  "auther": "Pascal",
+  "created_date": "2019-02-08",
+  "status": "public"
+}

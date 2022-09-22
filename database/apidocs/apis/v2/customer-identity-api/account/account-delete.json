@@ -1,0 +1,40 @@
+{
+    "name": "Account Delete",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/{uid}", 
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API deletes the Users account and allows them to re-register for a new account.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ],
+        "Template Params": [
+            {
+                "name": "uid",
+                "is_required": true,
+                "description": "UID, the unified identifier for each user account"
+            }
+        ]
+    },
+    "outputFormat": {
+        "IsDeleted": true
+    }
+}

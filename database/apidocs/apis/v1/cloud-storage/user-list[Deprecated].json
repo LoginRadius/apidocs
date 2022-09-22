@@ -1,0 +1,69 @@
+{
+    "name": "Identity [User List][Deprecated]",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/identity",
+    "method": "POST",
+    "getparams": {
+        "key*": "@apikey@",
+        "secret*": "@secret@"
+    },
+    "postparams": {
+        "select": "Provider,FirstName",
+        "from": "users",
+        "where": "Provider=facebook",
+        "orderby": "",
+        "skip": "",
+        "limit": ""
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API allows you to query your LoginRadius Cloud Directory and retrieve up to 20 user records.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "api_key",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "api_secret",
+                "is_required": true,
+                "description": "LoginRadius API secret"
+            }
+        ],
+        "Post Params": [
+            {
+                "name": "Select",
+                "is_required": true,
+                "description": "Fields included in the Query - defaults to all fields"
+            },
+            {
+                "name": "From",
+                "is_required": true,
+                "description": "LoginRadius Table that details are being retrieved from, for now users only supported by this API."
+            },
+            {
+                "name": "Where",
+                "is_required": true,
+                "description": "Filter for data based on condition.."
+            },
+            {
+                "name": "OrderBy",
+                "is_required": true,
+                "description": "Determines ascending order of returned data."
+            },
+            {
+                "name": "Skip",
+                "is_required": true,
+                "description": "Ignores the specified amount of values used to page through responses, value must be positive and default value is 0."
+            },
+            {
+                "name": "Limit",
+                "is_required": true,
+                "description": "Determines size of dataset returned. default value is 20 and max value is 20."
+            }
+        ]
+    }
+}

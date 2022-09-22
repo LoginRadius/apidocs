@@ -1,0 +1,27 @@
+{
+    "name": "Core Release 11.5",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "New SSO and Raas JS methods : LoginradiusRaaS.sessionData.getUid(); LoginradiusRaaS.sessionData.getToken();"
+            },{
+                "text": "DB name customization for localized db"
+            },{
+                "text": "Remember me option on login"
+            },{
+                "text": "foursquare api version upgrade"
+            },{
+                "text": "New Hook added for set attributes on form fields"
+            },{
+                "text": "New Hook added for set validation riles"
+            },{
+                "text": "Delete User using Account Id API"
+            }],
+        "FIXED":[{
+            "text":"Required fields updated and users not being prompted"
+            }]
+    },
+    "auther": "Deepak Gupta",
+    "created_date": "2016-1-1",
+    "status": "public"
+}

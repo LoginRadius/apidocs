@@ -1,0 +1,22 @@
+{
+    "name": "Core Release 6.0",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "RaaS custom fields in Js registration form added"
+            }, {
+                "text": "Zapier implemented"
+            }, {
+                "text": "Get fields of Userprofile API : added API signature to userprofile API section"
+            }, {
+                "text": "Xing and Mail.ru social ID provider addded"
+            }, {
+                "text": "New social login interface option added"
+            }, {
+                "text": "New user profile fields addeds: GravatarImageUrl, ProfileImageUrls, WebProfiles"
+            }]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2014-9-1",
+    "status": "public"
+}

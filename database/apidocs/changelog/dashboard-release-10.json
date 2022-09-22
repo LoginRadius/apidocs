@@ -1,0 +1,44 @@
+{
+  "name": "Admin-console release 1.0",
+  "description": "We have released a new user account Admin Console!<br>LoginRadius User account will work as the center for :<br>a)LoginRadius site settings to be managed by Customer<br>b)Accessing Analytics, User Management and User Profile for Customer<br>c)managing all billing and account details for the customer<br><a href=\"https://www.loginradius.com/updates/new-and-improved-loginradius-Admin-console\">https://www.loginradius.com/updates/new-and-improved-loginradius-Admin-console</a>",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Intuitive UI and UX"
+      },
+      {
+        "text": "LoginRadius Site Configuration and whitelisting"
+      },
+      {
+        "text": "LoginRadius site key metric charts"
+      },
+      {
+        "text": "LoginRadius site Top stats"
+      },
+      {
+        "text": "Managed deployment settings, social login settings, user registration,SMTP settings and deployment settings"
+      },
+      {
+        "text": "Manage support tickets"
+      },
+      {
+        "text": "Ability to configure SSO settings in the Admin-console"
+      },
+      {
+        "text": "Hosted Registration Options in Admin Console"
+      },
+      {
+        "text": "Allow selecting custom fields in the Admin-console"
+      },
+      {
+        "text": "Ability to configure Social Login widgets, Hybrid sharing widget and Friend invite widget"
+      },
+      {
+        "text": "Ability to configure teams, account settings and billing settings"
+      }
+    ]
+  },
+  "auther": "Ashrujit Bhattacharya",
+  "created_date": "2016-6-1",
+  "status": "public"
+}

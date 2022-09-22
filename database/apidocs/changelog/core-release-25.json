@@ -1,0 +1,19 @@
+{
+    "name": "Core Release 2.5",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "Custom permission scopes lr_basic, lr_extended, lr_read_contact, lr_read_status, lr_write_status, lr_read_event, lr_read_groups, lr_read_posts, lr_read_followcompanies, lr_write_message"
+            }, {
+                "text": "Implemented Klout score in the platform"
+            }, {
+                "text": "Error page message formatting"
+            }],
+        "FIXED": [{
+                "text": "JS interface console error in IE8"
+            }]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2013-8-1",
+    "status": "public"
+}

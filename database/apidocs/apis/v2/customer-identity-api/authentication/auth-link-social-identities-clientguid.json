@@ -1,0 +1,39 @@
+{
+    "name": "Auth Link Social Identities by ClientGuid",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/socialIdentity/ping",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@"
+    },
+    "postparams": {
+        "clientGuid": "xxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "headers": {
+        "content-Type": "application/json",
+		"Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to link up a social provider account with an existing LoginRadius account on the basis of access token and the social providers user access token.<br><br> <b>Note</b>: No Callback login feature must be enabled for this API.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            }],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (The user's access token that being checked for info)"
+            }],		
+        "Post Parameters": [{
+                "name": "clientGuid",
+                "is_required": true,
+                "description": "Unique string used in the no callback social Login request"
+            }
+        ]
+    },
+    "outputFormat": {
+        "IsPosted": true
+    }
+}

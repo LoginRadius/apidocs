@@ -1,0 +1,22 @@
+
+{
+    "name": "Core Release 30.6.0",
+    "description": "This release brings a bug fix to our LoginRadius Core API , please see below for details:.",
+    "changelog":
+   {
+    "FIXED": 
+    [
+        
+        {
+          "text": "Apple sign-in through ICloud connected macOS and iOS devices now correctly returns UserName and EmailId."
+        },
+        {
+          "text": "Native social login APIs will return the consent token." 
+        }
+    
+    ]
+    },
+    "auther": "Vaibhav Jain",
+    "created_date": "2020-10-26",
+    "status": "public"
+  }

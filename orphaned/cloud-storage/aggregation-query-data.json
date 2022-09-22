@@ -1,0 +1,57 @@
+{
+    "name": "Aggregation Query Data",
+    "domain": "http://api.loginradius.com",
+    "path": "/api/v2/insights",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@",
+        "from*": "",
+        "to*": ""
+    },
+    "postparams": {
+        "firstDatapoint": "",
+        "statsType": ""
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to query the aggregation data from your LoginRadius .",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "Login Radius API Secret"
+            },
+            {
+                "name": "from",
+                "is_required": true,
+                "description": "Start Date"
+            },
+            {
+                "name": "to",
+                "is_required": true,
+                "description": "End Date"
+            }
+        ],
+        "Post Params": [
+            {
+                "name": "firstDatapoint",
+                "is_required": true,
+                "description": "Type of users should apply to: None, browser, device, os, country, city, provider, emailType, ageGroup, day, month, hour, gender, relationshipStatus, followersCount, friendsCount"
+            },
+            {
+                "name": "statsType",
+                "is_required": true,
+                "description": "Aggregation Field: NewUser, ActiveUser, TotalUser, Login"
+            }
+        ]
+    }
+}

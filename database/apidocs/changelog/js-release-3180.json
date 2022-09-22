@@ -1,0 +1,24 @@
+{
+    "name": "JS Release 3.18.0",
+    "description": "This JavaScript release brings new features to our LoginRadius V2JS library, please see below for details:",
+    
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "LoginRadius V2 JS now supports the LoginOnPasswordReset feature."
+            },
+
+            {
+                "text": "Added the feature of sending RBA email alerts on unusual customer behavior in MFA flows in LoginRadius V2JS."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "Added error handling for loading IDX in an iframe in Google Chrome’s private mode."
+            }
+        ]
+    },
+    "auther": "Ashish Kumar Yadav",
+    "created_date": "2021-07-20",
+    "status": "public"
+}

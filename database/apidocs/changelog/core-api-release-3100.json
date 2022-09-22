@@ -1,0 +1,27 @@
+{
+    "name": "Core API Release 31.0.0",
+    "description": "This release brings you an enhancement and some bug fixes to our LoginRadius Core API, please see below for details:",
+    "changelog":
+   {
+    "FIXED": 
+    [
+        
+        {
+          "text": "In case of optional and disable email flow,  restricting the manual linking of profiles having unverified email."
+        },
+        {
+          "text": "Special characters are allowed in the password field for the change password API." 
+        }
+    
+    ],
+    "Added":
+    [
+        {
+            "text": "Introduce Email OTP as a new authenticator in MFA and ReAuthentication Flow."
+        }
+    ]
+    },
+    "auther": "Vaibhav Jain",
+    "created_date": "2021-05-07",
+    "status": "public"
+  }

@@ -1,0 +1,38 @@
+{
+    "name": "Core Release 13.0",
+    "description": "We are pleased to announce the release of a new version of our platform API, This release includes several important features such as:<br>A) Webhook support, allowing to subscribe and receive data from anyone of the following hooks:<br>Login, Register, UpdateProfile, ResetPassword, ChangePassword, EmailVerification, AddEmail,<br>RemoveEmail, BlockAccount, DeleteAccount, SetUsername, CreateTraditionalAccount, AssignRoles, UnassignRoles, SetPassword, LinkAccount, UnlinkAccount, UpdatePhoneId, VerifyPhoneNumber<br>B) One-time passcode (OTP) allowing the use of texting a user's phone for Authentication.<br>C) Two-Factor Authentication that requires not only a password and username but also a physical token (i.e. One-time code)",
+    "changelog": {
+        "ADDED": [{
+                "text": "Webhooks: Allows you to subscribe to a predefined webhook and get a notification with data on the specified hook"
+            }, {
+                "text": "Two-Factor Authentication Feature (2FA/TFA): multi-factor authentication that requires not only a password and username but also a physical token (i.e. One-time code)"
+            }, {
+                "text": "Security Question Feature: Configurable security questions for the account recovery and security"
+            }, {
+                "text": "One-time passcode Feature (OTP): send a One-time passcode via SMS and once the user logs in then they would ask to reset the password. A user can log in without entering password"
+            }, {
+                "text": "Landing form submission API: easily capture customer data from a landing page"
+            }, {
+                "text": "Open API: Ability to delegate the user login functionality to a 3rd party provider and allows your users to login to LoginRadius"
+            }, {
+                "text": "Language customization: more flexibility with the user registration form for localizations"
+            }],
+        "IMPROVED": [{
+                "text": "Support for PBKDF2 hashing algorithm"
+            }, {
+                "text": "SignupDate and LastLoginDate profile data fields added to user profile"
+            }, {
+                "text": "Vkontakte OAuth APIs has been updated with most recent version"
+            }, {
+                "text": "Custom Fields supportability extended to 15"
+            }],
+        "FIXED": [{
+                "text": "Facebook OAuth 2.8 version support"
+            }, {
+                "text": "Updating the first or last name of a user profile will also update the full name"
+            }]
+    },
+    "auther": "Pascal",
+    "created_date": "2016-11-1",
+    "status": "public"
+}

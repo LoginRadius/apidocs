@@ -1,0 +1,14 @@
+{
+    "name": "JS Release 3.13.0",
+    "description": "This JavaScript Release brings a bug fix of Consent Form please see below for details.",
+    "changelog": {
+        "FIXED": [
+            {
+                "text": "Consent Form is now correctly displayed during Social Login on the IDX auth page."
+            }
+        ]
+    },
+    "auther": "Swati",
+    "created_date": "2020-08-05",
+    "status": "public"
+}

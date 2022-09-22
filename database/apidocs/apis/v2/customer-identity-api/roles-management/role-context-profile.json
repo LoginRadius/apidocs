@@ -1,0 +1,62 @@
+{
+    "name": "Role Context profile",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/roleContext/{contextName}",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "The API is used to retrieve role context by the context name.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ],
+        "Template Params": [
+             {
+                "name": "context",
+                "is_required": true,
+                "description": "Name of context"
+            }
+        ]
+    },
+    "outputFormat": {
+       "Data": [
+        {
+            "RoleContext": {
+                "Roles": [
+                    "Marketing"
+                ],
+                "AdditionalPermissions": [
+                    "ApiAccess"
+                ],
+                "Expiration": null
+            },
+            "Uid": "29b1bf77a7exxxxxxxxxxxx002699f38ab",
+            "LastLoginDate": "2018-12-21T10:06:04.9690000Z",
+            "FullName": "Lucile Turner",
+            "Email": [
+                {
+                    "Type": "Primary",
+                    "Value": "lucile.turner@example.com"
+                }
+            ],
+            "ImageUrl": "https://lh3.googleusercontent.com/-Y_J3VCQOgrI/AAAAAAAAAAI/AAAAAAAAAAA/IgpyZta5ccw/photo.jpg"
+        }
+    ]
+    }
+}

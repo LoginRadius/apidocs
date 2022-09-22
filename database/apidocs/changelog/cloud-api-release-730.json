@@ -1,0 +1,21 @@
+{
+    "name": "Cloud API Release 7.3.0",
+    "description": "This release of the Cloud SSO Federation API brings you some improvement and enhancement, see below for details on the more notable changes applied to the Cloud SSO Federation API.",
+    "changelog": {
+
+
+        "ADDED": [
+            {
+              "text": "Added support for sending access_token in a post request in the federated OIDC/OAuth/JWT workflows."
+            }
+          ],
+          "IMPROVED": [
+            {
+              "text": "Fixed JWT Redirection flow for forgot password and register."
+            }
+          ]},
+
+    "auther": "Vaibhav Jain",
+    "created_date": "2021-04-21",
+    "status": "public"
+}

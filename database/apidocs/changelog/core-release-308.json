@@ -1,0 +1,21 @@
+{
+    "name": "Core Release 30.8.0",
+    "description": "This release brings a bug fix to our LoginRadius Core API , please see below for details:",
+    "changelog":
+   {
+    "FIXED": 
+    [
+        
+        {
+          "text": "Disable Manual Account Linking if there is an existing account with the same email id."
+        },
+        {
+          "text": "Implemented Force Logout feature in get active session API, Get User Profile API and MFA APIs." 
+        }
+    
+    ]
+    },
+    "auther": "Vaibhav Jain",
+    "created_date": "2020-12-24",
+    "status": "public"
+  }

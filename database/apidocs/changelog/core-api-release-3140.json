@@ -1,0 +1,18 @@
+{
+    "name": "Core API Release 31.4.0",
+    "description": "This release brings you bug fixes to our LoginRadius Core API, please see below for details:",
+    "changelog":
+   {
+    "FIXED": 
+    [
+        
+        {
+          "text": "The issue with the Forgot password API related to the upper case email id has been fixed."
+        }
+    
+    ]
+    },
+    "auther": "Ashish Kumar Yadav",
+    "created_date": "2021-08-11",
+    "status": "public"
+  }

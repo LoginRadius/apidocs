@@ -1,0 +1,41 @@
+{
+  "name": "Admin-console release 13.0",
+  "description": "It’s time for a Admin Console update! Version 13 of our Admin Console has a bit of everything, from managing your users, to security enhancements, to email workflows. Here are the details:",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Export Option for Segmented Users:  The ability to export your user segmentations has been added via the new 'Export' button at the bottom of the User Segmentation page."
+      },
+      {
+        "text": "Added new fields for User Segmentation: New fields have been added in the segment users area to improve the ability to segment your users based on specific criteria and filters."
+      },
+      {
+        "text": "Conditional User Segmentation with AND/OR: The ability to group segmentation filters by AND/OR conditions and you will be able to select the AND/OR conditions and apply more filters with each additional group created"
+      },
+      {
+        "text": "Two-Factor-Authentication:You can now enable/disable Two-Factor-Authentication for your LoginRadius account from the Account Settings section."
+      },
+      {
+        "text": "WebHook events: 3 New WebHook events are now accessible from the Admin Console: UpdateCustomobject, DeleteCustomObject, CreateCustomObject"
+      },
+      {
+        "text": "Autologin and Add Email templates: New email templates have been added to the Email Workflow section to include the Auto login template for the Auto Login functionality and the Add Email template for the Add Email functionality."
+      }
+    ],
+    "IMPROVED": [
+      {
+        "text": "Send Test Email Button: A new Send Test Email button has been added to each template editing area in the LoginRadius Admin-console, making it easier to test email templates."
+      },
+      {
+        "text": "Hidden API Secrets: Your API secrets will now be hidden by default in the Admin Console."
+      },
+      {
+        "text": "User Management: When manually adding a new user via the 'Add a New User' function, there is now a drop down menu to select a specific email template when the 'Send Email Verification' option is selected."
+      }
+    ]
+  },
+
+  "auther": "Pascal",
+  "created_date": "2017-06-27",
+  "status": "public"
+}

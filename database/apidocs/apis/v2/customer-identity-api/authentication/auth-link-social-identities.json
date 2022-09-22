@@ -1,0 +1,39 @@
+{
+    "name": "Auth Link Social Identities",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/socialIdentity",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@"
+    },
+    "postparams": {
+        "candidatetoken": "xxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "headers": {
+        "content-Type": "application/json",
+		"Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to link up a social provider account with an existing LoginRadius account on the basis of access token and the social providers user access token.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            }],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }],		
+        "Post Parameters": [{
+                "name": "candidatetoken",
+                "is_required": true,
+                "description": "Access token of the account to be linked"
+            }
+        ]
+    },
+    "outputFormat": {
+        "IsPosted": true
+    }
+}

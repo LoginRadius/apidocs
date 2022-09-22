@@ -1,0 +1,17 @@
+{
+    "name": "Cloud Directory Release 5.10.2",
+    "description": "Here's comes another Cloud Directory Release, this time we're introducing new changes that will improve the experience of using the Identity APIs.",
+    "changelog": {
+        "ADDED": [{
+                "text": "Detailed Error Messages: We have added more details in some of the error messages being returned, for the complete list of error messages please visit our <a href=\"https://www.loginradius.com/docs/api/v2/getting-started/response-codes/cloud-directory-api-codes/\">Cloud Directory API Codes</a> Doc."
+            },{
+                "text": "User Agent Change: In the Identity API, the user_agent field returned in the profiles has been revamped, and will be following a new format with different field names."
+            },{
+                "text": "Case Sensitivity Change: All of the query parameters are now case-insensitive."
+            }
+        ]
+    },
+    "auther": "Pascal Noel",
+    "created_date": "2019-11-06",
+    "status": "public"
+}

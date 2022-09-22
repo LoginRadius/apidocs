@@ -1,0 +1,12 @@
+{
+    "name": "Cloud SSO SAML API Release 7.1.1",
+    "description": "This release of the Cloud SSO SAML API brings you a bug fix, see below for details on the more notable changes applied to the Cloud SSO SAML API.",
+    "changelog": {
+        "FIXED": [{
+                "text": "Fixed a bug where <strong>NameIdentifier</strong> was not properly being assigned."
+            }]
+    },
+    "auther": "Abhishek Singh",
+    "created_date": "2020-09-17",
+    "status": "public"
+}

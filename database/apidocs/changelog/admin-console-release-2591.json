@@ -1,0 +1,13 @@
+{
+    "name": "Admin Console Release 25.9.1",
+    "description": "This release of the Admin Console brings you some improvements. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+      "IMPROVED": [
+        {
+          "text": "Added all the fields (including the Active and Disabled Fields) back in the Profile Info tab of the Customer Profile under the Customer Management section."
+        }     
+      ]},
+  "auther": "Gurjyot Singh",
+  "created_date": "2022-08-30",
+  "status": "public"
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Admin Console Release 24.2",
+    "description": "This release of the Admin Console brings you a few enhancements and a few bug fixes, see below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "IMPROVED": [
+            {
+                "text": "Removed ‘Instagram’ configuration from the Admin Console under the  <a href='https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/social-login/social-providers'>  Social Provider </a> section."
+            },
+            {
+                "text": "Removed the 'Service Provider Certificate' field from SAML in IDP Initiated Login flow under the <a href='https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/social-login/social-providers'>  Admin Console. </a>"
+            }
+        ],
+
+    "FIXED": [{
+                "text": "If you have enabled 'PIN Authentication' feature then 'PIN' field is removable from Admin Console under the <a href='https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/data-schema'> Data Schema </a> section."
+    },
+              {
+                "text": "All Additional API secrets are visible in the Admin Console under the <a href='https://adminconsole.loginradius.com/platform-security/data-access-protection/api-credentials/additional-api-secrets'> Additional API Secret(s) </a> section."
+    }
+        ]
+    },
+
+"auther": "Swati",
+"created_date": "2020-06-03",
+"status": "public"
+}

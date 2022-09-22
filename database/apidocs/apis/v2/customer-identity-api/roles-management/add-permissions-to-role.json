@@ -1,0 +1,59 @@
+{
+  "name": "Add Permissions to Role",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/manage/role/{role}/permission",
+  "method": "PUT",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "apisecret*": "@secret@"
+  },
+  "postparams": {
+    "permissions": [
+      "permission_name1",
+      "permission_name2"
+    ]
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API is used to add permissions to a given role.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "apisecret",
+        "is_required": true,
+        "description": "LoginRadius API Secret"
+      }
+    ],
+    "Template Param": [
+      {
+        "name": "role",
+        "is_required": true,
+        "description": "Created Rolename"
+      }
+    ],
+    "Post Params": [
+      {
+        "name": "permissions",
+        "is_required": true,
+        "description": "Any Permission name for the role"
+      }
+    ]
+  },
+  "outputFormat": {
+    "Name": "Editor",
+    "Permissions": {
+      "abc": true,
+      "xyz": true,
+      "lmn": true,
+      "Edit": true,
+      "ABC": true
+    }
+  }
+}

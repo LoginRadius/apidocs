@@ -1,0 +1,20 @@
+{
+    "name": "Core Release 3.0",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "Social account linking"
+            }, {
+                "text": "SSO"
+            }, {
+                "text": "Multiple interfaces on single page"
+            }, {
+                "text": "New APIs for Album, Checkin ,Likes, Photo, Audio, Video, Page"
+            }, {
+                "text": "Added new field to following APIs : Contacts, Events, Mentions, Company, Groups, Post (Get/Post), StatusMessage (Get/Post)"
+            }]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2013-10-1",
+    "status": "public"
+}

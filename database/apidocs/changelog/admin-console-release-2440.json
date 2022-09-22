@@ -1,0 +1,16 @@
+{
+    "name": "Admin Console Release 24.4.0",
+    "description": "This release of the Admin Console brings you a few bug fix, see below for details on some of the more notable change applied to the Admin Console.",
+    "changelog": {
+    "FIXED": 
+    [
+    {
+        "text": "Account workflow section now shows the correct status of the email registration feature."
+    }
+    ]
+    },
+
+"auther": "Vaibhav Jain",
+"created_date": "2020-10-27",
+"status": "public"
+}

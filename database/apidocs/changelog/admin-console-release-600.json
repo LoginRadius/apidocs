@@ -1,0 +1,57 @@
+{
+  "name": "Admin Console release 6.0",
+  "description": "Great news for you! LoginRadius launched a beautiful new Admin Console, Version 6.0. Our team has been working hard behind the scenes on this, and we’re happy to announce that it is out today. Please see below for a complete list of changes.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Added Apple Sign in as an easy to configure provider in the social providers section."
+      },
+      {
+        "text": "New JWT Provider tab under the Custom IDPs section, allowing you to set custom JWT Providers directly from the Admin Console."
+      },
+      {
+        "text": "New PIN Authentication section to configure your PIN Authentication workflows."
+      },
+      {
+        "text": "New Consent Center to configure consent management flows."
+      },
+      {
+        "text": "New Data ETL section added allowing you to manage your own data migrations and mass updates/changes."
+      },
+      {
+        "text": "New API Analytics feature under the insights section, allowing you to get more granular details on API activity."
+      }
+    ],
+    "IMPROVED": [
+      {
+        "text": "Removed custom scopes section for social providers / external permissions."
+      },
+      {
+        "text": "Removed Anonymous Login feature."
+      },
+      {
+        "text": "The Production Release feature has been renamed Configuration Deployment."
+      },
+      {
+        "text": "Removed the Social Sharing area."
+      },
+      {
+        "text": "Removed the REST Hook feature you can use WebHooks as an alternative."
+      },
+      {
+        "text": "Removed the Registered Customer tab from the Customer Management section."
+      },
+      {
+        "text": "Removed \"custom roles\" from the Team Management section."
+      },
+      {
+        "text": "Modernized UI."
+      },
+      {
+        "text": "Improved Load times."
+      }
+    ]},
+"auther": "Pascal",
+"created_date": "2020-04-3",
+"status": "public"
+}

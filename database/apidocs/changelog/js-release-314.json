@@ -1,0 +1,20 @@
+{
+    "name": "JS Release 3.1.4",
+    "description": "This new JavaScript Release introduces the 'preventVerification' option along with an important improvement to the 'Add New Email' process.",
+    "changelog": {
+    "ADDED": [{
+                "text": "Prevent Email Verification: We have added a new JavaScript option <a href=https://www.loginradius.com/docs/api/v2/deployment/js-libraries/getting-started>'preventVerification'</a> that can be added to your JavaScript options, to disable the verification email from being sent. Note: This only works if you have email verification as 'optional' in your identity workflow."
+        }            ],
+"IMPROVED": [{
+        "text": "Add New Email Verification: When adding a new email to an existing account, during the email verification if the customer had an active session in the browser they would get automatically logged out, this is no longer the default behaviour."
+    },{
+        "text": "Added Sid Field: When requesting an OTP (One-Time Passcode) via an API the Sid value will be returned."
+    }],
+"FIXED": [{
+        "text": "Hosted Page Phone OTP issues: The LoginRadius Hosted Page contains JavaScript configurations that leverage the LoginRadiusV2.js, one of those default configurations caused some issues regarding workflows that use One Time Passcodes that are sent via SMS on the Hosted Page."
+}]
+    },
+"auther": "Pascal",
+"created_date": "2019-04-18",
+"status": "public"
+}

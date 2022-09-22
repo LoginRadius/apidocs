@@ -1,0 +1,52 @@
+    {
+
+        "Announcements": {
+            
+"description": "Description Here",
+"imagepath": "assets/images/apihome-authentication.svg"
+          
+},
+        "Single Sign-On": {
+            "description": "Explains the Web and Federated SSO feature",
+            "imagepath":  "assets/images/apihome-singlesignon.svg"
+        },
+        
+    "Getting Started": {
+        "description": "A quick run-through of LoginRadius Authentication processes and features.",
+        "imagepath":  "assets/images/apihome-customerintelligenece.svg"
+    },
+    
+    "Admin Console": {
+        "description": "Description Here",
+        "imagepath":  "assets/images/apihome-security.svg"
+    },
+    
+    
+        "Deployment": {
+            "description": "Description Here",
+            "imagepath":  "assets/images/apihome-governance.svg"
+        },
+        "Customer Identity API": {
+            "description": "Description Here",
+            "imagepath":  "assets/images/apihome-customerintelligenece.svg"
+        },
+        "Cloud Directory API": {
+            "description": "Description Here",
+            "imagepath": "assets/images/apihome-customermanagement.svg"
+        },
+    
+            "Integrations": {
+                "description": "Coming Soon",
+                "imagepath":  "assets/images/apihome-integrations.svg"
+            },
+            "Troubleshooting": {
+                "description": "Description Here",
+                "imagepath":  "assets/images/apihome-referencedocsapis.svg"
+            }
+        
+
+}
+  
+  
+    
+  

@@ -1,0 +1,13 @@
+{
+"name": "Cloud API Release 1.7.0",
+    "description": "This SSO Login API release brings you an improvement.",
+    "changelog": {
+        "IMPROVED": [{
+                "text": "Added support for passing the token as Bearer Authentication Header "
+            }
+        ]
+    },
+    "auther": "Vaibhav Jain",
+    "created_date": "2020-10-26",
+    "status": "public"
+}

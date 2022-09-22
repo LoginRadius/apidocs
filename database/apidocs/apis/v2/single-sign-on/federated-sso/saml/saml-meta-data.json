@@ -1,0 +1,38 @@
+{
+    "name": "Get SAML Metadata",
+    "domain": "",
+    "path": "https://{siteurl}/service/saml/idp/metadata",
+    "method": "GET",
+    "getparams": {
+      "apikey*": "@apikey@",
+      "appName*": ""
+    },
+    "headers": {
+      "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "xml",
+    "description": "This API is used to get the SAML metadata.",
+    "parameters": {
+      "Get Params": [
+        {
+          "name": "apikey",
+          "is_required": true,
+          "description": "LoginRadius API Key"
+        },
+        {
+          "name": "appName",
+          "is_required": true,
+          "description": "SAML App Name"
+        }
+      ],
+      "Template Params": [
+        {
+            "name": "siteurl",
+            "is_required": true,
+            "description": "This field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of site URL"
+        }
+    ]
+    },
+    "outputFormat": "<EntityDescriptor xmlns=\"urn:oasis:names:tc:SAML:2.0:metadata\" xmlns:assertion=\"urn:oasis:names:tc:SAML:2.0:assertion\" xmlns:ds=\"http:\/\/www.w3.org\/2000\/09\/xmldsig#\" entityID=\"https:\/\/internal-api-automation-v1v2.hub.loginradius.com\/\">\r\n <IDPSSODescriptor WantAuthnRequestsSigned=\"false\" protocolSupportEnumeration=\"urn:oasis:names:tc:SAML:2.0:protocol\">\r\n <KeyDescriptor use=\"signing\">\r\n <ds:KeyInfo xmlns:ds=\"http:\/\/www.w3.org\/2000\/09\/xmldsig#\">\r\n  <ds:X509Data>\r\n <ds:X509Certificate>MIID1DCCArwCCQDPN3X9LnGHBzANBgkqhkiG9w0BAQsFADCBqzELMAkGA1UEBhMCSU4xDDAKBgNVBAgTA1JBSjELMAkGA1UEBxMCSlAxCzAJBgNVBAoTAkxSMQ0wCwYDVQQLEwRDT1JFMTcwNQYDVQQDEy5odHRwczovL3N0YWctcGFyZWVrLnN0YWdpbmdodWIubG9naW5yYWRpdXMuY29tMSwwKgYJKoZIhvcNAQkBFh1yYWtlc2gucGFyZWVrQGxvZ2lucmFkaXVzLmNvbTAeFw0xODA3MDQwNDM0MDJaFw0xOTA3MDQwNDM0MDJaMIGrMQswCQYDVQQGEwJJTjEMMAoGA1UECBMDUkFKMQswCQYDVQQHEwJKUDELMAkGA1UEChMCTFIxDTALBgNVBAsTBENPUkUxNzA1BgNVBAMTLmh0dHBzOi8vc3RhZy1wYXJlZWsuc3RhZ2luZ2h1Yi5sb2dpbnJhZGl1cy5jb20xLDAqBgkqhkiG9w0BCQEWHXJha2VzaC5wYXJlZWtAbG9naW5yYWRpdXMuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyeCX3krXBm+As\/c2xcHJ3K4JoH8MNXJ1wC16+aW2Wi7YctkAJIsoqbrkrs0ZTK0CJNuKwiSYQPrTWHNjp3CvkUZWIhrRPW5qcXEpNkS6PDjimvePMrYar2HkDhKuBqHOYUwyix2vJCGFZKkx\/SKC43hjfpYqrzGI4yDj\/gTQ2hxPImwDAQsSohiNNvl03F2b5i3MJZxGwI+3afXOW5p3kyPUq3PNFlhWRG5jlb66TVMQM5GAIDsIP7TaTCeuEejGvvs9m29W6KpX6KjHF1RYiot3eV99nH\/BjBXB7hVDByID2v6eJhmZgGiUMZbemuQNjcsRRHCOW0NOa0NfB4DhYwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQACCFvNulgljW92T2cdvYHcSJe957I2gVcYQgwP0PDC5sTHmLs+kLgYo3Ag+lkxykog7sst+ynl0gWOt\/b5zLZLdKGZhxGhC9J9mgvQo5fzsrroRp2CnVP7xR5ol9L51slEA+6\/nQ7S2Un8aYOW7oe16p1PmAjnytqY8lOP\/Dt1COgjeQWAK+3zZQERliXu8wUyT2QwdmJ7ZMy9XL1CN7BqJ45gXJ87MczGFZ8HmHufvK6d5v8l7F6dq49GiXGP+m8ce9l1G8HfzXxw7JuKr7xRE4A50\/Os2QXShQfDt897nX+KZALKDER37\/zqXP8G1ZbAOzHxJ1MvIRIiIeflpjBH<\/ds:X509Certificate>\r\n <\/ds:X509Data>\r\n <\/ds:KeyInfo>\r\n  <\/KeyDescriptor>\r\n <SingleSignOnService index=\"0\" Binding=\"urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\" Location=\"https:\/\/cloud-api.loginradius.com\/sso\/saml\/loginService?apikey=2f7a4f12-f028-451b-b055-0a9a1ce445da&amp;AppName=lridp_idpintiate_cloudsso_automationapp_prod\">\r\n <\/SingleSignOnService>\r\n  <SingleLogoutService index=\"0\" Binding=\"urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\" Location=\"https:\/\/cloud-api.loginradius.com\/sso\/saml\/logoutService?apikey=2f7a4f12-f028-451b-b055-0a9a1ce445da&amp;AppName=lridp_idpintiate_cloudsso_automationapp_prod\">\r\n  <\/SingleLogoutService>\r\n  <\/IDPSSODescriptor>\r\n <\/EntityDescriptor>"
+}
+  

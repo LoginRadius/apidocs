@@ -1,0 +1,15 @@
+{
+    "name": "Core Release 1.9",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "For social login interfaces JavaScript framework"
+            }],
+        "FIXED": [{
+                "text": "Console error in interface JavaScript"
+            }]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2013-2-1",
+    "status": "public"
+}

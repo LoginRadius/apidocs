@@ -1,0 +1,68 @@
+{
+  "name": "One Touch Login by Phone",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/auth/onetouchlogin/phone",
+  "method": "POST",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "smstemplate": ""
+  },
+  "postparams": {
+    "phone": "",
+    "name": "",
+    "qq_captcha_ticket": "",
+    "qq_captcha_randstr": "",
+    "g-recaptcha-response ": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API is used to send one time password to a given phone number for a frictionless login/registration, and provides support for Captcha services to prevent spam.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "smstemplate",
+        "is_required": false,
+        "description": "Name of the SMS Template"
+      }],
+    "Post Parameters": [
+      {
+        "name": "Phone",
+        "is_required": true,
+        "description": "Customer's PhoneID"
+      },
+      {
+        "name": "name",
+        "is_required": false,
+        "description": "Name of the customer"
+      },
+      {
+        "name": "g-recaptcha-response",
+        "is_required": false,
+        "description": "It is required for locked accounts when logging in. You need to pass a valid recaptcha value in order to login if the account gets locked after continous n number of unsuccessful login attempts( Number of login attempts can be set through user account). Details about this feature can be found <a href='/api/v2/user-registration/advanced-api-usage#loginlockedtype4'>here</a>"
+      },
+      {
+        "name": "qq_captcha_ticket",
+        "is_required": false,
+        "description": "If <a href='/api/v2/user-registration/advanced-api-usage#loginlockedtype4'>CAPTCHA lockout</a> is enabled with QQ, and the user is locked, you must provide the QQ Captcha ticket."
+      },
+      {
+        "name": "qq_captcha_randstr",
+        "is_required": false,
+        "description": "If <a href='/api/v2/user-registration/advanced-api-usage#loginlockedtype4'>CAPTCHA lockout</a> is enabled with QQ, and the user is locked, pass the value of the user's random string retrieved from the QQ captcha."
+      }
+    ]
+  },
+  "outputFormat": {
+    "Data": {
+      "AccountSid": "ACaf030xxx83dfa37i06b267e4c24918630",
+      "Sid": "SMfe9a31bxx684h86b13bf789596366fd"
+    }
+  }
+}

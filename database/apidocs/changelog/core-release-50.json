@@ -1,0 +1,44 @@
+{
+    "name": "Core Release 5.0",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "New Popup for OpenId Login added"
+            },{
+                "text": "Loading image on request handler page added"
+            },{
+                "text": "New Loading image on success page added"
+            },{
+                "text": "Two responsive interface :- a .Social Login Theme b. Embed Bricks added"
+            },{
+                "text": "'Loading..' Text on social login interface added"
+            },{
+                "text": "Highlight of login Provider added"
+            },{
+                "text": "All css & Js can be accessed through CDN"
+            },{
+                "text": "Add ‘no follow’ links with detection - SEO"
+            },{
+                "text": "Github : Removed gravatar_id attribute"
+            },{
+                "text": "FourSquare: New API version added to platform"
+            },{
+                "text": "VK: new API version and with extra data fields"
+            },{
+                "text": "Linkedin: new data fields in certificates object with user profile"
+            },{
+                "text": "SSO API for RaaS added"
+            },{
+                "text": "RAAS option to specify email URLs added, these are emailVerifcationUrl, forgotPasswordUrl"
+            }],
+        "FIXED":[{
+                "text": "Foursquare user profile Image issue fixed"
+            },{
+                "text": "Facebook API implementation Bugs"
+            }]
+    },
+
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2014-8-1",
+    "status": "public"
+}

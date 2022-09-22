@@ -1,0 +1,38 @@
+{
+    "name": "Album",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/album",
+    "method": "GET",
+    "getparams": {
+        "access_token*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API returns the photo albums from Social Profile.<br><br><b>Supported Providers:</b> Facebook, Google, Vkontakte.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "access_token",
+                "is_required": true,
+                "description": "Uniquely generated identifier key by LoginRadius that is activated after successful authentication."
+            }
+        ]
+    },
+    "outputFormat": {
+        "ID": "1310******72032",
+        "OwnerId": "131*******05500",
+        "OwnerName": "Albert Matthew",
+        "Title": "my uploads",
+        "Description": "",
+        "Location": "",
+        "Type": "normal",
+        "CreatedDate": "10/09/2017 06:18:10",
+        "UpdatedDate": "10/09/2017 06:18:37",
+        "CoverImageUrl": "https://graph.facebook.com/131097768905797/picture?type=normal",
+        "ImageCount": "1",
+        "DirectoryUrl": null
+    }
+}

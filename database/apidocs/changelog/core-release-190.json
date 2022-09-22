@@ -1,0 +1,36 @@
+{
+  "name": "LoginRadius API Core Release V19.0.0",
+  "description": "This new release of the LoginRadius V2 API brings improved workflows and new security features.",
+  "changelog": {
+  "ADDED": [
+      {
+        "text": "SHA512 Algorithm for Passwords: LoginRadius has added support for storing passwords in SHA512."
+      },
+      {
+        "text": "OTP Email Verification: We have added the infrastructure to allow for Email One Time Passcode (OTP)."
+      },
+	    {
+        "text": "Remove Phone ID by Access Token: If an account has a phone id you can remove the phone id via API with the access_token. "
+      },
+            {
+        "text": " IsLoginLocked: You can now easily change the value of a user's IsLoginLocked field via our Management APIs."
+      }],
+  "IMPROVED": [
+      {
+        "text": "Account Linking with Social Providers: If a user manages to register with an unverified social account and a social login with the same email and verified is performed, we will delete the existing social profile and for security reasons and we will reset the password on the traditional account."
+      },
+     {
+        "text": "Account Unlinking: Social profiles can now be unlinked in cases where the same email id or the same phone id are present."
+      },
+      {
+        "text": "Phone Number And Addresses: For the Phone Number and Addresses fields, if you pass in an object without specifying the 'Type' then the 'Type' added will be 'Default'."
+      },
+      {
+        "text": "Improved Google Authenticator QR Code generation: We have improved the existing logic used to generate QR codes when using 2 Factor Authentication with Google Authenticator."
+      }
+  ]
+    },
+  "auther": "Pascal",
+  "created_date": "2018-2-7",
+  "status": "public"
+}

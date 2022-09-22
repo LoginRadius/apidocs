@@ -1,0 +1,70 @@
+{
+    "name": "Verify MFA Security Question by Access Token",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/auth/account/2fa/securityquestionanswer",
+    "method": "PUT",
+    "getparams": {
+      "apikey*": "@apikey@",
+      "access_token*": "",
+      "fields": "*"
+    },
+    
+    "postparams": {
+        "securityquestionanswer": [
+            {
+                "QuestionId": "db7****8a73e4******bd9****8c20",
+                "Answer": "<answer>"
+            }
+        ],
+         "ReplaceSecurityQuestionAnswer": true
+    },
+
+    "headers": {
+      "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to set up MFA Security Question authenticator on profile after login.",
+    "parameters": {
+      "Get Params": [{
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+
+      {
+        "name": "Authorization",
+        "is_required": true,
+        "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+      },
+        {
+          "name": "fields",
+          "is_required": false,
+          "description": "Optional parameter determining fields returned in profile"
+        }
+        
+      ],
+
+      "Post Params": [{
+        "name": "QuestionId",
+        "is_required": true,
+        "description": "Id of the security question"
+      },
+      {
+        "name": "Answer",
+        "is_required": true,
+        "description": "Answer of the security question"      
+      },
+      {
+        "name": "ReplaceSecurityQuestionAnswer",
+        "is_required": true,
+        "description": "Replace your security questions answer (true/false)"
+      }
+
+    ]
+    },
+    "outputFormat": 
+    {
+        "IsPosted": true
+      }
+    
+  }

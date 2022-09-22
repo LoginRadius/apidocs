@@ -1,0 +1,37 @@
+{
+  "name": "Revoke Refresh Token",
+  "domain": "https://cloud-api.loginradius.com",
+  "path": "/sso/oidc/revoke",
+  "method": "POST",
+  "getparams": {},
+  "postparams": {
+    "client_id": "",
+    "client_secret":"",
+    "token":""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "",
+  "description": "This API allows you to expire a refresh_token",
+  "parameters": {
+    "Body Params": [
+      {
+        "name": "client_id",
+        "is_required": true,
+        "description": "Your LoginRadius API Key."
+      },
+      {
+        "name": "client_secret",
+        "is_required": true,
+        "description": "Your LoginRadius API Secret."
+      },{
+        "name": "token",
+        "is_required": true,
+        "description": "This is the refresh_token you received when you used the Access Token by OpenID code API call."
+      }
+    ]
+  },
+  "outputFormat": {
+  }
+}

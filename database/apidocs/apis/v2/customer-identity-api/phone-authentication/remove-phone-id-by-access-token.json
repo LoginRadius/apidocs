@@ -1,0 +1,32 @@
+{
+    "name": "Remove Phone ID by Access Token",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/auth/phone",
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@apikey@"
+    },
+    "postparams": {},
+    "headers": {
+        "content-Type": "application/json",
+		"Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to delete the Phone ID on a user's account via the access_token",
+	"parameters": {
+        "Get Params": [
+          {
+            "name": "apikey",
+            "is_required": true,
+            "description": "Login Radius API Key"
+          }
+          ],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }]  
+    }, "outputFormat": {
+  "IsDeleted": true
+}
+}

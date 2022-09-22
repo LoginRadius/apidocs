@@ -1,0 +1,52 @@
+{
+    "name": "Custom Object by Token",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/auth/customobject",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "objectname*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded",
+		"Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to retrieve the specified Custom Object data for the specified account.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            }, {
+                "name": "objectname",
+                "is_required": true,
+                "description": "LoginRadius Custom Object Name"
+            }
+        ],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }]
+    },
+    "outputFormat": {
+    "data": [
+        {
+            "Id": "XXXXXXXXXXXXXXXXXXXXXXXX",
+            "IsActive": true,
+            "DateCreated": "2017-11-09T00:01:49.827Z",
+            "DateModified": "2017-11-09T00:01:49.827Z",
+            "IsDeleted": false,
+            "Uid": "XXXXXXXXXXXXXXXXXXXXXXXX",
+            "CustomObject": {
+                "customdata1":" Store my customdata1 value",
+                "customdata2":" Store my customdata2 value"
+            }
+        }
+    ],
+    "Count": 1
+}
+}

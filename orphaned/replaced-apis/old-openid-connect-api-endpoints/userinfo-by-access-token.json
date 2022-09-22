@@ -1,0 +1,40 @@
+{
+    "name": "UserInfo by Access Token",
+    "domain": "https://cloud-api.loginradius.com",
+    "path": "/sso/oidc/userinfo",
+    "method": "GET",
+    "getparams": {
+        "client_id*": "@apikey@",
+        "client_secret*":"@secret@",
+        "access_token*":""
+    },
+    "postparams": {
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "You can retrieve the UserInfo of a logged in user via this API.",
+    "parameters": {
+        "Query Params": [
+          {
+            "name": "client_id",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+          },
+          {
+            "name": "client_secret",
+            "is_required": true,
+            "description": "LoginRadius API Secret"
+          },
+	  {
+            "name": "access_token",
+            "is_required": true,
+            "description": "this is the access_token of the logged in user"
+          }
+        ]
+    },
+    "outputFormat": {
+      "id_token": "eyJhbG**********4NiIsInR5cCI*****VCJ9.eyJpc3**********czy****udGVybmFsL"
+    }
+}

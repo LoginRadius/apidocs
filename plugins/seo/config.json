@@ -1,0 +1,7 @@
+{
+    "name": "SEO",
+    "discription":"SEO discription",
+    "weight": "1",
+    "isActive": true,
+    "load": "seo/seo.php"
+}

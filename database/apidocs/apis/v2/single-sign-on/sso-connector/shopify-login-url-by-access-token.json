@@ -1,0 +1,57 @@
+{
+  "name": "Shopify Login URL by Access Token",
+  "domain": "https://cloud-api.loginradius.com",
+  "path": "/sso/shopify/api/token",
+  "method": "GET",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "store*": "",
+    "password":"",
+    "return_url": "",
+    "callback": ""
+  },
+  "headers": {
+    "content-Type": "application/x-www-form-urlencoded",
+    "Authorization":"Bearer "
+  },
+  "response": "json",
+  "description": "This API is used to get the Shopify Login URL by access token.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "store",
+        "is_required": true,
+        "description": "Store Name"
+      },
+      {
+        "name": "password",
+        "is_required": false,
+        "description": "Shopify password for new user"
+      },
+      {
+        "name": "return_url",
+        "is_required": false,
+        "description": "After login page URL"
+      },
+      {
+        "name": "callback",
+        "is_required": false,
+        "description": "JSONP callback function name"
+      }
+
+    ],
+    "Headers Parameters": [{
+      "name": "Authorization",
+      "is_required": true,
+      "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+  }]
+  },
+  "outputFormat": {
+    "loginUrl": "https://test107.myshopify.com/account/login/multipass/KDE4YXUQtnMhZVGH**********BR4fbtjhKgGAEgZu9MhX5wqHdI_3baq*********aAi0ZuyJ4itxRJBJPtjwX**********WBrt7sbsIo7EJLXJAxyMuO_uBTmtRlc3BrntTo14T**********Dbdc8hI09Y8bntXI_ax5NRx9iqUbj**********bTIJm5PYeA8BKRmvxwcETU_04C2fsDPhOFF4X**********BvX4oExgwhwAN0gYpk**********YIB5eonrDXy0ar4F-tmwLaXrqFl**********ktKllDfjk77dG8DM2Sy*********8Hx3EHwR_T6D9a0Q=="
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "JS Release 2.10",
+    "description": "The LoginRadiusV2.js interface just got better with new actions and new hooks this new release brings a lot of useful features for customizing your identity workflows.",
+    "changelog": {
+    "ADDED": [{
+                "text": "Prompt for Password on first Social Login: Easily prompt your first time social users for a password to configure a traditional email and password login."
+        },{
+                "text": "Unique UserName flow: With this flow, a user can register with the same email provided that they have a unique username for each account."
+        },{
+                "text": "After validation hook: We have added a new After Validation hook as part our Advanced Customization options allowing you to easily trigger your custom code when a user is attempting to submit invalid data. "
+        },{
+                "text": "Prompt for Password on first Social Login: Easily prompt your first time social users for a password to configure a traditional email and password login."
+        },{
+                "text": "Event On Element hook: We have added an Event On Element hook as part our Advanced Customization options allowing you to easily trigger your custom code when a user triggers a specified event on a specified LoginRadius form element."
+        },{
+                "text": "Before action Init Hook: We have added this new hook to allow you to trigger code before any of the form actions."
+        },{
+                "text": "SSO via JWT Token: You can now have SSO via a JWT token."
+        }
+            ],
+"IMPROVED": [
+    {
+        "text": "JWT token via Social Login: You can now receive JWT tokens from a social login."
+    },{
+        "text": "Show pre-filled data on social login: If you have a customer that is registering via Social and you are prompting them for additional fields during the initial social login, You can also display the other fields that the social login auto-filled for them." 
+    }
+]
+    },
+"auther": "Pascal",
+"created_date": "2018-1-31",
+"status": "public"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Refresh Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/access_token/refresh",
+    "method": "GET",
+    "getparams": {
+        "access_token*": "",
+        "secret*": "@secret@",
+        "expiresIn": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "The Refresh Access Token API is used to refresh the LoginRadius Access Token or the Provider Access Token, after authentication. <br><br><b> Supported Providers:</b> Email, Facebook, Yahoo, Google.<br><br> Please contact the LoginRadius support team to enable this API.",
+    "parameters": {
+        "Get Params": [{
+            "name": "access_token",
+            "is_required": true,
+            "description": "LoginRadius Access Token"
+        },{
+            "name": "secret",
+            "is_required": true,
+            "description": "LoginRadius API Secret"
+        },
+        {
+            "name": "expiresIn",
+            "is_required": false,
+            "description": "Allows you to specify a desired expiration time in minutes for the newly issued access_token."
+        }]
+    },
+"outputFormat":{
+  "access_token": "********-****-****-****-************",
+  "refresh_token": "********-****-****-****-************",
+  "expires_in": "2018-08-24T16:59:09.6366507Z"
+}}

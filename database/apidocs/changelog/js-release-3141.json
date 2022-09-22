@@ -1,0 +1,14 @@
+{
+    "name": "JS Release 3.14.1",
+    "description": "This JavaScript Release brings a bug fix to our LoginRadius V2JS library, please see below for details:",
+    "changelog": {
+        "FIXED": [
+            {
+                "text": " Optional fields on first social login with consent will be correctly requested now."
+            }
+        ]
+    },
+    "auther": "Vaibhav Jain",
+    "created_date": "2020-10-26",
+    "status": "public"
+}

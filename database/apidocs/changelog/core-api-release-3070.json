@@ -1,0 +1,27 @@
+{
+    "name": "Core API Release 30.7.0",
+    "description": "This release brings you with some bug fixes and an enhancement to our LoginRadius Core API , please see below for details:",
+    "changelog":
+   {
+    "FIXED": 
+    [
+        
+        {
+          "text": "User profile was not sent by the Social Registration Cloud Connector event."
+        },
+        {
+          "text": "Return the error message instead of 500 server errors during Google Login." 
+        }
+    
+    ],
+    "IMPROVED":
+    [
+        {
+            "text": "Implemented Force logout feature in Add Email, Delete Account, Passwordless, One Touch Login and Smart Login APIs."
+        }
+    ]
+    },
+    "auther": "Abhishek Singh",
+    "created_date": "2020-12-29",
+    "status": "public"
+  }

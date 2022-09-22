@@ -1,0 +1,277 @@
+# SOTT (Secured one time token)
+
+---
+
+SOTT is used for LoginRadius user registration via the authentication API or via the Javascript Interfaces.
+<br>
+<br>
+SOTT is a secure one time token which can be created using the API key, API secret and a time stamp ( start time and end time ). In our SDKs, SOTT is automatically handled when the SDK calls the authentication APIs, user registration methods. If you wish to manually create a SOTT then follow the sections below for the steps based on your particular language.
+
+## Steps to generate SOTT
+
+This section goes over the algorithm that you can use to create your own SOTT generation code.
+
+Constant values to generate SOTT-
+
+const INITVECTOR = "tu89geji340t89u2";<br>
+const KEYSIZE = 256;<br>
+const DateFormat = "YYYY/MM/DD H:i:s";<br>
+
+**Steps**
+
+1. Calculate **DateInterval**( Difference of start time and end time ) in the above **DateFormat**.
+2. Calculate plain text like DateInterval + "#" + <YOUR API KEY> + "#" + DateInterval.
+3. Generate a PBKDF2 key derivation of a supplied encoded Secret key.
+4. Encrypt the text with below parameters 4. PBKDF2 key 5. Plain text 6. Encoded INITVECTOR
+5. Now encode the result data with base64.
+6. Now initialize an incremental hashing context with MD5 and pass the result data into the active hashing context.
+
+>**Note:** To generate SOTT manually only **Primary secret** should be used , SOTT can not be generated using the **Additional Secret** in SDK (Manual function for Generating SOTT).
+
+### Generate SOTT for PHP
+
+**Implement the PHP SDK using this [document](/libraries/sdk-libraries/php-library/)**
+
+Now add the following code:
+
+```
+$timeDifference =''; // (Optional) The time difference will be used to set the expiration time of SOTT, If you do not pass time difference then the default expiration time of SOTT is 10 minutes.
+
+$getLRserverTime=false; //(Optional) If true it will call LoginRadius Get Server Time Api and fetch basic server information and server time information which is useful when generating an SOTT token.
+
+//The LoginRadius API key and primary API secret can be passed additionally, If the credentials will not be passed then this SOTT function will pick the API credentials from the SDK configuration.
+
+$apiKey=""; //(Optional) LoginRadius Api Key
+
+$apiSecret=""; //(Optional) LoginRadius Api Secret (Only Primary Api Secret is used to generate the SOTT manually)
+
+$sottObj = new SOTT();
+$sott = $sottObj->encrypt($timeDifference,$getLRserverTime,$apiKey,$apiSecret);
+```
+
+<br>
+
+### Generate SOTT for DotNet
+
+**Implement the DotNet SDK using this [document](/libraries/sdk-libraries/asp-net-library/)**
+
+Now add the following code:
+
+```
+LoginRadiusSecureOneTimeToken _sott = new LoginRadiusSecureOneTimeToken();
+
+// You can pass the start and end time interval and the SOTT will be valid for this time duration, StartTime and EndTime are optional but if passing the value then both value need to be passed.
+
+var sott = new SottRequest
+{
+
+StartTime = "2017-05-15 07:10:42", // Valid Start Date with Date and time
+
+EndTime="2017-05-15 07:20:42" // Valid End Date with Date and time
+};
+
+//The LoginRadius API key and primary API secret can be passed additionally, If the credentials will not be passed then this SOTT function will pick the API credentials from the SDK configuration.
+
+var apiKey = ""; //(Optional) LoginRadius Api Key.
+
+var apiSecret = ""; //(Optional) LoginRadius Api Secret (Only Primary Api Secret is used to generate the SOTT manually).
+
+var generatedSott=_sott.GetSott(sott,apiKey,apiSecret);
+
+```
+
+<br>
+
+### Generate SOTT for JAVA
+
+**Implement the JAVA SDK using this [document](/libraries/sdk-libraries/java-library/)**
+
+Now add the following code:
+
+```
+ServiceSottInfo serviceSottInfo=new ServiceSottInfo();
+
+// You can pass the start and end time interval and the SOTT will be valid for this time duration.
+
+serviceSottInfo.setStartTime("2021-01-10 07:10:42");  // Valid Start Date with Date and time
+
+serviceSottInfo.setEndTime("2023-01-15 07:20:42"); // Valid End Date with Date and time
+
+// Or you can pass the time difference in minutes for setting up the validity of SOTT, if you do not pass the time difference then the default value is 10 minutes
+
+serviceSottInfo.setTimeDifference("20");  // (Optional) The time difference will be used to set the expiration time of SOTT, If you do not pass time difference then the default expiration time of SOTT is 10 minutes.
+
+
+ServiceInfoModel service=new ServiceInfoModel();
+
+service.setSott(serviceSottInfo);
+
+
+//The LoginRadius API key and primary API secret can be passed additionally, If the credentials will not be passed then this SOTT function will pick the API credentials from the SDK configuration.
+
+String apiKey="";//(Optional) LoginRadius Api Key.
+
+String apiSecret="";//(Optional) LoginRadius Api Secret (Only Primary Api Secret is used to generate the SOTT manually).
+
+try {
+	String sottResponse = Sott.getSott(service,apiKey,apiSecret);
+	System.out.println("sott = " + sottResponse);
+
+} catch (Exception e) {
+	e.printStackTrace();
+
+}
+
+```
+
+<br>
+
+### Generate SOTT for Python
+
+**Implement the Python SDK using this [document](/libraries/sdk-libraries/python-library/)**
+
+Now add the following code:
+
+```
+timeDifference='10' #(Optional) The time difference will be used to set the expiration time of SOTT, If you do not pass time difference then the default expiration time of SOTT is 10 minutes.
+
+getLRserverTime=False #(Optional) If True it will call LoginRadius Get Server Time Api and fetch basic server information and server time information which is useful when generating an SOTT token.
+
+# The LoginRadius API key and primary API secret can be passed additionally, If the credentials will not be passed then this SOTT function will pick the API credentials from the SDK configuration.
+
+
+apiKey="" #(Optional) LoginRadius Api Key.
+
+apiSecret = "" # (Optional) LoginRadius Api Secret (Only Primary Api Secret is used to generate the SOTT manually).
+
+sott_data = loginradius.get_sott(timeDifference, getLRserverTime,apiKey,apiSecret)
+
+print(sott_data)
+```
+
+<br>
+
+### Generate SOTT for Ruby
+
+**Implement the Ruby SDK using this [document](/libraries/sdk-libraries/ruby-library/)**
+
+Now add the following code:
+
+```
+time_difference=10 # (Optional) The time_difference will be used to set the expiration time of SOTT, If you do not pass time_difference then the default expiration time of SOTT is 10 minutes.
+
+api_key="" # (Optional) LoginRadius Api Key.
+
+api_secret="" # (Optional) LoginRadius Api Secret (Only Primary Api Secret is used to generate the SOTT manually).
+
+
+sott = AuthenticationApi.local_generate_sott(time_difference,api_key,api_secret);
+print sott
+```
+
+<br>
+
+### Generate SOTT for Node.js
+
+**Implement the Node.js SDK using this [document](/libraries/sdk-libraries/node-js-library/)**
+
+Now follow these **steps**:
+
+1. Create var config in project
+   <br>
+
+```
+var config = {
+       apidomain: 'https://api.loginradius.com',
+       apikey: '{{ Your API KEY }}',
+       apisecret: '{{ Your API Secret }}',
+       sitename: '{{ Your Sitename }}'
+ }
+```
+
+2. Require the loginradius-v2-sdk package and pass it the config object
+   <br>
+
+```
+var lrv2 = require('loginradius-sdk')(config);
+```
+
+3. Call the getSott function
+   <br>
+
+```
+var startDate = "2017-05-15 07:10:42" // Valid Start Date with Date and time
+var endDate = "2017-05-15 07:20:42" // Valid End Date with Date and time
+
+lrv2.authentication.getSott( startDate, endDate ).then( function( response ) {
+    console.log( response );
+}).catch( function( error ) {
+    console.log( error );
+});
+```
+
+This will print the SOTT value on the console.<br>
+
+**Note:**
+
+- startDate and endDate are optional parameter default valid token time will be 10 minutes if you don't pass startDate and endDate.
+- startDate and endDate should be in yyyy-mm-dd H:i:s format.
+- You can use our [Get Server Time API](/api/v2/user-registration/infrastructure-get-server-time) to get startDate and endDate with any valid timeDifference in minutes.
+
+**Example:**
+<br>
+
+```
+var timeDifference = "20"; //Default value of timeDifference will be 10 minutes;
+
+lrv2.authentication.getServerTime( timeDifference ).then( function( response ) {
+	console.log( response );
+}).catch( function( error ) {
+	console.log( error );
+});
+```
+
+<br>
+
+**Response:**
+
+```
+{
+	ServerLocation: 'US',
+	ServerName: 'RD0003FFAE814A',
+	CurrentTime: '2017-05-15 08:18:26',
+	Sott:
+	{ StartTime: '2017-05-15 08:18:26',
+		EndTime: '2017-05-15 08:38:26',
+		TimeDifference: '20 Minutes'
+	}
+}
+```
+
+<br>
+
+### Static SOTT
+
+You can generate a static SOTT in the LoginRadius Admin Console, and it is useful for development purposes. However, it is not recommended for production usage due to security reasons.
+
+![enter image description here](https://apidocs.lrcontent.com/images/Apps---LoginRadius-User-Dashboard_283105e96f7e3d39a36.27973500.png)
+
+After you follow step 5, you can copy the SOTT to your clipboard and use it as is.
+
+### Generate SOTT using account API
+
+You can use our account API to generate SOTT and can use directly to register user.
+Try this API [here](/api/v2/user-registration/generate-sott).
+
+Response:
+
+```
+{
+    "Sott": "",
+    "ExpiryTime":""
+}
+```
+
+## Demo
+
+See a live example of the SOTT generation here: https://dotnetfiddle.net/fHk8Ah

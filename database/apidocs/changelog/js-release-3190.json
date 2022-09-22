@@ -1,0 +1,14 @@
+{
+    "name": "JS Release 3.19.0",
+    "description": "We have rolled out another version of the V2JS, this release brings you a new feature.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Support configuring Custom Domain for LoginRadius Core APIs domain (api.loginradius.com) and Cloud APIs (cloud-api.loginradius.com) in the V2JS."
+            }
+        ]
+    },
+    "auther": "Gurjyot Singh",
+    "created_date": "2021-12-14",
+    "status": "public"
+}

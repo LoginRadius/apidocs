@@ -1,0 +1,24 @@
+{
+    "name": "Core Release 8.3",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "Remain existing token in case of account linking"
+            },{
+                "text": "LoginRadius Token callback type can be changed vuiaz the RAAS option $ui.callbacktype, accepts POST, QueryString, Url Hash"
+            },{
+                "text": "WordPress Social ID provider Oauth API Changes : a) changes in scope, additional scopes added b) new user profile data points added"
+            },{
+                "text": "LinkedIn Platform updates added"
+            },{
+                "text": "Yahoo Oauth 2.0 added"
+            },{
+                "text": "Password secure for SMTP - Encrypt in RAAS"
+            },{
+                "text": "RAAS email masking for default SMTP credentials"
+            }]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2015-2-1",
+    "status": "public"
+}

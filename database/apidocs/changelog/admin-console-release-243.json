@@ -1,0 +1,29 @@
+{ "name": "Admin Console Release 24.3",
+    "description": "This release of the Admin Console brings you few new features and some improvements, see below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "You can remove yourself from the shared sites under the <a href='https://adminconsole.loginradius.com/site-list'> Admin Console </a>"
+            },
+            {
+                "text": "Added new 'Communication Analytics' section under Insights in <a href='https://adminconsole.loginradius.com/insights/communication-analytics/sms-analytics'> Admin Console </a>. Allowing you to get the SMS Analytics by providing Information about automated SMS being sent through Twilio API."
+            }],
+        "IMPROVED": [
+            {
+                "text": "Enhanced the functionality and designing of our 'Identity Experience Framework' section in the <a href='https://adminconsole.loginradius.com/deployment/idx'> Admin Console </a>. Please refer to our <a href='/docs/libraries/identity-experience-framework/overview/'> document </a> for more details around it."
+            },
+            {
+                "text": "Updated 'Security Compliance' section in the <a href='https://adminconsole.loginradius.com/data-governance/trust-center/security-center/security-compliances'> Admin Console </a>. Refer to our <a href='/docs/api/v2/admin-console/platform-security/regulations/#securitycompliances1'> Regulations </a> document for more details."
+            },
+            {
+                "text": "Moving forward only API V2 will be supported hence removed the API version section from our Admin Console."
+            },
+            {
+                "text": "Enhanced the 'SMS Configuration' section in <a href='https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/sms-configuration'> Admin Console </a>, supporting a few other SMS providers apart from Twilio. Refer to our <a href='/docs/authentication/concepts/sms-configuration/#smsproviderconfiguration0'> SMS Provider Configuration </a> document for more details."
+            }
+        ]},
+
+    "auther": "Swati",
+    "created_date": "2020-06-19",
+    "status": "public"
+}

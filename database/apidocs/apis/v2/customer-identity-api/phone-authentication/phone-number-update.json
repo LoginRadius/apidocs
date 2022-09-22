@@ -1,0 +1,52 @@
+{
+    "name": "Phone Number Update",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/auth/phone",
+    "method": "PUT",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "smstemplate": ""
+    },
+    "postparams": {
+        "phone": "xxxxxxxxxxxxxxxxx"
+    },
+    "headers": {
+        "content-Type": "application/json",
+		"Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to update the login Phone Number of users",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            },
+            {
+                "name": "smstemplate",
+                "is_required": false,
+                "description": "Sms Template Name"
+            }
+        ],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+            }],
+        "Post Params": [
+            {
+                "name": "phone",
+                "is_required": true,
+                "description": "New Phone Number"
+            }
+        ]
+    },
+    "outputFormat": {
+  "IsPosted": true,
+  "Data": {
+    "AccountSid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "Sid": "SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  }
+}
+}

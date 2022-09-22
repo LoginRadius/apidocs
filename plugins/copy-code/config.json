@@ -1,0 +1,7 @@
+{
+    "name": "Copy Code",
+    "discription":"Copy Code",
+    "weight": "1",
+    "isActive": true,
+    "load": "copy-code/copy-code.php"
+}

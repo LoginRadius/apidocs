@@ -1,0 +1,36 @@
+{
+    "name": "Get Security Questions By User Name",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/securityquestion/username",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "username*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to retrieve the list of questions that are configured on the respective LoginRadius site.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "username",
+                "is_required": true,
+                "description": "Username of the user"
+            }
+        ]
+    },
+    "outputFormat": [
+        {
+            "QuestionId": "******7ff343fda******9a5c16b",
+            "Question": "what is your middlename?"
+        }
+    ]
+}

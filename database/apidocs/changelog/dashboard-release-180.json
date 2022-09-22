@@ -1,0 +1,34 @@
+{
+  "name": "Admin-console release 18.0",
+  "description": "The new LoginRadius Admin Console Release 18 delivers a multitude of design improvements along with useful new features. Please see details below.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "OpenID Connect: OpenID Connect has been added to the 'Federated SSO' section."
+      },
+      {
+        "text": "Workflow Settings: We are introducing a new Workflow Settings section to provide details of the configured workflows in your LoginRadius account. This new section can be found under Platform Configuration."
+      },
+      {
+        "text": "Integration: The 3rd Party Software area under Integration has been redesigned and you can now see the active integrations that are enabled in your account."
+      },
+      {
+        "text": "Security: As an enhanced security precaution, when trying to view or change certain settings in the Admin Console (e.g. when trying to view the API Secret), you will be re-prompted to enter your Admin Console password."
+      }
+    ],
+    "IMPROVED": [
+      {
+        "text": "Manage Users: The Registered Users section (User Management → Manage Users → Registered Users) has been updated to show the 100 most recent registered users by default."
+      },
+      {
+        "text": "Full View: The Full View mode for viewing User Profiles has been redesigned to provide a more streamlined access and navigation of the full profile."
+      },
+      {
+        "text": "Hosted Registration: The Hosted Registration editor has a fresh new look for simplified navigation."
+      }
+    ]
+  },
+  "auther": "Pascal",
+  "created_date": "2018-03-04",
+  "status": "public"
+}

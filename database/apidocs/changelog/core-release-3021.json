@@ -1,0 +1,14 @@
+{
+    "name": "Core Release 30.2.1",
+    "description": "We have released another version of the core release! This core release brings Facebook Version 7.0 update.",
+    "changelog": {
+    "IMPROVED": [
+        {
+          "text": "Deprecated Facebook API version 3.0 and the began using the next available version of the Facebook API, <strong> v7.0 </strong>. Refer to our <a href='/docs/api/v2/announcements/facebook-version-7.0-update-reminder/'> Announcement document </a> for more details on this." 
+        }]
+      },
+    "auther": "Swati",
+    "created_date": "2020-08-05",
+    "status": "public"
+  }
+  

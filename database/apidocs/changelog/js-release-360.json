@@ -1,0 +1,30 @@
+{
+    "name": "JS Release 3.6.0",
+    "description": "This JavaScript Release added Anonymous Login feature to LoginRadius V2 JavaScript and made some other minor improvements ",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "New Anonymous login features have been added to the LoginRadius V2 JavaScript. "
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "Two new validation rules 'alphanumeric_combo' and 'alpha_numeric_dash_combo' have been added to the LoginRadius default validation rules for validating strings that consist of alphabets and numbers, and alphabets, dash and numbers respectively."
+            }
+        ],
+        "FIXED": [
+            {
+                "text": "Changed how the optional fields are loaded within the LoginRadius JS Forms during progressive profiling steps."
+            },
+            {
+                "text": "The OTP field in the OTP Email Verification flow has been modified to minimize potential issues"
+            },
+            {
+                "text": "Improved how the interfaces are displayed when askRequiredFieldForTraditionalLogin and askOptionalFieldsOnRegistration options are both enabled within the Identity Experience Framework (hosted page)."
+            }
+        ]
+    },
+    "auther": "Jitender",
+    "created_date": "2019-07-11",
+    "status": "public"
+}

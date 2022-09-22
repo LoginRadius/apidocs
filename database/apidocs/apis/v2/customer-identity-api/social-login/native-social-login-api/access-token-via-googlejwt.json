@@ -1,0 +1,31 @@
+{
+    "name": "Access Token via Google JWT",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/access_token/googlejwt",
+    "method": "GET",
+    "getparams": {
+        "key*": "@apikey@",
+        "id_token*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to get a LoginRadius access_token by passing in the Google JWT id_token to be used for the Google login/registration. Note: This API will create a new 'googlejwt' provider profile for the customer using the fields obtained.",
+    "parameters": {
+        "Get Params": [{
+            "name": "key",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+        }, {
+            "name": "id_token",
+            "is_required": true,
+            "description": "Google JWT id_token"
+        }]
+    },
+    "outputFormat": {
+        "access_token": "87******-****-***7-*****-******c***f2",
+        "expires_in": "2017-10-09T09:37:35.4884699Z"
+    }
+    }

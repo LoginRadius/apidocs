@@ -1,0 +1,49 @@
+{
+  "name": "Admin-console release 2.0",
+  "description": "We have released the improved account interface for our customers. Please see below for a list of the major features added and see the following blog for more details.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "User Management - > User search and modificaton"
+      },
+      {
+        "text": "Help Docs added in each section in the user Admin-console"
+      },
+      {
+        "text": "Improved deployment options"
+      },
+      {
+        "text": "Adding custom email templates"
+      },
+      {
+        "text": "Transfer ownership of Site to different email/user"
+      },
+      {
+        "text": "Audit logs for any configuration changes/update"
+      },
+      {
+        "text": "Manage Zendesk tickets from Admin Console page"
+      },
+      {
+        "text": "Access token valid time option in user account"
+      }
+    ],
+    "FIXED": [
+      {
+        "text": "https and http issue with pre-defined and custom interface"
+      },
+      {
+        "text": "VK steps change"
+      },
+      {
+        "text": "Search By Email Id and UID on user management"
+      },
+      {
+        "text": "Social Icons sprite messing up on social login page"
+      }
+    ]
+  },
+  "auther": "Ashrujit Bhattacharya",
+  "created_date": "2016-7-1",
+  "status": "public"
+}

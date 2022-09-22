@@ -1,0 +1,16 @@
+{
+    "name": "Admin Console Release 24.3.4",
+    "description": "This release of the Admin Console brings you some improvements, see below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+      "IMPROVED": [
+        {
+          "text": "We’ve updated our list of common passwords given under <a href='https://adminconsole.loginradius.com/platform-security/account-protection/password-policy/password-complexity'> Admin Console </a>."
+        },
+        {
+          "text": "Updated the webhook exceptions with proper error messages."
+        }        
+      ]},
+  "auther": "Abhishek Singh",
+  "created_date": "2020-09-16",
+  "status": "public"
+  }

@@ -1,0 +1,36 @@
+{
+  "name": "Admin-console release 6.0",
+  "description": "The LoginRadius engineering team is proud to release version 6 of the User Admin Console. this release includes various improvements based on the feedback we received from our customers. Notably a more refined ability to perform User Segmentation.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "User Segmentation: New field filters will allow you to be more granular with your data selection i.e. you can now filter by Country, Age, Gender, City, State, etc."
+      },
+      {
+        "text": "Team Management: You now have the ability to send a password reset link from the Admin Console to members of your team."
+      },
+      {
+        "text": "Added OneClick Sign in Email Template: We have added the ability to edit the email template for the email that get sent out when implementing a OneClick Sign in flow."
+      },
+      {
+        "text": "Hosted Page Management: Managing your hosted pages via the admin-console is now possible allowing you to make quick updates."
+      }
+    ],
+    "FIXED": [
+      {
+        "text": "Faster Search: Search for users faster using either their Email or UID in the User Management area."
+      }
+    ],
+    "IMPROVED": [
+      {
+        "text": "Stats in User Admin Console: The initial Admin Console page is now showing day by day growth allowing you to keep track of your user registration trends."
+      },
+      {
+        "text": "Billing: Find your active subscriptions and invoices in the Billing area."
+      }
+    ]
+  },
+  "auther": "Pascal",
+  "created_date": "2017-1-1",
+  "status": "public"
+}

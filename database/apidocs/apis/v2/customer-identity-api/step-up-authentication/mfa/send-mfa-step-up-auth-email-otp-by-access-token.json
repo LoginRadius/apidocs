@@ -1,0 +1,50 @@
+{
+    "name": "Send MFA Step-Up Auth Email OTP by Access Token",
+    "domain":"https://api.loginradius.com",
+    "path": "/identity/v2/auth/account/reauth/2fa/otp/email",
+    "method": "GET",
+    "getparams": {
+      "apikey*": "@apikey@",
+      "emailid*": "",
+      "access_token*": "",
+      "EmailTemplate2FA": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is created to send the OTP to the email if email OTP authenticator is enabled in app's MFA configuration.",
+    "parameters": {
+      "Get Params": [
+          {
+        "name": "apikey",
+        "is_required": true,
+        "description": "Your LoginRadius API Key"
+
+      },
+      {
+        "name": "Email_ID",
+        "is_required": true,
+        "description": "OTP will be send to this emailId. It should be part of profile."
+
+      },
+      {
+        "name": "access_token",
+        "is_required": true,
+        "description": "Required access token"
+
+      },
+      {
+        "name": "EmailTemplate2F",
+        "is_required": false,
+        "description": "Name of the customized email template"
+
+      }
+    ]
+    },
+    "outputFormat": {
+        "IsPosted": true
+  }
+  }
+  

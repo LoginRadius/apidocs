@@ -1,0 +1,16 @@
+{
+    "name": "Core Release 4.5",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "Added Html5 login on *.hub.loginradius.com with new design"
+            }, {
+                "text": "Success Page Loading image changed"
+            }, {
+                "text": "Handled platform exceptions"
+            }]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2014-6-1",
+    "status": "public"
+}

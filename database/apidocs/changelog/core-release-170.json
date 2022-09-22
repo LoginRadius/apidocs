@@ -1,0 +1,29 @@
+{
+  "name": "LoginRadius API Core Release V17.0",
+  "description": "There is no shortage of new features for this new API release! With a focus on account security, here are the latest API additions: ",
+  "changelog": {
+  "ADDED": [
+      {
+        "text": "Passwordless Login or Registration / Simplified Instant Registration: Allow an end user to login without registration by prompting the user to input their email/phone number, and all it takes to log them in is for them to verify their email/phone number."
+      },
+	    {
+        "text": "Security Question Lockout: You can now configure the security question lockout setting so that if a user fails to reset their password when prompted the security question after select number of times, they will be locked out of their account."
+      },
+	    {
+        "text": "No Callback Social Login: Allowing or configuring the no callback feature will prevent the return of any token from the social authentication. Optionally, a GUID that has been returned can be used to fetch the profile from the Autologin Ping API."
+      },
+      {
+        "text": "Invalidate Phone Verification API: This provides the ability to reset the phone number verification status in a user’s account."
+      },
+      {
+        "text": "Get Configured Security Questions: The list of questions that are configured on the respective LoginRadius site can now be retrieved via API – By Email, By UserName, By Access Token, By Phone."
+      }],
+  "IMPROVED": [
+      {
+      "text": "Default SMS Provider: LoginRadius now has a default SMS provider to send out authentication or verification OTP with a monthly bound of 200 SMS."
+      }]
+    },
+  "auther": "Pascal",
+  "created_date": "2017-06-27",
+  "status": "public"
+}

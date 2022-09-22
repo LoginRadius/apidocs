@@ -1,0 +1,47 @@
+{
+  "name": "Access Token via Google Token",
+  "domain": "https://api.loginradius.com",
+  "path": "/api/v2/access_token/google",
+  "method": "GET",
+  "getparams": {
+    "key*": "@apikey@",
+    "google_access_token*": "",
+    "refresh_token": "",
+    "client_id": ""
+  },
+  "postparams": "",
+  "headers": {
+    "content-Type": "application/x-www-form-urlencoded"
+  },
+  "response": "json",
+  "description": "The API is used to get LoginRadius access token by sending Google’s access token. It will be valid for the specific duration of time specified in the response.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "key",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "google_access_token",
+        "is_required": true,
+        "description": "Google Access Token"
+      },
+      {
+        "name": "refresh_token",
+        "is_required": false,
+        "description": "Google Refresh Token"
+      },
+      {
+        "name": "client_id",
+        "is_required": false,
+        "description": "Google Client ID"
+      }
+    ]
+  },
+  "outputFormat": {
+    "access_token": "e******f-***5-4**2-***8-1d6******8a6",
+    "refresh_token": "b*****44-****-4***-****-182***94***6",
+    "expires_in": "2018-11-20T13:28:40.2339631Z"
+  }
+}

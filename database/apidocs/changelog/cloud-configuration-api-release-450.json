@@ -1,0 +1,13 @@
+{
+    "name": "Cloud Configuration API Release 4.5.0",
+    "description": "This release of the Cloud API brings improvement in the config API.",
+    "changelog": {
+        "IMPROVED": [{
+                "text": "The status of LoginOnPasswordReset feature is added in the config API‘s response."
+            }
+        ]
+    },
+    "auther": "Ashish Kumar Yadav",
+    "created_date": "2021-07-18",
+    "status": "public"
+}

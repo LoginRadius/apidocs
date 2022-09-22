@@ -1,0 +1,32 @@
+{
+    "name": "Get Access Token by QR Code",
+    "domain": "https://cloud-api.loginradius.com",
+    "path": "/sso/mobile/token",
+    "method": "GET",
+    "getparams": {
+      "apikey*": "@apikey@",
+      "code*": ""
+    },
+    "headers": { "content-Type":"application/json" },
+  "response": "json",
+    "description": "This API will be triggered by the browser and return the access token attached with the requested QR code string from the Database.",
+    "parameters": {
+      "Get Params": [
+        {
+          "name": "apikey",
+          "is_required": true,
+          "description": "LoginRadius API Key"
+        },
+        {
+            "name": "code",
+            "is_required": true,
+            "description": "Generated unique code string from the <a href='/docs/api/v2/single-sign-on/cross-device-sso/generate-qr-code-string/'> Generate QR Code Image API </a>"
+          }
+      ]
+    },
+    "outputFormat":
+    {
+        "access_token": "f1****22-***e-4**d-b***-d4*****b5**1"
+    }
+  }
+  

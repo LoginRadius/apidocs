@@ -1,0 +1,124 @@
+{
+  "name": "User Update",
+  "description": "This api is used to update the existing user in your .",
+  "domain": "https:\/\/api.loginradius.com",
+  "path": "\/raas\/v1\/user",
+  "method": "POST",
+  "getparams": {
+    "appkey*": "@apikey@",
+    "appsecret*": "@secret@",
+    "userid*": ""
+  },
+  "postparams": {
+    "firstname": "Test",
+    "lastname": "Account",
+    "gender": "M",
+    "birthDate": "10-13-1985",
+    "country": "India",
+    "city": "Edmonton",
+    "state": "Alberta",
+    "phonenumber": "1234567890",
+    "nickname": "",
+    "profilename": "",
+    "website": "",
+    "hometown": "",
+    "industry": "",
+    "relationshipstatus": "",
+    "age": "",
+    "placeslived": "",
+    "address1": "",
+    "address2": "",
+    "company": "",
+    "postalcode": "",
+    "emailsubscription": "true",
+    "imageUrl": "",
+    "thumbnailImageUrl": "",
+    "timezone": "",
+    "about": "",
+    "webprofiles": {
+      "Profile": "https:\/\/myprofile.com"
+    },
+    "type": "",
+    "Country": "",
+    "UserLanguages": [
+      {
+        "Id": "",
+        "Name": "English",
+        "Proficiency": ""
+      },
+      {
+        "Id": "",
+        "Name": "French",
+        "Proficiency": ""
+      },
+      {
+        "Id": "",
+        "Name": "Spanish",
+        "Proficiency": ""
+      }
+    ]
+  },
+  "headers": {
+    "content-Type": "application\/json"
+  },
+  "response": "json",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "api_key",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "api_secret",
+        "is_required": true,
+        "description": "LoginRadius API Secret"
+      },
+      {
+        "name": "Userid",
+        "is_required": true,
+        "description": "LoginRadius Userid "
+      }
+    ],
+    "Post Params": [
+      {
+        "name": "emailid",
+        "is_required": false,
+        "description": "Email of the user"
+      },
+      {
+        "name": "password",
+        "is_required": false,
+        "description": "Password of the user"
+      },
+      {
+        "name": "FirstName",
+        "is_required": false,
+        "description": "FirstName of the user"
+      },
+      {
+        "name": "LastName",
+        "is_required": false,
+        "description": "LastName of the user"
+      },
+      {
+        "name": "Gender",
+        "is_required": false,
+        "description": "Gender of the user"
+      },
+      {
+        "name": "BirthDate",
+        "is_required": false,
+        "description": "BirthDate of the user"
+      },
+      {
+        "name": "Country",
+        "is_required": false,
+        "description": "Country of the user"
+      }
+    ]
+  },
+  "outputFormat": {
+    "isPosted": true
+  }
+}

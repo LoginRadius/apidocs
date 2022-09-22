@@ -1,0 +1,19 @@
+#intercom-container .intercom-header-buttons-close.intercom-header-buttons-close-visible {
+    display: none !important;
+}
+
+#intercom-container .intercom-messenger-frame, #intercom-positioner-tree .intercom-messenger-frame {
+    z-index: 2147483000 !important;
+    position: fixed !important;
+    bottom: 15px;
+    right: 15px;
+    height: calc(100% - 20px - 20px);
+    width: 432px !important;
+    min-height: 250px !important;
+    max-height: 550px !important;
+    -webkit-box-shadow: 0 5px 40px rgba(0, 0, 0, 0.16) !important;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.16) !important;
+    border-radius: 5px !important;
+    overflow: hidden !important;
+    opacity: 1 !important;
+}

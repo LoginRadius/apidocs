@@ -1,0 +1,45 @@
+{
+    "name": "Core Release 9.0",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "Feature to auto Login user just after the email verification is added"
+            },{
+                "text": "Login through multiple profile email ID feature added"
+            },{
+                "text": "Client and server side APIs added to check whether is avilable to register or not"
+            },{
+                "text": "Additional emails can be added or removed"
+            },{
+                "text": "New API added to Get User Profiles form the Email ID"
+            },{
+                "text": "Profile update API has been enhanced to update more user profile fields, such as ImageUrl, ThumbnailImageUrl, TimeZone, About, WebProfiles, AddressType."
+            },{
+                "text": "Delete or remove value through Edit profile API, One can remove the data of user profile fields."
+            },{
+                "text": "Password periodically reset option added"
+            },{
+                "text": "New API added : Set user's password by the accountid"
+            },{
+                "text": "New API added :Change user's password by the accountid"
+            },{
+                "text": "New API added : Get password hash by the accountid"
+            },{
+                "text": "New API added : Delete account by the accountid"
+            },{
+                "text": "Capability to customize the user registeration form fields label added"
+            },{
+                "text": "User profile gender update options stretched, following fields can be updated as gender: male|female|other|unknown|m|f|o|u"
+            }],
+        "FIXED": [{
+                "text": "use case ‘remove confirm password’ and ‘password length’ together form was not rendering"
+            }, {
+                "text": "callback type added to handle multiple tabs of iOS chrome browser"
+            }, {
+                "text": "Added new particular field of postal code for user profile, this had been overwriting by the social login."
+            }]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2015-4-1",
+    "status": "public"
+}

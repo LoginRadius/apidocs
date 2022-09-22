@@ -1,0 +1,54 @@
+{
+    "name": "Access Token by OpenID code",
+    "domain": "https://cloud-api.loginradius.com",
+    "path": "/sso/oidc/token",
+    "method": "POST",
+    "getparams": {},
+    "postparams": {
+        "grant_type": "authorization_code",
+        "client_id": "",
+        "client_secret": "",
+        "redirect_uri":"",
+        "response_type":"token",
+        "code":""
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API allows you to exchange your OpenID code for a LoginRadius access_token",
+    "parameters": {
+        "Body Params": [
+          {
+            "name": "grant_type",
+            "is_required": true,
+            "description": "This is the grant type to be used, you should provide 'authorization_code'"
+          },
+          {
+            "name": "client_id",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+          },
+          {
+            "name": "client_secret",
+            "is_required": true,
+            "description": "LoginRadius API Secret"
+          },{
+            "name": "response_type",
+            "is_required": false,
+            "description": "If used, needs to be 'token'"
+          },{
+            "name": "code",
+            "is_required": true,
+            "description": "The code parameter, which is returned from the Login Dialog"
+          }
+        ]
+    },
+    "outputFormat": {
+      "access_token": "********-****-****-*****************",
+      "token_type": "access_token",
+      "refresh_token": "********-****-****-*****************",
+      "expires_in": 394,
+      "id_token": "eyJhbG**********4NiIsInR5cCI*****VCJ9.eyJpc3**********czy****udGVybmFsL"
+    }
+}

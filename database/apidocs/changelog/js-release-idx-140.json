@@ -1,0 +1,26 @@
+{
+    "name": "JS Release | IDX 1.4.0",
+    "description": "We have rolled out a version of the IDX basic theme that brings you some additions to the IDX basic theme page and some minor bug fixes.",
+    
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Support sending redirect after login URL in the query parameter."
+            },
+            {
+                "text": "Support for updating the color and label of Resend Button for MFA UI."
+            },
+            {
+                "text": "You can now  change the button’s color in the UI for Phone login feature."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "The styling for the Social Login icon is updated."
+            }
+        ]
+    },
+    "auther": "Gurjyot Singh",
+    "created_date": "2021-09-26",
+    "status": "public"
+}

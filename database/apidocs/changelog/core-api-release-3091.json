@@ -1,0 +1,18 @@
+{
+    "name": "Core API Release 30.9.1",
+    "description": "This release brings a bug fix to our LoginRadius Core API, please see below for details:",
+    "changelog":
+   {
+    "FIXED": 
+    [
+        
+        {
+          "text": "Incorrect account auto linking on reset password when v1 API is not disabled."
+        }
+    
+    ]
+    },
+    "auther": "Vaibhav Jain",
+    "created_date": "2021-02-12",
+    "status": "public"
+  }

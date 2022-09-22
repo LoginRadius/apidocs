@@ -1,0 +1,38 @@
+{
+  "name": "Admin-console Release 21.2",
+  "description": "This new Admin Console release introduces a lot of new capabilities that were previously only available via the LoginRadius APIs, see below for the list of features.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Roles And Membership: From this new section, you can manage the multiple roles and permissions of your customers."
+      },
+      {
+        "text": "Progressive Profiling Feature: Configure Progressive Profiling directly from within the Admin Console."
+      },
+      {
+        "text": "Enable Customer After a Lockout:  Added this feature in the Full Profile View.  You can  now easily unlock your locked customers without going through the API."
+      },
+      {
+        "text": "Add/Remove Email Feature: Added this feature in the Full Profile View. Using this you can manage your customer's emails."
+      }
+    ],
+    "IMPROVED": [
+      {
+        "text": "Privacy Versioning Enhanced:  We have added a new section named 'Privacy Center' allowing you to have greater visibility in your different policy versions."
+      },
+      {
+        "text": "Verified Email Checkmark icon: The Verified Email checkmark icon is now also showing directly on the customer profiles under the profile management."
+      },
+      {
+        "text": "Added Environment Tag: On the left hand-side we have added a tag to indicate your environment (Production/Staging/Development)."
+      },
+      {
+        "text": "Added JSON Data Export Option: The Data Export feature now Supports both CSV and JSON. With CSV, you are given a dropdown field selection tool, whereas with JSON by default all fields are exported."
+      }
+    ]
+  },
+
+  "auther": "Pascal",
+  "created_date": "2018-10-30",
+  "status": "public"
+}

@@ -1,0 +1,54 @@
+{
+    "name": "Get Object by Account ID",
+    "domain": "https://api.loginradius.com",
+    "path": "/raas/v1/user/customObject",
+    "method": "GET",
+    "getparams": {
+        "appkey*": "@apikey@",
+        "appsecret*": "@secret@",
+        "objectid*": "",
+        "accountid*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This api is use to get the Custom Object for the specified account based on the account ID(UID).",
+    "parameters": {
+        "Get Parameters": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            },
+            {
+                "name": "appsecret",
+                "is_required": true,
+                "description": "Login Radius API Secret"
+            },
+            {
+                "name": "objectid",
+                "is_required": true,
+                "description": "LoginRadius Custom Objectid"
+            },
+            {
+                "name": "accountid",
+                "is_required": true,
+                "description": "User's accountid"
+            }
+        ]
+    },
+    "outputFormat": {
+        "Id": "5a4*******a2f2****45***8",
+        "IsActive": true,
+        "DateCreated": "2017-12-26T08:44:03.262Z",
+        "DateModified": "2017-12-26T08:44:03.262Z",
+        "IsDeleted": false,
+        "Uid": "530*******b5****79*******f5a***63",
+        "CustomObject": {
+            "Hobby": "Store your hobby",
+            "Religion": "Store ur religion"
+        }
+    }
+}

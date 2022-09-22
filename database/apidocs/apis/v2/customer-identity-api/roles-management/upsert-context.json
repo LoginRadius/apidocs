@@ -1,0 +1,109 @@
+{
+    "name": "Upsert Context",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/{uid}/rolecontext",
+    "method": "PUT",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": {
+        "rolecontext": [
+            {
+                "context": "Home",
+                "roles": ["admin", "user"],
+                "additionalpermissions": ["X", "Y", "Z"],
+                "expiration" : "07/15/2018 8:30:08 AM"
+            },
+            {
+                "context": "Work",
+                "roles": ["admin"],
+                "additionalpermissions": ["X", "Y", "Z"],
+                "expiration" : "07/15/2018 8:30:08 AM"
+            }
+        ]
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API creates a Context with a set of Roles",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "Login Radius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ],
+        "Template Param": [
+            {
+                "name": "uid",
+                "is_required": true,
+                "description": "User's UID"
+            }
+        ],
+        "Post Param": [
+            {
+                "name": "rolecontext",
+                "is_required": true,
+                "description": "Array of RoleContext object, see body tab for structure"
+            },
+            {
+                "name": "context",
+                "is_required": true,
+                "description": "Name of context, see body tab for structure"
+            },
+            {
+                "name": "roles",
+                "is_required": true,
+                "description": "Array of Roles, see body tab for structure"
+            },
+            {
+                "name": "additionalpermissions",
+                "is_required": false,
+                "description": "Array of Additional Permissions, see body tab for structure"
+            },
+            {
+                "name": "expiration",
+                "is_required": false,
+                "description": "The date(mm/dd/yyyy h:m:s) of expiration of Role Context, see body tab for structure"
+            }
+        ]
+    },
+    "outputFormat":
+    {
+        "Data": [
+            {
+                "Context": "Home",
+                "Roles": [
+                    "SubAdministrator",
+                    "Administrator"
+                ],
+                "AdditionalPermissions": [
+                    "X",
+                    "Y",
+                    "Z"
+                ],
+                "Expiration": "2018-07-15T08:30:08Z"
+            },
+            {
+                "Context": "Work",
+                "Roles": [
+                    "Editor"
+                ],
+                "AdditionalPermissions": [
+                    "X",
+                    "Y",
+                    "Z"
+                ],
+                "Expiration": "2018-07-15T08:30:08Z"
+            }
+        ]
+    }
+}

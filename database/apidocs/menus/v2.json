@@ -1,0 +1,2158 @@
+{
+  "Getting Started": {
+    "basic": [
+      {
+        "url": "v2/getting-started/introduction/",
+        "title": "Introduction",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/getting-started/implementation-workflows/",
+        "title": "Implementation Workflows",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/getting-started/auth-type-overview/",
+        "title": "Auth Type Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/getting-started/security-best-practice/",
+        "title": "Security Best Practice",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/getting-started/acceptable-use-policy/",
+        "title": "Acceptable Use Policy",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/getting-started/export-to-postman/",
+        "title": "Export to Postman",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/getting-started/data-migration/",
+        "title": "Data Migration",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/getting-started/loginradius-site-license-overview/",
+        "title": "LoginRadius Site License Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/getting-started/glossary/",
+        "title": "Glossary",
+        "type": "DOC"
+      }
+    ],
+    "Data Points": [
+      {
+        "url": "v2/getting-started/data-points/data-points/",
+        "title": "Data Points",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/getting-started/data-points/detailed-data-points/",
+        "title": "Detailed Data Points",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/getting-started/data-points/editable-data-fields/",
+        "title": "Editable Data Fields",
+        "type": "DOC"
+      }
+    ],
+    "Response Codes": [
+      {
+        "url": "v2/getting-started/response-codes/customer-identity-api-codes/",
+        "title": "Customer Identity API Codes",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/getting-started/response-codes/sso-api-codes/",
+        "title": "SSO API Codes",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/getting-started/response-codes/cloud-directory-api-codes/",
+        "title": "Cloud Directory API Codes",
+        "type": "DOC"
+      }
+    ]
+  },
+  "Admin Console": {
+    "basic": [
+      {
+        "url": "v2/admin-console/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      }
+    ],
+    "Platform Configuration": {
+      "basic": [
+        {
+          "url": "v2/admin-console/platform-configuration/Overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/platform-configuration/passwordless-login-configuration/",
+          "title": "Passwordless Login Configuration",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/platform-configuration/phone-login-configuration/",
+          "title": "Phone Login Configuration",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/platform-configuration/custom-field-configuration/",
+          "title": "Custom Field Configuration",
+          "type": "DOC"
+        }
+      ],
+      "Communication Configuration": {
+        "basic": [],
+        "Email": {
+          "basic": [
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/email/overview/",
+              "title": "Overview",
+              "type": "DOC"
+            },
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/email/email-configuration/",
+              "title": "Email Configuration",
+              "type": "DOC"
+            },
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/email/global-email-settings/",
+              "title": "Global Email Settings",
+              "type": "DOC"
+            }
+          ],
+          "Providers": [
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/email/providers/sendgrid/",
+              "title": "SendGrid",
+              "type": "DOC"
+            },
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/email/providers/mailazy/",
+              "title": "Mailazy",
+              "type": "DOC"
+            },
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/email/providers/mailgun/",
+              "title": "Mailgun",
+              "type": "DOC"
+            },
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/email/providers/aws/",
+              "title": "AWS",
+              "type": "DOC"
+            },
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/email/providers/mandrill/",
+              "title": "Mandrill",
+              "type": "DOC"
+            },
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/email/providers/gmail/",
+              "title": "Gmail",
+              "type": "DOC"
+            },
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/email/providers/salesforce-marketing-cloud/",
+              "title": "Salesforce Marketing Cloud",
+              "type": "DOC"
+            },
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/email/providers/yahoo/",
+              "title": "Yahoo",
+              "type": "DOC"
+            }
+          ]
+        },
+        "SMS": {
+          "basic": [
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/overview/",
+              "title": "Overview",
+              "type": "DOC"
+            },
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/sms-configuration/",
+              "title": "SMS Configuration",
+              "type": "DOC"
+            },
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/global-sms-settings/",
+              "title": "Global SMS Settings",
+              "type": "DOC"
+            }
+          ],
+          "Providers": [
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/providers/twilio-configuration/",
+              "title": "Twilio Configuration",
+              "type": "DOC"
+            },
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/providers/instaalerts-configuration/",
+              "title": "InstaAlerts Configuration",
+              "type": "DOC"
+            },
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/providers/messagebird-configuration/",
+              "title": "MessageBird Configuration",
+              "type": "DOC"
+            },
+            {
+              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/providers/textlocal-configuration/",
+              "title": "Textlocal Configuration",
+              "type": "DOC"
+            }
+          ]
+        }
+      },
+      "Standard Login": {
+        "basic": [
+          {
+            "url": "v2/admin-console/platform-configuration/standard-login/data-schema/",
+            "title": "Data Schema",
+            "type": "DOC"
+          },
+          {
+            "url": "v2/admin-console/platform-configuration/standard-login/email-templates/",
+            "title": "Email Templates",
+            "type": "DOC"
+          }
+        ]
+      }
+    },
+    "Deployment": {
+      "basic": [
+        {
+          "url": "v2/admin-console/deployment/production-environments/",
+          "title": "Production Environments",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/deployment/custom-domain-and-ssl-configuration/",
+          "title": "Custom Domain & SSL Configuration",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/deployment/get-site-app-name/",
+          "title": "Get Site/App Name",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/deployment/progressive-profiling/",
+          "title": "Progressive Profiling",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/deployment/site-configurations-sync/",
+          "title": "Configuration Deploy",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/deployment/js-widgets/",
+          "title": "JS Widgets",
+          "type": "DOC"
+        }
+      ]
+    },
+    "Platform Security": {
+      "basic": [
+        {
+          "url": "v2/admin-console/platform-security/platform-security-overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/platform-security/api-key-and-secret/",
+          "title": "API Key and Secret",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/platform-security/api-security/",
+          "title": "API Security",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/platform-security/auth-security-configuration/",
+          "title": "Auth Security",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/platform-security/password-policy/",
+          "title": "Password Policy",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/platform-security/security-question/",
+          "title": "Security Question",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/platform-security/multi-factor-auth/",
+          "title": "Multi-Factor Auth",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/platform-security/risk-based-auth/",
+          "title": "Risk Based Auth",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/platform-security/session-management/",
+          "title": "Session Management",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/platform-security/regulations/",
+          "title": "Regulations",
+          "type": "DOC"
+        }
+      ],
+      "Captcha Providers": [
+        {
+          "url": "v2/admin-console/platform-security/captcha-providers/tencent-captcha-configuration/",
+          "title": "Tencent Captcha Configuration",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/platform-security/captcha-providers/google-recaptcha-configuration/",
+          "title": "Google reCAPTCHA Configuration",
+          "type": "DOC"
+        }
+      ]
+    },
+    "My Account": {
+      "basic": [
+        {
+          "url": "v2/admin-console/my-account/profile/",
+          "title": "Profile",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/my-account/login-session",
+          "title": "Login Session",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/my-account/security",
+          "title": "Security",
+          "type": "DOC"
+        }
+      ]
+    },
+    "Team Management": {
+      "SSO connectors": [
+        {
+          "url": "v2/admin-console/team-management/sso-connectors/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/team-management/sso-connectors/adfs-setup-in-admin-console/",
+          "title": "ADFS",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/team-management/sso-connectors/salesforce/",
+          "title": "Salesforce",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/team-management/sso-connectors/Saml/",
+          "title": "SAML",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/team-management/sso-connectors/setup-azure-ad/",
+          "title": "Setup Azure AD",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/team-management/sso-connectors/okta-integrations/",
+          "title": "Okta Integration",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/team-management/sso-connectors/onelogin-integration/",
+          "title": "OneLogin Integration",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/team-management/sso-connectors/ping-identity-integration/",
+          "title": "Ping Identity Integration",
+          "type": "DOC"
+        }
+      ],
+      "basic": [
+        {
+          "url": "v2/admin-console/team-management/team-management-overview/",
+          "title": "Team Management Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/team-management/audit-logs/",
+          "title": "Audit Logs",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/team-management/manage-team-members/",
+          "title": "Manage Team Members",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/team-management/transfer-site-ownership/",
+          "title": "Transfer Site Ownership",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/team-management/shared-sites/",
+          "title": "Shared Sites",
+          "type": "DOC"
+        }
+      ]
+    },
+    "Social Provider": {
+      "basic": [
+        {
+          "url": "v2/admin-console/social-provider/social-provider-overview/",
+          "title": "Social Provider Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/social-provider/configure-social-apps/",
+          "title": "Configure Social Apps",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/social-provider/multiple-social-apps/",
+          "title": "Multiple Social Apps",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/social-provider/advanced-social-data-points/",
+          "title": "Advanced Social Profile Data Points",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/social-provider/configure-social-data-settings/",
+          "title": "Configure Social Data Settings",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/social-provider/social-network-limitations/",
+          "title": "Social Network Limitations",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/social-provider/social-provider-faqs/",
+          "title": "Social Provider FAQ",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/social-provider/supported-social-networks/",
+          "title": "Supported Social Networks",
+          "type": "DOC"
+        }
+      ],
+      "Providers": [
+        {
+          "url": "v2/admin-console/social-provider/providers/apple/",
+          "title": "Apple",
+          "type": "DOC"
+        }
+      ],
+      "App Reviews": [
+        {
+          "url": "v2/admin-console/social-provider/app-reviews/google-app-review/",
+          "title": "Google App Review",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/social-provider/app-reviews/facebook-app-review/",
+          "title": "Facebook App Review",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/social-provider/app-reviews/linkedin-app-review/",
+          "title": "LinkedIn App Review",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/social-provider/app-reviews/twitter-app-review/",
+          "title": "Twitter App Review",
+          "type": "DOC"
+        }
+      ]
+    },
+    "Profile Management": {
+      "basic": [
+        {
+          "url": "v2/admin-console/profile-management/data-export/",
+          "title": "Data Export",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/profile-management/customer-segmentation/",
+          "title": "Customer Segmentation",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/profile-management/customer-management/",
+          "title": "Customer Management",
+          "type": "DOC"
+        }
+      ]
+    }
+  },
+  "Deployment": {
+    "basic": [
+      {
+        "url": "v2/deployment/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      }
+    ]
+  },
+  "Customer Identity API": {
+    "basic": [
+      {
+        "url": "v2/customer-identity-api/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/api-security/",
+        "title": "API Security",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/form-api/",
+        "title": "Form API",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/advanced-api-usage/",
+        "title": "Advanced API Usage",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/sott-usage/",
+        "title": "SOTT Usage",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/security-question-api-usage/",
+        "title": "Security Question API Usage",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/jwt-login-flow/",
+        "title": "JWT Login Flow",
+        "type": "DOC"
+      }
+    ],
+    "Authentication": [
+      {
+        "url": "v2/customer-identity-api/authentication/authentication-overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-add-email/",
+        "title": "Auth Add Email",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-forgot-password/",
+        "title": "Auth Forgot Password",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-user-registration-by-email/",
+        "title": "Auth User Registration by Email",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-user-registration-by-recaptcha/",
+        "title": "Auth User Registration by ReCaptcha",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-login-by-email/",
+        "title": "Auth Login by Email",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-login-by-username/",
+        "title": "Auth Login by Username",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-link-social-identities/",
+        "title": "Auth Link Social Identities",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-link-social-identities-clientguid/",
+        "title": "Auth Link Social Identities by ClientGuid",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-email-availability/",
+        "title": "Auth Email Availability",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-username-availability/",
+        "title": "Auth Username Availability",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-read-profiles-by-token/",
+        "title": "Auth Read Profiles by Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-privacy-policy-accept/",
+        "title": "Auth Privacy Policy Accept",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-send-welcome-email/",
+        "title": "Auth Send Welcome Email",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-validate-access-token/",
+        "title": "Auth Validate Access Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-access-token-info/",
+        "title": "Auth Access Token Info",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-verify-email/",
+        "title": "Auth Verify Email",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-delete-account/",
+        "title": "Auth Delete Account",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-invalidate-access-token/",
+        "title": "Auth Invalidate Access Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/security-questions-by-access-token/",
+        "title": "Security Questions by Access Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/security-questions-by-email/",
+        "title": "Security Questions by Email",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/security-questions-by-user-name/",
+        "title": "Security Questions by User Name",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/security-questions-by-phone/",
+        "title": "Security Questions by Phone",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/privacy-policy-history-by-access-token/",
+        "title": "Privacy Policy History by Access Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-verify-email-by-otp/",
+        "title": "Auth Verify Email by OTP",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-change-password/",
+        "title": "Auth Change Password",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-resend-email-verification/",
+        "title": "Auth Resend Email Verification",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-reset-password-by-reset-token/",
+        "title": "Auth Reset Password by Reset Token",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-reset-password-by-otp/",
+        "title": "Auth Reset Password by OTP",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-reset-password-by-email/",
+        "title": "Auth Reset Password by Email",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-reset-password-by-phone/",
+        "title": "Auth Reset Password by Phone",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-reset-password-by-username/",
+        "title": "Auth Reset Password by Username",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-reset-password-by-otp-and-username/",
+        "title": "Auth Reset Password by OTP and UserName",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-set-or-change-user-name/",
+        "title": "Auth Set or Change User Name",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-unlock-account-by-access-token/",
+        "title": "Auth Unlock Account by Access Token",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-update-profile-by-token/",
+        "title": "Auth Update Profile by Token",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-update-security-question-by-access-token/",
+        "title": "Auth Update Security Question by Access Token",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-delete-account-with-email-confirmation/",
+        "title": "Auth Delete Account with Email Confirmation",
+        "type": "DELETE"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-remove-email/",
+        "title": "Auth Remove Email",
+        "type": "DELETE"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication/auth-unlink-social-identities/",
+        "title": "Auth Unlink Social Identities",
+        "type": "DELETE"
+      }
+    ],
+    "Account": [
+      {
+        "url": "v2/customer-identity-api/account/account-overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-create/",
+        "title": "Account Create",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/account/get-email-verification-token/",
+        "title": "Get Email Verification Token",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/account/get-forgot-password-token/",
+        "title": "Get Forgot Password Token",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-identities-by-email/",
+        "title": "Account Identities by Email",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-impersonation-api/",
+        "title": "Account Impersonation API",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-password/",
+        "title": "Account Password",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-profiles-by-email/",
+        "title": "Account Profiles by Email",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-profiles-by-user-name/",
+        "title": "Account Profiles by User Name",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-profiles-by-phone-id/",
+        "title": "Account Profiles by Phone ID",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-profiles-by-uid/",
+        "title": "Account Profiles by UID",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/account/privacy-policy-history-by-uid/",
+        "title": "Privacy Policy History by UID",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-set-password/",
+        "title": "Account Set Password",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-update/",
+        "title": "Account Update",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/account/upsert-email/",
+        "title": "Upsert Email",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-update-security-question/",
+        "title": "Account Update Security Question",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/account/update-phoneid-by-uid/",
+        "title": "Update PhoneID by UID",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-invalidate-verification-email/",
+        "title": "Account Invalidate Verification Email",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-email-delete/",
+        "title": "Account Email Delete",
+        "type": "DELETE"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-delete/",
+        "title": "Account Delete",
+        "type": "DELETE"
+      },
+      {
+        "url": "v2/customer-identity-api/account/account-delete-by-email/",
+        "title": "Account Delete by Email",
+        "type": "DELETE"
+      }
+    ],
+    "Roles Management": [
+      {
+        "url": "v2/customer-identity-api/roles-management/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/roles-management/roles-create/",
+        "title": "Roles Create",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/roles-management/get-context/",
+        "title": "Get Context",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/roles-management/role-context-profile/",
+        "title": "Role Context profile",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/roles-management/roles-list/",
+        "title": "Roles List",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/roles-management/get-roles-by-uid/",
+        "title": "Get Roles by UID",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/roles-management/add-permissions-to-role/",
+        "title": "Add Permissions to Role",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/roles-management/assign-roles-by-uid/",
+        "title": "Assign Roles by UID",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/roles-management/upsert-context/",
+        "title": "Upsert Context",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/roles-management/delete-role/",
+        "title": "Delete Role",
+        "type": "DELETE"
+      },
+      {
+        "url": "v2/customer-identity-api/roles-management/unassign-roles-by-uid/",
+        "title": "Unassign Roles by UID",
+        "type": "DELETE"
+      },
+      {
+        "url": "v2/customer-identity-api/roles-management/remove-permissions/",
+        "title": "Remove Permissions",
+        "type": "DELETE"
+      },
+      {
+        "url": "v2/customer-identity-api/roles-management/delete-context/",
+        "title": "Delete Context",
+        "type": "DELETE"
+      },
+      {
+        "url": "v2/customer-identity-api/roles-management/delete-role-from-context/",
+        "title": "Delete Role from Context",
+        "type": "DELETE"
+      },
+      {
+        "url": "v2/customer-identity-api/roles-management/delete-permissions-from-context/",
+        "title": "Delete Permissions from Context",
+        "type": "DELETE"
+      }
+    ],
+    "Social Login": {
+      "basic": [
+        {
+          "url": "v2/customer-identity-api/social-login/getting-started/",
+          "title": "Getting Started",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/customer-identity-api/social-login/social-login-by-ping/",
+          "title": "SocialLogin by Ping",
+          "type": "GET"
+        }
+      ],
+      "Native Social Login API": [
+        {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-facebook-token/",
+          "title": "Access Token via Facebook Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-twitter-token/",
+          "title": "Access Token via Twitter Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-linkedin-token/",
+          "title": "Access Token via LinkedIn Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-vkontakte-token/",
+          "title": "Access Token via Vkontakte Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-google-token/",
+          "title": "Access Token via Google Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-foursquare-token/",
+          "title": "Access Token via Foursquare Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-googlejwt/",
+          "title": "Access Token via Google JWT",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-google-auth-code/",
+          "title": "Access Token via Google AuthCode",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-wechat-code/",
+          "title": "Access Token via Wechat Code",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-apple-id-code/",
+          "title": "Access Token via Apple ID Code",
+          "type": "GET"
+        }
+      ]
+    },
+    "Phone Authentication": [
+      {
+        "url": "v2/customer-identity-api/phone-authentication/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/phone-authentication/phone-login/",
+        "title": "Phone Login",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/phone-authentication/phone-forgot-password-by-otp/",
+        "title": "Phone Forgot Password by OTP",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/phone-authentication/phone-resend-otp/",
+        "title": "Phone Resend OTP",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/phone-authentication/phone-resend-otp-by-token/",
+        "title": "Phone Resend OTP by Token",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms/",
+        "title": "Phone User Registration by SMS",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/phone-authentication/phone-number-availability/",
+        "title": "Phone Number Availability",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/phone-authentication/phone-number-update/",
+        "title": "Phone Number Update",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/phone-authentication/phone-reset-password-by-otp/",
+        "title": "Phone Reset Password by OTP",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/phone-authentication/phone-verify-otp/",
+        "title": "Phone Verify OTP",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/phone-authentication/phone-verify-otp-by-token/",
+        "title": "Phone Verify OTP by Token",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/phone-authentication/reset-phone-id-verification/",
+        "title": "Reset phone ID verification",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/phone-authentication/remove-phone-id-by-access-token/",
+        "title": "Remove Phone ID by Access Token",
+        "type": "DELETE"
+      }
+    ],
+    "Multi-Factor Authentication": {
+      "basic": [
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/MFA-with-Risk-Based-Authentication/",
+          "title": "MFA with Risk Based Authentication",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/LR-Authenticator-Mobile-Application/",
+          "title": "LR Authenticator Mobile Application",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/mfa-email-login/",
+          "title": "MFA Email Login",
+          "type": "POST"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/mfa-user-name-login/",
+          "title": "MFA User Name Login",
+          "type": "POST"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/mfa-phone-login/",
+          "title": "MFA Phone Login",
+          "type": "POST"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/mfa-validate-access-token/",
+          "title": "MFA Validate Access Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/resend-twofactorauthentication-otp/",
+          "title": "Resend TwoFactorAuthentication OTP",
+          "type": "GET"
+        }
+      ],
+      "Google Authenticator": [
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/Google-Authenticator/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-validate-google-auth-code/",
+          "title": "MFA Validate Google Auth Code",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/google-authenticator/update-mfa-by-access-token/",
+          "title": "Update MFA by Access Token",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-token/",
+          "title": "MFA Reset Google Authenticator by Token",
+          "type": "DELETE"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-uid/",
+          "title": "MFA Reset Google Authenticator by UID",
+          "type": "DELETE"
+        }
+      ],
+      "SMS Authenticator": [
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/SMS-Authenticator/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-validate-otp/",
+          "title": "MFA Validate OTP",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-update-phone-number/",
+          "title": "MFA Update Phone Number",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-update-phone-number-by-token/",
+          "title": "MFA Update Phone Number by Token",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/sms-authenticator/update-mfa-setting/",
+          "title": "Update MFA Setting",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-reset-sms-authenticator-by-token/",
+          "title": "MFA Reset SMS Authenticator by Token",
+          "type": "DELETE"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-reset-sms-authenticator-by-uid/",
+          "title": "MFA Reset SMS Authenticator by UID",
+          "type": "DELETE"
+        }
+      ],
+      "Email Authenticator": [
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/Email-Authenticator/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-access-token/",
+          "title": "Send MFA Email OTP by Access Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-mfa-token/",
+          "title": "Send MFA Email OTP by MFA Token",
+          "type": "POST"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/email-authenticator/verify-mfa-email-otp-by-mfa-token/",
+          "title": "Verify MFA Email OTP by MFA Token",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/email-authenticator/verify-mfa-email-otp-by-access-token/",
+          "title": "Verify MFA Email OTP by Access Token",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-access-token/",
+          "title": "Reset MFA Email OTP Authenticator Settings By Access Token",
+          "type": "DELETE"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-uid/",
+          "title": "Reset MFA Email OTP Authenticator Settings by UID",
+          "type": "DELETE"
+        }
+      ],
+      "Security Question Authenticator": [
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/Security-Question-Authenticator/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/verify-mfa-security-question-by-mfa-token/",
+          "title": "Verify MFA Security Question by MFA Token",
+          "type": "POST"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/update-mfa-security-question-by-mfa-token/",
+          "title": "Update MFA Security Question by MFA Token",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/verify-mfa-security-question-by-access-token/",
+          "title": "Verify MFA Security Question by Access Token",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/delete-reset-mfa-security-question-authenticator-settings/",
+          "title": "DELETE Reset MFA Security Question Authenticator Settings",
+          "type": "DELETE"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/delete-reset-mfa-security-question-authenticator-settings-uid/",
+          "title": "DELETE Reset MFA Security Question Authenticator Settings by UID",
+          "type": "DELETE"
+        }
+      ],
+      "Backup Codes": [
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/backup-codes/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-backup-code-by-access-token/",
+          "title": "MFA Backup Code by Access Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-reset-backup-code-by-access-token/",
+          "title": "MFA Reset Backup Code by Access Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-backup-code-by-uid/",
+          "title": "MFA Backup Code by UID",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-reset-backup-code-by-uid/",
+          "title": "MFA Reset Backup Code by UID",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-validate-backup-code/",
+          "title": "MFA Validate Backup Code",
+          "type": "PUT"
+        }
+      ]
+    },
+    "PIN Authentication": [
+      {
+        "url": "v2/customer-identity-api/pin-authentication/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/pin-authentication/login-by-pin/",
+        "title": "Login By PIN",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/pin-authentication/set-pin-by-pinauthtoken/",
+        "title": "Set PIN By PINAuthToken",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/pin-authentication/forgot-pin-by-email/",
+        "title": "Forgot PIN By Email",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/pin-authentication/forgot-pin-by-phone/",
+        "title": "Forgot PIN By Phone",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/pin-authentication/forgot-pin-by-username/",
+        "title": "Forgot PIN By UserName",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/pin-authentication/invalidate-pin-session-token/",
+        "title": "Invalidate PIN Session Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/pin-authentication/reset-pin-by-email-and-otp/",
+        "title": "Reset PIN By Email and OTP",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/pin-authentication/reset-pin-by-username-and-otp/",
+        "title": "Reset PIN By UserName and OTP",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/pin-authentication/reset-pin-by-phone-and-otp/",
+        "title": "Reset PIN By Phone and OTP",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/pin-authentication/reset-pin-by-resettoken/",
+        "title": "Reset PIN By ResetToken",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/pin-authentication/reset-pin-by-securityanswer-and-email/",
+        "title": "Reset PIN By SecurityAnswer and Email",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/pin-authentication/reset-pin-by-securityanswer-and-username/",
+        "title": "Reset PIN By SecurityAnswer and UserName",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/pin-authentication/reset-pin-by-securityanswer-and-phone/",
+        "title": "Reset PIN By SecurityAnswer and Phone",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/pin-authentication/change-pin-by-access-token/",
+        "title": "Change PIN By Access Token",
+        "type": "PUT"
+      }
+    ],
+    "Step-Up Authentication": {
+      "basic": [
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/step-up-auth-by-password/",
+          "title": "Step-Up Authenticate By Password",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/step-up-auth-validate-password/",
+          "title": "Step-Up Auth Validate Password",
+          "type": "POST"
+        }
+      ],
+      "MFA": [
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-trigger/",
+          "title": "Step-Up Authentication Trigger",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-google-authenticator-code/",
+          "title": "Step-Up Authenticate by Google Authenticator Code",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-backup-code/",
+          "title": "Step-Up Authenticate by Backup Code",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-otp/",
+          "title": "Step-Up Authenticate by OTP",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-validate-mfa/",
+          "title": "Step-Up Auth Validate MFA",
+          "type": "POST"
+        },
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/mfa/mfa-step-up-authentication-by-email-otp/",
+          "title": "MFA Step-Up Authentication by Email OTP",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/mfa/send-mfa-step-up-auth-email-otp-by-access-token/",
+          "title": "Send MFA Step-Up Auth Email OTP by Access Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-security-question/",
+          "title": "Step-Up Authenticate Security Question",
+          "type": "POST"
+        }
+      ],
+      "PIN": [
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/pin/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/pin/step-up-auth-by-pin/",
+          "title": "Step-Up Authenticate by PIN",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/pin/step-up-auth-validate-pin/",
+          "title": "Step-Up Auth Validate PIN",
+          "type": "POST"
+        }
+      ]
+    },
+    "Consent Management": [
+      {
+        "url": "v2/customer-identity-api/consent-mangement/overview/",
+        "title": "Overview",
+        "type": "Doc"
+      },
+      {
+        "url": "v2/customer-identity-api/consent-mangement/consent-customization-via-js/",
+        "title": "Consent Customization via JS",
+        "type": "Doc"
+      },
+      {
+        "url": "v2/customer-identity-api/consent-management/consent-by-consent-token/",
+        "title": "Consent By ConsentToken",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/consent-management/consent-by-access-token/",
+        "title": "Consent By Access Token",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/consent-management/consent-log-by-access-token/",
+        "title": "Consent Log by Access Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/consent-management/consent-log-by-uid/",
+        "title": "Consent Log by UID",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/consent-management/verify-consent-by-access-token/",
+        "title": "Verify Consent by Access Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/consent-management/update-consent-by-access-token/",
+        "title": "Update Consent By Access Token",
+        "type": "PUT"
+      }
+    ],
+    "Passwordless Login": [
+      {
+        "url": "v2/customer-identity-api/passwordless-login/passwordless-login-overview/",
+        "title": "Passwordless Login Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/passwordless-login/passwordless-login-by-email/",
+        "title": "Passwordless Login by Email",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/passwordless-login/passwordless-login-by-username/",
+        "title": "Passwordless Login by UserName",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/passwordless-login/passwordless-login-verification/",
+        "title": "Passwordless Login Verification",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/passwordless-login/passwordless-login-by-phone/",
+        "title": "Passwordless Login by Phone",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/passwordless-login/passwordless-login-phone-verification/",
+        "title": "Passwordless Login Phone Verification",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/",
+        "title": "Passwordless Login verify by uername and otp",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-email-and-otp/",
+        "title": "Passwordless Login verify by email and otp",
+        "type": "POST"
+      }
+    ],
+    "Refresh Token": [
+      {
+        "url": "v2/customer-identity-api/refresh-token/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/refresh-token/refresh-token/",
+        "title": "Refresh Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/refresh-token/refresh-access-token-by-refresh-token/",
+        "title": "Refresh Access Token by Refresh Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/refresh-token/revoke-refresh-token/",
+        "title": "Revoke Refresh Token",
+        "type": "GET"
+      }
+    ],
+    "Smart Login": [
+      {
+        "url": "v2/customer-identity-api/smart-login/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/smart-login/smart-login-by-email/",
+        "title": "Smart Login By Email",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/smart-login/smart-login-by-username/",
+        "title": "Smart Login By Username",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/smart-login/smart-login-ping/",
+        "title": "Smart Login Ping",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/smart-login/smart-login-verify-token/",
+        "title": "Smart Login Verify Token",
+        "type": "GET"
+      }
+    ],
+    "One Touch Login": [
+      {
+        "url": "v2/customer-identity-api/one-touch-login/one-touch-login-overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/one-touch-login/one-touch-login-by-email-captcha/",
+        "title": "One Touch Login by Email",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/one-touch-login/one-touch-login-by-phone-captcha/",
+        "title": "One Touch Login by Phone",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/one-touch-login/one-touch-email-verification/",
+        "title": "One Touch Email Verification",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/one-touch-login/one-touch-login-ping/",
+        "title": "One Touch Login Ping",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/one-touch-login/one-touch-otp-verification/",
+        "title": "One Touch OTP Verification",
+        "type": "PUT"
+      }
+    ],
+    "Custom Object": [
+      {
+        "url": "v2/customer-identity-api/custom-object/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/custom-object/parent-child/",
+        "title": "Parent and Child Accounts Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/custom-object/create-custom-object-by-uid/",
+        "title": "Create Custom Object by UID",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/custom-object/create-custom-object-by-token/",
+        "title": "Create Custom Object by Token",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-uid/",
+        "title": "Custom Object by ObjectRecordId and UID",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-token/",
+        "title": "Custom Object by ObjectRecordId and Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/custom-object/custom-object-by-token/",
+        "title": "Custom Object by Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/custom-object/custom-object-by-uid/",
+        "title": "Custom Object By UID",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-uid/",
+        "title": "Custom Object Update by ObjectRecordId and UID",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-token/",
+        "title": "Custom Object Update by ObjectRecordId and Token",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-uid/",
+        "title": "Custom Object Delete by ObjectRecordId and UID",
+        "type": "DELETE"
+      },
+      {
+        "url": "v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-token/",
+        "title": "Custom Object Delete by ObjectRecordId and Token",
+        "type": "DELETE"
+      }
+    ],
+    "Session": [
+      {
+        "url": "v2/customer-identity-api/session/user-session-device-location/",
+        "title": "User Session/Device Location",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/session/generate-sott-token/",
+        "title": "Generate SOTT Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/session/access-token/",
+        "title": "Access Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/session/validate-access-token/",
+        "title": "Validate Access Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/session/invalidate-access-token/",
+        "title": "Invalidate Access Token",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/session/get-active-session-details/",
+        "title": "Get Active Session",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/session/active-session-by-account-id/",
+        "title": "Active Session By Account ID",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/session/active-session-by-profile-id/",
+        "title": "Active Session By Profile ID",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/session/active-session-by-account-id-and-profile-id/",
+        "title": "Active Session By Account ID and Profile ID",
+        "type": "GET"
+      }
+    ],
+    "Configuration": [
+      {
+        "url": "v2/customer-identity-api/configuration/configuration-overview/",
+        "title": "Configuration Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/configuration/get-configurations/",
+        "title": "Get Configurations",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/configuration/get-server-time/",
+        "title": "Get Server Time",
+        "type": "GET"
+      }
+    ]
+  },
+  "Cloud Directory API": {
+    "basic": [
+      {
+        "url": "v2/cloud-directory-api/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      }
+    ],
+    "Identity": [
+      {
+        "url": "v2/cloud-directory-api/identity/getting-started/",
+        "title": "Getting Started",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/cloud-directory-api/identity/get-user-identity/",
+        "title": "Get User Identity",
+        "type": "POST"
+      },
+      {
+        "url": "v2/cloud-directory-api/identity/get-user-identity-by-page/",
+        "title": "Get User Identity by Page",
+        "type": "GET"
+      },
+      {
+        "url": "v2/cloud-directory-api/identity/user-identity-with-custom-object/",
+        "title": "User Identity with Custom Objects",
+        "type": "POST"
+      },
+      {
+        "url": "v2/cloud-directory-api/identity/get-user-identity-with-custom-object-by-page/",
+        "title": "Get User Identity with Custom Objects by Page",
+        "type": "GET"
+      }
+    ],
+    "Custom Object": [
+      {
+        "url": "v2/cloud-directory-api/custom-object/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/cloud-directory-api/custom-object/get-custom-objects/",
+        "title": "Get Custom Objects",
+        "type": "POST"
+      },
+      {
+        "url": "v2/cloud-directory-api/custom-object/get-custom-objects-by-page/",
+        "title": "Get Custom Objects by Page",
+        "type": "GET"
+      }
+    ],
+    "Insights": [
+      {
+        "url": "v2/cloud-directory-api/insights/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/cloud-directory-api/insights/get-user-insights/",
+        "title": "Get User Insights",
+        "type": "POST"
+      }
+    ]
+  },
+  "Single Sign-On": {
+    "basic": [
+      {
+        "url": "v2/single-sign-on/api-overview/",
+        "title": "Overview",
+        "type": "DOC"
+      }
+    ],
+    "Federated SSO": {
+      "basic": [
+        {
+          "url": "v2/single-sign-on/federated-sso/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        }
+      ],
+      "OAuth 2.0": [
+        {
+          "url": "v2/single-sign-on/federated-sso/oauth-2-0/access-token-by-oauth-2-0-token/",
+          "title": "Access Token by OAuth 2.0 token",
+          "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/oauth-2-0/access-token-by-account-password/",
+          "title": "Access Token by Account Password",
+          "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/oauth-2-0/oauth-refresh-access-token/",
+          "title": "Refresh Access Token",
+          "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/oauth-2-0/oauth-revoke-refresh-token/",
+          "title": "Revoke Refresh Token",
+          "type": "POST"
+        }
+      ],
+      "JWT Login": [
+        {
+          "url": "v2/single-sign-on/federated-sso/jwt-login/jwt-token/",
+          "title": "JWT token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/jwt-login/jwt-token-by-email/",
+          "title": "JWT token by Email",
+          "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/jwt-login/jwt-token-by-username/",
+          "title": "JWT token by Username",
+          "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/jwt-login/jwt-token-by-phone/",
+          "title": "JWT token by Phone",
+          "type": "POST"
+        }
+      ],
+      "OpenID Connect": [
+        {
+          "url": "v2/single-sign-on/federated-sso/openid-connect/access-token-by-openid-code/",
+          "title": "Access Token by OpenID code",
+          "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/openid-connect/openid-refresh-access-token/",
+          "title": "Refresh Access Token",
+          "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/openid-connect/openid-revoke-refresh-token/",
+          "title": "Revoke Refresh Token",
+          "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/openid-connect/request-device-code/",
+          "title": "Request Device Code",
+          "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/openid-connect/device-code-exchange-token-ping/",
+          "title": "Device Code Exchange Token Ping",
+          "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/openid-connect/userinfo-by-access-token/",
+          "title": "UserInfo by Access Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/openid-connect/json-web-key-set/",
+          "title": "JSON Web Key Set",
+          "type": "GET"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/openid-connect/oidc-discovery/",
+          "title": "OIDC Discovery",
+          "type": "GET"
+        }
+      ],
+      "SAML": [
+        {
+          "url": "v2/single-sign-on/federated-sso/saml/saml-meta-data/",
+          "title": "SAML Metadata",
+          "type": "GET"
+        }
+      ]
+    },
+    "Machine To Machine": {
+      "basic": [
+        {
+          "url": "v2/single-sign-on/Machine-to-Machine/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/single-sign-on/Machine-to-Machine/validating-the-JWT/",
+          "title": "Validate the JWT",
+          "type": "GET"
+        },
+        {
+          "url": "v2/single-sign-on/Machine-to-Machine/check-the-validity-and-content-of-accesstoken/",
+          "title": "Check the Validity and content of the Access Token",
+          "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/Machine-to-Machine/generate-access-token-using-client-credential-flow/",
+          "title": "Generate Access Token Using Client Credential Flow",
+          "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/Machine-to-Machine/revoke-access-token/",
+          "title": "Revoke Access Token",
+          "type": "POST"
+        }
+      ]
+    },
+    "SSO Connector": {
+      "basic": [
+        {
+          "url": "v2/single-sign-on/sso-connector/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/single-sign-on/sso-connector/bigcommerce-login-url-by-access-token/",
+          "title": "Bigcommerce Login URL by Access Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/single-sign-on/sso-connector/shopify-login-url-by-access-token/",
+          "title": "Shopify Login URL by Access Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/single-sign-on/sso-connector/perfectmind/",
+          "title": "PerfectMind",
+          "type": "GET"
+        },
+        {
+          "url": "v2/single-sign-on/sso-connector/perfectmind-contact/",
+          "title": "PerfectMind Contact API",
+          "type": "GET"
+        }
+      ]
+    },
+    "Cross Device SSO": {
+      "basic": [
+        {
+          "url": "v2/single-sign-on/cross-device-sso/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/single-sign-on/cross-device-sso/generate-qr-code-string/",
+          "title": "Generate QR Code String",
+          "type": "GET"
+        },
+        {
+          "url": "v2/single-sign-on/cross-device-sso/get-access-token-by-qr-code/",
+          "title": "Get Access Token by QR Code",
+          "type": "GET"
+        },
+        {
+          "url": "v2/single-sign-on/cross-device-sso/add-qr-token/",
+          "title": "Add QR Token",
+          "type": "POST"
+        }
+      ]
+    }
+  },
+  "Integrations": {
+    "basic": [
+      {
+        "url": "v2/integrations/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      }
+    ],
+    "Webhooks": [
+      {
+        "url": "v2/integrations/webhooks/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/integrations/webhooks/webhook-subscribe/",
+        "title": "Webhook Subscribe",
+        "type": "POST"
+      },
+      {
+        "url": "v2/integrations/webhooks/webhook-test/",
+        "title": "Webhook Test",
+        "type": "GET"
+      },
+      {
+        "url": "v2/integrations/webhooks/webhook-subscribed-urls/",
+        "title": "Webhook Subscribed URLs",
+        "type": "GET"
+      },
+      {
+        "url": "v2/integrations/webhooks/webhook-unsubscribe/",
+        "title": "Webhook Unsubscribe",
+        "type": "DELETE"
+      }
+    ]
+  },
+  "Troubleshooting": {
+    "basic": [
+      {
+        "url": "v2/troubleshooting/invalid-request-uri-error/",
+        "title": "Invalid Request URI Error",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/troubleshooting/callback-url/",
+        "title": "Callback URL",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/troubleshooting/strict-uri-matching/",
+        "title": "Strict URI Matching",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/troubleshooting/tls-compatibility/",
+        "title": "TLS Compatibility",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/troubleshooting/smtp-troubleshooting/",
+        "title": "SMTP Troubleshooting",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/troubleshooting/troubleshooting-tools/",
+        "title": "Debugging/Troubleshooting Tools",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/troubleshooting/hard-refresh/",
+        "title": "Hard Refresh",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/troubleshooting/apple-account-deletion/",
+        "title": "Apple’s Account deletion requirement",
+        "type": "DOC"
+      }
+    ]
+  },
+  "Announcements": {
+    "basic": [
+      {
+        "url": "v2/announcements/subscribe-rss/",
+        "title": "Subscribe to Product Updates",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/facebook-version-7.0-update-reminder/",
+        "title": "Facebook Version 7.0 Update Reminder",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/facebook-update-reminder/",
+        "title": "Facebook Update Reminder",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/new-saml-apis/",
+        "title": "New SAML APIs",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/deprecation-of-instagram-login/",
+        "title": "Deprecation of Instagram Login",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/yahoo-provider-update/",
+        "title": "Yahoo! Provider Update",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/new-cdn-versioning/",
+        "title": "New CDN-based versioning process",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/linkedin-profile-deprecation/",
+        "title": "LinkedIn Profile Deprecation",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/google-plus-deprecation/",
+        "title": "Google Plus Deprecation",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/infrastructure-and-api-security/",
+        "title": "Infrastructure and API Security",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/facebook-security-breach/",
+        "title": "Facebook Security Breach - Sept 2018",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/facebook-enforce-https/",
+        "title": "Facebook Enforces HTTPS for Facebook Login",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/live-social-provider-updates/",
+        "title": "Live Social Provider Updates",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/sign-in-with-apple/",
+        "title": "SignIn with AppleID",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/sso-security-enhancements/",
+        "title": "SSO Security Enhancements",
+        "type": "DOC"
+      }
+    ]
+  }
+}

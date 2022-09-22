@@ -1,0 +1,39 @@
+{
+    "name": "Get Server Time",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/serverinfo",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "timedifference": ""
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API allows you to query your LoginRadius account for basic server information and server time information which is useful when generating an SOTT token.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "timedifference",
+                "is_required": false,
+                "description": "The time difference you would like to pass, If you not pass difference then the default value is 10 minutes"
+            }
+        ]
+    },
+    "outputFormat": {
+        "ServerLocation": "East Us",
+        "ServerName": "RD0003FF3F38DD",
+        "CurrentTime": "2017-11-06 06:15:53",
+        "Sott": {
+            "StartTime": "2017-11-06 06:15:53",
+            "EndTime": "2017-11-06 06:20:53",
+            "TimeDifference": "5 Minutes"
+        }
+    }
+}

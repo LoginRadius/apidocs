@@ -1,0 +1,74 @@
+#previewcontainer,
+#mdcontainer{
+    height: 500px;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    border: 5px solid #ddd;
+
+}
+#previewcontainer{
+    width: 100%;
+}
+.md-editor,
+#mdcontainer{
+    width: 80%;
+}
+.md-main__inner {
+    padding-top: 8rem;
+}
+#mdcontainer {
+    overflow: auto;
+    border: 5px solid #ddd;
+    margin-top: 34px;
+}
+.md-header.btn-toolbar {
+    position: static;
+    height: 30px;
+    background: transparent;
+    box-shadow: none;
+    padding: 0px 5px;
+}
+#imageUploader{
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.popupContainer {
+    width: 700px;
+    margin: 10% auto;
+    background: #fff;
+    padding: 10px;
+}
+.uploadArea {
+    min-height: 150px;
+    height: auto;
+    border: 1px dotted #ccc;
+    padding: 10px;
+    cursor: move;
+    margin-bottom: 10px;
+    position: relative;
+}
+.resultImages input{width:100%;}
+.dfiles h5 {
+    margin: 0;
+    float: left;
+    margin-right: 10px;
+}
+#processBar{
+    display:none;
+    margin: 20px 0;
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+#processBar .status{
+    background: green;
+    height: 5px;
+}

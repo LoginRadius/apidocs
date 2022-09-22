@@ -1,0 +1,30 @@
+{
+    "name": "Admin Console Release 24.3.3",
+    "description": "This release of the Admin Console brings you a few enhancements and a few bug fixes, see below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+      "IMPROVED": [
+        {
+          "text": "Removed <strong>Kaixin</strong> and <strong>RenRen</strong> Social providers from the <a href='https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/social-login/social-providers'> Admin Console </a>."
+        },
+        {
+          "text": "Empty string value is supported in <strong>Segmentation</strong> under <a href='https://adminconsole.loginradius.com/profile-management/customer-segmentation/basic-segmentation'> Admin Console </a>."
+        },
+        {
+          "text": "Password Complexity has been added in the <a href='https://adminconsole.loginradius.com/platform-security/account-protection/password-policy/password-complexity'> Admin Console </a>."
+        }
+        
+      ],
+      "FIXED": [{
+        "text": "Webhook URLs subscriptions in <a href='https://adminconsole.loginradius.com/integration/data-sync/web-hooks'> Admin Console </a> now allow up to 5 URLs."
+},
+      {
+        "text": "Updated the default scopes for <strong>Disqus</strong> social ID providers."
+},
+{
+    "text": "You can now update the <strong>Profile fields</strong> for the profiles where <strong>Email does not exist</strong> via the <a href='https://adminconsole.loginradius.com/profile-management/customer-management/search-customers'> Admin Console </a>."
+}
+]},
+  "auther": "Abhishek Singh",
+  "created_date": "2020-08-05",
+  "status": "public"
+  }

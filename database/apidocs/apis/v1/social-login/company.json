@@ -1,0 +1,23 @@
+{
+    "name": "Company",
+    "domain":"https://api.loginradius.com",
+    "path":"/api/v2/company",
+    "method":"GET",
+    "getparams":{"access_token*":""},
+    "postparams":"",
+    "headers":{"content-Type":"application/x-www-form-urlencoded"},
+    "response":"json",
+    "description":"This API is used to get followed companies data from Social Profile.<br><br><b>Supported Providers:</b> Facebook, LinkedIn.",
+    "outputFormat":
+[
+    {
+        "ID": "111111111",
+        "Name": "Robots, Inc."
+    },
+    {
+        "ID": "111111111",
+        "Name": "LoginRadius, Inc."
+    }
+
+]
+}

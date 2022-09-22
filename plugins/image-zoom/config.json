@@ -1,0 +1,7 @@
+{
+    "name": "Image Zoom",
+    "discription":"Image Zoom Discription",
+    "weight": "100",
+    "isActive": true,
+    "load": "image-zoom/image-zoom.php"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Generate SOTT",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/manage/account/sott",
+  "method": "GET",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "apisecret*": "@secret@",
+    "timedifference": ""
+  },
+  "postparams": "",
+  "headers": {
+    "content-Type": "application/x-www-form-urlencoded"
+  },
+  "response": "json",
+  "description": "This API allows you to generate SOTT with a given expiration time.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "apisecret",
+        "is_required": true,
+        "description": "LoginRadius Secret Key"
+      },
+      {
+        "name": "timedifference",
+        "is_required": false,
+        "description": "The time difference you would like to pass, If you not pass difference then the default value is 10 minutes"
+      }
+    ]
+  },
+  "outputFormat": {
+    "Sott": "UHvoadn**********/PrJ6DzANoF**********jWGFyk***J8n3COAV**********gjlHh****YN4mGy+mly**********uyp3hZPMqxs48=*c09bd**********a40662e6eb30*****",
+    "ExpiryTime": "2017-11-06T07:03:12.1100256Z"
+  }
+}

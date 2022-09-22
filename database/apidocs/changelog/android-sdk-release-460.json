@@ -1,0 +1,20 @@
+{
+    "name": "LoginRadius Android SDK release V4.6.0",
+    "description": "In our new LoginRadius <a href='https://github.com/LoginRadius/android-sdk/'> Android SDK V4.6.0 </a>, we are launching the highly anticipated capabilities for Apple Sign In web Login and WeChat Native Login also including some other bug fixes.",
+    "changelog": {
+        "ADDED": [{
+                "text": "New <a href='/docs/api/v2/deployment/mobile-sdk-libraries/android-library/#integratesociallogin5'> Apple SignIn web Login </a>."
+        }, {
+                "text": "New <a href='/docs/api/v2/deployment/mobile-sdk-libraries/android-library/#advancedoptions9'> Wechat Native Login </a>."
+        }
+            ],
+
+    "FIXED": [{
+                "text": "Issue related to libraries’ reference with the SDK Gradle installation."
+    }]
+    },
+
+"auther": "Swati",
+"created_date": "2020-02-25",
+"status": "public"
+}

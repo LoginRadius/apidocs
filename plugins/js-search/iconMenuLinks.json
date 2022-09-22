@@ -1,0 +1,36 @@
+{
+    "Support Docs": {
+        "label": "Support Docs",
+        "image": "support_docs.svg",
+        "link": "/docs",
+        "target": "_blank"
+    },
+    "API Docs": {
+        "label": "API Docs",
+        "image": "api_docs.svg",
+        "link": "/docs/api",
+        "target": "_blank"
+    },
+    "Quick start": {
+        "label": "Quick Start",
+        "image": "step_by_step_video.svg",
+        "link": "/docs/authentication/quick-start/standard-login",
+        "target": "_blank"
+    },
+    "Product Updates": {
+        "label": "Product Updates",
+        "image": "product_updates.svg",
+        "link": "/updates/",
+        "target": "_blank"
+    },
+    "Live Chat": {
+        "label": "Live Chat",
+        "image": "live_chat.svg",
+        "class": "sh_livechat"
+    },
+    "Support Ticket": {
+        "label": "Support Ticket",
+        "image": "support_ticket.svg",
+        "class": "sh_support"
+    }
+}

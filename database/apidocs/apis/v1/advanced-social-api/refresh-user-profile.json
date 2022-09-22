@@ -1,0 +1,252 @@
+{
+    "name": "Refresh User Profile",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/userprofile/refresh",
+    "method": "GET",
+    "getparams": {
+        "access_token*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "The User Profile API is used to get the latest updated social profile data from the user’s social account after authentication. The social profile will be retrieved via oAuth and OpenID Connect protocols. The data is normalized into LoginRadius’ standard data format. This API should be called using the access token retrieved from the refresh access token API.",
+    "parameters": {
+        "Get Params": [{
+            "name": "access_token",
+            "is_required": true,
+            "description": "Login Radius Access Token"
+        }]
+    },
+    "outputFormat":{
+        "Password": null,
+        "LastPasswordChangeDate": "2017-08-24T13:04:12.1810017Z",
+        "PasswordExpirationDate": null,
+        "LastPasswordChangeToken": null,
+        "EmailVerified": true,
+        "IsActive": true,
+        "IsDeleted": false,
+        "Uid": "*******18t******hju******u741***",
+        "CustomFields": {},
+        "IsEmailSubscribed": false,
+        "UserName": null,
+        "NoOfLogins": 11,
+        "PreviousUids": null,
+        "PhoneId": null,
+        "PhoneIdVerified": false,
+        "ExternalUserLoginId": null,
+        "RegistrationProvider": null,
+        "IsLoginLocked": false,
+        "LoginLockedType": "None",
+        "LastLoginLocation": "Washington, United States",
+        "RegistrationSource": null,
+        "IsCustomUid": false,
+        "UnverifiedEmail": null,
+        "IsSecurePassword": null,
+        "ID": "93******02***67",
+        "Provider": "facebook",
+        "Prefix": null,
+        "FirstName": "Swati",
+        "MiddleName": "",
+        "LastName": "Soni",
+        "Suffix": null,
+        "FullName": "Swati Soni",
+        "NickName": null,
+        "ProfileName": "",
+        "BirthDate": "10/8/1989",
+        "Gender": "F",
+        "Website": "",
+        "Email": [
+            {
+                "Type": "Primary",
+                "Value": "example@example.com"
+            }
+        ],
+        "Country": null,
+        "ThumbnailImageUrl": "null",
+        "ImageUrl": "null",
+        "Favicon": null,
+        "ProfileUrl": "null",
+        "HomeTown": "xyz, ****",
+        "State": null,
+        "City": "xyz, xxxx",
+        "Industry": null,
+        "About": "",
+        "TimeZone": "5.3",
+        "LocalLanguage": "en-US",
+        "CoverPhoto": "null",
+        "TagLine": null,
+        "Language": "en-US",
+        "Verified": "true",
+        "UpdatedTime": "06/14/2017 13:00:12",
+        "Positions": [
+            {
+                "Position": "ABC Test",
+                "Summary": null,
+                "StartDate": "0000-00",
+                "EndDate": "",
+                "IsCurrent": "True",
+                "Comapny": {
+                    "Name": "XYZ Tech",
+                    "Type": null,
+                    "Industry": null
+                },
+                "Company": {
+                    "Name": "XYZ Tech",
+                    "Type": null,
+                    "Industry": null
+                },
+                "Location": "Abc, ****"
+            }
+        ],
+        "Educations": [
+            {
+                "School": "ABCD ****",
+                "year": "2010",
+                "type": "fdg***jk",
+                "notes": null,
+                "activities": null,
+                "degree": null,
+                "fieldofstudy": null,
+                "StartDate": null,
+                "EndDate": null
+            },
+            {
+                "School": "ABCD , ****",
+                "year": null,
+                "type": "fd****jk",
+                "notes": null,
+                "activities": null,
+                "degree": null,
+                "fieldofstudy": null,
+                "StartDate": null,
+                "EndDate": null
+            }
+        ],
+        "PhoneNumbers": null,
+        "IMAccounts": null,
+        "Addresses": null,
+        "MainAddress": null,
+        "Created": null,
+        "CreatedDate": "2017-11-29T09:16:36.67Z",
+        "ModifiedDate": "2017-11-29T10:03:01.0573586Z",
+        "LocalCity": null,
+        "ProfileCity": "ABC, ****",
+        "LocalCountry": null,
+        "ProfileCountry": null,
+        "FirstLogin": false,
+        "IsProtected": false,
+        "RelationshipStatus": "",
+        "Quota": "",
+        "Quote": "",
+        "InterestedIn": [
+            "Male"
+        ],
+        "Interests": null,
+        "Religion": "",
+        "Political": "",
+        "Sports": [
+            {
+                "Id": "8********6**9",
+                "Name": "Cv****jk"
+            }
+        ],
+        "InspirationalPeople": null,
+        "HttpsImageUrl": "null",
+        "FollowersCount": 0,
+        "FriendsCount": 0,
+        "IsGeoEnabled": null,
+        "TotalStatusesCount": 0,
+        "Associations": null,
+        "NumRecommenders": 0,
+        "Honors": null,
+        "Awards": null,
+        "Skills": null,
+        "CurrentStatus": null,
+        "Certifications": null,
+        "Courses": null,
+        "Volunteer": null,
+        "RecommendationsReceived": null,
+        "Languages": null,
+        "Projects": [],
+        "Games": null,
+        "Family": null,
+        "TeleVisionShow": [
+            {
+                "Id": "53*******12",
+                "Category": "",
+                "Name": "ABCD",
+                "CreatedDate": "2013-07-25T23:21:05+0000"
+            }
+        ],
+        "MutualFriends": null,
+        "Movies": [
+            {
+                "Id": "35********44",
+                "Category": "",
+                "Name": "null",
+                "CreatedDate": "2012-01-14T17:29:33+0000"
+            },
+            {
+                "Id": "114*********591",
+                "Category": "",
+                "Name": "null",
+                "CreatedDate": "2011-06-10T03:39:32+0000"
+            }
+        ],
+        "Books": [
+            {
+                "Id": "104**********37",
+                "Category": "",
+                "Name": "null",
+                "CreatedDate": "2011-06-09T10:32:52+0000"
+            }
+        ],
+        "AgeRange": {
+            "Min": 21,
+            "Max": 0
+        },
+        "PublicRepository": null,
+        "Hireable": false,
+        "RepositoryUrl": null,
+        "Age": "25",
+        "Patents": null,
+        "FavoriteThings": [],
+        "ProfessionalHeadline": null,
+        "ProviderAccessCredential": {
+            "AccessToken": "*****HulwJfMBAIJ**********JDj2IcLGLvMkFazITzZA1yjumgfWI3*********TtRpkVbm35N1bQSHXz5ZC**********tAvAtZAqlYbXgJ9f3ItXOZBve8cfUJ**********lxrU9srlg4ZAeQZAq7BBNa**********1aTgZ***",
+            "TokenSecret": null
+        },
+        "RelatedProfileViews": null,
+        "KloutScore": null,
+        "LRUserID": null,
+        "PlacesLived": null,
+        "Publications": null,
+        "JobBookmarks": null,
+        "Suggestions": null,
+        "Badges": null,
+        "MemberUrlResources": null,
+        "TotalPrivateRepository": 0,
+        "Currency": "INR",
+        "StarredUrl": null,
+        "GistsUrl": null,
+        "PublicGists": 0,
+        "PrivateGists": 0,
+        "Subscription": null,
+        "Company": null,
+        "GravatarImageUrl": "null",
+        "ProfileImageUrls": {
+            "Small": "null",
+            "Square": "null",
+            "Large": "null",
+            "Profile": "null"
+        },
+        "WebProfiles": null,
+        "PinsCount": 0,
+        "BoardsCount": 0,
+        "LikesCount": 0,
+        "SignupDate": "2017-11-29T09:16:36.67Z",
+        "LastLoginDate": "2017-11-29T10:03:01.0573586Z"
+    }
+}

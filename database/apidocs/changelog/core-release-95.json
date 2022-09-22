@@ -1,0 +1,26 @@
+{
+    "name": "Core Release 9.5",
+    "description": "We are pleased to announce the release of new version of platform API version. The following list contains the enhancements and Bug fixes.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Global data ceneters setup and allow customer to select any data center globally"
+            },
+            {
+                "text": "Custom object records check by Uid API"
+            },
+            {
+                "text": "Customer registartion schema caching on s3 and serve through CDN aggregator release"
+            },
+            {
+                "text": "Extra placeholders in RaaS Email template such as Email, FirstName, LastName, Address1, Address2, City, Country, PostalCode, Region, State"
+            },
+            {
+                "text": "Performance Enhancement in Cloud Directory API"
+            }
+        ]
+    },
+    "auther": "Ashrujit Bhattacharya",
+    "created_date": "2015-5-1",
+    "status": "public"
+}
