@@ -1,12 +1,12 @@
 # Multiple SMTP Domain
 
-This document explains you about the new feature **Multiple SMTP**. In this document you will get to know about **what a Multiple SMTP feature?** and **what are its business usecases?**
+This document explains you about a new feature **Multiple SMTP Domain**. In this document, you will get to know about **what a Multiple SMTP Domain feature is** and **what its business usecases are**.
   
-## What is Multiple SMTP feature?
+## What is Multiple SMTP Domain feature?
 
-Once the email provider is set as the global configuration under [Platform Configuration > Communication Configuration > Email Configuration](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/email-configuration), the emails are sent with the default values for **sender name** and **email** from the global configuration.
+Once the email provider is set as the global configuration under [Platform Configuration > Communication Configuration > Email Configuration](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/email-configuration), the emails are sent with the default values for sender's **name** and **email** from the global configuration.
 
-The **Multiple SMTP** feature allows you to configure and customize the **sender name** and **email** for **individual email templates** according to your business requirement instead of utilizing the global values from the configured SMTP in all the email templates.
+The **Multiple SMTP Domain** feature allows you to configure and customize the sender's **name** and **email** for **individual email templates** according to your business requirement instead of utilizing the global values from the configured SMTP in all the email templates.
 
 Let’s have a look at one example email template under Admin Console, if this feature is **NOT enabled.**
 
@@ -20,11 +20,11 @@ When you click on the **Edit** button, below screen will appear to you with the 
 
 ![From Name](https://apidocs.lrcontent.com/images/image4_196486333379aa3c6a6.00207371.png "From Name")
 
-You can configure the sender’s email with multiple domains for various email templates if your SMTP provider support the sender’s email with different domains in a single account, e.g., Mailazy supports configure Multiple Domains in a single account.
+You can configure the sender’s email with multiple domains for various email templates if your SMTP provider supports the sender’s email with different domains in a single account, e.g., Mailazy supports configuring Multiple Domains in a single account.
 
-### Enable Multiple SMTP Feature in the Admin Console
+### Enable Multiple SMTP Domain feature in the Admin Console
 
-To enable this feature for your application, you will need to raise a [Support ticket](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) to LoginRadius support team. Once this feature is enabled on your site then only the **FROM NAME** and **FROM EMAIL** fields will be displayed for all email templates available in your account.
+To enable this feature for your application, you will need to raise a [Support ticket](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) to LoginRadius support team. Once this feature is enabled on your site, only then, the **FROM NAME** and **FROM EMAIL** fields will be displayed for all email templates available in your account.
 
 ![Email](https://apidocs.lrcontent.com/images/image3_77536333384b3ee535.12090377.png "Email")
 
@@ -34,17 +34,17 @@ There is no need to follow this step if the SMTP provider is already set up in E
 
 ### Customize the Email Template
 
-If the **Mutiple SMTP** feature is enabled on your site and you have configured the SMTP provider, you can customize the **From Name** and **From Email** for any of the email templates available in your account (in addition to the existing email template level customizations). For customizing the content for the email templates, you can refer to this [document](/api/v2/admin-console/platform-configuration/standard-login/email-templates/).
+If the **Mutiple SMTP Domain** feature is enabled on your site and you have configured the SMTP provider, you can customize the **FROM NAME** and **FROM EMAIL** for any of the email templates available in your account (in addition to the existing email template level customizations). For customizing the content for the email templates, you can refer to this [document](/api/v2/admin-console/platform-configuration/standard-login/email-templates/).
 
 ## Usecases for Multiple SMTP Domain
 
-The following are the various business rules applicable to the **Multiple SMTP** feature  to customize **FROM NAME (sender’s name)** and **FROM EMAIL (sender’s email)** fields:
+The following are the various business rules applicable to the **Multiple SMTP Domain** feature to customize **FROM NAME (sender’s name)** and **FROM EMAIL (sender’s email)** fields:
 
-1.  **No SMTP Provider is Configured:** If no SMTP provider is configured for your account, LoginRadius Default Values will be used in **FROM NAME** and **FROM Email** irrespective of whether the **Multiple SMTP** feature is enabled or not for you.
+1.  **No SMTP Provider is Configured:** If no SMTP provider is configured for your account, LoginRadius Default Values will be used in **FROM NAME** and **FROM EMAIL** irrespective of whether the **Multiple SMTP Domain** feature is enabled or not for your site.
     
-2.  **SMTP Provider is Configured:** If the SMTP provider is configured and no local configuration is set at the email template level, the global values will be utilized in the respective email template irrespective of whether the **Multiple SMTP** feature is enabled or not for your site.
+2.  **SMTP Provider is Configured:** If the SMTP provider is configured and no local configuration is set at the email template level, the global values will be utilized in the respective email template irrespective of whether the **Multiple SMTP Domain** feature is enabled or not for your site.
     
-3.  **SMTP Provider is Configured and Local Configuration is Set:** Multiple SMTP feature is enabled and local configuration is set for an email template.Then there are certain use case that are as below:  
+3.  **SMTP Provider is Configured and Local Configuration is Set:** If the **Multiple SMTP Domain** feature is enabled and the local configuration is set for an email template, then there are certain use case that are as below:  
       
 	-  **Case 1:** Locally configured **FROM NAME** and **FROM EMAIL** will be utilized if the **domain** of **FROM EMAIL** matches the **domain** set in the **Global SMTP** Provider.
 	    
