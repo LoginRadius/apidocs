@@ -229,6 +229,11 @@
             "url": "v2/admin-console/platform-configuration/standard-login/email-templates/",
             "title": "Email Templates",
             "type": "DOC"
+          },
+          {
+            "url": "v2/admin-console/platform-configuration/standard-login/multiple-smtp-domain/",
+            "title": "Multiple SMTP Domain",
+            "type": "DOC"
           }
         ]
       }
