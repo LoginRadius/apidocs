@@ -26,7 +26,7 @@ When there is a need to host the LoginRadius Identity Experience Framework on yo
 >
 > - Once you have updated the records on your DNS provider, it might take up to **12 hours** to complete the domain verification.
 > - If you have enabled or added a Custom Domain for your existing application, in that case, you will need to update the configurations in all your social login provider apps (i.e., Facebook, Twitter, etc.) with the new domain. I.e. You need to replace `https://<LoginRadius site name>.hub.loginradius.com/` with `https://<Your Custom Domain>/` in all the Return/Redirect URLs in your configurations.
-> - If you want to add more that one custom domain for your existing application, then you can raise a request with our [LoginRadius Support Team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
+> - If you want to add more than one custom domain for your existing application, then you can raise a request with our [LoginRadius Support Team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
 ### SSL Configuration
 
