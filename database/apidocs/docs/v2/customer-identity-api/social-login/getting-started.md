@@ -63,7 +63,7 @@ Here, **nocallback=true** in query indicates that the login request will be with
 If you are using Social Login on websites that are rendered inside the Apps like Facebook/Instagram build-in browsers then you need to set **callbacktype=hash** in the implementation. For example: if you are using the Facebook social provider then LoginRadius Social Login request handler url should be as below i.e containing the callbacktype as a query paramter:
 
 ```
-https://<<- site-name->>.[hub.loginradius.com/RequestHandler.aspx?apikey=](http://hub.loginradius.com/RequestHandler.aspx?apikey=)<<LoginRadius API key>>&provider=facebook&callbacktype=hash&callback="Callback URL”
+https://<LoginRadius site name>.hub.loginradius.com/RequestHandler.aspx?apikey=<<LoginRadius API key>>&provider=socail provider name&callbacktype=hash&callback="Callback URL”
 ```
 **Why it need to be done?**
 
