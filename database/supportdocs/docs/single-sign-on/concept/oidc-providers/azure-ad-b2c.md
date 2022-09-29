@@ -20,7 +20,7 @@ This document will cover the steps to configure LoginRadius as Identity Provider
 
 - After filling all the fields, click on **Save**.
 
-## Steps To configure LoginRadius as IDP in Azure in Azure:
+## Steps To configure LoginRadius as IDP in Azure:
 
 
 >**Prerequisites:**
