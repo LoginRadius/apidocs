@@ -9,7 +9,7 @@ This document provides instructions to integrate the LoginRadius User Registrati
 > This library is meant to help you with a quick implementation of the LoginRadius platform and also to serve as a reference point for the LoginRadius API. Keep in mind that it is an open-source library, which means you are free to download and customize the library functions based on your specific application needs.
 
 ## Requirements
-[OS X](http://www.apple.com/macos/sierra/), [Xcode](https://developer.apple.com/xcode/) and iOS 9 or higher.
+[OS X](http://www.apple.com/macos/sierra/), [Xcode](https://developer.apple.com/xcode/) and iOS 11 or higher.
 
 > **This release has breaking changes from the previous SDK.**
 
@@ -37,12 +37,12 @@ To integrate LoginRadiusSDK into your Xcode project using CocoaPods, specify it 
 
 ```
 source 'https://github.com/CocoaPods/Specs.git '
-platform :ios, '9.0'
+platform :ios, '11.0'
 target 'TargetName' do
 
 # Comment the next line if you don't want to use dynamic frameworks
 use_frameworks!
-pod 'LoginRadiusSDK', '~> 5.6.0'
+pod 'LoginRadiusSDK', '~> 5.6.2'
 end
 ```
 
@@ -635,7 +635,10 @@ Social Login with the given provider. Call this function in the view controller 
 
 To integrate Web Social Login. Follow the steps
 
-* Enable https://auth.lrcontent.com in your site list, please add it under Deployment > Configuration > Apps for Social Login to work correctly.
+* Enable https://auth.lrcontent.com in your site list, please add it under Deployment > Apps > Web Apps for Social Login to work correctly.
+
+* Whitelist the Apps callback URL where you want to redirect your users after successfuly social login in the Deployment > Apps > Web Apps section of the Admin console. e.g <<LoginRadius Site Name>>.com.loginradius.SwiftDemo://
+
 
 * Call `loginWithProvider:inController:completionHandler:` method with the appropriate params in your Application to start Web Social Login.
 
