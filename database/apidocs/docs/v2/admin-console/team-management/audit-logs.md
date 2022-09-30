@@ -2,6 +2,8 @@
 
 The Audit Logs help you check and keep track of the activity occurring in your LoginRadius environment. The monitored activity includes what types of changes have been made on which date and by whom.
 
+> **Note:** These team audit logs are retained for 90 days only. So this section will only contain logs of the past 90 day’s activities.
+
 Follow the following steps on how to access Audit Logs section:
 
 **1.**  Log in to the LoginRadius [Admin Console](https://adminconsole.loginradius.com/login).
