@@ -503,6 +503,8 @@ NOTE :
 
     Becomes: `custom_validation[^[1-3]+$or^[5-9]+$###pass digit only 1-3 or 5-9]`
 
+> **Note:** While using `" or \` in the password field on IDX, our JavaScript will automatically escape them in the payload. So, while trying this from API, the password should be as `password: "Reset\"1"` otherwise it will give you an error as `“Fill body parameter correctly“`.
+
 - If you are leverage custom_validation rule, please remove a forward slash 
 
     For example 
@@ -521,7 +523,9 @@ NOTE :
 
     `/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/`
 
+**Example:** Find below the Password Validation regex for **Admin Console** which includes a **Minimum of 6 and a Maximum of 20 characters, at least 1 uppercase letter, 1 lowercase letter, 1 number, and 1 special character.**     
 
+`custom_validation[^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=[\]{};':"\\or,.<>/~?])[A-Za-z\d!@#$%^&*()_+\-=[\]{};':"\\or,.<>/~?]{6,20}$###Password must contain minimum 6 and maximum 20 characters, at least 1 uppercase letter, 1 lowercase letter, 1 number and 1 special character]|required`
 
 ## Custom Attribute Hook
 This hook allows us to append custom attributes to LoginRadius form fields. These attributes are HTML attributes that modify an HTML element type.
