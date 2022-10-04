@@ -32,15 +32,14 @@ Accept: application/json
 
 To better learn how to use each endpoint, check the details within each API.
 
-> **For Optional Parameters**   
+> **For Optional Parameters**  
 > **Note:** Parameters marked as optional should still be included in the request as a blank string. Eg: <Base Url>api/v2/status?access_token= <access_token>&title=&url=&imageurl=&status=<required_field>&caption=&description=
-
 
 ## Social Login with Ping API
 
 In the default social login flow, the LoginRadius can send the access token as a query parameter or as a post parameter depending on the value of **commonOptions.callbackType.** The default value for **commonOptions.callbackType** is Post. In the default workflow when a successful social login completes, an HTTP(s) callback to LoginRadius is required to the parent window URL where the social login was initiated.
 
-**Social Login with Ping API** workflow allows you to access the LoginRadius token via the [SocialLogin by Ping API](/api/v2/customer-identity-api/social-login/get-user-profile-by-ping/) . In this workflow, when the social login is initiated, LoginRadius starts calling continually [SocialLogin by Ping API](/api/v2/customer-identity-api/social-login/get-user-profile-by-ping/)  in the parent window. Once the social login is completed at the social provider’s interface, LoginRadius **returns the access token** in the **SocialLogin by Ping API** calls. This feature is not enabled by default. Please contact the LoginRadius [support team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) to enable this for your account.
+**Social Login with Ping API** workflow allows you to access the LoginRadius token via the [SocialLogin by Ping API](/api/v2/customer-identity-api/social-login/get-user-profile-by-ping/) . In this workflow, when the social login is initiated, LoginRadius starts calling continually [SocialLogin by Ping API](/api/v2/customer-identity-api/social-login/get-user-profile-by-ping/) in the parent window. Once the social login is completed at the social provider’s interface, LoginRadius **returns the access token** in the **SocialLogin by Ping API** calls. This feature is not enabled by default. Please contact the LoginRadius [support team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) to enable this for your account.
 
 By enabling the **Social Login with Ping API** feature, you can leverage **SocialLogin by Ping API** to get the access token with the user profile so that you don’t have to use a callback page for your Social login.
 
@@ -55,30 +54,33 @@ You can bypass the template engine entirely and create your own links to be incl
 ```
 https://<Your_Site_Name>.hub.loginradius.com/requesthandlor.aspx?apikey=<API_Key>&provider=google&nocallback=true&callbackguid=<uniuqe random guid value>
 ```
-Here, **nocallback=true** in query indicates that the login request will be without the callback, and **callbackguid=<Random_Identifier>** is a random unique identifier. You will need to call the **SocialLogin by Ping API continually with the same callbackguid**  value to fetch the access token with the user profile data.
 
-  
-**FAQ: Performing social login in the Apps e.g Facebook/Instagram build-in browsers leading to blank screen after authentication.**  
-  
-If you are using Social Login on websites that are rendered inside the Apps like Facebook/Instagram build-in browsers then you need to set **callbacktype=hash** in the implementation. For example: if you are using the Facebook social provider then LoginRadius Social Login request handler url should be as below i.e containing the callbacktype as a query paramter:
+Here, **nocallback=true** in query indicates that the login request will be without the callback, and **callbackguid=<Random_Identifier>** is a random unique identifier. You will need to call the **SocialLogin by Ping API continually with the same callbackguid** value to fetch the access token with the user profile data.
+
+## FAQ
+
+**Performing social login in the Apps e.g Facebook/Instagram build-in browsers leading to blank screen after authentication.**
+
+If you are using Social Login on websites that are rendered inside the Apps like Facebook/Instagram build-in browsers, then you need to set `callbacktype=hash` in the implementation. **For example:** If you are using the Facebook social provider, then LoginRadius Social Login request handler URL should be as below, i.e., containing a `callbacktype` in query paramter:
 
 ```
-https://<LoginRadius site name>.hub.loginradius.com/RequestHandler.aspx?apikey=<<LoginRadius API key>>&provider=socail provider name&callbacktype=hash&callback="Callback URL”
+https://<LoginRadius site name>.hub.loginradius.com/RequestHandler.aspx?apikey=<LoginRadius API Key>&provider=<Social Provider Name>&callbacktype=hash&callback="Callback URL"
 ```
+
 **Why it need to be done?**
 
-Whenever a user clicks on the social login option, by default the Social login request handler endpoint directly opens the callback/redirect URL in the child window, since the Apps build-in browsers does not support child window this leads to an error resulting into a blank screen. To avoid that error it is required to use **callbacktype=hash.**
+Whenever a user clicks on the social login option, by default the Social login request handler endpoint directly opens the callback/redirect URL in the child window, since the Apps build-in browsers does not support child window this leads to an error resulting into a blank screen. To avoid that error it is required to use **callbacktype=hash**.
 
 **How will it resolve the issue?**
 
-With the parameter **callbacktype=hash** in the LoginRadius social login request handler url whenever the user clicks on the requestHandler endpoint(social icon), it will redirect to the callbackurl paased, and you will get an access token as a hash (fragment) parameter on the callback url.  
-  
+With the parameter **callbacktype=hash** in the LoginRadius social login request handler url whenever the user clicks on the requestHandler endpoint(social icon), it will redirect to the callbackurl paased, and you will get an access token as a hash (fragment) parameter on the callback url.
+
 Once the access token is received, you can leverage the access token as required.
 
-  Example:  **With callbacktype=hash :** `https://<<your call back url >>#lr-token==<<LoginRadius accesstoken>>`
+Example: **With callbacktype=hash :** `https://<Your Callback URL>?lr-token=<LoginRadius Access Token>`
 
 **Will any other callbacktype work?**
 
-Yes, if you need the token in the from of query string than you can use the **callbacktype =QueryString** and after this you will receive the token in the form of **query parameter** and if you want the token in hash format then you can use callbacktype=hash which will give the token in **hash (fragment)**. So, you can use any of **callbacktype** as per you usecase.  
-  
-Example: **With callbacktype=QueryString :** `https://<<your call back url >>?lr-token==<<LoginRadius accesstoken>>`
+Yes, if you need the token in the from of query string than you can use the **callbacktype =QueryString** and after this you will receive the token in the form of **query parameter** and if you want the token in hash format then you can use callbacktype=hash which will give the token in **hash (fragment)**. So, you can use any of **callbacktype** as per you usecase.
+
+Example: **With callbacktype=QueryString :** `https://<Your Callback URL>?lr-token=<LoginRadius Access Token>`
