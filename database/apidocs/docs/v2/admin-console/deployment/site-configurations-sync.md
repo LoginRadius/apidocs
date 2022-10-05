@@ -24,7 +24,7 @@ This tool also provides various options for you to select the specific configura
 
 ![Configuration Sync settings selection](https://apidocs.lrcontent.com/images/ac14_195075e93202de5a953.43178419.png "Configuration Sync settings selection")
 
-Note: On swapping the current **integration** configuration, a pop will appear and ask for the confirmation, so you need to click on the proceed button to complete the integration swap.
+Note: When cloning the current **integration** configuration, a pop will appear and ask for the confirmation, so you need to click on the proceed button to complete the integration transfer.
 
    ![Confirmation pop-up](https://apidocs.lrcontent.com/images/Configuration-De_23418613a85c56cddf4.80379240.png "Confirmation pop-up ")
 
@@ -118,11 +118,11 @@ All of the Multi-factor Authentication settings that can be found in **Platform 
 
 **All the IDX settings will be migrated from your source site to the destination site.**
 
-**Note:** While using the configuration swap on IDX, the same file location is updated from the source (development environment) to destination site ( production environment). Later on, when you want to make changes in development, if the IDX files, e.g. before.js is updated directly or uploaded with the same file name in the Admin Console under the development environment, it will be updated to both the development and production environment due to same file link.
+**Note:** While using the configuration deployment on IDX, the same file location is updated from the source (development environment) to destination site ( production environment). Later on, when you want to make changes in development, if the IDX files, e.g. before.js is updated directly or uploaded with the same file name in the Admin Console under the development environment, it will be updated to both the development and production environment due to same file link.
 
 **For example,** you have made changes to before.js file and uploaded with name before-rev1.js in your development site, and if you have performed configuration deploy by choosing **Identity Experience Framework Customization**, the same file network location is updated from the source (development environment) to destination site ( production environment) i.e before-rev1.js. After the sync, you want to further make changes in your development site, it is recommended to upload a new before.js file with a different name (e.g. before-rev2.js) other than before-rev1.js. Uploading the file with a different name creates a new network location URL in the LoginRadius platform. This prevents the changes made on the development site to be updated on the production site. Also, uploading the file with a different name reflects immediately ( there is no caching ).
 
-## List of features that do not swap
+## List of features that does not get cloned
 
 Above we have discussed the features which get transferred to the target site from the source site. In this section, we give you the names of features/sections that do not sync in the site configuration sync process.
 
