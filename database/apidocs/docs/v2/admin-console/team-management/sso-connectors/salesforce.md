@@ -45,7 +45,7 @@ Please follow the steps mentioned below:
 
       - To allow users to be logged out of the LoginRadius application when they log out of Salesforce as an identity provider, select **Enable Single Logout.**
 
-      -  If you selected Enable Single Logout, enter **https://secure.loginradius.com/logout**.
+      -  If you selected Enable Single Logout, enter **https://adminconsole.loginradius.com/logout**.
 
       - Select Name Id format **urn:oasis:names:tc:SAML:2.0:nameid-format:unspecified**.
 
@@ -73,7 +73,7 @@ Steps:
 
 1. Log in to your LoginRadius account.
 
-2. Navigate to your team management section in LoginRadius Admin Console from [here](https://secure.loginradius.com/account/team).
+2. Navigate to your team management section in LoginRadius Admin Console from [here](https://adminconsole.loginradius.com/account/team).
 
 3. Click on Salesforce under the **Single Sign-On tab.**
 

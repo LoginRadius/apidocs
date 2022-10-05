@@ -15,7 +15,7 @@ consists of three submodules as following:
 
 
 ## Instructions
-Some of the functionalities in this doc require additional add-ons, If you need assistance contact [LoginRadius Support](https://secure.loginradius.com/support/support-tickets).
+Some of the functionalities in this doc require additional add-ons, If you need assistance contact [LoginRadius Support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
 > **Note:** If you are already using any previous version of Social Login, follow the Uninstallation section to uninstall the module first. <br><br> Enabling both the versions together i.e. V1 and V2 of Drupal v7.x plugins may cause conflicts. Kindly disable one of them for smoother operations.
 

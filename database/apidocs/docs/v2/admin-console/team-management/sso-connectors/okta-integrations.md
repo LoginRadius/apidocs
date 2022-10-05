@@ -50,7 +50,7 @@ For example:
 ### Configuring LoginRadius Admin Console
 
 1. Log in to your LoginRadius Admin Console.
-2. Navigate to your team management section in LoginRadius Admin Console from [here](https://secure.loginradius.com/account/team).
+2. Navigate to your team management section in LoginRadius Admin Console from [here](https://adminconsole.loginradius.com/account/team).
 3. Click on SAML under the **Single Sign-On** tab.
 
 4. Fill in the below form as:

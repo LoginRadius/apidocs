@@ -170,4 +170,4 @@ The reason behind upgrade of TLS is the mandate issued by PCI Security Standards
 
 **Note:** If you are still not clear about TLS1.2 compatibility on your server, please contact to your webmaster for compatibility details.
 
-If you’ve any questions or facing any issues related to TLS compatibility, feel free to contact [LoginRadius Support](https://secure.loginradius.com/support/support-tickets).
+If you’ve any questions or facing any issues related to TLS compatibility, feel free to contact [LoginRadius Support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).

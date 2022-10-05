@@ -32,7 +32,7 @@ define('DISQUS_PUBLIC_KEY', '{{ PUBLIC KEY HERE }}');
 // You should see "Your website's shortname is ......."
 define('DISQUS_SHORTNAME', '{{ SHORTNAME HERE}}');
 
-// LoginRadius API KEY found on your LoginRadius Admin Console https://secure.loginradius.com/account#Admin-console
+// LoginRadius API KEY found on your LoginRadius Admin Console https://adminconsole.loginradius.com/platform-security/data-access-protection/api-credentials/account-api-keys
 define('LR_API_KEY', '{{ LOGINRADIUS API KEY HERE }}');
 ```
 

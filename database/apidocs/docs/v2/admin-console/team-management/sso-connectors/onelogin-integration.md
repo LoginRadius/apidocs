@@ -14,7 +14,7 @@ LoginRadius allows your team members to log in to LoginRadius Admin Console usin
 
 5. Enter the **ACS (Consumer) URL** as  `https://lr.hub.loginradius.com/saml/serviceprovider/SpInitiatedACS.aspx`.
 
-6. Under **SLO ENDPOINT** and **SLO RESPONSE ENDPOINT**, enter `https://secure.loginradius.com/logout` and `https://adminconsole.loginradius.com/dashboard` respectively.
+6. Under **SLO ENDPOINT** and **SLO RESPONSE ENDPOINT**, enter `https://adminconsole.loginradius.com/logout` and `https://adminconsole.loginradius.com/dashboard` respectively.
 
 7. After successfully Configuring SAML settings, navigate to the **More action** tab from the top right corner on the dashboard and **download the SAML metadata** file.
 
@@ -26,7 +26,7 @@ LoginRadius allows your team members to log in to LoginRadius Admin Console usin
 
 1. Log in to your LoginRadius Admin Console.
 
-2. Navigate to your team management section in LoginRadius Admin Console from [here](https://secure.loginradius.com/account/team).
+2. Navigate to your team management section in LoginRadius Admin Console from [here](https://adminconsole.loginradius.com/account/team).
 
 3. Click on SAML under the **Single Sign-On** tab.
 

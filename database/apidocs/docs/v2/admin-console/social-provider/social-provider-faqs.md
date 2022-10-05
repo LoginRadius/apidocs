@@ -47,7 +47,7 @@ On login with Facebook, the error message shown below is sometimes displayed to 
 
 This is caused by the Facebook API v 2.0 release, which has deprecated certain scopes. LoginRadius has handled all of these changes within our system, so in order to remove the deprecated scoping from your account you can follow the steps below:
 
-1. Login to your [LoginRadius Admin Console](https://secure.loginradius.com/login).
+1. Login to your [LoginRadius Admin Console](https://adminconsole.loginradius.com/login).
 2. Select the site for which you are seeing the error, using the dropdown in the top-right corner of the user account.
 3. Navigate to **Platform Configuration -> Authentication Configuration -> Social Login -> Social Data Settings**.
 

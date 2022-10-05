@@ -24,7 +24,7 @@ LoginRadius allows your team members to log in to LoginRadius Admin Console usin
 
 10. In **ENTITY ID**, enter `https://lr.hub.loginradius.com/`.
 
-11. Under **SLO ENDPOINT** and **SLO RESPONSE ENDPOINT**, enter `https://secure.loginradius.com/logout` and `https://adminconsole.loginradius.com/dashboard` respectively.
+11. Under **SLO ENDPOINT** and **SLO RESPONSE ENDPOINT**, enter `https://adminconsole.loginradius.com/logout` and `https://adminconsole.loginradius.com/dashboard` respectively.
 
 12. Under **SUBJECT NAMEID FORMAT** enter `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`
 
@@ -58,7 +58,7 @@ LoginRadius allows your team members to log in to LoginRadius Admin Console usin
 
 1. Log in to your LoginRadius Admin Console.
 
-2. Navigate to your team management section in LoginRadius Admin Console from [here](https://secure.loginradius.com/account/team).
+2. Navigate to your team management section in LoginRadius Admin Console from [here](https://adminconsole.loginradius.com/account/team).
 
 3. Click on SAML under the **Single Sign-On** tab.
 

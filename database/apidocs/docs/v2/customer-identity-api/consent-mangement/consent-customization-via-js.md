@@ -8,7 +8,7 @@ For more details on the Consent Management feature’s functional specification 
 This guide will take you through the process to set up and implement Consent Management via V2JS. It covers everything you need to know on how to configure Consent Management in the LoginRadius Identity Platform and deploy it onto your web application.
 
 > Prerequisites
-> - Consent Management feature should be enabled on your account, please contact [LoginRadius Support](https://secure.loginradius.com/support/support-tickets) to enable this feature.
+> - Consent Management feature should be enabled on your account, please contact [LoginRadius Support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) to enable this feature.
 > - Basic knowledge of HTML/JavaScript.
 
 ## Part 1- Consent Configuration via Admin Console

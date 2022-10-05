@@ -27,4 +27,4 @@ IP Access Restriction is a heightened security measure, beyond the standard API 
 
    ![IP Access Restriction - Enter an IP](https://apidocs.lrcontent.com/images/IP-Access-Restriction---Enter-an-IP_17656281c749f1d639.65282548.png "IP Access Restriction - Enter an IP")
 
-> **Note:** To enable IP Access Restriction, contact the [LoginRadius Support Team](https://secure.loginradius.com/support/support-tickets).
+> **Note:** To enable IP Access Restriction, contact the [LoginRadius Support Team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).

@@ -48,7 +48,7 @@ Twilio is a cloud-based platform for providing communication-based services. It 
 
  ![Twilio account setup](https://apidocs.lrcontent.com/images/id-and-secretr_1514460d191e555d993.94732838.png "Account id and Token")
 
-8. Open [LoginRadius dashboard](https://secure.loginradius.com) with valid credentials. Go to [Platform Configuration > Identity workflow > Communication configuration > SMS configuration](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/sms-configuration). Paste the Twilio credentials like Account SID, Auth Token, and Twilio Number in the respective fields as shown below. Tap the “Save” button to save the configuration.
+8. Open [LoginRadius dashboard](https://adminconsole.loginradius.com) with valid credentials. Go to [Platform Configuration > Identity workflow > Communication configuration > SMS configuration](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/sms-configuration). Paste the Twilio credentials like Account SID, Auth Token, and Twilio Number in the respective fields as shown below. Tap the “Save” button to save the configuration.
 
 
  ![Twilio account setup](https://apidocs.lrcontent.com/images/Communication-Co_2302160d1921d6cdb00.90283346.png "Admin console Setup")

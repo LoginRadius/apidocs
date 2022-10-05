@@ -1249,7 +1249,7 @@ Use the following snippet in your code wherever you have a desired event during 
 > **Note:**
 > The success callback will return a JSON object `{IsPosted: true}`.
 
-> **Note:** "Step Name" is the name of progressive profiling steps created via [Admin Console](https://secure.loginradius.com/deployment/configuration/progressive-profiling). If this step will be for Social Data Progressive Profiling, make sure that you have a template ready for the Social Login Interface that will load the buttons with the scopes you've configured in the Admin Console E.g. :
+> **Note:** "Step Name" is the name of progressive profiling steps created via [Admin Console](https://adminconsole.loginradius.com/deployment/profiling/progressive-profiling). If this step will be for Social Data Progressive Profiling, make sure that you have a template ready for the Social Login Interface that will load the buttons with the scopes you've configured in the Admin Console E.g. :
 
 ```
 <script type="text/html" id="loginradiuscustom_tmpl_progressive">

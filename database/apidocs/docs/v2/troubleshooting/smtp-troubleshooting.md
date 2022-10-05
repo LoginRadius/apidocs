@@ -70,9 +70,7 @@ addresses or its occurring globally.
 
 ## Admin Console configuration
 
-Improper SMTP configurations in [Admin Console](http://secure.loginradius.com/platform-configuration
-/identity-workflow/communication-configuration) also leads to mail sending/ receiving issues. So it’s 
-better to cross-check your SMTP configurations settings there.For more you can refer this [DOC](https://www.loginradius.com/docs/api/v2/admin-console/platform-configuration/communication-configuration/email/email-configuration/#sendgrid-smtp-configuration) 
+Improper SMTP configurations in [Admin Console](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration) also leads to mail sending/ receiving issues. So it’s better to cross-check your SMTP configurations settings there. For more you can refer this [DOC](https://www.loginradius.com/docs/api/v2/admin-console/platform-configuration/communication-configuration/email/email-configuration/#sendgrid-smtp-configuration) 
 
 
 The above are some common cases that cause email sending/receiving issues and the customer can

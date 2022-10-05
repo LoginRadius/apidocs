@@ -22,4 +22,4 @@ The chart and description below illustrate the logical flow of the process that 
 * App configured expiration time: Validity of Refresh Access Token can be controlled with "LoginRadius Access Token" expiration time settings.
 <br><br>i.e. If Expiration time of LoginRadius Access Token is set to 24 Hours for your app then validity of Refresh Access Token will be 24 hours only instead of 60 Days.
 
-For enabling App configured expiration time of refresh Access Token, please contact LoginRadius [Support](https://secure.loginradius.com/support/support-tickets).
+For enabling App configured expiration time of refresh Access Token, please contact LoginRadius [Support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
