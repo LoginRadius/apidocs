@@ -534,7 +534,7 @@ Then, you need to edit the downloaded CSS and provide the color values according
 }
 ```
 
-Save the file and upload the same in the [LoginRadius Admin Console](https://secure.loginradius.com/). To do so, go to **Deployment > Identity Experience Framework > Authentication Page > Custom CSS > Add New**.
+Save the file and upload the same in the [LoginRadius Admin Console](https://adminconsole.loginradius.com/). To do so, go to **Deployment > Identity Experience Framework > Authentication Page > Custom CSS > Add New**.
 
 To update the changes in the Profile page,  upload the same edited CSS file by navigating to **Deployment > Identity Experience Framework > Profile Page > Custom CSS > Add New**.
 
@@ -543,7 +543,7 @@ To update the changes in the Profile page,  upload the same edited CSS file by n
 
 ##### Custom GIF image as loading spinner
 
-For providing custom GIF image as loading spinner on Identity Experience Framework page, you need to replace the existing jumping dots animation with the new structure. The default structure can be found in the [LoginRadius Admin Console](https://secure.loginradius.com/). Go to **Deployment > Identity Experience Framework > Authentication Page or Profile page**. It is defined as follows:
+For providing custom GIF image as loading spinner on Identity Experience Framework page, you need to replace the existing jumping dots animation with the new structure. The default structure can be found in the [LoginRadius Admin Console](https://adminconsole.loginradius.com/). Go to **Deployment > Identity Experience Framework > Authentication Page or Profile page**. It is defined as follows:
 
 ```
 <div class='lr_fade lr-loading-screen-overlay' id='loading-spinner'>
@@ -591,7 +591,7 @@ Then, you need to edit the downloaded CSS file and add a new CSS class for defin
 
 ```
 
-Save the file and upload the same in the [LoginRadius Admin Console](https://secure.loginradius.com/).To do so, go to [Deployment > Identity Experience Framework > Authentication Page > Custom CSS > Add New](https://adminconsole.loginradius.com/deployment/idx).
+Save the file and upload the same in the [LoginRadius Admin Console](https://adminconsole.loginradius.com/).To do so, go to [Deployment > Identity Experience Framework > Authentication Page > Custom CSS > Add New](https://adminconsole.loginradius.com/deployment/idx).
 
 To update the changes in the **Profile Page**, upload the same edited CSS file by following the same steps.
 

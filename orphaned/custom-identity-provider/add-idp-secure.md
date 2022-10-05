@@ -8,7 +8,7 @@ This document describes the step by step procedure to add Identity provider to y
 ##Steps
 1. Log in to your LoginRadius account.
 
-- Navigate to your team section in LoginRadius Admin Console from [here](https://secure.loginradius.com/account/team).
+- Navigate to your team section in LoginRadius Admin Console from [here](https://adminconsole.loginradius.com/account/team).
 
 - Click on **Add a new App** under the **Single Sign-On tab**.
 <br><br>

@@ -24,7 +24,7 @@ By default your email template should look like this:
 2) Generate SOTT:-
 
 You need to pass the SOTT value at the time of registration in Xamarin SDK V2 and you can generate this by Admin Console.<br>
-Open [Admin Console](https://secure.loginradius.com/deployment/configuration/apps), Click on SOTT available in the left panel. now set the time according to the requirement and generate SOTT.
+Open [Admin Console](https://adminconsole.loginradius.com/deployment/apps/web-apps), Click on SOTT available in the left panel. now set the time according to the requirement and generate SOTT.
 
 
 ![enter image description here](https://apidocs.lrcontent.com/images/Apps---LoginRadius-User-Dashboard_311005e91f625756406.03332066.png "Mobile Apps(SOTT)")
@@ -176,7 +176,7 @@ await ((NavigationPage)Application.Current.MainPage).PushAsync(new LRWebview(web
 ## Integrate Registration Service
 Registration service supports traditional registration and login methods. Registration Service is done through Authentication API. Registration requires a parameter called SOTT.
 
-- You can generate SOTT by login into the [LoginRadius Admin Console](https://secure.loginradius.com)<br>
+- You can generate SOTT by login into the [LoginRadius Admin Console](https://adminconsole.loginradius.com)<br>
 - Move to DEPLOYMENT -> MOBILE APP<br>
 - Click on SOTT tab in the left panel.
 

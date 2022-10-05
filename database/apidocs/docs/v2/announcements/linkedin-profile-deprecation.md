@@ -29,4 +29,4 @@ The following fields will no longer be available from your LinkedIn Profiles:
 
 You may need to go through an additional review process through LinkedIn to get all other data points.
 
-If you are leveraging the above APIs or data fields, we recommend that you prepare for the changes to these services. If you have any questions about the above migration or their impact on your workflows, please reach out to [LoginRadius support](https://secure.loginradius.com/support/support-tickets) for more information or assistance. 
+If you are leveraging the above APIs or data fields, we recommend that you prepare for the changes to these services. If you have any questions about the above migration or their impact on your workflows, please reach out to [LoginRadius support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) for more information or assistance. 

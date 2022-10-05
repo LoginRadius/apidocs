@@ -49,7 +49,7 @@ If you have questions about a specific integration you can reach out to our deve
 [5]: http://apidocs.loginradius.com/
 [6]: http://apidocs.loginradius.com/user-profile
 [7]: http://www.loginradius.com/datapoints
-[8]: https://secure.loginradius.com/datapoints
+[8]: https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/social-login/social-data-settings
 [9]: https://support.loginradius.com/hc/en-us/requests/new
 [Source](https://support.loginradius.com/hc/en-us/articles/203305899-General-Third-Party-Integrations- "Permalink to General Third Party Integrations – LoginRadius")
 
@@ -104,5 +104,5 @@ If you have questions about a specific integration you can reach out to our deve
 [5]: http://apidocs.loginradius.com/
 [6]: http://apidocs.loginradius.com/user-profile
 [7]: http://www.loginradius.com/datapoints
-[8]: https://secure.loginradius.com/datapoints
+[8]: https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/social-login/social-data-settings
 [9]: https://support.loginradius.com/hc/en-us/requests/new

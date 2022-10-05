@@ -12,7 +12,7 @@ This guide describes step by step procedure for setting up Doximity as an Identi
 
 This section covers the required configurations that you need to perform in the LoginRadius Admin Console to set up your application as a custom IDP leveraging Doximity as a social login provider.
 
-**Step 1:** Log in to your[ **LoginRadius Admin Console**](https://secure.loginradius.com/) and navigate to [**Platform Configuration > Authentication Configuration > Custom IDPs > OAuth Provider **](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/custom-idps/oauth-provider).
+**Step 1:** Log in to your[ **LoginRadius Admin Console**](https://adminconsole.loginradius.com/) and navigate to [**Platform Configuration > Authentication Configuration > Custom IDPs > OAuth Provider **](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/custom-idps/oauth-provider).
 
 The following screen will appear:
 ![enter image description here](https://apidocs.lrcontent.com/images/Custom_Idps_LoginRadius_User_Dashboard-1-1_180345eda17f5f3ade6.79330247.png "OAuth Provider")

@@ -47,7 +47,7 @@ To configure the callback URL through the social login interface script, you nee
 
 ```
 
-To make sure the callback URL option is working, you need to whitelist that URL in the LoginRadius Admin Console. You can whitelist the Callback URL from your LoginRadius Admin Console by [logging in to your Admin Console](https://secure.loginradius.com/account) then navigating to Deployment ➔ Apps
+To make sure the callback URL option is working, you need to whitelist that URL in the LoginRadius Admin Console. You can whitelist the Callback URL from your LoginRadius Admin Console by [logging in to your Admin Console](https://adminconsole.loginradius.com/account) then navigating to Deployment ➔ Apps
 
 
 ## Error

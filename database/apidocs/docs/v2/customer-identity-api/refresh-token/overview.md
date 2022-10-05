@@ -16,14 +16,14 @@ When a session is established the access_token is issued with an expiration time
 
 - **Refresh Token API:** If you don't have a refresh_token already, you can use [this](/api/v2/customer-identity-api/refresh-token/refresh-token) API to be issued a new access_token along with a refresh_token. This API allows you to set the Access Token's expiration via the expiresIn parameter, if the expiration is not specified it will default to your current configurations.
 
-- **Sliding Token Expiration:** If you would like the access_token to be automatically refreshed based on it being accessed or used via our APIs, you can have the access_token be automatically refreshed for the same time period as it's set expiration time, this means you can have it refresh for any desired length. E.g. 15 minutes, 60 days, etc. Note: To have this feature enabled please contact [LoginRadius Support](https://secure.loginradius.com/support/support-tickets).
+- **Sliding Token Expiration:** If you would like the access_token to be automatically refreshed based on it being accessed or used via our APIs, you can have the access_token be automatically refreshed for the same time period as it's set expiration time, this means you can have it refresh for any desired length. E.g. 15 minutes, 60 days, etc. Note: To have this feature enabled please contact [LoginRadius Support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
 
 ##Obtaining a Refresh Token
 
 A Refresh Token can be obtained via one of the methods listed below:
 
-- **Automatic Refresh Token:** When a Login action is taken or the access_token is validated, LoginRadius will automatically return a refresh_token within the API Response. Note: To have this feature enabled please contact [LoginRadius Support](https://secure.loginradius.com/support/support-tickets).
+- **Automatic Refresh Token:** When a Login action is taken or the access_token is validated, LoginRadius will automatically return a refresh_token within the API Response. Note: To have this feature enabled please contact [LoginRadius Support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
 - **Refresh Token API:** While the [Refresh Token API](/api/v2/customer-identity-api/refresh-token/refresh-token) can be used to refresh a session without a refresh_token, it also returns a refresh_token upon an initial refresh, simply pass your LoginRadius API Secret and the customer's access_token to obtain a refresh_token. 
 

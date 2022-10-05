@@ -93,7 +93,7 @@ After you create the relying party trust, you can create the claim rules.
 
 1. Log in to your LoginRadius account.
 
-2. Navigate to your team management section in LoginRadius Admin Console from [here](https://secure.loginradius.com/account/team).
+2. Navigate to your team management section in LoginRadius Admin Console from [here](https://adminconsole.loginradius.com/account/team).
 
 3. Click on ADFS under **Single Sign-On tab**.
 

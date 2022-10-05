@@ -112,7 +112,7 @@ To configure Azure AD single sign-on with LoginRadius, perform the following ste
 -   `https://lr.hub.loginradius.com/saml/serviceprovider/AdfsACS.aspx` in the **Reply URL (Assertion Consumer Service URL)** textbox.  
       
     
--   `https://secure.loginradius.com/login` in the **Sign on URL** textbox.  
+-   `https://adminconsole.loginradius.com/login` in the **Sign on URL** textbox.  
       
     
 
@@ -144,7 +144,7 @@ To configure Azure AD single sign-on with LoginRadius, perform the following ste
 
 <span>1. </span>  Log in to your LoginRadius [Admin Console](https://adminconsole.loginradius.com/login) account.
     
-<span>2. </span> Navigate to your team management section in LoginRadius Admin Console from [here](https://secure.loginradius.com/account/team).
+<span>2. </span> Navigate to your team management section in LoginRadius Admin Console from [here](https://adminconsole.loginradius.com/account/team).
     
 <span>3. </span> Click on **Azure AD** under the **Single Sign-On** tab.  
       
