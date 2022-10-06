@@ -1,0 +1,21 @@
+{ "name": "Admin Console Release 25.10.0",
+    "description":"This release of the Admin Console brings you some improvements. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "In the profile management section under the Admin Console, the Reset Password URL and Resend Email URL fields will automatically pick the recently used URL value."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "Formatting of support ticket description has been updated."
+            },
+            {
+                "text": "Deprecated Social Providers are removed from Admin Console UI."
+            }
+        ]},
+
+    "auther": "Bhavya Tugnawat",
+    "created_date": "2022-10-06",
+    "status": "public"
+}
