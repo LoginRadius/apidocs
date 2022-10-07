@@ -24,21 +24,20 @@ This section covers the required configurations that you need to perform in the 
 
 The following screen will appear:
 
-![enter image description here](https://apidocs.lrcontent.com/images/pasted-image-0-1_270045e7324d8d70650.74486661.png "LinkedIn")
-
+![Social-Login-LoginRadius](https://apidocs.lrcontent.com/images/Social-Login-LoginRadius_26326633fd417beba68.97074297.png "Social-Login-LoginRadius")
 **Step 2:** Click the desired Social ID Provider and follow the step by step guide for configuration.
 
 > **Note:** The steps for configuring each social provider may be different.
 
 **For example**, the following screen displays the configuration steps of **Linkedin**:
 
-![enter image description here](https://apidocs.lrcontent.com/images/unnamed-1_223885e73276af0f607.62247363.png "LinkedIn")
+![Social-Login-LoginRadius1](https://apidocs.lrcontent.com/images/Social-Login-LoginRadius1_1870633fd47e10c585.81770944.png "Social-Login-LoginRadius1")
 
 Upon completing the configuration steps of the selected Social ID Provider, you will get the credentials.
 
 **Step 3:** Enter the obtained credentials in the **Configure App** section highlighted in the following screen:
 
-![enter image description here](https://apidocs.lrcontent.com/images/unnamed-2_4795e73289874d733.91049553.png "API Key And API secret")
+![Social-Login-LoginRadius2](https://apidocs.lrcontent.com/images/Social-Login-LoginRadius2_4096633fd4b2d05271.73044758.png "Social-Login-LoginRadius2")
 
 > **Note:** You can skip **Step 4**, in case of implementing the Social Login using the Identity Experience Framework (IDX).
 
@@ -46,11 +45,11 @@ Upon completing the configuration steps of the selected Social ID Provider, you 
 
 - In LoginRadius Admin Console, navigate to <a href = https://adminconsole.loginradius.com/deployment/apps/web-apps target=_blank>**Deployment > Apps**</a> and the following screen will appear:
 
-  ![enter image description here](https://apidocs.lrcontent.com/images/SSO-config2_159475e7375b633df52.56748253.png "Web Apps")
+  ![Web Apps](https://apidocs.lrcontent.com/images/SSO-config2_159475e7375b633df52.56748253.png "Web Apps")
 
 - Click the **Add New Site** button, the following section will appear:
 
-  ![enter image description here](https://apidocs.lrcontent.com/images/SSO-config2-1_275775e73766f216832.03208176.png "Add New Site")
+  ![Add New Site](https://apidocs.lrcontent.com/images/SSO-config2-1_275775e73766f216832.03208176.png "Add New Site")
 
 - Enter your application domain URL in the textbox and click the **Add** button.
 
