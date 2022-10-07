@@ -16,7 +16,7 @@ You can see an outline of the data structure [here](/api/v2/data-points-and-resp
 ![Access-Token API](https://apidocs.lrcontent.com/images/Sequence-Charts---Registration_1443258ac0e14495278.42896836.png "Registration")
 
 1. [Initialize the LoginRadius User Registration](/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3) system and [display the Registration Interface](/api/v2/user-registration/user-registration-getting-started#registration5) on the page.
-2. You can manage the [Email templates](/api/v2/admin-console/platform-configuration/standard-login/email-templates/) and the [SMTP details](/infrastructure-and-security/smtp-overview) from your LoginRadius [Admin Console](https://secure.loginradius.com/platform-configuration/identity-workflow/communication-configuration).
+2. You can manage the [Email templates](/api/v2/admin-console/platform-configuration/standard-login/email-templates/) and the [SMTP details](/infrastructure-and-security/smtp-overview) from your LoginRadius [Admin Console](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration).
 3. The email will contain a URL with a one-time email-token which should point to a page with the Email Verification function initialized. When the user navigates to the page with the Email Verification function and the correct parameters then the user's Email will be verified and they can now login.
 
 ## Login and Social Login
@@ -35,7 +35,7 @@ You can see an outline of the data structure [here](/api/v2/data-points-and-resp
 ![enter image description here](https://apidocs.lrcontent.com/images/Sequence-Charts---Forgot-Password_2244958ac0f7790edb9.87329839.png "Forgot-Password")
 
 1. To handle Forgot Password functionality initialize the [Forgot Password Interface](/api/v2/user-registration/user-registration-getting-started#forgotpassword12).
-2. You can [manage the Email templates and the SMTP details](/api/v2/admin-console/platform-configuration/standard-login/email-templates/#email-template-management) from your LoginRadius [Admin Console](https://secure.loginradius.com/platform-configuration/identity-workflow/communication-configuration).
+2. You can [manage the Email templates and the SMTP details](/api/v2/admin-console/platform-configuration/standard-login/email-templates/#email-template-management) from your LoginRadius [Admin Console](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration).
 3. The email will contain a URL with a one-time password-token which should point to a page with the [Reset Password interface](/api/v2/deployment/js-libraries/getting-started/#resetpassword13) initialized. When the user navigates to the page with the Reset Password interface and the correct parameters in the URL then the user will be prompted to input a new password.
 4. This will return a JSON response with either a success or error response. If successful the user will now be able to login with the new password.
 

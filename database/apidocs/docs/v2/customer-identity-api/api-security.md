@@ -52,7 +52,7 @@ E.g. `https://api.loginradius.com/identity/v2/manage/account?apikey=********-***
 
 #####API Request Signing
 
-**Note:** if you're interested in enabling this feature please contact [LoginRadius Support](https://secure.loginradius.com/support/support-tickets).
+**Note:** if you're interested in enabling this feature please contact [LoginRadius Support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
 LoginRadius supports passing a dynamically generated Hash value as opposed to an API Secret. This Hash is generated with the request expiry time, url and the payload (if there is a payload), with the apisecret to be used as the hashing key. This will allow you to ensure that the payload has not been tampered with in transit.
 

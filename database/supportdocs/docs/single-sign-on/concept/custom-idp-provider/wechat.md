@@ -37,7 +37,7 @@ WeChat is a popular Chinese social media service that provides instant messaging
 
 #### Setting up WeChat as a Custom oAuth Social Provider in the LoginRadius Admin Console
 
-1. Go to your [LoginRadius Admin Console](https://secure.loginradius.com) Under:
+1. Go to your [LoginRadius Admin Console](https://adminconsole.loginradius.com) Under:
 
 	Platform Configuration -> Authentication Configuration -> Custom IDPs
 	

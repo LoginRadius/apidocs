@@ -4,7 +4,7 @@
 
 If you are looking to analyze or get details on how Custom Objects data is stored in your LoginRadius Cloud Directory, you will need to call the Custom Object API.
 
->**NOTE**: In order to use this API, Please set schema for the Custom Object in [Admin Console](https://secure.loginradius.com/data-governance/data-storage/data-fields) and then contact LoginRadius Support for data to be indexed.
+>**NOTE**: In order to use this API, Please set schema for the Custom Object in [Admin Console](https://adminconsole.loginradius.com/data-governance/data-storage/data-fields) and then contact LoginRadius Support for data to be indexed.
 
 ## Base URL
 

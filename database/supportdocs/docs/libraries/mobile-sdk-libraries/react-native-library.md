@@ -30,7 +30,7 @@ To get your app supported LoginRadius React Native SDK, you need to slightly con
 
 2. Generate SOTT:-
    You need to pass the SOTT value at the time of registration in ionic SDK V2 and you can generate this by Admin Console.<br>
-   Open [Admin Console](https://secure.loginradius.com/deployment/configuration/apps), Click on SOTT available in the left panel. now set the time according to the requirement and generate SOTT.<br>
+   Open [Admin Console](https://adminconsole.loginradius.com/deployment/apps/web-apps), Click on SOTT available in the left panel. now set the time according to the requirement and generate SOTT.<br>
    Note: While generating SOTT from Loginradius Admin Console, enable Encode SOTT.
    <br><br>
    ![enter image description here](https://apidocs.lrcontent.com/images/Apps---LoginRadius-User-Dashboard_311005e91f625756406.03332066.png "Mobile Apps(SOTT)")
@@ -59,7 +59,7 @@ The above initialization requires options object with the following parameter:
 | ---------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | apiKey           | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"> | Set to your LoginRadius API Key which you can get [here](https://loginradius.readme.io/get-api-key-and-secret).                                                                             |
 | appName          | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"> | Set to your LoginRadius site name, this is required for User Registration to work with Single Sign On API.                                                                                  |
-| sott             | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"> | Secure One-time Token. Get token from [Admin Console](https://secure.loginradius.com/deployment/mobile-app) Note: While generating SOTT from Loginradius Admin Console, enable Encode SOTT. |
+| sott             | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"> | Secure One-time Token. Get token from [Admin Console](https://adminconsole.loginradius.com/deployment/apps/mobile-apps) Note: While generating SOTT from Loginradius Admin Console, enable Encode SOTT. |
 | verificationUrl  | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"> | Set dynamic URL for email verification (Default URL: https://auth.lrcontent.com/mobile/verification/index.html)                                                                             |
 | resetPasswordUrl | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"> | Set dynamic URL for reset password.                                                                                                                                                         |
 

@@ -10,7 +10,7 @@ LoginRadius provides a library of pre-written JavaScript functions which allows 
 
 ####Hosted Registration
 
-It is a ready-to-use and easy-to-customize solution for all the necessary actions like Logins, registrations, etc with minimum knowledge. Also, the customization in this IDX implementation can be easily achieved using the [LoginRadius Admin Console](https://secure.loginradius.com) with custom JS and CSS. For more details, have a look [here](/api/v2/deployment/identity-experience-framework/hosted/overview/).
+It is a ready-to-use and easy-to-customize solution for all the necessary actions like Logins, registrations, etc with minimum knowledge. Also, the customization in this IDX implementation can be easily achieved using the [LoginRadius Admin Console](https://adminconsole.loginradius.com) with custom JS and CSS. For more details, have a look [here](/api/v2/deployment/identity-experience-framework/hosted/overview/).
 
 ####SDKs
 

@@ -3,7 +3,7 @@ Invalid Request URI Error
 
 
 -------
-At times, you’ll face an error related to the invalid requested host. It might be due to improper LoginRadius site configurations or some settings not enabled in the [LoginRadius Admin Console](https://secure.loginradius.com). 
+At times, you’ll face an error related to the invalid requested host. It might be due to improper LoginRadius site configurations or some settings not enabled in the [LoginRadius Admin Console](https://adminconsole.loginradius.com). 
 
 ![](https://apidocs.lrcontent.com/images/error_screenshot_235775a953fd6a5ab92.99395267.png)
 
@@ -27,4 +27,4 @@ If you’re facing this error on Identity Experience Framework (i.e. auth.aspx o
 
 You should visit this [document](/api/v2/user-registration/hosted-registration) to ensure proper configuration or customizations related to Identity Experience Framework.<br/>
 
-If you’re still unable to resolve the issue, please raise a support ticket [here](https://secure.loginradius.com/support/support-tickets).
+If you’re still unable to resolve the issue, please raise a support ticket [here](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).

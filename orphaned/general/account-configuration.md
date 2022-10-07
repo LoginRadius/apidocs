@@ -21,7 +21,7 @@ Below is an overview of the process you will take when setting up LoginRadius So
 
 
 
-1. If you already have an account, login to your LoginRadius Admin Console [here](https://secure.loginradius.com/login). Otherwise,​ you can get signed up for a new site [here](https://www.loginradius.com/pricing/).
+1. If you already have an account, login to your LoginRadius Admin Console [here](https://adminconsole.loginradius.com/login). Otherwise,​ you can get signed up for a new site [here](https://www.loginradius.com/pricing/).
 
 2. Select your LoginRadius site from the drop-down list in the upper right corner.
 ![enter image description here](https://apidocs.lrcontent.com/images/Lr8_1256158b566e02b7238.47079867.png "")

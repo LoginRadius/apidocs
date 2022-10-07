@@ -20,5 +20,5 @@ e.g.
 If you're upgrading please refer to our [SAML IDP initated](/single-sign-on/tutorial/federated-sso/saml/idp-initiated/) or [SAML SP Initiated](/single-sign-on/tutorial/federated-sso/saml/sp-initiated/) docs for the full list of configurations that you may need to make.
 
 
-For any additional questions please reach out to [LoginRadius Support](https://secure.loginradius.com/support/support-tickets).
+For any additional questions please reach out to [LoginRadius Support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 

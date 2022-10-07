@@ -233,7 +233,7 @@ To update the Registration Source using iOS SDK, see [here](/libraries/mobile-sd
 
 ## Prevent Webhooks from triggering via header
 
-**Note:** The LoginRadius Webhooks API is an add-on please [contact us](https://secure.loginradius.com/support/support-tickets) for details.
+**Note:** The LoginRadius Webhooks API is an add-on please [contact us](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) for details.
 
 If you are using Webhooks, and you have an event registered.  You can prevent the Webhooks API from triggering when making a call that can be associated to that configured event.
 
@@ -258,5 +258,5 @@ When making requests to the LoginRadius API, you will need to set the proxy for 
 
 For the SDKs supported by LoginRadius, you will need to modify the relevant web request methods in the SDK that you are using to support your proxy.
 
-If you need assistance with this, [submit a ticket](https://secure.loginradius.com/support/support-tickets) with the LoginRadius support team and someone will be able to assist.
+If you need assistance with this, [submit a ticket](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) with the LoginRadius support team and someone will be able to assist.
 ```

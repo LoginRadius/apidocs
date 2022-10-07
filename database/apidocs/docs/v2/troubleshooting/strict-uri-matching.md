@@ -71,4 +71,4 @@ Please see the steps below for details on configuring your Twitter app for Stric
 
 6. Make sure to hit the "Update Settings" button.
 
-If you’re still unable to resolve the issue, please raise a support ticket [here](https://secure.loginradius.com/support/support-tickets).
+If you’re still unable to resolve the issue, please raise a support ticket [here](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).

@@ -92,7 +92,7 @@ To configure Azure AD as an Id Provider with LoginRadius, you need the following
 
 Follow the steps given below:
 
-1.  Login to your LoginRadius **[Admin Console](https://secure.loginradius.com/Admin-console)**.
+1.  Login to your LoginRadius **[Admin Console](https://adminconsole.loginradius.com/Admin-console)**.
     
 2.  Navigate to **[Admin Console->Platform Configuration->Authentication Configuration -> Custom IDPs](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/custom-idps/saml-provider)**.
     

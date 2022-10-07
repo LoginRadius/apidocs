@@ -15,7 +15,7 @@ LoginRadius provides multiple SMS Templates such as, Phone Number verification, 
 - **OTP Validity Limit (Seconds)**: The amount of time (in seconds) for which an OTP is valid.
 
 
-Navigate to your LoginRadius Admin Console ➔ Platform Configuration ➔ Identity Workflow  ➔ [Communication Configuration](https://secure.loginradius.com/platform-configuration/identity-workflow/communication-configuration), click on the tab "Global SMS Settings" and the following screen will appear.
+Navigate to your LoginRadius Admin Console ➔ Platform Configuration ➔ Identity Workflow  ➔ [Communication Configuration](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration), click on the tab "Global SMS Settings" and the following screen will appear.
 
 
 ![enter image description here](https://apidocs.lrcontent.com/images/pasted-image-0_32465e7b5f234ccb25.14993495.png "enter image title here")

@@ -40,7 +40,7 @@ To get your app supported by LoginRadius Android SDK, you need to slightly confi
 	```
 2.  Generate SOTT You need to pass the SOTT value at the time of registration in Android SDK V2 and you can generate this by Admin Console.
 
-     Open [Admin Console](https://secure.loginradius.com/deployment/configuration/apps), Click on SOTT available   in the left panel. now set the time according to the requirement and generate SOTT.  
+     Open [Admin Console](https://adminconsole.loginradius.com/deployment/apps/web-apps), Click on SOTT available   in the left panel. now set the time according to the requirement and generate SOTT.  
   
 	![SDK](https://apidocs.lrcontent.com/images/pasted-image-0-19_277962accf2b2e59c4.12224716.png "SDK")
 
@@ -515,7 +515,7 @@ With the earlier Add Sign-In procedure, your app authenticates the user on the c
 
 _Configurations_:
 
-1. Configure OAuth 2.0 web application for google provider from [LoginRadius Admin Console](https://secure.loginradius.com/platform-configuration/api-configuration/social-login) Under Social Provider.
+1. Configure OAuth 2.0 web application for google provider from [LoginRadius Admin Console](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/social-login/social-providers) Under Social Provider.
 
 2. Make sure web and android configuration are configured under Single Project in Google API Console.
 

@@ -76,4 +76,4 @@ The below fields will no longer be available from Google Profiles:
 
 
 
-If you are leveraging the above APIs or data fields, we recommend that you prepare for the removal of these services. If you have any questions about the above deprecations or their impact on your workflows, please reach out to [LoginRadius support](https://secure.loginradius.com/support/support-tickets) for more information or assistance. 
+If you are leveraging the above APIs or data fields, we recommend that you prepare for the removal of these services. If you have any questions about the above deprecations or their impact on your workflows, please reach out to [LoginRadius support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) for more information or assistance. 
