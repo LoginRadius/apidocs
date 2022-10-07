@@ -134,11 +134,10 @@ Below is a list of the features (in tabular form) that can not be transferred fr
 |Social Providers | Social Data Settings| Profile Access Permission| Custom Scope| External Permissions| Federated SSO|
 |OAuth provider |ADFS Provider |SAML provider and SAML Configurations| JWT Configuration| Oauth2 Configurations|Open ID connect Configurations|
 | Shopify Configurations | Big Commerce Configurations |Perfect Mind Configurations |Account API Keys | Additional API Secret| Data Center |
-|Standard Data Fields | Custom Data fields |Custom Objects | Encryption in transit |Encryption in rest| Data Compliance|
-|GDPR Compliance |SOTT | Custom Domain |SDK Library |Mobile Library |Turnkey Plugins |
-|Social Sharing |On-demand export | scheduled export |Export Logs | Customer Management | Customer Segmentation |
-|Data Query |Customer Insights |My Account- Team Management | Apple ID configurations|Delegation Auth Configurations |Password Delegation |
-| Manage Roles and permissions| Common Password Protection|Email Template- for all| Dark Web Monitoring| Field Level Encryption| Consent Center|
-| Default Roles and Permissions| RBA settings| SMS template- for all | IDX Framework-multiple themes|connected SSO| SSO Connector|
-| Captcha Settings| MFA settings and Pin Authentication| Rest Hooks| Identity API Settings| Theme Customization|Voice OTP|
-| Access Restriction Settings | Admin Email|Bot Protection| IP Access Restriction| Progressive Profiling| WebHooks |
+| Encryption in transit |Encryption in rest| Data Compliance|GDPR Compliance |SOTT | Custom Domain |
+| SDK Library |Mobile Library |Turnkey Plugins |Social Sharing |On-demand export and scheduled export |Export Logs |
+| Customer Management | Customer Segmentation |Data Query |Customer Insights |My Account- Team Management|Apple ID configurations|
+|Delegation Auth Configurations |Password Delegation | Manage Roles and permissions| Common Password Protection|Dark Web Monitoring|Field Level Encryption| 
+|Consent Center| Default Roles and Permissions|RBA settings|IDX Framework-multiple themes|connected SSO| SSO Connector|
+|Captcha Settings| Pin Authentication|Rest Hooks| Identity API Settings| Theme Customization|Voice OTP|
+| Access Restriction Settings | Admin Email|Bot Protection| IP Access Restriction| Progressive Profiling| WebHooks|
