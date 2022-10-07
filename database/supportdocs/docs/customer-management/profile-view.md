@@ -33,7 +33,13 @@ You can perform the following functions as highlighted in the **right** section 
 
 You can view the following customer information, as highlighted in the **left** section of the above screen:
 
-- **Account Info** - This contains information like ID, Full name, Emails(Primary and Secondary), Email Verified, and ExternalIds. 
+- **Account Info** - This contains information like ID, Full name, Emails(Primary and Secondary), Email Verified, and ExternalIds.
+
+  **Note:** While sending the Reset Password Mail or Verification Mail from the available option, the previously used URLs will be automatically prepopulated when you click on the corresponding text box.
+
+   Kindly refer to the below screenshot.
+   ![Reset password image](https://apidocs.lrcontent.com/images/Reset-password-URL_13919633fd276742d13.10669880.png "Reset password image")
+
 - **Security** - Security section contains the information like Last Password Change Date, Password Expiration Date, Last Password Change Token, Is Deleted, Is Login Locked, Disable Login.
 - **Roles** - From this section, you can configure the **Context** for your application after selecting the created **Roles**. Refer to this [document](https://www.loginradius.com/docs/authentication/concepts/roles-and-membership/#partrolesandpermissionsconfiguration0) for detailed information regarding the configuration.
 - **Activity** - This section provides you with the customer login information like whether the account is active or not which you can identify by the field **Is Active**, other details like Last Login Date, Last Login Location, No Of Logins, and the Modified Date. 
