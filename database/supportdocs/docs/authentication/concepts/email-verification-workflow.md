@@ -49,6 +49,10 @@ The following are the email verification workflows provided by LoginRadius:
 
 **We have Mandatory email verification enabled, we would like to know the impact of enabling "no email verification":** On enabling the No Email Verification flow, users will not receive the verification email, and they can directly login to your site without verifying their email. The users created before enabling this flow and having an un-verified email address will not have any issue in login.
 
+
+> **Note:** The **Multi-Factor Authentication (MFA)** feature will not be visible in the Admin Console in the case when the email verification from is changed from **Mandatory** to either **Optional** or **No Email Verification** flow.
+
+
 ### Optional to Mandatory email verification
 
 **We have Optional email verification enabled, we would like to know the impact of enabling "mandatory email verification":** On enabling the Mandatory email verification flow, the user has to verify the email first with the help of a verification email sent to them, then only they will be able to login to your site.The users created before enabling this flow and having an unverified email address will not be able login after the Mandatory verification flow is enabled.
