@@ -34,9 +34,9 @@ if (!defined('ROOT_PATH')) {
 
              <?php docs_enqueue_style(THEME_URL . "assets/stylesheets/font-awesome.min.css");?>
             <div class="md-footer-copyright__highlight">
-                <a href="https://www.loginradius.com/terms">Terms</a> | 
-                <a href="https://www.loginradius.com/privacy">Privacy</a> |
-                <a href="https://www.loginradius.com/contact-sales/">Contact</a>
+                <a href="https://www.loginradius.com/terms" target="_blank">Terms</a> | 
+                <a href="https://www.loginradius.com/privacy" target="_blank">Privacy</a> |
+                <a href="https://www.loginradius.com/contact-sales/" target="_blank">Contact</a>
              
                <p class="copyright-policy">  ©Copyright <?php echo Date('Y'); ?> LoginRadius Inc.</p>  
                      
