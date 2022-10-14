@@ -44,3 +44,33 @@ This chart provides insight into your customers’ browser preferences by displa
 This chart provides insight into what type of devices, mobile or desktop, your customers are using to register on your site.
 
 ![Device](https://apidocs.lrcontent.com/images/8_1826862f1f87bed4723.23111149.png "Device")
+
+## Steps to download Insights
+LoginRadius also provides a feature to download all the data in the form of graphs and charts according to the requirements in multiple formats such as images, CSV, XML, and etc.
+You can directly get this data in the form of hard copy by using print feature.
+
+When clicking on any of these mentioned file formats, the graphs file will automatically start to download on your local device.
+
+#### Image Format
+On clicking “Download as” you will be presented with multiple option such as:
+1. .PNG
+2. .JPG
+3. .SVG
+4. .PDF
+
+![Identity1](https://apidocs.lrcontent.com/images/Ident1_1032163474bbf6a95f2.72032939.png "Identity1")
+
+
+#### Document Format
+On clicking “Save as..”, other options will appear providing benefit of downloading the files in document format as well such as:
+1. .CSV
+3. .XLSX
+2. .JSON
+
+![Identity2](https://apidocs.lrcontent.com/images/Ident2_821063474cdae21d65.57538839.png "Identity2")
+
+
+#### As Print
+If you are looking for physical copy of same, you can just click on third option “Print” and you will presented with option to print the same.
+
+![Identity3](https://apidocs.lrcontent.com/images/Ident3_1690563474d80145e89.28583402.png "Identity3")

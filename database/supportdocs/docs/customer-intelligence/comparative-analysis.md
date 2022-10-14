@@ -26,3 +26,34 @@ This section provides an overall look at the registration numbers to show the hi
 * **Worst Customer Profiles Registration Streaks:**
 
     Highest number of consecutive time period with no user registered at all among the selected time period. Streaks period can be selected from days, weeks, months, quarters or years.
+
+## Steps to download Insights
+LoginRadius also provides a feature to download all the data in the form of graphs and charts according to the requirements in multiple formats such as images, CSV, XML, and etc.
+You can directly get this data in the form of hard copy by using print feature.
+
+When clicking on any of these mentioned file formats, the graphs file will automatically start to download on your local device.
+
+#### Image Format
+On clicking “Download as” you will be presented with multiple option such as:
+1. .PNG
+2. .JPG
+3. .GIF
+3. .SVG
+4. .PDF
+
+![Comparative1](https://apidocs.lrcontent.com/images/Camp1_26894634752de8c5785.39033837.png "Comparative1")
+
+
+#### Document Format
+On clicking “Save as..”, other options will appear providing benefit of downloading the files in document format as well such as:
+1. .CSV
+3. .XLSX
+2. .JSON
+
+![Comparative2](https://apidocs.lrcontent.com/images/camp2_18236634753158389e7.64492367.png "Comparative2")
+
+
+#### As Print
+If you are looking for physical copy of same, you can just click on third option “Print” and you will presented with option to print the same.
+
+![Comparative3](https://apidocs.lrcontent.com/images/camp3_30338634753415f5856.65983783.png "Comparative3")
