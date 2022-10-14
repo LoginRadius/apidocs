@@ -66,3 +66,33 @@ This chart displays the percentage of Unique User Profile Logins based on differ
 This section displays the percentage of Unique User Profile Logins based on the different types of devices such as mobile, tablet, desktop over the selected time period.
 
 ![Device Engagement Chart](https://apidocs.lrcontent.com/images/8_1024762f1ff4490f5d1.86046569.png "Device Engagement Chart")
+
+## Steps to download Insights
+LoginRadius also provides a feature to download all the data in the form of graphs and charts according to the requirements in multiple formats such as images, CSV, XML, and etc.
+You can directly get this data in the form of hard copy by using print feature.
+
+When clicking on any of these mentioned file formats, the graphs file will automatically start to download on your local device.
+
+#### Image Format
+On clicking “Download as” you will be presented with multiple option such as:
+1. .PNG
+2. .JPG
+3. .SVG
+4. .PDF
+
+![Login1](https://apidocs.lrcontent.com/images/Login1_90126347524c9d5127.17428838.png "Login1")
+
+
+#### Document Format
+On clicking “Save as..”, other options will appear providing benefit of downloading the files in document format as well such as:
+1. .CSV
+3. .XLSX
+2. .JSON
+
+![Login2](https://apidocs.lrcontent.com/images/Login2_202096347527b6b0375.68682635.png "Login2")
+
+
+#### As Print
+If you are looking for physical copy of same, you can just click on third option “Print” and you will presented with option to print the same.
+
+![Login3](https://apidocs.lrcontent.com/images/Login3_12385634752ab08f213.92846201.png "Login3")

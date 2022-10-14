@@ -24,3 +24,33 @@ This chart displays the age demographics for your site. Of all of the profiles a
 This chart displays the gender demographics for your site to show the gender distribution of the users who have registered during the chosen time period. Click the coloured squares to disclude a given grouping.
 
 ![Gender](https://apidocs.lrcontent.com/images/4_1880462f1fd7f527db0.33750614.png "Gender")
+
+## Steps to download Insights
+LoginRadius also provides a feature to download all the data in the form of graphs and charts according to the requirements in multiple formats such as images, CSV, XML, and etc.
+You can directly get this data in the form of hard copy by using print feature.
+
+When clicking on any of these mentioned file formats, the graphs file will automatically start to download on your local device.
+
+#### Image Format
+On clicking “Download as” you will be presented with multiple option such as:
+1. .PNG
+2. .JPG
+3. .SVG
+4. .PDF
+
+![Provider1](https://apidocs.lrcontent.com/images/Provid1_2909163474ed6f2c084.10950886.png "Provider1")
+
+
+#### Document Format
+On clicking “Save as..”, other options will appear providing benefit of downloading the files in document format as well such as:
+1. .CSV
+3. .XLSX
+2. .JSON
+
+![Provider2](https://apidocs.lrcontent.com/images/Provid2_2016363474f5081eac8.62617775.png "Provider2")
+
+
+#### As Print
+If you are looking for physical copy of same, you can just click on third option “Print” and you will presented with option to print the same.
+
+![Provider3](https://apidocs.lrcontent.com/images/Provid3_1184863474fe0ce8ee5.17071759.png "Provider3")
