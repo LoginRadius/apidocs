@@ -129,7 +129,7 @@ Format:
 
 `LRObject.api.forgotPassword` is used to send a forgot password email to a customer, the email will contain the verification token to then be consumed the resetPassword function.
 
-**Note**: Since the **Forgot Password** flow requires a **resetpasswordurl** on which the user will be redirected to reset the password, it is required to whitelist that resetpasswordurl. To whitelist the same, navigate to LoginRadius [Admin console → Deployment → Apps → Web Apps](https://adminconsole.loginradius.com/deployment/apps/web-apps), and add the URL under the Production Website URL(s) section.
+> **Note**: Since the **Forgot Password** flow requires a **resetpasswordurl** on which the user will be redirected to reset the password, it is required to whitelist that resetpasswordurl. To whitelist the same, navigate to LoginRadius [Admin console > Deployment > Apps > Web Apps](https://adminconsole.loginradius.com/deployment/apps/web-apps), and add the URL under the Production Website URL(s) section.
 
 
 Format:
