@@ -95,9 +95,9 @@ You can monitor your team’s usage of the LoginRadius account and any configura
 ## User Registration Compliance
 
 ### COPPA Compliance
-COPPA ([Children's Online Privacy Protection Act](http://www.coppa.org/coppa.htm)) is the US act that applies to websites and online services operated for commercial purposes that are either directed towards children under 13 or have actual knowledge that children under 13 are providing information online. LoginRadius supports full COPPA client workflows, which allows you to provide age requests/verification, block non-compliant users, and manage family-based user accounts where the parents/guardians can authorize access for minors.
+COPPA ([Children's Online Privacy Protection Act](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa)) is the US act that applies to websites and online services operated for commercial purposes that are either directed towards children under 13 or have actual knowledge that children under 13 are providing information online. LoginRadius supports full COPPA client workflows, which allows you to provide age requests/verification, block non-compliant users, and manage family-based user accounts where the parents/guardians can authorize access for minors.
 
-Please see more information about COPPA [here](https://en.wikipedia.org/wiki/Children%27s_Online_Privacy_Protection_Act).
+Please see more information about COPPA [here](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa).
 
 ### WCAG Compliance
 
