@@ -40,13 +40,7 @@ Please check the below additional security options that LoginRadius provides for
 
 ## Block Fraudulent Domains:
 
-Our system can prevent fraudulent email domains using the methods listed below:
-
-- **Block Spam Email Domains**: We provide our customers with the ability to blacklist or whitelist domains. This allows for blocking out known fraudulent or undesired domains and ensuring that a good domain will never be blocked. For more detailed information refer to this document.
-
-- **Block Disposable Email Domains**: We provide the option to disable registration from all disposable email services such as Mailinator or mail7.io.
-
-- **Business Email Registration Only**: If you want to only allow registration from business/company emails in your system, we have the option to prevent registration from non-business email providers.
+Our system can prevent fraudulent email domains thus ensuring that you are blocking out known fraudulent or undesired domains and preventing malicious users from accessing your site. For more detailed information refer to this [document](https://www.loginradius.com/docs/security/user-security/fraud-prevention/#blockfraudulentdomains2).
 
 ## IPs Access Control:
 
