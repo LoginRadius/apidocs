@@ -13,7 +13,7 @@ When a customer provides an email address at registration, we have two ways to v
 
 2. **One Time Password (OTP)**: Our system sends a One Time Passcode (OTP) to the registered email address and the customer will be  prompted to enter the OTP for system validation.
 
-> **Note**: LoginRadius supports various [email verification workflows](https://www.loginradius.com/docs/authentication/concepts/email-verification-workflow/). Based on workflows, there are different validation processes.
+> **Note**: LoginRadius supports various [email verification workflows](/authentication/concepts/email-verification-workflow/). Based on workflows, there are different validation processes.
 
 - For **No Email Verification**, no account verification is required.
 - For **Optional Email Verification**, account verification is optional.
@@ -40,11 +40,11 @@ Please check the below additional security options that LoginRadius provides for
 
 ## Block Fraudulent Domains:
 
-Our system can prevent fraudulent email domains thus ensuring that you are blocking out known fraudulent or undesired domains and preventing malicious users from accessing your site. For more detailed information refer to this [document](https://www.loginradius.com/docs/security/user-security/fraud-prevention/#blockfraudulentdomains2).
+Our system can prevent fraudulent email domains thus ensuring that you are blocking out known fraudulent or undesired domains and preventing malicious users from accessing your site. For more detailed information refer to this [document](/security/user-security/fraud-prevention/#blockfraudulentdomains2).
 
 ## IPs Access Control:
 
-We provide the ability to control access to the LoginRadius APIs by configuring either to allow or deny certain IP addresses. For more detailed information refer to this [document](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/api-security/#ip-access-restriction).
+We provide the ability to control access to the LoginRadius APIs by configuring either to allow or deny certain IP addresses. For more detailed information refer to this [document](/api/v2/admin-console/platform-security/api-security/#ip-access-restriction).
 
 
 ## Validating SSN with 3rd Party APIs:
