@@ -283,7 +283,7 @@ See below for a comprehensive list of integrations that are available within Log
                                 <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Marketing</span></td>
                             </tr>
                             <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="(https://apidocs.lrcontent.com/images/Adobe-Campaign_159076351a6710275e0.48180080.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/adobe-campaign/">Adobe Campaign</a></span></td>
+                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/Adobe-Campaign_159076351a6710275e0.48180080.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/adobe-campaign/">Adobe Campaign</a></span></td>
                                 <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/boomtrain_106606351a6c35f4982.59845888.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/zeta-boomtrain/">BoomTrain</a></span></td>
                                 <td class="s1" dir="ltr"><img src="https://lrwww.wpenginepowered.com/wp-content/uploads/2019/04/constant-contact.png?ver=1537265200" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/constant-contact/">Constant Contact</a></span></td>
                                 <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/contactlab_15936351a73f718015.88715479.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/contactlab/">ContactLab</a></span></td>
