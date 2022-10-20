@@ -68,11 +68,6 @@
           "type": "DOC"
         },
         {
-          "url": "authentication/concepts/sms-configuration/",
-          "title": "SMS Provider Configuration",
-          "type": "DOC"
-        },
-        {
           "url": "authentication/concepts/roles-and-membership/",
           "title": "Roles, Permissions and Context",
           "type": "DOC"
