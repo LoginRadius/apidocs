@@ -6921,8 +6921,10 @@
   "oldLink": "api/v2/single-sign-on/overview",
   "newLink": "api/v2/single-sign-on/api-overview/"
 },
-
-
+{
+  "oldLink": "authentication/concepts/sms-configuration",
+  "newLink": "authentication/concepts/sms-communication/"
+},
 {
   "oldLink": "authentication/FAQ/supportfaq",
   "newLink": "authentication/faq/support-faq/"
