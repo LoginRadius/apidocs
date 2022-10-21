@@ -59,7 +59,7 @@ Instead of showing an error page to your user, you can also redirect users to yo
 To use this feature you need to send one of the following parameters, "is_error_redirect=1" or "is_error_redirect=true", with the request.
 
 **Request:**
-https://<LoginRadius-site-name>.hub.loginradius.com/requesthandlor.aspx?apikey=<LoginRadius_Api_Key>&provider=<provider name>&callback=<custom callback>&is_error_redirect=true
+https://<LoginRadius-site-name>.hub.loginradius.com/RequestHandler.aspx?apikey=<LoginRadius_Api_Key>&provider=<provider name>&callback=<custom callback>&is_error_redirect=true
 
 **Implement in JS code:**
 Add is_error_redirect to the callback parameter as shown in the above request.
@@ -102,7 +102,7 @@ Request: pass same_window=1 with the request.
 
 **HTML**
 ```
-https://<LoginRadius-Site-Name>.hub.loginradius.com/requesthandlor.aspx?apikey=<LoginRadius-Api-Key>&provider=<provider-name>&callback=<custom-callback>&same_window=1
+https://<LoginRadius-Site-Name>.hub.loginradius.com/RequestHandler.aspx?apikey=<LoginRadius-Api-Key>&provider=<provider-name>&callback=<custom-callback>&same_window=1
 ```
 After successfully logging in you will get a token on the callback page in a pop-up (so LoginRadius will not close the pop-up and will not refresh the parent page).
 

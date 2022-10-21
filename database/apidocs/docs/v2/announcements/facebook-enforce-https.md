@@ -30,7 +30,7 @@ Another method of verifying is:
 2. Right click on one of the Social providers you have configured and inspect the html code. 
 3. The code block will contain the relevant LoginRadius redirect link in either HTTP or HTTPS format like: 
 ```
-return LRObject.util.openWindow('https://<LoginRadius Site Name>.hub.loginradius.com/RequestHandlor.aspx?
+return LRObject.util.openWindow('https://<LoginRadius Site Name>.hub.loginradius.com/RequestHandler.aspx?
 ```
 
 ## Updating to HTTPS
