@@ -22,15 +22,15 @@
     "SocialSchema": {
       "Providers": [{
           "Name": "Twitter",
-          "Endpoint": "https://example-name.hub.loginradius.com/RequestHandlor.aspx?apikey=abcd-1234-abcd-1234-abcd-1234&provider=twitter"
+          "Endpoint": "https://example-name.hub.loginradius.com/RequestHandler.aspx?apikey=abcd-1234-abcd-1234-abcd-1234&provider=twitter"
         },
         {
           "Name": "Facebook",
-          "Endpoint": "https://example-name.hub.loginradius.com/RequestHandlor.aspx?apikey=abcd-1234-abcd-1234-abcd-1234&provider=facebook"
+          "Endpoint": "https://example-name.hub.loginradius.com/RequestHandler.aspx?apikey=abcd-1234-abcd-1234-abcd-1234&provider=facebook"
         },
         {
           "Name": "Google",
-          "Endpoint": "https://example-name.hub.loginradius.com/RequestHandlor.aspx?apikey=abcd-1234-abcd-1234-abcd-1234&provider=google"
+          "Endpoint": "https://example-name.hub.loginradius.com/RequestHandler.aspx?apikey=abcd-1234-abcd-1234-abcd-1234&provider=google"
         }
       ]
     },

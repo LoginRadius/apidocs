@@ -52,7 +52,7 @@ You need to define the **commonOptions.noCallbackForSocialLogin = true** to get 
 You can bypass the template engine entirely and create your own links to be included on buttons or triggered events for ping API. You will need to create a unique random string **callbackguid** and include it in your programmatic link. In order to trigger the authentication, you should format your links as follows:
 
 ```
-https://<Your_Site_Name>.hub.loginradius.com/requesthandlor.aspx?apikey=<API_Key>&provider=google&nocallback=true&callbackguid=<uniuqe random guid value>
+https://<Your_Site_Name>.hub.loginradius.com/RequestHandler.aspx?apikey=<API_Key>&provider=google&nocallback=true&callbackguid=<uniuqe random guid value>
 ```
 
 Here, **nocallback=true** in query indicates that the login request will be without the callback, and **callbackguid=<Random_Identifier>** is a random unique identifier. You will need to call the **SocialLogin by Ping API continually with the same callbackguid** value to fetch the access token with the user profile data.
