@@ -7084,6 +7084,14 @@
 {
   "oldLink": "api/v2/customer-identity-api/refresh-token/refresh-user-profile",
   "newLink": "api/v2/getting-started/introduction/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-configuration/communication-configuration/sms/global-sms-settings",
+  "newLink": "api/v2/admin-console/platform-configuration/communication-configuration/sms/overview/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-configuration/communication-configuration/sms/sms-configuration",
+  "newLink": "api/v2/admin-console/platform-configuration/communication-configuration/sms/overview/"
 }
 ]
 

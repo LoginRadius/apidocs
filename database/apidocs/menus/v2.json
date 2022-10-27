@@ -182,16 +182,6 @@
               "url": "v2/admin-console/platform-configuration/communication-configuration/sms/overview/",
               "title": "Overview",
               "type": "DOC"
-            },
-            {
-              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/sms-configuration/",
-              "title": "SMS Configuration",
-              "type": "DOC"
-            },
-            {
-              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/global-sms-settings/",
-              "title": "Global SMS Settings",
-              "type": "DOC"
             }
           ],
           "Providers": [

@@ -1,7 +1,39 @@
-SMS Communication and Configuration
-=====
+# SMS Provider Introduction
 
-This guide will take you through the following aspects for configuring the Global SMS and SMS Template settings which are available in the LoginRadius Admin Console.
+An **SMS Provider** enables a system to send and receive text messages to and from an SMS capable device over the global telecommunication network. The SMS Gateway translates the message and makes it compatible for delivery over the network so that it can reach to the recipient.
+
+LoginRadius Identity Platform establishes SMS communication by sending the SMS from your SMS provider to your customers. To send out SMS from your SMS provider, you will need to configure the SMS provider settings.
+
+The following is a sequence diagram for sending an event-based SMS using the LoginRadius Identity Platform:
+
+  
+
+![enter image description here](https://apidocs.lrcontent.com/images/SMS_Flow_3_204885b69f48bc781e1-51710453_229855e7ef289944da4.26486074.png "enter image title here")
+
+
+The following steps explain the working of SMS communication in the LoginRadius Identity Platform:
+
+**1.** The customer initiates a login request in the application via LoginRadius' API.
+
+**2.** LoginRadius retrieves the message content and generates the [OTP code](/infrastructure-and-security/loginradius-tokens#phone-otp-one-time-password-). LoginRadius then makes a call to your desired SMS Service Provider with the message content and generates the OTP code to form the SMS message.
+
+**3.** On success, the SMS provider returns a response to LoginRadius, which is then relayed to the initiating application. The SMS message containing the message content and OTP code is sent by the SMS Service Provider back to the customer.
+
+**4.** The customer enters the OTP code via LoginRadius' API.
+
+**5.** The OTP code is authorized by LoginRadius and subsequently returns a success response to the application.
+
+LoginRadius supports multiple **SMS providers**. Below is the list of SMS providers that are directly supported and can be configured via LoginRadius Admin Console.
+
+**1.**  [**Twilio**](/api/v2/admin-console/platform-configuration/communication-configuration/sms/providers/twilio-configuration/)
+    
+**2.**  [**InstaAlerts**](/api/v2/admin-console/platform-configuration/communication-configuration/sms/providers/instaalerts-configuration/)
+    
+**3.**  [**MessageBird**](/api/v2/admin-console/platform-configuration/communication-configuration/sms/providers/messagebird-configuration/)
+    
+**4.**  [**Textlocal**](/api/v2/admin-console/platform-configuration/communication-configuration/sms/providers/textlocal-configuration/)
+
+Now lets go through the other aspects of SMS configuration that are **Global SMS Settings** and **SMS Template Settings** which are available in the **LoginRadius Admin Console.**
 
 - [**Global SMS Settings:**](/authentication/concepts/sms-communication/#partglobalsmssettings0) You can customize various global SMS settings like OTP length, OTP type and more.
 - [**SMS Templates:**](/authentication/concepts/sms-communication/#partsmstemplatesettings1) You can view the existing list of default SMS templates available for various events like phone number registration, forgot password and more. In addition, you can manage existing SMS templates or create a new SMS template based on the requirements.
@@ -110,4 +142,3 @@ The following are the predefined placeholders that you can use in the SMS CONTEN
 - **#OTPExpiry#**: Display the expiration time of an OTP in seconds. It displays the value of the **'OTPExpire'** field of particular SMS type settings. The default value of OTP expiry is 300 seconds.
 - **#Email#**: Displays the email address from the registered customer's profile.
 
-> **Note:** For details around SMS Provider Configurations, refer to [SMS Provider Configuration documentation](/authentication/concepts/sms-configuration/).
