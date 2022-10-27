@@ -144,4 +144,4 @@ The following screen displays the added information from Steps 5 to 8:
 
 ### LoginRadius API  
 
-For details regarding the APIs implementation of Context, kindly refer to [this document](api/v2/customer-identity-api/roles-management/overview/#loginradiusapiusageforcontext6).
+For details regarding the APIs implementation of Context, kindly refer to this [document](/api/v2/customer-identity-api/roles-management/overview/#loginradiusapiusageforcontext6).
