@@ -7092,6 +7092,10 @@
 {
   "oldLink": "api/v2/admin-console/platform-configuration/communication-configuration/sms/sms-configuration",
   "newLink": "api/v2/admin-console/platform-configuration/communication-configuration/sms/overview/"
+},
+{
+  "oldLink": "api/v2/admin-console/social-provider/configure-social-data-settings",
+  "newLink": "governance/configure-social-data-settings/"
 }
 ]
 
