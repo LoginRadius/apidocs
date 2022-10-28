@@ -11,8 +11,9 @@ Gathering advanced data points beyond the basic profile data from customers logg
 
 ## Social Data Settings
 
-Choose the data points you want to gather at the time of a customer’s registration with a social ID directly from the Admin Console. See how to configure social data [here](/api/v2/admin-console/social-provider/configure-social-data-settings). It is important to note that your web properties may have to undergo an app review in order to retrieve advanced data points from the customer’s profiles. 
+Choose the data points you want to gather at the time of a customer’s registration with a social ID directly from the Admin Console. It is important to note that your web properties may have to undergo an app review in order to retrieve advanced data points from the customer’s profiles. 
 
+For more details regarding configuration refer this [document](/governance/configure-social-data-settings/).
 
 ## App Reviews
 
