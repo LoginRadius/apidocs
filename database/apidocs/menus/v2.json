@@ -182,16 +182,6 @@
               "url": "v2/admin-console/platform-configuration/communication-configuration/sms/overview/",
               "title": "Overview",
               "type": "DOC"
-            },
-            {
-              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/sms-configuration/",
-              "title": "SMS Configuration",
-              "type": "DOC"
-            },
-            {
-              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/global-sms-settings/",
-              "title": "Global SMS Settings",
-              "type": "DOC"
             }
           ],
           "Providers": [
@@ -443,16 +433,6 @@
         {
           "url": "v2/admin-console/social-provider/multiple-social-apps/",
           "title": "Multiple Social Apps",
-          "type": "DOC"
-        },
-        {
-          "url": "v2/admin-console/social-provider/advanced-social-data-points/",
-          "title": "Advanced Social Profile Data Points",
-          "type": "DOC"
-        },
-        {
-          "url": "v2/admin-console/social-provider/configure-social-data-settings/",
-          "title": "Configure Social Data Settings",
           "type": "DOC"
         },
         {

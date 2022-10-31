@@ -6921,8 +6921,10 @@
   "oldLink": "api/v2/single-sign-on/overview",
   "newLink": "api/v2/single-sign-on/api-overview/"
 },
-
-
+{
+  "oldLink": "authentication/concepts/sms-configuration",
+  "newLink": "authentication/concepts/sms-communication/"
+},
 {
   "oldLink": "authentication/FAQ/supportfaq",
   "newLink": "authentication/faq/support-faq/"
@@ -7082,6 +7084,22 @@
 {
   "oldLink": "api/v2/customer-identity-api/refresh-token/refresh-user-profile",
   "newLink": "api/v2/getting-started/introduction/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-configuration/communication-configuration/sms/global-sms-settings",
+  "newLink": "api/v2/admin-console/platform-configuration/communication-configuration/sms/overview/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-configuration/communication-configuration/sms/sms-configuration",
+  "newLink": "api/v2/admin-console/platform-configuration/communication-configuration/sms/overview/"
+},
+{
+  "oldLink": "api/v2/admin-console/social-provider/advanced-social-data-points",
+  "newLink": "governance/advanced-social-data-points/"
+},
+{
+  "oldLink": "api/v2/admin-console/social-provider/configure-social-data-settings",
+  "newLink": "governance/configure-social-data-settings/"
 }
 ]
 

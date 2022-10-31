@@ -523,7 +523,7 @@ You can bypass the template engine entirely and create your own links to be incl
 **Text**
 
 ```
-https://<Site-Name>.hub.loginradius.com/requesthandlor.aspx?apikey=<LoginRadius API Key>&provider=<Provider Name>
+https://<Site-Name>.hub.loginradius.com/RequestHandler.aspx?apikey=<LoginRadius API Key>&provider=<Provider Name>
 ```
 
 In the above, replace <Site-Name> with your LoginRadius Site Name, <LoginRadius API Key> with your Loginradius API Key, and <Provider Name> with the lowercase social provider name(facebook, twitter, etc)
@@ -555,7 +555,7 @@ Refer to the following sample code to implement the Social login using the above
             let callback = window.location.href,
             let appname = "<LR app name>";
             let apikey = "LR API key"
-            let url = `https://${appname}.hub.loginradius.com/RequestHandlor.aspx?apikey=${apikey}&provider=facebook&callback=${callback}&same_window=&is_access_token=true&callbacktype=&disablesignup=undefined&scope=lr_basic`;
+            let url = `https://${appname}.hub.loginradius.com/RequestHandler.aspx?apikey=${apikey}&provider=facebook&callback=${callback}&same_window=&is_access_token=true&callbacktype=&disablesignup=undefined&scope=lr_basic`;
             window.open(url, "childWindow", 'menubar=1,resizable=1,width=450,height=450,scrollbars=1');
             window.addEventListener("message", LRReceiveMessage, false);
             function LRReceiveMessage(event) {
@@ -585,7 +585,7 @@ You need to define the **commonOptions.noCallbackForSocialLogin = true** to get 
 You can bypass the template engine entirely and create your own links to be included on buttons or triggered events for ping API. You will need to create a unique random string **callbackguid** and include it in your programmatic link. In order to trigger the authentication, you should format your links as follows:
 
 ```
-https://<Your_Site_Name>.hub.loginradius.com/requesthandlor.aspx?apikey=<API_Key>&provider=google&nocallback=true&callbackguid=<uniuqe random guid value>
+https://<Your_Site_Name>.hub.loginradius.com/RequestHandler.aspx?apikey=<API_Key>&provider=google&nocallback=true&callbackguid=<uniuqe random guid value>
 ```
 
 Here, **nocallback=true** in query indicates that the login request will be without the callback, and **callbackguid=<<here>Random_Identifier>** is a random unique identifier. You will need to call the **SocialLogin by Ping API continually with the same callbackguid** value to fetch the access token with the user profile data.

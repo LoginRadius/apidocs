@@ -257,7 +257,7 @@ Refer to the following sample code to implement the Account linking using the pr
             let appname = "<LR app name>";
             let apikey = "<LR api key>";
             let url =
-                `https://${appname}.hub.loginradius.com/RequestHandlor.aspx?apikey=${apikey}&provider=google&callback=${callback}&same_window=&is_access_token=true&callbacktype=&disablesignup=undefined&scope=&ac_linking=true`;
+                `https://${appname}.hub.loginradius.com/RequestHandler.aspx?apikey=${apikey}&provider=google&callback=${callback}&same_window=&is_access_token=true&callbacktype=&disablesignup=undefined&scope=&ac_linking=true`;
             window.open(url, "childWindow", 'menubar=1,resizable=1,width=450,height=450,scrollbars=1');
             window.addEventListener("message", LRReceiveMessage, false);
 
