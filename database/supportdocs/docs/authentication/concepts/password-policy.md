@@ -47,7 +47,19 @@ The following screen appears:
 
 Enter the desired password history number and click the **Save** button.
 
-For example, if you have entered 3 in the **Number of Past Passwords User isn’t Allowed to Use**, while resetting or changing the password, your customers will not be able to use their 3 previous passwords.
+Example: Let's suppose you enabled the password history feature and set the value equal to 1 then it will work as below:
+
+1. Let a consumer during the registration time set the password as **123456**.
+
+2. After sometime the consumer tries to update his password as the same **123456** API will not allow this and shows the error.
+
+3. Now again the consumer tries to update his password to **1234567** this time the API will allow thid and set it as a new password.
+
+4. But after sometime the consumer tries to update his password to **123456** again and the API will throw  an error.Because password history is set to 1.
+
+5. Again the consumer trries to update his password to **12345678** this time the API will allow this and set it as anew password.
+
+6. Now consumer again tries to update password to **123456** this time API will allow the user to set this as a new password.
 
 
 ## Part 3 - Password Complexity
@@ -122,6 +134,24 @@ To enable this feature, navigate to the <a href = https://adminconsole.loginradi
 and click the **Profile Field Password Prevention** toggle button to turn on the profile field password prevention.
 
 ![](https://apidocs.lrcontent.com/images/10_91395e77d3f5da59c8.11866279.png)
+
+## Password Complexity with Update Event
+
+In order to apply Password Complexity configurations when a password is updated, please use our JavaScript hook as displayed below:
+
+
+**Sample code:**
+
+```
+LRObject.$hooks.call('formValidationRules',{
+	"newpassword":"required|min_length[8]|max_length[32]",
+	"confirmnewpassword":"required|min_length[8]|max_length[32]",
+});
+```
+
+For additional information on the usage of custom validation hooks, validation rules, and custom validation rules, please see this [documentation](/api/v2/deployment/js-libraries/javascript-hooks#customvalidationhook15).
+
+>**Note:** The Password Complexity rules configured on the Admin Console are front-end validations only. To enable the same Password Complexity configurations with the back-end, please contact <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
 
 
 ## Part 4 - Default Password Policy Settings in LoginRadius
