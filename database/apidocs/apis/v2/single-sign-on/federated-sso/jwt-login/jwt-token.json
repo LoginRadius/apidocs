@@ -26,7 +26,7 @@
       {
         "name": "access_token",
         "is_required": true,
-        "description": "Token generated from a successful oauth from social platform"
+        "description": "User's access token granted by LoginRadius after successful authentication or the token generated from a successful OAuth from the social platform."
       }
     ],
     "Template Params": [
