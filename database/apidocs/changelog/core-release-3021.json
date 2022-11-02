@@ -4,7 +4,7 @@
     "changelog": {
     "IMPROVED": [
         {
-          "text": "Deprecated Facebook API version 3.0 and the began using the next available version of the Facebook API, <strong> v7.0 </strong>. Refer to our <a href='/docs/api/v2/announcements/facebook-version-7.0-update-reminder/'> Announcement document </a> for more details on this." 
+          "text": "Deprecated Facebook API version 3.0 and the began using the next available version of the Facebook API, <strong> v7.0 </strong>. Refer to our <a href='/api/v2/announcements/facebook-version-7.0-update-reminder/'> Announcement document </a> for more details on this." 
         }]
       },
     "auther": "Swati",

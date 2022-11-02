@@ -15,13 +15,13 @@
     ],
     "IMPROVED": [
         {
-          "text": "If the <a href='/docs/api/v2/customer-identity-api/multi-factor-authentication/overview/'>Multi-Factor Authentication </a> feature is enabled, the Passwordless Login API will automatically be disabled." 
+          "text": "If the <a href='/api/v2/customer-identity-api/multi-factor-authentication/overview/'>Multi-Factor Authentication </a> feature is enabled, the Passwordless Login API will automatically be disabled." 
         },
         {
-            "text": "In the <a href='/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-email/'>Passwordless Login by Email API </a>, any URL used as the 'verificationurl' needs to be whitelisted in the Admin Console." 
+            "text": "In the <a href='/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-email/'>Passwordless Login by Email API </a>, any URL used as the 'verificationurl' needs to be whitelisted in the Admin Console." 
         },
         {
-            "text": "In the <a href='/docs/api/v2/customer-identity-api/authentication/pin-authentication/forgot-pin-by-email/'>Forgot PIn by Email API </a>, any URL used as the 'resetpinurl' needs to be whitelisted in the Admin Console." 
+            "text": "In the <a href='/api/v2/customer-identity-api/authentication/pin-authentication/forgot-pin-by-email/'>Forgot PIn by Email API </a>, any URL used as the 'resetpinurl' needs to be whitelisted in the Admin Console." 
         },
         {
             "text": "Fixed compatibility issues with the 'Sign-in with Apple' feature when using the Safari web browser." 

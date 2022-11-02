@@ -68,7 +68,7 @@
       {
         "name": "g-recaptcha-response",
         "is_required": false,
-        "description": "It is required for locked accounts when logging in. You need to pass a valid recaptcha value to the api for login if the account gets locked after continous n number of unsuccessful login attempts( Number of login attempts can be set through user account). Details about this feature can be found <a href='/docs/api/v2/admin-console/platform-security/auth-security-configuration'>here</a>"
+        "description": "It is required for locked accounts when logging in. You need to pass a valid recaptcha value to the api for login if the account gets locked after continous n number of unsuccessful login attempts( Number of login attempts can be set through user account). Details about this feature can be found <a href='/api/v2/admin-console/platform-security/auth-security-configuration'>here</a>"
       }
     ],
     "Post Params": [
@@ -85,7 +85,7 @@
       {
         "name": "securityanswer",
         "is_required": false,
-        "description": "Valid JSON object of Unique Security Question ID and Answer of set Security Question. It is only required by locked accounts when logging in. Details about this feature can be located <a href='/docs/platform-features-overview/user-security/password-management#security-question-during-password-reset-or-account-lockout'>here</a>"
+        "description": "Valid JSON object of Unique Security Question ID and Answer of set Security Question. It is only required by locked accounts when logging in. Details about this feature can be located <a href='/platform-features-overview/user-security/password-management#security-question-during-password-reset-or-account-lockout'>here</a>"
       }
     ]
   },

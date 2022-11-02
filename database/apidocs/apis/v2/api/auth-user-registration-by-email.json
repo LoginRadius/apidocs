@@ -242,7 +242,7 @@
         "Headers Parameters": [{
                 "name": "sott",
                 "is_required": true,
-                "description": "Secured One Time Token, Details to generate one <a href='/docs/api/v2/customer-identity-api/sott-usage'>here</a>"
+                "description": "Secured One Time Token, Details to generate one <a href='/api/v2/customer-identity-api/sott-usage'>here</a>"
             }],
         "Post Parameters": [
             {

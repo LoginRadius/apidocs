@@ -3,14 +3,14 @@
     "description": "We have released another version of the core release! This core release brings a few new features and improvements.",
     "changelog": {
         "ADDED": [{
-                "text": "<a href='/docs/api/v2/admin-console/social-provider/providers/apple/'> Sign in with Apple </a>: Added ability to retrieve First name and Last Name data points from Apple provider for new users."
+                "text": "<a href='/api/v2/admin-console/social-provider/providers/apple/'> Sign in with Apple </a>: Added ability to retrieve First name and Last Name data points from Apple provider for new users."
             },
             {
-                "text": "New <a href='/docs/api/v2/customer-identity-api/authentication/auth-link-social-indentities/'> Link Social Identities API </a>  is added. This API will work for both manual and social account linking."
+                "text": "New <a href='/api/v2/customer-identity-api/authentication/auth-link-social-indentities/'> Link Social Identities API </a>  is added. This API will work for both manual and social account linking."
             }
         ],
         "FIXED": [{
-                "text": "<a href='/docs/api/v2/admin-console/social-provider/providers/apple/'> Sign in with Apple </a> feature is now compatible with iOS 12 and 13 versions."
+                "text": "<a href='/api/v2/admin-console/social-provider/providers/apple/'> Sign in with Apple </a> feature is now compatible with iOS 12 and 13 versions."
             }],
             "Improved": [{
                 "text": "Removed the ‘No-JS Hosted Page’ feature."
