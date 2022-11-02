@@ -18,7 +18,7 @@
     "content-Type": "application/json"
   },
   "response": "json",
-  "description": "This API is used to get JWT token by phone and password. <br><br> <b>Note:</b> This JWT API endpoint will be deprecated soon. Refer to the new <a href='/docs/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token-by-phone/' style='color: #008ecf;'>JWT Token by Phone and Password</a> API for the latest JWT API endpoint.",
+  "description": "This API is used to get JWT token by phone and password. <br><br> <b>Note:</b> This JWT API endpoint will be deprecated soon. Refer to the new <a href='/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token-by-phone/' style='color: #008ecf;'>JWT Token by Phone and Password</a> API for the latest JWT API endpoint.",
   "parameters": {
     "Get Params": [{
         "name": "apikey",

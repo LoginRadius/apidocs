@@ -3,7 +3,7 @@
     "description": "This release of the Admin Console brings you a new feature and a few bug fixes, see below for details on some of the more notable changes applied to the Admin Console.",
     "changelog": {
         "ADDED": [{
-                "text": "New Data Migration feature under the <a href='https://adminconsole.loginradius.com/deployment/migration/data-migration'> Deployment </a> section, allowing you to perform limited self-service data migrations. Refer to the <a href='/docs/customer-management/data-migration/'> Data Migration document </a> for more details."
+                "text": "New Data Migration feature under the <a href='https://adminconsole.loginradius.com/deployment/migration/data-migration'> Deployment </a> section, allowing you to perform limited self-service data migrations. Refer to the <a href='/customer-management/data-migration/'> Data Migration document </a> for more details."
         }
             ],
 

@@ -15,7 +15,7 @@
     "content-Type": "application/x-www-form-urlencoded"
   },
   "response": "json",
-  "description": "This API is used to get a JWT token by access token. <br><br> <b>Note:</b> Above is the recent version of JWT API endpoint. If you are still working with the old JWT API endpoint which would be depricated soon, then refer to <a href='/docs/api/v2/single-sign-on/federated-sso/jwt-login/v1.4.0/jwt-token/' style='color: #008ecf;'>JWT Token by Access Token</a> API.",
+  "description": "This API is used to get a JWT token by access token. <br><br> <b>Note:</b> Above is the recent version of JWT API endpoint. If you are still working with the old JWT API endpoint which would be depricated soon, then refer to <a href='/api/v2/single-sign-on/federated-sso/jwt-login/v1.4.0/jwt-token/' style='color: #008ecf;'>JWT Token by Access Token</a> API.",
   "parameters": {
     "Get Params": [
       {
