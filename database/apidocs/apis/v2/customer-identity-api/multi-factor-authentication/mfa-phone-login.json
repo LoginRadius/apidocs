@@ -102,23 +102,23 @@
     {
       "name": "securityanswer",
       "is_required": false,
-      "description": "Valid JSON object of Unique Security Question ID and Answer of set Security Question. It is only required for locked accounts when logging in. Details about this feature <a href='/docs/platform-features-overview/user-security/password-management#security-question-during-password-reset-or-account-lockout'>here</a>"
+      "description": "Valid JSON object of Unique Security Question ID and Answer of set Security Question. It is only required for locked accounts when logging in. Details about this feature <a href='platform-features-overview/user-security/password-management#security-question-during-password-reset-or-account-lockout'>here</a>"
     },
 
     {
       "name": "g-recaptcha-response",
       "is_required": false,
-      "description": "It is required for locked accounts when logging in. You need to pass a valid recaptcha value ito the API for login if the account gets locked after continous n number of unsuccessful login attempts( Number of login attempts can be set through user account). Details about this feature <a href='/docs/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>here</a>"
+      "description": "It is required for locked accounts when logging in. You need to pass a valid recaptcha value ito the API for login if the account gets locked after continous n number of unsuccessful login attempts( Number of login attempts can be set through user account). Details about this feature <a href='/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>here</a>"
     },
     {
       "name": "qq_captcha_ticket",
       "is_required": false,
-      "description": "If <a href='/docs/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>CAPTCHA lockout</a> is enabled with QQ, and the user is locked, you must provide the QQ Captcha ticket."
+      "description": "If <a href='/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>CAPTCHA lockout</a> is enabled with QQ, and the user is locked, you must provide the QQ Captcha ticket."
     },
     {
       "name": "qq_captcha_randstr",
       "is_required": false,
-      "description": "If <a href='/docs/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>CAPTCHA lockout</a> is enabled with QQ, and the user is locked, pass the value of the user's random string retrieved from the QQ captcha."
+      "description": "If <a href='/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>CAPTCHA lockout</a> is enabled with QQ, and the user is locked, pass the value of the user's random string retrieved from the QQ captcha."
     }
     ]
   },
