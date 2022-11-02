@@ -708,7 +708,7 @@ function footerPagignation() {
             footerLink.push($(this).attr('href'));
             footerTitle.push($(this).html());
             if ($(this).attr('href') == window.location.href.split('#')[0]) {
-                var url = window.location.href.split('/docs/')[1]
+                var url =window.location.pathname
                 var title = generateSeoTitle(url)
                 document.title = title + ' |LoginRadius Docs';
                 $("#menucontainer a").removeClass("md-nav__link--active");
