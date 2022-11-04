@@ -86,6 +86,12 @@ You can perform actions such as **Add Template**, **Edit Template**, and **Delet
 
 >**Note:** You can only delete the new template(s) that you have created i.e. you will not be able to delete the default template.
 
+Each of the available email/SMS templates has corresponding settings that can be configured to control the usage and mitigate malicious requests.
+
+- REQUEST LIMIT- The Request Limit is the number of times a user can request a given email/OTP during the request period (in minutes) before this feature is temporarily disabled. For example, a user can only request this email 5 times (Request Limit) over the course of 120 minutes (Request Period) before the feature is disabled.
+- REQUEST AND DISABLED PERIOD- The amount of time (in minutes) that the given email/OTP request feature remains disabled for the user once they have reached their Request Limit.
+- VALIDITY LIMIT- The amount of time (in minutes) for which the link/OTP included in the given email/SMS is valid.
+
 ## Part 2 -Deployment
 
 The LoginRadius Identity Platform supports a variety of implementation methodologies that allow you to customize the customer flows. 
@@ -292,6 +298,8 @@ LRObject.init('passwordlessLoginValidate', passwordless_options);
 ```
 
 > **Note:** If both Passwordless Login and [Two Factor Authentication (2FA)](/api/v2/admin-console/platform-security/multi-factor-auth/) are implemented for your application, the Passwordless Login will not work for your consumers.
+
+For details regarding **Passwordless Login API**, kindly refer this [**document**](/api/v2/customer-identity-api/passwordless-login/passwordless-login-overview)
 
 ## Part 3 - Next Steps 
 
