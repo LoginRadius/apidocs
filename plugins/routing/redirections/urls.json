@@ -7100,6 +7100,10 @@
 {
   "oldLink": "api/v2/admin-console/social-provider/configure-social-data-settings",
   "newLink": "governance/configure-social-data-settings/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-configuration/passwordless-login-configuration",
+  "newLink": "authentication/tutorial/passwordless-login/"
 }
 ]
 
