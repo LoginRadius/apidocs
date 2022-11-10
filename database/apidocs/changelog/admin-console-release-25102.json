@@ -1,0 +1,19 @@
+{ "name": "Admin Console Release 25.10.2",
+    "description":"This release of the Admin Console brings you some improvements. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "IMPROVED": [
+            {
+                "text": "In the Js widgets section of the Admin Console, we have Removed v2 Recaptcha, and now we allow only the invisible captcha."
+            },
+            {
+                "text": "Updated the Reset Password error message in Customer Management section under the Admin Console."
+            },
+            {
+                "text": "You can now delete the unverified emails from the customer's profile using delete button in the Admin Console." 
+            }
+        ]},
+
+    "auther": "Bhavya Tugnawat",
+    "created_date": "2022-11-10",
+    "status": "public"
+}
