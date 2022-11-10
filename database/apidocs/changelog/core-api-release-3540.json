@@ -1,0 +1,18 @@
+{
+    "name": "Core API Release 35.4.0",
+    "description": "In this release we have made the below changes in the LoginRadius Core API, please see below for details:",
+    "changelog":
+   {
+    "Fixed": 
+    [
+        
+        {
+          "text": "Issue with the Server Side Validation in custom regex has been fixed."
+        }
+    
+    ]
+    },
+    "auther": "Bhavya Tugnawat",
+    "created_date": "2022-11-10",
+    "status": "public"
+  }
