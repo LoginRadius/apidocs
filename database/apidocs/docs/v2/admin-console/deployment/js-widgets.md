@@ -19,7 +19,7 @@ To configure some advanced options for your authentication workflow, go to [Depl
 - **Enable Server-side Password Rule on Login:** Used to validate the password rules on the server-side during login.
 - **Ask Optional Fields On Social Signup:** Used to ask for the missing values from the optional fields after Social Login:
 
-![Js Widgets - Settings](https://apidocs.lrcontent.com/images/Js-Widgets---Settings_145706281c0b1909844.05708943.png "Js Widgets - Settings")
+![Recaptcha1](https://apidocs.lrcontent.com/images/image-29_21434636eb47f9d8b07.35462212.png "Recaptcha1")
 
 ## Registration Forms
 
