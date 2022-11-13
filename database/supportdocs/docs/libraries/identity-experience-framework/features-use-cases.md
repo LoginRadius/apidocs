@@ -497,7 +497,7 @@ To minimize friction during registration, if there are additional details you wo
 
 By default, Social Login isn’t configured to ask for optional fields. It can be configured in the user Admin Console. Go to **Deployment > JS Widgets >Settings**. Enable the option for “Ask Optional Fields On Social Signup”.
 
-![enter image description here](https://apidocs.lrcontent.com/images/6_234825e9c972aa2ef33.31199331.png "Ask Optional Fields On Social Signup")
+![Recaptcha1](https://apidocs.lrcontent.com/images/image-31_18472636eb5bf7049d1.65393005.png "Recaptcha1")
 
 If it is enabled then Identity Experience Framework page will prompt the user for missing optional fields as well.
 

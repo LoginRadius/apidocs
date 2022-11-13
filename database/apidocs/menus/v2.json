@@ -98,11 +98,6 @@
           "type": "DOC"
         },
         {
-          "url": "v2/admin-console/platform-configuration/passwordless-login-configuration/",
-          "title": "Passwordless Login Configuration",
-          "type": "DOC"
-        },
-        {
           "url": "v2/admin-console/platform-configuration/phone-login-configuration/",
           "title": "Phone Login Configuration",
           "type": "DOC"

@@ -152,11 +152,11 @@ The following explains how you can deploy the Google reCAPTCHA:
 
 **Step 1.** After [**configuring**](/authentication/concepts/customer-security/#captchaconfiguration1) the Google reCAPTCHA in the LoginRadius Identity Platform, navigate to <a href = https://adminconsole.loginradius.com/deployment/js-widgets/settings target=_blank>**Deployment > JS Widgets**</a>. The following screen will appear:
 
-![Js Widgets - Settings](https://apidocs.lrcontent.com/images/Js-Widgets---Settings_145706281c0b1909844.05708943.png "Js Widgets - Settings")
+![Recaptcha1](https://apidocs.lrcontent.com/images/image-29_21434636eb47f9d8b07.35462212.png "Recaptcha1")
 
 **Step 2.** Click on the switch to enable the respective version of the Google reCAPTCHA under the **Google Recaptcha** section.
 
-![Js-Widgets-Settings - Google ReCaptcha](https://apidocs.lrcontent.com/images/Js-Widgets-Settings---Google-ReCaptcha_115296281f5e25dadd8.35880017.png "Js-Widgets-Settings - Google ReCaptcha")
+![Recaptcha2](https://apidocs.lrcontent.com/images/image-30_9244636eb51de83666.78602316.png "Recaptcha2")
 
 You can view the enabled Google reCAPTCHA option on the IDX Page (<https://<sitename>.hub.loginradius.com/auth.aspx>, where [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site)
 
