@@ -1,14 +1,7 @@
-# Session Management Introduction
+# Session Management Introduction and Configuration
 
 
-LoginRadius provides you with the ability to control and manage your customer’s login session.
-This guide will take you through the following aspects of Session Management available in the LoginRadius Identity Platform:
-
-- [**Access Token Lifetime**](#partaccesstokenlifetime0): An access token lifetime is the amount of time a customer is logged in to your application until it expires and prompts the customer to log back in.
-
-- [**Force Logout:**](#partforcelogout2) If enabled, upon Password Reset or Password Change, it will expire all active sessions of respective customer account except the session in which the password has been reset/changed.
-
-- [**Remember Me:**](#partrememberme4) You can enable the Remember Me option to have the customers remain logged in even after the browser closes until the access token expires.
+LoginRadius provides you with the ability to control and manage your customer’s login session. This guide will take you through the different aspects of Session Management available in the LoginRadius Identity Platform:
 
 ## Part 1 - Access Token Lifetime
 
@@ -33,6 +26,9 @@ The following screen will appear:
 ![](https://apidocs.lrcontent.com/images/image-6_3067862222800434de4.02447665.png "")
 
 **Step 2:** To get the information about the Access Token expiration time change process, click [here](/api/v2/admin-console/platform-security/session-management/#updatetokenexpirationslidingtokenexpiration1).
+
+> **Note:** You can change time from 1 to 129600 minutes (90 days) and if you want more than this, contact [**LoginRadius support**](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
+
 
 In LoginRadius Identity Platform, the **Refresh Token** is used to generate **Access Token**. Whenever an access token expires or becomes invalid, LoginRadius provides refresh tokens to the customer to obtain a new access token.
 
@@ -91,6 +87,10 @@ The following screen will appear:
 > **Note:** 
 > - The **Remember Me** expiration token time should always be less than the **Access Token** expiration time.
 > - You can deploy the Remember Me feature on your IDX (Hosted) as explained [here](/authentication/concepts/ui-ux-customizations-idx/).
+
+The following displays the Identity Experience Framework page with the **Remember Me** button:
+
+![Remember Me](https://apidocs.lrcontent.com/images/remeberme_12275637d29792f3b07.68970562.png "Remember Me")
 
 ## Part 4 - Next Steps 
 
