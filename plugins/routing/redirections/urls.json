@@ -7104,6 +7104,10 @@
 {
   "oldLink": "api/v2/admin-console/platform-configuration/passwordless-login-configuration",
   "newLink": "authentication/tutorial/passwordless-login/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-configuration/custom-field-configuration",
+  "newLink": "governance/custom-field-configuration/"
 }
 ]
 

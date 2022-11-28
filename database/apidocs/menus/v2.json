@@ -101,11 +101,6 @@
           "url": "v2/admin-console/platform-configuration/phone-login-configuration/",
           "title": "Phone Login Configuration",
           "type": "DOC"
-        },
-        {
-          "url": "v2/admin-console/platform-configuration/custom-field-configuration/",
-          "title": "Custom Field Configuration",
-          "type": "DOC"
         }
       ],
       "Communication Configuration": {
