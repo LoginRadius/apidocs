@@ -7108,6 +7108,13 @@
 {
   "oldLink": "api/v2/admin-console/platform-configuration/custom-field-configuration",
   "newLink": "governance/custom-field-configuration/"
+},
+{
+  "oldLink": "/api/v2/customer-identity-api/authentication/auth_link_social_identities_clientguid",
+  "newLink": "api/v2/customer-identity-api/authentication/auth-link-social-identities-clientguid/"
+},
+{
+  "oldLink": "/api/v2/cloud-storage/aggregation-query-data",
+  "newLink": "api/v2/cloud-directory-api/identity/get-user-identity/"
 }
 ]
-
