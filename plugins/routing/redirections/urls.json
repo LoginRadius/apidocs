@@ -7108,6 +7108,14 @@
 {
   "oldLink": "api/v2/admin-console/platform-configuration/custom-field-configuration",
   "newLink": "governance/custom-field-configuration/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/email-configuration",
+  "newLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/overview/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/global-email-settings",
+  "newLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/overview/"
 }
 ]
 

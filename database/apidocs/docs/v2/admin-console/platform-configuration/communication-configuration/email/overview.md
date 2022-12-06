@@ -1,11 +1,22 @@
-#Email Workflow Overview
+# Email Configuration
 
-The following diagram illustrates how email-sending works in LoginRadius:
+This document will explain to you the SMTP that is used to send email communications and how to configure them.
 
-![enter image description here](https://apidocs.lrcontent.com/images/SMTP_Flow_3_244665b69f80261ec05.27196148.png "enter image title here")
+## What is SMTP?
 
-1. The customer initiates a login request in the application via LoginRadius' API.
-2. LoginRadius retrieves the message content and generates a token. LoginRadius then makes a call to your desired SMTP Service Provider with the message content and generated token to form the email.
-3. On success, a response is returned to LoginRadius, which is then relayed to the initiating application. The email containing the message content and token is sent by the SMTP Service Provider back to the customer.
-4. The customer clicks the link in the email to trigger the token authorization via LoginRadius' API.
-5. The token is authorized by LoginRadius and subsequently returns a success response back to the application.
+SMTP stands for **"Simple Mail Transfer Protocol".** It is the internet standard for sending emails. To comply with this standard, businesses use what's called an "SMTP Server" to send out emails. The SMTP Server is also often used to identify you and your company which is often critical for email communication. LoginRadius allows you to use your company's SMTP Server to send out emails, ensuring that those who receive your emails know they came to your company and not LoginRadius.
+
+For more information, please visit [**here**](/authentication/concepts/email-communications/).
+
+
+## Configuring your SMTP server
+
+Setting up the SMTP server in LoginRadius allows the system to send out all of the email correspondence directly through your SMTP provider. This allows you to get deliverability stats and analytics and optimize your email messaging. In order to configure these emails to go through your SMTP, please refer to this [**document**](/authentication/concepts/email-communications/#partsmtpconfiguration1).
+
+
+## Global Email Settings
+
+We provide some standard configuration settings that you can use to customize some of the behaviors for sending emails. These settings can be used to limit the number of email requests in a predefined time for certain events, and you can also manage the validity of email tokens (if to used in an email template). For more information regarding this Global Email Setting and the steps to configure it, please refer [**here**](/authentication/concepts/email-communications/#partglobalemailsettings4).
+
+
+For more detailed information about SMTP Providers supported by LoginRadius, please refer to this [**document**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/sendgrid/).
