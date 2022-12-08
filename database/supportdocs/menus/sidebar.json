@@ -1010,11 +1010,6 @@
         "url": "customer-management/data-etl-service/",
         "title": "Data ETL Service",
         "type": "DOC"
-      },
-      {
-        "url": "customer-management/self-serve-data-migration/",
-        "title": "Self-Serve Data Migration",
-        "type": "DOC"
       }
     ],
     "Customer Segmentation": [
