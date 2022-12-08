@@ -130,7 +130,7 @@ LoginRadius supports the following fields:
 
 **Step 20:** Click the **ADD** A SAML APP button to save the app settings.
 
-Once you are done configuring the SAML app in the in Admin Console, you can view the recent success or error logs data for your SSO connection in the [Logs section](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/logs). To view the latest logs, click the Refresh button.
+Once you are done configuring the SAML app in the in Admin Console, you can view the recent success or error logs data for your SSO connection in the [Troubleshoot section](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/logs). To view the latest logs, click the Refresh button.
 
 ![SAML Logs](https://apidocs.lrcontent.com/images/sso-7_2189663918b726e9a42.92739165.png "SAML Logs")
 
