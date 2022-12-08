@@ -7128,6 +7128,10 @@
 {
   "oldLink": "authentication/concepts/customer-data-export",
   "newLink": "customer-management/user-data-export/data-export-overview/"
+},
+{
+  "oldLink": "authentication/concepts/customer-data-query",
+  "newLink": "customer-management/data-query/data-query-overview/"
 }
 ]
 
