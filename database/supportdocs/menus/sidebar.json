@@ -126,11 +126,6 @@
           "type": "DOC"
         },
         {
-          "url": "authentication/concepts/customer-data-query/",
-          "title": "Customer Data Query",
-          "type": "DOC"
-        },
-        {
           "url": "authentication/concepts/profile-editor/",
           "title": "Customer Profile Editor",
           "type": "DOC"
