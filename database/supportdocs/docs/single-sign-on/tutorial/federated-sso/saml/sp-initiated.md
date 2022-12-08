@@ -51,13 +51,13 @@ The following screen will appear:
 
 **Step 2:** To configure SAML App, in the Admin Console, click the **Add App** button highlighted in the screenshot below.
 
-![SAML - Add App Button](https://apidocs.lrcontent.com/images/19--SAML---Add-App-Button_240556304ed30c3e6c0.21598058.png "SAML - Add App Button")
+![Federated SSO - SAML](https://apidocs.lrcontent.com/images/sso-8_3006663918ba4cc08a5.64659487.png "Federated SSO - SAML")
 
 The SAML App configuration fields will appear on the same screen.
 
 **Step 3:** Select the desired Version of **SAML** from **SAML Version** options as displayed in the below screenshot.
 
-![SAML Version](https://apidocs.lrcontent.com/images/20--SAML---Version_184556304edd3c835c2.38273469.png "SAML Version")
+![SAML Version](https://apidocs.lrcontent.com/images/sso-9_1513763918bfd305bf2.79260714.png "SAML Version")
 
 **Step 4:** Select **SP Initiated Login** from **Login Flow** options as displayed in the above screenshot.
 
@@ -130,9 +130,9 @@ LoginRadius supports the following fields:
 
 **Step 20:** Click the **ADD** A SAML APP button to save the app settings.
 
-Once you are done configuring the SAML app in the in Admin Console, you can view the recent success or error logs data for your SSO connection in the [Logs section](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/logs). To view the latest logs, click the Refresh button.
+Once you are done configuring the SAML app in the in Admin Console, you can view the recent success or error logs data for your SSO connection in the [Troubleshoot section](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/logs). To view the latest logs, click the Refresh button.
 
-![SAML Logs](https://apidocs.lrcontent.com/images/21--SAML---Logs_235856304f010b18315.03795004.png "SAML Logs")
+![SAML Logs](https://apidocs.lrcontent.com/images/sso-7_2189663918b726e9a42.92739165.png "SAML Logs")
 
 > **Note:** Currently, the Logs only supports the SAML flow.
 

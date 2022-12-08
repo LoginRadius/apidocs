@@ -41,11 +41,11 @@ This section covers the required configurations that you need to perform in the 
 
 The following screen will appear:
 
-![Federated SSO - SAML](https://apidocs.lrcontent.com/images/17--Fed-SSO-SAML_72086304eb7aedb515.68699276.png "Federated SSO - SAML")
+![Federated SSO - SAML](https://apidocs.lrcontent.com/images/sso-5_1132363918ab8aaad49.09134097.png "Federated SSO - SAML")
 
 **Step 2:** To configure SAML app, in the Admin Console, click the **Add App** button displayed in the above screenshot. The following details will appear within the same screen:
 
-![SAML Full View](https://apidocs.lrcontent.com/images/18--Fed-SSO-SAML-Full-View_123676304ec26020b69.20227803.png "SAML Full View")
+![SAML Full View](https://apidocs.lrcontent.com/images/sso-6_2674563918b371c2700.42406342.png "SAML Full View")
 
 **Step 3:** Select the desired Version of **SAML** from **SAML Version** options.
 
@@ -130,9 +130,9 @@ Some Examples of Field Mappings:
 
 **Step 19:** Click the **ADD A SAML APP** button to save the app settings. 
 
-Once you are done configuring the SAML app in the in Admin Console, you can view the recent success or error logs data for your SSO connection in the [Logs section](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/logs). To view the latest logs, click the Refresh button.
+Once you are done configuring the SAML app in the in Admin Console, you can view the recent success or error logs data for your SSO connection in the [Troubleshoot section](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/logs). To view the latest logs, click the Refresh button.
 
-![SAML Logs](https://apidocs.lrcontent.com/images/21--SAML---Logs_235856304f010b18315.03795004.png "SAML Logs")
+![SAML Logs](https://apidocs.lrcontent.com/images/sso-7_2189663918b726e9a42.92739165.png "SAML Logs")
 
 > **Note:** Currently, the Logs only supports the SAML flow.
 

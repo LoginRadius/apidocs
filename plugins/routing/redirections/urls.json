@@ -7116,6 +7116,10 @@
 {
   "oldLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/global-email-settings",
   "newLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/overview/"
+},
+{
+  "oldLink": "customer-management/self-serve-data-migration",
+  "newLink": "customer-management/overview/"
 }
 ]
 
