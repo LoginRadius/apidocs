@@ -35,4 +35,4 @@ The Scheduled Export area will allow you to request a Recurring, Scheduled Expor
 
 ## Export Logs
 
-Dowload the Data Export from [Export Logs](/integrations/user-data-export/export-logs/) within LoginRadius Dashboard for security purpose.
+Download the Data Export from [Export Logs](/integrations/user-data-export/export-logs/) within LoginRadius Admin Console for security purpose.
