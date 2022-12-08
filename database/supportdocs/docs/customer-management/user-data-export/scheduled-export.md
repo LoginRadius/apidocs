@@ -27,4 +27,4 @@ The following screen will appear:
 **Step 9:** Click the **Request Export** button to create the request. The following displays the created scheduled export request:
 ![Scheduled Export](https://apidocs.lrcontent.com/images/de6_296575e83dc7b181a73.39015772.png "Scheduled Export")
 
-> **Note:** The **Progress **column displays the status of the on-demand export request. You can keep tracking the export request status here. However, upon export completion, the added recipients will automatically receive an email with the respective password-protected data file attached.
+> **Note:** The **Progress** column displays the status of the on-demand export request. You can keep tracking the export request status here. However, upon export completion, the added recipients will automatically receive an email with the respective password-protected data file attached.
