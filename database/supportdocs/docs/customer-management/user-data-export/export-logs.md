@@ -1,13 +1,14 @@
 # Export Logs
 
----
+The **Export Logs** option allows you to view the list of export logs. In addition, you can download the exported data file, if the link has not expired yet.
 
-The Data Export must be downloaded from within LoginRadius Admin Console for security purposes.
+The following explains how you can access the export logs and download the data file:
 
-Each time a Data Export is completed you will receive an email that links back to you LoginRadius Admin Console, to complete the Download you will have to go to the "Export Logs" section.
+**Step 1:** Log in to your <a href = https://adminconsole.loginradius.com/ target=_blank>**Admin Console**</a> account, navigate to <a href = https://adminconsole.loginradius.com/integration/data-export/on-demand-export target=_blank>**Integration>Data Export**</a> and select the Export Logs option from the left navigation panel.
 
-You can find "Export Logs" under:
+The following screen will appear:
+![Export Logs](https://apidocs.lrcontent.com/images/cde2_286505e84ef0d3dcea9.02554726.png "Export Logs")
 
-Integration -> Data Export ->(left-hand-side) Export Logs
+**Step 2:** Click the **Download** option to download the export data file. Upon downloading, you can open the zip file by entering the password set while creating the respective export request.
 
-![Export logs](https://apidocs.lrcontent.com/images/cde2_286505e84ef0d3dcea9.02554726.png "Export logs")
+> ** Note:** The **download** link expires in 3 days.

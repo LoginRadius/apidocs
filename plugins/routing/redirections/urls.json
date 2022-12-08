@@ -7120,6 +7120,14 @@
 {
   "oldLink": "customer-management/self-serve-data-migration",
   "newLink": "customer-management/overview/"
+},
+{
+  "oldLink": "customer-management/customer-segmentation/exporting-a-segmented-list",
+  "newLink": "customer-management/user-data-export/data-export-overview/"
+},
+{
+  "oldLink": "authentication/concepts/customer-data-export",
+  "newLink": "customer-management/user-data-export/data-export-overview/"
 }
 ]
 
