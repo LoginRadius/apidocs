@@ -126,11 +126,6 @@
           "type": "DOC"
         },
         {
-          "url": "authentication/concepts/customer-data-export/",
-          "title": "Customer Data Export",
-          "type": "DOC"
-        },
-        {
           "url": "authentication/concepts/customer-data-query/",
           "title": "Customer Data Query",
           "type": "DOC"
@@ -1026,11 +1021,6 @@
       {
         "url": "customer-management/customer-segmentation/advanced-segmentation/",
         "title": "Advanced Segmentation",
-        "type": "DOC"
-      },
-      {
-        "url": "customer-management/customer-segmentation/exporting-a-segmented-list/",
-        "title": "Exporting A Segmentation",
         "type": "DOC"
       },
       {
