@@ -41,11 +41,11 @@ This section covers the required configurations that you need to perform in the 
 
 The following screen will appear:
 
-![JWT](https://apidocs.lrcontent.com/images/JWT_958161e9a19488c171.82409905.png "JWT")
+![JWT](https://apidocs.lrcontent.com/images/sso-3_3541639188f2c9eb46.76474073.png "JWT")
 
 **Step 2:** Click **+ Add App** option for adding a new JWT app. The following configuration options will appear:
 
-![SSO](https://apidocs.lrcontent.com/images/Federated-Sso-LoginRadius-User-Dashboard_196716222795c433379.30188116.png "SSO")
+![SSO](https://apidocs.lrcontent.com/images/sso-4_18757639189f5430594.17463479.png "SSO")
 
 **Step 3:** You need to provide or select the following values to add the APP.
 

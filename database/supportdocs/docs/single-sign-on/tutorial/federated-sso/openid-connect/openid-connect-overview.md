@@ -12,7 +12,7 @@ You can configure your OpenID Connect settings in the LoginRadius Admin Console 
 
 **Platform Configuraton ➔ Access Configuration ➔ Federated SSO ➔ (left sidebar) OpenID Connect**<br>
 
-![OpenID1](https://apidocs.lrcontent.com/images/OpenID1_51395e964f1bd52015.71902268.png "OpenID1")
+![OpenID1](https://apidocs.lrcontent.com/images/sso-1_89456391884167edc1.73494008.png "OpenID1")
 
 To begin configuration you will need to click "Add" and fill out the form as follows:
 
@@ -38,7 +38,7 @@ openssl rsa -in key.pem -outform PEM -pubout -out public.pem
 
 Once this is complete, click on **Save**.
 
-![OPEN](https://apidocs.lrcontent.com/images/11_3146862040f77bd5ae1.53392484.png "OPEN")
+![OPEN](https://apidocs.lrcontent.com/images/sso-2_46663918878eb7295.50185406.png "OPEN")
 
 ## OpenID Connect Flows
 

@@ -7116,5 +7116,29 @@
 {
   "oldLink": "/api/v2/cloud-storage/aggregation-query-data",
   "newLink": "api/v2/cloud-directory-api/identity/get-user-identity/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/email-configuration",
+  "newLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/overview/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/global-email-settings",
+  "newLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/overview/"
+},
+{
+  "oldLink": "customer-management/self-serve-data-migration",
+  "newLink": "customer-management/overview/"
+},
+{
+  "oldLink": "customer-management/customer-segmentation/exporting-a-segmented-list",
+  "newLink": "customer-management/user-data-export/data-export-overview/"
+},
+{
+  "oldLink": "authentication/concepts/customer-data-export",
+  "newLink": "customer-management/user-data-export/data-export-overview/"
+},
+{
+  "oldLink": "authentication/concepts/customer-data-query",
+  "newLink": "customer-management/data-query/data-query-overview/"
 }
 ]
