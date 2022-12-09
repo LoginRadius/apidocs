@@ -4,7 +4,7 @@
     "changelog": {
     "ADDED": [
          {
-            "text": "Added New <a href='/api/v2/customer-identity-api/authentication/auth_link_social_identities_clientguid/'> <strong> Auth Link Social Identities by ClientGuid </strong> </a> API is added. This API is used to link a social provider identity with an existing LoginRadius account." 
+            "text": "Added New <a href='/api/v2/customer-identity-api/authentication/auth-link-social-identities-clientguid/'> <strong> Auth Link Social Identities by ClientGuid </strong> </a> API is added. This API is used to link a social provider identity with an existing LoginRadius account." 
          }
             ]
                 },
