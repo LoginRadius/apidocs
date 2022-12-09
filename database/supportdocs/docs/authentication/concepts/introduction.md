@@ -9,7 +9,7 @@ LoginRadius Identity Platform allows you to organize and manage your customer da
 
 - **Customer Data Export:** You can export data of your customers’ profile, based on the business requirements. For example, you can use this feature to retrieve customers in a given timeframe. There is an option to configure the export schedules to get the customer data periodically, or you can export customer's data when required. You can export customer data in CSV or JSON format. For more details, refer to this [document](/customer-management/user-data-export/data-export-overview/).
 
-- **Customer Segmentation:** You can set up and save custom filters to retrieve a list of the respective customers. You can download these lists in CSV and JSON format. For more details, refer to this [document](/authentication/concepts/customer-segmentation/).
+- **Customer Segmentation:** You can set up and save custom filters to retrieve a list of the respective customers. You can download these lists in CSV and JSON format. For more details, refer to this [document](/customer-management/customer-segmentation/customer-segmentation/).
 
 - **Customer Data Query:** You can filter and view the customer data. The filter options for Data Query is the same as available in the Customer Segmentation. However, the data query section does not allow you to export the data. Hence, you can use this option when a quick view of specific customer data is required. For more details, refer to this [document](/customer-management/data-query/data-query-overview/).
 

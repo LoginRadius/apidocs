@@ -11,7 +11,7 @@ Thus, the Data Query gives you convenient and instant access to customers’ pro
 
 - **Custom Object Query**
 
-> **Note:** Note: Data Query sections display a maximum of 100 pages with 10 per customer profile listing on each page. To get up to 1 million customer data, you can use [**Customer Segmentation**](customer-management/customer-segmentation/customer-segmentation/) or [**Data Export**](customer-management/user-data-export/data-export-overview/) features.
+> **Note:** Note: Data Query sections display a maximum of 100 pages with 10 per customer profile listing on each page. To get up to 1 million customer data, you can use [**Customer Segmentation**](/customer-management/customer-segmentation/customer-segmentation/) or [**Data Export**](/customer-management/user-data-export/data-export-overview/) features.
 
 ## Customer Query
 

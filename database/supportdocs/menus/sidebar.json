@@ -121,11 +121,6 @@
           "type": "DOC"
         },
         {
-          "url": "authentication/concepts/customer-segmentation/",
-          "title": "Customer Segmentation",
-          "type": "DOC"
-        },
-        {
           "url": "authentication/concepts/profile-editor/",
           "title": "Customer Profile Editor",
           "type": "DOC"

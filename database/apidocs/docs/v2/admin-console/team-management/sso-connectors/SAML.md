@@ -27,7 +27,7 @@ Each authentication system is unique and might require different configuration s
 
 ![Saml1](https://apidocs.lrcontent.com/images/image-4_757663926d25922926.65883202.png "SAML1")
 
-####  **Configure App**
+###   **Configure App**
 
 **Step-1:** Fill in the below form if you are copying for Configure App option:
 
@@ -62,7 +62,7 @@ Each authentication system is unique and might require different configuration s
 
 >**Note:**  Please see [ADFS](/api/v2/admin-console/team-management/sso-connectors/adfs-setup-in-admin-console), [Azure AD](/api/v2/admin-console/team-management/setup-azure-ad), salesforce for specific examples for implementing SSO in Admin Console using SAML.
 
-####  **Configure From Metadata**
+###  **Configure From Metadata**
 
 **Step-1:** If you are looking to configure this by uploading a Metadata file follow the below-mentioned steps.
 
