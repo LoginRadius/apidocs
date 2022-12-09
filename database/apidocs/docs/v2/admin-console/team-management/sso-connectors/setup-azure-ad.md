@@ -142,15 +142,23 @@ To configure Azure AD single sign-on with LoginRadius, perform the following ste
 
 **Steps**
 
-<span>1. </span>  Log in to your LoginRadius [Admin Console](https://adminconsole.loginradius.com/login) account.
+1. Log in to your LoginRadius [Admin Console](https://adminconsole.loginradius.com/login) account.
     
-<span>2. </span> Navigate to your team management section in LoginRadius Admin Console from [here](https://adminconsole.loginradius.com/account/team).
+2. Navigate to your team management section in LoginRadius Admin Console from [here](https://adminconsole.loginradius.com/account/team).
     
-<span>3. </span> Click on **Azure AD** under the **Single Sign-On** tab.  
-      
-   ![enter image description here](https://apidocs.lrcontent.com/images/26_16432616033f1cbffc0.27896250.png "Single Sign-On")
+3. Click on **Azure AD** under the **Single Sign-On** tab.  
     
-<span>4. </span>  Fill the details mentioned below in form shown in the screen:  
+4. Here, you can see two options.
+
+   - Configure App
+
+   - Configure from Metadata
+
+  ![Main](https://apidocs.lrcontent.com/images/image_13011639263f009fbe4.80441964.png "main")
+
+  ####   **Configure App**
+   
+   **Step-1:** When you choose to configure through the app section method, the below screen appears and you need to fill in the details in the form shown on the screen: 
       
    ![LR Azure AD](https://apidocs.lrcontent.com/images/AZURE_1423062f207044c3a64.15289342.png "LR Azure AD")
 
@@ -198,6 +206,16 @@ Once all the fields are filled, click on update button at the bottom of the conf
 
 
 >**NOTE:** The Email field mapping is required. FirstName and LastName field mapping are optional.
+
+####  **Configure From Metadata**
+
+**Step-1:** If you are looking to configure this by uploading a Metadata file follow the below-mentioned steps.
+
+![AzAD 1](https://apidocs.lrcontent.com/images/image-2_2558663926a388e4c22.49865874.png "AzAD 1")
+
+**Step-2:** After you have clicked on the Configure from Metadata file, you are required to upload the XML file, which consists of metadata for SSO setup, and after successful upload, click  Add. And then you will find the below screen.
+
+![Common](https://apidocs.lrcontent.com/images/pasted-image-0_1165463926a9d53a426.51777542.png "Common")
 
 ### Create an Azure AD test user
 

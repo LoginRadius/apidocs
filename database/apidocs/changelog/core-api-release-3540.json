@@ -3,13 +3,10 @@
     "description": "In this release we have made the below changes in the LoginRadius Core API, please see below for details:",
     "changelog":
    {
-    "Fixed": 
-    [
-        
+    "FIXED": [
         {
           "text": "Issue with the Server Side Validation in custom regex has been fixed."
         }
-    
     ]
     },
     "auther": "Bhavya Tugnawat",

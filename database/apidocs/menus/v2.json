@@ -111,16 +111,6 @@
               "url": "v2/admin-console/platform-configuration/communication-configuration/email/overview/",
               "title": "Overview",
               "type": "DOC"
-            },
-            {
-              "url": "v2/admin-console/platform-configuration/communication-configuration/email/email-configuration/",
-              "title": "Email Configuration",
-              "type": "DOC"
-            },
-            {
-              "url": "v2/admin-console/platform-configuration/communication-configuration/email/global-email-settings/",
-              "title": "Global Email Settings",
-              "type": "DOC"
             }
           ],
           "Providers": [

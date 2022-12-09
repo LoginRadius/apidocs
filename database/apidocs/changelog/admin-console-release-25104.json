@@ -1,0 +1,25 @@
+{ 
+    "name": "Admin Console Release 25.10.4",
+    "description":"This release of the Admin Console brings you new feature and improvements. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Under the Team Management SSO section, a metadata file can be used to configure SSO for Admin Console."
+            },
+            {
+                "text": "When the 15 custom field limit for your Admin Console is modified via the backend, additional Custom Fields can be defined and displayed."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "In social info section of a user's profile in the Admin console, unverified emails can now be seen."
+            },
+            {
+                "text": "Self-serve Data Migration feature has been deprecated." 
+            }
+        ]
+    },
+    "auther": "Bhavya Tugnawat",
+    "created_date": "2022-12-08",
+    "status": "public"
+}

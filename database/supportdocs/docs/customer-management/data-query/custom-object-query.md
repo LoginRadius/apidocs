@@ -1,11 +1,11 @@
-#Custom Object Query
+# Custom Object Query
 
 The **Custom Object Query** feature allows you to filter data of the customers based on the custom object fields. An example of a custom object query would be filtering through customers’ purchase history for a particular item and filtering for a related item on their wishlist.
 
 The following explains how you can create a customer object query:
 
 
-**Step 1:** Log in to your <a href = https://adminconsole.loginradius.com/ target=_blank>**Admin Console**</a> account and navigate to <a href = https://adminconsole.loginradius.com/profile-management/data-query/custom-object-query target=_blank>**Profile Management > Data Query**</a> and select **Custom Object Query** from the left navigation panel.
+**Step 1:** Log in to your <a href = https://adminconsole.loginradius.com/ target=_blank>**Admin Console**</a>  account and navigate to <a href = https://adminconsole.loginradius.com/profile-management/data-query/custom-object-query  target=_blank>**Profile Management > Data Query**</a> and select **Custom Object Query** from the left navigation panel.
 
 The following screen will appear:
 

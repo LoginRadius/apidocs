@@ -11,11 +11,15 @@ Please follow the steps mentioned below:
 2. Click on **Setup** available on the top right.
 3. Move to the **Administer** section in the left Panel.
 4. Click on **My domain** under **Domain Management**.
+
 ![](https://apidocs.lrcontent.com/images/salesforce_275315d8abce71abb53.88501739.png "")
+
 5. Enter your Domain name and click on **Register Domain**. 
 6. Now Move to **Build**section in the left Panel.
 7. Click on **Apps **under **Create**. 
+
 ![](https://apidocs.lrcontent.com/images/salesforce1_272355d8abcad4bf8e2.74227929.png "")
+
 8. Click on **New** button Under **Connected Apps** section.
 
 9. Enter the following values for **Basic Information** :
@@ -77,11 +81,24 @@ Steps:
 
 3. Click on Salesforce under the **Single Sign-On tab.**
 
-![Salesforce](https://apidocs.lrcontent.com/images/Salesforce_1222962f20781ab8689.56039872.png "Salesforce")
+4. Here, you can see two options.
+
+      - Configure App
+
+      - Configure from Metadata
+
+      ![Main](https://apidocs.lrcontent.com/images/image-1_327263926641577ba1.00753862.png "main")
+
+###  **Configure App**
+
+   
+   **Step-1:** When you choose to configure through the app section method, the below screen appears and you need to fill in the details in the form shown on the screen: 
+
+ ![Salesforce](https://apidocs.lrcontent.com/images/Salesforce_1222962f20781ab8689.56039872.png "Salesforce")
 
  >**Note:** If you select the **Switch off Email/Password Login instead of Enable only SSO** option, then login with **Email/Password** will not work, and only SSO Login will work to access LoginRadius Admin Console.
 
-4. Fill in the below form as: 
+ **Step-2:** Fill in the below form as: 
 
  - Select your desired flow in the LOGIN FLOW dropdown. Select Identity Provider Initiated Login for IdP Initiated SAML workflow or select Service Provider Initiated Login for SP Initiated SAML workflow. Please see the [SAML](/api/v2/single-sign-on/federated-sso/saml/overview/#loginradiusactsasanidentityprovider6) overview document for more details. 
 
@@ -89,13 +106,13 @@ Steps:
  
  - In **ID Provider Location**, enter the **IdP-Initiated Login URL** which you will get from the Salesforce dashboard (Setup->Administrater->Manage Apps->Connected Apps). 
 
-![](https://apidocs.lrcontent.com/images/salesforce4_118355d8ac154740e86.45217196.png "")
+ ![](https://apidocs.lrcontent.com/images/salesforce4_118355d8ac154740e86.45217196.png "")
 
  - In **ID Provider Logout Url**, enter the **Single Logout Endpoint** from the Salesforce dashboard (Setup->Administrater->Manage Apps->Connected Apps).
-- In **ID Provider Certificate**, enter the Salesforce certificate from the Salesforce dashboard (Setup->Administrater->Manage Apps->Connected Apps).
-- In **Service Provider Certificate** and **Service Provider Certificate key** enter LoginRadius certificate and key. Please see [here](/single-sign-on/concept/saml-miscellaneous/certificate/) for how to generate the LoginRadius certificate and key.
+ - In **ID Provider Certificate**, enter the Salesforce certificate from the Salesforce dashboard (Setup->Administrater->Manage Apps->Connected Apps).
+ - In **Service Provider Certificate** and **Service Provider Certificate key** enter LoginRadius certificate and key. Please see [here](/single-sign-on/concept/saml-miscellaneous/certificate/) for how to generate the LoginRadius certificate and key.
 
-- For **DATA MAPPING** select the LoginRadius' fields (SP fields) and enter the corresponding Salesforce fields (IdP fields). 
+ - For **DATA MAPPING** select the LoginRadius' fields (SP fields) and enter the corresponding Salesforce fields (IdP fields). 
 
 
  | Fields      |      Profile Key  | 
@@ -103,4 +120,14 @@ Steps:
  | Email   |  email |
  |FullName  |  username   | 
 
->**Note:** The customer should have an account with the same email address in Salesforce as well as in LoginRadius before using the Salesforce account to login to the LoginRadius Admin Console.
+ >**Note:** The customer should have an account with the same email address in Salesforce as well as in LoginRadius before using the Salesforce account to login to the LoginRadius Admin Console.
+
+###  **Configure From Metadata**
+
+**Step-1:** If you are looking to configure this by uploading a Metadata file follow the below-mentioned steps.
+
+![SF1](https://apidocs.lrcontent.com/images/image-3_1049763926b183367e0.47147679.png "SF1")
+
+**Step-2:** After you have clicked on the Configure from Metadata file, you are required to upload the XML file, which consists of metadata for SSO setup, and after successful upload, click  Add. And then you will find the below screen.
+
+![Common](https://apidocs.lrcontent.com/images/pasted-image-0_1165463926a9d53a426.51777542.png "Common")

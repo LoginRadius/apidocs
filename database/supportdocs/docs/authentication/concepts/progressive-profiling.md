@@ -1,25 +1,18 @@
 # Progressive Profiling
 
 Progressive Profiling automates the gradual gathering of data from your customers. It is done by capturing data from the customer at various stages, rather than requesting all at once. 
-Following are some example events on which you can prompt your customer for additional information:
-
-- Upon the first login 
-- At a custom-defined number of logins
-- Upon navigating to a specific application
-- Clicking a specific link 
-
-In progressive profiling, you can split a complicated registration process into multiple steps. It allows you to capture business-critical information upfront and then slowly build a holistic view of your customer’s profile through subsequent steps or actions. 
+The following diagram explains the process of Progressive Profiling: 
 
 The following diagram explains the process of Progressive Profiling: 
 ![registration process](https://apidocs.lrcontent.com/images/pp1_236925e86518707d9b3.92554723.png "progressive profiling")
 
 
-Progressive Profiling is built proportionally to the customer’s trust. During the registration process, you can collect the essential information from the customer. Once the trust is built, you can ask your customer for the extended data. Later with time, when you keep winning your customer’s trust, you will be able to collect customer-specific information. With all the above data, you can create a detailed customer profile.
+Progressive Profiling is built proportionally to the customer’s trust. During the registration process, you can collect essential information from the customer. Once trust is built, you can ask your customer for extended data. Later with time, when you keep winning your customer’s trust, you will be able to collect customer-specific information. With all the above data, you can create a detailed customer profile.
 
 ## Progressive Profiling Guide
 
-This guide will take you through the process to set up and implement progressive profiling. It describes the process to retrieve progressive profile information from the registration form. It
-covers everything you need to know on how to configure Progressive Profile in the LoginRadius Identity Platform and deploy it onto your web application. 
+This guide will take you through the process of setting up and implementing progressive profiling. It describes the process of retrieving progressive profile information from the registration form. It
+covers everything you need to know on how to configuring Progressive Profile in the LoginRadius Identity Platform and deploying it onto your web application. 
 
 > **Pre-requisites:**
 > - Progressive Profiling features should be enabled on your account.  
@@ -28,14 +21,14 @@ covers everything you need to know on how to configure Progressive Profile in th
 
 ## Part 1 - Configuration
 
-This section covers the required configurations that you need to perform in the LoginRadius Admin Console to implement the Progressive Profiling functionality. 
+This section covers the required configurations you need to perform in the LoginRadius Admin Console to implement the Progressive Profiling functionality. 
 
 **Step 1:** Log in to your <a href = https://adminconsole.loginradius.com/ target=_blank>**Admin Console**</a> account and navigate to <a href = https://adminconsole.loginradius.com/deployment/profiling/progressive-profiling target=_blank>**Deployment > Progressive Profiling.**</a>
 
 The following screen will appear:
 ![Admin console](https://apidocs.lrcontent.com/images/pp2_312455e86527a4e3b31.53494727.png "progressive profiling")
 
-**Step 2:**  Add a new step by entering the **Step Name** and then clicking the **Add** button, as highlighted in the following screen:
+**Step 2:**  Add a new step by entering the **Step Name** and then click the **Add** button, as highlighted in the following screen:
 
 ![Steps name ](https://apidocs.lrcontent.com/images/pp3_187805e8652c7d11461.44719372.png "progressive profiling")
 
@@ -56,7 +49,7 @@ The **Standard Fields(Basic)** panel allows you to add basic data fields. For ex
 
 ![tandard Fields(Basic)](https://apidocs.lrcontent.com/images/pp6_268235e86552475ede1.82688109.png "UserName")
 
-The **Standard Fields(Advanced)** panel allows you to add data fields that interact with more complex data structures in LoginRadius( Objects, Arrays) and include multiple related fields for the given entity.
+The **Standard Fields(Advanced)** panel allows you to add data fields that interact with more complex data structures in LoginRadius( Objects, Arrays), and include multiple related fields for the given entity.
 
 For example, in the following screen upon clicking **+** button for **Addresses** field, it is added to the progressive profiling step along with the related fields:
 
@@ -69,7 +62,7 @@ The **Custom Fields** panel allows you to add custom fields available in your ac
 
 
 
-> **Note:** For more Information and field configuration settings, refer to this [document](/authentication/quick-start/standard-login/).
+> **Note:** For more information and field configuration settings, refer to this [document](/authentication/quick-start/standard-login/).
 
 **Step 6:** Click the **Save** button to save the configurations, as highlighted in the following screen:
 
@@ -106,7 +99,7 @@ In the above URL, the [sitename](/api/v2/admin-console/deployment/get-site-app-n
 
 **Step 2:** Embed Authentication Pages in your Website as explained below:
 
-Add a link on your webpage for redirecting customers to the Identity Experience Framework(Hosted) Page. 
+Add a link on your webpage to redirect customers to the Identity Experience Framework (Hosted) Page. 
 
 ```
 <a href="https://<LoginRadius Site Name>.hub.loginradius.com/auth.aspx?action=<Desired Action>&return_url=<Return URL>">Register</a>
@@ -172,7 +165,7 @@ e. Add the following code to implement the Progressive Profiling interface, and 
 ```
 var lr_raas_settings= {};
         lr_raas_settings.container = "progressive-container";
-        // If this step will be for Social Data Progressive profiling you will need to specify a template.
+        // If this step is for Social Data Progressive profiling you will need to specify a template.
         // By specifying a template, a Social Login Interface will automatically be loaded in the progressive profiling container div.
         lr_raas_settings.templateName = "loginradiuscustom_tmpl_progressive";
         ///
@@ -187,7 +180,7 @@ var lr_raas_settings= {};
 
 
 
-> **Note:** You can use the following URL link to display the profile page of logged in customer 
+> **Note:** You can use the following URL link to display the profile page of logged-in customer 
 >
 >  `<a href="https://<LoginRadius site name>.hub.loginradius.com/profile.aspx">View Profile</a>>`
 > 
@@ -202,9 +195,9 @@ var lr_raas_settings= {};
 > var access_token = getParameterByName(“token”);
 > ```
 > 
-> We have additional language specific examples [here](/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
+> We have additional language-specific examples [here](/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
 
-After the above configuration, Progressive Profiling will reflect on your ```https://<sitename>.hub.loginradius.com/profile.aspx``` where [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site.  
+After the above configuration, Progressive Profiling will be reflected on ```https://<sitename>.hub.loginradius.com/profile.aspx``` where [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site.  
 
 > **Note:** Progressive Profiling Interface is displayed only after login.           
 

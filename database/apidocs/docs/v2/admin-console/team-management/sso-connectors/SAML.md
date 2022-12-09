@@ -14,9 +14,22 @@ Each authentication system is unique and might require different configuration s
 ## Configuring LoginRadius Admin Console
 
 1.  Log in to your LoginRadius account.
+
 2. Navigate to your team management section in LoginRadius Admin Console from [here](https://adminconsole.loginradius.com/account/team).
+
 3. Click on SAML under the **Single Sign-On** tab. 
-4. Fill in the below form as: 
+
+4. Here, you can see two options.
+
+  - Configure App
+
+  - Configure from Metadata
+
+![Saml1](https://apidocs.lrcontent.com/images/image-4_757663926d25922926.65883202.png "SAML1")
+
+###   **Configure App**
+
+**Step-1:** Fill in the below form if you are copying for Configure App option:
 
   a. Select any flow from **Login Flow**.
 
@@ -48,6 +61,16 @@ Each authentication system is unique and might require different configuration s
    |FullName  |  username   | 
 
 >**Note:**  Please see [ADFS](/api/v2/admin-console/team-management/sso-connectors/adfs-setup-in-admin-console), [Azure AD](/api/v2/admin-console/team-management/setup-azure-ad), salesforce for specific examples for implementing SSO in Admin Console using SAML.
+
+###  **Configure From Metadata**
+
+**Step-1:** If you are looking to configure this by uploading a Metadata file follow the below-mentioned steps.
+
+![SAML2](https://apidocs.lrcontent.com/images/image-5_3166063926d9d32ec14.33010041.png "SAML2")
+
+**Step-2:** After you have clicked on the Configure from Metadata file, you are required to upload the XML file, which consists of metadata for SSO setup, and after successful upload, click  Add. And then you will find the below screen.
+
+![Common](https://apidocs.lrcontent.com/images/pasted-image-0_1165463926a9d53a426.51777542.png "Common")
 
 >The customer should have an account with the same email address in your SAML application as well as in LoginRadius before using your SAML application to login to the LoginRadius Admin Console.
 
