@@ -89,7 +89,7 @@ Steps:
 
       ![Main](https://apidocs.lrcontent.com/images/image-1_327263926641577ba1.00753862.png "main")
 
-####  **Configure App**
+###  **Configure App**
 
    
    **Step-1:** When you choose to configure through the app section method, the below screen appears and you need to fill in the details in the form shown on the screen: 
@@ -122,7 +122,7 @@ Steps:
 
  >**Note:** The customer should have an account with the same email address in Salesforce as well as in LoginRadius before using the Salesforce account to login to the LoginRadius Admin Console.
 
-####  **Configure From Metadata**
+###  **Configure From Metadata**
 
 **Step-1:** If you are looking to configure this by uploading a Metadata file follow the below-mentioned steps.
 

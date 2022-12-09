@@ -7140,5 +7140,10 @@
 {
   "oldLink": "authentication/concepts/customer-data-query",
   "newLink": "customer-management/data-query/data-query-overview/"
+},
+{
+  "oldLink": "authentication/concepts/customer-segmentation",
+  "newLink": "customer-management/customer-segmentation/customer-segmentation/"
 }
 ]
+

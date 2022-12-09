@@ -38,7 +38,7 @@ To get the data of resultant customers, click the **Export** button from the abo
 
 ![Advanced Segmentatione](https://apidocs.lrcontent.com/images/cs10_238655e83c0833d74e2.82111239.png "Advanced Segmentation")
 
-Configure the data export as explained in [this document](/customer-management/customer-segmentation/exporting-a-segmented-list/) and get the resultant customer data in CSV or JSON format.
+Configure the data export as explained in [**this document**](/customer-management/user-data-export/data-export-overview/) and get the resultant customer data in CSV or JSON format.
  
 **Save Segmentation:**  To save the created segment for future, click the **Save** Segment button as highlighted in the below screen:
 

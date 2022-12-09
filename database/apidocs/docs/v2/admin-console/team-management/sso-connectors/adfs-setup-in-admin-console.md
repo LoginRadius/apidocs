@@ -105,7 +105,7 @@ After you create the relying party trust, you can create the claim rules.
 
 ![Main](https://apidocs.lrcontent.com/images/image-6_693263926f82cfa2c5.39683343.png "Main")
 
-####    **Configure App**
+###    **Configure App**
 
 **Step-1:** For configuring through app section, fill the details mentioned below in form shown in the screen:
 
@@ -136,7 +136,7 @@ d) Enter the LoginRadius Key under **Service Provider Certificate Key**. You can
     <br>
     **Profile Key** : Please check this link for more details - [Link](https://support.templafy.com/hc/en-us/articles/207724789-Supported-claims-and-claims-rules).
     
-####  **Configure From Metadata**
+###  **Configure From Metadata**
 
 **Step-1:** If you are looking to configure this by uploading a Metadata file follow the below-mentioned steps.
 
