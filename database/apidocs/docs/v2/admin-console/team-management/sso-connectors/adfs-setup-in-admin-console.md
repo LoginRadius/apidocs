@@ -97,8 +97,17 @@ After you create the relying party trust, you can create the claim rules.
 
 3. Click on ADFS under **Single Sign-On tab**.
 
-4. Fill in the below form as:
-<br><br>
+4. Here, you can see two options.
+
+    - Configure App
+
+    - Configure from Metadata
+
+![Main](https://apidocs.lrcontent.com/images/image-6_693263926f82cfa2c5.39683343.png "Main")
+
+####    **Configure App**
+
+**Step-1:** For configuring through app section, fill the details mentioned below in form shown in the screen:
 
 ![ADFS](https://apidocs.lrcontent.com/images/2_1977362fe497219ea85.57652809.png "ADFS")![ADFS](https://apidocs.lrcontent.com/images/ADFS_680762f203e7518945.34878499.png "ADFS")<br>
 
@@ -127,5 +136,12 @@ d) Enter the LoginRadius Key under **Service Provider Certificate Key**. You can
     <br>
     **Profile Key** : Please check this link for more details - [Link](https://support.templafy.com/hc/en-us/articles/207724789-Supported-claims-and-claims-rules).
     
+####  **Configure From Metadata**
 
+**Step-1:** If you are looking to configure this by uploading a Metadata file follow the below-mentioned steps.
 
+![Adfs1](https://apidocs.lrcontent.com/images/image-7_2147639270108d7ad8.99652774.png "Adfs1")
+
+**Step-2:** After you have clicked on the Configure from Metadata file, you are required to upload the XML file, which consists of metadata for SSO setup, and after successful upload, click  Add. And then you will find the below screen.
+
+![Common](https://apidocs.lrcontent.com/images/pasted-image-0_1165463926a9d53a426.51777542.png "Common")
