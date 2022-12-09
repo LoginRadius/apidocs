@@ -73,11 +73,6 @@
           "type": "DOC"
         },
         {
-          "url": "authentication/concepts/ui-ux-customizations-idx/",
-          "title": "UI and UX Customizations of IDX",
-          "type": "DOC"
-        },
-        {
           "url": "authentication/concepts/email-verification-workflow/",
           "title": "Email Verification Workflow",
           "type": "DOC"

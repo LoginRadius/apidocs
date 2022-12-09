@@ -7144,6 +7144,9 @@
 {
   "oldLink": "authentication/concepts/customer-segmentation",
   "newLink": "customer-management/customer-segmentation/customer-segmentation/"
+},
+{
+  "oldLink": "authentication/concepts/ui-ux-customizations-idx",
+  "newLink": "libraries/identity-experience-framework/customization/"
 }
 ]
-
