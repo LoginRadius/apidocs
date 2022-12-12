@@ -2,7 +2,7 @@
 
 LoginRadius Identity Platform allows you to organize and manage your customer data in the following ways:
 
-- **Customer Management:** You can add new customers and manage your existing customers using the LoginRadius Admin Console. This feature gives your customer service team the ability to manage requests from the customers. For more details, refer to this [document](/authentication/concepts/customer-management/). 
+- **Customer Management:** You can add new customers and manage your existing customers using the LoginRadius Admin Console. This feature gives your customer service team the ability to manage requests from the customers. For more details, refer to this [document](/customer-management/overview/). 
 
  Alternatively, you use [Account Management APIs](/api/v2/customer-identity-api/account/account-overview/#data-export) to manage the customers. To get the list of existing customers, you can use the [Cloud Identity APIs](/api/v2/cloud-directory-api/identity/getting-started/#data-export). 
 
