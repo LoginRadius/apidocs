@@ -1,10 +1,10 @@
-#Standard Login Form Fields
+# Standard Login Form Fields
 
-# Overview
+## Overview
 
 This document highlights the fields provided by LoginRadius for user registration forms. We have categorized the fields in 3 categories i.e, Standard Fields (Basics), Standard Fields (Advanced) and Custom Fields. You can configure and manage the fields for registration forms under the LoginRadius Admin Console > Platform Configuration > Authentication Configuration > Standard Login > Data Schema.
 
-## Standard Fields (Basic)
+### Standard Fields (Basic)
 
 Standard Fields are the most commonly used fields for registration forms, we have provided around 30 predefined Basic Standard fields they are:
 
@@ -38,7 +38,7 @@ Standard Fields are the most commonly used fields for registration forms, we hav
 
 ![](https://apidocs.lrcontent.com/images/sl1_127395e91c61430b022.50070049.png "Standard Fields (Basics)")
 
-## Standard fields (Advanced)
+### Standard Fields (Advanced)
 
 We have provided around 7 advanced predefined fields in Standard Fields, these are the complex fields provided for registration forms and can be enabled by simply clicking on them. Below is the list of Standard Fields (Advanced)
 
@@ -52,11 +52,11 @@ We have provided around 7 advanced predefined fields in Standard Fields, these a
 
 ![](https://apidocs.lrcontent.com/images/slfm2_133965e91c6362750b7.05544601.png "Standard Fields (Advanced)")
 
-## Custom fields
+### Custom Fields
 
 Custom Fields are fields that you can create for your own specific needs and use on registration forms. They allow you to create new fields (up to 15) that are not listed under Standard Field (Basic and Advanced). If a field is not listed in the Standard Field list, you can create a new one, add it and configure it.
 
-**Note:** you should not create a field under custom field if it is already listed under standard fields list.
+> **Note:** you should not create a field under custom field if it is already listed under standard fields list.
 
 ![](https://apidocs.lrcontent.com/images/slfm3_26905e91c65d98e490.35888612.png "Custom Fields")
 
