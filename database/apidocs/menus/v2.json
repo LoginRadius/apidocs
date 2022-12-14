@@ -191,8 +191,8 @@
       "Standard Login": {
         "basic": [
           {
-            "url": "v2/admin-console/platform-configuration/standard-login/data-schema/",
-            "title": "Data Schema",
+            "url": "v2/admin-console/platform-configuration/standard-login/Overview/",
+            "title": "Overview",
             "type": "DOC"
           },
           {
