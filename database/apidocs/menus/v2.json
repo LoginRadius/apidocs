@@ -191,7 +191,7 @@
       "Standard Login": {
         "basic": [
           {
-            "url": "v2/admin-console/platform-configuration/standard-login/Overview/",
+            "url": "v2/admin-console/platform-configuration/standard-login/overview/",
             "title": "Overview",
             "type": "DOC"
           },
