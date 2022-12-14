@@ -111,11 +111,6 @@
           "type": "DOC"
         },
         {
-          "url": "authentication/concepts/customer-management/",
-          "title": "Customer Management",
-          "type": "DOC"
-        },
-        {
           "url": "authentication/concepts/profile-editor/",
           "title": "Customer Profile Editor",
           "type": "DOC"
@@ -979,11 +974,6 @@
       {
         "url": "customer-management/blocked-customer/",
         "title": "Blocked Customer",
-        "type": "DOC"
-      },
-      {
-        "url": "customer-management/search-customers/",
-        "title": "Search Customers",
         "type": "DOC"
       },
       {

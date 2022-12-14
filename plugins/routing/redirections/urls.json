@@ -7148,5 +7148,17 @@
 {
   "oldLink": "authentication/concepts/ui-ux-customizations-idx",
   "newLink": "libraries/identity-experience-framework/customization/"
+},
+{
+  "oldLink": "customer-management/search-customers",
+  "newLink": "customer-management/profile-view/"
+},
+{
+  "oldLink": "authentication/concepts/customer-management",
+  "newLink": "customer-management/overview/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-configuration/standard-login/data-schema",
+  "newLink": "governance/data-schema/"
 }
 ]
