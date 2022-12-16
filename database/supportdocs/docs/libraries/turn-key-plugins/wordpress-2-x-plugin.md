@@ -270,4 +270,4 @@ To uninstall the plugin go to the installed plugin section and click on deactiva
 > Note: 
 > <br> On uninstallation of the plugin all the options setting will be deleted from the "wp_options" table.
 
-**Note:** WordPress version tested up to 5.3
+**Note:** WordPress version tested up to 6.0.2
