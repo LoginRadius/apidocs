@@ -686,7 +686,7 @@ var apiResponse = new AuthenticationApi().DeleteAccountByDeleteToken(deleteToken
 
 <h6 id="GetProfileByPing-get-">Get Profile By Ping (GET)</h6>
 
-This API is used to get a user's profile using the clientGuid parameter if no callback feature enabled [More Info](/api/v2/customer-identity-api/authentication/auth-get-profile-by-ping/)
+This API is used to get a user's profile using the clientGuid parameter if no callback feature enabled [More Info](/api/v2/customer-identity-api/social-login/social-login-by-ping/)
 
 
 
@@ -2200,7 +2200,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAUpdatePhoneNumberByToken
 
 <h6 id="MFAValidateEmailOtpByAccessToken-put-">Verify MFA Email OTP by Access Token (PUT)</h6>
 
-This API is used to set up MFA Email OTP authenticator on profile after login. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-otp-by-access-token/)
+This API is used to set up MFA Email OTP authenticator on profile after login. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/verify-mfa-email-otp-by-access-token/)
 
 
 
@@ -2217,7 +2217,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAValidateEmailOtpByAccess
 
 <h6 id="MFASecurityQuestionAnswerByAccessToken-put-">Update MFA Security Question by Access Token (PUT)</h6>
 
-This API is used to set up MFA Security Question authenticator on profile after login. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/update-mfa-security-question-by-access-token)
+This API is used to set up MFA Security Question authenticator on profile after login. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/verify-mfa-security-question-by-access-token/)
 
 
 
@@ -2316,7 +2316,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAUpdatePhoneNumber(phoneN
 
 <h6 id="MFAValidateEmailOtp-put-">Verify MFA Email OTP by MFA Token (PUT)</h6>
 
-This API is used to Verify MFA Email OTP by MFA Token [More Info](/api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-email-otp-by-mfa-token/)
+This API is used to Verify MFA Email OTP by MFA Token [More Info](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/verify-mfa-email-otp-by-mfa-token/)
 
 
 
@@ -2337,7 +2337,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAValidateEmailOtp(multiFa
 
 <h6 id="MFASecurityQuestionAnswer-put-">Update MFA Security Question by MFA Token (PUT)</h6>
 
-This API is used to set the security questions on the profile with the MFA token when MFA flow is required. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/update-mfa-security-question-by-mfa-token/)
+This API is used to set the security questions on the profile with the MFA token when MFA flow is required. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/update-mfa-security-question-by-mfa-token/)
 
 
 
@@ -2422,7 +2422,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFALoginByPhone(password, p
 
 <h6 id="MFAEmailOTP-post-">Send MFA Email OTP by MFA Token (POST)</h6>
 
-An API designed to send the MFA Email OTP to the email. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/send-mfa-email-otp-by-mfa-token/)
+An API designed to send the MFA Email OTP to the email. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-mfa-token/)
 
 
 
@@ -2439,7 +2439,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAEmailOTP(emailIdModel, s
 
 <h6 id="MFASecurityQuestionAnswerVerification-post-">Verify MFA Security Question by MFA Token (POST)</h6>
 
-This API is used to login to a user's account during the second MFA step via answering the security questions.[More Info](/api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-security-question-by-mfa-token/)
+This API is used to login to a user's account during the second MFA step via answering the security questions.[More Info](/api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/verify-mfa-security-question-by-mfa-token/)
 
 
 
@@ -2506,7 +2506,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAResetBackupCodeByAccessT
 
 <h6 id="MFAEmailOtpByAccessToken-get-">Send MFA Email OTP by Access Token (GET)</h6>
 
-This API is created to send the OTP to the email if email OTP authenticator is enabled in app's MFA configuration. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/send-mfa-email-otp-by-access-token/)
+This API is created to send the OTP to the email if email OTP authenticator is enabled in app's MFA configuration. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-mfa-token/)
 
 
 
@@ -2589,7 +2589,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAResetSMSAuthByToken(acce
 
 <h6 id="MFAResetEmailOtpAuthenticatorByAccessToken-delete-">Reset MFA Email OTP Authenticator By Access Token (DELETE)</h6>
 
-This API is used to reset the Email OTP Authenticator settings for an MFA-enabled user [More Info](/api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-email-otp-authenticator-access-token/)
+This API is used to reset the Email OTP Authenticator settings for an MFA-enabled user [More Info](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-access-token/)
 
 
 
@@ -2602,7 +2602,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAResetEmailOtpAuthenticat
 
 <h6 id="MFAResetSecurityQuestionAuthenticatorByAccessToken-delete-">MFA Reset Security Question Authenticator By Access Token (DELETE)</h6>
 
-This API is used to Reset MFA Security Question Authenticator By Access Token [More Info](/api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-security-question-by-access-token/)
+This API is used to Reset MFA Security Question Authenticator By Access Token [More Info](/api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/delete-reset-mfa-security-question-authenticator-settings/)
 
 
 
@@ -2643,7 +2643,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAResetGoogleAuthenticator
 
 <h6 id="MFAResetEmailOtpAuthenticatorByUid-delete-">Reset MFA Email OTP Authenticator Settings by Uid (DELETE)</h6>
 
-This API is used to reset the Email OTP Authenticator settings for an MFA-enabled user. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/reset-mfa-email-otp-authenticator-settings-by-uid/)
+This API is used to reset the Email OTP Authenticator settings for an MFA-enabled user. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-uid/)
 
 
 
@@ -2656,7 +2656,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAResetEmailOtpAuthenticat
 
 <h6 id="MFAResetSecurityQuestionAuthenticatorByUid-delete-">Reset MFA Security Question Authenticator Settings by Uid (DELETE)</h6>
 
-This API is used to reset the Security Question Authenticator settings for an MFA-enabled user. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/reset-mfa-security-question-authenticator-settings-by-uid/)
+This API is used to reset the Security Question Authenticator settings for an MFA-enabled user. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/delete-reset-mfa-security-question-authenticator-settings-uid/)
 
 
 
@@ -3036,7 +3036,7 @@ var apiResponse = new ReAuthenticationApi().VerifyPINAuthentication(accessToken,
 
 <h6 id="ReAuthValidateEmailOtp-put-">MFA Re-authentication by Email OTP (PUT)</h6>
 
-This API is used to validate the triggered MFA authentication flow with an Email OTP. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-auth-by-email-otp/)
+This API is used to validate the triggered MFA authentication flow with an Email OTP. [More Info](/api/v2/customer-identity-api/step-up-authentication/mfa/mfa-step-up-authentication-by-email-otp/)
 
 
 
@@ -3101,7 +3101,7 @@ var apiResponse = new ReAuthenticationApi().VerifyMultiFactorPINReauthentication
 
 <h6 id="ReAuthBySecurityQuestion-post-">MFA Re-authentication by Security Question (POST)</h6>
 
-This API is used to validate the triggered MFA re-authentication flow with security questions answers. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-authentication-by-security-question/)
+This API is used to validate the triggered MFA re-authentication flow with security questions answers. [More Info](/api/v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-security-question/)
 
 
 
@@ -3138,7 +3138,7 @@ var apiResponse = new ReAuthenticationApi().MFAReAuthenticate(accessToken, smsTe
 
 <h6 id="ReAuthSendEmailOtp-get-">Send MFA Re-auth Email OTP by Access Token (GET)</h6>
 
-This API is used to send the MFA Email OTP to the email for Re-authentication [More Info](/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/send-mfa-re-auth-email-otp-by-access-token/)
+This API is used to send the MFA Email OTP to the email for Re-authentication [More Info](/api/v2/customer-identity-api/step-up-authentication/mfa/send-mfa-step-up-auth-email-otp-by-access-token/)
 
 
 
@@ -3495,7 +3495,7 @@ var apiResponse = new PasswordLessLoginApi().PasswordlessLoginPhoneVerification(
 
 <h6 id="PasswordlessLoginVerificationByEmailAndOTP-post-">Passwordless Login Verification By Email And OTP  (POST)</h6>
 
-This API is used to verify the otp sent to the email when doing a passwordless login.  [More Info](/api/v2/customer-identity-api/passwordless-login/passwordless-login-verification-by-email-and-otp)
+This API is used to verify the otp sent to the email when doing a passwordless login.  [More Info](/api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-email-and-otp/)
 
 
 
@@ -3512,7 +3512,7 @@ var apiResponse = new PasswordLessLoginApi().PasswordlessLoginVerificationByEmai
 
 <h6 id="PasswordlessLoginVerificationByUserNameAndOTP-post-">Passwordless Login Verification By User Name And OTP (POST)</h6>
 
-This API is used to verify the otp sent to the email when doing a passwordless login. [More Info](/api/v2/customer-identity-api/passwordless-login/passwordless-login-verification-by-username-and-otp)
+This API is used to verify the otp sent to the email when doing a passwordless login. [More Info](/api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/)
 
 
 
