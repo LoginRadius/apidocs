@@ -7215,22 +7215,22 @@
 },
 {
   "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-security-question-by-mfa-token",
-  "newlink": "api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/verify-mfa-security-question-by-mfa-token/"
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/verify-mfa-security-question-by-mfa-token/"
 },
 {
   "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/backup-codes/reset-mfa-email-otp-authenticator-settings-by-uid",
-  "newlink": "api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-uid/"
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-uid/"
 },
 {
   "oldLink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verification-by-email-and-otp",
-  "newlink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-email-and-otp/"
+  "newLink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-email-and-otp/"
 },
 {
   "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-authentication-by-security-question",
-  "newlink": "api/v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-security-question/"
+  "newLink": "api/v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-security-question/"
 },
 {
   "oldLink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verification-by-username-and-otp",
-  "newlink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/"
+  "newLink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/"
 }
 ]
