@@ -7162,31 +7162,31 @@
   "newLink": "governance/data-schema/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/social-login/get-user-profile-by-ping/",
+  "oldLink": "api/v2/customer-identity-api/social-login/get-user-profile-by-ping",
   "newLink": "api/v2/customer-identity-api/social-login/social-login-by-ping/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/authentication/auth-get-profile-by-ping/",
+  "oldLink": "api/v2/customer-identity-api/authentication/auth-get-profile-by-ping",
   "newLink": "api/v2/customer-identity-api/social-login/social-login-by-ping/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/send-mfa-email-otp-by-access-token/",
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/send-mfa-email-otp-by-access-token",
   "newLink": "api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-mfa-token/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-email-otp-authenticator-access-token/",
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-email-otp-authenticator-access-token",
   "newLink": "api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-access-token/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/send-mfa-email-otp-by-mfa-token/",
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/send-mfa-email-otp-by-mfa-token",
   "newLink": "api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-mfa-token/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-otp-by-access-token/",
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-otp-by-access-token",
   "newLink": "api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/verify-mfa-email-otp-by-access-token/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/update-mfa-security-question-by-mfa-token/",
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/update-mfa-security-question-by-mfa-token",
   "newLink": "api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/update-mfa-security-question-by-mfa-token/"
 },
 {
@@ -7194,31 +7194,31 @@
   "newLink": "api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/verify-mfa-security-question-by-access-token/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-security-question-by-access-token/",
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-security-question-by-access-token",
   "newLink": "api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/delete-reset-mfa-security-question-authenticator-settings/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-auth-by-email-otp/",
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-auth-by-email-otp",
   "newLink": "api/v2/customer-identity-api/step-up-authentication/mfa/mfa-step-up-authentication-by-email-otp/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/re-authentication/send-mfa-re-auth-email-otp-by-access-token/",
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/re-authentication/send-mfa-re-auth-email-otp-by-access-token",
   "newLink": "api/v2/customer-identity-api/step-up-authentication/mfa/send-mfa-step-up-auth-email-otp-by-access-token/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-email-otp-by-mfa-token/",
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-email-otp-by-mfa-token",
   "newLink": "api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/verify-mfa-email-otp-by-mfa-token/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/backup-codes/reset-mfa-security-question-authenticator-settings-by-uid/",
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/backup-codes/reset-mfa-security-question-authenticator-settings-by-uid",
   "newLink": "api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/delete-reset-mfa-security-question-authenticator-settings-uid/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-security-question-by-mfa-token/",
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-security-question-by-mfa-token",
   "newlink": "api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/verify-mfa-security-question-by-mfa-token/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/backup-codes/reset-mfa-email-otp-authenticator-settings-by-uid/",
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/backup-codes/reset-mfa-email-otp-authenticator-settings-by-uid",
   "newlink": "api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-uid/"
 },
 {
@@ -7226,7 +7226,7 @@
   "newlink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-email-and-otp/"
 },
 {
-  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-authentication-by-security-question/",
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-authentication-by-security-question",
   "newlink": "api/v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-security-question/"
 },
 {
