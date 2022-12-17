@@ -30,7 +30,7 @@ require_once 'includes/support_header.php';
 
 
             <div class=" md-sidebar_footer">
-                <?php require_once 'includes/footercontent.php'; ?>
+                <?php require_once 'includes/footerContent.php'; ?>
             </div>
         </div>
         <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
