@@ -402,7 +402,7 @@ $hooks->do_action('init');
       <div class="md-main__inner md-grid esp_md-grid" data-md-component="container">
       
         <script>
-          var docsPath = window.location.origin + '/apidocs-dev/'
+          var docsPath = window.location.origin + '/docs/'
           // console.log("docPath::" + docsPath);
           var baseUrl = "<?php echo SUPPORT_DOCS_URL; ?>";
           // console.log("baseUrl::" + baseUrl);
