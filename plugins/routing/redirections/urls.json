@@ -7232,5 +7232,9 @@
 {
   "oldLink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verification-by-username-and-otp",
   "newLink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-email-otp-authenticator-access-token",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-access-token/"
 }
 ]
