@@ -7,7 +7,6 @@ $searchandreplace = array(
     //'lr-apidocs.azurewebsites.net'=>'www.loginradius.com/docs',
     'lr-apidocs.azurewebsites.net'=>'docs.loginradius.com'
 );
-
 $domain = str_replace(array_keys($searchandreplace), array_values($searchandreplace), $domain);
 //$domain = 'docs.loginradius.org/docs';
 $proxyDomainParse = parse_url($protocal . '://' . $domain);
