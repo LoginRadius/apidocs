@@ -6511,7 +6511,7 @@
 },
 { 
   "oldLink": "api/v2/single-sign-on/federated-sso/saml/providers/SharePoint",
-  "newLink": "single-sign-on/federated-sso/saml/providers/SharePoint/"
+  "newLink": "single-sign-on/federated-sso/saml/providers/sharepoint/"
 },
 { 
   "oldLink": "api/v2/single-sign-on/federated-sso/oauth-2-0/oauth-2-0-overview",
