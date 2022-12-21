@@ -48,9 +48,7 @@ $changelog['status'] = isset($changelogDoc->status) ? $changelogDoc->status : ''
     <div class="col-10">
         <div class="changelogsection">
             <?php
-                   //    echo "<pre>"; print_r($changelog);
-
-            if (true) {
+            if (count((array)$changelog['changelog']) > 0) {
                 ?><h1 style="font-size: 22pt; margin-top: 10px; margin-bottom: 10px;">Change Log</h1>
                 <table class="changelog">
                     <?php
