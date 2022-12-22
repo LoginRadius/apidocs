@@ -27,7 +27,7 @@ require_once 'includes/header.php';
                 <?php require_once 'includes/docs/content.php'; ?>
             </article>
             <div class=" md-sidebar_footer">
-                <?php require_once 'includes/footercontent.php'; ?>
+                <?php require_once 'includes/footerContent.php'; ?>
                 <?php
                 require_once 'includes/footer.php';
                 ?>

@@ -21,7 +21,7 @@ Install all package dependencies by running `go get ./...` in the root folder of
 
 Take a peek:
 
-Before making any API calls, the LoginRadius API client must be initialized with your Loginradius API key and API secret, This information can be found in your LoginRadius account as described [here](https://www.loginradius.com/docshttps://www.loginradius.com/docs/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret)
+Before making any API calls, the LoginRadius API client must be initialized with your Loginradius API key and API secret, This information can be found in your LoginRadius account as described [here](/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret)
 Sample code:
 
 ```go
@@ -2346,7 +2346,7 @@ This API is used to re-authenticate via Multi-Factor Authentication by passing i
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docshttps://www.loginradius.com/docs/api/v2/customer-identity-api/re-authentication/re-auth-validate-password)
+[Documentation](/api/v2/customer-identity-api/step-up-authentication/step-up-auth-validate-password/)
 
 Example:
 
