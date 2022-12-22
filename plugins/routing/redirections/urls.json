@@ -5889,6 +5889,10 @@
   "newLink": "security/data-management/browser-information-storage-cookies/"
 },
 
+{
+  "oldLink": "security/Infrastructure/multiple-environment",
+  "newLink": "security/infrastructure/multiple-environment/"
+},
 
 
 {
@@ -6511,7 +6515,7 @@
 },
 { 
   "oldLink": "api/v2/single-sign-on/federated-sso/saml/providers/SharePoint",
-  "newLink": "single-sign-on/federated-sso/saml/providers/SharePoint/"
+  "newLink": "single-sign-on/federated-sso/saml/providers/sharepoint/"
 },
 { 
   "oldLink": "api/v2/single-sign-on/federated-sso/oauth-2-0/oauth-2-0-overview",
@@ -7231,7 +7235,7 @@
 },
 {
   "oldLink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verification-by-username-and-otp",
-  "newLink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/"
+  "newlink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/"
 },
 {
   "oldLink": "single-sign-on/concept/saml-providers/SharePoint",
@@ -7248,5 +7252,6 @@
 {
   "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-email-otp-authenticator-access-token",
   "newLink": "api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-access-token/"
+
 }
 ]

@@ -351,7 +351,7 @@
         "type": "DOC"
       },
       {
-        "url": "single-sign-on/concept/saml-providers/SharePoint/",
+        "url": "single-sign-on/concept/saml-providers/sharepoint/",
         "title": "SharePoint",
         "type": "DOC"
       }
@@ -377,7 +377,7 @@
         "type": "DOC"
       },
       {
-        "url": "single-sign-on/concept/saml-miscellaneous/Usage/",
+        "url": "single-sign-on/concept/saml-miscellaneous/usage/",
         "title": "Troubleshooting",
         "type": "DOC"
       },
@@ -771,7 +771,7 @@
         "type": "DOC"
       },
       {
-        "url": "security/Infrastructure/multiple-environment/",
+        "url": "security/infrastructure/multiple-environment/",
         "title": "Environment Overview",
         "type": "DOC"
       },

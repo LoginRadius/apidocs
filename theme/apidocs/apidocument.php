@@ -25,7 +25,7 @@ require_once 'includes/header.php';
             </div>    
             <div class="footer_api_docs">
             <?php
-            require_once 'includes/footercontent.php';
+            require_once 'includes/footerContent.php';
 
             ?>        
 </div>      
