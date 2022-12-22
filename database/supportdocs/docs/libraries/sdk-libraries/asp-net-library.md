@@ -2506,7 +2506,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAResetBackupCodeByAccessT
 
 <h6 id="MFAEmailOtpByAccessToken-get-">Send MFA Email OTP by Access Token (GET)</h6>
 
-This API is created to send the OTP to the email if email OTP authenticator is enabled in app's MFA configuration. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-mfa-token/)
+This API is created to send the OTP to the email if email OTP authenticator is enabled in app's MFA configuration. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-access-token/)
 
 
 
