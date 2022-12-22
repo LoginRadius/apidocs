@@ -7234,6 +7234,18 @@
   "newLink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/"
 },
 {
+  "oldLink": "single-sign-on/concept/saml-providers/SharePoint",
+  "newlink": "single-sign-on/concept/saml-providers/sharepoint/"
+},
+{
+  "oldLink": "single-sign-on/concept/saml-miscellaneous/Usage",
+  "newlink": "single-sign-on/concept/saml-miscellaneous/usage/"
+},
+{
+  "oldLink": "security/Infrastructure/multiple-environment",
+  "newlink": "security/infrastructure/multiple-environment/"
+},
+{
   "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-email-otp-authenticator-access-token",
   "newLink": "api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-access-token/"
 }
