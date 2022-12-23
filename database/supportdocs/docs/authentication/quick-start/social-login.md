@@ -208,7 +208,7 @@ xhr.send();
 </script>
 ```
 
-> **Note:** Once a consumer logs in through a configured social provider, account linking is handled at LoginRadius end, for more details around Account Linking you can refer to this [document](https://www.loginradius.com/docs/authentication/FAQ/account-linking/).
+> **Note:** Once a consumer logs in through a configured social provider, account linking is handled at LoginRadius end, for more details around Account Linking you can refer to this [document](/authentication/faq/account-linking/).
 
 &nbsp;
 
