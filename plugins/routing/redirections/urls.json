@@ -7175,7 +7175,7 @@
 },
 {
   "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/send-mfa-email-otp-by-access-token",
-  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-mfa-token/"
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-access-token/"
 },
 {
   "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-email-otp-authenticator-access-token",
@@ -7235,23 +7235,54 @@
 },
 {
   "oldLink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verification-by-username-and-otp",
-  "newlink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/"
+  "newLink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/"
 },
 {
   "oldLink": "single-sign-on/concept/saml-providers/SharePoint",
-  "newlink": "single-sign-on/concept/saml-providers/sharepoint/"
+  "newLink": "single-sign-on/concept/saml-providers/sharepoint/"
 },
 {
   "oldLink": "single-sign-on/concept/saml-miscellaneous/Usage",
-  "newlink": "single-sign-on/concept/saml-miscellaneous/usage/"
+  "newLink": "single-sign-on/concept/saml-miscellaneous/usage/"
 },
 {
   "oldLink": "security/Infrastructure/multiple-environment",
-  "newlink": "security/infrastructure/multiple-environment/"
+  "newLink": "security/infrastructure/multiple-environment/"
 },
 {
   "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-email-otp-authenticator-access-token",
   "newLink": "api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-access-token/"
-
+},
+{
+  "oldLink": "authentication/FAQ/account-linking",
+  "newLink": "authentication/faq/account-linking/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/Federated-SSO/JWT-login/v1.4.0/JWT-implementation-guide",
+  "newLink": "single-sign-on/tutorial/federated-sso/jwt-login/v1.4.0/jwt-implementation-guide/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/Federated-SSO/JWT-login/JWT-implementation-guide",
+  "newLink": "single-sign-on/tutorial/federated-sso/jwt-login/jwt-implementation-guide/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/Federated-SSO/saml/overview",
+  "newLink": "single-sign-on/tutorial/federated-sso/saml/overview/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/Federated-SSO/JWT-login/JWT-login-overview",
+  "newLink": "single-sign-on/tutorial/federated-sso/jwt-login/jwt-login-overview/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/Federated-SSO/OAuth-2-0/OAuth-2-0-overview",
+  "newLink": "single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/Federated-SSO/OpenId-Connect/OpenId-Connect-overview",
+  "newLink": "single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/authentication/auth-link-social-identities-by-ping",
+  "newLink": "api/v2/customer-identity-api/authentication/auth-link-social-identities-clientguid/"
 }
 ]
