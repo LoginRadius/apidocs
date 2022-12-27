@@ -1487,7 +1487,7 @@ This API is used to re-authenticate by a set of backup codes via an access token
 ##### Validate MFA by OTP
 This API is used to re-authenticate via Multi-factor authentication by passing the One Time Password received via SMS.
 
-[Try the following:](/api/v2/user-registration/validate-mfa-by-otp)
+[Try the following:](/api/v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-otp/)
 ```
  /**
   * @param accesstoken  
