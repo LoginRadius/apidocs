@@ -4,14 +4,6 @@
         "FIXED": [
             {
               "text": "Broken images in <a href='https://adminconsole.loginradius.com/integration/third-party-software/available-integrations' target= blank> Available Integrations </a> sections of Admin Console have been fixed."
-            },
-            {
-              "text": "The Logout issue with Custom IDP-> SAML has been resolved."
-            }
-        ],
-        "ADDED": [
-            {
-                "text": "CustomIDP now supports the CustomFields and mapping of multiple attributes values."
             }
         ],
         "IMPROVED": [
