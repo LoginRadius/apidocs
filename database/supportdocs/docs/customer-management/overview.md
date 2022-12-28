@@ -17,10 +17,3 @@ Search and manage the list of customers who have been blocked from logging into 
 ## Search Customers
 
 In this section, choose from a number of different fields to [search for customers](/customer-management/search-customers). There are standard fields such as name or email address. You can also choose customized fields particular to your use case, such as company ID or newsletter. These fields correspond to those data points that are specified in the Data Schema section (see [Standard Login](/authentication/quick-start/standard-login/) for more information).
-
-## Data ETL Service
-
-In this section we will take you through the process to start the data migration.The [Data Migration](/customer-management/data-etl-service/#datamigrationguide0) page lets you perform customer profile migration operations into the LoginRadius database through the means of CSV files.To request data operation you can perform the following actions:
-- Request an Import into LoginRadius database
-- Request an update on the existing imported data.
-- Request a new data deletion of the imported data from the LoginRadius database.
