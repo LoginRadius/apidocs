@@ -80,7 +80,7 @@ define('RECAPTCHA_SECRET', getenv('RECAPTCHA_SECRET'));
 define('RECAPTCHA_SITE_KEY', getenv('RECAPTCHA_SITE_KEY'));
 
 /* DEBUGING */
-define('DEBUG', false);
+define('DEBUG', true);
 
 define('PROTOCAL_USERNAME', getenv('PROTOCAL_USERNAME'));
 define('PROTOCAL_PASSWORD', getenv('PROTOCAL_PASSWORD'));
