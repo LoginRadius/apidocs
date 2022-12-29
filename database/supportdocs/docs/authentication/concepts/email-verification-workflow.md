@@ -12,16 +12,15 @@ The following are the email verification workflows provided by LoginRadius:
 
 - **Mandatory Email Verification:** In this case, the customer can log in to the account only after the email verification. Upon completing registration, a verification email is sent to the customer. This email includes a verification link. To verify the email, the customer will have to click on the verification link.
 
-  ![Email Verification Workflow - Mandatory](https://apidocs.lrcontent.com/images/Email-Verification-Workflow---Mandatory_22181628600d945a480.93339847.png "Email Verification Workflow - Mandatory")
+  ![Email Verification](https://apidocs.lrcontent.com/images/VerificationFlow_1_114044749563ad6b43e2f550.14501129.png "Email Verification")
 
 - **Optional Email Verification:** Upon completing registration, a verification email is sent to the customer. However, the customer can log in to the account without the email verification, i.e. it is up to the customer to verify the email or not.
 
-  ![Email Verification Workflow - Optional](https://apidocs.lrcontent.com/images/Email-Verification-Workflow---Optional_25911628600fa300827.42646028.png "Email Verification Workflow - Optional")
+  ![Email Verification Workflow - Optional](https://apidocs.lrcontent.com/images/VerificationFlow_2_31724217863ad6da36708f8.92746901.png "Email Verification Workflow - Optional")
 
 - **No Email Verification:** Upon completing registration, no verification email is sent to the customer. The customer can log in to the account without any verification.
 
-  ![Email Verification Workflow - Disable](https://apidocs.lrcontent.com/images/Email-Verification-Workflow---Disable_1601462860114264e80.75344052.png "Email Verification Workflow - Disable")
-
+  ![Email Verification Workflow - Disable](https://apidocs.lrcontent.com/images/VerificationFlow_3_86508035163ad6f16649c91.37096891.png "Email Verification Workflow - Disable")
 > **Note:**
 >
 > - You can choose to enable only **one** of the email verification workflows i.e. Mandatory, Optional, or No email verification.
@@ -91,7 +90,7 @@ If you want to send an OTP instead of the verification token for the email verif
 
 To enable this, navigate to [Platform Configuration > Identity Workflow > Verification Workflow > Email Workflow](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/verification-workflow/email-workflow) in the Admin Console and click on the switch under the OTP Email Verification section.
 
-![OTP Email Verification Flow](https://apidocs.lrcontent.com/images/OTP-Email-Verification-Flow_25364628601c0af09e1.56709789.png "OTP Email Verification Flow")
+![OTP Email Verification Flow](https://apidocs.lrcontent.com/images/VerificationFlow_4_205066724263ad70218a30a1.52885242.png "enter image title OTP Email Verification Flow")
 
 > **Note:** In the case of **OTP Email Verification** flow, you need to make the following changes so that the link received in the email works for the customer:
 >
