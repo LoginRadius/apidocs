@@ -7284,5 +7284,13 @@
 {
   "oldLink": "api/v2/customer-identity-api/authentication/auth-link-social-identities-by-ping",
   "newLink": "api/v2/customer-identity-api/authentication/auth-link-social-identities-clientguid/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/re-authentication/validate-mfa-by-otp",
+  "newLink": "api/v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-otp/"
+},
+{
+  "oldLink": "customer-management/data-etl-service",
+  "newLink": "customer-management/overview/"
 }
 ]
