@@ -975,11 +975,6 @@
         "url": "customer-management/blocked-customer/",
         "title": "Blocked Customer",
         "type": "DOC"
-      },
-      {
-        "url": "customer-management/data-etl-service/",
-        "title": "Data ETL Service",
-        "type": "DOC"
       }
     ],
     "Customer Segmentation": [

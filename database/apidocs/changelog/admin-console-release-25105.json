@@ -1,0 +1,21 @@
+{ "name": "Admin Console Release 25.10.5",
+    "description": "This release of the Admin Console brings you some new features, improvements and bug fixes. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "FIXED": [
+            {
+              "text": "Broken images in <a href='https://adminconsole.loginradius.com/integration/third-party-software/available-integrations' target= blank> Available Integrations </a> sections of Admin Console have been fixed."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "The UI improvement has been made for <a href='https://adminconsole.loginradius.com/platform-configuration/identity-workflow/verification-workflow/email-workflow' target= blank> Platform Configuration->Identity Workflow->Verification Workflow->Email Workflow </a> section of Admin Console."
+            },
+            {
+                "text": "Data ETL service feature has been deprecated."
+            }
+        ]},
+
+    "auther": "Himanshu Rai",
+    "created_date": "2022-12-28",
+    "status": "public"
+}

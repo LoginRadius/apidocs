@@ -7,7 +7,8 @@
         "apikey*": "@apikey@",
         "verificationurl": "",
         "smstemplate": "",
-		"options":""
+		"emailtemplate": "",
+        "options":""
     },
     "postparams": {
         "Prefix": "",
@@ -230,6 +231,11 @@
                 "name": "smstemplate",
                 "is_required": false,
                 "description": "SMS Template Name"
+            },
+            {
+                "name": "emailtemplate",
+                "is_required": false,
+                "description": "Email Template Name"
             },
 			{
 				"name":	"options",
