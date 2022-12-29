@@ -28,7 +28,7 @@ require_once 'includes/header.php';
 <div class = "previewFooter">
 <?php
 
-require_once 'includes/footercontent.php'; 
+require_once 'includes/footerContent.php'; 
 require_once 'includes/footer.php';
 ?>
 </div>
