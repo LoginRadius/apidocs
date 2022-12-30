@@ -1,30 +1,29 @@
-# Self-Serve Data Migration 
- 
+# Self-Serve Data Migration
+
 This self-serve data migration allows you to mass import customer profile data from another application/service/database into the LoginRadius database through the means of CSV files. Once a report is requested, LoginRadius will send you an email notification with a secure link to access the log file.
 
-
 ## Self-Serve Data Migration Guide
- 
+
 This guide will take you through the process to start the data migration. It covers everything you need to know on how to request a data operation.
 
 ### Limitations of the Self-Serve Data Migration:
 
-- Using this feature you can only import the data of the customers. To update/delete the existing data we have an additional feature called **Data ETL service**. Refer to this [document](https://www.loginradius.com/docs/customer-management/data-etl-service/) to get detailed information.
+- Using this feature you can only import the data of the customers. You can not update/delete the existing data leveraging this feature.
 
 - Using this feature passwords cannot be migrated. Data Migration is limited to required fields for mapping which are mentioned below:
 
-    Addresses<br>
-    BirthDate<br>
-    City<br>
-    Email<br>
-    FirstName<br>
-    Gender<br>
-    Languages<br>
-    LastName<br>
-    MiddleName<br>
-    PhoneNumbers<br>
-    State<br>
-    UserName
+  Addresses<br>
+  BirthDate<br>
+  City<br>
+  Email<br>
+  FirstName<br>
+  Gender<br>
+  Languages<br>
+  LastName<br>
+  MiddleName<br>
+  PhoneNumbers<br>
+  State<br>
+  UserName
 
 - Due to the self-serve nature of this feature, there is a limit to the amount of customer data that can be migrated through the Admin Console. Currently, only one migration request can be processed at any time for one site.
 
@@ -34,32 +33,28 @@ This guide will take you through the process to start the data migration. It cov
 
 > **Note:** To perform full Data Migration please refer to this [document](https://www.loginradius.com/docs/api/v2/getting-started/data-migration/#data-migration). This service will allow you to migrate your existing customer data to LoginRadius. <br><br>
 
-
-
-
 > **Pre-requisites:**
- CSV file of customer profiles.
+> CSV file of customer profiles.
 
- ## Part 1 - Data migration
+## Part 1 - Data migration
 
- This section covers the required steps that you need to take to perform a new data import. Follow the below steps:
+This section covers the required steps that you need to take to perform a new data import. Follow the below steps:
 
- **Step 1**: Login to your [Admin Console](https://adminconsole.loginradius.com/) account and navigate to  [Deployment > Data Migration > Data Migration.](https://adminconsole.loginradius.com/deployment/migration/data-migration)
- 
- The following screen will appear:
+**Step 1**: Login to your [Admin Console](https://adminconsole.loginradius.com/) account and navigate to [Deployment > Data Migration > Data Migration.](https://adminconsole.loginradius.com/deployment/migration/data-migration)
 
+The following screen will appear:
 
- ![enter image description here](https://apidocs.lrcontent.com/images/1_274725ec62a453596f7.23314074.png "Data Migration")
+![enter image description here](https://apidocs.lrcontent.com/images/1_274725ec62a453596f7.23314074.png "Data Migration")
 
- **Step 2**: Select the same **CSV delimiter** you have set in your CSV file.  The following screen displays the available **CSV delimiter** options: 
+**Step 2**: Select the same **CSV delimiter** you have set in your CSV file. The following screen displays the available **CSV delimiter** options:
 
- ![enter image description here](https://apidocs.lrcontent.com/images/2_198615ec62cb145d1f2.97589822.png "CSV delimiter")
+![enter image description here](https://apidocs.lrcontent.com/images/2_198615ec62cb145d1f2.97589822.png "CSV delimiter")
 
-The LoginRadius  supports the following three **CSV delimiter**:
+The LoginRadius supports the following three **CSV delimiter**:
+
 - Comma(,)
 - Semicolon(;)
 - Pipe(|)
-
 
 **Step 3**: As per your requirement you can use the option **Skip first row** of the uploaded CSV file. This is useful when your CSV file may have its first row containing the column headers instead of Customer data.
 
@@ -71,14 +66,14 @@ The LoginRadius  supports the following three **CSV delimiter**:
 
 **Step 5**: Upload a CSV file containing the customer profile information by clicking on the **Choose file** option as mentioned in the following screen.
 
- ![enter image description here](https://apidocs.lrcontent.com/images/5_242515ec632b0011366.59377207.png "Choose file")
+![enter image description here](https://apidocs.lrcontent.com/images/5_242515ec632b0011366.59377207.png "Choose file")
 
- > **Note:** The CSV file used to upload must be of *.csv file extension. Also, there is a limit for CSV file, it should be smaller than 50MBs, and must contain fewer than 10000 lines.
+> **Note:** The CSV file used to upload must be of \*.csv file extension. Also, there is a limit for CSV file, it should be smaller than 50MBs, and must contain fewer than 10000 lines.
 
-
-**Step 6**: Select the **Lookup Type** you wish to trigger. The following screen displays the available lookup type options: 
+**Step 6**: Select the **Lookup Type** you wish to trigger. The following screen displays the available lookup type options:
 
 The LoginRadius supports the following four lookup types:
+
 - Email
 - UserName
 
@@ -103,40 +98,35 @@ Address 1|Address 2|PostalCode
 456 Second Ave|Room 902|95035
 
 To map the address information to the “Addresses” LR Field, I would select:
+
 - “Addresses” on the left side dropdown menu.
 
 Then on the right side:
+
 - “0” for the “Addresses.Address1” dropdown.
 - “1” for the “Addresses.Address2” dropdown.
 - “2” for the “Addresses.PostalCode” dropdown.
 
 Notice that since the column index begins with 0, the very first column in the CSV file is considered column “0” instead of column “1”. This follows for all subsequent column indices.
 
-> **Prerequisites for Mapping field:**<br><br>1.  Email is always a required mapping. Also, a mapping corresponding to the Lookup Type is required. **For example**, if Lookup Type = Username, then there must be a mapping for Username. <br><br>2. For Email and Phone Number which contain two subfields that are Type and Value, both subfields need to be mapped. <br><br>3. For Address, the Address Type, and at least one other subfield (one of Address 1, Address 2,...), needs to be mapped.<br><br>4. In [Platform Configuration > Standard Login > Data Schema](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/data-schema), if a data field is enabled and set as "Mandatory", there needs to be mapping for that field. This is required so that the new profile can be created in the database. 
+> **Prerequisites for Mapping field:**<br><br>1. Email is always a required mapping. Also, a mapping corresponding to the Lookup Type is required. **For example**, if Lookup Type = Username, then there must be a mapping for Username. <br><br>2. For Email and Phone Number which contain two subfields that are Type and Value, both subfields need to be mapped. <br><br>3. For Address, the Address Type, and at least one other subfield (one of Address 1, Address 2,...), needs to be mapped.<br><br>4. In [Platform Configuration > Standard Login > Data Schema](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/data-schema), if a data field is enabled and set as "Mandatory", there needs to be mapping for that field. This is required so that the new profile can be created in the database.
 
-**Step 8**:  Click on **Import** to request this operation and migrate customer profiles into the LoginRadius database.
-
-
+**Step 8**: Click on **Import** to request this operation and migrate customer profiles into the LoginRadius database.
 
 ## Part 2 - Data Migration Logs
- 
-Data Migration Logs show the request history of Data Migration and the download links for logs if available. 
- 
+
+Data Migration Logs show the request history of Data Migration and the download links for logs if available.
+
 Data migration Logs contain the following information:
- 
+
 - **Start TIme**: Time at which the data operation started.
-- **Action**:  This will determine which data operation you have executed. Once the import request is raised action will be visible as **Upsert**.
+- **Action**: This will determine which data operation you have executed. Once the import request is raised action will be visible as **Upsert**.
 - **Download link**: File can be downloaded from this button.
 - **Expiry time**: Time at which the download link expires.
 - **Status**: If the request data operation is done or In Progress.
- 
+
 You can download the file by clicking on the **Download** button available under the download link tab. Check the below screenshot.
 
 ![enter image description here](https://apidocs.lrcontent.com/images/8_188275ec635db2d84f5.79462674.png "Data Migration Logs")
 
 > **Note**: Also, sometimes it may take up to an hour to receive the report/download link and this depends on the pipeline requests.
-
-
-
-
-
