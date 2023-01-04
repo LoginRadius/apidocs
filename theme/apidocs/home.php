@@ -9,7 +9,7 @@ $blocksdescription = json_decode(file_get_contents(SUPPORT_DOCS_MENU_DIR . 'menu
 require_once 'includes/support_header.php';
 ?>
 <div class="close-overlay"></div>
-<script type="text/javascript" async="" src="<?php echo ROOT_URL;?>theme/apidocs/assets/javascripts/snowstorm.js"></script>
+<!--script type="text/javascript" async="" src="<?php echo ROOT_URL;?>theme/apidocs/assets/javascripts/snowstorm.js"></script-->
 <div class="skywrap">
 
     <div class="banner">
@@ -18,8 +18,8 @@ require_once 'includes/support_header.php';
                 <div class="hero_banner-api">
                     <div class="imagefield box">
                     <!--img class="rocket" style="max-width: 565px" src="<?php echo THEME_URL; ?>/assets/images/santa.svg"-->
-                    <!--img class="stars" src="<?php echo THEME_URL; ?>/assets/images/rocket/rocket-annimations.svg" alt="Rocket Animation"-->
-                    <img class="rocket" style="max-width: 565px" src="<?php echo THEME_URL; ?>/assets/images/HNY-cropped.svg">
+                    <img class="stars" src="<?php echo THEME_URL; ?>/assets/images/rocket/rocket-annimations.svg" alt="Rocket Animation">
+                    <!--img class="rocket" style="max-width: 565px" src="<?php echo THEME_URL; ?>/assets/images/HNY-cropped.svg"-->
                     <!--img class="stars" style="width: 565px !important" src="<?php echo THEME_URL; ?>/assets/images/spring-theme.svg" alt="Spring Theme"-->
                     <!--img class="stars" style="max-width: 565px" src="<?php echo THEME_URL; ?>/assets/images/autumn-theme.svg" alt="Autumn Theme"-->
                     <!--img class="stars" style="max-width: 565px;" src="<?php echo THEME_URL; ?>/assets/images/halloween-theme.svg" alt="Halloween Theme"-->
