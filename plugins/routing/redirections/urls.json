@@ -7292,5 +7292,37 @@
 {
   "oldLink": "customer-management/data-etl-service",
   "newLink": "customer-management/overview/"
+},
+{
+  "oldLink": "api/v2/api/auth-link-social-identities",
+  "newLink": "api/v2/customer-identity-api/overview/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/custom-registration-data/validate-code",
+  "newLink": "api/v2/customer-identity-api/overview/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/custom-registration-data/auth-get-registration-data",
+  "newLink": "api/v2/customer-identity-api/overview/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/custom-registration-data/update-registration-data",
+  "newLink": "api/v2/customer-identity-api/overview/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/custom-registration-data/add-registration-data",
+  "newLink": "api/v2/customer-identity-api/overview/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/custom-registration-data/delete-registration-data",
+  "newLink": "api/v2/customer-identity-api/overview/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/custom-registration-data/delete-all-records-by-datasource",
+  "newLink": "api/v2/customer-identity-api/overview/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/custom-registration-data/get-registration-data",
+  "newLink": "api/v2/customer-identity-api/overview/"
 }
 ]
