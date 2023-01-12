@@ -1,0 +1,23 @@
+{ "name": "Admin Console Release 25.10.6",
+    "description": "The following release of the LoginRadius Admin Console brings you some improvements and new features as well. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "CustomIDP now supports the CustomFields and mapping of multiple attributes values."
+            }
+        ],
+        "FIXED": [
+            {
+              "text": "The Logout issue with Custom IDP-> SAML has been resolved."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "Deprecated the Bot protection feature section from the Admin Console."
+            }
+        ]},
+
+    "auther": "Bhavya Tugnawat",
+    "created_date": "2023-01-12",
+    "status": "public"
+}

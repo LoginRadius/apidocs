@@ -1,4 +1,9 @@
-[ 
+[
+  {
+    "title": "Admin Console Release 25.10.6",
+    "url": "admin-console-release-25106",
+    "date": "2023-01-12"
+  },
   {
     "title": "Admin Console Release 25.10.5",
     "url": "admin-console-release-25105",
@@ -63,20 +68,17 @@
     "title": "Admin Console Release 25.3.0",
     "url": "admin-console-release-2530",
     "date": "2022-01-21"
-  }, 
-
+  },
   {
     "title": "Admin Console Release 25.2.0",
     "url": "admin-console-release-2520",
     "date": "2022-01-05"
   },
-  
   {
     "title": "Admin Console Release 25.1.0",
     "url": "admin-console-release-2510",
     "date": "2022-01-04"
   },
-
   {
     "title": "JS Release 3.19.0",
     "url": "js-release-3190",
@@ -92,25 +94,21 @@
     "url": "js-release-idx-140",
     "date": "2021-09-26"
   },
-  
   {
     "title": "Admin Console Release 25.0.0",
     "url": "admin-console-release-2500",
     "date": "2021-09-09"
   },
-  
   {
     "title": "Core API Release 32.0.0",
     "url": "core-api-release-3200",
     "date": "2021-09-09"
   },
-
   {
     "title": "Admin Console Release 24.9.1",
     "url": "admin-console-release-2491",
     "date": "2021-08-20"
   },
-
   {
     "title": "Core API Release 31.4.0",
     "url": "core-api-release-3140",
@@ -141,11 +139,11 @@
     "url": "core-api-release-3110",
     "date": "2021-06-10"
   },
- {
+  {
     "title": "Admin Console Release 24.8.0",
     "url": "admin-console-release-2480",
     "date": "2021-06-03"
-  }, 
+  },
   {
     "title": "JS Release 3.17.0",
     "url": "js-release-3170",
@@ -165,54 +163,47 @@
     "title": "Admin Console Release 24.7.0",
     "url": "admin-console-release-2470",
     "date": "2021-05-18"
-  },  
+  },
   {
     "title": "JS Release 3.16.0",
     "url": "js-release-3160",
     "date": "2021-05-13"
   },
-
   {
     "title": "Core API Release 31.0.0",
     "url": "core-api-release-3100",
     "date": "2021-05-08"
   },
-
   {
     "title": "Cloud API Release 7.3.0",
     "url": "cloud-api-release-730",
     "date": "2021-04-21"
   },
-
   {
     "title": "Core API Release 30.9.2",
     "url": "core-api-release-3092",
     "date": "2021-04-15"
   },
-
-{
+  {
     "title": "Admin Console Release 24.6.0",
     "url": "admin-console-release-2460",
     "date": "2021-02-18"
-  },  
+  },
   {
     "title": "JS Release 3.15.0",
     "url": "js-release-3150",
     "date": "2021-02-17"
   },
-
   {
     "title": "Core API Release 30.9.1",
     "url": "core-api-release-3091",
     "date": "2021-02-12"
   },
-  
   {
     "title": "Cloud API Release 5.4.0",
     "url": "cloud-api-release-540",
     "date": "2021-01-30"
   },
-  
   {
     "title": "Admin Console Release 24.5.0",
     "url": "admin-console-release-2450",
@@ -388,7 +379,6 @@
     "url": "admin-console-release-241",
     "date": "2020-05-18"
   },
-  
   {
     "title": "Core Release 29.5.0",
     "url": "core-release-2950",
@@ -428,11 +418,13 @@
     "title": "Cloud Directory Release v5.10.9",
     "url": "cloud-directory-release-512",
     "date": "2019-11-06"
-  },{
+  },
+  {
     "title": "LoginRadius Core Release v27.0.0",
     "url": "core-release-270",
     "date": "2019-08-08"
-  },{
+  },
+  {
     "title": "New LoginRadius V2 OpenID APIs",
     "url": "openid-api-update",
     "date": "2019-07-31"
@@ -787,6 +779,4 @@
     "url": "core-release-19",
     "date": "2013-2-1"
   }
-
-
 ]
