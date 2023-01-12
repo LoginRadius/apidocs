@@ -102,7 +102,6 @@ Below are the logs (Activity Type) that will be generated in accordance with tea
 | SMS Passcode template default edit/update and new template added/update/deleted 	| Updated '' SMS Template<br><br>Added `<TEMPLATE ID>` SMS Template<br><br>Updated `<TEMPLATE ID>` SMS Template<br><br>Removed `<TEMPLATE ID>` SMS Template. 	|
 | Google Authenticator(MFA)(Enable/Disable) 	| Configured Multi-Factor Auth Google Authenticator Settings 	|
 | Security Questions(MFA)(Enable/Disable) 	| Configured Multi-Factor Auth Security Question Settings 	|
-| Bot Protection (Emable/Disable) 	| Update Optional Captcha Configuration 	|
 | IP Access Restriction(Enable/Disable) 	| Updated Site Features 	|
 | IP Access Restriction settings 	| Updated IP Access Control Settings 	|
 
