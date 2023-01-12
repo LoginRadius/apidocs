@@ -33,7 +33,7 @@ Accept: application/json
 To better learn how to use each endpoint, check the details within each API.
 
 > **For Optional Parameters**  
-> **Note:** Parameters marked as optional should still be included in the request as a blank string. Eg: <Base Url>api/v2/status?access_token= <access_token>&title=&url=&imageurl=&status=<required_field>&caption=&description=
+> **Note:** Parameters marked as optional should still be included in the request as a blank string. Eg: `<Base Url>/identity/v2/auth/account/ping?apikey=<LoginRadius API Key>&clientguid=<Client GUID>&verificationurl=&emailtemplate=&welcomeemailtemplate=`
 
 ## Social Login with Ping API
 
