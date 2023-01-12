@@ -131,7 +131,6 @@ Format:
 
 > **Note**: Since the **Forgot Password** flow requires a **resetpasswordurl** on which the user will be redirected to reset the password, it is required to whitelist that resetpasswordurl. To whitelist the same, navigate to LoginRadius [Admin console > Deployment > Apps > Web Apps](https://adminconsole.loginradius.com/deployment/apps/web-apps), and add the URL under the Production Website URL(s) section.
 
-
 Format:
 
 `LRObject.api.forgotPassword(data,onSuccess, onError);`
@@ -944,6 +943,8 @@ Format:
   ```
 - **onError**: Pass in a function you would like to use as a callback if the token turns up invalid.
 
+<!-- Commented as per https://loginradius.atlassian.net/browse/DOC-2580?focusedCommentId=225660
+
 ## Get Social Data
 
 The Get Social Data function is used to call any API from the [Social APIs](/api/v2/social-login/getting-started) that require the "GET" method.
@@ -1005,6 +1006,7 @@ LRObject.api.postSocialData("<access_token>",
     alert(JSON.stringify(errors));
 }, "<endpoint","<paramQueryString>",postBodyJson);
 ```
+-->
 
 ## Custom Object
 
