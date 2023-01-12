@@ -140,4 +140,4 @@ Below is a list of the features (in tabular form) that can not be transferred fr
 |Delegation Auth Configurations |Password Delegation | Manage Roles and permissions| Common Password Protection|Dark Web Monitoring|Field Level Encryption| 
 |Consent Center| Default Roles and Permissions|RBA settings|IDX Framework-multiple themes|connected SSO| SSO Connector|
 |Captcha Settings| Pin Authentication|Rest Hooks| Identity API Settings| Theme Customization|Voice OTP|
-| Access Restriction Settings | Admin Email|Bot Protection| IP Access Restriction| Progressive Profiling| WebHooks|
+| Access Restriction Settings | Admin Email| IP Access Restriction| Progressive Profiling| WebHooks|

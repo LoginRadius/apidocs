@@ -944,11 +944,6 @@
           "type": "GET"
         },
         {
-          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-vkontakte-token/",
-          "title": "Access Token via Vkontakte Token",
-          "type": "GET"
-        },
-        {
           "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-google-token/",
           "title": "Access Token via Google Token",
           "type": "GET"

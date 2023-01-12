@@ -61,7 +61,7 @@ Under this section of Platform configuration, LoginRadius allow users to customi
 ### [Auth Security](/api/v2/dashboard/platform-security/auth-security-configuration#auth-security)
 
 Under this feature, users have multiple settings to ensure the security of their hosted page.
-For Example Captcha, Bot Protection etc.
+For Example CAPTCHA.
 
 ### [Password Policy](/api/v2/dashboard/platform-security/password-policy#password-policy)
 
