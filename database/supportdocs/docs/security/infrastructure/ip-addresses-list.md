@@ -17,6 +17,8 @@ These IPs are used to connect external services to the LoginRadius Platform. The
 |Zone 2| 52.0.146.28 <br> 40.76.212.1|
 |Zone 3| 18.233.46.237 <br> 52.240.152.148|
 |Zone 4| 40.68.221.95|
+|Zone 5| 35.177.174.5 <br> 3.8.226.58|
+|Zone 6| 18.138.167.131 <br> 18.136.228.214|
 
 
 > **Note**: We have deprecated the following IPs as on Nov 2019:
