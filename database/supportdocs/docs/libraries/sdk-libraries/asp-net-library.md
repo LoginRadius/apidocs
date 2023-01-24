@@ -1,6 +1,5 @@
 # ASP.NET Library
 
-
 ## Prerequisites
 
 * .NET 4.0 or later / .NetStandard 1.3 or later
@@ -379,7 +378,7 @@ var apiResponse = new AuthenticationApi().LinkSocialIdentities(accessToken, cand
 
 <h6 id="LinkSocialIdentitiesByPing-post-">Auth Link Social Identities By Ping (POST)</h6>
 
-This API is used to link up a social provider account with an existing LoginRadius account on the basis of ping and the social providers user access token. [More Info](/api/v2/customer-identity-api/authentication/auth-link-social-identities-clientguid)
+This API is used to link up a social provider account with an existing LoginRadius account on the basis of ping and the social providers user access token. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-link-social-identities-by-ping)
 
 
 
@@ -686,7 +685,7 @@ var apiResponse = new AuthenticationApi().DeleteAccountByDeleteToken(deleteToken
 
 <h6 id="GetProfileByPing-get-">Get Profile By Ping (GET)</h6>
 
-This API is used to get a user's profile using the clientGuid parameter if no callback feature enabled [More Info](/api/v2/customer-identity-api/social-login/social-login-by-ping/)
+This API is used to get a user's profile using the clientGuid parameter if no callback feature enabled [More Info](/api/v2/customer-identity-api/authentication/auth-get-profile-by-ping/)
 
 
 
@@ -1215,9 +1214,6 @@ var apiResponse = new AccountApi().AccountDeleteByEmail(email).Result;
 
 
 List of APIs in this Section:<br>
-[POST : Post Message API](#PostMessage-post-)<br>
-[POST : Status Posting ](#StatusPosting-post-)<br>
-[POST : Trackable Status Posting](#TrackableStatusPosting-post-)<br>
 [GET : Access Token](#ExchangeAccessToken-get-)<br>
 [GET : Refresh Token](#RefreshAccessToken-get-)<br>
 [GET : Token Validate](#ValidateAccessToken-get-)<br>
@@ -1225,87 +1221,6 @@ List of APIs in this Section:<br>
 [GET : Get Active Session Details](#GetActiveSession-get-)<br>
 [GET : Get Active Session By Account Id](#GetActiveSessionByAccountID-get-)<br>
 [GET : Get Active Session By Profile Id](#GetActiveSessionByProfileID-get-)<br>
-[GET : Album](#GetAlbums-get-)<br>
-[GET : Get Albums with cursor](#GetAlbumsWithCursor-get-)<br>
-[GET : Audio](#GetAudios-get-)<br>
-[GET : Get Audio With Cursor](#GetAudiosWithCursor-get-)<br>
-[GET : Check In](#GetCheckIns-get-)<br>
-[GET : Get CheckIns With Cursor](#GetCheckInsWithCursor-get-)<br>
-[GET : Contact](#GetContacts-get-)<br>
-[GET : Event](#GetEvents-get-)<br>
-[GET : Get Events With Cursor](#GetEventsWithCursor-get-)<br>
-[GET : Following](#GetFollowings-get-)<br>
-[GET : Get Followings With Cursor](#GetFollowingsWithCursor-get-)<br>
-[GET : Group](#GetGroups-get-)<br>
-[GET : Get Groups With Cursor](#GetGroupsWithCursor-get-)<br>
-[GET : Like](#GetLikes-get-)<br>
-[GET : Get Likes With Cursor](#GetLikesWithCursor-get-)<br>
-[GET : Mention](#GetMentions-get-)<br>
-[GET : Page](#GetPage-get-)<br>
-[GET : Photo](#GetPhotos-get-)<br>
-[GET : Get Post](#GetPosts-get-)<br>
-[GET : Get Trackable Status Stats](#GetTrackableStatusStats-get-)<br>
-[GET : Trackable Status Fetching](#TrackableStatusFetching-get-)<br>
-[GET : Refresh User Profile](#GetRefreshedSocialUserProfile-get-)<br>
-[GET : Video](#GetVideos-get-)<br>
-
-
-
-<h6 id="PostMessage-post-">Post Message API (POST)</h6>
-
-Post Message API is used to post messages to the user's contacts.<br><br><b>Supported Providers:</b> Twitter, LinkedIn <br><br>The Message API is used to post messages to the user?s contacts. This is one of the APIs that makes up the LoginRadius Friend Invite System. After using the Contact API, you can send messages to the retrieved contacts. This API requires setting permissions in your LoginRadius Dashboard.<br><br>GET & POST Message API work the same way except the API method is different [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/post-message-api)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var message = "message"; //Required
-var subject = "subject"; //Required
-var to = "to"; //Required
-var apiResponse = new SocialApi().PostMessage(accessToken, message, subject, to).Result;
-```
-
-
-<h6 id="StatusPosting-post-">Status Posting  (POST)</h6>
-
-The Status API is used to update the status on the user's wall.<br><br><b>Supported Providers:</b>  Facebook, Twitter, LinkedIn [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/status-posting/)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var caption = "caption"; //Required
-var description = "description"; //Required
-var imageUrl = "imageUrl"; //Required
-var status = "status"; //Required
-var title = "title"; //Required
-var url = "url"; //Required
-var shorturl = "shorturl"; //Optional
-var apiResponse = new SocialApi().StatusPosting(accessToken, caption, description, imageUrl, status, title, url, shorturl).Result;
-```
-
-
-<h6 id="TrackableStatusPosting-post-">Trackable Status Posting (POST)</h6>
-
-The Trackable status API works very similar to the Status API but it returns a Post id that you can use to track the stats(shares, likes, comments) for a specific share/post/status update. This API requires setting permissions in your LoginRadius Dashboard.<br><br> The Trackable Status API is used to update the status on the user's wall and return an Post ID value. It is commonly referred to as Permission based sharing or Push notifications.<br><br> POST Input Parameter Format: application/x-www-form-urlencoded [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/trackable-status-posting/)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-StatusModel statusModel = new StatusModel{
-Caption ="<Caption>",
-Description ="<Description>",
-Imageurl ="<Imageurl>",
-Status ="<Status>",
-Title ="<Title>",
-Url ="<Url>"
-}; //Required
-var apiResponse = new SocialApi().TrackableStatusPosting(accessToken, statusModel).Result;
-```
 
 
 <h6 id="ExchangeAccessToken-get-">Access Token (GET)</h6>
@@ -1399,327 +1314,6 @@ This api is used to get all active sessions by ProfileId. [More Info](https://ww
 var profileId = "profileId"; //Required
 var apiResponse = new SocialApi().GetActiveSessionByProfileID(profileId).Result;
 ```
-
-
-<h6 id="GetAlbums-get-">Album (GET)</h6>
-
-<b>Supported Providers:</b> Facebook, Google, Live, Vkontakte.<br><br> This API returns the photo albums associated with the passed in access tokens Social Profile. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/album/)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var apiResponse = new SocialApi().GetAlbums(accessToken).Result;
-```
-
-
-<h6 id="GetAlbumsWithCursor-get-">Get Albums with cursor (GET)</h6>
-
-<b>Supported Providers:</b> Facebook, Google, Live, Vkontakte.<br><br> This API returns the photo albums associated with the passed in access tokens Social Profile. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/album/)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var nextCursor = "nextCursor"; //Required
-var apiResponse = new SocialApi().GetAlbumsWithCursor(accessToken, nextCursor).Result;
-```
-
-
-<h6 id="GetAudios-get-">Audio (GET)</h6>
-
-The Audio API is used to get audio files data from the user's social account.<br><br><b>Supported Providers:</b> Live, Vkontakte [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/audio)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var apiResponse = new SocialApi().GetAudios(accessToken).Result;
-```
-
-
-<h6 id="GetAudiosWithCursor-get-">Get Audio With Cursor (GET)</h6>
-
-The Audio API is used to get audio files data from the user's social account.<br><br><b>Supported Providers:</b> Live, Vkontakte [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/audio)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var nextCursor = "nextCursor"; //Required
-var apiResponse = new SocialApi().GetAudiosWithCursor(accessToken, nextCursor).Result;
-```
-
-
-<h6 id="GetCheckIns-get-">Check In (GET)</h6>
-
-The Check In API is used to get check Ins data from the user's social account.<br><br><b>Supported Providers:</b> Facebook, Foursquare, Vkontakte [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/check-in)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var apiResponse = new SocialApi().GetCheckIns(accessToken).Result;
-```
-
-
-<h6 id="GetCheckInsWithCursor-get-">Get CheckIns With Cursor (GET)</h6>
-
-The Check In API is used to get check Ins data from the user's social account.<br><br><b>Supported Providers:</b> Facebook, Foursquare, Vkontakte [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/check-in)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var nextCursor = "nextCursor"; //Required
-var apiResponse = new SocialApi().GetCheckInsWithCursor(accessToken, nextCursor).Result;
-```
-
-
-<h6 id="GetContacts-get-">Contact (GET)</h6>
-
-The Contact API is used to get contacts/friends/connections data from the user's social account.This is one of the APIs that makes up the LoginRadius Friend Invite System. The data will normalized into LoginRadius' standard data format. This API requires setting permissions in your LoginRadius Dashboard. <br><br><b>Note:</b> Facebook restricts access to the list of friends that is returned. When using the Contacts API with Facebook you will only receive friends that have accepted some permissions with your app. <br><br><b>Supported Providers:</b> Facebook, Foursquare, Google, LinkedIn, Live, Twitter, Vkontakte, Yahoo [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/contact)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var nextCursor = "nextCursor"; //Optional
-var apiResponse = new SocialApi().GetContacts(accessToken, nextCursor).Result;
-```
-
-
-<h6 id="GetEvents-get-">Event (GET)</h6>
-
-The Event API is used to get the event data from the user's social account.<br><br><b>Supported Providers:</b> Facebook, Live [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/event)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var apiResponse = new SocialApi().GetEvents(accessToken).Result;
-```
-
-
-<h6 id="GetEventsWithCursor-get-">Get Events With Cursor (GET)</h6>
-
-The Event API is used to get the event data from the user's social account.<br><br><b>Supported Providers:</b> Facebook, Live [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/event)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var nextCursor = "nextCursor"; //Required
-var apiResponse = new SocialApi().GetEventsWithCursor(accessToken, nextCursor).Result;
-```
-
-
-<h6 id="GetFollowings-get-">Following (GET)</h6>
-
-Get the following user list from the user's social account.<br><br><b>Supported Providers:</b> Twitter [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/following)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var apiResponse = new SocialApi().GetFollowings(accessToken).Result;
-```
-
-
-<h6 id="GetFollowingsWithCursor-get-">Get Followings With Cursor (GET)</h6>
-
-Get the following user list from the user's social account.<br><br><b>Supported Providers:</b> Twitter [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/following)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var nextCursor = "nextCursor"; //Required
-var apiResponse = new SocialApi().GetFollowingsWithCursor(accessToken, nextCursor).Result;
-```
-
-
-<h6 id="GetGroups-get-">Group (GET)</h6>
-
-The Group API is used to get group data from the user's social account.<br><br><b>Supported Providers:</b> Facebook, Vkontakte [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/group)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var apiResponse = new SocialApi().GetGroups(accessToken).Result;
-```
-
-
-<h6 id="GetGroupsWithCursor-get-">Get Groups With Cursor (GET)</h6>
-
-The Group API is used to get group data from the user's social account.<br><br><b>Supported Providers:</b> Facebook, Vkontakte [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/group)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var nextCursor = "nextCursor"; //Required
-var apiResponse = new SocialApi().GetGroupsWithCursor(accessToken, nextCursor).Result;
-```
-
-
-<h6 id="GetLikes-get-">Like (GET)</h6>
-
-The Like API is used to get likes data from the user's social account.<br><br><b>Supported Providers:</b> Facebook [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/like)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var apiResponse = new SocialApi().GetLikes(accessToken).Result;
-```
-
-
-<h6 id="GetLikesWithCursor-get-">Get Likes With Cursor (GET)</h6>
-
-The Like API is used to get likes data from the user's social account.<br><br><b>Supported Providers:</b> Facebook [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/like)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var nextCursor = "nextCursor"; //Required
-var apiResponse = new SocialApi().GetLikesWithCursor(accessToken, nextCursor).Result;
-```
-
-
-<h6 id="GetMentions-get-">Mention (GET)</h6>
-
-The Mention API is used to get mentions data from the user's social account.<br><br><b>Supported Providers:</b> Twitter [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/mention)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var apiResponse = new SocialApi().GetMentions(accessToken).Result;
-```
-
-
-<h6 id="GetPage-get-">Page (GET)</h6>
-
-The Page API is used to get the page data from the user's social account.<br><br><b>Supported Providers:</b>  Facebook, LinkedIn [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/page)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var pageName = "pageName"; //Required
-var apiResponse = new SocialApi().GetPage(accessToken, pageName).Result;
-```
-
-
-<h6 id="GetPhotos-get-">Photo (GET)</h6>
-
-The Photo API is used to get photo data from the user's social account.<br><br><b>Supported Providers:</b>  Facebook, Foursquare, Google, Live, Vkontakte [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/photo)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var albumId = "albumId"; //Required
-var apiResponse = new SocialApi().GetPhotos(accessToken, albumId).Result;
-```
-
-
-<h6 id="GetPosts-get-">Get Post (GET)</h6>
-
-The Post API is used to get post message data from the user's social account.<br><br><b>Supported Providers:</b>  Facebook [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/post)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var apiResponse = new SocialApi().GetPosts(accessToken).Result;
-```
-
-
-<h6 id="GetTrackableStatusStats-get-">Get Trackable Status Stats (GET)</h6>
-
-The Trackable status API works very similar to the Status API but it returns a Post id that you can use to track the stats(shares, likes, comments) for a specific share/post/status update. This API requires setting permissions in your LoginRadius Dashboard.<br><br> The Trackable Status API is used to update the status on the user's wall and return an Post ID value. It is commonly referred to as Permission based sharing or Push notifications. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/get-trackable-status-stats/)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var caption = "caption"; //Required
-var description = "description"; //Required
-var imageUrl = "imageUrl"; //Required
-var status = "status"; //Required
-var title = "title"; //Required
-var url = "url"; //Required
-var apiResponse = new SocialApi().GetTrackableStatusStats(accessToken, caption, description, imageUrl, status, title, url).Result;
-```
-
-
-<h6 id="TrackableStatusFetching-get-">Trackable Status Fetching (GET)</h6>
-
-The Trackable status API works very similar to the Status API but it returns a Post id that you can use to track the stats(shares, likes, comments) for a specific share/post/status update. This API requires setting permissions in your LoginRadius Dashboard.<br><br> This API is used to retrieve a tracked post based on the passed in post ID value. This API requires setting permissions in your LoginRadius Dashboard.<br><br> <b>Note:</b> To utilize this API you need to find the ID for the post you want to track, which might require using Trackable Status Posting API first. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/trackable-status-fetching/)
-
-
-
-```c#
-
-var postId = "postId"; //Required
-var apiResponse = new SocialApi().TrackableStatusFetching(postId).Result;
-```
-
-
-<h6 id="GetRefreshedSocialUserProfile-get-">Refresh User Profile (GET)</h6>
-
-The User Profile API is used to get the latest updated social profile data from the user's social account after authentication. The social profile will be retrieved via oAuth and OpenID protocols. The data is normalized into LoginRadius' standard data format. This API should be called using the access token retrieved from the refresh access token API. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/refresh-token/refresh-user-profile)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-string fields = null; //Optional
-var apiResponse = new SocialApi().GetRefreshedSocialUserProfile(accessToken, fields).Result;
-```
-
-
-<h6 id="GetVideos-get-">Video (GET)</h6>
-
-The Video API is used to get video files data from the user's social account.<br><br><b>Supported Providers:</b>   Facebook, Google, Live, Vkontakte [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/video)
-
-
-
-```c#
-
-var accessToken = "accessToken"; //Required
-var nextCursor = "nextCursor"; //Required
-var apiResponse = new SocialApi().GetVideos(accessToken, nextCursor).Result;
-```
-
-
-
-
 
 
 
@@ -2064,6 +1658,11 @@ This API registers the new users into your Cloud Storage and triggers the phone 
 ```c#
 
 AuthUserRegistrationModel authUserRegistrationModel = new AuthUserRegistrationModel{
+Email = new List<EmailModel>{
+new EmailModel{
+Type ="<Type>",
+Value ="<Value>"
+}},
 FirstName ="<FirstName>",
 LastName ="<LastName>",
 Password ="<Password>",
@@ -2075,7 +1674,8 @@ var options = "options"; //Optional
 var smsTemplate = "smsTemplate"; //Optional
 var verificationUrl = "verificationUrl"; //Optional
 var welcomeEmailTemplate = "welcomeEmailTemplate"; //Optional
-var apiResponse = new PhoneAuthenticationApi().UserRegistrationByPhone(authUserRegistrationModel, sott, fields, options, smsTemplate, verificationUrl, welcomeEmailTemplate).Result;
+var emailTemplate="emailTemplate"; //Optional
+var apiResponse = new PhoneAuthenticationApi().UserRegistrationByPhone(authUserRegistrationModel, sott, fields, options, smsTemplate, verificationUrl, welcomeEmailTemplate, emailTemplate).Result;
 ```
 
 
@@ -2200,7 +1800,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAUpdatePhoneNumberByToken
 
 <h6 id="MFAValidateEmailOtpByAccessToken-put-">Verify MFA Email OTP by Access Token (PUT)</h6>
 
-This API is used to set up MFA Email OTP authenticator on profile after login. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/verify-mfa-email-otp-by-access-token/)
+This API is used to set up MFA Email OTP authenticator on profile after login. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-otp-by-access-token/)
 
 
 
@@ -2217,7 +1817,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAValidateEmailOtpByAccess
 
 <h6 id="MFASecurityQuestionAnswerByAccessToken-put-">Update MFA Security Question by Access Token (PUT)</h6>
 
-This API is used to set up MFA Security Question authenticator on profile after login. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/verify-mfa-security-question-by-access-token/)
+This API is used to set up MFA Security Question authenticator on profile after login. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/update-mfa-security-question-by-access-token)
 
 
 
@@ -2316,7 +1916,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAUpdatePhoneNumber(phoneN
 
 <h6 id="MFAValidateEmailOtp-put-">Verify MFA Email OTP by MFA Token (PUT)</h6>
 
-This API is used to Verify MFA Email OTP by MFA Token [More Info](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/verify-mfa-email-otp-by-mfa-token/)
+This API is used to Verify MFA Email OTP by MFA Token [More Info](/api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-email-otp-by-mfa-token/)
 
 
 
@@ -2337,7 +1937,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAValidateEmailOtp(multiFa
 
 <h6 id="MFASecurityQuestionAnswer-put-">Update MFA Security Question by MFA Token (PUT)</h6>
 
-This API is used to set the security questions on the profile with the MFA token when MFA flow is required. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/update-mfa-security-question-by-mfa-token/)
+This API is used to set the security questions on the profile with the MFA token when MFA flow is required. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/update-mfa-security-question-by-mfa-token/)
 
 
 
@@ -2422,7 +2022,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFALoginByPhone(password, p
 
 <h6 id="MFAEmailOTP-post-">Send MFA Email OTP by MFA Token (POST)</h6>
 
-An API designed to send the MFA Email OTP to the email. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-mfa-token/)
+An API designed to send the MFA Email OTP to the email. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/send-mfa-email-otp-by-mfa-token/)
 
 
 
@@ -2439,7 +2039,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAEmailOTP(emailIdModel, s
 
 <h6 id="MFASecurityQuestionAnswerVerification-post-">Verify MFA Security Question by MFA Token (POST)</h6>
 
-This API is used to login to a user's account during the second MFA step via answering the security questions.[More Info](/api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/verify-mfa-security-question-by-mfa-token/)
+This API is used to login to a user's account during the second MFA step via answering the security questions.[More Info](/api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-security-question-by-mfa-token/)
 
 
 
@@ -2506,7 +2106,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAResetBackupCodeByAccessT
 
 <h6 id="MFAEmailOtpByAccessToken-get-">Send MFA Email OTP by Access Token (GET)</h6>
 
-This API is created to send the OTP to the email if email OTP authenticator is enabled in app's MFA configuration. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-access-token/)
+This API is created to send the OTP to the email if email OTP authenticator is enabled in app's MFA configuration. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/send-mfa-email-otp-by-access-token/)
 
 
 
@@ -2589,7 +2189,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAResetSMSAuthByToken(acce
 
 <h6 id="MFAResetEmailOtpAuthenticatorByAccessToken-delete-">Reset MFA Email OTP Authenticator By Access Token (DELETE)</h6>
 
-This API is used to reset the Email OTP Authenticator settings for an MFA-enabled user [More Info](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-access-token/)
+This API is used to reset the Email OTP Authenticator settings for an MFA-enabled user [More Info](/api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-email-otp-authenticator-access-token/)
 
 
 
@@ -2602,7 +2202,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAResetEmailOtpAuthenticat
 
 <h6 id="MFAResetSecurityQuestionAuthenticatorByAccessToken-delete-">MFA Reset Security Question Authenticator By Access Token (DELETE)</h6>
 
-This API is used to Reset MFA Security Question Authenticator By Access Token [More Info](/api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/delete-reset-mfa-security-question-authenticator-settings/)
+This API is used to Reset MFA Security Question Authenticator By Access Token [More Info](/api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-security-question-by-access-token/)
 
 
 
@@ -2643,7 +2243,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAResetGoogleAuthenticator
 
 <h6 id="MFAResetEmailOtpAuthenticatorByUid-delete-">Reset MFA Email OTP Authenticator Settings by Uid (DELETE)</h6>
 
-This API is used to reset the Email OTP Authenticator settings for an MFA-enabled user. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-uid/)
+This API is used to reset the Email OTP Authenticator settings for an MFA-enabled user. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/reset-mfa-email-otp-authenticator-settings-by-uid/)
 
 
 
@@ -2656,7 +2256,7 @@ var apiResponse = new MultiFactorAuthenticationApi().MFAResetEmailOtpAuthenticat
 
 <h6 id="MFAResetSecurityQuestionAuthenticatorByUid-delete-">Reset MFA Security Question Authenticator Settings by Uid (DELETE)</h6>
 
-This API is used to reset the Security Question Authenticator settings for an MFA-enabled user. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/delete-reset-mfa-security-question-authenticator-settings-uid/)
+This API is used to reset the Security Question Authenticator settings for an MFA-enabled user. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/reset-mfa-security-question-authenticator-settings-by-uid/)
 
 
 
@@ -3036,7 +2636,7 @@ var apiResponse = new ReAuthenticationApi().VerifyPINAuthentication(accessToken,
 
 <h6 id="ReAuthValidateEmailOtp-put-">MFA Re-authentication by Email OTP (PUT)</h6>
 
-This API is used to validate the triggered MFA authentication flow with an Email OTP. [More Info](/api/v2/customer-identity-api/step-up-authentication/mfa/mfa-step-up-authentication-by-email-otp/)
+This API is used to validate the triggered MFA authentication flow with an Email OTP. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-auth-by-email-otp/)
 
 
 
@@ -3101,7 +2701,7 @@ var apiResponse = new ReAuthenticationApi().VerifyMultiFactorPINReauthentication
 
 <h6 id="ReAuthBySecurityQuestion-post-">MFA Re-authentication by Security Question (POST)</h6>
 
-This API is used to validate the triggered MFA re-authentication flow with security questions answers. [More Info](/api/v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-security-question/)
+This API is used to validate the triggered MFA re-authentication flow with security questions answers. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-authentication-by-security-question/)
 
 
 
@@ -3138,7 +2738,7 @@ var apiResponse = new ReAuthenticationApi().MFAReAuthenticate(accessToken, smsTe
 
 <h6 id="ReAuthSendEmailOtp-get-">Send MFA Re-auth Email OTP by Access Token (GET)</h6>
 
-This API is used to send the MFA Email OTP to the email for Re-authentication [More Info](/api/v2/customer-identity-api/step-up-authentication/mfa/send-mfa-step-up-auth-email-otp-by-access-token/)
+This API is used to send the MFA Email OTP to the email for Re-authentication [More Info](/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/send-mfa-re-auth-email-otp-by-access-token/)
 
 
 
@@ -3495,7 +3095,7 @@ var apiResponse = new PasswordLessLoginApi().PasswordlessLoginPhoneVerification(
 
 <h6 id="PasswordlessLoginVerificationByEmailAndOTP-post-">Passwordless Login Verification By Email And OTP  (POST)</h6>
 
-This API is used to verify the otp sent to the email when doing a passwordless login.  [More Info](/api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-email-and-otp/)
+This API is used to verify the otp sent to the email when doing a passwordless login.  [More Info](/api/v2/customer-identity-api/passwordless-login/passwordless-login-verification-by-email-and-otp)
 
 
 
@@ -3512,7 +3112,7 @@ var apiResponse = new PasswordLessLoginApi().PasswordlessLoginVerificationByEmai
 
 <h6 id="PasswordlessLoginVerificationByUserNameAndOTP-post-">Passwordless Login Verification By User Name And OTP (POST)</h6>
 
-This API is used to verify the otp sent to the email when doing a passwordless login. [More Info](/api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/)
+This API is used to verify the otp sent to the email when doing a passwordless login. [More Info](/api/v2/customer-identity-api/passwordless-login/passwordless-login-verification-by-username-and-otp)
 
 
 
@@ -3869,140 +3469,6 @@ var apiResponse = new RoleApi().RemoveRolePermissions(permissionsModel, role).Re
 
 
 
-
-### CustomRegistrationData API
-
-
-List of APIs in this Section:<br>
-[PUT : Update Registration Data](#UpdateRegistrationData-put-)<br>
-[POST : Validate secret code](#ValidateRegistrationDataCode-post-)<br>
-[POST : Add Registration Data](#AddRegistrationData-post-)<br>
-[GET : Auth Get Registration Data Server](#AuthGetRegistrationData-get-)<br>
-[GET : Get Registration Data](#GetRegistrationData-get-)<br>
-[DELETE : Delete Registration Data](#DeleteRegistrationData-delete-)<br>
-[DELETE : Delete All Records by Datasource](#DeleteAllRecordsByDataSource-delete-)<br>
-
-
-
-<h6 id="UpdateRegistrationData-put-">Update Registration Data (PUT)</h6>
-
-This API allows you to update a dropdown item [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-registration-data/update-registration-data)
-
-
-
-```c#
-
-RegistrationDataUpdateModel registrationDataUpdateModel = new RegistrationDataUpdateModel{
-IsActive = true,
-Key ="<Key>",
-Type ="<Type>",
-Value ="<Value>"
-}; //Required
-var recordId = "recordId"; //Required
-var apiResponse = new CustomRegistrationDataApi().UpdateRegistrationData(registrationDataUpdateModel, recordId).Result;
-```
-
-
-<h6 id="ValidateRegistrationDataCode-post-">Validate secret code (POST)</h6>
-
-This API allows you to validate code for a particular dropdown member. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-registration-data/validate-code)
-
-
-
-```c#
-
-var code = "code"; //Required
-var recordId = "recordId"; //Required
-var apiResponse = new CustomRegistrationDataApi().ValidateRegistrationDataCode(code, recordId).Result;
-```
-
-
-<h6 id="AddRegistrationData-post-">Add Registration Data (POST)</h6>
-
-This API allows you to fill data into a dropdown list which you have created for user Registeration. For more details on how to use this API please see our Custom Registration Data Overview [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-registration-data/add-registration-data)
-
-
-
-```c#
-
-RegistrationDataCreateModelList registrationDataCreateModelList = new RegistrationDataCreateModelList{
-Data = new List<RegistrationDataCreateModel>{
-new RegistrationDataCreateModel{
-Code ="<Code>",
-IsActive = true,
-Key ="<Key>",
-ParentId ="<ParentId>",
-Type ="<Type>",
-Value ="<Value>"
-}}
-}; //Required
-var apiResponse = new CustomRegistrationDataApi().AddRegistrationData(registrationDataCreateModelList).Result;
-```
-
-
-<h6 id="AuthGetRegistrationData-get-">Auth Get Registration Data Server (GET)</h6>
-
-This API is used to retrieve dropdown data. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-registration-data/auth-get-registration-data)
-
-
-
-```c#
-
-var type = "type"; //Required
-var limit = 0; //Optional
-var parentId = "parentId"; //Optional
-var skip = 0; //Optional
-var apiResponse = new CustomRegistrationDataApi().AuthGetRegistrationData(type, limit, parentId, skip).Result;
-```
-
-
-<h6 id="GetRegistrationData-get-">Get Registration Data (GET)</h6>
-
-This API is used to retrieve dropdown data. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-registration-data/get-registration-data)
-
-
-
-```c#
-
-var type = "type"; //Required
-var limit = 0; //Optional
-var parentId = "parentId"; //Optional
-var skip = 0; //Optional
-var apiResponse = new CustomRegistrationDataApi().GetRegistrationData(type, limit, parentId, skip).Result;
-```
-
-
-<h6 id="DeleteRegistrationData-delete-">Delete Registration Data (DELETE)</h6>
-
-This API allows you to delete an item from a dropdown list. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-registration-data/delete-registration-data)
-
-
-
-```c#
-
-var recordId = "recordId"; //Required
-var apiResponse = new CustomRegistrationDataApi().DeleteRegistrationData(recordId).Result;
-```
-
-
-<h6 id="DeleteAllRecordsByDataSource-delete-">Delete All Records by Datasource (DELETE)</h6>
-
-This API allows you to delete all records contained in a datasource. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-registration-data/delete-all-records-by-datasource)
-
-
-
-```c#
-
-var type = "type"; //Required
-var apiResponse = new CustomRegistrationDataApi().DeleteAllRecordsByDataSource(type).Result;
-```
-
-
-
-
-
-
-
 ### RiskBasedAuthentication API
 
 
@@ -4155,7 +3621,6 @@ List of APIs in this Section:<br>
 [GET : Get Access Token By Foursquare Access Token](#GetAccessTokenByFoursquareAccessToken-get-)<br>
 [GET : Access Token via Apple Id Code](#GetAccessTokenByAppleIdCode-get-)<br>
 [GET : Access Token via WeChat Code](#GetAccessTokenByWeChatCode-get-)<br>
-[GET : Access Token via Vkontakte Token](#GetAccessTokenByVkontakteAccessToken-get-)<br>
 [GET : Access Token via Google AuthCode](#GetAccessTokenByGoogleAuthCode-get-)<br>
 
 
@@ -4270,17 +3735,6 @@ var code = "code"; //Required
 var apiResponse = new NativeSocialApi().GetAccessTokenByWeChatCode(code);
 ```
 
-<h6 id="GetAccessTokenByVkontakteAccessToken-get-">Access Token via Vkontakte Token (GET)</h6>
-
-The API is used to get LoginRadius access token by sending Vkontakte's access token. It will be valid for the specific duration of time specified in the response. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-vkontakte-token)
-
-
-
-```c#
-
-var vkAccessToken = "vkAccessToken"; //Required
-var apiResponse = new NativeSocialApi().GetAccessTokenByVkontakteAccessToken(vkAccessToken).Result;
-```
 
 
 <h6 id="GetAccessTokenByGoogleAuthCode-get-">Access Token via Google AuthCode (GET)</h6>
