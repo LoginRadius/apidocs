@@ -182,12 +182,12 @@ tr td {
     <tr>
     <td>API EditCredentials</td>
         <td><i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"></i></td>
         <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
         <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"></i></td>
+        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
+        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
+        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
+        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
         <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
     </tr>
     <tr>
@@ -402,7 +402,7 @@ tr td {
 </tbody>
 </table>
 
-> **Note:** The team members having the same **Role** can't manage each other. For example, a team member having the role of **Admin** can't manage other **Admin** users.
+> **Note:** The team members having the same **Role** can't manage each other. For example, a team member having the role of **Admin** can't manage other **Admin** team member.
 
 
 See below for the list of permissions and the features that they grant:
@@ -422,7 +422,7 @@ See below for the list of permissions and the features that they grant:
             <td class="s1" dir="ltr">UserManagement View</td>
             <td class="s2" dir="ltr" rowspan="3">Profile Management → Customer Management</td>
             <td class="s2" dir="ltr" rowspan="3">All of the Customer Management sections</td>
-            <td class="s3">Provides the ability to search and view user profiles</td>
+            <td class="s3">Provides the ability to search and view team member profiles</td>
         </tr>
         <tr style='height:20px;'>
             <td class="s1" dir="ltr">UserManagement Edit</td>
@@ -430,7 +430,7 @@ See below for the list of permissions and the features that they grant:
         </tr>
         <tr style='height:20px;'>
             <td class="s1" dir="ltr">UserManagement Admin</td>
-            <td class="s2">Provides access to block/unblock and delete user profile</td>
+            <td class="s2">Provides access to block/unblock and delete team member profile</td>
         </tr>
         <tr style='height:20px;'>
             <td class="s1" dir="ltr">UserInsights View</td>
@@ -442,7 +442,7 @@ See below for the list of permissions and the features that they grant:
             <td class="s1" dir="ltr">UserSegmentation View</td>
             <td class="s2" dir="ltr" rowspan="2">Profile Management → Customer Segmentation</td>
             <td class="s2" dir="ltr" rowspan="2">All Options in segment users.</td>
-            <td class="s4">Provides access to search, query and view user profiles</td>
+            <td class="s4">Provides access to search, query and view team member profiles</td>
         </tr>
         <tr style='height:20px;'>
             <td class="s1" dir="ltr">UserSegmentation Export</td>
@@ -475,7 +475,7 @@ See below for the list of permissions and the features that they grant:
         </tr>
         <tr style='height:20px;'>
             <td class="s1" dir="ltr">API EditCredentials</td>
-            <td class="s4">Allows the user to reset the API Secret</td>
+            <td class="s4">Allows the team member to reset the API Secret</td>
         </tr>
         <tr style='height:20px;'>
             <td class="s1" dir="ltr">API ViewAdditionalCredentials</td>
@@ -484,7 +484,7 @@ See below for the list of permissions and the features that they grant:
         </tr>
         <tr style='height:20px;'>
             <td class="s1" dir="ltr">API AdminAdditionalCredentials</td>
-            <td class="s4">Allows the user to create or delete additional API secrets</td>
+            <td class="s4">Allows the team member to create or delete additional API secrets</td>
         </tr>
         <tr style='height:20px;'>
             <td class="s1" dir="ltr">API ViewThirdPartyCredentials</td>
