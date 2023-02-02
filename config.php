@@ -5,7 +5,7 @@ $path = isset($_SERVER['SCRIPT_NAME']) && !empty($_SERVER['SCRIPT_NAME']) ? $_SE
 $searchandreplace = array(
     'lr-apidocs-dev2.azurewebsites.net'=>'apidocs-dev.div4.dev',
     //'lr-apidocs.azurewebsites.net'=>'www.loginradius.com/docs',
-    'apidocs-prod.us-east-1.elasticbeanstalk.com'=>'www.loginradius.com/docs'
+    'lr-apidocs.azurewebsites.net'=>'www.loginradius.com/docs'
 );
 $domain = str_replace(array_keys($searchandreplace), array_values($searchandreplace), $domain);
 //$domain = 'docs.loginradius.org/docs';
