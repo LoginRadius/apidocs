@@ -23,18 +23,18 @@ $hooks->do_action('init');
   <script>
     if (window.jQuery) {
 
-      document.write(unescape('%3Clink href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono"    rel="stylesheet" type="text/css"%3E'));
+      //document.write(unescape('%3Clink href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono"    rel="stylesheet" type="text/css"%3E'));
       document.write(unescape('%3Clink href="https://fonts.googleapis.com/css?family=Barlow:400,500,700&display=swap"    rel="stylesheet" type="text/css"%3E'));
-      document.write(unescape('%3Clink href="https://fonts.googleapis.com/css?family=Inconsolata:400,500,700&display=swap"    rel="stylesheet" type="text/css"%3E'));
+      //document.write(unescape('%3Clink href="https://fonts.googleapis.com/css?family=Inconsolata:400,500,700&display=swap"    rel="stylesheet" type="text/css"%3E'));
       document.write(unescape('%3Clink href="https://fonts.googleapis.com/icon?family=Material+Icons"    rel="stylesheet" type="text/css"%3E'));
 
 
     } else {
       document.write(unescape("%3Cscript src='<?php echo THEME_URL; ?>assets/javascripts/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
       document.write(unescape('%3Clink href="<?php echo THEME_URL; ?>assets/stylesheets/fallback/Barlow.css"    rel="stylesheet" type="text/css"%3E'));
-      document.write(unescape('%3Clink href="<?php echo THEME_URL; ?>assets/stylesheets/fallback/Inconsolata.css"    rel="stylesheet" type="text/css"%3E'));
+      //document.write(unescape('%3Clink href="<?php echo THEME_URL; ?>assets/stylesheets/fallback/Inconsolata.css"    rel="stylesheet" type="text/css"%3E'));
       document.write(unescape('%3Clink href="<?php echo THEME_URL; ?>assets/stylesheets/fallback/Material.css"    rel="stylesheet" type="text/css"%3E'));
-      document.write(unescape('%3Clink href="<?php echo THEME_URL; ?>assets/stylesheets/fallback/roboto.css"    rel="stylesheet" type="text/css"%3E'));
+      //document.write(unescape('%3Clink href="<?php echo THEME_URL; ?>assets/stylesheets/fallback/roboto.css"    rel="stylesheet" type="text/css"%3E'));
     }
   </script>
   <script>
@@ -61,7 +61,7 @@ $hooks->do_action('init');
     code,
     kbd,
     pre {
-      font-family: "Roboto Mono", "Courier New", Courier, monospace
+      font-family: "Barlow", "Courier New", Courier, monospace
     }
   </style>
   <?php
