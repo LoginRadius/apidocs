@@ -7324,5 +7324,14 @@
 {
   "oldLink": "api/v2/customer-identity-api/custom-registration-data/get-registration-data",
   "newLink": "api/v2/customer-identity-api/overview/"
+},
+{
+  "oldLink": "single-sign-on/concept/ws-fed-provider/sharepoint",
+  "newLink": "single-sign-on/tutorial/federated-sso/overview/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/federated-sso/ws-federation/overview",
+  "newLink": "single-sign-on/tutorial/federated-sso/overview/"
 }
 ]
+
