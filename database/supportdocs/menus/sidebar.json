@@ -240,16 +240,7 @@
               "type": "DOC"
             }
           ] 
-        },
-        "WS Federation": {
-          "basic": [
-            {
-              "url": "single-sign-on/tutorial/federated-sso/ws-federation/overview/",
-              "title": "Overview",
-              "type": "DOC"
-            }
-          ]
-          }
+        } 
     },
     "Cross Device SSO": {
       "basic": [
@@ -360,13 +351,6 @@
       {
         "url": "single-sign-on/concept/oidc-providers/azure-ad-b2c/",
         "title": "Azure AD B2C",
-        "type": "DOC"
-      }
-    ],
-    "WS Federation Provider": [
-      {
-        "url": "single-sign-on/concept/ws-fed-provider/sharepoint/",
-        "title": "SharePoint",
         "type": "DOC"
       }
     ],
