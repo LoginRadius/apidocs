@@ -4,8 +4,8 @@ $domain = isset($_SERVER['HTTP_HOST']) && !empty($_SERVER['HTTP_HOST']) ? $_SERV
 $path = isset($_SERVER['SCRIPT_NAME']) && !empty($_SERVER['SCRIPT_NAME']) ? $_SERVER['SCRIPT_NAME'] : '';
 $searchandreplace = array(
     'lr-apidocs-dev2.azurewebsites.net'=>'apidocs-dev.div4.dev',
-    //'lr-apidocs.azurewebsites.net'=>'www.loginradius.com/docs',
-    'lr-apidocs.azurewebsites.net'=>'docs.loginradius.com'
+    'docs.loginradius.com'=>'www.loginradius.com/docs',
+    'apidocs-prod.us-east-1.elasticbeanstalk.com'=>'www.loginradius.com/docs'
 );
 $domain = str_replace(array_keys($searchandreplace), array_values($searchandreplace), $domain);
 //$domain = 'docs.loginradius.org/docs';
