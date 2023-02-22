@@ -4,7 +4,7 @@
     "changelog": {
         "IMPROVED": [
             {
-                "text": "Now, you can pass API key and access_token as a header in the following APIs: <a href='/api/v2/single-sign-on/sso-connector/bigcommerce-login-url-by-access-token/'> Bigcommerce Login URL by Access Token </a>, <a href='/api/v2/single-sign-on/sso-connector/shopify-login-url-by-access-token/'> Shopify Login URL by Access Token </a> and <a href='/api/v2/single-sign-on/sso-connector/perfectmind/'> PerfectMind </a> . "
+                "text": "Now, you can pass API key and access_token as a header in the following APIs: <a href='/docs/api/v2/single-sign-on/sso-connector/bigcommerce-login-url-by-access-token/'> Bigcommerce Login URL by Access Token </a>, <a href='/docs/api/v2/single-sign-on/sso-connector/shopify-login-url-by-access-token/'> Shopify Login URL by Access Token </a> and <a href='/docs/api/v2/single-sign-on/sso-connector/perfectmind/'> PerfectMind </a> . "
             }
             
         ]
