@@ -2272,7 +2272,7 @@ div.plaid-logo a img {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   display: none;
-  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu,
+  font-family: -apple-system, system-ui, "Segoe UI", Barlow, Ubuntu,
     "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   white-space: nowrap;

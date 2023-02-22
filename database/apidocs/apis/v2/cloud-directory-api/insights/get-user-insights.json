@@ -44,7 +44,7 @@
             {
                 "name": "q",
                 "is_required": true,
-                "description": "The query that you would like to pull data on details on query format can be found <a href='/api/v2/cloud-directory-api/insights/overview#formattingyourinsightsqueries0'>here</a>"
+                "description": "The query that you would like to pull data on details on query format can be found <a href='/docs/api/v2/cloud-directory-api/insights/overview#formattingyourinsightsqueries0'>here</a>"
             }
         ]
     },
