@@ -10,16 +10,16 @@
             }],
         "IMPROVED": [
             {
-                "text": "Enhanced the functionality and designing of our 'Identity Experience Framework' section in the <a href='https://adminconsole.loginradius.com/deployment/idx'> Admin Console </a>. Please refer to our <a href='/libraries/identity-experience-framework/overview/'> document </a> for more details around it."
+                "text": "Enhanced the functionality and designing of our 'Identity Experience Framework' section in the <a href='https://adminconsole.loginradius.com/deployment/idx'> Admin Console </a>. Please refer to our <a href='/docs/libraries/identity-experience-framework/overview/'> document </a> for more details around it."
             },
             {
-                "text": "Updated 'Security Compliance' section in the <a href='https://adminconsole.loginradius.com/data-governance/trust-center/security-center/security-compliances'> Admin Console </a>. Refer to our <a href='/api/v2/admin-console/platform-security/regulations/#securitycompliances1'> Regulations </a> document for more details."
+                "text": "Updated 'Security Compliance' section in the <a href='https://adminconsole.loginradius.com/data-governance/trust-center/security-center/security-compliances'> Admin Console </a>. Refer to our <a href='/docs/api/v2/admin-console/platform-security/regulations/#securitycompliances1'> Regulations </a> document for more details."
             },
             {
                 "text": "Moving forward only API V2 will be supported hence removed the API version section from our Admin Console."
             },
             {
-                "text": "Enhanced the 'SMS Configuration' section in <a href='https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/sms-configuration'> Admin Console </a>, supporting a few other SMS providers apart from Twilio. Refer to our <a href='/authentication/concepts/sms-configuration/#smsproviderconfiguration0'> SMS Provider Configuration </a> document for more details."
+                "text": "Enhanced the 'SMS Configuration' section in <a href='https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/sms-configuration'> Admin Console </a>, supporting a few other SMS providers apart from Twilio. Refer to our <a href='/docs/authentication/concepts/sms-configuration/#smsproviderconfiguration0'> SMS Provider Configuration </a> document for more details."
             }
         ]},
 

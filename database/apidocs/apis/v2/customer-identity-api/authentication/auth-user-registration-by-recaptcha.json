@@ -314,12 +314,12 @@
             {
                 "name": "qq_captcha_ticket",
                 "is_required": false,
-                "description": "If <a href='/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>CAPTCHA lockout</a> is enabled with QQ, and the customer is locked, you must provide the QQ Captcha ticket."
+                "description": "If <a href='/docs/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>CAPTCHA lockout</a> is enabled with QQ, and the customer is locked, you must provide the QQ Captcha ticket."
             },
             {
                 "name": "qq_captcha_randstr",
                 "is_required": false,
-                "description": "If <a href='/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>CAPTCHA lockout</a> is enabled with QQ, and the customer is locked, pass the value of the cusotmer's random string retrieved from the QQ captcha."
+                "description": "If <a href='/docs/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout1'>CAPTCHA lockout</a> is enabled with QQ, and the customer is locked, pass the value of the cusotmer's random string retrieved from the QQ captcha."
             },
             {
                 "name": "Note",
