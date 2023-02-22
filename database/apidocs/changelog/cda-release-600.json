@@ -3,9 +3,9 @@
     "description": "In this release, we bring a couple of new <strong> Cloud Directory APIs </strong> and an enhancement.",
     "changelog": {
         "ADDED": [{
-                "text": "Now, you can pass <strong> API Key and API Secret </strong> in the header of the following APIs:<br> - <a href='/api/v2/cloud-directory-api/insights/overview/'> Insights</a> <br>- <a href='/api/v2/cloud-directory-api/custom-object/overview/'> Custom Object</a> <br> - <a href='/api/v2/cloud-directory-api/identity/getting-started/'> Identity </a> <br> - <a href='/api/v2/cloud-directory-api/custom-object-with-identity/overview/'> Custom Object with Identity</a>"
+                "text": "Now, you can pass <strong> API Key and API Secret </strong> in the header of the following APIs:<br> - <a href='/docs/api/v2/cloud-directory-api/insights/overview/'> Insights</a> <br>- <a href='/docs/api/v2/cloud-directory-api/custom-object/overview/'> Custom Object</a> <br> - <a href='/docs/api/v2/cloud-directory-api/identity/getting-started/'> Identity </a> <br> - <a href='/docs/api/v2/cloud-directory-api/custom-object-with-identity/overview/'> Custom Object with Identity</a>"
             },{
-                "text": "The following two new APIs are added under Cloud Directory APIs. Using these APIs you can retrieve consumer’s profile data along with their custom Object data in a single API. <br> - <a href='/api/v2/cloud-directory-api/custom-object-with-identity/user-identity-with-custom-object/'> User Identity with Custom Object </a> <br> - <a href='/api/v2/cloud-directory-api/custom-object-with-identity/get-user-identity-with-custom-object-by-page/'> Get User Identity with Custom Object by Page </a> "
+                "text": "The following two new APIs are added under Cloud Directory APIs. Using these APIs you can retrieve consumer’s profile data along with their custom Object data in a single API. <br> - <a href='/docs/api/v2/cloud-directory-api/custom-object-with-identity/user-identity-with-custom-object/'> User Identity with Custom Object </a> <br> - <a href='/docs/api/v2/cloud-directory-api/custom-object-with-identity/get-user-identity-with-custom-object-by-page/'> Get User Identity with Custom Object by Page </a> "
             }
         ]
     },

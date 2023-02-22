@@ -17,12 +17,9 @@ require_once 'includes/support_header.php';
             <div class="landing-grid">
                 <div class="hero_banner-api">
                     <div class="imagefield box">
-                    <!--img class="rocket" style="max-width: 565px" src="<?php echo THEME_URL; ?>/assets/images/santa.svg"-->
-                    <img class="stars" src="<?php echo THEME_URL; ?>/assets/images/rocket/rocket-annimations.svg" alt="Rocket Animation">
-                    <!--img class="rocket" style="max-width: 565px" src="<?php echo THEME_URL; ?>/assets/images/HNY-cropped.svg"-->
-                    <!--img class="stars" style="width: 565px !important" src="<?php echo THEME_URL; ?>/assets/images/spring-theme.svg" alt="Spring Theme"-->
-                    <!--img class="stars" style="max-width: 565px" src="<?php echo THEME_URL; ?>/assets/images/autumn-theme.svg" alt="Autumn Theme"-->
-                    <!--img class="stars" style="max-width: 565px;" src="<?php echo THEME_URL; ?>/assets/images/halloween-theme.svg" alt="Halloween Theme"-->
+<?php
+    include 'themeautomation.php'
+?>
                     </div>
                     <div class="textfield box">
                         <h1 style="font-size:41px;">Identity Platform Documents</h1>

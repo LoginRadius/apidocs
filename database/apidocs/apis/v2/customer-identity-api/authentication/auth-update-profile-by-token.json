@@ -220,7 +220,7 @@
             {
               "name": "nullsupport",
                 "is_required": false,
-                "description": "Boolean, pass true if you wish to update any user profile field with a NULL value, You can get the details <a href='/api/v2/customer-identity-api/advanced-api-usage/#nullsupport0'>Here</a>"
+                "description": "Boolean, pass true if you wish to update any user profile field with a NULL value, You can get the details <a href='/docs/api/v2/customer-identity-api/advanced-api-usage/#nullsupport0'>Here</a>"
           }
           
           ],

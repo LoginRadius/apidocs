@@ -33,68 +33,56 @@ function detectChange(selector) {
 }
 
 var postmanLinks_v2 = {
-    "Authentication": "e73c763a6ccbd1a45082",
+    "Authentication": "25783581-51d1c105-a913-4d09-b9f3-cf3277badded",
     // Account API to Account
-    "Account": "21bc8fdb037d228de5f4",
-    "Roles Management": "2fc5b159845d8315e02d",
+    "Account": "25783581-74136b5f-8b69-4217-9761-44f75e785610",
+    "Roles Management": "25783581-53224474-6e05-42b5-83f0-56e58bd2f018",
     //"Social Login": "b1bcce763fa199f7377d",
-    "Phone Authentication": "649b30768fcecc7a45e0",
+    "Phone Authentication": "25783581-e977628d-4c4a-45c8-abfe-15031706f191",
     "Two Factor Authentication [2FA]": "e24c1498e05b3e361a9b",
     "One-Click Authentication": "994be75a4c3a9a88ea82",
     "Email Prompt Auto Login": "da0e4c74b065e4716c19",
     "Simplified Registration": "980fdf827c6897ccd91a",
-    "Custom Object Management": "148deb03bc215df5734a",
+    "Custom Object Management": "25783581-a7d1aa74-a50b-4406-9977-bfabe3877ad2",
     "Custom Registration Data": "127ed73d8540edb05d84",
     "Infrastructure": "96c1844d0905e5a6688d",
     "Cloud Directory": "6e2e453fcaaf8481397f",
     //Web hooks to Webhooks
-    "Webhooks": "2bfb014d0359b4752642",
+    "Webhooks": "25783581-d1bc6ead-5899-4be9-aa76-56901ee666f9",
     "Social Share and Access Permissions": "a7ecb5ca487fb08bdda5",
-    
     // Adding new rules
-
-    
-    "Native Social Login API": "01ccef179b098fb0e48e",
-    "Social Login": "01ccef179b098fb0e48e",
+    "Native Social Login API": "25783581-ea9f7f2e-82cf-4b0d-a4e0-34bcd0cde515",
+    "Social Login": "25783581-ea9f7f2e-82cf-4b0d-a4e0-34bcd0cde515",
     //Below This Multifactor Tabs
-    "Multi-Factor Authentication": "15bff657983066513b9a",
-    "Google Authenticator": "15bff657983066513b9a",
-    "SMS Authenticator": "15bff657983066513b9a",
-    "Email Authenticator": "15bff657983066513b9a",
-    "Security Question Authenticator": "15bff657983066513b9a",
-    "Backup Codes": "15bff657983066513b9a",
-
-    "PIN Authentication": "74828f29a263aea24593",
-    "Step-Up Authentication": "3aec60d0db7f867ff634",
-    // "MFA": "0961d488705dd7458308",
-    // "PIN": "b4755cd7e43992aaeb23",
-    "Consent Management": "a5dc5d217d672fbb9cf3",
-    "Passwordless Login": "1b726f10084e6a99b930",
-    "Refresh Token": "a7af4588aa9926f06b3e",
-    "Smart Login": "037346c975e597156020",
-    "One Touch Login": "a116d1dc7e4be8f98d05",
-    "Custom Object": "acec1862f15cdb3bcf4a",
-    "Session": "d898ffe26cb1d0f4f10f",
-    "Configuration": "265a09e11f7b09b04376",
-    "Identity": "a9df61223d3969825502",
+    "Multi-Factor Authentication": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
+    "Google Authenticator": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
+    "SMS Authenticator": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
+    "Email Authenticator": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
+    "Security Question Authenticator": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
+    "Backup Codes": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
+    "PIN Authentication": "25783581-e17e6f06-8537-4f24-98f2-ceb253472fd3",
+    "Step-Up Authentication": "25783581-a66796ce-b741-4e3c-ba8d-d54e1c2c6b98",
+    "MFA": "25783581-a66796ce-b741-4e3c-ba8d-d54e1c2c6b98",
+    "PIN": "25783581-a66796ce-b741-4e3c-ba8d-d54e1c2c6b98",
+    "Consent Management": "25783581-bcbca9fd-6fa2-43af-af92-e3df10ee07e5",
+    "Passwordless Login": "25783581-33a6a022-e722-4577-88ce-91f7579b14d5",
+    "Refresh Token": "25783581-cdd38f18-bf0d-425f-8268-b106df87e3ff",
+    "Smart Login": "25783581-517df7f2-fb8a-45b3-b649-797f8c743048",
+    "One Touch Login": "25783581-a8d8c881-e7d0-4eb7-96b9-d31c4bf6ef77",
+    "Custom Object": "25783581-88009596-22a5-45bc-a57c-41580175656c",
+    "Session": "25783581-c8b4bb70-6684-4e80-a53d-0bce2afd13cd",
+    "Configuration": "25783581-44853f87-4875-4046-b3cd-91005769241c",
+    "Identity": "25783581-ce3ca8c4-be59-4b74-a89a-e55238d217f7",
     "Custom Objects": "1af2a3e638f5ab415da2",
-    "Insights": "36f154d8cb255a3ec82f",
-    // "Single Sign-On": "9d7c9445e7d64accc402",
+    "Insights": "25783581-c394556d-f0a1-4e2e-908b-7e57e8cdd94e",
     // Below This all Single Sign-on
-    "OAuth 2.0": "9d7c9445e7d64accc402",
-    "JWT Login": "9d7c9445e7d64accc402",
-    "OpenID Connect": "9d7c9445e7d64accc402",
-    "SAML": "9d7c9445e7d64accc402",
-    "Machine To Machine": "9d7c9445e7d64accc402",
-    "SSO Connector": "9d7c9445e7d64accc402",
-    "Cross Device SSO": "9d7c9445e7d64accc402",
-
-
-    "Insights": "36f154d8cb255a3ec82f",
-
-
-
-
+    "OAuth 2.0": "25783581-434a1742-ec00-4126-8fd9-bade0b2212f8",
+    "JWT Login": "25783581-434a1742-ec00-4126-8fd9-bade0b2212f8",
+    "OpenID Connect": "25783581-434a1742-ec00-4126-8fd9-bade0b2212f8",
+    "SAML": "25783581-434a1742-ec00-4126-8fd9-bade0b2212f8",
+    "Machine To Machine": "25783581-434a1742-ec00-4126-8fd9-bade0b2212f8",
+    "SSO Connector": "25783581-434a1742-ec00-4126-8fd9-bade0b2212f8",
+    "Cross Device SSO": "25783581-434a1742-ec00-4126-8fd9-bade0b2212f8"
 }
 var postmanLinks_v1 = {
     "User API": "890d9b94fb5df827606d",
@@ -708,7 +696,7 @@ function footerPagignation() {
             footerLink.push($(this).attr('href'));
             footerTitle.push($(this).html());
             if ($(this).attr('href') == window.location.href.split('#')[0]) {
-                var url =window.location.pathname
+                var url = window.location.pathname
                 var title = generateSeoTitle(url)
                 document.title = title + ' |LoginRadius Docs';
                 $("#menucontainer a").removeClass("md-nav__link--active");
@@ -1794,9 +1782,9 @@ jQuery(document).ready(function ($) {
         $('.feedback-message').css({ display: 'block' });
 
         let feedbackamp = window.location.pathname + '|' + feedbackValue;
-  
-        
-        if(typeof(amplitude_email_address) !== 'undefined' && amplitude_email_address ){
+
+
+        if (typeof (amplitude_email_address) !== 'undefined' && amplitude_email_address) {
             feedbackamp = feedbackamp + '|' + amplitude_email_address;
         }
         if (typeof (feedbackValue) === 'undefined') {
@@ -1835,7 +1823,7 @@ jQuery(document).ready(function ($) {
             $('.feedback-div-button').css({ display: 'none' });
             $('.feedback-message').css({ display: 'block' });
             let feedbackamp = window.location.pathname + '|' + feedbackValue + '|' + feedbacktext;
-            if(typeof(amplitude_email_address) !== 'undefined' && amplitude_email_address){
+            if (typeof (amplitude_email_address) !== 'undefined' && amplitude_email_address) {
                 feedbackamp = feedbackamp + '|' + amplitude_email_address;
             }
             if (typeof (feedbackValue) === 'undefined') {
@@ -2250,13 +2238,13 @@ function generateSeoTitle(url) {
     seoUrlArray.forEach((element, i) => {
         console.log(element)
         if (element != "api") {
-            if (element != "v2"||element == "v1") {
-                if(i== seoUrlArray.length - 1 ||i== seoUrlArray.length - 2||i== seoUrlArray.length - 3)
-                if (i == seoUrlArray.length - 1) {
-                    seoDescription += capitalize(element.replace(/-/g, ' '))
-                } else {
-                    seoDescription += capitalize(element.replace(/-/g, ' ')) + ' - '
-                }
+            if (element != "v2" || element == "v1") {
+                if (i == seoUrlArray.length - 1 || i == seoUrlArray.length - 2 || i == seoUrlArray.length - 3)
+                    if (i == seoUrlArray.length - 1) {
+                        seoDescription += capitalize(element.replace(/-/g, ' '))
+                    } else {
+                        seoDescription += capitalize(element.replace(/-/g, ' ')) + ' - '
+                    }
             }
 
         }
@@ -2267,56 +2255,56 @@ function generateSeoTitle(url) {
 
 function capitalize(str) {
     let urlElements = str.toLowerCase().replace(/^\w|\s\w/g, function (letter) {
-      return letter.toUpperCase();
+        return letter.toUpperCase();
     });
-  
+
     const mapObj = {
-      Sso: "SSO",
-      Jwt: "JWT",
-      Api: "API",
-      Url: "URL",
-      Otp: "OTP", 
-      Pin: "PIN", 
-      Uid: "UID", 
-      Id: "ID", 
-      Oidc: "OIDC", 
-      Saml: "SAML", 
-      Idp: "IDP", 
-      Mfa: "MFA", 
-      Sp: "SP", 
-      Pkce: "PKCE", 
-      Qr: "QR", 
-      Adfs: "ADFS", 
-      Sdk: "SDK", 
-      Cms: "CMS", 
-      Cdn: "CDN", 
-      Ui: "UI", 
-      Ux: "UX", 
-      Idx: "IDX", 
-      Sms: "SMS", 
-      Ad: "AD", 
-      Sott: "SOTT", 
-      Faq: "FAQ", 
-      Lr: "LR", 
-      Smtp: "SMTP", 
-      Tls: "TLS", 
-      Uri: "URI", 
-      Js: "JS", 
-      Html: "HTML", 
-      Asp: "ASP", 
-      Php: "PHP", 
-      Ip: "IP", 
-      Aem: "AEM", 
-      Amp:"AMP", 
-      Css: "CSS", 
-      Etl: "ETL", 
-      DFP: "DFP", 
-      Ssl: "SSL", 
-      Https: "HTTPS"
+        Sso: "SSO",
+        Jwt: "JWT",
+        Api: "API",
+        Url: "URL",
+        Otp: "OTP",
+        Pin: "PIN",
+        Uid: "UID",
+        Id: "ID",
+        Oidc: "OIDC",
+        Saml: "SAML",
+        Idp: "IDP",
+        Mfa: "MFA",
+        Sp: "SP",
+        Pkce: "PKCE",
+        Qr: "QR",
+        Adfs: "ADFS",
+        Sdk: "SDK",
+        Cms: "CMS",
+        Cdn: "CDN",
+        Ui: "UI",
+        Ux: "UX",
+        Idx: "IDX",
+        Sms: "SMS",
+        Ad: "AD",
+        Sott: "SOTT",
+        Faq: "FAQ",
+        Lr: "LR",
+        Smtp: "SMTP",
+        Tls: "TLS",
+        Uri: "URI",
+        Js: "JS",
+        Html: "HTML",
+        Asp: "ASP",
+        Php: "PHP",
+        Ip: "IP",
+        Aem: "AEM",
+        Amp: "AMP",
+        Css: "CSS",
+        Etl: "ETL",
+        DFP: "DFP",
+        Ssl: "SSL",
+        Https: "HTTPS"
 
     };
-  
+
     let wordsTobeCaps = urlElements.replace(/\b(?:Sso|Jwt|Url|Api|Otp|Pin|Uid|id|Oidc|Saml|Idp|Mfa|Sp|Pkce|Qr|Adfs|Sdk|Cms|Cdn|Ui|Ux|Idx|Sms|Ad|Sott|Faq|Lr|Smtp|Tls|Uri|Js|Html|Asp|Php|Ip|Aem|Amp|Css|Etl|Dfp|Ssl|Https)\b/gi, (matched) => mapObj[matched]);
-  
+
     return wordsTobeCaps;
-  }
+}

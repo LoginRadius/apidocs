@@ -30,7 +30,7 @@
         {
           "name": "code",
           "is_required": true,
-          "description": "Generated unique code string from the <a href='/api/v2/single-sign-on/cross-device-sso/generate-qr-code-string/'> Generate QR Code Image API </a>"
+          "description": "Generated unique code string from the <a href='/docs/api/v2/single-sign-on/cross-device-sso/generate-qr-code-string/'> Generate QR Code Image API </a>"
         }
       ]
     },

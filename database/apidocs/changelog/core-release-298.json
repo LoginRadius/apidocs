@@ -4,10 +4,10 @@
     "changelog": {
     "ADDED": [
         {
-          "text": "Updated minimum API version of Facebook Graph API to 3.0. Refer to the <a href='/api/v2/announcements/facebook-update-reminder/'> document </a> for more details."
+          "text": "Updated minimum API version of Facebook Graph API to 3.0. Refer to the <a href='/docs/api/v2/announcements/facebook-update-reminder/'> document </a> for more details."
         },
         {
-          "text": "Updated data field support for Yahoo! Refer to the <a href='/api/v2/announcements/yahoo-provider-update/'> document </a> for more details." 
+          "text": "Updated data field support for Yahoo! Refer to the <a href='/docs/api/v2/announcements/yahoo-provider-update/'> document </a> for more details." 
         }
     ]
       },
