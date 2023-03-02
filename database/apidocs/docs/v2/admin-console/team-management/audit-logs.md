@@ -149,3 +149,12 @@ Below are the logs (Activity Type) that will be generated in accordance with tea
 | Deleted Data Export Request | Removed Data Export Request |
 | Added Scheduled Data Export Request | Created Data Export Request |
 | Deleted Scheduled Data Export Request | Removed Data Export Request |
+
+
+### Team Management Audit Logs
+
+| Description | Logs statement |
+|---|---|
+| Team Member Added | Added Team Member - test@gmail.com |
+| Team Member Removed | Removed Team Member - test@gmail.com |
+| Ownership transfered | Account Ownership Transferred to 'test@gmail.com' |
