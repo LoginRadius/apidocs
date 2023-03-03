@@ -1,0 +1,20 @@
+{
+    "name": "Admin Console Release 25.10.7",
+    "description": "The following release of the LoginRadius Admin Console brings you some new features. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Custom Objects can be included in the Webhook through the Webhook form available in the Admin Console."
+            },
+            {
+                "text": "Now Audit Logs will have the entries of team member’s addition and deletion activities."
+            },
+            {
+                "text": "The Auth-Common JS file can be edited using the 'Common Script' option in the deployment->IDX section of the Admin Console."
+            }
+        ]
+    },
+    "auther": "Bhavya Tugnawat",
+    "created_date": "2023-03-02",
+    "status": "public"
+}
