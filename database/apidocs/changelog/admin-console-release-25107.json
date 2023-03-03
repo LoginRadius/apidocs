@@ -4,7 +4,7 @@
     "changelog": {
         "ADDED": [
             {
-                "text": "The existing Webhook can now be edited without being unsubscribed. Additionally, you can add the Custom Object directly in the Webhook form available in the Admin Console."
+                "text": "Custom Objects can be included in the Webhook through the Webhook form available in the Admin Console."
             },
             {
                 "text": "Now Audit Logs will have the entries of team member’s addition and deletion activities."
