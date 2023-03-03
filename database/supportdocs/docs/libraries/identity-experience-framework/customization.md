@@ -22,9 +22,9 @@ Basic theme customization not required high-level technical knowledge, as we hav
 
 The following screen displays how you can select the **Basic Theme**:
 
-![enter image description here](https://apidocs.lrcontent.com/images/Deployment_LoginRadius_User_Dashboard-8-1_126765ee200530d9526.70420124.png "Basic Theme Editor")
+![first](https://apidocs.lrcontent.com/images/1_13303959986400ed58acbf91.07808257.png "first")
 
-**Step 1:** To customize the Identity Experience Framework page, navigate to [**Deployment > Identity Experience Framework > Basic Theme Editor > Theme**](https://adminconsole.loginradius.com/deployment/idx). Here, by default, the **Basic Theme** will be selected.
+**Step 1:** To customize the Identity Experience Framework page, navigate to [**Deployment > Identity Experience Framework > Basic Theme Editor > Theme**](https://adminconsole.loginradius.com/deployment/idx). Select the **Basic Theme** and click on the Customize button as shown in the screen.
 
 **Step 2:** Select the **Configuration** tab and here you will see the provided setting for Basic Theme, as shown in the below screenshot. You can customize/beautify your theme by clicking any of the settings as per your requirement.
 
@@ -32,7 +32,7 @@ The following screen displays how you can select the **Basic Theme**:
 
 **Step 3:** After customizing the settings, click on the **Save** button to save the settings. And, if you want to reset all your changes then click on the **Reset** button.  
 
-![enter image description here](https://apidocs.lrcontent.com/images/Deployment_LoginRadius_User_Dashboard-11-1_205675ee201b8dee6b4.48224949.png "")
+![Basic 2](https://apidocs.lrcontent.com/images/1a_20200070186400ef2722e635.05083989.png "Basic 2")
 
 **Step 4:** Select the **Preview** tab to preview your beautified/customized theme, as shown in the below screen.
 
@@ -46,13 +46,13 @@ The following screen displays how you can select the **Basic Theme**:
 
 **Step 1:** To customize the Identity Experience Framework Advanced Theme, navigate to [**Deployment > Identity Experience Framework**](https://adminconsole.loginradius.com/deployment/idx). 
 
-**Step 2:** Select any of the **Advanced Editor Only** Theme and click on the **Customize** button as shown in the screen.
+**Step 2:** Here, by default, the **Advanced Theme** will be selected, you can either proceed with the same or you can select other **Advanced Editor Only** Theme and then click on the **Customize** button as shown in the screen.
 
-![Advance](https://apidocs.lrcontent.com/images/advance-1_12286392dffd19b153.53350764.png "Advance")
+![Advance](https://apidocs.lrcontent.com/images/2_11941638146400f02c8e5389.21293983.png "Advance")
 
 **Step 3:** Select the **Customization** tab and click on **Authentication Page** tab as shown in the below screenshot:
 
-![enter image description here](https://apidocs.lrcontent.com/images/Deployment_LoginRadius_User_Dashboard-3-1_295485ee203a12b92a7.21598389.png "")
+![enter image description here](https://apidocs.lrcontent.com/images/3_8433696966400f0751ede95.50905120.png "")
 
 1. **HTML BODY** : This section is used to customize the customizable portion of the Identity Experience Framework page. This is the section that contains the interface and should not be a full page. You can review a sample of the default customizable content in the [package](https://github.com/LoginRadius/hosted-page) **"hosted-page/authentication-page-sample/authentication-page-sample.html".**
 
@@ -170,7 +170,7 @@ The following screen displays how you can select the **Basic Theme**:
 
 **Step 4:** Select the **Preview** tab to preview your customized theme, as shown in the below screen.
 
-![enter image description here](https://apidocs.lrcontent.com/images/Deployment_LoginRadius_User_Dashboard-14-1_202095ee20489d2a846.28004409.png "Preview")
+![enter image description here](https://apidocs.lrcontent.com/images/4_8462545886400f1752bf585.50373329.png  "Preview")
 
 **Step 5:** Select the **Implement** tab to see the URLs of the Identity Experience Framework, as shown in the below screenshot.
 
@@ -180,7 +180,7 @@ The following screen displays how you can select the **Basic Theme**:
 
 We have provided a Theme which can be customized by Basic and Advanced Editor both as shown in the below screen.
 
-![enter image description here](https://apidocs.lrcontent.com/images/Deployment_LoginRadius_User_Dashboard_17_2__58865ee208dc5b1920.45534702.png "")
+![enter image description here](https://apidocs.lrcontent.com/images/6_4152112506400f3df8bea21.92517089.png "")
 
 >**Note:** 
 > - In order to customize the theme by **Advanced Theme Editor**, click on **Switch to Advanced Theme Editor** as shown in the above screen and customize further as explained in the above [Advanced Theme Editor](#advancedthemeeditor10) steps. 
@@ -200,13 +200,13 @@ This section will take you through the HTML customizations steps for the Authent
 
 The following screen will appear:
 
-![IDX - Authentication](https://apidocs.lrcontent.com/images/9--IDX-Authentication_3143463025ef7087346.52126205.png "IDX - Authentication")
+![IDX - Authentication](https://apidocs.lrcontent.com/images/7_19538594106400f46a29ee30.07440412.png "IDX - Authentication")
 
 **Step 2:** Make sure that the **Authentication Pages** option is selected from the left navigation panel. Under the **HTML**, write code as per your requirement to customize the HTML of Authentication Page.
 
 The following displays the **HTML** with default code:
 
-![IDX Authentication HTML Save](https://apidocs.lrcontent.com/images/10--IDX-Authentication-HTML-Save_1911763025ff12e2078.72025796.png "IDX Authentication HTML Save")
+![IDX Authentication HTML Save](https://apidocs.lrcontent.com/images/8_3948924876400f4da1a83d8.49457605.png "IDX Authentication HTML Save")
 
 **Step 3:** After making the changes, click the **Save** button to save the updated HTML code.
 
@@ -218,11 +218,11 @@ This section will take you through the CSS customization steps for the Authentic
 
 The following screen will appear:
 
-![IDX - Authentication](https://apidocs.lrcontent.com/images/9--IDX-Authentication_3143463025ef7087346.52126205.png "IDX - Authentication")
+![IDX - Authentication](https://apidocs.lrcontent.com/images/9_20610173656400f5d3da1a70.83419361.png "IDX - Authentication")
 
 **Step 2:** Make sure that the **Authentication Page** option is selected from the left hand side panel. Click the **Custom CSS** option from the left navigation panel. It displays the CSS files as displayed in the screen below:
 
-![](https://apidocs.lrcontent.com/images/U5_28095ee21562511504.99108042.png)
+![](https://apidocs.lrcontent.com/images/10_3048454586400f654ccf715.81136238.png)
 
 **Step 3:** Click the **hosted-auth-default.css** file and you can either update the CSS file as per your requirement or you can add a new file by clicking on Add new button.
 
@@ -236,11 +236,11 @@ This section will take you through the JavaScript customization steps of the Aut
 
 The following screen will appear:
 
-![IDX - Authentication](https://apidocs.lrcontent.com/images/9--IDX-Authentication_3143463025ef7087346.52126205.png "IDX - Authentication")
+![IDX - Authentication](https://apidocs.lrcontent.com/images/11_17296648856400f798e34df0.31203952.png "IDX - Authentication")
 
 **Step 2:** Make sure that the **Authentication Pages** option is selected from the left hand side panel. Click the **script (End or Before)** folder from the left navigation panel. For example, click the **Before Script** folder and default **Auth - Before Script** file will be displayed as shown in the screen below:
 
-![](https://apidocs.lrcontent.com/images/U7_215665ee2158772d656.46675228.png)
+![](https://apidocs.lrcontent.com/images/12_14490621356400f7dc0e1af3.66005991.png)
 
 Update the JS file as per your requirements. For advanced JS customizations options available in the LoginRadius Identity Platform, refer to [this document](/api/v2/user-registration/advanced-customization).
 
@@ -250,7 +250,7 @@ Also, few customizations options are directly available in the **Auth - Before S
 
     The following screen displays the default success messages:
 
-    ![](https://apidocs.lrcontent.com/images/U8_83575ee21598b5b5c2.39301836.png)
+    ![](https://apidocs.lrcontent.com/images/13_16415902846400f828c4d8a2.67635988.png)
 
     Update these messages as per your requirements and then click the Save button.
 - **Manage Loading Image:** Find **visibleLoadingSpinner** function in default **Auth - Before Script** and customize it according to your requirements.
@@ -265,6 +265,8 @@ Also, few customizations options are directly available in the **Auth - Before S
 - **Message Settings:** Find **setMessage** function in default **Auth - Before Script** and customize it as per your requirements.
 
 **Step 3:** Click the **Save** button to save the updated JS file.
+
+> **NOTE:** We have one Common Script which was previously appearing on your IDX as "auth-common.js" and it was non-editable, however this new JS i.e. **Common Script** allows you to edit the common JS to customize the desired functionality/flow. If there is no edits, the deafult JS will appear on the IDX.
 
 ### Part 4 - Container Customization
 
@@ -345,13 +347,13 @@ This section will take you through the HTML customizations steps for the Profile
 
 The following screen appears:
 
-![IDX Profile Pages](https://apidocs.lrcontent.com/images/11--IDX-Profile-Pages_2374363026150e25a72.83762180.png "IDX Profile Pages")
+![IDX Profile Pages](https://apidocs.lrcontent.com/images/14_20889524006400f89a575295.31805051.png "IDX Profile Pages")
 
 **Step 2:** Make sure that the **Profile Page Files** option is selected from the drop-down available in the left navigation panel. Under the **Profile HTML** files, write code as per your requirement to customize the HTML of Profile Page.
 
 The following displays the **Profile HTML** files with default code:
 
-![IDX Profile Page HTML](https://apidocs.lrcontent.com/images/11--IDX-Profile-Pages-HTML_11690630264c1a6d5a2.16807277.png "IDX Profile Page HTML")
+![IDX Profile Page HTML](https://apidocs.lrcontent.com/images/15_19423110746400f8e83bbd82.19290363.png "IDX Profile Page HTML")
 
 **Step 3:** After making the changes, click the **Save** button to save the updated HTML code.
 
@@ -363,11 +365,11 @@ This section will take you through the CSS customization steps for the Profile P
 
 The following screen will appear:
 
-![IDX Profile Pages](https://apidocs.lrcontent.com/images/11--IDX-Profile-Pages_2374363026150e25a72.83762180.png "IDX Profile Pages")
+![IDX Profile Pages](https://apidocs.lrcontent.com/images/16_861013216400f9b0173cd4.34392872.png "IDX Profile Pages")
 
 **Step 2:** Make sure that the **Profile Page Files** option is selected from the drop-down. Click the **Custom CSS** folder from the left navigation panel. It displays the CSS files as displayed in the screen below:
 
-![](https://apidocs.lrcontent.com/images/U12_79275ee215f06e79a8.71659423.png)
+![](https://apidocs.lrcontent.com/images/17_3723480336400f9d7a87ce7.45616996.png)
 
 **Step 3:** For replacing the CSS file with your custom CSS, upload the file and click the **Confirm** button to load the new CSS file. 
 
@@ -382,11 +384,11 @@ This section will take you through the JavaScript customization steps of the Pro
 
 The following screen will appear:
 
-![IDX Profile Pages](https://apidocs.lrcontent.com/images/11--IDX-Profile-Pages_2374363026150e25a72.83762180.png "IDX Profile Pages")
+![IDX Profile Pages](https://apidocs.lrcontent.com/images/18_19352316066400fa8f2b4178.70725459.png "IDX Profile Pages")
 
 **Step 2:** Make sure that the **Profile Page Files** option is selected from the drop-down. Click the **script (End or Before)** folder from the left navigation panel. For example, click the **Before Script** folder to make changes in **Profile- Before Script** file as displayed in the screen below:
 
-![IDX-Profile-Pages-Before-Script](https://apidocs.lrcontent.com/images/13--IDX-Profile-Pages-Before-Script_473563026587853804.58231916.png "IDX-Profile-Pages-Before-Script")
+![IDX-Profile-Pages-Before-Script](https://apidocs.lrcontent.com/images/19_13626280856400fb17845e66.56776090.png "IDX-Profile-Pages-Before-Script")
 
 Click the **Save** button to load the JS file. Update the JS file as per your requirements. For advanced JS customizations options available in the LoginRadius Identity Platform, refer to [this document](https://www.loginradius.com/docs/api/v2/user-registration/advanced-customization).
 
@@ -394,7 +396,7 @@ Also, few customizations options are directly available in the default **Profile
 
 - **Manage Messages:** Find **successMessages** function in **Profile - Before Script** and update the message as per your requirements. As displayed in the screen below:
 
-![IDX Profile Pages Before Script Success Msg](https://apidocs.lrcontent.com/images/14--IDX-Profile-Pages-Before-Script-Success-Msg_159246302664fa03617.06726614.png "IDX Profile Pages Before Script Success Msg")
+![IDX Profile Pages Before Script Success Msg](https://apidocs.lrcontent.com/images/20_21206754166400fb83278553.00937730.png "IDX Profile Pages Before Script Success Msg")
 
 - **Manage  Loading Image:** Find **visibleLoadingSpinner** function in **Profile - Before Script** and customize it as per your requirements.
 
@@ -653,7 +655,7 @@ This section will take your through the steps to change the color of the jumping
 
 Make sure that the **Auth Page Files** option is selected in the drop-down given in the left navigation panel. Select the **Custom CSS > Add New** options as displayed in the screen below:
 
-![IDX Custom CSS Add New](https://apidocs.lrcontent.com/images/15--IDX-Custom-CSS-Add-New_29222630267bf4bb5a3.23642882.png "IDX Custom CSS Add New")
+![IDX Custom CSS Add New](https://apidocs.lrcontent.com/images/21_7094072246400fc5c844e74.24347619.png "IDX Custom CSS Add New")
 
 Click the **Add New** option and it displays the following pop-up:
 
@@ -667,7 +669,7 @@ To update the loading spinner changes in the Profile page, navigate to [Deployme
 
 Make sure that the **Profile Page Files** option is selected from the drop-down given in the left navigation panel. Select the **Custom CSS > Add New** options as displayed in the screen below:
 
-![IDX Profile Custom CSS Add New](https://apidocs.lrcontent.com/images/16--IDX-Profile-Custom-CSS-Add-New_8209630268511c3b36.82993682.png "IDX Profile Custom CSS Add New")
+![IDX Profile Custom CSS Add New](https://apidocs.lrcontent.com/images/22_2720256336400fc9e9f3a61.78001853.png "IDX Profile Custom CSS Add New")
 
 Click the **Add New** option and it displays the following pop-up:
 
