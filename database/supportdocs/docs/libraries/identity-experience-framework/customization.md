@@ -266,7 +266,7 @@ Also, few customizations options are directly available in the **Auth - Before S
 
 **Step 3:** Click the **Save** button to save the updated JS file.
 
-> **NOTE:** We have one Common Script which was previously appearing on your IDX as "auth-common.js" and it was non-editable, however this new JS i.e. **Common Script** allows you to edit the common JS to customize the desired functionality/flow. If there is no edits, the deafult JS will appear on the IDX.
+> **NOTE:** We have one Common Script, which previously appeared on your IDX as "auth-common.js" and was non-editable. However, this new JS, i.e., **Common Script**, allows you to edit the common JS to customize the desired functionality/flow. The default JS will appear on the IDX if there are no edits.
 
 ### Part 4 - Container Customization
 
