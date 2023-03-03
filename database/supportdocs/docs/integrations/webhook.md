@@ -1,34 +1,35 @@
 # WebHooks
 
-WebHooks allow you to build or set up integrations which subscribe to certain events on LoginRadius. When one of these events is triggered, LoginRadius will automatically send a POST payload over HTTPs to the WebHook's configured URL in real time. WebHooks can be used to update an external tracker or update a backup mirror.
+WebHooks allow you to build or set up integrations that subscribe to certain events on LoginRadius. When one of these events is triggered, LoginRadius will automatically send a POST payload over HTTPs to the WebHook's configured URL in real time. WebHooks can be used to update an external tracker or update a backup mirror.
 
 > **Note:** Once the request is submitted to the WebHook's configured URL, LoginRadius does not track payload deliverability.
 
 ## Events
 
 When configuring a WebHook, you can select the events for which you would like to receive payloads. Only subscribing to the specific events you plan on handling is useful for limiting the number of HTTP requests to your server. You can change the list of subscribed events through the API at any time. By default, WebHooks are only subscribed to the push event.
-
 The following are the allowed events:
-
 Login, Register, UpdateProfile, ResetPassword, ChangePassword, EmailVerification, AddEmail, RemoveEmail, BlockAccount, DeleteAccount, SetUsername, AssignRoles, UnassignRoles, SetPassword, LinkAccount, UnlinkAccount, UpdatePhoneId, VerifyPhoneNumber, UpdateCustomobject, DeleteCustomObject, CreateCustomObject, InvalidateEmailVerification, InvalidatePhoneVerification, RemovePhoneId, RemoveRoleContext, ConsentProfileUpdate, SetPIN, ResetPIN, ChangePIN, UpdateUID
+
 
 The APIs associated with these events can be found [here](/api/v2/integrations/webhooks/overview/#apisassociatedwithwebhookevents0).
 
 ## WebHook sample header
 
-All webhook POST request headers will contain the following fields: host, accept, accept-encoding, content-type, request-context, request-id, signature, user-agent, content-length, connection.
+All webhook POST request headers will contain the following fields: host, accept, accept-encoding, content-type, request-context, request-id, signature, user-agent, content-length, connection. 
 
 Here is the sample for WebHook payload header:
+
 
 ![WebHook Payload header](https://apidocs.lrcontent.com/images/WebhookPayloadHeader_250215d09686fd563c7.31213874.jpg "WebHook Payload header")
 
 ## WebHook Security
 
-All the WebHook's configured URL must use https as it is more secure. If you use https, your SSL/TLS certificate must be validated.
+AAll the WebHook's configured URL must use https as it is more secure. If you use https, your SSL/TLS certificate must be validated. 
 
-A signature field is passed in every WebHook payload header to subscribed URL in Admin Console. The signature field value contains API secret and payload body in the hashed form. The signature data field can be used to verify the source of data for each incoming POST request is LoginRadius.
+A signature field is passed in every WebHook payload header to subscribed URL in Admin Console. The signature field value contains API secret and payload body in the hashed form. The signature data field can be used to verify the source of data for each incoming POST request is LoginRadius. 
 
 The following .net script can be used to generate a signature field from the LoginRadius API secret and WebHook payload Body. You can compare this generated signature with the signature field value in the WebHook payload header to validate the WebHook source of data.
+
 
 - Replace `<LoginRadius API Secret>` with the API Secret for your LoginRadius site in the below code.
 - Replace `<WebHook Payload Body>` with WebHook Payload Body in string format.
@@ -115,7 +116,19 @@ Below are the steps to add a WebHook event to LoginRadius via the Admin Console.
 
 ![Configured Requests Table](https://apidocs.lrcontent.com/images/Step-3_116163501bd2c2cf70.97761867.png "Configured Requests Table")
 
-To remove any WebHook event from LoginRadius, click the corresponding **Unsubscribe** button from the **Action** column in the **Configured Requests** table.
+To **add** or **edit** the **Custom Objects** within the Webhook, click the **dropdown button** from the **Action** column for the corresponding Event in the **Configured Requests** table, and select **Edit**.
+
+>**Note:** Custom Objects can be updated only for the webhooks with SQS URLs. For more information on the SQS url, contact [LoginRadius Support team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
+
+![webhook](https://apidocs.lrcontent.com/images/1_3858617856401abdfa0a4c2.61703498.png "webhookedit")
+
+
+Here, you can add the **Custom Objects** directly in the Webhook form and click **Update** to save the changes.
+
+![editcustom obj](https://apidocs.lrcontent.com/images/2_5670983956401abeacdcb09.09059872.png "editcustomobj")
+
+
+To **remove** any Webhook event from LoginRadius, click the corresponding **dropdown** button from the Action column in the **Configured Requests** table and select **Unsubscribe**.
 
 ![Unsubscribe WebHook URL](https://apidocs.lrcontent.com/images/Unsubscribe-WebHook-URL_2754363501c3cf0a820.79824153.png "Unsubscribe WebHook URL")
 
