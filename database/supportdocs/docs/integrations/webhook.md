@@ -120,12 +120,12 @@ To **add** or **edit** the **Custom Objects** within the Webhook, click the **dr
 
 >**Note:** Custom Objects can be updated only for the webhooks with SQS URLs. For more information on the SQS url, contact [LoginRadius Support team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
-![webhook](https://apidocs.lrcontent.com/images/webhookedit_209271456664019c9ad90787.37196202.png "webhookedit")
+![webhook](https://apidocs.lrcontent.com/images/1_3858617856401abdfa0a4c2.61703498.png "webhookedit")
 
 
 Here, you can add the **Custom Objects** directly in the Webhook form and click **Update** to save the changes.
 
-![editcustom obj](https://apidocs.lrcontent.com/images/webhookcsutomobj_87402939864019d69a07b15.28817359.png "editcustomobj")
+![editcustom obj](https://apidocs.lrcontent.com/images/2_5670983956401abeacdcb09.09059872.png "editcustomobj")
 
 
 To **remove** any Webhook event from LoginRadius, click the corresponding **dropdown** button from the Action column in the **Configured Requests** table and select **Unsubscribe**.
