@@ -160,7 +160,7 @@ To configure Azure AD single sign-on with LoginRadius, perform the following ste
    
    **Step-1:** When you choose to configure through the app section method, the below screen appears and you need to fill in the details in the form shown on the screen: 
       
-   ![LR Azure AD](https://apidocs.lrcontent.com/images/AZURE_1423062f207044c3a64.15289342.png "LR Azure AD")
+   ![LR Azure AD](https://apidocs.lrcontent.com/images/Team-LoginRadius-User-Dashboard_211509270364087919a0c429.98101557.jpg "LR Azure AD")
 
    >**Note:** If you select the **Switch off Email/Password Login instead of Enable only SSO** option, then login with **Email/Password** will not work, and only SSO Login will work to access LoginRadius Admin Console.
 
