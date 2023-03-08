@@ -120,7 +120,7 @@ To **add** or **edit** the **Custom Objects** within the Webhook, click the **dr
 
 
 
->**Note:** Custom Objects can be updated through webhooks that are configured with an **SQS URL**. This URL is generated automatically by the backend system once you configured the integration  and can be found in the webhook section.
+>**Note:** Custom Objects can be updated through webhooks that are configured with an **SQS URL**. This URL is generated automatically by the backend system once you configured the integration and can be found in the webhook section.
 
 ![webhook](https://apidocs.lrcontent.com/images/1_3858617856401abdfa0a4c2.61703498.png "webhookedit")
 
