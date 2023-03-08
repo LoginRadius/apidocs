@@ -24,7 +24,7 @@ Here is the sample for WebHook payload header:
 
 ## WebHook Security
 
-AAll the WebHook's configured URL must use https as it is more secure. If you use https, your SSL/TLS certificate must be validated. 
+All the WebHook's configured URL must use https as it is more secure. If you use https, your SSL/TLS certificate must be validated. 
 
 A signature field is passed in every WebHook payload header to subscribed URL in Admin Console. The signature field value contains API secret and payload body in the hashed form. The signature data field can be used to verify the source of data for each incoming POST request is LoginRadius. 
 
@@ -118,7 +118,9 @@ Below are the steps to add a WebHook event to LoginRadius via the Admin Console.
 
 To **add** or **edit** the **Custom Objects** within the Webhook, click the **dropdown button** from the **Action** column for the corresponding Event in the **Configured Requests** table, and select **Edit**.
 
->**Note:** Custom Objects can be updated only for the webhooks with SQS URLs. For more information on the SQS url, contact [LoginRadius Support team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
+
+
+>**Note:** Custom Objects can be updated through webhooks that are configured with an **SQS URL**. This URL is generated automatically by the backend system once you configured the integration  and can be found in the webhook section.
 
 ![webhook](https://apidocs.lrcontent.com/images/1_3858617856401abdfa0a4c2.61703498.png "webhookedit")
 
