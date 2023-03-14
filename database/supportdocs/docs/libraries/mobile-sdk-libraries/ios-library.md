@@ -1410,7 +1410,6 @@ LoginRadius SDK contains a helper named as SecEnclaveWrapper. You can use this w
 
 | Key         | Type | Value |
 |:------------|:-----|:------|
-| Root        | Dictionary | (1 item)   |
 | setEncryption| Boolean  | YES        |
 
 By default, LoginRadius stores ApiKey in a secure enclave but if you want to store access token or some sensitive data.
