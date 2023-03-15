@@ -15,6 +15,7 @@ This guide will take you through the setup and integration of Salesforce as a se
 
 This section covers the required configurations to perform in the salesforce application to implement this flow.
 
+> **NOTE**: If you have enabled or added a **Custom Domain** for your existing application, please be aware that you should **replace** the URL `https://<LoginRadius Site Name>.hub.loginradius.com/` with `https://<Your Custom Domain>/`  in fields such as **Issuer, EntityID, Login and Logout URLs**, or any fields having the same format.
 
 **Step 1**: Log in to your [Salesforce](https://login.salesforce.com/) account as a System Administrator.
 
@@ -108,6 +109,8 @@ The following screen displays the added Login Option:
 ## Part 2 - Configuration in Admin Console
 
 This section covers the required configurations that you need to perform in the LoginRadius Admin Console to implement the IDP initiated flow.
+
+> **NOTE**: If you have enabled or added a **Custom Domain** for your existing application, please be aware that you should **replace** the URL `https://<LoginRadius Site Name>.hub.loginradius.com/` with `https://<Your Custom Domain>/`  in fields such as **Issuer, EntityID, Login and Logout URLs**, or any fields having the same format.
 
 **Step 1:** Log in to your [Admin Console](https://adminconsole.loginradius.com/) account and navigate to [Platform Configuration > Access Configuration > Federated SSO](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/saml) and select the SAML option from the left navigation panel, as displayed in the screen below.
 
