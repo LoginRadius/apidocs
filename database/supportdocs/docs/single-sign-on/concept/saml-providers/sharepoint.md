@@ -22,6 +22,10 @@ Before you get started you should ensure that you have the following prerequisit
 
 ## Configuring LoginRadius Admin Console
 
+This section covers everything you need to configure in your **LoginRadius Admin Console**.
+
+> **NOTE**: If you have enabled or added a **Custom Domain** for your existing application, please be aware that you should **replace** the URL `https://<LoginRadius Site Name>.hub.loginradius.com/` with `https://<Your Custom Domain>/`  in fields such as **Issuer, EntityID, Login and Logout URLs**, or any fields having the same format.
+
 1. Login to your **LoginRadius Admin Console.**
 2. Go to **Platform Configuration > Access Configuration > Federated SSO.**
 3. Select the **SAML** tab and click on the ‘**Add APP**’ button. 
@@ -62,6 +66,10 @@ Before configuring federation on an Azure AD domain, it must have a custom domai
 3. Ensure that the created domain is NOT the default domain.
 
 ## Configuring a Federated Domain on Office365
+
+This section covers everything you need to configure **federated domain** on your **Office365**.
+
+> **NOTE**: If you have enabled or added a **Custom Domain** for your existing application, please be aware that you should **replace** the URL `https://<LoginRadius Site Name>.hub.loginradius.com/` with `https://<Your Custom Domain>/`  in fields such as **Issuer, EntityID, Login and Logout URLs**, or any fields having the same format.
 
 1. Open PowerShell and run the command `‘Connect-MsolService’` and log in using Office365 Login credentials.
 2. Run command `‘Get-MsolDomain’`in the PowerShell and ensure the newly created managed domain is listed there.
