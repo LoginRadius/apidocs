@@ -12,6 +12,10 @@ This guide will take you through the setup and implementation of the IDP initiat
 
 ## Part 1 - Configuring SAML in DOMO
 
+This section covers everything you need to configure in your **DOMO Application**.
+
+> **NOTE**: If you have enabled or added a **Custom Domain** for your existing application, please be aware that you should **replace** the URL `https://<LoginRadius Site Name>.hub.loginradius.com/` with `https://<Your Custom Domain>/`  in fields such as **Issuer, EntityID, Login and Logout URLs**, or any fields having the same format.
+
 **Step 1:** In a browser, type the URL in  ```https://<<your-domo-environment>>.domo.com``` format and press enter and log on to your account.
 
 **Step 2:** On the home page, click the **More** icon on the top of the page. 
@@ -57,6 +61,10 @@ Select the **Manual Setup** and fill out the fields as per the details provided 
 You have completed the required configuration in Domo. Now you can move over to [Configuring SAML in LoginRadius](#partconfigurationofsamlinloginradiusadminconsole2).
 
 ## Part 2 - Configuration of SAML in LoginRadius Admin Console
+
+This section covers everything you need to configure in your [**LoginRadius Admin Console**](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/saml).
+
+> **NOTE**: If you have enabled or added a **Custom Domain** for your existing application, please be aware that you should **replace** the URL `https://<LoginRadius Site Name>.hub.loginradius.com/` with `https://<Your Custom Domain>/`  in fields such as **Issuer, EntityID, Login and Logout URLs**, or any fields having the same format.
 
 **Step 1:** Log in to your [Admin Console](https://adminconsole.loginradius.com/), navigate to [Platform Configuration > Access Configuration > Federated SSO](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/saml), and select the SAML option from the left navigation panel.
 The following screen will appear:

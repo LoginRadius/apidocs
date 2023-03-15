@@ -808,3 +808,29 @@ Replace the above code with the following:
 <script type="text/html" id="loginradiuscustom_tmpl"><a class="lr-provider-label lr-sl-shaded-brick-button lr-flat-<#=Name.toLowerCase()#>" href="<#= Endpoint #>&same_window=1" title="Sign up with <#= Name #>" alt="Sign in with <#= Name#>"><span class="lr-sl-icon lr-sl-icon-<#= Name.toLowerCase()#>"></span>Login with <#= Name#> </a></script>
 ```
 **Step 5:** **Save **the file and you are done with setting up the IDX as a pop-up.
+
+## X-Frame-Options
+
+HTTP headers carry extra information with HTTP responses or requests. The **X-Frame-Options** is used to **prevent clickjacking attacks** on the site, and it specifies whether a browser should be allowed to render a page in a `<frame>`, `<iframe>`, `<embed>`, or `<object>`. The frame-ancestors directive in Content-Security-Policy(CSP) has rendered X-Frame-Options obsolete.
+
+
+## Clickjacking
+
+An attacker uses a transparent iframe within a window to trick a user into clicking on a **call-to-action (CTA)**, such as a button or link, which redirects them to another server with a window that looks identical. The attacker intercepts and redirects the original server's clicks to the other server, effectively hijacking them. This attack is aimed at both the user and the website that they are visiting.
+
+![clickjacking](https://apidocs.lrcontent.com/images/image-1_10645278326410d335778eb7.15736178.png "clickjacking")
+
+## Syntax
+
+`X-Frame-Options:  DENY`
+
+| Directives  | Explanation |
+|:------------|:-----|
+| DENY |  This will not allow to page rendering in the `<frame>`, `<iframe>`, `<embed>` or `<object>`|
+
+However, if **X-FRAME-OPTIONS** is enabled from LoginRadius, in that case, there are two possibilities:
+
+1. If the parent website's domain is not whitelisted in [Deployment > Apps > Web Apps](https://adminconsole.loginradius.com/deployment/apps/web-apps), the X-FRAME-OPTIONS will return "deny". The Hosted page (IDX) cannot open in an iframe.
+2. The IDX can be opened in an iframe without restrictions if the parent domain is whitelisted in [Deployment > Apps > Web Apps](https://adminconsole.loginradius.com/deployment/apps/web-apps), and the X-FRAME-OPTIONS response header will not be sent.
+
+> **Note:** To enable X-Frame-Options, please contact [LoginRadius Support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).

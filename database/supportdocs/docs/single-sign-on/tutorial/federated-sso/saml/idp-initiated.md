@@ -34,7 +34,10 @@ You are required to configure a **SAML app**  in the  LoginRadius Admin Console 
 
 
 ## Configuring SAML App
+
 This section covers the required configurations that you need to perform in the LoginRadius Admin Console to implement the IDP initiated flow.
+
+> **NOTE**: If you have enabled or added a **Custom Domain** for your existing application, please be aware that you should **replace** the URL `https://<LoginRadius Site Name>.hub.loginradius.com/` with `https://<Your Custom Domain>/`  in fields such as **Issuer, EntityID, Login and Logout URLs**, or any fields having the same format.
 
 **Step 1:** Log in to your [Admin Console](https://adminconsole.loginradius.com/) account and navigate to [Platform Configuration > Access Configuration > Federated SSO](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/saml).
 
@@ -141,6 +144,8 @@ Once you are done configuring the SAML app in the in Admin Console, you can view
 Once you have successfully configured the SAML app in LoginRadius Admin Console,now you need to configure the third-party Service provider.
 
 Each third-party authentication system is unique and will require different configuration settings. 
+
+> **NOTE**: If you have enabled or added a **Custom Domain** for your existing application, please be aware that you should **replace** the URL `https://<LoginRadius Site Name>.hub.loginradius.com/` with `https://<Your Custom Domain>/`  in fields such as **Issuer, EntityID, Login and Logout URLs**, or any fields having the same format.
 
 Use the following values to configure your application for IDP  initiated login flow:
 

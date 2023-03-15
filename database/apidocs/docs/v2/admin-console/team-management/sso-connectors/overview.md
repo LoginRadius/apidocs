@@ -41,4 +41,4 @@ You can secure and manage your apps with Azure Active Directory (Azure AD), an i
 
 Refer to this [document](/api/v2/admin-console/team-management/setup-azure-ad/#configuringapponwindowsazureactivedirectory0) for more details.
 
-> **Note:** If you want us to enforce IAM SSO only, for your LoginRadius admin console you can raise a [support ticket](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) or contact your Customer Success Manager to have this enabled.
+> **Note:** If you want us to enforce IAM SSO only for your LoginRadius Admin Console, you need to first login via SSO after successful set-up and click on the checkbox for enabling the same.

@@ -42,7 +42,7 @@ target 'TargetName' do
 
 # Comment the next line if you don't want to use dynamic frameworks
 use_frameworks!
-pod 'LoginRadiusSDK', '~> 5.6.2'
+pod 'LoginRadiusSDK', '~> 5.7.0'
 end
 ```
 
@@ -1398,6 +1398,31 @@ BOOL isUserLoggedIn = [[[LoginRadiusSDK sharedInstance] session] isLoggedIn];
     
 4.  When a user is successfully authenticated with any of these Biometric Authentication methods, then they can proceed to use the application.
 
+## Credential Encryption in Secure Enclave
+
+
+The Secure Enclave is a hardware-based key manager that’s isolated from the main processor to provide an extra layer of security. Using a secure enclave, we can create the key, securely store the key, and perform operations with the key. Thus makes it difficult for the key to be compromised. For detailed information, please refer to the following link. 
+https://support.apple.com/en-in/guide/security/sec59b0b31ff/web
+
+
+LoginRadius SDK contains a helper named as SecEnclaveWrapper. You can use this wrapper to encrypt/decrypt sensitive data using Secure Enclave. It provides an extra level of security for Api Credentials inside the SDK using secure enclave encryption, this encryption will encrypt the LoginRadius ApiKey, to enable this encryption you need to set true for setEncryption key into LoginRadius.plist.
+
+
+| Key         | Type | Value |
+|:------------|:-----|:------|
+| setEncryption| Boolean  | YES        |
+
+By default, LoginRadius stores ApiKey in a secure enclave but if you want to store access token or some sensitive data.
+Please call the following function which return the decrypted NSData value :
+
+```
+NSData  *AccessToken = [@“<access_token_value>”dataUsingEncoding:NSUTF8StringEncoding];
+NSData *DecryptedValue = [[LoginRadiusEncryptor sharedInstance]EncryptDecryptText : AccessToken];
+NSString *myString:
+myString = [[NSString alloc] initWithData:DecryptedValue encoding:NSASCIIStringEncoding];
+NSLog(myString);
+
+```
 ## Logout
 
 Log out to the user.
