@@ -19,6 +19,8 @@ This guide will take you through the setup and implementation of the LoginRadius
 
 This section covers the required configurations that you need to perform in the JIRA application to implement this flow.
 
+> **NOTE**: If you have enabled or added a **Custom Domain** for your existing application, please be aware that you should **replace** the URL `https://<LoginRadius Site Name>.hub.loginradius.com/` with `https://<Your Custom Domain>/`  in fields such as **Issuer, EntityID, Login and Logout URLs**, or any fields having the same format.
+
 **Step 1:** Register for a JIRA account, and you should be having the **Admin Access**. You can create a JIRA account from [here](https://www.atlassian.com/try/cloud/signup?bundle=jira-software&edition=free).
 
 **Step 2:** Download the JIRA software server to host it on your server. The download link can be found [here](https://www.atlassian.com/software/jira/download).
@@ -107,6 +109,8 @@ The following screens will appear:
 ## Part 2 - Configuration in LoginRadius Admin Console
 
 This section covers the required configurations that you need to perform in the LoginRadius Admin Console to implement the SSO flow.
+
+> **NOTE**: If you have enabled or added a **Custom Domain** for your existing application, please be aware that you should **replace** the URL `https://<LoginRadius Site Name>.hub.loginradius.com/` with `https://<Your Custom Domain>/`  in fields such as **Issuer, EntityID, Login and Logout URLs**, or any fields having the same format.
 
 **Step 1:** Log in to your [Admin Console](https://adminconsole.loginradius.com/) account and navigate to [Platform Configuration > Access Configuration > Federated SSO](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/saml).
 
