@@ -76,7 +76,7 @@ $hooks->do_action('init');
   </style>
   <?php
   docs_enqueue_style(THEME_URL . "assets/stylesheets/mega-menu.css");
-  docs_enqueue_script(THEME_URL . "assets/javascripts/mega-menu.js");
+  docs_enqueue_script(THEME_URL . "assets/javascripts/mega-menu.min.js");
   docs_enqueue_style(THEME_URL . "assets/stylesheets/style.css");
   echo $hooks->do_action('docs_head_script');
   ?>
