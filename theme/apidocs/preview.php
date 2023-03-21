@@ -36,7 +36,7 @@ require_once 'includes/footer.php';
 <?php
 docs_enqueue_style(THEME_URL."assets/stylesheets/preview.css");
 docs_enqueue_style("//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
-docs_enqueue_script(THEME_URL."assets/javascripts/marked.js");
+docs_enqueue_script(THEME_URL."assets/javascripts/marked.min.js");
 docs_enqueue_script(THEME_URL."assets/javascripts/bootstrap-markdown.js");
 docs_enqueue_script(THEME_URL."assets/javascripts/preview.js");
 
