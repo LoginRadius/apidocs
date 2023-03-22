@@ -2,15 +2,15 @@
 
 API Security is the protection of the integrity of APIs. Security of APIs is vital to an organization as breaches in APIs may lead to a major loss. You can configure you API Security settings within the **Platform Security -> Data Access Protection -> API Security**. LoginRadius provides the following features for API Security:
 
-<!-- [Bot Protection](#bot-protection)
+- [Bot Protection](#botprotection0)
 
-- [IP Access Restriction](#ip-access-restriction)
+- [IP Access Restriction](#ipaccessrestriction1)
 
-<!--## Bot Protection
+## Bot Protection
 
 Bot Protection allows you to choose stages of authentication by triggering a CAPTCHA on the selected multiple APIs. You can select multiple APIs after enabling **Bot Protection Allowed On APIs** from **List of the APIs which you want to protect** under Bot Protection setting on Dashboard.
 
-![enter image description here](https://apidocs.lrcontent.com/images/ac21_110575e932977368e19.04358869.png "Bot Protection")-->
+![enter image description here](https://apidocs.lrcontent.com/images/ac21_110575e932977368e19.04358869.png "Bot Protection")
 
 ## IP Access Restriction
 

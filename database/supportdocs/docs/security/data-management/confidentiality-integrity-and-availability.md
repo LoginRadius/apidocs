@@ -21,6 +21,8 @@ How is Data Confidentiality implemented on the LoginRadius Platform:
 - **Additional sets of API credentials**: Create additional sets of API credentials for any 3rd party development or implementation teams, granting them limited access to the LoginRadius platform. Once the specific job of these 3rd party development and implementation teams is complete, these additional API credentials can be revoked. This ensures that only the required users/applications will be able to access the LoginRadius platform.
 
 - **IP Access Control**: LoginRadius offers an additional layer of security you can leverage by configuring lists of allowed IPs that connect to the LoginRadius platform and databases. This ensures that all the requests received by LoginRadius are coming from a valid source.
+    
+    Bot Protection: LoginRadius provides Bot Protection functionality for your implementation. To achieve this, LoginRadius offers the ability to use popular CAPTCHA providers, such as Google reCAPTCHA.
 
 - **Spam Protection**: LoginRadius uses industry standard DDoS protection security at the network level. Additionally, we also provide rate limiting on API calls.
 
