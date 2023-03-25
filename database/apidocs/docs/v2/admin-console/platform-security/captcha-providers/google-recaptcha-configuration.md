@@ -16,7 +16,7 @@ Refer to the below-mentioned steps to configure the Invisible reCAPTCHA with you
 
    - In case you want to configure your previous site, then select the site from the dropdown and click on settings (cog icon).
 
-   - Or if you’re going to register a new site, then click on add (+ icon), and you will be taken to register a new site as shown in the next step.
+   - Or if you're going to register a new site, then click on add (+ icon), and you will be taken to register a new site as shown in the next step.
 
    ![Step 2 - Setting or register a new site](https://apidocs.lrcontent.com/images/Step-2_103959808863ae90271a2332.47052030.png "Step 2 - Setting or register a new site")
 
@@ -67,9 +67,9 @@ Once you have configured your Google reCAPTCHA account in the LoginRadius Admin 
 
 ```
 option = {};
-option.apikey = "&lt;Your LoginRadius API key>";
-option.appName = "&lt;LoginRadius Site Name>";
-option.v2RecaptchaSiteKey = 'Your Google recaptcha v2 Sitekey';
+option.apikey = "<Your LoginRadius API key>";
+option.appName = "<LoginRadius Site Name>";
+option.v2RecaptchaSiteKey = 'Your Google recaptcha v2 Site Key';
 option.invisibleRecaptcha = true;
 ```
 
@@ -148,13 +148,13 @@ LRObject.options.invisibleRecaptcha = true;
 
 ```
 
-LRObject.$hooks.register(‘eventCalls’, function(name){
+LRObject.$hooks.register('eventCalls', function(name){
 
 LRObject.options.invisibleRecaptcha = false;
 
 LRObject.options.optionalRecaptchaConfiguration.IsEnabled = true;
 
-if (name == ‘login’ ) {
+if (name == 'login') {
 
 LRObject.options.invisibleRecaptcha = true;
 
@@ -183,6 +183,6 @@ In order to test the invisible reCAPTCHA on the the webpage, you can replicate t
 
 ![googlebot](https://apidocs.lrcontent.com/images/BotTesting2_20040624d66b549f170.77262382.png "googlebot")
 
-**4**. Now, to test the invisible reCAPTCHA feature on the webpage, login with an account in the Login form. You’ll notice that when you click the login button, the reCAPTCHA is triggered with the image verifying challenge.
+**4**. Now, to test the invisible reCAPTCHA feature on the webpage, login with an account in the Login form. You'll notice that when you click the login button, the reCAPTCHA is triggered with the image verifying challenge.
 
 ![reCAPTCHA](https://apidocs.lrcontent.com/images/Screenshot-43-_2943624d65c6a975e3.36495044.png "reCAPTCHA")
