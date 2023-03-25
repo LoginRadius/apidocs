@@ -24,8 +24,8 @@ IP Access Restriction is a heightened security measure, beyond the standard API 
 
    ![IP Access Restriction - Restriction Type](https://apidocs.lrcontent.com/images/IP-Access-Restriction---Restriction-Type_7416281c555f22284.00279917.png "IP Access Restriction - Restriction Type")
 
-3. Add the IP addresses to be allowed or denied under **Enter an IP** and click **Save**.
+3. Add the IP addresses or the IP range to be allowed or denied under **Enter an IP or IP Range** and click **Save**.
 
-   ![IP Access Restriction - Enter an IP](https://apidocs.lrcontent.com/images/IP-Access-Restriction---Enter-an-IP_17656281c749f1d639.65282548.png "IP Access Restriction - Enter an IP")
+  ![IP Access Restriction - Enter an IP or IP Range](https://apidocs.lrcontent.com/images/Enter-an-IP_791076849641f484ce7a4b9.33758393.png "IP Access Restriction - Enter an IP or IP Range")
 
 > **Note:** To enable IP Access Restriction, contact the [LoginRadius Support Team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
