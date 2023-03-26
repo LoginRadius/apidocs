@@ -22,7 +22,7 @@ IP Access Restriction is a heightened security measure, beyond the standard API 
 
 2. Within the IP Access Restriction, select the **Restriction Type** to either **Allow** or **Deny** a set of IP addresses.
 
-   ![IP Access Restriction - Restriction Type](https://apidocs.lrcontent.com/images/IP-Access-Restriction---Restriction-Type_7416281c555f22284.00279917.png "IP Access Restriction - Restriction Type")
+   ![IP Access Restriction - Restriction Type](https://apidocs.lrcontent.com/images/Step2_111803313641fd5d6272257.91711059.png "IP Access Restriction - Restriction Type")
 
 3. Add the IP addresses or the IP range to be allowed or denied under **Enter an IP or IP Range** and click **Save**.
 
