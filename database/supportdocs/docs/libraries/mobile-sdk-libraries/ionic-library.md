@@ -18,15 +18,14 @@ To get your app supported LoginRadius Ionic SDK, you need to slightly configure 
   ![enter image description here](https://apidocs.lrcontent.com/images/Standard-Login---LoginRadius-User-Dashboard-1_182075e91f53c054924.30640909.png "Email template")
    <br><br>
    Change from
-   <br>
-   "#Url#?vtype=emailverification&vtoken=#GUID#"
-   <br>
+   ```
+   #Url#?vtype=emailverification&vtoken=#GUID#
+   ```
    to
-   <br>
-   "#Url#?vtype=emailverification&vtoken=#GUID#&apikey=<Your-LoginRadius-API-Key>"
-   <br>
-   And the same change should be also applied to your "Reset Password Email Template Configuration".
-   <br>
+   ```
+   #Url#?vtype=emailverification&vtoken=#GUID#&apikey=<Your-LoginRadius-API-Key>
+   ```
+   And the same change should be also applied to your **Reset Password Email Template Configuration**.
 
 2. Generate SOTT:-
    You need to pass the SOTT value at the time of registration in ionic SDK V2 and you can generate this by Admin Console.<br>
@@ -76,7 +75,7 @@ The above initialization requires options object with the following parameter:
 
 | Name                         | Required                                                                                      | Description                                                                                                                                                                                 |
 | ---------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| apiKey                       | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;">   | Set to your LoginRadius API Key which you can get [here](https://loginradius.readme.io/get-api-key-and-secret).                                                                             |
+| apiKey                       | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;">   | Set to your LoginRadius API Key which you can get [here](/api/v2/admin-console/platform-security/api-key-and-secret/).                                                                             |
 | appName                      | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;">   | Set to your LoginRadius site name, this is required for User Registration to work with Single Sign On API.                                                                                  |
 | sott                         | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;">   | Secure One-time Token. Get token from [Admin Console](https://adminconsole.loginradius.com/deployment/apps/mobile-apps)                                                                                 |
 | verificationUrl              | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;">   | Set dynamic URL for email verification (Default URL: https://auth.lrcontent.com/mobile/verification/index.html)                                                                             |

@@ -7332,6 +7332,10 @@
 {
   "oldLink": "single-sign-on/tutorial/federated-sso/ws-federation/overview",
   "newLink": "single-sign-on/tutorial/federated-sso/overview/"
+},
+{
+  "oldLink": "authentication/FAQ",
+  "newLink": "authentication/faq/"
 }
 ]
 

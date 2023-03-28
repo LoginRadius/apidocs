@@ -55,7 +55,7 @@ $ pod install
 ## Setup Prerequisites
 To get your app supported by LoginRadius iOS SDK, you need to slightly configure your LoginRadius user account.
 
-- Enable <AppName>:// in your Admin Console -> Deployment > Configuration > Apps for Social Login to work properly. Ex: sampleapp://
+- Enable `<AppName>://` in your Admin Console -> Deployment > Configuration > Apps for Social Login to work properly. Ex: sampleapp://
   <br>
 
 * Configure Email Templates<br>
@@ -75,7 +75,7 @@ to
 #Url#?vtype=emailverification&vtoken=#GUID#&apikey=<Your-LoginRadius-API-Key>
 ```
 
-And the same changes should also be applied to your "Reset Password Email Template Configuration."
+And the same changes should also be applied to your **Reset Password Email Template Configuration**.
 
 
 ### Initialize SDK
@@ -97,9 +97,9 @@ And the same changes should also be applied to your "Reset Password Email Templa
 
 <sub><sup>\*useKeychain needs to enable keychain sharing to work properly, to see visually how to enable it see [here](#singlesignon11)</sup></sub>
 
-> Obtaining Sitename and API key
+**Obtaining Sitename and API key**
 
-> Details on obtaining Sitename [here](/api/v2/admin-console/deployment/get-site-app-name/#locate-your-loginradius-site-name-on-the-admin-console) and API key [here](/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret)
+> Details on obtaining Sitename can be found [**here**](/api/v2/admin-console/deployment/get-site-app-name/#locate-your-loginradius-site-name-on-the-admin-console) and for API key click [**here**](/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret)
 
 1. Import the module in your source code.
 
