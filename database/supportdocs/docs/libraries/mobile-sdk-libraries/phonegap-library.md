@@ -12,9 +12,9 @@ Make the following changes in the LoginRadius Admin Console:
 
 &nbsp;1. Under Deployment > Email Workflow, add an `apikey` parameter to the default links in the Verification Email and Forgot Password Email Templates.
 
-**Verification Email Template:** "#Url#?vtype=emailverification&vtoken=#GUID#&apikey=<YOUR_LOGINRADIUS_APIKEY>"
+**Verification Email Template:** `#Url#?vtype=emailverification&vtoken=#GUID#&apikey=<YOUR_LOGINRADIUS_APIKEY>`
 
-**Forgot Password Email Template:** "#Url#?vtype=reset&vtoken=#GUID#&apikey=<YOUR_LOGINRADIUS_APIKEY>"
+**Forgot Password Email Template:** `#Url#?vtype=reset&vtoken=#GUID#&apikey=<YOUR_LOGINRADIUS_APIKEY>`
 
 Within the Admin Console, the modified Verification Email Template should look like the following:
 
@@ -109,8 +109,8 @@ The above initialization requires an `options` object with the following paramet
 
 | Name                         | Description                                                                                                                                                                        | Required  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| apiKey                       | Your [LoginRadius API Key](/api/v2/admin-console/platform-security/api-key-and-secret/)                                                                                                         | Yes       |
-| appName                      | Your LoginRadius App Name                                                                                                                                                          | Yes       |
+| apiKey                       | Your LoginRadius [API Key](/api/v2/admin-console/platform-security/api-key-and-secret/)                                                                                                         | Yes       |
+| appName                      | Your LoginRadius [App Name](/api/v2/admin-console/deployment/get-site-app-name/)                                                                                                                                                          | Yes       |
 | sott                         | A [Secure One-Time Token](/api/v2/customer-identity-api/sott-usage)                                                                                                                | Yes       |
 | verificationUrl              | A dynamic URL for email verification Default: https://auth.lrcontent.com/mobile/verification/index.html                                                                            | Yes       |
 | forgotPasswordUrl            | A dynamic URL for resetting a password                                                                                                                                             | Yes       |
