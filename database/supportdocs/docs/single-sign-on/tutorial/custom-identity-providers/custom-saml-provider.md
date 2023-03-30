@@ -21,7 +21,7 @@ The following screen will appear:
 
 The SAML Provider configuration fields appear on the same screen as displayed below:
 
-![SAML Custom IDP](https://apidocs.lrcontent.com/images/Custom-Idps---SAML_45526202e247381f71.08634473.png "SAML Custom IDP")
+![Custom IDP full view](https://apidocs.lrcontent.com/images/custom-idp_271367546425cc5c907093.34091358.png "Custom IDP full view")
 
 **Step 3:** In the **Login Flow choose** the desired SAML flow from the dropdown and in the **Provider Name** field, enter the unique name of the SAML provider.
 
@@ -42,22 +42,16 @@ The SAML Provider configuration fields appear on the same screen as displayed be
 
 **Step 7:** In **ID Provider Logout Url** enter the **SIGN-OUT ENDPOINT** which you get from the SAML account.
 
-**Step 8:** In **ID PROVIDER CERTIFICATE** enter the certificate for IdP i.e SAML.
+**Step 8:** For **RELAY STATE PARAMETER** enter **RelayState**
 
-> **Note:** Certificate and Key can be generated using online tools, for example. with Bits and Digest Algorithm 2056, SHA256 respectively.
-
-**Step 9:** In **SERVICE PROVIDER CERTIFICATE** enter the **Certificate **and** Key** for SP i.e LoginRadius.
-
-**Step 10:** For **RELAY STATE PARAMETER** enter **RelayState**
-
-**Step 11:** For **DATA MAPPING** select the LoginRadius' fields (SP fields) and enter the corresponding SAML supported app fields (IdP fields) e.g.
+**Step 9:** For **DATA MAPPING** select the LoginRadius' fields (SP fields) and enter the corresponding SAML supported app fields (IdP fields) e.g.
 
 | Fields | Profile Key |
 |--|--|
 | Email | email |
 | FullName | username |
 
-**Step 12**: Once all the required fields are completed, scroll down and hit **Save**.
+**Step 10**: Once all the required fields are completed, scroll down and hit **Save**.
 
 > **Note:** You should have an account with the same email address in your SAML application as well as in LoginRadius before using your SAML application to login to the LoginRadius Admin Console.
 
