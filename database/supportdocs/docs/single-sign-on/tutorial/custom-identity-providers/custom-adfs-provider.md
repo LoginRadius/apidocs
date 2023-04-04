@@ -91,9 +91,7 @@ Click on **ADFS Providers** Tab.
 
 **Step 7:** In **ID PROVIDER CERTIFICATE** enter the certificate for IdP i.e ADFS.
 
-**Step 8:** In **SERVICE PROVIDER CERTIFICATE** enter the Certificate and Key for SP i.e LoginRadius.
-
-**Step 9:** For **RELAY STATE PARAMETER** enter **RelayState**.
+**Step 8:** For **RELAY STATE PARAMETER** enter **RelayState**.
 
 For **DATA MAPPING** select the LoginRadius' fields (SP fields) and enter the corresponding ADFS fields(IdP fields). Following are some of the field names of ADFS.
 
@@ -106,7 +104,7 @@ http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name
 
 Save the settings.
 
-![ADFS Provider](https://apidocs.lrcontent.com/images/Custom-Idps-ADFS-Provider_28005627cbf99a5aaf6.76088383.png "ADFS Provider")
+![ADFS Provider](https://apidocs.lrcontent.com/images/adfs_124028852642c6f6542baf6.37143936.png "ADFS Provider")
 
 > **Note:** For any query, please reach out to LoginRadius Support from [here](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
