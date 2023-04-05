@@ -7332,6 +7332,34 @@
 {
   "oldLink": "single-sign-on/tutorial/federated-sso/ws-federation/overview",
   "newLink": "single-sign-on/tutorial/federated-sso/overview/"
+},
+{
+  "oldLink": "authentication/FAQ/troubleshooting",
+  "newLink": "authentication/faq/troubleshooting/"
+},
+{
+  "oldLink": "authentication/FAQ/account-linking",
+  "newLink": "authentication/faq/account-linking/"
+},
+{
+  "oldLink": "authentication/FAQ/age-verification",
+  "newLink": "authentication/faq/age-verification/"
+},
+{
+  "oldLink": "authentication/FAQ/billing-faq",
+  "newLink": "authentication/faq/billing-faq/"
+},
+{
+  "oldLink": "authentication/FAQ/identity-provider-apps",
+  "newLink": "authentication/faq/identity-provider-apps/"
+},
+{
+  "oldLink": "authentication/FAQ/support-faq",
+  "newLink": "authentication/faq/support-faq/"
+},
+{
+  "oldLink": "authentication/FAQ/supported-browsers",
+  "newLink": "authentication/faq/supported-browsers/"
 }
 ]
 

@@ -223,7 +223,7 @@ require_once 'includes/support_header.php';
         });
     </script>
 
-    <script src="<?php echo THEME_URL; ?>assets/javascripts/navigation.js" type="text/javascript"></script>
+    <script src="<?php echo THEME_URL; ?>assets/javascripts/navigation.min.js" type="text/javascript"></script>
 
     <script type="text/javascript">
   (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")

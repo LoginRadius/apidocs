@@ -53,4 +53,4 @@ require_once 'includes/support_header.php';?>
     
 <?php require_once 'includes/footer.php'; ?>
 </div>
-<script src="<?php echo THEME_URL; ?>assets/javascripts/navigation.js" type="text/javascript"></script>
+<script src="<?php echo THEME_URL; ?>assets/javascripts/navigation.min.js" type="text/javascript"></script>

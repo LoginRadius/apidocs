@@ -23,22 +23,18 @@ Get a copy of the Android SDK and demo projects [here](https://github.com/LoginR
 
 To get your app supported by LoginRadius Android SDK, you need to slightly configure your LoginRadius user account.
 
-1.  Add parameter to your User Registration Email template. By default your email template should look like this:	
+1.  Add parameter to your User Registration Email template. By default your email template should look like this: ![Android SDK](https://apidocs.lrcontent.com/images/pasted-image-0-18_2932662accdf9607850.41208914.png "Android SDK")
+Change the following URL
+```
+#Url#?vtype=emailverification&vtoken=#GUID#
+```
+to
+```
+#Url#?vtype=emailverification&vtoken=#GUID#&apikey=<Your-LoginRadius-API-Key>
+```
+And the same change should be also applied to your **Reset Password Email Template Configuration**.
 
-	![Android SDK](https://apidocs.lrcontent.com/images/pasted-image-0-18_2932662accdf9607850.41208914.png "Android SDK")  
-      
-	```
-     <br>
-     "#Url#?vtype=emailverification&vtoken=#GUID#"
-     <br>
-     to
-     <br>
-     "#Url#?vtype=emailverification&vtoken=#GUID#&apikey=<Your-LoginRadius-API-Key>"
-     <br><br>
-     And the same change should be also applied to your "Reset Password Email Template Configuration".
-     <br><br>
-	```
-2.  Generate SOTT You need to pass the SOTT value at the time of registration in Android SDK V2 and you can generate this by Admin Console.
+2. Generate SOTT You need to pass the SOTT value at the time of registration in Android SDK V2 and you can generate this by Admin Console.
 
      Open [Admin Console](https://adminconsole.loginradius.com/deployment/apps/web-apps), Click on SOTT available   in the left panel. now set the time according to the requirement and generate SOTT.  
   
@@ -88,7 +84,7 @@ The Android SDK requires some variables. They're needed to initialize the LoginR
 | **Name** | **Description** | **Required** |
 |--|--|--|
 | **apiKey** | API Key of your LoginRadius site. You can get one from [here](/api/v2/admin-console/platform-security/api-key-and-secret/) | Yes |
-| **siteName** | LoginRadius Site Name. It is needed in social web login. You can get one from [here](http://support.loginradius.com/hc/en-us/articles/204614109-How-do-I-get-my-LoginRadius-Site-Name-) | Yes | 
+| **siteName** | LoginRadius Site Name. It is needed in social web login. You can get one from [here](/api/v2/admin-console/deployment/get-site-app-name/) | Yes | 
 
 
 ### Initialize SDK

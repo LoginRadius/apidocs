@@ -1,0 +1,28 @@
+{ "name": "Admin Console Release 25.10.8",
+    "description": "This release of the Admin Console brings you new features, bug fixes, and a few improvements. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Now, you can whitelist or blacklist the range (x.x.x.x. - y.y.y.y) of IPs from the Admin Console."
+            },
+            {
+                "text": "Bot Protection feature has been added in the API Security>Platform Security>Admin Console."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "Extended fields have been added for the Federated SSO > OIDC and OAuth2.0 flow under the Admin Console."
+            },
+            {
+                "text": "While configuring Federated SSO (SAML) & Custom IDP (SAML, ADFS), the Service Provider Certificate and its key are now generate automatically."
+            }
+        ],
+        "FIXED": [
+            {
+              "text": "Webhook signature verification failure for Gmail social logins has been resolved."
+            }
+        ]},
+    "auther": "Bhavya Tugnawat",
+    "created_date": "2023-04-05",
+    "status": "public"
+}
