@@ -7,10 +7,12 @@
                 "text": "Custom Objects can be included in the Webhook through the Webhook form available in the Admin Console."
             },
             {
-                "text": "Now Audit Logs will have the entries of team member’s addition and deletion activities."
-            },
-            {
                 "text": "The Auth-Common JS file can be edited using the 'Common Script' option in the deployment->IDX section of the Admin Console."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "Now Audit Logs will have the entries of team member’s addition and deletion activities."
             }
         ]
     },

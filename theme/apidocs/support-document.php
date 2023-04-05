@@ -101,7 +101,7 @@ require_once 'includes/support_header.php';
 
         </div>
 
-        <script src="<?php echo THEME_URL; ?>assets/javascripts/marked.js" type="text/javascript"></script>
+        <script src="<?php echo THEME_URL; ?>assets/javascripts/marked.min.js" type="text/javascript"></script>
         <script>
             jQuery(document).ready(function($) {
                 loadVersion();
@@ -112,7 +112,7 @@ require_once 'includes/support_header.php';
             });
         </script>
 
-        <script src="<?php echo THEME_URL; ?>assets/javascripts/navigation.js" type="text/javascript"></script>
+        <script src="<?php echo THEME_URL; ?>assets/javascripts/navigation.min.js" type="text/javascript"></script>
         </body>
 
         </html>

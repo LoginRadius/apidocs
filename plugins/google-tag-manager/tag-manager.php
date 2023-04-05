@@ -14,7 +14,7 @@ function googleTagManagerScript() {
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-N3527CV');</script>
+})(window,document,'script','dataLayer','GTM-NZP2SZN');</script>
 <!-- End Google Tag Manager -->
 
     <!-- Start Visual Website Optimizer Asynchronous Code -->
@@ -34,7 +34,7 @@ f=false,d=document;return{use_existing_jquery:function(){return use_existing_jqu
 function googleTagManagerNoScript(){
     ?>
         <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3527CV"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZP2SZN"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->  
     <?php

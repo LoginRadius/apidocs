@@ -12,16 +12,19 @@ You can download the SDK from [here](https://github.com/LoginRadius/xamarin-sdk)
 ## Configure your LoginRadius Account
 To get your app supported by LoginRadius Xamarin SDK, you need to slightly configure your LoginRadius user account.
 
-1) Add parameter to your User Registration Email template
-
-By default your email template should look like this:
-
-![enter image description here](https://apidocs.lrcontent.com/images/Standard-Login---LoginRadius-User-Dashboard-1_182075e91f53c054924.30640909.png "Email template")
-
-<br>``"#Url#?vtype=emailverification&vtoken=#GUID#"``<br> To <br>``"#Url#?vtype=emailverification&vtoken=#GUID#&apikey=<Your-LoginRadius-API-Key>"``
-<br><br>And the same change should be also applied to your "Reset Password Email Template Configuration" and "Add Email Template Configuration".
-
-2) Generate SOTT:-
+1. Add parameter to your User Registration Email template
+By default your email template should look like this: ![enter image description here](https://apidocs.lrcontent.com/images/Standard-Login---LoginRadius-User-Dashboard-1_182075e91f53c054924.30640909.png "Email template")
+<br>
+Change the following URL
+```
+#Url#?vtype=emailverification&vtoken=#GUID#
+```
+To 
+```
+#Url#?vtype=emailverification&vtoken=#GUID#&apikey=<Your-LoginRadius-API-Key>
+```
+And the same change should be also applied to your **Reset Password Email Template Configuration** and **Add Email Template Configuration**.
+2. Generate SOTT:-
 
 You need to pass the SOTT value at the time of registration in Xamarin SDK V2 and you can generate this by Admin Console.<br>
 Open [Admin Console](https://adminconsole.loginradius.com/deployment/apps/web-apps), Click on SOTT available in the left panel. now set the time according to the requirement and generate SOTT.
@@ -33,7 +36,7 @@ Open [Admin Console](https://adminconsole.loginradius.com/deployment/apps/web-ap
 
 Initialize the SDK with your API key and Sitename
 
-- Details on obtaining Site name [here](http://support.loginradius.com/hc/en-us/articles/204614109-How-do-I-get-my-LoginRadius-Site-Name-) and API key [here](/api/v1/getting-started/get-api-key-and-secret)<br>
+- Details on obtaining Site name [here](/api/v2/admin-console/deployment/get-site-app-name/) and API key [here](/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret)<br>
 
 - Details on verificationUrl for email verification we give default url(Default URL: https://auth.lrcontent.com/mobile/verification/index.html)<br>
 

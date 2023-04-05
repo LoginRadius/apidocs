@@ -8,7 +8,7 @@ WebHooks allow you to build or set up integrations that subscribe to certain eve
 
 When configuring a WebHook, you can select the events for which you would like to receive payloads. Only subscribing to the specific events you plan on handling is useful for limiting the number of HTTP requests to your server. You can change the list of subscribed events through the API at any time. By default, WebHooks are only subscribed to the push event.
 The following are the allowed events:
-Login, Register, UpdateProfile, ResetPassword, ChangePassword, EmailVerification, AddEmail, RemoveEmail, BlockAccount, DeleteAccount, SetUsername, AssignRoles, UnassignRoles, SetPassword, LinkAccount, UnlinkAccount, UpdatePhoneId, VerifyPhoneNumber, UpdateCustomobject, DeleteCustomObject, CreateCustomObject, InvalidateEmailVerification, InvalidatePhoneVerification, RemovePhoneId, RemoveRoleContext, ConsentProfileUpdate, SetPIN, ResetPIN, ChangePIN, UpdateUID
+Login, Register, UpdateProfile, ResetPassword, ChangePassword, EmailVerification, AddEmail, RemoveEmail, BlockAccount, DeleteAccount, SetUsername, AssignRoles, UnassignRoles, SetPassword, LinkAccount, UnlinkAccount, UpdatePhoneId, VerifyPhoneNumber, UpdateCustomobject, DeleteCustomObject, CreateCustomObject, InvalidateEmailVerification, InvalidatePhoneVerification, RemovePhoneId, RemoveRoleContext, ConsentProfileUpdate, SetPIN, ResetPIN and ChangePIN.
 
 
 The APIs associated with these events can be found [here](/api/v2/integrations/webhooks/overview/#apisassociatedwithwebhookevents0).
@@ -95,6 +95,9 @@ public class Program
 | InvalidatePhoneVerification | [Link](/integrations/webhooks/samples/#invalidatephoneverification22) |
 | RemovePhoneId               | [Link](/integrations/webhooks/samples/#removephoneid23)               |
 | RemoveRoleContext           | [Link](/integrations/webhooks/samples/#removerolecontext24)           |
+| SetPin                      | [Link](/integrations/webhooks/samples/#setpin25)           |
+| ResetPin                    | [Link](/integrations/webhooks/samples/#resetpin26)           |
+| ChangePin                   | [Link](/integrations/webhooks/samples/#changepin27)           |
 
 ## Configure WebHook
 
