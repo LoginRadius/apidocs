@@ -1,7 +1,7 @@
 {
     "name": "OIDC Discovery Endpoint",
-    "domain": "https://cloud-api.loginradius.com",
-    "path": "/sso/oidc/v2/{sitename}/{oidcappname}/.well-known/openid-configuration",
+    "domain": "",
+    "path": "https://{siteurl}/service/oidc/{OIDCAppName}/.well-known/openid-configuration",
     "method": "GET",
     "getparams": {},
     "headers": {
@@ -11,11 +11,6 @@
     "description": "The OpenID Connect Discovery endpoint provides a client with configuration details about the OpenID Connect metadata of the Loginradius App.",
     "parameters": {
         "Template Params": [
-	  {
-            "name": "sitename",
-            "is_required": true,
-            "description": "Your LoginRadius sitename"
-          },
 	        {
             "name": "oidcappname",
             "is_required": true,

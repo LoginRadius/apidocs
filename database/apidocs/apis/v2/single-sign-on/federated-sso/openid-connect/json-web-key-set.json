@@ -1,7 +1,7 @@
 {
     "name": "JSON Web Key Set",
-    "domain": "https://cloud-api.loginradius.com",
-    "path": "/sso/oidc/v2/{sitename}/{oidcappname}/jwks",
+    "domain": "",
+    "path": "https://{siteurl}/service/oidc/{OIDCAppName}/JWKS",
     "method": "GET",
     "getparams": {},
     "headers": {
@@ -11,11 +11,6 @@
     "description": "At the most basic level, the JSON Web Key Set (JWKS) is a set of keys containing the public keys that should be used to verify any JSON Web Token (JWT) issued by the authorization server.",
     "parameters": {
         "Template Params": [
-	  {
-      "name": "sitename",
-      "is_required": true,
-      "description": "The name of your LoginRadius SiteName / Environment."
-    },
     {
       "name": "oidcappname",
       "is_required": true,

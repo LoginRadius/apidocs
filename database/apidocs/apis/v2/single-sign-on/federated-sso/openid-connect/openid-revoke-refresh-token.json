@@ -1,7 +1,7 @@
 {
   "name": "Revoke Refresh Token",
-  "domain": "https://cloud-api.loginradius.com",
-  "path": "/sso/oidc/v2/{oidcappname}/token/revoke",
+  "domain": "",
+  "path": "https://{siteurl}/api/oidc/{OIDCAppName}/revoke",
   "method": "POST",
   "getparams": {},
   "postparams": {
