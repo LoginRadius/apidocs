@@ -381,4 +381,4 @@ Our [JSON Web Key Set](/api/v2/single-sign-on/openid/get-json-web-key-set) API C
 The [OIDC Discovery](/api/v2/single-sign-on/openid/oidc-discovery) API Endpoint provides a client with configuration details about the OpenID Connect metadata of Loginradius App.
 
 URL Format:
-`https://cloud-api.loginradius.com/sso/oidc/v2/{sitename}/{oidcappname}/.well-known/openid-configuration`
+`https://{siteurl}/service/oidc/{OIDCAppName}/.well-known/openid-configuration`
