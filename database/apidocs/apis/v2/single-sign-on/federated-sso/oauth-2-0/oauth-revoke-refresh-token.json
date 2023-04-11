@@ -1,7 +1,7 @@
 {
   "name": "Revoke Refresh Token",
-  "domain": "https://cloud-api.loginradius.com",
-  "path": "/sso/oauth/refresh_token/revoke",
+  "domain": "",
+  "path": "https://{siteurl}/api/oauth/{OauthAppName}/revoke",
   "method": "POST",
   "getparams": {},
   "postparams": {
@@ -31,5 +31,7 @@
         "description": "this is the refresh_token you received when you used the 'Access token by OAuth 2 token' or 'Access Token by Account Password' API calls"
       }
     ]
+  },
+  "outputFormat": {
   }
 }

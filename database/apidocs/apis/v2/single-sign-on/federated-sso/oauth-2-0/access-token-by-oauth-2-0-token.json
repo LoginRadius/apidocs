@@ -1,13 +1,14 @@
 {
     "name": "Access token by OAuth 2 token",
-    "domain": "https://cloud-api.loginradius.com",
-    "path": "/sso/oauth/access_token",
+    "domain": "",
+    "path": "https://{siteurl}/api/oauth/{OAuthAPpName}/token",
     "method": "POST",
     "getparams": {},
     "postparams": {
         "client_id": "",
         "client_secret":"",
         "redirect_uri":"",
+        "grant_type":"authorization_code",
         "response_type":"token",
         "code":""
     },
@@ -31,6 +32,10 @@
             "name": "redirect_uri",
             "is_required": true,
             "description": "Redirection URI"
+          },{
+          "name": "grant_type",
+          "is_required": true,
+          "description": "Its value should be authorization_code"
           },{
             "name": "response_type",
             "is_required": true,

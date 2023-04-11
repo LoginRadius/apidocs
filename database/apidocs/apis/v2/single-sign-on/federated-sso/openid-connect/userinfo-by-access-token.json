@@ -1,41 +1,30 @@
 {
   "name": "UserInfo by Access Token",
-  "domain": "https://cloud-api.loginradius.com",
-  "path": "/sso/oidc/v2/{sitename}/{oidcappname}/userinfo",
+  "domain": "",
+  "path": "https://{siteurl}/service/oidc/{OIDCAppName}/userinfo",
   "method": "GET",
-  "getparams": {       
-  },
-  "postparams": {
-  },
+  "getparams": {},
+  "postparams": {},
   "headers": {
-  
-  "Authorization":"Bearer "
+    "Authorization": "Bearer "
   },
   "response": "jwt",
   "description": "Use this Endpoint to obtain the claims for a given user.  a client makes a request to the UserInfo endpoint by using an access token as the credential. The access token must be one that was obtained through OpenID Connect authentication. The claims for the user who is represented by the access token are returned as JWT. The UserInfo endpoint is an OAuth 2.0 protected resource, which means that the credential required to access the endpoint is the access token. Note: This Endpoint may also be called via the POST HTTP method, if the access_token is passed as Bearer token in the POST request, then the Content-Type header must be application/x-wwww-form-urlencoded.",
   "parameters": {
-      "Template Params": [
-
-  {
-          "name": "sitename",
-          "is_required": true,
-          "description": "The name of your LoginRadius SiteName / Environment."
+    "Template Params": [
+      {
+        "name": "oidcappname",
+        "is_required": true,
+        "description": "The name for the ODIC App you have configured in the LoginRadius Admin Console."
+      }
+    ],
+    "Headers Parameters": [
+      {
+        "name": "Authorization",
+        "is_required": true,
+        "description": "Bearer &lt;ACCESS_TOKEN&gt; (customer's access token)"
+      }
+    ]
   },
-  {
-          "name": "oidcappname",
-          "is_required": true,
-          "description": "The name for the ODIC App you have configured in the LoginRadius Admin Console."
-        }        ],
-
-        "Headers Parameters": [{
-          "name": "Authorization",
-          "is_required": true,
-          "description": "Bearer &lt;ACCESS_TOKEN&gt; (customer's access token)"
-
-        }]
-       
-      },
-  "outputFormat": 
-"eyJhbGciOiJSUzI1NiIsImtpZCI6IjIwMSIsInR5cCI6IkpXVCJ9.eyJVaWQiOiI3MjNiMDVmODBjNjQ0NjcyYjM0OTZhMjFiN2NmMzNkYyIsImFkZHJlc3MiOnsiY291bnRyeSI6bnVsbCwibG9jYWxpdHkiOm51bGwsInBvc3RhbF9jb2RlIjpudWxsLCJyZWdpb24iOm51bGwsInN0cmVldF9hZGRyZXNzIjpudWxsfSwiYXNkYXMiOlt7IlR5cGUiOiJQcmltYXJ5IiwiVmFsdWUiOiJhc2Rhc0BtYWlsNy5pbyJ9XSwiYXVkIjoiOTRjMzk1YjEtZDU3OS00NGNlLThiY2QtNDMwY2U0NjIwMzc1IiwiYmlydGhkYXRlIjpudWxsLCJlbWFpbCI6ImFzZGFzQG1haWw3LmlvIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJleHAiOjE2MDE0Njc0NzIsImZhbWlseV9uYW1lIjpudWxsLCJnZW5kZXIiOm51bGwsImdpdmVuX25hbWUiOm51bGwsImlhdCI6MTYwMTQ2Njg3MiwiaXNzIjoiaHR0cHM6Ly9jbG91ZC1hcGkubG9naW5yYWRpdXMuY29tL3Nzby9vaWRjL3YyL2ludGVybmFsLWFwZWtzaGEvdGVzdCIsImp0aSI6ImYzMTk3YjQwLTJkY2QtNDQyMi04NzY1LWM0MDg0NmY2MGZiNCIsImxvY2FsZSI6bnVsbCwibWlkZGxlX25hbWUiOm51bGwsIm5hbWUiOm51bGwsIm5iZiI6MTYwMTQ2Njg3Miwibmlja25hbWUiOm51bGwsIm5vbmNlIjoidGVzdG1vdW5jZSIsInBob25lX251bWJlciI6bnVsbCwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjpmYWxzZSwicGljdHVyZSI6bnVsbCwicHJlZmVycmVkX3VzZXJuYW1lIjpudWxsLCJwcm9maWxlIjpudWxsLCJzdWIiOiI3MjNiMDVmODBjNjQ0NjcyYjM0OTZhMjFiN2NmMzNkYyIsInVwZGF0ZWRfYXQiOjE2MDAyODg5NDYsIndlYnNpdGUiOm51bGwsInpvbmVpbmZvIjpudWxsfQ.SvMXwBqsVUt1P5qHXIfTh90UW6__Gte6sBqHaRGG52xQYSQQvvL66yzBY9Hwfui_I6s4-9W10cQJiaY1voV48rE1S9Fo_IMw_khwPxzPbWIg6EXrSReFd-jg4l-1NJ1YxnervOOkxrG5vvReU9uL3cAYcB7YpeO_ybQnUMj-TZyWFbI7L3sagrv239iXJc2zGuMxw4Kp1H8pjiu7L7-cx8ZsfVkgk6ZCO2Z8Ze46NBlXwGvsTPHh0qdoafi5ISB8DKnCiyU-CTZPYr91_1gJMG-1x98UDjiKy6vV4290W0HQXlrN2Y4Rxhnwlmyzs-5t38wgohvEyxvCy6Zvmxws-Q"
-  
+  "outputFormat": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjIwMSIsInR5cCI6IkpXVCJ9.eyJVaWQiOiI3MjNiMDVmODBjNjQ0NjcyYjM0OTZhMjFiN2NmMzNkYyIsImFkZHJlc3MiOnsiY291bnRyeSI6bnVsbCwibG9jYWxpdHkiOm51bGwsInBvc3RhbF9jb2RlIjpudWxsLCJyZWdpb24iOm51bGwsInN0cmVldF9hZGRyZXNzIjpudWxsfSwiYXNkYXMiOlt7IlR5cGUiOiJQcmltYXJ5IiwiVmFsdWUiOiJhc2Rhc0BtYWlsNy5pbyJ9XSwiYXVkIjoiOTRjMzk1YjEtZDU3OS00NGNlLThiY2QtNDMwY2U0NjIwMzc1IiwiYmlydGhkYXRlIjpudWxsLCJlbWFpbCI6ImFzZGFzQG1haWw3LmlvIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJleHAiOjE2MDE0Njc0NzIsImZhbWlseV9uYW1lIjpudWxsLCJnZW5kZXIiOm51bGwsImdpdmVuX25hbWUiOm51bGwsImlhdCI6MTYwMTQ2Njg3MiwiaXNzIjoiaHR0cHM6Ly9jbG91ZC1hcGkubG9naW5yYWRpdXMuY29tL3Nzby9vaWRjL3YyL2ludGVybmFsLWFwZWtzaGEvdGVzdCIsImp0aSI6ImYzMTk3YjQwLTJkY2QtNDQyMi04NzY1LWM0MDg0NmY2MGZiNCIsImxvY2FsZSI6bnVsbCwibWlkZGxlX25hbWUiOm51bGwsIm5hbWUiOm51bGwsIm5iZiI6MTYwMTQ2Njg3Miwibmlja25hbWUiOm51bGwsIm5vbmNlIjoidGVzdG1vdW5jZSIsInBob25lX251bWJlciI6bnVsbCwicGhvbmVfbnVtYmVyX3ZlcmlmaWVkIjpmYWxzZSwicGljdHVyZSI6bnVsbCwicHJlZmVycmVkX3VzZXJuYW1lIjpudWxsLCJwcm9maWxlIjpudWxsLCJzdWIiOiI3MjNiMDVmODBjNjQ0NjcyYjM0OTZhMjFiN2NmMzNkYyIsInVwZGF0ZWRfYXQiOjE2MDAyODg5NDYsIndlYnNpdGUiOm51bGwsInpvbmVpbmZvIjpudWxsfQ.SvMXwBqsVUt1P5qHXIfTh90UW6__Gte6sBqHaRGG52xQYSQQvvL66yzBY9Hwfui_I6s4-9W10cQJiaY1voV48rE1S9Fo_IMw_khwPxzPbWIg6EXrSReFd-jg4l-1NJ1YxnervOOkxrG5vvReU9uL3cAYcB7YpeO_ybQnUMj-TZyWFbI7L3sagrv239iXJc2zGuMxw4Kp1H8pjiu7L7-cx8ZsfVkgk6ZCO2Z8Ze46NBlXwGvsTPHh0qdoafi5ISB8DKnCiyU-CTZPYr91_1gJMG-1x98UDjiKy6vV4290W0HQXlrN2Y4Rxhnwlmyzs-5t38wgohvEyxvCy6Zvmxws-Q"
 }
