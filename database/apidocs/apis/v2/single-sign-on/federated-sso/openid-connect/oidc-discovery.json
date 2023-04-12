@@ -19,12 +19,12 @@
         ]
     },
   "outputFormat":{
-  "issuer": "https://cloud-api.loginradius.com/sso/oidc/v2/{site-name}/{oidcappname}",
-  "authorization_endpoint": "https://cloud-api.loginradius.com/sso/oidc/authorize",
-  "token_endpoint": "https://cloud-api.loginradius.com/sso/oidc/token",
-  "revocation_endpoint": "https://cloud-api.loginradius.com/sso/oidc/revoke",
-  "userinfo_endpoint": "https://cloud-api.loginradius.com/sso/oidc/userinfo",
-  "jwks_uri": "https://cloud-api.loginradius.com/sso/oidc/app-name/app-name/jwks",
+  "issuer": "https://{siteurl}/service/oidc/{oidcAppName}/",
+  "authorization_endpoint": "https://{siteurl}/service/oidc/{oidcAppName}/authorize",
+  "token_endpoint": "https://{siteurl}/api/oidc/{oidcAppName}/token",
+  "revocation_endpoint": "https://{siteurl}/api/oidc/{oidcAppName}/revoke",
+  "userinfo_endpoint": "https://{siteurl}/service/oidc/{oidcAppName}/userinfo",
+  "jwks_uri": "https://{siteurl}/service/oidc/{oidcAppName}/jwks",
   "scopes_supported": [
     "openid"
   ],
