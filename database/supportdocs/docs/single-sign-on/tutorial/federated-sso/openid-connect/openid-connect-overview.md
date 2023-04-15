@@ -40,6 +40,8 @@ To begin configuration you will need to click "Add" and fill out the form as fol
 
 - **Meta Data:** Specify the key-value pair of static non-profile data you want to receive in the ID Token payload.
 
+> **Note:** Now you don't have to provide **Secret Key** as LoginRadius automatically generates it for you.
+
 Once this is complete, click on **ADD**.
 
 ![OPEN](https://apidocs.lrcontent.com/images/image-20230407-110509_99136378264345f3f9a2cf2.31196040.png "OPEN")
