@@ -91,6 +91,9 @@ Click on **ADFS Providers** Tab.
 
 **Step 7:** In **ID PROVIDER CERTIFICATE** enter the certificate for IdP i.e ADFS.
 
+> **Note:** The **Service Provider Certificate** and its **Key** are now automatically generated from the backend in the Admin Console, with a default expiry time of **five years.**
+
+
 **Step 8:** For **RELAY STATE PARAMETER** enter **RelayState**.
 
 For **DATA MAPPING** select the LoginRadius' fields (SP fields) and enter the corresponding ADFS fields(IdP fields). Following are some of the field names of ADFS.
