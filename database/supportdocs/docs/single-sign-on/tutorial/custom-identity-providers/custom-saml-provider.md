@@ -42,6 +42,8 @@ The SAML Provider configuration fields appear on the same screen as displayed be
 
 **Step 7:** In **ID Provider Logout Url** enter the **SIGN-OUT ENDPOINT** which you get from the SAML account.
 
+> **Note:** The **Service Provider Certificate** and its **Key** are now automatically generated from the backend in the Admin Console, with a default expiry time of **five years.**
+
 **Step 8:** For **RELAY STATE PARAMETER** enter **RelayState**
 
 **Step 9:** For **DATA MAPPING** select the LoginRadius' fields (SP fields) and enter the corresponding SAML supported app fields (IdP fields) e.g.
