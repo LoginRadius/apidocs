@@ -50,6 +50,8 @@ You can block your customers which will restrict them or block them from logging
 
 Additionally, you can use our API and unblock user by using the access token, please check the below link of our [API document](/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token/).
 
+> **Note:**Alternatively you can block or unblock an account using the [**Account Update API**](/api/v2/customer-identity-api/account/account-update/) by passing the value of the **IsActive** field as **false or true** respectively. In case the passed value is **false**, the account will be **blocked**, whereas if the passed value is **true**, the account will be **unblocked.** 
+
 ## Add a new Customer
 
 You can manually add a new customer after adding the mandatory fields and because of this, they can avoid going through the full registration process. Once the mandatory fields are filled and the form is submitted, the new customer will be registered with your site. If email settings are configured for your site, you will be able to send a verification email.
