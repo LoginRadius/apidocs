@@ -121,7 +121,7 @@ See below for a comprehensive list of integrations that are available within Log
                 <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/salesforce_20416634f272956e0d1.94035127.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/salesforce/">Salesforce</a></span></td>
                 <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/zoho_30115634f27552f16b5.51688165.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/zoho/">Zoho</a></span></td>
                 <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/sugarcrm_3924634f27842322f8.74849548.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/sugarcrm/">SugarCRM</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/oie_1624119BF64QC2q_480695818643b44758367d4.88541594.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/mulesoft/">MuleSoft</a></span></td>
+                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/partner-technology-mulesoft-landscape-image-19-Jun-27-removebg-preview-1_15883517616440748618fad4.71239717.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/mulesoft/">MuleSoft</a></span></td>
                 <td></td><td></td><td></td>
             </tr>
             
