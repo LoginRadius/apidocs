@@ -42,18 +42,20 @@ The SAML Provider configuration fields appear on the same screen as displayed be
 
 **Step 7:** In **ID Provider Logout Url** enter the **SIGN-OUT ENDPOINT** which you get from the SAML account.
 
+**Step 8:** In **ID PROVIDER CERTIFICATE** enter the certificate for IdP i.e SAML.
+
 > **Note:** The **Service Provider Certificate** and its **Key** are now automatically generated from the backend in the Admin Console, with a default expiry time of **five years.**
 
-**Step 8:** For **RELAY STATE PARAMETER** enter **RelayState**
+**Step 9:** For **RELAY STATE PARAMETER** enter **RelayState**
 
-**Step 9:** For **DATA MAPPING** select the LoginRadius' fields (SP fields) and enter the corresponding SAML supported app fields (IdP fields) e.g.
+**Step 10:** For **DATA MAPPING** select the LoginRadius' fields (SP fields) and enter the corresponding SAML supported app fields (IdP fields) e.g.
 
 | Fields | Profile Key |
 |--|--|
 | Email | email |
 | FullName | username |
 
-**Step 10**: Once all the required fields are completed, scroll down and hit **Save**.
+**Step 11**: Once all the required fields are completed, scroll down and hit **Save**.
 
 > **Note:** You should have an account with the same email address in your SAML application as well as in LoginRadius before using your SAML application to login to the LoginRadius Admin Console.
 
