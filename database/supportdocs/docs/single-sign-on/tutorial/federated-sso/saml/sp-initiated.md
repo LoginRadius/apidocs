@@ -146,7 +146,13 @@ Use the following values to configure your application for SP and IDP initiated 
 
 **Step 1:** Identity provider Login URL (SSO Endpoint): `https://<LoginRadius Site Name>/service/saml/idp/login?apikey=<APIKey>&appname=<SAMLAppName>`
 
-**Step 2:** Use LoginRadius Certificate generated during the **IDP** Configuration in [Step 6](#step6).
+**Step 2:** Use the LoginRadius certificate in your Service Provider application. To obtain the LoginRadius certificate, which is automatically generated from the backend, you can download the metadata file from the Admin Console after completing the configuration process. Please refer to the screenshot below for further clarification.
+
+  ![Metadata](https://apidocs.lrcontent.com/images/metadata_379381277643fc8455ca438.21222777.png "Metadata")
+
+After opening the downloaded metadata file, the certificate will be visible as below:
+
+  ![certificate](https://apidocs.lrcontent.com/images/certificate_617284963643fc8a9068e55.30320893.png "certificate")
 
 **Step 3:** In the **Issuer** or **EntityID** fields, enter your LoginRadius site URL (we can enter any other Entity ID URL, and the same value should be added for the **APP AUDIENCES** field in the LoginRadius Admin Console.): `https://<LoginRadius Site Name>.hub.loginradius.com/`
 
