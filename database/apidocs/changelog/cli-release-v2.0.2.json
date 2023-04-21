@@ -3,7 +3,7 @@
     "changelog": {
         "ADDED": [
             {
-                "text": "<strong>Domain Whitelisting/blacklist feature</strong> to manage your white/black listed domain for your application."
+                "text": "<strong>Domain whitelisting/blacklist feature</strong> to manage your white/black listed domain for your application."
             },
             {
                 "text": "Social Login provider configuration feature."
