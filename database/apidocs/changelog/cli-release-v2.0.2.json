@@ -1,5 +1,5 @@
 { "name": "CLI Release V2.0.2",
-    "description": "The beta version of <a href='https://github.com/LoginRadius/lr-cli#readme'><strong>LoginRadius CLI</strong></a>, a brand-new tool that enables you to use the command line interface to accomplish simple LoginRadius Admin Console tasks, is now available. The notable features are as follows:",
+    "description": "The beta version of <strong>LoginRadius CLI</strong>, a brand-new tool that enables you to use the command line interface to accomplish simple LoginRadius Admin Console tasks, is now available. This can be downloaded from <a href='https://github.com/LoginRadius/lr-cli#readme'><strong>here</strong></a>. The notable features are as follows:",
     "changelog": {
         "ADDED": [
             {
