@@ -6338,10 +6338,6 @@
   "newLink": "governance/customer-profiling/data-security/"
 },
 { 
-  "oldLink": "api/v2/integrations/overview",
-  "newLink": "integrations/overview/"
-},
-{ 
   "oldLink": "api/v2/integrations/available-integrations",
   "newLink": "integrations/available-integrations/"
 },
