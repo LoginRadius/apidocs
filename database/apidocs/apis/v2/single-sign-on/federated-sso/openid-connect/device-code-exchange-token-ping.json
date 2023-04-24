@@ -46,7 +46,7 @@
             "description": "Enter the device code"
         },
         {
-            "name": "Grant-Type",
+            "name": "grant_type",
         "is_required": true,
         "description": "Value should be used as <strong>urn:ietf:params:oauth:grant-type:device_code</strong>"
         }
