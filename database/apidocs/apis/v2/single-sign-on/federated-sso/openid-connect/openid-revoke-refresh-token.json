@@ -6,8 +6,8 @@
   "getparams": {},
   "postparams": {
     "client_id": "",
-    "client_secret":"",
-    "token":""
+    "client_secret": "",
+    "token": ""
   },
   "headers": {
     "content-Type": "application/json"
@@ -16,11 +16,17 @@
   "description": "This API allows you to expire a refresh_token",
   "parameters": {
     "Template Params": [
-	  {
-            "name": "oidcappname",
-            "is_required": true,
-            "description": "The name for the ODIC App you have configured in the LoginRadius Admin Console."
-          }        ],
+      {
+        "name": "siteurl",
+        "is_required": true,
+        "description": "Hosted/Custom Domain"
+      },
+      {
+        "name": "oidcappname",
+        "is_required": true,
+        "description": "The name for the ODIC App you have configured in the LoginRadius Admin Console."
+      }
+    ],
     "Body Params": [
       {
         "name": "client_id",
@@ -31,13 +37,13 @@
         "name": "client_secret",
         "is_required": true,
         "description": "Your LoginRadius API Secret."
-      },{
+      },
+      {
         "name": "token",
         "is_required": true,
         "description": "This is the refresh_token you received when you used the Access Token by OpenID code API call."
       }
     ]
   },
-  "outputFormat": {
-  }
+  "outputFormat": {}
 }

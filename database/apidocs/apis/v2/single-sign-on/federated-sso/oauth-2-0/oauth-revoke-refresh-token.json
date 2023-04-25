@@ -15,6 +15,18 @@
   "response":"",
   "description": "This API is used to revoke the refresh token access and that revoked token can not be used further to refresh access token.",
   "parameters": {
+    "Template Params": [
+      {
+        "name": "siteurl",
+        "is_required": true,
+        "description": "Hosted/Custom Domain"
+      },
+      {
+        "name": "oauthappname",
+        "is_required": true,
+        "description": "The name for the Oauth App you have configured in the LoginRadius Admin Console."
+      }
+    ],
     "Body Params": [
       {
         "name": "client_id",

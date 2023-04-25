@@ -13,6 +13,11 @@
   "parameters": {
     "Template Params": [
       {
+        "name": "siteurl",
+        "is_required": true,
+        "description": "Hosted/Custom Domain"
+      },
+      {
         "name": "oidcappname",
         "is_required": true,
         "description": "The name for the ODIC App you have configured in the LoginRadius Admin Console."
