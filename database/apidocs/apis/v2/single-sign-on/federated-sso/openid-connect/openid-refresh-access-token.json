@@ -8,7 +8,6 @@
     "grant_type": "refresh_token",
     "client_id": "",
     "client_secret": "",
-    "response_type": "token",
     "refresh_token": ""
   },
   "headers": {
@@ -46,19 +45,9 @@
         "description": "LoginRadius API Secret"
       },
       {
-        "name": "response_type",
-        "is_required": false,
-        "description": "If used, you must pass 'token'"
-      },
-      {
         "name": "refresh_token",
         "is_required": true,
         "description": "this is the refresh_token you received when you used the 'Access Token by OpenID Connect code' API call"
-      },
-      {
-        "name": "scope",
-        "is_required": true,
-        "description": "The scope for the Open ID profile, use 'openid profile'."
       }
     ]
   },
