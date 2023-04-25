@@ -47,6 +47,11 @@
         "description": "LoginRadius API Secret"
       },
       {
+        "name": "redirect_uri",
+        "is_required": true,
+        "description": "Redirection URI"
+      },
+      {
         "name": "response_type",
         "is_required": false,
         "description": "If used, needs to be 'token'"
