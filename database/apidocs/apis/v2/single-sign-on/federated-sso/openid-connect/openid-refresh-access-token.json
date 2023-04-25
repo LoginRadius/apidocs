@@ -1,14 +1,13 @@
 {
   "name": "Refresh Access Token",
-  "domain": "https://cloud-api.loginradius.com",
-  "path": "/sso/oidc/v2/{oidcappname}/token",
+  "domain": "",
+  "path": "https://{siteurl}/api/oidc/{OIDCAppName}/token",
   "method": "POST",
   "getparams": {},
   "postparams": {
     "grant_type": "refresh_token",
     "client_id": "",
     "client_secret": "",
-    "response_type": "token",
     "refresh_token": ""
   },
   "headers": {
@@ -17,13 +16,20 @@
   "response": "json",
   "description": "This API allows you to refresh an access_token, use access tokens to ensure a user has access to the appropriate resources, and these access tokens typically have a limited lifetime. This is done for various security reasons: for one, limiting the lifetime of the access token limits the amount of time an attacker can use a stolen token. In addition, the information contained in or referenced by the access token could become stale. When access tokens expire or become invalid but the application still needs to access a protected resource, the application faces the problem of getting a new access token without forcing the user to once again grant permission. To solve this problem, OAuth 2.0 introduced an artifact called a refresh token. A refresh token allows an application to obtain a new access token without prompting the user.",
   "parameters": {
-        "Template Params": [
-	  {
-            "name": "oidcappname",
-            "is_required": true,
-            "description": "The name for the ODIC App you have configured in the LoginRadius Admin Console."
-          }        ],
-    "Body Params": [{
+    "Template Params": [
+      {
+        "name": "siteurl",
+        "is_required": true,
+        "description": "Hosted/Custom Domain"
+      },
+      {
+        "name": "oidcappname",
+        "is_required": true,
+        "description": "The name for the ODIC App you have configured in the LoginRadius Admin Console."
+      }
+    ],
+    "Body Params": [
+      {
         "name": "grant_type",
         "is_required": true,
         "description": "This is the grant type to be used, you should provide 'refresh_token'"
@@ -39,19 +45,9 @@
         "description": "LoginRadius API Secret"
       },
       {
-        "name": "response_type",
-        "is_required": false,
-        "description": "If used, you must pass 'token'"
-      },
-      {
         "name": "refresh_token",
         "is_required": true,
         "description": "this is the refresh_token you received when you used the 'Access Token by OpenID Connect code' API call"
-      },
-      {
-        "name": "scope",
-        "is_required": true,
-        "description": "The scope for the Open ID profile, use 'openid profile'."
       }
     ]
   },

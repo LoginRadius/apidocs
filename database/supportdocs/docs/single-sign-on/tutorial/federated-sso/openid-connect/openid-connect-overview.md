@@ -12,33 +12,39 @@ You can configure your OpenID Connect settings in the LoginRadius Admin Console 
 
 **Platform Configuraton ➔ Access Configuration ➔ Federated SSO ➔ (left sidebar) OpenID Connect**<br>
 
-![OpenID1](https://apidocs.lrcontent.com/images/sso-1_89456391884167edc1.73494008.png "OpenID1")
+![OpenID1](https://apidocs.lrcontent.com/images/image-20230407-110053_145825224864345eaf95ddb8.04147039.png "OpenID1")
 
 To begin configuration you will need to click "Add" and fill out the form as follows:
 
 - **App Name:** The name of your OpenID Connect App.
 
-- **Secret Key:** You will need to generate an OpenID Connect Secret using RS256 and add it here. You can get the **secret Key** by running the following command:
-
-```
-openssl genrsa -out key.pem 2048
-```
-
-Additionally, you can use the following command to generate the **Public key** from the private key that will be used to verify generated JWT id_token.
-
-```
-openssl rsa -in key.pem -outform PEM -pubout -out public.pem
-```
-
 - **Algorithm:** The algorithm you would like to use for OpenID Connect (RS256 is currently the only algorithm supported).
+
+- **Grant Type:** Select the option by using which the app will obtain the access token.
+
+- **Token Expiration (Seconds):** Specify the Access Token lifetime, and after that time, the access token will expire.
+
+- **ID Token Expiration (Seconds):** Specify the ID token lifetime, and after that time, the ID token will expire.
+
+- **Token Endpoint Auth Method:** Select the client authentication method to authenticate the Authorization Server while using the token endpoint.
+
+- **Scopes:** Select the access privileges requested for Access Tokens.
+
+- **Force Reauthentication:** If checked, reauthentication is required for the authorization request. Otherwise, reauthentication is not applicable.
+
+- **Signed User Info:** If checked, user info is returned as a signed JWT Token otherwise, in JSON format.
+
+- **Audiences:** Enter the resource server, which will accept the OIDC.
 
 - **Data Mapping:** Enter your desired fields and how they map out. The left column is how they will show up in the JWT, the right column is the field name in the LoginRadius profile, you can either select through the list or search the profile key. Keep in mind that for some of the profile fields you will need to use dot notation to access them.
 
-- **Expiry time in Seconds:** Specify the OIDC expiry time, after the specified time token will expire.
+- **Meta Data:** Specify the key-value pair of static non-profile data you want to receive in the ID Token payload.
 
-Once this is complete, click on **Save**.
+> **Note:** Now you don't have to provide **Secret Key** as LoginRadius automatically generates it for you.
 
-![OPEN](https://apidocs.lrcontent.com/images/sso-2_46663918878eb7295.50185406.png "OPEN")
+Once this is complete, click on **ADD**.
+
+![OPEN](https://apidocs.lrcontent.com/images/image-20230407-110509_99136378264345f3f9a2cf2.31196040.png "OPEN")
 
 ## OpenID Connect Flows
 
@@ -53,17 +59,17 @@ you choose to leverage, you will need to add different query parameters to the U
 
 |               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| client_id     | (required) Loginradius API Key                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| client_id     | (required) [LoginRadius API key](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | redirect_uri  | (required) This is the URI to which the response should be sent. This must be whitelisted in the App Section in Admin Console.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| response_type | (required) This defines the processing flow to be used when forming the response.<br><br>Authorization Flow:<br>response_type: code<br><br>Implicit Flow:<br>response_type: token<br>response_type: token id_token<br><br>Hybrid Flow:<br>response_type: code token<br>response_type: code id_token<br>response_type: code token id_token                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| response_type | (required) This defines the processing flow to be used when forming the response.<br><br>Authorization Flow:<br>response_type: code<br><br>Implicit Flow:<br>response_type: id_token<br>response_type: token id_token<br><br>Hybrid Flow:<br>response_type: code token<br>response_type: code id_token<br>response_type: code token id_token                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | state         | (optional) It is recommended that the client’s use this parameter to maintain state between the request and the callback. Typically, Cross-Site Request Forgery (CSRF, XSRF) mitigation is done by cryptographically binding the value of this parameter with a browser cookie.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | scope         | (required) This is a space-delimited list of the scopes requested by the client. It must contain the value **openid** to indicate that the application intends to use OIDC. This may also contain other values e.g. `openid`, `profile`,`email`, `phone`, `address` . If you pass only the required parameter **openid** in scope then the id_token in the [userinfo](https://www.loginradius.com/docs/api/v2/single-sign-on/federated-sso/openid-connect/userinfo-by-access-token/) API response will contain only the mapped fields under the OIDC configuration in Admin Console.If you are looking to get additional profile fields in the id_token in the [userinfo](https://www.loginradius.com/docs/api/v2/single-sign-on/federated-sso/openid-connect/userinfo-by-access-token/) API rsponse, you can pass the additional scopes with **openid**. The list of supported scopes and claims in the id_token can be found [here](#listofscopesandclaims5). |
 | nonce         | (optional) This serves as a token validation parameter, used to associate a client authentication with an ID Token for mitigating replay attacks. If this value is used, it will be included as a Claim in the ID Token. Clients should verify that this nonce Claim value is equal to the value set in the Authorization Request.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | response_mode | (optional) Informs the Authorization Server of the mechanism to be used for returning parameters from the Authorization Endpoint<br><br>There are three types of response mode<br><br>query → Authorization response will be append in the redirect_uri as the query string.<br> (Ex→ example.com&state=fgfgfg&code=ffgfgfgfgf)<br><br>fragment → Authorization response will be append in the redirect_uri using the fragment (Ex→ example.com#state=fgfgfg&code=ffgfgfgfgf).<br><br>form_post → Authorization response will be posted on the redirect uri, Default Response Mode if not provided<br><br>Authorization code flow → query<br>Implicit Flow → fragment<br>Hybrid Flow → fragment                                                                                                                                                                                                                                                                 |
 | ui_locales    | (optional) End-User's preferred languages and scripts for the user interface, represented as a space-separated list of BCP47 [RFC5646] language tag values, ordered by preference. For instance, the value "fr-CA fr en" represents a preference for French as spoken in Canada, then French (without a region designation), followed by English (without a region designation)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| display       | (optional) specifies how the Authorization Server displays the authentication and consent user interface pages to the End-User. The defined values are<br>page - authentication will be open in the page<br>popup- authentication will be open in the popup<br>These parameter is send over the hosted<br>page as query string, and hosted page will handle the display type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| prompt        | (optional) specifies the Authorization Server prompts the End-User for reauthentication and consent. The defined values are<br>login - it will asked for the reauthentication<br>none - The <br>Authorization Server MUST NOT display any authentication or consent user interface pages. An error is returned if user is not authenticated.<br>These parameter is send over the hosted page as query string, and hosted page will handle the display type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| claims        | (optional) Client applications can alternatively request claims via the optional claims parameter. which needs<br>Setting the exact names of the requested claims<br>Which claims should be delivered at the UserInfo endpoint and which in the ID token<br>The claims request parameter is represented by a simple JSON object that has two members -- userinfo and id_token, which content indicates which claims to return<br>`{ "id_token" : { "email" : null, "email_verified" : null }, "userinfo" { "email" : null, "email_verified" : null, "name" : null } }`<br><br>or<br>`{ "id_token" : { "email" : { "essential" : true }, "email_verified" : { "essential" : true }}, "userinfo" { "email" : { "essential" : true }, "email_verified" : null, "name" : { "essential" : true }} }`<br>`{ "essential" : true }` means the claim should be available in the token but also it should be in the user profile.                                         |
+| display       | (optional) specifies how the Authorization Server displays the authentication and consent user interface pages to the End-User. The defined values are<br>**1.** page - authentication will be open in the page<br>**2.** popup- authentication will be open in the popup<br>These parameter is send over the hosted page as query string, and hosted page will handle the display type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| prompt        | (optional) specifies the Authorization Server prompts the End-User for reauthentication and consent. The defined values are<br>**1.** login - it will asked for the reauthentication<br>**2.** none - The Authorization Server MUST NOT display any authentication or consent user interface pages. An error is returned if user is not authenticated.<br>These parameter is send over the hosted page as query string, and hosted page will handle the display type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| claims        | (optional) Client applications can alternatively request claims via the optional claims parameter. which needs<br>- Setting the exact names of the requested claims<br>- Which claims should be delivered at the UserInfo endpoint and which in the ID token<br>The **claims** request parameter is represented by a simple JSON object that has two members -- userinfo and id_token, which content indicates which claims to return<br>`{ "id_token" : { "email" : null, "email_verified" : null }, "userinfo" { "email" : null, "email_verified" : null, "name" : null } }`<br><br>or<br>`{ "id_token" : { "email" : { "essential" : true }, "email_verified" : { "essential" : true }}, "userinfo" { "email" : { "essential" : true }, "email_verified" : null, "name" : { "essential" : true }} }`<br>`{ "essential" : true }` means the claim should be available in the token but also it should be in the user profile.                                         |
 | id_token_hint | (optional) ID Token previously issued by the Authorization Server being passed as a hint about the End-User's current or past authenticated session with the Client. If the End-User identified by the ID Token is logged in or is logged in by the request, then the Authorization Server returns a positive response; otherwise, it will return a login_required error, and invalidate the current access token.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | login_hint    | (optional) Hint to the Authorization Server about the login identifier (Email or PhoneId) the End-User might use to log in (if necessary). If the End-User profile matches that of the login identifier, Authorization Server will return a positive response. Otherwise, it will return a login_required error and invalidate the associated access token. In the future, support could be added to pass this value as a hint to the authorization service. It is RECOMMENDED that the hint value match the value used for discovery.                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | max_age       | (optional) Maximum Authentication Age. Specifies the allowable elapsed time in seconds since the last time the End-User was actively authenticated by the OP. If the elapsed time is greater than this value, the OP MUST attempt to actively re-authenticate the End-User. When max_age is used, the ID Token returned MUST include an auth_time Claim Value.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -75,11 +81,13 @@ The authorization code flow (as the title implies) returns an authorization code
 
 This flow obtains the authorization code from the authorization endpoint and all tokens are returned from the token endpoint.
 
-#####Opening the Login Dialog / Authorization Endpoint - Authorization Code Flow
+##### Opening the Login Dialog / Authorization Endpoint - Authorization Code Flow
 
 Redirect your user to the following URL to get the login prompt:
 
-`https://cloud-api.loginradius.com/sso/oidc/v2/{oidcappname}/authorize?client_id={LoginRadius API key}&redirect_uri={Callback URL}&scope={Scope}&response_type={one of the response_types available}&state={random long string}&scope=openid&nonce={Unique Generated nonce}`
+`https://<siteurl>/service/oidc/{OIDCAppName}/authorize?client_id={LoginRadius API key}&redirect_uri={Callback URL}&scope={Scope}&response_type={one of the response_types available}&state={random long string}&scope=openid&nonce={Unique Generated nonce}`
+
+> **Note:** This **siteurl** field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of siteurl.
 
 <br>
 **Available Query Parameters **
@@ -90,7 +98,7 @@ Redirect your user to the following URL to get the login prompt:
   - scope: To get values mapped in the admin console configuration you must need to pass the openid as value. If you are looking to get additional profile fields in the id_token, you can pass the additional scopes with **openid**. The list of supported scopes and claims in the id_token can be found [here](#listofscopesandclaims5)
   - nonce: a unique generated nounce.
 
-#####Receiving the Code - Authorization Code Flow
+##### Receiving the Code - Authorization Code Flow
 
 Should the customer authenticate successfully the code will be returned as follows:
 
@@ -145,11 +153,13 @@ The hybrid flow is a combination of aspects from the previous two. This flow all
 
 This flow can obtain an authorization code and tokens from the authorization endpoint, and can also request tokens from the token endpoint.
 
-#####Opening the Login Dialog / Authorization Endpoint - Hybrid Flow
+##### Opening the Login Dialog / Authorization Endpoint - Hybrid Flow
 
 Redirect your user to the following URL to get the login prompt:
 
-`https://cloud-api.loginradius.com/sso/oidc/v2/{oidcappname}/authorize?client_id={LoginRadius API key}&redirect_uri={Callback URL}&scope={Scope}&response_type={one of the response_types available}&state={random long string}&scope=openid&nonce={Unique Generated nonce}`
+`https://<siteurl>/service/oidc/{OIDCAppName}/authorize?client_id={LoginRadius API key}&redirect_uri={Callback URL}&scope={Scope}&response_type={one of the response_types available}&state={random long string}&scope=openid&nonce={Unique Generated nonce}`
+
+> **Note:** This **siteurl** field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of siteurl.
 
 **Available Query Parameters **
 
@@ -212,7 +222,7 @@ Scopes are passed in the Authorization Request as a query string, For the openID
 We can pass the multiple scopes separated by space for example:
 
 ```
-https://cloud-api.loginradius.com/sso/oidc/v2/oidctest/authorize?scope=openid%20email&client_id=94fa4f2xxxxxxxxxxxxf4124753841bd&redirect_uri=https://example.com/response1.php&response_type=code&state=7d3dfb2dfgdfgdfdfdf
+https://<siteurl>/service/oidc/{OIDCAppName}/authorize?scope=openid%20email&client_id=94fa4f2xxxxxxxxxxxxf4124753841bd&redirect_uri=https://example.com&response_type=code&state=7d3dfb2dfgdfgdfdfdf
 
 ```
 ## Device Code Flow
@@ -241,9 +251,9 @@ There are two devices ( one input restricted device and other browser-based devi
 
 **Browser-based Device**
 
-1.  On the **verification URL**, the consumer will enter the device_code, the customer will be redirected to the Device Code Confirm URL with the user_code `(https://<siteurl>/service/oidc/<OidcAppName>/device/confirm?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)`
+1.  On the **verification URL**, the consumer will enter the device_code, the customer will be redirected to the Device Code Confirm URL with the user_code `(https://<siteurl>/service/oidc/<OidcAppName>/device/authorize?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)`
 
-2.  The Device Code Confirm URL with the user_code `(https://<siteurl>/service/oidc/<OidcAppName>/device/confirm?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)` will show the IDX page to login.
+2.  The Device Code Confirm URL with the user_code `(https://<siteurl>/service/oidc/<OidcAppName>/device/authorize?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)` will show the IDX page to login.
     
 3.  After login, the consumer will be redirected to the **afterverificationURL**.
 
@@ -273,9 +283,9 @@ The following explains the implementation sequence for Device Code Flow:
 |  |  |
 |--|--|
 | Method | POST |
-| Endpoint | `https://{siteurl}/api/oidc/{OidcAppName}/device/code` <br><br>Note: where siteurl is the LoginRadius IDX domain url, e.g., `<LR appname>.hub.loginradius.com`. If you are using a custom domain for your IDX page, then use custom domain value in place of siteurl.|
+| Endpoint | `https://{siteurl}/api/oidc/{OidcAppName}/device` <br><br>Note: where siteurl is the LoginRadius IDX domain url, e.g., `<LR appname>.hub.loginradius.com`. If you are using a custom domain for your IDX page, then use custom domain value in place of siteurl.|
 |Header|application/json OR application/x-www-form-urlencoded|
-|Body (json content type)|{<br>"client_id": "<APIKey>",<br>"scope": "openid email profile"<br>} <br><br>Note: <br>**1.** Please see [LoginRadius API key](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0) for how to get APIkey for your app.<br>**2.** Scope: [optional] (e.g email profile)|
+|Body (json content type)|{<br>"client_id": `<APIKey>`,<br>"scope": "openid email profile"<br>} <br><br>Note: <br>**1.** Please see [LoginRadius API key](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0) for how to get APIkey for your app.<br>**2.** Scope: [optional] (e.g email profile)|
 |Response|{<br>"interval": 10,<br>"expires_in": 1800,<br>"device_code": "1522d771f27b408baca35eca7d81c37d",<br>"user_code": "MXD-TPV",<br>"verification_uri":"https://example.com/federation/device/activate.php,<br>"verification_uri_complete":"https://example.com/federation/device/activate.php?user_code=MXD-TPV"<br>}|
 
 **Step 2:** Use the device_code and keep calling [**Device Code Exchange (Ping API)**](/api/v2/single-sign-on/federated-sso/openid-connect/device-code-exchange-token-ping/) till you get the access token.
@@ -285,10 +295,10 @@ The following explains the implementation sequence for Device Code Flow:
 | Method | POST |
 | Endpoint | `https://{siteurl}/api/oidc/{OidcAppName}/token` |
 | Header | application/json OR application/x-www-form-urlencoded |
-| Body (json content type) | {<br>"client_id": "<APIKey>",<br>"grant_type":"urn:ietf:params:oauth:grant-type:device_code",<br>"response_type": "token",<br>"device_code": <Device Code generated from the Get Device Code API><br>} |
+| Body (json content type) | {<br>"client_id": `<APIKey>`,<br>"grant_type":"urn:ietf:params:oauth:grant-type:device_code",<br>"response_type": "token",<br>"device_code": <Device Code generated from the Get Device Code API><br>} |
 | Response | {<br>"expires_in": 3598,<br>"refresh_token": "d87cc355cdc61a6b...507",<br>"access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzMWVlYz...Vn33edUA0hQCSA",<br>"token_type": "Bearer",<br>"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzMWVlYzU2OD...2BTNoyTPC0dAzw"<br>} |
 
-**Step 3:** Once the consumer enters the **user_code** value on the **verificationURL** on the browser-based device, redirect the consumer to the Device Code Confirm URL with the **device_code** `(https://<siteurl>/service/oidc/<OidcAppName>/device/confirm?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)`
+**Step 3:** Once the consumer enters the **user_code** value on the **verificationURL** on the browser-based device, redirect the consumer to the Device Code Confirm URL with the **device_code** `(https://<siteurl>/service/oidc/<OidcAppName>/device/authorize?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)`
 
 **Step 4:** LoginRadius will show IDX page and the consumer logs in successfully on the IDX.  After successful authentication, the consumer will be redirected to **AfterVerificationURL**.
 
@@ -373,4 +383,4 @@ Our [JSON Web Key Set](/api/v2/single-sign-on/openid/get-json-web-key-set) API C
 The [OIDC Discovery](/api/v2/single-sign-on/openid/oidc-discovery) API Endpoint provides a client with configuration details about the OpenID Connect metadata of Loginradius App.
 
 URL Format:
-`https://cloud-api.loginradius.com/sso/oidc/v2/{sitename}/{oidcappname}/.well-known/openid-configuration`
+`https://{siteurl}/service/oidc/{OIDCAppName}/.well-known/openid-configuration`

@@ -1,60 +1,73 @@
 {
-    "name": "Application Request Access Token",
-    "domain": "https://cloud-api.loginradius.com",
-    "path": "/sso/oidc/v2/{oidcappname}/token",
-    "method": "POST",
-    "getparams": {},
-    "postparams": {
-        "client_id": "",
-        "client_secret": "",
-        "redirect_uri":"",
-        "response_type":"token",
-        "grant_type": "",
-        "code":""
-    },
-    "headers": {
-        "content-Type": "application/json"
-    },
-    "response": "json",
-    "description": "This API allows you to exchange your OpenID code for a LoginRadius access_token",
-    "parameters": {
-        "Template Params": [
-	  {
-            "name": "oidcappname",
-            "is_required": true,
-            "description": "The name for the ODIC App you have configured in the LoginRadius Admin Console."
-          }        ],
-        "Body Params": [
-          {
-            "name": "grant_type",
-            "is_required": true,
-            "description": "This is the grant type to be used, you should provide 'authorization_code'"
-          },
-          {
-            "name": "client_id",
-            "is_required": true,
-            "description": "LoginRadius API Key"
-          },
-          {
-            "name": "client_secret",
-            "is_required": true,
-            "description": "LoginRadius API Secret"
-          },{
-            "name": "response_type",
-            "is_required": false,
-            "description": "If used, needs to be 'token'"
-          },{
-            "name": "code",
-            "is_required": true,
-            "description": "The authorization_code obtained during the Authorization process."
-          }
-        ]
-    },
-    "outputFormat": {
-      "access_token": "********-****-****-*****************",
-      "token_type": "access_token",
-      "expires_in": 394,
-      "refresh_token": "********-****-****-*****************",
-      "id_token": "eyJhbG**********4NiIsInR5cCI*****VCJ9.eyJpc3**********czy****udGVybmFsL"
-    }
+  "name": "Application Request Access Token",
+  "domain": "",
+  "path": "https://{siteurl}/api/oidc/{OIDCAppName}/token",
+  "method": "POST",
+  "getparams": {},
+  "postparams": {
+    "client_id": "",
+    "client_secret": "",
+    "redirect_uri": "",
+    "response_type": "token",
+    "grant_type": "",
+    "code": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API allows you to exchange your OpenID code for a LoginRadius access_token",
+  "parameters": {
+    "Template Params": [
+      {
+        "name": "siteurl",
+        "is_required": true,
+        "description": "Hosted/Custom Domain"
+      },
+      {
+        "name": "oidcappname",
+        "is_required": true,
+        "description": "The name for the ODIC App you have configured in the LoginRadius Admin Console."
+      }
+    ],
+    "Body Params": [
+      {
+        "name": "grant_type",
+        "is_required": true,
+        "description": "This is the grant type to be used, you should provide 'authorization_code'"
+      },
+      {
+        "name": "client_id",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+        "name": "client_secret",
+        "is_required": true,
+        "description": "LoginRadius API Secret"
+      },
+      {
+        "name": "redirect_uri",
+        "is_required": true,
+        "description": "Redirection URI"
+      },
+      {
+        "name": "response_type",
+        "is_required": false,
+        "description": "If used, needs to be 'token'"
+      },
+      {
+        "name": "code",
+        "is_required": true,
+        "description": "The authorization_code obtained during the Authorization process."
+      }
+    ]
+  },
+  "outputFormat": {
+    "access_token": "********-****-****-*****************",
+    "token_type": "access_token",
+    "expires_in": 394,
+    "refresh_token": "********-****-****-*****************",
+    "id_token": "eyJhbG**********4NiIsInR5cCI*****VCJ9.eyJpc3**********czy****udGVybmFsL"
+  }
 }

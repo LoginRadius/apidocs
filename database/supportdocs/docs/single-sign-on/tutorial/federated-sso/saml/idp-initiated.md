@@ -109,6 +109,8 @@ Some Examples of Field Mappings:
 
 **Step 16:** Click the **ADD A SAML APP** button to save the app settings. 
 
+> **Note:** The **Identity Provider Certificate** and its **Key** are now automatically generated from the backend in the Admin Console, with a default expiry time of **five years.**
+
 Once you are done configuring the SAML app in the in Admin Console, you can view the recent success or error logs data for your SSO connection in the [Troubleshoot section](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/trouble-shoot). To view the latest logs, click the Refresh button.
 
 ![SAML Logs](https://apidocs.lrcontent.com/images/sso-7_2189663918b726e9a42.92739165.png "SAML Logs")
@@ -128,7 +130,13 @@ Use the following values to configure your application for IDP  initiated login 
 
 **Step 1:**  Identity provider Login URL (SSO Endpoint): `https://<LoginRadius Site Name>/service/saml/idp/login?apikey=<APIKey>&appname=<SAMLAppName>`.
 
-**Step 2:** Use LoginRadius Certificate  generated during the IDP Configuration in [Step 6](#step6).
+**Step 2:** Use the LoginRadius certificate in your Service Provider application. To obtain the LoginRadius certificate, which is automatically generated from the backend, you can download the metadata file from the Admin Console after completing the configuration process. Please refer to the screenshot below for further clarification.
+
+  ![Metadata](https://apidocs.lrcontent.com/images/metadata_379381277643fc8455ca438.21222777.png "Metadata")
+
+After opening the downloaded metadata file, the certificate will be visible as below:
+
+  ![certificate](https://apidocs.lrcontent.com/images/certificate_617284963643fc8a9068e55.30320893.png "certificate")
 
 **Step 3:**  In the Issuer or EntityID fields, enter your LoginRadius site URL (we can enter any other Entity ID URL, and the same value should be added for the **APP AUDIENCES** field in the LoginRadius Admin Console.): 
 
