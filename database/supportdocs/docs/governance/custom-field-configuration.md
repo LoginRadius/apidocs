@@ -6,7 +6,7 @@ Add custom field in your Registration interface during field creation on your Lo
 
 1. Log in to your LoginRadius <a href = https://adminconsole.loginradius.com/ target=_blank>**Admin Console**</a>
 2. Click on "Platform Configuration"
-3. Click on <a href = https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/data-schema target=_blank>Standard Login
+3. Click on <a href = https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/data-schema target=_blank><strong>Standard Login</strong></a>
 4. On the right-hand side click on "Custom Fields"
 5. Click on the "Add Custom field" and input the Field Name and hit "Add"
    <br><br>![](https://apidocs.lrcontent.com/images/cfl1_184175e91c867b66ff0.10724851.png "Custom Fields")

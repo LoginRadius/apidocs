@@ -1,7 +1,7 @@
 {
     "name": "Refresh Access Token",
-    "domain": "https://cloud-api.loginradius.com",
-    "path": "/sso/oauth/access_token/refresh",
+    "domain": "",
+    "path": "https://{siteurl}/api/oauth/{OauthAppName}/token",
     "method": "POST",
     "getparams": {},
     "postparams": {
@@ -16,6 +16,18 @@
     "response": "json",
     "description": "This API allows to refresh an access_token",
     "parameters": {
+      "Template Params": [
+        {
+          "name": "siteurl",
+          "is_required": true,
+          "description": "Hosted/Custom Domain"
+        },
+        {
+          "name": "oauthappname",
+          "is_required": true,
+          "description": "The name for the Oauth App you have configured in the LoginRadius Admin Console."
+        }
+      ],
         "Body Params": [
           {
             "name": "client_id",

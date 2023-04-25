@@ -1,7 +1,7 @@
 {
     "name": "Request Device Code",
     "domain": "",
-    "path": "https://{siteurl}/api/oidc/{OidcAppName}/device/code",
+    "path": "https://{siteurl}/api/oidc/{OidcAppName}/device",
     "method": "POST",
     "getparams": {},
     "postparams": {

@@ -47,9 +47,9 @@ Following is the step-by-step guide to Implementing Oauth 2.0 with LoginRadius
 
   
 
-- [LoginRadius Admin Console Configuration](#loginradiusadminconsoleconfiguration3)
+- [LoginRadius Admin Console Configuration](#loginradiusadminconsoleconfiguration4)
     
-- [Oauth 2.0 Implementation](#oauthimplementation4)
+- [Oauth 2.0 Implementation](#oauthimplementation5)
     
 - [Supported Query Parameter](#supportedqueryparameter13)
   
@@ -60,9 +60,31 @@ Following is the step-by-step guide to Implementing Oauth 2.0 with LoginRadius
 
 #### LoginRadius Admin Console Configuration
 
-  
+You can configure your Oauth 2.0 settings in the LoginRadius Admin Console under:
 
-To configure Oauth 2.0 with LoginRadius, only API Credentials are required and to get the credentials please refer to this [document](/api/v2/admin-console/platform-security/api-key-and-secret/).
+**Platform Configuration ➔ Access Configuration ➔ Federated SSO ➔ OAuth2**
+
+![Oauth2.0](https://apidocs.lrcontent.com/images/Federated-Sso-LoginRadius-User-Dashboard_302654186643af2b31b1de8.06516769.png "Oauth2.0")
+
+To begin configuration you will need to click "Add App" and fill out the form as follows:
+
+- **AppName:** The name of your OpenID Connect App.
+
+- **Algorithm:** The algorithm you would like to use for OpenID Connect (RS256 is currently the only algorithm supported).
+
+- **Grant Type:** Select the option by using which the app will obtain the access token.
+
+- **Token Expiration (Seconds):** Specify the Access Token lifetime, and after that time, the access token will expire.
+
+- **Token Endpoint Auth Method:** Select the client authentication method to authenticate the Authorization Server while using the token endpoint.
+
+- **Force Reauthentication:** If checked, reauthentication is required for the authorization request. Otherwise, reauthentication is not applicable.
+
+> **Note:** Now you don't have to provide **Secret Key** as LoginRadius automatically generates for you.
+
+Once this is complete, click on **ADD**.
+
+![Oauth2.0 implementation](https://apidocs.lrcontent.com/images/Federated-Sso-LoginRadius-User-Dashboard-1_617202360643af3eb36a3e7.78967436.png "Oauth2.0 implementation")
 
 #### OAuth 2.0 Implementation
 
@@ -114,8 +136,10 @@ To begin with Authorization Code flow, your application should redirect the cons
 
 **Api Endpoint:**
 ```
-https://cloud-api.loginradius.com/sso/oauth/redirect?client_id={LoginRadius API key}&redirect_uri={Callback URL}&scope={Scope}&response_type=code&state={random long string}
+https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id={LoginRadius API key}&redirect_uri={Callback URL}&scope={Scope}&response_type=code&state={random long string}
 ```
+
+> **Note:** This **siteurl** field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of siteurl.
 
 **API Method: GET**
 
@@ -147,7 +171,7 @@ To retrieve the access token, the client must submit the code generated in **Ste
 
 **API Endpoint:**
 ```
-https://cloud-api.loginradius.com/sso/oauth/access_token
+https://<siteurl>/api/oauth/{OAuthAppName}/token
 ```
 **API Method: POST**
 
@@ -160,12 +184,14 @@ Here is an explanation of the Request Body Parameter :
 - **client_id:** [required] [LoginRadius API key](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
     
 - **redirect_uri:** [required] Callback URL of your site where you want to redirect back your customers.
+
+- **grant_type:** [required] Value for this flow must be 'authorization_code' always.
     
 - **client_secret:** [required] [LoginRadius API secret](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
     
 - **code:** [required] The parameter received from the Login Dialog redirect above.
     
-- **response_type:** [required] Value must be 'token' always
+- **response_type:** [optional] Value must be 'token' always.
  
 **API Response containing the access_token:**
 ```
@@ -197,19 +223,19 @@ The code_challenge and code_challenge_method parameters are only required in PKC
 
 API Endpoint:
 ```
-https://cloud-api.loginradius.com/sso/oauth/redirect?client_id={client_id}&redirect_uri={Callback URL}&scope={Scope}&response_type=code&state={random long string}&code_challenge={code challenge}&code_challenge_method=SHA256
+https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id={client_id}&redirect_uri={Callback URL}&scope={Scope}&response_type=code&state={random long string}&code_challenge={code challenge}&code_challenge_method=SHA256
 ```
 **API Method: GET**
 
 **Available Query Parameters**
 
--   **client_id:** [optional] [Loginradius API key](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
+-   **client_id:** [required] [Loginradius API key](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
     
 -   **redirect_uri:** [required] This will be the callback URL of your site where you want to redirect back your users for e.g https://abc.com.
     
 -  **state:** [optional] A random string that returned with the `access_token` in the redirect callback. This parameter will be returned as it is and as part of the response.
     
--   **scope:** [required]  Should be set to one of the values, e.g., `openid`.
+-   **scope:** [optional]  Should be set to one of the values, e.g., `openid`.
     
 -   **response_type:** [required] Possible value is only 'code' to specify that you are doing the Authorization Code flow.
     
@@ -243,7 +269,7 @@ In the code exchange request, we need to pass the code we have received through 
 
 **API Endpoint:**
 ```
-https://cloud-api.loginradius.com/sso /oauth/access_token
+https://<siteurl>/api/oauth/{OAuthAppName}/token
 ```
 
 **API Method: POST**
@@ -255,6 +281,7 @@ https://cloud-api.loginradius.com/sso /oauth/access_token
 "client_secret":"<Your LoginRadius API Secret>",
 "redirect_uri":"redirect_uri",
 "response_type":"token",
+"grant_type": "authorization_code",
 "code":"code value", // That we have received in authorization request
 "code_verifier": "code verifier value" // generated in the first step
 }
@@ -270,6 +297,8 @@ Here is an explanation of the Request Body Parameter :
 -   **client_secret:** [optional if using code verifier] Loginradius app api secret,
     
 -   **redirect_uri:**[required] callback url passed in the authorization API,
+
+-   **grant_type:**[required] Value for this flow must be 'authorization_code' always.
     
 -   **response_type:** [required] token,
     
@@ -318,7 +347,7 @@ To begin with Implicit flow , your application should redirect the consumer to t
 
 **API Endpoint:**
 ```
-https://cloud-api.loginradius.com/sso/oauth/redirect?client_id={LoginRadius API key}&redirect_uri={Callback URL}&scope={Scope}&response_type=code&state={random long string}
+https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id={LoginRadius API key}&redirect_uri={Callback URL}&scope={Scope}&response_type=token&state={random long string}
 ```
 **API Method: GET**
 
@@ -368,8 +397,11 @@ The Resource Owner Password Credentials Grant flow allows you to obtain an acces
 
 **API Endpoint:**
 ```
-https://cloud-api.loginradius.com/sso/oauth/access_token
+https://<siteurl>/api/oauth/{OauthAppName}/token
 ```
+
+> **Note:** This **siteurl** field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of siteurl.
+
 **API Method: POST**
 
 Request Body:
@@ -379,7 +411,8 @@ Request Body:
 "client_secret": "<Your LoginRadius API Secret>",
 "grant_type": "password",
 "username": "<Should be, email/phoneid/username of the customer>",
-"password": "<The password of the account to login>"
+"password": "<The password of the account to login>",
+"response_type": "<'token' for this flow>"
 }
 ```
 **Available Request Body Parameters:**
@@ -388,13 +421,15 @@ Here is an explanation of the Request Body Parameters :
 
 -   **client_id:** [required] [LoginRadius API key.](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
     
--   **client_secret:** [required] [LoginRadius API secret.](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
+-   **client_secret:** [optional] [LoginRadius API secret.](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
     
 -   **grant_type:** [required] Value must always be 'password'.
     
 -   **username:** [required] You must provide the customer's email/username/phoneid, depending on how you have configured LoginRadius for authentication.
     
 -   **password:** [required] The customer's account password.
+
+-   **response_type:** [optional] Value must be 'token' always.
 
 **API Response containing the access token**
 ```
@@ -457,11 +492,11 @@ There are two devices ( one input restricted device and other browser-based devi
 
   
 
-1. On the **verification URL**, the consumer will enter the device_code, the customer will be redirected to the Device Code Confirm URL with the user_code `(https://<siteurl>/service/oauth/<OAuthAppName>/device/confirm?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)`
+1. On the **verification URL**, the consumer will enter the device_code, the customer will be redirected to the Device Code Confirm URL with the user_code `(https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)`
 
   
 
-2. The Device Code Confirm URL with the user_code `(https://<siteurl>/service/oauth/<OAuthAppName>/device/confirm?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)` will show the IDX page to login.
+2. The Device Code Confirm URL with the user_code `(https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)` will show the IDX page to login.
 
 3. After login, the consumer will be redirected to the **afterverificationURL**.
 
@@ -481,17 +516,17 @@ To enable the device code flow feature for your account, you need to [**create a
 
   
 
-- **Expiry time for device_code (in seconds)**
+- **Expiry time for device_code (in seconds)** Specify the device code lifetime, and after that time, the device code will expire.
 
-- **Expiry time for access_token (in seconds)**
+- **Expiry time for access_token (in seconds):** Specify the Access Token lifetime, and after that time, the access token will expire.
 
-- **Expiry time for Id_token (in seconds)**
+- **Expiry time for Id_token (in seconds):** Specify the ID token lifetime, and after that time, the ID token will expire.
 
 - **VerificationUrl:** Please provide the URL of page where the user will enter the user code
 
-- **AfterVerificationUrl:** Please provide the URL of page where after successful authentication, user will be redirected)
+- **AfterVerificationUrl:** Please provide the URL of page where after successful authentication, user will be redirected.
 
-- **UserCodeMask:** The pattern which will be used to generate the device_code, e.g., `***-*** => ACS-Q23, **-**-** => AX-4R-AW`, etc.)
+- **UserCodeMask:** The pattern which will be used to generate the device_code, e.g., `***-*** => ACS-Q23, **-**-** => AX-4R-AW`, etc.
 
   
 
@@ -504,9 +539,9 @@ The following explains the implementation sequence for Device Code Flow:
 | | |
 |--|--|
 | Method | POST |
-| Endpoint | `https://{siteurl}/api/oauth/{OAuthAppName}/device`  <br><br>Note: where siteurl is the LoginRadius IDX domain url, e.g., `<LR appname>.hub.loginradius.com`. If you are using a custom domain for your IDX page, then use custom domain value in place of siteurl.|
+| Endpoint | `https://{siteurl}/api/oauth/{OAuthAppName}/device`  <br><br> Note: where siteurl is the LoginRadius IDX domain url, e.g., `<LR appname>.hub.loginradius.com`. If you are using a custom domain for your IDX page, then use custom domain value in place of siteurl.|
 |Header|application/json OR application/x-www-form-urlencoded|
-|Body (json content type)|{<br>"client_id": "<APIKey>",<br>"scope": "openid email profile"<br>} <br><br>Note: <br>**1.** Please see [LoginRadius API key](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0) for how to get APIkey for your app.<br>**2.** Scope: [optional] (e.g email profile)|
+|Body (json content type)|{<br>"client_id": `<APIKey>`<br>} <br><br>Note: <br>**1.** Please see [LoginRadius API key](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0) for how to get APIkey for your app.|
 |Response|{<br>"interval": 10,<br>"expires_in": 1800,<br>"device_code": "1522d771f27b408baca35eca7d81c37d",<br>"user_code": "MXD-TPV",<br>"verification_uri":"https://example.com/federation/device/activate.php,<br>"verification_uri_complete":"https://example.com/federation/device/activate.php?user_code=MXD-TPV"<br>}|
   
 **Step 2:** Use the device_code and keep calling **Device Code Exchange (Ping API)** till you get the access token.
@@ -516,10 +551,10 @@ The following explains the implementation sequence for Device Code Flow:
 | Method | POST |
 | Endpoint | `https://{siteurl}/api/oauth/{OAuthAppName}/token` |
 | Header | application/json OR application/x-www-form-urlencoded |
-| Body (json content type) | {<br>"client_id": "<APIKey>",<br>"grant_type":"urn:ietf:params:oauth:grant-type:device_code",<br>"response_type": "token",<br>"device_code": <Device Code generated from the Get Device Code API><br>} |
+| Body (json content type) | {<br>"client_id": `<APIKey>`,<br>"grant_type":"urn:ietf:params:oauth:grant-type:device_code",<br>"response_type": "token",<br>"device_code": `<Device Code generated from the Get Device Code API>`<br>} |
 | Response | {<br>"expires_in": 3598,<br>"refresh_token": "d87cc355cdc61a6b...507",<br>"access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzMWVlYz...Vn33edUA0hQCSA",<br>"token_type": "Bearer"<br>} |
 
-**Step 3:** Once the consumer enters the **user_code** value on the **verificationURL** on the browser-based device, redirect the consumer to the Device Code Confirm URL with the **device_code**  `(https://<siteurl>/service/oauth/<OAuthAppName>/device/confirm?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)`
+**Step 3:** Once the consumer enters the **user_code** value on the **verificationURL** on the browser-based device, redirect the consumer to the Device Code Confirm URL with the **device_code**  `(https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)`
 
 **Step 4:** LoginRadius will show IDX page and the consumer logs in successfully on the IDX. After successful authentication, the consumer will be redirected to **AfterVerificationURL**.
 

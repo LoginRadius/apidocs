@@ -1,0 +1,21 @@
+{ "name": "CLI Release V2.0.2",
+    "description": "The beta version of <strong>LoginRadius CLI</strong>, a brand-new tool that enables you to use the command line interface to accomplish simple LoginRadius Admin Console tasks, is now available. This can be downloaded from <a href='https://github.com/LoginRadius/lr-cli#readme'><strong>here</strong></a>. The notable features are as follows:",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "<strong>Domain whitelisting/blacklist feature</strong> to manage your white/black listed domain for your application."
+            },
+            {
+                "text": "Social Login provider configuration feature."
+            },
+            {
+                "text": "Theme management feature to update the LoginRadius IDX Page theme for predefined themes available through LoginRadius CLI."
+            },
+            {
+                "text": "The CLI can be used to control features like <strong>App Credentials, Login/Logout choices, SMTP Configuration, and Access Restrictions</strong>."
+            }
+        ]},
+    "auther": "Himanshu Rai",
+    "created_date": "2023-04-22",
+    "status": "public"
+}
