@@ -1,4 +1,4 @@
-# Welcome to the LoginRadius CLI BETA
+# Welcome to the LoginRadius CLI [**BETA**](#)
 
 ## Introduction
 
@@ -324,12 +324,12 @@ lr get site [flags]
 ```
 $ lr get site --all
 All sites: 
-+--------+-----------------+-------------------------+
-|   ID   |      NAME       |         DOMAIN          |
-+--------+-----------------+-------------------------+
-| 111111 | new-test1       | https://mail7.io        |
-| 122222 | my-app-final    | loginradius.com         | 
-| 142670 | trail-pro       | https://loginradius.com | 
++--------+-----------------+-------------------------+-----------------+
+|   ID   |      NAME       |         DOMAIN          |      ROLES      |
++--------+-----------------+-------------------------+-----------------+
+| 111111 | new-test1       | https://mail7.io        |     Owner       |
+| 122222 | my-app-final    | loginradius.com         |     Admin       |
+| 142670 | trail-pro       | https://loginradius.com |     Marketing   | 
 
 $ lr get site --active
 Current site: 
@@ -509,7 +509,7 @@ From Email Id: <Email ID>
 --help   Show help for command
 ```
 ### lr get access-restriction
-Use this command to get the list of the whitelist/blacklist Domains/Emails
+Use this command to get Whitelisted/Blacklisted Domains/Emails and Allowed/Denied IP/IP Range.
 
 #### Syntax
 ```
@@ -709,7 +709,7 @@ SMTP settings are verified
 --help   Show help for command
 ```
 ### lr add access-restriction
-Use this command to Whitelist/Blacklist Domain/Email or to disable access restriction.
+Use this command to add access restriction for Domain/Email or IP/IP Range.
 
 #### Syntax
 ```
@@ -884,7 +884,7 @@ SMTP settings are verified
 --help   Show help for command
 ```
 ### lr set access-restriction
-Use this command to update the whitelisted/blacklisted Domains/Emails.
+Use this command to update Access Restriction for Domain/Email and IP/IP Range.
 
 #### Syntax
 ```
@@ -1071,7 +1071,7 @@ Settings have been reset successfully
 ```
 
 ### lr delete access-restriction
-Use this command to remove the whitelisted/blacklisted Domains/Emails.
+Use this command to deletes access restriction for Domain/Email or IP/IP Range.
 
 #### Syntax
 ```
@@ -1091,8 +1091,8 @@ IP authorization settings are saved successfully.
 
 #### Options
 ```
-      --all-domain                Enter Denied IP or IP Range Value you want to delete
-      --all-ip                    Enter Allowed IP or IP Range Value you want to delete
+      --all-domain                Delete all domain (It disables the Domain/Email access restriction)
+      --all-ip                    Deletes all IP or IP Range (It also disables all IP /IP Range access restriction)
   -a, --allowed-ip string         Enter Allowed IP or IP Range Value you want to delete
   -b, --blacklist-domain string   Enter Blacklist Domain/Email Value you want to delete
   -d, --denied-ip string          Enter Denied IP or IP Range Value you want to delete
