@@ -7356,6 +7356,66 @@
 {
   "oldLink": "authentication/FAQ/supported-browsers",
   "newLink": "authentication/faq/supported-browsers/"
+},
+{
+  "oldLink": "developer",
+  "newLink": ""
+},
+{
+  "oldLink": "developer/guide/fed-sso",
+  "newLink": "single-sign-on/tutorial/federated-sso/overview/"
+},
+{
+  "oldLink": "developer/concepts/jwt",
+  "newLink": "single-sign-on/tutorial/federated-sso/jwt-login/jwt-login-overview/"
+},
+{
+  "oldLink": "developer/guide/big-commerce",
+  "newLink": "libraries/turn-key-plugins/bigcommerce-stencil-plugin/"
+},
+{
+  "oldLink": "developer/guide/oidc",
+  "newLink": "single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/"
+},
+{
+  "oldLink": "developer/concepts/sott",
+  "newLink": "api/v2/customer-identity-api/sott-usage/"
+},
+{
+  "oldLink": "developer/guide/customize-auth-page",
+  "newLink": "libraries/identity-experience-framework/customization/"
+},
+{
+  "oldLink": "developer/tutorial/node-js",
+  "newLink": "libraries/sdk-libraries/node-js-library/"
+},
+{
+  "oldLink": "developer/faq",
+  "newLink": "authentication/faq/support-faq/"
+},
+{
+  "oldLink": "developer/tutorial/python",
+  "newLink": "libraries/sdk-libraries/python-library/"
+},
+{
+  "oldLink": "developer/tutorial/php",
+  "newLink": "libraries/sdk-libraries/php-library/"
+},
+{
+  "oldLink": "developer/howto/work-with-sott",
+  "newLink": "api/v2/customer-identity-api/sott-usage/"
+},
+{
+  "oldLink": "developer/howto/authentication-theme",
+  "newLink": "libraries/identity-experience-framework/customization/#authenticationpage3/"
+},
+{
+  "oldLink": "developer/guide/mfa",
+  "newLink": "security/user-security/multi-factor-authentication/"
+},
+{
+  "oldLink": "developer/howto/dashboard-setup",
+  "newLink": "api/v2/admin-console/overview/"
 }
 ]
 
