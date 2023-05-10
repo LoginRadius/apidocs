@@ -235,7 +235,7 @@ https://<siteurl>/service/oidc/{OIDCAppName}/authorize?scope=openid%20email&clie
 
 This flow enables OIDC clients on such devices (like smart TVs, media consoles, digital picture frames, and printers) to obtain user authorization to access protected resources without using an on-device user agent.
 
-### Flow Diagram:
+### Flow Diagram
 
 ![FLOW](https://apidocs.lrcontent.com/images/Ae-1_987862fe5b8525d752.10393295.png "FLOW")
 
