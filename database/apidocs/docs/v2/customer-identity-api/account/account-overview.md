@@ -10,7 +10,7 @@ There are four types of request methods that can be made:
 - [Account APIs related to profile update](#accountapisrelatedtoprofileupdate2)
 - [Account APIs related to delete profile](#accountapisrelatedtodeleteprofile3)
 
-
+> **Note:** The **Account API** is designed to use an API key and API secret which offers **management capabilities**. It is typically used for backend processes and is not subject to the **security restrictions** of the **Admin Console**.
 
 #### Account APIs for registration
 

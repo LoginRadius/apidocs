@@ -178,7 +178,13 @@ The following screen will appear:
 
 > **Note:** Once configured, no separate deployment is required to access this feature in the IDX or JS implementation of the LoginRadius Identity Platform
 
-## Part 5 - Next Steps
+## Part 5 - Account APIs / Management APIs
+
+ The **Account API** is designed to use an API key and API secret which offers **management capabilities**. It is typically used for backend processes and is not subject to the **security restrictions** of the **Admin Console**.
+
+For example, these APIs are suitable for management purposes, enabling you to customize dashboards as needed. However, it is not recommended to use them for front-end purposes.
+
+## Part 6 - Next Steps
 
 The following is the list of features you might want to add-on to the above implementation:
 
