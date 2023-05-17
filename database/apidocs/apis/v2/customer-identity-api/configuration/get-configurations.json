@@ -209,7 +209,8 @@
       "IsRequired": true,
       "IsGoogleAuthenticator": false,
       "IsEmailOTPAuthenticator": true,
-      "IsSecurityQuestionAuthenticator": true
+      "IsSecurityQuestionAuthenticator": true,
+      "IsSmsOTPAuthenticator": false
     },
     "IsRememberMe": true,
     "V2RecaptchaSiteKey": "",
