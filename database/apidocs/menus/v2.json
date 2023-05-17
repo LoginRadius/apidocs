@@ -1510,6 +1510,11 @@
         "url": "v2/customer-identity-api/refresh-token/revoke-refresh-token/",
         "title": "Revoke Refresh Token",
         "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/refresh-token/revoke-all-refresh-token/",
+        "title": "Revoke All Refresh Token",
+        "type": "DELETE"
       }
     ],
     "Smart Login": [
