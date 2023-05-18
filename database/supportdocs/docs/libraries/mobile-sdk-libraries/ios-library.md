@@ -42,7 +42,7 @@ target 'TargetName' do
 
 # Comment the next line if you don't want to use dynamic frameworks
 use_frameworks!
-pod 'LoginRadiusSDK', '~> 5.7.0'
+pod 'LoginRadiusSDK', '~> 5.8.0'
 end
 ```
 
@@ -230,7 +230,7 @@ return LoginRadiusSDK.sharedInstance().application(app, open: url, sourceApplica
 
 }
 ...
-}
+
 
 ````</pre>
 </div>
@@ -888,7 +888,7 @@ You can follow the original guide over at Twitter's [documentation](https://dev.
 
 Or follow these steps:
 
-1) Instantiate the TwitterKit in `AppDelegate` during app launch
+**1.** Instantiate the TwitterKit in `AppDelegate` during app launch
 
 <div class="tabssections">
 <div class="tabs">
@@ -918,7 +918,7 @@ Or follow these steps:
 </div>
 </div>
 
-2) Add these in your `Info.plist`
+**2.** Add these in your `Info.plist`
 
 ````
 
@@ -939,7 +939,7 @@ Or follow these steps:
 
 ````
 
-3) Linking your UIButton to Twitter Native Login link it with LoginRadius on success
+**3.** Linking your UIButton to Twitter Native Login link it with LoginRadius on success
 
 <div class="tabssections">
 <div class="tabs">
@@ -999,7 +999,7 @@ Or follow these steps:
 </div>
 
 
-4) Add these code to handle Twitter's URL Redirection in `AppDelegate`
+**4.** Add these code to handle Twitter's URL Redirection in `AppDelegate`
 
 <div class="tabssections">
 <div class="tabs">
@@ -1034,7 +1034,7 @@ Or follow these steps:
 </div>
 
 
-5) As the final step, handle Twitter log out
+**5.** As the final step, handle Twitter log out
 
 <div class="tabssections">
 <div class="tabs">
@@ -1157,7 +1157,7 @@ Follow these steps:
 </div>
 
 
-8) You have to exchange the Google token with LoginRadius Token. Call the following function in the SignIn delegate method after successful sign in.
+**8.** You have to exchange the Google token with LoginRadius Token. Call the following function in the SignIn delegate method after successful sign in.
 
 <div class="tabssections">
 <div class="tabs">
@@ -1222,7 +1222,7 @@ func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError err
 </div>
 
 
-9) As the final step, add the google native signOut on your logout button.
+**9.** As the final step, add the google native signOut on your logout button.
 
 <div class="tabssections">
 <div class="tabs">
@@ -1318,7 +1318,9 @@ Call the function to start Authentication using TouchID.
 <span class="deactive">Swift</span>
 </div>
 <div class="tabsarea">
-<div tabarea="Objective-C" class="active"><pre>```
+<div tabarea="Objective-C" class="active"><pre>
+
+```
 [[LRTouchIDAuth sharedInstance] localAuthenticationWithFallbackTitle:@"" completion:^(BOOL success, NSError *error) {
     if (success) {
         NSLog(@"successfully authenticated with touch id");
@@ -1327,7 +1329,8 @@ Call the function to start Authentication using TouchID.
     }
 }];
 
-```</pre>
+```
+</pre>
 </div>
 <div tabarea="Swift" class="deactive">
 <pre>```
@@ -1346,6 +1349,139 @@ LRTouchIDAuth.sharedInstance().localAuthentication(withFallbackTitle: "", comple
 This way, on logout, the access token, and user profile are conserved, and the TouchID UI appears.
 You can use the TouchID authentication to go to the profile page. You can only do this if the user logged in once using social login or traditional login.
 
+## Face ID
+
+Face ID revolutionizes authentication using facial recognition. Biometric authentication for iOS applications is implemented using the Local Authentication Framework. For detailed information, please refer to the following link https://developer.apple.com/documentation/localauthentication/logging_a_user_into_your_app_with_face_id_or_touch_id.
+
+LoginRadius SDK contains a helper named FaceID. You can use this helper to authenticate using facial recognition, to enable the biometric authentication using face id you need to include the [**NSFaceIDUsageDescription**](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW75) (Privacy - Face ID Usage Description) key in your app’s **Info.plist** file. Without this key, the system won’t allow your app to use Face ID. The value for this key is a string that the system presents to the user the first time your app attempts to use Face ID.
+
+|Key|Type|Value|
+|---|----|----|
+|Privacy - Face ID Usage Description | String | This app uses facial recognition |
+
+Please call the following function for facilitating facial recognition:
+
+<div class="tabssections">
+<div class="tabs">
+<span class="active">Objective-C</span>
+<span class="deactive">Swift</span>
+</div>
+<div class="tabsarea">
+<div tabarea="Objective-C" class="active"><pre>
+
+```
+[[LRFaceIDAuth sharedInstance]localAuthenticationWithFallbackTitle:@""    completion:^(BOOL success, NSError *error) {
+        if (success){
+            NSLog(@"Successfully authenticated with Face ID");
+            [self showProfileController];
+        }
+ else{
+            NSLog(@"Error: %@", [error description]);
+        }
+    }];
+```
+</pre>
+</div>
+<div tabarea="Swift" class="deactive">
+<pre>```
+LRFaceIDAuth.sharedInstance().localAuthentication(withFallbackTitle: " ", completion: { 
+        (success, error) in
+            if let err = error{
+                self.showAlert(title: "ERROR", message: err.localizedDescription)
+            }else{
+                self.showAlert(title: "SUCCESS", message:"Valid User")
+                print("Face ID authentication successfull")
+                self.showProfileController()
+            }
+        })
+```</pre>
+</div>
+</div>
+</div>
+
+If you want to validate the type of biometry supported by your device i.e., either FaceID or TouchID, you can use the following code:
+
+<div class="tabssections">
+<div class="tabs">
+<span class="active">Objective-C</span>
+<span class="deactive">Swift</span>
+</div>
+<div class="tabsarea">
+<div tabarea="Objective-C" class="active"><pre>
+
+```
+- (void) biometryType
+ {
+    LAContext *laContext = [[LAContext alloc] init];
+    
+    NSError *error;
+
+    if ([laContext  canEvaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics error:&error]) {
+
+        if (error != NULL) {
+            NSLog(error.description);
+        } else {
+
+            if (@available(iOS 11.0.1, *)) {
+                if (laContext.biometryType == LABiometryTypeFaceID) {
+                    //localizedReason = "Unlock using Face ID"
+                    [self showFaceIDLogin];
+                    NSLog(@"FaceId support");
+                    
+                } else if (laContext.biometryType == LABiometryTypeTouchID) {
+                    //localizedReason = "Unlock using Touch ID"
+                    [self showTouchIDLogin];
+                    NSLog(@"TouchId support");
+
+                } else {
+                    //localizedReason = "Unlock using Application Passcode"
+                    NSLog(@"No Biometric support");
+                }
+
+            }
+        }
+    }
+ }
+```
+</pre>
+</div>
+<div tabarea="Swift" class="deactive">
+<pre>
+```
+func biometryType()
+    {
+        
+        let context = LAContext()
+            
+            var error: NSError?
+            
+            if context.canEvaluatePolicy(
+                LAPolicy.deviceOwnerAuthenticationWithBiometrics,
+                error: &error) {
+           if (error != nil) {
+               print(error?.description)
+           } else {
+               if #available(iOS 11.0.1, *) {
+                   if (context.biometryType == .faceID) {
+                       //localizedReason = "Unlock using Face ID"
+                       self.showFaceIDLogin()
+                      print("Face ID supports")
+                   } else if (context.biometryType == .touchID) {
+                       //localizedReason = "Unlock using Touch ID"
+                       self.showTouchIDLogin()
+                       print("TouchId support")
+                  } else {
+                       //localizedReason = "Unlock using Application Passcode"
+                     print("No Biometric support")
+                    }
+                }
+            }
+        }
+    }```
+</pre>
+</div>
+</div>
+</div>
 
 ## Face ID and Touch ID implementation for native iOS applications
 
@@ -1358,19 +1494,17 @@ Below are the implementation steps to authenticate a user using Face ID or Touch
 2.  After the successful authentication, the Access Token session will be created and validated as per the [Access Token lifetime](https://adminconsole.loginradius.com/platform-security/account-protection/session-management/token-lifetime) configured for your site.
     
 3.  Now you can leverage the below method to store the token and profile value in the session.
-    
-    ```
-     LRSession.init(accessToken:access_token as String, userProfile:data!)
-    ```
-  
-
+```
+LRSession.init(accessToken:access_token as String, userProfile:data!)
+```
 4.  You can make your users authenticate using Touch ID or Face ID each time they open the app, and the session will be continued as per their Access Token lifetime.
     
 5.  To check if the session already exists or not, use the below method:  
     ```
     let alreadyLoggedIn = LoginRadiusSDK.sharedInstance().session.isLoggedIn
     ```
-7.  Now you can implement the Touch ID and Face ID Native Code in your mobile application as per your business requirement.
+    
+6.  Now you can implement the Touch ID and Face ID Native Code in your mobile application as per your business requirement.
     
 
 Refer to the documentation [here](https://developer.apple.com/documentation/localauthentication/logging_a_user_into_your_app_with_face_id_or_touch_id) for more information on logging a user into your application with Touch ID or Face ID.
@@ -1421,8 +1555,264 @@ NSData *DecryptedValue = [[LoginRadiusEncryptor sharedInstance]EncryptDecryptTex
 NSString *myString:
 myString = [[NSString alloc] initWithData:DecryptedValue encoding:NSASCIIStringEncoding];
 NSLog(myString);
+```
+
+## IP Address
+
+This code retrieves the IP address of your iPhone.
+
+<div class="tabssections">
+<div class="tabs">
+<span class="active">Objective-C</span>
+<span class="deactive">Swift</span>
+</div>
+<div class="tabsarea">
+<div tabarea="Objective-C" class="active"><pre>
 
 ```
+#include <ifaddrs.h>
+#include <arpa/inet.h
+#include <net/if.h>
+- (NSString *)getIPAddress {
+   NSString *address = @"error";
+    struct ifaddrs *interfaces = NULL;
+    struct ifaddrs *temp_addr = NULL;
+    int success = 0;
+    
+    // retrieve the current interfaces - returns 0 on success
+    success = getifaddrs(&interfaces);
+    if (success == 0) {
+        // Loop through linked list of interfaces
+        temp_addr = interfaces;
+        while(temp_addr != NULL) {
+            if(temp_addr->ifa_addr->sa_family == AF_INET) {
+                // Check if interface is en0 which is the wifi connection on the iPhone
+                if([[NSString stringWithUTF8String:temp_addr->ifa_name] isEqualToString:@"en0"]) {
+                    // Get NSString from C String
+                    address = [NSString stringWithUTF8String:inet_ntoa(((struct sockaddr_in *)temp_addr->ifa_addr)->sin_addr)];
+                }
+                else if([[NSString stringWithUTF8String:temp_addr->ifa_name] isEqualToString:@"pdp_ip0"]) {
+                    // Get NSString from C String
+                    address = [NSString stringWithUTF8String:inet_ntoa(((struct sockaddr_in *)temp_addr->ifa_addr)->sin_addr)];
+                }
+            }
+            
+            temp_addr = temp_addr->ifa_next;
+        }
+    }
+    
+    // Free memory
+    freeifaddrs(interfaces);
+    
+    return address;
+}
+
+```
+</pre>
+</div>
+<div tabarea="Swift" class="deactive">
+<pre>
+```
+func getIPAddress() -> String? 
+{
+        var address : String?
+        // Get list of all interfaces on the local machine:
+        var ifaddr : UnsafeMutablePointer<ifaddrs>?
+        guard getifaddrs(&ifaddr) == 0 else { return nil }
+        guard let firstAddr = ifaddr else { return nil }
+        // For each interface ...
+        for ifptr in sequence(first: firstAddr, next: { $0.pointee.ifa_next }) {
+            let interface = ifptr.pointee
+            // Check for IPv4 or IPv6 interface:
+            let addrFamily = interface.ifa_addr.pointee.sa_family
+            if addrFamily == UInt8(AF_INET) || addrFamily == UInt8(AF_INET6) {
+                // Check interface name:
+                // wifi = ["en0"]
+                // wired = ["en2", "en3", "en4"]
+                // cellular = ["pdp_ip0","pdp_ip1","pdp_ip2","pdp_ip3"]
+                
+                let name = String(cString: interface.ifa_name)
+                if  name == "en0" || name == "en2" || name == "en3" || name == "en4" || name == "pdp_ip0" || name == "pdp_ip1" || name == "pdp_ip2" || name == "pdp_ip3" {
+                    // Convert interface address to a human readable string:
+                    var hostname = [CChar](repeating: 0, count: Int(NI_MAXHOST))
+                    getnameinfo(interface.ifa_addr, socklen_t(interface.ifa_addr.pointee.sa_len),
+                                &hostname, socklen_t(hostname.count),
+                                nil, socklen_t(0), NI_NUMERICHOST)
+                    address = String(cString: hostname)
+                }
+            }
+        }
+        freeifaddrs(ifaddr)
+        return address
+    }```
+</pre>
+</div>
+</div>
+</div>
+
+## Latitude and Longitude
+
+This method retrieves the current latitude and longitude of the location. Add a key **NSLocationAlwaysUsageDescription** in your info.plist.
+
+|Key|Type|Value|
+|---|----|----|
+|Privacy - Location Always Usage Description | String | App required Location |
+
+<div class="tabssections">
+<div class="tabs">
+<span class="active">Objective-C</span>
+<span class="deactive">Swift</span>
+</div>
+<div class="tabsarea">
+<div tabarea="Objective-C" class="active"><pre>
+
+```
+#import "ViewController.h"
+ #import <CoreLocation/CoreLocation.h>
+ @interface ViewController()
+  @end
+ @implementation ViewController
+ - (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+   
+    
+    _locationManager = [[CLLocationManager alloc] init];
+    _locationManager.delegate = self;
+    _locationManager.distanceFilter = kCLDistanceFilterNone;
+    _locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+           if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+               [self.locationManager requestWhenInUseAuthorization];{
+                   
+                   [_locationManager startUpdatingLocation];
+               }
+ 
+ }
+
+ - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
+     {
+        CLLocation *location = [locations lastObject];
+        NSLog(@"lat%f - lon%f", location.coordinate.latitude, location.coordinate.longitude);
+        [_locationManager stopUpdatingLocation];
+    }
+@end
+
+```
+</pre>
+</div>
+<div tabarea="Swift" class="deactive">
+<pre>
+```
+import UIKit
+import CoreLocation
+class ViewController: UIViewController, CLLocationManagerDelegate {
+    
+    let locationManager = CLLocationManager()
+    
+        override func viewDidLoad() 
+   {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        locationManager.delegate = self
+        locationManager.requestWhenInUseAuthorization()
+
+  //Call startUpdatingLocation Method to get the coordinates
+           locationManager.startUpdatingLocation()
+
+       
+    }
+ func locationManager(_ manager: CLLocationManager, didUpdateLocations    locations: [CLLocation]) {
+        guard let location = locations.last else { return }
+        let latitude = location.coordinate.latitude
+        let longitude = location.coordinate.longitude
+        print("Latitude: \(latitude), Longitude: \(longitude)")
+        locationManager.stopUpdatingLocation()
+       
+    }
+ }```
+</pre>
+</div>
+</div>
+</div>
+
+## Device OS Version
+
+This code retrieves the current ios version of your iPhone.
+
+<div class="tabssections">
+<div class="tabs">
+<span class="active">Objective-C</span>
+<span class="deactive">Swift</span>
+</div>
+<div class="tabsarea">
+<div tabarea="Objective-C" class="active"><pre>
+
+```
+- (void) OSVersion
+{
+  NSString *osVersion = [[UIDevice currentDevice] systemVersion];
+    NSLog(osVersion);
+
+}
+```
+</pre>
+</div>
+<div tabarea="Swift" class="deactive">
+<pre>
+```
+func OSVersion()
+    {
+        let osVersions = UIDevice.current.systemVersion
+        print("Device OS Version: \(osVersions)")
+    }
+```
+</pre>
+</div>
+</div>
+</div>
+
+## Device Type
+
+This code retrieves the machine code that represents the model of your iPhone, which indicates the type of device you own.
+
+<div class="tabssections">
+<div class="tabs">
+<span class="active">Objective-C</span>
+<span class="deactive">Swift</span>
+</div>
+<div class="tabsarea">
+<div tabarea="Objective-C" class="active"><pre>
+
+```
+#import <sys/utsname.h>
+
+ NSString* deviceName()
+   {
+       struct utsname systemInfo;
+       uname(&systemInfo);
+   
+       return [NSString stringWithCString:systemInfo.machine
+                                 encoding:NSUTF8StringEncoding];
+   }
+```
+</pre>
+</div>
+<div tabarea="Swift" class="deactive">
+<pre>
+```
+func deviceName() -> String {
+        var size = 0
+        sysctlbyname("hw.machine", nil, &size, nil, 0)
+        var machine = [CChar](repeating: 0, count: size)
+        sysctlbyname("hw.machine", &machine, &size, nil, 0)
+        return String(cString: machine)
+    }
+```
+</pre>
+</div>
+</div>
+</div>
+
 ## Logout
 
 Log out to the user.
