@@ -20,6 +20,8 @@ The following aspects of customer security are available in the LoginRadius Iden
 
 - [Force Logout](#partforcelogout6): If enabled, upon Password Reset or Password Change, it will expire all active sessions of a customer except the session in which the password has been reset/changed.
 
+> **Note:** The **Account APIs** utilize the API secret and have **management capabilities**. These are usually leveraged for backend processes; hence, they do not comply with the security settings in the Admin Console. For example, Even if you have set restrictions on certain domains under the [Platform Security > Account Protection > Auth Security > Access Restriction](https://adminconsole.loginradius.com/platform-security/account-protection/auth-security/access-restriction) section, you can still create an account with those blacklisted domains using the Account Create API.
+
 For more security aspects supported by LoginRadius Identity Platform, you can refer to the [Session Management](/authentication/concepts/session-management/) and [Password Policy](/authentication/concepts/password-policy) documents.
 
 > **Pre-requisites**: Basic knowledge of HTML and JavaScript.
