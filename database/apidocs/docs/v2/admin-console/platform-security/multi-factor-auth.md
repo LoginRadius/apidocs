@@ -55,6 +55,8 @@ The following are the steps to implement the Email Passcode as second-factor aut
 
 ## Configuring Google Authenticator
 
+> **Note:** In addition to Google Authenticator, LoginRadius supports configuring **Microsoft Authenticator**, **Twilio Authy Authenticator**, and various other authenticator applications that support both time-based one-time passwords (**TOTP**) and HMAC-based one-time passwords (**HOTP**) for authentication. You can conveniently manage these settings through the [same interface](https://adminconsole.loginradius.com/platform-security/multi-layered-security/multi-factor-authentication/google-authenticator) (as in the case of Google Authenticator) in the LoginRadius Admin Console. For further information, please reach out to [LoginRadius support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
+
 To get the authentication codes from Google Authenticator, you can configure the settings under the **Google Authenticator** section.
 
 - Click on **Select to enable** under the **Enable Google Authenticator App** section.
