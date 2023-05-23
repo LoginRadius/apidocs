@@ -96,11 +96,6 @@
           "url": "v2/admin-console/platform-configuration/Overview/",
           "title": "Overview",
           "type": "DOC"
-        },
-        {
-          "url": "v2/admin-console/platform-configuration/phone-login-configuration/",
-          "title": "Phone Login Configuration",
-          "type": "DOC"
         }
       ],
       "Communication Configuration": {
