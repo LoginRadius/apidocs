@@ -89,7 +89,7 @@ The following are some key points providing better clarity about LoginRadius act
 
 For the IDP initiated login, a customer is logged on to the LoginRadius site and attempts to access a protected SP resource. LoginRadius redirects the customer to LoginRadius SAML IDP initiated URL. The SAML IDP initiated URL automatically posts a SAML response to the SP. Then SP verifies the response. The login URL for this process is 
 ```
-https://<LoginRadius Site Name>/service/saml/idp/login?apikey=<APIKey>&appname=<SAMLAppName>
+https://<LoginRadius Site Name>/service/saml/idp/login?appname=<SAMLAppName>
 ```
 
 For implementing IDP Initiated Login using LoginRadius Identity Platform, refer to [this document](/single-sign-on/tutorial/federated-sso/saml/idp-initiated/).
@@ -264,5 +264,5 @@ The Assertion or the whole SAML Response is signed with an XML Signature that pr
 You can request to be logged out of LoginRadius, which will cause your customer to be logged out from all SSO sites. To enable the Single Logout feature, the service provider must support the SAML Single Logout protocol. The various logon sessions are not terminated if the SP does not support this protocol. Additionally, the user will not receive the appropriate notification of this failure. The logout URL for this request is 
 
  ```
-  https://<LoginRadius Site Name>/service/saml/idp/logout?apikey=<APIKey>&appname=<SAMLAppName>
+  https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>
  ```

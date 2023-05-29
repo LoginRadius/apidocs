@@ -34,7 +34,7 @@ From the given options, click the **Admin.** The Admin Settings screen will appe
 ![step](https://apidocs.lrcontent.com/images/domo5_276505edfefa47ae1b0.90285469.png "step")
 Select the **Manual Setup** and fill out the fields as per the details provided below.
 
-**Step 6:** In the **Identity provider endpoint URL** box, enter the URL ```:https://<LoginRadius Site Name>/service/saml/idp/login?apikey=<APIKey>&appname=<SAMLAppName>;```
+**Step 6:** In the **Identity provider endpoint URL** box, enter the URL ```:https://<LoginRadius Site Name>/service/saml/idp/login?appname=<SAMLAppName>;```
 ![step](https://apidocs.lrcontent.com/images/domo3_181055edfef01ed04f8.99702721.png "step")
 
 **Step 7:** In the **Entity ID box**, type a unique(your organization’s DOMO URL) entity ID: ```https://<<your-domoenvironment>>.domo.com```
@@ -55,7 +55,7 @@ Select the **Manual Setup** and fill out the fields as per the details provided 
 
 **Step 11:** Once you have **Mixed Login** disabled, In the **Advanced Settings section,** select **On logout, direct people to the following URL** checkbox, and type a redirect URL for logging out. 
 
-**Step 12:** You should now have a new field where you can enter the following Logout URL: ```https://<LoginRadius Site Name>/service/saml/idp/logout?apikey=<APIKey>&appname=<SAMLAppName>```
+**Step 12:** You should now have a new field where you can enter the following Logout URL: ```https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>```
 
 **Step 13:** In the upper-right corner, click **SAVE CONFIG**. 
 You have completed the required configuration in Domo. Now you can move over to [Configuring SAML in LoginRadius](#partconfigurationofsamlinloginradiusadminconsole2).

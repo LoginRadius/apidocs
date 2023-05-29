@@ -77,8 +77,8 @@ This section covers everything you need to configure **federated domain** on you
 
     ``` 
 $domainname = “<Your Domain Name>”
-$logoffuri = “https://<LoginRadius Site Name>/service/saml/idp/logout?apikey=<APIKey>&appname=<SAMLAppName>”
-$passivelogonuri = “https://<LoginRadius Site Name>/service/saml/idp/login?apikey=<APIKey>&appname=<SAMLAppName>”
+$logoffuri = “https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>”
+$passivelogonuri = “https://<LoginRadius Site Name>/service/saml/idp/login?appname=<SAMLAppName>”
 $cert = “<Your LoginRadius Certificate>”
 $issueruri = “https://<LoginRadius Site Name>.hub.loginradius.com/”
 $protocol = “SAMLP”
