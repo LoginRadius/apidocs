@@ -1,4 +1,4 @@
-# About LoginRadius Tokens#
+# About LoginRadius Tokens
 
 There are several tokens that are generated through the whole authentication process with LoginRadius. As it can be easy to get them confused, this guide provides information about each of the tokens below:
 
@@ -33,7 +33,21 @@ As part of our SSO (Single-Sign-On) workflows, the LoginRadius Radius Token is a
 
 E.g. [Auth Read all Profiles by Token](/api/v2/user-registration/auth-readall-profiles-by-token)
 
-2. When using LoginRadiusV2.js, upon a successful Login the Access Token is stored by default in the browser's localstorage and sessionstorage as LRTokenKey and in the cookies as lr-session-token
+2. When using LoginRadiusV2.js, upon a successful Login the Access Token is stored by default in the browser's localstorage and sessionstorage as LRTokenKey and in the cookies as lr-session-token.
+
+## LoginRadius Refresh token Token
+
+In LoginRadius Identity Platform, the **Refresh Token** is used to generate **Access Token**. Whenever an access token expires or becomes invalid, LoginRadius provides refresh token to the customer to obtain a new access token.
+
+Under the refresh token section, you can update time starting from 1 upto 525600 minutes (**Max: 365 days**) as per your business use case and if you want more than this, contact **LoginRadius support**.
+
+> **Note:**
+> - The **default expiration** of this token is **60 days (86400 minutes)**.
+> - The refresh token gets invalidated when either used **one time** to refresh the **access token** or when gets revoked by leveraging the **Revoke Refresh token** API manually.
+
+For revoking a single Refresh token manually you can leverage the [**Revoke Refresh token**](/api/v2/customer-identity-api/refresh-token/revoke-refresh-token/) API. However, if you would like to revoke all assigned Refresh tokens for a certain user you can leverage the [**Revoke All Refresh Token**](/api/v2/customer-identity-api/refresh-token/revoke-all-refresh-token/).
+
+For more information on Refresh token and its APIs, kindly refer this [**document**](/api/v2/customer-identity-api/refresh-token/overview/).
 
 ## Social Platform Token (Expiration: Varies by Network)
 
