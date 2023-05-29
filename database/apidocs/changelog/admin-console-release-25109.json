@@ -6,7 +6,7 @@
                 "text": "Now you can set up <strong>Google reCAPTCHA V3 and hCaptcha</strong> for authentication on your LoginRadius application or website from your Admin Console."
             },
             {
-                "text": "Now <strong>PinLogin</strong> feature can <strong>enabled/disabled</strong> from your LoginRadius Admin Console."
+                "text": "Now <strong>PinLogin</strong> feature can be <strong>enabled/disabled</strong> from your LoginRadius Admin Console."
             },
             {
                 "text": "Feature to use <strong>additional secret or secondary keys</strong> to encrypt webhook signatures has been added."
