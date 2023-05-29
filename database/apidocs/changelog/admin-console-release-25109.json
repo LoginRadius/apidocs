@@ -1,0 +1,31 @@
+{ "name": "Admin Console Release 25.10.9",
+    "description": "This release of the Admin Console brings you some new features, improvements and bug fixes. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Now you can set up <strong>Google reCAPTCHA V3 and hCaptcha</strong> for authentication on your LoginRadius application or website from your Admin Console."
+            },
+            {
+                "text": "Now <strong>PinLogin</strong> feature can <strong>enable/disable</strong> from your LoginRadius Admin Console."
+            },
+            {
+                "text": "Feature to use <strong>additional secret or secondary keys</strong> to encrypt webhook signatures has been added."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "Option to <strong>disable</strong> the <strong>SMS passcode</strong> authentication method in the MFA section under the Admin Console has been added."
+            },
+            {
+                "text": "While attempting to access the deprecated LoginRadius API endpoints, the response will show <strong>'404 Not Found'</strong> error."
+            }
+        ],
+        "FIXED": [
+            {
+              "text": "Issue with the email address appearing in <strong>both verified and unverified</strong> sections at the same time has been <strong>fixed</strong>."
+            }
+        ]},
+    "auther": "Himanshu Rai",
+    "created_date": "2023-05-30",
+    "status": "public"
+}
