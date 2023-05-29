@@ -81,8 +81,8 @@ The following screens will appear:
 - LoginButton Text: Give a name to your login initiator button.
 - **Entity ID:** Your site URL. For example: `https://<your-app-name>.hub.loginradius.com/`
 - **Login URL:**
-`https://<LoginRadius Site Name>/service/saml/idp/login?apikey=<APIKey>&appname=<SAMLAppName>`
-- **Logout URL:** `https://<LoginRadius Site Name>/service/saml/idp/logout?apikey=<APIKey>&appname=<SAMLAppName>`
+`https://<LoginRadius Site Name>/service/saml/idp/login?appname=<SAMLAppName>`
+- **Logout URL:** `https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>`
 
     **Note:** Your apiKey and SAML App name can be found under the LoginRadius [**Admin Console -> Platform Security -> Data Access Protection -> API Credentials ->Account API Keys**](https://adminconsole.loginradius.com/platform-security/data-access-protection/api-credentials/account-api-keys).
 
