@@ -4,7 +4,9 @@ There are multiple ways that LoginRadius supports for maintaining and controllin
 
 ### Token Lifetime
 
-An access token lifetime is the amount of time a customer is logged in to your application until it expires and prompts the customer to log back in.
+- An **Access Token Lifetime** is the amount of time a customer is logged in to your application until it expires and prompts the customer to log back in. 
+
+- A **Refresh Token Lifetime** is the duration for which the refresh token is allowed to refresh the active access token for continuing the ongoing session. This allows you to extend the lifetime access tokens without having to login multiple  every time one expires.
 
 ### Force Logout
 
