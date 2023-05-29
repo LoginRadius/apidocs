@@ -111,7 +111,7 @@ Below are the steps to add a WebHook event to LoginRadius via the **Admin Consol
 
 ![Webhooks Section](https://apidocs.lrcontent.com/images/Webhook---Step-1_1046118676474de365cb6e4.80431293.png "Webhooks Section")
 
-**Step 2:**  Click **Add** button and assign a **ebhook Name** of your choice, select an event from those available under the **Webhook Event** dropdown, enter a **Subscribe URL** where payload data will be sent when the webhook event is triggered, select an API **Secret Name** and click **Add**.
+**Step 2:**  Click **Add** button and assign a **Webhook Name** of your choice, select an event from those available under the **Webhook Event** dropdown, enter a **Subscribe URL** where payload data will be sent when the webhook event is triggered, select an API **Secret Name** and click **Add**.
 
 > **Note:** LoginRadius facilitates selecting either the primary API secret (select **None**) or any of the secondary API secret (having the access to Webhook API) for generating the hashed webhook signature. You can use this LoginRadius API secret to validate the webhook source of data for the corresponding webhook.
 
@@ -131,7 +131,7 @@ Here, you can add the **Custom Objects** directly in the Webhook form or select 
 
 ![Edit Webhook Form](https://apidocs.lrcontent.com/images/Webhook---Step-5_8833417816474e017af7866.22051478.png "Edit Webhook Form")
 
-To **remove** any Webhook event from LoginRadius, click the corresponding **ropdown button** from the **Action** column in the **Configured Requests** table and select **Unsubscribe**.
+To **remove** any Webhook event from LoginRadius, click the corresponding **dropdown button** from the **Action** column in the **Configured Requests** table and select **Unsubscribe**.
 
 ![Unsubscribe Webhook](https://apidocs.lrcontent.com/images/Webhook---Step-6_6105856666474e06506ae19.01889045.png "Unsubscribe Webhook")
 
