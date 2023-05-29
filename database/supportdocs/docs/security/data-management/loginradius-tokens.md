@@ -35,7 +35,7 @@ E.g. [Auth Read all Profiles by Token](/api/v2/user-registration/auth-readall-pr
 
 2. When using LoginRadiusV2.js, upon a successful Login the Access Token is stored by default in the browser's localstorage and sessionstorage as LRTokenKey and in the cookies as lr-session-token.
 
-## LoginRadius Refresh token Token
+## LoginRadius Refresh Token
 
 In LoginRadius Identity Platform, the **Refresh Token** is used to generate **Access Token**. Whenever an access token expires or becomes invalid, LoginRadius provides refresh token to the customer to obtain a new access token.
 
