@@ -88,15 +88,15 @@ The following are the configuration steps if you have decided to go ahead with t
 
 > **Note:** The following is the list of default SMTP providers:
 >
-> - Mailazy
-> - Amazon SES (US East)
-> - Amazon SES (US East)
-> - Amazon SES (US East)
-> - Gmail
-> - Mandrill
-> - Rackspace-mailgun
-> - SendGrid
-> - Yahoo
+> - [**Mailazy**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/mailazy/)
+> - [**Gmail**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/gmail/)
+> - [**Mandrill**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/mandrill/)
+> - [**Rackspace-mailgun**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/mailgun/)
+> - [**SendGrid**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/sendgrid/)
+> - [**Yahoo**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/yahoo/)
+> - **Amazon SES (US East)**
+> - **Amazon SES (US East)**
+> - **Amazon SES (US East)**
 
 ### Configure your SMTP Provider
 
