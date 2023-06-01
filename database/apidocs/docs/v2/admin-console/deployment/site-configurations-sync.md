@@ -28,7 +28,7 @@ This tool also provides various options for you to select the specific configura
 
    ![Confirmation pop-up](https://apidocs.lrcontent.com/images/Configuration-De_23418613a85c56cddf4.80379240.png "Confirmation pop-up ")
 
-Here is a granular breakdown of what each of these configuration options encompasses and where you can find it in the Admin Console:
+Here is a granular breakdown of what each of these configuration options encompasses and where you can find it in the Admin Console: 
 
 ## Basic Configuration
 
