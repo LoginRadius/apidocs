@@ -24,11 +24,11 @@ This tool also provides various options for you to select the specific configura
 
 ![Configuration Sync settings selection](https://apidocs.lrcontent.com/images/ac14_195075e93202de5a953.43178419.png "Configuration Sync settings selection")
 
-Note: When cloning the current **integration** configuration, a pop will appear and ask for the confirmation, so you need to click on the proceed button to complete the integration transfer.
+> **Note:** When cloning the current **integration** configuration, a pop will appear and ask for the confirmation. So you need to click on the **PROCEED** button to complete the integration transfer.
 
    ![Confirmation pop-up](https://apidocs.lrcontent.com/images/Configuration-De_23418613a85c56cddf4.80379240.png "Confirmation pop-up ")
 
-Here is a granular breakdown of what each of these configuration options encompasses and where you can find it in the Admin Console:
+Here is a granular breakdown of what each of these configuration options encompasses and where you can find it in the Admin Console: 
 
 ## Basic Configuration
 
