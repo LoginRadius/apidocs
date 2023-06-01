@@ -7416,6 +7416,10 @@
 {
   "oldLink": "developer/howto/dashboard-setup",
   "newLink": "api/v2/admin-console/overview/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-configuration/phone-login-configuration",
+  "newLink": "authentication/tutorial/phone-login/"
 }
 ]
 
