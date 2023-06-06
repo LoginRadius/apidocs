@@ -144,7 +144,7 @@ Each third-party authentication system is unique and will require different conf
 
 Use the following values to configure your application for SP and IDP initiated login flow:
 
-**Step 1:** Identity provider Login URL (SSO Endpoint): `https://<LoginRadius Site Name>/service/saml/idp/login?apikey=<APIKey>&appname=<SAMLAppName>`
+**Step 1:** Identity provider Login URL (SSO Endpoint): `https://<LoginRadius Site Name>/service/saml/idp/login?appname=<SAMLAppName>`
 
 **Step 2:** Use the LoginRadius certificate in your Service Provider application. To obtain the LoginRadius certificate, which is automatically generated from the backend, you can download the metadata file from the Admin Console after completing the configuration process. Please refer to the screenshot below for further clarification.
 
@@ -160,9 +160,9 @@ After opening the downloaded metadata file, the certificate will be visible as b
 
 **Step 5:** Into the SAML Relay State enter this value: **redirect** (Service Provider Specific)
 
-**Step 6:** Enter the Logout URL: `https://<LoginRadius Site Name>/service/saml/idp/logout?apikey=<APIKey>&appname=<SAMLAppName>`
+**Step 6:** Enter the Logout URL: `https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>`
 
-> **Note:** If SP supports Single Logout (SLO) feature, enter `https://<LoginRadius Site Name>/service/saml/idp/logout?apikey=<APIKey>&appname=<SAMLAppName>` for Logout URL in SP application.
+> **Note:** If SP supports Single Logout (SLO) feature, enter `https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>` for Logout URL in SP application.
 
 ## Next Steps
 

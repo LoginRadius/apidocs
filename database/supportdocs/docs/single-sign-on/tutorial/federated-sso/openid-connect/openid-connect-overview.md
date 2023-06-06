@@ -20,7 +20,13 @@ To begin configuration you will need to click "Add" and fill out the form as fol
 
 - **Algorithm:** The algorithm you would like to use for OpenID Connect (RS256 is currently the only algorithm supported).
 
-- **Grant Type:** Select the option by using which the app will obtain the access token.
+- **Grant Type:** Select any of the following option by using which the app will obtain the access token.
+  - Authorization Code
+  - Implicit
+  - Password Credentials
+  - Refresh Token 
+  - Device Code
+
 
 - **Token Expiration (Seconds):** Specify the Access Token lifetime, and after that time, the access token will expire.
 
@@ -229,15 +235,15 @@ https://<siteurl>/service/oidc/{OIDCAppName}/authorize?scope=openid%20email&clie
 
 This flow enables OIDC clients on such devices (like smart TVs, media consoles, digital picture frames, and printers) to obtain user authorization to access protected resources without using an on-device user agent.
 
-#### Flow Diagram:
+### Flow Diagram
 
 ![FLOW](https://apidocs.lrcontent.com/images/Ae-1_987862fe5b8525d752.10393295.png "FLOW")
 
-#### Usage
+### Usage
 
 Used in internet-connected devices that either lack a browser to perform a user-agent based authorization or are input-constrained to the extent that requiring the user to input text to authenticate during the authorization flow is impractical. When signing into apps and services on devices such as a Playstation or an Apple TV.
 
-#### Workflow
+### Workflow
 
 There are two devices ( one input restricted device and other browser-based device) are involved in this workflow.
 
@@ -257,23 +263,30 @@ There are two devices ( one input restricted device and other browser-based devi
     
 3.  After login, the consumer will be redirected to the **afterverificationURL**.
 
-#### Configuration
+### Configuration
 
-To enable the device code flow feature for your account, you need to [create a support ticket](https://adminconsole.loginradius.com/support/tickets) to the **LoginRadius Support team**. You should provide the following details at the time of configuration :
+To activate the device code flow functionality for your account, you can easily choose the Device Code option from the Grant Type drop-down menu and proceed to provide the required information in the designated fields.
 
--   **Device Code App Name:** Please provide any name you want to use in your Device code API calls.
+- **Device Code App Name:** Please provide a name for the app used in your Device code API calls.
+- **Verification Url:** Enter the verification URL where users can manually enter the user code.
+- **Verification Complete Url:** Enter the URL where users will be redirected after successful authentication.
+- **Device Code Expiration (Seconds):** Specify the duration of the device code's validity in seconds..
+- **Polling interval (Seconds):** Enter the minimum time interval in seconds that the client should wait between polling requests to the token endpoint.
+- **User Code Character Set:** Select the character set for the user code.
+- **User Code Mask:** Enter the pattern for the user code, for example, "-" generates a user code like "ASD-QWE".
+- **Token Expiration (Seconds):** Specify the expiration time of the Access Token in seconds.
+- **ID Token Expiration (Seconds):** Specify  the lifetime of the ID Token in seconds.
+- **Token Endpoint Auth Method:** Select the client authentication method used to authenticate the Authorization Server when using the token endpoint.
+- **Scopes:** Select the access privileges requested for Access Tokens by selecting the desired scopes.
+- **Force Reauthentication:** Check this option if reauthentication is required for the authorization request; otherwise, leave it unchecked.
+- **Signed User Info:** If checked, user info is returned as a signed JWT Token otherwise, in JSON format.
+- **Audiences:** Enter the resource server that will accept the OIDC (OpenID Connect) tokens.
+- **Data Mapping:** Specify the key-value pairs of LoginRadius profile data points you want to receive in the ID Token payload.
+- **Meta Data:** Specify the key-value pairs of static non-profile data you want to receive in the ID Token payload.
     
--   **PollingInterval:**  When device_code is returned by the Device Code API to the input restricted device, the device will start pinging the Device Code Exchange Token Ping API on the Device, so this Poll Internal is the minimum time between two pings,e.g. the poll interval is set 10 (in second), after first ping if another ping in the 7 seconds, API will return an error of slow_down and if the second ping is called after 10s, then it will return an appropriate response (error authorization_pending in case of token not attached to device code yet or onsuccess will return the access token, etc.)
+![Device Code Flow](https://apidocs.lrcontent.com/images/Federated-Sso-LoginRadius-User-Dashboard_928838552645c091a686829.71304439.png "Grant type")
 
--   **Expiry time for device_code (in seconds)**
--   **Expiry time for access_token (in seconds)**
--   **Expiry time for Id_token (in seconds)**
--   **VerificationUrl:** Please provide the URL of page where the user will enter the user code
--   **AfterVerificationUrl:** Please provide the URL of page where after successful authentication, user will be redirected)
--   **UserCodeMask:** The pattern which will be used to generate the device_code, e.g., `***-*** => ACS-Q23, **-**-** => AX-4R-AW`, etc.)
-    
-
-#### Implementation Steps
+### Implementation Steps
 
 The following explains the implementation sequence for Device Code Flow:
 

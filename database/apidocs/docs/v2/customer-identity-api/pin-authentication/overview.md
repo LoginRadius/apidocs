@@ -78,7 +78,7 @@ The following screen highlights the toggle button to enable the PIN Authenticati
 
 Enabling the PIN Authentication displays the related options on the screen as displayed below:
 
-![](https://apidocs.lrcontent.com/images/PA7_149795eac43f0b6aa59.96401477.png)
+![](https://apidocs.lrcontent.com/images/Multi-Layered-security-LoginRadius-User-Dashboard-2_10189271946475282d315444.97804977.png)
 
 
 **Step 3:** Select the desired flow i.e. Optional or Required.
@@ -89,6 +89,12 @@ Enabling the PIN Authentication displays the related options on the screen as di
 > **Note:** Make sure that the PIN field added to the registration form schema in Step 1 is set as required.
 
 **Step 4:** Configure events to set a PIN from the following:
+
+- **PIN Login:** Toggle the PinLogin feature to enable or disable it. When enabled, you can log in with a PIN instead of a password, and the PinLogin setting is set to true and vise versa.
+
+![](https://apidocs.lrcontent.com/images/Multi-Layered-security-LoginRadius-User-Dashboard-3_1818653553647528e0973313.63871510.png)
+
+
 - **Register:** To set the account PIN during the registration.
 - **First Login:** To set the account PIN during the first time login into the account.
 
@@ -99,7 +105,7 @@ Enabling the PIN Authentication displays the related options on the screen as di
 
 The following displays an example of PIN Authentication settings:
 
-![](https://apidocs.lrcontent.com/images/PA8_62065eac44006b5086.25955493.png)
+![](https://apidocs.lrcontent.com/images/Multi-Layered-security-LoginRadius-User-Dashboard_9780344056475285e1950b8.85861804.png)
 
 
 With the above settings, the following explains how PIN set-up process will work for your new, existing and social login customers:

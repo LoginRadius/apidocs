@@ -73,8 +73,8 @@ The following screen will appear:
 - For **SAML Identity Type**, select **Assertion contains the Federation ID from the user object**.
 - For **SAML Identity Location** select **Identity is in the NameIdentifier element of the Subject statement.**
 - For **Service Provider Initiated Request Binding**, select **HTTP POST**.
-- In **Identity Provider Login URL**, enter this url: `https://<LoginRadius Site Name>/service/saml/idp/login?apikey=<APIKey>&appname=<SAMLAppName>`.
-- In **Identity Provider Logout URL** enter this url: `https://<LoginRadius Site Name>/service/saml/idp/logout?apikey=<APIKey>&appname=<SAMLAppName>`.
+- In **Identity Provider Login URL**, enter this url: `https://<LoginRadius Site Name>/service/saml/idp/login?appname=<SAMLAppName>`.
+- In **Identity Provider Logout URL** enter this url: `https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>`.
 - For **Just-in-time user Provisioning** select **User Provisioning Enabled and Standard**. 
 
 > Note: Just-in-Time provisioning allows you to use a SAML assertion to create users when for the first time they try to log in using LoginRadius credentials. This eliminates the need to create user accounts in advance. For example, if you recently added an employee to your organization, you don't need to manually create the user account in Salesforce. When they log in with a single sign-on, their account is automatically created for them.
@@ -180,7 +180,7 @@ The default is `urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified`.
 
 A. For  **LoginURL**, enter  `https://<LoginRadius Site Name>.hub.loginradius.com/auth.aspx`.  (In case of custom domain Login url will be <customdomain>/auth.aspx).
 
-B. For **After Logout URL**, enter `https://<LoginRadius Site Name>/service/saml/idp/logout?apikey=<APIKey>&appname=<SAMLAppName>`. 
+B. For **After Logout URL**, enter `https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>`. 
 
 **Step 11:** **Service Provider Details** section contains the endpoints and settings that LoginRadius will communicate with to establish a SAML session. In this section enter the following details:
 

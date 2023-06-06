@@ -1,0 +1,30 @@
+{
+    "name": "Core API Release 35.9.0",
+    "description": "We have rolled out another version of the Core APIs. This core API release brings you with a few new features.",
+    "changelog":
+   {
+    "ADDED": 
+    [
+        
+        {
+            "text": "A new error response for deprecated or legacy APIs."
+        },
+
+        {
+            "text": "A new management API has been introduced which allows revoking all refresh tokens associated with a particular user."
+        },
+
+        {
+            "text": "A new feature called 'EnableAccessTokenUserAgentValidation' which can verify the user agent from which a refresh token request is being made."
+        },
+
+        {
+            "text": "Now you can set up Google reCAPTCHA V3 and hCaptcha for authentication on your LoginRadius application or website."
+        }
+    
+    ]
+    },
+    "auther": "Nikhil Sahu",
+    "created_date": "2023-06-05",
+    "status": "public"
+  }
