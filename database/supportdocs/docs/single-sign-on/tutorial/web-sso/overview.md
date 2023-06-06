@@ -212,7 +212,7 @@ Example of a redirect method:
 
 ```
 if(safari){ // This is for safari browser, you need to check if your user is using safari or not
-window.location="https://<sitename>.hub.loginradius.com/ssologin/setSafariToken?token=<accesstoken>&apiKey=<apikey>&callback=<callbackURL>"
+window.location="https://<sitename>.hub.loginradius.com/ssologin/setSafariToken?token=<accesstoken>&callback=<callbackURL>"
 }else{
    Ajax function provided previously
 }

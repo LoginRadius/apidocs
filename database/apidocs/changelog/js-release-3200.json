@@ -1,0 +1,17 @@
+{
+    "name": "JS Release 3.20.0",
+    "description": "This JavaScript release brings new features to our LoginRadius V2JS library, please see below for details:",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "The multi-factor authentication feature can be disabled using the loginRadius V2 JS library."
+            },
+            {
+                "text": "We have added support for LoginRadius V2 JS to configure Google reCAPTCHA V3 and hCaptcha for authentication in your application."
+            }
+        ]
+    },
+    "auther": "Himanshu Rai",
+    "created_date": "2023-06-05",
+    "status": "public"
+}

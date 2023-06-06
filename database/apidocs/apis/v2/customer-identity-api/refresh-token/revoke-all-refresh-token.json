@@ -1,0 +1,37 @@
+{
+    "name": "Revoke All Refresh Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/{uid}/access_token/refresh/revoke",
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@secret@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "The Revoke All Refresh Access Token API is used to revoke all refresh tokens for a specific user.",
+    "parameters": {
+        "Get Params": [{
+            "name": "apiKey",
+            "is_required": true,
+            "description": "LoginRadius API Key."
+        },
+        {
+            "name": "apiSecret",
+            "is_required": true,
+            "description": "LoginRadius API Secret."
+        }],
+        "Template Params": [
+            {
+                "name": "uid",
+                "is_required": true,
+                "description": "UID, the unified identifier for each user account"
+            }
+        ]
+    },
+"outputFormat":{
+ "IsDeleted" : true
+}}

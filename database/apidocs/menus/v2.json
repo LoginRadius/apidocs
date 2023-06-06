@@ -300,6 +300,11 @@
           "url": "v2/admin-console/platform-security/captcha-providers/google-recaptcha-configuration/",
           "title": "Google reCAPTCHA Configuration",
           "type": "DOC"
+        },
+        {
+          "url": "v2/admin-console/platform-security/captcha-providers/h-recptcha-configuration/",
+          "title": "hCapthca Configuration",
+          "type": "DOC"
         }
       ]
     },
@@ -1505,6 +1510,11 @@
         "url": "v2/customer-identity-api/refresh-token/revoke-refresh-token/",
         "title": "Revoke Refresh Token",
         "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/refresh-token/revoke-all-refresh-token/",
+        "title": "Revoke All Refresh Token",
+        "type": "DELETE"
       }
     ],
     "Smart Login": [

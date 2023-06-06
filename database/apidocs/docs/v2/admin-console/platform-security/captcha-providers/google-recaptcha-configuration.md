@@ -1,12 +1,12 @@
 # Google reCAPTCHA with LoginRadius
 
-[Google reCAPTCHA](https://www.google.com/recaptcha/about/) is a popular CAPTCHA-like system that provides bot protection for websites introduced on May 27, 2007. This section covers configuring reCAPTCHA with your LoginRadius implementation.
+[Google reCAPTCHA](https://www.google.com/recaptcha/about/) is a popular CAPTCHA-like system that provides bot protection for websites introduced on May 27, 2007. Currently, LoginRadius supports both v2 and v3 Google reCAPTCHAs and this section covers configuring the different Google reCAPTCHAs with your LoginRadius implementation.
 
 For more conceptual information on the Google reCAPTCHA, refer to the documentation [here](/authentication/concepts/customer-security/#partcaptcha0).
 
 ## Configuration
 
-Refer to the below-mentioned steps to configure the Invisible reCAPTCHA with your LoginRadius implementation.
+Refer to the below-mentioned steps to configure the Google reCAPTCHA  with your LoginRadius implementation.
 
 1. Log in to your Google account. Once you are logged in, head over to https://www.google.com/recaptcha/about/ and click on v3 Admin Console.
 
@@ -24,53 +24,40 @@ Refer to the below-mentioned steps to configure the Invisible reCAPTCHA with you
 
    ![Step 3 - Register a new site](https://apidocs.lrcontent.com/images/Step-3_194946435063ae90820127e0.16390200.png "Step 3 - Register a new site")
 
-4. Look for the Label and provide a name for this new reCAPTCHA configuration. You can use your site's name, and then select Invisible reCAPTCHA badge under reCAPTCHA v2.
+4. Look for the Label and provide a name for this new reCAPTCHA configuration. You can use your site's name, and then select reCAPTCHA you want configure.
 
-   ![Step 4 - Invisible reCAPTCHA](https://apidocs.lrcontent.com/images/Step-4_182405686863ae90aa08fe97.32617659.png "Step 4 - Invisible reCAPTCHA")
+   **1.** **reCAPTCHA v3**
 
-5. Scroll down to provide domains using the reCAPTCHA. This is for whitelisting purpose. If this is for your development environment, you can provide **localhost**, otherwise, provide your website's domain followed by accepting the reCAPTCHA Terms of Service. And once you are done, click on the **SUBMIT** button.
+   **2.** **reCAPTCHA v2**
+
+
+   ![label](https://apidocs.lrcontent.com/images/label_18346291066465ecca854bf3.54584710.png "label")
+
+   - **If you select the reCAPTCHA v2 then there will be 3 option on the screen as below:**
+
+   ![V2 recaptcha](https://apidocs.lrcontent.com/images/v2_2168302476465ed6c835df3.03233141.png "V2 recaptcha")
+
+
+**5.** Scroll down to provide domains using the reCAPTCHA. This is for whitelisting purpose. If this is for your development environment, you can provide **localhost**, otherwise, provide your website's domain followed by accepting the reCAPTCHA Terms of Service. And once you are done, click on the **SUBMIT** button.
 
    ![Step 5 - Submit](https://apidocs.lrcontent.com/images/Step-5_134504161163ae90d57de504.64026376.png "Step 5 - Submit")
 
-6. On successful submission, you will be shown your newly created reCAPTCHA credentials. You will need to copy it to the LoginRadius Admin Console.
+**6.** On successful submission, you will be shown your newly created reCAPTCHA credentials. You will need to copy it to the LoginRadius Admin Console.
 
    ![Step 6 - Google reCAPTCHA Keys](https://apidocs.lrcontent.com/images/Step-6_157458502063ae91075d68c1.35153480.png "Step 6 - Google reCAPTCHA Keys")
 
-7. Navigate to [Platform Security > Auth Security > CAPTCHA Setting](https://adminconsole.loginradius.com/platform-security/account-protection/auth-security/captcha-settings) and provide your Google reCAPTCHA **SITE KEY** and **SECRET KEY** under the **Google ReCAPTCHA2 Setting** tab and click on the **SAVE** button.
+**7.** Navigate to [Platform Security > Auth Security > CAPTCHA Setting](https://adminconsole.loginradius.com/platform-security/account-protection/auth-security/captcha-settings) and provide your Google reCAPTCHA **SITE KEY** and **SECRET KEY** under the **Google ReCAPTCHA2 Setting** tab and click on the **SAVE** button.
 
-   ![Step 7 - Public & Private Key](https://apidocs.lrcontent.com/images/Step-7_208186809463ae91347d6103.86924260.png "Step 7 - Public & Private Key")
-
-## Deployment
-
-The following explains how you can deploy the Google Invisible reCAPTCHA:
-
-1. After configuring the Google reCAPTCHA in the Admin Console, navigate to [Deployment > JS Widgets](https://adminconsole.loginradius.com/deployment/js-widgets/settings) and click on the switch associated with **Google Recaptcha** to enable configured Google Invisible reCAPTCHA.
-
-   ![Deployment - JS Widgets](https://apidocs.lrcontent.com/images/JS-Widgets_12046586663ae92137864a6.06256755.png "Deployment - JS Widgets")
-
-2. Now, you can view the deployed Google Invisible reCAPTCHA option on the IDX Page (`https://<sitename>.hub.loginradius.com/auth.aspx`, where **sitename** is the name of your LoginRadius site).
-
-   ![IDX](https://apidocs.lrcontent.com/images/Invisible-Google-reCAPTCHA_174785599063ae925f327726.73103814.png "IDX")
-
-> **Note:**
->
-> - If you have configured and deployed the Invisible reCAPTCHA, the captcha option will not be displayed on the registration page until the bot activity is detected.
-> - The Google V2 reCAPTCHA has been removed from LoginRadius Admin Console, however, it will still be visible under [Deployment > JS Widgets](https://adminconsole.loginradius.com/deployment/js-widgets/settings), only if it was already enabled. In such a case, the Google Recaptcha section under the [JS Widgets](https://adminconsole.loginradius.com/deployment/js-widgets/settings) would look like:
-
-![Deployment - Older](https://apidocs.lrcontent.com/images/V2-Google-reCAPTCHA_123929606263ae91f6a60983.01565505.png "Deployment - Older")
+   ![Admin Console](https://apidocs.lrcontent.com/images/admin_4601053736465ee10ccd996.07685825.png "Admin Console")
 
 ## Google reCAPTCHA with LoginRadiusV2.js
 
 Once you have configured your Google reCAPTCHA account in the LoginRadius Admin Console, follow the steps below to include Google reCAPTCHA on the registration form in your LoginRadius interfaces.
 
-**1**. Add the **v2RecaptchaSiteKey** along with the **invisibleRecaptcha** parameters to your LoginRadius JS [Initialization Object](/api/v2/user-registration/user-registration-getting-started).
-
 ```
 option = {};
 option.apikey = "<Your LoginRadius API key>";
 option.appName = "<LoginRadius Site Name>";
-option.v2RecaptchaSiteKey = 'Your Google recaptcha v2 Site Key';
-option.invisibleRecaptcha = true;
 ```
 
 **2**. The reCAPTCHA language can be changed using the **v2RecaptchaLanguage** parameter and giving it the desired[ language code](https://developers.google.com/recaptcha/docs/language).
@@ -115,48 +102,36 @@ LRObject.$hooks.register('beforeInit', function(name){
 
 ## **Display Invisible reCAPTCHA at Login Form**
 
-When the invisible reCAPTCHA is enabled from the LoginRadius Admin Console, it will be enabled for the registration form. However, if someone is making large amount of login API calls using some scripts (DDoS attack) on your application, it can disrupt the normal traffic at the LoginRadius server, we recommend implementing the Invisible reCAPTCHA feature on your login form to prevent the DDoS attack.
+When the Google reCAPTCHA is enabled from the LoginRadius Admin Console, it will be enabled for the registration form. However, if someone is making large amount of login API calls using some scripts (DDoS attack) on your application, it can disrupt the normal traffic at the LoginRadius server, we recommend implementing the Google reCAPTCHA feature on your login form to prevent the DDoS attack.
 
-The Invisible reCAPTCHA feature only triggers the challenge if the form submission is detected by some bots instead of a human being. Hence, it will provide a smooth experience to users and will trigger the CAPTCHA only when the form is submitted by Bots.
+The Google reCAPTCHA feature only triggers the challenge if the form submission is detected by some bots instead of a human being. Hence, it will provide a smooth experience to users and will trigger the CAPTCHA only when the form is submitted by Bots.
 
-Following is a step-by-step guide to implement Invisible reCAPTCHA feature on Login Form:
+Following is a step-by-step guide to implement Google reCAPTCHA feature on Login Form:
 
-**1**. Enable invisible reCAPTCHA from the LoginRadius Admin Console using configuration steps provided in this document earlier.
 
-**2**. Disable the invisible reCAPTCHA for registration form using the following code before initialization of LoginRadius Object.
+**1**. Activate Google reCAPTCHA (V2 or V3) through the LoginRadius Admin Console using the previously provided configuration steps.
 
-```
-raasoption.invisibleRecaptcha = false;
-```
 
-**3**. Add the following code to render the invisible reCAPTCHA only at the login page.
+**2**. Add the following code to render the Google reCAPTCHA only at the login page.
 
 ```
+
 LRObject.$hooks.register('beforeFormRender', function(name, schema) {
-LRObject.options.invisibleRecaptcha = false;
-
 if (name == 'login' ) {
-
-LRObject.options.invisibleRecaptcha = true;
  LRObject.util.addRecaptchaJS(); LRObject.util.captchaSchema("loginradius-recaptcha_widget_login", schema);
-
 }
 });
 ```
 
-**4**. Add the following code to stop resetting the invisible reCAPTCHA.
+**3**. Add the following code to stop resetting the Google reCAPTCHA.
 
 ```
 
 LRObject.$hooks.register('eventCalls', function(name){
 
-LRObject.options.invisibleRecaptcha = false;
-
 LRObject.options.optionalRecaptchaConfiguration.IsEnabled = true;
 
 if (name == 'login') {
-
-LRObject.options.invisibleRecaptcha = true;
 
 LRObject.options.optionalRecaptchaConfiguration.IsEnabled = false;
 
@@ -165,9 +140,11 @@ LRObject.options.optionalRecaptchaConfiguration.IsEnabled = false;
 });
 ```
 
-You will now notice that the invisible reCAPTCHA is enabled only at the Login form.
+- You will now notice that the Google reCAPTCHA(which you have configured in the Admin Console)  is enabled only at the Login form.
 
-> **Note**: The invisible reCAPTCHA is a front end element and LoginRadius supports invisible reCAPTCHA with single form submission under the same web page,e.g., it can be included only under Login or Registration form under the same page.
+
+> **Note**: The Google reCAPTCHA is a front end element and LoginRadius supports Google reCAPTCHA with single form submission under the same web page,e.g., it can be included only under Login or Registration form under the same page.
+
 
 ## **How to test invisible reCAPTCHA feature on your webpage**
 
