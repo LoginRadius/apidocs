@@ -1,4 +1,8 @@
-[
+[ {
+  "title": "JS Release 3.20.0",
+  "url": "js-release-3200",
+  "date": "2023-06-07"
+  },
   {
     "title": "Core API Release 35.9.0",
     "url": "core-api-release-3590",
