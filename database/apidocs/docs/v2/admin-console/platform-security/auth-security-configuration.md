@@ -4,9 +4,9 @@ Configure your Auth Security settings within the **Platform Security → Account
 
 ## CAPTCHA Setting
 
-CAPTCHA Setting makes use of either Google reCAPTCHA or Tencent's Captcha service.
+CAPTCHA Setting makes use of either Google reCAPTCHA, Tencent's Captcha or hCaptcha service.
 
-![](https://apidocs.lrcontent.com/images/ac37_294485e9349148c4653.18634631.png "CAPTCHA SETTING")
+![recaptcha](https://apidocs.lrcontent.com/images/recaptcha_1801426989647f37dbbe5937.86151874.png "recaptcha")
 
 Please see our [Google reCAPTCHA Configuration](/api/v2/admin-console/platform-security/captcha-providers/google-recaptcha-configuration) or [Tencent Captcha Configuration](/api/v2/admin-console/platform-security/captcha-providers/tencent-captcha-configuration) documentation for details.
 
