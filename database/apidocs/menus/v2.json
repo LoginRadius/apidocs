@@ -576,12 +576,12 @@
       },
       {
         "url": "v2/customer-identity-api/authentication/auth-email-availability/",
-        "title": "Auth Email Availability",
+        "title": "Auth Check Email Availability",
         "type": "GET"
       },
       {
         "url": "v2/customer-identity-api/authentication/auth-username-availability/",
-        "title": "Auth Username Availability",
+        "title": "Auth Check Username Availability",
         "type": "GET"
       },
       {
@@ -676,17 +676,17 @@
       },
       {
         "url": "v2/customer-identity-api/authentication/auth-reset-password-by-email/",
-        "title": "Auth Reset Password by Email",
+        "title": "Auth Reset Password with Security Answer and Email",
         "type": "PUT"
       },
       {
         "url": "v2/customer-identity-api/authentication/auth-reset-password-by-phone/",
-        "title": "Auth Reset Password by Phone",
+        "title": "Auth Reset Password with Security Answer and Phone",
         "type": "PUT"
       },
       {
         "url": "v2/customer-identity-api/authentication/auth-reset-password-by-username/",
-        "title": "Auth Reset Password by Username",
+        "title": "Auth Reset Password with Security Answer and UserName",
         "type": "PUT"
       },
       {
