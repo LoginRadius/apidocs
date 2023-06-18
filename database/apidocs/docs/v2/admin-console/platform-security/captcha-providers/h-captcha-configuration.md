@@ -44,8 +44,9 @@ Refer to the below-mentioned steps to configure the hCaptcha with your LoginRadi
 
 **7.** Navigate to [**Platform Security > Auth Security > CAPTCHA Setting**](https://adminconsole.loginradius.com/platform-security/account-protection/auth-security/captcha-settings)  provide your **hCaptcha SITE KEY** and **Site SECRET KEY** under the **hCaptcha Setting tab** and click on the **Save button**
 
-   ![Admin Console](https://apidocs.lrcontent.com/images/admin_4601053736465ee10ccd996.07685825.png "Admin Console")
+**8.** You also need to add a **Risk threshold**, which will help you in analyzing the end-user behavior. And on the bases of their behavior, a rating will be provided to them, and if the rating matches your provided input, they will be prompted with the challenge.
 
+![Admin Console](https://apidocs.lrcontent.com/images/pasted-image-0-3_609275241648dfb864afbd6.28056945.png "Admin Console")
 
 ## Display hCaptcha at Login Form
 
@@ -54,7 +55,18 @@ When the **hCaptcha** is enabled from the LoginRadius Admin Console, it will be 
 The hCaptcha feature has 2 option in the Admin Console:
 
 **1.** **Captcha checkbox and Challenge**
+
 **2.** **Captcha Challenge**
 
+![Admin Console](https://apidocs.lrcontent.com/images/pasted-image-0-4_534226621648dfc3b5c8f11.87656351.png "Admin Console")
+
 According to your configuration it triggers the challenge if the form submission is detected by some bots instead of a human being. Code to implement the hCaptcha in the login form will be same as Google reCAPTCHA which can be found [**here**](/api/v2/admin-console/platform-security/captcha-providers/google-recaptcha-configuration/#displayinvisiblerecaptchaatloginform2).
+
+- In the case of the **CAPTCHA Checkbox and Challenge**, your registration page will look something like below.
+
+![hcaptcha](https://apidocs.lrcontent.com/images/pasted-image-0-5_86746840648dfcad40e8e9.89916747.png "hcaptcha")
+
+- In the case of the **CAPTCHA Challenge** only option, the end user will encounter the below screen.
+
+![hcaptcha challenge](https://apidocs.lrcontent.com/images/pasted-image-0-6_975621889648dfd32aac0f7.95420281.png "hcaptcha challenge")
 
