@@ -1,5 +1,5 @@
 {
-    "name": "Access Token Invalidate",
+    "name": "Auth Invalidate Access Token",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/access_token/InValidate",
     "method": "GET",

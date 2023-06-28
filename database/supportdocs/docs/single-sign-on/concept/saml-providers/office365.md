@@ -91,7 +91,10 @@ This section covers everything you need to configure in your **LoginRadius Admin
     
 **18.**  For **RELAY STATE PARAMETER** enter **RelayState.**
     
-**19.**  Enter **`urn:federation:MicrosoftOnline`** under **APP AUDIENCES**
+**19.**  Enter **`https://login.microsoftonline.com/<tenant ID>/`** under **APP AUDIENCES**
+
+> **Note:** For existing Federated SAML, the configuration with the APP Audiences value **`urn:federation:MicrosoftOnline`**, will remain unaffected.
+
     
 **20.**  Select **HTTPPost** from **SSO METHOD.**
     
