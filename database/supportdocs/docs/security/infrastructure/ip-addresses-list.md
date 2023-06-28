@@ -11,14 +11,14 @@ These IPs are used to connect external services to the LoginRadius Platform. The
  
 **For high availability on your LoginRadius services, make sure to whitelist all zone's IP addresses.**
 
-|Zone|IP|
+|Region|IP|
 |-|-|
-|Zone 1| 54.92.157.147 <br> 52.228.29.72|
-|Zone 2| 52.0.146.28 <br> 40.76.212.1|
-|Zone 3| 18.233.46.237 <br> 52.240.152.148|
-|Zone 4| 40.68.221.95|
-|Zone 5| 35.177.174.5 <br> 3.8.226.58|
-|Zone 6| 18.138.167.131 <br> 18.136.228.214|
+|United States| 54.92.157.147 <br> 52.0.146.28 <br> 18.233.46.237 <br> 18.220.251.170 <br> 13.58.47.50|
+|Canada| 3.97.82.98 <br> 3.98.195.159|
+|Europe| 108.128.183.194 <br> 108.128.182.88|
+|United Kingdom| 35.177.174.5 <br> 3.8.226.58|
+|Singapore| 18.138.167.131 <br> 18.136.228.214|
+|Hong Kong| 18.166.222.210 <br> 43.198.4.171 <br> 43.198.123.252|
 
 
 > **Note**: We have deprecated the following IPs as on Nov 2019:

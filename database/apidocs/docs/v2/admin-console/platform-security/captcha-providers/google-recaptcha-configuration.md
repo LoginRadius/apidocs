@@ -36,7 +36,10 @@ Refer to the below-mentioned steps to configure the Google reCAPTCHA  with your 
    - **If you select the reCAPTCHA v2 then there will be 3 option on the screen as below:**
 
    ![V2 recaptcha](https://apidocs.lrcontent.com/images/v2_2168302476465ed6c835df3.03233141.png "V2 recaptcha")
+   > **Note:** Please be informed that as per the [**release**](/api/changelog/admin-console-release-25102/), LoginRadius does not support “I’m not a robot” checkbox challenge. There is only an invisible reCaptcha option is available to configure captcha.
 
+   - **If you select the reCAPTCHA v3 then only invisible reCaptcha is deployed for security**
+   ![reCAPTCHA v3](https://apidocs.lrcontent.com/images/pasted-image-0_588922025648df3d92618f9.63651586.png "reCAPTCHA v3")
 
 **5.** Scroll down to provide domains using the reCAPTCHA. This is for whitelisting purpose. If this is for your development environment, you can provide **localhost**, otherwise, provide your website's domain followed by accepting the reCAPTCHA Terms of Service. And once you are done, click on the **SUBMIT** button.
 
@@ -48,7 +51,14 @@ Refer to the below-mentioned steps to configure the Google reCAPTCHA  with your 
 
 **7.** Navigate to [Platform Security > Auth Security > CAPTCHA Setting](https://adminconsole.loginradius.com/platform-security/account-protection/auth-security/captcha-settings) and provide your Google reCAPTCHA **SITE KEY** and **SECRET KEY** under the **Google ReCAPTCHA2 Setting** tab and click on the **SAVE** button.
 
-   ![Admin Console](https://apidocs.lrcontent.com/images/admin_4601053736465ee10ccd996.07685825.png "Admin Console")
+> **Note:** When you are configuring **reCaptcha v3** for your site, you also need to add a **Risk threshold**, which will help you in analyzing the end-user behavior. And on the bases of their behavior, a rating will be provided to them, and if the rating matches your provided input, they will be prompted with the challenge.
+
+   ![Admin Console](https://apidocs.lrcontent.com/images/Auth-Security-LoginRadius-User-Dashboard_746523639648dfa749cc813.23955078.jpg "Admin Console")
+
+   After performing all the above steps, the reCaptcha will be successfully applied to your site, which will be visible as below in case of invisible reCaptcha.
+
+   ![IDX](https://apidocs.lrcontent.com/images/pasted-image-0-2_1637182070648df5bcd7b354.38090451.png "IDX")
+
 
 ## Google reCAPTCHA with LoginRadiusV2.js
 
