@@ -381,7 +381,7 @@ This section will take your through the steps to change the color of the jumping
 
 ![](https://apidocs.lrcontent.com/images/U17_296495ee2166520a613.41630251.png)
 
-**Step 1:** To change the colors of jumping dots loading animation, you need to download the CSS of the Identity Experience Framework from the following link: `https://cdn.loginradius.com/hub/prod/v1/css/hosted-auth-default.css`
+**Step 1:** To change the colors of jumping dots loading animation, you need to download the CSS of the Identity Experience Framework from the following link: `https://cdn.lrcontent.com/hub/prod/v1/css/hosted-auth-default.css`
 
 **Step 2:** Edit the downloaded CSS and provide the color values according to the theme in the existing CSS classes as follows:
 ```
@@ -481,7 +481,7 @@ Once you have update the gif image you can customize its alignment, faded overla
 
 **Step 3:** Download the CSS file of the auth/profile page from the following link:
 
-`https://cdn.loginradius.com/hub/prod/v1/css/hosted-auth-default.css`
+`https://cdn.lrcontent.com/hub/prod/v1/css/hosted-auth-default.css`
 
 **Step 4:** Edit the downloaded CSS file and add the following CSS class for defining the path of the custom GIF image:
 ```
