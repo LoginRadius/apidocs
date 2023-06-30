@@ -1,4 +1,4 @@
-#Account Linking
+# Account Linking
 
 ![Account Linking Graph](https://apidocs.lrcontent.com/images/Account-Linking-V01-04-02_162125d1be95c1fded0.97273921.png "Account Linking Graph")
 
