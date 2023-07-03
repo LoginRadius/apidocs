@@ -547,6 +547,7 @@
   "Identities": ["&ltArray of Identities&gt"]
   },
       "access_token": "13de4400-29ac-4d82-8095-d4dbfc80f402",
+      "refresh_token": "acbc1700-c350-416e-a542-09bcb0b0f60b",
       "expires_in": "2018-01-25T09:08:00.1022178Z"
     }
   }
