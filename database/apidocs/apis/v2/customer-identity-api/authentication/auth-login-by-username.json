@@ -462,6 +462,7 @@
             "IsEmailSubscribed": false
         },
         "access_token": "a029e8a7-****-4453-****-a5e721e1f358",
+        "refresh_token": "acbc1700-c350-416e-a542-09bcb0b0f60b",
         "expires_in": "2017-08-17T10:52:36.1644137Z"
     
   }

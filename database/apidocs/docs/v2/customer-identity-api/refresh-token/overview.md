@@ -29,6 +29,7 @@ A Refresh Token can be obtained via one of the methods listed below:
 
 - **Refresh Access Token by Refresh Token:** While [this](/api/v2/customer-identity-api/refresh-token/refresh-access-token-by-refresh-token) API requires that you already have a valid refresh_token, you can pass in a refresh_token to obtain both a new access_token and a new refresh_token.
 
+> **Note:** The refresh token feature is enabled for all consumers  by default. However, if you prefer not to receive the refresh token when creating a session and only want the access token, you can contact [**LoginRadius Support**](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
 ##Revoking the Refresh Token
 
