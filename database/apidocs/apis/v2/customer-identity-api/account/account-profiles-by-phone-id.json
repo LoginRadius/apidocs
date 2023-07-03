@@ -6,7 +6,7 @@
     "getparams": {
         "apikey*": "@apikey@",
         "apisecret*": "@secret@",
-        "phone": ""
+        "phone*": ""
     },
     "postparams": "",
     "headers": {
