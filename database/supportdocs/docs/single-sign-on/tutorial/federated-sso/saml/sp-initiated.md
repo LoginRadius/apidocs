@@ -59,7 +59,7 @@ The SAML App configuration fields will appear on the same screen.
 
 **Step 3:** Select **SP Initiated Login** from **Login Flow** options as displayed in the above screenshot.
 
-![SAML Full view](https://apidocs.lrcontent.com/images/sp_99150576425c20db0b566.68480111.png "SAML Full view")
+![SAML Full view](https://apidocs.lrcontent.com/images/Custom-Idps-FedSSO-SAML-sp-updated-step3_1914633117649a1600aaf539.46067780.png "SAML Full view")
 
 **Step 4:** In the **SAML App Name** field, enter an App name. If you have multiple SAML apps, the app name should be unique for each.
 
@@ -124,7 +124,9 @@ LoginRadius supports the following fields:
 
 **Step 17:** Click the **ADD** A SAML APP button to save the app settings.
 
-> **Note:** The **Identity Provider Certificate** and its **Key** are now automatically generated from the backend in the Admin Console, with a default expiry time of **five years.**
+> **Note:** To renew the **Identity Provider Certificate**, click the designated "**Renew Certificate**" button. Once the renewal is completed, the updated expiry date and time will be promptly shown.
+
+![SAML Provider Certificate](https://apidocs.lrcontent.com/images/Custom-Idps-FedSSO-SAML-sp-updated-step17_752633288649a16b03c6e97.54062341.png "SAML Provider Certificate")
 
 Once you are done configuring the SAML app in the in Admin Console, you can view the recent success or error logs data for your SSO connection in the [Troubleshoot section](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/trouble-shoot). To view the latest logs, click the Refresh button.
 
