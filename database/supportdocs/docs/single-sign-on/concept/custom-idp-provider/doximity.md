@@ -45,18 +45,14 @@ For more information on the scopes refer to this [document](https://www.doximity
 
 **Step 14: Access Token parameter name for API access(Optional):** For Doximity this parameter name is **access_token**.
 
-**Step 15:** Among all the field types,** Data Mapping** is **mandatory** and you can use any of the field types from **Header** and **Query** Param as per your provider requirements (optional).
+**Step 15:** Among all the field types, **Data Mapping** is **mandatory** and use **Header.**
 
 - **Header:** It can be used for those providers that pass the Access Token in the header. Enter the Provider’s header name in **Key** and add any of the LoginRadius **value** from the following in the Value field:
-- '#accesstoken#'
-- '#idtoken#'
-- '#oauthsignature#'
-- **Query Param:** Here pass the **Query params** from Provider in key and value pair (if the provider supports query params)
+  - 'Bearer #accesstoken#'
+  - '#idtoken#'
+  - '#oauthsignature#'
 
-  - **Data Mapping:** Enter field mappings between Doximity fields and LoginRadius [user profile properties.](https://www.loginradius.com/docs/api/v2/getting-started/data-points/detailed-data-points/)
-  - **Select Field(Dropdown):** Select the LoginRadius field name which you want to map with respective Doximity field.
-
-- **The profile Key:** Enter the Doximity field name corresponding to the LoginRadius field name.
+  - **The profile Key:** Enter the Doximity field name corresponding to the LoginRadius field name.
 
 > **Note:** The LoginRadius ‘ID’ field is the unique identifier for each profile attached to a LoginRadius customer account. Refer to the LoginRadius Data structure document for more details. The mapping of the LoginRadius 'ID' field (Loginradius field) is mandatory.
 
