@@ -730,8 +730,9 @@
         "type": "DELETE"
       }
     ],
-    "Account": [
-      {
+    "Account":{
+      "basic": [
+        {
         "url": "v2/customer-identity-api/account/account-overview/",
         "title": "Overview",
         "type": "DOC"
@@ -837,7 +838,30 @@
         "type": "DELETE"
       }
     ],
-    "Roles Management": [
+    "Multipurpose Token and SMS Generation API": [
+      {
+        "url": "v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation-overview/",
+        "title": "Email Token API Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation/",
+        "title": "Email Token API",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation-overview/",
+        "title": "SMS OTP API Overview",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation/",
+        "title": "SMS OTP API",
+        "type": "POST"
+      }
+    ]
+  },
+"Roles Management": [
       {
         "url": "v2/customer-identity-api/roles-management/overview/",
         "title": "Overview",
