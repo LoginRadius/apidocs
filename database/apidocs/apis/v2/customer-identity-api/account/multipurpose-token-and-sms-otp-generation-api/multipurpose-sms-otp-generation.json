@@ -1,0 +1,45 @@
+{
+    "name": "Multipurpose SMS OTP Generation API",
+    "domain": "https://api.loginradius.com/",
+    "path": "identity/v2/manage/account/smsotp/{smsotptype}",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": {
+        "Phone": "xxxxxxxxxx",
+        "Uid": "a388v51e716346538679ff92541631cb",
+        "Name": "name"
+    },
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API generates SMS OTP for Add phone, Phone Id verification, Forgot password, Forgot pin, One-touch login, smart login and Passwordless login.For more details about this API please refer <a href=''>here</a>",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ],
+        "Template Params": [
+            {
+                "name": "smsotptype",
+                "is_required": true,
+                "description": "The identifier type for the OTP that we need to generate.For more details about this API please refer <a href='api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation-overview/'>here</a>"
+            }
+        ]
+    },
+    "outputFormat": {
+        "Token": "7va3c4b41b434dfe95c89c4006399c48",
+        "ExpiresIn": "2023-04-05T09:08:03.288Z"
+    }
+}
