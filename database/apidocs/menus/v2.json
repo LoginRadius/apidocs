@@ -838,7 +838,7 @@
         "type": "DELETE"
       }
     ],
-    "Multipurpose Token and SMS Generation API": [
+    "Multipurpose Token and SMS OTP Generation API": [
       {
         "url": "v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation-overview/",
         "title": "Email Token API Overview",
