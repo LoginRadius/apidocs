@@ -9,7 +9,8 @@
     "verificationUrl": "",
     "emailTemplate":"",
     "EmailTemplate2FA":"",
-    "fields":"*"
+    "fields":"*",
+    "isvoiceotp" : ""
   },
   "postparams": {
     "phone":"0123456789",
@@ -86,6 +87,11 @@
         "name": "fields",
         "is_required": false,
         "description": "Optional parameter determining fields returned in profile"
+      },
+      {
+        "name": "isvoiceotp",
+        "is_required": false,
+        "description": "Boolean, pass true if you wish to trigger voice OTP"
       }
     ],
     "Post Params": [

@@ -6,7 +6,8 @@
     "getparams": {
       "apikey*": "@apikey@",
       "secondfactorauthenticationtoken*":"",
-      "fields": "*"
+      "fields": "*",
+      "isvoiceotp" : ""
     },
     
     "postparams": {
@@ -27,7 +28,15 @@
         "name": "apikey",
         "is_required": true,
         "description": "LoginRadius API Key"
-      },
+      }
+
+      ,
+         {
+           "name": "isvoiceotp",
+           "is_required": false,
+           "description": "Boolean, pass true if you wish to trigger voice OTP"
+         }
+   ,
 
         {
           "name": "secondfactorauthenticationtoken",
@@ -39,8 +48,7 @@
           "is_required": false,
           "description": "Optional parameter determining fields returned in profile"
         }
-        
-      ],
+     ],
 
       "Post Params": [{
         "name": "QuestionId",

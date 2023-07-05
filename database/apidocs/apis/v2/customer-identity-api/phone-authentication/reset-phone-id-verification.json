@@ -5,7 +5,8 @@
   "method": "PUT",
   "getparams": {
     "apikey*": "@apikey@",
-    "apisecret*": "@secret@"
+    "apisecret*": "@secret@",
+    "isvoiceotp" : ""
   },
   "postparams": "",
   "headers": {
@@ -24,7 +25,12 @@
         "name": "apisecret",
         "is_required": true,
         "description": "LoginRadius API Secret"
-      }
+      },
+      {
+        "name": "isvoiceotp",
+        "is_required": false,
+        "description": "Boolean, pass true if you wish to trigger voice OTP"
+      }   
     ],
 	"Template Params": [
       {

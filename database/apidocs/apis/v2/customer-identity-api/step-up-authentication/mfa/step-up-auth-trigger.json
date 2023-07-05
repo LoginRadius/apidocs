@@ -5,7 +5,8 @@
     "method":"GET",
     "getparams":{
 		"apikey*":"@apikey@",
-		"smstemplate2fa":""
+		"smstemplate2fa":"",
+    "isvoiceotp" : ""
 	},
     "postparams":"",
     "headers":{"content-Type":"application/json","Authorization":"Bearer "},
@@ -22,7 +23,12 @@
           "name": "smstemplate2fa",
           "is_required": false,
           "description": "Name of SMS template"
-        }
+        }  ,
+        {
+          "name": "isvoiceotp",
+          "is_required": false,
+          "description": "Boolean, pass true if you wish to trigger voice OTP"
+        }  
       ],
 	  "Headers Parameters": [{
                 "name": "Authorization",
