@@ -8,7 +8,8 @@
     "verificationurl": "",
     "loginurl": "",
     "emailtemplate": "",
-    "g-recaptcha-response": ""
+    "g-recaptcha-response": "",
+    "isvoiceotp" : ""
   },
   "postparams": {
       "email": "",
@@ -76,6 +77,11 @@
         "name": "g-recaptcha-response",
         "is_required": false,
         "description": "It is only required for locked accounts when logging in. You need to pass valid a recaptcha value in api for login if account gets locked after continous n number of unsuccessful login attempts( Number of login attempts can be set through user account). Details about this feature can be located <a href='/docs/api/v2/admin-console/platform-security/auth-security-configuration'>here</a>"
+      } ,
+      {
+        "name": "isvoiceotp",
+        "is_required": false,
+        "description": "Boolean, pass true if you wish to trigger voice OTP"
       }
     ],
     "Post Params": [

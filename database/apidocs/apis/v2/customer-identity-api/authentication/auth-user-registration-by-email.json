@@ -8,7 +8,8 @@
         "verificationurl": "",
         "emailtemplate": "",
         "welcomeemailtemplate": "",
-		"options":""
+		"options":"",
+        "isvoiceotp" : ""
     },
     "postparams": {
         "Prefix": "",
@@ -243,7 +244,12 @@
 				"name":	"options",
 				"is_required": false,
 				"description": "PreventVerificationEmail (Specifying this value prevents the verification email from being sent. Only applicable if you have the optional email verification flow)"
-			}
+			},
+            {
+                "name": "isvoiceotp",
+                "is_required": false,
+                "description": "Boolean, pass true if you wish to trigger voice OTP"
+            }
         ],
         "Headers Parameters": [{
                 "name": "X-LoginRadius-Sott",
