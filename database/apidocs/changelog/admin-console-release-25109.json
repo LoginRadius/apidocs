@@ -21,6 +21,9 @@
             },
             {
                 "text": "While attempting to access the deprecated LoginRadius API endpoints, the response will return <strong>'404/405'</strong> status code."
+            },
+            {
+                "text": "Configuration steps for the <a href='https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/social-login/social-providers'>Social Providers</a> will automatically update to accommodate the custom domain settings (if configured any)."
             }
         ],
         "FIXED": [
