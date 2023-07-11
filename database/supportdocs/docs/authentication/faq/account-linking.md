@@ -6,8 +6,6 @@
 
 Account Linking allows customers to connect all of the log in providers for a user into one centralized account.
 
-![Test](https://lr-dev-apidocscdnstorage.s3.amazonaws.com/API-Documentation-LoginRadius_119757827064ad6c1a3d6695.36739021.png "Test")
-
 ##How Does it Work?
 
 A user can register and log in with an email and password the first time, and subsequently, log in with a social provider the second time. Regardless of the method and profile this user chooses to log in with, the chosen profiles will be linked to create a single user view.
