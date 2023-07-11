@@ -41,11 +41,7 @@ function createImage($fileName) {
 
     $s3 = new S3Client([
         'version' => 'latest',
-        'region'  => AWS_REGION,
-        'credentials' => [
-            'key'    => AWS_ACCESS_KEY,
-            'secret' => AWS_SECRET_KEY,
-        ]
+        'region'  => AWS_REGION
     ]);
     try {
         $result = $s3->putObject([
