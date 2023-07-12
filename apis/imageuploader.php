@@ -46,7 +46,7 @@ function createImage($fileName) {
     try {
         $result = $s3->putObject([
             'Bucket' => S3_BUCKET_NAME,
-            'Key'    => $fileName,
+            'Key'    => 'images/'.$fileName,
             'ACL'    => 'public-read',
             'SourceFile' => $content
         ]);
