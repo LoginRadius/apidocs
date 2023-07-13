@@ -4,7 +4,7 @@ You can export data for profiles created in the specified date range in JSON or 
 
 1. Click **Add a New Request** button to create a request
 
-   ![](https://apidocs.lrcontent.com/images/DE_206235e83d8a1cdc1e2.60263275.png)
+   ![Add A New Request](https://lr-dev-apidocscdnstorage.s3.amazonaws.com/images/Add-A-New-Request_76052776664af849413f660.75303073.png "Add A New Request")
 
 2. It will pop-up a form tab. Fill all the required fields, Export Type, Start Date, End Date, Email addresses and Encryption Key. If you select export type to CSV, the “Select Fields” dropdown will be rendered. You can select multiple data fields from the dropdown for CSV format. After that click **Request export**.
 
