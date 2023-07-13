@@ -56,7 +56,7 @@ function createImage($fileName) {
             $output['status'] = "success";
             $output['message'] = "file uploaded success.";
             $output['name'] = $fileName;
-            $output['url'] = $result_arr['ObjectURL'];
+            $output['url'] ='https://'.API_DOCS_IMAGE_DOMAIN.parse_url($result_arr['ObjectURL'])['path'];
         } else {
             $output['message'] = "Upload Failed! S3 Object URL not found.";
             $output['status'] = "error";
