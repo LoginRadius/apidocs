@@ -28,7 +28,7 @@ The OAuth Provider configuration fields appear on the same screen as displayed b
 
 ![Provider Form](https://apidocs.lrcontent.com/images/custom-IDP-OAuth_219016202d3d7a54d82.99185803.png "Provider Form")
 
-**Step 3:** In the **Provider Name** field, enter the unique name of the OAuth provider.
+**Step 3:** In the **Provider Name** field, enter the unique name of the OAuth provider. This name will be displayed under the social login forms in the LoginRadius IDX page and on the social login form rendered by LoginRadius V2.js library on your application if the **Include In Social Schema** is selected while configuring the OAuth app.
 
 > **Note:** Below are the validation rules that should be taken care of while creating the **Provider Name**.If any of the below validation rule is not followed the error message: `Provider Name is not valid` will be shown.
 

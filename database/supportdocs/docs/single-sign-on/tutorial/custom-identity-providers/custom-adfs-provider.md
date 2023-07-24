@@ -72,7 +72,8 @@ The following screen appears:
 **Step 2:** Navigate to **Platform Configuration > Authentication Configuration > Custom IDPS**.
 Click on **ADFS Providers** Tab.
 
-**Step 3:** In **Add a New ADFS Provider** enter any unique name that will be used by LoginRadius to identify the provider that is originating the request.
+**Step 3:** In **Add a New ADFS Provider** enter any unique name that will be used by LoginRadius to identify the provider that is originating the request. This name will be displayed under the social login forms in the LoginRadius IDX page and on the social login form rendered by LoginRadius V2.js library on your application if the **Include In Social Schema** is selected while configuring the ADFS app.
+
 
 > **Note:** Below are the validation rules that should be taken care of while creating the **Provider Name**.If any of the below validation rule is not followed the error message: `Provider Name is not valid` will be shown.
 
