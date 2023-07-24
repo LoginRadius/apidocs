@@ -23,7 +23,8 @@ The SAML Provider configuration fields appear on the same screen as displayed be
 
 ![Custom IDP full view](https://apidocs.lrcontent.com/images/Custom-Idps-SAML-updated_421408093649a125aa45b60.90348832.png "Custom IDP full view")
 
-**Step 3:** In the **Login Flow choose** the desired SAML flow from the dropdown and in the **Provider Name** field, enter the unique name of the SAML provider.
+**Step 3:** In the **Login Flow choose** the desired SAML flow from the dropdown and in the **Provider Name** field, enter the unique name of the SAML provider. This name will be displayed under the social login forms in the LoginRadius IDX page and on the social login form rendered by LoginRadius V2.js library on your application if the **Include In Social Schema** is selected while configuring the SAML app.
+
 
 > **Note:** Below are the validation rules that should be taken care of while creating the **Provider Name**.If any of the below validation rule is not followed the error message: `Provider Name is not valid` will be shown.
 
