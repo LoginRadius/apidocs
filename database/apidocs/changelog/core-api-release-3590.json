@@ -21,12 +21,14 @@
         {
             "text": "Now you can set up Google reCAPTCHA V3 and hCaptcha for authentication on your LoginRadius application or website."
         }
+    
     ],
-    "IMPROVED":
+    "IMPROVED": 
     [
-        {
-            "text": "Expire all existing Refresh Tokens on the re-use of any refresh token."
-        }
+    
+    {
+      "text": "Expire all existing Refresh Tokens on the re-use of any refresh token (This has been rolled back in <a href='/docs/api/changelog/core-api-release-3600'>Core API Release 36.0.0</a>)."
+    }
     ]
     },
     "auther": "Nikhil Sahu",
