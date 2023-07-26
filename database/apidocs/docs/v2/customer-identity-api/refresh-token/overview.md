@@ -20,8 +20,6 @@ When a session is established the access_token is issued with an expiration time
 
 - **Sliding Token Expiration:** If you would like the access_token to be automatically refreshed based on it being accessed or used via our APIs, you can have the access_token be automatically refreshed for the same time period as it's set expiration time, this means you can have it refresh for any desired length. E.g. 15 minutes, 60 days, etc. Note: To have this feature enabled please contact [LoginRadius Support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
-> **Note:** Kindly note that using an expired/invalidated refresh token will invalidate all the refresh tokens associated with the user across all the sessions. Consequently, you will be unable to extend any of the user's sessions leveraging the associated refresh token.
-
 ##Obtaining a Refresh Token
 
 A Refresh Token can be obtained via one of the methods listed below:
