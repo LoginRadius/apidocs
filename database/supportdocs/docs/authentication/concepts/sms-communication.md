@@ -1,17 +1,17 @@
-# SMS Provider Introduction
+# SMS/Voice OTP Provider Introduction
 
-An **SMS Provider** enables a system to send and receive text messages to and from an SMS capable device over the global telecommunication network. The SMS Gateway translates the message and makes it compatible for delivery over the network so that it can reach to the recipient.
+AAn **SMS/Voice OTP Provider** enables a system to send and receive text messages or Voice OTP to and from an SMS/Voice OTP capable device over the global telecommunication network. The SMS Gateway translates the message and makes it compatible for delivery over the network so that it can reach the recipient.
 
-LoginRadius Identity Platform establishes SMS communication by sending the SMS from your SMS provider to your customers. To send out SMS from your SMS provider, you will need to configure the SMS provider settings.
+LoginRadius Identity Platform establishes SMS communication by sending the SMS from your SMS provider to your customers. To send out SMS from your 
+SMS provider, you will need to configure the SMS provider settings.
 
 The following is a sequence diagram for sending an event-based SMS using the LoginRadius Identity Platform:
 
-  
 
 ![enter image description here](https://apidocs.lrcontent.com/images/SMS_Flow_3_204885b69f48bc781e1-51710453_229855e7ef289944da4.26486074.png "enter image title here")
 
 
-The following steps explain the working of SMS communication in the LoginRadius Identity Platform:
+TThe following steps explain the working of SMS communication in the LoginRadius Identity Platform:
 
 **1.** The customer initiates a login request in the application via LoginRadius' API.
 
@@ -33,31 +33,43 @@ LoginRadius supports multiple **SMS providers**. Below is the list of SMS provid
     
 **4.**  [**Textlocal**](/api/v2/admin-console/platform-configuration/communication-configuration/sms/providers/textlocal-configuration/)
 
-Now lets go through the other aspects of SMS configuration that are **Global SMS Settings** and **SMS Template Settings** which are available in the **LoginRadius Admin Console.**
-
-- [**Global SMS Settings:**](/authentication/concepts/sms-communication/#partglobalsmssettings0) You can customize various global SMS settings like OTP length, OTP type and more.
-- [**SMS Templates:**](/authentication/concepts/sms-communication/#partsmstemplatesettings1) You can view the existing list of default SMS templates available for various events like phone number registration, forgot password and more. In addition, you can manage existing SMS templates or create a new SMS template based on the requirements.
-
-## Part 1 - Global SMS Settings
-
-This section will take you through the configuration of the global SMS settings in your LoginRadius Admin Console. These settings are applicable for all the SMS templates until defined for individual SMS settings. The individual SMS settings are available in the respective feature section like Phone Login, Passwordless Login and more.
-
-The following explains the global SMS settings and how you can configure them:
+> **Note:** Currently, within the Admin Console, Twilio stands as the sole self-configurable SMTP provider. For configuring other SMTP providers, a [**support ticket**](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) needs to be raised to request assistance with the setup.
 
 
-**Step1:** Login to your <a href = https://adminconsole.loginradius.com/ target=_blank>**Admin Console**</a> account and navigate to <a href = https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/global-sms-settings target=_blank>**Platform Configuration > Identity Workflow >  Global SMS Settings**</a>. From the left navigation panel, select the **Global SMS Settings** option. 
+Now let's go through the other aspects of SMS configuration, which are **Global SMS/Voice OTP Settings** and **SMS Template Settings**, which are available in the **LoginRadius Admin Console**.
+
+- [**Global SMS Settings:**](/authentication/concepts/sms-communication/#partglobalsmssettings0)  You can customize various global SMS settings like OTP length, OTP type, and more.
+- [**SMS Templates:**](/authentication/concepts/sms-communication/#partsmstemplatesettings1) You can view the existing list of default SMS templates available for various events like phone number registration, forgot password, and more. In addition, you can manage existing SMS templates or create a new SMS template based on the requirements.
+
+## Part 1 - Global SMS/Voice OTP Settings
+
+This section will take you through the Global SMS/Voice OTP Settings configuration in your LoginRadius Admin Console. These settings are applicable to all the SMS templates until defined for individual SMS Settings. The individual SMS settings are available in the respective feature section like Phone Login, Passwordless Login, and more.
+
+The following explains the Global SMS/Voice OTP Settings and how you can configure them:
+
+
+**Step 1:** Login to your <a href = https://adminconsole.loginradius.com/ target=_blank>**Admin Console**</a> account and navigate to <a href = https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/global-sms-settings target=_blank>**Platform Configuration > Identity Workflow >  Communication Configuration > Global SMS/Voice OTP Settings**</a>. From the left navigation panel, select the **Global SMS/Voice OTP Settings** option. 
 
 The following screen will appear:
-![SMS Communication and Configuration](https://apidocs.lrcontent.com/images/sms1_240485e7fa5475967d5.30687754.png "SMS Communication and Configuration")
+![enter image description here](https://apidocs.lrcontent.com/images/pasted-image-0_145879269464c2ba70cb6374.39089038.png "SMS otp config")
 
-**Step 2:** You can update the default values for the following global SMS settings:
+**Step 2:** You can update the default values for the following Global SMS/Voice OTP Settings
+- **OTP Delivery Method:** This dropdown allows you to select the desired OTP delivery method, either "SMS" or "SMS & Voice."
 - **OTP Length:** The length of the one-time passcode you want to set for the SMS.
 - **OTP Type:** The type of OTP you want to send to the customer from available options like Numeric, AlphaNumeric, and more.
-- **Request Limit:** The number of times a customer can request an SMS/ OTP during the request period (in seconds) before this feature is temporarily disabled. For example, a customer can request an OTP 5 times (Request Limit) over the course of 120 seconds (Request Period) before the feature is disabled.
+- **Request Limit (Seconds):** The number of times a customer can request an SMS/ OTP during the request period (in seconds) before this feature is temporarily disabled. For example, a customer can request an OTP 5 times (Request Limit) over the course of 120 seconds (Request Period) before the feature is disabled.
 - **Request Disabled Period (Minutes):** The duration for which an SMS/ OTP request will be disabled once the request limit is reached.
 - **OTP Validity Limit (Seconds):** The amount of time (in seconds) for which an OTP is valid.
 
-**Step 3:** Click the **Save **button to save the **Global SMS settings**.
+> **Note:** If you have selected “SMS & Voice” on **OTP Delivery Method,** then the below voice OTP-related settings appear.
+
+- **Voice Type:** This dropdown allows you to choose the desired voice type for voice OTP, i.e., "Male" or "Female."
+
+- **Language:** This dropdown enables you to select the language for the voice OTP. As of now, this includes English, Spanish, French, German, and Italian.
+
+- **Repeat OTP on Call:** This dropdown allows you to specify the times the OTP should be repeated during a voice call, ranging from 1 to 10.
+
+**Step 3:** Click the **Save** button to save the **Global SMS settings**.
 
 > **Note:** Only the above settings can be configured globally for the SMS. The SMS templates need to be configured and managed at the individual feature level. For example, phone number verification SMS can only be managed from <a href = https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/phone-login/phone-number-verification target=_blank>here</a>.
 
