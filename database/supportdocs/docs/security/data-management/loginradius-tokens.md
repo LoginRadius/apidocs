@@ -93,10 +93,64 @@ The Google Authenticator OTP is used strictly in the context of Multi-Factor Aut
 
 You can learn more about this flow in our [Google Authenticator Workflow documentation](/api/v2/user-registration/two-factor-authentication-overview#googleauthenticatorworkflow1).
 
+## LoginRadius JWT encrypted token (JWE)
+
+Earlier, we only provided usage of tokens in **GUID format**, but now we are introducing an **encrypted JWT** type of token format, which means JSON Web Token, primarily used for authentication and authorization in web applications and APIs. It allows the secure transmission of claims (data) between parties as a JSON object.
+
+When a user successfully logs in or authenticates, an authentication server will typically provide the  encrypted JWT token. In order to verify the user's identity and access privileges, the client then sends this token (often in the Authorization header) with subsequent requests to the server. By verifying the signature with the shared secret key, the server may confirm the validity of the token. 
+
+Encrypted JWT tokens have several advantages, such as **Stateless, Secure, and Flexible**. They are self-contained, meaning that all necessary information is contained within the token itself, reducing the need for frequent **database or server lookups**. They are portable and can be easily transmitted across different systems or platforms. Additionally, since the token is digitally signed, it provides a level of assurance that the token hasn't been tampered with.
+
+> **Note:** By default, the Admin Console does not have this feature enabled. Therefore, you must submit a [**support ticket**](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) to the LoginRadius Support team in order to enable this feature for your account.
+
+### GUID vs Encrypted JWT
+
+|             | GUID Token                                                    | Encrypted JWT Token                                                   |
+| ----------- | --------------------------------------------------------------|-----------------------------------------------------------------------|
+| Purpose     | Generating unique identifiers                                 | Authentication and authorization                                      |
+| Structure   | 32-character hexadecimal string                               | Combination of header, payload, and signature                         |
+| Claims      | No inherent meaning or specific data                          | Contains claims about the user                                        |
+| Uniqueness  | Designed to be globally unique                                | Verification based on digital signature                               |
+| Generation  | Uses algorithms and components like MAC address and timestamp | Created by encoding a header, payload, and signing with a secret key  |
+
+**Encrypted JWT (JSON Web Token)** has become a popular alternative to traditional session-based or opaque tokens in various situations. The tokens such as **Session tokens, Access tokens, Refresh tokens, and Feature tokens are now supported in JWT format**. An encrypted JWT offers a stateless solution that eliminates the need for server-side storage and improves performance. By utilizing encrypted JWT, applications can benefit from its self-contained nature, reduced storage requirements, improved performance, and enhanced security through digital signature verification. However, secure implementation is crucial, including proper key management, token expiration policies, and protection against token misuse or theft.
+
+> **Note:** We request you kindly remove any token validation rules you were using previously on the GUID Token because the encrypted JWT token is a dynamic type of token that consists of variable character length.
+
+#### [Auth Login API by Email](/api/v2/customer-identity-api/authentication/auth-login-by-email/)
+
+```
+{
+
+.... JSON Profile,
+
+    "access_token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwidHlwIjoiYXQrand0In0..CVQ_S_Au0ZCi7TUp.5Cp-P0eDWbhoPURA_fwJFOzv8CHqFIGRExR13VxsMBIfEe-eZ1pTBrkWloaKRN3R3DGdNyq6F1qGF3BS-YRkG6_NgmmwA3HxlYMXr1IiZQv1bzm8VYPPwq-Z5uRs8tTAq4C5y2EVgehy9As_OkFsnJnfxQ-asevrmcKu45_hN4Y0Ji-Z1bq5r4Gso9CzeyBedEuXvueri9GOalG1N14uWawLPa0S2v-zE9vzelSDqkYflC58HA79pWqpl36NLEzo6HWfDaqiZucQD1tvLp2KoAVqi30JMAbsNWYo1xBQuinpFKOhsI7RRGTUHxllgHXEbIfw5b8uDZf4PDFAovFGU0d9uVKWa0c91xWYpAhLlFenEciixIIG6nbT319M00jR05QF7Bl5wC1weirZ0EBJkEkgfVyim0NiFjvZ7bOOoxgc830Os_0DHY5vt3rtchq-dcPjnLQEAXdkZO1yVUSVLhfGJrV5j7EEM2QI3jjZEdxSEjn9Sgd-RD6clK_rjQvZXX9juMdK7xd_9XsGl9Hpou6u92xs2g.hN6Ek5nut6o_HWtGBDfqiQ",
+
+    "refresh_token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwidHlwIjoiand0In0..Gpb3XwXEweh9n56v.X-vOxIMzgB451Qa4PH1dLH0ZQ3e6og4NQGuq1QgCvBG_1y1alsmIRzZkd33kfegSxGPeEzh16Hu7hir0e5CRc6PlQgHzwwe6TyUfgylvWT8G0EWztJouZQ4d6I_w6CjMgHfFiJ64_uaqnF8UqT7GKLF4E4DmwxVEtuitfx0jLP53PErD3nKdc0EvYf3MRzipF44GJtO9G9f930ymNa9Fnh-56hf1cvusSqJSKCSqalQ7u9ATYBrUkmpnyUAD_YHY6rIihIl5UF1qyWlZyrNRjJ3YacvEoJw2ELiY8giKC6Z_6IkCH3jAaSyfEgxJJmqpduxdj9DWVJl8vdf1B9QcRU4UWL7jaLmkjJImGnVJrJ8T-bnJ9BxG8ZmoBeXv_X-zYEvTFdxCmYljYK0oYPUcJJhMsRu1n81x0Lvv7_PiUvD1zw19xDdyGG4DYzUBkdaPhYnWiU1gC5TgshGQerONVGtlQ3TgvH0olBMx6sILTyoY-F-xDU1ZKnNQvVvWsPb77t-BkDjJH22y2F0DkUz04H--2Ay4oO0Yd3EdXAGFcQkRtCNovtaGRwVaPHMah1YoArzgIpc282Mz9F_i1mNgNuMq2-5c6ThsTrfY9_P19plG1_QGcIax-z-b4vvT7CrlmMpqQnRIVZlHI8VNVyFkiTU._et-yqIwaaoo6qgWznRPZA",
+    
+    "expires_in": "2023-06-23T12:04:00.906Z"
+}
+
+```
+
+#### [Auth Validate Access Token](/api/v2/customer-identity-api/authentication/auth-validate-access-token/)
+
+```
+{
+    "access_token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwidHlwIjoiYXQrand0In0..CVQ_S_Au0ZCi7TUp.5Cp-P0eDWbhoPURA_fwJFOzv8CHqFIGRExR13VxsMBIfEe-eZ1pTBrkWloaKRN3R3DGdNyq6F1qGF3BS-YRkG6_NgmmwA3HxlYMXr1IiZQv1bzm8VYPPwq-Z5uRs8tTAq4C5y2EVgehy9As_OkFsnJnfxQ-asevrmcKu45_hN4Y0Ji-Z1bq5r4Gso9CzeyBedEuXvueri9GOalG1N14uWawLPa0S2v-zE9vzelSDqkYflC58HA79pWqpl36NLEzo6HWfDaqiZucQD1tvLp2KoAVqi30JMAbsNWYo1xBQuinpFKOhsI7RRGTUHxllgHXEbIfw5b8uDZf4PDFAovFGU0d9uVKWa0c91xWYpAhLlFenEciixIIG6nbT319M00jR05QF7Bl5wC1weirZ0EBJkEkgfVyim0NiFjvZ7bOOoxgc830Os_0DHY5vt3rtchq-dcPjnLQEAXdkZO1yVUSVLhfGJrV5j7EEM2QI3jjZEdxSEjn9Sgd-RD6clK_rjQvZXX9juMdK7xd_9XsGl9Hpou6u92xs2g.hN6Ek5nut6o_HWtGBDfqiQ",
+
+    "refresh_token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwidHlwIjoiand0In0..Gpb3XwXEweh9n56v.X-vOxIMzgB451Qa4PH1dLH0ZQ3e6og4NQGuq1QgCvBG_1y1alsmIRzZkd33kfegSxGPeEzh16Hu7hir0e5CRc6PlQgHzwwe6TyUfgylvWT8G0EWztJouZQ4d6I_w6CjMgHfFiJ64_uaqnF8UqT7GKLF4E4DmwxVEtuitfx0jLP53PErD3nKdc0EvYf3MRzipF44GJtO9G9f930ymNa9Fnh-56hf1cvusSqJSKCSqalQ7u9ATYBrUkmpnyUAD_YHY6rIihIl5UF1qyWlZyrNRjJ3YacvEoJw2ELiY8giKC6Z_6IkCH3jAaSyfEgxJJmqpduxdj9DWVJl8vdf1B9QcRU4UWL7jaLmkjJImGnVJrJ8T-bnJ9BxG8ZmoBeXv_X-zYEvTFdxCmYljYK0oYPUcJJhMsRu1n81x0Lvv7_PiUvD1zw19xDdyGG4DYzUBkdaPhYnWiU1gC5TgshGQerONVGtlQ3TgvH0olBMx6sILTyoY-F-xDU1ZKnNQvVvWsPb77t-BkDjJH22y2F0DkUz04H--2Ay4oO0Yd3EdXAGFcQkRtCNovtaGRwVaPHMah1YoArzgIpc282Mz9F_i1mNgNuMq2-5c6ThsTrfY9_P19plG1_QGcIax-z-b4vvT7CrlmMpqQnRIVZlHI8VNVyFkiTU._et-yqIwaaoo6qgWznRPZA",
+
+    "expires_in": "2023-06-23T12:04:00.000Z"
+}
+
+
+
+```
+
 ## JWT (JSON Web Token)
 
-JWT is a popular method for establishing SSO (Single-Sign-On) connections between business apps. LoginRadius supports the handling of JSON Web Tokens.
-Please see our documentation on JWT for more details [here](/api/v2/single-sign-on/jwt-login).
+Additionally, please note that the JWT is also another popular method for establishing SSO (Single-Sign-On) connections between business apps. LoginRadius supports the handling of JSON Web Tokens. See our documentation on JWT for more details [here](/api/v2/single-sign-on/jwt-login).
 
 > **Note:** The default JWT token expiration time is 10 min, If you would like to have your JWT Token extended to longer than 10 minutes please contact <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
 
