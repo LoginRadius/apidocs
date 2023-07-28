@@ -21,9 +21,10 @@ The following screen will appear:
 
 The SAML Provider configuration fields appear on the same screen as displayed below:
 
-![Custom IDP full view](https://apidocs.lrcontent.com/images/custom-idp_271367546425cc5c907093.34091358.png "Custom IDP full view")
+![Custom IDP full view](https://apidocs.lrcontent.com/images/Custom-Idps-SAML-updated_421408093649a125aa45b60.90348832.png "Custom IDP full view")
 
-**Step 3:** In the **Login Flow choose** the desired SAML flow from the dropdown and in the **Provider Name** field, enter the unique name of the SAML provider.
+**Step 3:** In the **Login Flow choose** the desired SAML flow from the dropdown and in the **Provider Name** field, enter the unique name of the SAML provider. This name will be displayed under the social login forms in the LoginRadius IDX page and on the social login form rendered by LoginRadius V2.js library on your application if the **Include In Social Schema** is selected while configuring the SAML app.
+
 
 > **Note:** Below are the validation rules that should be taken care of while creating the **Provider Name**.If any of the below validation rule is not followed the error message: `Provider Name is not valid` will be shown.
 
@@ -44,7 +45,7 @@ The SAML Provider configuration fields appear on the same screen as displayed be
 
 **Step 8:** In **ID PROVIDER CERTIFICATE** enter the certificate for IdP i.e SAML.
 
-> **Note:** The **Service Provider Certificate** and its **Key** are now automatically generated from the backend in the Admin Console, with a default expiry time of **five years.**
+> **Note:** To renew the **Service Provider Certificate**, click on designated "**Renew Certificate**" button. Once the renewal is completed, the updated expiry date and time will be promptly shown.
 
 **Step 9:** For **RELAY STATE PARAMETER** enter **RelayState**
 

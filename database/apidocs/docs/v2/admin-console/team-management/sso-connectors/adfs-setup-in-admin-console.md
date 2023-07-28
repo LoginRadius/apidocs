@@ -109,9 +109,11 @@ After you create the relying party trust, you can create the claim rules.
 
 **Step-1:** For configuring through app section, fill the details mentioned below in form shown in the screen:
 
-![ADFS](https://apidocs.lrcontent.com/images/2_1977362fe497219ea85.57652809.png "ADFS")![ADFS](https://apidocs.lrcontent.com/images/ADFS_680762f203e7518945.34878499.png "ADFS")<br>
+![ADFS](https://apidocs.lrcontent.com/images/Team-SSO-ADFS_1534510628649f515aa6d063.63290361.png "ADFS")<br>
 
->**Note:** If you select the **Switch off Email/Password Login instead of Enable only SSO** option, then login with **Email/Password** will not work, and only SSO Login will work to access LoginRadius Admin Console.
+> **Note:** 
+ - To renew the **Service Provider Certificate**, click the designated "**Renew Certificate**" button. Once the renewal is completed, the updated expiry date and time will be promptly shown.
+ - If you select the **Switch off Email/Password Login instead of Enable only SSO** option, then login with **Email/Password** will not work, and only SSO Login will work to access LoginRadius Admin Console.
 
 
 

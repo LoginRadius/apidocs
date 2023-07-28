@@ -10,7 +10,7 @@ The following explains how you can create basic segmentation:
  
 The following screen will appear:
 
-![Basic Segmentation](https://apidocs.lrcontent.com/images/cs1_77135e83bc31ef9d34.71210962.png "Basic Segmentation")
+![Basic Segmentation](https://apidocs.lrcontent.com/images/Basic-Segmentation_38752491464afc0d87af815.68807203.png "Basic Segmentation")
  
 **Step 2:** Select the desired condition from the drop-down (And/OR) and click the + icon, the  Rule and Operator selectors appears on the screen as displayed below:
  ![Basic Segmentation](https://apidocs.lrcontent.com/images/cs2_203755e83bd7d747291.81867924.png "Basic Segmentation")

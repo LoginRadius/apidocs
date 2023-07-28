@@ -6,7 +6,8 @@
   "getparams":{
     "apikey*":"@apikey@",
     "secondfactorauthenticationtoken*":"",
-    "smstemplate2fa":""
+    "smstemplate2fa":"",
+    "isvoiceotp" : ""
   },
   "postparams":"",
   "headers":{
@@ -23,11 +24,18 @@
       "name": "secondfactorauthenticationtoken",
       "is_required": true,
       "description": "SecondFactorAuthenticationToken from the response of 2FA authentication API"
-    }, {
+    },
+    {
       "name": "smstemplate2fa",
       "is_required": false,
       "description": "SMS Template Name (This template is used for 2FA OTP template)"
-    }]
+    },
+    {
+      "name": "isvoiceotp",
+      "is_required": false,
+      "description": "Boolean, pass true if you wish to trigger voice OTP"
+    }
+    ]
   },
   "outputFormat": {
   

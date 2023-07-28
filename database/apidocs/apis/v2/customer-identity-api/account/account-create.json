@@ -5,7 +5,8 @@
   "method": "POST",
   "getparams": {
     "apikey*": "@apikey@",
-    "apisecret*": "@secret@"
+    "apisecret*": "@secret@",
+    "isvoiceotp" : ""
   },
   "postparams": {
     "Prefix": "",
@@ -258,6 +259,11 @@
         "name": "CustomFields",
         "is_required": false,
         "description": "Custom fields as you have set on your LoginRadius Admin Console."
+      },
+      {
+        "name": "isvoiceotp",
+        "is_required": false,
+        "description": "Boolean, pass true if you wish to trigger voice OTP"
       }
     ]
   },

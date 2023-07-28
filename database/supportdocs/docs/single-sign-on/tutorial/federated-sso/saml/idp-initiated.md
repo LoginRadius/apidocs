@@ -48,7 +48,7 @@ The following screen will appear:
 
 **Step 2:** To configure SAML app, in the Admin Console, click the **Add App** button displayed in the above screenshot. The following details will appear within the same screen:
 
-![SAML Full View](https://apidocs.lrcontent.com/images/IDP_14958176816425c038a86819.63382371.png "SAML Full View")
+![SAML Full View](https://apidocs.lrcontent.com/images/Custom-Idps-FedSSO-SAML-idp-updated_1591558952649a150676c970.90580190.png "SAML Full View")
 
 **Step 3:** Select **Idp Initiated Login** from **Login Flow** options.
 
@@ -109,7 +109,7 @@ Some Examples of Field Mappings:
 
 **Step 16:** Click the **ADD A SAML APP** button to save the app settings. 
 
-> **Note:** The **Identity Provider Certificate** and its **Key** are now automatically generated from the backend in the Admin Console, with a default expiry time of **five years.**
+> **Note:** To renew the **Identity Provider Certificate**, click the designated "**Renew Certificate**" button. Once the renewal is completed, the updated expiry date and time will be promptly shown.
 
 Once you are done configuring the SAML app in the in Admin Console, you can view the recent success or error logs data for your SSO connection in the [Troubleshoot section](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/trouble-shoot). To view the latest logs, click the Refresh button.
 

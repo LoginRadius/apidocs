@@ -5,7 +5,8 @@
   "method": "POST",
   "getparams": {
     "apikey*": "@apikey@",
-    "smstemplate": ""
+    "smstemplate": "",
+    "isvoiceotp" : ""
   },
   "postparams": {
     "phone": "",
@@ -61,6 +62,11 @@
         "name": "Note",
         "is_required": false,
         "description": "Either you need to pass 'g-recaptcha-response' or 'qq_captcha_ticket' and 'qq_captcha_randstr' as per your configurations."
+      } ,
+      {
+        "name": "isvoiceotp",
+        "is_required": false,
+        "description": "Boolean, pass true if you wish to trigger voice OTP"
       }
     ]
   },

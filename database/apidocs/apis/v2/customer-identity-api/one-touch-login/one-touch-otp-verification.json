@@ -6,7 +6,8 @@
   "getparams": {
     "apikey*": "@apikey@",
     "otp*": "",
-    "smstemplate":""
+    "smstemplate":"",
+    "isvoiceotp" : ""
   },
   "postparams": {"phone": ""},
   "headers": {
@@ -28,6 +29,11 @@
         "name": "smstemplate",
         "is_required": false,
         "description": "SMS Template name"
+      } ,
+      {
+        "name": "isvoiceotp",
+        "is_required": false,
+        "description": "Boolean, pass true if you wish to trigger voice OTP"
       }
     ],
     "Post Params": [

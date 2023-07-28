@@ -5,7 +5,8 @@
     "method": "POST",
     "getparams": {
         "apikey*": "@apikey@",
-        "smstemplate": ""
+        "smstemplate": "",
+        "isvoiceotp" : ""
     },
     "postparams": {
         "phone": "xxxxxxxxxx"
@@ -39,7 +40,12 @@
                 "name": "phone",
                 "is_required": true,
                 "description": "The Registered Phone Number"
-            }
+            },
+            {
+              "name": "isvoiceotp",
+              "is_required": false,
+              "description": "Boolean, pass true if you wish to trigger voice OTP"
+            }      
         ]
     },
     "outputFormat": {
