@@ -1,6 +1,6 @@
 { "name": "Admin Console Release 25.11.0",
     "description": "The following release of the LoginRadius Admin Console brings you some improvements and new features as well. See below for details on some of the more notable changes applied to the Admin Console.",
-    "Changelog": {
+    "changelog": {
         "ADDED": [
             {
                 "text": "Added a new feature to support voice OTP as an OTP delivery method, enabling users to authenticate using spoken verification codes."
