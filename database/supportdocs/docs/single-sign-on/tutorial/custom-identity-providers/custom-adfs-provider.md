@@ -72,7 +72,8 @@ The following screen appears:
 **Step 2:** Navigate to **Platform Configuration > Authentication Configuration > Custom IDPS**.
 Click on **ADFS Providers** Tab.
 
-**Step 3:** In **Add a New ADFS Provider** enter any unique name that will be used by LoginRadius to identify the provider that is originating the request.
+**Step 3:** In **Add a New ADFS Provider** enter any unique name that will be used by LoginRadius to identify the provider that is originating the request. This name will be displayed under the social login forms in the LoginRadius IDX page and on the social login form rendered by LoginRadius V2.js library on your application if the **Include In Social Schema** is selected while configuring the ADFS app.
+
 
 > **Note:** Below are the validation rules that should be taken care of while creating the **Provider Name**.If any of the below validation rule is not followed the error message: `Provider Name is not valid` will be shown.
 
@@ -91,7 +92,7 @@ Click on **ADFS Providers** Tab.
 
 **Step 7:** In **ID PROVIDER CERTIFICATE** enter the certificate for IdP i.e ADFS.
 
-> **Note:** The **Service Provider Certificate** and its **Key** are now automatically generated from the backend in the Admin Console, with a default expiry time of **five years.**
+> **Note:** To renew the **Service Provider Certificate**, click the designated "**Renew Certificate**" button. Once the renewal is completed, the updated expiry date and time will be promptly shown.
 
 
 **Step 8:** For **RELAY STATE PARAMETER** enter **RelayState**.
@@ -107,7 +108,7 @@ http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name
 
 Save the settings.
 
-![ADFS Provider](https://apidocs.lrcontent.com/images/adfs_124028852642c6f6542baf6.37143936.png "ADFS Provider")
+![ADFS Provider](https://apidocs.lrcontent.com/images/Custom-Idps-ADFS-updated_29713240649a13990204e2.35630368.png "ADFS Provider")
 
 > **Note:** For any query, please reach out to LoginRadius Support from [here](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 

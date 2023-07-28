@@ -73,6 +73,12 @@ define('AZURE_ACCOUNT_NAME', getenv('AZURE_ACCOUNT_NAME'));
 define('AZURE_ACCOUNT_KEY', getenv('AZURE_ACCOUNT_KEY'));
 define('IMAGE_FILE_FORMAT', 'png,jpg,gif');
 
+//AWS S3 Bucket Credentials
+define('AWS_REGION',  getenv('AWS_REGION'));
+define('AWS_ACCESS_KEY',  getenv('AWS_ACCESS_KEY'));
+define('AWS_SECRET_KEY',  getenv('AWS_SECRET_KEY'));
+define('API_DOCS_IMAGE_DOMAIN',  getenv('API_DOCS_IMAGE_DOMAIN'));
+define('S3_BUCKET_NAME',  getenv('S3_BUCKET_NAME'));
 
 
 /*Google Recaptcha Config*/

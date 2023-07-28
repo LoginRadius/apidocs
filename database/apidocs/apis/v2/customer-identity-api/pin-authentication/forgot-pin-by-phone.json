@@ -5,7 +5,8 @@
   "method": "POST",
   "getparams": {
     "apikey*": "@apikey@",
-    "smstemplate*": ""
+    "smstemplate*": "",
+    "isvoiceotp" : ""
   },
   "postparams": {
       "Phone ": ""
@@ -32,8 +33,13 @@
         "name": "Phone",
         "is_required": true,
         "description": "Phone Number on the Account that the PIN was forgotten."
+      },
+      {
+        "name": "isvoiceotp",
+        "is_required": false,
+        "description": "Boolean, pass true if you wish to trigger voice OTP"
       }
-          ]
+   ]
   },
     "outputFormat": 
 {

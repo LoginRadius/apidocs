@@ -1,0 +1,20 @@
+{ "name": "Admin Console Release 25.11.0",
+    "description": "The following release of the LoginRadius Admin Console brings you some improvements and new features as well. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Added a new feature to support voice OTP as an OTP delivery method, enabling users to authenticate using spoken verification codes."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "Provisioned a Renew Certificate button under the Federated SSO (SAML), Custom IDP (SAML, ADFS), and Team Management (Single Sign-On) configurations to automatically renew the provider certificate extending the expiry date by 5 years"
+            },
+            {
+                "text": "Identity Experience Framework’s hosted files are now on a cookieless CDN domain “lrcontent.com” to enhance performance and ensure the delivery of high-quality services."
+            }
+        ]},
+    "auther": "Bhavya Tugnawat",
+    "created_date": "2023-07-28",
+    "status": "public"
+}

@@ -438,11 +438,9 @@
       "Large": "https://graph.facebook.com/*****/picture?type=large",
       "Profile": "https://graph.facebook.com/******/picture?type=normal"
     },
-    "IsEmailSubscribed": false
-},
-"access_token": "a029e8a7-****-4453-****-a5e721e1f358",
+    "IsEmailSubscribed": false,
+    "access_token": "a029e8a7-****-4453-****-a5e721e1f358",
   "refresh_token": "b12988a7-****-4453-****-a5e721e1f358",
 "expires_in": "2017-08-17T10:52:36.1644137Z"
-
-
+}
 }

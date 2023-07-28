@@ -1,4 +1,3 @@
-
 # Setup Azure AD Plugin
 
 LoginRadius provides a Marketplace plugin to integrate Azure Active Directory (AD) with your LoginRadius Admin Console application. Integrating LoginRadius with Azure AD provides you with the following benefits:
@@ -160,9 +159,11 @@ To configure Azure AD single sign-on with LoginRadius, perform the following ste
    
    **Step-1:** When you choose to configure through the app section method, the below screen appears and you need to fill in the details in the form shown on the screen: 
       
-   ![LR Azure AD](https://apidocs.lrcontent.com/images/Team-LoginRadius-User-Dashboard_211509270364087919a0c429.98101557.jpg "LR Azure AD")
+   ![LR Azure AD](https://apidocs.lrcontent.com/images/Team-SSO-AzureAD-updated_1628215847649f536f4ba2f1.50182192.png "LR Azure AD")
 
-   >**Note:** If you select the **Switch off Email/Password Login instead of Enable only SSO** option, then login with **Email/Password** will not work, and only SSO Login will work to access LoginRadius Admin Console.
+   > **Note:** 
+    - To renew the **Service Provider Certificate**, click the designated "**Renew Certificate**" button. Once the renewal is completed, the updated expiry date and time will be promptly shown.
+    - If you select the **Switch off Email/Password Login instead of Enable only SSO** option, then login with **Email/Password** will not work, and only SSO Login will work to access LoginRadius Admin Console.
 
    a. In **ID PROVIDER LOCATION** enter the **Login URL** which you get from the LoginRadius application under Azure AD account.  
       

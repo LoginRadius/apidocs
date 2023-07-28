@@ -94,9 +94,11 @@ Steps:
    
    **Step-1:** When you choose to configure through the app section method, the below screen appears and you need to fill in the details in the form shown on the screen: 
 
- ![Salesforce](https://apidocs.lrcontent.com/images/Salesforce_1222962f20781ab8689.56039872.png "Salesforce")
+ ![Salesforce](https://apidocs.lrcontent.com/images/Team-SSO-Salesforce-updated_1798966485649f521b2cc454.52928045.png "Salesforce")
 
- >**Note:** If you select the **Switch off Email/Password Login instead of Enable only SSO** option, then login with **Email/Password** will not work, and only SSO Login will work to access LoginRadius Admin Console.
+ > **Note:** 
+  - To renew the **Service Provider Certificate**, click the designated "**Renew Certificate**" button. Once the renewal is completed, the updated expiry date and time will be promptly shown.
+  - If you select the **Switch off Email/Password Login instead of Enable only SSO** option, then login with **Email/Password** will not work, and only SSO Login will work to access LoginRadius Admin Console.
 
  **Step-2:** Fill in the below form as: 
 

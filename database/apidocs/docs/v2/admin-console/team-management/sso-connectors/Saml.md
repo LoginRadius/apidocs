@@ -37,9 +37,11 @@ Each authentication system is unique and might require different configuration s
 
   c. In **ID Provider Location** enter the **IdP-Initiated Login URL** which you will get from the SAML supported app dashboard or metadata file. 
 
-  ![SAML](https://apidocs.lrcontent.com/images/SAML_1987562f2089639a5e4.83372731.png "SAML")
+  ![SAML](https://apidocs.lrcontent.com/images/Team-SSO-SAML_1919972316649f52cc5e1323.10439405.png "SAML")
 
-  >**Note:** If you select the **Switch off Email/Password Login instead of Enable only SSO** option, then login with **Email/Password** will not work, and only SSO Login will work to access LoginRadius Admin Console.
+  > **Note:** 
+   - To renew the **Service Provider Certificate**, click the designated "**Renew Certificate**" button. Once the renewal is completed, the updated expiry date and time will be promptly shown.
+   - If you select the **Switch off Email/Password Login instead of Enable only SSO** option, then login with **Email/Password** will not work, and only SSO Login will work to access LoginRadius Admin Console.
 
   d. **ID Provider Certificate**: Certificate of SAML supported app working as identity Provider in this case. 
 
@@ -73,4 +75,3 @@ Each authentication system is unique and might require different configuration s
 ![Common](https://apidocs.lrcontent.com/images/pasted-image-0_1165463926a9d53a426.51777542.png "Common")
 
 >The customer should have an account with the same email address in your SAML application as well as in LoginRadius before using your SAML application to login to the LoginRadius Admin Console.
-

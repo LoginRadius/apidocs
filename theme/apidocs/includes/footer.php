@@ -29,7 +29,7 @@ if (!defined('ROOT_PATH')) {
         </div>
     </div>
 <?php
-    docs_enqueue_script("//cdn.loginradius.com/hub/prod/js/CustomInterface.2.js");
+    docs_enqueue_script("//cdn.lrcontent.com/hub/prod/js/CustomInterface.2.js");
     docs_enqueue_script(THEME_URL . "assets/javascripts/html5sdk.min.js");
 }
 docs_enqueue_script(THEME_URL . "assets/javascripts/functions.min.js");

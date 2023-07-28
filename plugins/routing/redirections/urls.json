@@ -7420,6 +7420,14 @@
 {
   "oldLink": "api/v2/admin-console/platform-configuration/phone-login-configuration",
   "newLink": "authentication/tutorial/phone-login/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-security/captcha-providers/h-recptcha-configuration",
+  "newLink": "api/v2/admin-console/platform-security/captcha-providers/h-captcha-configuration/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-security/captcha-providers/h-captcha-configuration",
+  "newLink": "api/v2/admin-console/platform-security/captcha-providers/hcaptcha-configuration/"
 }
 ]
 

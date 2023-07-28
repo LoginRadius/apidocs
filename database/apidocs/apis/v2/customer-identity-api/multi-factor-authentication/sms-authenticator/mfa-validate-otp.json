@@ -6,7 +6,8 @@
   "getparams": {
     "apikey*": "@apikey@",
     "secondfactorauthenticationtoken*": "",
-    "smstemplate2fa": ""
+    "smstemplate2fa": "",
+    "isvoiceotp" : ""
   },
   "postparams": {
     "otp": "",
@@ -43,6 +44,11 @@
         "name": "fields",
         "is_required": false,
         "description": "Optional parameter determining fields returned in profile"
+      } ,
+      {
+        "name": "isvoiceotp",
+        "is_required": false,
+        "description": "Boolean, pass true if you wish to trigger voice OTP"
       }
     ],
     "Post Parameters": [

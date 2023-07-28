@@ -9,7 +9,8 @@
     "verificationUrl": "",
     "emailTemplate":"",
     "EmailTemplate2FA":"",
-    "fields":"*"
+    "fields":"*",
+    "isvoiceotp" : ""
   },
   "postparams": {
     "phone":"0123456789",
@@ -86,6 +87,11 @@
         "name": "fields",
         "is_required": false,
         "description": "Optional parameter determining fields returned in profile"
+      },
+      {
+        "name": "isvoiceotp",
+        "is_required": false,
+        "description": "Boolean, pass true if you wish to trigger voice OTP"
       }
     ],
     "Post Params": [
@@ -146,10 +152,10 @@
                 "Question": "<Question>"
             }
         ]
-    }
-  },
-  "Profile": null,
-  "access_token": "00000000-0000-0000-0000-000000000000",
-  "expires_in": "0001-01-01T00:00:00"
+    },
+    "Profile": null,
+    "access_token": "00000000-0000-0000-0000-000000000000",
+    "expires_in": "0001-01-01T00:00:00"
+  }
 }
 
