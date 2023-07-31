@@ -1,6 +1,6 @@
 {
     "name": "Multipurpose Email Token Generation API",
-    "domain": "https://api.loginradius.com",
+    "domain": "https://api.loginradius.com/",
     "path": "identity/v2/manage/account/emailtoken/{tokentype}",
     "method": "POST",
     "getparams": {
@@ -37,7 +37,7 @@
             {
                 "name": "tokentype",
                 "is_required": true,
-                "description": "The identifier type for the token that we need to generate.For more details about this API please refer <a href='/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation-overview/'>here</a>"
+                "description": "The identifier type for the token that we need to generate.For more details about this API please refer <a href='/docs/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation-overview/'>here</a>"
             }
         ]
     },
