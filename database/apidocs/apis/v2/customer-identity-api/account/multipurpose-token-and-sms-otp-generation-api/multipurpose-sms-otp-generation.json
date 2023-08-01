@@ -16,7 +16,7 @@
         "content-Type": "application/x-www-form-urlencoded"
     },
     "response": "json",
-    "description": "This API generates SMS OTP for Add phone, Phone Id verification, Forgot password, Forgot pin, One-touch login, smart login and Passwordless login.For more details about this API please refer <a href=''>here</a>",
+    "description": "This API generates SMS OTP for Add phone, Phone Id verification, Forgot password, Forgot pin, One-touch login, smart login and Passwordless login.",
     "parameters": {
         "Get Params": [
             {
@@ -34,7 +34,7 @@
             {
                 "name": "smsotptype",
                 "is_required": true,
-                "description": "The identifier type for the OTP that we need to generate.For more details about this API please refer <a href='api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation-overview/'>here</a>"
+                "description": "The identifier type for the OTP that we need to generate.For more details about this API please refer <a href='/docs/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation-overview/'>here</a>"
             }
         ]
     },
