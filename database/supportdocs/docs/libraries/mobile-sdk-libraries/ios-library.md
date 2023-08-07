@@ -55,7 +55,7 @@ $ pod install
 ## Setup Prerequisites
 To get your app supported by LoginRadius iOS SDK, you need to slightly configure your LoginRadius user account.
 
-- Enable `<AppName>://` in your Admin Console -> Deployment > Configuration > Apps for Social Login to work properly. Ex: sampleapp://
+- Enable `<AppName>://` in your [Admin Console > Deployment > Apps > Web Apps](https://adminconsole.loginradius.com/deployment/apps/web-apps). Ex: sampleapp://
   <br>
 
 * Configure Email Templates<br>
