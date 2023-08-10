@@ -1,0 +1,24 @@
+{
+    "name": "JS Release 3.21.0",
+    "description": "This JavaScript release brings new features and an improvement to our LoginRadius V2JS library, please see below for details:",
+    
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Extended the Support of voice OTP as an OTP delivery method in the LoginRadius V2JS library, enabling users to authenticate using spoken verification codes."
+            },
+
+            {
+                "text": "The <strong>TOKEN_AS_JWT</strong> is a new feature to LoginRadius V2JS. Once activated, this feature seamlessly replaces the existing access token mechanism with a more secure JWT token system."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "Captcha response is now required when using the One Touch Login APIs."
+            }
+        ]
+    },
+    "auther": "Bhavya Tugnawat",
+    "created_date": "2023-08-11",
+    "status": "public"
+}
