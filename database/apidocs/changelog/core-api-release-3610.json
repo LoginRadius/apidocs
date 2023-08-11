@@ -1,0 +1,31 @@
+{
+    "name": "Core API Release 36.1.0",
+    "description": "We have rolled out another version of the Core APIs which brings you with a new feature, an improvement and a few bug fixes.",
+    "changelog":
+    {
+        "ADDED": 
+        [
+            {
+                "text": "Access Token via Custom JWT Token API (Native Social Login) has been introduced to retrieve a LoginRadius access token via a custom JWT token."
+            }
+        ], 
+        "IMPROVED": 
+        [
+            {
+            "text": "Improved the description for LoginRadius <strong>Error Code 1083</strong> to provide clearer and more concise context."
+            }
+        ],
+        "FIXED":
+        [
+            {
+                "text": "The issue with generating the <strong>access_token</strong> from the subsequently generated <strong>refresh_token</strong> in the case of the MS Live social provider has been resolved."
+            },
+            {
+                "text": "The conflict between the user's privacy policy acceptance status and the <a href='/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/update-mfa-by-access-token/'>Update MFA by Access Token</a> API (Google Authenticator) has been resolved."
+            }
+        ]
+    },
+    "auther": "Gurjyot Singh",
+    "created_date": "2023-08-10",
+    "status": "public"
+}
