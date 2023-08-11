@@ -1,0 +1,47 @@
+{
+    "name": "Access Token via Custom JWT Token",
+    "domain": "https://api.loginradius.com",
+    "path": "api/v2/access_token/jwt",
+    "method": "GET",
+    "getparams": {
+        "key*": "@apikey@",
+        "id_token*": "",
+        "providername*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded",
+		"Authorization":"Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to retrieve a LoginRadius access token by passing in a valid custom JWT token.<br><br><b>Note:</b> If the <b>Use Authorization Header</b> is checked (enabled) for your JWT App in <a style='color: #008ecf;' href='https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/custom-idps/jwt-provider'>JWT App Configuration</a> in Admin Console, you will be required to pass the JSON Web Token as a Bearer token in the <b>Authorization</b> Header instead of the <b>id_token</b> Query parameter.",
+    "parameters": {
+        "Get Parameters": [ {
+                "name": "key",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "id_token",
+                "is_required": true,
+                "description": "Custom JWT Token"
+            },
+            {
+                "name": "providername",
+                "is_required": true,
+                "description": "JWT Provider Name"
+            }
+        ],
+		"Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;id_token&gt; (Custom JWT Token)"
+            }
+        ]
+    },
+    "outputFormat": {
+        "access_token": "a123qwe2-9**3-4202-833c-320aoo58**66",
+        "refresh_token": "a123qwe2-9**3-4202-833c-320aoo58**66",
+        "expires_in": "2023-10-09T06:07:00.296Z"
+    }
+}
