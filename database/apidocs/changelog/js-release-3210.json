@@ -5,7 +5,7 @@
     "changelog": {
         "ADDED": [
             {
-                "text": "Extended the Support of voice OTP as an OTP delivery method in the LoginRadius V2JS library, enabling users to authenticate using spoken verification codes."
+                "text": "Extended the support of voice OTP as an OTP delivery method in the LoginRadius V2JS library, enabling users to authenticate using spoken verification codes."
             },
 
             {
@@ -14,7 +14,7 @@
         ],
         "IMPROVED": [
             {
-                "text": "Captcha response is now required when using the One Touch Login APIs."
+                "text": "Captcha response is now required when leveraging the One Touch Login APIs."
             }
         ]
     },
