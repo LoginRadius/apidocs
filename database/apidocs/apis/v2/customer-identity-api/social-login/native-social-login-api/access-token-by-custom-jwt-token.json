@@ -1,7 +1,7 @@
 {
     "name": "Access Token via Custom JWT Token",
     "domain": "https://api.loginradius.com",
-    "path": "api/v2/access_token/jwt",
+    "path": "/api/v2/access_token/jwt",
     "method": "GET",
     "getparams": {
         "key*": "@apikey@",
