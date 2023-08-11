@@ -953,6 +953,11 @@
       ],
       "Native Social Login API": [
         {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-by-custom-jwt-token/",
+          "title": "Access Token via Custom JWT Token",
+          "type": "GET"
+        },
+        {
           "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-facebook-token/",
           "title": "Access Token via Facebook Token",
           "type": "GET"
