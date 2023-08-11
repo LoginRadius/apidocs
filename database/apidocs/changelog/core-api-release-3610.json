@@ -6,7 +6,7 @@
         "ADDED": 
         [
             {
-                "text": "Access Token via Custom JWT Token API (Native Social Login) has been introduced to retrieve a LoginRadius access token via a custom JWT token."
+                "text": "<a href='/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-by-custom-jwt-token/'>Access Token via Custom JWT Token API</a> (Native Social Login) has been introduced to retrieve a LoginRadius access token via a custom JWT token."
             }
         ], 
         "IMPROVED": 
