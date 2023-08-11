@@ -14,7 +14,7 @@
 		"Authorization":"Bearer "
     },
     "response": "json",
-    "description": "This API is used to retrieve a LoginRadius access token by passing in a valid custom JWT token.<br><br><b>Note:</b> If the <b>Use Authorization Header</b> is checked (enabled) for your JWT App in <a style='color: #008ecf;' href='https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/custom-idps/jwt-provider'>JWT App Configuration</a> in Admin Console, you will be required to pass the JSON Web Token as a Bearer token in the <b>Authorization</b> Header instead of the <b>id_token</b> Query parameter.",
+    "description": "This API is used to retrieve a LoginRadius access token by passing in a valid custom JWT token.<br><br><b>Note:</b> If the <b>Use Authorization Header</b> is checked (enabled) for your JWT App in <a style='color: #008ecf;' href='https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/custom-idps/jwt-provider'>JWT App Configuration</a> in Admin Console, then you can pass the JSON Web Token as a Bearer token in the <b>Authorization</b> Header as well.",
     "parameters": {
         "Get Parameters": [ {
                 "name": "key",
