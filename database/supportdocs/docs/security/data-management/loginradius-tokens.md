@@ -122,7 +122,7 @@ Encrypted JWT tokens have several advantages, such as **Stateless, Secure, and F
 ```
 {
 
-.... JSON Profile,
+    "Profile": {...},
 
     "access_token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwidHlwIjoiYXQrand0In0..CVQ_S_Au0ZCi7TUp.5Cp-P0eDWbhoPURA_fwJFOzv8CHqFIGRExR13VxsMBIfEe-eZ1pTBrkWloaKRN3R3DGdNyq6F1qGF3BS-YRkG6_NgmmwA3HxlYMXr1IiZQv1bzm8VYPPwq-Z5uRs8tTAq4C5y2EVgehy9As_OkFsnJnfxQ-asevrmcKu45_hN4Y0Ji-Z1bq5r4Gso9CzeyBedEuXvueri9GOalG1N14uWawLPa0S2v-zE9vzelSDqkYflC58HA79pWqpl36NLEzo6HWfDaqiZucQD1tvLp2KoAVqi30JMAbsNWYo1xBQuinpFKOhsI7RRGTUHxllgHXEbIfw5b8uDZf4PDFAovFGU0d9uVKWa0c91xWYpAhLlFenEciixIIG6nbT319M00jR05QF7Bl5wC1weirZ0EBJkEkgfVyim0NiFjvZ7bOOoxgc830Os_0DHY5vt3rtchq-dcPjnLQEAXdkZO1yVUSVLhfGJrV5j7EEM2QI3jjZEdxSEjn9Sgd-RD6clK_rjQvZXX9juMdK7xd_9XsGl9Hpou6u92xs2g.hN6Ek5nut6o_HWtGBDfqiQ",
 
