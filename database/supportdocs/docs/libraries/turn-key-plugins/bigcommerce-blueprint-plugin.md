@@ -4,6 +4,10 @@
 
 This document provides instructions for installing the LoginRadius Customer Identity and Access Management Plugin for Bigcommerce. This document also covers deploying the LoginRadius template code to your BluePrint theme.
 
+**Flow Chart**
+
+![BigCommerce](https://apidocs.lrcontent.com/images/Untitled-Diagram-drawio-2_190488750664e46b7e670d37.39857336.png "BigCommerce")
+
 ## BigCommerce Configuration
 
 1. Log in to your BigCommerce admin panel
