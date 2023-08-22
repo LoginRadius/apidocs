@@ -22,7 +22,7 @@
         },{
             "name": "key",
             "is_required": true,
-            "description": "Login Radius API Key"
+            "description": "LoginRadius API Key"
         },{
             "name": "secret",
             "is_required": true,

@@ -13,12 +13,12 @@
         "content-Type": "application/x-www-form-urlencoded"
     },
     "response": "json",
-    "description": "The Revoke Refresh Access Token API is used to revoke a refresh token or the Provider Access Token, revoking an existing refresh token will invalidate the refresh token but the associated access token will work until the expiry.",
+    "description": "The Revoke Refresh Access Token API is used to revoke a Refresh Token or the Provider Access Token. <br><br> <b>Note:</b> Revoking an existing Refresh Token will only invalidate the Refresh Token and the associated Access Token will still work until it's expiry.",
     "parameters": {
         "Get Params": [{
             "name": "refresh_token",
             "is_required": true,
-            "description": "the refresh_token to be revoked."
+            "description": "the Refresh Token to be revoked."
         },{
             "name": "apiKey",
             "is_required": true,
