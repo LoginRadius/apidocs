@@ -15,12 +15,12 @@
     "description": "The Revoke All Refresh Access Token API is used to revoke all refresh tokens for a specific user.",
     "parameters": {
         "Get Params": [{
-            "name": "apiKey",
+            "name": "apikey",
             "is_required": true,
             "description": "LoginRadius API Key."
         },
         {
-            "name": "apiSecret",
+            "name": "apisecret",
             "is_required": true,
             "description": "LoginRadius API Secret."
         }],

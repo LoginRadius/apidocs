@@ -17,11 +17,11 @@
         "Get Parameters": [{
                 "name": "apikey",
                 "is_required": true,
-                "description": "Login Radius API Key"
+                "description": "LoginRadius API Key"
             }, {
                 "name": "accesstoken",
                 "is_required": true,
-                "description": "The access token received after successfull login "
+                "description": "The access token received after successful login "
             }]
     },
         "outputFormat": {

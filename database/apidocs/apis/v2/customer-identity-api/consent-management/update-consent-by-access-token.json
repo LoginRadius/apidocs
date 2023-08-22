@@ -40,7 +40,7 @@
       },{
         "name": "access_token",
         "is_required": true,
-        "description": "The access token received after successful login "
+        "description": "The access token received after successful login"
       }
     ],
       "Post Parameters": [{

@@ -24,7 +24,7 @@
             {
                 "name": "accesstoken",
                 "is_required": true,
-                "description": "The access token received after successfull login "
+                "description": "The access token received after successful login "
             },
             {
         

@@ -1,5 +1,5 @@
 {
-    "name": "Custom Object Update by Access Token",
+    "name": "Custom Object Update by ObjectRecordId and Access Token",
     "domain":"https://api.loginradius.com",
     "path": "/identity/v2/auth/customobject/{objectrecordid}",
     "method": "PUT",
@@ -39,7 +39,7 @@
 		"Headers Parameters": [{
                 "name": "Authorization",
                 "is_required": true,
-                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+                "description": "Bearer &lt;access_token&gt; (User's access token)"
             }],
         "Template Params": [
             {
