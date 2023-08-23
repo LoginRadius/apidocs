@@ -106,6 +106,7 @@ var commonOption = {
     crossDeviceSSOPingCount: 50,
     crossDeviceSSOPingInterval: 10
 }
+var LRObject = new LoginRadiusV2(commonOption);
 ```
 
 
