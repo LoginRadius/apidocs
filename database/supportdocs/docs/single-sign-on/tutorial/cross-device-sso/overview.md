@@ -97,6 +97,10 @@ getParameterByName(token);
 
 **Step 3:** You can leverage the following CommonOptions for Cross Device SSO in the JS code:
 
+> **Note:** For making the below code work, import the LoginRadius JavaScript interfaces on your page using this link:`https://auth.lrcontent.com/v2/js/LoginRadiusV2.js `.
+
+> However,if you are using HTML, you can directly paste the below script in you HTML File: `<script src="https://auth.lrcontent.com/v2/js/LoginRadiusV2.js"></script>`.
+
 ```
 var commonOption = {
     apiKey: 'XXXXXXXXXXXXXXXXXXX',
