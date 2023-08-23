@@ -20,7 +20,7 @@
           {
         "name": "apikey",
         "is_required": true,
-        "description": "Your LoginRadius API Key"
+        "description": "LoginRadius API Key"
 
       },
       {
