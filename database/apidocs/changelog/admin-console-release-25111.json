@@ -1,0 +1,18 @@
+{ "name": "Admin Console Release 25.11.1",
+    "description": "The following release of the LoginRadius Admin Console brings you a new feature and an improvement. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "The desired <strong>Token Type</strong> (Magic Link or OTP) for various emails can be independently configured via the Admin Console's <a href='https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/verification-email' target='_blank'>Email Templates</a> section."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "<a href='https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/custom-idps/jwt-provider' target='_blank'>Custom IDP (JWT)</a> now supports configuring the <strong>JWKS Endpoint URL</strong> for ES & RS Algorithms. Additionally, <strong>Data Mapping</strong> now has the option to update the RaaS/Email profile with the values received in the social profile."
+            }
+        ]
+    },
+    "auther": "Gurjyot Singh",
+    "created_date": "2023-08-29",
+    "status": "public"
+}
