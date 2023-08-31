@@ -1,5 +1,5 @@
 {
-    "name": "Consent By ConsentToken",
+    "name": "Consent By Consent Token",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/consent",
     "method": "POST",
@@ -41,13 +41,13 @@
         "content-Type": "application/json"
     },
     "response": "json",
-    "description": "This API is used to submit consent form using consent token",
+    "description": "This API is used to submit consent form using consent token.",
     "parameters": {
         "Get Parameters": [
             {
                 "name": "apikey",
                 "is_required": true,
-                "description": "Login Radius API Key"
+                "description": "LoginRadius API Key"
             },
             {
                 "name": "consenttoken",

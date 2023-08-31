@@ -62,6 +62,11 @@
         "url": "v2/getting-started/data-points/editable-data-fields/",
         "title": "Editable Data Fields",
         "type": "DOC"
+      },
+      {
+        "url": "v2/getting-started/data-points/social-provider-data-fields/",
+        "title": "Social Provider Data Fields",
+        "type": "DOC"
       }
     ],
     "Response Codes": [
@@ -1448,7 +1453,7 @@
       },
       {
         "url": "v2/customer-identity-api/consent-management/consent-by-consent-token/",
-        "title": "Consent By ConsentToken",
+        "title": "Consent By Consent Token",
         "type": "POST"
       },
       {
@@ -1490,7 +1495,7 @@
       },
       {
         "url": "v2/customer-identity-api/passwordless-login/passwordless-login-by-username/",
-        "title": "Passwordless Login by UserName",
+        "title": "Passwordless Login by Username",
         "type": "GET"
       },
       {
@@ -1510,12 +1515,12 @@
       },
       {
         "url": "v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/",
-        "title": "Passwordless Login verify by username and OTP",
+        "title": "Passwordless Login verify by Username and OTP",
         "type": "POST"
       },
       {
         "url": "v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-email-and-otp/",
-        "title": "Passwordless Login verify by email and otp",
+        "title": "Passwordless Login verify by Email and OTP",
         "type": "POST"
       }
     ],
@@ -1675,7 +1680,7 @@
       },
       {
         "url": "v2/customer-identity-api/session/generate-sott-token/",
-        "title": "Generate SOTT Token",
+        "title": "Generate SOTT",
         "type": "GET"
       },
       {
@@ -1695,7 +1700,7 @@
       },
       {
         "url": "v2/customer-identity-api/session/get-active-session-details/",
-        "title": "Get Active Session",
+        "title": "Get Active Session Details",
         "type": "GET"
       },
       {

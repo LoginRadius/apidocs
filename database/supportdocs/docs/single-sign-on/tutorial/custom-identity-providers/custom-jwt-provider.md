@@ -60,7 +60,7 @@ The following screen will appear:
 
 **Step 2:** Click **Add Provider** button highlighted in the above screen and the following JWT configuration form fields will appear:
 
-![Configure JWT](https://apidocs.lrcontent.com/images/Custom-Idps---JWT_156086202e1b7796907.93743716.png "Configure JWT")
+![Configure JWT](https://apidocs.lrcontent.com/images/jwt-provider-01-1_68546274564d4fb10138eb9.38009221.png "Configure JWT")
 
 **Step 3:** Enter a unique name under the **Provider Name**. This name will be displayed under the social login forms in the LoginRadius IDX page and on the social login form rendered by LoginRadius V2.js library on your application, if the **Include In Social Schema** is selected while configuring the JWT app.
 
@@ -85,7 +85,12 @@ The following screen will appear:
 - ES384
 - ES512
 
-**Step 5:** Enter the JWT secret or certificate (depending on the chosen algorithm) in the **Key** text box, it is optional.
+**Step 5:** Enter the Key or JWKS Endpoint URL (based on the selected algorithm) in the text field.
+
+> **Note:** When opting for either the **RS Algorithms** or the **ES Algorithms**, you must input at least one option from the **JWKS Endpoint** and **Key**. On the other hand, if you opt for the **HS Algorithms**, the only available option is to add a **Key**.
+  - For the **JWKS Endpoint**, enter the **Endpoint URL** in the designated field.
+  - For the **Key**, enter the **key value** in the designated field.
+  - If you choose to add both the **JWKS Endpoint** and **Key**, the **JWKS Endpoint** will be prioritized.
 
 **Step 6: Clock Skew (Optional)**, enter the Time drift to add or subtract time to the server clock, which validates token lifetime. Expected values -NumberInt / NumberInt.
 
@@ -121,6 +126,8 @@ Checks the JWT token for this field and matches it if **IsMandatory** is enabled
 
 - **Select Field (Dropdown):** Select the LoginRadius field name, which you want to map with the respective JWT field.
 - **Profile Key:** Enter the JWT field name corresponding to the LoginRadius field name.
+- **Update Email Profile:** When the checkbox is enabled, the email profile gets updated with the value received in the social profile, according to the field mapping configured in the JWT app.
+
 
 > **Note:** The LoginRadius ‘ID’ field is the unique identifier for each profile attached to a LoginRadius customer account. Refer to the LoginRadius Data structure document for more details. The mapping of the LoginRadius 'ID' field (LoginRadius field) is mandatory.
 

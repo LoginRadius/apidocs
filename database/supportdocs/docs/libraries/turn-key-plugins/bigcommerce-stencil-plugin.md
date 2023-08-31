@@ -4,6 +4,10 @@
 
 This document provides instructions for installing the LoginRadius Customer Identity and Access Management Plugin for Bigcommerce. This document also covers deploying the LoginRadius template code to your Stencil theme.
 
+**Flow Chart**
+
+![BigCommerce](https://apidocs.lrcontent.com/images/Untitled-Diagram-drawio-2_190488750664e46b7e670d37.39857336.png "BigCommerce")
+
 ## BigCommerce Configuration
 
 1. Log into your BigCommerce admin panel
