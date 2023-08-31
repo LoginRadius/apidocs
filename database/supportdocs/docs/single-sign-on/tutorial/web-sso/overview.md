@@ -144,7 +144,7 @@ login_options.onSuccess = function (response) {
 	})
 ```
 
-**Note:** You can visit the below URL to manually check whether you are logged in or not: https://`<LoginRadius Site Name>`.hub.loginradius.com/ssologin/login
+**Note:** You can visit the below URL to manually check whether you are logged in or not: `https://<LoginRadius Site Name>.hub.loginradius.com/ssologin/login`
 
 The following JSON response in the console log of your browser will indicate the successful login and active SSO session:
 
@@ -244,7 +244,7 @@ LRObject.init("logout", logout_options);
 
 ```
 
-**Note:** You can visit the below URL to manually check whether you are logged out or not: https://`<LoginRadius Site Name>`.hub.loginradius.com/ssologin/logout
+**Note:** You can visit the below URL to manually check whether you are logged out or not: `https://<LoginRadius Site Name>.hub.loginradius.com/ssologin/logout`
 
 The following JSON response in the console log of your browser will indicate the successful logout:
 
@@ -286,7 +286,7 @@ The following is the script example to retrieve the customer profile:
 
 ```<script>
 var xhr = new XMLHttpRequest();
-url = "https://api.loginradius.com/identity/v2/auth/account?apiKey=94c395b1-d579-44ce-8bcd-430ce4620375&access_token="+access_token
+url = "https://api.loginradius.com/identity/v2/auth/account?apiKey=<API KEY>&access_token="+access_token
 xhr.open("GET", url);
 xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
 xhr.setRequestHeader('Content-Type', 'application/json');
