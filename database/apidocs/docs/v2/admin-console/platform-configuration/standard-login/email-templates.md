@@ -12,10 +12,29 @@ Follow the below steps to **Manage Email Templates**:
 1. Select the template that you would like to manage.
    <br><br>![](https://apidocs.lrcontent.com/images/new_92725e77b065009689.61942750.png "Email Template Management")
 
-2. Once selected you can: Create Templates with "Add Template", Modify existing templates with "Edit Template", or test a given template with "Send Test Email".
+2. **Email Settings:** At first you will notice an email settings dropdown on which you can configure the below settings.
+    <br><br>![Additional Email Settings](https://apidocs.lrcontent.com/images/Untitled_4335222264f086c86b60a6.54298961.png "Additional Email Settings")
+
+    - **Request Limit:** Specifies the maximum number of times a customer can request an email.
+    - **Request Disabled Period (Minutes):** This option allows you to define the timeframe, measured in minutes, during which the Request for triggering the **OTP** or **vtoken**  will expire after reaching the request limit specified in the above settings.
+    - **Token Validity Limit (Minutes):** The option allows you to set a time limit, in minutes, for the validity of the **OTP** or **vtoken** generated.
+
+> **Note:** For some of the email templates, you will notice some additional settings named **Token Type**. This setting allows you to choose the type of token that will be generated. There are two available options:
+>
+> - **A.** **Magic Link:** Selecting this option will generate a vtoken that can be used for related actions.
+>**For Example:** `#Url#?vtype=emailverification&vtoken=#GUID#`
+>
+> - **B.** **OTP (One Time Password):** Selecting this option will generate a time-limited One-Time Password (OTP) that can be used for password-related actions.
+>**For Example:** #OTP#
+To configure the token type as OTP, it is important to enable OTP Email Verification by navigating to the [Platform Configuration > Verification Workflow > Email Workflow](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/verification-workflow/email-workflow) section in the Admin Console.
+>
+>Additionally, pass the **verifyEmailByOTP** option as `true` using the common option in JavaScript, this is mandatory as shown in the following code: `commonOptions.verifyEmailByOTP = true;`
+
+
+3. Once selected you can: Create Templates with "Add Template", Modify existing templates with "Edit Template", or test a given template with "Send Test Email".
    <br><br>![enter image description here](https://apidocs.lrcontent.com/images/6_45415e76c5d0177992.45987817.png)
 
-3. When adding or editing a template you can configure the following:<br><br>
+4. When adding or editing a template you can configure the following:<br><br>
    **TEMPLATE ID :** The Unique template ID that is used to identify the template in our javascript and APIs<br>
    **SUBJECT :** The subject line of the template<br>
    **FROM NAME :** The Sender's name applicable to the Template<br>
@@ -28,7 +47,7 @@ Follow the below steps to **Manage Email Templates**:
    <br><br>
    ![Email Template](https://apidocs.lrcontent.com/images/6--Email-Template_206806302592717a508.75464539.png "Email Template")
 
-4. You can add multiple email templates to the same email workflow using the above steps. If you have more than one template, you can also delete any existing templates during editing.
+5. You can add multiple email templates to the same email workflow using the above steps. If you have more than one template, you can also delete any existing templates during editing.
 
 ## Email Template Customization
 

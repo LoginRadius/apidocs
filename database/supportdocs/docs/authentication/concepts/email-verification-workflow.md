@@ -82,16 +82,17 @@ The following are the email verification workflows provided by LoginRadius:
 
 ## OTP Email Verification
 
-If you want to send an OTP instead of the verification token for the email verification process, then you can enable the **OTP Email Verification** flow.
+If you want to send an OTP instead of a verification token for the email verification process. In that case, you can enable the **OTP Email Verification** flow by navigate to [Platform Configuration > Identity Workflow > Verification Workflow > Email Workflow](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/verification-workflow/email-workflow) in the Admin Console and clicking the associated toggle button highlighted in the image below.
 
-To enable this, navigate to [Platform Configuration > Identity Workflow > Verification Workflow > Email Workflow](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/verification-workflow/email-workflow) in the Admin Console and click on the switch under the OTP Email Verification section.
+These settings act as a global setting. However, you can still independently change the **Token Type** for the Verification Email, Forgot Password Email, and Delete Account Email. For more information regarding Token Type, kindly refer to the [Email Template Management](/api/v2/admin-console/platform-configuration/standard-login/email-templates/) document.
+
 
 ![OTP Email Verification Flow](https://apidocs.lrcontent.com/images/VerificationFlow_4_205066724263ad70218a30a1.52885242.png "OTP Email Verification Flow")
 
-> **Note:** In the case of **OTP Email Verification** flow, you need to make the following changes so that the link received in the email works for the consumer:
+> **Note:** In the case of **OTP Email Verification** flow, you need to make the following changes so that the link received in the email works for the customer:
 >
 > - Pass **verifyEmailByOTP** option true using the common option, this is mandatory as shown in the following code: `commonOptions.verifyEmailByOTP = true;`
-> - The verification email template should be modified in such a way that the verification link should contain the user email in the query string as shown in the following code: `#Url#?vtype=emailverification&vtoken=#GUID#&email=#Email#`
+> - For example the **verification email template** should be modified in such a way that the verification link should contain the user email in the query string as shown in the following example code for verification email: `#Url#?vtype=emailverification&vtoken=#GUID#`
 >
 > Once the above changes are implemented the link received in the email will work and verify the user.
 
