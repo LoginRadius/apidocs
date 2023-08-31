@@ -29,7 +29,7 @@
       {
         "name": "timedifference",
         "is_required": false,
-        "description": "The time difference you would like to pass, If you not pass difference then the default value is 10 minutes"
+        "description": "The time difference you would like to pass. If you not pass any value for timedifference then the default value is 10 minutes."
       }
     ]
   },

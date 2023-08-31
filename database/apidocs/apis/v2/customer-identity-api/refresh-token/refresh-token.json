@@ -33,12 +33,12 @@
         {
             "name": "isWeb",
             "is_required": false,
-            "description": "Set to <strong>false</strong>, if it's Native access token. By default its true for   <strong>Apple </strong>."
+            "description": "Set to <strong>false</strong>, if it is a Native access token. By default it is true for <strong>Apple </strong>."
         },
         {
             "name": "Note",
             "is_required": false,
-            "description": "It's only applicable for <stong> Apple</Stong>."
+            "description": "It is only applicable for <stong>Apple</Stong>."
         }]
     },
 "outputFormat":{

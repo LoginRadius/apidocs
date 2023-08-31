@@ -144,7 +144,7 @@ login_options.onSuccess = function (response) {
 	})
 ```
 
-**Note:** You can visit the below URL to manually check whether you are logged in or not: https://.hub.loginradius.com/ssologin/login
+**Note:** You can visit the below URL to manually check whether you are logged in or not: https://`<LoginRadius Site Name>`.hub.loginradius.com/ssologin/login
 
 The following JSON response in the console log of your browser will indicate the successful login and active SSO session:
 
@@ -174,7 +174,7 @@ Example of an AJAX Call function:
 ```
 $.ajax({
             type: "GET",
-            url: "https://<your lr app name>.hub.loginradius.com/ssologin/setToken",
+            url: "https://<LoginRadius Site Name>.hub.loginradius.com/ssologin/setToken",
             dataType: "json",
             data: $.param({
                 token: token,
@@ -200,7 +200,7 @@ In Safari browsers there is an additional security layer preventing cookies from
 
 Simply do a redirect to the following endpoint:
 
-`https://<sitename>.hub.loginradius.com/ssologin/setSafariToken`
+https://`<LoginRadius Site Name>`.hub.loginradius.com/ssologin/setSafariToken
 
 Query Parameters:
 
@@ -212,7 +212,7 @@ Example of a redirect method:
 
 ```
 if(safari){ // This is for safari browser, you need to check if your user is using safari or not
-window.location="https://<sitename>.hub.loginradius.com/ssologin/setSafariToken?token=<accesstoken>&callback=<callbackURL>"
+window.location="https://<LoginRadius Site Name>.hub.loginradius.com/ssologin/setSafariToken?token=<accesstoken>&callback=<callbackURL>"
 }else{
    Ajax function provided previously
 }
@@ -244,7 +244,7 @@ LRObject.init("logout", logout_options);
 
 ```
 
-**Note:** You can visit the below URL to manually check whether you are logged out or not: https://.hub.loginradius.com/ssologin/logout
+**Note:** You can visit the below URL to manually check whether you are logged out or not: https://`<LoginRadius Site Name>`.hub.loginradius.com/ssologin/logout
 
 The following JSON response in the console log of your browser will indicate the successful logout:
 

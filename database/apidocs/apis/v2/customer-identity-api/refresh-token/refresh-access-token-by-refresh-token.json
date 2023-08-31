@@ -13,19 +13,19 @@
         "content-Type": "application/x-www-form-urlencoded"
     },
     "response": "json",
-    "description": "This API is used to refresh an access_token via it's associated refresh_token.",
+    "description": "This API is used to refresh an Access Token via it's associated Refresh Token.",
     "parameters": {
         "Get Params": [{
             "name": "refresh_token",
             "is_required": true,
-            "description": "LoginRadius refresh_token"
+            "description": "LoginRadius Refresh Token"
         },{
-            "name": "ApiKey",
+            "name": "apikey",
             "is_required": true,
             "description": "LoginRadius API Secret"
         },
         {
-            "name": "ApiSecret",
+            "name": "apisecret",
             "is_required": true,
             "description": "LoginRadius API Secret"
         }]

@@ -1,5 +1,5 @@
 {
-    "name": "Delete Custom Object by ObjectRecordId",
+    "name": "Delete Custom Object by ObjectRecordId and UID",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/manage/account/{uid}/customobject/{objectrecordid}",
     "method": "DELETE",

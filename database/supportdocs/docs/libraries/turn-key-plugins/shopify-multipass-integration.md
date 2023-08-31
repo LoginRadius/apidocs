@@ -10,6 +10,10 @@ LoginRadius provides you with a Shopify Multipass Hosted Plugin to integrate Log
 
 2. You must have a LoginRadius Enterprise Account.
 
+**Flow Chart**
+
+![Shopify](https://apidocs.lrcontent.com/images/Untitled-Diagram-drawio-3_68764944164e46ae57cf3d5.81025110.png "Shopify")
+
 ## Multipass Configuration
 
 This section covers the required configurations that you need to perform to enable Multipass in Shopify.

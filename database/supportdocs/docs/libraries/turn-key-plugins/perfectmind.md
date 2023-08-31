@@ -27,6 +27,10 @@ For API documentation, refer to our [PerfectMind API](/api/v2/single-sign-on/sso
 
 2.  Customer clicks Register on a PerfectMind course, customers will be prompted to login through LoginRadius, on successful authentication, they will be redirected back to PerfectMind to complete the registration.
 
+**Flow Chart**
+
+  ![perfectmind](https://apidocs.lrcontent.com/images/Untitled-Diagram-drawio-1_3563840864e46b3786ba83.18893196.png "[perfectmind")
+
 ## PerfectMind SSO Implementation guide
 
 This guide will take you through the steps you need to follow for integrating LoginRadius into the PerferMind site. This integration uses the LoginRadius JavaScript interfaces along with the LoginRadius PerfectMind SSO API. To achieve this use case, you must perform the following sequential steps:
