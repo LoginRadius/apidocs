@@ -9,6 +9,8 @@ The one-way transformation of a password to a password hash using the Hashing Al
 
 LoginRadius supports the following one-way hashing algorithms:
 
+- Argon2i
+- Argon2id
 - Crypt_MD5
 - HMAC_SHA1
 - MD5
