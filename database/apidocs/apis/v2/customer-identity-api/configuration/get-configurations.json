@@ -237,6 +237,16 @@
         "PutUpdateProfile": false
       }
     },
-    "ApiRequestSigningConfig": {}
+    "ApiRequestSigningConfig": {},
+    "TemplateVerificationTypes": {
+    "ADD_EMAIL": "MAGICLINK",
+    "AUTOLOGIN": "MAGICLINK",
+    "DELETEACCOUNT": "MAGICLINK",
+    "FORGOTPASSWORD": "MAGICLINK",
+    "FORGOTPIN": "MAGICLINK",
+    "NOREGISTRATIONPASSWORDLESSLOGIN": "MAGICLINK",
+    "ONECLICKSIGNIN": "MAGICLINK",
+    "REGISTRATION": "MAGICLINK"
+  }
   }
 }
