@@ -9,7 +9,7 @@ LoginRadius Identity Platform allows you to implement the One Touch Login featur
 - [**One Touch Login by SMS**](#onetouchloginbysms3): The customer can log into a web/mobile application directly entering the OTP received on their phone number.
 
 > **Note**: One Touch Login SMS will work only if the [**Phone Login**](/authentication/tutorial/phone-login/) feature is enabled.
->  
+
 
 ## One Touch Login Guide
 
@@ -29,6 +29,8 @@ The following screen appears:
 ![one touch login](https://apidocs.lrcontent.com/images/1_48595e7a883121c041.78247127.png "status")
 
 The above screen displays that the One Touch Login is enabled for your account since the One Touch Login box is in green with the enabled text. If not **enabled** for your account, raise a request to the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>
+
+> **Note:** In addition to this feature if you also want to disable the use of **Login APIs**, where password is **required field**, such as [**Auth Login By Email**](/api/v2/customer-identity-api/authentication/auth-login-by-email/), [**Auth Login By Username**](/api/v2/customer-identity-api/authentication/auth-login-by-username/) or [**Auth Login By Phone**](/api/v2/customer-identity-api/phone-authentication/phone-login/), and etc., please raise a request to the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
 
 ## Part 1 - Configuration
 

@@ -30,6 +30,8 @@ The following screen will appear:
 
 The above screen displays that the Phone Registration is enabled for your account, since the Phone Registration box is in green with the **enabled** text. If not enabled for your account, raise a request to the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
 
+> **Note:** In addition to this feature if you also want to disable the use of **Login APIs**, where password is **required field**, such as [**Auth Login By Email**](/api/v2/customer-identity-api/authentication/auth-login-by-email/), [**Auth Login By Username**](/api/v2/customer-identity-api/authentication/auth-login-by-username/) or [**Auth Login By Phone**](/api/v2/customer-identity-api/phone-authentication/phone-login/), and etc., please raise a request to the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
+
 ## Part 1 - Configuration
 
 This section covers the required configurations that you need to perform in the LoginRadius Admin Console to implement the Phone Login functionality. 
