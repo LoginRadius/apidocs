@@ -1,13 +1,10 @@
 {
     "name": "Core API Release 36.2.0",
-    "description": "We have rolled out another version of the Core APIs, which brings you with a new feature, an improvement, and a few bug fixes.",
+    "description": "We have rolled out another version of the Core APIs, which brings you a new feature and an improvement.",
     "changelog":
     {
         "ADDED": 
         [
-            {
-                "text": "Risk-Based Authentication now includes a <strong>Device</strong> factor, evaluating risk based on device details."
-            },
             {
                 "text": "Password Hashing Algorithms now support <strong>Argon2i</strong> and <strong>Argon2id</strong> algorithms."
             },
