@@ -1011,6 +1011,9 @@ function apimainpage(apiObject) {
     if ((('apikey*' in apiObject.getparams) || ('apikey' in apiObject.getparams)) && (apikey == '' || secret == '')) {
         a_button += '<button onclick="api_access_token_popup()" class="gettokenbutton' + rightClass + '">ENTER</button>';
     }
+    if ((('key*' in apiObject.getparams) || ('key' in apiObject.getparams)) && (apikey == '' || secret == '')) {
+        a_button += '<button onclick="api_access_token_popup()" class="gettokenbutton' + rightClass + '">ENTER</button>';
+    }
 
     var params = apiquery(apiObject.getparams, sott_button, access_token_button, a_button);
 
