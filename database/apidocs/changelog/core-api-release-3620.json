@@ -1,0 +1,25 @@
+{
+    "name": "Core API Release 36.2.0",
+    "description": "We have rolled out another version of the Core APIs, which brings you a new feature and an improvement.",
+    "changelog":
+    {
+        "ADDED": 
+        [
+            {
+                "text": "Password Hashing Algorithms now support <strong>Argon2i</strong> and <strong>Argon2id</strong> algorithms."
+            },
+            {
+                "text": "The new <strong>disable_login_with_password</strong> feature deactivates password login on your website and can be enabled by contacting <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>."
+            }
+        ], 
+        "IMPROVED": 
+        [
+            {
+            "text": "APIs are updated to align with the newly released <strong>Token Types (Magic Link or OTP)</strong> that can be independently configured via the Admin Console's Email Templates section."
+            }
+        ]
+    },
+    "auther": "Himanshu Rai",
+    "created_date": "2023-09-13",
+    "status": "public"
+}

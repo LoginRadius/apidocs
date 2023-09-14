@@ -23,6 +23,8 @@ List of most common Cryptographic Hash Algorithms:
 
 LoginRadius supports the following one-way hashing algorithms:
 
+1. Argon2i
+1. Argon2id
 1. Crypt_MD5
 1. HMAC_SHA1
 1. MD5
@@ -43,7 +45,9 @@ LoginRadius supports the following one-way hashing algorithms:
 Detailed Technical information for each Hashing Algorithm:
 
 | Hash Algorithm           | Salt Type         | Attached Salt Type | Applied Algorithm and Generated Hash           | Number of Iterations     | 
-|--------------------------|-------------------|--------------------|------------------------------------------------|--------------------------| 
+|--------------------------|-------------------|--------------------|------------------------------------------------|--------------------------|
+| Argon2i                  | N/A               | N/A                | N/A                                            | 2                        |
+| Argon2id                 | N/A               | N/A                | N/A                                            | 2                        |   
 | Crypt_MD5                | Universal         | None               | $hash=Crypt_MD5[P]                             | N/A                      | 
 | Crypt_MD5                | Universal         | Append             | $hash=Crypt_MD5[P+S]                           | N/A                      | 
 | Crypt_MD5                | Universal         | Prepend            | $hash=Crypt_MD5[S+P]                           | N/A                      | 
