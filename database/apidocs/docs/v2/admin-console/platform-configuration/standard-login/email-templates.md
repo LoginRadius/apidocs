@@ -26,10 +26,6 @@ Follow the below steps to **Manage Email Templates**:
 >
 > - **B.** **OTP (One Time Password):** Selecting this option will generate a time-limited One-Time Password (OTP) that can be used for password-related actions.
 >**For Example:** #OTP#
-To configure the token type as OTP, it is important to enable OTP Email Verification by navigating to the [Platform Configuration > Verification Workflow > Email Workflow](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/verification-workflow/email-workflow) section in the Admin Console.
->
->Additionally, pass the **verifyEmailByOTP** option as `true` using the common option in JavaScript, this is mandatory as shown in the following code: `commonOptions.verifyEmailByOTP = true;`
-
 
 3. Once selected you can: Create Templates with "Add Template", Modify existing templates with "Edit Template", or test a given template with "Send Test Email".
    <br><br>![enter image description here](https://apidocs.lrcontent.com/images/6_45415e76c5d0177992.45987817.png)

@@ -7,8 +7,8 @@ Provider-specific data points are subject to change and vary with provider. Data
 
 | Field Name | Type    | 1st level Object Field | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 2nd level Object Field | Type | 3rd level Object Field | Type | Constraints | Editable via API |
 |----------------------------|-------------------------------------|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|
-| UID | String |  |  |  |  |  |  | Generated using .Net Guid.NewGuid(), stripped of all non-alphanumeric characters and stringified.A Guid itself is a 128-bit integer: https://docs.microsoft.com/en-us/dotnet/api/system.guid remarked to have "a very low probability of being duplicated," and can be used as a global unique id to any system that requires one.  | FALSE |
-| ID | String |  |  |  |  |  |  | Generated using .Net Guid.NewGuid(), stripped of all non-alphanumeric characters and stringified.Note that this value and Uid are both generated using Guid and have the same format but they have different values | FALSE |
+| **UID:** Unique ID of a user account in the LoginRadius system. | String |  |  |  |  |  |  | Generated using .Net Guid.NewGuid(), stripped of all non-alphanumeric characters and stringified.A Guid itself is a 128-bit integer: https://docs.microsoft.com/en-us/dotnet/api/system.guid remarked to have "a very low probability of being duplicated," and can be used as a global unique id to any system that requires one.  | FALSE |
+| **ID:** The ID (Also known as Provider ID) is the unique identifier for each profile attached to a LoginRadius UID. There will be a unique ID for each profile (i.e. "Facebook", "Twitter", "Email", etc.) associated with a given UID. | String |  |  |  |  |  |  | Generated using .Net Guid.NewGuid(), stripped of all non-alphanumeric characters and stringified.Note that this value and Uid are both generated using Guid and have the same format but they have different values | FALSE |
 | Password | String |  |  |  |  |  |  | Current hashed password  | FALSE |
 | PIN | Object | Skipped<br> PIN<br> LastPINChangeDate<br> SkippedDate | Boolean<br> String<br> DateTime<br> DateTime |  |  |  |  |  | FALSE |
 | Provider | String |  |  |  |  |  |  |  | FALSE |
@@ -35,12 +35,12 @@ Provider-specific data points are subject to change and vary with provider. Data
 | Industry | String |  |  |  |  |  |  |  | TRUE |
 | About | String |  |  |  |  |  |  |  | TRUE |
 | TimeZone | String |  |  |  |  |  |  |  | TRUE |
-| LocalLanguage | String |  |  |  |  |  |  |  | TRUE |
+| **LocalLanguage:** LocalLanguage field returned in the social provider’s profile (editable). | String |  |  |  |  |  |  |  | TRUE |
 | CoverPhoto | String |  |  |  |  |  |  |  | TRUE |
 | TagLine | String |  |  |  |  |  |  |  | TRUE |
-| Language | String |  |  |  |  |  |  |  | FALSE |
-| Verified | String |  |  |  |  |  |  |  | FALSE |
-| **UpdatedTime:**This field is updated when the latest profile update time is imported from the social provider. Also, in case if you are not using the social login this field value will be Null.| String |  |  |  |  |  |  |  | FALSE |
+| **Language:** Language field returned in the social provider’s profile (readonly). | String |  |  |  |  |  |  |  | FALSE |
+| **Verified:** User's verified status from social provider. | String |  |  |  |  |  |  |  | FALSE |
+| **UpdatedTime:** This field is updated when the latest profile update time is imported from the social provider. Also, in case if you are not using the social login this field value will be Null.| String |  |  |  |  |  |  |  | FALSE |
 | Positions | Array of Objects | Position<br> Summary<br> StartDate<br> EndDate<br> IsCurrent<br> Company<br> Location | String<br> String<br> String<br> String<br> String<br> Object<br> String | <Company> Object:<br> Name<br> Type<br> Industry | <br> String<br> String<br> String |  |  |  | TRUE |
 | Educations | Array of Objects | School<br> year<br> type<br> notes<br> activities<br> degree<br> fieldofstudy<br> StartDate<br> EndDate | String<br> String<br> String<br> String<br> String<br> String<br> String<br> String<br> String |  |  |  |  |  | TRUE |
 | PhoneNumbers | Array of Objects | PhoneType<br> PhoneNumber | String<br> String |  |  |  |  | Prefix country code required| TRUE |
@@ -49,12 +49,12 @@ Provider-specific data points are subject to change and vary with provider. Data
 | MainAddress | String |  |  |  |  |  |  |  | TRUE |
 | Created | String |  |  |  |  |  |  |  | FALSE |
 | CreatedDate | DateTime |  |  |  |  |  |  | In UTC format | FALSE |
-| **ModifiedDate:**This field in the user profile gets updated whenever login action is performed and for any modifications/updations made to the profile. | DateTime |  |  |  |  |  |  | In UTC format | FALSE |
-| **ProfileModifiedDate:**This field in the user profile gets updated with the timestamp for the last modifications/updations in the profile. | DateTime |  |  |  |  |  |  | In UTC format | FALSE |
-| LocalCity | String |  |  |  |  |  |  |  | TRUE |
-| ProfileCity | String |  |  |  |  |  |  |  | TRUE |
-| LocalCountry | String |  |  |  |  |  |  |  | TRUE |
-| ProfileCountry | String |  |  |  |  |  |  |  | TRUE |
+| **ModifiedDate:** This field in the user profile gets updated whenever login action is performed and for any modifications/updations made to the profile. | DateTime |  |  |  |  |  |  | In UTC format | FALSE |
+| **ProfileModifiedDate:** This field in the user profile gets updated with the timestamp for the last modifications/updations in the profile. | DateTime |  |  |  |  |  |  | In UTC format | FALSE |
+| **LocalCity:** The city corresponding to the user's IP address at the time of registration (auto populated). | String |  |  |  |  |  |  |  | TRUE |
+| **ProfileCity:** User's current city (same as City). | String |  |  |  |  |  |  |  | TRUE |
+| **LocalCountry:** The country corresponding to the user's IP address at the time of registration (auto populated). | String |  |  |  |  |  |  |  | TRUE |
+| **ProfileCountry:** User's current country (same as Country.Name). | String |  |  |  |  |  |  |  | TRUE |
 | FirstLogin | Boolean |  |  |  |  |  |  |  | TRUE |
 | IsProtected | Boolean |  |  |  |  |  |  |  | TRUE |
 | RelationshipStatus | String |  |  |  |  |  |  |  | TRUE |
@@ -118,31 +118,31 @@ Provider-specific data points are subject to change and vary with provider. Data
 | GravatarImageUrl | String |  |  |  |  |  |  |  | TRUE |
 | ProfileImageUrls | Key-value pairs of <string, string> |  |  |  |  |  |  |  | TRUE |
 | WebProfiles | Key-value pairs of <string, string> |  |  |  |  |  |  |  | TRUE |
-| PinsCount | Int |  |  |  |  |  |  |  | FALSE  |
+| **PinsCount:** Number of user's pins count (Pinterest). | Int |  |  |  |  |  |  |  | FALSE  |
 | BoardsCount | Int |  |  |  |  |  |  |  | FALSE |
 | LikesCount | Int |  |  |  |  |  |  |  | FALSE |
 | SignupDate | DateTime |  |  |  |  |  |  |  | FALSE |
 | LastLoginDate | DateTime |  |  |  |  |  |  |  | FALSE |
-| CustomFields | Key-value pairs of <string, string> |  |  |  |  |  |  |  | TRUE |
+| **CustomFields:** List of custom field values that LoginRadius collects and the user's information on these custom fields. | Key-value pairs of <string, string> |  |  |  |  |  |  |  | TRUE |
 | LastPasswordChangeDate | DateTime |  |  |  |  |  |  |  | FALSE |
-| PasswordExpirationDate | DateTime |  |  |  |  |  |  |  | FALSE |
-| LastPasswordChangeToken | String |  |  |  |  |  |  |  | FALSE |
+| **PasswordExpirationDate:** Date that the password will expire and the user will have to reset their password to access the account. | DateTime |  |  |  |  |  |  |  | FALSE |
+| **LastPasswordChangeToken:** The last password reset token that has been used. | String |  |  |  |  |  |  |  | FALSE |
 | EmailVerified | Boolean |  |  |  |  |  |  |  | TRUE |
 | IsActive | Boolean |  |  |  |  |  |  |  | TRUE |
 | IsDeleted | Boolean |  |  |  |  |  |  |  | TRUE |
 | IsEmailSubscribed | Boolean |  |  |  |  |  |  | (1,0, true, false) | TRUE |
 | UserName | String |  |  |  |  |  |  |  | TRUE |
 | NoOfLogins | Int |  |  |  |  |  |  |  | FALSE |
-| PreviousUids | Array of String |  |  |  |  |  |  |  | FALSE |
+| **PreviousUids:** List of user's previous Uids. | Array of String |  |  |  |  |  |  |  | FALSE |
 | PhoneId | String |  |  |  |  |  |  | We use Twilio Lookup API to verify the validity of phone number strings. Twilio in turns recommend E.164 format as the standard format for phone numbers. Reference: https://support.twilio.com/hc/en-us/articles/223183008-Formatting-International-Phone-Numbers | TRUE  |
 | PhoneIdVerified | Boolean |  |  |  |  |  |  |  | TRUE |
 | Roles | Array of String |  |  |  |  |  |  |  | FALSE |
 | ExternalUserLoginId | String |  |  |  |  |  |  |  | FALSE |
-| **RegistrationProvider:**It provides information on how the consumer profile is registered. | String |  |  |  |  |  |  | Instantiated to be the same as Provider | FALSE |
+| **RegistrationProvider:** It provides information on how the consumer profile is registered. | String |  |  |  |  |  |  | Instantiated to be the same as Provider | FALSE |
 | IsLoginLocked | Boolean |  |  |  |  |  |  |  | FALSE |
-| LastLoginLocation | String |  |  |  |  |  |  |  | FALSE |
-| **RegistrationSource:**It gets populated with the source URL from where the profile has been registered. If you want to add a custom Registration Source while creating the user, refer to [this section](/api/v2/customer-identity-api/advanced-api-usage/#refererheader9). | String |  |  |  |  |  |  |  | FALSE |
-| **IsCustomUid:**This field shows whether a consumer is created using a custom UID or with a LoginRadius system-generated UID. By default, its value is **false**, and when the consumer is created using custom UID its value will be set as **True**. | Boolean |  |  |  |  |  |  |  | FALSE |
+| **LastLoginLocation:** LastLoginLocation data are being updated from the user IP address. For this updation, LR uses MaxMind database for fetching city and country details from the IP. | String |  |  |  |  |  |  |  | FALSE |
+| **RegistrationSource:** It gets populated with the source URL from where the profile has been registered. If you want to add a custom Registration Source while creating the user, refer to [this section](/api/v2/customer-identity-api/advanced-api-usage/#refererheader9). | String |  |  |  |  |  |  |  | FALSE |
+| **IsCustomUid:** This field shows whether a consumer is created using a custom UID or with a LoginRadius system-generated UID. By default, its value is **false**, and when the consumer is created using custom UID its value will be set as **True**. | Boolean |  |  |  |  |  |  |  | FALSE |
 | UnverifiedEmail | Array of Objects | Type<br> Value | String<br> String |  |  |  |  |  | FALSE |
 | ExternalIds | Array of Objects | SourceId<br> Source | String<br> String |  |  |  |  |  | FALSE |
 | IsRequiredFieldsFilledOnce | Boolean |  |  |  |  |  |  |  | FALSE |

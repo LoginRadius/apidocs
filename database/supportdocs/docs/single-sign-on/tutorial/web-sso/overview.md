@@ -1,6 +1,6 @@
 # Web SSO Introduction
 
-Web SSO is a method of browser-based session management that utilizes browser storage mechanisms like sessionStorage, localStorage, cookies to maintain the user’s session across your applications. A centralized domain managed by LoginRadius <a href ="https://www.loginradius.com/docs/api/v2/getting-started/glossary/#h7" target=_blank>IDX</a> is utilized to perform the authentication. When requested, this centralized domain shares the session with authorized applications.
+Web SSO is a method of browser-based session management that utilizes browser storage mechanisms like sessionStorage, localStorage, cookies to maintain the user’s session across your applications. A centralized domain managed by LoginRadius [IDX](/getting-started/glossary/#h7) is utilized to perform the authentication. When requested, this centralized domain shares the session with authorized applications.
 
 So that the users logged in to one application automatically logs into other applications, independent of technology, platform or domain the user is using.
 
@@ -154,14 +154,14 @@ The following JSON response in the console log of your browser will indicate the
 
 ### Setting Up SSO Token Manually
 
-When using the Login Interfaces provided by **LoginRadiusV2.js** the **access_token** obtained after the successful login is automatically set for SSO and can be accessed at: **https://`<LoginRadius Site Name>`.hub.loginradius.com/ssologin/login**. This section covers how you can manually set a LoginRadius **access_token** for SSO if the **access_token** was obtained by other means.
+When using the Login Interfaces provided by **LoginRadiusV2.js** the **access_token** obtained after the successful login is automatically set for SSO and can be accessed at: **`https://<LoginRadius Site Name>.hub.loginradius.com/ssologin/login`**. This section covers how you can manually set a LoginRadius **access_token** for SSO if the **access_token** was obtained by other means.
 
 Refer the below section for setting the SSO token via Ajax call [(Chrome, Firefox, Internet Explorer, Edge, Safari)](#settingthessotokenviaajaxcall4)
 
 ### Setting The SSO Token via Ajax Call
 
 To manually set the access_token for SSO via AJAX, simply makes an AJAX call to the following endpoint:
-**https://`<LoginRadius Site Name>`.hub.loginradius.com/ssologin/setToken**
+**`https://<LoginRadius Site Name>.hub.loginradius.com/ssologin/setToken`**
 
 **Query Parameters:**
 
@@ -200,7 +200,7 @@ In Safari browsers there is an additional security layer preventing cookies from
 
 Simply do a redirect to the following endpoint:
 
-https://`<LoginRadius Site Name>`.hub.loginradius.com/ssologin/setSafariToken
+`https://<LoginRadius Site Name>.hub.loginradius.com/ssologin/setSafariToken`
 
 Query Parameters:
 
