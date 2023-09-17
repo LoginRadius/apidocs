@@ -172,4 +172,6 @@ In order to test the invisible reCAPTCHA on the the webpage, you can replicate t
 
 **4**. Now, to test the invisible reCAPTCHA feature on the webpage, login with an account in the Login form. You'll notice that when you click the login button, the reCAPTCHA is triggered with the image verifying challenge.
 
+> **Note:** The Google V3 reCAPTCHA's adaptive risk-analysis engine processes various signals and parameters related to the user interaction, ultimately forecasting the probability of whether the request originated from a bot or a human. These parameters are challenging to dispute or invalidate manually when it comes to testing the system.
+
 ![reCAPTCHA](https://apidocs.lrcontent.com/images/Screenshot-43-_2943624d65c6a975e3.36495044.png "reCAPTCHA")
