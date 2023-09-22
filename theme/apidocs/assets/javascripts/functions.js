@@ -1008,7 +1008,7 @@ function apimainpage(apiObject) {
     if (('Authorization*' in apiObject.headers) || ('Authorization' in apiObject.headers) || ('token*' in apiObject.getparams) || ('access_token*' in apiObject.getparams)) {
         access_token_button = '<button onclick="access_token_popup()" class="gettokenbutton' + rightClass + '">Get Access Token</button>';
     }
-    if ((('apikey*' in apiObject.getparams) || ('apikey' in apiObject.getparams)) || ('key*' in apiObject.getparams) || ('key' in apiObject.getparams) && (apikey == '' || secret == '')) {
+    if ((('apikey*' in apiObject.getparams) || ('apikey' in apiObject.getparams) || ('key*' in apiObject.getparams) || ('key' in apiObject.getparams))  && (apikey == '' || secret == '')) {
         a_button += '<button onclick="api_access_token_popup()" class="gettokenbutton' + rightClass + '">ENTER</button>';
     }
 
