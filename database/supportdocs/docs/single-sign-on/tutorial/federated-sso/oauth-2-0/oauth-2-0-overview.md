@@ -1,6 +1,6 @@
 # OAuth 2.0 Introduction
 
-  
+
 
 #### Overview
 
@@ -136,10 +136,14 @@ To begin with Authorization Code flow, your application should redirect the cons
 
 **Api Endpoint:**
 ```
-https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id={LoginRadius API key}&redirect_uri={Callback URL}&scope={Scope}&response_type=code&state={random long string}
+https://{HD/CD}/service/oauth/{OauthAppName}authorize?client_id={LoginRadius API key}&redirect_uri={Callback URL}&scope={Scope}&response_type=code&state={random long string}
 ```
 
-> **Note:** This **siteurl** field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of siteurl.
+> **Note:**
+> - **HD:** In the above endpoint, HD will be a hosted domain, and the final authorization endpoint will be something like this, e.g.: `https://<LoginRadius Site Name>.hub.loginradius.com/service/oauth/{OauthAppName}/authorize`
+> - **CD:** Custom Domain
+
+
 
 **API Method: GET**
 
@@ -150,18 +154,18 @@ Available Query Parameters
 - **redirect_uri:** [required]  Callback URL of your site where you want to redirect back your customers after an authorization code is granted.
     
 
-> **Note:** Make sure to whitelist the Redirect_uri, which you are using to redirect your users on your website from your [Admin Console](https://adminconsole.loginradius.com/deployment/apps/web-apps). For more information refer to this [document](/api/v2/admin-console/deployment/sandbox-environments/).
+> **Note:** Make sure to whitelist the redirect_uri, which you are using to redirect your users on your website from your [Admin Console](https://adminconsole.loginradius.com/deployment/apps/web-apps). For more information refer to this [document](/api/v2/admin-console/deployment/sandbox-environments/).
 
   
 
 - **scope:** [optional] The value under scope will be sent on the IDX Page.
     
-- **state:** [optional] this parameter will be returned as it is, part of the response
+- **state:** [optional] This parameter will be returned as it is, part of the response.
     
-- **response_type:**[required]  Set to  code to indicate an authorization code flow. find responses below:
+- **response_type:**[required] Set to **code** to indicate an authorization code flow. Find responses below:
      - Response of login dialog if response_type=code: YOUR_CALLBACK_URI?code={unique code}
 
-LoginRadius also supports some additional query parameters that can be used in the authorization endpoint, to know more about this please click [here](#supportedqueryparameter14).
+LoginRadius also supports some **additional query parameters** that can be used in the authorization endpoint, to know more about this please click [here](#authorizationendpointsupportedparameters14).
 
 **Step 2:** Exchanging the Code for an Access Token
 
@@ -171,8 +175,13 @@ To retrieve the access token, the client must submit the code generated in **Ste
 
 **API Endpoint:**
 ```
-https://<siteurl>/api/oauth/{OAuthAppName}/token
+https://{HD/CD}/api/oauth/{OAuthAPPName}/token
 ```
+
+> **Note:**
+> - **HD:** In the above endpoint, HD will be a hosted domain, and the final authorization endpoint will be something like this, e.g.: `https://<LoginRadius Site Name>.hub.loginradius.com/service/oauth/{OauthAppName}/authorize`
+> - **CD:** Custom Domain
+
 **API Method: POST**
 
 **Request Body:**
@@ -205,7 +214,7 @@ Here is an explanation of the Request Body Parameter :
 
 Step 3:  Using the obtained LoginRadius access_token in **Step 2**:
 
-You can use the obtained `access_token`  with any of [LoginRadius  APIs](/api/v2/getting-started/introduction/) supporting the `access_token` until the token expires or revokes.
+You can use the obtained `access_token` with any of [LoginRadius  APIs](/api/v2/getting-started/introduction/) supporting the `access_token` until the token expires or is revoked.
 
 #### OAuth 2.0 PKCE Flow
 
@@ -245,7 +254,7 @@ https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id={client_id}&r
 -   **code_challenge_method:** SHA256 <For **code_challenge_method** currently, we are supporting the **SHA256** Hash algorithm, If this parameter  will not be passed, then the default method **SHA256** will be used>
     
 
-LoginRadius also supports some **additional query parameters** that can be used in the authorization endpoint, to know more about this please click [here](#supportedqueryparameter14).
+LoginRadius also supports some **additional query parameters** that can be used in the authorization endpoint, to know more about this please click [here](#authorizationendpointsupportedparameters14).
 
 Steps for using **code_challenge** and **code_challenge_method** in PKCE flow.
 
@@ -377,7 +386,7 @@ The access token request will contain the following parameters. Here is an expla
 
 Now you can use the obtained `access_token`  with any of [LoginRadius  APIs](/api/v2/getting-started/introduction/) supporting the `access_token` until the token expires or revokes.
 
-LoginRadius also supports some **additional query parameters** that can be used in the authorization endpoint, to know more about this please click [here](#supportedqueryparameter14).
+LoginRadius also supports some **additional query parameters** that can be used in the authorization endpoint, to know more about this please click [here](#authorizationendpointsupportedparameters14).
 
 ## Resource Owner Password Credential Flow
 
