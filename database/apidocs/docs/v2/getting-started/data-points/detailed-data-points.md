@@ -59,7 +59,7 @@ Provider-specific data points are subject to change and vary with provider. Data
 | **IsProtected:** Indicate whether the Twitter profile being imported is protected (private) | Boolean |  |  |  |  |  |  |  | TRUE |
 | **RelationshipStatus:** User's relationship status | String |  |  |  |  |  |  |  | TRUE |
 | **Quota:** User’s Quota | String |  |  |  |  |  |  |  | TRUE |
-| **Quote:** User's quote | String |  |  |  |  |  |  |  | TRUE |
+| **Quote:** The person's favorite quotes | String |  |  |  |  |  |  |  | TRUE |
 | **InterestedIn:** User's interests | Array of String |  |  |  |  |  |  |  | TRUE |
 | **Interests:** User’s Interest details | Array of Objects | InterestedType<br> InterestedName | String<br> String |  |  |  |  |  | TRUE |
 | **Religion:** User's religion information | String |  |  |  |  |  |  |  | TRUE |
