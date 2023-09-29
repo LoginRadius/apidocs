@@ -136,7 +136,7 @@ To begin with Authorization Code flow, your application should redirect the cons
 
 **Api Endpoint:**
 ```
-https://{HD/CD}/service/oauth/{OauthAppName}authorize?client_id={LoginRadius API key}&redirect_uri={Callback URL}&scope={Scope}&response_type=code&state={random long string}
+https://{HD/CD}/service/oauth/{OauthAppName}/authorize?client_id={LoginRadius API key}&redirect_uri={Callback URL}&scope={Scope}&response_type=code&state={random long string}
 ```
 
 > **Note:**
