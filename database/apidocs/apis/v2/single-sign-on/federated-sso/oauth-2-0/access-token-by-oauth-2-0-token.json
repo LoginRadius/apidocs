@@ -1,7 +1,7 @@
 {
     "name": "Access token by OAuth 2 token",
     "domain": "",
-    "path": "https://{siteurl}/api/oauth/{OAuthAPpName}/token",
+    "path": "https://{siteurl}/api/oauth/{OAuthAPPName}/token",
     "method": "POST",
     "getparams": {},
     "postparams": {
@@ -50,7 +50,7 @@
           "description": "Its value should be authorization_code"
           },{
             "name": "response_type",
-            "is_required": true,
+            "is_required": false,
             "description": "Needs to be 'token'"
           },{
             "name": "code",
