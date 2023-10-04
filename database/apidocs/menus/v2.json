@@ -2072,6 +2072,11 @@
         "url": "v2/troubleshooting/apple-account-deletion/",
         "title": "Apple’s Account deletion requirement",
         "type": "DOC"
+      },
+      {
+        "url": "v2/troubleshooting/sso-in-cross-domain-brands/",
+        "title": "Achieving SSO in cross-domain brands",
+        "type": "DOC"
       }
     ]
   },
