@@ -24,7 +24,7 @@ Provider-specific data points are subject to change and vary with provider. Data
 | **Gender:** Gender of the user | String |  |  |  |  |  |  | male, female, other, unknown, m, f, o, u, 1, 0 | TRUE |
 | **Website:** Website  of the user| String |  |  |  |  |  |  |  | TRUE |
 | **Email:** user’s email details and its type  (e.g primary ,secondary) | Array of Objects| Type<br> Value | String<br> String |  |  |  |  | RFC compliant Email, required | TRUE |
-| **Country:** Country details of the user | Array of Objects | Code<br> Name | String<br> String |  |  |  |  | Aggregated(Code auto generate based on country name) | TRUE |
+| **Country:** Country details of the user | Object | Code<br> Name | String<br> String |  |  |  |  | Aggregated(Code auto generate based on country name) | TRUE |
 | **ThumbnailImageUrl:** User's thumbnail image URL | String |  |  |  |  |  |  |  | TRUE |
 | **ImageUrl:** User’s Image URL | String |  |  |  |  |  |  |  | TRUE |
 | **Favicon:** User’s favicon details | String |  |  |  |  |  |  |  | TRUE |
