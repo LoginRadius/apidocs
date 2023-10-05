@@ -24,7 +24,8 @@ To understand this, let's see the working of **RBA with Multi Factor authenticat
 
 5. If a factor does not match with the current factor, it will be considered as an unknown request and a notification email will be sent to the consumer and/or admin based on the configured settings under the Risk Based authentication in the Admin console. The email will notify the consumer and/or Admin that someone has logged in from the different risk factors e.g. Browser. 
 
-  > **Note:** If all the four risk factors are configured by the consumer, then the verification order will be  **Browser > City >  Country > Ip.**
+  > **Note:** If all the five risk factors are configured by the consumer, then the verification order will be **Device > Browser > City > Country > IP**
+  
 
 ## Flow Diagram
 
@@ -64,13 +65,13 @@ You can use multiple options provided under each section as per your requirement
 ## Multi factor Settings:
 This section is not applicable when you are adding the RBA feature on top of the MFA feature. 
 
-### Admin Email
+## Admin Email
 
 If the consumer's behaviour matches with the configured risk criteria, you can send a notification email to the administrators. For that you need to add emails of admins who will receive notifications whenever RBA is triggered in the[ Admin Console](https://adminconsole.loginradius.com/platform-security/multi-layered-security/risk-based-authentication/admin-email). Multiple emails can be added under this section.
 
 ![enter image description here](https://apidocs.lrcontent.com/images/RBA-image-4_17019610264ec3b0df6.84290074.png "enter image title here")
 
-### Email Templates
+## Email Templates
 
 This section allows you to customize the email which will be sent to the customers and admins whenever any risk based event is detected. Multiple email templates can be added under this section.
 
