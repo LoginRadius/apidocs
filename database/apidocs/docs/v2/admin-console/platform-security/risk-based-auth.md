@@ -1,21 +1,21 @@
 # Risk Based Authentication
 
-Risk-Based Authentication (RBA) is an additional layer of security used to trigger actions and notifications based on a customer's current behavior relative to their past activity. The customer's location, IP, and browser can be used as parameters to assess potentially risky behavior.
+Risk-Based Authentication (RBA) is an additional layer of security used to trigger actions and notifications based on a customer's current behavior relative to their past activity. The customer's location, IP, browser and device can be used as parameters to assess potentially risky behavior.
 
-To access the RBA configurations, log in to your LoginRadius account and navigate to [Platform Security > Multi-Layered Security > Risk-Based Authentication](https://adminconsole.loginradius.com/platform-security/multi-layered-security/risk-based-authentication/rba-settings). On the left-hand panel, you will be provided with the supported RBA Settings.
+To access the RBA configurations, log in to your LoginRadius account and navigate to [Platform Security > Multi-Layered Security > Risk-Based Authentication](https://adminconsole.loginradius.com/platform-security/multi-layered-security/risk-based-authentication/rba-settings). On the left-hand panel, you will be provided with the supported **RBA Settings**.
 
-> Note: For further details on implementing Risk-Based Authentication on your site, see [Advanced Customization](/libraries/js-libraries/advanced-js-customizations/#riskbasedauthentication1).
+> **Note:** For further details on implementing Risk-Based Authentication on your site, see [Advanced Customization](/libraries/js-libraries/advanced-js-customizations/#riskbasedauthentication1).
 
 ## RBA Settings
 
-Click **"Select to enable"**. Risk criteria for City, Country, IP, and Browser will then be displayed. Here is a quick snapshot of the Risk-Based Authentication configuration in your LoginRadius user account.
+- **Toggle** the switch corresponding to the available risk factor options to **enable** them. Accordingly, the risk criteria for **City**, **Country**, **IP**, **Browser** and **Device** will then be displayed. Here is a quick snapshot of the Risk-Based Authentication configuration in your LoginRadius user account.
 
-![enter image description here](https://apidocs.lrcontent.com/images/171_23951620413928c8637.17344147.png "enter image title here")
+    ![Step 1](https://apidocs.lrcontent.com/images/Step-1_1312464252651e521929af05.96200837.png "Step 1")
 
 
-Configure the risk criteria settings as per your requirements. If you select "MultiFactor Authentication" in the Actions drop-down, the "Multi-Factor Settings" option shows up in the left-hand panel.
+- Configure the risk criteria settings as per your requirements. It is to be noted that, only when you select **Multi Factor Authentication** in the **Actions** drop-down, for any of the risk criteria, the **Multi factor Settings** tab will become configurable.
 
-![enter image description here](https://apidocs.lrcontent.com/images/172_972620413b75345e8.11071712.png "enter image title here")
+    ![Step 2](https://apidocs.lrcontent.com/images/Step-2_1525887878651e526b09c055.18370528.png "Step 2")
 
 
 ## Multi-Factor Settings

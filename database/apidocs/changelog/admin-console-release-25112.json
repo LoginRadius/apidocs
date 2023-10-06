@@ -1,0 +1,13 @@
+{ "name": "Admin Console Release 25.11.2",
+    "description": "The following release of the LoginRadius Admin Console brings you an improvement. See below for details on the notable change that has been applied to the Admin Console.",
+    "changelog": {
+        "IMPROVED": [
+            {
+                "text": "The <a href='https://adminconsole.loginradius.com/platform-security/multi-layered-security/risk-based-authentication/rba-settings' target='_blank'>Risk Based Authentication</a> feature now supports an additional risk factor - <strong>Device</strong>."
+            }
+        ]
+    },
+    "auther": "Gurjyot Singh",
+    "created_date": "2023-10-05",
+    "status": "public"
+}
