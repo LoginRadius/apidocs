@@ -6,7 +6,7 @@ LoginRadius normalizes all data points gathered through traditional forms or by 
 
 An updated chart of all retrievable data points broken down by each provider can be found here:
 
-- http://www.loginradius.com/datapoints
+- https://www.loginradius.com/docs/api/v2/getting-started/data-points/social-provider-data-fields/
 
 
 ##Data Structure
