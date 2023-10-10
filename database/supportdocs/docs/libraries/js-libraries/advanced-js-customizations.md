@@ -34,8 +34,17 @@ LRObject.init("verifyEmail", verifyemail_options);
 
 > **Note:**
 >
-> The success callback will return a JSON object {IsPosted: true}.
+> - The success callback will return a JSON object {IsPosted: true}.
 > **verifyEmail** action can be used both to verify email and reset password, depending upon the vtype passed in the link.
+> -  If you have enabled the **Token Type** as **OTP** for Delete Account Email Template to receive the OTP for deleting an account, you must specify the container below. 
+> ```
+> deleteuser_options.container = 'deleteaccount-container' 
+> ```
+> 
+>     And add the below snipped to include the input field for OTP. 
+> ```
+> <div id='deleteaccount-container'></div>
+> ```
 
 ## Risk Based Authentication
 
