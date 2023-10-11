@@ -22,7 +22,7 @@
           {
             "name": "welcomeemailtemplate",
             "is_required": false,
-            "description":"Provide the ID of the welcome email template. </br> Note: You can send the welcome email only once. If you wish to resend the welcome email, use the <a href='/docs/api/v2/customer-identity-api/authentication/auth-send-welcome-email/'>Auth Send Welcome Email</a> API."
+            "description":"Provide the TEMPLATE ID of the welcome email template. </br> Note: You can send the welcome email only once. If you wish to resend the welcome email, use the <a href='/docs/api/v2/customer-identity-api/authentication/auth-send-welcome-email/'>Auth Send Welcome Email</a> API."
           }
         ],
   "Headers Parameters": [{
