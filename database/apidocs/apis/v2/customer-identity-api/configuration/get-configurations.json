@@ -239,14 +239,14 @@
     },
     "ApiRequestSigningConfig": {},
     "TemplateVerificationTypes": {
-    "ADD_EMAIL": "MAGICLINK",
-    "AUTOLOGIN": "MAGICLINK",
-    "DELETEACCOUNT": "MAGICLINK",
-    "FORGOTPASSWORD": "MAGICLINK",
-    "FORGOTPIN": "MAGICLINK",
-    "NOREGISTRATIONPASSWORDLESSLOGIN": "MAGICLINK",
-    "ONECLICKSIGNIN": "MAGICLINK",
-    "REGISTRATION": "MAGICLINK"
-  }
+      "AddEmail": "OTP",
+      "AutoLogin": "OTP",
+      "DeleteAccount": "MAGICLINK",
+      "ForgotPIN": "MAGICLINK",
+      "ForgotPassword": "OTP",
+      "NoRegistrationPasswordlessLogin": "OTP",
+      "OneClickSignin": "MAGICLINK",
+      "Registration": "MAGICLINK"
+    }
   }
 }
