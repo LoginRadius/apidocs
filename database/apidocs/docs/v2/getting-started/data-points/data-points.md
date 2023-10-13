@@ -4,10 +4,7 @@
 
 LoginRadius normalizes all data points gathered through traditional forms or by different social providers. Even so, it is always recommended to review which data points are made available to you with each social provider you have configured for your site or app's social login, as there are unique restrictions imposed by each. 
 
-An updated chart of all retrievable data points broken down by each provider can be found here:
-
-- http://www.loginradius.com/datapoints
-
+An updated chart of all retrievable data points broken down by each provider can be found [here](/api/v2/getting-started/data-points/social-provider-data-fields/).
 
 ##Data Structure
 The LoginRadius User Registration system utilizes two identifiers in order to uniquely identify your users:
