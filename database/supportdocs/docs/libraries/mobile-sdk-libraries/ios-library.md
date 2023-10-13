@@ -19,6 +19,8 @@ This document provides instructions to integrate the LoginRadius User Registrati
 ## Installation
 We recommend using CocoaPods for installing the library in a project.
 
+## Cocoapods 
+
 [CocoaPods](http://cocoapods.org/) is a dependency manager for Cocoa projects. You can install it with the following command:
 
 ```
@@ -42,7 +44,7 @@ target 'TargetName' do
 
 # Comment the next line if you don't want to use dynamic frameworks
 use_frameworks!
-pod 'LoginRadiusSDK', '~> 5.8.0'
+pod 'LoginRadiusSDK', '~> 5.9.0'
 end
 ```
 
@@ -52,10 +54,35 @@ Then, run the following command:
 $ pod install
 ```
 
+## Swift Package Manager
+
+
+The [Swift Package Manager](https://www.swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the swift compiler.
+
+To add LoginRadiusSDK to your project using SwiftPM follow these steps:
+
+1. Open your project in Xcode
+2. In the main menu, select File > Swift Packages > Add Package Dependency.
+3. In the window, enter the package url: https://github.com/LoginRadius/ios-sdk.git.
+
+To use LoginRadiusSDK in your code, import the module or header files as needed:
+
+Objective-c
+
+```
+@import LoginRadiusPackage;
+```
+
+Swift
+
+```
+import LoginRadiusPackage     
+```
+
 ## Setup Prerequisites
 To get your app supported by LoginRadius iOS SDK, you need to slightly configure your LoginRadius user account.
 
-- Enable `<AppName>://` in your [Admin Console > Deployment > Apps > Web Apps](https://adminconsole.loginradius.com/deployment/apps/web-apps). Ex: sampleapp://
+- Enable `<AppName>://`- in your [Admin Console > Deployment > Apps > Web Apps](https://adminconsole.loginradius.com/deployment/apps/web-apps). Ex: sampleapp://
   <br>
 
 * Configure Email Templates.<br>
