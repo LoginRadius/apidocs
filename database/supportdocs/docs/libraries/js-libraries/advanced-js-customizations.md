@@ -34,8 +34,19 @@ LRObject.init("verifyEmail", verifyemail_options);
 
 > **Note:**
 >
-> The success callback will return a JSON object {IsPosted: true}.
-> **verifyEmail** action can be used both to verify email and reset password, depending upon the vtype passed in the link.
+> - The success callback will return a JSON object `{IsPosted: true}`.
+> 
+> - **verifyEmail** action can be used both to verify email and reset password, depending upon the `vtype` passed in the link.
+
+> -  If you have enabled the **Token Type** as **OTP** for Delete Account Email Template to receive the OTP for deleting an account, you must specify the container below. 
+> ```
+> deleteuser_options.container = 'deleteaccount-container' 
+> ```
+> 
+>     And add the below snipped to include the input field for OTP. 
+> ```
+> <div id='deleteaccount-container'></div>
+> ```
 
 ## Risk Based Authentication
 
@@ -52,15 +63,17 @@ Following options can be used with `commonOptions` to configure Risk Based Authe
 | Name                     | Type   | Description                                               |
 | ------------------------ | ------ | --------------------------------------------------------- |
 | rbaOneclickEmailTemplate | String | Risk based authentication email template name one click   |
-| rbaOTPSmsTemplate        | String | Risk based authentication sms template name for otp       |
 | rbaCityEmailTemplate     | String | Risk based authentication email template name for City    |
 | rbaCountryEmailTemplate  | String | Risk based authentication email template name for Country |
 | rbaBrowserEmailTemplate  | String | Risk based authentication email template name for Browser |
 | rbaIpEmailTemplate       | String | Risk based authentication email template name for IP      |
+| rbaDeviceEmailTemplate   | String | Risk based authentication email template name for Device  |
+| rbaOTPSmsTemplate        | String | Risk based authentication sms template name for otp       |
 | rbaCitySmsTemplate       | String | Risk based authentication sms template name for City      |
 | rbaCountrySmsTemplate    | String | Risk based authentication sms template name for Country   |
 | rbaBrowserSmsTemplate    | String | Risk based authentication sms template name for Browser   |
 | rbaIpSmsTemplate         | String | Risk based authentication sms template name for IP        |
+| rbaDeviceSmsTemplate     | String | Risk based authentication sms template name for Device    |
 
 ## Delete User
 
