@@ -1,8 +1,6 @@
 # Get User Session Device/Location
 
-Get active session API is used to get the current session of the user, it returns IPs and user agent string with it.
-
-Try this API [here](/api/v2/user-registration/get-active-session-details)
+[Get Active Session Details](/api/v2/customer-identity-api/session/get-active-session-details/) API is used to get the current session of the user, it returns IPs and user agent string with it.
 
 **API Response:**
 
@@ -104,7 +102,7 @@ For server-side implementation, you can call this API directly.
 
 1. The user logs in with their credentials, and upon a successful login, LoginRadius will provide the user's profile.
 2. Fetch the UID from the user profile, invoke the created endpoint for client-side implementation, and directly invoke [Active Session By Account ID](/api/v2/customer-identity-api/session/active-session-by-account-id/) API for server-side implementation.
-3. The [Active Session By Account ID](/api/v2/customer-identity-api/session/active-session-by-account-id/) API will return the session object in response, as mentioned above.
+3. The [Active Session By Account ID](/api/v2/customer-identity-api/session/active-session-by-account-id/) API will return the session object in response.
 4. Implement a checkpoint to allow login when only one session is present. However, if the API returns multiple sessions, prevent the user from logging in.
 5. It is important to note that the [Active Session By Account ID](/api/v2/customer-identity-api/session/active-session-by-account-id/) API will provide **access tokens** for all active sessions. For added security, you can log out the user from a specific session by invalidating the corresponding access token through the [Auth Invalidate Access Token](/api/v2/customer-identity-api/authentication/auth-invalidate-access-token/) API.
 
