@@ -4,7 +4,8 @@
   "path": "/identity/v2/auth/account",
   "method": "GET",
   "getparams": {
-      "apikey*": "@apikey@"
+      "apikey*": "@apikey@",
+      "welcomeemailtemplate": ""
   },
   "postparams": "",
   "headers": {

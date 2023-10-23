@@ -41,10 +41,9 @@ For a detailed outline of our JSON data format see this [document](/api/v2/user-
 LoginRadius provides the best-in-class data security while giving you control over how and where your data will be maintained. The following features are some of the ways in which we accomplish this:
 
 1. One-way hashing - The LoginRadius platform, by default, performs one-way hashing for critical data such as passwords, security questions, etc. with the industry standard hashing algorithm. This specific encryption protocol is customizable and can be upgraded to a more secure algorithm at any time; upgrading does not require resetting the password for all customers. By using one-way hashing, the stored information can only be matched, but cannot be decrypted.
-2. Field-level encryption - If you have secure data that you would like to encrypt and store in LoginRadius, you can configure either one way or two-way encryption on a field-by-field basis to enhance the security of sensitive customer information.
-3. Encryption in Transit - The LoginRadius platform has built-in support for end-to-end encryption in transit for data transfers. All data communication from the client browser to the LoginRadius application travels over secure HTTPS tunnels with industry standard ciphers.
-4. Encryption at Rest - The LoginRadius data management platform also supports encryption at rest for data storage.
-5. Data Compliance - LoginRadius supports all major compliances and policies and meets a wide range of regional specific data compliances that allow you to store your data in any global region. We provide you with an ease of mind as we handle the specific data compliances required for each of the locations.
+2. Encryption in Transit - The LoginRadius platform has built-in support for end-to-end encryption in transit for data transfers. All data communication from the client browser to the LoginRadius application travels over secure HTTPS tunnels with industry standard ciphers.
+3. Encryption at Rest - The LoginRadius data management platform also supports encryption at rest for data storage.
+4. Data Compliance - LoginRadius supports all major compliances and policies and meets a wide range of regional specific data compliances that allow you to store your data in any global region. We provide you with an ease of mind as we handle the specific data compliances required for each of the locations.
 
 ## LoginRadius Customer Data Administration
 
