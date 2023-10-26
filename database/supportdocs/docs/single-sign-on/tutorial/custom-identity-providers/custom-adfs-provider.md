@@ -92,10 +92,20 @@ Click on **ADFS Providers** Tab.
 
 **Step 7:** In **ID PROVIDER CERTIFICATE** enter the certificate for IdP i.e ADFS.
 
+**Step 8:** **Auto Lookup Functionality.**
+
+**Enabling AutoLookup:** When you enable AutoLookup, you will notice a domain box where you need to enter/specify the domain name.
+
+![AutoLookup](https://apidocs.lrcontent.com/images/Custom-Idps-LoginRadius-User-Dashboard-2_1238909362653a4214a834b1.82630786.png "AutoLookup")
+
+Once the configuration is saved with the domain name, upon entering an email ID with the specified domain name during authentication, the user will be automatically directed to the designated Identity Provider (IdP). Without AutoLookup, the user follows the standard login process.
+
+> **Note:** After enabling this feature, the specific IdP will not be displayed in the Social Schema on your IDX.
+
 > **Note:** To renew the **Service Provider Certificate**, click the designated "**Renew Certificate**" button. Once the renewal is completed, the updated expiry date and time will be promptly shown.
 
 
-**Step 8:** For **RELAY STATE PARAMETER** enter **RelayState**.
+**Step 9:** For **RELAY STATE PARAMETER** enter **RelayState**.
 
 For **DATA MAPPING** select the LoginRadius' fields (SP fields) and enter the corresponding ADFS fields(IdP fields). Following are some of the field names of ADFS.
 
@@ -108,7 +118,7 @@ http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name
 
 Save the settings.
 
-![ADFS Provider](https://apidocs.lrcontent.com/images/Custom-Idps-ADFS-updated_29713240649a13990204e2.35630368.png "ADFS Provider")
+![ADFS Provider](https://apidocs.lrcontent.com/images/pasted-image-0-2_1679507361653a4aafebae25.60467392.png "ADFS Provider")
 
 > **Note:** For any query, please reach out to LoginRadius Support from [here](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 

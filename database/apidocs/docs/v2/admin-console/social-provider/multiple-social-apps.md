@@ -2,9 +2,19 @@
 
 LoginRadius supports the configuration of a number of social ID providers, as well as multiple options to request data from the social providers and from the customers too. With stricter privacy policies and regulations, we also have documents on app review submissions if it is required by the configured social ID provider.
  
-Along with configuring the social provider we also provide a feature of having multiple apps of the same social provider over the Login/Registration page. 
+Along with configuring the social provider we also provide a feature of having multiple apps of the same social provider over the Login/Registration page. At present, this feature can only be activated for the following social providers:
+
+- Google
+
+- Twitter
+
+- Facebook
+
+- Apple
+
+- LinkedIn
  
-This is a new feature that has to be enabled for which you can raise a request to [LoginRadius support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
+> **Note:** This is a new feature that has to be enabled for which you can raise a request to [LoginRadius support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
 ## Multiple App Configuration Guide
 

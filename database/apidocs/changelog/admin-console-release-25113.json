@@ -1,0 +1,13 @@
+{ "name": "Admin Console Release 25.11.3",
+    "description": "The following release of the LoginRadius Admin Console brings you a new feature. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "<strong>AutoLookup</strong> feature under the Custom IDPs automatically redirects a user to the specific Identity Provider (IdP) after entering an email ID with the respective domain name."
+            }
+        ]
+    },
+    "auther": "Michelle Rathod",
+    "created_date": "2023-10-17",
+    "status": "public"
+}
