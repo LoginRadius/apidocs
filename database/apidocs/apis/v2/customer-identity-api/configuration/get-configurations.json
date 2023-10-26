@@ -170,6 +170,7 @@
       "v2": true
     },
     "EmailVerificationFlow": "required",
+    "IsAutoLookUpEnabled": true,
     "IsPhoneLogin": true,
     "IsDisabledSocialRegistration": false,
     "IsDisabledAccountLinking": false,
