@@ -21,7 +21,7 @@ The following screen will appear:
 
 The SAML Provider configuration fields appear on the same screen as displayed below:
 
-![Custom IDP full view](https://apidocs.lrcontent.com/images/Custom-Idps-SAML-updated_421408093649a125aa45b60.90348832.png "Custom IDP full view")
+![Custom IDP full view](https://apidocs.lrcontent.com/images/pasted-image-0-3_436373142653a4c171cccd9.46774695.png "Custom IDP full view")
 
 **Step 3:** In the **Login Flow choose** the desired SAML flow from the dropdown and in the **Provider Name** field, enter the unique name of the SAML provider. This name will be displayed under the social login forms in the LoginRadius IDX page and on the social login form rendered by LoginRadius V2.js library on your application if the **Include In Social Schema** is selected while configuring the SAML app.
 
@@ -47,16 +47,26 @@ The SAML Provider configuration fields appear on the same screen as displayed be
 
 > **Note:** To renew the **Service Provider Certificate**, click on designated "**Renew Certificate**" button. Once the renewal is completed, the updated expiry date and time will be promptly shown.
 
-**Step 9:** For **RELAY STATE PARAMETER** enter **RelayState**
+**Step9:** **Auto Lookup Functionality.**
 
-**Step 10:** For **DATA MAPPING** select the LoginRadius' fields (SP fields) and enter the corresponding SAML supported app fields (IdP fields) e.g.
+**Enabling AutoLookup:** When you enable AutoLookup, you will notice a domain box where you need to enter/specify the domain name.
+
+![AutoLookup](https://apidocs.lrcontent.com/images/Custom-Idps-LoginRadius-User-Dashboard-2_1238909362653a4214a834b1.82630786.png "AutoLookup")
+
+Once the configuration is saved with the domain name, upon entering an email ID with the specified domain name during authentication, the user will be automatically directed to the designated Identity Provider (IdP). Without AutoLookup, the user follows the standard login process.
+
+> **Note:** After enabling this feature, the specific IdP will not be displayed in the Social Schema on your IDX.
+
+**Step 10:** For **RELAY STATE PARAMETER** enter **RelayState**
+
+**Step 11:** For **DATA MAPPING** select the LoginRadius' fields (SP fields) and enter the corresponding SAML supported app fields (IdP fields) e.g.
 
 | Fields | Profile Key |
 |--|--|
 | Email | email |
 | FullName | username |
 
-**Step 11**: Once all the required fields are completed, scroll down and hit **Save**.
+**Step 12**: Once all the required fields are completed, scroll down and hit **Save**.
 
 > **Note:** You should have an account with the same email address in your SAML application as well as in LoginRadius before using your SAML application to login to the LoginRadius Admin Console.
 

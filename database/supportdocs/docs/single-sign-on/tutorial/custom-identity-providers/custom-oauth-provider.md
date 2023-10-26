@@ -26,7 +26,7 @@ The following screen will appear:
 
 The OAuth Provider configuration fields appear on the same screen as displayed below:
 
-![Provider Form](https://apidocs.lrcontent.com/images/custom-IDP-OAuth_219016202d3d7a54d82.99185803.png "Provider Form")
+![Form](https://apidocs.lrcontent.com/images/Custom-Idps-LoginRadius-User-Dashboard-4_94499687653a480d509e90.95159855.png "Oauth_provider")
 
 **Step 3:** In the **Provider Name** field, enter the unique name of the OAuth provider. This name will be displayed under the social login forms in the LoginRadius IDX page and on the social login form rendered by LoginRadius V2.js library on your application if the **Include In Social Schema** is selected while configuring the OAuth app.
 
@@ -61,7 +61,17 @@ The OAuth Provider configuration fields appear on the same screen as displayed b
 
 **Step 14:** In the **Access Token Parameter Name For Api Access** field, enter the provider’s Access Token Parameter name (it varies provider to provider like for Doximity its access_token)
 
-**Step15:** Among all the field types, **Data Mapping** is mandatory, and you can use any of the field types from **Header** and **Query Param** as per your provider requirements (optional).
+**Step15:** **Auto Lookup Functionality.** 
+
+**Enabling AutoLookup:** When you enable AutoLookup, you will notice a domain box where you need to enter/specify the domain name.
+
+![AutoLookup](https://apidocs.lrcontent.com/images/Custom-Idps-LoginRadius-User-Dashboard-2_1238909362653a4214a834b1.82630786.png "AutoLookup")
+
+Once the configuration is saved with the domain name, upon entering an email ID with the specified domain name during authentication, the user will be automatically directed to the designated Identity Provider (IdP). Without AutoLookup, the user follows the standard login process.
+
+> **Note:** After enabling this feature, the specific IdP will not be displayed in the Social Schema on your IDX.
+
+**Step16:** Among all the field types, **Data Mapping** is mandatory, and you can use any of the field types from **Header** and **Query Param** as per your provider requirements (optional).
 
 - **Header:** It can be used for those providers, which pass the Access Token in the header. Enter the Provider’s header name in Key and add any of the LoginRadius value from the following in the Value field:
   <br><br> - #accesstoken#
@@ -76,7 +86,7 @@ The OAuth Provider configuration fields appear on the same screen as displayed b
 
 > **Note:** The LoginRadius ‘ID’ field is the unique identifier for each profile attached to a LoginRadius customer account. Refer to the LoginRadius [Data structure](/api/v2/getting-started/data-points/data-points/#datastructure0) document for more details. The mapping of the LoginRadius 'ID' field (Loginradius field) is required for the OAuth Provider. A user will not be able to register/login if the value is missing for this mapping in the OAuth Provider.
 
-**Step 16:** Now, click the **Save** button to add and save settings.
+**Step 17:** Now, click the **Save** button to add and save settings.
 
 ## Part 2 - Custom Icon Configuration
 
