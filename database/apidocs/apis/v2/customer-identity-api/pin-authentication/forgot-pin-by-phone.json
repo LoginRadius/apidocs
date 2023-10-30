@@ -5,11 +5,11 @@
   "method": "POST",
   "getparams": {
     "apikey*": "@apikey@",
-    "smstemplate*": "",
+    "smstemplate": "",
     "isvoiceotp" : ""
   },
   "postparams": {
-      "Phone ": ""
+      "Phone": ""
   },
   "headers": {
     "content-Type": "application/json"
