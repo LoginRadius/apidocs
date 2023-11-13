@@ -23,6 +23,16 @@ Troubleshooting
  
 5. Once the field is added you can include it on your registration form by simply clicking on the field name.
 
+
+**Q: Can we add extra array variables like address.address[1.]Sure_name?**
+
+**A**: No, you can't add extra variables like address.address[1].Sure_name. Instead, you can use the existing fields like address1 or address2, for example, address.address[1].address1="sample address|sure_name" with pipe-separated values.
+
+**Q: Once the user has been disconnected on registration before the verification of mandatory fields, How can we force the user to verify those credentials?**
+
+**A**: In this case, users need to verify essential credentials, such as email or phone ID, based on the selected workflow. For instance, if a specific workflow is chosen and the user disconnects during registration, they will be prompted to confirm mandatory fields like email or phone ID during their initial login.
+
+
 ## Social Login
 
 **Q: How do I retrieve the provider access token?**
@@ -131,6 +141,17 @@ If a user requests an authentication code via SMS message, they can use any devi
 **Q: How I can check the which role assigned to a user?**
 
 **A**: We can check the assigned role to a user by visiting user’s **profile-->Full View-->Roles** in customer management section under the Admin console’s profile management tab.
+
+
+## JWT
+
+**Q: Key rotation in JWT public/private keys, why is it needed, and how does it improve the security of authentication?**
+
+**A**: In JWT, key rotation is needed as it serves as a second layer of security. The RSA key pair does not remain static, and in an extreme case where someone steals the private key without the intervention of an admin, the keys will eventually expire. The Authorization Server handles this by setting a reasonable frequency for key expiration to restrict unauthorized access to authorization.
+
+**Q: Is any maintenance time needed to reflect the JWT key rotation in the production?**
+
+**A**: A maintenance window is not needed to rotate the key in JWT. This will replace the keys immediately, and it will be used for new session requests.
 
 
 
