@@ -48,6 +48,18 @@ Refer to the below-mentioned steps to configure the hCaptcha with your LoginRadi
 
 ![Admin Console](https://apidocs.lrcontent.com/images/pasted-image-0-3_609275241648dfb864afbd6.28056945.png "Admin Console")
 
+## hCaptcha with LoginRadiusV2.js
+
+Once you have configured your hCaptcha account in the LoginRadius Admin Console, follow the steps below to include hCaptcha on the registration form in your LoginRadius interfaces.
+
+```
+option = {};
+option.apikey = "<Your LoginRadius API key>";
+option.appName = "<LoginRadius Site Name>";
+```
+
+The hCaptcha language can be changed using the `hl` parameter and giving it the desired [**language code**](https://docs.hcaptcha.com/languages/).
+
 ## Display hCaptcha at Login Form
 
 When the **hCaptcha** is enabled from the LoginRadius Admin Console, it will be enabled for the registration form. However, if someone is making large amount of login API calls using some scripts (DDoS attack) on your application, it can disrupt the normal traffic at the LoginRadius server, then you can implement the hCaptcha on the login form.
