@@ -68,9 +68,9 @@ You can configure your Oauth 2.0 settings in the LoginRadius Admin Console under
 
 To begin configuration you will need to click "Add App" and fill out the form as follows:
 
-- **AppName:** The name of your OpenID Connect App.
+- **AppName:** The name of your Oauth Connect App.
 
-- **Algorithm:** The algorithm you would like to use for OpenID Connect (RS256 is currently the only algorithm supported).
+- **Algorithm:** The algorithm you would like to use for Oauth App (RS256 is currently the only algorithm supported).
 
 - **Grant Type:** Select the option by using which the app will obtain the access token.
 
