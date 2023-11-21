@@ -5,6 +5,7 @@
         array("autumnSeason", "September 23", "October 26"),
         array("halloween", "October 27", "November 5"),
         array("diwali", "November 10", "November 19"),
+        array("thanksgiving", "November 22", "November 26"),
         array("christmas", "December 18", "December 28")
     );
     $isThemeScheduled = false;
@@ -17,7 +18,7 @@
         }
         $endDateTime = strtotime($info[2]." ".$currentYear);
         $currentDate = strtotime(date("F d Y"));
-        //$currentDate = strtotime("January 1 2024"); // For Testing
+        //$currentDate = strtotime("November 22 2023"); // For Testing
         if($currentDate >= $startDateTime && $currentDate <= $endDateTime){
             $isThemeScheduled = true;
             if(strcmp($occasion, "christmas")==0 || strcmp($occasion, "newYear")==0){
