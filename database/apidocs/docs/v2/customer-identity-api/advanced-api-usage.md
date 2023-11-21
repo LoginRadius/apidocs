@@ -103,7 +103,7 @@ In addition to being trigged on failed login attempts Account Lockouts can also 
 - This setting is enabled by default with our API V2 reset password by security question API.
   By default, Maximum Reset Password Attempts is 3
 
-- You can set Maximum Reset Password Attempts in your LoginRadius Admin Console.
+- You can set Maximum Reset Password Attempts from [Platform Security > Security Question > Settings](https://adminconsole.loginradius.com/platform-security/multi-layered-security/security-question/settings) section of Admin Console.
 
 ## Custom Object updateType
 

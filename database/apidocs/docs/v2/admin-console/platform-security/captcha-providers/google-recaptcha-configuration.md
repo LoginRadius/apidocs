@@ -70,7 +70,7 @@ option.apikey = "<Your LoginRadius API key>";
 option.appName = "<LoginRadius Site Name>";
 ```
 
-**2**. The reCAPTCHA language can be changed using the **v2RecaptchaLanguage** parameter and giving it the desired[ language code](https://developers.google.com/recaptcha/docs/language).
+**2**. The reCAPTCHA language can be changed using the `v2RecaptchaLanguage` parameter and giving it the desired [**language code**](https://developers.google.com/recaptcha/docs/language).
 
 <!--
 

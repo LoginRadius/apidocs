@@ -4,6 +4,8 @@
 
 This document highlights the fields provided by LoginRadius for user registration forms. We have categorized the fields in 3 categories i.e, Standard Fields (Basics), Standard Fields (Advanced) and Custom Fields. You can configure and manage the fields for registration forms under the LoginRadius Admin Console > Platform Configuration > Authentication Configuration > Standard Login > Data Schema.
 
+> **Note:** There is no inherent limit for the fields in the profile. However, you can establish a limit by applying a regular expression (regex) to the required field. You can navigate to the [Platform Configuration > Standard Login > Data Schema](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/data-schema) section of the Admin Console to define the validation string according to your requirements. 
+
 ### Standard Fields (Basic)
 
 Standard Fields are the most commonly used fields for registration forms, we have provided around 30 predefined Basic Standard fields they are:
