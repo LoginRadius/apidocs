@@ -28,7 +28,7 @@ Deploy the LoginRadius V2 Integration JS
 ```
 
 ### Intercom JS Code
-Start with Intercom from [here](https://developers.intercom.com/basic-javascript).
+Start with Intercom from [here](https://developers.intercom.com/installing-intercom/web/installation/#step-1-include-intercom-js-library).
 
 In this page, go to Step 1: Install Intercom JS Library. Copy and paste given snippet.
 

@@ -5,7 +5,6 @@
     "method":"GET",
     "getparams":{
 		"apikey*":"@apikey@",
-    "access_token*": "",
     "isvoiceotp" : ""
 
 	},
