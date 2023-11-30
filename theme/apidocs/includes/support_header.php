@@ -282,14 +282,13 @@ $hooks->do_action('init');
             <a href="<?php echo API_DOCS_URL . '/v2/getting-started/introduction/' ?>">
               <h1>Getting Started</h1>
               <p>
-                Introduction of various implementation methodologies,authenticatin work flows,security best practices,data migration and acceptable use policy
+              Introduction of various implementation methodologies, authentication workflows, security best practices, data migration, and acceptable use policy
               </p>
             </a>
             <a href="<?php echo API_DOCS_URL . '/v2/admin-console/overview/' ?>">
               <h1>Admin Console</h1>
               <p>
-                Explains the configuration required for implementing various
-                features,details about team and profile management
+              Explains the configuration required for implementing various features, details about the team, and profile management
               </p>
             </a>
             <a href="<?php echo API_DOCS_URL . '/v2/single-sign-on/overview/' ?>">
@@ -309,8 +308,7 @@ $hooks->do_action('init');
             <a href="<?php echo API_DOCS_URL . '/v2/cloud-directory-api/overview/' ?>">
               <h1>Cloud Directory API</h1>
               <p>
-                Using Cloud directory APIs you can retrieve your entire user
-                database records and generate an aggregate view
+              Using Cloud directory APIs, you can retrieve your entire user database records and generate an aggregate view
               </p>
             </a>
             <a href="<?php echo API_DOCS_URL . '/v2/integrations/overview/' ?>">
