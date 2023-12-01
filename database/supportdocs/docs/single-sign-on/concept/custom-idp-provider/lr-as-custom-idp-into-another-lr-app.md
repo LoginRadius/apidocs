@@ -51,9 +51,11 @@ This document provides a step-by-step guide to configure a LoginRadius applicati
       
     
 
-|  Key  |   Value  |
-|  ---  |--        |
-| access_token  | #accesstoken# |
+|     Key       |       Value         |
+| ------------- | ------------------- |
+| access_token  |    #accesstoken#    |
+
+
 
    ![IDP](https://apidocs.lrcontent.com/images/IDP-45_4713624b352cdf6d71.09942006.png "IDp")
 
@@ -63,10 +65,10 @@ This document provides a step-by-step guide to configure a LoginRadius applicati
     Below two fields are mandatory to create an account in LoginRadius.
     
 
-|Fields| Value |
-|------|--|
-| ID     | Uid |
-| Email     | Email[0].Value |  
+| Fields |      Value       |
+| ------ | ---------------- |
+|   ID   |       Uid        |
+| Email  | Email[0].Value   |
 
    ![IDP](https://apidocs.lrcontent.com/images/idp-3_16809624b34e213cdc5.67499630.png "IDP")
   
