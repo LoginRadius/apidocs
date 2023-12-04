@@ -1,0 +1,15 @@
+{
+    "name": "JS Release 3.23.0",
+    "description": "This JavaScript release brings a new feature to our LoginRadius V2JS library. Please see below for details:",
+    
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Extended the support of the One Touch Login APIs in the LoginRadius V2JS library."
+            }
+        ]
+    },
+    "auther": "Michelle Rathod",
+    "created_date": "2023-12-04",
+    "status": "public"
+}
