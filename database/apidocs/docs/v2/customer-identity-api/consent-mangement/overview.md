@@ -293,7 +293,7 @@ The following screen displays the disabled forms:
 
 ### JavaScript Deployment
 
-he following are the sequential steps to deploy the Consent Management feature using the LoginRadius JavaScript Libraries:
+The following are the sequential steps to deploy the Consent Management feature using the LoginRadius JavaScript Libraries:
 
 **Step 1:** Include the LoginRadius JavaScript Libraries as explained below:
 
