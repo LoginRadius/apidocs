@@ -169,9 +169,7 @@ This guide focuses on the following deployment methods:
 
 However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](/api/v2/getting-started/implementation-workflows/).
 
->**Note:** 
-* To  implement the Passwordless Login using API refer to this [document](/api/v2/customer-identity-api/passwordless-login/passwordless-login-overview/).
-* To implement the Passwordless Login using technology-specific SDK refer to this [document](/api/v2/deployment/sdk-libraries/overview/).
+>**Note:** To deploy the Consent Management using API, refer to this [document](/api/v2/customer-identity-api/consent-management/consent-by-consent-token/).
 
 ### IDX Deployment
 
