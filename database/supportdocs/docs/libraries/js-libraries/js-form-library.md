@@ -2,11 +2,11 @@
 
 ---
 
-While The `LoginRadiusV2.js` is commonly used to automatically generate HTML interfaces required for customer identity management e.g. (Login form, Registration form, One-Time Passcode (OTP), Forgot Password, Email Verification. The JS Form library is a library that is built-in the `LoginRadiusV2.js` and is used for cases where you require to build your own forms and functionality as opposed to using the automatically generated forms/interfaces.
+The **LoginRadiusV2.js** is commonly used to automatically generate HTML interfaces required for customer identity management e.g. Login form, Registration form, One-Time Passcode (OTP), Forgot Password, and Email Verification. The JS Form library is a library that is built in the **LoginRadiusV2.js** and is used for cases where you are required to build your own forms and functionality as opposed to using the automatically generated forms/interfaces.
 
-This document describes the different function calls that can be made to the various LoginRadius APIs via the JS Form Library allowing you to easily add support for LoginRadius to your custom built forms.
+This document describes the different function calls that can be made to the various LoginRadius APIs via the JS Form Library, allowing you to easily add support for LoginRadius to your custom built forms.
 
-**Note:** If you are currently using the automatically generated interfaces provided by `LoginRadiusV2.js` and are looking to add additional customizations/functionality, we recommend using the [JavaScript Hooks](/api/v2/user-registration/javascript-hooks) or our [LoginRadius HTML5 SDK](/api/v2/sdk-libraries/html5-js).
+> **Note:** If you are currently using the automatically generated interfaces provided by **LoginRadiusV2.js** and are looking to add additional customizations/functionality, we recommend using the [JavaScript Hooks](/api/v2/user-registration/javascript-hooks) or our [LoginRadius HTML5 SDK](/api/v2/sdk-libraries/html5-js).
 
 ## Initialization
 
@@ -58,7 +58,7 @@ LRObject.api.login({
         });
 ```
 
-**NOTE:** This function also supports phone login `commonOptions.phoneLogin` should be set to true to enable Phone Login.
+**NOTE:** This function also supports phone login **commonOptions.phoneLogin** should be set to true to enable Phone Login.
 
 ## Registration
 
@@ -109,7 +109,7 @@ LRObject.api.registration(schema, data,
 
 ## Update
 
-Account updates can be accomplished via the `LRObject.api.updateData` function.
+Account updates can be accomplished via the **LRObject.api.updateData** function.
 
 Format:
 
@@ -127,7 +127,7 @@ Format:
 
 ## Forgot Password
 
-`LRObject.api.forgotPassword` is used to send a forgot password email to a customer, the email will contain the verification token to then be consumed the resetPassword function.
+**LRObject.api.forgotPassword** is used to send a forgot password email to a customer, the email will contain the verification token to then be consumed the resetPassword function.
 
 > **Note**: Since the **Forgot Password** flow requires a **resetpasswordurl** on which the user will be redirected to reset the password, it is required to whitelist that resetpasswordurl. To whitelist the same, navigate to LoginRadius [Admin console > Deployment > Apps > Web Apps](https://adminconsole.loginradius.com/deployment/apps/web-apps), and add the URL under the Production Website URL(s) section.
 
@@ -155,7 +155,7 @@ LRObject.api.forgotPassword({
 
 ## Reset Password
 
-To reset a password you can call `LRObject.api.resetPassword` along with the new password, the password should be passed inside the data object.
+To reset a password you can call **LRObject.api.resetPassword** along with the new password, the password should be passed inside the data object.
 
 Format:
 
@@ -187,7 +187,7 @@ LRObject.api.resetPassword({
 
 ## Email Verification
 
-To implement email verification, you will need to setup an email verification page on your website and call `LRObject.api.emailVerification` along with the verification token (also known as vtoken).
+To implement email verification, you will need to setup an email verification page on your website and call **LRObject.api.emailVerification** along with the verification token (also known as vtoken).
 
 The verification page that has this emailVerification function should be the same that you have provided in your LoginRadiusV2.js options object "commonOptions.verificationUrl".
 
@@ -224,7 +224,7 @@ LRObject.api.emailVerification({
 
 ## Social Login Function
 
-To implement Social Login, call the `LRObject.api.socialLogin` function along with the token, in this case, the token comes from the callback response after the social login process. This will also prompt a 'missing required field' filling interface if some fields are not filled automatically from the data obtained via the social provider. By filling in the form, the customer's account will be generated.
+To implement Social Login, call the **LRObject.api.socialLogin** function along with the token, in this case, the token comes from the callback response after the social login process. This will also prompt a 'missing required field' filling interface if some fields are not filled automatically from the data obtained via the social provider. By filling in the form, the customer's account will be generated.
 
 `LRObject.api.socialLogin (data, onSuccess, onError, onMissingField, Schema)`
 
@@ -252,7 +252,7 @@ LRObject.api.socialLogin({
 
 ## Resend Email Verification
 
-To resend email verification, you can call `LRObject.api.resendEmailVerification` with the customer's email address.
+To resend email verification, you can call **LRObject.api.resendEmailVerification** with the customer's email address.
 
 Note: This function leverages the [Auth Resend Email Verification API](/api/v2/user-registration/auth-resend-email-verification).
 
@@ -284,7 +284,7 @@ This section deals with enabling login by sending a One Time Passcode to your cu
 
 ### Phone Send OTP
 
-To get a One Time Password (OTP), call `LRObject.api.otpLogin` with the customer's `phone` number. Note: This API is based on the [Phone Send One time Passcode API](/api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms).
+To get a One Time Password (OTP), call **LRObject.api.otpLogin** with the customer's **phone number**. Note: This API is based on the [Phone Send One time Passcode API](/api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms).
 
 Format:
 
@@ -444,7 +444,7 @@ The format for the MFA Login function is as follows:
 
 ### Multi-Factor Authentication Update Phone
 
-The `twoFAUpdatePhone` function leverages the [MFA Update Phone Number API](/api/v2/user-registration/2fa-update-phone-number) which is used to update the phone number used to Multi-Factor Authentication by customers.
+The **twoFAUpdatePhone** function leverages the [MFA Update Phone Number API](/api/v2/user-registration/2fa-update-phone-number) which is used to update the phone number used to Multi-Factor Authentication by customers.
 
 Format:
 
@@ -504,7 +504,7 @@ Format:
 
 `LRObject.api.twoFAResendOTP(data, onSuccess, onError);`
 
-- **data:** Should be an object which contains the customer's phone number under the `phoneNo2FA` parameter.
+- **data:** Should be an object which contains the customer's phone number under the **phoneNo2FA** parameter.
 
 - **onSuccess:** Pass in a function you would like to use as a callback when the customer has been successfully resent the OTP.
 
@@ -1269,3 +1269,63 @@ LRObject.api.smartLogin({email:"xyz@gmail.com"},
     alert(JSON.stringify(errors));
 });
 ```
+
+## One Touch Login
+
+The One Touch Login set of functions is designed to assist you in managing your one touch logins.
+
+### One Touch Login API
+
+To perform a One Touch Login Action that triggers email or SMS, call **LRObject.api.oneTouchLogin** with the customer's email or phone number.
+
+> **Note:** This API is based on the [One Touch Login by Email API](/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-email-captcha/) and [One Touch Login by Phone API](/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-phone-captcha/)
+
+Format:
+
+`LRObject.api.oneTouchLogin(data, onSuccess, onError);`
+
+- **data:** This should be an object that contains the required email address of the customer passed as **email** or phone number of the customer passed as **phone**.
+
+- **onSuccess:** Pass in a function you would like to use as a callback when the One Touch Login API is successfully sent.
+
+- **onError:** Pass in a function you would like to use as a callback if One Touch Login API  fails.
+
+Example:
+
+```
+LRObject.api.oneTouchLogin({
+    email: "xxxxxxxxxxxxxxx" // phone:"xxxxxxxxxxxxxxx"
+    },
+    function(response) {
+    //success
+    alert(JSON.stringify(response));
+
+}, function(errors) {
+    //failure
+    alert(JSON.stringify(errors));
+});
+```
+
+### One Touch Login Verify API
+
+To verify the token or OTP, call **LRObject.api.oneTouchLoginVerify**.
+
+> **Note:** This API is based on the [One Touch Email Verification API](/api/v2/customer-identity-api/one-touch-login/one-touch-email-verification/) and [One Touch OTP Verification](/api/v2/customer-identity-api/one-touch-login/one-touch-otp-verification/).
+
+Format:
+
+```
+data = {'verificationtoken' = '************'  } // When Token is slected in token type
+or
+data = {'verificationtoken' = '************', email= '********' } // When OTP is selected in token type
+or
+data = {'phone' = '************' , otp='**********'}  // When OTP is receieved in your phone
+```
+`LRObject.api.oneTouchLoginVerify(data, onSuccess, onError);`
+
+- **data:** Should be an object that contains the required verification token/ OTP in email or phone.
+
+- **onSuccess:** Pass in a function you would like to use as a callback when the One Touch Login  Verify API is successfully sent.
+
+- **onError:** Pass in a function you would like to use as a callback if the One Touch Login Verify API fails.
+
