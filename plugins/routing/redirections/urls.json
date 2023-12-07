@@ -1,4 +1,8 @@
 [{
+  "oldLink": "single-sign-on/federated-sso/saml/providers/sharepoint/",
+  "newLink": "single-sign-on/concept/saml-providers/sharepoint/"
+},
+{
   "oldLink": "v1.0/reference#identity-api",
   "newLink": "api/v2/cloud-storage/get-user-identity"
 },
