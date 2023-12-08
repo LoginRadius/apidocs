@@ -11,20 +11,7 @@ require_once 'includes/support_header.php';
 
 
 
-<!DOCTYPE html> 
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <?php
-    // Add canonical tag
-    $canonical_url = "https://www.loginradius.com" . $_SERVER['REQUEST_URI']; // replace with your actual domain
-    echo '<link rel="canonical" href="' . $canonical_url . '">';
-    ?>
-
-</head>
 
 
 
