@@ -83,7 +83,7 @@ Refer to the following steps to configure the M2M authorization flow on your app
 
    ![Add a New API](https://apidocs.lrcontent.com/images/Machine-To-machine-authorization---LoginRadius-User-Dashboard_305516202d7f02c5621.38834197.png "Add a New API")
 
-4. Now, navigate [Platform Configuration > Authentication Configuration > Machine To Machine Authorization > Machine To Machine App](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/machine-to-machine-authorization/machine-to-machine-app). In this section, you can create M2M apps and grant them API access as needed. You can select the applicable scope for each app, specify the name, token lifetime, and more. A unique API Key and Secret is generated for each app that can be utilized during the Machine to Machine communication.
+4. Now, navigate [Platform Configuration > Authentication Configuration > Machine To Machine Authorization > Machine To Machine App](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/machine-to-machine-authorization/machine-to-machine-app). In this section, you can create M2M apps and grant them API access as needed. You can select the applicable scope for each app, specify the name, token lifetime (in seconds), and more. A unique API Key and Secret is generated for each app that can be utilized during the Machine to Machine communication.
 
 5. Click on **Add APP** and fill out the details.
 
