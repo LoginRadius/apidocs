@@ -1,6 +1,6 @@
 # SendGrid SMTP Configuration
 
-LoginRadius offers fully-managed SendGrid services to handle your SendGrid account setup and administration. If you want to learn more about this option contact the [LoginRadius Supprt Team]("https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket").
+LoginRadius offers fully-managed SendGrid services to handle your SendGrid account setup and administration. If you want to learn more about this option contact the [LoginRadius Support Team]("https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket").
 
 > **Note:** SendGrid announced that all accounts must have two-factor authorization(2FA) before 2021. For more information refer to the [article]("https://sendgrid.com/docs/for-developers/sending-email/upgrade-your-authentication-method-to-api-keys/").
 
