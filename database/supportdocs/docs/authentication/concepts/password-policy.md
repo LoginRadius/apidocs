@@ -187,55 +187,8 @@ For more details on password hashing, password salting and upgrading the hashing
 
 If you want to change the Hashing Algorithm, click the **REQUEST CHANGE** button and raise the support ticket. [This document](/authentication/concepts/password-hashing-and-salting/) explains how LoginRadius will handle hashing of existing and new customers password in case of hashing algorithm upgrade.
 
-## Part 7 - Password Visibility
 
-You can view the typed password by clicking a button while typing the password. You can implement the password visibility option using the JavaScript and the following displays how:
-
-> The following considers that you have implemented Registration and Login processes using LoginRadius JavaScript Libraries.
-
-Set the **passwordVisibilityControl** flag true in the Config section of your HTML FIle. For example:
-
-**Code Snippet**:
-
-```
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Authentication Demo</title>
-</head>
-<body>
-  <h1>LoginRadius JS Authentication Demo</h1>
- <script type="text/javascript"   src="https://auth.lrcontent.com/v2/js/LoginRadiusV2.js"></script>
-  <script>
- <script>
-    var config = {
-      'apiKey': “enter your API Key",
-      'apiName': "enter your App Name",
-      'Sott': “enter your sott key, sott need and generation is explained below”, 
-    passwordVisibilityControl: true 
-    }; 
-  </script>
-</body>
-</html> 
-```
-
-The default text for show and hide stage is **Show Password** and **Hide Password**. However, you can change the same by using the following common option:
-
-**Code Snippet**:
-
-```
-commonOptions.togglePasswordOptions = {
-  'defaultText': 'Show',
-  'toggleText': 'Hide'
-}
-// where 'defaultText' and 'toggleText' options are for show and hide state respectively.
-```
-
-## Part 8 - Next Steps
+## Part 7 - Next Steps
 
 The following is the list of features you might want to add-on to the above implementation:
 
