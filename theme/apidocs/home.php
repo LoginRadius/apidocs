@@ -8,6 +8,15 @@ $sidebar = json_decode(file_get_contents(SUPPORT_DOCS_MENU_DIR . 'sidebar.json')
 $blocksdescription = json_decode(file_get_contents(SUPPORT_DOCS_MENU_DIR . 'menuv2.json'), true);
 require_once 'includes/support_header.php';
 ?>
+
+
+
+
+
+
+
+
+
 <div class="close-overlay"></div>
 <!--script type="text/javascript" async="" src="<?php echo ROOT_URL;?>theme/apidocs/assets/javascripts/snowstorm.js"></script-->
 <div class="skywrap">
