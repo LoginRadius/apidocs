@@ -6,6 +6,8 @@ require_once 'includes/header.php';
 ?>
 
 
+
+
 <div class="split-panels changelog-page">
 
     <!--    <div>-->
