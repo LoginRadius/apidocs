@@ -33,7 +33,7 @@ You need to enter the customer details in the textbox based on the fields select
 
 > **Note:** You can update the search parameters(fields) by adding the custom fields in the Standard Login [Data Schema](/authentication/quick-start/standard-login/) section.
 
-From the step 3 it will explain you can **Manage** the customers registered in your application
+From the step 3 it will explain you can **Manage** the customers registered in your application.
 
 **Step 3:** Click the **Manage** button to manage the customer profile as highlighted in the following screen:
 
@@ -48,7 +48,7 @@ You can perform the following functions as highlighted in the **right** section 
 - Update Verification Status - From here, the verification status can be changed for both Email and Phone.
 
 - Reset Password - From here, you can reset the password for the account directly.
-- Send Reset Password Mail - You can send the email to reset the password for the user’s account for this, you need to enter/select the required values into the following fields:
+- Send Reset Password Mail - You can send the email to reset the password for the user’s account. For this, you need to enter/select the required values in the following fields:
 > - **Emails:** Select the user’s email from the dropdown menu on which you want to send the email.</br>
 **Note:**  Only verified emails are displayed.
 > - **Reset Password URL:** When sending the Reset Password Mail or Verification Mail, the text box for the Reset Password URL will automatically populate with previously used URLs
