@@ -9,21 +9,21 @@ There are several tokens that are generated through the whole authentication pro
 - [LoginRadius Password Token](#loginradiuspasswordtokenexpirationhours4)
 - [SOTT (Secured One Time Token)](#sottsecuredonetimetoken5)
 - [Phone OTP (One Time Password)](#phoneotponetimepassword6)
-- [Google Authenticator OTP](#googleauthenticatorotponetimepassword7)
+- [Authenticator OTP](#googleauthenticatorotponetimepassword7)
 - [JWT (JSON Web Token)](#jwtjsonwebtoken8)
 
 ## LoginRadius Request Token (Expiration: 15 mins)
 
 This token is returned by a successful login request for a social ID provider such as Facebook and is stored in the global REQUEST variable and returned to the callback page you defined. Generally, this token is retrieved from the REQUEST variable and is used to call the LoginRadius Access Token API to get the LoginRadius access token.
 
-Note: If you are using our LoginRadius V2 API JavaScript Interface (LoginRadiusV2.js) this flow is handled automatically,
-upon doing a log-in the user is automatically given a LoginRadius Access Token.
+> **Note:** If you are using our LoginRadius V2 API JavaScript Interface (LoginRadiusV2.js), this flow is handled automatically.
+Upon logging in, the user is automatically given a LoginRadius Access Token.
 
 ## LoginRadius Access Token (Expiration: 15 mins)
 
->**NOTE:** If you would like to have your LoginRadius Access Token extended to longer than 90 days please contact <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
+>**NOTE:** If you would like to have your LoginRadius Access Token extended to longer than 90 days, please contact the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
 
-This token is returned by a call to the LoginRadius Access Token API and is generated from your LoginRadius Request Token (see above). It is combined with your LoginRadius API key forming a unique identifier that informs LoginRadius who the user is and which social platform they are currently associated with, in order to retrieve the correct information. The LoginRadius access token is required for almost all LoginRadius Social API calls and many of the Authentication API calls.
+This token is returned by a call to the LoginRadius Access Token API and is generated from your LoginRadius Request Token (see above). It is combined with your LoginRadius API key, forming a unique identifier that informs LoginRadius who the user is and which social platform they are currently associated with in order to retrieve the correct information. The LoginRadius access token is required for almost all LoginRadius Social API calls, and many of the Authentication API calls.
 
 As part of our SSO (Single-Sign-On) workflows, the LoginRadius Radius Token is also leveraged by the SSO scripts to see if a session is ongoing. You can read more about this in our [Single-Sign-On Documentation](/api/v2/single-sign-on/getting-started#customvalidationmessagehook11).
 
@@ -33,21 +33,21 @@ As part of our SSO (Single-Sign-On) workflows, the LoginRadius Radius Token is a
 
 E.g. [Auth Read all Profiles by Token](/api/v2/user-registration/auth-readall-profiles-by-token)
 
-2. When using LoginRadiusV2.js, upon a successful Login the Access Token is stored by default in the browser's localstorage and sessionstorage as LRTokenKey and in the cookies as lr-session-token.
+2. When using LoginRadiusV2.js, upon a successful Login, the Access Token is stored by default in the browser's local storage and sessionstorage as LRTokenKey and in the cookies as lr-session-token.
 
 ## LoginRadius Refresh Token
 
-In LoginRadius Identity Platform, the **Refresh Token** is used to generate **Access Token**. Whenever an access token expires or becomes invalid, LoginRadius provides refresh token to the customer to obtain a new access token.
+In the LoginRadius Identity Platform, the **Refresh Token** is used to generate **Access Token**. Whenever an access token expires or becomes invalid, LoginRadius provides a refresh token to the customer to obtain a new access token.
 
-Under the refresh token section, you can update time starting from 1 upto 525600 minutes (**Max: 365 days**) as per your business use case and if you want more than this, contact **LoginRadius support**.
+Under the refresh token section, you can update the time starting from 1 up to 525600 minutes (**Max: 365 days**) as per your business use case, and if you want more than this, contact **LoginRadius support**.
 
 > **Note:**
 > - The **default expiration** of this token is **60 days (86400 minutes)**.
 > - The refresh token gets invalidated when either used **one time** to refresh the **access token** or when gets revoked by leveraging the **Revoke Refresh token** API manually.
 
-For revoking a single Refresh token manually you can leverage the [**Revoke Refresh token**](/api/v2/customer-identity-api/refresh-token/revoke-refresh-token/) API. However, if you would like to revoke all assigned Refresh tokens for a certain user you can leverage the [**Revoke All Refresh Token**](/api/v2/customer-identity-api/refresh-token/revoke-all-refresh-token/).
+For revoking a single Refresh token manually, you can leverage the [**Revoke Refresh token**](/api/v2/customer-identity-api/refresh-token/revoke-refresh-token/) API. However, if you would like to revoke all assigned Refresh tokens for a certain user you can leverage the [**Revoke All Refresh Token**](/api/v2/customer-identity-api/refresh-token/revoke-all-refresh-token/).
 
-For more information on Refresh token and its APIs, kindly refer this [**document**](/api/v2/customer-identity-api/refresh-token/overview/).
+For more information on the Refresh token and its APIs, kindly refer to this [**document**](/api/v2/customer-identity-api/refresh-token/overview/).
 
 ## Social Platform Token (Expiration: Varies by Network)
 
@@ -87,11 +87,11 @@ You can read more about the SOTT in our [SOTT documentation](/api/v2/user-regist
 The Phone One Time Password is a password that is texted to a user to be used once for the purpose of Login.
 Once the token is consumed it expires and a new one will be required to Login next time.
 
-### Google Authenticator OTP (One Time Password)
+### Authenticator OTP (One Time Password)
 
-The Google Authenticator OTP is used strictly in the context of Multi-Factor Authentication. The end-user attempts to login using a username and password and is then prompted to enter the Google OTP. This is obtained by the user by opening the Google Authenticator app on their phone and typing the OTP in the browser to complete the login process.
+The Authenticator OTP is used strictly in the context of Multi-Factor Authentication. The end-user attempts to login using a username and password and is then prompted to enter the OTP. This is obtained by the user by opening the respective Authenticator app on their phone and typing the OTP in the browser to complete the login process.
 
-You can learn more about this flow in our [Google Authenticator Workflow documentation](/api/v2/user-registration/two-factor-authentication-overview#googleauthenticatorworkflow1).
+You can learn more about this flow in our [Authenticator Workflow documentation](/api/v2/user-registration/two-factor-authentication-overview#googleauthenticatorworkflow1).
 
 ## LoginRadius JWT encrypted token (JWE)
 
@@ -152,6 +152,6 @@ Encrypted JWT tokens have several advantages, such as **Stateless, Secure, and F
 
 Additionally, please note that the JWT is also another popular method for establishing SSO (Single-Sign-On) connections between business apps. LoginRadius supports the handling of JSON Web Tokens. See our documentation on JWT for more details [here](/api/v2/single-sign-on/jwt-login).
 
-> **Note:** The default JWT token expiration time is 10 min, If you would like to have your JWT Token extended to longer than 10 minutes please contact <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
+> **Note:** The default JWT token expiration time is 10 min, If you would like to have your JWT Token extended to longer than 10 minutes please contact the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
 
 [2]: docs/development/social-network/social-provider-faqs#what-is-the-token-lifetime-for-facebook-google-twitter-and-linkedin-
