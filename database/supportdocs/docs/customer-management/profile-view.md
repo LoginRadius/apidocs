@@ -45,22 +45,30 @@ From the step 3 it will explain you can **Manage** the customers registered in y
 
 You can perform the following functions as highlighted in the **right** section of the above screen:
 
-- Update Verification Status
-- Reset Password
-- Send Reset Password Mail
-- Add Secondary Email
-- Logout Customer
-- Block Customer
-- Delete Customer 
+- Update Verification Status - From here, the verification status can be changed for both Email and Phone.
+
+- Reset Password - From here, you can reset the password for the account directly.
+- Send Reset Password Mail - You can send the email to reset the password for the user’s account for this, you need to enter/select the required values into the following fields:
+> - **Emails:** Select the user’s email from the dropdown menu on which you want to send the email.</br>
+**Note:**  Only verified emails are displayed.
+> - **Reset Password URL:** When sending the Reset Password Mail or Verification Mail, the text box for the Reset Password URL will automatically populate with previously used URLs
+> - **Email Template:**  Select an email template based on your configuration.
+![manage button](https://apidocs.lrcontent.com/images/pasted-image-0-5_131742961765854c74a2f9d7.83496453.png "manage button")
+
+- **Resend Verification Mail** - The "Resend Verification Mail" button is visible only when unverified emails are present in the user's profile.
+> - **Emails:** Select the email address from the dropdown where you wish to resend the verification mail.
+> - **Email Template:** Select an email template based on your configuration.
+![Resend Verification Mail](https://apidocs.lrcontent.com/images/pasted-image-0-7_124462249665854ecd9ab8d1.35748991.png "Resend Verification Mail")
+- **Add Secondary Email:**  You can add a secondary email here. 
+
+- **Logout Customer:** All user sessions will expire upon clicking this button.
+
+- **Block Customer:** You can block the user from this button
+- **Delete Customer:** The user's profile will be deleted upon clicking this button.
 
 You can view the following customer information, as highlighted in the **left** section of the above screen:
 
 - **Account Info** - This contains information like ID, Full name, Emails(Primary and Secondary), Email Verified, and ExternalIds.
-
-  **Note:** While sending the Reset Password Mail or Verification Mail from the available option, the previously used URLs will be automatically prepopulated when you click on the corresponding text box.
-
-   Kindly refer to the below screenshot.
-   ![Reset password image](https://apidocs.lrcontent.com/images/Reset-password-URL_13919633fd276742d13.10669880.png "Reset password image")
 
 - **Security** - Security section contains the information like Last Password Change Date, Password Expiration Date, Last Password Change Token, Is Deleted, Is Login Locked, Disable Login.
 - **Roles** - From this section, you can configure the **Context** for your application after selecting the created **Roles**. Refer to this [document](/authentication/concepts/roles-and-membership/#partrolesandpermissionsconfiguration0) for detailed information regarding the configuration.
