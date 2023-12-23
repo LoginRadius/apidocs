@@ -1096,6 +1096,12 @@
       }
     ],
 
+    "Audit Log Integration": [{
+      "url": "integrations/audit-log/overview/",
+      "title": "Overview",
+      "type": "DOC"
+    }],
+
     "Cloud Connectors": [{
       "url": "integrations/server-side-cloud-connectors/overview/",
       "title": "Overview",
