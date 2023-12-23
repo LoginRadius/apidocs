@@ -10,7 +10,7 @@ API Security is the protection of the integrity of APIs. Security of APIs is vit
 
 Bot Protection allows you to choose stages of authentication by triggering a CAPTCHA on the selected multiple APIs. You can select multiple APIs after enabling **Bot Protection Allowed On APIs** from **List of the APIs which you want to protect** under Bot Protection setting on Dashboard.
 
-![enter image description here](https://apidocs.lrcontent.com/images/ac21_110575e932977368e19.04358869.png "Bot Protection")
+![Bot Protection](https://apidocs.lrcontent.com/images/Api-Security-LoginRadius-User-Dashboard_54812874865862b388728a4.90612398.png "Bot Protection")
 
 ## IP Access Restriction
 

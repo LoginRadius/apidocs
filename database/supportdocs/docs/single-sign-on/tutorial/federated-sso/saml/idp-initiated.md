@@ -48,7 +48,7 @@ The following screen will appear:
 
 **Step 2:** To configure SAML app, in the Admin Console, click the **Add App** button displayed in the above screenshot. The following details will appear within the same screen:
 
-![SAML Full View](https://apidocs.lrcontent.com/images/pasted-image-0-8_1188549645658571344abf06.94725987.png "SAML Full View")
+![SAML Full View](https://apidocs.lrcontent.com/images/Custom-Idps-FedSSO-SAML-idp-updated_1591558952649a150676c970.90580190.png "SAML Full View")
 
 **Step 3:** Select **Idp Initiated Login** from **Login Flow** options.
 
@@ -103,15 +103,11 @@ Some Examples of Field Mappings:
 
 **Step 13:** For **Relay State Parameter**, enter RelayState.
 
-**Step 14:** Configure the **SAML Assertion NotOnOrAfter** field in your LoginRadius settings, with options ranging from a minimum of **1 minute** to a maximum of **70 minutes**, allowing for flexible expiration times.
+**Step 14:** For **App Audiences**, enter  `https://<LoginRadius Site Name>.hub.loginradius.com/`. You can add more rows for App audiences to add multiple app audiences.
 
-> **Note:** The default value is set to **5 minutes**.
+**Step 15:** Select **HTTPPost** from **SSO Method**. 
 
-**Step 15:** For **App Audiences**, enter  `https://<LoginRadius Site Name>.hub.loginradius.com/`. You can add more rows for App audiences to add multiple app audiences.
-
-**Step 16:** Select **HTTPPost** from **SSO Method**. 
-
-**Step 17:** Click the **ADD A SAML APP** button to save the app settings. 
+**Step 16:** Click the **ADD A SAML APP** button to save the app settings. 
 
 > **Note:** To renew the **Identity Provider Certificate**, click the designated "**Renew Certificate**" button. Once the renewal is completed, the updated expiry date and time will be promptly shown.
 
@@ -153,7 +149,9 @@ After opening the downloaded metadata file, the certificate will be visible as b
 
 **Step 6:** Enter the Logout URL: `https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>`.
 
-> **Note:** If SP supports Single Logout (SLO) feature, enter `https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>` for Logout URL in SP application.
+> **Note:** 
+- If SP supports Single Logout (SLO) feature, enter `https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>` for Logout URL in SP application.
+- After updating the certificate from the LoginRadius Admin Console, as per standard procedure, you are also required to update the relevant certificates in the **downstream applications** and **Service Providers**.
 
 ## Next Steps
 
