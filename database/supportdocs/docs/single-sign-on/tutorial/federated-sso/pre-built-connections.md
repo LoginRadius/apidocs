@@ -8,7 +8,7 @@ Presently, LoginRadius supports the pre-built integration template for the below
 2. Fresh Desk
 3. Zendesk
 
-Now, let's delve deeper into the configuration steps for each of them by first navigating to [Platform Configuration > Federated SSO > Integrations](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/custom-idps/integrations) in the Admin Console, clicking on **Add SSO Integration**, followed by clicking on the respective cards, i.e., Salesforce, Fresh Desk or Zendesk.
+Now, let's delve deeper into the configuration steps for each of them by first navigating to [Platform Configuration > Federated SSO > Integrations](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/integrations) in the Admin Console, clicking on **Add SSO Integration**, followed by clicking on the respective cards, i.e., Salesforce, Fresh Desk or Zendesk.
 
 ![Add SSO Integration](https://apidocs.lrcontent.com/images/Federated-SSO---Pre-Built-Connections---Step-1_9159857016588881ec886e6.43518430.png "Add SSO Integration")
 
@@ -41,7 +41,7 @@ Now, let's delve deeper into the configuration steps for each of them by first n
 
 6. Additionally, you have the option to navigate to the **Configuration** tab for updating any of the configuration fields. You can also choose to **delete** the configuration by clicking on the delete button (represented by the _Bin Icon_) for the corresponding configuration.
 
-    ![Update or Delete](https://apidocs.lrcontent.com/images/Custom-IDP---Pre-Built-Connections---Step-9_102846392565887c401639b2.53735600.png "Update or Delete")
+    ![Update or delete](https://apidocs.lrcontent.com/images/Federated-SSO---Pre-Built-Connections---Step-5_18648652886588e105e1f568.24252141.png "Update or delete")
 
 7. Access to advanced configurations for this setup will also be available through the dedicated protocol tab (SAML). For the same, navigate to [Platform Configuration > Federated SSO > SAML](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/saml)
 
