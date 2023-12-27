@@ -7432,10 +7432,6 @@
 {
   "oldLink": "api/v2/admin-console/platform-security/captcha-providers/h-captcha-configuration",
   "newLink": "api/v2/admin-console/platform-security/captcha-providers/hcaptcha-configuration/"
-},
-{
-  "oldLink": "single-sign-on/tutorial/Pre-built-sso/overview",
-  "newLink": "single-sign-on/tutorial/federated-sso/pre-built-connections/"
 }
 ]
 
