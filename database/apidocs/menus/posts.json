@@ -1,5 +1,15 @@
 [
   {
+    "title": "Core API Release 36.4.0",
+    "url": "core-api-release-3640",
+    "date": "2023-12-27"
+  },
+  {
+    "title": "Admin Console Release 25.11.4",
+    "url": "admin-console-release-25114",
+    "date": "2023-12-22"
+  },
+  {
     "title": "JS Release 3.23.0",
     "url": "js-release-3230",
     "date": "2023-12-04"

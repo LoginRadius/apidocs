@@ -1,0 +1,29 @@
+{
+    "name": "Core API Release 36.4.0",
+    "description": "We have rolled out another version of the Core APIs, which brings you with new features and an improvement.",
+    "changelog":
+   {
+    "ADDED": 
+    [
+        
+        {
+            "text": "In the optional verification workflow, the prevention of SMS verification is now possible."
+        },
+
+        {
+            "text": "You can adjust the <strong>SessionNotOnAfter</strong> attribute in the SAML assertion for federated SSO by contacting <a href='https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket' target='_blank'>LoginRadius Support</a>."
+        }
+    
+    ],
+    "IMPROVED": 
+    [
+    
+    {
+      "text": "Enhanced Authentication and Management APIs to capture <strong>email</strong> and <strong>UID</strong> information in <strong>Consumer Audit Logs</strong>."
+    }
+    ]
+    },
+    "auther": "Michelle Rathod",
+    "created_date": "2023-12-27",
+    "status": "public"
+  }

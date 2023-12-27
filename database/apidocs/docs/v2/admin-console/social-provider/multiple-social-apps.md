@@ -1,8 +1,8 @@
 # Multiple Social Apps
 
-LoginRadius supports the configuration of a number of social ID providers, as well as multiple options to request data from the social providers and from the customers too. With stricter privacy policies and regulations, we also have documents on app review submissions if it is required by the configured social ID provider.
+LoginRadius supports the configuration of a number of social ID providers, as well as multiple options to request data from the social providers and from the customers. With stricter privacy policies and regulations, we also have documents on app review submissions if it is required by the configured social ID provider.
  
-Along with configuring the social provider we also provide a feature of having multiple apps of the same social provider over the Login/Registration page. At present, this feature can only be activated for the following social providers:
+Along with configuring the social provider, we also provide a feature that allows multiple apps of the same social provider over the Login/Registration page. At present, this feature can only be activated for the following social providers:
 
 - Google
 
@@ -13,8 +13,10 @@ Along with configuring the social provider we also provide a feature of having m
 - Apple
 
 - LinkedIn
+
+- Live
  
-> **Note:** This is a new feature that has to be enabled for which you can raise a request to [LoginRadius support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
+> **Note:** This is a new feature that has to be enabled. You can raise a request for it through [LoginRadius support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
 ## Multiple App Configuration Guide
 
@@ -28,14 +30,14 @@ This can be achieved by following the steps given below:
 In order to create a new application of the same social provider, you need to add the new app details as shown in the below steps:
 
 - Go to [**Admin Console -> Platform Configuration -> Authentication Configuration -> Social Login -> Social Providers**](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/social-login/social-providers)
-- Click on the desired social provider which exists on the Login/Registration page already.
+- Click on the desired social provider, which exists on the Login/Registration page already.
 - Now Click on **Add App**.
 
-  ![](https://apidocs.lrcontent.com/images/msa1_163145f7eff21342e49.21171846.png)
+  ![Social Login](https://apidocs.lrcontent.com/images/Social-Login-LoginRadius-User-Dashboard_427591137655b07007cb546.27422591.png "enter image title here")
 
-- Now fill in the required configuration fields which you would have obtained by following the configuration steps given of the selected provider.
+- Now, fill in the required configuration fields that you would have obtained by following the configuration steps given by the selected provider.
 
-  ![](https://apidocs.lrcontent.com/images/msa2_323995f7eff6a5c2cb1.15598932.png)
+  ![Social Login Configuration](https://apidocs.lrcontent.com/images/Social-Login-LoginRadius-Config_1526663214655b0a6293e3f2.93927381.png "enter image title here")
 
 - Click on **Save**.
 
@@ -44,11 +46,11 @@ In order to create a new application of the same social provider, you need to ad
 Now, you need to add the relevant scripts based on this functionality in our IDX page files, to do that, follow the steps given below:
 
 - Go to [**Admin Console -> Deployment -> Identity Experience Framework**](https://adminconsole.loginradius.com/deployment/idx) and select the **Advance Theme Editor** option of the selected theme.
-- Now you need to add the script in your both Authentication and Profile page files.
+- Now, you need to add the script to both your Authentication and Profile page files.
 
 **For Authentication Page:**
 
- - In the **End Script** file add the below script and click on **Save**.
+ - In the **End Script** file, add the below script and click on **Save**.
 
   ```
   const TEXT_LENGTH=40;
@@ -59,6 +61,7 @@ Now, you need to add the relevant scripts based on this functionality in our IDX
   "Apple",
   "Facebook",
   "LinkedIn",
+  "Live",
   "Twitter",
   "Wordpress",
   "Odnoklassniki",
@@ -80,6 +83,7 @@ Now, you need to add the relevant scripts based on this functionality in our IDX
   "Login with Twitter",
   "Login with Apple",
   "Login with LinkedIn",
+  "Login with Live",
   "Login with Wordpress",
   "Login with Odnoklassniki",
   "Login with SinaWeibo",
@@ -163,7 +167,7 @@ Now, you need to add the relevant scripts based on this functionality in our IDX
 
 **For Profile Page:**
 
-In the **End Script** file add the below script and click on **Save**.
+In the **End Script** file, add the below script and click on **Save**.
 
 ```
 var waitForEl = function(selector, callback) {
@@ -187,7 +191,7 @@ waitForEl(".lr-social-icon", function() {
 });
 ```
 
-After doing the above configuration, you can create multiple instances of the same social provider on your Login/Registration page and they will appear as given in the below screenshot.
+After doing the above configuration, you can create multiple instances of the same social provider on your Login/Registration page, and they will appear as given in the screenshot below.
 
 ![](https://apidocs.lrcontent.com/images/msa3_123075f7f00fb5c1d39.92187022.png)
 

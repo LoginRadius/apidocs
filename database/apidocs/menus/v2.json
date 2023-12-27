@@ -171,18 +171,8 @@
               "type": "DOC"
             },
             {
-              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/providers/instaalerts-configuration/",
-              "title": "InstaAlerts Configuration",
-              "type": "DOC"
-            },
-            {
-              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/providers/messagebird-configuration/",
-              "title": "MessageBird Configuration",
-              "type": "DOC"
-            },
-            {
-              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/providers/textlocal-configuration/",
-              "title": "Textlocal Configuration",
+              "url": "v2/admin-console/platform-configuration/communication-configuration/sms/providers/custom-sms-provider/",
+              "title": "Custom SMS/Text Providers",
               "type": "DOC"
             }
           ]

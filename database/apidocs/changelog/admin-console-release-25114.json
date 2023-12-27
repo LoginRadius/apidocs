@@ -1,0 +1,42 @@
+{ "name": "Admin Console Release 25.11.4",
+    "description": "The following release of the LoginRadius Admin Console brings you a new feature and a few improvements. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "The Custom IDP and Federated SSO feature in the Admin Console now supports Pre-Built templates (Salesforce, Fresh Desk, Zendesk) to help deploy the integrations quickly."
+            },
+            {
+                "text": "The Admin Console's Federated SSO (JWT) now includes support for data mapping of <strong>Roles</strong> and <strong>Roles & Permissions</strong> Profile Keys."
+            },
+            {
+                "text": "The Admin Console's Multiple Social Provider App features now include support for Microsoft/Live social providers."
+            },
+            {
+                "text": "For second-factor authentication, LoginRadius now supports all authenticator tools that return the TOTP with 6 digits. For example, Google Authenticator, Microsoft Authenticator, and Authy."
+            },
+            {
+                "text": "Now, LoginRadius Admin Console supports Custom SMS/Text message providers, using which you can configure SMS providers as per your choice."
+            },
+            {
+                "text": "A new feature, <strong>AuditLogIntegration</strong>, allows you  to integrate your logging tool into the LoginRadius Admin Console"
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "The certificate auto-renewal feature in the LoginRadius Admin Console will now generate keys with a size of 2048 by default."
+            },
+            {
+                "text": "The Admin Console now supports selecting the email address (if multiple) while triggering the verification or password reset email via the manage profile section of the user."
+            },
+            {
+                "text": "The Bot Protection feature in the Admin Console now encompasses Passwordless Login APIs."
+            },
+            {
+                "text": "SAML configurations in the Federated SSO section under the Admin Console allow you to configure the <strong>NotOnOrAfter</strong> value, which sets the expiry time of the SAML assertion."
+            }
+        ]
+    },
+    "auther": "Michelle Rathod",
+    "created_date": "2023-12-22",
+    "status": "public"
+}

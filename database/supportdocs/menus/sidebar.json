@@ -187,6 +187,11 @@
           "type": "DOC"
         },
         {
+          "url": "single-sign-on/tutorial/federated-sso/pre-built-connections/",
+          "title": "Pre-Built Connections",
+          "type": "DOC"
+        },
+        {
           "url": "single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/",
           "title": "OAuth 2.0",
           "type": "DOC"
@@ -257,7 +262,12 @@
           "url": "single-sign-on/tutorial/custom-identity-providers/overview/",
           "title": "Overview",
           "type": "DOC"
-        }, 
+        },
+        {
+          "url": "single-sign-on/tutorial/custom-identity-providers/pre-built-connections/",
+          "title": "Pre-Built Connections",
+          "type": "DOC"
+        },
         {
           "url": "single-sign-on/tutorial/custom-identity-providers/custom-oauth-provider/",
           "title": "Custom OAuth Provider",
@@ -1095,6 +1105,12 @@
         "type": "DOC"
       }
     ],
+
+    "Audit Log Integration": [{
+      "url": "integrations/audit-log/overview/",
+      "title": "Overview",
+      "type": "DOC"
+    }],
 
     "Cloud Connectors": [{
       "url": "integrations/server-side-cloud-connectors/overview/",
