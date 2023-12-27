@@ -166,7 +166,7 @@ To manually set the access_token for SSO via AJAX, simply makes an AJAX call to 
 **Query Parameters:**
 
 - **token:** Pass in the **access_token** that you desire to set for SSO.
-- **apikey:** Your LoginRadius API Key
+- **apikey:** Your LoginRadius API Key.
 
 
 Example of an AJAX Call function:
@@ -192,6 +192,55 @@ $.ajax({
 //write your code here for error handling
             }
         });
+```
+
+The following JSON response in the console log of your browser will indicate the successful setting of token:
+
+```
+{
+ok: true,
+istokenvalid: true/false
+}
+```
+Similarly, to Set custom token cookies with the remember me expire time for SSO via AJAX, simply make an AJAX call to the following endpoint: **`https://<LoginRadius Site Name>.hub.loginradius.com/ssologin/setcustomtoken`**
+
+**Query Parameters:**
+
+- **token:** Pass in the **access_token** that you desire to set for SSO.
+- **apikey:** Your LoginRadius API Key.
+
+Example of an AJAX Call function:
+
+```
+$.ajax({
+   type: "GET",
+   url: "https://<your lr app name>.hub.loginradius.com/ssologin/setcustomtoken",
+   dataType: "json",
+   data: $.param({
+      token: token,
+      apikey: "your-API-key",
+      Isrememberme: “true/false”
+   }),
+   xhrFields: {
+      withCredentials: true
+   },
+   success: function (response) {
+      console.log(response);
+      //write your code here after setting the token successfully
+   },
+   error: function (xhr, status, error) {
+      console.log(error);
+      //write your code here for error handling
+   }
+});
+```
+The following JSON response in the console log of your browser will indicate the successful setting of custom token:
+
+```
+{
+ok: true,
+istokenvalid: true/false
+}
 ```
 
 ### Setting the SSO Token via HTTPs Redirect

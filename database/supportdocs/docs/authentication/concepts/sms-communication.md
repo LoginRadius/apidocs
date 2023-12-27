@@ -23,17 +23,7 @@ TThe following steps explain the working of SMS communication in the LoginRadius
 
 **5.** The OTP code is authorized by LoginRadius and subsequently returns a success response to the application.
 
-LoginRadius supports multiple **SMS providers**. Below is the list of SMS providers that are directly supported and can be configured via LoginRadius Admin Console.
-
-**1.**  [**Twilio**](/api/v2/admin-console/platform-configuration/communication-configuration/sms/providers/twilio-configuration/)
-    
-**2.**  [**InstaAlerts**](/api/v2/admin-console/platform-configuration/communication-configuration/sms/providers/instaalerts-configuration/)
-    
-**3.**  [**MessageBird**](/api/v2/admin-console/platform-configuration/communication-configuration/sms/providers/messagebird-configuration/)
-    
-**4.**  [**Textlocal**](/api/v2/admin-console/platform-configuration/communication-configuration/sms/providers/textlocal-configuration/)
-
-> **Note:** Currently, within the Admin Console, Twilio stands as the sole self-configurable SMTP provider. For configuring other SMTP providers, a [**support ticket**](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) needs to be raised to request assistance with the setup.
+> **Note:** By default, the LoginRadius only supports **Twilio**. However, if you would like to configure **SMS/Text/Voice services** with other providers such as **InstaAlerts**, **MessageBird**, **Textlocal**, or even **Twilio with WhatsApp**, you can select the [**Custom Text/SMS Provider**](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/text-and-sms-and-voice-otp-configuration) and proceed to configure the same.
 
 
 Now let's go through the other aspects of SMS configuration, which are **Global SMS/Voice OTP Settings** and **SMS Template Settings**, which are available in the **LoginRadius Admin Console**.

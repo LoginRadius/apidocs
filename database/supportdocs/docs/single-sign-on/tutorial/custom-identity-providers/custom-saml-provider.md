@@ -14,10 +14,11 @@ This section covers the required configurations that you need to perform in the 
 
 The following screen will appear:
 
-![SAML Custom IDP ](https://apidocs.lrcontent.com/images/c1_185956102f2db208fd8.61080527.png "enter image title here")
-**Step 2:** To configure the details in the Admin Console, click the **Add A New Provider** button displayed on the screen below
+![SAML Custom IDP](https://apidocs.lrcontent.com/images/Custom-Idps-LoginRadius-User-Dashboard-1_282597468658712a8b79908.69909012.png "SAML Custom IDP")
 
-![SAML Custom IDP](https://apidocs.lrcontent.com/images/c2_143806102f304f34993.34536738.png "SAML Custom IDP")
+**Step 2:** To configure the details in the Admin Console, click the **Add A New Provider** button displayed on the screen below or you can also proceed by uploading details using the **Metadata file**.
+
+![SAML Custom IDP](https://apidocs.lrcontent.com/images/Custom-Idps-LoginRadius-User-Dashboard_182121745665871244206e81.25732961.png "SAML Custom IDP")
 
 The SAML Provider configuration fields appear on the same screen as displayed below:
 
@@ -69,6 +70,42 @@ Once the configuration is saved with the domain name, upon entering an email ID 
 **Step 12**: Once all the required fields are completed, scroll down and hit **Save**.
 
 > **Note:** You should have an account with the same email address in your SAML application as well as in LoginRadius before using your SAML application to login to the LoginRadius Admin Console.
+
+## Configuring Service Provider Application
+
+Once you have successfully configured the SAML app in LoginRadius Admin Console,now you need to configure the third-party Service provider.
+
+Each third-party authentication system is unique and will require different configuration settings. 
+
+> **NOTE**: If you have enabled or added a **Custom Domain** for your existing application, please be aware that you should **replace** the URL `https://<LoginRadius Site Name>.hub.loginradius.com/` with `https://<Your Custom Domain>/`  in fields such as **Issuer, EntityID, Login and Logout URLs**, or any fields having the same format.
+
+Use the following values to configure your application for IDP  initiated login flow:
+
+
+**Step 1:**  Identity provider Login URL (SSO Endpoint): `https://<LoginRadius Site Name>/service/saml/idp/login?appname=<SAMLAppName>`.
+
+**Step 2:** Use the LoginRadius certificate in your Service Provider application. To obtain the LoginRadius certificate, which is automatically generated from the backend, you can download the metadata file from the Admin Console after completing the configuration process. Please refer to the screenshot below for further clarification.
+
+  ![Metadata](https://apidocs.lrcontent.com/images/metadata_379381277643fc8455ca438.21222777.png "Metadata")
+
+After opening the downloaded metadata file, the certificate will be visible as below:
+
+  ![certificate](https://apidocs.lrcontent.com/images/certificate_617284963643fc8a9068e55.30320893.png "certificate")
+
+**Step 3:**  In the Issuer or EntityID fields, enter your LoginRadius site URL (we can enter any other Entity ID URL, and the same value should be added for the **APP AUDIENCES** field in the LoginRadius Admin Console.): 
+
+`https://<LoginRadius Site Name>.hub.loginradius.com/`
+
+
+**Step 4:** For **SSO binding** or **Service Provider Initiated Request Binding** select HTTP-POST. 
+
+**Step 5:** Into the SAML Relay State enter this value: **redirect** (Service Provider Specific).
+
+**Step 6:** Enter the Logout URL: `https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>`.
+
+> **Note:** 
+- If SP supports Single Logout (SLO) feature, enter `https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>` for Logout URL in SP application.
+- After updating the certificate from the LoginRadius Admin Console, as per standard procedure, you are also required to update the relevant certificates in the **downstream applications** and **Service Providers**.
 
 ## Part 2 - Next Step:
 

@@ -149,7 +149,9 @@ After opening the downloaded metadata file, the certificate will be visible as b
 
 **Step 6:** Enter the Logout URL: `https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>`.
 
-> **Note:** If SP supports Single Logout (SLO) feature, enter `https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>` for Logout URL in SP application.
+> **Note:** 
+- If SP supports Single Logout (SLO) feature, enter `https://<LoginRadius Site Name>/service/saml/idp/logout?appname=<SAMLAppName>` for Logout URL in SP application.
+- After updating the certificate from the LoginRadius Admin Console, as per standard procedure, you are also required to update the relevant certificates in the **downstream applications** and **Service Providers**.
 
 ## Next Steps
 

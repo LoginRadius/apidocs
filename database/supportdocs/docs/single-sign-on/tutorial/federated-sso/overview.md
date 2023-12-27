@@ -73,8 +73,4 @@ LoginRadius Delegation APIs cover the following two flows that allow you to:
 - Delegate the full authentication via the [Delegation Authentication API](/api/v2/single-sign-on/delegation-login-api).
 - Delegate the password management via the [Password Delegation API](/single-sign-on/password-delegation-api/). Password delegation allows you to use a third-party service to store your passwords rather than LoginRadius Cloud Directory.
 
-### WS Federation
 
-There are several identity protocols that are commonly supported by Identity Providers today like OAuth2, OIDC, SAML and many more likewise WS-Federation is also a Legacy Protocol that is used by Microsoft Products.
-
-Web Services Federation (WS-Federation or WS-Fed) is part of the larger WS-Security framework and an extension to the functionality of WS-Trust. The features of WS-Federation can be used directly by SOAP applications and web services. WS-Federation provides mechanisms for brokering of identity, attribute discovery and retrieval, authentication and authorization claims between federation partners, and protecting the privacy of these claims across organizational boundaries.WS-Fed is a protocol that can be used to negotiate the issuance of a token. It works similar to SAML except it has different header input values in URL and it gets response in SAML 1.0.
