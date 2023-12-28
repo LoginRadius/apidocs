@@ -9,7 +9,8 @@
         "emailtemplate": "",
         "smstemplate": "",
         "nullsupport": "",
-        "isvoiceotp" : ""
+        "isvoiceotp" : "",
+        "options": ""
     },
     "postparams": {
         "Prefix": "",
@@ -227,7 +228,12 @@
             "name": "isvoiceotp",
             "is_required": false,
             "description": "Boolean, pass true if you wish to trigger voice OTP"
-          }    
+          },
+          {
+            "name":	"options",
+            "is_required": false,
+            "description": "preventverificationsms (Specifying this value prevents the verification sms from being sent. Only applicable if you have the optional sms verification flow)"
+          }
           ],
 		"Headers Parameters": [{
                 "name": "Authorization",
