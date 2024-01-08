@@ -1,0 +1,13 @@
+{ "name": "Admin Console Release 25.11.5",
+    "description": "The following release of the LoginRadius Admin Console brings you a new update. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Updated the list of LoginRadius integration available in the <a href='https://adminconsole.loginradius.com/integration/third-party-software/available-integrations' target='_blank'><strong>Available Integration</strong></a> section of the Admin Console."
+            }
+        ]
+    },
+    "auther": "Himanshu Rai",
+    "created_date": "2024-01-05",
+    "status": "public"
+}

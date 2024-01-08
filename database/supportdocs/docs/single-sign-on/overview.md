@@ -56,7 +56,7 @@ When the Single Sign-on is required between two or more mobile apps and LoginRad
 
 
 ## Federated SSO
- When the Single Sign-on is required between two or more web applications and LoginRadius Identity Platform either acts as Identity Provider or Service Provider. This comes handy while implementing SSO with third-party applications. For interaction with third-party web applications, LoginRadius Identity Platform supports SAML, WS Federation, JWT, OAuth, and OpenID SSO protocols.
+ When the Single Sign-on is required between two or more web applications and LoginRadius Identity Platform either acts as Identity Provider or Service Provider. This comes handy while implementing SSO with third-party applications. For interaction with third-party web applications, LoginRadius Identity Platform supports SAML, JWT, OAuth, and OpenID SSO protocols.
 
 Accept tokens and identities issued by niche identity providers of your choice and allow your customers to authenticate on your website for seamless transactions. Identity providers can be your organizational partners who already issue and hold digital identities/tokens/tickets. With LoginRadius **[Federated SSO](/single-sign-on/tutorial/federated-sso/overview/)**, your business can leverage that identity and make authentication seamless for your customers.
 
@@ -113,7 +113,7 @@ Custom OAuth Provider is the most implemented protocol by the customers to set u
 
 ## SSO Connectors
 
-There are some third-party applications that do not support industry-standard federated SSO methods like SAML, Oauth/OIDC, JWT, WS Federation, etc. and provide their own mechanism to create a Single Sign-On workflow for identity provider applications. 
+There are some third-party applications that do not support industry-standard federated SSO methods like SAML, Oauth/OIDC, JWT, etc. and provide their own mechanism to create a Single Sign-On workflow for identity provider applications. 
 
 LoginRadius provides out of box SSO Connector solutions to create a Single Sign-on user experience between LoginRadius and these applications by leveraging these mechanisms. For more details on Password Delegation refer to our documentation [here](/api/v2/single-sign-on/sso-connector/overview/).
 
