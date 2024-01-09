@@ -25,361 +25,751 @@ See below for a comprehensive list of integrations that are available within Log
     <table class="waffle" cellspacing="0" cellpadding="0">
         <tbody>
             <tr style='height:20px;'>
-                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Advertising</span></td>
+                <td class="s0" dir="ltr" colspan="200"><span style="font-size:14pt">B2B Identity</span></td>
             </tr>
             <tr style='height:20px;'>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/adroll-logo_14583634f0423eeb149.35405141.png" />
-                    <span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/adroll/">AdRoll</a></span>
+                    <img src="https://apidocs.lrcontent.com/images/authbridge-2_11057751796595c6b9538224.40886755.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Auth Bridge</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/appnexus_30494634f084b5defa6.85980535.png" />
-                    <span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/appnexus/">AdRoll</a></span>
+                    <img src="https://apidocs.lrcontent.com/images/background_12082851276595c620660e55.24709973.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Backgroundchecks.Com</span>
                 </td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/blueshift_26266634f091cbeffb4.13448770.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/blueshift/">Blueshift</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/facebook-ads_11553634f0a627b1e73.60701970.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/facebook-ads/">Facebook Ads</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/wayin_28107634f0a9d967264.52725491.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/wayin/">Wayin</a></span></td>
-            </tr>
-
-            <tr style='height:20px;'>
-                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Analytics</span></td>
-            </tr>
-
-            <tr style='height:20px;'>
-
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/adobe-analytics-1_13696634f0c0bf32486.08773575.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/adobe-analytics/">Adobe Analytics</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/google-analytics_11766634f0c44e57307.77848263.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/google-analytics/">Google Analytics</a></span></td>
-
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/mixpanel_20418634f0d09e60902.36214868.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/mixpanel/">Mixpanel</a></span></td>
-
-                <td class="s1"><img src="https://apidocs.lrcontent.com/images/webtrends_6916634f0d3d67d072.92785390.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/webtrends/">Webtrends</a></span></td>
-            </tr>
-            <tr style='height:20px;'>
-                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Business Intelligence Tools</span></td>
-            </tr>
-            <tr style='height:20px;'>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/chartio_28867634f0fa160a968.59488284.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/chartio/">Chartio</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/ibm-cognos_11429634f0fd2a946b1.65392495.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/ibm-cognos/">IBM Cognos</a></span></td>
-
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/looker_6644634f12505a5d64.07426959.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/looker/">Looker</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/microsoft-power-bi_27666634f12f04000b4.42884770.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/microsoft-power-bi/">Microsoft Power BI</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/MicroStrategy_3044634f131ecd0dd9.16307740.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/microstrategy/">MicroStrategy</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/Qlik_22682634f135e565606.07427647.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/qlik/">Qlik</a></span></td>
-
-            </tr>
-
-            <tr style='height:20px;'>
-
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/SAP-Business-Objects_25061634f13c3cc2715.42640995.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/redash/">Re:dash</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/SAP-Business-Objects_25061634f13c3cc2715.42640995.png" /><span class="caption"><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/sap-business-objects/">SAP Business Objects</a></span></span>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/CertN_810253386595cc89dc66d0.45324749.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Cert N</span>
                 </td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/tableau_23538634f140d419109.97355735.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/tableau/">Tableau</a></span></td>
-
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/tibco-spotfire_16241634f1439d875c5.26601154.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/tibco-spotfire/">TIBCO Spotfire</a></span></td>
-
-            </tr>
-            <tr style='height:20px;'>
-                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Content Management Systems (CMS)</span></td>
-            </tr>
-            <tr style='height:20px;'>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/adobe-experience-manager_9651634f184a5aa9c4.01668354.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/adobe-experience-manager/">Adobe Experience Manager</a></span></td>
-
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/microsoft-adxstudio_28574634f190b3d98c5.13676796.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/adxstudio/">AdxStudio</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/dotnetnuke_20212634f194501a718.44869478.png" /><span class="caption"><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/dotnetnuke/">DotNetNuke</a></span></td>
-
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/drupal_8224634f19c2add686.25819236.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/drupal/">Drupal</a></span></td>
-
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/joomla_11209634f1a233c0ba8.86418468.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/joomla/">Joomla</a></span></td>
-
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/jive-x_25908634f1a882adb51.89901259.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/jive-x/">Jive-x</a></span></td>
-            </tr>
-            <tr style='height:20px;'>
-
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/libercus_22000634f1ade7aaf25.35754694.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/libercus/">Libercus</a></span></td>
-
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/microsoft-sharepoint_18163634f1b2c952581.79106137.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/microsoft-sharepoint/">Microsoft Sharepoint</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/pagesuite_19398634f1b934e9d63.47164244.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/pagesuite/">PageSuite</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/simplydigi_12184634f1bcde198b1.83843187.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/simplydigi/">SimplyDigi</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/sitecore_16498634f1c1cd86685.95096863.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/sitecore/">SiteCore</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/sitefinity_24424634f1c6f1b0ba7.55373477.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/sitefinity/">Sitefinity</a></span></td>
-            </tr>
-            <tr style='height:20px;'>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/wordpress_15019634f1cb1cb4575.80028872.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/wordpress/">WordPress</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/wordpress-vip_14943634f1d13811615.42006598.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/wordpress-vip/">WordPress VIP</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/zimbra_6393634f1d4fe2c581.34681960.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/zimbra/">Zimbra</a></span></td>
-            </tr>
-            <tr style='height:20px;'>
-                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Customer Relationship Management (CRM)</span></td>
-            </tr>
-            <tr style='height:20px;'>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/hubspot_31309634f22682ad418.62294151.png" /><span class="caption"><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/hubspot/">Hubspot</a></span></span>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/checkr_17019862886595cccc0585d1.22098041.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Check R</span>
                 </td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/infusionsoft_18862634f22a233bf64.56294510.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/infusionsoft/">InfusionSoft</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/microsoft-dynamics_16562634f247a222460.33352865.png" /><span class="caption"><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/microsoft-dynamics/">Microsoft Dynamics</a></span></span>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/clearcheck-Io_20496567866595cd11f1ab22.49587920.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Clearcheck.Io</span>
                 </td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/netsuite_8600634f2531320ae1.67434849.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/netsuite/">Net Suite CRM</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/salesforce_20416634f272956e0d1.94035127.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/salesforce/">Salesforce</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/zoho_30115634f27552f16b5.51688165.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/zoho/">Zoho</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/sugarcrm_3924634f27842322f8.74849548.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/sugarcrm/">SugarCRM</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/mulesoft_89240297164408ba24537a6.39382309.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/mulesoft/">MuleSoft</a></span></td>
-                <td></td><td></td><td></td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/esr-chek_124498189665967cc2db7f17.59075261.png" />
+                    <span class="caption"><a target="_blank" href=""></a>ESR Check</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/first-advantage_150607303965967d59a34f72.54058840.png" />
+                    <span class="caption"><a target="_blank" href=""></a>First Advantage</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/goodhire_214271192865967da1095207.57120022.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Good Hire</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/HireRight_877570736595def343cb71.95118928.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Hire Right</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/HRScreening_20076294176595e79ebbac86.66447289.png" />
+                    <span class="caption"><a target="_blank" href=""></a>HR Screening.Com</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Intelius_13015991806595ded9261570.73310885.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Intelius</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/paylocity_76497356765967de817b139.12394006.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Paylocity</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/peopletrail_113758321365967e40294829.87874845.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Peopletrail</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/searchbug_91673548165967eac043072.06260928.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Search Bug</span>
+                </td>
+                 <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/SpringVerify_12134888706595e22a458b99.05787390.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Spring Verify</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Sterling_9641353326597ac96230010.88749324.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Sterling</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/UniversalBackground_14762004216595e925bbd4c8.54851847.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Universal Background Service</span>
+                </td>
             </tr>
-            
-            <tr style='height:80px;'>
-                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;"></span></td>
-                <tr style='height:30px;'>
-                    <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/freshsales_logo_2785634f27efbe34e9.03081736.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/freshsales/">Freshsales</a></span></td>
-            </tr>
-
             <tr style='height:20px;'>
-                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Customer Communication</span></td>
+                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Chatbots</span></td>
             </tr>
             <tr style='height:20px;'>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/Atlassian_1911463503822df2461.83070556.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/atlassian/">Atlassian</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/customer-dot-io_29425635038aaeb7436.72195203.png" /><span class="caption"><a target="_blank" rel="noopener noreferrer" href="http://Customer.io">Customer.io</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/desk_25356635038e9ec65e2.80557538.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/desk/">Desk</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/freshdesk_297406350393a62adf8.18123537.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/freshdesk/">Freshdesk</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/intercom_1137663503a3366d8b8.11018107.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/intercom/">Intercom</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/zendesk_335863503a893270c5.94507835.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/zendesk/">ZenDesk</a></span></td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Ada_8174576036595dcaf763c67.35884406.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Ada</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/dialogFlow_115034526595e4f5dd4570.09334214.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Google Dialog Flow</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/hubspot_20000428156595d86ab5eaf5.38908787.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Hubspot</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/ibm-security_203767262465968063c0d9a0.95476286.png" />
+                    <span class="caption"><a target="_blank" href=""></a>IBM</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Intercom_785035956595de070e62a3.21993895.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Intercom</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Wordpress_360912976595d939813300.18724582.png" />
+                    <span class="caption"><a target="_blank" href=""></a>WordPress</span>
+                </td>
             </tr>
-
             <tr style='height:20px;'>
-
-                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Data Management Platforms (DMP)</span></td>
+                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Customer Data Platforms</span></td>
             </tr>
-
             <tr style='height:20px;'>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/adobe-audience-manager_3272463503d6888d709.39171874.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/adobe-audience-manager/">Adobe Audience Manager</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/blueconic_560163503e96799788.80458943.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/blueconic/">Blueconic</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/cxense_1737463503ed67f3981.79256662.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/cxense/">Cxense</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/lotame_3108663503eff0e3204.70531096.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/lotame/">Lotame</a></span></td>
-                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/krux_1084263503f2e14c0c6.01460612.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/salesforce-dmp-krux/">Krux</a></span></td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/AdobeAnalytics_14831309456595ddcb4a1616.32204127.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Adobe Analytics</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/AdobeExperienceManager_11771258036595e51dc97bb8.24139060.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Adobe Experience Manager</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/adroll_12770379836595d8c72f5a14.67751499.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Ad Roll</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/AdxStudio_15505413986595bc30d93df2.17589855.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Adx Studio</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/AmazonSES_16484027356595da5094e566.33989791.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Amazon SES</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Atlassian_8632623966595da685cf4a4.22892049.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Atlassian</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/BigCommerce_13851681286595da033bbd61.17940334.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Big Commerce</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/BigQuery_473012406595c436112654.74626734.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Big Query</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/BlueConic_11762592666595dae76307b8.59268355.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Blue Conic</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Blueshift_13399850246595d763366ed2.69784533.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Blue Shift</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/boomtrain_11649946266595d8a8cfc8f4.28438455.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Boomtrain</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/braze_4487485086595e2d92d0402.57020363.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Braze</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Chart-Io_9175867006595c5f79df424.76259385.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Chartio</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/ConstantContact_13733459306595c65c1a6606.37025529.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Constant Contact</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Customer-Io_8706671296595e9b18504c2.92399027.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Customer.Io</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Cxsense_13943898516595c3a5023133.81461248.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Cxsense</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Dataxu_12304410496595c34dbb3b85.85067350.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Dataxu</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/DotNetNuke_2541399316595d9eadfc352.66602152.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Dot Net Nuke</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/drupal_4528186436595d9847d8007.53426186.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Drupal</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/eloqua_6012719866595d99b62d601.97751370.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Eloqua</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Facebook-Advertising_2475338246595c0a8371657.94058209.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Facebook Advertising</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Freshdesk_7424825626595dab98fd290.02118536.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Freshdesk</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/freshsales_4363934466596816f70b983.79975240.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Freshsales</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/GoogleAnalytics_9585023066595c247cf2e88.34553696.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Google Analytics</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/google-marketing-platform_8233859365968286a552c1.13536612.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Google Marketing Platform</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/GoogleTagManager_8023230736595c316784795.52050198.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Google Tag Manager</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/hubspot_20000428156595d86ab5eaf5.38908787.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Hubspot</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/IBMCampaign_18637041196595c2a54ef228.14841626.png" />
+                    <span class="caption"><a target="_blank" href=""></a>IBM Campaign</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/IBMCognos_565176556595c1c699ea77.60611848.png" />
+                    <span class="caption"><a target="_blank" href=""></a>IBM Cognos</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/silverpop_19809129656595c17960d525.00365024.png" />
+                    <span class="caption"><a target="_blank" href=""></a>IBM Silverpop</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/IBM-Web-Sphere_4956621266595be26e3d0f2.74479023.png" />
+                    <span class="caption"><a target="_blank" href=""></a>IBM Web Sphere</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/InfusionSoft_21411551176595c4d85e5ea3.28889028.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Infusion Soft</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/intercom_22973949965968e3ddb6227.49500975.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Intercom</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Jira_8083489616595e176bc91b3.97380021.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Jira</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Jive_8867525736595bce465c329.81132243.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Jive</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Joomla_14584185396595c0d83b92e5.32030413.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Joomla</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Kaltura_10957351156595bd2acd3ee8.51924996.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Kaltura</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Klaviyo_12712028286595c5cf8ab575.09680319.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Klaviyo</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Litmus_13954300086595e156d3e2b4.94929063.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Litmus</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Looker_19963742826595c5105c9492.85269806.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Looker</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Lotame_15543360546595c3debe61c4.13638668.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Lotame</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/lytics_203686473659683f5d430b5.42075497.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Lytics</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Mailchimp_209055906595e455b6c492.38180068.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Mailchimp</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Mailgun_5669210606595e0e0ecbb11.64469851.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Mailgun</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Magneto_1058250086595e1140dd632.57763280.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Magento</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Mandrill_8165827226595e42897f0e5.68221847.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Mandrill</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/mapp_9560276256595cd4811c8f4.69536429.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Mapp</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/MicrosoftDynamics_9139980336595e0a64c38e5.28828954.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Microsoft Dynamics</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/MicrosoftPowerBI_4321010416595e339747db8.71218911.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Microsoft Power BI</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/MicrosoftSharePoint_4330378956595e4679d2746.04096147.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Microsoft Share Point</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/MicrosoftTeams_4136545426595e86c00d0b2.02237610.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Microsoft Teams</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/mixpanel_7504793886595d3c00ba872.54827366.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Mixpanel</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Monetate_12308505336595e3b17fbf97.57544451.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Monetate</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Mulesoft_14196460836595dde944dd17.67217811.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Mulesoft</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Net-SuiteCRM_2240356456595e20ecfcaf7.80137854.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Net Suite CRM</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Optimizely_7294809086595d30ae66477.13040139.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Optimizely</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/oracle_11603289866595d5ce52fbe1.71203304.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Oracle blukai</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/piano_6679642006595e2bc9f98a5.01953669.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Piano.Io</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Redash_9561303926595e3965c60a0.48490766.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Redash</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/SailThru_7383099026595bbe4d019c0.62229575.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Sailthru</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/SalesforceCommerceCloud_12982877456595d095d5bb06.84731258.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Salesforce Commerce Cloud</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/salesforce_13178000086595d83e839a78.95409774.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Salesforce CRM</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Sales-force-Desk_1758681547659684408fb275.71378259.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Salesforce Desk</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/salesforce_13178000086595d83e839a78.95409774.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Salesforce DMP</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/SalesforceMarketingCloud_6372953196595d2cebb67e4.11378860.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Salesforce Marketing Cloud</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/SalesforcePardot_1139000196595d34ce30713.67798530.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Salesforce Pardot</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/SAP_11002786116595d557a026c9.47656754.png" />
+                    <span class="caption"><a target="_blank" href=""></a>SAP Business Objects</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Hybris_19766029466595d5a6aa6834.07651871.png" />
+                    <span class="caption"><a target="_blank" href=""></a>SAP Hybris</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Selligent_17175078246595d373106175.98343084.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Selligent</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/sendgrid_16119249606595d6ccafb474.58572614.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Sendgrid</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/sendinblue_92810240965968dc7b40476.50606313.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Sendinblue</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/ServiceNow_16211234256595e91206c6f7.97396619.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Service Now</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Shopify_8388904386595d6499f8a76.37246857.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Shopify</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/SiteCore_12065367526595d73a3c07b6.30458100.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Site Core</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/SiteFinity_8673082646595cf90b2dfc5.91340913.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Site Finity</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/slack_17734223886596849403c233.33829851.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Slack</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/SugarCRM_5017594906595d6e4462131.39487757.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Sugar CRM</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Tableau_17865228646595d66ce70e67.98318694.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Tableau</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Wordpress_360912976595d939813300.18724582.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Wordpress</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Zimbra_3673457716595cf001a4f95.87227950.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Zimbra</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Zendesk_16269986436595ce130770e5.91728108.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Zendesk</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Zoho_12909942236595cfb4ec3e40.08524992.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Zoho</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/acquia_7188393226595e7d124fdb1.15380645.png " />
+                    <span class="caption"><a target="_blank" href=""></a>Acquia</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Adobe_14056698856595e607d0af31.59038040.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Adobe</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/BlueConic_11762592666595dae76307b8.59268355.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Blue Conic</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Blueshift_13399850246595d763366ed2.69784533.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Blueshift</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/lytics_9536048646595c4a1c48762.33170553.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Lytics</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/MParticle_8213337286595bb95cc56e9.16464805.png" />
+                    <span class="caption"><a target="_blank" href=""></a>M Particle</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/PiwikPro_18367927036595e64bee5a04.12487416.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Piwik Pro</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Salesforce_954197465968d40d52e24.70282887.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Salesforce</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/sap_15727350146596852344bec5.71642373.png" />
+                    <span class="caption"><a target="_blank" href=""></a>SAP Customer Data Platform</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Picsart_24-01-04_01-10-17-678_11329679446595b86a0339b0.60105678.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Tealium</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Twillio_5577456996595d0b73c2b24.20770692.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Twilio</span>
+                </td>
             </tr>
-
             <tr style='height:20px;'>
-                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Data Warehouses</span></td>
-                <tr style='height:20px;'>
-                    <td class="s1" dir="ltr">
-                        <img src="https://apidocs.lrcontent.com/images/webhooks_12845635040027edfa8.16962967.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/bigquery/">BigQuery</a></span></td>
-
-                    <td class="s1" dir="ltr">
-                        <img src="https://apidocs.lrcontent.com/images/redshift_3081663504050378c46.54933137.png" />
-                        <span class="caption"> <a target="_blank" href="https://www.loginradius.com/integrations/amazon-redshift/">Redshift</a></span></td>
-
-                    <td class="s1" dir="ltr">
-                        <img src="https://apidocs.lrcontent.com/images/hadoop_7608635040e5746ed7.93820188.png" />
-                        <span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/apache-hadoop/">Hadoop</a></span></td>
-                    </td>
-
-                    <td class="s1" dir="ltr">
-                        <img src="https://apidocs.lrcontent.com/images/webhooks_220886350411517c1d8.06585328.png" />
-                        <span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/webhooks/">Webhooks</a></td></span>
-
-                        <td class="s1" dir="ltr">
-                            <img src="https://apidocs.lrcontent.com/images/oracle-bluekai_15952635040a0ac4b82.72887292.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/oracle-bluekai/">Oracle BlueKai</a></span></td>
-                </tr>
-                <tr style='height:20px;'>
-                    <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;font-weight:400;color:#000000;">E-Commerce</span></td>
-                </tr>
-                <tr style='height:20px;'>
-                    <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/bigcommerce_30731635053eaed9ed7.30441642.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/bigcommerce/">BigCommerce</a></span></td>
-                    <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/ibm-websphere_211796350542c77b520.48401626.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/ibm-websphere/">IBM Websphere</a></span></td>
-                    <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/magento_133656350555d01e287.36267239.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/magento/">Magento</a></span></td>
-                    <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/oracle-atg-web-commerce_280566350562c6ca693.82235349.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/oracle-atg-web-commerce/">Oracle ATG web commerce</a></span></td>
-                    <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/micros_206496350565d0a5a16.41367657.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/oracle-micros/">Oracle Micros</a></span></td>
-                    <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/piano_2660263505794a75e02.35234454.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/piano-io/">Piano.io</a></span></td>
-
-                    <tr style='height:20px;'>
-
-                        <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/prestashop_526763505760d19562.64279939.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/prestashop/">PrestaShop</a></span></td>
-                        <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/salesforce-commerce-cloud_28106635057281a1178.28631071.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/salesforce-commerce-cloud/">Salesforce Demandware</a></span></td>
-                        <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/sap-hybris_5318635056f7a3ce65.48743339.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/sap-hybris/">SAP Hybris</a></span></td>
-                        <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/shopify_6113635056c8420511.48373901.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/shopify/">Shopify</a></span></td>
-
-                        <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/wordpress-vip-1_1631663505693d86104.17718810.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/wordpress-vip/">WordPress VIP</a></span></td>
-
-                    </tr>
-                    <tr style='height:20px;'>
-                        <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Email Marketing</span></td>
-                    </tr>
-                    <tr style='height:20px;'>
-                        <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/amazon-ses_161986350665e9411a9.87628424.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/amazon-ses/">Amazon SES</a></span></td>
-                        <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/sendgrid_1814463506913465cd1.46071603.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/sendgrid/">SendGrid</a></span></td>
-                        <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/bronto_57026350689faa7d49.67406106.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/bronto/">Bronto</a></span></td>
-                        <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__constant-contact_179316351acfcb38868.12407990.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/constant-contact/">Constant Contact</a></span></td>
-                        <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/klaviyo_6828635066c8369f94.00868026.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/klaviyo/">Klaviyo</a></span></td>
-                        <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/litmus_334963506706b26345.06007347.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/litmus/">Litmus</a></span></td>
-                        <tr style='height:20px;'>
-                            <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/mailchimp_91106350676049a7a3.82953213.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/mailchimp/">MailChimp</a></span></td>
-                            <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/mailgun_27417635067eef292c3.28345848.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/mailgun/">Mailgun</a></span></td>
-                            <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/mandrill_1724863506aee0554e3.41452766.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/mandrill/">Mandrill</a></span></td>
-                            <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/Responsys-webp_2993363506bae9c2648.93582215.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/responsys/">Responsys</a></span></td>
-                            <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/salesforce-marketing-cloud_1364763506bcec206d5.71513076.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/salesforce-marketing-cloud/">Salesforce Marketing Cloud</a></span></td>
-                            <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/upaknee_298416350679755b2d3.60332242.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/upaknee/">Upaknee</a></span></td>
-                        </tr>
-                        
-                        <tr style='height:20px;'>
-                            <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Federation</span></td>
-                        </tr>
-                        <tr style='height:20px;'>
-                            <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/doximity-webp_6516635124641e8080.09737685.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/doximity/">Doximity</a></span></td>
-                            <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/higherlogic_2453563512840a1b111.10211673.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/higher-logic/">Higher Logic</a></span></td>
-                            <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/ibm-cloud-video-webp_21411635125155169d3.74288514.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/ibm-cloud-video/">IBM Cloud Video</a></span></td>
-                            <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/jira-webp_26136351253ee2b514.66069425.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/atlassian/">JIRA (SAML)</a></span></td>
-                            <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/Litmos-webp_15409635125788c6d57.40020855.png" /><span class="caption"><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/sap-litmos/">Litmos</a></span></span>
-                            </td>
-                            <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/perfectmind_16415635125dfe43500.80782036.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/perfectmind/">PerfectMind</a></span></td>
-
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/rics-1-webp_25299635125a20ecf37.95425186.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/rics/">RICS</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Gamification</span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/badgeville_62156351291c81f0e7.83643518.png" /><span class="caption"><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/badgeville/">Badgeville</a></span></span>
-                                </td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/bunchball_11482635129bc54d914.87340944.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/bunchball/">BunchBall</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Internal IAM</span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/amazon-aws-iam_585863517d282c4a87.01287986.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/amazon-aws-iam/">Amazon AWS IAM</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/bitium_6041635186a1845319.01166386.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/bitium/">Bitium</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/ca-tech-identity_7795635183e614eb61.74046207.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/ca-identity-manager/">CA Tech Identity</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/centrify_25512635186de4d3692.43061632.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/centrify/">Centrify</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/Google-Cloud-IAM_80896351870ec20023.41862040.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/google-cloud-iam/">Google Cloud IAM</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/google-identity_31747635182f87e4584.59953078.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/google-identity/">Google Identity</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/microsoft-active-directory_2131663518386da0db4.84110223.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/microsoft-active-directory/">Microsoft Active Directory</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__microsoft-azure-ad_68256351887067bef9.54285572.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/microsoft-azure-ad/">Microsoft Azure AD</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/okta_189686351875806db78.74956030.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/okta/">Okta</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/OneLogin_1321163518795ba2fb0.62897657.png" /><span class="caption"><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/onelogin/">OneLogin</a></span></span>
-                                </td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/oracle-identity_437063517d5a7e4b76.06794548.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/oracle-identity/">Oracle Identity</a></span></td>
-                            </tr>
-
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/ping-identity_28740635187cb9c1df0.97398764.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/ping-identity/">Ping Identity</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/salesforce-identity_29218635187fd521d17.97483767.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/salesforce-identity/">Salesforce Identity</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Event and Log Management</span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AlertLogic-1_2191663518b29c31710.84915795.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/alertlogic/">AlertLogic</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__hp-arcSight_277796351a0caad8962.70062925.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/hp-arcsight/">HP ArcSight</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/ibm-qradar_2970163519f0e6510b5.71009121.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/ibm-qradar/">IBM QRada</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/logstash_136863519f9e46bee1.59883341.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/solarwinds-loggly/">Loggly</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/New-Relic_863863519fdcd003e9.61706871.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/new-relic/">New Relic</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/solarwinds_107136351a00cafb4a9.19550631.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/solarwinds/">SolarWinds</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/splunk_200496351a055b6cf10.57069065.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/splunk/">Splunk</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Marketing</span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/Adobe-Campaign_159076351a6710275e0.48180080.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/adobe-campaign/">Adobe Campaign</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/boomtrain_106606351a6c35f4982.59845888.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/zeta-boomtrain/">BoomTrain</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://lrwww.wpenginepowered.com/wp-content/uploads/2019/04/constant-contact.png?ver=1537265200" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/constant-contact/">Constant Contact</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/contactlab_15936351a73f718015.88715479.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/contactlab/">ContactLab</a></span></td>
-                                
-                            </tr>
-                            
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__dataxu_310756351ad37d87979.50670353.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/dataxu/">Dataxu</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/eloqua_154556351a7a50a3d53.86541138.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/eloqua/">Eloqua</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/google-tag-manager_314046351a7dccec451.10058530.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/google-tag-manager/">Google Tag Manager</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/hubspot_41586351a812d7e8b9.11139298.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/hubspot/">Hubspot</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/ibm-campaign_123906351a852427b70.36982280.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/ibm-campaign/">IBM Campaign</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/silverpop_144926351aba87e1af9.05935628.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/ibm-digital-marketing-silverpop/">IBM Silverpop</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/kaltura_132846351a882a1fa54.97734186.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/kaltura/">Kaltura</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__klaviyo_36626351ad6aa17573.03846156.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/klaviyo/">Klaviyo</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/mailchimp_117026351a8c944ab35.30487875.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/mailchimp/">MailChimp</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/mandrill_140896351a99b3cb7d0.81240149.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/mandrill/">Mandrill</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/marketo_275586351a9ca7a5fa5.47963770.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/marketo/">Marketo</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__monetate_156396351ad9b980459.64098209.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/monetate/">Monetate</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/salesforce-marketing-cloud_320606351aa09defa62.05445054.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/salesforce-marketing-cloud/">Salesforce Marketing Cloud</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/salesforce-pardot_57986351aad7b65c95.74340366.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/salesforce-pardot/">Salesforce Pardot</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/sap-hybris_27136351ab01ac41c2.55896097.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/sap-hybris/">SAP Hybris</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/selligent_118106351ab43aa8775.19064379.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/selligent/">Selligent</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/sendgrid_178076351ab78bcf947.46129586.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/sendgrid/">SendGrid</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/5d63266ce44b7_resizeDown1200px525px16_226185f6128d1838c05-71481052_269626351a50d68b383.62297688.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/sendinblue/">Sendinblue</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Mobile</span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__dataxu_187596351ae8696b6b3.17349831.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/android/">Android</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/ionic_84096351aede5dbd43.61161457.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/ionic/">Ionic</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/ios_14146351af083fb787.20815490.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/ios/">iOS</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/ios-swift_129936351af4028b6f4.84522277.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/ios-swift/">iOS (Swift)</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/messagebird_44786351af72b42305.27991627.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/messagebird/">MessageBird</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/phonegap_65056351b0c8b1add9.64674547.png " /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/phonegap/">PhoneGap</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/twilio_202106351b10a654137.05231249.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/twilio/">Twilio</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__windows-phone_152096351b1900ff771.66765539.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/windows-phone/">Windows Phone</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__xamrain_163516351b1c3adc898.68246857.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/xamarin/">Xamarin</a></span></td>
-                            </tr>
-                            <tr style='height:25px;'>
-                                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Payment Solutions</span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__klaviyo_95436351b24dc4ac39.46858477.png" /><span class="caption"><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/amazon-pay/">Amazon Payment</a></span></span>
-                                </td>
-                                <td class="s1"><img src="https://apidocs.lrcontent.com/images/paypal_275426351b30d7293a4.30547286.png " /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/paypal/">Paypal</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/recurly_130626351b339a02290.30185233.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/recurly/">Recurly</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/stripe_214576351b363422477.11626003.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/stripe/">Stripe</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/syncronex_311146351b39003e022.59825121.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/syncronex/">Syncronex</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Personalization</span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/kaltura_265606351b46e9aa479.42721685.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/kaltura/">Kaltura</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/lytics_225056351b496c94978.23769230.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/lytics/">Lytics</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__monetate-1_31326351b4d9f0f958.62811725.png" /><span class="caption"><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/monetate/">Monetate</a></span></span>
-                                </td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__optimizely_3316351b51331f606.25813028.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/optimizely/">Optimizely</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__RichRelevance_191286351b53cf393d7.48122212.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/richrelevance/">RichRelevance</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Security and Fraud</span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/Age-Verification_62966351b5cedaaea3.78663558.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/age-verification/">Age Verification</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/castle-dot-io_12016351b5f2ebb532.58250664.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/castle-dot-io/">Castle.io</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/face-id_6816351b6183702d9.35648490.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/face-id/">Face ID</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__sms-gateway_142516351b643a63404.48502973.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/sms-gateway/">SMS Gateway</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/touch-id_273496351b66da79fd6.15449927.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/touch-id/">Touch ID</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/trulioo_322506351b68ce08e09.02304170.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/trulioo/">Trulioo</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Social Add-Ons</span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/disqus_53926351b6f2476c06.89166899.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/disqus/">Disqus</a></span></td>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/AnyConv-com__social9_308596351b77b6487c5.71967102.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/social9/">Social9</a></span></td>
-                                <td class="s1"><img src="https://apidocs.lrcontent.com/images/viafoura_68886351b72fb66789.23512208.png " /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/viafoura/">Viafoura</a></span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Data Streaming</span></td>
-                            </tr>
-                            <tr style='height:20px;'>
-                                <td class="s1" dir="ltr"><img src="https://apidocs.lrcontent.com/images/Amazon-Kinesis_273595f61321d4e9101-44953589_53666351b7c01fc409.57099887.png" /><span class="caption"><a target="_blank" href="https://www.loginradius.com/integrations/kinesis/">AWS Kinesis</a></span></td>
-                            </tr>
+                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Fraud Detection</span></td>
+            </tr>
+            <tr style='height:20px;'>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/ArkoseLabs_16571424586595bca5d41970.88780968.png" />
+                    <span class="caption"><a target="_blank" href="">Arkose Labs</a></span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/BroadCom_18154294806595e6ca9065f6.81493783.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Broadcom</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/deduce_5303643456595cdb818c455.45932676.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Deduce</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/onespan_10962389666596857ed24087.30248425.png" />
+                    <span class="caption"><a target="_blank" href=""></a>One Span</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/ravelin_1298792997659685b71ae178.51407131.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Ravelin</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/TransmitSecurity_663951726595e6e49f12e8.37113888.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Transmit Security</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/transunion_1527413194659685f6b48586.19659230.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Trans Union</span>
+                </td>
+            </tr>
+            <tr style='height:20px;'>
+                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Identity Proofing</span></td>
+            </tr>
+            <tr style='height:20px;'>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Kosmos_12571736236595e8357e2b84.13642217.png" />
+                    <span class="caption"><a target="_blank" href=""></a>1 Kosmos</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/GBG_5598846656595e6a9acd4a7.83650539.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Acuant /GBG</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Au10tix_6903653536595e1eb142dd2.67646140.png " />
+                    <span class="caption"><a target="_blank" href=""></a>Au 10tix</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Authentec_4364420056595df64877e95.70935068.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Authentec</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Civiq_13630563606595e853bd44f0.09387003.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Civiq</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Cognitio_10475074596595dfbabb86d5.09539688.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Cognito</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/devcode_14052173666595cd859d9132.81960359.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Devcode Identity IQ</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Enstream_1904630326595dc90dc20f2.09453015.png" />
+                    <span class="caption"><a target="_blank" href=""></a>En Stream</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/experian-_66950435659686571a0ad1.86315707.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Experian</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/facephi_89562178465968689a36c36.37150081.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Face Phi</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/getid_1214877006659686b83cc8b5.32445105.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Get ID</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/HID_17096446706595e8ee626632.61862389.png" />
+                    <span class="caption"><a target="_blank" href=""></a>HID Global</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/hiveid_27633911659686f2566de0.69677325.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Hive ID</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/IdDataWeb_16398413436595d9227fc8f8.86033374.png" />
+                    <span class="caption"><a target="_blank" href=""></a>ID Data Web AXN</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/idenfy_134355289365968728c54439.51932319.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Idenfy</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/ID-Me_11501414456595e5b7532d47.39311056.png" />
+                    <span class="caption"><a target="_blank" href=""></a>ID.Me</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/idnow_1440930970659687765dead4.20180480.png" />
+                    <span class="caption"><a target="_blank" href=""></a>ID Now</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Idology_9005576846595dfd58c16a3.80367905.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Idology</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/jumio_1501734179659687c26cc8e7.88134465.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Jumio</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/lexisnexis_96081029465968831c282b5.86638790.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Lexis Nexis</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/mitek_71647299565968868c3fcf8.87223626.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Mitek</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Nect_13415939096595e05d886896.06916399.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Nect</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/onespan_10962389666596857ed24087.30248425.png" />
+                    <span class="caption"><a target="_blank" href=""></a>One Span</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/onfido_96805020365968928614f91.58749173.png" />
+                    <span class="caption"><a target="_blank" href=""></a>On F Ido</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/oxyliom_18991553466595d042ac9110.15884352.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Oxyliom</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Persona_17094645696595e7b86c97b5.18969413.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Persona</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/pipl_19007752766595d01ead8b16.26630539.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Pipl</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/PlanetVerify_5255574086595e55861f834.23526197.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Planet Verify</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/readid_561103463659689ee638001.28176987.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Read ID</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Prove_4403550946595cf1d9471e8.24115603.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Prove</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/ShuftiPro_4638034316595e07d313362.20839979.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Shufti Pro</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/signicat_192899965565968a24294ec8.89549302.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Signicat</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Socure_18803199336595bdc987df05.63231260.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Socure</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/stripe_13416973016595d5f2c57378.18961709.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Stripe</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/sumsub-logos-idoVHh4Qme_8137510865968a6e77a198.46947242.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Sumsub</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/svipe_15247815286595d20a304136.80252954.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Svipe</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/thales_1306259366595c134c1d9e7.23194872.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Thales</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/thomson-reuters_37521130465968abeebba50.70538274.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Thomson Reuters Clear ID</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/token-of-trust_113616900365968af327fe33.90866222.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Token of Trust</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/truid_173224981865968b296c27b8.18223855.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Tru ID</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Trulioo_293418036595d267e561d1.93366267.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Trulioo</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/trusona_166989259365968b691477d1.81387645.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Trusona</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/veridas_176771646965968ba7723779.16837988.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Veridas</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/veriff_9291216866595bd931adce8.06449831.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Veriff</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Verimi_2426324686595df4555a3f1.03095674.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Verimi</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/webid_142853105765968bdcaf2669.46062960.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Web ID</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/yoti_75626908565968c10d20c04.39306836.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Yoti</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Zenkey_13988106706595be799464b3.19216973.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Zenkey</span>
+                </td>
+            </tr>
+            <tr style='height:20px;'>
+                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Payment Gateways</span></td>
+            </tr>
+            <tr style='height:20px;'>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/amazonpay_2343537206595dcea6b1703.34211579.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Amazon Pay</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/billwerk_662836416595deba627258.59002678.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Billwerk</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/paypal_9997438236595dd3489f203.83695280.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Pay Pal</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Paysafe_16759264876595ce658e2707.77468934.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Paysafe</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/recurrly_8823383006595dd589cfe54.20380100.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Recurly</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/shopify-payment_112293319665968c53ef49f6.21570366.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Shopify Payments</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/Square_14219185856595df9e160dc0.04516871.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Square</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/syncronex_10284003456595d1ebe394e0.94264492.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Syncronex</span>
+                </td>
+            </tr>
         </tbody>
     </table>
 </div>

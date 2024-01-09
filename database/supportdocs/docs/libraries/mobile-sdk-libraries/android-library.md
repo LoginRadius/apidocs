@@ -46,7 +46,7 @@ LoginRadius is now using Gradle.
 
 Use the following dependency in your project:
 ```
-implementation 'com.loginradius.androidsdk:androidsdk:5.0.0' 
+implementation 'com.loginradius.androidsdk:androidsdk:5.1.0' 
 ```
 LoginRadius SDK is now available as an AAR dependency. You can add it using File > New Module > Import .JAR/.AAR Package. Then, add it to your build.gradle:
 ```
@@ -168,6 +168,7 @@ After creating a new Android project, follow the installation section of this do
 <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
 <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+<uses-permission android:name="android.permission.USE_BIOMETRIC"/>
 ```
 
 #### Facebook Login
@@ -674,6 +675,61 @@ Also, you need to add the configuration for support libraries of LoginRadius And
 -keep class okio.** { *; }
 
 ```
+
+## Biometric Authentication
+
+Biometric Authentication provides a convenient method for authorizing access to private content within your app. To protect private content and sensitive information within your app, request Biometric Authentication, such as using **face recognition or fingerprint recognition**.
+For detailed information, please refer to the following link.
+https://developer.android.com/training/sign-in/biometric-auth
+
+LoginRadius Android SDK contains a helper named **BiometricManagerClass**. You can use this helper to authenticate using facial and face recognition.
+
+Call the following function for facilitating Biometric Authentication.
+
+```
+BiometricManagerClass obj = new BiometricManagerClass ( MainActivity.this );
+                        //Check if Biometric is supported by device.
+                        obj.isBiometricSupported ( new BiometricManagerClass.biometricSupported ( ) {
+
+                            @Override
+                            public void onBiometricDeviceSuccess() {
+                   //if Biometric supported display Biometric prompt.
+                                BiometricPromptBuilder biometricPromptBuilder=new BiometricPromptBuilder();
+                                biometricPromptBuilder.setTitle("LoginRadius Biometric Login");
+                                biometricPromptBuilder.setSubtitle ( "Log in using Biometric Credential" );
+                                biometricPromptBuilder.setNegativeButtonName ( "Cancel" );
+                                obj.showBiometricPrompt ( biometricPromptBuilder, new BiometricManagerClass.BiometricCallback ( ) {
+                                    @Override
+                                    public void onBiometricAuthenticationSuccess (  ) {
+                                        // Handle authentication success.
+                                        Toast.makeText ( MainActivity.this, "Authentication Succeeded!", Toast.LENGTH_SHORT ).show ( );
+                                    }
+
+
+                                    @Override
+                                    public void onBiometricAuthenticationFailure () {
+                                        // Handle authentication failure.
+                                        Toast.makeText ( MainActivity.this, "Authentication failed!", Toast.LENGTH_SHORT ).show ();
+                                    }
+
+                                    @Override
+                                    public void onBiometricAuthenticationError ( ErrorResponse error ) {
+                                        // Handle authentication error.
+                                        Toast.makeText(MainActivity.this, "Error:"+error.getMessage (), Toast.LENGTH_SHORT).show();
+                                    }
+                                } );
+                            }
+
+                            @Override
+                            public void onBiometricDeviceError ( ErrorResponse error) {
+                                // Handle cases when Biometric is not available or enrolled in the device(e.g. open setting to enroll biometric or display message.)
+                                Toast.makeText(MainActivity.this, "Error:"+error.getMessage (), Toast.LENGTH_SHORT).show();
+                            }
+
+                        } );
+```
+
+This code handles biometric authentication in a mobile app using the Android Biometric API. Initially, it checks for device biometric support and displays a customized prompt with a dynamically passed title, subtitle, and negative button name (default values are used if not provided). The code manages success, failure, and error scenarios during authentication. Additionally, it addresses situations where biometric support is unavailable or encounters issues.
 
 ## Face ID and Touch ID implementation for native android applications
 

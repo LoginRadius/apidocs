@@ -9,7 +9,8 @@
     "verificationurl": "",
     "emailtemplate": "",
     "EmailTemplate2FA":"",
-    "fields":"*"
+    "fields":"*",
+    "options": ""
   },
   "postparams": {
   "email": "Email of the user",
@@ -90,7 +91,12 @@
         "name": "fields",
         "is_required": false,
         "description": "Optional parameter determining fields returned in profile"
-      }
+      },
+      {
+				"name":	"options",
+				"is_required": false,
+				"description": "preventverificationsms (Specifying this value prevents the verification sms from being sent. Only applicable if you have the optional sms verification flow)"
+			}
     ],
     "Post Params": [
       {

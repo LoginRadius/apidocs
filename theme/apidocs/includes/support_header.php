@@ -222,7 +222,7 @@ $hooks->do_action('init');
       <div class="slideouts">
         <div id="home" class="sections-4 without-paragraphs slideUpInst">
           <div class="developers-image">
-            <img src="<?php echo THEME_URL; ?>assets/images/menu-home.svg" alt="" />
+            <img src="<?php echo THEME_URL; ?>assets/images/menu-home.svg" alt="Home Icon" />
           </div>
           <div>
             <a href="<?php echo SUPPORT_DOCS_URL . 'authentication/overview/' ?>">
@@ -276,7 +276,7 @@ $hooks->do_action('init');
 
         <div id="api-reference" class="sections-4 without-paragraphs slideUpInst">
           <div class="developers-image">
-            <img src="<?php echo THEME_URL; ?>assets/images/apireference-menu.svg" alt="" />
+            <img src="<?php echo THEME_URL; ?>assets/images/apireference-menu.svg" alt="API Preference" />
           </div>
           <div>
             <a href="<?php echo API_DOCS_URL . '/v2/getting-started/introduction/' ?>">
@@ -338,7 +338,7 @@ $hooks->do_action('init');
 
         <div id="libraries" class="sections-4 without-paragraphs slideUpInst">
           <div class="developers-image">
-            <img src="<?php echo THEME_URL; ?>assets/images/menu-libraries.svg" alt="" />
+            <img src="<?php echo THEME_URL; ?>assets/images/menu-libraries.svg" alt="Library Icon" />
           </div>
           <div>
             <a href="<?php echo SUPPORT_DOCS_URL . 'libraries/js-libraries/getting-started/' ?>">
