@@ -429,6 +429,8 @@ function pagePush(url) {
         urlHashValue = '#' + window.location.hash.substr(1);
     }
     window.history.pushState("object or string", "Title", url.replace(rootURL + docPath, rootURL) + urlHashValue);
+    var canonicalUrl = window.location.href
+    $("#canonicalLink").attr("href", canonicalUrl)
     setTimeout(function () {
         jQuery('table').wrap("<div class='lr-docs-table'></div>");
         if (jQuery(window).width() < 865) {
@@ -503,6 +505,14 @@ function pageLoad(mddocument, sdkMarkArray) {
                         protectedDocumentLoad('mdcontainer', result, documentmainpage);
                     }
                 }
+                var linkElement = $('<link>', {
+                    rel: 'canonical',
+                    id: 'canonicalLink',
+                    href: ''
+                });
+
+                // Append the link element to the head
+                $('head').append(linkElement);
                 pagePush(mddocument);
                 if (result.status == 'success' && result.format == 'json')
                     computeSDKTable();
@@ -1657,6 +1667,14 @@ function changelogPageLoad(mddocument) {
                 $('.single-changelog-post .changelogsection').html(changelogsection(result.data));
                 $('.single-changelog-post .authersection').html(authersection(result.data));
                 document.title = result.data.name
+                var linkElement = $('<link>', {
+                    rel: 'canonical',
+                    id: 'canonicalLink',
+                    href: ''
+                });
+    
+                // Append the link element to the head
+                $('head').append(linkElement);
                 pagePush(mddocument);
                 resetProcess();
             } else {
