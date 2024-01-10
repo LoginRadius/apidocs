@@ -37,3 +37,5 @@ With LoginRadius, you don’t need to compromise your business goals to remain c
 ## Age Verification
 
 If you would like to set the minimum age required for registration on your web properties, LoginRadius can provide you with an [age verification tool](https://docs.loginradius.com/platform-features-overview/user-access-management/age-verification#age-verification). This tool can assist in your compliance with the Children’s Online Privacy Protection Act (COPPA).
+
+> **Note:** This feature will only function in the registration process when we provide age-related information such as **Date of Birth** (DOB) in the **registration APIs**.
