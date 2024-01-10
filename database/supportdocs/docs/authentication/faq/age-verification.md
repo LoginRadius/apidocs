@@ -1,18 +1,26 @@
-#Age Verification
+# Age Verification
 
 
-LoginRadius provides you with the capability of having an Age Verification rule. Once you enable Age Verification you can set the required age for your users. The Registration form will prompt for the user's date of birth. And if they are below the age set, they won't be able to register. Users below the set age will receive an error message.
+LoginRadius provides you with the capability to implement an Age Verification rule, ensuring compliance with age restrictions. When Age Verification is enabled, you can specify the required age for your users. The registration form will prompt users to enter their date of birth, and if they are below the specified age, they will be prevented from registering, accompanied by an error message.
 
 
 ![enter image description here](https://apidocs.lrcontent.com/images/Age-Varification-V01-01-02_217515b744c1a8588a4.57415406.png "enter image title here")
 
 
-Considerations:
+**Considerations:**
 
-1. Users who are already registered will be unable to update their age to one below the age of restriction.
+1. Existing users cannot update their age to fall below the specified age restriction.
 
-2. Using our APIs will override age verification, which means you will be able to register and update users via the APIs even if they are below the age of restriction.
+2. The use of our APIs will override age verification, allowing registration and age updates via the APIs, even for users below the specified age restriction.
 
-To setup an age verification rule, simply go to your LoginRadius Admin Console under Data Governance > Trust Center > Privacy Center.
+**To set up an Age Verification rule, follow these steps:**
 
->**Note:** To enable Age Verification please contact LoginRadius.
+1. Navigate to your LoginRadius Admin Console.
+2. Go to [Data Governance > Trust Center > Privacy Center](https://adminconsole.loginradius.com/data-governance/trust-center/privacy-center/age-verification).
+3. Locate the **"Minimum Age required to sign up"** box and enter the desired age.
+
+![enter image description here](https://apidocs.lrcontent.com/images/AgeVerification_1572094314659f11f2c28887.22256394.png "enter image title here")
+
+4. Click on the Save button to save the settings.
+
+>**Note:** To enable Age Verification please [contact LoginRadius](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
