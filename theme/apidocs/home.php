@@ -9,7 +9,7 @@ $blocksdescription = json_decode(file_get_contents(SUPPORT_DOCS_MENU_DIR . 'menu
 require_once 'includes/support_header.php';
 ?>
 <div class="close-overlay"></div>
-<!--script type="text/javascript" async="" src="<?php echo ROOT_URL;?>theme/apidocs/assets/javascripts/snowstorm.js"></script-->
+<!--script type="text/javascript" async="" src="<?php echo ROOT_URL; ?>theme/apidocs/assets/javascripts/snowstorm.js"></script-->
 <div class="skywrap">
 
     <div class="banner">
@@ -17,9 +17,9 @@ require_once 'includes/support_header.php';
             <div class="landing-grid">
                 <div class="hero_banner-api">
                     <div class="imagefield box">
-<?php
-    include 'themeautomation.php'
-?>
+                        <?php
+                        include 'themeautomation.php'
+                        ?>
                     </div>
                     <div class="textfield box">
                         <h1 style="font-size:41px;">Identity Platform Documents</h1>
@@ -31,7 +31,12 @@ require_once 'includes/support_header.php';
                         <p>
                             You can find everything from SDKs in your favorite languages to APIs and sample demos using various technologies.
                         </p>
-                        <a href="<?php echo SUPPORT_DOCS_URL . 'authentication/quick-start/standard-login/' ?>" class="btn btn-get-started" style="text-transform:none;font-weight:700;"><i class="fa fa-rocket"></i>GET STARTED</a>
+                        <a href="<?php echo SUPPORT_DOCS_URL . 'authentication/quick-start/standard-login/' ?>" class="btn btn-get-started" style="text-transform:none;font-weight:500;">GET STARTED<svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.10744 10H15.8926" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M10 4.10744L15.8926 10L10 15.8926" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                        </a>
 
                     </div>
 
@@ -226,33 +231,78 @@ require_once 'includes/support_header.php';
     <script src="<?php echo THEME_URL; ?>assets/javascripts/navigation.min.js" type="text/javascript"></script>
 
     <script type="text/javascript">
-  (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
-  ;r.type="text/javascript"
-  ;r.integrity="sha384-35+p+zAMRt40eCQKk1/Xowd25miK7ZUBRbn6ikyGdVMfY6iKSyDDJwxFc9z4+HhF"
-  ;r.crossOrigin="anonymous";r.async=true
-  ;r.src="https://cdn.amplitude.com/libs/amplitude-6.0.1-min.gz.js"
-  ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
-  console.log("[Amplitude] Error: could not load SDK")}}
-  ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
-  ;function s(e,t){e.prototype[t]=function(){
-  this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
-  var o=function(){this._q=[];return this}
-  ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
-  ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
-  ;return this}
-  ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
-  ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
-  ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId", "enableTracking", "setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
-  ;function v(e){function t(t){e[t]=function(){
-  e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
-  for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
-  e=(!e||e.length===0?"$default_instance":e).toLowerCase()
-  ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
-  ;e.amplitude=n})(window,document);
+        (function(e, t) {
+            var n = e.amplitude || {
+                _q: [],
+                _iq: {}
+            };
+            var r = t.createElement("script");
+            r.type = "text/javascript";
+            r.integrity = "sha384-35+p+zAMRt40eCQKk1/Xowd25miK7ZUBRbn6ikyGdVMfY6iKSyDDJwxFc9z4+HhF";
+            r.crossOrigin = "anonymous";
+            r.async = true;
+            r.src = "https://cdn.amplitude.com/libs/amplitude-6.0.1-min.gz.js";
+            r.onload = function() {
+                if (!e.amplitude.runQueuedFunctions) {
+                    console.log("[Amplitude] Error: could not load SDK")
+                }
+            };
+            var i = t.getElementsByTagName("script")[0];
+            i.parentNode.insertBefore(r, i);
 
-  amplitude.getInstance().init("89d02d04126f3fba6a3a11c0145f9eaa");
-  amplitude.getInstance().logEvent('landing page');
-</script>
+            function s(e, t) {
+                e.prototype[t] = function() {
+                    this._q.push([t].concat(Array.prototype.slice.call(arguments, 0)));
+                    return this
+                }
+            }
+            var o = function() {
+                this._q = [];
+                return this
+            };
+            var a = ["add", "append", "clearAll", "prepend", "set", "setOnce", "unset"];
+            for (var u = 0; u < a.length; u++) {
+                s(o, a[u])
+            }
+            n.Identify = o;
+            var c = function() {
+                this._q = [];
+                return this
+            };
+            var l = ["setProductId", "setQuantity", "setPrice", "setRevenueType", "setEventProperties"];
+            for (var p = 0; p < l.length; p++) {
+                s(c, l[p])
+            }
+            n.Revenue = c;
+            var d = ["init", "logEvent", "logRevenue", "setUserId", "setUserProperties", "setOptOut", "setVersionName", "setDomain", "setDeviceId", "enableTracking", "setGlobalUserProperties", "identify", "clearUserProperties", "setGroup", "logRevenueV2", "regenerateDeviceId", "groupIdentify", "onInit", "logEventWithTimestamp", "logEventWithGroups", "setSessionId", "resetSessionId"];
+
+            function v(e) {
+                function t(t) {
+                    e[t] = function() {
+                        e._q.push([t].concat(Array.prototype.slice.call(arguments, 0)))
+                    }
+                }
+                for (var n = 0; n < d.length; n++) {
+                    t(d[n])
+                }
+            }
+            v(n);
+            n.getInstance = function(e) {
+                e = (!e || e.length === 0 ? "$default_instance" : e).toLowerCase();
+                if (!n._iq.hasOwnProperty(e)) {
+                    n._iq[e] = {
+                        _q: []
+                    };
+                    v(n._iq[e])
+                }
+                return n._iq[e]
+            };
+            e.amplitude = n
+        })(window, document);
+
+        amplitude.getInstance().init("89d02d04126f3fba6a3a11c0145f9eaa");
+        amplitude.getInstance().logEvent('landing page');
+    </script>
 
 
     </html>

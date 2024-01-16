@@ -52,7 +52,7 @@ function codeHighlightScriptCall()
 
             width: 70px;
             height: 25px;
-
+            font-weight: 600;
             color: white;
         }
 

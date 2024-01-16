@@ -22,7 +22,7 @@ $hooks->do_action('init');
   <link rel="icon" href="<?php echo THEME_URL; ?>assets/images/favicon-lr.png" type="image/x-icon">
   <?php docs_enqueue_script("//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"); ?>
   <?php docs_enqueue_script("//code.jquery.com/jquery-migrate-3.4.0.min.js"); ?>
-    <?php docs_enqueue_script("https://google.com/recaptcha/api.js?onload=initRecaptcha&render=explicit"); ?>
+  <?php docs_enqueue_script("https://google.com/recaptcha/api.js?onload=initRecaptcha&render=explicit"); ?>
 
   <script>
     if (window.jQuery) {
@@ -73,6 +73,94 @@ $hooks->do_action('init');
     pre {
       font-family: "Barlow", "Courier New", Courier, monospace
     }
+
+
+    /* nightmode css */
+
+    .ToggleNightModecontainer {
+      display: flex;
+      align-items: center;
+      margin-right: 12px;
+    }
+
+    @media screen and (max-width: 1020px) {
+      .ToggleNightModecontainer {
+        margin-right: 0;
+      }
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 40px;
+      height: 22px;
+    }
+
+    .switch input {
+      display: none;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #fff;
+      -webkit-transition: .3s;
+      transition: .3s;
+      border-radius: 34px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 18px;
+      width: 18px;
+      left: 2px;
+      bottom: 2px;
+      background-color: white;
+      -webkit-transition: .3s;
+      transition: .3s;
+      border-radius: 50%;
+    }
+
+    input:checked+.slider {
+      background-color: #fff;
+    }
+
+    input:focus+.slider {
+      box-shadow: 0 0 1px #3C4043;
+    }
+
+    .slider:before {
+      background-color: #000000;
+    }
+
+    input:checked+.slider:before {
+      -webkit-transform: translateX(18px);
+      -ms-transform: translateX(18px);
+      transform: translateX(18px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+      border-radius: 34px;
+    }
+
+    .slider.round:before {
+      border-radius: 50%;
+    }
+
+    /* Dark Mode label styling */
+
+    label[for="nightModeToggle"] {
+      font-family: 'Barlow', Helvetica, Arial, sans-serif;
+      margin-right: 8px;
+      font-size: 16px;
+      /* Adjust the spacing as needed */
+    }
   </style>
   <?php
   docs_enqueue_style(THEME_URL . "assets/stylesheets/mega-menu.css");
@@ -91,7 +179,8 @@ $hooks->do_action('init');
       <div class="bar">
         <div class="md-flex">
 
- <div class='md-flex-button' onClick='hideNavBar()' role="Button"> </div>          <div class="logo">
+          <div class='md-flex-button' onClick='hideNavBar()' role="Button"> </div>
+          <div class="logo">
             <a href="<?php echo SUPPORT_DOCS_URL; ?>" title="LoginRadius" class=" md-icon md-header-nav__button" style="padding: 0;">
 
               <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1673.98 243.64">
@@ -184,6 +273,8 @@ $hooks->do_action('init');
 
               </a>
           </div>
+          </br>
+
 
 
           <div class="mobile_side_menu">
@@ -213,8 +304,15 @@ $hooks->do_action('init');
 
 
           <div class="custom-algolia-search" style="display: inline-flex;">
-            
 
+            <div class="ToggleNightModecontainer">
+              <label for="nightModeToggle">Dark Mode</label>
+              </breadCrumbRedirect>
+              <label class="switch">
+                <input type="checkbox" id="nightModeToggle">
+                <span class="slider round"></span>
+              </label>
+            </div>
 
             <?php require_once 'search.php'; ?>
 
@@ -411,14 +509,14 @@ $hooks->do_action('init');
   <div class="md-container">
     <main class="md-main">
       <div class="md-main__inner md-grid esp_md-grid" data-md-component="container">
-     
+
         <script>
           var docsPath = window.location.origin + '/docs' + '/api/'
           var baseUrl = "<?php echo API_DOCS_URL . '/'; ?>";
 
-          function addBreadCrumb(currentUrl, isMenu,isSeoDescription) {
-            if(isSeoDescription){
-               generateSeoDescription(currentUrl)
+          function addBreadCrumb(currentUrl, isMenu, isSeoDescription) {
+            if (isSeoDescription) {
+              generateSeoDescription(currentUrl)
             }
             $('.bread-crumb').empty()
             var jsonHandler = <?php echo json_encode($sections); ?>;
@@ -503,7 +601,7 @@ $hooks->do_action('init');
           //This function is used to redirect to breadcrumb url
           function breadCrumbRedirect(url) {
             var redirectUrl = baseUrl + url;
-            addBreadCrumb(url, true,true);
+            addBreadCrumb(url, true, true);
             pageLoad(redirectUrl);
 
           }
@@ -511,7 +609,7 @@ $hooks->do_action('init');
           $(document).ready(function() {
             var currentUrl = window.location.href.split(baseUrl);
 
-            addBreadCrumb(currentUrl[1], true,false);
+            addBreadCrumb(currentUrl[1], true, false);
             // generateTag(currentUrl[1]);
           });
 

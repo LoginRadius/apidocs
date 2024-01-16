@@ -2308,3 +2308,15 @@ function capitalize(str) {
 
     return wordsTobeCaps;
 }
+
+
+        function toggleNightMode() {
+            var nightModeBtn = document.getElementById('night-mode-btn');
+            var body = document.getElementsByTagName('body')[0];
+            
+            nightModeBtn.addEventListener('click', function () {
+                body.classList.toggle('night-mode');
+            });
+        }
+
+        // Call the function to initialize the night mode toggle toggleNightMode();

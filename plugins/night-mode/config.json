@@ -1,0 +1,7 @@
+{
+    "name": "nightmode",
+    "discription":"nightmode-toggle",
+    "weight": "1",
+    "isActive": true,
+    "load": "night-mode/night-mode.php"
+}
