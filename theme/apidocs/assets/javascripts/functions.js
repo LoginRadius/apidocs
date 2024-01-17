@@ -532,7 +532,7 @@ function generateCanonicalLink() {
     var linkElement = $('<link>', {
         rel: 'canonical',
         id: 'canonicalLink',
-        href: 'www.loginradius.com'
+        href: ''
     });
 
     // Append the link element to the head
