@@ -505,14 +505,7 @@ function pageLoad(mddocument, sdkMarkArray) {
                         protectedDocumentLoad('mdcontainer', result, documentmainpage);
                     }
                 }
-                var linkElement = $('<link>', {
-                    rel: 'canonical',
-                    id: 'canonicalLink',
-                    href: ''
-                });
-
-                // Append the link element to the head
-                $('head').append(linkElement);
+                generateCanonicalLink();
                 pagePush(mddocument);
                 if (result.status == 'success' && result.format == 'json')
                     computeSDKTable();
@@ -533,6 +526,17 @@ function pageLoad(mddocument, sdkMarkArray) {
     $('.feedback-button').removeClass("active");
 
 
+}
+
+function generateCanonicalLink() {
+    var linkElement = $('<link>', {
+        rel: 'canonical',
+        id: 'canonicalLink',
+        href: 'www.loginradius.com'
+    });
+
+    // Append the link element to the head
+    $('head').append(linkElement);
 }
 
 function documentmainpage(data) {
@@ -1018,7 +1022,7 @@ function apimainpage(apiObject) {
     if (('Authorization*' in apiObject.headers) || ('Authorization' in apiObject.headers) || ('token*' in apiObject.getparams) || ('access_token*' in apiObject.getparams)) {
         access_token_button = '<button onclick="access_token_popup()" class="gettokenbutton' + rightClass + '">Get Access Token</button>';
     }
-    if ((('apikey*' in apiObject.getparams) || ('apikey' in apiObject.getparams) || ('key*' in apiObject.getparams) || ('key' in apiObject.getparams))  && (apikey == '' || secret == '')) {
+    if ((('apikey*' in apiObject.getparams) || ('apikey' in apiObject.getparams) || ('key*' in apiObject.getparams) || ('key' in apiObject.getparams)) && (apikey == '' || secret == '')) {
         a_button += '<button onclick="api_access_token_popup()" class="gettokenbutton' + rightClass + '">ENTER</button>';
     }
 
@@ -1667,14 +1671,7 @@ function changelogPageLoad(mddocument) {
                 $('.single-changelog-post .changelogsection').html(changelogsection(result.data));
                 $('.single-changelog-post .authersection').html(authersection(result.data));
                 document.title = result.data.name
-                var linkElement = $('<link>', {
-                    rel: 'canonical',
-                    id: 'canonicalLink',
-                    href: ''
-                });
-    
-                // Append the link element to the head
-                $('head').append(linkElement);
+                generateCanonicalLink()
                 pagePush(mddocument);
                 resetProcess();
             } else {
