@@ -505,7 +505,11 @@ function pageLoad(mddocument, sdkMarkArray) {
                         protectedDocumentLoad('mdcontainer', result, documentmainpage);
                     }
                 }
-                generateCanonicalLink();
+                // Check if the link element with id 'canonicalLink' exists
+                if (!document.getElementById('canonicalLink')) {
+                    generateCanonicalLink()
+                }
+
                 pagePush(mddocument);
                 if (result.status == 'success' && result.format == 'json')
                     computeSDKTable();
@@ -1671,7 +1675,9 @@ function changelogPageLoad(mddocument) {
                 $('.single-changelog-post .changelogsection').html(changelogsection(result.data));
                 $('.single-changelog-post .authersection').html(authersection(result.data));
                 document.title = result.data.name
-                generateCanonicalLink()
+                if (!document.getElementById('canonicalLink')) {
+                    generateCanonicalLink()
+                }
                 pagePush(mddocument);
                 resetProcess();
             } else {
