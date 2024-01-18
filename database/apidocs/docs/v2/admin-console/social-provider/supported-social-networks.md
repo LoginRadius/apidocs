@@ -5,27 +5,19 @@ LoginRadius supports social ID providers from all around the world. Below is a l
 |     Social Network    |         Reach        |         Industry Type         |
 |:----------------------:|:--------------------:|:-----------------------------:|
 |      [Amazon][17]      |     North America    |           E-Commerce          |
-|      [Disqus][47]      |        Global        |      Commenting platform      |
 |     [Facebook][19]     |        Global        |       Social networking       |
 |      [GitHub][20]      |        Global        |         Social coding         |
 |      [Google][21]      |        Global        |      All Google services      |
 |    [Foursquare][22]    |     North America    | Location based social network |
 |     [LinkedIn][24]     |        Global        |    Professional networking    |
-|      [Mail.ru][50]     |        Russia        |       Social networking       |
 | [MSN/Live/Hotmail][26] |        Global        |     All Microsoft services    |
-|       [LINE][51]       |         Asia         |       Instant messaging       |
-|   [Odnoklassniki][29]  |        Russia        |       Social networking       |
-|     [Pinterest][33]    |        Global        |       Social networking       |
 |        [QQ][34]        |         China        |       Instant messaging       |
 |      [PayPal][36]      |        Global        |            Payments           |
 |    [Salesforce][37]    |        Global        |              CRM              |
 |    [Sina Weibo][48]    |         China        |       Blogging platform       |
 |      [Twitter][40]     |        Global        |         Microblogging         |
-|     [VKontakte][43]    |        Russia        |       Social networking       |
-|     [WordPress][44]    |        Global        |            Blogging           |
 |      [Yahoo!][45]      |        Global        |      All Yahoo! services      |
 |      [Apple][46]       |        Global        |      All Apple services       |
-|      [Wechat][52]      |         China        |       Instant messaging       |
 
 If the social ID provider you are looking for is not on this list, please [contact support](https://support.loginradius.com/hc/en-us/requests/new) and we'll be happy to help!
 
@@ -36,20 +28,12 @@ If the social ID provider you are looking for is not on this list, please [conta
 [21]: https://www.google.com
 [22]: https://foursquare.com/
 [24]: https://www.linkedin.com/
-[26]: http://www.msn.com/
-[29]: http://www.odnoklassniki.ru/
-[33]: https://www.pinterest.com/
+[26]: https://apps.dev.microsoft.com/
 [34]: http://www.qq.com/
 [36]: https://www.paypal.com/
 [37]: https://login.salesforce.com/
 [40]: https://twitter.com/
-[43]: http://vk.com/
-[44]: https://wordpress.com/
 [45]: https://ca.yahoo.com
 [46]: https://www.apple.com/
-[47]: https://disqus.com
 [48]: http://www.weibo.com
-[50]: https://mail.ru/
-[51]: http://line.me
-[52]: https://www.wechat.com/ 
 
