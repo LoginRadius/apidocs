@@ -45,6 +45,14 @@ if (!defined('ROOT_PATH')) {
         </div>
     </div>
 
+    <!-- <div class="ToggleNightModecontainer">
+        <label class="switch">
+            <input type="checkbox" id="nightModeToggle">
+            <span class="slider round"></span>
+        </label>
+    </div> -->
+
+
     <script type="text/javascript">
 (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
 ;r.type="text/javascript"
@@ -78,5 +86,4 @@ var ampAPIKey = "89d02d04126f3fba6a3a11c0145f9eaa";
 amplitude.getInstance().init(ampAPIKey);
 amplitude.getInstance().logEvent(window.location.pathname); 
 </script>
-
 </footer>

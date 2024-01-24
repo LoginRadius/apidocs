@@ -50,7 +50,9 @@
 }
 
 .products li a:hover {
-  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 7px 25px 0 rgba(0, 0, 0, 0.15);
+  box-shadow:
+    0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 7px 25px 0 rgba(0, 0, 0, 0.15);
 }
 
 .products li a h3 {
@@ -89,7 +91,9 @@
 }
 
 #support:hover {
-  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 7px 25px 0 rgba(0, 0, 0, 0.15);
+  box-shadow:
+    0 1px 5px 0 rgba(0, 0, 0, 0.12),
+    0 7px 25px 0 rgba(0, 0, 0, 0.15);
 }
 
 #support h3 {
@@ -572,6 +576,7 @@
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5);
     left: 0;
   }
@@ -585,6 +590,7 @@
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
+    transform: rotate(-45deg);
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     left: 0;
   }
@@ -667,7 +673,8 @@
 @font-face {
   font-family: "icomoon";
   src: url("icon-fonts/icomoon.eot?eo0bfh");
-  src: url("icon-fonts/icomoon.eot?eo0bfh#iefix") format("embedded-opentype"),
+  src:
+    url("icon-fonts/icomoon.eot?eo0bfh#iefix") format("embedded-opentype"),
     url("icon-fonts/icomoon.ttf?eo0bfh") format("truetype"),
     url("icon-fonts/icomoon.woff?eo0bfh") format("woff"),
     url("icon-fonts/icomoon.svg?eo0bfh#icomoon") format("svg");
@@ -686,6 +693,7 @@
   text-transform: none;
   line-height: 1;
   font-size: 36px;
+
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
