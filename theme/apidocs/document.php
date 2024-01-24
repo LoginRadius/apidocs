@@ -6,9 +6,6 @@ require_once 'includes/header.php';
 ?>
 
 
-
-
-
 <div class="split-panels">
     <div id="panel1" class="md-sidebar md-sidebar--primary md-sidebar-width" data-md-component="navigation">
         <div class="md-sidebar__scrollwrap">

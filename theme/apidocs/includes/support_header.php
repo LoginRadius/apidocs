@@ -73,6 +73,93 @@ $hooks->do_action('init');
     pre {
       font-family: "Barlow", "Courier New", Courier, monospace
     }
+
+    /* nightmode css */
+
+    .ToggleNightModecontainer {
+      display: flex;
+      align-items: center;
+      margin-right: 12px;
+    }
+
+    @media screen and (max-width: 1020px) {
+      .ToggleNightModecontainer {
+        margin-right: 0;
+      }
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 40px;
+      height: 22px;
+    }
+
+    .switch input {
+      display: none;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #fff;
+      -webkit-transition: .3s;
+      transition: .3s;
+      border-radius: 34px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 18px;
+      width: 18px;
+      left: 2px;
+      bottom: 2px;
+      background-color: white;
+      -webkit-transition: .3s;
+      transition: .3s;
+      border-radius: 50%;
+    }
+
+    input:checked+.slider {
+      background-color: #fff;
+    }
+
+    input:focus+.slider {
+      box-shadow: 0 0 1px #3C4043;
+    }
+
+    .slider:before {
+      background-color: #000000;
+    }
+
+    input:checked+.slider:before {
+      -webkit-transform: translateX(18px);
+      -ms-transform: translateX(18px);
+      transform: translateX(18px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+      border-radius: 34px;
+    }
+
+    .slider.round:before {
+      border-radius: 50%;
+    }
+
+    /* Dark Mode label styling */
+
+    label[for="nightModeToggle"] {
+      font-family: 'Barlow', Helvetica, Arial, sans-serif;
+      margin-right: 8px;
+      font-size: 16px;
+      /* Adjust the spacing as needed */
+    }
   </style>
   <?php
   docs_enqueue_style(THEME_URL . "assets/stylesheets/mega-menu.css");
@@ -91,7 +178,8 @@ $hooks->do_action('init');
       <div class="bar">
         <div class="md-flex">
 
- <div class='md-flex-button' onClick='hideNavBar()' role="Button"> </div>          <div class="logo">
+          <div class='md-flex-button' onClick='hideNavBar()' role="Button"> </div>
+          <div class="logo">
             <a href="<?php echo SUPPORT_DOCS_URL; ?>" title="LoginRadius" class=" md-icon md-header-nav__button" style="padding: 0;">
 
               <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1673.98 243.64">
@@ -177,6 +265,10 @@ $hooks->do_action('init');
               </a>
           </div>
 
+          </br>
+
+
+
           <div class="mobile_side_menu">
             <a tabindex="0" id="mobile_side_menu">
               <img src="<?php echo THEME_URL; ?>assets/images/menu-icon.svg" width="4px" alt="menu-icon">
@@ -203,7 +295,14 @@ $hooks->do_action('init');
 
 
           <div class="custom-algolia-search" style="display: inline-flex;">
-
+            <div class="ToggleNightModecontainer">
+              <label for="nightModeToggle">Dark Mode</label>
+              </breadCrumbRedirect>
+              <label class="switch">
+                <input type="checkbox" id="nightModeToggle">
+                <span class="slider round"></span>
+              </label>
+            </div>
 
 
 
@@ -222,7 +321,7 @@ $hooks->do_action('init');
       <div class="slideouts">
         <div id="home" class="sections-4 without-paragraphs slideUpInst">
           <div class="developers-image">
-            <img src="<?php echo THEME_URL; ?>assets/images/menu-home.svg" alt="Home Icon" />
+            <img src="<?php echo THEME_URL; ?>assets/images/menu-home.svg" alt="" />
           </div>
           <div>
             <a href="<?php echo SUPPORT_DOCS_URL . 'authentication/overview/' ?>">
@@ -276,19 +375,20 @@ $hooks->do_action('init');
 
         <div id="api-reference" class="sections-4 without-paragraphs slideUpInst">
           <div class="developers-image">
-            <img src="<?php echo THEME_URL; ?>assets/images/apireference-menu.svg" alt="API Preference" />
+            <img src="<?php echo THEME_URL; ?>assets/images/apireference-menu.svg" alt="" />
           </div>
           <div>
             <a href="<?php echo API_DOCS_URL . '/v2/getting-started/introduction/' ?>">
               <h1>Getting Started</h1>
               <p>
-              Introduction of various implementation methodologies, authentication workflows, security best practices, data migration, and acceptable use policy
+                Introduction of various implementation methodologies,authenticatin work flows,security best practices,data migration and acceptable use policy
               </p>
             </a>
             <a href="<?php echo API_DOCS_URL . '/v2/admin-console/overview/' ?>">
               <h1>Admin Console</h1>
               <p>
-              Explains the configuration required for implementing various features, details about the team, and profile management
+                Explains the configuration required for implementing various
+                features,details about team and profile management
               </p>
             </a>
             <a href="<?php echo API_DOCS_URL . '/v2/single-sign-on/overview/' ?>">
@@ -308,7 +408,8 @@ $hooks->do_action('init');
             <a href="<?php echo API_DOCS_URL . '/v2/cloud-directory-api/overview/' ?>">
               <h1>Cloud Directory API</h1>
               <p>
-              Using Cloud directory APIs, you can retrieve your entire user database records and generate an aggregate view
+                Using Cloud directory APIs you can retrieve your entire user
+                database records and generate an aggregate view
               </p>
             </a>
             <a href="<?php echo API_DOCS_URL . '/v2/integrations/overview/' ?>">
@@ -338,7 +439,7 @@ $hooks->do_action('init');
 
         <div id="libraries" class="sections-4 without-paragraphs slideUpInst">
           <div class="developers-image">
-            <img src="<?php echo THEME_URL; ?>assets/images/menu-libraries.svg" alt="Library Icon" />
+            <img src="<?php echo THEME_URL; ?>assets/images/menu-libraries.svg" alt="" />
           </div>
           <div>
             <a href="<?php echo SUPPORT_DOCS_URL . 'libraries/js-libraries/getting-started/' ?>">
@@ -398,16 +499,16 @@ $hooks->do_action('init');
   <div class="md-container">
     <main class="md-main">
       <div class="md-main__inner md-grid esp_md-grid" data-md-component="container">
-      
+
         <script>
           var docsPath = window.location.origin + '/docs/'
           // console.log("docPath::" + docsPath);
           var baseUrl = "<?php echo SUPPORT_DOCS_URL; ?>";
           // console.log("baseUrl::" + baseUrl);
 
-          function addBreadCrumb(currentUrl, isMenu,isSeoDescription) {
-            if(isSeoDescription){
-               generateSeoDescription(currentUrl)
+          function addBreadCrumb(currentUrl, isMenu, isSeoDescription) {
+            if (isSeoDescription) {
+              generateSeoDescription(currentUrl)
             }
             $('.bread-crumb').empty()
             var jsonHandler = <?php echo json_encode($sections); ?>;
@@ -494,7 +595,7 @@ $hooks->do_action('init');
           function breadCrumbRedirect(url) {
             var redirectUrl = baseUrl + url;
             // console.log("redireurl::"+ redirectUrl);
-            addBreadCrumb(url, true,true);
+            addBreadCrumb(url, true, true);
             pageLoad(redirectUrl);
 
           }
@@ -504,7 +605,7 @@ $hooks->do_action('init');
             var currentUrl = window.location.href.split(baseUrl);
             // console.log("BASEURL::"+baseUrl);
 
-            addBreadCrumb(currentUrl[1], true,false);
+            addBreadCrumb(currentUrl[1], true, false);
             // generateTag(currentUrl[1]);
           });
 
