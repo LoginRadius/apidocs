@@ -49,7 +49,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Clearcheck.Io</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/esr-chek_124498189665967cc2db7f17.59075261.png" />
+                    <img src="https://apidocs.lrcontent.com/images/ESRCheck_51053582565aa7459ca5764.39470101.png" />
                     <span class="caption"><a target="_blank" href=""></a>ESR Check</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -383,7 +383,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Salesforce Desk</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/salesforce_13178000086595d83e839a78.95409774.png" />
+                    <img src="https://apidocs.lrcontent.com/images/SalesforceDmp_209885228265aa7530becfb6.36891372.png" />
                     <span class="caption"><a target="_blank" href=""></a>Salesforce DMP</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -577,7 +577,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Experian</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/facephi_89562178465968689a36c36.37150081.png" />
+                    <img src="https://apidocs.lrcontent.com/images/facephi_58883703465aa5cf1dc4e36.95571695.png" />
                     <span class="caption"><a target="_blank" href=""></a>Face Phi</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -601,11 +601,11 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Idenfy</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/ID-Me_11501414456595e5b7532d47.39311056.png" />
+                    <img src="https://apidocs.lrcontent.com/images/IDme_209212551265aa6cfc69e2d7.60839501.png" />
                     <span class="caption"><a target="_blank" href=""></a>ID.Me</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/idnow_1440930970659687765dead4.20180480.png" />
+                    <img src="https://apidocs.lrcontent.com/images/ID_85713086965aa73e9d71344.18472121.png" />
                     <span class="caption"><a target="_blank" href=""></a>ID Now</span>
                 </td>
                 <td class="s1" dir="ltr">
