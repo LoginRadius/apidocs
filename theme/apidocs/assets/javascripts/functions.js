@@ -429,8 +429,6 @@ function pagePush(url) {
         urlHashValue = '#' + window.location.hash.substr(1);
     }
     window.history.pushState("object or string", "Title", url.replace(rootURL + docPath, rootURL) + urlHashValue);
-    var canonicalUrl = window.location.href
-    $("#canonicalLink").attr("href", canonicalUrl)
     setTimeout(function () {
         jQuery('table').wrap("<div class='lr-docs-table'></div>");
         if (jQuery(window).width() < 865) {
@@ -505,11 +503,6 @@ function pageLoad(mddocument, sdkMarkArray) {
                         protectedDocumentLoad('mdcontainer', result, documentmainpage);
                     }
                 }
-                // Check if the link element with id 'canonicalLink' exists
-                if (!document.getElementById('canonicalLink')) {
-                    generateCanonicalLink()
-                }
-
                 pagePush(mddocument);
                 if (result.status == 'success' && result.format == 'json')
                     computeSDKTable();
@@ -530,17 +523,6 @@ function pageLoad(mddocument, sdkMarkArray) {
     $('.feedback-button').removeClass("active");
 
 
-}
-
-function generateCanonicalLink() {
-    var linkElement = $('<link>', {
-        rel: 'canonical',
-        id: 'canonicalLink',
-        href: ''
-    });
-
-    // Append the link element to the head
-    $('head').append(linkElement);
 }
 
 function documentmainpage(data) {
@@ -1026,7 +1008,7 @@ function apimainpage(apiObject) {
     if (('Authorization*' in apiObject.headers) || ('Authorization' in apiObject.headers) || ('token*' in apiObject.getparams) || ('access_token*' in apiObject.getparams)) {
         access_token_button = '<button onclick="access_token_popup()" class="gettokenbutton' + rightClass + '">Get Access Token</button>';
     }
-    if ((('apikey*' in apiObject.getparams) || ('apikey' in apiObject.getparams) || ('key*' in apiObject.getparams) || ('key' in apiObject.getparams)) && (apikey == '' || secret == '')) {
+    if ((('apikey*' in apiObject.getparams) || ('apikey' in apiObject.getparams)) && (apikey == '' || secret == '')) {
         a_button += '<button onclick="api_access_token_popup()" class="gettokenbutton' + rightClass + '">ENTER</button>';
     }
 
@@ -1675,9 +1657,6 @@ function changelogPageLoad(mddocument) {
                 $('.single-changelog-post .changelogsection').html(changelogsection(result.data));
                 $('.single-changelog-post .authersection').html(authersection(result.data));
                 document.title = result.data.name
-                if (!document.getElementById('canonicalLink')) {
-                    generateCanonicalLink()
-                }
                 pagePush(mddocument);
                 resetProcess();
             } else {
@@ -2329,3 +2308,15 @@ function capitalize(str) {
 
     return wordsTobeCaps;
 }
+
+
+        function toggleNightMode() {
+            var nightModeBtn = document.getElementById('night-mode-btn');
+            var body = document.getElementsByTagName('body')[0];
+            
+            nightModeBtn.addEventListener('click', function () {
+                body.classList.toggle('night-mode');
+            });
+        }
+
+        // Call the function to initialize the night mode toggle toggleNightMode();
