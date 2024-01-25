@@ -101,17 +101,19 @@ The following screen appears:
 
 ![enter image description here](https://apidocs.lrcontent.com/images/Consent-Center---LoginRadius-User-Dashboard-3-1_96515ea171e6156762.24046796.png "")
 
-**Step 3:** Choose the available Consent Options, Events, and Start Date as per your requirement while creating the form. 
+**Step 3:** Choose the available Consent Options, Events, and Start Date as per your requirement while creating the form.
+
+> **Note:** You can configure the consent management form for independent events such as **Register, First Login and Login**.
 
 The following screen displays Consent Options, Events, and Start Date:
 
-![enter image description here](https://apidocs.lrcontent.com/images/Consent-Center---LoginRadius-User-Dashboard-4-1_157075ea172dd6c7c58.23558873.png "")
+![enter image description here](https://apidocs.lrcontent.com/images/Consent-1_120957421165b28de23af9a3.05750314.png "")
 
 **Step 4:** Now, click on the Publish Form button to publish the form on your web application.
 
 The following screen displays Consent form ready to publish:
 
-![enter image description here](https://apidocs.lrcontent.com/images/Consent-Center---LoginRadius-User-Dashboard-5-1_239525ea174812c6c41.26169019.png "")
+![enter image description here](https://apidocs.lrcontent.com/images/Consent-2_175584353565b28ec9379b09.05123808.png "")
 
 **Step 5:** You can view all your published forms under the Published Form section by clicking the View button.
 
@@ -148,14 +150,14 @@ The following screen displays how to clone the created form:
 - Click on the **Add New Form** button to create the consent form.
 
 - To add a custom event click on **Add New** button under **Choose Events** and **Start Date**. 
-<br><br>![enter image description here](https://apidocs.lrcontent.com/images/Consent-Center---LoginRadius-User-Dashboard-15-1_301705ea6733fb3b4e7.82585712.png "")
+<br><br>![enter image description here](https://apidocs.lrcontent.com/images/Consent-3_185364430465b28f5c46d3f8.60099751.png "")
 
 - Add the **Event Name** as per your requirement and click on the **Save** button.
-<br><br>![![enter image description here](https://apidocs.lrcontent.com/images/unnamed-8_224755ea676dfd54158.89562326.png "enter image title here")](https://apidocs.lrcontent.com/images/unnamed-8_177765ea676df2c34f3.51367690.png "Custom Event")
+<br><br>![Event name](https://apidocs.lrcontent.com/images/Consent-4_109733081865b28feda29025.03652361.png "Event name")
 
 - The new custom event will appear under **Custom Events**, check the custom event to add in the consent form. 
 <br><br>The following screen displays how to select custom event:
-<br><br>![enter image description here](https://apidocs.lrcontent.com/images/Consent-Center---LoginRadius-User-Dashboard-17-1_222025ea6766ef3f073.99701900.png "")
+<br><br>![enter image description here](https://apidocs.lrcontent.com/images/Consent-5_97757548565b29035396556.47260733.png "")
 
 ## Part 4 -Deployment
 
