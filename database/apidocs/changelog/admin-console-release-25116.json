@@ -1,0 +1,13 @@
+{ "name": "Admin Console Release 25.11.6",
+    "description": "The following release of the LoginRadius Admin Console brings you an improvement. See below for details on the notable change that has been applied to the Admin Console.",
+    "changelog": {
+        "IMPROVED": [
+            {
+                "text": "You now have the ability to configure the <strong>First Login</strong> event and the <strong>Login</strong> event separately in the <a href='https://adminconsole.loginradius.com/data-governance/trust-center/consent-center/consent-management' target='_blank'>Consent Management</a> forms."
+            }
+        ]
+    },
+    "auther": "Michelle Rathod",
+    "created_date": "2024-01-25",
+    "status": "public"
+}

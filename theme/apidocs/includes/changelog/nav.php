@@ -11,13 +11,13 @@ if (!defined('ROOT_PATH')) {
     </label>
     <ul id="changelogcontainer" class="md-nav__list changelogcontainer" data-md-scrollfix="">
         <li class="md-nav__item md-nav__item--nested">
-            <label class="md-nav__link">RECENT POSTS</label>
+            <label class="md-nav__link">Recent Posts</label>
             <ul class="md-nav__list" data-md-scrollfix="">
                 <?php echo recentPosts($sideMenus, 1); ?>
             </ul>
         </li>
         <li class="md-nav__item md-nav__item--nested">
-            <label class="md-nav__link">ARCHIVE</label>
+            <label class="md-nav__link">Archive</label>
             <ul class="md-nav__list" data-md-scrollfix="">
                 <?php echo archivePosts($sideMenus); ?>
             </ul>
@@ -27,7 +27,8 @@ if (!defined('ROOT_PATH')) {
 
 <?php
 
-function archivePosts($result) {
+function archivePosts($result)
+{
     $html = '';
     $array = array();
     foreach ($result as $key => $value) {
@@ -42,15 +43,16 @@ function archivePosts($result) {
         }
         $html .= '<li class="md-nav__item">';
         $temp = explode('/', $val);
-        $year = isset($temp[0])?$temp[0]:'';
-        $month = isset($temp[1])?$temp[1]:'';
-        $html .= '<a href="' . API_CHANGELOG_URL .'/'. $val . '" class="md-nav__link' . $class . '">' . $month .' '. $year . ' ('.$k.')</a>';
+        $year = isset($temp[0]) ? $temp[0] : '';
+        $month = isset($temp[1]) ? $temp[1] : '';
+        $html .= '<a href="' . API_CHANGELOG_URL . '/' . $val . '" class="md-nav__link' . $class . '">' . $month . ' ' . $year . ' (' . $k . ')</a>';
         $html .= '</li>';
     }
     return $html;
 }
 
-function recentPosts($result, $count) {
+function recentPosts($result, $count)
+{
     $html = '';
     foreach ($result as $key => $value) {
         $count++;
@@ -63,7 +65,7 @@ function recentPosts($result, $count) {
                 $class = ' method-' . $value['type'];
             }
             $html .= '<li class="md-nav__item">';
-            $html .= '<a href="' . API_CHANGELOG_URL .'/'. $value['url'] . '" class="md-nav__link' . $class . '">' . $value['title'] . '</a>';
+            $html .= '<a href="' . API_CHANGELOG_URL . '/' . $value['url'] . '" class="md-nav__link' . $class . '">' . $value['title'] . '</a>';
             $html .= '</li>';
         }
     }
