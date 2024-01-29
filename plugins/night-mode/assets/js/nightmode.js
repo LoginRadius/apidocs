@@ -13,7 +13,7 @@ nightModeToggle.addEventListener("change", () => {
     Array.from(document.getElementsByTagName("img")).forEach(function (img) {
       img.setAttribute(
         "src",
-        img.getAttribute("src").replace("/images/", "/images-dark/")
+        img.getAttribute("src").replace("/assets/images/", "/assets/images-dark/")
       );
     });
   } else {
@@ -22,7 +22,7 @@ nightModeToggle.addEventListener("change", () => {
     Array.from(document.getElementsByTagName("img")).forEach(function (img) {
       img.setAttribute(
         "src",
-        img.getAttribute("src").replace("/images-dark/", "/images/")
+        img.getAttribute("src").replace("/assets/images-dark/", "/assets/images/")
       );
     });
   }
@@ -33,7 +33,7 @@ if (isNightMode) {
   Array.from(document.getElementsByTagName("img")).forEach(function (img) {
     img.setAttribute(
       "src",
-      img.getAttribute("src").replace("/images/", "/images-dark/")
+      img.getAttribute("src").replace("/assets/images/", "/assets/images-dark/")
     );
   });
 } else {
@@ -42,7 +42,7 @@ if (isNightMode) {
   Array.from(document.getElementsByTagName("img")).forEach(function (img) {
     img.setAttribute(
       "src",
-      img.getAttribute("src").replace("/images-dark/", "/images/")
+      img.getAttribute("src").replace("/assets/images-dark/", "/assets/images/")
     );
   });
 }

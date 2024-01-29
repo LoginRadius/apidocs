@@ -523,6 +523,12 @@ pre {
   background-size: 6px;
   aspect-ratio: 1/1;
 }
+.md-typeset ul.api li::before {
+  display: none;
+}
+.md-typeset ul.code_popup_view_box_body_language_option_open-menu li:before {
+  display: none;
+}
 .md-typeset ol li:before,
 .md-typeset ul ol li:before {
   top: 1px;
@@ -635,6 +641,9 @@ pre {
 }
 ul.code_popup_view_box_body_language_option_open-menu li:before {
   content: "";
+}
+ul.code_popup_view_box_body_language_option_open-menu li ul {
+  width: calc(100% - 172px);
 }
 pre * {
   font-family: monospace, monospace !important;
@@ -3839,6 +3848,7 @@ button.inputRow {
   gap: 8px;
   border: 1px solid #efefef;
   padding: 12px 16px;
+  border-radius: 8px 8px 0 0;
 }
 .single-changelog-post .changelogsection .changelog-list .list-blocks .changes .title {
   text-transform: capitalize;
@@ -3848,6 +3858,9 @@ button.inputRow {
 .single-changelog-post .changelogsection .changelog-list .updates p {
   padding: 12px 16px;
   margin: 0;
+}
+.single-changelog-post .changelogsection .changelog-list .updates:last-child {
+  border-radius: 0 0 8px 8px;
 }
 .single-changelog-post .changelogsection .updates {
   border: 1px solid #efefef;
@@ -6014,7 +6027,7 @@ img.icon-svg {
   padding: 0.375rem 0.75rem;
   border-radius: 0.5rem;
 }
-.rssdiv .lr-docs-table table tr td a img {
+.lr-docs-table table tr td a img {
   aspect-ratio: 3/2;
   object-fit: contain;
   max-height: 96px;
