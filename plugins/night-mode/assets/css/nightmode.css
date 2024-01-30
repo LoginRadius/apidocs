@@ -347,6 +347,16 @@ body.dark .protactedOver .protactedText {
   background-color: #303134;
   color: #e8eaed;
 }
+
+body.dark .logininterface {
+  background-color: #303134;
+  color: #e8eaed;
+}
+
+body.dark .logininterface input {
+  background-color: #202124;
+}
+
 body.dark .protactedOver .protactedText .protacted-password,
 body.dark .protactedOver .protactedText .protacted-user-name {
   background-color: #202124;
