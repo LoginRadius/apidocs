@@ -1,0 +1,18 @@
+{
+    "name": "Core API Release 36.4.1",
+    "description": "We have rolled out another version of the Core APIs, which brings you with a new feature.",
+    "changelog":
+   {
+    "ADDED": 
+    [
+        
+        {
+            "text": "We've implemented a new QR code generation API, which replaces Google Chart APIs and now generates QR codes for the Authenticator app in the Multi-Factor Authentication (MFA) process."
+        }
+    
+    ]
+    },
+    "auther": "Michelle Rathod",
+    "created_date": "2024-01-30",
+    "status": "public"
+  }
