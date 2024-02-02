@@ -20,7 +20,7 @@ With **Email Passcode Workflow**, the consumer receives a verification code on t
 With **Security Questions Workflow**, the consumer needs to set up a security question/answer at the time of registration or at first login and use that answer as 2FA to login to the website. For more details regarding the implementation, please click [here](/api/v2/customer-identity-api/multi-factor-authentication/Security-Question-Authenticator/overview/).
 
 **Flow Diagram:**
-![Generalized MFA Workflow](https://apidocs.lrcontent.com/images/Generalized-MFA-Workflow_294536103026e0c0267.96536517.png "Generalized MFA Workflow")
+![Generalized MFA Workflow](https://apidocs.lrcontent.com/images/Generalized-MFA-Workflow_294536103026e0c0267-96536517-1_24381636665bc93731bc061.74767903.png "Generalized MFA Workflow")
 
 > **Note:** The MFA feature will only work with the [Mandatory Email Verification ](/platform-features-overview/registration-services/email-workflow#email-verification)flow. It will not work with the [Optional Email Verification](/platform-features-overview/registration-services/email-workflow#email-verification) flow or No Verification Email flow.
 

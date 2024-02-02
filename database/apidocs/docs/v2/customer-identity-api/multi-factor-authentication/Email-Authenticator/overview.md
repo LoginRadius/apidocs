@@ -8,7 +8,7 @@
 In the email authenticator flow, consumers get the OTP on their registered email in profile to be consumed at the time of the 2nd step of MFA.
 
 **Flow Diagram:**
-![MFA by Email Authenticator](https://apidocs.lrcontent.com/images/MFA-by-Email-Authenticator_2866361030400ce4af0.34137175.png "MFA by Email Authenticator")
+![MFA by Email Authenticator](https://apidocs.lrcontent.com/images/MFA-by-Email-Authenticator_2866361030400ce4af0-34137175-1_73834598565bc955c577406.32353697.png "MFA by Email Authenticator")
 
 ### Email MFA configuration via Admin Console
 

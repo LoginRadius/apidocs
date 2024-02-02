@@ -22,7 +22,7 @@ Client Credential grant (M2M) flow is used when the app is also the resource own
 
 The following flow diagram illustrates the client credentials flow(M2M) with LoginRadius serving as the authorization server
 
-![M2M Flow Diagram](https://apidocs.lrcontent.com/images/M2M-Flow-Diagram_82926143bbb7f31508.14281419.png "M2M Flow Diagram")
+![M2M Flow Diagram](https://apidocs.lrcontent.com/images/M2M-Flow-Diagram_82926143bbb7f31508-14281419-1_143363650865bc9643660ea2.61774621.png "M2M Flow Diagram")
 
 In the client credentials grant, the client server holds two pieces of information: the **client ID** and the **client secret**. With this information, the client server can request an access token for a protected resource.
 

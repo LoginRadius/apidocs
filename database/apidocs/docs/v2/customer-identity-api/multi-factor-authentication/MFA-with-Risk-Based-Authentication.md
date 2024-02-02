@@ -31,7 +31,7 @@ To understand this, let's see the working of **RBA with Multi Factor authenticat
 
 This flow diagram shows the working of Risk Based Authentication workflow with MFA in a most simplified manner. 
 
-![RBA flow chart](https://apidocs.lrcontent.com/images/RBA-flow_251666102616289b879.97744838.png "RBA with MFA")
+![RBA flow chart](https://apidocs.lrcontent.com/images/RBA-flow_251666102616289b879-97744838-1_148520117965bc93fd7a9eb5.38377724.png "RBA with MFA")
 
 
 # RBA Configuration with MFA via Admin Console

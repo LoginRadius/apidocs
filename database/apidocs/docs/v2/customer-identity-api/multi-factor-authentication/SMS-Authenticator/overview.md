@@ -5,7 +5,7 @@
 In the SMS Passcode flow, consumers get the OTP on their phone number to be consumed at the time of the 2nd step of MFA.
 
 **Flow Diagram:**
-![MFA by SMS Passcode](https://apidocs.lrcontent.com/images/MFA-by-SMS-Passcode_802610302d15010e9.85108984.png "MFA by SMS Passcode")
+![MFA by SMS Passcode](https://apidocs.lrcontent.com/images/MFA-by-SMS-Passcode_802610302d15010e9-85108984-1_189197801965bc94f7aadd12.74528411.png "MFA by SMS Passcode")
 
 To implement the SMS Passcode workflow, you will need to take the following steps:
 

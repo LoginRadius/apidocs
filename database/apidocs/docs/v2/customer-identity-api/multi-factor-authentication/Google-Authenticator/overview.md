@@ -5,7 +5,7 @@
 In the Google Authenticator flow, consumers get an Authenticator Code via the Google Authenticator App installed on their mobile device to be consumed at the time of the 2nd step of MFA.
 
 **Flow Diagram:**
-![MFA by Google Authenticator](https://apidocs.lrcontent.com/images/MFA-by-Google-Authenticator_3623610303aa257c65.98020955.png "MFA by Google Authenticator")
+![MFA by Google Authenticator](https://apidocs.lrcontent.com/images/MFA-by-Google-Authenticator_3623610303aa257c65-98020955-1_162447349665bc94878b9746.47059407.png "MFA by Google Authenticator")
 
 To implement the Google Authenticator workflow, take the following steps:
 
