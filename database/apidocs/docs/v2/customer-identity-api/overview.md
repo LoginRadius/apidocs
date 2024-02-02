@@ -45,7 +45,7 @@ UserName is a secure login option for the Traditional Login flows, which is simi
 
 ##### UserName Login Flow
 
-![Username Flow chart](https://apidocs.lrcontent.com/images/Username-flow-3_148616109b07c5f8554.95150622.png "Flow chart")
+![Username Flow chart](https://apidocs.lrcontent.com/images/Username-flow-3_148616109b07c5f8554-95150622-1_183324833965bc927db83e35.54461446.png "Flow chart")
 
 #####Restrictions on UserName
 A UserName should be unique and is treated as an identity in the LoginRadius cloudstorage, therefore, no two UserNames can be alike. By default the UserName is always saved in lowercase characters, for example: If the UserName is "Jon147" during registration it will save as "jon147" in LoginRadius. This is a customizable option and can be configured when initializing your interfaces to support different character sets.
