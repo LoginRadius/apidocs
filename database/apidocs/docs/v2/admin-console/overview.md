@@ -54,3 +54,17 @@ This section helps LoginRadius account administrators manage various team member
 ## Billing
 
 This section provides details on past subscriptions and invoices that have been generated for your LoginRadius Account.
+
+### Subscription Details
+
+Check your LoginRadius subscription details, review billing information, and update your payment method under this section. If you need assistance with billing, reach out to our [Support Team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
+
+![Subscription Details](https://apidocs.lrcontent.com/images/Subscription_111318903965bd2149204666.04580936.png "Subscription Details")
+
+### Invoices
+
+Review your LoginRadius invoices on this page.
+
+![Invoice](https://apidocs.lrcontent.com/images/Invoice_51180233665bd21bb0bf0c8.31118607.png "Invoice")
+
+
