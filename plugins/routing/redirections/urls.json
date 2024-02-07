@@ -7436,6 +7436,10 @@
 {
   "oldLink": "api/v2/announcements/cli",
   "newLink": "libraries/command-line-interface/cli/"
+},
+{
+  "oldLink": "api/v2/docs/php",
+  "newLink": "libraries/sdk-libraries/php-library/"
 }
 ]
 
