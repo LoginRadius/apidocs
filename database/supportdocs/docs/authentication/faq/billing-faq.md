@@ -25,7 +25,7 @@ Our system automatically generates and sends them to the primary email address o
 
 
 
-We accept credit card payments from all major credit cards. Wire/bank transfer payments can be arranged as well, please contact our [Support Team](https://support.loginradius.com/hc/en-us/requests/new) for the necessary details.
+We accept credit card payments from all major credit cards. Wire/bank transfer payments can be arranged as well, please contact our [Support Team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) for the necessary details.
 
 Please note that customers are responsible for any necessary taxes and bank fees related to the payment.
 
@@ -35,11 +35,13 @@ All of our pricing is in US dollars. If paying via credit card, your credit card
 
 ## How do I cancel my subscription?
 
-The cancellation terms are as outlined in your LoginRadius contract. If you are nearing the end of your contract term and wish to cancel, please contact our [Support Team](https://support.loginradius.com/hc/en-us/requests/new) for further details.
+The cancellation terms are as outlined in your LoginRadius contract. If you are nearing the end of your contract term and wish to cancel, please contact our [Support Team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) for further details.
 
 ## How do I edit my credit card details?
 
-Once logged in into your LoginRadius account, click on the avatar icon on the top right corner, and select **Billing**. Once redirected to the billing page, you will see the **Change Billing Info** button next to your subscribed plan. If this is not showing up on your site, please reach out to LoginRadius support for further assistance.
+To edit your credit card details, you can navigate to the [Account > Billing > Subscription Details](https://adminconsole.loginradius.com/account/billing/subscription-details) section of the Admin Console and click on the **Update** button to make the necessary changes. If this is not showing up on your site, please reach out to LoginRadius [Support Team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) for further assistance.
+
+![Billing Info Update](https://apidocs.lrcontent.com/images/cc_147110029965bd1fec0f3dc4.67854665.png "Billing Info Update")
 
 ## Why am I charged if I’m not using any of the LoginRadius services?
 
@@ -49,4 +51,4 @@ Your LoginRadius subscription is automatically renewed past the contracted term 
 
 ## I can’t find the answer for my billing question. How do I contact you?
 
-For any further billing related inquiries, please contact our [Support Team](https://support.loginradius.com/hc/en-us/requests/new) and we will be happy to assist.
+For any further billing related inquiries, please contact our [Support Team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) and we will be happy to assist.

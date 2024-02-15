@@ -219,7 +219,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Freshdesk</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/freshsales_4363934466596816f70b983.79975240.png" />
+                    <img src="https://apidocs.lrcontent.com/images/freshsales-2_55285699765bc81d23a63e8.37904678.png" />
                     <span class="caption"><a target="_blank" href=""></a>Freshsales</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -227,7 +227,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Google Analytics</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/google-marketing-platform_8233859365968286a552c1.13536612.png" />
+                    <img src="https://apidocs.lrcontent.com/images/google-marketing-platform-1_34026420265bc823c4ea532.09913558.png" />
                     <span class="caption"><a target="_blank" href=""></a>Google Marketing Platform</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -259,7 +259,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Infusion Soft</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/intercom_22973949965968e3ddb6227.49500975.png" />
+                    <img src="https://apidocs.lrcontent.com/images/Intercom_785035956595de070e62a3.21993895.png" />
                     <span class="caption"><a target="_blank" href=""></a>Intercom</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -379,7 +379,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Salesforce CRM</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/Sales-force-Desk_1758681547659684408fb275.71378259.png" />
+                    <img src="https://apidocs.lrcontent.com/images/Sales-force-Desk-1_27945983665bc828745c910.29198664.png" />
                     <span class="caption"><a target="_blank" href=""></a>Salesforce Desk</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -411,7 +411,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Sendgrid</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/sendinblue_92810240965968dc7b40476.50606313.png" />
+                    <img src="https://apidocs.lrcontent.com/images/sendinblue-1_130468556065bc82d5cfb984.02926298.png" />
                     <span class="caption"><a target="_blank" href=""></a>Sendinblue</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -431,7 +431,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Site Finity</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/slack_17734223886596849403c233.33829851.png" />
+                    <img src="https://apidocs.lrcontent.com/images/slack-1_23912183065bc8325df4040.58003224.png" />
                     <span class="caption"><a target="_blank" href=""></a>Slack</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -487,11 +487,11 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Piwik Pro</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/Salesforce_954197465968d40d52e24.70282887.png" />
+                    <img src="https://apidocs.lrcontent.com/images/salesforce-1_14714706065bc8381ec0385.08979635.png" />
                     <span class="caption"><a target="_blank" href=""></a>Salesforce</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/sap_15727350146596852344bec5.71642373.png" />
+                    <img src="https://apidocs.lrcontent.com/images/sap-1_151951309565bc83bdc18d65.80574496.png" />
                     <span class="caption"><a target="_blank" href=""></a>SAP Customer Data Platform</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -524,7 +524,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>One Span</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/ravelin_1298792997659685b71ae178.51407131.png" />
+                    <img src="https://apidocs.lrcontent.com/images/ravelin-1_205605595865bc84113620d8.31109778.png" />
                     <span class="caption"><a target="_blank" href=""></a>Ravelin</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -589,7 +589,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>HID Global</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/hiveid_27633911659686f2566de0.69677325.png" />
+                    <img src="https://apidocs.lrcontent.com/images/hiveid-1_187673403765bc8454ca26b1.95049103.png" />
                     <span class="caption"><a target="_blank" href=""></a>Hive ID</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -633,7 +633,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>One Span</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/onfido_96805020365968928614f91.58749173.png" />
+                    <img src="https://apidocs.lrcontent.com/images/onfido-1_7644264965bc84a2ce6b11.29064646.png" />
                     <span class="caption"><a target="_blank" href=""></a>On F Ido</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -665,7 +665,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Shufti Pro</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/signicat_192899965565968a24294ec8.89549302.png" />
+                    <img src="https://apidocs.lrcontent.com/images/signicat-1_47628667365bc90269771b4.15179308.png" />
                     <span class="caption"><a target="_blank" href=""></a>Signicat</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -709,7 +709,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Trusona</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/veridas_176771646965968ba7723779.16837988.png" />
+                    <img src="https://apidocs.lrcontent.com/images/veridas-1_73712153765bc84ed6c9c08.67147905.png" />
                     <span class="caption"><a target="_blank" href=""></a>Veridas</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -725,7 +725,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Web ID</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/yoti_75626908565968c10d20c04.39306836.png" />
+                    <img src="https://apidocs.lrcontent.com/images/yoti-1_208859539165bc852eeb8363.97753233.png" />
                     <span class="caption"><a target="_blank" href=""></a>Yoti</span>
                 </td>
                 <td class="s1" dir="ltr">

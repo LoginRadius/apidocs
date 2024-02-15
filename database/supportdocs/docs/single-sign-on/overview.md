@@ -60,31 +60,45 @@ When the Single Sign-on is required between two or more mobile apps and LoginRad
 
 Accept tokens and identities issued by niche identity providers of your choice and allow your customers to authenticate on your website for seamless transactions. Identity providers can be your organizational partners who already issue and hold digital identities/tokens/tickets. With LoginRadius **[Federated SSO](/single-sign-on/tutorial/federated-sso/overview/)**, your business can leverage that identity and make authentication seamless for your customers.
 
-<div align="center">
-<table style="align-content: center; width:80%;border:1px solid #BEBEBE;vertical-align: middle;" cellspacing="0" cellpadding="0">
-<tr>
-<td align="center"> <a href="https://www.loginradius.com/docs/single-sign-on/concept/saml-providers/domo/" title="Domo" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/DOMO_11828603f612bc26109.63273896.png" alt="Domo" /></a></td>
-
-<td align="center"><a href="https://www.loginradius.com/docs/single-sign-on/concept/saml-providers/SharePoint/" title="Microsoft SharePoint" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/SharePoint_14882603f626a669568.46863074.png"  alt="Microsoft SharePoint" /></a></td>
-
-<td align="center"><a href="https://www.loginradius.com/docs/single-sign-on/concept/saml-providers/jira/" title="Jira" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/Jira_24053603f62d3866c17.31856567.png"  alt="Atlassian Jira"  /></a></td>
-
-<td align="center"><a href="https://www.loginradius.com/docs/single-sign-on/concept/saml-providers/salesforce/" title="salesforce" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/salesforce_22418603f6309dd6985.71711623.png"  alt="salesforce"/></a></td></tr>
-
-<tr valign="middle">
-<td align="center" ><a href="https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/" title="oAuth Provider" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/oauth_7476610c41c3205150.04273025.png" alt="oAuth Provider" /></a></td>
-
-<td align="center"><a href="https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/jwt-login/jwt-login-overview/" title="JWT Provider" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/jwt_20746610c440de7dfd5.38688409.png"  alt="JWT Provider" /></a></td>
-
-<td align="center"><a href="https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/" title="OIDC provider" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/oidc_13585610c43386ebb63.46511943.png"  alt="OIDC provider"/></a></td>
-
-<td align="center" ><a href="https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/saml/overview/" title="SAML provider" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/SAML_9259610c4fa4550a35.69868053.png"  alt="SAML provider"/></a></td>
-</tr>
-
-
-</table>
+<table class="waffle" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr style='height:20px;'>
+            <td class="s1" dir="ltr">
+                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-56-39-288_32938184465c291d76f0821.37660252.png" /><br />
+                 <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/saml-providers/domo/">Demo</a></span>
+            </td>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-55-29-694_209779525965c2934f4be3f5.50282141.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/saml-providers/SharePoint/">Ms SharePoint</a></span>
+            </td>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-57-00-434_19216383665c29815230c05.00195915.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/saml-providers/jira/">Atlassian Jira</a></span>
+            </td>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-56-16-320_200777099665c3a4c8433ec7.65924437.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/saml-providers/salesforce/">Salesforce</a></span>
+            </td>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-54-44-045_89379538965c3a6592c7098.73391788.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/">Ouath2</a></span>
+            </td>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-53-44-600_165137682965c3a6872e2fe2.15133628.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/jwt-login/jwt-login-overview/">JWT</a></span>
+            </td>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-55-02-730_26154718665c3a81c41a973.69079950.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/">OIDC</a></span>
+            </td>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-55-55-905_161111230465c3a8c594bd34.39075734.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/saml/overview/">SAML</a></span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
 </div>
-
 
 ## Custom IDPs
 
@@ -94,21 +108,36 @@ Custom OAuth Provider is the most implemented protocol by the customers to set u
 
 <br />
 
-<div align="center">
-<table style="align-content: center; width:80%;border:1px solid #BEBEBE;">
-<tr valign="top">
-<td align="center">
-<a href="https://www.loginradius.com/docs/single-sign-on/concept/custom-idp-provider/doximity/" title="Doximity" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/doximity_18348603f646111d0d1.98766990.png" alt="Doximity" /></a>&nbsp; &nbsp;&nbsp;</td><td align="center"><a href="https://www.loginradius.com/docs/single-sign-on/concept/custom-idp-provider/alipay/" title="Alipay" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/Alipay_31743603f65719a44a2.66611193.png"  alt="Alipay" /></a>&nbsp; &nbsp;&nbsp;</td><td align="center"><a href="https://www.loginradius.com/docs/single-sign-on/concept/custom-idp-provider/wechat/" title="Wechat" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/Wechat_16086603f65f15f88d7.56271634.png"  alt="Wechat" /></a>
-</td></tr>
-
-<tr valign="middle">
-<td align="center"><a href="https://www.loginradius.com/docs/single-sign-on/tutorial/custom-identity-providers/custom-oauth-provider/" title="oAuth Provider" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/oauth_7476610c41c3205150.04273025.png" alt="oAuth Provider" /></a></td>
-
-<td align="center"><a href="https://www.loginradius.com/docs/single-sign-on/tutorial/custom-identity-providers/custom-jwt-provider/" title="JWT Provider" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/jwt_20746610c440de7dfd5.38688409.png"  alt="JWT Provider" /></a></td>
-
-<td align="center"><a href="https://www.loginradius.com/docs/single-sign-on/tutorial/custom-identity-providers/custom-saml-provider/" title="JWT Provider" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/SAML_9259610c4fa4550a35.69868053.png"  alt="SAML Provider" /></a></td>
-
-</tr></table>
+<table class="waffle" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr style='height:20px;'>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-57-17-420_15645657365c52276aa2692.23878868.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/custom-idp-provider/doximity/">Doximity</a></span>
+            </td>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-52-58-315_150129219565c5229e7e6a58.90587597.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/custom-idp-provider/alipay/">Alipay</a></span>
+            </td>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-52-14-666_89285097165c5232fc834e5.37839813.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/custom-idp-provider/wechat/">WeChat</a></span>
+            </td>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-54-44-045_89379538965c3a6592c7098.73391788.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/custom-identity-providers/custom-oauth-provider/">Ouath2</a></span>
+            </td>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-53-44-600_165137682965c3a6872e2fe2.15133628.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/custom-identity-providers/custom-jwt-provider/">JWT</a></span>
+            </td>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-55-55-905_161111230465c3a8c594bd34.39075734.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/custom-identity-providers/custom-saml-provider/">SAML</a></span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
 </div>
 
 ## SSO Connectors
@@ -121,19 +150,26 @@ LoginRadius provides out of box SSO Connector solutions to create a Single Sign-
 
 <br />
 
-<div align="center">
-<table style="align-content: center; width:80%;border:1px solid #BEBEBE;">
-<tr valign="middle">
-<td align="center">
-<a href="https://www.loginradius.com/docs/libraries/turn-key-plugins/shopify-multipass-integration/" title="Shopify" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/shopify_270716119e22d3a6f54.93838500.png" alt="Shopify" /></a>&nbsp; &nbsp;&nbsp;</td>
-
-<td align="center"><a href="https://www.loginradius.com/docs/libraries/turn-key-plugins/bigcommerce-stencil-plugin/" title="bigcommerce" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/bigcommerce_322866119e245634873.55225452.png"  alt="bigcommerce" /></a>&nbsp; &nbsp;&nbsp;</td>
-
-
-<td align="center"><a href="https://www.loginradius.com/docs/libraries/turn-key-plugins/perfectmind/" title="PerfectMind" target="_blank"><img class="app-icon" src="https://apidocs.lrcontent.com/images/perfectmind_159926119e2ada71a34.88409846.png"  alt="PerfectMind " /></a>
-</td></tr>
-</table>
+<table class="waffle" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr style='height:20px;'>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-50-18-387_7737014465c5257665c001.57956613.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/libraries/turn-key-plugins/shopify-multipass-integration/">Shopify</a></span>
+            </td>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-54-22-084_63846301965c525951630e4.90044952.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/libraries/turn-key-plugins/bigcommerce-stencil-plugin/">Big Commerce</a></span>
+            </td>
+            <td class="s1" dir="ltr">
+                <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-53-19-422_95928217065c525bfe154d5.86587977.png" /><br />
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/libraries/turn-key-plugins/perfectmind/">Perfect Mind</a></span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
 </div>
+
 
 ## Password Delegation
 

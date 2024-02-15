@@ -1,4 +1,4 @@
-# Welcome to the LoginRadius CLI [**BETA**](#)
+# Welcome to the LoginRadius CLI BETA
 
 ## Introduction
 

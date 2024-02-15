@@ -7432,6 +7432,14 @@
 {
   "oldLink": "api/v2/admin-console/platform-security/captcha-providers/h-captcha-configuration",
   "newLink": "api/v2/admin-console/platform-security/captcha-providers/hcaptcha-configuration/"
+},
+{
+  "oldLink": "api/v2/announcements/cli",
+  "newLink": "libraries/command-line-interface/cli/"
+},
+{
+  "oldLink": "api/v2/docs/php",
+  "newLink": "libraries/sdk-libraries/php-library/"
 }
 ]
 
