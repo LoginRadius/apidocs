@@ -466,6 +466,14 @@ $hooks->do_action('init');
                 your mobile application
               </p>
             </a>
+            <a href="<?php echo SUPPORT_DOCS_URL . 'libraries/command-line-interface/cli/' ?>">
+              <h1>LoginRadius CLI</h1>
+              <p>
+              Experience seamless interaction with LoginRadius APIs through 
+              our intuitive CLI tool. Manage accounts, configure authentication,
+              and more with ease.
+              </p>
+            </a>
           </div>
           <div>
             <a href="<?php echo SUPPORT_DOCS_URL . 'libraries/identity-experience-framework/overview/' ?>">

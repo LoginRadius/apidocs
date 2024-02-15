@@ -748,6 +748,13 @@
         "title": "Alexa Demo",
         "type": "DOC"
       }
+    ],
+    "Command Line Interface":[
+      {
+        "url": "libraries/command-line-interface/cli/",
+        "title": "LoginRadius CLI",
+        "type": "DOC"
+      }
     ]
   },
   "Security": {

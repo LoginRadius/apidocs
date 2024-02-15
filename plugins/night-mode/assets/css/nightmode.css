@@ -159,16 +159,16 @@ body.dark article.md-typeset a > strong {
   color: #83d7f7 !important;
 }
 body.dark article.md-typeset .rssdiv {
-  background: #ffc9d0;
+  background: #303134;
 }
 body.dark article.md-typeset .rssdiv * {
-  color: #303134;
+  color: #e8eaed;
 }
 body.dark article.md-typeset .rssdiv *.fa {
   color: #ffffff;
 }
 body.dark article.md-typeset .rssdiv * a {
-  color: #303134 !important;
+  color: #83d7f7 !important;
 }
 body.dark .md-typeset ul li:before,
 body.dark .md-typeset ol li:before {
@@ -261,6 +261,11 @@ body.dark .apiresult .apiresponse {
 body.dark .apiresult.outputformat .head {
   background-color: #202124 !important;
   color: #e8eaed;
+}
+
+body.dark .gettokenbutton {
+  background-color: #83d7f7;
+  color: #202124;
 }
 body.dark .apisend {
   background-color: #83d7f7;
