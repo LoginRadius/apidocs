@@ -7440,6 +7440,178 @@
 {
   "oldLink": "api/v2/docs/php",
   "newLink": "libraries/sdk-libraries/php-library/"
+},
+{
+  "oldLink": "api/changelog/Dashboard-release-110",
+  "newLink": "api/changelog/dashboard-release-110/"
+},
+{
+  "oldLink": "api/changelog/Dashboard-release-30",
+  "newLink": "api/changelog/dashboard-release-30/"
+},
+{
+  "oldLink": "authentication/tutorial/username-login/1000",
+  "newLink": "authentication/tutorial/username-login/"
+},
+{
+  "oldLink": "api/v2/single-sign-on/federated-sso/saml/config/IDP-initiated",
+  "newLink": "api/v2/single-sign-on/federated-sso/saml/config/idp-initiated/"
+},
+{
+  "oldLink": "developer/guides/mobile-ios",
+  "newLink": "libraries/mobile-sdk-libraries/ios-library/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/Web-SSO/overview",
+  "newLink": "single-sign-on/tutorial/web-sso/overview/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/pin-authentication/reset-pin-by-username-and-otp/1000",
+  "newLink": "api/v2/customer-identity-api/pin-authentication/reset-pin-by-username-and-otp/"
+},
+{
+  "oldLink": "developer/sdk-libraries/ruby-library",
+  "newLink": "libraries/sdk-libraries/ruby-library/"
+},
+{
+  "oldLink": "api/changelog/Dashboard-release-165",
+  "newLink": "api/changelog/dashboard-release-165/"
+},
+{
+  "oldLink": "developer/tutorial/ios",
+  "newLink": "libraries/mobile-sdk-libraries/ios-library/"
+},
+{
+  "oldLink": "developer/tutorial/dotnet-webforms",
+  "newLink": "libraries/sdk-libraries/asp-net-library/"
+},
+{
+  "oldLink": "developer/howto/advanced-editor",
+  "newLink": "libraries/identity-experience-framework/customization/"
+},
+{
+  "oldLink": "developer/guide/change-session-lifetime",
+  "newLink": "authentication/concepts/session-management/"
+},
+{
+  "oldLink": "developer/concepts/oidc",
+  "newLink": "single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/"
+},
+{
+  "oldLink": "developer/security/session-management",
+  "newLink": "authentication/concepts/session-management/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/overview/"
+},
+{
+  "oldLink": "api/v2/getting-started/introduction/1000",
+  "newLink": "api/v2/getting-started/introduction/"
+},
+{
+  "oldLink": "developer/guide/emailpassword-login",
+  "newLink": "authentication/tutorial/passwordless-login/"
+},
+{
+  "oldLink": "libraries/identity-experience-framework/overview/1000",
+  "newLink": "libraries/identity-experience-framework/overview/"
+},
+{
+  "oldLink": "developer/guide/social-login",
+  "newLink": "authentication/quick-start/social-login/"
+},
+{
+  "oldLink": "developer/api",
+  "newLink": "api/v2/getting-started/introduction/"
+},
+{
+  "oldLink": "developer/sdk-libraries/overview",
+  "newLink": "libraries/sdk-libraries/overview/"
+},
+{
+  "oldLink": "api/v2/troubleshooting/invalid-request-uri-error/1000",
+  "newLink": "api/v2/troubleshooting/invalid-request-uri-error/"
+},
+{
+  "oldLink": "api/v2/admin-console/overview/1000",
+  "newLink": "api/v2/admin-console/overview/"
+},
+{
+  "oldLink": "api/v2/single-sign-on/sso-connector/perfectmind/1000",
+  "newLink": "api/v2/single-sign-on/sso-connector/perfectmind/"
+},
+{
+  "oldLink": "developer/tutorial/dotnetcore-razor",
+  "newLink": "ibraries/sdk-libraries/asp-net-library/"
+},
+{
+  "oldLink": "api/changelog/Dashboard-release-140",
+  "newLink": "api/changelog/dashboard-release-140/"
+},
+{
+  "oldLink": "api/changelog/Dashboard-release-10",
+  "newLink": "api/changelog/dashboard-release-10/"
+},
+{
+  "oldLink": "developer/howto/manage-email-password-login",
+  "newLink": "api/v2/admin-console/platform-configuration/standard-login/overview/"
+},
+{
+  "oldLink": "developer/api/phone-authentication",
+  "newLink": "api/v2/customer-identity-api/phone-authentication/overview/"
+},
+{
+  "oldLink": "developer/guide/jwt",
+  "newLink": "single-sign-on/tutorial/federated-sso/jwt-login/jwt-login-overview/"
+},
+{
+  "oldLink": "api/changelog/Dashboard-release-40",
+  "newLink": "api/changelog/dashboard-release-40/"
+},
+{
+  "oldLink": "api/v2/docs/message",
+  "newLink": "api/v2/getting-started/introduction/"
+},
+{
+  "oldLink": "changelog/Dashboard-release-50",
+  "newLink": "changelog/dashboard-release-50/"
+},
+{
+  "oldLink": "developer/howto/web-sso",
+  "newLink": "single-sign-on/tutorial/web-sso/overview/"
+},
+{
+  "oldLink": "developer/concepts/idx-overview",
+  "newLink": "libraries/identity-experience-framework/overview/"
+},
+{
+  "oldLink": "developer/guide/customize-domain",
+  "newLink": "api/v2/admin-console/deployment/custom-domain-and-ssl-configuration/"
+},
+{
+  "oldLink": "developer/guide/drupal/",
+  "newLink": "libraries/turn-key-plugins/overview/"
+},
+{
+  "oldLink": "api/changelog/Dashboard-release-80",
+  "newLink": "api/changelog/dashboard-release-80/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/Federated-SSO/JWT-login/JWT-generate-algos",
+  "newLink": "single-sign-on/tutorial/federated-sso/jwt-login/jwt-generate-algos/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/Federated-SSO/saml/sp-initiated",
+  "newLink": "single-sign-on/tutorial/federated-sso/saml/sp-initiated/"
+},
+{
+  "oldLink": "developer/guide/web-sso",
+  "newLink": "single-sign-on/tutorial/web-sso/overview/"
+},
+{
+  "oldLink": "developer/guide/manage-team-members",
+  "newLink": "api/v2/admin-console/team-management/team-management-overview/"
 }
 ]
 
