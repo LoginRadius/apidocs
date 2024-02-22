@@ -8,8 +8,7 @@ LoginRadius provides you the ability to implement any custom SMS/Text providers 
 
 - Enter the **Delivery Provider URL**. Please note this URL is different for each provider. To obtain them, you can either refer to the provider’s documents, or you can also obtain this from the CURL request you get after configuring the SMS/Text/ Voice providers. 
 
-
-Select the Authentication type, which consists of the following options:
+Select the **Authentication type**, which consists of the following options:
 
 1. Basic Authentication
 2. Bearer
@@ -17,7 +16,11 @@ Select the Authentication type, which consists of the following options:
 
 ### Basic Authentication
 
-When you select this option, you will have to pass the username and password, which are generally SID and Auth Token. In addition to username and password, we have to pass the HTTPS method, for example, GET, POST, and PUT. Kindly refer to some of the following sample CURL request for **basic authentication** method:
+Upon selecting this option, the system will prompt you to input both a **username** and a **password** as prerequisites to proceed further. Typically, these credentials are SID and Auth Token, but for certain providers, the username and apiKey may differ for certain providers. Alongside the username and password, it is necessary to specify the HTTP method, such as **GET, POST, and PUT**. 
+
+![Basic Authentication](https://apidocs.lrcontent.com/images/Untitled_166850324465d70a78cb11a3.74423734.png "Basic Authentication")
+
+ Refer to the provided sample CURL requests for a basic authentication method of Twilio on WhatsApp for further clarity:
 
 ```
 curl 'https://api.twilio.com/2010-04-01/Accounts/[username]/Messages.json' -X POST \
@@ -29,7 +32,11 @@ curl 'https://api.twilio.com/2010-04-01/Accounts/[username]/Messages.json' -X PO
 
 ### Bearer
 
-When you select this option, you will be required to pass the bearer token along with the HTTPS method. Kindly refer to some of the following sample CURL request for **bearer** method
+Choosing this option necessitates passing the **bearer** token along with the HTTP method. 
+
+![![Bearer](https://apidocs.lrcontent.com/images/Untitled_166850324465d70a78cb11a3.74423734.png "Basic Authentication")](https://apidocs.lrcontent.com/images/Untitled-1_155123419365d70b0668e216.68747435.png "Bearer")
+
+For a better understanding, please review the subsequent sample CURL requests illustrating the bearer method:
 
 ```
 curl --location 'https://api.line.me/v2/bot/profile/[APP ID]' \
@@ -38,16 +45,31 @@ curl --location 'https://api.line.me/v2/bot/profile/[APP ID]' \
 
 ### No Authentication
 
-- In this method, there is no requirement to pass the username and password or even the bearer token. However, here, you do have to select the HTTPS method. Kindly refer to some of the following sample CURL request for **no authentication** method
+- When opting for this alternative, there is no need to provide a username, password, or bearer token. Nevertheless, you are required to specify the HTTP method, but no username, password, or bearer token is necessary.
+
+Please refer to the provided sample CURL requests for the No Authentication method:
+
+![No Authentication](https://apidocs.lrcontent.com/images/Untitled-2_145627562565d70b86d914e5.01120836.png "No Authentication")
 
 ```
 curl --location --request PUT 'https://api.textlocal.in/send/?apikey=[API KEY]&sender=600010&numbers=[Phone number]&message=Hi%20there%2C%20thank%20you%20for%20sending%20your%20first%20test%20message%20from%20Textlocal.%20See%20how%20you%20can%20send%20effective%20SMS%20campaigns%20here%3A%20https%3A%2F%2Ftx.gl%2Fr%2F2nGVj%2F'
 ```
 
 
-- After filling in the above details, provide the **Body**, which generally contains details about the **sender's phone number**, the **body of the SMS**, where you can pass the placeholders, etc.
+- After completing all the above-mentioned fields, proceed to provide the body details. Typically, this involves choosing between **JSON format** or **X-WWW-form-urlencoded** according to the provider you have configured and entering the values accordingly. This step includes details about the **sender's phone number** and the **body of the SMS**, where you can incorporate placeholder tags. For example: "body": "#template#", "to": "#receiver#".
 
-- LoginRadius allows you to specify desired values in your **headers**. This can be useful to overcome analytics discrepancies when the analytics depend on header data. For more details on headers, kindly refer to this [**document**](/api/v2/customer-identity-api/advanced-api-usage/#refererheader9).
+
+- Enter the **header** and **query parameters**' values if necessary.LoginRadius enables you to define preferred values in your headers, offering a valuable solution to address analytics discrepancies when analytics rely on header data. For more details on headers, kindly refer to this [**document**](/api/v2/customer-identity-api/advanced-api-usage/#refererheader9). You have the ability to input header details, encompassing keys and values, and the flexibility to add extra header values using the **"Add Row"** button (optional).
+
+- Similarly, you can input **query parameter** details, including keys and values, and have the flexibility to add supplementary query parameter values via the **"Add Row"** button (optional).
+
+> Note: The inclusion of these values depends on the specific requirements of the SMS provider.
+
+
+These attributes, fields, and parameters are standard requirements dictated by the provider.
+
+
+ Following these steps allows you to effortlessly set up custom SMS/Text providers within LoginRadius, thereby improving your authentication and communication capabilities.
 
 
 If you need assistance with this, [**submit a ticket**](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) with the LoginRadius support team and someone will be able to assist.
