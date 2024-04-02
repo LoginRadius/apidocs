@@ -7539,7 +7539,7 @@
 },
 {
   "oldLink": "developer/tutorial/dotnetcore-razor",
-  "newLink": "ibraries/sdk-libraries/asp-net-library/"
+  "newLink": "libraries/sdk-libraries/asp-net-library/"
 },
 {
   "oldLink": "api/changelog/Dashboard-release-140",
@@ -7612,6 +7612,18 @@
 {
   "oldLink": "developer/guide/manage-team-members",
   "newLink": "api/v2/admin-console/team-management/team-management-overview/"
+},
+{
+  "oldLink": "developer/guide/phone-login",
+  "newLink": "authentication/tutorial/phone-login/"
+},
+{
+  "oldLink": "developer/guide/custom-registration",
+  "newLink": "api/v2/customer-identity-api/overview/"
+},
+{
+  "oldLink": "developer/guide/drupal",
+  "newLink": "libraries/turn-key-plugins/drupal-v7-x-customer-identity-module-instructions/"
 }
 ]
 
