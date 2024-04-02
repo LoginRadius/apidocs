@@ -54,7 +54,7 @@ You can refer to below screenshots/steps for further detail on how the LoginRadi
  
  Or 
  
- From Google [Play store](https://play.google.com/store/apps/details?id=com.loginradius.loginradiusauthenticator)
+ From Google [Play store](https://play.google.com/store/apps/details?id=com.loginradius.authenticator)
 
  Also you may integrate LoginRadius Authenticator iOS app as open source in your own project from [here](https://github.com/LoginRadius/authenticator-ios)
 

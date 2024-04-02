@@ -19,7 +19,7 @@ LoginRadius supports social ID providers from all around the world. Below is a l
 |      [Yahoo!][45]      |        Global        |      All Yahoo! services      |
 |      [Apple][46]       |        Global        |      All Apple services       |
 
-If the social ID provider you are looking for is not on this list, please [contact support](https://support.loginradius.com/hc/en-us/requests/new) and we'll be happy to help!
+If the social ID provider you are looking for is not on this list, please [contact support](https://adminconsole.loginradius.com/support/tickets) and we'll be happy to help!
 
 
 [17]: http://www.amazon.com/
