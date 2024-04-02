@@ -7462,10 +7462,6 @@
   "newLink": "libraries/mobile-sdk-libraries/ios-library/"
 },
 {
-  "oldLink": "single-sign-on/tutorial/Web-SSO/overview",
-  "newLink": "single-sign-on/tutorial/web-sso/overview/"
-},
-{
   "oldLink": "api/v2/customer-identity-api/pin-authentication/reset-pin-by-username-and-otp/1000",
   "newLink": "api/v2/customer-identity-api/pin-authentication/reset-pin-by-username-and-otp/"
 },
@@ -7604,6 +7600,10 @@
 {
   "oldLink": "single-sign-on/tutorial/Federated-SSO/saml/sp-initiated",
   "newLink": "single-sign-on/tutorial/federated-sso/saml/sp-initiated/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/Web-SSO/overview",
+  "newLink": "single-sign-on/tutorial/web-sso/overview/"
 },
 {
   "oldLink": "developer/guide/web-sso",
