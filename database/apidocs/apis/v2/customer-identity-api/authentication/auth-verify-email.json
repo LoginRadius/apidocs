@@ -5,6 +5,8 @@
     "method": "GET",
     "getparams": {
         "apikey*": "@apikey@",
+        "email": "",
+        "uuid":"",
         "verificationtoken*": "",
         "welcomeemailtemplate": "",
         "url": ""
@@ -29,7 +31,17 @@
               "name": "welcomeemailtemplate",
               "is_required": false,
               "description": "Name of the email template to be sent out"
-          },
+            },
+            {
+              "name": "email",
+              "is_required": false,
+              "description": "User's Email ID <strong>[Required if UUID is not passed]</strong>"
+            },
+            {
+              "name": "uuid",
+              "is_required": false,
+              "description": "The uuid received in the response of <a href='/docs/api/v2/customer-identity-api/authentication/auth-send-verification-for-social-email/'><strong>Auth send verification Email for linking social profiles</strong></a> API <strong>[Required if email is not passed]</strong>"
+            },
             {
                 "name": "url",
                 "is_required": false,

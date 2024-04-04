@@ -1,0 +1,47 @@
+{
+    "name": "Auth send verification Email for linking social profiles",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/email/sendverificationemail",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "access_token": "",
+        "clientguid": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to Send verification email to the unverified email of the social profile.. This API can be used only incase of optional verification workflow.",
+    "parameters": {
+        "Get Parameters": [{
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            }, {
+                "name": "access_token",
+                "is_required": false,
+                "description": "User's access token"
+            }, {
+                "name": "clientguid",
+                "is_required": false,
+                "description": "Client GUID"
+            },
+            {
+                "name": "<strong>Note</strong>",
+                "is_required": false,
+                "description": "Here you are required to pass either <strong>access_token</strong> or <strong>clientguid</strong>. Without passing the same, you will receive an error."
+            },
+            {
+                "name": "<strong>Note</strong>",
+                "is_required": false,
+                "description": "API will return UUID in response only in the case where <strong>OTP Email Verification</strong> is enabled for the site. This can be utilized in both <a href='/docs/api/v2/customer-identity-api/authentication/auth-verify-email/'><strong>Auth Verify Email</strong></a> and <a href='/docs/api/v2/customer-identity-api/authentication/auth-verify-email-by-otp/'><strong>Auth Verify Email by OTP</strong></a> API"
+            }
+        ]
+    },
+    "outputFormat": {
+        "IsPosted": true,
+        "UUID": "6******7-4**5-a**b-c******1"
+    }
+}
