@@ -600,11 +600,6 @@
         "type": "GET"
       },
       {
-        "url": "v2/customer-identity-api/authentication/auth-send-verification-for-social-email/",
-        "title": "Auth send verification Email for linking social profiles",
-        "type": "GET"
-      },
-      {
         "url": "v2/customer-identity-api/authentication/auth-validate-access-token/",
         "title": "Auth Validate Access Token",
         "type": "GET"
@@ -1119,30 +1114,40 @@
           "type": "GET"
         }
       ],
-      "Google Authenticator": [
+      "Authenticator": [
         {
-          "url": "v2/customer-identity-api/multi-factor-authentication/Google-Authenticator/overview/",
+          "url": "v2/customer-identity-api/multi-factor-authentication/Authenticator/overview/",
           "title": "Overview",
           "type": "DOC"
         },
         {
-          "url": "v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-validate-google-auth-code/",
-          "title": "MFA Validate Google Auth Code",
+          "url": "v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-google-auth-code/",
+          "title": "MFA Validate Google Auth Code <strong>(Deprecated)</strong>",
           "type": "PUT"
         },
         {
-          "url": "v2/customer-identity-api/multi-factor-authentication/google-authenticator/update-mfa-by-access-token/",
-          "title": "Update MFA by Access Token",
+          "url": "v2/customer-identity-api/multi-factor-authentication/authenticator/update-mfa-by-access-token/",
+          "title": "Update MFA by Access Token <strong>(Deprecated)</strong>",
           "type": "PUT"
         },
         {
-          "url": "v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-token/",
-          "title": "MFA Reset Google Authenticator by Token",
+          "url": "v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-authenticator-code/",
+          "title": "MFA Validate Authenticator Code",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-verify-authenticator-code/",
+          "title": "MFA Verify Authenticator Code",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/",
+          "title": "MFA Reset Authenticator by Token",
           "type": "DELETE"
         },
         {
-          "url": "v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-uid/",
-          "title": "MFA Reset Google Authenticator by UID",
+          "url": "v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-uid/",
+          "title": "MFA Reset Authenticator by UID",
           "type": "DELETE"
         }
       ],
@@ -1388,7 +1393,12 @@
         },
         {
           "url": "v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-google-authenticator-code/",
-          "title": "Step-Up Authenticate by Google Authenticator Code",
+          "title": "Step-Up Authenticate by Google Authenticator Code <strong>(Deprecated)</strong>",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/mfa/mfa-step-up-authentication-by-authenticator-code/",
+          "title": "MFA Step-Up Authentication by Authenticator Code",
           "type": "PUT"
         },
         {
@@ -2085,6 +2095,11 @@
       {
         "url": "v2/announcements/subscribe-rss/",
         "title": "Subscribe to Product Updates",
+        "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/cli/",
+        "title": "Command Line Interface",
         "type": "DOC"
       },
       {
