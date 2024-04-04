@@ -209,6 +209,7 @@
       "IsEnabled": false,
       "IsRequired": true,
       "IsGoogleAuthenticator": false,
+      "IsAuthenticator": false,
       "IsEmailOTPAuthenticator": true,
       "IsSecurityQuestionAuthenticator": true,
       "IsSmsOTPAuthenticator": false

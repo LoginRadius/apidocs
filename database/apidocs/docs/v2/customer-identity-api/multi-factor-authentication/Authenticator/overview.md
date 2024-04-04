@@ -5,7 +5,7 @@
 In the Google Authenticator flow, consumers get an Authenticator Code via the Google Authenticator App installed on their mobile device to be consumed at the time of the 2nd step of MFA.
 
 **Flow Diagram:**
-![MFA by Google Authenticator](https://apidocs.lrcontent.com/images/MFA-by-Google-Authenticator_3623610303aa257c65-98020955-1_162447349665bc94878b9746.47059407.png "MFA by Google Authenticator")
+![MFA by Google Authenticator](https://apidocs.lrcontent.com/images/MFA-by-Google-Authenticator_3623610303aa257c65.98020955.png "MFA by Google Authenticator")
 
 To implement the Google Authenticator workflow, take the following steps:
 
@@ -93,6 +93,7 @@ Follow the steps below to implement MFA using a mix of front-end and back-end AP
     "QRCode": "http://chart.googleapis.com/chart?cht=XXXXXXXXXXXXX",
     "ManualEntryCode": "XXXXXXXXXXXXXXXXXXXX",
     "IsGoogleAuthenticatorVerified": false,
+    "IsAuthenticatorVerified": false,
     "IsEmailOtpAuthenticatorVerified": false,
     "IsOTPAuthenticatorVerified": false,
     "OTPPhoneNo": null,
@@ -120,8 +121,8 @@ Follow the steps below to implement MFA using a mix of front-end and back-end AP
 
     > **Note:** The response contains a link to the QR code to be displayed to the user.
 
-2.  Allow the consumer to log in by providing the passcode received via their Authenticator mobile app using either the [MFA Validate Google Auth-Code](/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-validate-google-auth-code), which takes the passcode, or the second-factor authentication token.
+2.  Allow the consumer to log in by providing the passcode received via their Authenticator mobile app using either the [MFA Validate Authenticator Code](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-authenticator-code), which takes the passcode, or the second-factor authentication token.
 
-3.  Allow the consumer to enable the MFA by Google Authenticator after login by leveraging the[ Update MFA by Access Token](/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/update-mfa-by-access-token/) API.
+3. In the case of optional MFA, you can use [MFA Verify Authenticator Code](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-verify-authenticator-code) API, which accepts the access token as a parameter to validate an Authenticator Code as part of the MFA process.
 
-4.  Provide additional workflows or options to the consumer by leveraging the MFA API. For example, allow your consumers to remove Multi-Factor Authentication from their login process by using the [Remove Google Authenticator by Token API](/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-token/) API call, and you can remove MFA from their login by calling [Remove Google Authenticator by UID API](/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-uid/) API on the server-side.
+4.  Provide additional workflows or options to the consumer by leveraging the MFA API. For example, allow your consumers to remove Multi-Factor Authentication from their login process by using the [MFA Reset Authenticator by Token API](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/) API call, and you can remove MFA from their login by calling [MFA Reset Authenticator by UID API](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-uid/) API on the server-side.

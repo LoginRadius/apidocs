@@ -1,5 +1,5 @@
 {
-  "name": "MFA Reset Google Authenticator By UID",
+  "name": "MFA Reset Authenticator By UID",
   "domain":"https://api.loginradius.com",
   "path": "/identity/v2/manage/account/2FA/authenticator",
   "method": "DELETE",
@@ -9,13 +9,13 @@
     "uid*": ""
   },
   "postparams": {
-    "googleauthenticator":true
+    "authenticator":true
   },
   "headers": {
     "content-Type": "application/json"
   },
   "response": "json",
-  "description": "This API resets the Google Authenticator configurations on a given account via the UID.",
+  "description": "This API resets the Authenticator configurations on a given account via the UID.",
   "parameters": {
     "Get Params": [{
       "name": "apikey",
@@ -31,9 +31,9 @@
       "description": "Valid Account ID"
     }],
     "Post Params": [{
-      "name": "googleauthenticator",
+      "name": "authenticator",
       "is_required": true,
-      "description": "Pass true to remove Google Authenticator"
+      "description": "Pass true to remove Authenticator"
     }]
   },
   "outputFormat": {
