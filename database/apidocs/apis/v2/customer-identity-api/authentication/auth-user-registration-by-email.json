@@ -243,7 +243,7 @@
 			{
 				"name":	"options",
 				"is_required": false,
-				"description": "PreventVerificationEmail (Specifying this value prevents the verification email from being sent. Only applicable if you have the optional email verification flow)"
+				"description": "PreventVerificationEmail (Specifying this value prevents the verification email from being sent. Only applicable if you have the Mandatory or Optional Email Verification Flow)"
 			},
             {
                 "name": "isvoiceotp",

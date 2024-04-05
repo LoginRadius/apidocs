@@ -16,7 +16,7 @@
     "content-Type": "application/json"
   },
   "response": "json",
-  "description": "This API is used to login via Multi-factor-authentication by passing the google authenticator code.",
+  "description": "This API is used to login via Multi-factor-authentication by passing the google authenticator code. <br><br> <b>Note:</b>This API endpoint will soon be deprecated. Please transition to the new <a href='/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-authenticator-code' style='color: #008ecf;'>MFA Validate Authenticator Code</a> API promptly to avoid service interruption.",
   "parameters": {
     "Get Params": [
       {

@@ -1,0 +1,34 @@
+{
+    "name": "Core API Release 36.5.0",
+    "description": "We have rolled out another version of the Core APIs, which brings you some new features, an improvement, and a bug fix.",
+    "changelog":
+    {
+        "ADDED": 
+        [
+            {
+                "text": "Three new APIs, <strong>MFA Validate Authenticator Code</strong>, <strong>MFA Verify Authenticator Code</strong>, and <strong>MFA Step-Up Authentication by Authenticator Code</strong>, have been added."
+            },
+            {
+                "text": "In the mandatory verification workflow, the prevention of verification emails is now possible."
+            },
+            {
+                "text": "Introduced new error messages for Multi-Factor Authentication for the <strong>Authenticator</strong>."
+            }
+        ], 
+        "IMPROVED": 
+        [
+            {
+            "text": "The <strong>Auth Verify Email by OTP</strong> API now includes a new <strong>UID parameter</strong>. This addition allows for the sending of a verification email to the user, facilitating the verification of the Raas user profile based on either the email address or UID field associated with the social profile."
+            }
+        ],
+        "FIXED":
+        [
+            {
+                "text": "Blocked accounts will no longer be able to request One Time Password (OTP)."
+            }
+        ]
+    },
+    "auther": "Michelle Rathod",
+    "created_date": "2024-04-04",
+    "status": "public"
+}

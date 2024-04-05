@@ -138,6 +138,7 @@
         "QRCode": "http://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=otpauth%3A%2F%2Ftotp%2Fanil1%40mail7.io%3Fsecret%3DHBRWENLDHEZGIMBYHFTDINJSMVRDANDBHE4WINJTMYZTCYZSGFRA%26issuer%3Ddev-aniltest",
         "ManualEntryCode": "HBRWENLDHEZGIMBYHFTDINJSMVRDANDBHE4WINJTMYZTCYZSGFRA",
         "IsGoogleAuthenticatorVerified": false,
+	      "IsAuthenticatorVerified": false,
         "IsEmailOtpAuthenticatorVerified": false,
         "IsOTPAuthenticatorVerified": false,
         "OTPPhoneNo": null,

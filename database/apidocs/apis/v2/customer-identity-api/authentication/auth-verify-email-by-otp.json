@@ -11,6 +11,7 @@
   "postparams": {
     "otp": "",
     "email": "",
+    "uuid":"",
     "SecurityAnswer": {
       "db7****8a73e4******bd9****8c20": "Answer"
     },
@@ -44,8 +45,12 @@
       "description": " one-time passcode sent on user's Email ID "
     },{
       "name": "email",
-      "is_required": true,
-      "description": "User's Email ID"
+      "is_required": false,
+      "description": "User's Email ID <strong>[Required if UUID is not passed]</strong>"
+    },{
+      "name": "uuid",
+      "is_required": false,
+      "description": "The uuid received in the response of <a href='/docs/api/v2/customer-identity-api/authentication/auth-send-verification-for-social-email/'><strong>Auth send verification Email for linking social profiles</strong></a> API <strong>[Required if email is not passed]</strong>"
     },{
       "name": "securityanswer",
       "is_required": false,
