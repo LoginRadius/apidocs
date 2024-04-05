@@ -12,7 +12,7 @@
                 "text": "In the mandatory verification workflow, the prevention of verification emails is now possible."
             },
             {
-                "text": "Introduced new error messages for Multi-Factor Authentication in the <strong>Authenticator</strong>."
+                "text": "Introduced new error messages for Multi-Factor Authentication for the <strong>Authenticator</strong>."
             }
         ], 
         "IMPROVED": 
