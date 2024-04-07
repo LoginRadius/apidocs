@@ -615,6 +615,11 @@
         "type": "GET"
       },
       {
+        "url": "v2/customer-identity-api/authentication/auth-send-verification-for-social-email/",
+        "title": "Auth send verification Email for linking social profiles",
+        "type": "GET"
+      },
+      {
         "url": "v2/customer-identity-api/authentication/auth-delete-account/",
         "title": "Auth Delete Account",
         "type": "GET"
