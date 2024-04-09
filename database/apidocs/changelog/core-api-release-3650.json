@@ -6,19 +6,19 @@
         "ADDED": 
         [
             {
-                "text": "Three new APIs, <strong>MFA Validate Authenticator Code</strong>, <strong>MFA Verify Authenticator Code</strong>, and <strong>MFA Step-Up Authentication by Authenticator Code</strong>, have been added."
+                "text": "Three new APIs, <a href='/docs/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-authenticator-code/'> MFA Validate Authenticator Code</a>, <a href='/docs/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-verify-authenticator-code/'>MFA Verify Authenticator Code</a>, and <a href='/docs/api/v2/customer-identity-api/step-up-authentication/mfa/mfa-step-up-authentication-by-authenticator-code/'>MFA Step-Up Authentication by Authenticator Code</a>, have been added."
             },
             {
                 "text": "In the mandatory verification workflow, the prevention of verification emails is now possible."
             },
             {
-                "text": "Introduced new error messages for Multi-Factor Authentication for the <strong>Authenticator</strong>."
+                "text": "Introduced new error messages for the error codes 1098, 1099, 1102, 1250, and 1279 for Multi-Factor Authentication in the <strong>Authenticator flow</strong>. You can refer to the following <a href='/api/v2/getting-started/response-codes/customer-identity-api-codes/#httperrorresponsestructure0'>documentation</a> for the description of these error messages"
             }
         ], 
         "IMPROVED": 
         [
             {
-            "text": "The <strong>Auth Verify Email by OTP</strong> API now includes a new <strong>UID parameter</strong>. This addition allows for the sending of a verification email to the user, facilitating the verification of the Raas user profile based on either the email address or UID field associated with the social profile."
+            "text": "The <a href='/docs/api/v2/customer-identity-api/authentication/auth-verify-email-by-otp/'>Auth Verify Email by OTP</a> API now includes a new <strong>UID parameter</strong>. This addition allows for the sending of a verification email to the user, facilitating the verification of the Raas user profile based on either the email address or UID field associated with the social profile."
             }
         ],
         "FIXED":

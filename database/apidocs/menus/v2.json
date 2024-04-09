@@ -1126,16 +1126,6 @@
           "type": "DOC"
         },
         {
-          "url": "v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-google-auth-code/",
-          "title": "MFA Validate Google Auth Code <strong>(Deprecated)</strong>",
-          "type": "PUT"
-        },
-        {
-          "url": "v2/customer-identity-api/multi-factor-authentication/authenticator/update-mfa-by-access-token/",
-          "title": "Update MFA by Access Token <strong>(Deprecated)</strong>",
-          "type": "PUT"
-        },
-        {
           "url": "v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-authenticator-code/",
           "title": "MFA Validate Authenticator Code",
           "type": "PUT"
@@ -1154,6 +1144,16 @@
           "url": "v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-uid/",
           "title": "MFA Reset Authenticator by UID",
           "type": "DELETE"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-google-auth-code/",
+          "title": "MFA Validate Google Auth Code <strong>(Deprecated)</strong>",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/authenticator/update-mfa-by-access-token/",
+          "title": "Update MFA by Access Token <strong>(Deprecated)</strong>",
+          "type": "PUT"
         }
       ],
       "SMS Authenticator": [
@@ -1397,11 +1397,6 @@
           "type": "GET"
         },
         {
-          "url": "v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-google-authenticator-code/",
-          "title": "Step-Up Authenticate by Google Authenticator Code <strong>(Deprecated)</strong>",
-          "type": "PUT"
-        },
-        {
           "url": "v2/customer-identity-api/step-up-authentication/mfa/mfa-step-up-authentication-by-authenticator-code/",
           "title": "MFA Step-Up Authentication by Authenticator Code",
           "type": "PUT"
@@ -1435,6 +1430,11 @@
           "url": "v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-security-question/",
           "title": "Step-Up Authenticate Security Question",
           "type": "POST"
+        },
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-google-authenticator-code/",
+          "title": "Step-Up Authenticate by Google Authenticator Code <strong>(Deprecated)</strong>",
+          "type": "PUT"
         }
       ],
       "PIN": [
