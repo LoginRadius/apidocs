@@ -56,6 +56,6 @@ This section details the LoginRadius Cloud Directory API codes and some suggesti
 |1043| Pass a valid next param | The next param is missing. Please start with a POST request to get next value. | 403 |
 |1064| Custom object name is invalid | The custom object name used in this request is incorrect or does not exist. | 400 |
 |1067| Invalid OTP Code | The OTP code is invalid, please request for a new OTP. | 403 |
-|1102| Google two factor authentication code is incorrect (existing configuration) <br><br> The two-factor authenticator code is incorrect (recent configuration) | The Google two factor authentication code is incorrect, please enter the correct authentication code for login. (existing configuration) <br><br> Please enter the correct authenticator code. (recent configuration) |403 |
+|1102| The two-factor authenticator code is incorrect | Please enter the correct authenticator code. |403 |
 |1128| Two factor authentication backup code is not configured | The two factor authentication backup code is not enabled, please enable or configure two factor authentication for login. |403 |
 |1129| Two factor authentication backup bode is not valid or has already been used | The two factor authentication backup code is not valid or has already been used, please use a valid two factor authentication backup code for login. |403 |
