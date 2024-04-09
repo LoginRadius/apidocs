@@ -187,8 +187,27 @@ For more details on password hashing, password salting and upgrading the hashing
 
 If you want to change the Hashing Algorithm, click the **REQUEST CHANGE** button and raise the support ticket. [This document](/authentication/concepts/password-hashing-and-salting/) explains how LoginRadius will handle hashing of existing and new customers password in case of hashing algorithm upgrade.
 
+## Part 7 - Password Visibility
 
-## Part 7 - Next Steps
+You have the option to view the typed password by clicking a button while entering it. This feature can be implemented using JavaScript, as illustrated below:
+
+To enable the show/hide password option for the password field, set the "passwordVisibilityControl" flag to true using common options:
+
+```
+commonOptions = {};
+commonOptions.passwordVisibilityControl = true;
+```
+
+Similarly, to enable the show/hide password option for the confirm password field, set the "confirmPasswordVisibilityControl" flag to true using common options:
+
+```
+commonOptions = {};
+commonOptions.confirmPasswordVisibilityControl = true;
+```
+
+This allows users to toggle between displaying and hiding the password input for improved usability and security.
+
+## Part 8 - Next Steps
 
 The following is the list of features you might want to add-on to the above implementation:
 
