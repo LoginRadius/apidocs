@@ -1,0 +1,16 @@
+{ "name": "Admin Console Release 25.12.0",
+    "description": "The following release of the LoginRadius Admin Console brings you some improvements. See below for details on the notable changes that have been applied to the Admin Console.",
+    "changelog": {
+        "IMPROVED": [
+            {
+                "text": "Extended fields have been added for the <a href='https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/openid-connect' target='_blank'>Federated SSO > OpenID Connect</a> and <a href='https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/oauth2' target='_blank'>OAuth2</a> flow under the Admin Console."
+            },
+            {
+                "text": "To enhance the support experience, any ticket categorized under <strong>'Billing'</strong> or <strong>'Account'</strong> will now directly involve the billing team alongside the creation of a support ticket."
+            }
+        ]
+    },
+    "auther": "Gurjyot Singh",
+    "created_date": "2024-04-10",
+    "status": "public"
+}
