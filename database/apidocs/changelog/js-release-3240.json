@@ -1,0 +1,20 @@
+{
+    "name": "JS Release 3.24.0",
+    "description": "This JavaScript release brings new features and an improvement to our LoginRadius V2JS library, please see below for details:",
+    
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "The functionality to show and hide the text in the password field is available on the LoginRadius hosted page."
+            }
+        ],
+        "IMPROVED": [
+            {
+                "text": "We've introduced the <strong>qrCodeAuthentication</strong> commonOptions into our <a href='/docs/libraries/js-libraries/getting-started/#initializationofloginradiusobject3'>JS Libraries</a> to facilitate compatibility with generic Authenticators."
+            }
+        ]
+    },
+    "auther": "Michelle Rathod",
+    "created_date": "2024-04-10",
+    "status": "public"
+}
