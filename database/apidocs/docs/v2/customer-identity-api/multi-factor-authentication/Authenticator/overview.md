@@ -1,28 +1,28 @@
-# Google Authenticator Workflow
+# Authenticator Workflow
 
 ## Overview
 
-In the Google Authenticator flow, consumers get an Authenticator Code via the Google Authenticator App installed on their mobile device to be consumed at the time of the 2nd step of MFA.
+In the Authenticator flow, consumers get an Authenticator Code via the Authenticator App installed on their mobile device to be consumed at the time of the 2nd step of MFA.
 
 **Flow Diagram:**
-![MFA by Google Authenticator](https://apidocs.lrcontent.com/images/MFA-by-Google-Authenticator_3623610303aa257c65.98020955.png "MFA by Google Authenticator")
+![Authenticator Flow](https://apidocs.lrcontent.com/images/flow_1019494402661614e6684b71.02082616.png "Authenticator Flow")
 
-To implement the Google Authenticator workflow, take the following steps:
+To implement the Authenticator workflow, take the following steps:
 
 1. Configure the [Multi-Factor Authentication settings in the Admin Console](https://adminconsole.loginradius.com/platform-security/multi-layered-security/multi-factor-authentication/google-authenticator)
 
-   Next, you will need to decide how you will implement the Google Authenticator Workflow.
+   Next, you will need to decide how you will implement the Authenticator Workflow.
 
-2. There are 2 different ways to implement Google Authenticator MFA with LoginRadius:
+2. There are 2 different ways to implement Authenticator MFA with LoginRadius:
 
-   - [Google Authenticator Implementation with the LoginRadius JavaScript Interface ](#googleauthenticatorimplementationwiththeloginradiusjavascriptinterface6)
-   - [Google Authenticator API Implementation](#googleauthenticatorapiimplementation7)
+   - [Authenticator Implementation with the LoginRadius JavaScript Interface](#authenticator-implementation-with-the-loginradius-javascript-interface)
+   - [Authenticator API Implementation](#authenticator-api-implementation)
 
-### Admin Console Configuration for Google Authenticator
+### Admin Console Configuration for Authenticator
 
 To implement this, please follow the below steps:
 
-1.  The first step to configure Google Authenticator is to enable it in your LoginRadius Admin Console.
+1.  The first step to configure Authenticator is to enable it in your LoginRadius Admin Console.
 
     > **Note:** LoginRadius supports configuring Google Authenticator, Microsoft Authenticator, Twilio Authy Authenticator, LastPass, Dashlane, Duo, and various other authenticator applications that support both time-based one-time passwords (TOTP) and HMAC-based one-time passwords (HOTP) for authentication. You can conveniently manage these settings through the [Platform Security > Multi Factor Authentication > Authenticator Apps](https://adminconsole.loginradius.com/platform-security/multi-layered-security/multi-factor-authentication/authenticator-apps) section of the Admin Console. For further information, please reach out to [LoginRadius support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
@@ -48,7 +48,7 @@ To implement this, please follow the below steps:
 
     ![MFA](https://apidocs.lrcontent.com/images/MFA2_687293866575ffd8abb1c7.15430598.png "MFA")
 
-### Google Authenticator Implementation with the LoginRadius JavaScript Interface
+### Authenticator Implementation with the LoginRadius JavaScript Interface
 
 Follow the steps below to integrate MFA using the LoginRadius JavaScript Interface.
 
@@ -58,15 +58,15 @@ Follow the steps below to integrate MFA using the LoginRadius JavaScript Interfa
 
     Here are the available options:
 
-    - two-factor authentication (Required): This option is required and needs to be set to true to ensure that the JavaScript interface will load the Multi-Factor prompts.
+    - twoFactorAuthentication (Required): This option is required and needs to be set to true to ensure that the JavaScript interface will load the Multi-Factor prompts.
 
-    - Google authentication (Required): This option is required and needs to be set to true to ensure that the JavaScript interface will load the Google Authenticator prompts.
+    - qrCodeAuthentication (Required): This option is required and needs to be set to true to ensure that the JavaScript interface will load the Authenticator prompts.
 
 3.  Upon successful login, you can add an additional interface for the customer to be able to customize their Multi-Factor settings. For example, disable Multi-Factor (if the MFA workflow mode is optional).
 
     If you wish to add this, please see our [JavaScript Interface instructions](/api/v2/user-registration/user-registration-getting-started#createtwofactorauthentication26).
 
-### Google Authenticator API Implementation
+### Authenticator API Implementation
 
 Follow the steps below to implement MFA using a mix of front-end and back-end API calls:
 
@@ -82,7 +82,7 @@ Follow the steps below to implement MFA using a mix of front-end and back-end AP
 
     - **MFA Phone Login:** If your API has been configured for Phone-based Authentication, use this API to authenticate the user via phone.
 
-    Upon successful login, the user will receive a JSON response containing information relevant to performing the Google Authenticator login:
+    Upon successful login, the user will receive a JSON response containing information relevant to performing the Authenticator login:
 
     ```
 
@@ -123,6 +123,6 @@ Follow the steps below to implement MFA using a mix of front-end and back-end AP
 
 2.  Allow the consumer to log in by providing the passcode received via their Authenticator mobile app using either the [MFA Validate Authenticator Code](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-authenticator-code), which takes the passcode, or the second-factor authentication token.
 
-3. In the case of optional MFA, you can use [MFA Verify Authenticator Code](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-verify-authenticator-code) API, which accepts the access token as a parameter to validate an Authenticator Code as part of the MFA process.
+3. In the case of optional MFA, you can use [MFA Verify Authenticator Code](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-verify-authenticator-code) API to validate an Authenticator Code as part of the MFA process.
 
 4.  Provide additional workflows or options to the consumer by leveraging the MFA API. For example, allow your consumers to remove Multi-Factor Authentication from their login process by using the [MFA Reset Authenticator by Token API](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/) API call, and you can remove MFA from their login by calling [MFA Reset Authenticator by UID API](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-uid/) API on the server-side.
