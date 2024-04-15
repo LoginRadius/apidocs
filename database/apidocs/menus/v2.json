@@ -1121,7 +1121,7 @@
       ],
       "Authenticator": [
         {
-          "url": "v2/customer-identity-api/multi-factor-authentication/Authenticator/overview/",
+          "url": "v2/customer-identity-api/multi-factor-authentication/authenticator/overview/",
           "title": "Overview",
           "type": "DOC"
         },

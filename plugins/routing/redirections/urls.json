@@ -7622,6 +7622,14 @@
   "newLink": "api/v2/customer-identity-api/overview/"
 },
 {
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/Google-Authenticator/overview",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/overview/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/Google-authenticator/overview",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/overview/"
+},
+{
   "oldLink": "developer/guide/drupal",
   "newLink": "libraries/turn-key-plugins/drupal-v7-x-customer-identity-module-instructions/"
 }
