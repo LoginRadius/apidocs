@@ -55,7 +55,7 @@ var postmanLinks_v2 = {
     "Social Login": "25783581-ea9f7f2e-82cf-4b0d-a4e0-34bcd0cde515",
     //Below This Multifactor Tabs
     "Multi-Factor Authentication": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
-    "Google Authenticator": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
+    "Authenticator": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
     "SMS Authenticator": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
     "Email Authenticator": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
     "Security Question Authenticator": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
