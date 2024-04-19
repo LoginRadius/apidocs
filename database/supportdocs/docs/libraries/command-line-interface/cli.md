@@ -498,7 +498,7 @@ lr get smtp-configuration [flags]
 #### Examples
 ```
 $ lr get smtp-configuration
-SMTP Providers: Mailazy
+SMTP Providers: SendGrid
 Key: <Key>
 Secret: <Secret>
 From Name: <Name>
@@ -691,8 +691,8 @@ lr add smtp-configuration [flags]
 #### Examples
 ```
 $ lr add smtp-configuration
-SMTP Providers: Mailazy
-If you don't have a mailazy account. Please Create a mailazy account via https://app.mailazy.com/signup
+SMTP Providers: SendGrid
+If you don't have a sendgrid account. Please Create a sendgrid account via https://app.sendgrid.com/
 ? Key: <Key>
 ? Secret: <Secret>
 ? From Name: <Name>
@@ -862,9 +862,9 @@ lr set smtp-configuration [flags]
 #### Examples
 ```
 # SMTP Provider's Names we can use in set commands
-# Mailazy, AmazonSES-USEast, AmazonSES-USWest, AmazonSES-EU, Gmail, 
+# AmazonSES-USEast, AmazonSES-USWest, AmazonSES-EU, Gmail, 
 Mandrill, Rackspace-mailgun, SendGrid, Yahoo, Other
-$ lr set smtp-configuration -p Mailazy
+$ lr set smtp-configuration -p SendGrid
 ? Key: <Key>
 ? Secret: <Secret>
 ? From Name: <Name>

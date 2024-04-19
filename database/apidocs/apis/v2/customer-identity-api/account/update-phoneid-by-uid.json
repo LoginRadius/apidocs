@@ -86,7 +86,7 @@
     "Email": [
         {
             "Type": "Primary",
-            "Value": "newemail04r@mailazy.com"
+            "Value": "newemail04r@sendgrid.com"
         },
         {
             "type": "Secondary",
