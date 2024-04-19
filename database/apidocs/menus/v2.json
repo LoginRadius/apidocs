@@ -125,11 +125,6 @@
               "type": "DOC"
             },
             {
-              "url": "v2/admin-console/platform-configuration/communication-configuration/email/providers/mailazy/",
-              "title": "Mailazy",
-              "type": "DOC"
-            },
-            {
               "url": "v2/admin-console/platform-configuration/communication-configuration/email/providers/mailgun/",
               "title": "Mailgun",
               "type": "DOC"

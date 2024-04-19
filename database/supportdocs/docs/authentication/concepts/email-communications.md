@@ -45,66 +45,49 @@ The following are the configuration steps if you have decided to go ahead with t
 
 1. Navigate to [Platform Configuration > Identity Workflow > Communication Configuration > Email Configuration](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/email-configuration) and select a SMTP provider from the list of default SMTP providers.
 
-   ![1. Communication Configuration - Email Configuration](https://apidocs.lrcontent.com/images/1--Communication-Configuration---Email-Configuration_284516286ed77595391.51321616.png "1. Communication Configuration - Email Configuration")
+   ![1. Communication Configuration - Email Configuration](https://apidocs.lrcontent.com/images/Communication-Configuration-LoginRadius-User-Dashboard-2_19294774616622b04241d510.85523760.png "1. Communication Configuration - Email Configuration")
 
-2. Fill the following details in case of **Mailazy SMTP provider**:
+2. For example, you can fill the following details in case of default SMTP such as **SendGrid SMTP provider**:
 
-   - **SMTP Provider:** Select the Mailazy SMTP provider from the drop-down list.
-   - **Key:** Configure Mailazy to get the Key.
-   - **Secret:** Configure Mailazy to get the Secret.
+   - **SMTP Provider:** Select the SendGrid SMTP provider from the drop-down list.
+   - **SMTP User Name:** Configure SendGrid to get the username.
+   - **SMTP Password:** Configure SendGrid to get the password.
    - **From Name:** Enter the first name of the sender.
    - **From Email Address:** Enter the email of the sender.
-
-     > **Note:** Use the same domain as verified for the Mailazy configuration.
-
-   ![2. Communication Configuration - Mailazy](https://apidocs.lrcontent.com/images/2--Communication-Configuration---Mailazy_55296286effce09b08.69521870.png "2. Communication Configuration - Mailazy")
-
-   Kindly refer to [Mailazy SMTP Configuration](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/mailazy/) documentation for more details on configuring Mailazy as your SMTP provider.
-
-3. Fill the following details in case of SMTP providers **other than the Mailazy**:
-
-   - **SMTP Provider:** Select the SMTP provider from the drop-down list.
-   - **SMTP Host:** If you have selected the SMTP provider from the default list (rather than Custom SMTP Provider), this will be autofilled.
-   - **SMTP Port:** If you have selected the SMTP provider from the default list (rather than Custom SMTP Provider), this will be autofilled.
-   - **From Name:** Enter the first name of the sender.
-   - **From Email Address:** Enter the email of the sender.
-   - **SMTP Username:** Enter the SMTP username.
-   - **SMTP Password:** Enter the password for the SMTP username.
    - **Enable SSL:** Select this option to make the email communication more secure.
 
-   > **Note:**
-   >
-   > - LoginRadius does not support Port 25, non SSL email transactions for security reasons. Because this is the default port, it has been extensively used by the spammers too.
-   >
-   > - **OutPorts 25:** Port 25 is the default TCP port that comes in everyone's mind to connect SMTP and send emails, it is definitely not the recommended one.
+     > **Note:** Use the same domain as verified for the SendGrid configuration.
 
-4. Verify your configuration by clicking the **Verify** button. The following screen will appear:
+   ![2. Communication Configuration - SendGrid](https://apidocs.lrcontent.com/images/Communication-Configuration-LoginRadius-User-Dashboard-4_9570618726622bafca23159.36313056.png "2. Communication Configuration - SendGrid")
 
-   ![3. Communication Configuration - Verify Email](https://apidocs.lrcontent.com/images/3--Communication-Configuration---Verify-Email_256216286f2bf963871.26119852.png "3. Communication Configuration - Verify Email")
+   Kindly refer to [SendGrid SMTP Configuration](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/sendgrid/) documentation for more details on configuring SendGrid as your SMTP provider.
 
-5. Enter the email address in the **To Email** field and click the **Send** button. If the email is sent successfully, a success message will be displayed on the screen.
+3. Verify your configuration by clicking the **Verify** button. The following screen will appear:
 
-6. Save the entered email configuration by clicking the **Save** button.
+   ![3. Communication Configuration - Verify Email](https://apidocs.lrcontent.com/images/ss-Chat_21172950656622b4b14323e4.65578594.png "3. Communication Configuration - Verify Email")
+
+4. Enter the email address in the **To Email** field and click the **Send** button. If the email is sent successfully, a success message will be displayed on the screen.
+
+5. Save the entered email configuration by clicking the **Save** button.
 
 > **Note:** The following is the list of default SMTP providers:
 >
-> - [**Mailazy**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/mailazy/)
 > - [**Gmail**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/gmail/)
 > - [**Mandrill**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/mandrill/)
 > - [**Rackspace-mailgun**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/mailgun/)
 > - [**SendGrid**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/sendgrid/)
 > - [**Yahoo**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/yahoo/)
-> - **Amazon SES (US East)**
-> - **Amazon SES (US East)**
-> - **Amazon SES (US East)**
+> - [**Amazon SES (US East)**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/aws/)
+> - [**Amazon SES (US West)**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/aws/)
+> - [**Amazon SES (EU)**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/aws/)
 
-### Configure your SMTP Provider
+### Configure your own Custom SMTP Provider
 
-The following are the configuration steps if you have decided to go ahead with your SMTP provider:
+The following are the configuration steps if you have decided to go ahead with your own Custom SMTP provider:
 
 1. Navigate to [Platform Configuration > Identity Workflow > Communication Configuration > Email Configuration](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/email-configuration) and select the **Custom SMTP Providers**.
 
-   ![4. Communication Configuration - Custom SMTP Provider](https://apidocs.lrcontent.com/images/4--Communication-Configuration---Custom-SMTP-Provider_250196286f50ccee833.35821751.png "4. Communication Configuration - Custom SMTP Provider")
+   ![4. Communication Configuration - Custom SMTP Provider](https://apidocs.lrcontent.com/images/Communication-Configuration-LoginRadius-User-Dashboard-2_9938035916622bbec5a6f78.27867855.png "4. Communication Configuration - Custom SMTP Provider")
 
 2. Fill the following details in the email configuration form:
 
@@ -117,11 +100,17 @@ The following are the configuration steps if you have decided to go ahead with y
    - **SMTP Password:** Enter the password for the SMTP username.
    - **Enable SSL:** Select this option to make the email communication more secure.
 
-   ![5. Communication Configuration - Custom SMTP Provider - Form](https://apidocs.lrcontent.com/images/5--Communication-Configuration---Custom-SMTP-Provider---Form_38316286f911e6aa05.40514364.png "5. Communication Configuration - Custom SMTP Provider - Form")
+   > **Note:**
+   >
+   > - LoginRadius does not support Port 25, non SSL email transactions for security reasons. Because this is the default port, it has been extensively used by the spammers too.
+   >
+   > - **OutPorts 25:** Port 25 is the default TCP port that comes in everyone's mind to connect SMTP and send emails, it is definitely not the recommended one.
+
+   ![5. Communication Configuration - Custom SMTP Provider - Form](https://apidocs.lrcontent.com/images/Communication-Configuration-LoginRadius-User-Dashboard-6_19791744156622bb81b1a0a4.84888374.png "5. Communication Configuration - Custom SMTP Provider - Form")
 
 3. Verify your configuration by clicking the **Verify** button. The following screen will appear:
 
-   ![6. Communication Configuration - Custom SMTP Provider -Verify](https://apidocs.lrcontent.com/images/6--Communication-Configuration---Custom-SMTP-Provider--Verify_73676286f71d1a6478.41894467.png "6. Communication Configuration - Custom SMTP Provider -Verify")
+   ![6. Communication Configuration - Custom SMTP Provider -Verify](https://apidocs.lrcontent.com/images/ss-Chat-1_4516441726622b8bfb51bf5.76443306.png "6. Communication Configuration - Custom SMTP Provider -Verify")
 
 4. Enter the email address in the **To Email** field and click the **Send** button. If the email is sent successfully, a success message will be displayed on the screen.
 
