@@ -7632,6 +7632,10 @@
 {
   "oldLink": "developer/guide/drupal",
   "newLink": "libraries/turn-key-plugins/drupal-v7-x-customer-identity-module-instructions/"
+},
+{
+  "oldLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/providers/mailazy",
+  "newLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/overview/"
 }
 ]
 
