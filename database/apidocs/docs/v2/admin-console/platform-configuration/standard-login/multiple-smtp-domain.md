@@ -20,7 +20,7 @@ When you click on the **Edit** button, below screen will appear to you with the 
 
 ![From Name](https://apidocs.lrcontent.com/images/image4_196486333379aa3c6a6.00207371.png "From Name")
 
-You can configure the sender’s email with multiple domains for various email templates if your SMTP provider supports the sender’s email with different domains in a single account, e.g., Mailazy supports configuring Multiple Domains in a single account.
+You can configure the sender’s email with multiple domains for various email templates if your SMTP provider supports the sender’s email with different domains in a single account, e.g., SendGrid supports configuring Multiple Domains in a single account.
 
 ### Enable Multiple SMTP Domain feature in the Admin Console
 
@@ -50,4 +50,4 @@ The following are the various business rules applicable to the **Multiple SMTP D
 	    
 	-  **Case 2:** Globally configured **FROM NAME** and **FROM EMAIL** will be utilized if the **domain** of **FROM EMAIL** does not match the **domain** set in the **Global SMTP** Provider.
 	    
-	-  **Case 3:** LoginRadius can also support the use case where you need to use emails of multiple domains for various email templates in your accounts **(for example - @abc.com domain in FROM EMAIL for Email Template 1 and @xyz.com domain in FROM EMAIL for Email Template 2)**. For this you will need to use the **Multiple Domain** features provided by **Mailazy** or other **SMTP Providers** which support multiple domains.
+	-  **Case 3:** LoginRadius can also support the use case where you need to use emails of multiple domains for various email templates in your accounts **(for example - @abc.com domain in FROM EMAIL for Email Template 1 and @xyz.com domain in FROM EMAIL for Email Template 2)**. For this you will need to use the **Multiple Domain** features provided by **SendGrid** or other **SMTP Providers** which support multiple domains.

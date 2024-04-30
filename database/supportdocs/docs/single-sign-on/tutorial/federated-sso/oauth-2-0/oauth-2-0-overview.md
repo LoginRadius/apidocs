@@ -1,10 +1,6 @@
 # OAuth 2.0 Introduction
 
-
-
-#### Overview
-
-  
+## Overview
 
 OAuth is an open-standard authorization protocol and provides clients secure delegated access to server resources on the behalf of the owner of a resource.
 
@@ -12,40 +8,27 @@ Using OAuth 2.0 the resource owners can authorize the third-party clients to acc
 
 The authorization server issues an access_token to a third-party client with the approval of the resource owner and the third party then uses the access_token to access the protected resources hosted by the resource server.
 
-
-
-#### Oauth 2.0 with LoginRadius
+## Oauth 2.0 with LoginRadius
 
 LoginRadius Identity Platform supports standard  [OAuth 2.0 specs](https://tools.ietf.org/html/rfc6749)  to integrate your OAuth client with LoginRadius. Thus, you can allow your application's customers to log in to an OAuth-enabled application without creating an account.  This document goes over the full process of getting the SSO feature implemented with OAuth 2.0.
 
-  
-
 This section covers the basic knowledge of [OAuth Roles](#oauthroles2) that you need to know before configuring the OAuth 2.0 in the LoginRadius Identity Platform.
 
-  
-
-#### OAuth Roles
+### OAuth Roles
 
 OAuth 2.0 has the following four roles:
 
 - **Resource Owner:** The resource owner is the consumer who authorizes an application to access their account. The application’s access to the customer’s account is limited to the scope of the authorization granted (e.g., read or write access).  
-      
-    
+
 - **Client (Service Provider):** The client is the application that wants to access the consumer account. Before it may do so, the consumer must authorize the application, and the API must validate the authorization.  
       
-    
 - **Resource Server (Identty Proivder LogingRadius) :**  The server hosts the protected resources and this will handle the authenticated request after the client or application obtained an access token.  
       
-    
 - **Authorization Server (Identity Provider, LoginRadius):**  The server that authenticates the Resource Owner, and issues a token after authorization.
-    
-
 
 ## Setup Guide of Oauth 2.0 With LoginRadius
 
 Following is the step-by-step guide to Implementing Oauth 2.0 with LoginRadius
-
-  
 
 - [LoginRadius Admin Console Configuration](#loginradiusadminconsoleconfiguration4)
     
@@ -53,40 +36,77 @@ Following is the step-by-step guide to Implementing Oauth 2.0 with LoginRadius
     
 - [Supported Query Parameter](#supportedqueryparameter13)
   
-- [Additional Steps in Oauth 2.0](#additionalstepsinoauth14)
-    
+- [Additional Steps in Oauth 2.0](#additionalstepsinoauth14)  
 
-  
+### LoginRadius Admin Console Configuration
 
-#### LoginRadius Admin Console Configuration
+Following the steps, you can configure your OAuth 2.0 settings in the LoginRadius Admin Console.
 
-You can configure your Oauth 2.0 settings in the LoginRadius Admin Console under:
+1. Navigate to the [Platform Configuration > Federated SSO > OAUTH2](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/oauth2)
 
-**Platform Configuration ➔ Access Configuration ➔ Federated SSO ➔ OAuth2**
+  ![Step 1](https://apidocs.lrcontent.com/images/Step-1_80332463866288c071cc068.11837509.png "Step 1")
 
-![Oauth2.0](https://apidocs.lrcontent.com/images/Federated-Sso-LoginRadius-User-Dashboard_302654186643af2b31b1de8.06516769.png "Oauth2.0")
+2. Click on the **Add App** button, followed by entering an **App Name**, i.e., the name of your OpenID Connect App, selecting an **App Type**, and clicking the **CREATE** button.
 
-To begin configuration you will need to click "Add App" and fill out the form as follows:
+  ![Create New App](https://apidocs.lrcontent.com/images/Step-2_73352140666288c9b8f0585.37340172.png "Create New App")
 
-- **AppName:** The name of your Oauth Connect App.
+3. To begin configuration, you must fill out the form referring to the glossary below.
 
-- **Algorithm:** The algorithm you would like to use for Oauth App (RS256 is currently the only algorithm supported).
+    ![OAUTH2](https://apidocs.lrcontent.com/images/Step-3_150814526966288d5a28e954.78726804.png "OAUTH2")
 
-- **Grant Type:** Select the option by using which the app will obtain the access token.
+    - **App Name:** The name of your OAuth App.
 
-- **Token Expiration (Seconds):** Specify the Access Token lifetime, and after that time, the access token will expire.
+    - **App Type:**
+        - Native App
+        - Single Page App
+        - Web App
 
-- **Token Endpoint Auth Method:** Select the client authentication method to authenticate the Authorization Server while using the token endpoint.
+    - **Client Id** and **Client Secret** is uniquely generated OIDC App-specific **Client Id (GUID)** and **Client Secret (HASH)**
 
-- **Force Reauthentication:** If checked, reauthentication is required for the authorization request. Otherwise, reauthentication is not applicable.
+        > **Note:** Make sure to copy your Client Secret as it is visible only for the first time.
 
-> **Note:** Now you don't have to provide **Secret Key** as LoginRadius automatically generates for you.
+    - **Algorithm:** The algorithm you would like to use for OpenID Connect (_RS256 is currently the only algorithm supported_).
 
-Once this is complete, click on **ADD**.
+    - **Grant Type:** Select any of the following option by using which the app will obtain the access token.
+        - Authorization Code
+        - Implicit
+        - Password Credentials
+        - Refresh Token 
+        - **Device Code:** The following fields would appear when opting for the **Device Code flow**.
+            - Verification URL
+            - Verification Complete URL
+            - Device Code Expiration (_Seconds_)
+            - Polling interval (_Seconds_)
+            - User Code Character Set
 
-![Oauth2.0 implementation](https://apidocs.lrcontent.com/images/Federated-Sso-LoginRadius-User-Dashboard-1_617202360643af3eb36a3e7.78967436.png "Oauth2.0 implementation")
+    - **Token Endpoint Auth Method:** Select the client authentication method to authenticate the Authorization Server while using the token endpoint.
 
-#### OAuth 2.0 Implementation
+    - **Login Redirect URL (Optional):** Whitelisted Callback Redirect URI.
+
+    - **CORS Origin:** For Single Page Application, Native, and where Client Secret can not be kept confidential, JavaScript web origin will be whitelisted here for OAuth API.
+
+    - **Token Expiration (Seconds):** Specify the Access Token lifetime, and after that time, the Access Token will expire.
+
+    - **Refresh Token TTL (Seconds):** Specify the Refresh Token lifetime, and after that time, the Refresh Token will expire.
+
+    - **Force Reauthentication:** If checked, reauthentication is required for the authorization request. Otherwise, reauthentication is not applicable.
+
+        > **Note:** Now you don't have to provide **Secret Key** as LoginRadius automatically generates for you.
+
+    - **Scopes for Management API (Optional):** Only allowed scope with respect to the Management API will work with the Client ID and Client Secret
+
+    - Now, click on the **SAVE** button.
+
+4. In addition to configuring the application, when enabled, you can configure the **Connection**.
+
+    ![Enable Connections](https://apidocs.lrcontent.com/images/Step-4_14339142266628a1f0420c35.78042973.png "Enable Connections")
+
+5. The OAuth App can enable or disable the connection for the flow from the existing global Social/Custom IDP providers.
+
+    ![enter image description here](https://apidocs.lrcontent.com/images/Step-5_3810336536628a466863b16.21139115.png "enter image title here")
+
+
+### OAuth 2.0 Implementation
 
 This guide will take you through the implementation of OAuth 2.0 and flow with LoginRadius. It covers everything you need to know on how to configure OAuth 2.0 in your LoginRadius account and deploy it onto your web application.
 
@@ -136,20 +156,18 @@ To begin with Authorization Code flow, your application should redirect the cons
 
 **Api Endpoint:**
 ```
-https://{HD/CD}/service/oauth/{OauthAppName}/authorize?client_id={LoginRadius API key}&redirect_uri={Callback URL}&scope={Scope}&response_type=code&state={random long string}
+https://{HD/CD}/service/oauth/{OauthAppName}/authorize?client_id={OAuth Client ID}&redirect_uri={Callback URL}&scope={Scope}&response_type=code&state={random long string}
 ```
 
 > **Note:**
 > - **HD:** In the above endpoint, HD will be a hosted domain, and the final authorization endpoint will be something like this, e.g.: `https://<LoginRadius Site Name>.hub.loginradius.com/service/oauth/{OauthAppName}/authorize`
 > - **CD:** Custom Domain
 
-
-
 **API Method: GET**
 
 Available Query Parameters
 
-- **client_id:** [required]  The identifier of the customer at the authorization server. Enter the [LoginRadius API key](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
+- **client_id:** OAuth Client ID
     
 - **redirect_uri:** [required]  Callback URL of your site where you want to redirect back your customers after an authorization code is granted.
     
@@ -190,7 +208,7 @@ https://{HD/CD}/api/oauth/{OAuthAPPName}/token
 
 Here is an explanation of the Request Body Parameter :
 
-- **client_id:** [required] [LoginRadius API key](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
+- **client_id:** OAuth Client ID
     
 - **redirect_uri:** [required] Callback URL of your site where you want to redirect back your customers.
 
@@ -203,6 +221,7 @@ Here is an explanation of the Request Body Parameter :
 - **response_type:** [optional] Value must be 'token' always.
  
 **API Response containing the access_token:**
+
 ```
 {
 "access_token": {Loginradius Access Token},
@@ -238,7 +257,7 @@ https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id={client_id}&r
 
 **Available Query Parameters**
 
--   **client_id:** [required] [Loginradius API key](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
+-   **client_id:** [required] OAuth Client ID
     
 -   **redirect_uri:** [required] This will be the callback URL of your site where you want to redirect back your users for e.g https://abc.com.
     
@@ -268,7 +287,8 @@ We provide the ready-to-use **code** to generate the **code_verifier** and **cod
   
 
 > **Note:**
-**The client_secret":**{Loginradius app API secret} is an optional parameter, you may or may not use this for validation purposes.
+
+**The client_secret":** OAuth Client Secret
 
 The provider will redirect you to the authentication/login page and you’ll get the code after successful authentication.
 
@@ -286,8 +306,8 @@ https://<siteurl>/api/oauth/{OAuthAppName}/token
 **Request Body:**
 ```
 {
-"client_id":"<Your LoginRadius API Key>",
-"client_secret":"<Your LoginRadius API Secret>",
+"client_id":"<OAuth Client ID>",
+"client_secret":"<OAuth Client Secret>",
 "redirect_uri":"redirect_uri",
 "response_type":"token",
 "grant_type": "authorization_code",
@@ -301,9 +321,9 @@ Here is an explanation of the Request Body Parameter :
 
   
 
--   **client_id:** [required] Loginradius app api key,
+-   **client_id:** [required] OAuth Client ID,
     
--   **client_secret:** [optional if using code verifier] Loginradius app api secret,
+-   **client_secret:** [optional if using code verifier] OAuth Client Secret,
     
 -   **redirect_uri:**[required] callback url passed in the authorization API,
 
@@ -356,7 +376,7 @@ To begin with Implicit flow , your application should redirect the consumer to t
 
 **API Endpoint:**
 ```
-https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id={LoginRadius API key}&redirect_uri={Callback URL}&scope={Scope}&response_type=token&state={random long string}
+https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id={OAuth Client ID}&redirect_uri={Callback URL}&scope={Scope}&response_type=token&state={random long string}
 ```
 **API Method: GET**
 
@@ -364,7 +384,7 @@ https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id={LoginRadius 
 
 The access token request will contain the following parameters. Here is an explanation of the URL Parameter:
 
--   **client_id:** [required]The identifier of the customer at the authorization server. Enter the [LoginRadius API key](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
+-   **client_id:** [required] OAuth Client ID
     
 -   **redirect_uri:** [required] Callback URL of your site where you want to redirect back the customers after an authorization code is granted.
     
@@ -416,8 +436,8 @@ https://<siteurl>/api/oauth/{OauthAppName}/token
 Request Body:
 ```
 {
-"client_id": "<Your LoginRadius API Key>",
-"client_secret": "<Your LoginRadius API Secret>",
+"client_id": "<OAuth Client ID>",
+"client_secret": "<OAuth Client Secret>",
 "grant_type": "password",
 "username": "<Should be, email/phoneid/username of the customer>",
 "password": "<The password of the account to login>",
@@ -428,9 +448,9 @@ Request Body:
 
 Here is an explanation of the Request Body Parameters :
 
--   **client_id:** [required] [LoginRadius API key.](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
+-   **client_id:** [required] OAuth Client ID
     
--   **client_secret:** [optional] [LoginRadius API secret.](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
+-   **client_secret:** [optional] OAuth Client Secret
     
 -   **grant_type:** [required] Value must always be 'password'.
     
@@ -501,11 +521,11 @@ There are two devices ( one input restricted device and other browser-based devi
 
   
 
-1. On the **verification URL**, the consumer will enter the device_code, the customer will be redirected to the Device Code Confirm URL with the user_code `(https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)`
+1. On the **verification URL**, the consumer will enter the device_code, the customer will be redirected to the Device Code Confirm URL with the user_code `(https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id=<OAuth Client ID>&user_code=<User Code Genertaed from the Get Device Code API>)`
 
   
 
-2. The Device Code Confirm URL with the user_code `(https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)` will show the IDX page to login.
+2. The Device Code Confirm URL with the user_code `(https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id=<OAuth Client ID>&user_code=<User Code Genertaed from the Get Device Code API>)` will show the IDX page to login.
 
 3. After login, the consumer will be redirected to the **afterverificationURL**.
 
@@ -591,7 +611,7 @@ You can use the table below for an overview of all of the different parameters t
 
 |  |  | 
 |--|--|
-| client_id | (required) [Loginradius API Key](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0) |
+| client_id | (required) OAuth Client ID |
 | redirect_uri | (required) This is the URI to which the response should be sent.**Note:** This must be whitelisted in the App Section in the LoginRadius Admin Console.|
 |response_type | (required) This defines the processing flow to be used when forming the response.<br><br>**Authorization Code Flow or PKCE Flow:**<br> response_type: code<br><br> <br><b>**Note:** LoginRadius also supports adding multiple response types and the value must be separated by space, like **response_type: code token.**<br> **Implicit Flow:**<br> response_type: token<br>response_type: code token<br> <br>**Exchanging the Code for an Access Token** <br>response_type: token<br> |
 | state | (optional) It is recommended that you use this parameter to maintain the state between the request and the callback. Typically, Cross-Site Request Forgery (CSRF, XSRF) mitigation is done by cryptographically binding the value of this parameter with a browser cookie. | 
@@ -622,9 +642,9 @@ Once you have obtained an access_token, you can use the  [Refresh Access Token A
 
 Here is an explanation of the Request Body Parameter:
 
--   **client_id:** [required]  [LoginRadius API key.](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
+-   **client_id:** [required] OAuth Client ID
     
--   **client_secret:** [required] [LoginRadius API secret](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0).
+-   **client_secret:** [required] OAuth Client Secret
     
 -   **grant_type:** [required] The grant_type needs to be a refresh_token.
     

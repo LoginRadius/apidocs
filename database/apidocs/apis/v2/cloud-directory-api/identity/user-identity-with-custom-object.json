@@ -87,11 +87,11 @@
           "Email": [
             {
               "Type": "Primary",
-              "Value": "d1@mailazy.com"
+              "Value": "d1@sendgrid.com"
             },
             {
               "Type": "Secondary",
-              "Value": "d3@mailazy.com"
+              "Value": "d3@sendgrid.com"
             }
           ],
           "Country": {

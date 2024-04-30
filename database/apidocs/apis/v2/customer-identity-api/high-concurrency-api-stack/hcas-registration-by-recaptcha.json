@@ -119,7 +119,7 @@
             "Email": [
                 {
                     "Type": "Primary",
-                    "Value": "test34@mailazy.com"
+                    "Value": "test34@sendgrid.com"
                 }
             ],
             "NoOfLogins": 0,

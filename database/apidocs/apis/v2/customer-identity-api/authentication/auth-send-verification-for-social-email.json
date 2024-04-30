@@ -13,7 +13,7 @@
         "content-Type": "application/x-www-form-urlencoded"
     },
     "response": "json",
-    "description": "This API is used to Send verification email to the unverified email of the social profile.. This API can be used only incase of optional verification workflow.",
+    "description": "This API is used to Send verification email to the unverified email of the social profile. This API can be used only incase of optional verification workflow.",
     "parameters": {
         "Get Parameters": [{
                 "name": "apikey",
