@@ -265,7 +265,7 @@ The availability of data points may depend on the specific social provider you a
     </tr>
     <tr>
         <td>Full Name</td>
-        <td>State/td>
+        <td>State</td>
         <td>Educations</td>
     </tr>
     <tr>
@@ -415,7 +415,7 @@ The availability of data points may depend on the specific social provider you a
     </tr>
     <tr>
         <td>Full Name</td>
-        <td>Website/td>
+        <td>Website</td>
         <td>Verified</td>
     </tr>
     <tr>

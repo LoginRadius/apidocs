@@ -1,6 +1,6 @@
-# SMS/Voice OTP Provider Introduction
+# SMS/Text/Voice OTP Provider Introduction
 
-AAn **SMS/Voice OTP Provider** enables a system to send and receive text messages or Voice OTP to and from an SMS/Voice OTP capable device over the global telecommunication network. The SMS Gateway translates the message and makes it compatible for delivery over the network so that it can reach the recipient.
+A **SMS/Text/Voice OTP Provider** enables a system to send and receive text messages or Voice OTP to and from an SMS/Voice OTP capable device over the global telecommunication network. The SMS Gateway translates the message and makes it compatible for delivery over the network so that it can reach the recipient.
 
 LoginRadius Identity Platform establishes SMS communication by sending the SMS from your SMS provider to your customers. To send out SMS from your 
 SMS provider, you will need to configure the SMS provider settings.
@@ -23,15 +23,19 @@ TThe following steps explain the working of SMS communication in the LoginRadius
 
 **5.** The OTP code is authorized by LoginRadius and subsequently returns a success response to the application.
 
-> **Note:** By default, the LoginRadius only supports **Twilio**. However, if you would like to configure **SMS/Text/Voice services** with other providers such as **InstaAlerts**, **MessageBird**, **Textlocal**, or even **Twilio with WhatsApp**, you can select the [**Custom Text/SMS Provider**](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/text-and-sms-and-voice-otp-configuration) and proceed to configure the same.
+> **Note:** 
+
+> - By default, the LoginRadius only supports **Twilio**. However, if you would like to configure **SMS/Text/Voice OTP services** with other providers such as **InstaAlerts**, **MessageBird**, **Textlocal**, or even **Twilio with WhatsApp**, you can select the [**Custom Text/SMS Provider**](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/text-and-sms-and-voice-otp-configuration) and proceed to configure the same.
+
+> - For more details on configuring these providers, kindly refer to this [**document**](/api/v2/admin-console/platform-configuration/communication-configuration/sms/overview/).
 
 
-Now let's go through the other aspects of SMS configuration, which are **Global SMS/Voice OTP Settings** and **SMS Template Settings**, which are available in the **LoginRadius Admin Console**.
+Now let's go through the other aspects of SMS configuration, which are **Global SMS/Text/Voice OTP Settings** and **SMS Template Settings**, which are available in the **LoginRadius Admin Console**.
 
-- [**Global SMS Settings:**](/authentication/concepts/sms-communication/#partglobalsmssettings0)  You can customize various global SMS settings like OTP length, OTP type, and more.
+- [**Global SMS/Text/Voice OTP Settings:**](/authentication/concepts/sms-communication/#partglobalsmstextvoiceotpsettings0)  You can customize various global SMS settings like OTP length, OTP type, and more.
 - [**SMS Templates:**](/authentication/concepts/sms-communication/#partsmstemplatesettings1) You can view the existing list of default SMS templates available for various events like phone number registration, forgot password, and more. In addition, you can manage existing SMS templates or create a new SMS template based on the requirements.
 
-## Part 1 - Global SMS/Voice OTP Settings
+## Part 1 - Global SMS/Text/Voice OTP Settings
 
 This section will take you through the Global SMS/Voice OTP Settings configuration in your LoginRadius Admin Console. These settings are applicable to all the SMS templates until defined for individual SMS Settings. The individual SMS settings are available in the respective feature section like Phone Login, Passwordless Login, and more.
 
@@ -41,7 +45,7 @@ The following explains the Global SMS/Voice OTP Settings and how you can configu
 **Step 1:** Login to your <a href = https://adminconsole.loginradius.com/ target=_blank>**Admin Console**</a> account and navigate to <a href = https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/global-sms-settings target=_blank>**Platform Configuration > Identity Workflow >  Communication Configuration > Global SMS/Voice OTP Settings**</a>. From the left navigation panel, select the **Global SMS/Voice OTP Settings** option. 
 
 The following screen will appear:
-![enter image description here](https://apidocs.lrcontent.com/images/pasted-image-0_145879269464c2ba70cb6374.39089038.png "SMS otp config")
+![enter image description here](https://apidocs.lrcontent.com/images/Communication-Configuration-LoginRadius-User-Dashboard_89438943566216a0075f811.15596655.png "SMS otp config")
 
 **Step 2:** You can update the default values for the following Global SMS/Voice OTP Settings
 - **OTP Delivery Method:** This dropdown allows you to select the desired OTP delivery method, either "SMS" or "SMS & Voice."
