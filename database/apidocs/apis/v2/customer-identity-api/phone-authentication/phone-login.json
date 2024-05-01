@@ -90,6 +90,11 @@
                 "name": "securityanswer",
                 "is_required": false,
                 "description": "Valid JSON object of Unique Security Question ID and Answer of set Security Question. It is only required for locked accounts when logging in. Details about this feature <a href='/docs/platform-features-overview/user-security/password-management#security-question-during-password-reset-or-account-lockout'>here</a>"
+            },
+            {
+                "name": "g-recaptcha-response",
+                "is_required": false,
+                "description": "Required to pass the acknowledgement received by Google in Google recaptcha authorisation process when the API has been protected under the <a href='https://adminconsole.loginradius.com/platform-security/data-access-protection/api-security/bot-protection' target='_blank'>Bot Protection</a> feature."
             }
         ]
     },
