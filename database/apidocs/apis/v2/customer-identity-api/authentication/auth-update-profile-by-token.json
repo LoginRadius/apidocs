@@ -239,7 +239,14 @@
                 "name": "Authorization",
                 "is_required": true,
                 "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
-            }]	
+            }],	
+            "Post Parameters": [
+                {
+                    "name": "g-recaptcha-response",
+                    "is_required": false,
+                    "description": "Required to pass the acknowledgement received by Google in Google recaptcha authorisation process when the API has been protected under the <a href='https://adminconsole.loginradius.com/platform-security/data-access-protection/api-security/bot-protection' target='_blank'>Bot Protection</a> feature."
+                }
+            ]	
 },
         "outputFormat": {
             "IsPosted": true,
