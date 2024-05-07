@@ -25,13 +25,13 @@ Single Sign-On (SSO) refers to the authentication process that allows your custo
 The following is a representation of the SSO scenario:
 ![enter image description here](https://apidocs.lrcontent.com/images/0_0_197095f4b96eed3fc00.10890318.png "SSO overviewchart")
 
-1. User lands on the a.com to log in, clicking the login link redirects the user to the Identity Provider page. 
+1. User lands on a.com to log in, and clicking the login link redirects the user to the Identity Provider page. 
 
 2. On the Identity Provider page, the user enters the login credentials and gets logged into the a.com application.
 
 3. Later, the user lands on the b.com to log in, clicking the login link redirects the user to the Identity Provider page.
 
-4. Since the user is already logged in on the Identity Profile, the user gets automatically logged into the b.com application.
+4. Since the user is already logged in on the Identity Profile, the user is automatically logged into the b.com application.
 
 Where a.com and b.com applications are the service providers (SP). Since we have been using the Identity Provider and Service Provider terms, let’s have a quick look at their definitions:
 - **Service Provider:** The user visits this application for service. For example, eCommerce application. In the SSO ecosystem, the SP is considered a Slave.
@@ -65,7 +65,7 @@ Accept tokens and identities issued by niche identity providers of your choice a
         <tr style='height:20px;'>
             <td class="s1" dir="ltr">
                  <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-56-39-288_32938184465c291d76f0821.37660252.png" /><br />
-                 <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/saml-providers/domo/">Demo</a></span>
+                 <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/saml-providers/domo/">Domo</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-55-29-694_209779525965c2934f4be3f5.50282141.png" /><br />
@@ -81,7 +81,7 @@ Accept tokens and identities issued by niche identity providers of your choice a
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-54-44-045_89379538965c3a6592c7098.73391788.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/">Ouath2</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/">OAuth2</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-53-44-600_165137682965c3a6872e2fe2.15133628.png" /><br />
@@ -125,7 +125,7 @@ Custom OAuth Provider is the most implemented protocol by the customers to set u
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-54-44-045_89379538965c3a6592c7098.73391788.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/custom-identity-providers/custom-oauth-provider/">Ouath2</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/custom-identity-providers/custom-oauth-provider/">OAuth2</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-53-44-600_165137682965c3a6872e2fe2.15133628.png" /><br />
@@ -144,7 +144,7 @@ Custom OAuth Provider is the most implemented protocol by the customers to set u
 
 There are some third-party applications that do not support industry-standard federated SSO methods like SAML, Oauth/OIDC, JWT, etc. and provide their own mechanism to create a Single Sign-On workflow for identity provider applications. 
 
-LoginRadius provides out of box SSO Connector solutions to create a Single Sign-on user experience between LoginRadius and these applications by leveraging these mechanisms. For more details on Password Delegation refer to our documentation [here](/api/v2/single-sign-on/sso-connector/overview/).
+LoginRadius provides out of the box SSO Connector solutions to create a Single Sign-on user experience between LoginRadius and these applications by leveraging these mechanisms. For more details on Password Delegation refer to our documentation [here](/api/v2/single-sign-on/sso-connector/overview/).
 
 
 
