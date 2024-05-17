@@ -52,9 +52,20 @@ The following screen will appear:
 
 ![enter image description here](https://apidocs.lrcontent.com/images/Passwordless-Login---LoginRadius-User-Dashboard-5_144815e75ee8f01ffd0.87669501.png "")
 
-**Step 2:** Expand the Passwordless Login with Email Settings panel. Enter the desired **Request Limit**, **Request disabled Period** and **Passwordless Login Email Token Validity Limit** and click the **Save** button, as highlighted in the following screen: 
+**Step 2:** Expand the Passwordless Login with Email Settings dropdown on which you can configure the below settings.
 
-![enter image description here](https://apidocs.lrcontent.com/images/pasted-image-0-4_176385e75f0201c6b52.71867455.png "")
+![Passwordless login with email](https://apidocs.lrcontent.com/images/pasted-image-0-10_16889652066647779ddcc942.74044315.png "Passwordless login with email")
+
+  - **Request Limit:** Specifies the maximum number of times a customer can request an email.
+  - **Request Disabled Period (Minutes):** This option allows you to define the timeframe, measured in minutes, during which the Request for triggering the **OTP** or **vtoken**  will expire after reaching the request limit specified in the above settings.
+  - **Token Validity Limit (Minutes):** The option allows you to set a time limit, in minutes, for the validity of the **OTP** or **vtoken** generated.
+  - **Token Type**. This setting allows you to choose the type of token that will be generated. There are two available options:
+
+  > - **A.** **Magic Link:** Selecting this option will generate a vtoken that can be used for related actions.
+  >**For Example:** `#Url#?vtype=emailverification&vtoken=#GUID#`
+  >
+  > - **B.** **OTP (One Time Password):** Selecting this option will generate a time-limited One-Time Password (OTP) that can be used for password-related actions.
+  >**For Example:** `#OTP#`
 
 **Step 3:** Select the email template that you would like to manage as highlighted in the following screen:
 
