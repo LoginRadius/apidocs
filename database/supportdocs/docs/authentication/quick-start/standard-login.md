@@ -1,12 +1,12 @@
 # Standard Login Introduction
 
-Standard Login workflow is a fundamental component of LoginRadius, which allows you to provide your customers with a seamless authentication flow leveraging a unique ID (Email or Username) and password. It consists of Registration, Login, Customer Profile and Password Management features.
+The Standard Login workflow is a fundamental component of LoginRadius, providing customers with a seamless authentication experience using a unique ID (email or username) and password. This workflow encompasses Registration, Login, Customer Profile, and Password Management features.
 
-You can quickly set up the desired interfaces and workflows via easy configurations and customizations in the LoginRadius Admin Console. Upon defining the system requirements, LoginRadius gives you the flexibility to quickly use LoginRadius forms into your ecosystem while maintaining the ability to meet your specific customer flows and designs.
+Through straightforward configurations and customizations in the LoginRadius Admin Console, you can easily set up the desired interfaces and workflows. By defining your system requirements, LoginRadius offers the flexibility to integrate LoginRadius forms into your ecosystem quickly while still allowing you to tailor the experience to meet your specific customer flows and design preferences.
 
 ## Standard Login Guide
 
-This guide will take you through the process of setup and implementation of a basic Standard Login flow. It covers everything you need to configure in your LoginRadius account and deploy onto your web application for implementing the standard set of Email and Password based Login, Registration and Password Management forms.
+This guide will walk you through the setup and implementation of a basic Standard Login flow. It covers everything you need to configure in your LoginRadius account and deploy onto your web application, enabling the standard set of email and password-based login, registration, and password management forms.
 
  > **Pre-requisites:** Basic knowledge of HTML/JavaScript. 
 
@@ -51,15 +51,16 @@ Click the **Edit** button next to any field to begin customizing the field.
 
 **Advanced Field Settings** 
 
-- **Optional/Mandatory:** Choose whether you would like a field to be mandatory or optional on your registration form.
+- **Optional/Mandatory:**  On your registration form, choose whether a field should be mandatory or optional. 
 
 ![Advance field settings](https://apidocs.lrcontent.com/images/7_51115e74352c396fe4.29575281.png "set the flow")
 
-- **Change Field Type:** Choose from a list of common HTML input types to determine how the given field will be displayed on your registration form.
+- **Change Field Type:** Choose from a list of common HTML input types to determine how your registration form will display the given field. 
+
 
 ![Advance field settings](https://apidocs.lrcontent.com/images/8_36565e735b08a8a147.05529340.png "change field type")
 
-- **Validation String**: Add predefined validation rules from our [validation rule](/api/v2/deployment/js-libraries/javascript-hooks/#customvalidationhook15) list or add in a custom regex to control.
+- **Validation String**: You can add predefined validation rules from our [validation rule](/api/v2/deployment/js-libraries/javascript-hooks/#customvalidationhook15) list or a custom regex to control.
 
 ![Advance field settings](https://apidocs.lrcontent.com/images/9_222315e735ab3322f98.76587208.png "validation string")
 
@@ -74,8 +75,7 @@ Click the **Edit** button next to any field to begin customizing the field.
 
 ## Part 2 - Deployment 
 
-
-The LoginRadius Identity Platform supports a variety of implementation methodologies that allow you to customize customer flows. This guide focuses on the basic Identity Experience Framework implementation but it can be accomplished with any of the other implementation methodologies supported by LoginRadius. 
+The LoginRadius Identity Platform supports various implementation methodologies that allow you to customize customer flows. This guide focuses on the basic Identity Experience Framework implementation but it can be accomplished with any of the other implementation methodologies supported by LoginRadius. 
 
 Full details on these methodologies can be found [here](/api/v2/getting-started/implementation-workflows/).
 
@@ -130,7 +130,7 @@ In the above URL replace the following:
 ```
 **c.** Return URL : The URL you would like to redirect customers after completing the selected action.
 
-Try this link out on your page, you should be redirected over to the LoginRadius Hosted Page where you can register, login, and reset your password.
+Try this link out on your page. You should be redirected to the LoginRadius Hosted Page where you can register, login, and reset your password.
 
 >**Note:** Use the following URL link to display the profile page of logged in customers. 
 >
@@ -221,7 +221,7 @@ On executing the above deployment steps, you will see obtained customer profile 
 
 ## Part 3 - Next Steps
 
- The following is the list of features you might want to add-on to the above implementation:
+ The following is the list of features you might want to add to the above implementation:
 
 [Setup Password Policy ](/authentication/concepts/password-policy/)
 
