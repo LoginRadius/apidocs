@@ -1,13 +1,12 @@
 # Single Sign-On Introduction
 
-**Single Sign-on (SSO)** refers to the authentication process that allows your customers to access multiple applications with a single set of login credentials and an active login session. 
+**Single Sign-on (SSO**) refers to an authentication process where users log into one application and are automatically logged into other applications, regardless of the technology, platform, or domain they are using. 
 
-For example, if you log in to Gmail, you are automatically logged into other Google services like YouTube, Google Analytics, etc. Similarly, if you log out of Gmail, you are automatically logged out of all other Google services.
-LoginRadius Identity Platform supports the following SSO methods:
+For instance, logging into Gmail also logs you into other Google services like YouTube and Google Analytics. Conversely, logging out of Gmail will log you out of all other Google services as well.
+The LoginRadius Identity Platform supports several SSO methods:
 
 - [Web SSO](/single-sign-on/tutorial/web-sso/overview/)
 - [Mobile SSO](/single-sign-on/tutorial/mobile-sso/overview/)
 - [Federated SSO](/single-sign-on/tutorial/federated-sso/overview/)
 
-
-> **Note:** Refer to [Web SSO guide](/single-sign-on/tutorial/web-sso/overview/) to implement the single sign-on for your applications. The Web SSO can be implemented among multiple web applications. However, this guide focuses on the Web SSO implementation between two web applications. 
+> **Note:** Refer to the [Web SSO guide](/single-sign-on/tutorial/web-sso/overview/) for implementing single sign-on for your applications. Web SSO can be implemented across multiple web applications; however, this guide specifically focuses on implementing Web SSO between two web applications.
