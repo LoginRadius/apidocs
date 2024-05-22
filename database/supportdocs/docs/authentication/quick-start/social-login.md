@@ -126,8 +126,8 @@ In the above URL, replace the following:
 ```
  <a href="https://<LoginRadius Site Name>.hub.loginradius.com/auth.aspx?action=register&return_url=<Return URL>">Register</a>
 ```
-  
-3. **Return URL**: The URL you would like to redirect customers after completing the selected action.
+
+  **3. Return URL**: The URL you would like to redirect customers after completing the selected action.
 
 Try this link out on your page. You should be redirected to the LoginRadius Hosted Page, where you can register and log in.
 
