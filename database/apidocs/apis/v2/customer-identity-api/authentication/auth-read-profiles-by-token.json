@@ -1,6 +1,6 @@
 {
   "name": "Auth Read all Profiles by Token",
-  "domain": "https://api.loginradius.com",
+  "domain": "https://devapi.lrinternal.com",
   "path": "/identity/v2/auth/account",
   "method": "GET",
   "getparams": {
