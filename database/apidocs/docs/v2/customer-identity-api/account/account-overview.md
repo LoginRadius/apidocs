@@ -1,7 +1,7 @@
 
 # Account Overview
 
-The Account APIs are used to fetch and update details about the customers in the Admin Console. The Account APIs are to only be used by a system administrator or via your back-end in a secured setup. In either case, you'll want to be sure you know the impact of the changes being applied as this API carries administrative capabilities that can override default behavior in the LoginRadius workflows.
+The Account APIs are used to fetch and update details about the customers in the Admin Console. The Account APIs are only to be used by a system administrator or via your back-end in a secured setup. In either case, you'll want to be sure you know the impact of the changes being applied, as this API carries administrative capabilities that can override default behavior in the LoginRadius workflows.
 
 There are four types of request methods that can be made:
 
@@ -14,7 +14,7 @@ There are four types of request methods that can be made:
 
 #### Account APIs for registration
 
-These sets of API are used for creation related tasks e.g. to create an account in the LoginRadius Admin Console. This API bypasses the normal email verification process and manually creates the customer. For a successful response, you need to format a JSON request body with all of the mandatory fields. Here are some of the common ones you'll encounter:
+These sets of APIs are used for creation-related tasks e.g., to create an account in the LoginRadius Admin Console. This API bypasses the normal email verification process and manually creates the customer. For a successful response, you need to format a JSON request body with all of the mandatory fields. Here are some of the common ones you'll encounter:
 
 
 
