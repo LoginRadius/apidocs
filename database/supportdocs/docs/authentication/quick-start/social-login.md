@@ -1,10 +1,10 @@
 # Social Login Introduction
 
-Social Login is a quick and convenient approach for registration and login, as it allows your customers to skip filling registration forms. It also increases customer conversion rates, by enabling them to sign-in to your website with their existing social media accounts like Facebook, Twitter, Google+ and more.
+Social Login offers a fast and convenient way for users to register and log in, allowing them to bypass the traditional registration forms. This streamlined process not only enhances user experience but also significantly boosts customer conversion rates. By enabling users to sign in with their existing social media accounts such as Facebook, Twitter, Google+, and more, Social Login simplifies access and encourages more visitors to become registered users.
 
 ## Social Login Guide
 
-This guide will take you through the process to set up and implement a social login flow. It covers everything you need to configure and deploy the social login feature using LoginRadius Identity Platform.
+This guide will walk you through the process of setting up and implementing a social login flow. It covers everything you need to configure and deploy the social login feature using the LoginRadius Identity Platform.
 
 > **Pre-requisites**
 
@@ -25,11 +25,11 @@ This section covers the required configurations that you need to perform in the 
 The following screen will appear:
 
 ![Social-Login-LoginRadius](https://apidocs.lrcontent.com/images/Social-Login-LoginRadius_26326633fd417beba68.97074297.png "Social-Login-LoginRadius")
-**Step 2:** Click the desired Social ID Provider and follow the step by step guide for configuration.
+**Step 2:** Click the desired Social ID Provider and follow the step-by-step guide for configuration.
 
 > **Note:** The steps for configuring each social provider may be different.
 
-**For example**, the following screen displays the configuration steps of **Linkedin**:
+**For example**, the following screen displays the configuration steps of **LinkedIn**:
 
 ![Social-Login-LoginRadius1](https://apidocs.lrcontent.com/images/Social-Login-LoginRadius1_1870633fd47e10c585.81770944.png "Social-Login-LoginRadius1")
 
@@ -39,11 +39,11 @@ Upon completing the configuration steps of the selected Social ID Provider, you 
 
 ![Social-Login-LoginRadius2](https://apidocs.lrcontent.com/images/Social-Login-LoginRadius2_4096633fd4b2d05271.73044758.png "Social-Login-LoginRadius2")
 
-> **Note:** You can skip **Step 4**, in case of implementing the Social Login using the Identity Experience Framework (IDX).
+> **Note:** You can skip **Step 4**, if you are implementing the Social Login using the Identity Experience Framework (IDX).
 
 **Step 4:** Whitelist your application domain as explained below:
 
-- In LoginRadius Admin Console, navigate to <a href = https://adminconsole.loginradius.com/deployment/apps/web-apps target=_blank>**Deployment > Apps**</a> and the following screen will appear:
+- In LoginRadius Admin Console, navigate to <a href = https://adminconsole.loginradius.com/deployment/apps/web-apps target=_blank>**Deployment > Apps**</a>, and the following screen will appear:
 
   ![Web Apps](https://apidocs.lrcontent.com/images/SSO-config2_159475e7375b633df52.56748253.png "Web Apps")
 
@@ -55,7 +55,7 @@ Upon completing the configuration steps of the selected Social ID Provider, you 
 
 ### Configure Social Data Points
 
-You are provided with the basic data of customers who registered using a social account. The respective social provider shares the basic data as a default. To avail the additional data of such customers you are required to:
+You are provided with the basic data of customers who registered using a social account. The respective social provider shares the basic data by default. To avail the additional data of such customers, you are required to:
 
 1. Enable the desired additional permission for your social app.
 2. Enable the Extended Data option in the LoginRadius Admin Console.
@@ -64,7 +64,7 @@ The following explains how you can set the Extended Data option in the LoginRadi
 
 **Step 1.** Navigate to [Platform Configuration > Authentication Configuration > Social Login > Social Data Settings](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/social-login/social-data-settings).
 
-The following screen will appear, where the **Basic Data** option is enabled by default:
+The following screen will appear where the **Basic Data** option is enabled by default:
 
 ![Social Data Settings - Basic Data](https://apidocs.lrcontent.com/images/Social-Data-Settings---Basic-Data_59196281ba7363fa34.97161201.png "Social Data Settings - Basic Data")
 
@@ -76,13 +76,13 @@ The following screen will appear, where the **Basic Data** option is enabled by 
 
 ## Part 2 - Deployment
 
-The LoginRadius Identity Platform supports a variety of implementation methodologies that allow you to customize customer flows. This guide focuses on the basic Identity Experience Framework implementation but it can be accomplished with any of the other implementation methodologies supported by LoginRadius.
+The LoginRadius Identity Platform supports a range of implementation methodologies, providing you with the flexibility to customize customer flows to meet your specific needs. This guide focuses on the basic Identity Experience Framework implementation, but the same goals can be achieved using any of the other implementation methodologies supported by LoginRadius.
 
 Full details on these methodologies can be found [here](/api/v2/getting-started/implementation-workflows/).
 
 **Step 1:** Locate the **Auth Page URL** as explained below:
 
-Navigate to <a href = https://adminconsole.loginradius.com/deployment/idx target=_blank>**Deployment > Identity Experience Framework (Hosted)**</a> and the following screen will appear:
+Navigate to <a href = https://adminconsole.loginradius.com/deployment/idx target=_blank>**Deployment > Identity Experience Framework (Hosted),**</a> and the following screen will appear:
 
 ![Auth Page URL](https://apidocs.lrcontent.com/images/1_302836204086435b412.59992184.png "Auth Page URL")
 
@@ -98,17 +98,17 @@ You can directly navigate to this domain to review your configured interfaces fr
 
 **Step 2:** Embed Authentication Pages in your Website as explained below:
 
-Add a link on your webpage for redirecting customers to the Identity Experience Framework(Hosted) Page.
+Add a link on your webpage to redirect customers to the Identity Experience Framework(Hosted) Page.
 
 ```
 <a href="https://<LoginRadius Site Name>.hub.loginradius.com/auth.aspx?action=<Desired Action>&return_url=<Return URL>">Register</a>
 ```
 
-In the above URL replace the following:
+In the above URL, replace the following:
 
-1. **LoginRadius Site Name** : Your unique LoginRadius [sitename](/api/v2/admin-console/deployment/get-site-app-name/).
+1. **LoginRadius Site Name**: Your unique LoginRadius [sitename](/api/v2/admin-console/deployment/get-site-app-name/).
 
-2. **Desired Action** : Following are the action list you can use.
+2. **Desired Action**: The following are the action lists you can use.
    <br><br> Login
    <br> Register
    <br> Logout
@@ -127,27 +127,27 @@ In the above URL replace the following:
  <a href="https://<LoginRadius Site Name>.hub.loginradius.com/auth.aspx?action=register&return_url=<Return URL>">Register</a>
 ```
 
-<br> **3. Return URL** : The URL you would like to redirect customers after completing the selected action.
+  **3. Return URL**: The URL you would like to redirect customers after completing the selected action.
 
-Try this link out on your page, you should be redirected over to the LoginRadius Hosted Page where you can register and login.
+Try this link out on your page. You should be redirected to the LoginRadius Hosted Page, where you can register and log in.
 
-> **Note:** Use the following URL link to display the profile page of logged in customers.
+> **Note:** Use the following URL link to display the profile page of logged-in customers.
 
 ```
  <a href="https://<LoginRadius site name>.hub.loginradius.com/profile.aspx">View Profile</a>
 ```
 
-> **Note:** We have additional language specific examples [here](/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
+> **Note:** We have additional language-specific examples [here](/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
 
 **Step 3:** Store the captured Access Token as explained below:
 
-Once a customer has completed the login action the IDX page will redirect the customer back to the specified return URL and include an access token as a query parameter in the URL.
+Once a customer has completed the login action, the IDX page will redirect the customer back to the specified return URL and include an access token as a query parameter in the URL.
 
 ```
 <Redirect URL>?token=<Access Token>
 ```
 
-To get the access token, please add this JavaScript snippet in your web page
+To get the access token, please add this JavaScript snippet to  your web page
 
 ```
 function getParameterByName(name) {
@@ -212,7 +212,7 @@ xhr.send();
 
 &nbsp;
 
-> **Additional Note**: We also provide a feature under which you can create multiple instances of same social provider on your Login/Registration page. Check out the relevant document in the next steps.
+> **Additional Note**: We also provide a feature under which you can create multiple instances of the same social provider on your Login/Registration page. Check out the relevant document in the next steps.
 
 ## Part 3 - Next Steps
 

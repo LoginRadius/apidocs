@@ -62,7 +62,7 @@ Click the **Save** button.
 
 **Step 3:** Select the Email template that you would like to manage as highlighted in the following screen:
 
-![one touch](https://apidocs.lrcontent.com/images/4_239985e776d39ea8e57.29628487.png "email setting")
+![one touch](https://apidocs.lrcontent.com/images/Advance-Login-methods-LoginRadius-User-Dashboard_175699536664dc9b6ca9c47.70296690.png "email setting")
 
 You can perform actions such as [**Add Template**](/authentication/concepts/email-communications/#partemailtemplates6), [**Edit Template**](/authentication/concepts/email-communications/#partemailtemplates6), [**Send Test Email**](/authentication/concepts/email-communications/#partemailtemplates6) and [**Delete Template**](/authentication/concepts/email-communications/#partemailtemplates6).
 
@@ -86,7 +86,7 @@ The following screen appears:
 
 **Step 3:** Select the SMS template that you would like to manage as highlighted in the following screen:
 
-![one touch](https://apidocs.lrcontent.com/images/7_39815e776ffdb32327.62189516.png "SMS setting")
+![one touch](https://apidocs.lrcontent.com/images/Advance-Login-methods-LoginRadius-User-Dashboard-1_1106991663664dc9d37b8342.78735607.png "SMS setting")
 
 You can perform actions such as [**Add**](/authentication/concepts/sms-communication/#addtemplate4), [**Edit**](/authentication/concepts/sms-communication/#edittemplate3), [**Reset**](/authentication/concepts/sms-communication/#resettemplate6) and [**Delete**](/authentication/concepts/sms-communication/#deletetemplate5) template. 
 
