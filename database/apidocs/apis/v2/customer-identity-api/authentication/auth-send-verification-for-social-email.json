@@ -1,19 +1,16 @@
 {
     "name": "Auth send verification Email for linking social profiles",
-    "domain": "https://devapi.lrinternal.com",
+    "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/email/sendverificationemail",
     "method": "GET",
     "getparams": {
         "apikey*": "@apikey@",
         "access_token": "",
-        "emailtemplate": "",
-        "verificationurl": "",
         "clientguid": ""
     },
     "postparams": "",
     "headers": {
-        "content-Type": "application/x-www-form-urlencoded",
-        "Authorization@":"Bearer"
+        "content-Type": "application/x-www-form-urlencoded"
     },
     "response": "json",
     "description": "This API is used to Send verification email to the unverified email of the social profile. This API can be used only incase of optional verification workflow.",
