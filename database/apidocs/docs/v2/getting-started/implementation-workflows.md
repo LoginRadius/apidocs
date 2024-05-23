@@ -2,8 +2,7 @@
 
 ---
 
-The LoginRadius platform supports a variety of implementation methodologies that allow you to customize the user flows. Below, we will go over the various workflows, their benefits, and some useful resources for implementing the different workflows.
-You can use any of the below methodologies or mix and match features of each. If you need help deciding which system best addresses your needs, reach out to the LoginRadius support team to help plan you implementation.
+The LoginRadius platform offers a range of implementation methodologies, enabling you to tailor user flows to your needs. Below, we will go over the various workflows, their benefits, and some useful resources for implementing the different workflows. You can choose any of these methodologies or combine features from each. If you need assistance in determining the best system for your needs, contact the LoginRadius support team for help with planning your implementation.
 
 ![Layer of abstraction](https://apidocs.lrcontent.com/images/Layers_221306124ee16939bd6.83846257.png "Layer of abstraction")
 
@@ -11,14 +10,14 @@ You can use any of the below methodologies or mix and match features of each. If
 
 ## Identity Experience Framework(IDx)
 
-The IDx allows you to set up a centralized authentication page. There are a few predefined layouts that can be further customized via your LoginRadius Admin Console and it allows you to customize various CSS, HTML, And JavaScript elements of the page. This page is hosted on a dedicated instance in LoginRadius and would relay authenticated details to a specified redirect location. This page allows you to handle the customization of your interfaces in a single location and it can serve a wide variety of web properties without needing to update each property individually. You can review the documentation below that outlines the configuration and customization of IDx framework.
+The IDx allows you to set up a centralized authentication page. There are a few predefined layouts that can be further customized via your LoginRadius Admin Console, enabling you to modify various CSS, HTML, and JavaScript elements of the page. This page is hosted on a dedicated instance in LoginRadius and will relay authenticated details to a specified redirect location. It allows you to handle the customization of your interfaces in a single location, serving a wide variety of web properties without needing to update each property individually. You can review the documentation below that outlines the configuration and customization of the IDx framework.
 
 
 For more information for the process of customizing the IDx use [Identity Experience Framework Customizations](/api/v2/user-registration/hosted-registration) document as a reference, You can obtain a copy of the default files from the link given in the above document and customize the interfaces by using similar flows as detailed in the JavaScript Interface workflow.
 
 ### Basic Properties
 
-1. Centralized - You will be able to handle multiple sites, Login and Registration flows in a single location and service multiple properties with a single set of styles and configurations.
+1. Centralized - You will be able to handle multiple sites, Login, and Registration flows in a single location and service multiple properties with a single set of styles and configurations.
 2. Customizable - You can customize the look and feel of your IDx framework, or you can choose to keep the default layouts on the page.
 
 #### Key Benefits
@@ -32,10 +31,10 @@ For more information for the process of customizing the IDx use [Identity Experi
 
 ### JavaScript Interfaces
 
-The JavaScript interface is a methodology which utilizes a set of LoginRadius maintained JavaScript files. These scripts interact with the LoginRadius servers in order to retrieve the account configurations and generate embedded interfaces directly on your web property. Implementations using the JavaScript Interface methodology allows you to quickly setup your interfaces with pre-built handling of common workflows. The following reference documents can be used to setup and configure your interfaces:
+The JavaScript interface is a methodology that utilizes a set of LoginRadius maintained JavaScript files. These scripts interact with the LoginRadius servers in order to retrieve the account configurations and generate embedded interfaces directly on your web property. Implementations using the JavaScript Interface methodology allow you to quickly set up your interfaces with pre-built handling of common workflows. The following reference documents can be used to setup and configure your interfaces:
 
 1. [Getting Started](/api/v2/user-registration/user-registration-getting-started) - This guide describes the basic interface initialization and configuration, as well as covers the various JavaScript options that you can use to control the logical behavior of the interfaces.
-2. [Advanced Customizations](/api/v2/user-registration/advanced-customization) - This includes details on how to further customize the generated interfaces and allows you to fully customize the look and feel of the generated interfaces. You are able to achieve tasks such as update labels, assign custom error and validation messages, attach listeners and trigger events, and enable enhanced security features.
+2. [Advanced Customizations](/api/v2/user-registration/advanced-customization) - This includes details on how to further customize the generated interfaces and allows you to fully customize the look and feel of the generated interfaces. You are able to achieve tasks such as updating labels, assigning custom error and validation messages, attaching listeners and trigger events, and enabling enhanced security features.
 3. [Demo project](https://github.com/LoginRadius/demo) - This includes a basic implementation of the LoginRadius JavaScript interfaces.
 
 The generated interfaces come in a static format that allows you to further customize and accomplish the desired look and feel by using CSS, JavaScript, and our built-in JavaScript template engine.
@@ -43,13 +42,12 @@ The generated interfaces come in a static format that allows you to further cust
 #### Key Benefits
 
 1. Ease Of Implementation - Quick deployment of LoginRadius.
-2. Customizablility - Tie into our predefined HTML layouts and JavaScript hooks to fully customize the interfaces.
+2. Customizability - Tie into our predefined HTML layouts and JavaScript hooks to fully customize the interfaces.
 3. Limited Development - The majority of the complex functionality is handled by the scripts, which allows you to focus on branding and utilization.
 
 ### API Integration
 
-The API Integration flow allows you to create your own interfaces and tie these to the LoginRadius APIs to handle the Login, Register, Forgot Password and other common client-side flows. You can use either the LoginRadius Authentication API to keep everything on the client-side or the LoginRadius Account API to make the calls from your server. The API-based flow allows for more customization in the logical flows but is more resource intensive during the initial implementation as you no longer have the pre-built logic that is included in the other LoginRadius Implementation Workflows.
-You can use the following documents to implement an API-based integration flow:
+The API Integration flow allows you to create your own interfaces and tie them to the LoginRadius APIs to handle Login, Registration, Forgot Password Recovery, and other common client-side flows. You can use either the LoginRadius Authentication API to keep everything on the client side or the LoginRadius Account API to make the calls from your server. The API-based flow allows for more customization in the logical flows but is more resource-intensive during the initial implementation as you no longer have the pre-built logic that is included in the other LoginRadius Implementation Workflows. You can use the following documents to implement an API-based integration flow:
 
 1. [Create User](/api/v2/user-registration/auth-user-registration-by-email)- You can use this API to create the user account in LoginRadius. This relies on a Secure Token that can be generated with the [SOTT document](/api/v2/user-registration/sott).
 1. [Login User](/api/v2/user-registration/auth-login-by-email)- This API can be used to authenticate your users and retrieve back an access token.
