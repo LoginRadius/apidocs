@@ -1,10 +1,10 @@
 # Regulations
 
-LoginRadius is the cornerstone for satisfying your compliance and business needs. Our LoginRadius security team is continually reviewing and adhering to the latest security and privacy compliances with the relevant regulatory bodies.
+LoginRadius stands as the cornerstone for fulfilling both your compliance and business requirements seamlessly. Our dedicated security team at LoginRadius consistently evaluates and adheres to the latest security and privacy standards mandated by relevant regulatory bodies.
 
 ## Data Compliances    
 
-LoginRadius has partnered with leading technology infrastructure providers to provide a reliable and robust service with top-notch security. LoginRadius is compliant with many regulatory bodies, which includes, but is not limited to, the following:
+LoginRadius has joined forces with leading technology infrastructure providers to ensure a service that is both dependable and resilient, fortified by industry-leading security measures. LoginRadius is compliant with numerous governing bodies, including, but not limited to:
 
 - Canadian Privacy Laws
 - Australian Government IRAP
@@ -17,7 +17,7 @@ LoginRadius has partnered with leading technology infrastructure providers to pr
 
 ## Security Compliances
 
-Login Radius maintains standards in protecting data and improving info security management. We have worked with 3rd party auditors to acquire industry-standard security compliance and align with security controls best practices. Below is the list of security compliances and controls that LoginRadius adheres. 
+Login Radius maintains standards in in safeguarding data and enhancing information security management.. Through collaboration with third-party auditors, we've achieved industry-standard security compliance and adopted best practices in security controls. Below is the list of security compliances and controls that LoginRadius adheres to. 
 
 - ISO/IEC 27001:2013
 - ISO/IEC 27017:2015
@@ -32,10 +32,10 @@ Login Radius maintains standards in protecting data and improving info security 
 
 The European Union’s General Data Protection Regulation (GDPR) became effective as of May 2018. This regulation was a concerted effort to give individuals more control over their data and to create a business ecosystem with equal standards for businesses operating within the EU.
 
-With LoginRadius, you don’t need to compromise your business goals to remain compliant with GDPR. We provide a number of methods that respect those standards relevant for authentication, such as the nature of consent and the right to be forgotten. One example is the [LoginRadius Privacy Policy Versioning tool](https://docs.loginradius.com/api/v2/dashboard/data-governance/privacy-policy#privacy-policy-versioning), whereby you can easily provide updated privacy policy versions and track which version your customers have opted into.
+With LoginRadius, you don’t need to compromise your business goals to remain compliant with GDPR. We provide a number of methods that respect those standards relevant for authentication, such as the nature of consent and the right to be forgotten. One example is the [LoginRadius Privacy Policy Versioning tool](/governance/customer-profiling/privacy-policy/#privacy-policy-versioning), whereby you can easily provide updated privacy policy versions and track which version your customers have opted into.
 
 ## Age Verification
 
-If you would like to set the minimum age required for registration on your web properties, LoginRadius can provide you with an [age verification tool](https://docs.loginradius.com/platform-features-overview/user-access-management/age-verification#age-verification). This tool can assist in your compliance with the Children’s Online Privacy Protection Act (COPPA).
+If you would like to set the minimum age required for registration on your web properties, LoginRadius can provide you with an [age verification tool](https://adminconsole.loginradius.com/data-governance/trust-center/privacy-center/age-verification). This tool can assist in your compliance with the Children’s Online Privacy Protection Act (COPPA).
 
 > **Note:** This feature will only function in the registration process when we provide age-related information such as **Date of Birth** (DOB) in the **registration APIs**.
