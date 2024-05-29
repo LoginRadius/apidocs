@@ -1,7 +1,7 @@
 
 # Account Overview
 
-The Account APIs are used to fetch and update details about the customers in the Admin Console. The Account APIs are only to be used by a system administrator or via your back-end in a secured setup. In either case, you'll want to be sure you know the impact of the changes being applied, as this API carries administrative capabilities that can override default behavior in the LoginRadius workflows.
+The Account APIs are utilized to retrieve and modify customer details in the Admin Console. These APIs should only be accessed by a system administrator or through your back-end in a secure environment. In both scenarios, it is important to understand the potential impact of any changes made, as this API has administrative capabilities that can override default behaviors in the LoginRadius workflows.
 
 There are four types of request methods that can be made:
 
@@ -10,13 +10,11 @@ There are four types of request methods that can be made:
 - [Account APIs related to profile update](#accountapisrelatedtoprofileupdate2)
 - [Account APIs related to delete profile](#accountapisrelatedtodeleteprofile3)
 
-> **Note:** Account APIs make use of an API secret with **management capabilities**, which are primarily used for backend operations. As a result, they do not adhere to some security settings defined in the Admin Console.
+> **Note:** Account APIs use an API secret with **management capabilities**, primarily for backend operations, and may not adhere to certain security settings defined in the Admin Console.
 
 #### Account APIs for registration
 
-These sets of APIs are used for creation-related tasks e.g., to create an account in the LoginRadius Admin Console. This API bypasses the normal email verification process and manually creates the customer. For a successful response, you need to format a JSON request body with all of the mandatory fields. Here are some of the common ones you'll encounter:
-
-
+These APIs are used to create an end-user account in the LoginRadius Admin Console. This API bypasses the standard email verification process and allows for manual customer creation. To receive a successful response, you must format a JSON request body with all mandatory fields. Here are some common fields you'll encounter:
 
 - [Account Create](/api/v2/customer-identity-api/account/account-create) - Creates a LoginRadius account in the Cloud Directory with the necessary details provided. 
 - [Email Verification token](/api/v2/customer-identity-api/account/get-email-verification-token) - This API Returns an Email Verification token by requesting the Email ID of the particular customer. The verification token returned helps in verifying a customer account.
@@ -24,7 +22,8 @@ These sets of APIs are used for creation-related tasks e.g., to create an accoun
 
 
 #### Account APIs to obtain customer profile data after successful registration
-You can retrieve all identities (UID and Profiles) associated with a specific Customer profile which exists in dashboard via these sets of APIs. You can view various details based on the APIs been used. There are the following types of Read Customer Profile APIs:
+
+You can use a set of APIs to retrieve all identities (UID and Profiles) associated with a specific Customer profile in the dashboard. These APIs provide various details, and there are different types of Read Customer Profile APIs available for viewing the required information.
 
 
 
@@ -54,7 +53,7 @@ You can update the information of existing accounts in your dashboard via these 
 
 - [Account Update Security Question Configuration](/api/v2/customer-identity-api/account/account-update-security-question) - This API is used to update security questions configuration which includes updating the Security Answer.
 
-- [Account Invalidate Verification Email](/api/v2/customer-identity-api/account/account-invalidate-verification-email) - This API is used to invalidate the verification status of an account. You can check the verification status of a particular account by navigating to Profile Management > Customer Management. You need to reverify the account in order to perform further actions.
+- [Account Invalidate Verification Email](/api/v2/customer-identity-api/account/account-invalidate-verification-email) - This API is used to invalidate the verification status of an account. You can check the verification status of a particular account by navigating to Profile Management > Customer Management. If the account is invalidated, you will need to re-verify it in order to take further action.
 
 
 #### Account APIs related to delete profile
@@ -62,4 +61,4 @@ You can delete the Customer account or delete an Email and re-register for a new
 There are two types of Account Delete APIs:
 
 - [Account Email Delete](/api/v2/customer-identity-api/account/account-email-delete) - Use this API to Remove emails from a Customer Account. Note: You can only delete an Email only if more than one Email Id is verified. 
-- [Account Delete](/api/v2/customer-identity-api/account/account-delete) - This API deletes the Customers account and allows them to re-register for a new account. This API will delete all the related account information associated with the email address including Secondary Email Address and other details.
+- [Account Delete](/api/v2/customer-identity-api/account/account-delete) - This API deletes the customer's account and allows them to re-register for a new account. It will remove all the related account information associated with the email address, including the secondary email address and other details.
