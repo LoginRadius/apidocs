@@ -730,7 +730,7 @@ See below for a comprehensive list of integrations that are available within Log
                 </td>
                 <td class="s1" dir="ltr">
                     <img src="https://apidocs.lrcontent.com/images/download-41-1_2020901791665861c2ede317.38674686.png" />
-                    <span class="caption"><a target="_blank" href=""></a>Trans Union</span>
+                    <span class="caption"><a target="_blank" href=""></a>Touch ID</span>
                 </td>
             </tr>
             <tr style='height:20px;'>
