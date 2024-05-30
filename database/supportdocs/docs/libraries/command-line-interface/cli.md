@@ -1,4 +1,4 @@
-# Welcome to the LoginRadius CLI BETA
+# Welcome to the LoginRadius CLI
 
 ## Introduction
 
@@ -6,11 +6,11 @@ The **LoginRadius CLI (Command Line Interface)** is a tool that allows users to 
 
 The LoginRadius CLI is designed to make it easier for users to integrate LoginRadius authentication and identity management features into their applications. The tool simplifies the process of configuring and managing LoginRadius features, allowing developers to focus on building their applications rather than managing infrastructure.
 
-The LoginRadius CLI is available as an open-source project on GitHub and can be installed on **macOS, Linux, and Windows**. The CLI requires an API key and secret from LoginRadius in order to authenticate and authorize API requests. Once authenticated, developers can use the CLI to manage their **LoginRadius account and configure their application's authentication and identity management features**.
+The LoginRadius CLI is an open-source project available on GitHub and can be installed on **macOS, Linux, and Windows**. To use the CLI, you'll need an API key and secret from LoginRadius to authenticate and authorize API requests. Once authenticated, developers can manage their **LoginRadius accounts and configure authentication and identity management features for their applications using the CLI**.
 
 
 ## Getting Started
-`lr` is LoginRadius on the command line. You can perform basic actions of your [**LoginRadius Admin Console**](https://adminconsole.loginradius.com/dashboard) through command line. The actions includes **login, logout, email configuration, domain whitelisting etc**.
+`lr` is LoginRadius on the command line. You can perform basic actions of your [**LoginRadius Admin Console**](https://adminconsole.loginradius.com/dashboard) through the command line. These actions include **login, logout, email configuration, domain whitelisting, etc**.
 
 ## Setup Guide 
 
@@ -43,7 +43,7 @@ You can upgrade the LoginRadius CLI using Homebrew: `$ brew upgrade loginradius/
 ##### Installation from source
 
 1. Verify that you have Go 1.16+ installed:`$ go version`
-If go is not installed, follow the instructions on the [**Go website**](https://go.dev/doc/install).
+If Go is not installed, follow the instructions on the [**Go website**](https://go.dev/doc/install).
 
 2. Clone the following repository: 
 ```
@@ -489,7 +489,7 @@ ID: <id>
 --help   Show help for command
 ```
 ### lr get smtp-configuration
-Use this command to get the your SMTP email setting Configuration
+Use this command to get your SMTP email setting Configuration
 
 #### Syntax
 ```
@@ -709,7 +709,7 @@ SMTP settings are verified
 --help   Show help for command
 ```
 ### lr add access-restriction
-Use this command to add access restriction for Domain/Email or IP/IP Range.
+Use this command to add access restrictions for Domain/Email or IP/IP Range.
 
 #### Syntax
 ```
@@ -1071,7 +1071,7 @@ Settings have been reset successfully
 ```
 
 ### lr delete access-restriction
-Use this command to deletes access restriction for Domain/Email or IP/IP Range.
+Use this command to delete access restrictions for Domain/Email or IP/IP Range.
 
 #### Syntax
 ```
@@ -1121,11 +1121,10 @@ lr verify resend [flags]
 ```
 
 ###Contributing
-We encourage you to contribute to LoginRadius CLI! Please check out the [**Guidelines for Contributing**](https://github.com/LoginRadius/lr-cli/blob/develop/CONTRIBUTING.md) and becoming a contributor.
-Everyone interacting in LoginRadius CLI codebases, issue trackers, chat rooms, and mailing lists is expected to follow the LoginRadius [**code of conduct**](https://github.com/LoginRadius/lr-cli/blob/develop/CODE_OF_CONDUCT.md).
+We invite you to contribute to the LoginRadius CLI! To get started, please review our [**Guidelines for Contributing**](https://github.com/LoginRadius/lr-cli/blob/develop/CONTRIBUTING.md). Everyone participating in the LoginRadius CLI codebases, issue trackers, chat rooms, and mailing lists is expected to adhere to the LoginRadius [**code of conduct**](https://github.com/LoginRadius/lr-cli/blob/develop/CODE_OF_CONDUCT.md).
 
 ###License
-For more information on licensing, please refer to [**License**](https://github.com/LoginRadius/lr-cli/blob/develop/CODE_OF_CONDUCT.md).
+For more information on licensing, please refer to [**License**](https://github.com/LoginRadius/lr-cli/blob/develop/LICENSE).
 
 
 

@@ -443,10 +443,6 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Tableau</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/Wordpress_360912976595d939813300.18724582.png" />
-                    <span class="caption"><a target="_blank" href=""></a>Wordpress</span>
-                </td>
-                <td class="s1" dir="ltr">
                     <img src="https://apidocs.lrcontent.com/images/Zimbra_3673457716595cf001a4f95.87227950.png" />
                     <span class="caption"><a target="_blank" href=""></a>Zimbra</span>
                 </td>
@@ -475,7 +471,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Blueshift</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/lytics_9536048646595c4a1c48762.33170553.png" />
+                    <img src="https://apidocs.lrcontent.com/images/lytics-google-sq-1_169468444966582a68df26b3.86668087.jpg" />
                     <span class="caption"><a target="_blank" href=""></a>Lytics</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -502,6 +498,195 @@ See below for a comprehensive list of integrations that are available within Log
                     <img src="https://apidocs.lrcontent.com/images/Twillio_5577456996595d0b73c2b24.20770692.png" />
                     <span class="caption"><a target="_blank" href=""></a>Twilio</span>
                 </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/images-1_179892316766582b8fbdcc25.23393579.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Salesforce Demandware</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/AlertLogic-1_12476073266582c9ff1d454.03976527.png" />
+                    <span class="caption"><a target="_blank" href=""></a>AlertLogic</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/FACEBOOK-1200x627-Loggly-Logo-White-1_61144058766582d225e7803.57290234.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Loggly</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/qradar-1_134194330966582db1e3f280.85583870.png" />
+                    <span class="caption"><a target="_blank" href=""></a>IBM QRadar</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-1_175230043766582ee779abf0.90701344.png" />
+                    <span class="caption"><a target="_blank" href=""></a>iOS (Swift)</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/castle-dot-io-1_189463465066582f6f572cf0.87664990.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Castle.io</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-7-1_1192097847665848f1a3fe75.87827069.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Xamarin</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/amazon-kinesis-firehose-logo-99BED468CF-seeklogo-com-1_18705770766658336888e194.11840737.png" />
+                    <span class="caption"><a target="_blank" href=""></a>AWS Kinesis</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/oraclemicros-2874e13e_15943224596658495b77a223.73525780.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Oracle Micros</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-8-1_336287954665849c2a05875.08781510.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Microsoft Active Directory</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-2-1_781936842665832ad6b8290.69997725.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Marketo</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-9-1_10943838666584f3a1e32c3.80265669.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Presta Shop</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-3-1_4728798246658347c1a0f59.00541618.png" />
+                    <span class="caption"><a target="_blank" href=""></a>WordPress VIP</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-10-1_120137833866584fa1ba4952.93647163.png" />
+                    <span class="caption"><a target="_blank" href=""></a>AppNexus</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-11-1_106677618866584fef65bc08.04198657.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Libercus</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-12-1_11875651665850c63162f7.49930034.png" />
+                    <span class="caption"><a target="_blank" href=""></a>PageSuite</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-13-1_262759845665851420a9c44.07282919.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Wayin</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-14-1_538727585665851d20e7938.23004360.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Webtrends</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-15-1_11449526186658523e94b577.89566318.png" />
+                    <span class="caption"><a target="_blank" href=""></a>MicroStrategy</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-16-1_46579702665852a9687898.79569701.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Qlik</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-17-1_19935871386658543e646e04.19781902.png" />
+                    <span class="caption"><a target="_blank" href=""></a>TIBCO Spotfire</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-18-1_1233169254665854bcd47c14.77975312.png" />
+                    <span class="caption"><a target="_blank" href=""></a>SimplyDigi</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-19-1_9414052706658554482bd58.40604458.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Desk</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-20-1_18389402766658568d529ac8.44057852.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Adobe Audience Manager</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-21-1_14728970296658578bde99f8.03233206.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Cxense</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-22-1_2124774878665857d3abef60.81625588.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Krux</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-23-1_15851834086658582605f8c0.92405613.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Hadoop</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-24-1_2721567956658588dd8dea8.27442027.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Redshift</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-25-1_1219041946665858dcc62277.50520441.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Webhooks</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/oracleatgwebcommerce-414a5f9d_376720932665859899675b0.85461423.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Oracle ATG Web Commerce</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-4-1_49417323766583d3655e864.90187347.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Bronto</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-26-1_1430767021665859ee519916.07581438.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Adobe Campaign</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-27-1_63705328066585adb5f7701.44918651.png" />
+                    <span class="caption"><a target="_blank" href=""></a>ContactLab</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-28-1_44797914066585a91cd8520.20416915.png" />
+                    <span class="caption"><a target="_blank" href=""></a>RichRelevance</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-29-1_22102020466585b48f18831.05476484.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Responsys</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-30-1_179002341366585bb238ed60.94428839.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Upaknee</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-31-1_202221313866585c28bc0c23.04697395.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Doximity</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-32-1_195235938866585c7fcdb716.41492743.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Higher Logic</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-33-1_158454720666585d0d4c9447.47419059.png" />
+                    <span class="caption"><a target="_blank" href=""></a>IBM Cloud Video</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-34-1_69424841266585d93bf7901.25255535.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Litmos</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-35-1_99500872066585e3bd88557.00719220.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Perfect Mind</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-5-1_305927386658433b94d899.32314123.png" />
+                    <span class="caption"><a target="_blank" href=""></a>RICS</span>
+                </td>
+            </tr>
+            <tr style='height:20px;'>
+                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Event and Log Management</span></td>
+            </tr>
+            <tr style='height:20px;'>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-36-1_64641558166585eaedbd689.20162040.png" />
+                    <span class="caption"><a target="_blank" href=""></a>HP ArcSight</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-6-1_1029969231665847664d6874.02759929.png" />
+                    <span class="caption"><a target="_blank" href=""></a>New Relic</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-37-1_163962198966585f084f2517.83598130.png" />
+                    <span class="caption"><a target="_blank" href=""></a>SolarWinds</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-38-1_87078126066585f77d4f140.52999071.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Splunk</span>
+                </td>
             </tr>
             <tr style='height:20px;'>
                 <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Fraud Detection</span></td>
@@ -509,7 +694,7 @@ See below for a comprehensive list of integrations that are available within Log
             <tr style='height:20px;'>
                 <td class="s1" dir="ltr">
                     <img src="https://apidocs.lrcontent.com/images/ArkoseLabs_16571424586595bca5d41970.88780968.png" />
-                    <span class="caption"><a target="_blank" href="">Arkose Labs</a></span>
+                    <span class="caption"><a target="_blank" href=""></a>Arkose Labs</span>
                 </td>
                 <td class="s1" dir="ltr">
                     <img src="https://apidocs.lrcontent.com/images/BroadCom_18154294806595e6ca9065f6.81493783.png" />
@@ -535,6 +720,31 @@ See below for a comprehensive list of integrations that are available within Log
                     <img src="https://apidocs.lrcontent.com/images/transunion_1527413194659685f6b48586.19659230.png" />
                     <span class="caption"><a target="_blank" href=""></a>Trans Union</span>
                 </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-39-1_970216613665860a9970498.43755749.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Face ID</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-40-1_66629491166586169a980c3.30454057.png" />
+                    <span class="caption"><a target="_blank" href=""></a>SMS Gateway</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-41-1_2020901791665861c2ede317.38674686.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Trans Union</span>
+                </td>
+            </tr>
+            <tr style='height:20px;'>
+                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Gamification</span></td>
+            </tr>
+            <tr style='height:20px;'>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-42-1_4658524306658631580e1b5.02268346.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Badgeville</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-43-1_469589833665863e5ec6847.07341718.png" />
+                    <span class="caption"><a target="_blank" href=""></a>BunchBall</span>
+                </td>
             </tr>
             <tr style='height:20px;'>
                 <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Identity Proofing</span></td>
@@ -557,7 +767,7 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Authentec</span>
                 </td>
                 <td class="s1" dir="ltr">
-                    <img src="https://apidocs.lrcontent.com/images/Civiq_13630563606595e853bd44f0.09387003.png" />
+                    <img src="https://apidocs.lrcontent.com/images/download-44-1_1739365719665864743093f0.69062949.png" />
                     <span class="caption"><a target="_blank" href=""></a>Civiq</span>
                 </td>
                 <td class="s1" dir="ltr">
@@ -634,7 +844,7 @@ See below for a comprehensive list of integrations that are available within Log
                 </td>
                 <td class="s1" dir="ltr">
                     <img src="https://apidocs.lrcontent.com/images/onfido-1_7644264965bc84a2ce6b11.29064646.png" />
-                    <span class="caption"><a target="_blank" href=""></a>On F Ido</span>
+                    <span class="caption"><a target="_blank" href=""></a>OnFIdo</span>
                 </td>
                 <td class="s1" dir="ltr">
                     <img src="https://apidocs.lrcontent.com/images/oxyliom_18991553466595d042ac9110.15884352.png" />
@@ -654,7 +864,7 @@ See below for a comprehensive list of integrations that are available within Log
                 </td>
                 <td class="s1" dir="ltr">
                     <img src="https://apidocs.lrcontent.com/images/readid_561103463659689ee638001.28176987.png" />
-                    <span class="caption"><a target="_blank" href=""></a>Read ID</span>
+                    <span class="caption"><a target="_blank" href=""></a>ReadID</span>
                 </td>
                 <td class="s1" dir="ltr">
                     <img src="https://apidocs.lrcontent.com/images/Prove_4403550946595cf1d9471e8.24115603.png" />
@@ -698,7 +908,7 @@ See below for a comprehensive list of integrations that are available within Log
                 </td>
                 <td class="s1" dir="ltr">
                     <img src="https://apidocs.lrcontent.com/images/truid_173224981865968b296c27b8.18223855.png" />
-                    <span class="caption"><a target="_blank" href=""></a>Tru ID</span>
+                    <span class="caption"><a target="_blank" href=""></a>TruID</span>
                 </td>
                 <td class="s1" dir="ltr">
                     <img src="https://apidocs.lrcontent.com/images/Trulioo_293418036595d267e561d1.93366267.png" />
@@ -734,6 +944,88 @@ See below for a comprehensive list of integrations that are available within Log
                 </td>
             </tr>
             <tr style='height:20px;'>
+                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Internal Iam</span></td>
+            </tr>
+            <tr style='height:20px;'>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-45-1_94305907866586510605cf1.39884007.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Amazon AWS IAM</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-46-1_1280634343665866596ab300.81149158.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Bitium</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-47-1_510664043665866a38f60c1.87722659.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Centrify</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-48-1_1614920152665867e5d20364.98826958.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Google Cloud IAM</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-49-1_12235168396658683fc4a638.86110246.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Google Identity</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-50-1_610938129665868a6d60658.03625267.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Microsoft Azure AD</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-51-1_162200408166586900227e85.31666989.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Okta</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-52-1_8069886096658697f26a686.53817274.png" />
+                    <span class="caption"><a target="_blank" href=""></a>OneLogin</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-53-1_407176262665869d106a8d2.76978177.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Oracle Identity</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-54-1_82604672366586a515b9c48.21929147.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Ping Identity</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/salesforce_13178000086595d83e839a78.95409774.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Salesforce Identity</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-55-1_213715083066586b21915f63.79254624.png" />
+                    <span class="caption"><a target="_blank" href=""></a>CA Tech Identity</span>
+                </td>
+            </tr>
+            <tr style='height:20px;'>
+                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Mobile</span></td>
+            </tr>
+            <tr style='height:20px;'>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-56-1_93796765466586bc64c34b3.19527034.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Android</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-57-1_72272400166586c1af26585.68279571.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Ionic</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-58-1_191855656966586c6d7e9f99.07509666.png" />
+                    <span class="caption"><a target="_blank" href=""></a>iOS</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-59-1_137830171966586ccd02b1b6.80240102.png" />
+                    <span class="caption"><a target="_blank" href=""></a>MessageBird</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-60-1_121524225066586d17993945.08588385.png" />
+                    <span class="caption"><a target="_blank" href=""></a>PhoneGap</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-50-1_610938129665868a6d60658.03625267.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Windows Phone</span>
+                </td>
+            </tr>
+            <tr style='height:20px;'>
                 <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Payment Gateways</span></td>
             </tr>
             <tr style='height:20px;'>
@@ -747,7 +1039,7 @@ See below for a comprehensive list of integrations that are available within Log
                 </td>
                 <td class="s1" dir="ltr">
                     <img src="https://apidocs.lrcontent.com/images/paypal_9997438236595dd3489f203.83695280.png" />
-                    <span class="caption"><a target="_blank" href=""></a>Pay Pal</span>
+                    <span class="caption"><a target="_blank" href=""></a>PayPal</span>
                 </td>
                 <td class="s1" dir="ltr">
                     <img src="https://apidocs.lrcontent.com/images/Paysafe_16759264876595ce658e2707.77468934.png" />
@@ -770,6 +1062,21 @@ See below for a comprehensive list of integrations that are available within Log
                     <span class="caption"><a target="_blank" href=""></a>Syncronex</span>
                 </td>
             </tr>
+            <tr style='height:20px;'>
+                <td class="s0" dir="ltr" colspan="26"><span style="font-size:14pt;font-family:Ubuntu,Arial;">Social Add-Ons</span></td>
+            </tr>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-61-1_112489893166586e037fd168.20468607.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Disqus</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-62-1_186926878166586e72ca8ea5.58639860.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Social9</span>
+                </td>
+                <td class="s1" dir="ltr">
+                    <img src="https://apidocs.lrcontent.com/images/download-63-1_8071973466586ebd529581.62714577.png" />
+                    <span class="caption"><a target="_blank" href=""></a>Viafoura</span>
+                </td>
         </tbody>
     </table>
 </div>
