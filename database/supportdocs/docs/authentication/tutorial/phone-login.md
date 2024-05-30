@@ -77,7 +77,7 @@ To make changes as per your requirement, enter the desired **OTP Length**, selec
 
 The following screen will appear:
 
-![SMS Templates](https://apidocs.lrcontent.com/images/5_209515e732a1d028f83.11048667.png "SMS Templates")
+![SMS Templates](https://apidocs.lrcontent.com/images/PL1_4354466966561a9d75d561.39399117.png "SMS Templates")
 
 The SMS Template has the following sub-sections:
 
@@ -86,6 +86,8 @@ The SMS Template has the following sub-sections:
  * **Phone Number Change:** This is the default template to send the OTP for the phone number change request.
  * **Password Reset:** This is the default template to send the OTP for the password reset request.
  * **Welcome SMS:** This is the default template to send the message on successful registration. To send a welcome SMS on registration, you are required to select the **Enable Welcome SMS** option that appears on the selection of the Welcome SMS template in LoginRadius Admin Console.
+ * **Delete User:** This is the default template that will be sent to users when they request the otp to delete their accounts.
+
 
 >**Note:** To use these templates within the implementation flow, you will need to use the given Template ID. For example, **verification-default** is key to use the default **Phone Number Verification** template.
 
@@ -101,7 +103,7 @@ For all SMS templates of Phone Login, you can manage the following SMS template 
 
  The following screen will display the above settings configured for the **Phone Number Verification** template:
 
- ![phonenumber](https://apidocs.lrcontent.com/images/7_116295e736aa3e60ef8.45797649.png "phonenumber")
+ ![phonenumber](https://apidocs.lrcontent.com/images/PL2_207416442566561af464b2b1.83428158.png "phonenumber")
 
  **Edit Template**
 
@@ -111,7 +113,7 @@ Select the desired template from the left navigation panel and click the **Edit 
 
 The following screen will appear in edit mode:
 
-![phone](https://apidocs.lrcontent.com/images/8_206235e736b951b1a35.38718273.png "phone")
+![phone](https://apidocs.lrcontent.com/images/PL3_143325338066561b24ac4752.67463839.png "phone")
 
 In the **SMS Content** section, you can update the given text or use [Placeholder Tags](#pht) from the predefined list. Save the template once you are done with the updates.
 
@@ -119,19 +121,19 @@ In the **SMS Content** section, you can update the given text or use [Placeholde
 
 Using this option, you can create a new SMS template option within the default SMS templates. For example, if you click the **Add** button from Phone Number Verification Settings SMS template screen, the following screen will appear:
 
-![Add](https://apidocs.lrcontent.com/images/9_66295e736d5e665675.66472910.png "Add")
+![Add](https://apidocs.lrcontent.com/images/PL4_209630884466561bb2f33d57.64874346.png "Add")
 
 Add the desired **Template ID, SMS Content** in the respective sections and click the **Add** button to create the template. 
 
 The following screen will display the added Template ID in the drop-down list:
 
-![drop-down](https://apidocs.lrcontent.com/images/10_296035e736dc550eb44.61268319.png "drop-down")
+![drop-down](https://apidocs.lrcontent.com/images/PL5_39430157366561d1b09c4d2.89880595.png "drop-down")
 
 This way, you can maintain multiple sub-templates for a parent template and use the desired Template ID in the implementation.
  
  >**Note:** If required, you can add a sub-template. To delete, select the respective Template ID from the drop-down list, the following template screen will appear:
 
-> ![enter image description here](https://apidocs.lrcontent.com/images/11_127905e294084548136.72300156.png "enter image title here")
+> ![enter image description here](https://apidocs.lrcontent.com/images/PL6_43112077866561d5140cf70.99797096.png "enter image title here")
 
 > Click the **Delete Template** button and then confirm the action to delete the template.
 
