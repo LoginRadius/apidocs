@@ -98,6 +98,8 @@ The following screen will appear:
 
 **Step 2:** Set the maximum number of allowed failed login attempts in the **Brute Force Lockout Threshold** field. If the customer reaches this threshold value, their account will be locked out.
 
+After configuring these settings, the customer will receive an error message upon a failed login attempt, indicating the remaining attempts.
+
 ![threshold](https://apidocs.lrcontent.com/images/step2_280565e84f0e024a4e9.26833710.png "threshold")
 
 **Step 3:** Select the **Lockout Type** you wish to trigger when the threshold limit is reached. The following screen displays the available lockout type options:
@@ -131,7 +133,7 @@ In the response, you will get a field named **IsLoginLocked** with the value set
 
 Please refer the following ways to unlock your locked account regardless of if you've passed the given challenges:
 
-1. **Admin Console:** You can unblock the account directly via the Admin Console. Please refer to our Customer management [document](/customer-management/profile-view/)for more details regarding the same.
+1. **Admin Console:** You can unblock the account directly via the Admin Console. Please refer to our Customer management [document](/docs/customer-management/overview/)for more details regarding the same.
 
 2. **Account update API:** You can leverage our [Account Update API](/api/v2/customer-identity-api/account/account-update/) to unlock the locked account.
    <br><br>**Case 1:** For Lockout type: Suspend, Recaptcha, and Security Question
