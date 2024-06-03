@@ -62,22 +62,23 @@ Below are the predefined placeholders that can be included in your email message
 
 - **#Name#**: This gets replaced with the user's name as defined in the registration form.
 - **#GUID#**: appended to the query parameter "vtoken" in order to identify the user after clicking on the link.
-- **#OTP#**: If you have enabled the numeric code feature (where verification token is sent as a numeric code), you can replace #GUID# with the #OTP#
+- **#OTP#**: If you have enabled the numeric code feature (where verification token is sent as a numeric code), you can replace #GUID# with the #OTP#.
 - **#Url#**: This gets replaced with the URL passed in JavaScript options. For email verification, it is `commonOptions.verificationUrl,` and for reset password it is `commonOptions.resetPasswordUrl.` Check the [User Registration Getting Started](/api/v2/user-registration/user-registration-getting-started) document for more information.
-- **#Providers#**: This gets replaced with the social provider name through which the user logged in
-- **#Email#**: Email address from the registered user's profile
-- **#FirstName#**: First name from the registered user's profile
-- **#LastName#**: Last name from the registered user's profile
-- **#Address1#**: Address line one from the registered user's profile
-- **#Address2#**: Address line two from the registered user's profile
-- **#City#**: City from the registered user's profile
-- **#Country#**: Country from the registered user's profile
-- **#PostalCode#**: Postal code from the registered user's profile
-- **#Region#**: Region from the registered user's profile
-- **#State#**: State from the registered user's profile
-- **#&lt;Name of custom field\>#**: The field value from the registered user's profile for this custom field will be displayed
-- **#IpAddress#**: IP address of the registered user
-- **#UserAgent#**: User agent string of the registered user
+- **#Providers#**: This gets replaced with the social provider name through which the user logged in.
+- **#Email#**: Email address from the registered user's profile.
+- **#FirstName#**: First name from the registered user's profile.
+- **#LastName#**: Last name from the registered user's profile.
+- **#Address1#**: Address line one from the registered user's profile.
+- **#Address2#**: Address line two from the registered user's profile.
+- **#City#**: City from the registered user's profile.
+- **#Country#**: Country from the registered user's profile.
+- **#CurrentYear#**: It is used to display the current year.
+- **#PostalCode#**: Postal code from the registered user's profile.
+- **#Region#**: Region from the registered user's profile.
+- **#State#**: State from the registered user's profile.
+- **#&lt;Name of custom field\>#**: The field value from the registered user's profile for this custom field will be displayed.
+- **#IpAddress#**: IP address of the registered user.
+- **#UserAgent#**: User agent string of the registered user.
 - **#UserName#** : If you enabled username login on your site, you may want to show the name when a user forgets his password.
 
 ###Section Tags
