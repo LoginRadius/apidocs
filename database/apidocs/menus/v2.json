@@ -1036,8 +1036,18 @@
         "type": "POST"
       },
       {
+        "url": "v2/customer-identity-api/phone-authentication/account-delete-by-otp-and-token/",
+        "title": "Account Delete By OTP and Token",
+        "type": "POST"
+      },
+      {
         "url": "v2/customer-identity-api/phone-authentication/phone-number-availability/",
         "title": "Phone Number Availability",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/phone-authentication/send-account-delete-otp/",
+        "title": "Send Account Delete OTP",
         "type": "GET"
       },
       {
