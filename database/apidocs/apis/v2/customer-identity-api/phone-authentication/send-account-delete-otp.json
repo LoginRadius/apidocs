@@ -1,0 +1,45 @@
+{
+    "name": "Send Account Delete OTP",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/account/otp",
+    "method": "GET",
+    "getparams": {
+      "apikey*": "@apikey@",
+      "smstemplate": ""
+    },
+    "postparams": "",
+    "headers": {
+      "content-Type": "application/json",
+      "Authorization": "Bearer "
+    },
+    "response": "json",
+    "description": "This API is used to send an OTP to a user’s phone number to delete the account.",
+    "parameters": {
+      "Get Params": [
+        {
+          "name": "apikey",
+          "is_required": true,
+          "description": "LoginRadius API Key"
+        },
+        {
+          "name": "smstemplate",
+          "is_required": false,
+          "description": "SMS Template Name"
+        }
+      ],
+      "Headers Parameters": [
+        {
+          "name": "Authorization",
+          "is_required": true,
+          "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+        }
+      ]
+    },
+    "outputFormat": {
+      "IsPosted": true,
+      "Data": {
+        "AccountSid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "Sid": "SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      }
+    }
+  }

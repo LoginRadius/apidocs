@@ -1,0 +1,45 @@
+{
+    "name": "Account Delete By OTP and Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/account/delete",
+    "method": "POST",
+    "getparams": {
+      "apikey*": "@apikey@"
+    },
+    "postparams": {
+      "OTP": "xxxxxx",
+      "securityanswer": {
+        "kwer****5678******8a8****776vx": "Answer"
+      },
+      "qq_captcha_ticket": "",
+      "qq_captcha_randstr": "",
+      "g-recaptcha-response": "",
+      "h-captcha-response": ""
+    },
+  
+    "headers": {
+      "content-Type": "application/json",
+      "Authorization": "Bearer "
+    },
+    "response": "json",
+    "description": "This API deletes an account by OTP verification.",
+    "parameters": {
+      "Get Params": [
+        {
+          "name": "apikey",
+          "is_required": true,
+          "description": "LoginRadius API Key"
+        }
+      ],
+      "Headers Parameters": [
+        {
+          "name": "Authorization",
+          "is_required": true,
+          "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+        }
+      ]
+    },
+    "outputFormat": {
+      "IsDeleted": true
+    }
+  }
