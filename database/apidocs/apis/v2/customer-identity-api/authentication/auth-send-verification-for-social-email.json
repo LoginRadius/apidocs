@@ -6,11 +6,14 @@
     "getparams": {
         "apikey*": "@apikey@",
         "access_token": "",
+        "emailtemplate": "",
+        "verificationurl": "",
         "clientguid": ""
     },
     "postparams": "",
     "headers": {
-        "content-Type": "application/x-www-form-urlencoded"
+        "content-Type": "application/x-www-form-urlencoded",
+        "Authorization@":"Bearer "
     },
     "response": "json",
     "description": "This API is used to Send verification email to the unverified email of the social profile. This API can be used only incase of optional verification workflow.",
@@ -23,6 +26,14 @@
                 "name": "access_token",
                 "is_required": false,
                 "description": "User's access token"
+            }, {
+                "name": "emailtemplate",
+                "is_required": false,
+                "description": "Name of the email template to be sent out"
+            }, {
+                "name": "verificationurl",
+                "is_required": false,
+                "description": "Email verification url"
             }, {
                 "name": "clientguid",
                 "is_required": false,
@@ -38,7 +49,12 @@
                 "is_required": false,
                 "description": "API will return UUID in response only in the case where <strong>OTP Email Verification</strong> is enabled for the site. This can be utilized in both <a href='/docs/api/v2/customer-identity-api/authentication/auth-verify-email/'><strong>Auth Verify Email</strong></a> and <a href='/docs/api/v2/customer-identity-api/authentication/auth-verify-email-by-otp/'><strong>Auth Verify Email by OTP</strong></a> API"
             }
-        ]
+        ],
+        "Headers Parameters": [{
+            "name": "Authorization",
+            "is_required": false,
+            "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+        }]
     },
     "outputFormat": {
         "IsPosted": true,
