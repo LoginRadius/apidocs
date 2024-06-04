@@ -895,11 +895,10 @@ function apiheaders(params, sott_button, access_token_button) {
         var lenofobject = Object.keys(params).length;
         var count = 0;
         for (var key in params) {
-
             readonly = '';
             if (params[key] == '@sott@') {
                 getSOTT('headers');
-            } else if (((key == 'token*') || (key == 'access_token*') || (key == 'Authorization') || (key == 'Authorization*'))) {
+            } else if (((key == 'token*') || (key == 'access_token*') || (key == 'Authorization') || (key == 'Authorization*') || (key == 'Authorization@'))) {
                 if (token_val) {
                     params[key] = 'Bearer ' + token_val;
                 }
@@ -918,7 +917,13 @@ function apiheaders(params, sott_button, access_token_button) {
                 } else {
                     output += access_token_button + '</div>';
                 }
-            } else {
+            } 
+            else if ( (key == 'token@') || (key == 'access_token@') || (key == 'Authorization@')) {
+                output += '<div class="apiheaderskey">' + key.replace('@', '') + '</div>';
+                output += '<div class="inputFieldButton"><input type="text" placeholder="&quot;' + key.replace('@', '') + '&quot;"' + readonly + ' class="apiheadersvalue headerkey_' + key.replace('@', '') + '" value="' + (params[key].replace('@apikey@', apikey).replace('@secret@', secret)) + '">';
+                output += access_token_button + '</div>';      
+            }
+            else {
                 output += '<div class="apiheaderskey">' + key + '</div>';
                 output += '<input type="text" placeholder="&quot;' + key.replace('*', '') + '&quot;"' + readonly + ' class="apiheadersvalue headerkey_' + key.replace('*', '') + '" value="' + (params[key].replace('@apikey@', apikey).replace('@secret@', secret)) + '">';
             }
@@ -1005,7 +1010,7 @@ function apimainpage(apiObject) {
     }
 
     //access token required
-    if (('Authorization*' in apiObject.headers) || ('Authorization' in apiObject.headers) || ('token*' in apiObject.getparams) || ('access_token*' in apiObject.getparams)) {
+    if (('Authorization*' in apiObject.headers) || ('Authorization@' in apiObject.headers) || ('Authorization' in apiObject.headers) || ('token*' in apiObject.getparams) || ('access_token*' in apiObject.getparams)) {
         access_token_button = '<button onclick="access_token_popup()" class="gettokenbutton' + rightClass + '">Get Access Token</button>';
     }
     if ((('apikey*' in apiObject.getparams) || ('apikey' in apiObject.getparams)) && (apikey == '' || secret == '')) {
