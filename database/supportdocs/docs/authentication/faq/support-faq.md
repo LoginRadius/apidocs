@@ -28,7 +28,7 @@ In addition to the **Help Widget** under the LoginRadius Admin Console, you can 
 
 If you are not logged in to the Admin Console and want to look at the available documentation, you can directly navigate the <a href = https://www.loginradius.com/docs/ target=_blank>documentation</a>. Here you can learn how to implement the LoginRadius Identity Platform for your application, access comprehensive guides, including quick-starts, implementation tutorials, example code, features, and more.
 
-If you want to search for any specific term/feature, you can also use the document search directly in the public support documentation. See the below screenshot for reference.
+If you are looking for any specific term/feature, you can also use the document search directly in the public support documentation. See the below screenshot for reference.
 
 ![search bar](https://apidocs.lrcontent.com/images/pasted-image-4_16214606f6f20d83223.94538339.png "enter image title here")
 
