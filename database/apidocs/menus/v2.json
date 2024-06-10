@@ -988,6 +988,11 @@
           "type": "GET"
         },
         {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-facebookjwt-token/",
+          "title": "Access Token via Facebook JWT",
+          "type": "GET"
+        },
+        {
           "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-google-auth-code/",
           "title": "Access Token via Google AuthCode",
           "type": "GET"
