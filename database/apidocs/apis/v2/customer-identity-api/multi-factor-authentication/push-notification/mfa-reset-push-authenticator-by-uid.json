@@ -1,5 +1,5 @@
 {
-  "name": "Resend MFA Push AUthenticator by UID",
+  "name": "Reset MFA Push Authenticator by UID",
   "domain": "https://api.loginradius.com",
   "path": "/identity/v2/manage/account/2FA/authenticator/push/{uid}",
   "method": "DELETE",
