@@ -1,6 +1,6 @@
 # Multi-Factor Authentication Configuration
 
-Multi-Factor Authentication, or MFA, is a multi-step verification process that provides an extra layer of security for the users' accounts. With MFA, once the user enters their login credentials or selects a social login, they are sent a specific authentication code to enter in order to completely log in. There are several ways in which the user can receive the code, including SMS, Authenticator applications, or an email.
+Multi-factor authentication, or MFA, is a multi-step verification process that provides an extra layer of security for user's accounts. With MFA, once the user enters their login credentials or selects a social login, they are sent a specific authentication code to enter to log in completely. The user can receive the code in several ways, including SMS, Authenticator applications, or an email.
 
 By default, MFA is disabled on your LoginRadius site. Following are the steps to enable MFA for your site:
 
@@ -90,28 +90,24 @@ The following are the steps to implement the multi-factor authentication by secu
 
 ## Configuring Push Notification
 
-Send push notifications for Multi-Factor Authentication that your customers can respond to using the LoginRadius Authenticator or your own native mobile apps. Upon configuring push notifications, the consumer receives a notification on their mobile device for multi-factor authentication instead of typing in a one-time passcode (OTP). 
+Send push notifications for Multi-Factor Authentication to users, and they can respond via LoginRadius Authenticator or your own native mobile apps. Upon configuring push notifications, users will receive a notification on their mobile device for multi-factor authentication instead of typing in a one-time passcode (OTP). 
 
 ![push notification](https://apidocs.lrcontent.com/images/unnamed-14_1848253891666946ec77bba1.00076892.png "push notification")
 
 Check the box labeled Enable Push Notifications to activate the feature.
-Upon getting enabled the 
 
 Additionally, for detailed configuration steps, please refer to our [Push Notification Overview](/api/v2/customer-identity-api/multi-factor-authentication/push-notification/overview/) document.
 
-User Experience
-Once push notifications are enabled and configured:
-
-**Login Screen:** Users will see the following screen when they attempt to log in:
+**Login Screen:** Once push notifications are enabled and configured, users will see the following screen when they attempt to log in:
 
 ![verify](https://apidocs.lrcontent.com/images/unnamed-15_18662394086669478ca9b9d8.16147630.png "verify")
 
-**Verification:** Upon selecting the Verify Identity via Push Notification button, users will receive a push notification on their device containing a QR code.
-Authentication:
+**Verification:** Upon selecting the **Verify Identity via Push Notification button**, users will receive a push notification on their device containing a QR code.
+
+**Authentication:**
 
 ![qr](https://apidocs.lrcontent.com/images/unnamed-16_76494605666947c929d763.31048444.png "qr")
 
 Users must scan the QR code with their authenticator app to complete the login process in **mandatory** MFA, and there will be a skip option in the **optional** MFA flow.
-
 
 This process ensures that users can securely authenticate their logins using push notifications, providing an added layer of security.
