@@ -1289,13 +1289,13 @@
           "type": "GET"
         },
         {
-          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/reset-mfa-push-authenticator-settings/",
-          "title": "Reset MFA Push Authenticator Settings",
+          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/mfa-reset-push-authenticator-settings/",
+          "title": "MFA Reset Push Authenticator Settings",
           "type": "DELETE"
         },
         {
-          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/Reset-MFA-Push-AUthenticator-by-Uid",
-          "title": "Reset MFA Push AUthenticator by Uid",
+          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/mfa-reset-push-authenticator-by-uid",
+          "title": "MFA Reset Push Authenticator by Uid",
           "type": "DELETE"
         }
       ],

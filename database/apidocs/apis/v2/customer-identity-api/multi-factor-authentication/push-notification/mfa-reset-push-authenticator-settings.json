@@ -1,5 +1,5 @@
 {
-    "name": "MFA Resend Push Notification",
+    "name": "Reset MFA Push Authenticator Settings",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/account/2fa/authenticator/push",
     "method": "DELETE",
