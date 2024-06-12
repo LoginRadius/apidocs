@@ -1272,6 +1272,33 @@
           "type": "DELETE"
         }
       ],
+      "Push Notification": [
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/mfa-resend-push-notification/",
+          "title": "MFA Resend Push Notification",
+          "type": "POST "
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/mfa-push-login-ping/",
+          "title": "MFA push login ping",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/reset-mfa-push-authenticator-settings/",
+          "title": "Reset MFA Push Authenticator Settings",
+          "type": "DELETE"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/Reset-MFA-Push-AUthenticator-by-Uid",
+          "title": "Reset MFA Push AUthenticator by Uid",
+          "type": "DELETE"
+        }
+      ],
       "Backup Codes": [
         {
           "url": "v2/customer-identity-api/multi-factor-authentication/backup-codes/overview/",

@@ -1,0 +1,48 @@
+{
+    "name": "MFA push login ping",
+    "domain": "https://api.loginradius.com",
+    "path": "/login/2fa/push/ping",
+    "method": "POST",
+    "getparams": {
+      "apikey*": "@apikey@",
+      "secondfactorauthenticationtoken*":""
+    },
+    "headers": {
+      "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to check if the MFA push notification has been verified or not. If verified user login information will be returned.",
+    
+    "parameters": {
+      "Get Params": [
+        {
+          "name": "apikey",
+          "is_required": true,
+          "description": "LoginRadius API Key"
+        },
+        {
+            "name": "secondfactorauthenticationtoken",
+            "is_required": true,
+            "description": "A uniquely generated MFA identifier token after successful authentication."
+        }
+      ]
+    },
+    "outputFormat": {
+            "Profile": {
+                "Identities": null,
+                "IsActive": true,
+                "IsDeleted": false,
+                "EmailVerified": true,
+                "Email": [
+                    {
+                        "Type": "Primary",
+                        "Value": "test124@mail7.io"
+                    }
+                ]
+            },
+            "access_token": "xxxx",
+            "refresh_token": "xxx",
+            "expires_in": "2024-02-26T04:53:07.912Z"
+  }
+  }
+  

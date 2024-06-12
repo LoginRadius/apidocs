@@ -1,0 +1,35 @@
+{
+    "name": "MFA Resend Push Notification",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/login/2FA",
+    "method": "POST",
+    "getparams": {
+      "apikey*": "@apikey@",
+     "secondfactorauthenticationtoken*":""
+    },
+    "headers": {
+      "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to send push notifications again with the second-factor token",
+    
+    "parameters": {
+      "Get Params": [
+        {
+          "name": "apikey",
+          "is_required": true,
+          "description": "LoginRadius API Key"
+        },
+        {
+            "name": "secondfactorauthenticationtoken",
+            "is_required": true,
+            "description": "A uniquely generated MFA identifier token after successful authentication."
+          }
+      ]
+    },
+    "outputFormat": {
+      
+            "IsPosted":true
+     }
+  }
+  

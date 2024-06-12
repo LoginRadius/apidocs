@@ -1,0 +1,41 @@
+{
+  "name": "Resend MFA Push AUthenticator by UID",
+  "domain": "https://api.loginradius.com",
+  "path": "/identity/v2/manage/account/2FA/authenticator/push/{uid}",
+  "method": "DELETE",
+  "getparams": {
+    "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API is used to reset the Push Authenticator settings for an MFA-enabled user.",
+  
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+      },
+      {
+          "name": "Authorization",
+          "is_required": true,
+          "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+      }
+    ],
+    "Template Params": [
+        {
+            "name": "uid",
+            "is_required": true,
+            "description": "UID, the unified identifier for each user account"
+        }
+    ]
+  },
+  "outputFormat": {
+    
+          "IsDeleted": true
+   }
+}

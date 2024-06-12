@@ -1,0 +1,35 @@
+{
+    "name": "MFA Resend Push Notification",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/account/2fa/authenticator/push",
+    "method": "DELETE",
+    "getparams": {
+      "apikey*": "@apikey@",
+     "access_token*": ""
+    },
+    "headers": {
+      "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to reset the Push Authenticator settings for an MFA-enabled user.",
+    
+    "parameters": {
+      "Get Params": [
+        {
+          "name": "apikey",
+          "is_required": true,
+          "description": "LoginRadius API Key"
+        },
+        {
+            "name": "Authorization",
+            "is_required": true,
+            "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+        }
+      ]
+    },
+    "outputFormat": {
+      
+            "IsDeleted": true
+     }
+  }
+  
