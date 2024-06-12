@@ -8,6 +8,7 @@ Currently, LoginRadius supports the following authentication methods for MFA:
 2. **Authenticator Applications**
 3. **Email Passcode**
 4. **Security Questions**
+5. **Push Notification**
 
 With **SMS Passcode Workflow**, a text message containing a One Time Passcode (OTP) is sent to the consumer to be consumed on your website after the consumer has passed the traditional login procedure.For more details regarding the implementation, please click [here](/api/v2/customer-identity-api/multi-factor-authentication/SMS-Authenticator/overview/).
 
@@ -24,6 +25,7 @@ With **Security Questions Workflow**, the consumer needs to set up a security qu
 
 > **Note:** The MFA feature will only work with the [Mandatory Email Verification ](/platform-features-overview/registration-services/email-workflow#email-verification)flow. It will not work with the [Optional Email Verification](/platform-features-overview/registration-services/email-workflow#email-verification) flow or No Verification Email flow.
 
+With the **Push Notification workflow**, messages are sent from a server to a user's device, commonly used in mobile apps for purposes like authentication. When utilizing push notifications as a method of Multi-Factor Authentication (MFA), the user will receive a notification on their device containing a QR code. The user must then authenticate the login attempt by scanning the QR code with their app, thereby adding an additional layer of security to the login process.
 
 
 ## Customization of Label and Button in MFA:
