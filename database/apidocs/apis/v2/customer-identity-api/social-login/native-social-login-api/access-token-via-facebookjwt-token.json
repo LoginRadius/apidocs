@@ -1,0 +1,31 @@
+{
+    "name": "Access Token By Facebook JWT Access Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/access_token/facebookjwt",
+    "method": "GET",
+    "getparams": {
+        "key*": "@apikey@",
+        "id_token*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to retrieve a LoginRadius access token by accepting a Facebook JWT access token.",
+    "parameters": {
+        "Get Params": [{
+            "name": "key",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+        }, {
+            "name": "id_token",
+            "is_required": true,
+            "description": "Facebook JWT id_token"
+        }]
+    },
+    "outputFormat": {
+        "access_token": "87******-****-***7-*****-******c***f2",
+        "expires_in": "2017-10-09T09:37:35.4884699Z"
+    }
+}

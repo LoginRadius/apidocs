@@ -988,6 +988,11 @@
           "type": "GET"
         },
         {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-facebookjwt-token/",
+          "title": "Access Token via Facebook JWT",
+          "type": "GET"
+        },
+        {
           "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-google-auth-code/",
           "title": "Access Token via Google AuthCode",
           "type": "GET"
@@ -1264,6 +1269,33 @@
         {
           "url": "v2/customer-identity-api/multi-factor-authentication/security-question-authenticator/delete-reset-mfa-security-question-authenticator-settings-uid/",
           "title": "DELETE Reset MFA Security Question Authenticator Settings by UID",
+          "type": "DELETE"
+        }
+      ],
+      "Push Notification": [
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/mfa-resend-push-notification/",
+          "title": "MFA Resend Push Notification",
+          "type": "POST "
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/mfa-push-login-ping/",
+          "title": "MFA push login ping",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/mfa-reset-push-authenticator-settings/",
+          "title": "MFA Reset Push Authenticator Settings",
+          "type": "DELETE"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/mfa-reset-push-authenticator-by-uid",
+          "title": "MFA Reset Push Authenticator by Uid",
           "type": "DELETE"
         }
       ],
