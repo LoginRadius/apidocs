@@ -4,6 +4,9 @@
         "ADDED": [
             {
                 "text": "The Admin Console now includes an option to customize and configure the SMS template for the user deletion action."
+            },
+            {
+                "text": "Introduced an additional method to configure MFA using Push Notifications via the LoginRadius Authenticator app or custom native mobile apps."
             }
         ],
         "FIXED": [
