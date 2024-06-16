@@ -661,40 +661,6 @@ Here is an explanation of the Request Body Parameter:
 }
 ```
 
-### Post Callback Feature
-
-  
-
-By default, LoginRadius sends the token (Access token), id_token, and code as a query parameter in the implicit and hybrid workflows.
-
-However, it is more secure to send an access token as a post parameter. To leverage such functionality, we are supporting Post Callback in the Cloud Redirection APIs.
-
-In the Post Callback, after the login from the Hosted Page, the token is passed to `return_url` (Callback Url) as the **Post Form Request**. The token is passed in the Post body instead of the Query String. If you want to send the Access token as post parameters instead of QueryString, you can implement this functionality.
-
-You can achieve this by changing the code in the **default-auth-before-script.js** file under the [Admin Consol](https://adminconsole.loginradius.com/deployment/idx)(If the Section is not enabled kindly contact [Support team](https://adminconsole.loginradius.com/support/tickets)) In this file you need to edit the function `redirectToReturnUrl` as given in the below:
-```
-function redirectToReturnUrl(token) {  
-if (queryString.return_url) {  
-if (LRObject.util.isCloudApiPostCallbackSupported(queryString.return_url)) {  
-LRObject.util.postAndRedirect(queryString.return_url, {  
-"token": token  
-});  
-} else {  
-window.location = queryString.return_url.indexOf('?') > -1 ? queryString.return_url + '&token=' + token : queryString.return_url + '?token=' + token;  
-}  
-} else {  
-window.location = 'profile.aspx';  
-}  
-}
-```
-**Note:**
-
-**1.**  This is the Sample function. You may have some different implementations for this function, So changes will be according to your Implementation.
-    
-**2.**  This feature is not enabled for any customer by default, to enable this you need to change the Before Script function according to the above code snippet.
-    
-**3.**  By default, the token will be sent to the query string for the Cloud Redirection callback URLs, (As currently working), So it will not impact any customer implementation.
-
 ## Troubleshooting & FAQs
 
 #### Troubleshooting
