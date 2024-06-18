@@ -7636,6 +7636,154 @@
 {
   "oldLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/providers/mailazy",
   "newLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/overview/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/update-mfa-by-access-token",
+  "newLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/authenticator/update-mfa-by-access-token/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2/troubleshooting/development-and-production",
+  "newLink": "https://www.loginradius.com/docs/api/v2/troubleshooting/invalid-request-uri-error/"
+},
+{
+  "oldLink": "https://www.loginradius.com/api/v2/docs/android",
+  "newLink": "https://www.loginradius.com/docs/libraries/mobile-sdk-libraries/android-library/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/single-sign-on/tutorial/Federated-SSO/ws-federation/overview",
+  "newLink": "https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/overview/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/single-sign-on/tutorial/Federated-SSO/pkce-flow",
+  "newLink": "https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/pkce-flow/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2/user-registration/update-mfa-by-access-token",
+  "newLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/authenticator/update-mfa-by-access-token/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/update-mfa-by-access-token",
+  "newLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/authenticator/update-mfa-by-access-token/"
+},
+{
+  "oldLink": "https://www.loginradius.com/api/v2/docs/ios",
+  "newLink": "https://www.loginradius.com/docs/libraries/mobile-sdk-libraries/ios-library/"
+},
+{
+  "oldLink": "https://www.loginradius.com/api/v2/docs/integrations",
+  "newLink": "https://www.loginradius.com/docs/api/v2/integrations/overview/"
+},
+{
+  "oldLink": "https://www.loginradius.com/api/v2/docs/ruby",
+  "newLink": "https://www.loginradius.com/docs/libraries/sdk-libraries/ruby-library/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/changelog/core-release-104/feed",
+  "newLink": "https://www.loginradius.com/docs/api/changelog/core-release-104/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/changelog/Dashboard-release-160",
+  "newLink": "https://www.loginradius.com/docs/api/changelog/dashboard-release-160/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/changelog/Dashboard-release-212",
+  "newLink": "https://www.loginradius.com/docs/api/changelog/dashboard-release-212/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2.0/docs/login",
+  "newLink": "https://www.loginradius.com/docs/api/v2/getting-started/introduction/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2.0/docs/phonegap",
+  "newLink": "https://www.loginradius.com/docs/libraries/mobile-sdk-libraries/phonegap-library/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-token",
+  "newLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-google-authenticator-by-token",
+  "newLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/step-up-authentication/step-up-auth-by-password/docs/api/v2/admin-console/platform-security/auth-security-configuration",
+  "newLink": "https://www.loginradius.com/docs/api/v2/admin-console/platform-security/auth-security-configuration/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/unknown/PasswordLessLogin--PasswordlessLoginVerificationByEmailAndOTP",
+  "newLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-email-and-otp/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/unknown/PasswordLessLogin--PasswordlessLoginVerificationByUserNameAndOTP",
+  "newLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2/single-sign-on/federated-sso/saml/config/SP-initiated",
+  "newLink": "https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/saml/sp-initiated/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2/user-registration/2fa-remove-auth-by-token",
+  "newLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2/user-registration/2fa-reset-google-authenticator-by-token",
+  "newLink": "https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/authentication/quick-start/social",
+  "newLink": "https://www.loginradius.com/docs/authentication/quick-start/social-login/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/developer/concepts/localization",
+  "newLink": "https://www.loginradius.com/docs/libraries/js-libraries/localization/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/developer/concepts/token-handle",
+  "newLink": "https://www.loginradius.com/docs/authentication/concepts/session-management/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/developer/faq/api-credentials",
+  "newLink": "https://www.loginradius.com/docs/api/v2/admin-console/platform-security/api-key-and-secret/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/developer/faq/loginradius-support",
+  "newLink": "https://www.loginradius.com/docs/authentication/faq/support-faq/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/developer/guide/bruteforce",
+  "newLink": "https://www.loginradius.com/docs/security/user-security/registration-security/#bruteforcelockout2/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/developer/guide/wordpress",
+  "newLink": "https://www.loginradius.com/docs/libraries/turn-key-plugins/wordpress-2-x-plugin/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/developer/guides/web-php",
+  "newLink": "https://www.loginradius.com/docs/libraries/sdk-libraries/php-library/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/developer/plugin/wordpress",
+  "newLink": "https://www.loginradius.com/docs/libraries/turn-key-plugins/wordpress-2-x-plugin/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/developer/questionnaire",
+  "newLink": "https://www.loginradius.com/docs/authentication/faq/troubleshooting/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/developer/tutorial/html-and-js-tutorial",
+  "newLink": "https://www.loginradius.com/docs/libraries/demos/html-and-js-demo/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/integrations/integration-platform/supported-integrations",
+  "newLink": "https://www.loginradius.com/docs/integrations/available-integrations/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/single-sign-on/tutorial/cross-device-ssso/overview",
+  "newLink": "https://www.loginradius.com/docs/single-sign-on/tutorial/cross-device-sso/overview/"
+},
+{
+  "oldLink": "https://www.loginradius.com/docs/api/v2/single-sign-on/custom-identity-providers/loginradius-as-sp-with-shibboleth-idp",
+  "newLink": "https://www.loginradius.com/docs/single-sign-on/"
 }
 ]
 
