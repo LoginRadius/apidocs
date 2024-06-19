@@ -16,7 +16,7 @@
             "Name": "Name"
     },
     "headers": {
-        "content-Type": "application/x-www-form-urlencoded"
+        "content-Type": "application/json"
     },
     "response": "json",
     "description": "This API generate Email tokens and Email OTPs for Email verification, Add email, Forgot password, Delete user, Passwordless login, Forgot pin, One-touch login and Auto login.",
