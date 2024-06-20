@@ -7045,6 +7045,10 @@
   "newLink": "security/data-management/consumer-audit-log/"
 },
 {
+  "oldLink": "security/data-management/consumer-audit-log/",
+  "newLink": "security/data-management/consumer-audit-logs/"
+},
+{
   "oldLink": "api/v2/cloud-directory-api/custom-object/user-identity-with-custom-object",
   "newLink": "api/v2/cloud-directory-api/identity/user-identity-with-custom-object/"
 },
