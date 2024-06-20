@@ -1,0 +1,19 @@
+{ "name": "Admin Console Release 25.13.1",
+    "description": "This release of the Admin Console includes some new features. See below for details on some of the more notable changes applied to the Admin Console.",
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "Introduced an additional method to configure MFA using <strong>Push Notifications</strong> via the <strong>LoginRadius Authenticator app</strong> or custom native mobile apps."
+            },
+            {
+                "text": "We have introduced the <a href='https://adminconsole.loginradius.com/profile-management/customer-management/consumer-audit-logs' target='_blank'><strong>Consumer Audit Logs</strong></a> feature in the Customer Management section. This feature allows you to see all recent user activities based on the API calls."
+            },
+            {
+                "text": "Expanded the <a href='https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/integrations' target='_blank'><strong>Federated SSO > integration</strong></a> section with four new pre-built configurations for PingIdentity, Okta, Google Workspace, and AzureAD."
+            }
+        ]
+    },
+    "auther": "Michelle Rathod",
+    "created_date": "2024-06-20",
+    "status": "public"
+}

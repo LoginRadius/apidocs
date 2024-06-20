@@ -37,7 +37,7 @@ Body Example:
 
 To generate an OTP for phone ID verification, follow these steps:
 
-1. Include the **"smsotptype"** parameter in the URL and set its value as **"phoneverification".**
+1. Include the **"smsotptype"** parameter in the URL and set its value as **"phoneidverification".**
 2. In the request's body, include the Phone number you want to verify.
 
 Body Example:

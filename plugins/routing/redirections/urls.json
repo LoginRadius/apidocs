@@ -7045,6 +7045,10 @@
   "newLink": "security/data-management/consumer-audit-log/"
 },
 {
+  "oldLink": "security/data-management/consumer-audit-log/",
+  "newLink": "security/data-management/consumer-audit-logs/"
+},
+{
   "oldLink": "api/v2/cloud-directory-api/custom-object/user-identity-with-custom-object",
   "newLink": "api/v2/cloud-directory-api/identity/user-identity-with-custom-object/"
 },
@@ -7636,6 +7640,154 @@
 {
   "oldLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/providers/mailazy",
   "newLink": "api/v2/admin-console/platform-configuration/communication-configuration/email/overview/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/update-mfa-by-access-token",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/update-mfa-by-access-token/"
+},
+{
+  "oldLink": "api/v2/troubleshooting/development-and-production",
+  "newLink": "api/v2/troubleshooting/invalid-request-uri-error/"
+},
+{
+  "oldLink": "api/v2/docs/android",
+  "newLink": "libraries/mobile-sdk-libraries/android-library/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/Federated-SSO/ws-federation/overview",
+  "newLink": "single-sign-on/tutorial/federated-sso/overview/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/Federated-SSO/pkce-flow",
+  "newLink": "single-sign-on/tutorial/federated-sso/pkce-flow/"
+},
+{
+  "oldLink": "api/v2/user-registration/update-mfa-by-access-token",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/update-mfa-by-access-token/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/update-mfa-by-access-token",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/update-mfa-by-access-token/"
+},
+{
+  "oldLink": "api/v2/docs/ios",
+  "newLink": "libraries/mobile-sdk-libraries/ios-library/"
+},
+{
+  "oldLink": "api/v2/docs/integrations",
+  "newLink": "api/v2/integrations/overview/"
+},
+{
+  "oldLink": "api/v2/docs/ruby",
+  "newLink": "libraries/sdk-libraries/ruby-library/"
+},
+{
+  "oldLink": "api/changelog/core-release-104/feed",
+  "newLink": "api/changelog/core-release-104/"
+},
+{
+  "oldLink": "api/changelog/Dashboard-release-160",
+  "newLink": "api/changelog/dashboard-release-160/"
+},
+{
+  "oldLink": "api/changelog/Dashboard-release-212",
+  "newLink": "api/changelog/dashboard-release-212/"
+},
+{
+  "oldLink": "api/v2.0/docs/login",
+  "newLink": "api/v2/getting-started/introduction/"
+},
+{
+  "oldLink": "api/v2.0/docs/phonegap",
+  "newLink": "libraries/mobile-sdk-libraries/phonegap-library/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-token",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-google-authenticator-by-token",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/step-up-authentication/step-up-auth-by-password/docs/api/v2/admin-console/platform-security/auth-security-configuration",
+  "newLink": "api/v2/admin-console/platform-security/auth-security-configuration/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/unknown/PasswordLessLogin--PasswordlessLoginVerificationByEmailAndOTP",
+  "newLink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-email-and-otp/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/unknown/PasswordLessLogin--PasswordlessLoginVerificationByUserNameAndOTP",
+  "newLink": "api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/"
+},
+{
+  "oldLink": "api/v2/single-sign-on/federated-sso/saml/config/SP-initiated",
+  "newLink": "single-sign-on/tutorial/federated-sso/saml/sp-initiated/"
+},
+{
+  "oldLink": "api/v2/user-registration/2fa-remove-auth-by-token",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/"
+},
+{
+  "oldLink": "api/v2/user-registration/2fa-reset-google-authenticator-by-token",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/"
+},
+{
+  "oldLink": "authentication/quick-start/social",
+  "newLink": "authentication/quick-start/social-login/"
+},
+{
+  "oldLink": "developer/concepts/localization",
+  "newLink": "libraries/js-libraries/localization/"
+},
+{
+  "oldLink": "developer/concepts/token-handle",
+  "newLink": "authentication/concepts/session-management/"
+},
+{
+  "oldLink": "developer/faq/api-credentials",
+  "newLink": "api/v2/admin-console/platform-security/api-key-and-secret/"
+},
+{
+  "oldLink": "developer/faq/loginradius-support",
+  "newLink": "authentication/faq/support-faq/"
+},
+{
+  "oldLink": "developer/guide/bruteforce",
+  "newLink": "security/user-security/registration-security/#bruteforcelockout2/"
+},
+{
+  "oldLink": "developer/guide/wordpress",
+  "newLink": "libraries/turn-key-plugins/wordpress-2-x-plugin/"
+},
+{
+  "oldLink": "developer/guides/web-php",
+  "newLink": "libraries/sdk-libraries/php-library/"
+},
+{
+  "oldLink": "developer/plugin/wordpress",
+  "newLink": "libraries/turn-key-plugins/wordpress-2-x-plugin/"
+},
+{
+  "oldLink": "developer/questionnaire",
+  "newLink": "authentication/faq/troubleshooting/"
+},
+{
+  "oldLink": "developer/tutorial/html-and-js-tutorial",
+  "newLink": "libraries/demos/html-and-js-demo/"
+},
+{
+  "oldLink": "integrations/integration-platform/supported-integrations",
+  "newLink": "integrations/available-integrations/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/cross-device-ssso/overview",
+  "newLink": "single-sign-on/tutorial/cross-device-sso/overview/"
+},
+{
+  "oldLink": "api/v2/single-sign-on/custom-identity-providers/loginradius-as-sp-with-shibboleth-idp",
+  "newLink": "single-sign-on/overview/"
 }
 ]
 
