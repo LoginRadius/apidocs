@@ -51,6 +51,8 @@ Following the steps, you can configure your OpenID Connect settings in the Login
 
   - **Login Redirect URL (Optional):** Whitelisted Callback Redirect URI.
 
+    > **Note:**  If left blank, the `redirect_uri` will be validated against the Globally Whitelisted list found in the [Deployment > Apps > Web Apps](https://adminconsole.loginradius.com/deployment/apps/web-apps) section of the Admin console. If a value is provided in this field, the `redirect_uri` will only be validated against the specified values and will not check the Globally Whitelisted URLs.
+
   - **CORS Origin:** For Single Page Application, Native, and where Client Secret can not be kept confidential, JavaScript web origin will be whitelisted here for OIDC Rest API
 
   - **Token Expiration (Seconds):** Specify the Access Token lifetime, and after that time, the Access Token will expire.
@@ -351,40 +353,7 @@ The following are some of the error response that you might get during Device Co
 | Expire Token | `{"error":"expired_token","error_description":"" }` | When an access token is expired |
 | Access Denied | `{ "error":"access_denied","error_description":"" }` | If the user denied the authorization |
 
-
-## Post Callback Feature
-
-By default LoginRadius sends the token (Access token) and id_token as a query parameter in the implicit and hybrid workflows. However, it is more secure to send the access token as a post parameter. To leverage such functionality, we are supporting Post Callback in the Cloud Redirection APIs.
-
-In the Post Callback, after the login from the Hosted Page, the token is passed to return_url (Callback Url) as the **Post Form Request**. The token is passed in the Post body instead of the Query String. If you want to send the access token as post parameters instead of QueryString, you can implement this functionality.
-
-You can achieve this by changing code in **default-auth-before-script.js** file under the [Admin Console](https://adminconsole.loginradius.com/deployment/idx). In this file you need to edit the function `redirectToReturnUrl` as given in the below:
-
-```
-function redirectToReturnUrl(token) {
-  if (queryString.return_url) {
-    if (LRObject.util.isCloudApiPostCallbackSupported(queryString.return_url)) {
-      LRObject.util.postAndRedirect(queryString.return_url, {
-        "token": token
-      });
-    } else {
-      window.location = queryString.return_url.indexOf('?') > -1 ? queryString.return_url + '&token=' + token : queryString.return_url + '?token=' + token;
-    }
-  } else {
-    window.location = 'profile.aspx';
-  }
-}
-```
-
-**Note:**
-
-1. This is the Sample function. You may have some different implementations for this function, So changes will be according to your Implementation.
-
-2. This feature is not enabled for any customer by default, to enable this you need to change the Before Script function according to the above code snippet.
-
-3. By default, the token will be sent to query string for the Cloud Redirection callback URLs, (As currently working), So it will not impact any customer implementation.
-
-##Additional Steps
+## Additional Steps
 
 Once you have obtained a code or access_token (depending on the workflow you've followed) you can take additional steps shown below.
 
@@ -394,29 +363,29 @@ If you've obtained an authorization code, you're able to exchange it for an acce
 
 Use the [Access token by OpenID Code](/api/v2/single-sign-on/openid/access-token-by-openid-code) API to get the access_token, JWT Token and the refresh_token.
 
-#####Revoke Refresh Token
+##### Revoke Refresh Token
 
 You can use the [Revoke Refresh Token](/api/v2/single-sign-on/openid/revoke-refresh-token) API Call to expire a Refresh Token.
 
-#####Refresh Access Token
+##### Refresh Access Token
 
 You can use the [Refresh Access Token](/api/v2/single-sign-on/openid/revoke-refresh-token) API Call to expire a Refresh Token.
 
-#####Getting the UserInfo
+##### Getting the UserInfo
 
 The UserInfo of a logged in user can be retrieved with the [UserInfo by Access Token](/api/v2/single-sign-on/openid/userinfo-by-access-token) API call which will return the UserInfo in a JWT Token.
 
 **Note:** The RSA algorithm is currently the only supported encryption type for the JWT tokens.
 
-##Other OpenID functionality
+## Other OpenID functionality
 
 Here's some other endpoints you will need in your OpenID workflow.
 
-#####Getting The JSON Web Key Set
+##### Getting The JSON Web Key Set
 
 Our [JSON Web Key Set](/api/v2/single-sign-on/openid/get-json-web-key-set) API Call provides the JWKS that can be used to verify any JWT token with the returned JSON Web Key Set (JWKS).
 
-#####OIDC Discovery Endpoint
+##### OIDC Discovery Endpoint
 
 The [OIDC Discovery](/api/v2/single-sign-on/openid/oidc-discovery) API Endpoint provides a client with configuration details about the OpenID Connect metadata of Loginradius App.
 

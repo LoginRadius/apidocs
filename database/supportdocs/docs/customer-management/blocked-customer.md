@@ -1,21 +1,21 @@
 # Blocked Customers
 
-Blocked Customers screen displays the list of blocked customers from logging into your application.
+The Blocked Customers screen displays the list of blocked customers from logging into your application.
 
 The following explains how you can search and manage the blocked customers in your account:
 
 **Step 1:** Navigate to <a href = https://adminconsole.loginradius.com/profile-management/customer-management/blocked-customers target=_blank>**Profile Management > Customer Management > Blocked Customers**</a>, and the following screen will appear with the list of your blocked customers:
 
-![Blocked Customer](https://apidocs.lrcontent.com/images/Customer-Management---Blocked-Customer_749762820af8acd4b1.95037342.png "Blocked Customer")
+![Blocked Customer](https://apidocs.lrcontent.com/images/blc-1_21099883976661b64e31be32.16089046.png "Blocked Customer")
 
-**Step 2:** Search for the blocked customer, the following are the available search parameters:
+**Step 2:** To search for the blocked customer, the following are the available search parameters:
 
 - **Domain:** This dropdown lists the domains from where the customers are registered to your application.
-- **Fields:** You can also search the customers using the Email address or UID fields in the provided textbox.
+- **Fields:** You can also search for customers using the email address or UID fields in the provided textbox.
 
 The following screen displays the search result displayed based on the applied search parameters:
 
-![Customer Management - Blocked - Search](https://apidocs.lrcontent.com/images/Customer-Management---Blocked---Search_3013862820c1e785f76.52094162.png "Customer Management - Blocked - Search")
+![Customer Management - Blocked - Search](https://apidocs.lrcontent.com/images/blc-2_19495722536661b7faee0575.47755827.png "Customer Management - Blocked - Search")
 
 **Step 3:** To manage the blocked customer, click the **Manage** button from the above screen. The customer profile pop-up will appear:
 

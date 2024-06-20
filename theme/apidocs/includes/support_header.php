@@ -325,19 +325,19 @@ $hooks->do_action('init');
           </div>
           <div>
             <a href="<?php echo SUPPORT_DOCS_URL . 'authentication/overview/' ?>">
-              <h1>Authentication</h1>
+              <h3>Authentication</h3>
               <p>
                 A quick run-through of authentication processes and features offered by the LoginRadius Identity Platform.
               </p>
             </a>
             <a href="<?php echo SUPPORT_DOCS_URL . 'governance/data-governance-overview/' ?>">
-              <h1>Governance</h1>
+              <h3>Governance</h3>
               <p>
                 Discover data storage, security, and compliance features followed and offered by the LoginRadius Identity Platform.
               </p>
             </a>
             <a href="<?php echo SUPPORT_DOCS_URL . 'integrations/overview/' ?>">
-              <h1>Integrations</h1>
+              <h3>Integrations</h3>
               <p>
                 Integrate LoginRadius Identity Platform with any third-party software to work seamlessly with your existing application and enhance your productivity.
               </p>
@@ -345,13 +345,13 @@ $hooks->do_action('init');
           </div>
           <div>
             <a href="<?php echo SUPPORT_DOCS_URL . 'single-sign-on/overview/' ?>">
-              <h1>Single Sign On</h1>
+              <h3>Single Sign On</h3>
               <p>
                 Configure seamless authentication of your customers into your application or third-party applications.
               </p>
             </a>
             <a href="<?php echo SUPPORT_DOCS_URL . 'customer-management/overview/' ?>">
-              <h1>Customer Management</h1>
+              <h3>Customer Management</h3>
               <p>
                 Directly view and manage your customer data with these powerful Customer Management Systems.
               </p>
@@ -359,13 +359,13 @@ $hooks->do_action('init');
           </div>
           <div>
             <a href="<?php echo SUPPORT_DOCS_URL . 'security/overview/' ?>">
-              <h1>Security</h1>
+              <h3>Security</h3>
               <p>
                 Understand and enable the different LoginRadius Identity Platform security features for your customers.
               </p>
             </a>
             <a href="<?php echo SUPPORT_DOCS_URL . 'customer-intelligence/overview/' ?>">
-              <h1>Customer Intelligence</h1>
+              <h3>Customer Intelligence</h3>
               <p>
                 Analyze your customer information to gain useful insights, build stronger customer relationship and support your decision-making process.
               </p>
@@ -379,20 +379,20 @@ $hooks->do_action('init');
           </div>
           <div>
             <a href="<?php echo API_DOCS_URL . '/v2/getting-started/introduction/' ?>">
-              <h1>Getting Started</h1>
+              <h3>Getting Started</h3>
               <p>
                 Introduction of various implementation methodologies,authenticatin work flows,security best practices,data migration and acceptable use policy
               </p>
             </a>
             <a href="<?php echo API_DOCS_URL . '/v2/admin-console/overview/' ?>">
-              <h1>Admin Console</h1>
+              <h3>Admin Console</h3>
               <p>
                 Explains the configuration required for implementing various
                 features,details about team and profile management
               </p>
             </a>
             <a href="<?php echo API_DOCS_URL . '/v2/single-sign-on/overview/' ?>">
-              <h1>Single Sign On</h1>
+              <h3>Single Sign On</h3>
               <p>
                 Covers the overview and APIs of SSO
               </p>
@@ -400,20 +400,20 @@ $hooks->do_action('init');
           </div>
           <div>
             <a href="<?php echo API_DOCS_URL . '/v2/customer-identity-api/overview/' ?>">
-              <h1>Customer Identity API</h1>
+              <h3>Customer Identity API</h3>
               <p>
                 APIs to handle the various flows and functions
               </p>
             </a>
             <a href="<?php echo API_DOCS_URL . '/v2/cloud-directory-api/overview/' ?>">
-              <h1>Cloud Directory API</h1>
+              <h3>Cloud Directory API</h3>
               <p>
                 Using Cloud directory APIs you can retrieve your entire user
                 database records and generate an aggregate view
               </p>
             </a>
             <a href="<?php echo API_DOCS_URL . '/v2/integrations/overview/' ?>">
-              <h1>Integrations</h1>
+              <h3>Integrations</h3>
               <p>
                 Details around multiple third party integrations including
                 Webhook and its APIs
@@ -422,14 +422,14 @@ $hooks->do_action('init');
           </div>
           <div>
             <a href="<?php echo API_DOCS_URL . '/v2/announcements/facebook-update-reminder/' ?>">
-              <h1>Announcements</h1>
+              <h3>Announcements</h3>
               <p>
                 From this section you can have the latest information/updates
                 about LoginRadius
               </p>
             </a>
             <a href="<?php echo API_DOCS_URL . '/v2/troubleshooting/invalid-request-uri-error/' ?>">
-              <h1>Troubleshooting</h1>
+              <h3>Troubleshooting</h3>
               <p>
                 You can find answers of commonly asked questions
               </p>
@@ -443,21 +443,21 @@ $hooks->do_action('init');
           </div>
           <div>
             <a href="<?php echo SUPPORT_DOCS_URL . 'libraries/js-libraries/getting-started/' ?>">
-              <h1>JS Libraries</h1>
+              <h3>JS Libraries</h3>
               <p>
                 It covers all the feaures you can implement using LoginRadius
                 V2JS
               </p>
             </a>
             <a href="<?php echo SUPPORT_DOCS_URL . 'libraries/mobile-sdk-libraries/overview/' ?>">
-              <h1>Mobile SDK Libraries</h1>
+              <h3>Mobile SDK Libraries</h3>
               <p>
                 Mobile SDKs can help you integrate the LoginRadius features into
                 your mobile application
               </p>
             </a>
             <a href="<?php echo SUPPORT_DOCS_URL . 'libraries/command-line-interface/cli/' ?>">
-              <h1>LoginRadius CLI</h1>
+              <h3>LoginRadius CLI</h3>
               <p>
               Experience seamless interaction with LoginRadius APIs through 
               our intuitive CLI tool. Manage accounts, configure authentication,
@@ -467,14 +467,14 @@ $hooks->do_action('init');
           </div>
           <div>
             <a href="<?php echo SUPPORT_DOCS_URL . 'libraries/identity-experience-framework/overview/' ?>">
-              <h1>Identity Experience Framework</h1>
+              <h3>Identity Experience Framework</h3>
               <p>
                 It is a ready-to-use solution provided by LoginRadius here you
                 can try Login,Registration etc. without making explicit changes
               </p>
             </a>
             <a href="<?php echo SUPPORT_DOCS_URL . 'libraries/turn-key-plugins/overview/' ?>">
-              <h1>Turn Key Plugins</h1>
+              <h3>Turn Key Plugins</h3>
               <p>
                 Turn Key Plugins are built natively for CMS-based platforms
               </p>
@@ -482,14 +482,14 @@ $hooks->do_action('init');
           </div>
           <div>
             <a href="<?php echo SUPPORT_DOCS_URL . 'libraries/sdk-libraries/overview/' ?>">
-              <h1>WEB SDK Libraries</h1>
+              <h3>WEB SDK Libraries</h3>
               <p>
                 LoginRadius SDKs can be utilized to assist you with integrating
                 and simplifying API calls in your native server-side application
               </p>
             </a>
             <a href="<?php echo SUPPORT_DOCS_URL . 'libraries/demos/overview/' ?>">
-              <h1>UseCase/Demos</h1>
+              <h3>UseCase/Demos</h3>
               <p>
                 Various demos are provided in multiple technologies which can
                 help you in the basic implementation of LoginRadius with your
