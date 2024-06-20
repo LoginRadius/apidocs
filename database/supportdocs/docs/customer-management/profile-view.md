@@ -12,15 +12,15 @@ The following explains how you can search and manage the customers registered in
 
 The following screen will appear with the list of the customers registered in your account:
 
-![Search Customer](https://apidocs.lrcontent.com/images/Customer-Management---Search-Customers_10097628204cc8c7137.44155183.png "Search Customer")
+![Search Customer](https://apidocs.lrcontent.com/images/pv-1_21144418046661b9892ad077.17533253.png "Search Customer")
 
 **Step 2:** Select the domain and field name from the dropdowns and click the search button, as highlighted in the following screen:
 
-![Customer Management - Search Customers - Search](https://apidocs.lrcontent.com/images/Customer-Management---Search-Customers---Search_30182628206679033d4.29904763.png "Customer Management - Search Customers - Search")
+![Customer Management - Search Customers - Search](https://apidocs.lrcontent.com/images/pv-2_13444212576661ba607a69b2.77237840.png "Customer Management - Search Customers - Search")
 
 Search results are filtered based on the following:
 
-- **Domain:** This dropdown lists all the domains from where the customers are registered to your application.
+- **Domain:** This dropdown lists all the domains where the customers are registered with your application.
 
 - **Fields:** This dropdown lists the following fields along with the **custom fields** available in your Standard Login Data Schema section.
 - Name
@@ -33,11 +33,11 @@ You need to enter the customer details in the textbox based on the fields select
 
 > **Note:** You can update the search parameters(fields) by adding the custom fields in the Standard Login [Data Schema](/authentication/quick-start/standard-login/) section.
 
-From the step 3 it will explain you can **Manage** the customers registered in your application.
+From step 3 it will explain you can **Manage** the customers registered in your application.
 
 **Step 3:** Click the **Manage** button to manage the customer profile as highlighted in the following screen:
 
-![Manage](https://apidocs.lrcontent.com/images/cm3_25355e84dc42e551a8.31582813.png "Manage")
+![Manage](https://apidocs.lrcontent.com/images/pv-3_2405165826661bb2563dc29.25903097.png "Manage")
 
 **Manage** action provides a comprehensive range of functions and information for each customer. Clicking the Manage button displays the following pop-up:
 
@@ -75,7 +75,7 @@ You can view the following customer information, as highlighted in the **left** 
 - **Activity** - This section provides you with the customer login information like whether the account is active or not which you can identify by the field **Is Active**, other details like Last Login Date, Last Login Location, No Of Logins, and the Modified Date. 
 - **Insights** - This section contains information like account Created Data, Signup Date, Registration source, Signup Log, and User-Agent.
 - **Profile Info** - This contains the customer information like Full name, Last name, Prefix, Suffix, Phone numbers, Addresses, Time Zone, Birth data, and Age. You can update these customer details from this section.
-- **Social Info** - This section contains the Advanced Data-points that LoginRadius provides. Refer to this [document](/api/v2/admin-console/social-provider/advanced-social-data-points/#facebook0) for more information
+- **Social Info** - This section contains the Advanced Data-points that LoginRadius provides. Refer to this [document](/api/v2/admin-console/social-provider/advanced-social-data-points/#facebook0) for more information.
 - **Custom Fields** - From this section, you can check all the active and inactive(optional) custom fields and update them if required.
 - **Custom Objects** - You can check the set custom objects from this section.
 - **Consent Info** - This section will show you the **status** of whether the customer has accepted consent or not with a lot of other information like ID, Title, description, and last modified date. To get detailed information regarding **Consent** refer to this [document](/api/v2/customer-identity-api/consent-mangement/overview/).
