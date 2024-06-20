@@ -6496,11 +6496,6 @@
   "oldLink": "api/v2/single-sign-on/federated-sso/saml/config/idp-initiated",
   "newLink": "single-sign-on/federated-sso/saml/config/idp-initiated/"
 },
-
-{ 
-  "oldLink": "api/v2/single-sign-on/federated-sso/saml/config/SP-initiated",
-  "newLink": "single-sign-on/federated-sso/saml/config/SP-initiated/"
-},
 { 
   "oldLink": "api/v2/single-sign-on/federated-sso/saml/providers/domo",
   "newLink": "single-sign-on/federated-sso/saml/providers/domo/"
@@ -6548,10 +6543,6 @@
 { 
   "oldLink": "api/v2/single-sign-on/custom-identity-providers/custom-jwt-provider",
   "newLink": "single-sign-on/custom-identity-providers/custom-jwt-provider/"
-},
-{ 
-  "oldLink": "api/v2/single-sign-on/custom-identity-providers/loginradius-as-sp-with-shibboleth-idp",
-  "newLink": "single-sign-on/custom-identity-providers/loginradius-as-sp-with-shibboleth-idp/"
 },
 { 
   "oldLink": "api/v2/single-sign-on/custom-identity-providers/providers/doximity",
