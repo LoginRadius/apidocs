@@ -42,15 +42,15 @@ Following is the step-by-step guide to Implementing Oauth 2.0 with LoginRadius
 
 Following the steps, you can configure your OAuth 2.0 settings in the LoginRadius Admin Console.
 
-1. Navigate to the [Platform Configuration > Federated SSO > OAUTH2](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/oauth2)
+- Navigate to the [Platform Configuration > Federated SSO > OAUTH2](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/oauth2)
 
   ![Step 1](https://apidocs.lrcontent.com/images/Step-1_80332463866288c071cc068.11837509.png "Step 1")
 
-2. Click on the **Add App** button, followed by entering an **App Name**, i.e., the name of your OpenID Connect App, selecting an **App Type**, and clicking the **CREATE** button.
+- Click on the **Add App** button, followed by entering an **App Name**, i.e., the name of your OpenID Connect App, selecting an **App Type**, and clicking the **CREATE** button.
 
   ![Create New App](https://apidocs.lrcontent.com/images/Step-2_73352140666288c9b8f0585.37340172.png "Create New App")
 
-3. To begin configuration, you must fill out the form referring to the glossary below.
+- To begin configuration, you must fill out the form referring to the glossary below.
 
     ![OAUTH2](https://apidocs.lrcontent.com/images/Step-3_150814526966288d5a28e954.78726804.png "OAUTH2")
 
@@ -97,11 +97,11 @@ Following the steps, you can configure your OAuth 2.0 settings in the LoginRadiu
 
     - Now, click on the **SAVE** button.
 
-4. In addition to configuring the application, when enabled, you can configure the **Connection**.
+- In addition to configuring the application, when enabled, you can configure the **Connection**.
 
     ![Enable Connections](https://apidocs.lrcontent.com/images/Step-4_14339142266628a1f0420c35.78042973.png "Enable Connections")
 
-5. The OAuth App can enable or disable the connection for the flow from the existing global Social/Custom IDP providers.
+- The OAuth App can enable or disable the connection for the flow from the existing global Social/Custom IDP providers.
 
     ![enter image description here](https://apidocs.lrcontent.com/images/Step-5_3810336536628a466863b16.21139115.png "enter image title here")
 
@@ -277,9 +277,9 @@ LoginRadius also supports some **additional query parameters** that can be used 
 
 Steps for using **code_challenge** and **code_challenge_method** in PKCE flow.
 
-1.  **Generate a Code Verifier:** The code verifier will be passed in the code_verifier parameter while exchanging the code with Access Token in  **Step 2**
+- **Generate a Code Verifier:** The code verifier will be passed in the code_verifier parameter while exchanging the code with Access Token in  **Step 2**
     
-2.  **Generate the code challenge:** This is passed in the **code_challenge** as a query parameter in the Authorization process and will be generated with the help of the code_verifier value.
+- **Generate the code challenge:** This is passed in the **code_challenge** as a query parameter in the Authorization process and will be generated with the help of the code_verifier value.
     
 
 We provide the ready-to-use **code** to generate the **code_verifier** and **code_chalange**, please refer to this [document](/single-sign-on/tutorial/federated-sso/pkce-flow/#generatingpkcecodeverifierandchallenge0)
@@ -499,41 +499,23 @@ Used in internet-connected devices that either lack a browser to perform a user-
 
 ##### Workflow
 
-  
-
 There are two devices ( one input restricted device and other browser-based device) are involved in this workflow.
-
-  
-
-  
 
 **Input restricted devices like Smart TVs**
 
-  
+- When a consumer comes to input restricted device, the Device Code API will be called to get the device_code and user_code.
 
-1. When a consumer comes to input restricted device, the Device Code API will be called to get the device_code and user_code.
-
-2. After that, the Device Code Exchange Token Ping API will be called with a certain internal, PollingInterval and wait till the access token is returned by the Device Code Exchange Token Ping API.
-
-  
+- After that, the Device Code Exchange Token Ping API will be called with a certain internal, PollingInterval and wait till the access token is returned by the Device Code Exchange Token Ping API.
 
 **Browser-based Device**
 
-  
+- On the **verification URL**, the consumer will enter the device_code, the customer will be redirected to the Device Code Confirm URL with the user_code `(https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id=<OAuth Client ID>&user_code=<User Code Genertaed from the Get Device Code API>)`
 
-1. On the **verification URL**, the consumer will enter the device_code, the customer will be redirected to the Device Code Confirm URL with the user_code `(https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id=<OAuth Client ID>&user_code=<User Code Genertaed from the Get Device Code API>)`
+- The Device Code Confirm URL with the user_code `(https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id=<OAuth Client ID>&user_code=<User Code Genertaed from the Get Device Code API>)` will show the IDX page to login.
 
-  
-
-2. The Device Code Confirm URL with the user_code `(https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id=<OAuth Client ID>&user_code=<User Code Genertaed from the Get Device Code API>)` will show the IDX page to login.
-
-3. After login, the consumer will be redirected to the **afterverificationURL**.
-
-  
+- After login, the consumer will be redirected to the **afterverificationURL**.
 
 ##### Configuration
-
-  
 
 To enable the device code flow feature for your account, you need to [**create a support ticket**](https://adminconsole.loginradius.com/support/tickets) to the LoginRadius Support team. You should provide the following details at the time of configuration :
 
