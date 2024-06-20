@@ -87,9 +87,9 @@ Following the steps, you can configure your OpenID Connect settings in the Login
 
 In the OpenID Connect standard There are 3 types authentication flows.
 
-1. [Authorization Code Flow](#authorizationcodeflow2)
-2. [Implicit Flow](#implicitflow3)
-3. [Hybrid Flow](#hybridflow4)
+- [Authorization Code Flow](#authorizationcodeflow2)
+- [Implicit Flow](#implicitflow3)
+- [Hybrid Flow](#hybridflow4)
 
 Each flow requires going through an Authorization Endpoint, essentially the page where the customer is prompted to Login. Depending on the workflow you choose to leverage, you will need to add different query parameters to the URL that points to the Login page, you can use the table below for an overview of all of the different parameters that can be passed to the Authorization Endpoint.
 
@@ -173,11 +173,11 @@ The implicit flow requests tokens without explicit client authentication, instea
 
 Should the customer authenticate successfully the tokens will be returned as follows:
 
-1. **Response of login dialog if response_type=token**
+- **Response of login dialog if response_type=token**
    `REDIRECT_URI?token={LoginRadius access token}&state={Same value which is passed in request}`
-2. **Response of login dialog if response_type=id_token**
+- **Response of login dialog if response_type=id_token**
    `REDIRECT_URI?id_token={JWT token}&state={Same value which is passed in request}`
-3. **Response of login dialog if response_type=token id_token**
+- **Response of login dialog if response_type=token id_token**
    `REDIRECT_URI?{unique code}&token={LoginRadius access token}&id_token={JWT token}&state={Same value which is passed in request}`
 
 ### Hybrid Flow
@@ -207,13 +207,13 @@ Redirect your user to the following URL to get the login prompt:
 
 Should the customer authenticate successfully the tokens will be returned as follows:
 
-1. **Response of login dialog if response_type=token**
+- **Response of login dialog if response_type=token**
    `REDIRECT_URI?token={LoginRadius access_token}&state={Same value which is passed in request}`
 
-2. **Response of login dialog if response_type=id_token**
+- **Response of login dialog if response_type=id_token**
    `REDIRECT_URI?id_token={JWT token}&state={Same value which is passed in request}`
 
-3. **Response of login dialog if response_type=token id_token**
+- **Response of login dialog if response_type=token id_token**
    `REDIRECT_URI?{unique code}&token={LoginRadius access_token}&id_token={JWT token}&state={Same value which is passed in request}`
 
 > **Note:** We have a 10 minutes limitation on SSO login after initializing the Federated SSO request. If the user is not logged in within 10 minutes, the Federated SSO Session will expire, and after that login will return the error, this is for the security reasons to restrict the session to a limited time.
@@ -274,21 +274,19 @@ Used in internet-connected devices that either lack a browser to perform a user-
 
 There are two devices ( one input restricted device and other browser-based device) are involved in this workflow.
 
-  
-
 **Input restricted devices like Smart TVs**
 
-1.  When a consumer comes to input restricted device, the Device Code API will be called to get the device_code and user_code.
+- When a consumer comes to input restricted device, the Device Code API will be called to get the device_code and user_code.
     
-2.  After that, the Device Code Exchange Token Ping API will be called with a certain internal, PollingInterval and wait till the access token is returned by the Device Code Exchange Token Ping API.
+- After that, the Device Code Exchange Token Ping API will be called with a certain internal, PollingInterval and wait till the access token is returned by the Device Code Exchange Token Ping API.
 
 **Browser-based Device**
 
-1.  On the **verification URL**, the consumer will enter the device_code, the customer will be redirected to the Device Code Confirm URL with the user_code `(https://<siteurl>/service/oidc/<OidcAppName>/device/authorize?client_id=<OIDC Client ID>&user_code=<User Code Genertaed from the Get Device Code API>)`
+- On the **verification URL**, the consumer will enter the device_code, the customer will be redirected to the Device Code Confirm URL with the user_code `(https://<siteurl>/service/oidc/<OidcAppName>/device/authorize?client_id=<OIDC Client ID>&user_code=<User Code Genertaed from the Get Device Code API>)`
 
-2.  The Device Code Confirm URL with the user_code `(https://<siteurl>/service/oidc/<OidcAppName>/device/authorize?client_id=<OIDC Client ID>&user_code=<User Code Genertaed from the Get Device Code API>)` will show the IDX page to login.
+- The Device Code Confirm URL with the user_code `(https://<siteurl>/service/oidc/<OidcAppName>/device/authorize?client_id=<OIDC Client ID>&user_code=<User Code Genertaed from the Get Device Code API>)` will show the IDX page to login.
     
-3.  After login, the consumer will be redirected to the **afterverificationURL**.
+- After login, the consumer will be redirected to the **afterverificationURL**.
 
 ### Configuration
 
