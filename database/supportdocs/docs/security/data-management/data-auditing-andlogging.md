@@ -6,7 +6,7 @@ The LoginRadius platform produces extensive logging for every interaction betwee
 
 ### Team Management Audit Trails
 
-The team audit trail keeps track of records for all recent account activities. In order to take a detailed look, you can navigate through LoginRadius [**Admin Console > Account > Team > Audit Logs**](https://adminconsole.loginradius.com/account/team/audit-logs).The [Audit Log](/api/v2/admin-console/team-management/audit-logs/#audit-logs) shows the description of actions taken by the Team Members, the time of occurrence and name of the  Team Members.
+The team audit trail keeps track of records for all recent account activities. In order to take a detailed look, you can navigate through LoginRadius [**Admin Console > Account > Team > Audit Logs**](https://adminconsole.loginradius.com/account/team/audit-logs). The [Audit Log](/api/v2/admin-console/team-management/audit-logs/#audit-logs) shows the description of actions taken by the Team Members, the time of occurrence and name of the  Team Members.
 
 
 ### Consumer Audit Logs
