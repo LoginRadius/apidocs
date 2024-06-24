@@ -252,6 +252,7 @@
             "IsPosted": true,
             "Data": {
                   "Identities" : ["&ltArray of Identites&gt"],
+                  "IsPasswordBreached": false,
                   "UserName": "JohnSmith",
                   "Uid": "f2005bd20****************3278343",
                   "PasswordExpirationDate" : "2028-02-07T19:02:55.803Z",
