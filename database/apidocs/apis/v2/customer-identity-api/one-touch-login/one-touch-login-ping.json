@@ -29,6 +29,7 @@
   "outputFormat":
 {
   "Profile": {
+    "IsPasswordBreached": false,
     "Password": "Rfc2898D*********s$1000$KuOK********EBq41****Ww==$eDYCxmSS7x***********BHEzfhu+KB/3Qo****l8c=",
     "LastPasswordChangeDate": "2018-08-08T12:14:21.024Z",
     "PasswordExpirationDate": "2018-12-03T12:17:26.031Z",
