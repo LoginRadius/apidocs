@@ -1,0 +1,19 @@
+{
+    "name": "Core API Release 36.8.0",
+    "description": "We have released a new version of the Core APIs, featuring several new additions. Please see below for details.",
+    "changelog":
+    {
+        "ADDED": 
+        [
+            {
+                "text": "Several new APIs have been incorporated into our new feature, <strong>Passkey</strong>, an authentication method."
+            },
+            {
+            "text": "New error codes <strong>1315</strong>, <strong>1316</strong>, and <strong>1317</strong> have been introduced as part of our <strong>Breached Password Protection</strong> feature, designed to safeguard user accounts from potential compromises."
+            }
+        ]
+    },
+    "auther": "Michelle Rathod",
+    "created_date": "2024-06-24",
+    "status": "public"
+  }
