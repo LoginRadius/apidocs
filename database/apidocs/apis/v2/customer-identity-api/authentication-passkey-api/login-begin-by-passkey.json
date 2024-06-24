@@ -1,0 +1,49 @@
+{
+    "name": "Login begin by Passkey",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/login/passkey/begin/{apikey}/{identifier}",
+    "method": "GET",
+    "getparams": {
+    },
+    "postparams":"",
+    "headers":{
+        "content-Type":"application/json"
+    },
+    "response":"json",
+    "description": "This API is used to begin the passkey registration flow, in the query parameter we will pass the users email address as an identifier",
+    "parameters": {
+        "Template Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "identifier",
+                "is_required": true,
+                "description": "identifier, Email of the user"
+            }
+        ]
+    },
+    "outputFormat": 
+    {
+        "LoginBeginCredential": {
+            "publicKey": {
+                "challenge": "KpNwao4pwSPUINEwXfhydsx64tnIFPvNtzjWGwYIrGA",
+                "timeout": 60000,
+                "rpId": "localhost",
+                "allowCredentials": [
+                    {
+                        "type": "public-key",
+                        "id": "8oJhZZwzTq6kJ2p5jP2gZhZFU8kzKlZdNuP-iIY_LMlBQMc0Ygtf94BfFJ-GmikMiSiqdWoVuK9UTi5b0Mi7zg"
+                    },
+                    {
+                        "type": "public-key",
+                        "id": "AZbUk8M7IslymjhhNurjw_-n2dghEBqHnODJccsmIg9AvFbpQ5t2TxyGjOjwGCzB2kLMVYrRY54Qjd4G3UwlU7A"
+                    }
+                ],
+                "userVerification": "preferred"
+            }
+        }
+    }
+}
