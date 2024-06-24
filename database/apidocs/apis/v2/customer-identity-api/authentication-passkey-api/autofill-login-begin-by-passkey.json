@@ -1,0 +1,34 @@
+{
+    "name": "Autofill login begin by Passkey",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/login/passkey/autofill/begin/{apikey}",
+    "method": "GET",
+    "getparams": {
+    },
+    "postparams":"",
+    "headers":{
+        "content-Type":"application/json"
+    },
+    "response":"json",
+    "description": "This API is used to begin the passkey login flow with autofill feature",
+    "parameters": {
+        "Template Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "The API key of the LoginRadius account"
+            }
+        ]
+    },
+    "outputFormat": 
+    {
+        "LoginBeginCredential": {
+            "publicKey": {
+                "challenge": "cmncZ7vlr83a3_WL_fGp-BEK5GV4RKs_ERPPCA*****",
+                "timeout": 60000,
+                "rpId": "lrinternal.com",
+                "userVerification": "preferred"
+            }
+        }
+    }
+}

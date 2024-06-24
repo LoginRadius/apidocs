@@ -1,0 +1,92 @@
+{
+    "name": "Registration begin by Passkey",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/register/passkey/begin/{apikey}/{identifier}",
+    "method": "GET",
+    "getparams": {
+    },
+    "postparams":"",
+    "headers":{
+        "content-Type":"application/json"
+    },
+    "response":"json",
+    "description": "This API is used to begin the passkey registration flow, in the query parameter we will pass the users email address as an identifier",
+    "parameters": {
+        "Template Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "identifier",
+                "is_required": true,
+                "description": "identifier, Email of the user"
+            }
+        ]
+    },
+    "outputFormat": 
+    {
+        "RegisterBeginCredential": {
+            "publicKey": {
+                "rp": {
+                    "name": "LoginRadius App",
+                    "id": "localhost"
+                },
+                "user": {
+                    "name": "f04d624989314945a950c6a8f71959d0",
+                    "displayName": "f04d624989314945a950c6a8f71959d0",
+                    "id": "ZjA0ZDYyNDk4OTMxNDk0NWE5NTBjNmE4ZjcxOTU5ZDA"
+                },
+                "challenge": "1x9aUZmA5hCXdvt8szxILDmnWUWWkXgkAE61tC_7yJc",
+                "pubKeyCredParams": [
+                    {
+                        "type": "public-key",
+                        "alg": -7
+                    },
+                    {
+                        "type": "public-key",
+                        "alg": -35
+                    },
+                    {
+                        "type": "public-key",
+                        "alg": -36
+                    },
+                    {
+                        "type": "public-key",
+                        "alg": -257
+                    },
+                    {
+                        "type": "public-key",
+                        "alg": -258
+                    },
+                    {
+                        "type": "public-key",
+                        "alg": -259
+                    },
+                    {
+                        "type": "public-key",
+                        "alg": -37
+                    },
+                    {
+                        "type": "public-key",
+                        "alg": -38
+                    },
+                    {
+                        "type": "public-key",
+                        "alg": -39
+                    },
+                    {
+                        "type": "public-key",
+                        "alg": -8
+                    }
+                ],
+                "timeout": 60000,
+                "authenticatorSelection": {
+                    "requireResidentKey": false,
+                    "userVerification": "preferred"
+                }
+            }
+        }
+    }
+}
