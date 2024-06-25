@@ -1,7 +1,7 @@
 {
   "name": "MFA Settings By Access Token",
   "domain":"https://api.loginradius.com",
-  "path":"/identity/v2/auth/account/2FA",
+  "path":"/identity/v2/auth/account/2fa",
   "method":"GET",
   "getparams":{
   "apikey*":"@apikey@",
