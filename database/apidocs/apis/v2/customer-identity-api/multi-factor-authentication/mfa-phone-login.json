@@ -1,7 +1,7 @@
 {
   "name": "MFA Phone Login",
   "domain": "https://api.loginradius.com",
-  "path": "/identity/v2/auth/login/2FA",
+  "path": "/identity/v2/auth/login/2fa",
   "method": "POST",
   "getparams": {
     "apikey*": "@apikey@",
