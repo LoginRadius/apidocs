@@ -9,7 +9,7 @@
                 "text": "We have introduced the <a href='https://adminconsole.loginradius.com/profile-management/customer-management/consumer-audit-logs' target='_blank'><strong>Consumer Audit Logs</strong></a> feature in the Customer Management section. This feature allows you to see all recent user activities based on the API calls."
             },
             {
-                "text": "Expanded the <a href='https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/integrations' target='_blank'><strong>Federated SSO > integration</strong></a> section with four new pre-built configurations for PingIdentity, Okta, Google Workspace, and AzureAD."
+                "text": "Expanded the <a href='https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/custom-idps/integrations' target='_blank'><strong>Custom IDPs > Integration</strong></a> section with four new pre-built configurations for PingIdentity, Okta, Google Workspace, and AzureAD."
             }
         ]
     },
