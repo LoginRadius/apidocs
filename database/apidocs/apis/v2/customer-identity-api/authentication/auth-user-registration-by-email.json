@@ -309,6 +309,7 @@
                 "IsPosted": true,
                 "Data": {
                   "Profile": {
+                    "IsPasswordBreached": false,
                     "Password": "Rfc289*****veBytes$1*****CTahpWvWI*****QeTOiSg==$1e*****Ou8pryxrZlpZCz*****MzswdWV0Ir*****oQ=",
                     "LastPasswordChangeDate": null,
                     "PasswordExpirationDate": null,
