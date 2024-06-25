@@ -31,6 +31,7 @@
     "outputFormat": {
             "Profile": {
                 "Identities": null,
+                "IsPasswordBreached": false,
                 "IsActive": true,
                 "IsDeleted": false,
                 "EmailVerified": true,

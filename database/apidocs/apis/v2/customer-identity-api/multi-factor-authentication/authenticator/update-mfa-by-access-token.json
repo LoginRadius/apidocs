@@ -42,6 +42,7 @@
   },
   "outputFormat":
   {
+    "IsPasswordBreached": false,
     "Password": "Rfc2898Der********$1000****WzgJ*********CdcH3Nw==$p3qswNbUt***********T5Mfc2CgDPf*******id7a0=",
     "LastPasswordChangeDate": "2017-08-24T13:04:12.1810017Z",
     "PasswordExpirationDate": "2018-11-12T12:15:05.762Z",

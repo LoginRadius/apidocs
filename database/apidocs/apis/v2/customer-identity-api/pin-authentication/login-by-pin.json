@@ -37,6 +37,7 @@
 "outputFormat": 
 {
     "Profile": {
+      "IsPasswordBreached": false,
       "Password": "Rfc28*****riveBytes$1*****Yc1O1Ttl4SYz/0h****w==$cyQlJMK4U*****xfPUEcRiE*****l+uPI6sVlLm3fYM=",
       "LastPasswordChangeDate": null,
       "PasswordExpirationDate": "2020-02-07T05:07:13.8390000Z",
