@@ -250,6 +250,18 @@
       "NoRegistrationPasswordlessLogin": "OTP",
       "OneClickSignin": "MAGICLINK",
       "Registration": "MAGICLINK"
+    },
+    "PassKeysConfig": {
+        "IsEnabled": true,
+        "PasskeySelection": "Both",
+        "ProgressiveEnrollment": true,
+        "ProgressiveEnrollmentDelay": 40,
+        "LocalEnrollment": true,
+        "RPDisplayName": "LoginRadius App",
+        "RPID": "loginradius.com",
+        "RPOrigins": [
+            "https://www.loginradius.com"
+        ]
     }
   }
 }
