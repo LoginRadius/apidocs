@@ -403,6 +403,30 @@ When the Profile Editor is initialized, it loads all of the fields specified in 
 
 > **Note:** At the moment the Profile Editor does not provide support for complex fields / arrays of objects.
 
+## Manage passkeys
+
+In the profile beforescript.js, add the script below to list the added passkeys. The following code can be used for reference:
+
+```
+var passkey = {};
+passkey.container = "passkey-container";
+passkey.onSuccess = function (resposne) {
+    console.log(resposne)
+};
+passkey.onError = function (error) {
+    console.log(error)
+};
+LRObject.init("passkeylogin",passkey);
+```
+
+To display the manage passkey options, add the following container to the profile page:
+
+```
+<div id="passkey-container"/>
+```
+
+> **Note:** This container will only work after login.
+
 ## Changing Username
 
 To implement the change username interface, use the `LRObject.init` method with the **changeUsername** action. The following code can be used for reference:
