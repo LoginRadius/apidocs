@@ -34,8 +34,8 @@ LoginRadius provides all of the guidelines and hosts the Facebook application fo
 
 For further details, please refer to the following:
 
-- Facebook Platform Usage Policy:https://developers.facebook.com/policy
-- Facebook Privacy Policy: https://developers.facebook.com/privacy
+- Facebook Platform Usage Policy: https://developers.facebook.com/terms/
+- Facebook Privacy Policy: https://www.facebook.com/privacy/policy/
 
 ### Twitter Data Privacy Policy
 Twitter has the most flexible platform and once you sign up for a developer account you would be able to access most of the profile information with a few of exceptions. You can request access via forms to the restricted information. Here are some of the restrictions:
