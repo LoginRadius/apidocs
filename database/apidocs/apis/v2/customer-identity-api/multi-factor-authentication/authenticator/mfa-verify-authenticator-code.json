@@ -52,6 +52,7 @@
     "outputFormat": {
       "Identities": [
         {
+          "IsPasswordBreached": false,
           "Password": "********************",
           "LastPasswordChangeDate": "1542daac-4df0-4270-b5b5-5d7922492d7e",
           "PasswordExpirationDate": "2028-02-07T19:02:55.803Z",

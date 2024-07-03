@@ -160,7 +160,7 @@ Risk-Based Authentication is a user's action-based authentication that works on 
 
 ## Disabling Multi-Factor Authenticator
 
-Provided that you have MFA configured on your LoginRadius site/environment, LoginRadius provides your customers the ability to disable the Multi-Factor Authenticator on their accounts. They will only be able to disable it depending on your MFA configurations and the circumstances. Below are two scenarios and the corresponding actions that can be taken based on them.
+Provided that you have MFA configured on your LoginRadius site/environment, LoginRadius provides your customers the ability to disable the Multi-Factor Authenticator on their accounts. They will only be able to disable it depending on your MFA configurations and the circumstances. Below are two scenarios and the corresponding actions that can be taken based on them. Kindly refer to our documentation [here](/libraries/js-libraries/advanced-js-customizations/#createmultifactorauthenticationmfa12) for more details on JS implementation to integrate option for disabling MFA.
 
 **When MFA is configured as Mandatory in your LoginRadius Environment:** Since MFA is required in this case, the customer can only disable one of the MFA methods on their accounts. For example, assuming that the customer has both OTP and Authenticator Apps enabled on their account, the customer can disable the OTP method, but will still need to use Authenticator App for login.
 

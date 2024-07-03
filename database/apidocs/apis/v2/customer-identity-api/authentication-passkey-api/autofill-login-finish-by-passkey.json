@@ -1,0 +1,38 @@
+{
+    "name": "Remove passkey by Id",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/login/passkey/autofill/finish/{apikey}",
+    "method": "POST",
+    "getparams": {
+    },
+    "postparams":"",
+    "headers":{
+        "content-Type":"application/json"
+    },
+    "response":"json",
+    "description": "This API is used to finish the passkey autofill login flow",
+    "parameters": {
+        "Template Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "The API key of the LoginRadius account"
+            }
+        ]
+    },
+    "outputFormat": 
+    {
+        "PasskeyCredential": {
+            "id": "AYE5rDGu6r3YR9XUg4Pur78930_HHlvQdQzRAuccAk4B4tPDJuDXk7m2uAIgYtUn-H0MBzKwkjiOe7_MO9eU-ms",
+            "rawId": "AYE5rDGu6r3YR9XUg4Pur78930_HHlvQdQzRAuccAk4B4tPDJuDXk7m2uAIgYtUn-H0MBzKwkjiOe7_MO9eU-ms",
+            "type": "public-key",
+            "authenticatorAttachment":"cross-platform",
+            "response": {
+              "authenticatorData": "SZYN5YgOjGh0NBcPZHZgW4_krrmihjLHmVzzuoMdl2MFAAAAAg",
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoibDJvdU5KS1NyZGRmbDBJVVVCNFMxVkpfeGxBTjlRT21GZ3M4cERCbFhuUSIsIm9yaWdpbiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+              "signature": "MEQCIBEktXIh0qPuuheEVgXskA7n1JJDJjaFqfVQF3d9nT4rAiAm0okAlMPOfBy2dBIZ6KPdQE1xhVMFlpJz3U6BDhNnwA",
+              "userHandle": ""
+            }
+          }
+      } 
+}

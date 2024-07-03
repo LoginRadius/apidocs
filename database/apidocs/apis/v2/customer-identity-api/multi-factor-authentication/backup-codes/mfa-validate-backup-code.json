@@ -510,6 +510,7 @@
       "LastLoginDate": "2017-09-06T15:41:21.146Z"
     }
   ],
+  "IsPasswordBreached": false,
   "Password": "XXXXXXXX",
   "LastPasswordChangeDate": "2017-05-24T16:42:33.307Z",
   "PasswordExpirationDate": null,
