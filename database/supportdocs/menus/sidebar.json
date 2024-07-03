@@ -39,7 +39,12 @@
           "type": "DOC"
         },
         {
-          "url": "authentication/tutorial/passwordless-login",
+          "url": "authentication/tutorial/passkey-authentication/",
+          "title": "Passkey Authentication",
+          "type": "DOC"
+        },
+        {
+          "url": "authentication/tutorial/passwordless-login/",
           "title": "Passwordless Login",
           "type": "DOC"
         },
