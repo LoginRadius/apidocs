@@ -10,12 +10,6 @@
             },
             {
                 "text": "Expanded the <a href='https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/custom-idps/integrations' target='_blank'><strong>Custom IDPs > Integration</strong></a> section with four new pre-built configurations for PingIdentity, Okta, Google Workspace, and AzureAD."
-            },
-            {
-                "text": "<a href='https://www.loginradius.com/docs/authentication/tutorial/passkey-authentication/' target='_blank'><strong>Passkey</strong></a>, an authentication method integrated into Advanced Login Methods within the Admin Console, enhances user security and convenience."
-            },
-            {
-                "text": "Introduced a <strong>Breach Password detection feature</strong> to the Admin Console, which detects if passwords being set or used by users are exposed to a known data breach."
             }
         ]
     },
