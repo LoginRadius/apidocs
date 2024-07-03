@@ -10,7 +10,7 @@
         "content-Type":"application/json"
     },
     "response":"json",
-    "description": "This API is used to remove the passkey from the users’s account",
+    "description": "This API is used to remove the passkey from the user’s account",
     "parameters": {
         "Template Params": [
             {
