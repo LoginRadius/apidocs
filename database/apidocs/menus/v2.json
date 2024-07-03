@@ -1093,8 +1093,8 @@
         "type": "GET"
       },
       {
-        "url": "v2/customer-identity-api/authentication-passkey-api/regsiter-finish-by-passkey/",
-        "title": "Regsiter finish by Passkey",
+        "url": "v2/customer-identity-api/authentication-passkey-api/register-finish-by-passkey/",
+        "title": "Register finish by Passkey",
         "type": "POST"
       },
       {
