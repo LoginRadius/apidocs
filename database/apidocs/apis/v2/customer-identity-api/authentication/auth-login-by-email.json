@@ -105,6 +105,7 @@
     "outputFormat": {
         "Profile": {
             "Identities" : ["Array of Identites"],
+            "IsPasswordBreached": false,
             "UserName": "JohnSmith",
             "Uid": "f2005bd20****************3278343",
             "PasswordExpirationDate" : "2028-02-07T19:02:55.803Z",

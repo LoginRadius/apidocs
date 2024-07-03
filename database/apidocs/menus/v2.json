@@ -1086,6 +1086,58 @@
         "type": "DELETE"
       }
     ],
+    "Authentication Passkey API": [
+        {
+        "url": "v2/customer-identity-api/authentication-passkey-api/registration-begin-by-passkey/",
+        "title": "Registration begin by Passkey",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication-passkey-api/regsiter-finish-by-passkey/",
+        "title": "Regsiter finish by Passkey",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication-passkey-api/login-begin-by-passkey/",
+        "title": "Login begin by Passkey",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication-passkey-api/login-finish-by-passkey/",
+        "title": "Login finish by Passkey",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication-passkey-api/add-passkey-begin/",
+        "title": "Add passkey begin",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication-passkey-api/add-passkey-finish/",
+        "title": "Add passkey finish",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication-passkey-api/list-user-passkeys/",
+        "title": "List user passkeys",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication-passkey-api/remove-passkey-by-id/",
+        "title": "Remove passkey by Id",
+        "type": "DELETE"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication-passkey-api/autofill-login-begin-by-passkey/",
+        "title": "Autofill login begin by Passkey",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/authentication-passkey-api/autofill-login-finish-by-passkey/",
+        "title": "Autofill login finish by Passkey",
+        "type": "POST"
+      }
+    ],
     "Multi-Factor Authentication": {
       "basic": [
         {

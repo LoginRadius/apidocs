@@ -2241,7 +2241,6 @@ function generateSeoTitle(url) {
 
 
     seoUrlArray.forEach((element, i) => {
-        console.log(element)
         if (element != "api") {
             if (element != "v2" || element == "v1") {
                 if (i == seoUrlArray.length - 1 || i == seoUrlArray.length - 2 || i == seoUrlArray.length - 3)
