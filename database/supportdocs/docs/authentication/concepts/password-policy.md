@@ -206,15 +206,7 @@ commonOptions.confirmPasswordVisibilityControl = true;
 
 This allows users to toggle between displaying and hiding the password input for improved usability and security.
 
-## Part 8 - Next Steps
-
-The following is the list of features you might want to add-on to the above implementation:
-
-[Session Management](/authentication/concepts/session-management/)
-
-[Customer Security](/authentication/concepts/customer-security/)
-
-## Part 9 - Breached Password Protection
+## Part 8 -Breached Password Protection
 
 Breached password prevention is a vital component of cybersecurity strategy, designed to safeguard your user accounts from being compromised. The **Breached Password Protection** feature ensures that passwords exposed in data breaches cannot be used, providing an added layer of protection for your account.
 
@@ -239,3 +231,13 @@ Breached password prevention is a vital component of cybersecurity strategy, des
 		> **Note:** Ensure there are no spaces after the comma while separating multiple email IDs.
 
 Once you have selected the events as per your requirements, click on the **Save** button.
+
+## Part 9 -  Next Steps
+
+The following is the list of features you might want to add-on to the above implementation:
+
+[Session Management](/authentication/concepts/session-management/)
+
+[Customer Security](/authentication/concepts/customer-security/)
+
+
