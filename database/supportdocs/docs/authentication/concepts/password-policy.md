@@ -229,7 +229,7 @@ Breached password prevention is a vital component of cybersecurity strategy, des
 - 	**Login**: It checks for password breaches during login and alerts the user. You can then select the desired action upon detecting a password breach. The following actions are available.
 	- **Ask For Password Change**: The user is prompted to change their password via email/ SMS.
 	- **Send Notification**: An email/ SMS notification about the password breach is sent to the user. 
-	- **Record Breach**: The password breach is recorded.
+	- **Record Breach**: If you don't want to take any action and just want to set a flag indicating that a password breach has been detected, then this field will be used.
 
 - **Register**: It checks for password breaches during registration and alerts the user.
 - **Password Change**: It checks for password breaches when a user changes their password and sends an alert.
@@ -239,18 +239,3 @@ Breached password prevention is a vital component of cybersecurity strategy, des
 		> **Note:** Ensure there are no spaces after the comma while separating multiple email IDs.
 
 Once you have selected the events as per your requirements, click on the **Save** button.
-
-## IO Implementation BreachedPassword
-
-We propose the creation of a dedicated BreachedPassword node. This node will specifically handle **validating breached passwords** and can be integrated into various workflows.
-
-## Workflow Integration
-
-You can incorporate the BreachedPassword node at any point in your authentication workflow to ensure compromised passwords are detected and managed effectively. This node can be configured to initiate actions such as:
-
-- Triggering a password update process.
-- Sending alerts or notifications.
-- Logging the breach for security auditing.
-
-
- 
