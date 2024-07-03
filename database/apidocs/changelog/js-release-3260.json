@@ -1,0 +1,15 @@
+{
+    "name": "JS Release 3.26.0",
+    "description": "This JavaScript release brings a new feature to our LoginRadius V2JS library. Please see below for details:",
+    
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "We have also extended the functionalities of the newly released Passkey feature in LoginRadius v2 JS."
+            }
+        ]
+    },
+    "auther": "Nikhil Sahu",
+    "created_date": "2024-06-29",
+    "status": "public"
+}
