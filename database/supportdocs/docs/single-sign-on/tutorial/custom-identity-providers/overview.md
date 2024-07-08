@@ -29,6 +29,19 @@ The following flowchart illustrates the above-explained process:
 
 The details of these two protocols are explained in the section below.
 
+## Integrations
+
+Our pre-configured templates allow you to manage your Custom Identity Provider integrations easily. LoginRadius enables you to swiftly configure These integrations, allowing users to log in once and seamlessly access multiple applications.
+Presently, LoginRadius supports the pre-built integration template for the providers mentioned below.
+
+- Salesforce
+- Azure AD
+- Google Workspace
+- PingIdentity
+- Okta
+
+You can refer to the [Pre-Built Connections](/single-sign-on/tutorial/custom-identity-providers/pre-built-connections/) document for more details on Integrations.
+
 ### OAuth2
 
 OAuth2 is an authorization delegation protocol that allows one party to access a customer's resources stored with another party without sharing any credentials. 
