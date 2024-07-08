@@ -10,6 +10,18 @@ LoginRadius acts as an IdP, which stores and authenticates the identities that y
 
 ![enter image description here](https://apidocs.lrcontent.com/images/LoginRadius-as-an-Identity-Provider_293735eda5f26474d76.65203454.png "diagram")
 
+## Integrations
+
+With our pre-configured templates, you can easily manage your Federated Single Sign-On (SSO) integrations. LoginRadius enables you to swiftly configure SSO integrations, allowing users to log in once and seamlessly access multiple applications.
+LoginRadius currently supports the pre-built templates for the following.
+
+- Salesforce
+- Fresh Desk
+- Zendesk
+
+For more details on Integrations, you can refer to the [Pre-Built Connections](/single-sign-on/tutorial/federated-sso/pre-built-connections/) document.
+
+
 ## Federated SSO Protocols
 
 The following are the list of Federated SSO Protocols supported by LoginRadius Identity Platform:
