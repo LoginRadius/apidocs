@@ -13,7 +13,7 @@ The LoginRadius platform offers a range of implementation methodologies, enablin
 The IDx allows you to set up a centralized authentication page. There are a few predefined layouts that can be further customized via your LoginRadius Admin Console, enabling you to modify various CSS, HTML, and JavaScript elements of the page. This page is hosted on a dedicated instance in LoginRadius and will relay authenticated details to a specified redirect location. It allows you to handle the customization of your interfaces in a single location, serving a wide variety of web properties without needing to update each property individually. You can review the documentation below that outlines the configuration and customization of the IDx framework.
 
 
-For more information for the process of customizing the IDx use [Identity Experience Framework Customizations](/api/v2/user-registration/hosted-registration) document as a reference, You can obtain a copy of the default files from the link given in the above document and customize the interfaces by using similar flows as detailed in the JavaScript Interface workflow.
+For more information for the process of customizing the IDx use [Identity Experience Framework Customizations](/libraries/identity-experience-framework/customization/) document as a reference, You can obtain a copy of the default files from the link given in the above document and customize the interfaces by using similar flows as detailed in the JavaScript Interface workflow.
 
 ### Basic Properties
 
