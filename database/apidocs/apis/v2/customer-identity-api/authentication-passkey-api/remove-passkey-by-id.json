@@ -1,9 +1,11 @@
 {
     "name": "Remove passkey by Id",
     "domain": "https://api.loginradius.com",
-    "path": "/identity/v2/auth/account/passkey/{passkeId}/{apikey}/{access_token}",
+    "path": "/identity/v2/auth/account/passkey/{passkeId}",
     "method": "DELETE",
     "getparams": {
+         "apikey*": "@apikey@",
+        "identifier*": "@identifier@"
     },
     "postparams":"",
     "headers":{
@@ -12,21 +14,29 @@
     "response":"json",
     "description": "This API is used to remove the passkey from the user’s account",
     "parameters": {
-        "Template Params": [
-            {
-                "name": "passkeId",
-                "is_required": true,
-                "description": "Users passkey ID"
-            },
+        "Get Params": [
             {
                 "name": "apikey",
                 "is_required": true,
                 "description": "LoginRadius API Key"
             },
             {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "The API secret of the LoginRadius account"
+            },
+            {
                 "name": "access_token",
                 "is_required": true,
                 "description": "Access token of the user"
+            }
+        ],
+        "Template Params": [
+            
+            {
+                "name": "passkeId",
+                "is_required": true,
+                "description": "Users passkey ID"
             }
         ]
     },

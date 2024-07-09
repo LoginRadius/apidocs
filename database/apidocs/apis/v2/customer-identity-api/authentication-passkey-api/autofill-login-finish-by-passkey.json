@@ -1,9 +1,10 @@
 {
     "name": "Remove passkey by Id",
     "domain": "https://api.loginradius.com",
-    "path": "/identity/v2/auth/login/passkey/autofill/finish/{apikey}",
+    "path": "/identity/v2/auth/login/passkey/autofill/finish",
     "method": "POST",
     "getparams": {
+        "apikey*": "@apikey@"
     },
     "postparams":"",
     "headers":{
@@ -12,7 +13,7 @@
     "response":"json",
     "description": "This API is used to finish the passkey autofill login flow",
     "parameters": {
-        "Template Params": [
+        "Get Params": [
             {
                 "name": "apikey",
                 "is_required": true,

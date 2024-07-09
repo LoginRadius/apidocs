@@ -2,7 +2,7 @@
     "name": "MFA push login ping",
     "domain": "https://api.loginradius.com",
     "path": "/login/2fa/push/ping",
-    "method": "POST",
+    "method": "GET",
     "getparams": {
       "apikey*": "@apikey@",
       "secondfactorauthenticationtoken*":""
