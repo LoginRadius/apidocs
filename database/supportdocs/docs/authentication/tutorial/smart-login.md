@@ -30,7 +30,7 @@ This guide will take you through the process to set up and implement Smart Login
 Login to your <a href = https://adminconsole.loginradius.com/ target=_blank>**Admin Console**</a> account and navigate to <a href = https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/advance-login-methods/smart-login-settings target=_blank>Platform Configuration > Advance Login Methods > Smart Login Settings.</a>
 
 The following screen will appear:
-![![Smart Login By Email API ](https://apidocs.lrcontent.com/images/Smartlogin1_267925e7753d85d5974.65989878.png "Smart Login")](https://apidocs.lrcontent.com/images/Smartlogin1_161015e7753d834ae29.67865270.png "Smart Login")
+![smart login](https://apidocs.lrcontent.com/images/image-41_5059944456687a501a60242.10075632.png "smart login")
 
 The above screen displays that the Smart Login is enabled for your account since the Smart Login Settings box is in green with the **enabled **text. If not enabled for your account, raise a request to the<a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>
 
@@ -41,14 +41,14 @@ This section covers the required configurations that you need to perform in the 
 **Step 1:** To configure the Smart Login Email Settings, navigate to <a href = https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/advance-login-methods/smart-login target=_blank>Platform Configuration > Advanced Login Methods > Email/SMS Templates > Smart Login</a>
 
 The following screen will appear:
-![Smart Login](https://apidocs.lrcontent.com/images/Smartlogin2_220255e7754da0e41b0.89444750.png "Smart Login")
+![smart login](https://apidocs.lrcontent.com/images/image-42_4391167566687a6724c8944.81861570.png "smart login")
 
 **Step 2: **Click on **Smart Login with Email Settings**. **Enter Request Limit, Request disabled Period** and **Email Token Validity Limit** as highlighted in the following screen and click on the **Save **button.
 
-![Smart Login](https://apidocs.lrcontent.com/images/Smartlogin3_251165e77561f26ace8.40074061.png "Smart Login")
+![smart login template"](https://apidocs.lrcontent.com/images/image-42_12345313666687a58e420c62.07581298.png "smart login template")
 
 **Step 3:** Select the Email template that you would like to manage as highlighted in the following screen:
-![Smart Login](https://apidocs.lrcontent.com/images/Smartlogin4_120975e78b12fcbdae8.65840252.png "Smart Login")
+![smart login](https://apidocs.lrcontent.com/images/image-43_12845148666687a5f5b6cbc0.95732718.png "smart login")
 
 You can perform actions such as **Add Template, Edit Template, Send Test Email** and **Delete Template**.
 

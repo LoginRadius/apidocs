@@ -26,7 +26,7 @@ Login to your <a href = https://adminconsole.loginradius.com/ target=_blank>**Ad
 
 The following screen appears:
 
-![one touch login](https://apidocs.lrcontent.com/images/1_48595e7a883121c041.78247127.png "status")
+![one touch enable](https://apidocs.lrcontent.com/images/image-38_2121980436687a701b6d1a7.94957080.png "one touch enable")
 
 The above screen displays that the One Touch Login is enabled for your account since the One Touch Login box is in green with the enabled text. If not **enabled** for your account, raise a request to the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>
 
@@ -50,19 +50,19 @@ To customize the email that will be sent to the customers, manage the One Touch 
  
 The following screen appears:
 
-![one touch Login](https://apidocs.lrcontent.com/images/2_236215e7a887b849d88.92300374.png "sms template")
+![template](https://apidocs.lrcontent.com/images/image-39_8647230326687aa9a3785b6.22460222.png "template")
 
 **Step 2:** Expand the **One Touch Login Email Settings** panel. Enter the desired [**Request Limit**](/authentication/concepts/email-communications/#partglobalemailsettings5), [**Request disabled Period**](/authentication/concepts/email-communications/#partglobalemailsettings5) and [**One touch Login  Email Token Validity Limit**](/authentication/concepts/email-communications/#partglobalemailsettings5) as highlighted in the following screen:
 
 
-![one touch](https://apidocs.lrcontent.com/images/3_325275e776cee6db529.37412632.png "email settings")
+![one touch email settings](https://apidocs.lrcontent.com/images/image-40_8980025226687a83f1ca774.63722230.png "one touch email settings")
 
 Click the **Save** button.
 
 
 **Step 3:** Select the Email template that you would like to manage as highlighted in the following screen:
 
-![one touch](https://apidocs.lrcontent.com/images/Advance-Login-methods-LoginRadius-User-Dashboard_175699536664dc9b6ca9c47.70296690.png "email setting")
+![one touch](https://apidocs.lrcontent.com/images/unnamed-22_4313771796687a8f0586806.44255834.png "one touch")
 
 You can perform actions such as [**Add Template**](/authentication/concepts/email-communications/#partemailtemplates6), [**Edit Template**](/authentication/concepts/email-communications/#partemailtemplates6), [**Send Test Email**](/authentication/concepts/email-communications/#partemailtemplates6) and [**Delete Template**](/authentication/concepts/email-communications/#partemailtemplates6).
 
@@ -78,15 +78,15 @@ To customize the SMS that will be sent to the customers, manage the One touch lo
 
 The following screen appears: 
 
-![one touch](https://apidocs.lrcontent.com/images/5_40135e776e2e5a1bd7.35137133.png "sms setting")
+![sms](https://apidocs.lrcontent.com/images/unnamed-23_13713026006687a941538c44.47453721.png "sms")
 
 **Step 2**: Expand the **One Touch Login SMS Settings** panel. Enter the desired [**Request Limit**](/authentication/concepts/sms-communication/#partsmstemplatesettings1), [**Request disabled Period**](/authentication/concepts/sms-communication/#partsmstemplatesettings1) and [**One touch Login OTP Validity Limit**](/authentication/concepts/sms-communication/#partsmstemplatesettings1) as highlighted in the following screen:
 
-![one touch](https://apidocs.lrcontent.com/images/6_39965e776f6f0fa000.37951256.png "sms settings")
+![sms](https://apidocs.lrcontent.com/images/unnamed-24_15637772526687a9b6b6dcf7.48188032.png "sms")
 
 **Step 3:** Select the SMS template that you would like to manage as highlighted in the following screen:
 
-![one touch](https://apidocs.lrcontent.com/images/Advance-Login-methods-LoginRadius-User-Dashboard-1_1106991663664dc9d37b8342.78735607.png "SMS setting")
+![template](https://apidocs.lrcontent.com/images/unnamed-23_17915257876687aa005c6127.88790850.png "template")
 
 You can perform actions such as [**Add**](/authentication/concepts/sms-communication/#addtemplate4), [**Edit**](/authentication/concepts/sms-communication/#edittemplate3), [**Reset**](/authentication/concepts/sms-communication/#resettemplate6) and [**Delete**](/authentication/concepts/sms-communication/#deletetemplate5) template. 
 
