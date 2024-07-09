@@ -1,7 +1,7 @@
 {
     "name": "Login finish by Passkey",
     "domain": "https://api.loginradius.com",
-    "path": "/identity/v2/auth/login/passkey/finish/{apikey}",
+    "path": "/identity/v2/auth/login/passkey/finish",
     "method": "Post",
     "getparams": {
         "apikey*": "@apikey@"
