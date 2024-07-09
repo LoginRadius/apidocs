@@ -1,9 +1,11 @@
 {
     "name": "List user passkeys",
     "domain": "https://api.loginradius.com",
-    "path": "/identity/v2/auth/account/passkey/begin/{apikey}/{access_token}",
+    "path": "/identity/v2/auth/account/passkey/begin",
     "method": "GET",
     "getparams": {
+        "apikey*": "@apikey@",
+        "access_token*": "@access_token@"
     },
     "postparams":"",
     "headers":{
@@ -12,7 +14,7 @@
     "response":"json",
     "description": "This API is used to list user’s passkeys",
     "parameters": {
-        "Template Params": [
+        "Get Params": [
             {
                 "name": "apikey",
                 "is_required": true,

@@ -1,9 +1,10 @@
 {
     "name": "Autofill login begin by Passkey",
     "domain": "https://api.loginradius.com",
-    "path": "/identity/v2/auth/login/passkey/autofill/begin/{apikey}",
+    "path": "/identity/v2/auth/login/passkey/autofill/begin",
     "method": "GET",
     "getparams": {
+        "apikey*": "@apikey@"
     },
     "postparams":"",
     "headers":{
@@ -12,7 +13,7 @@
     "response":"json",
     "description": "This API is used to begin the passkey login flow with autofill feature",
     "parameters": {
-        "Template Params": [
+        "Get Params": [
             {
                 "name": "apikey",
                 "is_required": true,

@@ -1,9 +1,11 @@
 {
     "name": "Add passkey finish",
     "domain": "https://api.loginradius.com",
-    "path": "/identity/v2/auth/account/register/passkey/finish/{apikey}/{access_token}",
+    "path": "/identity/v2/auth/account/register/passkey/finish",
     "method": "POST",
     "getparams": {
+        "apikey*": "@apikey@",
+        "access_token*": "@access_token@"
     },
     "headers":{
         "content-Type":"application/json"
@@ -11,7 +13,7 @@
     "response":"json",
     "description": "This API is used to add a Passkey to the user’s profile, this API will be used in the account section. This will complete the add passkey flow.",
     "parameters": {
-        "Template Params": [
+        "Get Params": [
             {
                 "name": "apikey",
                 "is_required": true,
@@ -26,13 +28,13 @@
     },
 "postparams":
 {
-    "id": "AY_pe5z7GTBX53LE7f7gpshcvh7H2Fu1ncKUwMQUx6fMF7_ZvfX0h7Le41lpBAQqwEe7NoqwhNbAYaFwvxXHZwI",
-    "rawId": "AY_pe5z7GTBX53LE7f7gpshcvh7H2Fu1ncKUwMQUx6fMF7_ZvfX0h7Le41lpBAQqwEe7NoqwhNbAYaFwvxXHZwI",
-    "type": "public-key",
-    "response": {
-      "attestationObject": "o2NmbXRkbm9uZWdhdHRTdG10oGhhdXRoRGF0YVjFSZYN5YgOjGh0NBcPZHZgW4_krrmihjLHmVzzuoMdl2NFAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQGP6Xuc-xkwV-dyxO3-4KbIXL4ex9hbtZ3ClMDEFMenzBe_2b319Iey3uNZaQQEKsBHuzaKsITWwGGhcL8Vx2cCpQECAyYgASFYIJo29LB_9_hIwoLTIseljw3jMqdhyv1sxpVeoz3M3kRBIlggEqa0tSoB5fHmT_oYoFlT3u5udTX1IbUUDk7Kvt_m9GM",
-      "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uY3JlYXRlIiwiY2hhbGxlbmdlIjoiZHcyNFlvY0FaTjVPR09DaEEzRjFkY0ZlOXVvcUVubUE0WFRLeEl1Q2xBTSIsIm9yaWdpbiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MCIsImNyb3NzT3JpZ2luIjpmYWxzZX0"
-    }
+        "id": "AY_pe5z7GTBX53LE7f7gpshcvh7H2Fu1ncKUwMQUx6fMF7_ZvfX0h7Le41lpBAQqwEe7NoqwhNbAYaFwvxXHZwI",
+        "rawId": "AY_pe5z7GTBX53LE7f7gpshcvh7H2Fu1ncKUwMQUx6fMF7_ZvfX0h7Le41lpBAQqwEe7NoqwhNbAYaFwvxXHZwI",
+        "type": "public-key",
+        "response": {
+          "attestationObject": "o2NmbXRkbm9uZWdhdHRTdG10oGhhdXRoRGF0YVjFSZYN5YgOjGh0NBcPZHZgW4_krrmihjLHmVzzuoMdl2NFAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQGP6Xuc-xkwV-dyxO3-4KbIXL4ex9hbtZ3ClMDEFMenzBe_2b319Iey3uNZaQQEKsBHuzaKsITWwGGhcL8Vx2cCpQECAyYgASFYIJo29LB_9_hIwoLTIseljw3jMqdhyv1sxpVeoz3M3kRBIlggEqa0tSoB5fHmT_oYoFlT3u5udTX1IbUUDk7Kvt_m9GM",
+          "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uY3JlYXRlIiwiY2hhbGxlbmdlIjoiZHcyNFlvY0FaTjVPR09DaEEzRjFkY0ZlOXVvcUVubUE0WFRLeEl1Q2xBTSIsIm9yaWdpbiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MCIsImNyb3NzT3JpZ2luIjpmYWxzZX0"
+        }     
 },
         "outputFormat":
 
