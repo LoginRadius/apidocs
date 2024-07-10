@@ -1124,7 +1124,7 @@
       },
       {
         "url": "v2/customer-identity-api/authentication-passkey-api/remove-passkey-by-id/",
-        "title": "Remove passkey by Id",
+        "title": "Remove passkey by UID",
         "type": "DELETE"
       },
       {
