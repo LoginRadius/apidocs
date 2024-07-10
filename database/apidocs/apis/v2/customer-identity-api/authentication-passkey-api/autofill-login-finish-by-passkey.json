@@ -1,12 +1,25 @@
 {
-    "name": "Remove passkey by Id",
+    "name": "Autofill login finish by Passkey",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/login/passkey/autofill/finish",
     "method": "POST",
     "getparams": {
         "apikey*": "@apikey@"
     },
-    "postparams":"",
+    "postparams": {
+        "PasskeyCredential": {
+            "id": "AYE5rDGu6r3YR9XUg4Pur78930_HHlvQdQzRAuccAk4B4tPDJuDXk7m2uAIgYtUn-H0MBzKwkjiOe7_MO9eU-ms",
+            "rawId": "AYE5rDGu6r3YR9XUg4Pur78930_HHlvQdQzRAuccAk4B4tPDJuDXk7m2uAIgYtUn-H0MBzKwkjiOe7_MO9eU-ms",
+            "type": "public-key",
+            "authenticatorAttachment":"cross-platform",
+            "response": {
+              "authenticatorData": "SZYN5YgOjGh0NBcPZHZgW4_krrmihjLHmVzzuoMdl2MFAAAAAg",
+              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoibDJvdU5KS1NyZGRmbDBJVVVCNFMxVkpfeGxBTjlRT21GZ3M4cERCbFhuUSIsIm9yaWdpbiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+              "signature": "MEQCIBEktXIh0qPuuheEVgXskA7n1JJDJjaFqfVQF3d9nT4rAiAm0okAlMPOfBy2dBIZ6KPdQE1xhVMFlpJz3U6BDhNnwA",
+              "userHandle": ""
+            }
+          }
+      } ,
     "headers":{
         "content-Type":"application/json"
     },
@@ -23,17 +36,12 @@
     },
     "outputFormat": 
     {
-        "PasskeyCredential": {
-            "id": "AYE5rDGu6r3YR9XUg4Pur78930_HHlvQdQzRAuccAk4B4tPDJuDXk7m2uAIgYtUn-H0MBzKwkjiOe7_MO9eU-ms",
-            "rawId": "AYE5rDGu6r3YR9XUg4Pur78930_HHlvQdQzRAuccAk4B4tPDJuDXk7m2uAIgYtUn-H0MBzKwkjiOe7_MO9eU-ms",
-            "type": "public-key",
-            "authenticatorAttachment":"cross-platform",
-            "response": {
-              "authenticatorData": "SZYN5YgOjGh0NBcPZHZgW4_krrmihjLHmVzzuoMdl2MFAAAAAg",
-              "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoibDJvdU5KS1NyZGRmbDBJVVVCNFMxVkpfeGxBTjlRT21GZ3M4cERCbFhuUSIsIm9yaWdpbiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
-              "signature": "MEQCIBEktXIh0qPuuheEVgXskA7n1JJDJjaFqfVQF3d9nT4rAiAm0okAlMPOfBy2dBIZ6KPdQE1xhVMFlpJz3U6BDhNnwA",
-              "userHandle": ""
-            }
-          }
-      } 
+        "Profile": {
+        },
+        "access_token": "a029e8a7-****-4453-****-a5e721e1f358",
+          "refresh_token": "b12988a7-****-4453-****-a5e721e1f358",
+        "expires_in": "2017-08-17T10:52:36.1644137Z",
+       "session_token": "2d5d4d3f-7ad6-44a5-b0ee-78eacbc52b9c",
+          "session_expires_in": "2019-07-23T12:18:54.1976340Z"
+      }
 }
