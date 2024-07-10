@@ -1,7 +1,7 @@
 {
     "name": "List user passkeys",
     "domain": "https://api.loginradius.com",
-    "path": "/identity/v2/auth/account/passkey/begin",
+    "path": "/identity/v2/auth/account/passkey",
     "method": "GET",
     "getparams": {
         "apikey*": "@apikey@"

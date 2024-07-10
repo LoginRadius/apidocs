@@ -1,5 +1,5 @@
 {
-    "name": "Add passkey begin",
+    "name": "Account: Add passkey begin",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/account/register/passkey/begin",
     "method": "GET",
@@ -12,7 +12,7 @@
         "Authorization":"Bearer "
     },
     "response":"json",
-    "description": "This API is used to begin the passkey registration flow, in the query parameter we will pass the users email address as an identifier",
+    "description": "This API is used to add a Passkey to the user’s profile, this API will be used in the account section",
     "parameters": {
         "Get Params": [
             {
@@ -21,9 +21,6 @@
                 "description": "LoginRadius API Key"
             }
         ],
-                    
-
-            
 		"Headers Parameters": [{
                 "name": "Authorization",
                 "is_required": true,

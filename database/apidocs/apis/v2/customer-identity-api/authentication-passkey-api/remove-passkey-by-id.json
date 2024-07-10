@@ -1,7 +1,7 @@
 {
     "name": "Remove passkey by UID",
     "domain": "https://api.loginradius.com",
-    "path": "/identity/v2/auth/account/passkey/{passkeId}",
+    "path": "/identity/v2/auth/account/passkey/{passkeyid}",
     "method": "DELETE",
     "getparams": {
          "apikey*": "@apikey@",
@@ -35,9 +35,9 @@
         "Template Params": [
             
             {
-                "name": "passkeId",
+                "name": "passkeyid",
                 "is_required": true,
-                "description": "Users passkey ID"
+                "description": "Users passkeyid"
             }
         ]
     },

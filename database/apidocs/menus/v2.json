@@ -1109,12 +1109,12 @@
       },
       {
         "url": "v2/customer-identity-api/authentication-passkey-api/add-passkey-begin/",
-        "title": "Add passkey begin",
+        "title": "Account: Add passkey begin",
         "type": "GET"
       },
       {
         "url": "v2/customer-identity-api/authentication-passkey-api/add-passkey-finish/",
-        "title": "Add passkey finish",
+        "title": "Account: Add passkey finish",
         "type": "POST"
       },
       {

@@ -1,5 +1,5 @@
 {
-    "name": "Add passkey finish",
+    "name": "Account: Add passkey finish",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/account/register/passkey/finish",
     "method": "POST",
@@ -37,8 +37,20 @@
         }     
 },
         "outputFormat":
-
-{
+        {
+            "Credentials": [
+        {
+            "Id": "43e4417bd2de4a1fa82445274f864203",
+            "Identifier": "efdc233182cd4f578432d2134ea75081",
+            "CreatedAt": "2024-06-03T08:40:58.088Z"
+        },
+        {
+            "Id": "133f5cf974b94726a6a7cebec917765c",
+            "Identifier": "efdc233182cd4f578432d2134ea75081",
+            "CreatedAt": "2024-06-03T11:53:57.29Z"
+        }
+    ]
+        },
     "Credentials": [
         {
             "Id": "43e4417bd2de4a1fa82445274f864203",
@@ -51,5 +63,4 @@
             "CreatedAt": "2024-06-03T11:53:57.29Z"
         }
     ]
-}
 }
