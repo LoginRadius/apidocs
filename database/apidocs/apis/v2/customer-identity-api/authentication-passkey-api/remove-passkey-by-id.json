@@ -1,11 +1,12 @@
 {
-    "name": "Remove passkey by Id",
+    "name": "Remove passkey by UID",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/account/passkey/{passkeId}",
     "method": "DELETE",
     "getparams": {
          "apikey*": "@apikey@",
-        "identifier*": "@identifier@"
+        "apisecret*": "@secret@",
+        "uid": ""
     },
     "postparams":"",
     "headers":{
@@ -26,9 +27,9 @@
                 "description": "The API secret of the LoginRadius account"
             },
             {
-                "name": "access_token",
+                "name": "uid",
                 "is_required": true,
-                "description": "Access token of the user"
+                "description": "The UID associated with the user"
             }
         ],
         "Template Params": [

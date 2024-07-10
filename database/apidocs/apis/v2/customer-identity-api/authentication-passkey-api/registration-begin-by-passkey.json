@@ -5,7 +5,7 @@
     "method": "GET",
     "getparams": {
         "apikey*": "@apikey@",
-        "identifier*": "@identifier@"
+        "identifier*": ""
     },
     "postparams":"",
     "headers":{
