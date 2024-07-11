@@ -219,7 +219,7 @@
         "content-Type":"application/json"
     },
     "response":"json",
-    "description": "This API is used to begin the passkey registration flow, in the query parameter we will pass the users email address as an identifier",
+    "description": "This API is used to register a mobile device app for Push MFA, It will be used when Push MFA is enabled on the LoginRadius account.",
     "parameters":{
         "Get Params": [
         {

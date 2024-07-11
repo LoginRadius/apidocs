@@ -219,7 +219,7 @@
     "content-Type":"application/json"
 },
 "response":"json",
-"description": "This API is used to finish the passkey login flow, in the query parameter we will pass the user email address as an identifier",
+"description": "This API is used to finish the passkey login flow, in the query parameter we will pass the user email address as an identifier.",
 "parameters":{
     "Get Params": [
     {

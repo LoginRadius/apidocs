@@ -5,14 +5,14 @@
     "method": "GET",
     "getparams": {
         "apikey*": "@apikey@",
-        "identifier*": "@identifier@"
+        "identifier*": ""
     },
     "postparams":"",
     "headers":{
         "content-Type":"application/json"
     },
     "response":"json",
-    "description": "This API is used to begin the passkey registration flow, in the query parameter we will pass the users email address as an identifier",
+    "description": "This API is used to begin the passkey login flow, in the query parameter we will pass the user email address as an identifier",
     "parameters": {
         "Get Params": [
             {
