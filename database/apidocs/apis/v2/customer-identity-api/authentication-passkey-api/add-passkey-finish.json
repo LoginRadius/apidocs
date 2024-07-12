@@ -1,14 +1,14 @@
 {
-    "name": "Add passkey finish",
+    "name": "Account: Add passkey finish",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/account/register/passkey/finish",
     "method": "POST",
     "getparams": {
-        "apikey*": "@apikey@",
-        "access_token*": "@access_token@"
+        "apikey*": "@apikey@"
     },
     "headers":{
-        "content-Type":"application/json"
+        "content-Type":"application/json",
+        "Authorization":"Bearer "
     },
     "response":"json",
     "description": "This API is used to add a Passkey to the user’s profile, this API will be used in the account section. This will complete the add passkey flow.",
@@ -18,13 +18,13 @@
                 "name": "apikey",
                 "is_required": true,
                 "description": "LoginRadius API Key"
-            },
-            {
-                "name": "access_token",
-                "is_required": true,
-                "description": "Access token of the user"
             }
-        ]
+        ],
+        "Headers Parameters": [{
+                "name": "Authorization",
+                "is_required": true,
+                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access_token)"
+            }]	
     },
 "postparams":
 {
@@ -37,8 +37,20 @@
         }     
 },
         "outputFormat":
-
-{
+        {
+            "Credentials": [
+        {
+            "Id": "43e4417bd2de4a1fa82445274f864203",
+            "Identifier": "efdc233182cd4f578432d2134ea75081",
+            "CreatedAt": "2024-06-03T08:40:58.088Z"
+        },
+        {
+            "Id": "133f5cf974b94726a6a7cebec917765c",
+            "Identifier": "efdc233182cd4f578432d2134ea75081",
+            "CreatedAt": "2024-06-03T11:53:57.29Z"
+        }
+    ]
+        },
     "Credentials": [
         {
             "Id": "43e4417bd2de4a1fa82445274f864203",
@@ -51,5 +63,4 @@
             "CreatedAt": "2024-06-03T11:53:57.29Z"
         }
     ]
-}
 }

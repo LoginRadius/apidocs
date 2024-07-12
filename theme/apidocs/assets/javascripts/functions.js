@@ -429,6 +429,10 @@ function pagePush(url) {
         urlHashValue = '#' + window.location.hash.substr(1);
     }
     window.history.pushState("object or string", "Title", url.replace(rootURL + docPath, rootURL) + urlHashValue);
+
+    var canonicalUrl = window.location.href
+    $("#canonicalLink").attr("href", canonicalUrl)
+
     setTimeout(function () {
         jQuery('table').wrap("<div class='lr-docs-table'></div>");
         if (jQuery(window).width() < 865) {
@@ -503,6 +507,10 @@ function pageLoad(mddocument, sdkMarkArray) {
                         protectedDocumentLoad('mdcontainer', result, documentmainpage);
                     }
                 }
+                // Check if the link element with id 'canonicalLink' exists
+                if (!document.getElementById('canonicalLink')) {
+                    generateCanonicalLink()
+                }
                 pagePush(mddocument);
                 if (result.status == 'success' && result.format == 'json')
                     computeSDKTable();
@@ -522,6 +530,21 @@ function pageLoad(mddocument, sdkMarkArray) {
     $('#feedback-textarea').val('').css({ height: '100%' });
     $('.feedback-button').removeClass("active");
 
+
+}
+
+function generateCanonicalLink() {
+    var linkElement = $('<link>', {
+        rel: 'canonical',
+        id: 'canonicalLink',
+        href: ''
+    });
+
+
+
+    // Append the link element to the head
+
+    $('head').append(linkElement);
 
 }
 
@@ -1662,6 +1685,9 @@ function changelogPageLoad(mddocument) {
                 $('.single-changelog-post .changelogsection').html(changelogsection(result.data));
                 $('.single-changelog-post .authersection').html(authersection(result.data));
                 document.title = result.data.name
+                if (!document.getElementById('canonicalLink')) {
+                    generateCanonicalLink()
+                }
                 pagePush(mddocument);
                 resetProcess();
             } else {
