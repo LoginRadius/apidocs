@@ -177,6 +177,7 @@ List of APIs in this Section:<br>
 [GET : Auth Check UserName Availability](#CheckUserNameAvailability-get-)<br>
 [GET : Auth Privacy Policy Accept](#AcceptPrivacyPolicy-get-)<br>
 [GET : Auth Privacy Policy History By Access Token](#GetPrivacyPolicyHistoryByAccessToken-get-)<br>
+[GET : Auth send verification Email for linking social profiles](#AuthSendVerificationEmailForLinkingSocialProfiles-get-)<br>
 [DELETE : Auth Delete Account with Email Confirmation](#DeleteAccountWithEmailConfirmation-delete-)<br>
 [DELETE : Auth Remove Email](#RemoveEmail-delete-)<br>
 [DELETE : Auth Unlink Social Identities](#UnlinkSocialIdentities-delete-)<br>
@@ -775,11 +776,20 @@ var apiResponse = new AuthenticationApi().AcceptPrivacyPolicy(accessToken, field
 This API will return all the accepted privacy policies for the user by providing the access_token of that user. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/privacy-policy-history-by-access-token/)
 
 
-
 ```c#
 
 var accessToken = "accessToken"; //Required
 var apiResponse = new AuthenticationApi().GetPrivacyPolicyHistoryByAccessToken(accessToken).Result;
+```
+
+<h6 id="#AuthSendVerificationEmailForLinkingSocialProfiles-get-">Auth send verification Email for linking social profiles (GET)</h6>
+
+This API is used to Send verification email to the unverified email of the social profile. This API can be used only incase of optional verification workflow. [More Info](/api/v2/customer-identity-api/authentication/auth-send-verification-for-social-email/)
+
+```c#
+var accessToken = "accessToken"; //Required
+var clientguid = "clientguid"; //Required
+var apiResponse = new AuthenticationApi().AuthSendVerificationEmailForLinkingSocialProfiles(accessToken, clientguid).Result;
 ```
 
 
@@ -846,6 +856,8 @@ List of APIs in this Section:<br>
 [POST : Account Create](#CreateAccount-post-)<br>
 [POST : Forgot Password token](#GetForgotPasswordToken-post-)<br>
 [POST : Email Verification token](#GetEmailVerificationToken-post-)<br>
+[POST : Multipurpose Email Token Generation API](#MultipurposeEmailTokenGeneration-post-)
+[POST : Multipurpose SMS OTP Generation API](#MultipurposeSMSOTPGeneration-post-)
 [GET : Get Privacy Policy History By Uid](#GetPrivacyPolicyHistoryByUid-get-)<br>
 [GET : Account Profiles by Email](#GetAccountProfileByEmail-get-)<br>
 [GET : Account Profiles by Username](#GetAccountProfileByUserName-get-)<br>
@@ -858,6 +870,7 @@ List of APIs in this Section:<br>
 [GET : Account Identities by Email](#GetAccountIdentitiesByEmail-get-)<br>
 [DELETE : Account Delete](#DeleteAccountByUid-delete-)<br>
 [DELETE : Account Remove Email](#RemoveEmail-delete-)<br>
+[DELETE : Revoke All Refresh Token](#RevokeAllRefreshToken-delete-)<br>
 [DELETE : Delete User Profiles By Email](#AccountDeleteByEmail-delete-)<br>
 
 
@@ -1028,6 +1041,37 @@ var email = "email"; //Required
 var apiResponse = new AccountApi().GetEmailVerificationToken(email).Result;
 ```
 
+<h6 id="MultipurposeEmailTokenGeneration-post-">Multipurpose Email Token Generation API (POST)</h6>
+
+This API generate Email tokens and Email OTPs for Email verification, Add email, Forgot password, Delete user, Passwordless login, Forgot pin, One-touch login and Auto login. [More Info](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation/)
+
+```c#
+MultiEmailToken multiEmailToken = new MultiEmailToken{
+Clientguid ="<Clientguid>",
+Email ="<Email>",
+Name ="<Name>",
+Type ="<Type>",
+Uid ="<Uid>",
+UserName ="<UserName>"
+}; //Required
+var tokentype = "tokentype"; //Required
+var apiResponse = new AccountApi().MultipurposeEmailTokenGeneration(multiEmailToken, tokentype).Result;
+```
+
+<h6 id="MultipurposeSMSOTPGeneration-post-">Multipurpose SMS OTP Generation API (POST)</h6>
+
+This API generates SMS OTP for Add phone, Phone Id verification, Forgot password, Forgot pin, One-touch login, smart login and Passwordless login. [More Info](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation/)
+
+```c#
+MultiSmsOtp multiSmsOtp = new MultiSmsOtp{
+Name ="<Name>",
+Phone ="<Phone>",
+Uid ="<Uid>"
+}; //Required
+var smsotptype = "smsotptype"; //Required
+var apiResponse = new AccountApi().MultipurposeSMSOTPGeneration(multiSmsOtp, smsotptype).Result;
+```
+
 
 <h6 id="GetPrivacyPolicyHistoryByUid-get-">Get Privacy Policy History By Uid (GET)</h6>
 
@@ -1190,7 +1234,14 @@ var uid = "uid"; //Required
 string fields = null; //Optional
 var apiResponse = new AccountApi().RemoveEmail(email, uid, fields).Result;
 ```
+<h6 id="RevokeAllRefreshToken-delete-">Revoke All Refresh Token (DELETE)</h6>
 
+The Revoke All Refresh Access Token API is used to revoke all refresh tokens for a specific user. [More Info](/api/v2/customer-identity-api/refresh-token/revoke-all-refresh-token/)
+
+```c#
+var uid = "uid"; //Required
+var apiResponse = new AccountApi().RevokeAllRefreshToken(uid).Result;
+```
 
 <h6 id="AccountDeleteByEmail-delete-">Delete User Profiles By Email (DELETE)</h6>
 
@@ -3622,6 +3673,7 @@ List of APIs in this Section:<br>
 [GET : Access Token via Apple Id Code](#GetAccessTokenByAppleIdCode-get-)<br>
 [GET : Access Token via WeChat Code](#GetAccessTokenByWeChatCode-get-)<br>
 [GET : Access Token via Google AuthCode](#GetAccessTokenByGoogleAuthCode-get-)<br>
+[GET : Get Access Token via Custom JWT Token](#AccessTokenViaCustomJWTToken-get-)<br>
 
 
 
@@ -3749,11 +3801,10 @@ var googleAuthcode = "googleAuthcode"; //Required
 var socialAppName = "socialAppName"; //Optional
 var apiResponse = new NativeSocialApi().GetAccessTokenByGoogleAuthCode(googleAuthcode,socialAppName).Result;
 ```
+  
+<h6 id="GetAccessTokenByGoogleAuthCode-get-">Get Access Token via Custom JWT Token (GET)</h6>
 
-
-
-
-
+This API is used to retrieve a LoginRadius access token by passing in a valid custom JWT token. [More Info](/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-by-custom-jwt-token/)
 
 
 ### WebHook API
