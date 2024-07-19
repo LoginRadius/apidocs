@@ -61,8 +61,8 @@ function lrHelpSearchScript() {
                         var sh_commonOptions = {
                             templateId: 'jssearchintercominterface',
                             algoliaSetting: {
-                                apiKey: '27d9c79bc317e6d31a7f3c04dd114e36',
-                                appId: 'Z5ZYP9YXTO',
+                                apiKey: getenv('ALGOLIA_API_KEY'),
+                                appId: getenv('ALGOLIA_APP_ID'),
                                 indexName: 'loginradius',
                                 inputSelector: '#algoliasearchhelp',
                                 autocompleteOptions: {
@@ -70,7 +70,7 @@ function lrHelpSearchScript() {
                                 }
                             },
                             intercomSetting: {
-                                App_Id: "7b60c318-cc42-401d-81e4-91b0355c4bfc",
+                                App_Id: getenv('INTERCOM_APP_ID'),
                                 hide:'false'
                                 
                             },
