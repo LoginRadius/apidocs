@@ -23,7 +23,7 @@ curl -sS https://getcomposer.org/installer | php
 Next, run the Composer command to install the latest stable version of library:
 
 ```
-composer require loginradius/php-sdk:11.5.0
+composer require loginradius/php-sdk:11.6.0
 ```
 
 Include the following files in your Project Directory
@@ -56,6 +56,7 @@ require_once "src/LoginRadiusSDK/CustomerRegistration/Advanced/WebHookAPI.php";
 
 require_once "src/LoginRadiusSDK/CustomerRegistration/Social/NativeSocialAPI.php";
 require_once "src/LoginRadiusSDK/CustomerRegistration/Social/SocialAPI.php";
+require_once "../../src/LoginRadiusSDK/CustomerRegistration/Authentication/SlidingTokenAPI.php";
 ```
 Modify the config.php file in the SDK to include your LoginRadius Credentials
 
@@ -121,7 +122,7 @@ use \LoginRadiusSDK\CustomerRegistration\Authentication\RiskBasedAuthenticationA
 use \LoginRadiusSDK\CustomerRegistration\Authentication\SmartLoginAPI;
 use \LoginRadiusSDK\CustomerRegistration\Social\SocialAPI;
 use \LoginRadiusSDK\CustomerRegistration\Social\NativeSocialAPI;
-
+use \LoginRadiusSDK\CustomerRegistration\Authentication\SlidingTokenAPI;
 ```
 
 Create a LoginRadius object :
@@ -202,6 +203,7 @@ List of APIs in this Section:<br>
 [GET : Auth Check UserName Availability](#CheckUserNameAvailability-get-)<br>
 [GET : Auth Privacy Policy Accept](#AcceptPrivacyPolicy-get-)<br>
 [GET : Auth Privacy Policy History By Access Token](#GetPrivacyPolicyHistoryByAccessToken-get-)<br>
+[GET : Auth send verification Email for linking social profiles](#authSendVerificationEmailForLinkingSocialProfiles-get-)<br>
 [DELETE : Auth Delete Account with Email Confirmation](#DeleteAccountWithEmailConfirmation-delete-)<br>
 [DELETE : Auth Remove Email](#RemoveEmail-delete-)<br>
 [DELETE : Auth Unlink Social Identities](#UnlinkSocialIdentities-delete-)<br>
@@ -823,8 +825,17 @@ $access_token = "access_token"; //Required
  
 $result = $authenticationAPI->getPrivacyPolicyHistoryByAccessToken($access_token);
  ```
+<h6 id="authSendVerificationEmailForLinkingSocialProfiles-get-">Auth send verification Email for linking social profiles (GET)</h6> 
 
+This API is used to Send verification email to the unverified email of the social profile. This API can be used only incase of optional verification workflow. [More info](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation)
  
+```php
+$access_token = "access_token"; //Required 
+$clientguid = "clientguid"; //Required
+
+$result = $authenticationAPI->authSendVerificationEmailForLinkingSocialProfiles($access_token,$clientguid);
+```
+
 <h6 id="DeleteAccountWithEmailConfirmation-delete-">Auth Delete Account with Email Confirmation (DELETE)</h6> 
  
 
@@ -888,6 +899,8 @@ List of APIs in this Section:<br>
 [POST : Account Create](#CreateAccount-post-)<br>
 [POST : Forgot Password token](#GetForgotPasswordToken-post-)<br>
 [POST : Email Verification token](#GetEmailVerificationToken-post-)<br>
+[POST : Multipurpose Email Token Generation](#multipurposeEmailTokenGeneration($payload,$tokentype)-post-)<br>
+[POST : Multipurpose SMS OTP Generation](#multipurposeSMSOTPGeneration-post-)<br>
 [GET : Get Privacy Policy History By Uid](#GetPrivacyPolicyHistoryByUid-get-)<br>
 [GET : Account Profiles by Email](#GetAccountProfileByEmail-get-)<br>
 [GET : Account Profiles by Username](#GetAccountProfileByUserName-get-)<br>
@@ -900,6 +913,7 @@ List of APIs in this Section:<br>
 [GET : Account Identities by Email](#GetAccountIdentitiesByEmail-get-)<br>
 [DELETE : Account Delete](#DeleteAccountByUid-delete-)<br>
 [DELETE : Account Remove Email](#RemoveEmail-delete-)<br>
+[DELETE : Revoke All Refresh Token](#revokeAllRefreshToken-delete-)<br>
 [DELETE : Delete User Profiles By Email](#AccountDeleteByEmail-delete-)<br>
 
 If you have not already initialized the Account object do so now
@@ -1065,7 +1079,7 @@ $result = $accountAPI->getForgotPasswordToken($email,$emailTemplate,$resetPasswo
  ```
 
  
-<h6 id="GetEmailVerificationToken-post-">Email Verification token (POST)</h6> 
+<h6 id="GetEmailVerificationToken-post-">Email Verification token (POST)</h6>
 
 This API Returns an Email Verification token.
  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/get-email-verification-token)
@@ -1077,6 +1091,39 @@ $email = "email"; //Required
 $result = $accountAPI->getEmailVerificationToken($email);
  ```
 
+<h6 id="multipurposeEmailTokenGeneration($payload,$tokentype)-post-">Multipurpose Email Token Generation API (POST)</h6> 
+
+This API generate Email tokens and Email OTPs for Email verification, Add email, Forgot password, Delete user, Passwordless login, Forgot pin, One-touch login and Auto login. [More info](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation/)
+
+```php
+$payload = '{
+"clientguid" : "<clientguid>",
+"email" : "<email>",
+"name" : "<name>",
+"type" : "<type>",
+"uid" : "<uid>",
+"userName" : "<userName>"
+}';  //Required 
+$tokentype = "tokentype"; //Required
+
+$result = $accountAPI->multipurposeEmailTokenGeneration($payload,$tokentype);
+```
+
+<h6 id="multipurposeSMSOTPGeneration-post-">Multipurpose SMS OTP Generation API (POST)</h6> 
+
+This API generates SMS OTP for Add phone, Phone Id verification, Forgot password, Forgot pin, One-touch login, smart login and Passwordless login. [More info](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation/)
+
+```php
+
+$payload = '{
+"name" : "<name>",
+"phone" : "<phone>",
+"uid" : "<uid>"
+}';  //Required 
+$smsotptype = "smsotptype"; //Required
+
+$result = $accountAPI->multipurposeSMSOTPGeneration($payload,$smsotptype);
+```
  
 <h6 id="GetPrivacyPolicyHistoryByUid-get-">Get Privacy Policy History By Uid (GET)</h6> 
 
@@ -1239,7 +1286,15 @@ $fields = null; //Optional
  
 $result = $accountAPI->removeEmail($email,$uid,$fields);
  ```
+<h6 id="revokeAllRefreshToken-delete-">Revoke All Refresh Token (DELETE)</h6> 
 
+The Revoke All Refresh Access Token API is used to revoke all refresh tokens for a specific user. [More info](/api/v2/customer-identity-api/refresh-token/revoke-all-refresh-token/)
+
+```php
+$uid = "uid"; //Required
+
+$result = $accountAPI->revokeAllRefreshToken($uid);
+```
  
 <h6 id="AccountDeleteByEmail-delete-">Delete User Profiles By Email (DELETE)</h6> 
 
@@ -3637,6 +3692,7 @@ $result = $sottAPI->generateSott($timeDifference);
 ### NativeSocial API
 
 List of APIs in this Section:<br>
+[GET : Get Access Token via Custom JWT Token](accessTokenViaCustomJWTToken-get-)<br>
 [GET : Access Token via Facebook Token](#GetAccessTokenByFacebookAccessToken-get-)<br>
 [GET : Access Token via Twitter Token](#GetAccessTokenByTwitterAccessToken-get-)<br>
 [GET : Access Token via Google Token](#GetAccessTokenByGoogleAccessToken-get-)<br>
@@ -3652,6 +3708,16 @@ If you have not already initialized the NativeSocial object do so now
 $nativeSocialAPI = new NativeSocialAPI(); 
 ```
 
+<h6 id="accessTokenViaCustomJWTToken-get-">Get Access Token via Custom JWT Token (GET)</h6> 
+
+This API is used to retrieve a LoginRadius access token by passing in a valid custom JWT token. [More info](/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-by-custom-jwt-token/)
+
+```php
+$id_Token = "id_Token"; //Required 
+$providername = "providername"; //Required
+
+$result = $nativeSocialAPI->accessTokenViaCustomJWTToken($id_Token,$providername);
+```
 
 <h6 id="GetAccessTokenByFacebookAccessToken-get-">Access Token via Facebook Token (GET)</h6> 
 

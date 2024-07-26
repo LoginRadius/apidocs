@@ -15,7 +15,7 @@ Use the following dependency in your project:
 <dependency>
   <groupId>com.loginradius.sdk</groupId>
   <artifactId>java-sdk</artifactId>
-  <version>11.5.0</version>
+  <version>11.6.0</version>
 </dependency>
 
 ```
@@ -129,9 +129,11 @@ Before calling the class of SOTT you need to install the JCE unlimited strength 
 <br>
 * To apply the policy files:
 
- 1. Download the Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files from Oracle.
+**1.** Download the Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files from Oracle.
 <br>
+
 Be sure to download the correct policy file updates for your version of Java:
+
 <br>
 Java 6
 http://www.oracle.com/technetwork/java/javase/downloads/jce-6-download-429243.html
@@ -142,9 +144,11 @@ http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.ht
 java 8
 http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html
 <br>
-  2. Uncompress and extract the downloaded file. The download includes a Readme.txt and two .jar files with the same names as the existing policy files.
+
+ **2.** Uncompress and extract the downloaded file. The download includes a Readme.txt and two .jar files with the same names as the existing policy files.
 <br>
-  3. Locate the two existing policy files:
+
+ **3.**  Locate the two existing policy files:
 <br>
 local_policy.jar
 <br>
@@ -154,7 +158,8 @@ On UNIX, look in <java-home>/lib/security/
 <br>
 On Windows, look in C:/Program Files/Java/jre<version>/lib/security/
 <br>
-  4. Replace the existing policy files with the unlimited strength policy files you extracted.
+
+  **4.** Replace the existing policy files with the unlimited strength policy files you extracted.
 
 
 * After complete the configuration, use below code to get the SOTT.
@@ -238,6 +243,7 @@ List of APIs in this Section:<br>
 * GET : [Auth Check UserName Availability](#CheckUserNameAvailability-get-)<br>
 * GET : [Auth Privacy Policy Accept](#AcceptPrivacyPolicy-get-)<br>
 * GET : [Auth Privacy Policy History By Access Token](#GetPrivacyPolicyHistoryByAccessToken-get-)<br>
+* GET : [Auth send verification Email for linking social profiles](#authSendVerificationEmailForLinkingSocialProfiles-get-)<br>
 * DELETE : [Auth Delete Account with Email Confirmation](#DeleteAccountWithEmailConfirmation-delete-)<br>
 * DELETE : [Auth Remove Email](#RemoveEmail-delete-)<br>
 * DELETE : [Auth Unlink Social Identities](#UnlinkSocialIdentities-delete-)<br>
@@ -1345,9 +1351,27 @@ authenticationApi.getPrivacyPolicyHistoryByAccessToken(accessToken ,  new AsyncH
 
 ```
 
-  
+<h6 id="authSendVerificationEmailForLinkingSocialProfiles-get-">Auth send verification Email for linking social profiles (GET)</h6>
 
+This API is used to Send verification email to the unverified email of the social profile. This API can be used only incase of optional verification workflow. [More info](/api/v2/customer-identity-api/authentication/auth-send-verification-for-social-email/)
 
+```java
+String accessToken = "<accessToken>"; //Required
+String clientguid = "<clientguid>"; //Required
+
+AuthenticationApi authenticationApi = new AuthenticationApi();
+authenticationApi.authSendVerificationEmailForLinkingSocialProfiles(accessToken, clientguid ,  new AsyncHandler<PostResponseResendEmailVerification> (){
+
+@Override
+ public void onFailure(ErrorResponse errorResponse) {
+ System.out.println(errorResponse.getDescription());
+ }
+ @Override
+ public void onSuccess(PostResponseResendEmailVerification response) {
+  System.out.println(response.getIsPosted());
+ }
+});
+```
 
 
 <h6 id="DeleteAccountWithEmailConfirmation-delete-">Auth Delete Account with Email Confirmation (DELETE)</h6>
@@ -1457,6 +1481,8 @@ List of APIs in this Section:<br>
 * POST : [Account Create](#CreateAccount-post-)<br>
 * POST : [Forgot Password token](#GetForgotPasswordToken-post-)<br>
 * POST : [Email Verification token](#GetEmailVerificationToken-post-)<br>
+* POST : [Multipurpose Email Token Generation API](#multipurposeEmailTokenGeneration-post-)<br>
+* POST : [Multipurpose SMS OTP Generation API](#multipurposeSMSOTPGeneration-post-)<br>
 * GET : [Get Privacy Policy History By Uid](#GetPrivacyPolicyHistoryByUid-get-)<br>
 * GET : [Account Profiles by Email](#GetAccountProfileByEmail-get-)<br>
 * GET : [Account Profiles by Username](#GetAccountProfileByUserName-get-)<br>
@@ -1469,6 +1495,7 @@ List of APIs in this Section:<br>
 * GET : [Account Identities by Email](#GetAccountIdentitiesByEmail-get-)<br>
 * DELETE : [Account Delete](#DeleteAccountByUid-delete-)<br>
 * DELETE : [Account Remove Email](#RemoveEmail-delete-)<br>
+* DELETE : [Revoke All Refresh Token](#revokeAllRefreshToken-delete-)<br>
 * DELETE : [Delete User Profiles By Email](#AccountDeleteByEmail-delete-)<br>
 
 
@@ -1783,9 +1810,37 @@ accountApi.getEmailVerificationToken(email ,  new AsyncHandler<EmailVerification
 
 ```
 
-  
+  <h6 id="multipurposeEmailTokenGeneration-post-">Multipurpose Email Token Generation API (POST)</h6>
 
+  This API generate Email tokens and Email OTPs for Email verification, Add email, Forgot password, Delete user, Passwordless login, Forgot pin, One-touch login and Auto login. [More info](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation/)
 
+```java
+MultiEmailToken multiEmailToken = new MultiEmailToken(); //Required
+multiEmailToken.setClientguid("clientguid"); 
+multiEmailToken.setEmail("email"); 
+multiEmailToken.setName("name"); 
+multiEmailToken.setType("type"); 
+multiEmailToken.setUid("uid"); 
+multiEmailToken.setUserName("userName"); 
+String tokentype = "<tokentype>"; //Required
+
+AccountApi accountApi = new AccountApi();
+accountApi.multipurposeEmailTokenGeneration( multiEmailToken, tokentype ,  new AsyncHandler<MultiToken> (){
+
+@Override
+ public void onFailure(ErrorResponse errorResponse) {
+ System.out.println(errorResponse.getDescription());
+ }
+ @Override
+ public void onSuccess(MultiToken response) {
+  System.out.println(response.getExpiresIn());
+ }
+});
+```
+
+<h6 id="multipurposeSMSOTPGeneration-post-">Multipurpose SMS OTP Generation API (POST)</h6>
+
+This API generates SMS OTP for Add phone, Phone Id verification, Forgot password, Forgot pin, One-touch login, smart login and Passwordless login. [More info](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation/)
 
 
 <h6 id="GetPrivacyPolicyHistoryByUid-get-">Get Privacy Policy History By Uid (GET)</h6>
@@ -2126,8 +2181,28 @@ accountApi.removeEmail(email, uid, fields ,  new AsyncHandler<Identity> (){
 
 ```
 
-  
+  <h6 id="revokeAllRefreshToken-delete-">Revoke All Refresh Token (DELETE)</h6>
 
+The Revoke All Refresh Access Token API is used to revoke all refresh tokens for a specific user. [More info](/api/v2/customer-identity-api/refresh-token/revoke-all-refresh-token/)
+
+```java
+
+String uid = "<uid>"; //Required
+
+AccountApi accountApi = new AccountApi();
+accountApi.revokeAllRefreshToken(uid ,  new AsyncHandler<DeleteResponse> (){
+
+@Override
+ public void onFailure(ErrorResponse errorResponse) {
+ System.out.println(errorResponse.getDescription());
+ }
+ @Override
+ public void onSuccess(DeleteResponse response) {
+  System.out.println(response.getIsDeleted());
+ }
+});
+
+```
 
 
 
@@ -3079,11 +3154,12 @@ List of APIs in this Section:<br>
 * PUT : [Verify MFA Email OTP by Access Token](#MFAValidateEmailOtpByAccessToken-put-)<br>
 * PUT : [Update MFA Security Question by Access Token](#MFASecurityQuestionAnswerByAccessToken-put-)<br>
 * PUT : [MFA Validate OTP](#MFAValidateOTPByPhone-put-)<br>
-* PUT : [MFA Validate Google Auth Code](#MFAValidateGoogleAuthCode-put-)<br>
 * PUT : [MFA Validate Backup code](#MFAValidateBackupCode-put-)<br>
 * PUT : [MFA Update Phone Number](#MFAUpdatePhoneNumber-put-)<br>
 * PUT : [Verify MFA Email OTP by MFA Token](#MFAValidateEmailOtp-put-)<br>
 * PUT : [Update MFA Security Question by MFA Token](#MFASecurityQuestionAnswer-put-)<br>
+* PUT : [MFA Validate Authenticator Code](#mfaValidateAuthenticatorCode-put-)<br>
+* PUT : [MFA Verify Authenticator Code](#mfaVerifyAuthenticatorCode-put-)<br>
 * POST : [MFA Email Login](#MFALoginByEmail-post-)<br>
 * POST : [MFA UserName Login](#MFALoginByUserName-post-)<br>
 * POST : [MFA Phone Login](#MFALoginByPhone-post-)<br>
@@ -3302,41 +3378,6 @@ multiFactorAuthenticationApi.mfaValidateOTPByPhone( multiFactorAuthModelWithLock
 });
 
 ```
-
-  
-
-
-
-
-<h6 id="MFAValidateGoogleAuthCode-put-">MFA Validate Google Auth Code (PUT)</h6>
-
- This API is used to login via Multi-factor-authentication by passing the google authenticator code. [More info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-validate-google-auth-code/)
-
-```java
-
-String googleAuthenticatorCode = "<googleAuthenticatorCode>"; //Required
-String secondFactorAuthenticationToken = "<secondFactorAuthenticationToken>"; //Required
-String fields = null; //Optional
-String rbaBrowserEmailTemplate = "<rbaBrowserEmailTemplate>"; //Optional
-String rbaCityEmailTemplate = "<rbaCityEmailTemplate>"; //Optional
-String rbaCountryEmailTemplate = "<rbaCountryEmailTemplate>"; //Optional
-String rbaIpEmailTemplate = "<rbaIpEmailTemplate>"; //Optional
-
-MultiFactorAuthenticationApi multiFactorAuthenticationApi = new MultiFactorAuthenticationApi();
-multiFactorAuthenticationApi.mfaValidateGoogleAuthCode(googleAuthenticatorCode, secondFactorAuthenticationToken, fields, rbaBrowserEmailTemplate, rbaCityEmailTemplate, rbaCountryEmailTemplate, rbaIpEmailTemplate ,  new AsyncHandler<AccessToken<Identity>> (){
-
-@Override
- public void onFailure(ErrorResponse errorResponse) {
- System.out.println(errorResponse.getDescription());
- }
- @Override
- public void onSuccess(AccessToken<Identity> response) {
-  System.out.println(response.getAccess_Token());
- }
-});
-
-```
-
   
 
 
@@ -3473,10 +3514,57 @@ multiFactorAuthenticationApi.mfaSecurityQuestionAnswer( securityQuestionAnswerUp
 
 ```
 
+  <h6 id="mfaValidateAuthenticatorCode-put-">MFA Validate Authenticator Code (PUT)</h6>
+
+This API is used to login to a user's account during the second MFA step with an Authenticator Code. [More info](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-authenticator-code/)
+
+  ```java
   
+MultiFactorAuthModelByAuthenticatorCode multiFactorAuthModelByAuthenticatorCode = new MultiFactorAuthModelByAuthenticatorCode(); //Required
+multiFactorAuthModelByAuthenticatorCode.setAuthenticatorCode("<AuthenticatorCode>");
+String secondfactorauthenticationtoken = "<secondfactorauthenticationtoken>"; //Required
+String fields = null; //Optional
 
+MultiFactorAuthenticationApi multiFactorAuthenticationApi = new MultiFactorAuthenticationApi();
+multiFactorAuthenticationApi.mfaValidateAuthenticatorCode( multiFactorAuthModelByAuthenticatorCode, secondfactorauthenticationtoken, fields ,  new AsyncHandler<MultiFactorAuthenticationResponse<Identity>> (){
 
+@Override
+ public void onFailure(ErrorResponse errorResponse) {
+ System.out.println(errorResponse.getDescription());
+ }
+ @Override
+ public void onSuccess(MultiFactorAuthenticationResponse<Identity> response) {
+  System.out.println(response.getAccess_Token());
+ }
+});
+  ```
+  
+<h6 id="mfaVerifyAuthenticatorCode-put-">MFA Verify Authenticator Code (PUT)</h6>
 
+This API is used to validate an Authenticator Code as part of the MFA process. [More info](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-verify-authenticator-code/)
+
+  ```java
+  
+String accessToken = "<accessToken>"; //Required
+MultiFactorAuthModelByAuthenticatorCodeSecurityAnswer multiFactorAuthModelByAuthenticatorCodeSecurityAnswer = new MultiFactorAuthModelByAuthenticatorCodeSecurityAnswer(); //Required
+multiFactorAuthModelByAuthenticatorCodeSecurityAnswer.setAuthenticatorCode("authenticatorCode"); 
+String fields = null; //Optional
+
+MultiFactorAuthenticationApi multiFactorAuthenticationApi = new MultiFactorAuthenticationApi();
+multiFactorAuthenticationApi.mfaVerifyAuthenticatorCode(accessToken,  multiFactorAuthModelByAuthenticatorCodeSecurityAnswer, fields ,  new AsyncHandler<UserProfile> (){
+
+@Override
+public void onFailure(ErrorResponse errorResponse) {
+	System.out.println(errorResponse.getDescription());
+}
+
+@Override
+public void onSuccess(UserProfile response) {
+	System.out.println(response.getIsActive());
+}
+});
+
+  ```
 
 <h6 id="MFALoginByEmail-post-">MFA Email Login (POST)</h6>
 
@@ -6412,7 +6500,7 @@ List of APIs in this Section:<br>
 * GET : [Access Token via Apple Id Code](#GetAccessTokenByAppleIdCode-get-)<br>
 * GET : [Access Token via WeChat Code](#GetAccessTokenByWeChatCode-get-)<br>
 * GET : [Access Token via Google AuthCode](#GetAccessTokenByGoogleAuthCode-get-)<br>
-
+* GET : [Access Token via Custom JWT Token](#accessTokenViaCustomJWTToken-get-)<br>
 
 
 
@@ -6668,13 +6756,27 @@ nativeSocialApi.getAccessTokenByGoogleAuthCode(googleAuthcode, socialAppName ,  
 
 ```
 
-  
+  <h6 id="accessTokenViaCustomJWTToken-get-">Get Access Token via Custom JWT Token (GET)</h6>
 
+This API is used to retrieve a LoginRadius access token by passing in a valid custom JWT token. [More info](/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-by-custom-jwt-token/)
 
+```java
+String idToken = "<idToken>"; //Required
+String providername = "<providername>"; //Required
 
+NativeSocialApi nativeSocialApi = new NativeSocialApi();
+nativeSocialApi.accessTokenViaCustomJWTToken(idToken, providername ,  new AsyncHandler<AccessTokenBase> (){
 
-
-
+@Override
+ public void onFailure(ErrorResponse errorResponse) {
+ System.out.println(errorResponse.getDescription());
+ }
+ @Override
+ public void onSuccess(AccessTokenBase response) {
+  System.out.println(response.getAccess_Token());
+ }
+});
+```
 
 ### WebHook API
 
