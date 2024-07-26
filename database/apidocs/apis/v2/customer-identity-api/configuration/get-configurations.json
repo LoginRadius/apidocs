@@ -213,7 +213,8 @@
       "IsPushAuthenticator": false,
       "IsEmailOTPAuthenticator": true,
       "IsSecurityQuestionAuthenticator": true,
-      "IsSmsOTPAuthenticator": false
+      "IsSmsOTPAuthenticator": false,
+      "IsDuoSecurityAuthenticator": false
     },
     "IsRememberMe": true,
     "V2RecaptchaSiteKey": "",

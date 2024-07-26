@@ -17,7 +17,7 @@ LoginRadius Combined Node SDK features a combined SDK set to encompass Social Lo
 This document contains information and examples regarding the LoginRadius Node.js SDK. It provides guidance for working with social authentication, user profile data, and sending messages with a variety of social networks such as Facebook, Google, Twitter, Yahoo, LinkedIn, and more. 
 You can get the SDK from [here](http://github.com/LoginRadius/node-js-sdk) 
 
-Note: The latest version(11.1.0) of Node js SDK works with LoginRadius V2 APIs.
+Note: The latest version(11.6.0) of Node js SDK works with LoginRadius V2 APIs.
 
 Installation <br/>
 run `npm install loginradius-sdk` <br/>
@@ -102,6 +102,7 @@ List of APIs in this Section:<br>
 * GET : [Auth Check UserName Availability](#CheckUserNameAvailability-get-)<br>
 * GET : [Auth Privacy Policy Accept](#AcceptPrivacyPolicy-get-)<br>
 * GET : [Auth Privacy Policy History By Access Token](#GetPrivacyPolicyHistoryByAccessToken-get-)<br>
+* GET : [Auth send verification Email for linking social profiles](#authSendVerificationEmailForLinkingSocialProfiles-get-)<br>
 * DELETE : [Auth Delete Account with Email Confirmation](#DeleteAccountWithEmailConfirmation-delete-)<br>
 * DELETE : [Auth Remove Email](#RemoveEmail-delete-)<br>
 * DELETE : [Auth Unlink Social Identities](#UnlinkSocialIdentities-delete-)<br>
@@ -1015,7 +1016,20 @@ lrv2.authenticationApi.getPrivacyPolicyHistoryByAccessToken(accessToken).then((r
 
  ```
  
-  
+<h6 id="authSendVerificationEmailForLinkingSocialProfiles-get-"> Auth send verification Email for linking social profiles (GET)</h6>
+
+This API is used to Send verification email to the unverified email of the social profile. This API can be used only incase of optional verification workflow. [More Info](/api/v2/customer-identity-api/authentication/auth-send-verification-for-social-email/)
+
+```js
+var accessToken = "<accessToken>"; //Required
+var clientguid = "<clientguid>"; //Required
+
+lrv2.authenticationApi.authSendVerificationEmailForLinkingSocialProfiles(accessToken, clientguid).then((response) => {
+   console.log(response);
+}).catch((error) => {
+   console.log(error);
+});
+```
   
  
 <h6 id="DeleteAccountWithEmailConfirmation-delete-"> Auth Delete Account with Email Confirmation (DELETE)</h6>
@@ -1106,6 +1120,8 @@ List of APIs in this Section:<br>
 * POST : [Account Create](#CreateAccount-post-)<br>
 * POST : [Forgot Password token](#GetForgotPasswordToken-post-)<br>
 * POST : [Email Verification token](#GetEmailVerificationToken-post-)<br>
+* POST : [Multipurpose Email Token Generation API](multipurposeEmailTokenGeneration-post-)<br>
+* POST : [Multipurpose SMS OTP Generation API](multipurposeSMSOTPGeneration-post-)<br>
 * GET : [Get Privacy Policy History By Uid](#GetPrivacyPolicyHistoryByUid-get-)<br>
 * GET : [Account Profiles by Email](#GetAccountProfileByEmail-get-)<br>
 * GET : [Account Profiles by Username](#GetAccountProfileByUserName-get-)<br>
@@ -1118,6 +1134,7 @@ List of APIs in this Section:<br>
 * GET : [Account Identities by Email](#GetAccountIdentitiesByEmail-get-)<br>
 * DELETE : [Account Delete](#DeleteAccountByUid-delete-)<br>
 * DELETE : [Account Remove Email](#RemoveEmail-delete-)<br>
+* DELETE : [Revoke All Refresh Token](#revokeAllRefreshToken-delete-)<br>
 * DELETE : [Delete User Profiles By Email](#AccountDeleteByEmail-delete-)<br>
 
 
@@ -1365,8 +1382,46 @@ lrv2.accountApi.getEmailVerificationToken(email).then((response) => {
 
  ```
  
+<h6 id="multipurposeEmailTokenGeneration-post-"> Multipurpose Email Token Generation API (POST)</h6>
+
+This API generate Email tokens and Email OTPs for Email verification, Add email, Forgot password, Delete user, Passwordless login, Forgot pin, One-touch login and Auto login. [More Info](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation/)
+
+```js
+var multiEmailToken ={ 
+"clientguid" : "<clientguid>",
+"email" : "<email>",
+"name" : "<name>",
+"type" : "<type>",
+"uid" : "<uid>",
+"userName" : "<userName>"
+};  //Required
+var tokentype = "<tokentype>"; //Required
+
+lrv2.accountApi.multipurposeEmailTokenGeneration(multiEmailToken, tokentype).then((response) => {
+   console.log(response);
+}).catch((error) => {
+   console.log(error);
+});
+```
+  <h6 id="multipurposeSMSOTPGeneration-post-"> Multipurpose SMS OTP Generation API (POST)</h6>
+
+  This API generates SMS OTP for Add phone, Phone Id verification, Forgot password, Forgot pin, One-touch login, smart login and Passwordless login. [More Info](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation/)
+
   
-  
+```js
+var multiSmsOtp ={ 
+"name" : "<name>",
+"phone" : "<phone>",
+"uid" : "<uid>"
+};  //Required
+var smsotptype = "<smsotptype>"; //Required
+
+lrv2.accountApi.multipurposeSMSOTPGeneration(multiSmsOtp, smsotptype).then((response) => {
+   console.log(response);
+}).catch((error) => {
+   console.log(error);
+});
+```
  
 <h6 id="GetPrivacyPolicyHistoryByUid-get-"> Get Privacy Policy History By Uid (GET)</h6>
 
@@ -1636,8 +1691,19 @@ lrv2.accountApi.removeEmail(email, uid, fields).then((response) => {
 
  ```
  
-  
-  
+ <h6 id="revokeAllRefreshToken-delete-"> Revoke All Refresh Token (DELETE)</h6>
+
+ The Revoke All Refresh Access Token API is used to revoke all refresh tokens for a specific user. [More Info](/api/v2/customer-identity-api/refresh-token/revoke-all-refresh-token/)
+
+ ```js
+var uid = "<uid>"; //Required
+
+lrv2.accountApi.revokeAllRefreshToken(uid).then((response) => {
+   console.log(response);
+}).catch((error) => {
+   console.log(error);
+});
+ ```
  
 <h6 id="AccountDeleteByEmail-delete-"> Delete User Profiles By Email (DELETE)</h6>
 
@@ -5155,6 +5221,7 @@ lrv2.sottApi.generateSott(timeDifference).then((response) => {
 
 List of APIs in this Section:<br>
 
+* GET : [Access Token via Custom JWT Token](#accessTokenViaCustomJWTToken-get-)<br>
 * GET : [Access Token via Facebook Token](#GetAccessTokenByFacebookAccessToken-get-)<br>
 * GET : [Access Token via Twitter Token](#GetAccessTokenByTwitterAccessToken-get-)<br>
 * GET : [Access Token via Google Token](#GetAccessTokenByGoogleAccessToken-get-)<br>
@@ -5166,6 +5233,21 @@ List of APIs in this Section:<br>
 * GET : [Access Token via Google AuthCode](#GetAccessTokenByGoogleAuthCode-get-)<br>
 
 
+
+<h6 id="accessTokenViaCustomJWTToken-get-"> Access Token via Custom JWT Token (GET)</h6>
+
+This API is used to retrieve a LoginRadius access token by passing in a valid custom JWT token. [More Info](/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-by-custom-jwt-token/)
+
+```js
+var idToken = "<idToken>"; //Required
+var providername = "<providername>"; //Required
+
+lrv2.nativeSocialApi.accessTokenViaCustomJWTToken(idToken, providername).then((response) => {
+   console.log(response);
+}).catch((error) => {
+   console.log(error);
+});
+```
 
 <h6 id="GetAccessTokenByFacebookAccessToken-get-"> Access Token via Facebook Token (GET)</h6>
 

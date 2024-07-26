@@ -35,6 +35,14 @@ To better learn how to use each endpoint, check the details within each API.
 > **For Optional Parameters**  
 > **Note:** Parameters marked as optional should still be included in the request as a blank string. Eg: `<Base Url>/identity/v2/auth/account/ping?apikey=<LoginRadius API Key>&clientguid=<Client GUID>&verificationurl=&emailtemplate=&welcomeemailtemplate=`
 
+When a user initiates a social login (e.g., via Facebook or Google), the request is sent to RequestHandler.aspx. If the **NoCallback** feature is enabled, this request includes a **Client GUID** as a query string parameter. The **Client GUID** is a unique identifier for that specific login session.
+
+The **LoginRadius V2.js** library handles the social login process, which involves popping up a window where the user can authenticate with their chosen social provider. Once the user completes the social login process, the popup window closes.
+
+After the popup window closes, the parent page (the original page from which the login was initiated) sends a request to the **Ping API** using the **Client GUID**. The **Ping API** verifies the status of the login session identified by the **Client GUID** and responds with the user profile and access token if the social login was successful. The access token is used for subsequent authenticated requests to the application.
+
+> **Note:** If **LoginRadius V2.js**  is not being utilized, in that case, any random string can be passed as **Client GUID**.
+
 ## Social Login with Ping API
 
 In the default social login flow, the LoginRadius can send the access token as a query parameter or as a post parameter depending on the value of **commonOptions.callbackType.** The default value for **commonOptions.callbackType** is Post. In the default workflow when a successful social login completes, an HTTP(s) callback to LoginRadius is required to the parent window URL where the social login was initiated.
