@@ -14,12 +14,14 @@ function algoliaSearchScript() {
 
 }
 
+
+
 function algoliaSearchScriptCall() {
     ?>
     <script type="text/javascript">
         docsearch({
-            apiKey: getenv('ALGOLIA_API_KEY'),
-            appId: getenv('ALGOLIA_APP_ID'),
+            apiKey: 'a46a1c39a5e8523102b2bdd05ebeffb8',
+            appId: 'Z5ZYP9YXTO',
             indexName: 'loginradius',
             inputSelector: '#algoliasearch',
             debug: false,
