@@ -18,8 +18,8 @@ function algoliaSearchScriptCall() {
     ?>
     <script type="text/javascript">
         docsearch({
-            apiKey: '27d9c79bc317e6d31a7f3c04dd114e36',
-            appId: 'Z5ZYP9YXTO',
+            apiKey: getenv('ALGOLIA_API_KEY'),
+            appId: getenv('ALGOLIA_APP_ID'),
             indexName: 'loginradius',
             inputSelector: '#algoliasearch',
             debug: false,
