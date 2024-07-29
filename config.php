@@ -80,6 +80,10 @@ define('AWS_SECRET_KEY',  getenv('AWS_SECRET_KEY'));
 define('API_DOCS_IMAGE_DOMAIN',  getenv('API_DOCS_IMAGE_DOMAIN'));
 define('S3_BUCKET_NAME',  getenv('S3_BUCKET_NAME'));
 
+define('ALGOLIA_API_KEY',  getenv('ALGOLIA_API_KEY'));
+define('ALGOLIA_APP_ID',  getenv('ALGOLIA_APP_ID'));
+
+
 
 /*Google Recaptcha Config*/
 define('RECAPTCHA_SECRET', getenv('RECAPTCHA_SECRET'));
