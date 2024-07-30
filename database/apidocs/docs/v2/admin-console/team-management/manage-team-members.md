@@ -279,39 +279,6 @@ tr td {
         <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
     </tr>
     <tr>
-    <td>TeamManagement View</td>
-        <td><i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-    </tr>
-    <tr>
-    <td>TeamManagement Edit</td>
-        <td><i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-    </tr>
-    <tr>
-    <td>TeamManagement Admin</td>
-        <td><i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-        <td><i class="fa fa-times-circle" aria-hidden="true" style="color: #B21500; font-size: 1.5em;"></i></td>
-    </tr>
-    <tr>
     <td>Billing View</td>
         <td><i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"></i></td>
         <td><i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"></i></td>
@@ -513,20 +480,6 @@ See below for the list of permissions and the features that they grant:
         <tr style='height:20px;'>
             <td class="s1" dir="ltr">SecurityPolicy Admin</td>
             <td class="s4">Ability add/remove policies</td>
-        </tr>
-        <tr style='height:20px;'>
-            <td class="s1" dir="ltr">TeamManagement View</td>
-            <td class="s2" dir="ltr" rowspan="3">Team Management</td>
-            <td class="s2" dir="ltr" rowspan="3">All of the team management sections</td>
-            <td class="s4">Provides access to view team members</td>
-        </tr>
-        <tr style='height:20px;'>
-            <td class="s1" dir="ltr">TeamManagement Edit</td>
-            <td class="s4">Provides access to add/remove new permissions and change roles</td>
-        </tr>
-        <tr style='height:20px;'>
-            <td class="s1" dir="ltr">TeamManagement Admin</td>
-            <td class="s4">Provides access to add/remove new team members</td>
         </tr>
         <tr style='height:20px;'>
             <td class="s1" dir="ltr">Billing View</td>
