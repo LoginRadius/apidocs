@@ -56,7 +56,7 @@ function createImage($fileName) {
         $result_arr = $result->toArray();
 
         if (!empty($result_arr['ObjectURL'])) {
-            echo "<pre>";print_r($output);
+            echo "<pre>";print_r($result_arr);
             die;
             $output['status'] = "success";
             $output['message'] = "file uploaded success.";
