@@ -1006,6 +1006,16 @@
           "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-apple-id-code/",
           "title": "Access Token via Apple ID Code",
           "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-apple-refresh-token/",
+          "title": "Access Token via Apple Refresh Token",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/social-login/native-social-login-api/access-token-via-apple-jwt-id-token/",
+          "title": "Access Token via Apple JWT ID Token",
+          "type": "GET"
         }
       ]
     },

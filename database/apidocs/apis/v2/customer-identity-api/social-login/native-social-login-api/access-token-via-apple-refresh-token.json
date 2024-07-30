@@ -1,0 +1,32 @@
+{
+    "name": " Access Token By Apple Refresh Token",
+    "domain": "https://api.loginradius.com",
+    "path": "/api/v2/access_token/applert",
+    "method": "GET",
+    "getparams": {
+        "key*": "@apikey@",
+        "refresh_token*": ""
+    },
+    "postparams": "",
+    "headers": {
+        "content-Type": "application/x-www-form-urlencoded"
+    },
+    "response": "json",
+    "description": "This API is used to retrieve a LoginRadius access token by passing in an Apple refresh token.",
+    "parameters": {
+        "Get Params": [{
+            "name": "key",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+        }, {
+            "name": "Refresh Token",
+            "is_required": true,
+            "description": "Apple Refresh Token"
+        }]
+    },
+    "outputFormat": {
+        "access_token": "a123qwe2-9**3-4202-833c-320aoo58**66",
+  "refresh_token":"**4f02ec-b**1-4f0a-b**e-18a**b0a**fc",
+  "expires_in": "2017-10-09T06:07:00.296Z"
+    }
+    }

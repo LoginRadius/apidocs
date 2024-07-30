@@ -46,7 +46,7 @@ LoginRadius is now using Gradle.
 
 Use the following dependency in your project:
 ```
-implementation 'com.loginradius.androidsdk:androidsdk:5.1.0' 
+implementation 'com.loginradius.androidsdk:androidsdk:5.2.0' 
 ```
 LoginRadius SDK is now available as an AAR dependency. You can add it using File > New Module > Import .JAR/.AAR Package. Then, add it to your build.gradle:
 ```
@@ -169,6 +169,7 @@ After creating a new Android project, follow the installation section of this do
 <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
 <uses-permission android:name="android.permission.USE_CREDENTIALS" />
 <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+<uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
 ```
 
 #### Facebook Login
@@ -788,6 +789,278 @@ Log.d("profile",session.getProfile().FirstName); //For Getting the LoginRadius L
 3.  After 2 days, the application will ask the user to login again via Face ID or Touch ID.
     
 4.  When a user is successfully authenticated with any of these Biometric Authentication methods, then they can proceed to use the application.
+
+## Integrate MFA Push Notification
+
+Android SDK includes a **Multi-factor authentication (MFA)** service that provides a simple, safe way to implement MFA push notifications.
+
+This allows you to integrate LoginRadius Android SDK multi-factor push notification functionality in your app, transforming it into the second factor itself. Your users will get all the benefits of our frictionless multi-factor authentication from your app.
+
+
+Step-by-Step Guide to Configure Push Notifications with LoginRadius Android SDK:
+
+**Step 1: Set Up Firebase Cloud Messaging (FCM)**
+
+Create a Firebase Project:
+- Go to the Firebase Console.
+- Click on Add Project and follow the on-screen instructions to create a new project.
+
+**Add Your Android App to the Project:**
+
+- In the Firebase console, select your project and click on the Add App button.
+- Choose Android and enter your app’s package name.
+- Download the google-services.json file and place it in the app directory of your Android project.
+
+**Configuration in Admin Console:**
+
+- In the Firebase console, select your project and navigate to the Service Accounts tab.
+- Click on "Generate New Private Key" to download the service.json file.
+- Upload this file by clicking on the "Choose File" button in the Android app configuration section of the Admin Console.
+
+**Add Firebase SDK to Your Project:**
+
+- Add the following dependencies to your build.gradle files:
+Project-level build.gradle:
+
+```
+buildscript {
+    dependencies {
+        // Add the Google services classpath
+  classpath 'com.google.gms:google-services:4.4.1'
+    }
+}
+```
+
+**App-level build.gradle:**
+
+```
+dependencies {
+    // Add Firebase SDK
+    implementation 'com.google.firebase:firebase-messaging:23.0.0'
+    implementation 'com.google.firebase:firebase-analytics:21.1.0'
+}
+// Apply the Google services plugin
+apply plugin: 'com.google.gms.google-services'
+```
+
+- Add the below values in the String.xml file
+```
+<string name="google_app_id">"your_firebase_google_app_id</string>
+<string name="gcm_defaultSenderId">your_firebase_sender_id</string>
+ <string name="project_id">your_project_id</string>
+ <string name="google_api_key">your_firebase_google_api_key</string>
+```
+
+**Step 2: Set Up FCM Service**
+
+- Create a new Java class Firebase to handle incoming FCM messages and fetch the FCM token. This class will manage both foreground and background notifications.
+
+```
+public class Firebase extends FirebaseMessagingService {
+
+    private static final String TAG = "MyFirebaseMessagingService";
+
+    @SuppressLint("LongLogTag")
+    @RequiresApi(api = Build.VERSION_CODES.O)
+    public void onMessageReceived( RemoteMessage remoteMessage) {
+        Log.d(TAG, String.format("Received FCM message from: %s with data: %s", remoteMessage.getFrom(), remoteMessage.getData()));
+
+
+        // Extract notification details
+        RemoteMessage.Notification notification = remoteMessage.getNotification();
+        Map<String, String> data = remoteMessage.getData();
+        String sender = String.valueOf ( data );
+
+        
+        System.out.println ( "Notification Received" + sender );
+
+        if(isForeground(this)){
+            Intent dialogIntent = new Intent(this, YourActivity.class);
+            dialogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            // Put data into intent extras
+            for (Map.Entry<String, String> entry : data.entrySet()) {
+                dialogIntent.putExtra(entry.getKey(), entry.getValue());
+                System.out.println("Entry value is "+entry);
+            }
+            startActivity(dialogIntent);
+        }
+        else{
+            showNotification(notification);
+        }
+
+    }
+
+
+    public void showNotification(RemoteMessage.Notification notification) {
+
+        Intent  intent  = new Intent(this,YourActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+        PendingIntent notifyIntent = PendingIntent.getActivity(this, 0, intent,
+                PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
+        Log.d("notify",notifyIntent.toString());
+        NotificationCompat.Builder builder
+                = new NotificationCompat
+                .Builder(getApplicationContext(),
+                "LoginRadiusSDK")
+                .setSmallIcon(com.loginradius.authenticator.R.mipmap.ic_launcher_icon_new)
+                .setAutoCancel(true)
+                .setVibrate(new long[]{1000, 1000, 1000, 1000, 1000})
+                .setOnlyAlertOnce(true)
+                .setContentIntent(notifyIntent);
+
+        builder = builder
+                .setContentText(notification.getTitle() != null ? notification.getTitle() : "Please verify your Login Attempt")
+
+                //.setContentText(notification.getTitle())
+                .setSmallIcon(com.loginradius.authenticator.R.mipmap.ic_launcher_icon_new);
+
+        NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        // Check if the Android Version is greater than Oreo
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            NotificationChannel notificationChannel = new NotificationChannel("LoginRadiusSDK", "web_app",
+                    NotificationManager.IMPORTANCE_HIGH);
+            notificationManager.createNotificationChannel(
+                    notificationChannel);
+            notificationManager.notify(0, builder.build());
+        }
+
+
+    }
+    private static boolean isForeground(Context context) {
+        ActivityManager manager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
+        List<ActivityManager.RunningTaskInfo> runningTaskInfo = manager.getRunningTasks(1);
+        ComponentName componentInfo = runningTaskInfo.get(0).topActivity;
+        return componentInfo.getPackageName().equals(context.getPackageName());
+    }
+     @SuppressLint("LongLogTag")
+    @Override
+    public void onNewToken(@NonNull String token) {
+    Log.d(TAG, "Refreshed token: " + token);
+    }
+}
+
+```
+
+This class will generate the device token during the device registration process and extend the service to handle push notifications. 
+It will check whether the app is in the foreground or background. 
+
+- If the app is in the foreground, it will call the activity responsible for displaying the UI for the push notification, including allow or deny options. 
+
+- When the app is in the background, it shows the notification in the notification tray and passes the data to the default or launcher activity, which then passes the data to the activity responsible for displaying the push notification with allow and deny options.
+
+- Add the following code to the main or launcher activity to pass the data to the activity responsible for displaying the push notification information.
+
+```
+Intent i = getIntent();
+        Bundle extras = i.getExtras();
+        if (extras != null) {
+            Intent newIntent = new Intent(this, YourActivity.class);
+            newIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            newIntent.putExtras(extras);
+            startActivity(newIntent);
+            finish();
+        }
+```
+
+Fetch the data from the intent passed by your main or launcher activity to retrieve the push notification details triggered by the backend. This data can then be used to display the following information on your screen.
+
+```
+// Retrieve data from intent extras
+   String secondFactorAuthToken = getIntent().getStringExtra("secondfactorauthenticationtoken");
+
+        String identifier = getIntent().getStringExtra("identifier");
+        String browser = getIntent().getStringExtra("browser");
+        String location = getIntent().getStringExtra("location");
+        String timestamp = getIntent().getStringExtra("timestamp");
+        String apikey = getIntent().getStringExtra("apikey");
+        queryParams.setApiKey(apikey);    queryParams.setSecondfactorauthenticationtoken(secondFactorAuthToken;
+   LocalDateTime dateTime = LocalDateTime.ofInstant(Instant.ofEpochSecond(Long.parseLong(timestamp)), ZoneId.systemDefault());
+
+        // Format LocalDateTime
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        String formattedDateTime = dateTime.format(formatter);
+```
+
+Upon allowing or denying the request, call the **Push verification API** with the following parameters and handle the success and failure according to your case.
+Pass **"yes"** in the signature parameter and the **secondFactorAuthToken** in the **createSignature** function if the user clicks the "Yes" button. If the user clicks **"No,"** pass "No" along with the **secondFactorAuthToken**.
+
+```
+// Sign Yes or No and SFA and send to the API
+QRScanner qrscanner = new QRScanner(this);
+QueryParams queryParams = new QueryParams();
+String signedData = qrscanner.createSignature("Yes", secondFactorAuthToken);
+            MFAPushAPI api = new MFAPushAPI();
+            JsonObject jsonData = new JsonObject();
+            jsonData.addProperty("verify", "Yes");
+            jsonData.addProperty("signature", signedData);
+            api.MfaPushVerification(jsonData, queryParams, new AsyncHandler<PostResponse>() {
+
+                @Override
+                public void onSuccess(PostResponse data) {
+                    Toast.makeText(YourActivity.this, "Verification sent successfully", Toast.LENGTH_LONG).show();
+                }
+                @Override
+                public void onFailure(Throwable error, String errorcode) {
+                    System.out.println("Error is:" + error.getMessage());
+                    Toast.makeText(yourActivity.this, "Error:" + error.getMessage(), Toast.LENGTH_LONG).show();
+                    finish();
+                }
+            });
+```
+
+To handle notification permissions for Android API level 33 and above, and to redirect the user to the app's notification settings if the necessary permission is not granted, use the code below:
+
+```
+// This is only necessary for API level >= 33 (TIRAMISU)
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) ==
+                        PackageManager.PERMISSION_GRANTED
+                ) {
+
+                }
+                else{
+                    Intent settingsIntent = new Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS)
+                            .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                            .putExtra(Settings.EXTRA_APP_PACKAGE, getPackageName());
+                    startActivity(settingsIntent);
+                } }
+```
+
+You can view the sample DsiplayScreen activity that sets the push data, displays the information, and calls the Push Verification API in the demo project of the Android SDK repository [here](https://github.com/LoginRadius/android-sdk/blob/master/demo/app/src/main/java/com/loginradius/demo/DisplayScreen.java).
+
+**Add the Firebase class to the Manifest File.**
+
+<!-- Ensure you have Firebase Messaging Service declared -->
+        <service android:name=".Firebase"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+**Step 3: Register the device to receive Push Notifications**
+
+The Android SDK includes a helper class, **QRScanner**, which fetches the FCM Device token, scans QR codes, and registers the device to receive Push notifications. You can call the function below in your Main Activity to register the device. On button click, it will start scanning the MFA, push QR code, and register the device. You can also pass a custom success message upon successful device registration. Here is the implementation code:
+
+```
+ public QRScanner qrscanner;
+ qrscanner = new QRScanner ( this );
+ String SuccessMessage = "Device is registered successfully";
+                qrscanner.startScan (SuccessMessage );
+```
+
+Make sure to call **onActivityResult** of QRScanner within MainActivity's onActivityResult to return the result data to the QR Scanner helper.
+
+```
+ @Override
+    protected void onActivityResult ( int requestCode, int resultCode, Intent data ) {
+        super.onActivityResult ( requestCode, resultCode, data );
+        qrscanner.onActivityResult ( requestCode, resultCode, data );
+    }
+```
+
+Upon successful device registration, a toast message saying **"Registration successful"** will be displayed. If any errors occur during registration, an error message will be shown.
 
 ## Session Login/Logout
 Session Login and Logout mathod use for store access_token and userProfile after successful login in Android SharedPreferences for long time.
