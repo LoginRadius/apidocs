@@ -51,7 +51,6 @@ function createImage($fileName) {
         $result = $s3->putObject([
             'Bucket' => S3_BUCKET_NAME,
             'Key'    => 'images/'.$fileName,
-            'ACL'    => 'public-read',
             'SourceFile' => $content
         ]);
         $result_arr = $result->toArray();
