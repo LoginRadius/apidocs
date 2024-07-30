@@ -56,12 +56,15 @@ function createImage($fileName) {
         $result_arr = $result->toArray();
 
         if (!empty($result_arr['ObjectURL'])) {
-            echo "<pre>";print_r($result_arr);
-            die;
+            $parsed_url = parse_url($result_arr['ObjectURL']);
+            $path = $parsed_url['path'];
+
+            // Remove the extra domain part from the path
+            $path = preg_replace('/^\/apidocs\.lrcontent\.com/', '', $path);
             $output['status'] = "success";
             $output['message'] = "file uploaded success.";
             $output['name'] = $fileName;
-            $output['url'] ='https://'.API_DOCS_IMAGE_DOMAIN.parse_url($result_arr['ObjectURL'])['path'];
+            $output['url'] ='https://'.API_DOCS_IMAGE_DOMAIN.$path;
         } else {
             $output['message'] = "Upload Failed! S3 Object URL not found.";
             $output['status'] = "error";
