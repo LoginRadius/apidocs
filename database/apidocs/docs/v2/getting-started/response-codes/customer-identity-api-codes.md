@@ -343,6 +343,13 @@ This section details the LoginRadius Customer Identity API codes and some sugges
 | 1315 | The password you’re trying to set is exposed in an external data breach | The specific password you’re setting is found in a data breach unrelated to this app/service. Please set a different password. | 403 |
 | 1316 | Your password is exposed in an external data breach | Your password is found in a data breach unrelated to this app/service. Please reset your password using the email we sent you. | 403 |
 | 1317 | Please reset your password via the email we sent you | Your password is exposed in an external data breach. As a caution, we’ve already sent you an email with steps to reset your password. Please try to login after resetting your password. | 403 |
+| 1330 | Duo Authenticator is not set up for two-factor authentication | Please set up Duo Authenticator for two-factor authentication in your account settings. | 403 |
+| 1331 | Duo Authenticator configuration error | It appears to be a configuration issue with Duo Authenticator for two-factor authentication. Please review your configuration to ensure it is valid. | 403 |
+| 1332 | Duo Authenticator verification failed | Please try again as Duo Authenticator verification failed. | 403 |
+| 1333 | Duo Authenticator state is not valid | Please enter the correct state value for Duo Authenticator. | 403 |
+| 1334 | Duo Authenticator as two-factor authentication method is not configured for this profile | Please configure or enable two-factor authentication in your account for login. | 403 |
+| 1335 | Duo Authenticator redirect URI is not whitelisted | Please whitelist the Duo Authenticator redirect URI or reach out to support. | 403 |
+| 1336 | Duo Authenticator redirect URI is invalid | Duo Authenticator redirect URI is invalid, Please provide the valid Duo Authenticator redirect URI. | 403 |
 | 1337 | Refresh token is missing from social ID provider | The ID Provider refresh token is required to generate the LoginRadius access token, please use the correct token in order to process this request. | 400 |
 | 2023       | Request is invalid                                                                                                  | Unable to retrieve token configuration for the specified app.                                                                                                                                           | 400       |
 | 2024       | The Access Token is expired or invalid                                                                              | The Access Token is expired or invalid, please request a new Access Token from the LoginRadius API.                                                                                                     | 403       |
