@@ -7124,4 +7124,4 @@ IDE:
 
 ## Reference Manual
 
-Please find the reference manual [here](http://docs.lrcontent.com/apidocs/ref/java/index.html).
+Please find the reference manual [here](https://docs.lrcontent.com/apidocs/ref/java/index.html).

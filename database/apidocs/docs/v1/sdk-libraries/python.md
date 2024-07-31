@@ -734,5 +734,5 @@ May work for some providers like Mixi, but will not work for Facebook. Instead, 
 You can take advantage of the [raw API](/) if you wish and learn how it works.
 
 
-Please find the reference manual [here](http://docs.lrcontent.com/apidocs/ref/python/source.html)
+Please find the reference manual [here](https://docs.lrcontent.com/apidocs/ref/python/source.html)
 ```
