@@ -821,4 +821,4 @@ We have configured a sample ASP.net project with extended social profile data, p
 You can get a copy of our demo project at [GitHub](https://github.com/LoginRadius/dot-net-sdk/tree/api-v1).
 
 Reference Manual
-Please find the reference manual [here](http://docs.lrcontent.com/apidocs/ref/aspnet/index.html)
+Please find the reference manual [here](https://docs.lrcontent.com/apidocs/ref/aspnet/index.html)

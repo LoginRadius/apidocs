@@ -269,4 +269,4 @@ This example includes the login script and the SDK to grab user profile data and
 </html>
 ```
 Reference
-Please find the reference manual [Here](http://docs.lrcontent.com/apidocs/ref/html5/index.html)
+Please find the reference manual [Here](https://docs.lrcontent.com/apidocs/ref/html5/index.html)
