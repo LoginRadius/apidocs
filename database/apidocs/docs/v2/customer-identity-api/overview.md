@@ -3,11 +3,11 @@ User Registration Overview
 
 This is a quick overview of the LoginRadius User Registration System. 
 
-The LoginRadius User Registration System relies on two identifiers:
+The LoginRadius User Registration system utilizes two identifiers in order to uniquely identify your users:
 
-**Account User ID (ID)** - The LoginRadius user identifier for a particular social platform(like "Facebook", "Twitter") attached to that account.
+**Account ID (UID):** The UID is the unique identifier for each user account. It may have multiple Profile IDs (ID) attached to it via the Identities profile field(see below).
 
-**Account ID (UID)** - The identifier for each account, it may have multiple IDs(identifier for each social platform) attached with it.
+**Profile ID (ID):** The ID is the unique identifier for each profile attached to a LoginRadius UID. There will be a unique ID for each profile (i.e. "Facebook", "Twitter", "Email", etc.) associated with a given UID.
 
 You can see an outline of the data structure [here](/api/v2/data-points-and-response-code/data-points).
 
