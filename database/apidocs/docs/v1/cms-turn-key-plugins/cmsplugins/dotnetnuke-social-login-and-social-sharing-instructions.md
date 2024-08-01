@@ -330,7 +330,7 @@ a. Select "Add New Module"
 
 
 
-  iv. How to get LoginRadius counter script: [Click here](http://www.loginradius.com/social-add-ons)
+  iv. How to get LoginRadius counter script: [Click here](https://www.loginradius.com/social-add-ons)
   
   v. LoginRadius Counter will be enabled on the selected page.
 
@@ -536,7 +536,7 @@ b.Select "Activity Feed" in Parent Page
 
  
 
-  d. How to get LoginRadius counter script:[ Click here](http://www.loginradius.com/social-add-ons)
+  d. How to get LoginRadius counter script:[ Click here](https://www.loginradius.com/social-add-ons)
      
 e. LoginRadius Counter will be enabled on the selected page.
 

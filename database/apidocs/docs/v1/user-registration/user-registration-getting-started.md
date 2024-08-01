@@ -517,7 +517,7 @@ Depending on the social providers you have selected for your application/website
 
 An updated chart of all data points based on providers can be found here:
 
-http://www.loginradius.com/datapoints
+https://www.loginradius.com/datapoints
 
 User Registration provides some default field settings and details on these can be found here:
 

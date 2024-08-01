@@ -310,7 +310,7 @@ You will need:
 
 * the Disqus Comment System Plugin available [here](https://wordpress.org/plugins/disqus-comment-system/)
 
-* a **LoginRadius Account** , if you have not set this up please contact us [here](http://www.loginradius.com/pricing)
+* a **LoginRadius Account** , if you have not set this up please contact us [here](https://www.loginradius.com/pricing)
 * a LoginRadius Advanced WordPress plugin with Disqus SSO component, contact your LoginRadius product specialist to obtain this
 
 ####Video
