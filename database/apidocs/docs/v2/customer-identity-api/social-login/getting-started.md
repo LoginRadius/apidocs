@@ -16,7 +16,7 @@ Depending on the social providers you have selected for your application/website
 
 An updated chart of all data points based on providers can be found here:
 
-http://www.loginradius.com/datapoints
+https://www.loginradius.com/datapoints
 
 While many SDKs will abstract away the API requests, you may want to understand all the endpoints available to you to best utilize your application’s experience.
 

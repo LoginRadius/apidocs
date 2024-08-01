@@ -97,7 +97,7 @@ The next line of code embedded in the if statement prints the user’s first nam
 
 This data is normalized across all data providers and is stored as a python dictionary to adapt to the API if changes are made at a later date. To view all up to date items available to you in the dictionary, visit:
 
-http://www.loginradius.com/datapoints/
+https://www.loginradius.com/datapoints/
 
 The thought process behind the LoginRadius object is to provide easily accessible functions with minimal arguments. It only loads data when needed.
 
@@ -489,7 +489,7 @@ The original token from the callback.
 
 - user
 
-Some of these attributes may not pull any data. Please check your endpoints at http://www.loginradius.com/datapoints/
+Some of these attributes may not pull any data. Please check your endpoints at https://www.loginradius.com/datapoints/
 
 All of these attributes, by default, set raw=False to normalize data.
 
@@ -714,7 +714,7 @@ LoginRadius.LIBRARY = "urllib2"
 <br>
 ##Reference Manual
 ###Data Points
-When you access the python dictionary with respect to each attribute of the object, it is parsing the information reflected in this [document](http://www.loginradius.com/datapoints).
+When you access the python dictionary with respect to each attribute of the object, it is parsing the information reflected in this [document](https://www.loginradius.com/datapoints).
 
 <br>
 >Warning<br>

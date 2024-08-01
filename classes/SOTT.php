@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @link                : http://www.loginradius.com
+ * @link                : https://www.loginradius.com
  * @category            : SOTT
  * @package             : SOTT
  * @author              : LoginRadius Team
