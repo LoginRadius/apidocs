@@ -1392,6 +1392,38 @@
           "title": "MFA Validate Backup Code",
           "type": "PUT"
         }
+      ],
+      "Duo Security Authenticator": [
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/duo-security-authenticator/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/duo-security-authenticator/mfa-verify-duo-security-authenticator-by-mfa-token/",
+          "title": "MFA Verify Duo Security Authenticator By MFA Token",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/duo-security-authenticator/mfa-verify-duo-security-authenticator-by-access-token/",
+          "title": "MFA Verify Duo Security Authenticator By Access Token",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/duo-security-authenticator/mfa-re-authentication-by-duo-security-authenticator/",
+          "title": "MFA Re-Authentication By Duo Security Authenticator",
+          "type": "PUT"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/duo-security-authenticator/reset-mfa-duo-security-authenticator-settings/",
+          "title": "Reset MFA Duo Security Authenticator Settings",
+          "type": "DELETE"
+        },
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/duo-security-authenticator/reset-mfa-duo-security-authenticator-settings-by-uid/",
+          "title": "Reset MFA Duo Security Authenticator Settings By UID",
+          "type": "DELETE"
+        }
       ]
     },
     "PIN Authentication": [
