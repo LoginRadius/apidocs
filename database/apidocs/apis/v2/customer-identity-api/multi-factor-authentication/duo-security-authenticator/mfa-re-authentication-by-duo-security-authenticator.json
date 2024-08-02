@@ -1,0 +1,49 @@
+{
+    "name": "MFA Re-Authentication By Duo Security Authenticator",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/account/reauth/2fa/duo",
+    "method": "PUT",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "access_token*": ""
+    },
+    "postparams": {
+        "state": "",
+        "code": ""
+    },
+    "headers": {
+      "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to validate the triggered MFA authentication flow with the Duo Security Authenticator.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "access_token",
+                "is_required": true,
+                "description": "User's Access Token"
+            }
+        ],
+        "Post Params": [
+            {
+                "name": "state",
+                "is_required": true,
+                "description": "Duo State"
+            },
+            {
+                "name": "code",
+                "is_required": true,
+                "description": "Duo Code"
+            }
+        ]
+    },
+    "outputFormat": {
+        "SecondFactorValidationToken": "e1******-****-****-b**e-e8*******cc7",
+        "ExpireIn": "2018-06-13T06:25:42.8937286Z"
+    } 
+}
