@@ -36,6 +36,7 @@ var postmanLinks_v2 = {
     "Authentication": "25783581-51d1c105-a913-4d09-b9f3-cf3277badded",
     // Account API to Account
     "Account": "25783581-74136b5f-8b69-4217-9761-44f75e785610",
+    "Multipurpose Token and SMS OTP Generation API": "25783581-74136b5f-8b69-4217-9761-44f75e785610",
     "Roles Management": "25783581-53224474-6e05-42b5-83f0-56e58bd2f018",
     //"Social Login": "b1bcce763fa199f7377d",
     "Phone Authentication": "25783581-e977628d-4c4a-45c8-abfe-15031706f191",
@@ -53,6 +54,7 @@ var postmanLinks_v2 = {
     // Adding new rules
     "Native Social Login API": "25783581-ea9f7f2e-82cf-4b0d-a4e0-34bcd0cde515",
     "Social Login": "25783581-ea9f7f2e-82cf-4b0d-a4e0-34bcd0cde515",
+    "Authentication Passkey API": "25783581-7fa07f61-69fc-4171-9eb6-6b389b0ffbfc",
     //Below This Multifactor Tabs
     "Multi-Factor Authentication": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
     "Authenticator": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
@@ -60,6 +62,7 @@ var postmanLinks_v2 = {
     "Email Authenticator": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
     "Security Question Authenticator": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
     "Backup Codes": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
+    "Push Notification": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
     "PIN Authentication": "25783581-e17e6f06-8537-4f24-98f2-ceb253472fd3",
     "Step-Up Authentication": "25783581-a66796ce-b741-4e3c-ba8d-d54e1c2c6b98",
     "MFA": "25783581-a66796ce-b741-4e3c-ba8d-d54e1c2c6b98",
