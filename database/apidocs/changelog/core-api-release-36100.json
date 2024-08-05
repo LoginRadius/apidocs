@@ -1,0 +1,24 @@
+{
+    "name": "Core API Release 36.10.0",
+    "description": "We have rolled out another version of the Core APIs, which brings you some new features. Please see below for details.",
+    "changelog":
+    {
+        "ADDED": 
+        [
+            {
+                "text": "We have introduced  APIs for a new feature: Duo Authenticator as a MFA integraion, which is currently enabled only via the backend."
+            },{
+                "text": "New error codes 1330-1336 have been introduced with Duo Authenticator to enhance security and improve error handling."
+            },{
+                "text": "New error code 1337 have been introduced as part of Apple Native Login APIs."
+            },{
+                "text": "Two new APIs <a href='/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-apple-jwt-id-token/'>Access Token via Apple JWT ID Token</a> and <a href='/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-apple-refresh-token/'> Access Token via Apple Refresh Token</a> have been added to support Apple Native Login."
+            }
+        ]
+        
+        
+    },
+    "auther": "Vaibhav Jain",
+    "created_date": "2024-08-05",
+    "status": "public"
+}
