@@ -12,7 +12,7 @@ This guide will walk you through the process of setting up and implementing a so
 
 > - Basic knowledge of HTML/JavaScript.
 
-An updated chart of all data points based on providers can be found [here](http://www.loginradius.com/datapoints).
+An updated chart of all data points based on providers can be found [here](https://www.loginradius.com/datapoints).
 
 ## Part 1 - Configuration
 

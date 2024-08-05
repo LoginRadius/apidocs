@@ -18,7 +18,7 @@ You will need to have the following details gathered before beginning the integr
 ###Steps to Implement:###
 Below is an overview of the process you will take when setting up LoginRadius Social Login on your site.
 
-1. If you already have an account, login to your LoginRadius Admin Console [here](https://secure.loginradius.com/account). Otherwise,​ you can get signed up for a new site  [here](http://www.loginradius.com/pricing).
+1. If you already have an account, login to your LoginRadius Admin Console [here](https://secure.loginradius.com/account). Otherwise,​ you can get signed up for a new site  [here](https://www.loginradius.com/pricing).
 2. Select your LoginRadius site from the drop-down list in the upper right corner.
 
 3. Navigate to API Configuration -> Social Login on the top panel.

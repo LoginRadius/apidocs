@@ -1,0 +1,32 @@
+{
+    "name": "Reset MFA Duo Security Authenticator Settings",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/account/2fa/authenticator/duo",
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "access_token*": ""
+    },
+    "headers": {
+      "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to reset the Duo Security Authenticator settings for an MFA-enabled user.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "access_token",
+                "is_required": true,
+                "description": "Access Token associated with the user"
+            }
+        ]
+    },
+    "outputFormat": {
+      "IsDeleted": true
+    }
+}

@@ -506,4 +506,4 @@ action = true/false(boolean)
 
 
 ##Reference Manual
-Please find the reference manual [here](http://docs.lrcontent.com/apidocs/ref/ruby/index.html).
+Please find the reference manual [here](https://docs.lrcontent.com/apidocs/ref/ruby/index.html).

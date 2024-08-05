@@ -689,4 +689,4 @@ We have configured a sample Java project with extended social profile data, push
 You can get a copy of our demo project at [GitHub](https://github.com/LoginRadius/Java-SDK/tree/api-v1).
 
 ##Reference Manual
-Please find the reference manual [here](http://docs.lrcontent.com/apidocs/ref/java/index.html).
+Please find the reference manual [here](https://docs.lrcontent.com/apidocs/ref/java/index.html).

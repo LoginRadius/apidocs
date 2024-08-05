@@ -2,7 +2,7 @@
 LoginRadius
 ==========
 
-![Home Image](http://docs.lrcontent.com/resources/github/banner-1544x500.png)
+![Home Image](https://apidocs.lrcontent.com/images/banner-1544x500_87268326866ab2ab70c0f84.57436403.png)
 
 -----------------------------------------------
 LoginRadius PHP wrapper provides access to LoginRadius.
