@@ -2,7 +2,7 @@
 
 The [LoginRadius Admin Console](https://adminconsole.loginradius.com) is used to manage and configure all the settings needed for a typical application. Apart from configurations, you can also fetch, and analyze the statistics of users registered in LoginRadius. Additionally, the platform provides helpful SDKs and libraries to assist in the deployment of LoginRadius as a solution.
 
-<iframe width="1152" height="620" scrolling="no" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/frjL0vABoVc"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/frjL0vABoVc?si=C7CCeEyvp2oiyDiO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The LoginRadius Admin Console is divided into the following sections:
 
