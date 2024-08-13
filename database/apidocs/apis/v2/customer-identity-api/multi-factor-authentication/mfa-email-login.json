@@ -10,7 +10,8 @@
     "emailtemplate": "",
     "EmailTemplate2FA":"",
     "fields":"*",
-    "options": ""
+    "options": "",
+    "duoredirecturi":""
   },
   "postparams": {
   "email": "Email of the user",
@@ -96,6 +97,11 @@
 				"name":	"options",
 				"is_required": false,
 				"description": "preventverificationsms (Specifying this value prevents the verification sms from being sent. Only applicable if you have the optional sms verification flow)"
+			},
+      {
+				"name":	"duoredirecturi",
+				"is_required": false,
+				"description": "Duo Redirect Uri where duo will send the response. Required to pass if the Duo MFA is enabled."
 			}
     ],
     "Post Params": [
