@@ -2307,6 +2307,11 @@
         "url": "v2/announcements/sso-security-enhancements/",
         "title": "SSO Security Enhancements",
         "type": "DOC"
+      },
+      {
+        "url": "v2/announcements/Chrome-blocking-third-party-cookies/",
+        "title": "Chrome blocking third-party cookies",
+        "type": "DOC"
       }
     ]
   }
