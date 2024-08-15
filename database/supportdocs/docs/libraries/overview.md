@@ -2,7 +2,7 @@ Deployment Overview
 ===
 ---
 
-This document covers various implementation methods that will help you in deployment of the **LoginRadius platform** in a quick time and easy way. It includes the deployment via all the well-known methods such as JavaScript libraries, web-based SDKs, Mobile SDKs, IDX,Identity Orchestrationand turn-key plugins, as well as, secure credentials for connecting these to the **LoginRadius SaaS platform**. 
+This document covers various implementation methods that will help you in deployment of the **LoginRadius platform** in a quick time and easy way. It includes the deployment via all the well-known methods such as JavaScript libraries, web-based SDKs, Mobile SDKs, IDX,Identity Orchestration and turn-key plugins, as well as, secure credentials for connecting these to the **LoginRadius SaaS platform**. 
 
 ### JS Libraries
 
