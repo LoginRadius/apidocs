@@ -56,17 +56,17 @@ The API Integration flow allows you to create your own interfaces and tie them t
 1. [Verify Email](/api/v2/user-registration/auth-verify-email) - This API consumes the verification token generated during the initial registration.
 1. [Social Login](/api/v2/customer-identity-api/social-login/social-sharing/advanced-customization)- This details the steps to generate the Social Login interface.
 
-In this instance, the look and feel of the interfaces are completely controlled on your end, and you also have full control over the logic and events that would trigger specific actions and API calls. This is the most customizable version of the implementation but also requires the most effort to setup.
+In this instance, you completely control the look and feel of the interfaces, and you also have full control over the logic and events that trigger specific actions and API calls. This is the most customizable version of the implementation but also requires the most effort to set up.
 
 #### Key Benefits
 
 1. Full Customizability - Create your own forms and submit data directly to the API, with no restrictions on how you choose to display the form or process the data before submitting them to the LoginRadius API.
-2. Control your flows - You can add any logical flows that you would like, as well as customize when and how the data is collected and submitted to the API.
+2. Control your flows—You can add any logical flows you like and customize when and how the data is collected and submitted to the API.
 
 
 ## Identity Orchestration (IO) Overview
 
-Identity Orchestration (IO) in LoginRadius allows businesses to design and implement customized identity workflows tailored to their unique needs. With IO, companies can create, test, and deploy identity workflows using pre-made templates or by building from scratch in the Workflow Builder. This feature also enables businesses to manage brand configurations efficiently.
+Identity Orchestration (IO) in LoginRadius allows businesses to design and implement customized identity workflows tailored to their unique needs. With IO, companies can create, test, and deploy identity workflows using pre-made templates or building from scratch in the Workflow Builder. This feature also enables businesses to manage brand configurations efficiently.
 
 #### Key Benefits of IO
 
