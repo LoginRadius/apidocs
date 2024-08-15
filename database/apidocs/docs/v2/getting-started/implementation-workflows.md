@@ -4,7 +4,7 @@
 
 The LoginRadius platform offers a range of implementation methodologies, enabling you to tailor user flows to your needs. Below, we will go over the various workflows, their benefits, and some useful resources for implementing the different workflows. You can choose any of these methodologies or combine features from each. If you need assistance in determining the best system for your needs, contact the LoginRadius support team for help with planning your implementation.
 
-![Layer of abstraction](https://apidocs.lrcontent.com/images/Layers_221306124ee16939bd6.83846257.png "Layer of abstraction")
+![Layer of abstraction](https://apidocs.lrcontent.com/images/Untitled_97355647666be4add9bcd46.27337248.png "Layer of abstraction")
 
 
 
@@ -29,7 +29,7 @@ For more information for the process of customizing the IDx use [Identity Experi
 3. Self-contained and straightforward front-end implementation - With the Login Screen configuration section of the Admin Console, you can create a complete login screen from start to finish.
 
 
-### JavaScript Interfaces
+## JavaScript Interfaces
 
 The JavaScript interface is a methodology that utilizes a set of LoginRadius maintained JavaScript files. These scripts interact with the LoginRadius servers in order to retrieve the account configurations and generate embedded interfaces directly on your web property. Implementations using the JavaScript Interface methodology allow you to quickly set up your interfaces with pre-built handling of common workflows. The following reference documents can be used to setup and configure your interfaces:
 
@@ -45,7 +45,7 @@ The generated interfaces come in a static format that allows you to further cust
 2. Customizability - Tie into our predefined HTML layouts and JavaScript hooks to fully customize the interfaces.
 3. Limited Development - The majority of the complex functionality is handled by the scripts, which allows you to focus on branding and utilization.
 
-### API Integration
+## API Integration
 
 The API Integration flow allows you to create your own interfaces and tie them to the LoginRadius APIs to handle Login, Registration, Forgot Password Recovery, and other common client-side flows. You can use either the LoginRadius Authentication API to keep everything on the client side or the LoginRadius Account API to make the calls from your server. The API-based flow allows for more customization in the logical flows but is more resource-intensive during the initial implementation as you no longer have the pre-built logic that is included in the other LoginRadius Implementation Workflows. You can use the following documents to implement an API-based integration flow:
 
@@ -62,3 +62,20 @@ In this instance, the look and feel of the interfaces are completely controlled 
 
 1. Full Customizability - Create your own forms and submit data directly to the API, with no restrictions on how you choose to display the form or process the data before submitting them to the LoginRadius API.
 2. Control your flows - You can add any logical flows that you would like, as well as customize when and how the data is collected and submitted to the API.
+
+
+## Identity Orchestration (IO) Overview
+
+Identity Orchestration (IO) in LoginRadius allows businesses to design and implement customized identity workflows tailored to their unique needs. With IO, companies can create, test, and deploy identity workflows using pre-made templates or by building from scratch in the Workflow Builder. This feature also enables businesses to manage brand configurations efficiently.
+
+#### Key Benefits of IO
+
+1. **Customizable Workflows:** IO provides flexibility in creating workflows by offering templates or allowing businesses to design their own, ensuring a tailored customer experience.
+2. **Ease of Management:** The platform simplifies workflow management with features like search, edit, and delete, along with options to download workflows in JSON format.
+3. **Brand Integration:** IO enables seamless brand management, automatically fetching brand-specific details like logos and color themes, which can be further customized to meet specific branding requirements.
+
+#### Basic Properties of IO
+
+- Workflows can be created, tested, and edited using an intuitive editor.
+- The editor supports node-based workflow construction with easy navigation and zoom options.
+- Workflow URLs can be previewed, and detailed node properties are editable directly within the interface.
