@@ -56,12 +56,12 @@ Essentially, a Related Website Set is a group of domains with one designated as 
    ],
    "serviceSites": ["https://servicesite1.com"],
    "rationaleBySite": {
-      "https://associated-site1.com": "Single sign-on",
-      "https://associated-site2.com": "Single sign-on",
-      "https://associated-site3.com": "Single sign-on",
-      "https://associated-site4.com": "Single sign-on",
-      "https://associated-site5.com": "Single sign-on",
-      "https://servicesite1.com": "Single sign-on"
+      "https://associated-site1.com": "Description of the associated site: Site One",
+      "https://associated-site2.com": "Description of the associated site: Site Two",
+      "https://associated-site3.com": "Description of the associated site: Site Three",
+      "https://associated-site4.com": "Description of the associated site: Site Four",
+      "https://associated-site5.com": "Description of the associated site: Site Five",
+      "https://servicesite1.com": "Description of the associated servicesite1"
    },
    "ccTLDs": {
       "https://primary-site.com": ["https://primary-site.ca", "https://primary-site.co.uk", "https://primary-site.de"],
