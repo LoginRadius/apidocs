@@ -54,7 +54,7 @@ var postmanLinks_v2 = {
     // Adding new rules
     "Native Social Login API": "25783581-ea9f7f2e-82cf-4b0d-a4e0-34bcd0cde515",
     "Social Login": "25783581-ea9f7f2e-82cf-4b0d-a4e0-34bcd0cde515",
-    "Authentication Passkey API": "25783581-7fa07f61-69fc-4171-9eb6-6b389b0ffbfc",
+    "Passkey": "25783581-7fa07f61-69fc-4171-9eb6-6b389b0ffbfc",
     //Below This Multifactor Tabs
     "Multi-Factor Authentication": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
     "Authenticator": "25783581-b9b6f5d9-3484-40ee-8d55-1762b6869456",
