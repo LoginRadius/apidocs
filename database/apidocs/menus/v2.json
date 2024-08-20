@@ -1096,54 +1096,54 @@
         "type": "DELETE"
       }
     ],
-    "Authentication Passkey API": [
+    "Passkey": [
         {
-        "url": "v2/customer-identity-api/authentication-passkey-api/registration-begin-by-passkey/",
+        "url": "v2/customer-identity-api/passkey/registration-begin-by-passkey/",
         "title": "Registration begin by Passkey",
         "type": "GET"
       },
       {
-        "url": "v2/customer-identity-api/authentication-passkey-api/register-finish-by-passkey/",
+        "url": "v2/customer-identity-api/passkey/register-finish-by-passkey/",
         "title": "Register finish by Passkey",
         "type": "POST"
       },
       {
-        "url": "v2/customer-identity-api/authentication-passkey-api/login-begin-by-passkey/",
+        "url": "v2/customer-identity-api/passkey/login-begin-by-passkey/",
         "title": "Login begin by Passkey",
         "type": "GET"
       },
       {
-        "url": "v2/customer-identity-api/authentication-passkey-api/login-finish-by-passkey/",
+        "url": "v2/customer-identity-api/passkey/login-finish-by-passkey/",
         "title": "Login finish by Passkey",
         "type": "POST"
       },
       {
-        "url": "v2/customer-identity-api/authentication-passkey-api/add-passkey-begin/",
+        "url": "v2/customer-identity-api/passkey/add-passkey-begin/",
         "title": "Account: Add passkey begin",
         "type": "GET"
       },
       {
-        "url": "v2/customer-identity-api/authentication-passkey-api/add-passkey-finish/",
+        "url": "v2/customer-identity-api/passkey/add-passkey-finish/",
         "title": "Account: Add passkey finish",
         "type": "POST"
       },
       {
-        "url": "v2/customer-identity-api/authentication-passkey-api/list-user-passkeys/",
+        "url": "v2/customer-identity-api/passkey/list-user-passkeys/",
         "title": "List user passkeys",
         "type": "GET"
       },
       {
-        "url": "v2/customer-identity-api/authentication-passkey-api/remove-passkey-by-id/",
+        "url": "v2/customer-identity-api/passkey/remove-passkey-by-id/",
         "title": "Remove passkey by UID",
         "type": "DELETE"
       },
       {
-        "url": "v2/customer-identity-api/authentication-passkey-api/autofill-login-begin-by-passkey/",
+        "url": "v2/customer-identity-api/passkey/autofill-login-begin-by-passkey/",
         "title": "Autofill login begin by Passkey",
         "type": "GET"
       },
       {
-        "url": "v2/customer-identity-api/authentication-passkey-api/autofill-login-finish-by-passkey/",
+        "url": "v2/customer-identity-api/passkey/autofill-login-finish-by-passkey/",
         "title": "Autofill login finish by Passkey",
         "type": "POST"
       }
