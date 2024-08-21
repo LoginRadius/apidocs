@@ -385,6 +385,12 @@
         "title": "Generate LoginRadius' Certificate and Key",
         "type": "DOC"
       }
+    ], "FAQ": [
+      {
+        "url": "single-sign-on/faq/chrome-blocking-third-party-cookies/",
+        "title": "Chrome Blocking Third Party Cookies",
+        "type": "DOC"
+      }
     ]
   }
 },
