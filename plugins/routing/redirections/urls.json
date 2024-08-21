@@ -7871,6 +7871,46 @@
 {
   "oldLink": "api/v2/docs/phonegap",
   "newLink": "libraries/mobile-sdk-libraries/phonegap-library/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/authentication-passkey-api/registration-begin-by-passkey",
+  "newLink": "api/v2/customer-identity-api/passkey/registration-begin-by-passkey/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/authentication-passkey-api/register-finish-by-passkey",
+  "newLink": "api/v2/customer-identity-api/passkey/register-finish-by-passkey/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/authentication-passkey-api/login-begin-by-passkey",
+  "newLink": "api/v2/customer-identity-api/passkey/login-begin-by-passkey/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/authentication-passkey-api/login-finish-by-passkey",
+  "newLink": "api/v2/customer-identity-api/passkey/login-finish-by-passkey/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/authentication-passkey-api/add-passkey-begin",
+  "newLink": "api/v2/customer-identity-api/passkey/add-passkey-begin/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/authentication-passkey-api/add-passkey-finish",
+  "newLink": "api/v2/customer-identity-api/passkey/add-passkey-finish/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/authentication-passkey-api/list-user-passkeys",
+  "newLink": "api/v2/customer-identity-api/passkey/list-user-passkeys/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/authentication-passkey-api/remove-passkey-by-id",
+  "newLink": "api/v2/customer-identity-api/passkey/remove-passkey-by-id/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/authentication-passkey-api/autofill-login-begin-by-passkey",
+  "newLink": "api/v2/customer-identity-api/passkey/autofill-login-begin-by-passkey/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/authentication-passkey-api/autofill-login-finish-by-passkey",
+  "newLink": "api/v2/customer-identity-api/passkey/autofill-login-finish-by-passkey/"
 }
 ]
 

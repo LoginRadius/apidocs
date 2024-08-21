@@ -1,3 +1,6 @@
+This feature has been deprecated by LoginRadius. For further details, please reach out to the [LoginRadius support team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket)
+
+<!--
 # Password Delegation API
 
 The Password Delegation feature allows you to authenticate a user for which password is stored with a third-party application during the initial login. This process allows you to provide a seamless authentication process when migrating customer bases to LoginRadius without needing to provide passwords to LoginRadius during the data migration process. 
@@ -83,3 +86,4 @@ The following is the list of documents you might want to look into:
 - [Delegation Auth API](/single-sign-on/concept/delegation-login-api/)
 - [Service Provider Initiated Login workflow](/single-sign-on/overview/) 
 - [Identity Provider Initiated SSO](/single-sign-on/tutorial/federated-sso/saml/idp-initiated/)
+-->

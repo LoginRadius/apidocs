@@ -57,12 +57,16 @@ Multipass is one of the simplest forms of SSO authentication. Multipass is handl
 
 - [LoginRadius Multipass Documentation](/api/v2/single-sign-on/multipass)
 
+## [Custom Identity Providers](/single-sign-on/custom-identity-providers/overview/)
+
+If you're looking to add an Identity Provider that's not already listed in the LoginRadius Admin Console, The Custom Identity Providers section contains documentation on setting up custom providers along with specific details on configuring some of the more popular ones.
+
+
+<!--
 ### [Delegation](/single-sign-on/delegation-login-api/)
 The LoginRadius Delegation APIs cover two system flows that allow you to delegate either the full authentication via the [Delegation Authentication APIs](/single-sign-on/delegation-login-api/) or just delegate the password management via the Password delegation API. Password Delegation Allows you to use a third-party service to store your passwords rather than LoginRadius Cloud Directory.
 
 - [Delegated Authentication Documentation](/single-sign-on/delegation-login-api/)
 - [Password Delegation Document](/single-sign-on/password-delegation-api/)
+-->
 
-## [Custom Identity Providers](/single-sign-on/custom-identity-providers/overview/)
-
-If you're looking to add an Identity Provider that's not already listed in the LoginRadius Admin Console, The Custom Identity Providers section contains documentation on setting up custom providers along with specific details on configuring some of the more popular ones.
