@@ -66,7 +66,7 @@ In this instance, you completely control the look and feel of the interfaces, an
 
 ## Identity Orchestration (IO) Overview
 
-Identity Orchestration (IO) in LoginRadius allows you to design and implement customized identity workflows tailored to their unique needs. With IO, you can create, test, and deploy identity workflows using pre-made templates or building from scratch in the Workflow Builder. This feature also enables you to manage brand configurations efficiently. Customization of this IO can be easily achieved using the LoginRadius [Admin Console](https://adminconsole.loginradius.com/deployment/identity-orchestration/workflows). For more information, refer to the IO overview [documentation](/docs/libraries/identity-orchestration/overview/).
+Identity Orchestration (IO) in LoginRadius allows you to design and implement customized identity workflows tailored to their unique needs. With IO, you can create, test, and deploy identity workflows using pre-made templates or building from scratch in the Workflow Builder. This feature also enables you to manage brand configurations efficiently. Customization of this IO can be easily achieved using the LoginRadius [Admin Console](https://adminconsole.loginradius.com/deployment/identity-orchestration/workflows). For more information, refer to the IO overview [documentation](/libraries/identity-orchestration/overview/).
 
 
 #### Key Benefits of IO
