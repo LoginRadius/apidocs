@@ -7779,6 +7779,98 @@
 {
   "oldLink": "api/v2/single-sign-on/custom-identity-providers/loginradius-as-sp-with-shibboleth-idp",
   "newLink": "single-sign-on/overview/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/Federated-SSO/ws-federation/overview/",
+  "newLink": "single-sign-on/tutorial/federated-sso/overview/"
+},
+{
+  "oldLink": "docs/customer-management/overview/",
+  "newLink": "customer-management/overview/"
+},
+{
+  "oldLink": "developer/tutorial/react",
+  "newLink": "libraries/demos/react-demo/"
+},
+{
+  "oldLink": "developer/terms-of-use",
+  "newLink": "security/user-security/fraud-prevention/"
+},
+{
+  "oldLink": "developer/sdk-libraries/php-library/",
+  "newLink": "libraries/sdk-libraries/php-library/"
+},
+{
+  "oldLink": "developer/sdk-libraries/html5-library/",
+  "newLink": "libraries/sdk-libraries/html5-library/"
+},
+{
+  "oldLink": "developer/privacy-policy",
+  "newLink": "https://www.loginradius.com/privacy-policy/"
+},
+{
+  "oldLink": "developer/guides/web-php/",
+  "newLink": "libraries/sdk-libraries/php-library/"
+},
+{
+  "oldLink": "developer/guide/wordpress/",
+  "newLink": "libraries/turn-key-plugins/wordpress-2-x-plugin/"
+},
+{
+  "oldLink": "security/user-security/registration-security/#bruteforcelockout2/",
+  "newLink": "security/user-security/registration-security/#bruteforcelockout2/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-validate-google-auth-code",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-authenticator-code/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-validate-google-auth-code",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-authenticator-code/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-google-authenticator-by-token",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/"
+},
+{
+  "oldLink": "api/v2/user-registration/2fa-remove-auth-by-token",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/overview/"
+},
+{
+  "oldLink": "single-sign-on/custom-identity-providers/loginradius-as-sp-with-salesforce-as-idp/",
+  "newLink": "single-sign-on/concept/saml-providers/salesforce/#loginradius-as-idp-with-salesforce-as-sp/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-validate-google-auth-code",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-authenticator-code/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-uid",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-uid/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-google-authenticator-by-token",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-validate-google-auth-code/",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-authenticator-code/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-validate-google-auth-code",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-authenticator-code/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-uid/",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-uid/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-uid",
+  "newLink": "api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-uid/"
+},
+{
+  "oldLink": "api/v2/docs/phonegap",
+  "newLink": "libraries/mobile-sdk-libraries/phonegap-library/"
 }
 ]
 

@@ -379,7 +379,7 @@ $hooks->do_action('init');
           </div>
           <div>
             <a href="<?php echo API_DOCS_URL . '/v2/getting-started/introduction/' ?>">
-              <h3>Getting Started</h3>
+              <h1>Getting Started</h1>
               <p>
                 Introduction of various implementation methodologies,authenticatin work flows,security best practices,data migration and acceptable use policy
               </p>

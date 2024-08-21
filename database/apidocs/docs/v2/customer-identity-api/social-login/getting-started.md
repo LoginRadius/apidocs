@@ -6,7 +6,7 @@ This component of Customer Registration allows your customers to skip the forms 
 
 Social Login allows your customers to skip the forms by automatically creating customer profiles. This enables them to sign-in to your website with their existing social media accounts like Facebook, Twitter, and Google+.
 
-<iframe src="https://www.youtube.com/embed/F1FrgjtGXZ8" width="1152" height="620" scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F1FrgjtGXZ8?si=WtElZOAetWPDe8LM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Before choosing your SDK, you should get familiar with your LoginRadius Admin Console. You should be able to comfortably setup and configure social providers before continuing. If you do not configure your social providers correctly, you will run into issues later in these guides.
 

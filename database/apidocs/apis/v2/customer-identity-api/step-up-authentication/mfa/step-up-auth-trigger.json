@@ -6,7 +6,8 @@
   "getparams":{
   "apikey*":"@apikey@",
   "smstemplate2fa":"",
-  "isvoiceotp" : ""
+  "isvoiceotp" : "",
+  "duoredirecturi" :""
 },
   "postparams":"",
   "headers":{"content-Type":"application/json","Authorization":"Bearer "},
@@ -28,7 +29,12 @@
         "name": "isvoiceotp",
         "is_required": false,
         "description": "Boolean, pass true if you wish to trigger voice OTP"
-      }  
+      },
+      {
+				"name":	"duoredirecturi",
+				"is_required": false,
+				"description": "Duo Redirect Uri where duo will send the response. Required to pass if the Duo MFA is enabled."
+			}  
     ],
   "Headers Parameters": [{
               "name": "Authorization",
