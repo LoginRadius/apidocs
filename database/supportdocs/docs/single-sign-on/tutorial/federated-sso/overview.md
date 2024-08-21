@@ -76,6 +76,8 @@ LoginRadius Identity Platform provides a way to integrate your OpenID client wit
 - [LoginRadius OpenID Connect Documentation](/api/v2/single-sign-on/openid)
 - [OpenID Connect Specs](https://openid.net/specs/openid-authentication-2_0.html)
 
+
+<!--
 ### Delegation
 
 The delegation concept comes in picture when the SSO needs to be implemented between the applications having different login forms or when the third-party application stores the passwords of your customers.
@@ -85,4 +87,4 @@ LoginRadius Delegation APIs cover the following two flows that allow you to:
 - Delegate the full authentication via the [Delegation Authentication API](/api/v2/single-sign-on/delegation-login-api).
 - Delegate the password management via the [Password Delegation API](/single-sign-on/password-delegation-api/). Password delegation allows you to use a third-party service to store your passwords rather than LoginRadius Cloud Directory.
 
-
+-->
