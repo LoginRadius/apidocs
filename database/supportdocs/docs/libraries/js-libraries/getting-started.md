@@ -6,7 +6,7 @@ Developing and managing an online identity solution continues to be challenging 
 
 This document covers how you can utilize our various features and functionalities via using JavaScript. We have explained the implantation of LoginRadius via JS in detail below, you can customize the provided code as per your need while implementing it on your web property.
 
-<iframe src="https://www.youtube.com/embed/pzEG890G2Jg" width="1152" height="620" scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pzEG890G2Jg?si=dii-nApE7ik8Feov" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ##LoginRadius User Registration
 

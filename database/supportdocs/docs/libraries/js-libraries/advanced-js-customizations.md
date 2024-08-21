@@ -1183,6 +1183,45 @@ LRObject.util.ready(function() {
 <div id="pin-re-authentication-container"></div>
 ```
 
+## Duo Authentication
+
+In the **MFA required flow**, if Duo Authentication is enabled, the JavaScript will display a "_Verify identity via Duo Security_" button during the MFA login process. The JavaScript will then call the [LoginRadius APIs](/api/v2/customer-identity-api/multi-factor-authentication/duo-security-authenticator/overview/) to authenticate the user using the `code` and `state` provided by Duo.
+
+In the **MFA optional flow**, the "_Verify identity via Duo Security_" button will be available on the profile page. When clicked, the JavaScript will call the [LoginRadius APIs](/api/v2/customer-identity-api/multi-factor-authentication/duo-security-authenticator/overview/) to authenticate the user using the `code` and `state` returned by Duo.
+
+### JavaScript API Integration for Duo
+
+Two custom APIs have been created in JavaScript to facilitate integration with the Duo authentication process. Below is a demonstration of how these can be implemented:
+
+**duoVerify**
+
+The duoVerify API accepts `duoData`, which contains the `state` and `code` provided after Duo verification from the DuoAuth endpoint. The following JavaScript code demonstrates how to use this API.
+
+```
+LRObject.api.duoVerify(duoData, function(response) {
+    console.log("Duo Verify Success:", response);
+    alert(JSON.stringify(response));
+}, function(errors) {
+    console.log("Duo Verify Failure:", errors);
+    alert(JSON.stringify(errors));
+});
+```
+
+**duoVerifyByAccessToken**
+
+Similar to duoVerify, the duoVerifyByAccessToken API also accepts `duoData`, including the `state` and `code` from the DuoAuth endpoint. The JavaScript implementation is as follows:
+
+```
+LRObject.api.duoVerifyByAccessToken(duoData, function(response) {
+    console.log("Duo Verify Success:", response);
+    alert(JSON.stringify(response));
+}, function(errors) {
+    console.log("Duo Verify Failure:", errors);
+    alert(JSON.stringify(errors));
+});
+```
+
+
 ## Projection of Fields
 
 > **Note:**
