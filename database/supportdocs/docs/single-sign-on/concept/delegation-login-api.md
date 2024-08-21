@@ -1,3 +1,7 @@
+This feature has been deprecated by LoginRadius. For further details, please reach out to the  [LoginRadius support team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket)
+
+<!--
+
 # Delegation Authentication 
 
 This concept is useful when you want to establish SSO among applications that have different login form fields. The **Delegation Auth API** is used to integrate the LoginRadius Authentication APIs with the existing login setup on your application(s). This is achieved as described below:
@@ -96,3 +100,4 @@ The following is the list of documents you might want to look into:
 
 - [SSO Overview](/single-sign-on/overview/)
 - [Password Delegation](/single-sign-on/password-delegation-api/)
+-->
