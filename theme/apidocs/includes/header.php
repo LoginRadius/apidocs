@@ -489,6 +489,12 @@ $hooks->do_action('init');
                 Turn Key Plugins are built natively for CMS-based platforms
               </p>
             </a>
+            <a href="<?php echo SUPPORT_DOCS_URL . 'libraries/identity-orchestration/overview/' ?>">
+              <h3>Identity Orchestration</h3>
+              <p>
+                IO empowers businesses to design and implement identity workflows
+              </p>
+            </a>
           </div>
           <div>
             <a href="<?php echo SUPPORT_DOCS_URL . 'libraries/sdk-libraries/overview/' ?>">

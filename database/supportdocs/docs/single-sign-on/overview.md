@@ -170,7 +170,7 @@ LoginRadius provides out of the box SSO Connector solutions to create a Single S
     </table>
 </div>
 
-
+<!--
 ## Password Delegation
 
 The Password Delegation feature allows you to authenticate a user for which password is stored with a third-party application during the initial login. For more details on Password Delegation refer to our documentation [here](/single-sign-on/concept/password-delegation-api/).
@@ -186,7 +186,7 @@ For more details on Delegation Auth refer to our documentation [here](/single-si
 
 
 
-<!-- # Overview
+ # Overview
 
 This document covers the <a href ="https://www.loginradius.com/docs/api/v2/getting-started/glossary/#s15" target=_blank>SSO</a> introduction and the various SSO types supported by the LoginRadius Identity Platform. For more details on implementation and deployment of these SSO features refer to the following:
 
