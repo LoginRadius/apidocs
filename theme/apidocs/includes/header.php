@@ -335,7 +335,7 @@ $hooks->do_action('init');
           </div>
           <div>
             <a href="<?php echo SUPPORT_DOCS_URL . 'authentication/overview/' ?>">
-              <h3>Authentication</h3>
+              <h1>Authentication</h1>
               <p>
                 A quick run-through of authentication processes and features offered by the LoginRadius Identity Platform.
               </p>
