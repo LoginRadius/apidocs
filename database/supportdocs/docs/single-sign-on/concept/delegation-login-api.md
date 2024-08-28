@@ -1,6 +1,3 @@
-This feature has been deprecated by LoginRadius. For further details, please reach out to the  [LoginRadius support team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket)
-
-<!--
 
 # Delegation Authentication 
 
@@ -100,4 +97,3 @@ The following is the list of documents you might want to look into:
 
 - [SSO Overview](/single-sign-on/overview/)
 - [Password Delegation](/single-sign-on/password-delegation-api/)
--->
