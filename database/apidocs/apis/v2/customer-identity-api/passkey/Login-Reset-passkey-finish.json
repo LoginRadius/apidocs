@@ -1,17 +1,17 @@
 {
-    "name": "Account: Add passkey finish",
+    "name": "Login Reset passkey finish",
     "domain": "https://api.loginradius.com",
-    "path": "/identity/v2/auth/account/register/passkey/finish",
+    "path": "/identity/v2/auth/passkey/reset/finish",
     "method": "POST",
     "getparams": {
-        "apikey*": "@apikey@"
+        "apikey*": "@apikey@",
+        "vtoken*": ""
     },
     "headers":{
-        "content-Type":"application/json",
-        "Authorization":"Bearer "
+        "content-Type":"application/json"
     },
     "response":"json",
-    "description": "This API is used to add a Passkey to the users profile, this API will be used in the account section. This will complete the add passkey flow.",
+    "description": "This API is used to add a new Passkey to the users profile in the passkey reset flow",
     "parameters": {
         "Get Params": [
             {
@@ -21,9 +21,9 @@
             }
         ],
         "Headers Parameters": [{
-                "name": "Authorization",
+                "name": "vtoken",
                 "is_required": true,
-                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access_token)"
+                "description": "Vtoken got in the email"
             }]	
     },
 "postparams":
@@ -38,29 +38,6 @@
 },
         "outputFormat":
         {
-            "Credentials": [
-        {
-            "Id": "43e4417bd2de4a1fa82445274f864203",
-            "Identifier": "efdc233182cd4f578432d2134ea75081",
-            "CreatedAt": "2024-06-03T08:40:58.088Z"
-        },
-        {
-            "Id": "133f5cf974b94726a6a7cebec917765c",
-            "Identifier": "efdc233182cd4f578432d2134ea75081",
-            "CreatedAt": "2024-06-03T11:53:57.29Z"
+            "IsPosted": true
         }
-    ]
-        },
-    "Credentials": [
-        {
-            "Id": "43e4417bd2de4a1fa82445274f864203",
-            "Identifier": "efdc233182cd4f578432d2134ea75081",
-            "CreatedAt": "2024-06-03T08:40:58.088Z"
-        },
-        {
-            "Id": "133f5cf974b94726a6a7cebec917765c",
-            "Identifier": "efdc233182cd4f578432d2134ea75081",
-            "CreatedAt": "2024-06-03T11:53:57.29Z"
-        }
-    ]
 }

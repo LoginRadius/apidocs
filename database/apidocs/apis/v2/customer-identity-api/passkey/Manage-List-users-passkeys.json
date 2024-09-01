@@ -1,0 +1,52 @@
+{
+    "name": "Manage List users passkeys",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/manage/account/passkey",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@",
+        "uid": ""
+    },
+    "postparams":"",
+    "headers":{
+        "content-Type":"application/json",
+        "Authorization":"Bearer "
+    },
+    "response":"json",
+    "description": "This API is used to  list users passkeys with managed APIs",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "The API key of the LoginRadius account"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "The API secret of the LoginRadius account"
+            },
+            {
+                "name": "uid",
+                "is_required": true,
+                "description": "The UID associated with the user"
+            }
+        ]
+    },
+    "outputFormat": 
+    {
+        "Credentials": [
+            {
+                "Id": "43e4417bd2de4a1fa82445274f8*****",
+                "Identifier": "efdc233182cd4f578432d2134ea*****",
+                "CreatedAt": "2024-06-03T08:40:58*****"
+            },
+            {
+                "Id": "133f5cf974b94726a6a7cebec91*****",
+                "Identifier": "efdc233182cd4f578432d2134ea*****",
+                "CreatedAt": "2024-06-03T11:53:**.***"
+            }
+        ]
+    }
+}
