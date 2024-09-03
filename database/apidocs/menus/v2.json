@@ -1146,6 +1146,31 @@
         "url": "v2/customer-identity-api/passkey/autofill-login-finish-by-passkey/",
         "title": "Autofill login finish by Passkey",
         "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/Forgot-Passkey/",
+        "title": "Forgot Passkey",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/Login-Reset-passkey-begin/",
+        "title": "Login Reset passkey begin",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/Login-Reset-passkey-finish/",
+        "title": "Login Reset passkey finish",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/Manage-List-users-passkeys/",
+        "title": "Manage List users passkeys",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/Manage-Remove-passkey-by-Uid/",
+        "title": "Manage Remove passkey by Uid",
+        "type": "DELETE"
       }
     ],
     "Multi-Factor Authentication": {

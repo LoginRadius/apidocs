@@ -1,0 +1,43 @@
+{
+    "name": "Forgot Passkey",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/passkey/forgot",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "resetpasskeyurl": "",
+         "emailTemplate": ""
+    },
+    "headers":{
+        "content-Type":"application/json"
+},
+"response": "json",
+"description": "This API is used to invalidate the email verification.",
+"parameters": {
+  "Get Params": [
+    {
+      "name": "api_key",
+      "is_required": true,
+      "description": "LoginRadius API Key"
+    },
+    {
+        "name": "resetpasskeyurl",
+        "is_required": true,
+        "description": "The URL the user clicks to reset their passkey"
+    },
+    {
+        "name": "emailTemplate",
+        "is_required": true,
+        "description": "Email Template Name"
+    }]
+},
+"postparams":
+{
+        "email": "xyz@example.com"
+    
+},
+"outputFormat": 
+    {
+        "IsDeleted": true
+    }
+}
