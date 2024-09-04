@@ -23,7 +23,7 @@
     {
         "name": "resetpasskeyurl",
         "is_required": true,
-        "description": "The URL the user clicks to reset their passkey"
+        "description": "The URL the user click to reset their passkey"
     },
     {
         "name": "emailTemplate",

@@ -12,7 +12,7 @@
         "Authorization":"Bearer "
     },
     "response":"json",
-    "description": "This API is used to list user’s passkeys",
+    "description": "This API is used to list users passkeys",
     "parameters": {
         "Get Params": [
             {
