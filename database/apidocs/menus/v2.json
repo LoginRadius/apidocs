@@ -1148,27 +1148,27 @@
         "type": "POST"
       },
       {
-        "url": "v2/customer-identity-api/passkey/Forgot-Passkey/",
+        "url": "v2/customer-identity-api/passkey/forgot-passkey/",
         "title": "Forgot Passkey",
         "type": "POST"
       },
       {
-        "url": "v2/customer-identity-api/passkey/Login-Reset-passkey-begin/",
+        "url": "v2/customer-identity-api/passkey/login-reset-passkey-begin/",
         "title": "Login Reset passkey begin",
         "type": "GET"
       },
       {
-        "url": "v2/customer-identity-api/passkey/Login-Reset-passkey-finish/",
+        "url": "v2/customer-identity-api/passkey/login-reset-passkey-finish/",
         "title": "Login Reset passkey finish",
         "type": "POST"
       },
       {
-        "url": "v2/customer-identity-api/passkey/Manage-List-users-passkeys/",
+        "url": "v2/customer-identity-api/passkey/manage-list-users-passkeys/",
         "title": "Manage List users passkeys",
         "type": "GET"
       },
       {
-        "url": "v2/customer-identity-api/passkey/Manage-Remove-passkey-by-Uid/",
+        "url": "v2/customer-identity-api/passkey/manage-remove-passkey-by-uid/",
         "title": "Manage Remove passkey by Uid",
         "type": "DELETE"
       }

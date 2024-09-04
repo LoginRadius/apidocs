@@ -731,6 +731,43 @@ LRObject.util.ready(function() {
 <div id="resetPasswordBySecQ-container"></div>
 ```
 
+##### Reset Passkey
+
+The following interface will allow customers to reset the passkey. You need to initialize the resetPassKey container in the **auth** Page, before-script.js, as explained below:
+
+```
+var commonOptions = {};
+commonOptions.apiKey = <your api key>;
+commonOptions.resetPassKeyUrl = window.location; //Change as per requirement
+var LRObject = new LoginRadiusV2(commonOptions);
+
+LRObject.util.ready(function () {
+  LRObject.init("passkeylogin", passkey_manage);
+});
+```
+
+```
+<div id="resetPassKey-container"></div>
+```
+
+##### Manage Passkey
+
+The following interface will allow customers to show a list of passkeys. You need to initialize the passkeylogin container in the **profile** Page, before-script.js, as explained below:
+
+```
+var commonOptions = {};
+commonOptions.apiKey = <your api key>;
+commonOptions.resetPassKeyUrl = window.location; //Change as per requirement
+var LRObject = new LoginRadiusV2(commonOptions);
+
+LRObject.util.ready(function() {
+  LRObject.init("passkeylogin", {container:'passkeylogin-container'});
+}); 
+```
+```
+<div id="passkeyLogin-container"></div>
+```
+
 ## JS Version
 
 To get the current JS version use **LRObject.version**
