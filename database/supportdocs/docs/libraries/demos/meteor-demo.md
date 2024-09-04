@@ -8,7 +8,7 @@ This documentation presumes familiarity with the client-side implementation of t
 > **Prerequisite**: 
 You will need the following installed on your computer:
 - [Node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (with npm)
-- [MeteorJS](https://www.meteor.com/install)
+- [MeteorJS](https://v2-docs.meteor.com/install.html)
 
 ##Quickstart Guide
 

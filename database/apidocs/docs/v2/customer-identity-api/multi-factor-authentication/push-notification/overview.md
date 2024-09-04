@@ -21,6 +21,8 @@ Send push notifications for Multi-Factor Authentication that your customers can 
  - QR Code Width: Define the width of the QR code.
 - Click the **SAVE** button to apply the changes.
 
+After setting up Push Notifications with the LoginRadius Authenticator, you can scan the QR code using our app, which is available on the [Google Play Store](https://play.google.com/store/apps/details?id=com.loginradius.authenticator).
+
 ## Configuring Custom Push Notification App:
 
 ![Push Notification config](https://apidocs.lrcontent.com/images/unnamed-18_662303524666958609546b7.59735061.png "Push Notification config")

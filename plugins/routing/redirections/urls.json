@@ -7911,6 +7911,10 @@
 {
   "oldLink": "api/v2/customer-identity-api/authentication-passkey-api/autofill-login-finish-by-passkey",
   "newLink": "api/v2/customer-identity-api/passkey/autofill-login-finish-by-passkey/"
+},
+{
+  "oldLink": "customer-management",
+  "newLink": "customer-management/overview/"
 }
 ]
 

@@ -1,45 +1,46 @@
 {
-    "name": "Account: Add Passkey Begin",
+    "name": "Login Reset Passkey Begin",
     "domain": "https://api.loginradius.com",
-    "path": "/identity/v2/auth/account/register/passkey/begin",
+    "path": "/identity/v2/auth/passkey/reset/begin",
     "method": "GET",
     "getparams": {
-        "apikey*": "@apikey@"
+        "apikey*": "@apikey@",
+        "vtoken*": ""
     },
     "postparams":"",
     "headers":{
-        "content-Type":"application/json",
-        "Authorization":"Bearer "
+        "content-Type":"application/json"
     },
     "response":"json",
-    "description": "This API is used to add a Passkey to the user’s profile, this API will be used in the account section",
+    "description": "This API is used to add a new Passkey to the user profile in the passkey reset flow",
     "parameters": {
         "Get Params": [
             {
                 "name": "apikey",
                 "is_required": true,
                 "description": "LoginRadius API Key"
-            }
-        ],
-		"Headers Parameters": [{
-                "name": "Authorization",
+            },
+            {
+                "name": "vtoken",
                 "is_required": true,
-                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access_token)"
-            }]	
+                "description": "Vtoken got in the email"
+            }
+        ]
     },
     "outputFormat": 
     {
+        "RegisterBeginCredential": {
         "publicKey": {
             "rp": {
                 "name": "LoginRadius App",
                 "id": "localhost"
             },
             "user": {
-                "name": "efdc233182cd4f578432d2134ea75081",
-                "displayName": "efdc233182cd4f578432d2134ea75081",
-                "id": "ZWZkYzIzMzE4MmNkNGY1Nzg0MzJkMjEzNGVhNzUwODE"
+                "name": "f04d624989314945a950c6a8f71959d0",
+                "displayName": "f04d624989314945a950c6a8f71959d0",
+                "id": "ZjA0ZDYyNDk4OTMxNDk0NWE5NTBjNmE4ZjcxOTU5ZDA"
             },
-            "challenge": "cMx5JLe7Jo-tRp2D_XN41U2ql5mPWuG8Ouu1ytCLX4w",
+            "challenge": "1x9aUZmA5hCXdvt8szxILDmnWUWWkXgkAE61tC_7yJc",
             "pubKeyCredParams": [
                 {
                     "type": "public-key",
@@ -82,11 +83,12 @@
                     "alg": -8
                 }
             ],
-            "timeout": 30000,
+            "timeout": 60000,
             "authenticatorSelection": {
                 "requireResidentKey": false,
                 "userVerification": "preferred"
             }
         }
+    }
     }
 }

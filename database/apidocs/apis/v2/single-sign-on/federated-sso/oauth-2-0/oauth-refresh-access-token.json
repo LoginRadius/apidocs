@@ -32,11 +32,11 @@
           {
             "name": "client_id",
             "is_required": true,
-            "description": "LoginRadius API Key"
+            "description": "LoginRadius API Key or OAuth Client ID"
           },{
             "name": "client_secret",
             "is_required": true,
-            "description": "LoginRadius Secret Key"
+            "description": "LoginRadius API Secret or OAuth Client Secret"
           },{
             "name": "grant_type",
             "is_required": true,

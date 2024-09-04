@@ -1,5 +1,5 @@
 {
-  "name": "Application Request Access Token",
+  "name": "OIDC Token by LoginRadius GUID or JWT Encrypted Token",
   "domain": "",
   "path": "https://{siteurl}/api/oidc/{OIDCAppName}/token",
   "method": "POST",
@@ -7,16 +7,16 @@
   "postparams": {
     "client_id": "",
     "client_secret": "",
-    "redirect_uri": "",
     "response_type": "token",
     "grant_type": "",
-    "code": ""
+    "scope": "",
+    "token": ""
   },
   "headers": {
     "content-Type": "application/json"
   },
   "response": "json",
-  "description": "This API allows you to exchange your OpenID code for a LoginRadius access_token",
+  "description": "This API allows you to exchange your LoginRadius Access Token or JWT Encrypted Token for OIDC Token",
   "parameters": {
     "Template Params": [
       {
@@ -32,11 +32,6 @@
     ],
     "Body Params": [
       {
-        "name": "grant_type",
-        "is_required": true,
-        "description": "This is the grant type to be used, you should provide 'authorization_code'"
-      },
-      {
         "name": "client_id",
         "is_required": true,
         "description": "LoginRadius API Key or OIDC Client ID"
@@ -47,27 +42,32 @@
         "description": "LoginRadius API Secret or OIDC Client Secret"
       },
       {
-        "name": "redirect_uri",
-        "is_required": true,
-        "description": "Redirection URI"
-      },
-      {
         "name": "response_type",
         "is_required": false,
         "description": "If used, needs to be 'token'"
       },
       {
-        "name": "code",
+        "name": "grant_type",
         "is_required": true,
-        "description": "The authorization_code obtained during the Authorization process."
+        "description": "The value should be provided as 'http://loginradius.com/oauth/grant-type/exchange_token'"
+      },
+      {
+        "name": "scope",
+        "is_required": true,
+        "description": "If not passed, it will be used as 'openid'. Scopes can be used any combination of the 'email', 'phone', 'address' , 'profile'"
+      },
+      {
+        "name": "token",
+        "is_required": true,
+        "description": "LoginRadius Access Token or JWT Encrypted Token"
       }
     ]
   },
   "outputFormat": {
-    "access_token": "********-****-****-*****************",
-    "token_type": "access_token",
-    "expires_in": 394,
-    "refresh_token": "********-****-****-*****************",
+    "access_token": "b8cb84c9-xxxx-401a-xxxx-7cd44exxxxa0",
+    "token_type": "Bearer",
+    "expires_in": 3985,
+    "refresh_token": "b8cb84c9-xxxx-401a-xxxx-7cd67exxxx12",
     "id_token": "eyJhbG**********4NiIsInR5cCI*****VCJ9.eyJpc3**********czy****udGVybmFsL"
   }
 }

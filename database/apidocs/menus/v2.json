@@ -1099,53 +1099,78 @@
     "Passkey": [
         {
         "url": "v2/customer-identity-api/passkey/registration-begin-by-passkey/",
-        "title": "Registration begin by Passkey",
+        "title": "Registration Begin by Passkey",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/login-begin-by-passkey/",
+        "title": "Login Begin by Passkey",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/add-passkey-begin/",
+        "title": "Account: Add Passkey Begin",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/list-user-passkeys/",
+        "title": "List user Passkeys",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/autofill-login-begin-by-passkey/",
+        "title": "Autofill Login Begin By Passkey",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/login-reset-passkey-begin/",
+        "title": "Login Reset Passkey Begin",
+        "type": "GET"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/manage-list-users-passkeys/",
+        "title": "Manage List Users Passkeys",
         "type": "GET"
       },
       {
         "url": "v2/customer-identity-api/passkey/register-finish-by-passkey/",
-        "title": "Register finish by Passkey",
+        "title": "Register Finish By Passkey",
         "type": "POST"
-      },
-      {
-        "url": "v2/customer-identity-api/passkey/login-begin-by-passkey/",
-        "title": "Login begin by Passkey",
-        "type": "GET"
       },
       {
         "url": "v2/customer-identity-api/passkey/login-finish-by-passkey/",
-        "title": "Login finish by Passkey",
+        "title": "Login Finish By Passkey",
         "type": "POST"
-      },
-      {
-        "url": "v2/customer-identity-api/passkey/add-passkey-begin/",
-        "title": "Account: Add passkey begin",
-        "type": "GET"
       },
       {
         "url": "v2/customer-identity-api/passkey/add-passkey-finish/",
-        "title": "Account: Add passkey finish",
+        "title": "Account: Add Passkey Finish",
         "type": "POST"
-      },
-      {
-        "url": "v2/customer-identity-api/passkey/list-user-passkeys/",
-        "title": "List user passkeys",
-        "type": "GET"
-      },
-      {
-        "url": "v2/customer-identity-api/passkey/remove-passkey-by-id/",
-        "title": "Remove passkey by UID",
-        "type": "DELETE"
-      },
-      {
-        "url": "v2/customer-identity-api/passkey/autofill-login-begin-by-passkey/",
-        "title": "Autofill login begin by Passkey",
-        "type": "GET"
       },
       {
         "url": "v2/customer-identity-api/passkey/autofill-login-finish-by-passkey/",
-        "title": "Autofill login finish by Passkey",
+        "title": "Autofill Login Finish By Passkey",
         "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/forgot-passkey/",
+        "title": "Forgot Passkey",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/login-reset-passkey-finish/",
+        "title": "Login Reset Passkey Finish",
+        "type": "POST"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/remove-passkey-by-id/",
+        "title": "Remove Passkey By ID",
+        "type": "DELETE"
+      },
+      {
+        "url": "v2/customer-identity-api/passkey/manage-remove-passkey-by-uid/",
+        "title": "Manage Remove Passkey By Uid",
+        "type": "DELETE"
       }
     ],
     "Multi-Factor Authentication": {
@@ -1984,6 +2009,11 @@
           "url": "v2/single-sign-on/federated-sso/oauth-2-0/oauth-revoke-refresh-token/",
           "title": "Revoke Refresh Token",
           "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/oauth-2-0/oauth-token-by-loginradius-guid-jwt-encrypted-token/",
+          "title": "OAuth Token by LoginRadius GUID or JWT Encrypted Token",
+          "type": "POST"
         }
       ],
       "JWT Login": [
@@ -2032,6 +2062,11 @@
         {
           "url": "v2/single-sign-on/federated-sso/openid-connect/device-code-exchange-token-ping/",
           "title": "Device Code Exchange Token Ping",
+          "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/openid-connect/oidc-token-by-loginradius-guid-jwt-encrypted-token/",
+          "title": "OIDC Token by LoginRadius GUID or JWT Encrypted Token",
           "type": "POST"
         },
         {

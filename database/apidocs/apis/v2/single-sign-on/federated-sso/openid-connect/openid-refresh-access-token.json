@@ -37,12 +37,12 @@
       {
         "name": "client_id",
         "is_required": true,
-        "description": "LoginRadius API Key"
+        "description": "LoginRadius API Key or OIDC Client Key"
       },
       {
         "name": "client_secret",
         "is_required": true,
-        "description": "LoginRadius API Secret"
+        "description": "LoginRadius API Secret or OIDC Client Secret"
       },
       {
         "name": "refresh_token",

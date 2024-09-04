@@ -1,10 +1,12 @@
 {
-    "name": "List User Passkeys",
+    "name": "Manage List Users Passkeys",
     "domain": "https://api.loginradius.com",
-    "path": "/identity/v2/auth/account/passkey",
+    "path": "/identity/v2/manage/account/passkey",
     "method": "GET",
     "getparams": {
-        "apikey*": "@apikey@"
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@",
+        "uid": ""
     },
     "postparams":"",
     "headers":{
@@ -12,20 +14,25 @@
         "Authorization":"Bearer "
     },
     "response":"json",
-    "description": "This API is used to list users passkeys",
+    "description": "This API is used to  list user passkeys with managed API",
     "parameters": {
         "Get Params": [
             {
                 "name": "apikey",
                 "is_required": true,
-                "description": "LoginRadius API Key"
-            }
-        ],
-        "Headers Parameters": [{
-                "name": "Authorization",
+                "description": "The API key of the LoginRadius account"
+            },
+            {
+                "name": "apisecret",
                 "is_required": true,
-                "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access_token)"
-            }]	
+                "description": "The API secret of the LoginRadius account"
+            },
+            {
+                "name": "uid",
+                "is_required": true,
+                "description": "The UID associated with the user"
+            }
+        ]
     },
     "outputFormat": 
     {
