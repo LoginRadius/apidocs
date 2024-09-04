@@ -1,0 +1,66 @@
+{
+  "name": "OAuth Token by LoginRadius GUID/JWT Encrypted Token",
+  "domain": "",
+  "path": "https://{siteurl}/api/oauth/{OAuthAppName}/token",
+  "method": "POST",
+  "getparams": {},
+  "postparams": {
+    "client_id": "",
+    "client_secret": "",
+    "response_type": "token",
+    "grant_type": "",
+    "token": ""
+  },
+  "headers": {
+    "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API allows you to exchange your LoginRadius Access Token or JWT Encrypted Token for OAuth Token",
+  "parameters": {
+    "Template Params": [
+      {
+        "name": "siteurl",
+        "is_required": true,
+        "description": "Hosted/Custom Domain"
+      },
+      {
+        "name": "oauthappname",
+        "is_required": true,
+        "description": "The name for the OAuth App you have configured in the LoginRadius Admin Console."
+      }
+    ],
+    "Body Params": [
+      {
+        "name": "client_id",
+        "is_required": true,
+        "description": "LoginRadius API Key or OAuth Client ID"
+      },
+      {
+        "name": "client_secret",
+        "is_required": true,
+        "description": "LoginRadius API Secret or OAuth Client Secret"
+      },
+      {
+        "name": "response_type",
+        "is_required": false,
+        "description": "If used, needs to be 'token'"
+      },
+      {
+        "name": "grant_type",
+        "is_required": true,
+        "description": "The value should be provided as 'http://loginradius.com/oauth/grant-type/exchange_token'"
+      },
+      {
+        "name": "token",
+        "is_required": true,
+        "description": "LoginRadius Access Token or JWT Encrypted Token"
+      }
+    ]
+  },
+  "outputFormat": {
+    "access_token": "b8cb84c9-xxxx-401a-xxxx-7cd44exxxxa0",
+    "token_type": "Bearer",
+    "expires_in": 3985,
+    "refresh_token": "b8cb84c9-xxxx-401a-xxxx-7cd67exxxx12"
+  }
+}
