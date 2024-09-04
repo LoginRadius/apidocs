@@ -1984,6 +1984,11 @@
           "url": "v2/single-sign-on/federated-sso/oauth-2-0/oauth-revoke-refresh-token/",
           "title": "Revoke Refresh Token",
           "type": "POST"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/oauth-2-0/oauth-token-by-loginradius-guid-jwt-encrypted-token/",
+          "title": "OAuth Token by LoginRadius GUID/JWT Encrypted Token",
+          "type": "POST"
         }
       ],
       "JWT Login": [
@@ -2048,6 +2053,11 @@
           "url": "v2/single-sign-on/federated-sso/openid-connect/oidc-discovery/",
           "title": "OIDC Discovery",
           "type": "GET"
+        },
+        {
+          "url": "v2/single-sign-on/federated-sso/openid-connect/oidc-token-by-loginradius-guid-jwt-encrypted-token.json/",
+          "title": "OIDC Token by LoginRadius GUID/JWT Encrypted Token",
+          "type": "POST"
         }
       ],
       "SAML": [
