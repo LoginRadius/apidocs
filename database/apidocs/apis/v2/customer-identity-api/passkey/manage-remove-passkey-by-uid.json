@@ -1,5 +1,5 @@
 {
-    "name": "Manage Remove passkey by Uid",
+    "name": "Manage Remove Passkey By Uid",
     "domain": "https://api.loginradius.com",
     "path": "identity/v2/manage/account/passkey/{passkeyid}",
     "method": "DELETE",

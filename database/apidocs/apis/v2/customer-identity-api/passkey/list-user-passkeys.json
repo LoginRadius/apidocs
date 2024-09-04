@@ -1,5 +1,5 @@
 {
-    "name": "List user passkeys",
+    "name": "List User Passkeys",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/account/passkey",
     "method": "GET",

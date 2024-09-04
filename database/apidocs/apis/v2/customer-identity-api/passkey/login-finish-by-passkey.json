@@ -1,5 +1,5 @@
 {
-    "name": "Login finish by Passkey",
+    "name": "Login Finish By Passkey",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/login/passkey/finish",
     "method": "Post",

@@ -39,12 +39,12 @@
       {
         "name": "client_id",
         "is_required": true,
-        "description": "LoginRadius API Key"
+        "description": "LoginRadius API Key or OIDC Client ID"
       },
       {
         "name": "client_secret",
         "is_required": true,
-        "description": "LoginRadius API Secret"
+        "description": "LoginRadius API Secret or OIDC Client Secret"
       },
       {
         "name": "redirect_uri",

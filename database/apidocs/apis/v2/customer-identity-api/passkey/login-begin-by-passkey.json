@@ -1,5 +1,5 @@
 {
-    "name": "Login begin by Passkey",
+    "name": "Login Begin By Passkey",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/login/passkey/begin",
     "method": "GET",

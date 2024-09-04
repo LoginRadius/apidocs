@@ -1,0 +1,20 @@
+{
+    "name": "Core API Release 36.10.3",
+    "description": "We have rolled out another version of the Core APIs, which brings you some new features. Please see below for details.",
+    "changelog": {
+      "ADDED": [
+        {
+          "text": "Two APIs, namely <a href='/docs/api/v2/single-sign-on/federated-sso/oauth-2-0/oauth-token-by-loginradius-guid-jwt-encrypted-token/'>OAuth Token By LoginRadius GUID/JWT Encrypted Token API</a> and <a href='/docs/api/v2/single-sign-on/federated-sso/openid-connect/oidc-token-by-loginradius-guid-jwt-encrypted-token/'>OIDC Token By LoginRadius GUID/JWT Encrypted Token API</a> have been introduced in the OIDC/OAuth flow, which consumes the LoginRadius access token and, in return, provide the exchanged OIDC access token and refresh token."
+        },
+        {
+          "text": "New error codes 1323,1324  have been introduced with Passkey authentication APIs."
+        },
+        {
+          "text": "Five new APIs, namely <a href='/docs/api/v2/customer-identity-api/passkey/manage-list-users-passkeys/'>Manage List users passkeys</a>, <a href='/docs/api/v2/customer-identity-api/passkey/manage-remove-passkey-by-uid/'>Manage Remove passkey by Uid</a>, <a href='/docs/api/v2/customer-identity-api/passkey/forgot-passkey/'>Forgot Passkey</a>, <a href='/docs/api/v2/customer-identity-api/passkey/login-reset-passkey-begin/'>Login Reset passkey begin</a>, and <a href='/docs/api/v2/customer-identity-api/passkey/login-reset-passkey-finish/'>Login Reset Passkey Finish Passkey</a>, have been added to enhance the functionality of the Passkey authentication user workflow."
+        }
+      ]
+    },
+    "auther": "Vaibhav Jain",
+    "created_date": "2024-09-04",
+    "status": "public"
+  }
