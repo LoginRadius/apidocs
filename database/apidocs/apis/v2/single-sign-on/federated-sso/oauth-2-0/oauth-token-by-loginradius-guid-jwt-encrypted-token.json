@@ -1,5 +1,5 @@
 {
-  "name": "OAuth Token by LoginRadius GUID/JWT Encrypted Toke",
+  "name": "OAuth Token by LoginRadius GUID/JWT Encrypted Token",
   "domain": "",
   "path": "https://{siteurl}/api/oauth/{OAuthAppName}/token",
   "method": "POST",
