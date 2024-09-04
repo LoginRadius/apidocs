@@ -99,9 +99,9 @@ You can perform actions such as **Add Template**, **Edit Template**, and **Delet
 
 Each of the available email/SMS templates has corresponding settings that can be configured to control the usage and mitigate malicious requests.
 
-- **Request Limit:** The number of times a verification email can be requested within a set timeframe, determined by the Request Disable Period (in minutes).
+- **Request Limit:** The number of times an OTP/Email can be requested within a set timeframe, determined by the Request Disable Period (in minutes).
 
-- **Request Disable Period:** The duration (in minutes) a customer can request verification emails and the disabled duration after the request limit is reached. 
+- **Request Disable Period:** The duration (in minutes) a customer can request Emails/OTPs and the disabled duration after the request limit is reached. 
 
 - **Validity Limit:** The amount of time (in minutes) for which the link/OTP included in the given email/SMS is valid.
 
