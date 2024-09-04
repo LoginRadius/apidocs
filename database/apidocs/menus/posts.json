@@ -1,6 +1,11 @@
 [
  
   {
+    "title": "Js Release 36.27.1",
+    "url": "js-release-3271",
+    "date": "2024-09-04"
+  },  
+  {
     "title": "Core API Release 36.10.0",
     "url": "core-api-release-36100",
     "date": "2024-08-05"
