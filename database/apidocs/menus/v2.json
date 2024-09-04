@@ -2012,7 +2012,7 @@
         },
         {
           "url": "v2/single-sign-on/federated-sso/oauth-2-0/oauth-token-by-loginradius-guid-jwt-encrypted-token/",
-          "title": "OAuth Token by LoginRadius GUID/JWT Encrypted Token",
+          "title": "OAuth Token by LoginRadius GUID or JWT Encrypted Token",
           "type": "POST"
         }
       ],
@@ -2081,7 +2081,7 @@
         },
         {
           "url": "v2/single-sign-on/federated-sso/openid-connect/oidc-token-by-loginradius-guid-jwt-encrypted-token/",
-          "title": "OIDC Token by LoginRadius GUID/JWT Encrypted Token",
+          "title": "OIDC Token by LoginRadius GUID or JWT Encrypted Token",
           "type": "POST"
         }
       ],

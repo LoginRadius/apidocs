@@ -1,5 +1,5 @@
 {
-  "name": "OIDC Token by LoginRadius GUID/JWT Encrypted Token",
+  "name": "OIDC Token by LoginRadius GUID or JWT Encrypted Token",
   "domain": "",
   "path": "https://{siteurl}/api/oidc/{OIDCAppName}/token",
   "method": "POST",
