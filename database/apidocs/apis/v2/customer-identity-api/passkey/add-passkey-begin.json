@@ -1,5 +1,5 @@
 {
-    "name": "Account: Add passkey begin",
+    "name": "Account: Add Passkey Begin",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/account/register/passkey/begin",
     "method": "GET",
