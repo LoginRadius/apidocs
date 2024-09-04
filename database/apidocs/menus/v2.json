@@ -2080,7 +2080,7 @@
           "type": "GET"
         },
         {
-          "url": "v2/single-sign-on/federated-sso/openid-connect/oidc-token-by-loginradius-guid-jwt-encrypted-token.json/",
+          "url": "v2/single-sign-on/federated-sso/openid-connect/oidc-token-by-loginradius-guid-jwt-encrypted-token/",
           "title": "OIDC Token by LoginRadius GUID/JWT Encrypted Token",
           "type": "POST"
         }
