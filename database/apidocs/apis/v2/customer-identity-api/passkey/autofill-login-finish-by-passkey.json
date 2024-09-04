@@ -1,5 +1,5 @@
 {
-    "name": "Autofill login finish by Passkey",
+    "name": "Autofill Login Finish By Passkey",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/login/passkey/autofill/finish",
     "method": "POST",

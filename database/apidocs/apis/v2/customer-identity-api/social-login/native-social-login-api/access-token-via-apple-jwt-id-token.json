@@ -26,7 +26,7 @@
     },
     "outputFormat": {
         "access_token": "a123qwe2-9**3-4202-833c-320aoo58**66",
-  "refresh_token":"**4f02ec-b**1-4f0a-b**e-18a**b0a**fc",
-  "expires_in": "2017-10-09T06:07:00.296Z"
+        "refresh_token":"**4f02ec-b**1-4f0a-b**e-18a**b0a**fc",
+        "expires_in": "2017-10-09T06:07:00.296Z"
     }
     }

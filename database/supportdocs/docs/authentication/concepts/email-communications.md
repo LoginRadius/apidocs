@@ -130,9 +130,9 @@ The following explains how you can configure the global email settings:
 
 **Step 2**: You can update the default values for the following global email settings:
 
-- **Request Limit**: The number of times a customer can request an email during the request period (in seconds) before this feature is temporarily disabled. For example, a customer can request an email 5 times (Request Limit) over the course of 120 seconds (Request Period) before the feature is disabled.
+- **Request Limit:** The number of times a verification email can be requested within a set timeframe, determined by the Request Disable Period (in minutes).
 
-- **Request Disabled Period (Minutes)**: The duration for which the email request will be disabled once the request limit is reached.
+- **Request Disable Period:** The duration (in minutes) a customer can request verification emails and the disabled duration after the request limit is reached. 
 
 - **Email Token Validity Limit (Minutes)**: The amount of time (in minutes) for which the link included in the given email is valid.
 
