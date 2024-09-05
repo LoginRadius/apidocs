@@ -51,9 +51,9 @@ The following screen will appear:
 - **OTP Delivery Method:** This dropdown allows you to select the desired OTP delivery method, either "SMS" or "SMS & Voice."
 - **OTP Length:** The length of the one-time passcode you want to set for the SMS.
 - **OTP Type:** The type of OTP you want to send to the customer from available options like Numeric, AlphaNumeric, and more.
-- **Request Limit:** The number of times a verification email can be requested within a set timeframe, determined by the Request Disable Period (in minutes).
+- **Request Limit:** The number of times an SMS/OTP can be requested within a set timeframe, determined by the Request Disable Period (in minutes).
 
-- **Request Disable Period:** The duration (in minutes) a customer can request verification emails and the disabled duration after the request limit is reached. 
+- **Request Disable Period:** The duration (in minutes) a customer can request SMS/OTPs and the disabled duration after the request limit is reached. 
 
 - **OTP Validity Limit (Seconds):** The amount of time (in seconds) for which an OTP is valid.
 
@@ -75,9 +75,9 @@ This section will take you through the available actions for managing and custom
 
 For all SMS templates (except Welcome SMS), you can manage the following SMS template settings:
 
-- **Request Limit:** The number of times a verification email can be requested within a set timeframe, determined by the Request Disable Period (in minutes).
+- **Request Limit:** The number of times a SMS/OTP can be requested within a set timeframe, determined by the Request Disable Period (in minutes).
 
-- **Request Disable Period:** The duration (in minutes) a customer can request verification emails and the disabled duration after the request limit is reached. 
+- **Request Disable Period:** The duration (in minutes) a customer can request SMS/OTPs and the disabled duration after the request limit is reached. 
 
 - **OTP Validity Limit (Seconds):** The amount of time (in seconds) for which an OTP is valid.
 The following screen displays the above settings configured for the **Phone Number Verification** template:

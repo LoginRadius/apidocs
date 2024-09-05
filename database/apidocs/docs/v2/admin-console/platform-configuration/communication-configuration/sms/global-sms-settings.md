@@ -8,9 +8,9 @@ LoginRadius provides multiple SMS Templates such as, Phone Number verification, 
 
 - **OTP Type**: The type of OTP you want to send to the customer. There are many options available for example, Numeric, AlphaNumeric.
 
-- **Request Limit:** The number of times a verification email can be requested within a set timeframe, determined by the Request Disable Period (in minutes).
+- **Request Limit:** The number of times an OTP can be requested within a set timeframe, determined by the Request Disable Period (in minutes).
 
-- **Request Disable Period:** The duration (in minutes) a customer can request verification emails and the disabled duration after the request limit is reached. 
+- **Request Disable Period:** The duration (in minutes) a customer can request OTP and the disabled duration after the request limit is reached. 
 
 - **OTP Validity Limit (Seconds)**: The amount of time (in seconds) for which an OTP is valid.
 

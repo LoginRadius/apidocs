@@ -97,9 +97,9 @@ The SMS Template has the following sub-sections:
 
 For all SMS templates of Phone Login, you can manage the following SMS template settings:
 
-  * **Request Limit:** The number of times a verification email can be requested within a set timeframe, determined by the Request Disable Period (in minutes).
+  * **Request Limit:** The number of times an SMS/OTP can be requested within a set timeframe, determined by the Request Disable Period (in minutes).
 
-  * **Request Disable Period:** The duration (in minutes) a customer can request verification emails and the disabled duration after the request limit is reached. 
+  * **Request Disable Period:** The duration (in minutes) a customer can request SMS/OTPs and the disabled duration after the request limit is reached. 
   
   * **OTP Validity Limit (Seconds):** The amount of time (in seconds) for which an OTP is valid.
 
