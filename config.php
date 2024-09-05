@@ -14,6 +14,19 @@ $rootURL = rtrim($protocal . '://' . $domain . $path, 'index.php'); //SG gets ri
 $proxyDomainParse['path'] = isset($proxyDomainParse['path'])?$proxyDomainParse['path']:'';
 define('ROOT_URL', $rootURL);
 define('Proxy_Domain_Path',$proxyDomainParse['path']);
+
+
+
+
+$document = isset($_GET['document']) ? $_GET['document'] : '';
+
+// Step 2: Sanitize the input to prevent XSS attacks
+$document_sanitized = htmlspecialchars($document, ENT_QUOTES, 'UTF-8');
+define('DOCUMENT_PATH',$document_sanitized);
+
+
+
+
 /* DATABASE */
 define('DATABASE', 'database');
 
