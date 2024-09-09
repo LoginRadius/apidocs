@@ -123,7 +123,12 @@ Note that if you are passing **code_challenge** and the **code_challenge_method*
 
 ## OAuth 2.0 PKCE Flow
 
-**Authorization URL:** `https://cloud-api.loginradius.com/sso/oauth/redirect?`
+**Authorization URL:** `https://{siteurl}/sso/oauth/redirect?`
+
+```
+Request url:
+"siteurl": This field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of site URL
+```
 
 **Request Parameters
 **
@@ -144,9 +149,12 @@ For more details over the OAuth documentation, refer [here](/single-sign-on/tuto
 
 The pre-generated **code_verifier** needs to be sent along with the token request. The authorization server will check whether the verifier matches the challenge that was used in the authorization request. This ensures that a malicious party that intercepted the authorization code will not be able to use it.
 
-`POST-https://cloud-api.loginradius.com/sso/oauth/access_token`
+`POST-https://{siteurl}/sso/oauth/access_token`
 
-
+```
+Request url:
+"siteurl": This field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of site URL
+```
 
 ```
 Request body:
@@ -172,8 +180,13 @@ This flow obtains the authorization code from the authorization endpoint and all
 
 For more details refer to the OIDC documentation, [here](/single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/#authorizationcodeflow2).
 
-`https://cloud-api.loginradius.com/sso/oidc/v2/<OIDC AppName>/authorize`
+`https://{siteurl}/sso/oidc/v2/<OIDC AppName>/authorize`
 
+```
+Request url:
+"siteurl": This field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of site URL
+"OIDC AppName": The name for the ODIC App you have configured in the LoginRadius Admin Console. 
+```
 
 **Request Parameters**
 
@@ -185,7 +198,7 @@ client_id=
 &scope=openid email
 &nonce={nonce}
 &response_mode=form_post
-&max-age=123, 
+&max-age=123,
 &claims= {"email":null,"email_verified":null},"userinfo"{"email":null,"email_verified":null,"name":null}}
 &code_challenge={code challenge}
 &code_challenge_method=SHA256
@@ -197,15 +210,19 @@ client_id=
 
 The same process will be followed as in the case of OAuth’s exchange of authorization code.
 
-`POST https://cloud-api.loginradius.com/sso/oidc/v2/<OIDC AppName>/token`
+`POST https://{siteurl}/sso/oidc/v2/<OIDC AppName>/token`
 
-
+```
+Request url:
+"siteurl": This field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of site URL
+"OIDC AppName": The name for the ODIC App you have configured in the LoginRadius Admin Console. 
+```
 
 ```
 Request body:
 {
-  "client_id":{Loginradius app api key},
-  "client_secret":{Loginradius app api secret},
+  "client_id":{OIDC Client ID},
+  "client_secret":{OIDC Client ID secret},
   "redirect_uri":{callback url passed in the authorization API},
   "response_type":"token",
   "grant_type" : "authorization_code"
