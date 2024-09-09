@@ -2070,6 +2070,11 @@
           "type": "POST"
         },
         {
+          "url": "v2/single-sign-on/federated-sso/openid-connect/resource_owner_password_credential/",
+          "title": "Resource Owner Password Credential",
+          "type": "POST"
+        },
+        {
           "url": "v2/single-sign-on/federated-sso/openid-connect/userinfo-by-access-token/",
           "title": "UserInfo by Access Token",
           "type": "GET"
