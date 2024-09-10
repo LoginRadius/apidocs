@@ -57,13 +57,14 @@ if(isset($rootDir[0]) && !empty($rootDir[0])){
     $rootPath .= $rootDir[0].'/';
 }
 define('ROOT_PATH', $rootPath);
-
 define('THEME_DIR', __DIR__ . '/theme/apidocs/');
 define('THEME_URL', ROOT_URL . 'theme/apidocs/');
 define('PLUGIN_DIR', __DIR__ . '/plugins/');
 define('PLUGIN_URL', ROOT_URL . 'plugins/');
 define('APIS_DIR', __DIR__ . '/apis/');
-define('APIS_URL', ROOT_URL . 'apis/');
+// define('APIS_URL', ROOT_URL . 'apis/');
+define('APIS_URL', (ROOT_PATH?ROOT_PATH:'/docs/').'apis/');
+
 define('CLASSES_DIR', __DIR__ . '/classes/');
 define('VENDOR_DIR', __DIR__ . '/vendor/');
 
@@ -85,6 +86,10 @@ define('AZURE_ACCOUNT_DOMAIN', getenv('AZURE_ACCOUNT_DOMAIN'));
 define('AZURE_ACCOUNT_NAME', getenv('AZURE_ACCOUNT_NAME'));
 define('AZURE_ACCOUNT_KEY', getenv('AZURE_ACCOUNT_KEY'));
 define('IMAGE_FILE_FORMAT', 'png,jpg,gif');
+
+
+
+
 
 //AWS S3 Bucket Credentials
 define('AWS_REGION',  getenv('AWS_REGION'));
