@@ -22,6 +22,7 @@ $document_sanitized = htmlspecialchars($document, ENT_QUOTES, 'UTF-8');
 define('DOCUMENT_PATH',$document_sanitized);
 
 
+
 /* DATABASE */
 define('DATABASE', 'database');
 
@@ -62,6 +63,7 @@ define('APIS_DIR', __DIR__ . '/apis/');
 
 // define('APIS_URL', ROOT_URL . 'apis/');
 define('APIS_URL', getenv('DOCS_API_URL'));
+
 
 
 
