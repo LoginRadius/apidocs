@@ -2,7 +2,7 @@
 
 require_once '../config.php';
 require_once CLASSES_DIR . 'loader.php';
-$document = isset($_GET['document']) ? $_GET['document'] : '';
+$document = DOCUMENT_PATH;
 $document = substr($document,strlen(Proxy_Domain_Path));
 
 $md_tag_file = json_decode(file_get_contents('../database/supportdocs/menus/tag_name.json'), true);

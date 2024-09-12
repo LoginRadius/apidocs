@@ -1,6 +1,6 @@
 # Site Configuration Sync
 
-LoginRadius provides an easy-to-use syncing tool to transfer or clone the configuration settings from one LoginRadius environment to the other. In this case, the different LoginRadius instances have been provisioned under separate site licenses. Please see [here](https://docs.loginradius.com/getting-started/introduction/loginradius-site-license-overview) for further understanding on what a LoginRadius site license entails. The syncing tool can be found in the **Admin Console > Deployment > Configuration Deploy > Configuration Deployment**.
+LoginRadius provides an easy-to-use syncing tool to transfer or clone the configuration settings from one LoginRadius environment to the other. In this case, the different LoginRadius instances have been provisioned under separate site licenses. Please see [here](/api/v2/getting-started/loginradius-site-license-overview/) for further understanding on what a LoginRadius site license entails. The syncing tool can be found in the **Admin Console > Deployment > Configuration Deploy > Configuration Deployment**.
 
 ![enter image description here](https://apidocs.lrcontent.com/images/ac13_33705e931f9a143a69.18408583.png "")
 
@@ -28,7 +28,7 @@ This tool also provides various options for you to select the specific configura
 
    ![Confirmation pop-up](https://apidocs.lrcontent.com/images/Configuration-De_23418613a85c56cddf4.80379240.png "Confirmation pop-up ")
 
-Here is a granular breakdown of what each of these configuration options encompasses and where you can find it in the Admin Console: 
+Here is a granular breakdown of what each of these configuration options encompasses and where you can find it in the Admin Console:
 
 ## Basic Configuration
 
