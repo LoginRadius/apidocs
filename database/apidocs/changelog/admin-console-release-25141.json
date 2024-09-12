@@ -1,0 +1,14 @@
+{ 
+    "name": "Admin Console Release 25.14.1",
+    "description": "The latest release of the LoginRadius Admin Console includes key improvements for enhanced performance and user experience.",
+    "changelog": {
+        "IMPROVED": [
+            {
+                "text": "MFA features and APIs are now universally supported across all verification flows."
+            }
+        ]},
+
+    "auther": "Nikhil Sahu",
+    "created_date": "2024-09-12",
+    "status": "public"
+}
