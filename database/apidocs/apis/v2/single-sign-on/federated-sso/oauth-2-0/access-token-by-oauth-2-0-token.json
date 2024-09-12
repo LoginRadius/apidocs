@@ -60,10 +60,9 @@
         ]
     },
     "outputFormat": {
-      "access_token": " ********-****-****-***************** (JWT Access Token)",
-      "token_type": "access_token",
-      "expires_in":  394,
-      "refresh_token" : "********-****-****-*****************",
-      "id_token": "**************(JWT Token)"
+    "access_token": "********-****-****-*****************",
+    "token_type": "access_token",
+    "expires_in": 394,
+    "refresh_token": "********-****-****-*****************"
 }
 }
