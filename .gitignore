@@ -13,3 +13,5 @@ nbproject/
 *.swp
 $
 .vs/
+# Dependency Management Files
+composer.lock

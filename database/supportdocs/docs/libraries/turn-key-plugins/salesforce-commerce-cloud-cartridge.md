@@ -23,7 +23,7 @@ Follow the below steps  to add LoginRadius integration cartridge to configure SF
 ## Implementation
 Follow the below steps to render a LoginRadius interface on the SFCC website:
 1. **Add a container to render a LoginRadius form** :  Add a `div` element with data attributes and an `id` attribute to render a LoginRadius form template. The following data attributes can be added to `div`:
- - `data-lr-type`: The data type is used to identify LoginRadius interface to be fetched. This needs to match one of the allowed LoginRadius action types. See documentation for LoginRadius action types [here](https://docs.loginradius.com/api/v2/deployment/js-libraries/getting-started#initmethod4). 
+ - `data-lr-type`: The data type is used to identify LoginRadius interface to be fetched. This needs to match one of the allowed LoginRadius action types. See documentation for LoginRadius action types [here](/libraries/js-libraries/getting-started/#initmethod4). 
  - `data-lr-enabled`: A  flag indicating if LoginRadius is enabled for authentication.
  - `data-lr-api-key`: The LoginRadius API key for your site. This is stored as a site preference named `logidata-lr-nRadiusIsEnabled`.You can find information on how to get API key [here](/api/v2/admin-console/platform-security/api-key-and-secret/).
  - `data-lr-url`: The callback URL if the user has to navigate away from the website to complete the flow (i.e. verification email, or password reset email). This is only needed for some of the form types.

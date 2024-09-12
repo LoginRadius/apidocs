@@ -205,11 +205,6 @@
           "url": "single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/",
           "title": "OpenID Connect",
           "type": "DOC"
-        },
-        {
-          "url": "single-sign-on/tutorial/federated-sso/pkce-flow/",
-          "title": "PKCE Flow",
-          "type": "DOC"
         }
       ],
       "JWT Login": {
@@ -384,7 +379,12 @@
         "url": "single-sign-on/concept/saml-miscellaneous/certificate/",
         "title": "Generate LoginRadius' Certificate and Key",
         "type": "DOC"
-      }
+      },
+        {
+          "url": "single-sign-on/tutorial/federated-sso/key_for_code_exchange/",
+          "title": "Key for Code Exchange",
+          "type": "DOC"
+        }
     ], "FAQ": [
       {
         "url": "single-sign-on/faq/chrome-blocking-third-party-cookies/",

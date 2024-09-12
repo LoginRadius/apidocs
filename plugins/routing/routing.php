@@ -2,7 +2,7 @@
 if (!defined('ROOT_PATH')) {
     header("Location: /");
 }
-$document = isset($_GET['document']) ? trim($_GET['document']) : '';
+$document = DOCUMENT_PATH;
 if(!empty($document)){
     if(substr($document, -1) == '/'){
         $document = trim($document,'/');
