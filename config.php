@@ -14,6 +14,14 @@ $rootURL = rtrim($protocal . '://' . $domain . $path, 'index.php'); //SG gets ri
 $proxyDomainParse['path'] = isset($proxyDomainParse['path'])?$proxyDomainParse['path']:'';
 define('ROOT_URL', $rootURL);
 define('Proxy_Domain_Path',$proxyDomainParse['path']);
+
+$document = isset($_GET['document']) ? $_GET['document'] : '';
+
+// Step 2: Sanitize the input to prevent XSS attacks
+$document_sanitized = htmlspecialchars($document, ENT_QUOTES, 'UTF-8');
+define('DOCUMENT_PATH',$document_sanitized);
+
+
 /* DATABASE */
 define('DATABASE', 'database');
 
@@ -50,7 +58,13 @@ define('THEME_URL', ROOT_URL . 'theme/apidocs/');
 define('PLUGIN_DIR', __DIR__ . '/plugins/');
 define('PLUGIN_URL', ROOT_URL . 'plugins/');
 define('APIS_DIR', __DIR__ . '/apis/');
-define('APIS_URL', ROOT_URL . 'apis/');
+
+
+// define('APIS_URL', ROOT_URL . 'apis/');
+define('APIS_URL', getenv('DOCS_API_URL'));
+
+
+
 define('CLASSES_DIR', __DIR__ . '/classes/');
 define('VENDOR_DIR', __DIR__ . '/vendor/');
 
