@@ -21,6 +21,8 @@ $document = isset($_GET['document']) ? $_GET['document'] : '';
 $document_sanitized = htmlspecialchars($document, ENT_QUOTES, 'UTF-8');
 define('DOCUMENT_PATH',$document_sanitized);
 
+
+
 /* DATABASE */
 define('DATABASE', 'database');
 
@@ -51,15 +53,16 @@ if(isset($rootDir[0]) && !empty($rootDir[0])){
     $rootPath .= $rootDir[0].'/';
 }
 define('ROOT_PATH', $rootPath);
+
 define('THEME_DIR', __DIR__ . '/theme/apidocs/');
 define('THEME_URL', ROOT_URL . 'theme/apidocs/');
 define('PLUGIN_DIR', __DIR__ . '/plugins/');
 define('PLUGIN_URL', ROOT_URL . 'plugins/');
 define('APIS_DIR', __DIR__ . '/apis/');
+
+
 // define('APIS_URL', ROOT_URL . 'apis/');
 define('APIS_URL', getenv('DOCS_API_URL'));
-
-
 
 
 
