@@ -11,3 +11,4 @@ The below chart goes over the logical flow of the Cloud Directory system and the
 
 ![enter image description here](https://apidocs.lrcontent.com/images/Lr4_1490058aabfe7e52b19.38561108.png "")
 
+> **Note:** The LoginRadius Cloud Directory system is designed to allow you to retrieve all of your user database records and generate aggregate views. It is important to note that the Cloud API is intended for backend operations and data management tasks, such as retrieving user data from the analytics database. Therefore, it is recommended the Cloud API should not be used for end-user workflows.

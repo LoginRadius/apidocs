@@ -1,4 +1,4 @@
-# PROFILE
+# Profile
 
 You can view and edit your LoginRadius profile page, which includes your personal information.. The record includes your **Name, Organization, Phone number, Authentication email**, and **Contact email**. It always shows the **Account creation date (in UTC)** and your **Time zone**. 
 
