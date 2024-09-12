@@ -16,7 +16,7 @@ https://cloud-api.loginradius.com/customobject
 
 ## Schema Definition
 
-Schema has to indicate the type of each field and subfields of the nested object if any and the required fields that are should be queryable.
+Schema has to indicate the type of each field and subfields of the nested object if any, and the required fields that are should be queryable.
 
 Supported types: `string`, `date`, `integer`, `double`, `float`, `short`, `long`, `text`, `boolean`, `object`, `nested` (array of objects). For array of `string`'s, `integer`'s, `text`'s, `boolean`'s, type would be the basic type itself.
 
