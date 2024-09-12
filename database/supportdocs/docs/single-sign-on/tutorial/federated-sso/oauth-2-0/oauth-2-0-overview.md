@@ -213,7 +213,7 @@ Here is an explanation of the Request Body Parameter :
 - **redirect_uri:** [required] Callback URL of your site where you want to redirect back your customers.
 
 - **grant_type:** [required] Value for this flow must be 'authorization_code' always.
-
+    
 - **client_secret:** [required] [LoginRadius API secret](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
     
 - **code:** [required] The parameter received from the Login Dialog redirect above.
@@ -322,9 +322,9 @@ Here is an explanation of the Request Body Parameter :
   
 
 -   **client_id:** [required] OAuth Client ID,
-
+    
 -   **client_secret:** [optional if using code verifier] OAuth Client Secret,
-
+    
 -   **redirect_uri:**[required] callback url passed in the authorization API,
 
 -   **grant_type:**[required] Value for this flow must be 'authorization_code' always.
@@ -437,6 +437,7 @@ Request Body:
 ```
 {
 "client_id": "<OAuth Client ID>",
+"client_secret": "<OAuth Client Secret>",
 "grant_type": "password",
 "username": "<Should be, email/phoneid/username of the customer>",
 "password": "<The password of the account to login>",
@@ -449,6 +450,8 @@ Here is an explanation of the Request Body Parameters :
 
 -   **client_id:** [required] OAuth Client ID
     
+-   **client_secret:** [optional] OAuth Client Secret
+    
 -   **grant_type:** [required] Value must always be 'password'.
     
 -   **username:** [required] You must provide the customer's email/username/phoneid, depending on how you have configured LoginRadius for authentication.
@@ -460,11 +463,10 @@ Here is an explanation of the Request Body Parameters :
 **API Response containing the access token**
 ```
 {
-     "access_token": {JWT Access Token},
-     "token_type": {type},
-     "expires_in":  {seconds til expiration},
-     "refresh_token" : {Refresh Token}
-     "id_token": {JWT Token}
+"access_token": {Loginradius Access Token},
+"token_type": {type},
+"expires_in": {seconds till expiration},
+"refresh_token" : {Refresh Token}
 }
 ```
   
@@ -550,7 +552,7 @@ The following explains the implementation sequence for Device Code Flow:
 | Method | POST |
 | Endpoint | `https://{siteurl}/api/oauth/{OAuthAppName}/device`  <br><br> Note: where siteurl is the LoginRadius IDX domain url, e.g., `<LR appname>.hub.loginradius.com`. If you are using a custom domain for your IDX page, then use custom domain value in place of siteurl.|
 |Header|application/json OR application/x-www-form-urlencoded|
-|Body (json content type)|{<br>"client_id": `<OAuth Client ID>`<br>} |
+|Body (json content type)|{<br>"client_id": `<APIKey>`<br>} <br><br>Note: <br>**1.** Please see [LoginRadius API key](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0) for how to get APIkey for your app.|
 |Response|{<br>"interval": 10,<br>"expires_in": 1800,<br>"device_code": "1522d771f27b408baca35eca7d81c37d",<br>"user_code": "MXD-TPV",<br>"verification_uri":"https://example.com/federation/device/activate.php,<br>"verification_uri_complete":"https://example.com/federation/device/activate.php?user_code=MXD-TPV"<br>}|
   
 **Step 2:** Use the device_code and keep calling **Device Code Exchange (Ping API)** till you get the access token.
@@ -560,10 +562,10 @@ The following explains the implementation sequence for Device Code Flow:
 | Method | POST |
 | Endpoint | `https://{siteurl}/api/oauth/{OAuthAppName}/token` |
 | Header | application/json OR application/x-www-form-urlencoded |
-| Body (json content type) | {<br>"client_id": `<OAuth Client ID>`,<br>"grant_type":"urn:ietf:params:oauth:grant-type:device_code",<br>"response_type": "token",<br>"device_code": `<Device Code generated from the Get Device Code API>`<br>} |
+| Body (json content type) | {<br>"client_id": `<APIKey>`,<br>"grant_type":"urn:ietf:params:oauth:grant-type:device_code",<br>"response_type": "token",<br>"device_code": `<Device Code generated from the Get Device Code API>`<br>} |
 | Response | {<br>"expires_in": 3598,<br>"refresh_token": "d87cc355cdc61a6b...507",<br>"access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzMWVlYz...Vn33edUA0hQCSA",<br>"token_type": "Bearer"<br>} |
 
-**Step 3:** Once the consumer enters the **user_code** value on the **verificationURL** on the browser-based device, redirect the consumer to the Device Code Confirm URL with the **device_code**  `(https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id=<OAuth Client ID>&user_code=<User Code Genertaed from the Get Device Code API>)`
+**Step 3:** Once the consumer enters the **user_code** value on the **verificationURL** on the browser-based device, redirect the consumer to the Device Code Confirm URL with the **device_code**  `(https://<siteurl>/service/oauth/{OauthAppName}/authorize?client_id=<APIKey>&user_code=<User Code Genertaed from the Get Device Code API>)`
 
 **Step 4:** LoginRadius will show IDX page and the consumer logs in successfully on the IDX. After successful authentication, the consumer will be redirected to **AfterVerificationURL**.
 
@@ -607,12 +609,7 @@ var registrationUrl = encodeURIComponent(encodeURIComponent("https://www.abc.com
 
 var scope = encodeURIComponent("profile&action=login&registration_url=" + registrationUrl);
 
-var authorizationEndpoint = "https://<siteurl>/sso/oauth/redirect?scope=" + scope + "&state=ddd&response_type=coderedirect_uri=https%3A%2F%2Fabc.com&client_id=";
-```
-
-```
-Request url:
-"siteurl": This field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of site URL
+var authorizationEndpoint = "https://cloud-api.loginradius.com/sso/oauth/redirect?scope=" + scope + "&state=ddd&response_type=coderedirect_uri=https%3A%2F%2Fabc.com&client_id=";
 ```
 
 ## Additional Steps in Oauth 2.0
@@ -628,6 +625,8 @@ Once you have obtained an access_token, you can use the  [Refresh Access Token A
 Here is an explanation of the Request Body Parameter:
 
 -   **client_id:** [required] OAuth Client ID
+    
+-   **client_secret:** [required] OAuth Client Secret
     
 -   **grant_type:** [required] The grant_type needs to be a refresh_token.
     
@@ -654,7 +653,7 @@ Here is an explanation of the Request Body Parameter:
     - "The code has been expired" error comes when the auth code is expired. For security concerns, the expiry time is 50 sec, so the code needs to be utilized within 50 sec.
 
 -   **I am getting an invalid_request error while calling Authorization Endpoint?**
-    - This error usually occurs when the **client Id (OAuth Client secret)** is invalid.
+    - This error usually occurs when the **client Id (LoginRadius API Key )** is invalid.
 
 -   **While using the [Additional API Secret](https://adminconsole.loginradius.com/platform-security/data-access-protection/api-credentials/additional-api-secrets) it through error `unauthorized_client` having message The `client_secret` is not valid, check your `client_secret` again?**
     - When the Oauth API is hit, we are having caching of AppConfig for 15 min for better Performance. So if the new APISecret is generated in that time (15 min), that will not be able to be used till the cache is expired.

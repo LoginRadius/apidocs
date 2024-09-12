@@ -21,10 +21,12 @@ With **Email Passcode Workflow**, the consumer receives a verification code on t
 With **Security Questions Workflow**, the consumer needs to set up a security question/answer at the time of registration or at first login and use that answer as 2FA to login to the website. For more details regarding the implementation, please click [here](/api/v2/customer-identity-api/multi-factor-authentication/Security-Question-Authenticator/overview/).
 
 **Flow Diagram:**
-![Generalized MFA Workflow](https://apidocs.lrcontent.com/images/Generalized-MFA-Workflow_294536103026e0c0267-96536517-1_24381636665bc93731bc061.74767903.png "Generalized MFA Workflow diagram")
+![Generalized MFA Workflow](https://apidocs.lrcontent.com/images/Generalized-MFA-Workflow_294536103026e0c0267-96536517-1_24381636665bc93731bc061.74767903.png "Generalized MFA Workflow")
 
+> **Note:** The MFA feature will only work with the [Mandatory Email Verification ](/platform-features-overview/registration-services/email-workflow#email-verification)flow. It will not work with the [Optional Email Verification](/platform-features-overview/registration-services/email-workflow#email-verification) flow or No Verification Email flow.
 
 With the **Push Notification workflow**, messages are sent from a server to a user's device, commonly used in mobile apps for purposes like authentication. When utilizing push notifications as a method of Multi-Factor Authentication (MFA), the user will receive a notification on their device containing a QR code. The user must then authenticate the login attempt by scanning the QR code with their app, thereby adding an additional layer of security to the login process.
+
 
 ## Customization of Label and Button in MFA:
 

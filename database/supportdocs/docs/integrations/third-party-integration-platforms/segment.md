@@ -214,7 +214,7 @@ If you want to track the behavior when specific events are fired, use the follow
 
 ### Custom Tracking
 
-The Segment Integration supports [Custom Tracking](/integrations/client-side-connectors/gosquared/#customtracking6), and does not require any special formatting, please refer to our [Custom Tracking](/integrations/client-side-connectors/gosquared/#customtracking6) documentation for details.
+The Segment Integration supports [Custom Tracking](https://docs.loginradius.com/api/v2/integrations/client-side-integrations/gosquared#customtracking6), and does not require any special formatting, please refer to our [Custom Tracking](https://docs.loginradius.com/api/v2/integrations/client-side-integrations/gosquared#customtracking6) documentation for details.
 
 ## View the Data in Segment
 

@@ -65,18 +65,9 @@ function seoAPIDocsPageMETA($currentPage, $sidebarMenu) {
         // }
     }
    
-  // Check if the title is empty or just whitespace
-if (empty($title) || trim($title) === "") {
-    $title = 'API Documentation';
-} 
-// Check if the title contains HTML or JavaScript code
-elseif ($title !== htmlspecialchars($title, ENT_QUOTES | ENT_HTML5)) {
-    // If HTML tags or unsafe characters are detected, set title to 'Page Not Found'
-    $title = 'Page Not Found';
-}
-
-
-
+    if (empty($title)|| $title==" ") {
+        $title = 'API Documentation';
+    }
     $html = "<title>" . $title . " | LoginRadius</title>";
     
     if (!empty($description)) {

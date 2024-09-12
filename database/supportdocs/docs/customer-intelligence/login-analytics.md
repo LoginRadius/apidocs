@@ -20,9 +20,14 @@ This chart displays the number of logins per day over the specified time period.
 
 ## Daily Active Customers
 
-The Daily Active Customers chart shows the number of unique user profiles that have engaged with your site each day within the selected time period.
+The Daily Active Customers chart  displays the number of Unique User Profiles that have logged in to your site each day. For clarification on how this works, please see below:
 
-![Daily Active Customers](https://apidocs.lrcontent.com/images/Login-Analytics-LoginRadius-User-Dashboard_50873021066e165fea829c6.95927264.png "Daily Active Customers")
+* If I log in ten times with Facebook in a day, this will be counted as one Unique Profile Login.
+
+* If I login ten times with Facebook and ten times with LinkedIn in a day, this will be counted as two Unique Profile Logins.
+
+![Daily Active Customers](https://apidocs.lrcontent.com/images/3_864062f1fe8cca0288.06858230.png "Daily Active Customers")
+
 
 ## Monthly Active Customers
 
