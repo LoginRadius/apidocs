@@ -62,8 +62,7 @@ define('THEME_URL', ROOT_URL . 'theme/apidocs/');
 define('PLUGIN_DIR', __DIR__ . '/plugins/');
 define('PLUGIN_URL', ROOT_URL . 'plugins/');
 define('APIS_DIR', __DIR__ . '/apis/');
-// define('APIS_URL', ROOT_URL . 'apis/');
-define('APIS_URL', (ROOT_PATH?ROOT_PATH:'/docs/').'apis/');
+define('APIS_URL', ROOT_URL . 'apis/');
 
 define('CLASSES_DIR', __DIR__ . '/classes/');
 define('VENDOR_DIR', __DIR__ . '/vendor/');
