@@ -5,6 +5,9 @@
         "IMPROVED": [
             {
                 "text": "MFA features and APIs are now universally supported across all verification flows."
+            },
+            {
+                "text": "When the ACTIVITY_LOGS feature is enabled, user activity is tracked to support precise MAU billing."
             }
         ]},
 
