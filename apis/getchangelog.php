@@ -2,9 +2,7 @@
 
 require_once '../config.php';
 require_once CLASSES_DIR . 'loader.php';
-$document = DOCUMENT_PATH;
-
-
+$document = isset($_GET['document']) ? $_GET['document'] : '';
 $document = substr($document,strlen(Proxy_Domain_Path));
 $format = isset($_GET['format']) ? $_GET['format'] : '';
 $output['status'] = 'error';

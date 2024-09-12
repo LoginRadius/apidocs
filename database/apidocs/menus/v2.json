@@ -311,12 +311,12 @@
           "type": "DOC"
         },
         {
-          "url": "v2/admin-console/my-account/login-session/",
+          "url": "v2/admin-console/my-account/login-session",
           "title": "Login Session",
           "type": "DOC"
         },
         {
-          "url": "v2/admin-console/my-account/security/",
+          "url": "v2/admin-console/my-account/security",
           "title": "Security",
           "type": "DOC"
         }
@@ -1381,7 +1381,7 @@
           "type": "DELETE"
         },
         {
-          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/mfa-reset-push-authenticator-by-uid/",
+          "url": "v2/customer-identity-api/multi-factor-authentication/push-notification/mfa-reset-push-authenticator-by-uid",
           "title": "MFA Reset Push Authenticator by Uid",
           "type": "DELETE"
         }
@@ -2067,11 +2067,6 @@
         {
           "url": "v2/single-sign-on/federated-sso/openid-connect/oidc-token-by-loginradius-guid-jwt-encrypted-token/",
           "title": "OIDC Token by LoginRadius GUID or JWT Encrypted Token",
-          "type": "POST"
-        },
-        {
-          "url": "v2/single-sign-on/federated-sso/openid-connect/resource_owner_password_credential/",
-          "title": "Resource Owner Password Credential",
           "type": "POST"
         },
         {

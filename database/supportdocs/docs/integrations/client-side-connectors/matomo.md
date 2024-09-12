@@ -2,7 +2,7 @@
 Matomo, previously known as Piwik, is a open-source analytics platform you can use to track the behaviour of both visitors and registered users of your website. Our integration offers the possibility of tracking events coming from LoginRadius interfaces and custom events from your interface. You can decide to track either category (LoginRadius and custom) of events separately or both categories simultaneously.
 
 ## Implementation
-If you have not read the [Getting Started document](/integrations/client-side-connectors/getting-started/) on client-side integrations, please do so now. Your understanding of the content below depends on having read that document first.
+If you have not read the [Getting Started document](https://docs.loginradius.com/api/v2/integrations/client-side-integrations/getting-started#google-doubleclick-for-publishers-dfp-) on client-side integrations, please do so now. Your understanding of the content below depends on having read that document first.
 
 ### Load the JavaScript Files
 

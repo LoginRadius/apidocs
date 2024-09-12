@@ -120,3 +120,98 @@ Once you’ve generated the **code_verifier**, it uses that to create the **code
 Note that if you are passing **code_challenge** and the **code_challenge_method** in the authorization request then only the PKCE flow would work and in this case, **code_verifier** would be required to get the token in exchange for the authorization code request. 
  
 > **Note:** Currently we are supporting the SHA256 Hash algorithm to generate the code challenge. If we do not pass any method, we use the default method SHA256.
+
+## OAuth 2.0 PKCE Flow
+
+**Authorization URL:** `https://cloud-api.loginradius.com/sso/oauth/redirect?`
+
+**Request Parameters
+**
+```
+client_id={LoginRadius API key}
+&redirect_uri={Callback URL}
+&scope={Scope}
+&response_type=code
+&state={random long string}
+&code_challenge={code challenge}
+&code_challenge_method=SHA256
+```
+
+
+For more details over the OAuth documentation, refer [here](/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/#authorizationcodegrant6).
+
+**Exchange the Authorization Code**
+
+The pre-generated **code_verifier** needs to be sent along with the token request. The authorization server will check whether the verifier matches the challenge that was used in the authorization request. This ensures that a malicious party that intercepted the authorization code will not be able to use it.
+
+`POST-https://cloud-api.loginradius.com/sso/oauth/access_token`
+
+
+
+```
+Request body:
+{
+   client_id:{app-id},
+   client_secret:{app-secret},
+   redirect_uri:{redirect-uri},
+   response_type:token,
+   code:{code-parameter}
+   code_verifier: {code verifier (generated in the first step)}
+}
+```
+> **Important Note: The `client_secret:{app-secret}` is an optional parameter, you may or may not use this for validation purpose.**
+
+ 
+## OIDC V2 PKCE Flow
+
+**Authorization Code Flow**
+
+The authorization code flow returns an authorization code that can then be exchanged for an identity token and/or access token. This requires client authentication using a client_id and a secret to retrieve tokens from the back end and has the benefit of not exposing tokens to the user agent (i.e. a web browser). This flow allows for long-lived access (through the use of refresh tokens). Clients using this flow must be able to maintain a secret.
+This flow obtains the authorization code from the authorization endpoint and all tokens are returned from the token endpoint.
+
+
+For more details refer to the OIDC documentation, [here](/single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/#authorizationcodeflow2).
+
+`https://cloud-api.loginradius.com/sso/oidc/v2/<OIDC AppName>/authorize`
+
+
+**Request Parameters**
+
+```
+client_id=
+&redirect_uri=
+&response_type=
+&state={random long string}
+&scope=openid email
+&nonce={nonce}
+&response_mode=form_post
+&max-age=123, 
+&claims= {"email":null,"email_verified":null},"userinfo"{"email":null,"email_verified":null,"name":null}}
+&code_challenge={code challenge}
+&code_challenge_method=SHA256
+```
+
+
+ 
+**Exchange the Authorization Code**
+
+The same process will be followed as in the case of OAuth’s exchange of authorization code.
+
+`POST https://cloud-api.loginradius.com/sso/oidc/v2/<OIDC AppName>/token`
+
+
+
+```
+Request body:
+{
+  "client_id":{Loginradius app api key},
+  "client_secret":{Loginradius app api secret},
+  "redirect_uri":{callback url passed in the authorization API},
+  "response_type":"token",
+  "grant_type" : "authorization_code"
+  "code": {Authorization code received in the Authorization API}
+  "code_verifier": {code verifier (generated in the first step)}
+}
+
+```
+> **Important Note: The `client_secret":{Loginradius app api secret}` is an optional parameter, you may or may not use this for validation purpose.**
