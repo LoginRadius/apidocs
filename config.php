@@ -63,10 +63,10 @@ define('PLUGIN_DIR', __DIR__ . '/plugins/');
 define('PLUGIN_URL', ROOT_URL . 'plugins/');
 define('APIS_DIR', __DIR__ . '/apis/');
 // define('APIS_URL', ROOT_URL . 'apis/');
-
-
-
 define('APIS_URL', getenv('DOCS_API_URL'));
+
+
+
 
 
 
