@@ -15,17 +15,11 @@ $proxyDomainParse['path'] = isset($proxyDomainParse['path'])?$proxyDomainParse['
 define('ROOT_URL', $rootURL);
 define('Proxy_Domain_Path',$proxyDomainParse['path']);
 
-
-
-
 $document = isset($_GET['document']) ? $_GET['document'] : '';
 
 // Step 2: Sanitize the input to prevent XSS attacks
 $document_sanitized = htmlspecialchars($document, ENT_QUOTES, 'UTF-8');
 define('DOCUMENT_PATH',$document_sanitized);
-
-
-
 
 /* DATABASE */
 define('DATABASE', 'database');
@@ -91,10 +85,6 @@ define('AZURE_ACCOUNT_DOMAIN', getenv('AZURE_ACCOUNT_DOMAIN'));
 define('AZURE_ACCOUNT_NAME', getenv('AZURE_ACCOUNT_NAME'));
 define('AZURE_ACCOUNT_KEY', getenv('AZURE_ACCOUNT_KEY'));
 define('IMAGE_FILE_FORMAT', 'png,jpg,gif');
-
-
-
-
 
 //AWS S3 Bucket Credentials
 define('AWS_REGION',  getenv('AWS_REGION'));
