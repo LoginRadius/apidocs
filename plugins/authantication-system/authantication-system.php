@@ -250,7 +250,7 @@ if (!class_exists('authantication')) {
             if(strpos($url, '?') !== false){
                 $enableQueryString = '&';
             }
-            $document = isset($_GET['document']) ? $_GET['document'] : '';
+            $document = DOCUMENT_PATH;
             return $url . $enableQueryString . 'return_url=' . urlencode(ROOT_URL . $document . '?allowlogin=1');
         }
 
@@ -263,7 +263,7 @@ if (!class_exists('authantication')) {
             if(strpos($url, '?') !== false){
                 $enableQueryString = '&';
             }
-            $document = isset($_GET['document']) ? $_GET['document'] : '';
+            $document = DOCUMENT_PATH;
             // selfLogout();
             return $url . $enableQueryString. 'return_url=' . urlencode(ROOT_URL . $document);
         }
