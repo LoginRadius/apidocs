@@ -166,13 +166,6 @@
         "meta_description": "This doc contains detailed information on fraud prevention measures available to LoginRadius customers."
       },
       {
-        "url": "/docs/platform-features-overview/user-security/multi-factor-authentication",
-        "title": "Multi-Factor Authentication (MFA)",
-        "meta_title": "Two-Factor Authentication Feature Overview | LoginRadius - Support documents",
-        "meta_description": "Learn what Two-Factor Authentication means and how it adds an extra layer of security for your users"
-      },
-
-      {
         "url": "/docs/security/user-security/registration-security",
         "title": "Registration Security",
         "meta_title": "Registration Security | LoginRadius - Support documents",

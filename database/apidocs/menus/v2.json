@@ -610,8 +610,8 @@
         "type": "GET"
       },
       {
-        "url": "v2/customer-identity-api/authentication/auth-send-verification-for-social-email/",
-        "title": "Auth send verification Email for linking social profiles",
+        "url": "v2/customer-identity-api/authentication/auth-send-social-link-verification-email/",
+        "title": "Auth Send Social link Verification Email",
         "type": "GET"
       },
       {

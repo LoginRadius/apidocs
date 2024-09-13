@@ -7,10 +7,7 @@ The following image displays the logical flow of the PKCE with Oauth and OIDC au
 
 ![PKCE Flow](https://apidocs.lrcontent.com/images/PKCE_236845f889a479c9a78.53304573.png "PKCE Flow")
  
-
- 
 The following steps explain the working of the above sequence diagram:
-
 
 
 1. An authorization request is sent from the customer application along with the code challenge.
