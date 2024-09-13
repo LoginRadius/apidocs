@@ -7915,6 +7915,26 @@
 {
   "oldLink": "customer-management",
   "newLink": "customer-management/overview/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/authentication/auth-send-verification-for-social-email",
+  "newLink": "api/v2/customer-identity-api/authentication/auth-send-social-link-verification-email/"
+},
+{
+"oldLink": "single-sign-on/tutorial/federated-sso/pkce-flow",
+"newLink": "single-sign-on/faq/proof_of_key_for_code_exchange/"
+},
+{
+  "oldLink": "single-sign-on/tutorial/federated-sso/key_for_code_exchange",
+  "newLink": "single-sign-on/faq/proof_of_key_for_code_exchange/"
+},
+{
+  "oldLink": "single-sign-on/faq/proof_of_key_for_code_exchange",
+  "newLink": "single-sign-on/faq/proof-of-key-for-code-exchange/"
+},
+{
+  "oldLink": "security/user-security/multi-factor-authentication",
+  "newLink": "security/user-security/fraud-prevention/"
 }
 ]
 

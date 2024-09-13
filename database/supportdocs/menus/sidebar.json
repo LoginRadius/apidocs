@@ -379,16 +379,17 @@
         "url": "single-sign-on/concept/saml-miscellaneous/certificate/",
         "title": "Generate LoginRadius' Certificate and Key",
         "type": "DOC"
-      },
-        {
-          "url": "single-sign-on/tutorial/federated-sso/key_for_code_exchange/",
-          "title": "Key for Code Exchange",
-          "type": "DOC"
-        }
+      }
+        
     ], "FAQ": [
       {
         "url": "single-sign-on/faq/chrome-blocking-third-party-cookies/",
         "title": "Chrome Blocking Third Party Cookies",
+        "type": "DOC"
+      },
+      {
+        "url": "single-sign-on/faq/proof-of-key-for-code-exchange/",
+        "title": "Proof of Key for Code Exchange",
         "type": "DOC"
       }
     ]
@@ -885,11 +886,6 @@
       {
         "url": "security/user-security/fraud-prevention/",
         "title": "Fraud Prevention",
-        "type": "DOC"
-      },
-      {
-        "url": "security/user-security/multi-factor-authentication/",
-        "title": "Multi-Factor Authentication (MFA)",
         "type": "DOC"
       },
       {

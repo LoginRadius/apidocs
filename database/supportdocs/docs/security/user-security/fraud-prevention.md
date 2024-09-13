@@ -113,11 +113,20 @@ As passwords are critical when managing identities, we have various features to 
 
 ### **Multi-Factor Authentication**
 
-This method of authentication is used to prevent access by an unauthorized person. If enabled, the user first needs to provide their user credentials, and after successful validation, they need to provide secondary credentials in the form of a One Time Password (OTP) obtained via SMS or via the Google Authenticator app.
+This method of authentication is used to prevent access by an unauthorized person
 
-- **Google Authenticator:** The Google Authenticator app generates OTPs and expires them after 30 seconds. The user can type the displayed OTP into a given interface for validation. With this method there's no need to wait for an SMS. LoginRadius also offers it's customers the ability to use a custom Google Authenticator app (as opposed to the one provided by Google) for branding purposes.
+<b>**How Does It Work?**</b>
 
-- **SMS:** The user is sent a OTP (One Time Password) via SMS and needs to enter it in a given interface for verification.
+ With MFA, once the consumer enter in their login credentials or select a social login, they are sent a specific authentication code that they have to enter in order to be fully logged in. There are several ways in which the consumer can receive the code:
+
+1. <b>Text Message (SMS)</b> - After the consumer enters in their login credentials, whether it is via email, phone number, username, or social profile, the consumer receives an instant text message with a unique authentication code. Once the consumer receives the code, they are required to enter it into the provided field on your website interface in order to log in to their account.
+2. <b>Google Authenticator</b> - This requires the consumer to have the Google Authenticator application downloaded to their mobile device. With this app, it will auto-generate an authentication code that the consumer will have to enter after they've provided their login credentials.
+3. <b>Email Passcode</b> - The consumer will receive an email with a verification code that they will need to enter (after they have entered in their usual login credentials) to finish the login process and be fully logged into the website.
+4. <b>Security Questions</b> - Consumers can also authenticate themselves using a set of security question which they can set at the time of registration. On the next login attempt of consumer, these security questions will act as second layer of security. Only after giving correct answers of the questions, consumer will be logged in.
+5. <b>Push Notification</b> - With the Push Notification workflow, messages are sent from a server to a user's device, commonly used in mobile apps for purposes like authentication. When utilizing push notifications as a method of Multi-Factor Authentication (MFA), the user will receive a notification on their device containing a QR code. The user must then authenticate the login attempt by scanning the QR code with their app, thereby adding an additional layer of security to the login process.
+6. <b>Email Passcode</b>-With Email Passcode Workflow, the consumer receives a verification code on their email id, they need to use this verification code as 2FA to login to the website. 
+
+For more information on this refer the following [overview](/api/v2/admin-console/platform-security/multi-factor-auth/) document of MFA.
 
 ### **Policy-based Step-Up Authentication**
 

@@ -12,7 +12,7 @@ There are four available selections in the the Admin Console under Platform Secu
 
 ## CAPTCHA Setting
 
-The CAPTCHA Setting area allows you to enable Google reCAPTCHA/QQ TENCENT CAPTCHA as part of your log in & registration flows for additional security.
+The CAPTCHA Setting area allows you to enable Google reCAPTCHA/QQ TENCENT CAPTCHA/hCaptcha as part of your log in & registration flows for additional security.
 
 Review our [Auth Security](/api/v2/admin-console/platform-security/auth-security-configuration#captchasetting0) documentation for more details.
 
