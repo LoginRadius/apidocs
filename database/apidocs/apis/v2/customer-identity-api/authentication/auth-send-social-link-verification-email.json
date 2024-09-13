@@ -1,5 +1,5 @@
 {
-    "name": "Auth send verification Email for linking social profiles",
+    "name": "Auth send verification email for linking social profiles",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/email/sendverificationemail",
     "method": "GET",
