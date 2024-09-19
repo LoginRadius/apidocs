@@ -1,5 +1,10 @@
 [
   {
+    "title": "JS Release 3.28.0",
+    "url": "js-release-3280",
+    "date": "2024-09-19"
+  },  
+  {
     "title": "Admin Console Release 25.14.1",
     "url": "admin-console-release-25141",
     "date": "2024-09-12"
@@ -10,7 +15,7 @@
     "date": "2024-09-04"
   }, 
   {
-    "title": "Js Release 36.27.1",
+    "title": "JS Release 3.27.1",
     "url": "js-release-3271",
     "date": "2024-09-04"
   },  
