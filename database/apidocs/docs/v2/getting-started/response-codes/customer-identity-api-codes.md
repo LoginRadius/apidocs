@@ -340,7 +340,6 @@ This section details the LoginRadius Customer Identity API codes and some sugges
 | 1299 | Push Notifications are not set up for Two-Factor Authentication | Please set up push notifications for two-factor authentication in your account settings. | 403 |
 | 1311 | Push Notification Verification Already Done | You have already verified your account with push notification. You don't need to verify again. | 403 |
 | 1312 | Push Notification Verification Denied | It appears you declined the push notification request for verification. To proceed, please tap Approve on the notification when it reappears on your device. | 403 |
-| 1313 | Push notification as two factor authentication is not configured for this profile | Push notification as two factor authentication is not configured, please configure or enable two factor authentication on your profile for login. | 403 |
 | 1315 | The password you’re trying to set is exposed in an external data breach | The specific password you’re setting is found in a data breach unrelated to this app/service. Please set a different password. | 403 |
 | 1316 | Your password is exposed in an external data breach | Your password is found in a data breach unrelated to this app/service. Please reset your password using the email we sent you. | 403 |
 | 1317 | Please reset your password via the email we sent you | Your password is exposed in an external data breach. As a caution, we’ve already sent you an email with steps to reset your password. Please try to login after resetting your password. | 403 |
