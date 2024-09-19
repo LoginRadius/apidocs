@@ -343,6 +343,16 @@ This section details the LoginRadius Customer Identity API codes and some sugges
 | 1315 | The password you’re trying to set is exposed in an external data breach | The specific password you’re setting is found in a data breach unrelated to this app/service. Please set a different password. | 403 |
 | 1316 | Your password is exposed in an external data breach | Your password is found in a data breach unrelated to this app/service. Please reset your password using the email we sent you. | 403 |
 | 1317 | Please reset your password via the email we sent you | Your password is exposed in an external data breach. As a caution, we’ve already sent you an email with steps to reset your password. Please try to login after resetting your password. | 403 |
+| 1320 | Passkeys not enabled in this application. | Please enable passkeys in the admin console to allow users to log in with passkeys. | 403 |
+| 1321 | An unexpected error occurred while verifying your passkey. | We apologize for the inconvenience. Please try again later. | 403 |
+| 1322 | Passkey configuration error. | An error occurred while processing your passkey request. Please try later or contact support for assistance. | 403 |
+| 1323 | Passkey not configured in your profile. | Please add a passkey in your profile to use this feature. You can configure your passkey in the profile settings. | 403 |
+| 1324 | Passkey login unavailable for this account type. | Passkey login is only available if registered with an email ID. Please try logging in with your email or consider updating your account information if you have the option. | 403 |
+| 1325 | Invalid Passkey ID | The provided Passkey ID is invalid; it cannot be removed. | 403 |
+| 1326 | Passkeys autofill not enabled in this application. | Passkey autofill functionality is currently disabled. Please enable it in the admin console to allow users to log in with autofill. | 403 |
+| 1327 | Passkeys are not set up for Two-Factor Authentication | Please set up passkeys for two-factor authentication in your account settings. | 403 |
+| 1328 | Passkey as two factor authentication is not configured for this profile | Passkey as two factor authentication is not configured, please configure or enable two factor authentication on your profile for login. | 403 |
+| 1329 | The reset passkey URL is invalid | The reset passkey Url is invalid, please reach out to LoginRadius support for more information. | 403
 | 1330 | Duo Authenticator is not set up for two-factor authentication | Please set up Duo Authenticator for two-factor authentication in your account settings. | 403 |
 | 1331 | Duo Authenticator configuration error | It appears to be a configuration issue with Duo Authenticator for two-factor authentication. Please review your configuration to ensure it is valid. | 403 |
 | 1332 | Duo Authenticator verification failed | Please try again as Duo Authenticator verification failed. | 403 |
