@@ -72,7 +72,7 @@ Some Examples of Field Mappings:
 | Name | Format | Value | Description |
 |---|---|---|
 | name  | urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified  | FullName  | Selecting full name from the Dropdown Send the full name in the SAML  response. |
-| Email  | Purn:oasis:names:tc:SAML:2.0:attrname-format:unspecified  | Email  | Selecting Email from the Dropdown Send the Email in the SAML response. |
+| Email  | urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified  | Email  | Selecting Email from the Dropdown Send the Email in the SAML response. |
 |  Customfield | urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified  |  Custom_field_name(From dropdown) | In a dropdown you can select the custom field name configured as in the Data schema.**Note:**Custom field will be listed in the drop down when it is only turned on for the Registration form under [Data Schema](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/data-schema). |
 |  User Roles | urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified  |  Other -> Roles[0] | Roles[0] will fetch the first Role from the profile |
 
