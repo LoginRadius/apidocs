@@ -205,13 +205,9 @@ Steps for using **code_challenge** and **code_challenge_method** in PKCE flow.
 
 We provide the ready-to-use **code** to generate the **code_verifier** and **code_chalange**, please refer to this [document](/single-sign-on/tutorial/federated-sso/pkce-flow/#generatingpkcecodeverifierandchallenge0)
 
-  
+> **Note:** The `client_secret:{LoginRadius API Secret}` is an optional parameter, you may or may not use this for validation purposes if using PKCE Flow.
 
-> **Note:**
-
-**The client_secret":** oidc Client Secret
-
-The provider will redirect you to the authentication/login page and you’ll get the code after successful authentication.
+The provider will redirect you to the authentication/login page and you'll get the code after successful authentication.
 
 **Step 2:** Exchange Code with Access Token
 
