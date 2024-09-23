@@ -122,7 +122,7 @@ LoginRadius supports the following fields:
 
 > **Note:** The default value is set to **5 minutes**.
 
-**Step 16:** For **App Audiences**, enter `https://<LoginRadius Site Name>.hub.loginradius.com/`. You can add more rows for App audiences to add multiple app audiences.
+**Step 16:** For **App Audiences**, enter  `EntityId` of your Service provider. 
 
 **Step 17:** Select **HTTPPost** from **SSO** Method.
 

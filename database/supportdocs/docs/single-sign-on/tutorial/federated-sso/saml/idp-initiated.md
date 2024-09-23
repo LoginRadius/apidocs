@@ -110,7 +110,7 @@ Some Examples of Field Mappings:
 
 > **Note:** The default value is set to **5 minutes**.
 
-**Step 15:** For **App Audiences**, enter  `https://<LoginRadius Site Name>.hub.loginradius.com/`. You can add more rows for App audiences to add multiple app audiences.
+**Step 15:** For **App Audiences**, enter  `EntityId` of your Service provider. 
 
 **Step 16:** Select **HTTPPost** from the **SSO Method**. 
 
