@@ -22,9 +22,9 @@
         "description": "LoginRadius API Key"
       },
       {
-          "name": "Authorization",
-          "is_required": true,
-          "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access token)"
+        "name": "apisecret",
+        "is_required": true,
+        "description": "LoginRadius API Secret"
       }
     ],
     "Template Params": [
