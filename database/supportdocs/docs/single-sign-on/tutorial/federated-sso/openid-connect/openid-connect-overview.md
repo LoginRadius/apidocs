@@ -154,15 +154,13 @@ e.g.
 
 Once you have the code you can request an access_token via the [Access token by OpenID Code](/api/v2/single-sign-on/openid/access-token-by-openid-code) API.
 
-> **Note**: To include PKCE within this request, refer to this [document](/single-sign-on/tutorial/federated-sso/pkce-flow/#oidcvpkceflow4) for more information.
-
 #### OpenID PKCE Flow
 
-PKCE is an extension to the Authorization Code flow to prevent certain attacks and to be able to securely perform the OAuth/OIDC exchange from public clients. It is primarily used by mobile and JavaScript apps, but the technique can be applied to any client as well.
+PKCE is an extension to the Authorization Code flow to prevent certain attacks and to securely perform the OAuth/OIDC exchange from public clients. It is primarily used by mobile and JavaScript apps, but the technique can be applied to any client as well.
 
 ##### Implementation Steps
 
-The following explains the implementation sequence for Authorization Code with PKCE:
+The following explains the implementation sequence for the Authorization Code with PKCE:
 
 **Step 1:** Get the Authorization code
 
@@ -205,17 +203,11 @@ Steps for using **code_challenge** and **code_challenge_method** in PKCE flow.
 
 We provide the ready-to-use **code** to generate the **code_verifier** and **code_chalange**, please refer to this [document](/single-sign-on/tutorial/federated-sso/pkce-flow/#generatingpkcecodeverifierandchallenge0)
 
-  
-
-> **Note:**
-
-**The client_secret":** oidc Client Secret
-
-The provider will redirect you to the authentication/login page and you’ll get the code after successful authentication.
+The provider will redirect you to the authentication/login page and you'll get the code after successful authentication.
 
 **Step 2:** Exchange Code with Access Token
 
-In the code exchange request, we need to pass the code we have received through the above request and the code verifier that we have is generated in **Step 1**.
+In the code exchange request, we need to pass the code we have received through the above request, and the code verifier that we have is generated in **Step 1**.
 
 **API Endpoint:**
 ```
