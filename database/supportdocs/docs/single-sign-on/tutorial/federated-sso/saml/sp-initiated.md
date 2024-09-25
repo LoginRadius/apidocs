@@ -107,7 +107,7 @@ LoginRadius supports the following fields:
 
 **Step 10:** In the **Service Provider Logout URL**, enter the service provider logout URL (you will get the SLO URL from a third-party service provider). This Logout URL will be called in the Single Logout (SLO) SAML workflow.
 
-**Step 11:** The **Default Request Binding**, select any of the binding values from the drop-down as per the service provider configuration, we support both types of binding values by default it will be `urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST`.
+**Step 11:** To configure the **Default Request Binding**, select the appropriate binding value from the drop-down menu based on your service provider's configuration. LoginRadius supports both `HTTP-Redirect` and `HTTP-POST` binding types. By default, the binding is set to `urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST`, but you can adjust it according to your specific needs.
 
 **Step 12:** In **Assertion Consumer Service Location**, enter location (you will get this from your service provider).
 
