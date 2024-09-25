@@ -2,11 +2,12 @@
 
 LoginRadius provides a way to integrate your OpenID Connect client with LoginRadius, it supports standard [OpenID Connect specs](http://openid.net/specs/openid-connect-core-1_0.html).
 
-OpenID Connect 1.0 is a simple identity layer on top of the OAuth 2.0 protocol. It enables Clients to verify the identity of the End-User based on the authentication performed by an Authorization Server, as well as to obtain basic profile information about the End-User.
+
+OpenID Connect 1.0 is a user-friendly identity layer built on top of the OAuth 2.0 protocol. It allows Clients to authenticate End-Users by leveraging the Authorization Server's verification process while also providing access to key profile details of the End-User, such as name and email. By combining authentication with authorization, OpenID Connect simplifies the process of managing user identity in web and mobile applications, ensuring secure and seamless user experiences across different platforms.
 
 ## Configuration
 
-Following the steps, you can configure your OpenID Connect settings in the LoginRadius Admin Console.
+Following the below steps, you can configure your OpenID Connect settings in the LoginRadius Admin Console.
 
 1. Navigate to the [Platform Configuration > Federated SSO > OpenID Connect](https://adminconsole.loginradius.com/platform-configuration/access-configuration/federated-sso/openid-connect)
 
@@ -51,23 +52,24 @@ Following the steps, you can configure your OpenID Connect settings in the Login
 
   - **Login Redirect URL (Optional):** Whitelisted Callback Redirect URI.
 
-    > **Note:**  If left blank, the `redirect_uri` will be validated against the Globally Whitelisted list found in the [Deployment > Apps > Web Apps](https://adminconsole.loginradius.com/deployment/apps/web-apps) section of the Admin console. If a value is provided in this field, the `redirect_uri` will only be validated against the specified values and will not check the Globally Whitelisted URLs.
+    > **Note:**  If left blank, the redirect_uri will be validated against the globally whitelisted list found in the [Deployment > Apps > Web Apps](https://adminconsole.loginradius.com/deployment/apps/web-apps) section of the Admin Console. If a value is provided in this field, the redirect_uri will be validated only against the specified values and will not check the globally whitelisted URLs.
 
-  - **CORS Origin:** For Single Page Application, Native, and where Client Secret can not be kept confidential, JavaScript web origin will be whitelisted here for OIDC Rest API
+  - **CORS Origin:** For Single Page Applications, Native apps, and cases where the Client Secret cannot be kept confidential, the JavaScript web origin will be whitelisted here for the OIDC REST API.
 
-  - **Token Expiration (Seconds):** Specify the Access Token lifetime, and after that time, the Access Token will expire.
+  - **Token Expiration (Seconds):** 
+Specify the Access Token lifetime, after which the Access Token will expire and require re-authentication or a refresh to obtain a new one.
 
   - **ID Token Expiration (Seconds):** Specify the ID token lifetime, and after that time, the ID Token will expire.
 
   - **Refresh Token TTL (Seconds):** Specify the Refresh Token lifetime, and after that time, the Refresh Token will expire.
 
-  - **Force Reauthentication:** If checked, reauthentication is required for the authorization request. Otherwise, reauthentication is not applicable.
+  - **Force Reauthentication:** If checked, reauthentication is required for the authorization request. Otherwise, reauthentication will not be enforced.
 
   - **Signed User Info:** If checked, user info is returned as a signed JWT Token otherwise, it is in JSON format.
 
   - **Audiences:** Enter the resource server, which will accept the OIDC.
 
-  - **Data Mapping:** Enter your desired fields and how they map out. The left column is how they will show up in the JWT, the right column is the field name in the LoginRadius profile, you can either select through the list or search the profile key. Keep in mind that for some of the profile fields you will need to use dot notation to access them.
+  - **Data Mapping:** Enter your desired fields and specify how they should map. The left column represents how the fields will appear in the JWT, while the right column contains the corresponding field names from the LoginRadius profile. You can either select from the list or search for the profile key. Keep in mind that for certain profile fields, you may need to use dot notation to access nested data.
 
   - **Meta Data:** Specify the key-value pair of static non-profile data you want to receive in the ID Token payload.
 
@@ -113,25 +115,30 @@ Each flow requires going through an Authorization Endpoint, essentially the page
 
 ### Authorization Code Flow
 
-The authorization code flow (as the title implies) returns an authorization code that can then be exchanged for an identity token and/or access token. This requires client authentication using a client_id and a secret to retrieve tokens from the back end and has the benefit of not exposing tokens to the user agent (i.e. a web browser). This flow allows for long-lived access (through the use of refresh tokens). Clients using this flow must be able to maintain a secret.
+The authorization code flow, as the name implies, returns an authorization code that can be exchanged for an identity token and/or access token. This process requires client authentication using a `client_id` and a `client_secret` to retrieve tokens from the backend, offering the advantage of not exposing tokens to the user agent (e.g., a web browser). This flow supports long-lived access through the use of refresh tokens, and clients using this flow must be able to securely maintain a secret.
 
-This flow obtains the authorization code from the authorization endpoint and all tokens are returned from the token endpoint.
+In this flow, the authorization code is obtained from the authorization endpoint, and all tokens are returned from the token endpoint.
 
 ##### Opening the Login Dialog / Authorization Endpoint - Authorization Code Flow
 
 Redirect your user to the following URL to get the login prompt:
 
-`https://<siteurl>/service/oidc/{OIDCAppName}/authorize?client_id={OIDC Client ID}&redirect_uri={Callback URL}&scope={Scope}&response_type={one of the response_types available}&state={random long string}&scope=openid&nonce={Unique Generated nonce}`
+`https://<siteurl>/service/oidc/{OIDCAppName}/authorize?client_id={OIDC Client ID}&redirect_uri={Callback URL}&scope={Scope}&response_type={one of the response_types available}&state={random long string}&scope=openid&nonce={Unique generated nonce}`
 
-> **Note:** This **siteurl** field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of siteurl.
+> **Note:** This **siteurl** field contains the LoginRadius IDX/Custom Domain URL. For example, if your LoginRadius app name is "Company Name," then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, replace the siteurl with your custom domain value.
 
 <br>
-**Available Query Parameters **
+
+**Available Query Parameters**
+
   - client_id: OIDC Client ID
+
   - redirect_uri: Callback URL of your site where you want to redirect back your users
   - response_type : possible value is only 'code' to specify that you are doing the Authorization Code flow. 
   - state:  random string that returned with the access_token in the redirect callback. this parameter will be returned as it is, part of the response.
+
   - scope: To get values mapped in the admin console configuration you must need to pass the openid as value. If you are looking to get additional profile fields in the id_token, you can pass the additional scopes with **openid**. The list of supported scopes and claims in the id_token can be found [here](#listofscopesandclaims5)
+
   - nonce: a unique generated nounce.
 
 ##### Receiving the Code - Authorization Code Flow
@@ -156,7 +163,7 @@ Once you have the code you can request an access_token via the [Access token by 
 
 #### OpenID PKCE Flow
 
-PKCE is an extension to the Authorization Code flow to prevent certain attacks and to securely perform the OAuth/OIDC exchange from public clients. It is primarily used by mobile and JavaScript apps, but the technique can be applied to any client as well.
+PKCE is an extension of the Authorization Code flow designed to prevent certain attacks and securely perform the OAuth/OIDC exchange from public clients. It is primarily used by mobile and JavaScript applications, but the technique can also be applied to any client.
 
 ##### Implementation Steps
 
@@ -201,7 +208,7 @@ Steps for using **code_challenge** and **code_challenge_method** in PKCE flow.
 - **Generate the code challenge:** This is passed in the **code_challenge** as a query parameter in the Authorization process and will be generated with the help of the code_verifier value.
     
 
-We provide the ready-to-use **code** to generate the **code_verifier** and **code_chalange**, please refer to this [document](/single-sign-on/tutorial/federated-sso/pkce-flow/#generatingpkcecodeverifierandchallenge0)
+We provide the ready-to-use **code** to generate the **code_verifier** and **code_challenge**, please refer to this [document](/single-sign-on/tutorial/federated-sso/pkce-flow/#generatingpkcecodeverifierandchallenge0)
 
 The provider will redirect you to the authentication/login page and you'll get the code after successful authentication.
 
@@ -263,10 +270,12 @@ That's it and you've implemented **PKCE** flow in your application.
 
 ### Implicit Flow
 
-The implicit flow requests tokens without explicit client authentication, instead of using the redirect URI to verify the client identity. Because of this, refresh tokens are not allowed, nor is this flow suitable for long lived access tokens. From the client application's point of view, this is the simplest to implement, as there is only one round trip to the openid&nonce={Unique Generated nonce}`
+The implicit flow requests tokens without explicit client authentication, using the redirect URI to verify the client's identity instead. Because of this, refresh tokens are not allowed, and this flow is not suitable for long-lived access tokens. From the client application's perspective, this is the simplest implementation, as there is only one round trip to the `openid&nonce={Unique Generated nonce}`.
 
 <br>
-**Available Query Parameters **
+
+**Available Query Parameters**
+
   - client_id: OIDC Client ID
   - redirect_uri: Callback URL of your site where you want to redirect back your users
   - response_type : possible values are `token`, `id_token` or `token id_token`.
@@ -287,9 +296,9 @@ Should the customer authenticate successfully the tokens will be returned as fol
 
 ### Hybrid Flow
 
-The hybrid flow is a combination of aspects from the previous two. This flow allows the client to make immediate use of an identity token and retrieve an authorization code via one round trip to the authentication server. This can be used for long lived access (again, through the use of refresh tokens). Clients using this flow must be able to maintain a secret.
+The hybrid flow combines aspects from the previous two flows. This flow allows the client to immediately use an identity token and retrieve an authorization code through a single round trip to the authentication server. This enables long-lived access (again, through the use of refresh tokens). Clients using this flow must be able to securely maintain a secret.
 
-This flow can obtain an authorization code and tokens from the authorization endpoint, and can also request tokens from the token endpoint.
+In this flow, an authorization code and tokens can be obtained from the authorization endpoint, and tokens can also be requested from the token endpoint.
 
 ##### Opening the Login Dialog / Authorization Endpoint - Hybrid Flow
 
