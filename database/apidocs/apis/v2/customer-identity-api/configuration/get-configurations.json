@@ -214,7 +214,8 @@
       "IsEmailOTPAuthenticator": true,
       "IsSecurityQuestionAuthenticator": true,
       "IsSmsOTPAuthenticator": false,
-      "IsDuoSecurityAuthenticator": false
+      "IsDuoSecurityAuthenticator": false,
+      "IsPasskeyAuthenticator": false
     },
     "IsRememberMe": true,
     "V2RecaptchaSiteKey": "",
