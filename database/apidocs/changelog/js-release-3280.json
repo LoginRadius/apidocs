@@ -1,0 +1,15 @@
+{
+    "name": "JS Release 3.28.0",
+    "description": "This JavaScript release brings a new feature to our LoginRadius V2JS library. Please see below for details:",
+
+    "changelog": {
+        "ADDED": [
+            {
+                "text": "LoginRadius Hosted Page now supports Passkey as an option for Multi-Factor Authentication (MFA)."
+            }
+        ]
+    },
+    "auther": "Gurjyot Singh",
+    "created_date": "2024-10-02",
+    "status": "public"
+}
