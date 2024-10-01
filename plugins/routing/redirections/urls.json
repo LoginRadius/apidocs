@@ -7935,6 +7935,66 @@
 {
   "oldLink": "security/user-security/multi-factor-authentication",
   "newLink": "security/user-security/fraud-prevention/#multifactorauthentication4"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/overview",
+  "newLink": "api/v2/customer-identity-api/overview/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-check-email-availability",
+  "newLink": "api/v2/customer-identity-api/authentication/auth-email-availability/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-check-username-availability",
+  "newLink": "api/v2/customer-identity-api/authentication/auth-username-availability/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-check-phone-id-availability",
+  "newLink": "api/v2/customer-identity-api/phone-authentication/phone-number-availability/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-registration-by-email",
+  "newLink": "api/v2/customer-identity-api/authentication/auth-user-registration-by-email/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-registration-by-username",
+  "newLink": "api/v2/customer-identity-api/authentication/auth-user-registration-by-email/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-registration-by-phone-id",
+  "newLink": "api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-login-by-email",
+  "newLink": "api/v2/customer-identity-api/authentication/auth-login-by-email/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-login-by-username",
+  "newLink": "api/v2/customer-identity-api/authentication/auth-login-by-username/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-login-by-phone-id",
+  "newLink": "api/v2/customer-identity-api/phone-authentication/phone-login/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-get-profile",
+  "newLink": "api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-validate-access-token",
+  "newLink": "api/v2/customer-identity-api/session/validate-access-token/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-registration-by-recaptcha",
+  "newLink": "api/v2/customer-identity-api/authentication/auth-user-registration-by-recaptcha/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-registration-by-recaptcha",
+  "newLink": "api/v2/customer-identity-api/authentication/auth-user-registration-by-recaptcha/"
+},
+{
+  "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-add-email",
+  "newLink": "api/v2/customer-identity-api/authentication/auth-add-email/"
 }
 ]
 
