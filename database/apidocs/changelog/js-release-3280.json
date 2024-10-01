@@ -5,7 +5,7 @@
     "changelog": {
         "ADDED": [
             {
-                "text": "LoginRadius Hosted Page now supports Passkey as an option for Multi-Factor Authentication (MFA)."
+                "text": "LoginRadius Identity Experience Framework (IDX) now supports Passkey as an option for Multi-Factor Authentication (MFA)."
             }
         ]
     },
