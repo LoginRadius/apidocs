@@ -1,0 +1,14 @@
+{
+  "name": "Core API Release 36.11.0",
+  "description": "We have rolled out another version of the Core APIs, which brings you a new features. Please see below for details.",
+  "changelog": {
+    "ADDED": [
+      {
+        "text": "Introducing a new feature <a href='/docs/authentication/concepts/session-management/#partrestrictloginsharing7'>Restrict Login Sharing</a> that gives the capability to limit the number of active sessions per user account. All LoginRadius APIs that return user profiles will now include the `SessionsLimit` attribute when the feature is enabled."
+      }
+    ]
+  },
+  "auther": "Gurjyot Singh",
+  "created_date": "2024-10-04",
+  "status": "public"
+}
