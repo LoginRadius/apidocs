@@ -101,8 +101,29 @@ The following displays the Identity Experience Framework page with the **Remembe
 
 ![Remember Me](https://apidocs.lrcontent.com/images/remeberme_12275637d29792f3b07.68970562.png "Remember Me")
 
-## Part 4 - Next Steps 
+## Part 4 - Restrict Login Sharing
 
+### Overview
+
+The Restrict Login Sharing feature addresses the challenge of password sharing by limiting the number of active sessions per account. This feature helps ensure that only authorized users can access the account.
+
+### How It Works
+
+When a user attempts to log in, the system checks whether the Restrict Login Sharing feature is enabled. If it is, the system then verifies the number of active sessions associated with the user. The active session count is compared against the globally configured session limits (AppConfig), with priority given to Identity-level (user level) limits before considering the application configuration settings. 
+
+Below are the scenarios where the system prevents the login attempt:
+
+- **Scenario 1:** If the AppConfig session limit is 3 and the Identity session limit is 5, a user can have up to 5 active sessions.
+
+- **Scenario 2:** If the AppConfig session limit is 3 and there is no Identity session limit set, the user can have up to 3 active sessions.
+
+- **Scenario 3:** If both AppConfig and Identity session limits are set, the system will enforce the stricter limit.
+
+In all scenarios, if a user tries to exceed their session limit, they will be notified that the session limit has been reached.
+
+> **Note:** To enable this feature, reach out to [LoginRadius support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
+
+## Part 5 - Next Steps 
 
 The following is the list of features you might want to add-on to the above implementation:
 
