@@ -1097,7 +1097,12 @@
       }
     ],
     "Passkey": [
-        {
+      {
+        "url": "v2/customer-identity-api/passkey/overview/",
+        "title": "Overview",
+        "type": "DOC"
+      },
+      {
         "url": "v2/customer-identity-api/passkey/registration-begin-by-passkey/",
         "title": "Registration Begin by Passkey",
         "type": "GET"
