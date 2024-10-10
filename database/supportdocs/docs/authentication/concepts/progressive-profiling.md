@@ -207,7 +207,7 @@ The following displays the Progressive Profiling option on the IDX Profile page:
 
 ### JavaScript Deployment
 
-The following are the sequential steps to deploy the passwordless feature using the LoginRadius JavaScript Libraries:
+The following are the sequential steps to deploy the Progressive Profiling feature using the LoginRadius JavaScript Libraries:
 
 **Step 1:** Include the LoginRadius JavaScript Libraries, as explained below:
 
