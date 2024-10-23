@@ -9,6 +9,10 @@
     "emailid": "",
     "emailtemplate":"" 
   },
+  "postparams": "",
+  "headers": {
+      "content-Type": "application/json"
+  },
   "response": "json",
   "description": "This API is used to send the email OTP for the Step-Up authentication.",
   "parameters": {
