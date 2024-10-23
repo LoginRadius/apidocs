@@ -1541,6 +1541,16 @@
           "type": "DOC"
         },
         {
+          "url": "v2/customer-identity-api/step-up-authentication/send-email-otp-for-step-up-auth-without-mfa/",
+          "title": "Send Email OTP for Step-Up Authentication",
+          "type": "GET"
+        },
+        {
+          "url": "v2/customer-identity-api/step-up-authentication/verify-email-otp-for-step-up-auth-without-mfa/",
+          "title": "Verify Email OTP for Step-Up Authentication",
+          "type": "PUT"
+        },
+        {
           "url": "v2/customer-identity-api/step-up-authentication/step-up-auth-by-password/",
           "title": "Step-Up Authenticate By Password",
           "type": "PUT"
