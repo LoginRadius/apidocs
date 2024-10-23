@@ -15,7 +15,7 @@
       "content-Type": "application/json"
   },
   "response": "json",
-  "description": "This API is used to verify the email OTP for the Step-Up authentication.",
+  "description": "This API is used to verify the email OTP for the Step-Up authentication without Multi-Factor Authentication (MFA) configuration.",
   "parameters": {
     "Get Params": [
       {
