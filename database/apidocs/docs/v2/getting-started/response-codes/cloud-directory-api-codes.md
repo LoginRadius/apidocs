@@ -51,6 +51,7 @@ This section details the LoginRadius Cloud Directory API codes and some suggesti
 |999| Site is not configured for custom object | The custom object is not configured for this site, Please contact LoginRadius support for more information. | Not in Use |
 |1000| Oops, something is going wrong. please try again | Oops, something is going wrong. please try again. | 403 |
 |1003| Schema is not set for the passed Custom Object | The Custom Object schema is not set in Admin Console. Schema should be set to query Custom Object. Please contact LoginRadius Support. | 400 |
+|1023|Email address does not exist| The provided email address does not exist, please use a valid email address.| 400 |
 |1036| The Custom Object name is required | The Custom Object name is required, please pass a Custom Object name. | 400 |
 |1042| Pass a valid next param | The next param passed expired. Please start with a POST request again. | 403 |
 |1043| Pass a valid next param | The next param is missing. Please start with a POST request to get next value. | 403 |
