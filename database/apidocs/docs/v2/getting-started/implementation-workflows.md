@@ -4,8 +4,7 @@
 
 The LoginRadius platform offers a range of implementation methodologies, enabling you to tailor user flows to your needs. Below, we will go over the various workflows, their benefits, and some useful resources for implementing the different workflows. You can choose any of these methodologies or combine features from each. If you need assistance in determining the best system for your needs, contact the LoginRadius support team for help with planning your implementation.
 
-![Layer of abstraction](https://apidocs.lrcontent.com/images/Untitled_97355647666be4add9bcd46.27337248.png "Layer of abstraction")
-
+![layers of abstraction](https://apidocs.lrcontent.com/images/Picsart_24-10-23_23-35-52-429_93251827967193bdac5a737.08445487.png "layers of abstraction")
 
 
 ## Identity Experience Framework(IDx)
