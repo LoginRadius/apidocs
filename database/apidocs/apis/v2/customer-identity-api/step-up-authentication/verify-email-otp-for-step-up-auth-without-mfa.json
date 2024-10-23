@@ -31,16 +31,16 @@
     ],
     "Post Params": [
       {
-      "name": "emailid",
-      "is_required": false,
-      "description": "Required user's email ID"
-    },
-    {
-      "name": "otp",
-      "is_required": true,
-      "description": "The One Time Passcode sent to the user"      
-    }
-  ]
+        "name": "emailid",
+        "is_required": false,
+        "description": "Required user's email ID"
+      },
+      {
+        "name": "otp",
+        "is_required": true,
+        "description": "The One Time Passcode sent to the user"      
+      }
+    ]
   },
   "outputFormat": 
   {
