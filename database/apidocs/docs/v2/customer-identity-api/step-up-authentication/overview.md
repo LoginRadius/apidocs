@@ -29,3 +29,23 @@ All of the Step-Up Authentication APIs have the following pattern:
 3. Consumer will select an email and [GET Send MFA Step-Up Authentication Email OTP by Access Token](/api/v2/customer-identity-api/step-up-authentication/mfa/send-mfa-step-up-auth-email-otp-by-access-token/) API will be called. It will send an OTP on email.
 
 4. Consumer will pass the OTP and will get verify using [PUT MFA Step-Up Authentication by Email OTP](/api/v2/customer-identity-api/step-up-authentication/mfa/mfa-step-up-authentication-by-email-otp/) API
+
+## Step-Up Authentication by Email OTP (without MFA)
+
+This section describes the extended functionality of Step-Up Authentication using Email OTP, allowing authentication without MFA (Multi-Factor Authentication) being enabled.
+
+### Overview
+
+The Step-Up Authentication by Email OTP feature enables re-authentication of a user after they have logged in. This can now be performed without requiring MFA to be enabled.
+
+### Process Flow
+
+1. **Login & Access Token Retrieval:** The user logs in using their standard credentials, and an access token is obtained upon successful login.
+
+2. **Send OTP to User:** The OTP process is initiated by providing the necessary parameters, including the user's email ID. The [Send Email OTP for Step Up Authentication](/api/v2/customer-identity-api/step-up-authentication/send-email-otp-for-step-up-auth-without-mfa/) API sends an OTP to the provided email address.
+
+3. **OTP Verification:** The user provides the OTP, which is leveraged in the [Verify Email OTP for Step Up Authentication](/api/v2/customer-identity-api/step-up-authentication/verify-email-otp-for-step-up-auth-without-mfa/) API. Upon successful verification, a SecondFactorToken is received in the API response.
+
+4. **Verify SecondFactorToken:** The SecondFactorToken is then verified to proceed with further actions, ensuring a successful authentication.
+
+This extended functionality allows secure authentication via Email OTP even when MFA is not enabled, ensuring flexible re-authentication options for various use cases.
