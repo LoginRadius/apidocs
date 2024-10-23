@@ -1,0 +1,50 @@
+{
+  "name": "Verify Email OTP for Step Up Authentication",
+  "domain":"https://api.loginradius.com",
+  "path": "/identity/v2/auth/account/reauth/otp/email",
+  "method": "PUT",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "access_token*": ""
+  },
+  "postparams": {
+    "emailid": "xyz@example.com",
+    "OTP": "xxxxxx"
+  },
+  "headers": {
+      "content-Type": "application/json"
+  },
+  "response": "json",
+  "description": "This API is used to verify the email OTP for the Step-Up authentication.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key."
+      },
+      {
+        "name": "access_token",
+        "is_required": true,
+        "description": "LoginRadius Access Token."
+      }
+    ],
+    "Post Params": [
+      {
+        "name": "emailid",
+        "is_required": false,
+        "description": "Required user's email ID"
+      },
+      {
+        "name": "otp",
+        "is_required": true,
+        "description": "The One Time Passcode sent to the user"      
+      }
+    ]
+  },
+  "outputFormat": 
+  {
+      "SecondFactorValidationToken": "e1******-****-****-b**e-e8*******cc7",
+      "ExpireIn": "2024-11-13T06:25:42.8937286Z"
+  } 
+}
