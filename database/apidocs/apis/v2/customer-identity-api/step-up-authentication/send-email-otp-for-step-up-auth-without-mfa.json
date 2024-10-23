@@ -1,0 +1,41 @@
+{
+  "name": "Send Email OTP for Step Up Authentication",
+  "domain":"https://api.loginradius.com",
+  "path": "/identity/v2/auth/account/reauth/otp/email",
+  "method": "GET",
+  "getparams": {
+    "apikey*": "@apikey@",
+    "access_token*": "",
+    "emailid": "",
+    "emailtemplate":"" 
+  },
+  "response": "json",
+  "description": "This API is used to send the email OTP for the Step-Up authentication.",
+  "parameters": {
+    "Get Params": [
+      {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key."
+      },
+      {
+        "name": "access_token",
+        "is_required": true,
+        "description": "LoginRadius Access Token."
+      },
+      {
+        "name": "emailid",
+        "is_required": false,
+        "description": "OTP will be send to this email address."
+      },
+      {
+        "name": "emailtemplate",
+        "is_required": false,
+        "description": "Email template to be sent."
+      }
+    ]
+  },
+  "outputFormat": {
+    "IsPosted": true
+  }
+}
