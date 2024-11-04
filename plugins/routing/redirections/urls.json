@@ -7995,6 +7995,10 @@
 {
   "oldLink": "api/v2/customer-identity-api/high-concurrency-api-stack/hcas-add-email",
   "newLink": "api/v2/customer-identity-api/authentication/auth-add-email/"
+},
+ {
+  "oldLink":"api/v2/customer-identity-api/form-api",
+  "newLink":"api/v2/customer-identity-api/overview/"
 }
 ]
 
