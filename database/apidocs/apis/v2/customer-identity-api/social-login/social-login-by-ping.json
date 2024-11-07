@@ -1,6 +1,6 @@
 
 { 
-    "name": "SocialLogin by ping",
+    "name": "Social Login by Ping",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/account/ping",
     "method": "GET",
@@ -16,7 +16,7 @@
         "content-Type": "application/x-www-form-urlencoded"
     },
     "response": "json",
-    "description": "This is used to get social profile data from the user’s social account after authentication.<br><br><b>Supported Providers:</b>  All",
+    "description": "This is used to get social profile data from the user's social account after authentication.<br><br><b>Supported Providers:</b>  All",
     "parameters": {
         "Get Params": [
           {
@@ -27,12 +27,12 @@
           {
             "name": "clientguid",
             "is_required": true,
-            "description": "Unique string used in the Smart Login request"
+            "description": "When a user initiates a social login (e.g., via Facebook or Google), the request is sent to RequestHandler.aspx. If the NoCallback feature is enabled, this request includes a Client GUID as a query string parameter. The Client GUID is a unique identifier for that specific login session."
           },
           {
             "name": "verificationurl",
             "is_required": false,
-            "description": "Email Verification Url"
+            "description": "Email Verification URL"
           },
           {
             "name": "emailtemplate",

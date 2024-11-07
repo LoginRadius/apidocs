@@ -1,4 +1,4 @@
-# Social Login Getting Started
+# Social Login
 
 This component of Customer Registration allows your customers to skip the forms by automatically creating customer profiles. This enables them to sign-in to your website with their existing social media accounts like Facebook, Twitter, and Google+.
 
