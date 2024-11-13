@@ -1,0 +1,42 @@
+{
+    "name": "Account MFA Passkey Authenticator",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/account/2fa/authenticator/passkey",
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@",
+        "uid": ""
+    },
+"postparams":"",
+"headers":{
+    "content-Type":"application/json",
+    "Authorization":"Bearer "
+},
+"response":"json",
+"description": "This API is used to  list user passkeys with managed API",
+"parameters": {
+    "Get Params": [
+        {
+            "name": "apikey",
+            "is_required": true,
+            "description": "The API key of the LoginRadius account"
+        },
+        {
+            "name": "apisecret",
+            "is_required": true,
+            "description": "The API secret of the LoginRadius account"
+        },
+        {
+            "name": "uid",
+            "is_required": true,
+            "description": "The UID associated with the user"
+        }
+    ]
+},
+"outputFormat": 
+{
+    "IsDeleted": true  
+}
+
+}
