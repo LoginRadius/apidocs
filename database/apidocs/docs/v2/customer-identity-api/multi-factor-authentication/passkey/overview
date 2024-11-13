@@ -5,33 +5,33 @@ The **MFA Passkey APIs** enable multi-factor authentication through passkeys, pr
 ## API Endpoints
 
 1. **Registering a Passkey for MFA**:
-   - [Account Passkey MFA Register Begin](v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-begin/)
-   - [Account Passkey MFA Register Finish](v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-finish/)
+   - [Account Passkey MFA Register Begin](/api/v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-begin/)
+   - [Account Passkey MFA Register Finish](/api/v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-finish/)
    - These APIs allow users to initiate and complete the registration of a passkey as an MFA method.
 
 2. **Verifying Passkey for MFA**:
-   - [Passkey MFA Verify Begin](v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-begin/)
-   - [Passkey MFA Verify Finish](v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-finish/)
+   - [Passkey MFA Verify Begin](/api/v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-begin/)
+   - [Passkey MFA Verify Finish](/api/v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-finish/)
    - These APIs are used to start and finish the verification process, where users authenticate with their registered passkey as a secondary authentication factor.
 
 3. **Resetting Passkey Authenticator for MFA**:
-   - [Reset MFA Passkey Authenticator](v2/customer-identity-api/multi-factor-authentication/passkey/reset-mfa-passkey-authenticator/)
-   - [Account Reset MFA Passkey Authenticator](v2/customer-identity-api/multi-factor-authentication/passkey/account-reset-mfa-passkey-authenticator/)
+   - [Reset MFA Passkey Authenticator](/api/v2/customer-identity-api/multi-factor-authentication/passkey/reset-mfa-passkey-authenticator/)
+   - [Account Reset MFA Passkey Authenticator](/api/v2/customer-identity-api/multi-factor-authentication/passkey/account-reset-mfa-passkey-authenticator/)
    - These APIs help reset the passkey authenticator, enabling users to re-register a passkey if needed.
 
 ## Sample Use Cases
 
 1. **User Onboarding with MFA Passkey Registration**:
    - During the user onboarding process, a company might require the user to register a passkey as an MFA option for enhanced security.
-   - The process begins with [Account Passkey MFA Register Begin](v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-begin/) to initiate passkey registration and completes with [Account Passkey MFA Register Finish](v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-finish/).
+   - The process begins with [Account Passkey MFA Register Begin](/api/v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-begin/) to initiate passkey registration and completes with [Account Passkey MFA Register Finish](v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-finish/).
 
 2. **Secure Login with Passkey Verification**:
    - When a user logs in, the system can trigger an MFA challenge using passkeys.
-   - The [Passkey MFA Verify Begin](v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-begin/) API starts the verification, and [Passkey MFA Verify Finish](v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-finish/) completes the authentication once the user provides the correct passkey.
+   - The [Passkey MFA Verify Begin](/api/v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-begin/) API starts the verification, and [Passkey MFA Verify Finish](v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-finish/) completes the authentication once the user provides the correct passkey.
 
 3. **Passkey Reset Due to Device Change**:
    - If a user changes their device or loses access to their registered passkey, they may need to reset their MFA passkey authenticator.
-   - The [Account Reset MFA Passkey Authenticator](v2/customer-identity-api/multi-factor-authentication/passkey/account-reset-mfa-passkey-authenticator/) API allows them to remove the existing passkey setup and re-register a new one.
+   - The [Account Reset MFA Passkey Authenticator](/api/v2/customer-identity-api/multi-factor-authentication/passkey/account-reset-mfa-passkey-authenticator/) API allows them to remove the existing passkey setup and re-register a new one.
 
 ## Benefits of Using Passkeys
 
