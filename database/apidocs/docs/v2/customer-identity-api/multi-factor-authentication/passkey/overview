@@ -23,11 +23,11 @@ The **MFA Passkey APIs** enable multi-factor authentication through passkeys, pr
 
 1. **User Onboarding with MFA Passkey Registration**:
    - During the user onboarding process, a company might require the user to register a passkey as an MFA option for enhanced security.
-   - The process begins with [Account Passkey MFA Register Begin](/api/v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-begin/) to initiate passkey registration and completes with [Account Passkey MFA Register Finish](v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-finish/).
+   - The process begins with [Account Passkey MFA Register Begin](/api/v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-begin/) to initiate passkey registration and completes with [Account Passkey MFA Register Finish](/api/v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-finish/).
 
 2. **Secure Login with Passkey Verification**:
    - When a user logs in, the system can trigger an MFA challenge using passkeys.
-   - The [Passkey MFA Verify Begin](/api/v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-begin/) API starts the verification, and [Passkey MFA Verify Finish](v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-finish/) completes the authentication once the user provides the correct passkey.
+   - The [Passkey MFA Verify Begin](/api/v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-begin/) API starts the verification, and [Passkey MFA Verify Finish](/api/v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-finish/) completes the authentication once the user provides the correct passkey.
 
 3. **Passkey Reset Due to Device Change**:
    - If a user changes their device or loses access to their registered passkey, they may need to reset their MFA passkey authenticator.
