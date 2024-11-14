@@ -1,5 +1,5 @@
 {
-    "name": "Passkey MFA verify begin",
+    "name": "Passkey MFA Verify Begin",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/login/2fa/passkey/begin",
     "method": "GET",

@@ -1,5 +1,5 @@
 {
-    "name": " Passkey MFA register finish",
+    "name": "Passkey MFA Register Finish",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/login/2fa/register/passkey/finish",
     "method": "Post",
