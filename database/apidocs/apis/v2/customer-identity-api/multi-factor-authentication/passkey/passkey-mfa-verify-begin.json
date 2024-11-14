@@ -31,7 +31,7 @@
     {
         "LoginBeginCredential": {
             "publicKey": {
-                "challenge": "G2xndJdL-QIPY-dqRoGqIqRF0AUvdmpB_Xzwesbzgto",
+                "challenge": "G2xndJdL-QIPY-dqRoGqIqRF0AUvdmpB_XZwesbzgto",
                 "timeout": 60000,
                 "rpId": "localhost",
                 "allowCredentials": [
