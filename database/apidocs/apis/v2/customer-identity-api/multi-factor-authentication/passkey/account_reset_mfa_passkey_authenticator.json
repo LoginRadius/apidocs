@@ -1,5 +1,5 @@
 {
-    "name": "Account MFA Passkey Authenticator",
+    "name": "Account Reset MFA Passkey Authenticator",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/account/2fa/authenticator/passkey",
     "method": "DELETE",

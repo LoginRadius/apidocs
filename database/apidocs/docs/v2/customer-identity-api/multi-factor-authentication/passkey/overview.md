@@ -1,6 +1,6 @@
 # MFA Passkey API Overview
 
-The **MFA Passkey APIs** enable multi-factor authentication through passkeys, providing an additional layer of security for user authentication. These APIs support the registration, verification, and reset of passkeys for MFA purposes. The following are the key API functions available in this suite:
+The **MFA Passkey APIs** enable multi-factor authentication through passkeys, providing an additional layer of security for user authentication. These APIs support the registration, verification, and reset of passkeys for MFA purposes. The following are the key API functions available in this suite.
 
 ## API Endpoints
 
