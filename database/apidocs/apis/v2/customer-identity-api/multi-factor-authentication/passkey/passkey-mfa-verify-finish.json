@@ -17,7 +17,7 @@
         "authenticatorData": "SZYN5YgOjGh0NBcPZHZgW4_krrmihjLHmVzzuoMdl2MFAAAAAw",
         "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoidk53VExwc0lUT2ZCWVEwS1c4ZURkNTRGT01PdmhjazZuLV85amN1MFBqOCIsIm9yaWdpbiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
         "signature": "MEQCICVYd4CBBsGs5pF3oNdiro3WUnA2uUPQpUN8WlWz7nYgAiAE0XqF0U86ciFLARH5OzDPP3NTs83Hdx3jbstSr86O_A",
-        "userHandle": ""
+        "userHandle": " "
       }
     }
   },

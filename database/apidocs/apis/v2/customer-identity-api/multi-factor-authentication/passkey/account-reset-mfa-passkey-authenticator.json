@@ -14,7 +14,7 @@
     "Authorization":"Bearer "
 },
 "response":"json",
-"description": "This API is used to  list user passkeys with managed API",
+"description": "This API is used to  list user passkeys with managed API ",
 "parameters": {
     "Get Params": [
         {
