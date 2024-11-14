@@ -1,0 +1,243 @@
+{
+    "name": "Account: Passkey MFA register finish",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/account/2fa/register/passkey/finish",
+    "method": "Post",
+    "getparams": {
+        "apikey*": "@apikey@",
+           "Authorization":"Bearer "
+    },
+    "postparams":{
+  "Email": [
+    {
+      "Type": "Primary",
+      "Value": ""
+    }
+  ],
+  "PasskeyCredential": {
+    "id": "",
+    "rawId": "",
+    "type": "public-key",
+    "response": {
+      "attestationObject": "",
+      "clientDataJSON": ""
+    }
+  },
+  "FirstName": "Test",
+  "MiddleName": null,
+  "LastName": "Account",
+  "Suffix": null,
+  "FullName": "Test Account",
+  "NickName": null,
+  "ProfileName": null,
+  "BirthDate": "10-12-1985",
+  "Gender": "M",
+  "Website": null,
+  "Password": "******",
+  "PINInfo": {
+      "PIN": "",
+      "Skipped": true
+  },
+  "Consents": {
+      "Events": [
+          {
+              "Event": "Register",
+              "IsCustom": false
+          }
+      ],
+      "Data": [
+          {
+              "ConsentOptionId": "someid",
+              "IsAccepted": true
+          }
+      ]  
+    },
+  "Country": {
+      "Code": "",
+      "Name": "India"
+  },
+  "ThumbnailImageUrl": null,
+  "ImageUrl": null,
+  "Favicon": null,
+  "ProfileUrl": null,
+  "HomeTown": null,
+  "State": "Alberta",
+  "City": "Edmonton",
+  "Industry": null,
+  "About": null,
+  "TimeZone": null,
+  "LocalLanguage": null,
+  "CoverPhoto": null,
+  "TagLine": null,
+  "Positions": [
+      {
+          "Positions": "astronaut",
+          "Summary": "An astronaut.",
+          "StartDate": "",
+          "EndDate": "",
+          "IsCurrent": "",
+          "Location": "",
+          "Company": {
+              "Name": "",
+              "Type": "",
+              "Industry": ""
+          }
+      }
+  ],
+  "Educations": [
+      {
+          "School": null,
+          "year": null,
+          "type": null,
+          "notes": null,
+          "activities": null,
+          "degree": null,
+          "fieldofstudy": null,
+          "StartDate": null,
+          "EndDate": null
+      }
+  ],
+  "PhoneNumbers": [
+      {
+          "PhoneType": "Mobile",
+          "PhoneNumber": "***********"
+      }
+  ],
+  "IMAccounts": [
+      {
+          "AccountType": "personal",
+          "AccountName": "AccountName"
+      }
+  ],
+  "Addresses": [
+      {
+          "Type": "Primary",
+          "Address1": null,
+          "Address2": null,
+          "City": "Edmonton",
+          "State": "Alberta",
+          "PostalCode": null,
+          "Region": null,
+          "Country": "Canada"
+      }
+  ],
+  "MainAddress": null,
+  "LocalCity": null,
+  "ProfileCity": "Edmonton",
+  "LocalCountry": null,
+  "ProfileCountry": "Canada",
+  "IsProtected": false,
+  "RelationshipStatus": null,
+  "Quota": null,
+  "Quote": null,
+  "InterestedIn": [
+      "blah",
+      "blah"
+  ],
+  "Interests": [
+      {
+          "InterestedType": null,
+          "InterestedName": null
+      }
+  ],
+  "Religion": null,
+  "Political": null,
+  "Sports": [
+      {
+          "Id": null,
+          "Name": null
+      }
+  ],
+  "InspirationalPeople": [
+      {
+          "Id": null,
+          "Name": null
+      }
+  ],
+  "HttpsImageUrl": null,
+  "FollowersCount": 0,
+  "FriendsCount": 0,
+  "IsGeoEnabled": null,
+  "TotalStatusesCount": 0,
+  "Associations": null,
+  "NumRecommenders": 0,
+  "Honors": null,
+  "Awards": null,
+  "Skills": null,
+  "CurrentStatus": null,
+  "Certifications": null,
+  "Courses": null,
+  "Volunteer": null,
+  "RecommendationsReceived": null,
+  "Languages": null,
+  "Projects": null,
+  "Games": null,
+  "Family": null,
+  "TeleVisionShow": null,
+  "MutualFriends": null,
+  "Movies": null,
+  "Books": null,
+  "AgeRange": null,
+  "PublicRepository": null,
+  "Hireable": false,
+  "RepositoryUrl": null,
+  "Age": null,
+  "Patents": null,
+  "FavoriteThings": null,
+  "ProfessionalHeadline": null,
+  "ProviderAccessCredential": null,
+  "RelatedProfileViews": null,
+  "LRUserID": null,
+  "PlacesLived": null,
+  "Publications": null,
+  "JobBookmarks": null,
+  "Suggestions": null,
+  "Badges": null,
+  "MemberUrlResources": null,
+  "TotalPrivateRepository": 0,
+  "Currency": null,
+  "StarredUrl": null,
+  "GistsUrl": null,
+  "PublicGists": 0,
+  "PrivateGists": 0,
+  "Subscription": null,
+  "Company": null,
+  "GravatarImageUrl": null,
+  "ProfileImageUrls": null,
+  "WebProfiles": {
+      "Small": "https://graph.facebook.com/*****/picture?type=small",
+      "Square": "https://graph.Profile.com/*****/picture?type=square",
+      "Large": "https://graph.facebook.com/*****/picture?type=large",
+      "Profile": "https://graph.facebook.com/******/picture?type=normal"
+  },
+  "Uid": "xxxx",
+  "CustomFields": null,
+  "IsEmailSubscribed": false,
+  "UserName": null,
+  "PhoneId": "***********"
+},
+    "headers":{
+        "content-Type":"application/json"
+    },
+    "response":"json",
+    "description": "This API is used to register a mobile device app for Push MFA, It will be used when Push MFA is enabled on the LoginRadius account.",
+    "parameters":{
+        "Get Params": [
+        {
+            "name": "apikey",
+            "is_required": true,
+            "description": "LoginRadius API Key"
+        }
+    ]
+},
+    "outputFormat": 
+{
+            "IsPosted": true,
+              "access_token": "",
+              "refresh_token": "",
+              "expires_in": "",
+              "session_token": "",
+              "session_expires_in": "",
+              "Profile": ""
+          
+}}
