@@ -1,5 +1,5 @@
 {
-    "name": "Account Passkey MFA Register Finish",
+    "name": "Passkey MFA Register Finish using access token",
     "domain": "https://api.loginradius.com",
     "path": "/identity/v2/auth/account/2fa/register/passkey/finish",
     "method": "Post",
@@ -220,13 +220,17 @@
         "content-Type":"application/json"
     },
     "response":"json",
-    "description": "This API is used to register a mobile device app for Push MFA, It will be used when Push MFA is enabled on the LoginRadius account.",
+    "description": "This API is used to finish the MFA passkey registration in the account using the Access token.",
     "parameters":{
         "Get Params": [
         {
             "name": "apikey",
             "is_required": true,
             "description": "LoginRadius API Key"
+        },{
+            "name": "access_token",
+            "is_required": true,
+            "description": "User's access token"
         }
     ]
 },

@@ -5,7 +5,7 @@
     "method": "GET",
     "getparams": {
         "apikey*": "@apikey@",
-        "Authorization":"Bearer "
+        "secondfactorauthenticationtoken*":""
     },
     "postparams":"",
     "headers":{
@@ -18,12 +18,11 @@
                 "name": "apikey",
                 "is_required": true,
                 "description": "LoginRadius API Key"
-            } ],
-            "Headers Parameters": [{
-                    "name": "Authorization",
-                    "is_required": true,
-                    "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access_token)"
-                }]	
+            }, {
+                "name": "secondfactorauthenticationtoken",
+                "is_required": true,
+                "description": "SecondFactorAuthenticationToken from the response of 2FA authentication API"
+            }]
     },
     "outputFormat": 
     {

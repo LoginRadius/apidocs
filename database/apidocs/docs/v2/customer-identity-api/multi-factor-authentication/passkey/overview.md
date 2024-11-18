@@ -5,8 +5,8 @@ The **MFA Passkey APIs** enable multi-factor authentication through passkeys, pr
 ## API Endpoints
 
 1. **Registering a Passkey for MFA**:
-   - [Account Passkey MFA Register Begin](/api/v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-begin/)
-   - [Account Passkey MFA Register Finish](/api/v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-finish/)
+   - [Passkey MFA Register Begin using Access Token](/api/v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-register-begin-using-access-token/)
+   - [Passkey MFA Register Finish using Access Token](/api/v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-register-finish-using-access-token/)
    - These APIs allow users to initiate and complete the registration of a passkey as an MFA method.
 
 2. **Verifying Passkey for MFA**:
