@@ -1,0 +1,47 @@
+{
+    "name": "Passkey MFA Verify Begin",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/login/2fa/passkey/begin",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "secondfactorauthenticationtoken*":""
+    },
+    "postparams":"",
+    "headers":{
+        "content-Type":"application/json"
+    },
+    "response":"json",
+    "description": "This API is used to begin the MFA passkey verification flow. In the query parameter, we will pass the second-factor token",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "secondfactorauthenticationtoken",
+                "is_required": true,
+                "description": "SecondFactorAuthenticationToken from the response of 2FA authentication API"
+            }
+        ]
+    },
+    "outputFormat": 
+    {
+        "LoginBeginCredential": {
+            "publicKey": {
+                "challenge": "G2xndJdL-QIPY-dqRoGqIqRF0AUvdmpB_XZwesbzgto",
+                "timeout": 60000,
+                "rpId": "localhost",
+                "allowCredentials": [
+                    {
+                        "type": "public-key",
+                        "id": "IiUHeDqz9v1IGc6SeLVXAUiMDfA-ZYKZUhWOC1WDfESyjHaK9XBhB_18PeaoGHaAbi4V6p653vfvgshKvjYetg"
+                    }
+                ],
+                "userVerification": "preferred"
+            }
+        }
+    }
+}
