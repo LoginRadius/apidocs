@@ -1,0 +1,62 @@
+{
+    "name": "Passkey MFA Verify Finish",
+    "domain": "https://api.loginradius.com",
+    "path": "/identity/v2/auth/login/2fa/passkey/finish",
+    "method": "Post",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "secondfactorauthenticationtoken*":""
+    },
+"postparams":{
+    "PasskeyCredential": {
+      "id": "IiUHeDqz9v1IGc6SeLVXAUiMDfA-ZYKZUhWOC1WDfESyjHaK9XBhB_18PeaoGHaAbi4V6p653vfvgshKvjYetg",
+      "rawId": "IiUHeDqz9v1IGc6SeLVXAUiMDfA-ZYKZUhWOC1WDfESyjHaK9XBhB_18PeaoGHaAbi4V6p653vfvgshKvjYetg",
+      "type": "public-key",
+      "authenticatorAttachment": "cross-platform",
+      "response": {
+        "authenticatorData": "SZYN5YgOjGh0NBcPZHZgW4_krrmihjLHmVzzuoMdl2MFAAAAAw",
+        "clientDataJSON": "eyJ0eXBlIjoid2ViYXV0aG4uZ2V0IiwiY2hhbGxlbmdlIjoidk53VExwc0lUT2ZCWVEwS1c4ZURkNTRGT01PdmhjazZuLV85amN1MFBqOCIsIm9yaWdpbiI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MCIsImNyb3NzT3JpZ2luIjpmYWxzZX0",
+        "signature": "MEQCICVYd4CBBsGs5pF3oNdiro3WUnA2uUPQpUN8WlWz7nYgAiAE0XqF0U86ciFLARH5OzDPP3NTs83Hdx3jbstSr86O_A",
+        "userHandle": " "
+      }
+    }
+  },
+"headers":{
+    "content-Type":"application/json"
+},
+"response":"json",
+"description": "This API is used to finish the MFA passkey verification flow. In the query parameter, we will pass the second-factor token",
+"parameters":{
+    "Get Params": [
+    {
+        "name": "apikey",
+        "is_required": true,
+        "description": "LoginRadius API Key"
+    },
+    {
+        "name": "secondfactorauthenticationtoken",
+        "is_required": true,
+        "description": "SecondFactorAuthenticationToken from the response of 2FA authentication API"
+    }
+]
+},
+"outputFormat": 
+{
+    "Profile": {
+        "Identities": null,
+        "Email": [
+            {
+                "Type": "Primary",
+                "Value": "example@mail.com"
+            }
+        ],
+        "PasskeyLogin": {
+            "ProgressiveEnrollmentDate": "2024-08-09T05:12:50.704Z",
+            "ProgressiveFlag": false,
+            "LocalEnrollmentFlag": false
+        }
+    },
+    "access_token": "66b5e224-a25b-4ec1-8771-5ed70b32020a",
+    "refresh_token": "66b5e224-1203-400f-893a-8bf00afb0201",
+    "expires_in": "2024-08-10T10:32:20.895Z"
+}}
