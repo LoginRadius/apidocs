@@ -1,11 +1,11 @@
 {
-    "name": "Account Passkey MFA Register Begin",
+    "name": "Passkey MFA Register Begin using access token",
     "domain": "https://api.loginradius.com",
-    "path": "/identity/v2/auth/account/2fa/register/passkey/begin",
+    "path": "/identity/v2/auth/login/2fa/register/passkey/begin",
     "method": "GET",
     "getparams": {
         "apikey*": "@apikey@",
-        "secondfactorauthenticationtoken*":""
+        "Authorization":"Bearer "
     },
     "postparams":"",
     "headers":{
@@ -19,12 +19,13 @@
                 "name": "apikey",
                 "is_required": true,
                 "description": "LoginRadius API Key"
-            }],
-            "Headers Parameters": [{
+            },
+           {
                     "name": "Authorization",
                     "is_required": true,
                     "description": "Bearer &lt;ACCESS_TOKEN&gt; (User's access_token)"
-                }]	
+                }	
+            ]
     },
     "outputFormat": 
     {

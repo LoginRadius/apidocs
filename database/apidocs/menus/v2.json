@@ -1386,6 +1386,53 @@
           "type": "DELETE"
         }
       ],
+      "Passkey": [
+        {
+          "url": "v2/customer-identity-api/multi-factor-authentication/passkey/overview/",
+          "title": "Overview",
+          "type": "DOC"
+        },
+    {
+        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-register-begin-using-access-token/",
+        "title": "Passkey MFA Register Begin using Access Token",
+        "type": "GET"
+    },
+    {
+        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-register-begin/",
+        "title": "Passkey MFA Register Begin",
+        "type": "GET"
+    },
+    {
+        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-begin/",
+        "title": "Passkey MFA Verify Begin",
+        "type": "GET"
+    },
+    {
+        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-finish/",
+        "title": "Passkey MFA Verify Finish",
+        "type": "POST"
+    },
+    {
+        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-register-finish/",
+        "title": "Passkey MFA Register Finish",
+        "type": "POST"
+    },
+    {
+        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-register-finish-using-access-token/",
+        "title": "Passkey MFA Register Finish using access token",
+        "type": "POST"
+    },
+    {
+        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/reset-mfa-passkey-authenticator/",
+        "title": "Reset MFA Passkey Authenticator",
+        "type": "DELETE"
+    },
+    {
+        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/account-reset-mfa-passkey-authenticator/",
+        "title": "Account Reset MFA Passkey Authenticator",
+        "type": "DELETE"
+    }
+],
       "Backup Codes": [
         {
           "url": "v2/customer-identity-api/multi-factor-authentication/backup-codes/overview/",
@@ -1449,54 +1496,7 @@
           "title": "Reset MFA Duo Security Authenticator Settings By UID",
           "type": "DELETE"
         }
-      ],
-      "Passkey": [
-        {
-          "url": "v2/customer-identity-api/multi-factor-authentication/passkey/overview/",
-          "title": "Overview",
-          "type": "DOC"
-        },
-    {
-        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-begin/",
-        "title": "Account Passkey MFA Register Begin",
-        "type": "GET"
-    },
-    {
-        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-register-begin/",
-        "title": "Passkey MFA Register Begin",
-        "type": "GET"
-    },
-    {
-        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-begin/",
-        "title": "Passkey MFA Verify Begin",
-        "type": "GET"
-    },
-    {
-        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-verify-finish/",
-        "title": "Passkey MFA Verify Finish",
-        "type": "POST"
-    },
-    {
-        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/passkey-mfa-register-finish/",
-        "title": "Passkey MFA Register Finish",
-        "type": "POST"
-    },
-    {
-        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/account-passkey-mfa-register-finish/",
-        "title": "Account Passkey MFA Register Finish",
-        "type": "POST"
-    },
-    {
-        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/reset-mfa-passkey-authenticator/",
-        "title": "Reset MFA Passkey Authenticator",
-        "type": "DELETE"
-    },
-    {
-        "url": "v2/customer-identity-api/multi-factor-authentication/passkey/account-reset-mfa-passkey-authenticator/",
-        "title": "Account Reset MFA Passkey Authenticator",
-        "type": "DELETE"
-    }
-]
+      ]
     },
     "PIN Authentication": [
       {
