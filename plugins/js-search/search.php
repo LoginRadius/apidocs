@@ -61,8 +61,8 @@ function lrHelpSearchScript() {
                         var sh_commonOptions = {
                             templateId: 'jssearchintercominterface',
                             algoliaSetting: {
-                                apiKey: getenv('ALGOLIA_API_KEY'),
-                                appId: getenv('ALGOLIA_APP_ID'),
+                                apiKey:"<?php echo ALGOLIA_API_KEY; ?>",
+                                appId: "<?php echo ALGOLIA_APP_ID;?>",
                                 indexName: 'loginradius',
                                 inputSelector: '#algoliasearchhelp',
                                 autocompleteOptions: {
