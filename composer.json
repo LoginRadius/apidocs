@@ -1,8 +1,6 @@
 {
     "require": {
-        "microsoft/windowsazure": "^0.4",
         "bainternet/php-hooks": "dev-master",
-        "loginradius/php-sdk": "4.5.1",
         "aws/aws-sdk-php": "^3.275"
     }
 }
