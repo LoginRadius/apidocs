@@ -1,6 +1,6 @@
 <?php
-ini_set("log_errors", 1);
-ini_set("error_log", __DIR__ . '/error.txt');
+// ini_set("log_errors", 1);
+// ini_set("error_log", __DIR__ . '/error.txt');
 $protocal = 'https';
 $domain = isset($_SERVER['HTTP_HOST']) && !empty($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : '';
 $path = isset($_SERVER['SCRIPT_NAME']) && !empty($_SERVER['SCRIPT_NAME']) ? $_SERVER['SCRIPT_NAME'] : '';
@@ -107,7 +107,7 @@ define('RECAPTCHA_SECRET', getenv('RECAPTCHA_SECRET'));
 define('RECAPTCHA_SITE_KEY', getenv('RECAPTCHA_SITE_KEY'));
 
 /* DEBUGING */
-define('DEBUG', true);
+// define('DEBUG', true);
 
 define('PROTOCAL_USERNAME', getenv('PROTOCAL_USERNAME'));
 define('PROTOCAL_PASSWORD', getenv('PROTOCAL_PASSWORD'));
