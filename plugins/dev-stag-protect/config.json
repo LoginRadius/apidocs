@@ -2,6 +2,6 @@
     "name": "Dev/Stag Protect",
     "discription":"Dev/Stag Protect discription",
     "weight": "900000000",
-    "isActive": false,
+    "isActive": true,
     "load": "dev-stag-protect/protect.php"
 }
