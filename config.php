@@ -1,9 +1,10 @@
 <?php
+// ini_set("log_errors", 1);
+// ini_set("error_log", __DIR__ . '/error.txt');
 $protocal = 'https';
 $domain = isset($_SERVER['HTTP_HOST']) && !empty($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : '';
 $path = isset($_SERVER['SCRIPT_NAME']) && !empty($_SERVER['SCRIPT_NAME']) ? $_SERVER['SCRIPT_NAME'] : '';
 $searchandreplace = array(
-    'lr-apidocs-dev2.azurewebsites.net'=>'apidocs-dev.lr-dev.dev',
     'docs.loginradius.com'=>'www.loginradius.com/docs',
     'apidocs-prod.us-east-1.elasticbeanstalk.com'=>'www.loginradius.com/docs'
 );
@@ -82,11 +83,11 @@ define('SUPPORT_DOCS', '');
 define('SUPPORT_DOCS_URL', ROOT_URL . SUPPORT_DOCS);
 
 /* AZURE IMAGE SERVER CONFIG */
-define('AZURE_CONTAINER', 'images');
-define('AZURE_PROTOCOL', 'https');
-define('AZURE_ACCOUNT_DOMAIN', getenv('AZURE_ACCOUNT_DOMAIN'));
-define('AZURE_ACCOUNT_NAME', getenv('AZURE_ACCOUNT_NAME'));
-define('AZURE_ACCOUNT_KEY', getenv('AZURE_ACCOUNT_KEY'));
+// define('AZURE_CONTAINER', 'images');
+// define('AZURE_PROTOCOL', 'https');
+// define('AZURE_ACCOUNT_DOMAIN', getenv('AZURE_ACCOUNT_DOMAIN'));
+// define('AZURE_ACCOUNT_NAME', getenv('AZURE_ACCOUNT_NAME'));
+// define('AZURE_ACCOUNT_KEY', getenv('AZURE_ACCOUNT_KEY'));
 define('IMAGE_FILE_FORMAT', 'png,jpg,gif');
 
 //AWS S3 Bucket Credentials

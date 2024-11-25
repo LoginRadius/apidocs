@@ -13,18 +13,14 @@ class ComposerStaticInit7d5aadc391e5f236ce1fde1d5234bd4b
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
-        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'b067bc7112e384b61c701452d53a14a8' => __DIR__ . '/..' . '/mtdowling/jmespath.php/src/JmesPath.php',
         '8a9dc1de0ca7e01f3e08231539562f61' => __DIR__ . '/..' . '/aws/aws-sdk-php/src/functions.php',
         '667cc95664d6c215f7ab16c740dc2fba' => __DIR__ . '/..' . '/bainternet/php-hooks/php-hooks.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'W' => 
-        array (
-            'WindowsAzure\\' => 13,
-        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php72\\' => 23,
@@ -36,14 +32,6 @@ class ComposerStaticInit7d5aadc391e5f236ce1fde1d5234bd4b
         array (
             'Psr\\Http\\Message\\' => 17,
         ),
-        'M' => 
-        array (
-            'MicrosoftAzure\\Storage\\' => 23,
-        ),
-        'L' => 
-        array (
-            'LoginRadiusSDK\\' => 15,
-        ),
         'J' => 
         array (
             'JmesPath\\' => 9,
@@ -54,10 +42,6 @@ class ComposerStaticInit7d5aadc391e5f236ce1fde1d5234bd4b
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
         ),
-        'F' => 
-        array (
-            'Firebase\\JWT\\' => 13,
-        ),
         'A' => 
         array (
             'Aws\\' => 4,
@@ -65,10 +49,6 @@ class ComposerStaticInit7d5aadc391e5f236ce1fde1d5234bd4b
     );
 
     public static $prefixDirsPsr4 = array (
-        'WindowsAzure\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/microsoft/windowsazure/src',
-        ),
         'Symfony\\Polyfill\\Php72\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php72',
@@ -89,14 +69,6 @@ class ComposerStaticInit7d5aadc391e5f236ce1fde1d5234bd4b
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
-        'MicrosoftAzure\\Storage\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/microsoft/azure-storage/src',
-        ),
-        'LoginRadiusSDK\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/loginradius/php-sdk/src/LoginRadiusSDK',
-        ),
         'JmesPath\\' => 
         array (
             0 => __DIR__ . '/..' . '/mtdowling/jmespath.php/src',
@@ -113,46 +85,10 @@ class ComposerStaticInit7d5aadc391e5f236ce1fde1d5234bd4b
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'Firebase\\JWT\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
-        ),
         'Aws\\' => 
         array (
             0 => __DIR__ . '/..' . '/aws/aws-sdk-php/src',
         ),
-    );
-
-    public static $prefixesPsr0 = array (
-        'M' => 
-        array (
-            'Mail_mimeDecode' => 
-            array (
-                0 => __DIR__ . '/..' . '/pear/mail_mime-decode',
-            ),
-            'Mail' => 
-            array (
-                0 => __DIR__ . '/..' . '/pear/mail_mime',
-            ),
-        ),
-        'H' => 
-        array (
-            'HTTP_Request2' => 
-            array (
-                0 => __DIR__ . '/..' . '/pear/http_request2',
-            ),
-        ),
-        'C' => 
-        array (
-            'Console' => 
-            array (
-                0 => __DIR__ . '/..' . '/pear/console_getopt',
-            ),
-        ),
-    );
-
-    public static $fallbackDirsPsr0 = array (
-        0 => __DIR__ . '/..' . '/pear/pear-core-minimal/src',
     );
 
     public static $classMap = array (
@@ -180,9 +116,7 @@ class ComposerStaticInit7d5aadc391e5f236ce1fde1d5234bd4b
         'AWS\\CRT\\OptionValue' => __DIR__ . '/..' . '/aws/aws-crt-php/src/AWS/CRT/Options.php',
         'AWS\\CRT\\Options' => __DIR__ . '/..' . '/aws/aws-crt-php/src/AWS/CRT/Options.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Net_URL2' => __DIR__ . '/..' . '/pear/net_url2/Net/URL2.php',
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
-        'PEAR_Exception' => __DIR__ . '/..' . '/pear/pear_exception/PEAR/Exception.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -190,8 +124,6 @@ class ComposerStaticInit7d5aadc391e5f236ce1fde1d5234bd4b
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit7d5aadc391e5f236ce1fde1d5234bd4b::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit7d5aadc391e5f236ce1fde1d5234bd4b::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit7d5aadc391e5f236ce1fde1d5234bd4b::$prefixesPsr0;
-            $loader->fallbackDirsPsr0 = ComposerStaticInit7d5aadc391e5f236ce1fde1d5234bd4b::$fallbackDirsPsr0;
             $loader->classMap = ComposerStaticInit7d5aadc391e5f236ce1fde1d5234bd4b::$classMap;
 
         }, null, ClassLoader::class);
