@@ -115,6 +115,9 @@ define('PROTOCAL_PASSWORD', getenv('PROTOCAL_PASSWORD'));
 define('LR_SESSION_NAME',getenv('LR_SESSION_NAME'));
 define('LR_APPKEY', getenv('LR_APPKEY'));
 define('LR_APPNAME', getenv('LR_APPNAME'));
+define('INTERCOM_APP_ID',  getenv('INTERCOM_APP_ID'));
+
+
 header('Cache-Control: no cache'); //disable validation of form by the browser
 
 ini_set('session.use_only_cookies', 1);
