@@ -70,7 +70,7 @@ function lrHelpSearchScript() {
                                 }
                             },
                             intercomSetting: {
-                                App_Id: getenv('INTERCOM_APP_ID'),
+                                App_Id: "<?php echo INTERCOM_APP_ID;?>"
                                 hide:'false'
                                 
                             },
