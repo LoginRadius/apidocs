@@ -5,7 +5,7 @@ require_once CLASSES_DIR . 'loader.php';
 $document = DOCUMENT_PATH;
 $document = substr($document,strlen(Proxy_Domain_Path));
 
-$md_tag_file = json_decode(file_get_contents('../database/supportdocs/menus/tag_name.json'), true);
+$md_tag_file = json_decode(fetchUrlWithRetries('../database/supportdocs/menus/tag_name.json'), true);
 $protactedDocument = isset($_COOKIE['protactedDocument']) ? trim($_COOKIE['protactedDocument']) : '';
 $output['status'] = 'error';
 $output['isAuth'] = false;
@@ -74,27 +74,28 @@ if (substr($document, 0, strlen(API_DOCS)) == API_DOCS) {
 
 $check_tag = $output['data'];
 
+if(!isArrayNullOrEmpty($md_tag_file)){
 foreach ($md_tag_file as $name => $md_tag_name){
 
 if(strpos($check_tag,$md_tag_name['md_tag_name'] )){
 
 $md_tag_url = $md_tag_name['url'];
 $output['path'] = '../'. SUPPORT_DOCS_DOCS_DIR. $md_tag_url. '.md' ; 
-$output['Newdata'] = file_get_contents('../'. SUPPORT_DOCS_DOCS_DIR. $md_tag_url. '.md');
+$output['Newdata'] = fetchUrlWithRetries('../'. SUPPORT_DOCS_DOCS_DIR. $md_tag_url. '.md');
 $replace_string = str_replace($md_tag_name['md_tag_name'], $output['Newdata'], $check_tag);
 $output['data'] = $replace_string;
 
 }
 }
+}
 
 echo json_encode($output);
-
 
 function protectedDocument($documents, $output, $protactedDocument) {
     $documentConfigSetting = array();
     $output['status'] = 'success';
     if (file_exists('../' . $documents['configPath'] . $documents['doc'] . '.json')) {
-        $documentConfigSetting = json_decode(file_get_contents('../' . $documents['configPath'] . $documents['doc'] . '.json'), true);
+        $documentConfigSetting = json_decode(fetchUrlWithRetries('../' . $documents['configPath'] . $documents['doc'] . '.json'),true);
         if (isset($documentConfigSetting['password']) && !empty($documentConfigSetting['password'])) {
             $output['isAuth'] = true;
             if (md5($protactedDocument) == $documentConfigSetting['password']) {
@@ -102,9 +103,11 @@ function protectedDocument($documents, $output, $protactedDocument) {
             }
         }
     }
-    $versioning = json_decode(file_get_contents('../' . DATABASE . "/version.json"));
+    $versioning = json_decode(fetchUrlWithRetries('../' . DATABASE . "/version.json"));
     $temp = explode('/', trim($documents['doc'], '/'));
     $is_version = isset($temp[0]) && !empty($temp[0]) ? $temp[0] : '';
+
+    if(!isArrayNullOrEmpty($versioning)){
     foreach ($versioning as $versions) {
         if ($is_version == $versions->value) {
             if (isset($versions->status) && $versions->status == 'private') {
@@ -116,6 +119,8 @@ function protectedDocument($documents, $output, $protactedDocument) {
             }
         }
     }
+}
+
     if ($output['isAuth'] === false) {
         if ($documents['isComman']) {
             $temp = explode('/', $documents['doc']);
@@ -124,8 +129,48 @@ function protectedDocument($documents, $output, $protactedDocument) {
                 $documents['doc'] = substr($documents['doc'], $replace + 1, strlen($documents['doc']));
             }
         }
-        $output['data'] = file_get_contents('../' . $documents['docPath'] . $documents['doc'] . '.' . $output['format']);
-    }
+      
+       // $output['data'] = file_get_contents('../' . $documents['docPath'] . $documents['doc'] . '.' . $output['format']);
+       // Example usage
+        $url = '../' . $documents['docPath'] . $documents['doc'] . '.' . $output['format'];
+        $output['data']  = fetchUrlWithRetries($url);
+
+
+}
     return $output;
 
+}
+/**
+ * Fetches the contents of a URL with retry logic.
+ *
+ * @param string $url The URL to fetch.
+ * @param int $maxRetries The maximum number of retries.
+ * @param int $retryDelay The delay between retries in seconds.
+ * @return string|false The contents of the URL, or false on failure.
+ */
+
+function fetchUrlWithRetries($url) {
+        $response = @file_get_contents($url);
+        if ($response !== false) {
+            return $response;
+        }
+    
+
+    // If retries are exhausted or it's a different error, return false
+    return false;
+}
+
+function isArrayNullOrEmpty($array) {
+    // Check if the array is null
+    if (is_null($array)) {
+        return true;
+    }
+    
+    // Check if the array is empty
+    if (empty($array)) {
+        return true;
+    }
+    
+    // If the array is neither null nor empty
+    return false;
 }

@@ -14,11 +14,13 @@ if (!defined('ROOT_PATH')) {
     </label>
     <ul id="menucontainer" class="md-nav__list first-list" data-md-scrollfix="">
         <?php //var_dump($sideMenus);die;?>
-        <?php    if(empty($menu)){?>
+        <?php    if(!is_null($menu) && empty($menu)){?>
             <?php echo createSideBar($sideMenus); ?>
-
      <?php   }?>
+
+     <?php    if(!is_null($menu) && !empty($menu) && !empty($sideMenus)){?>
         <?php echo createSideBar($sideMenus[$menu]); ?>
+     <?php   }?>
     </ul>
 </nav>
 
