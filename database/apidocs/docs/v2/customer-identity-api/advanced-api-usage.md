@@ -252,6 +252,32 @@ X-PreventWebhook: true
 
 ```
 
+## Prevent Webhooks from Triggering via Header or Query Parameter
+
+If you are using Webhooks and have an event registered, you can prevent the Webhooks API from triggering when making a call associated with that configured event.
+
+For example, let's say you have the "Login" event registered in the Webhooks API. This would normally cause a full profile to be sent to the registered addresses when a Login is triggered via any API that performs a Login (e.g., Auth Login by Email API).
+
+### Using Header
+
+You can pass X-PreventWebhook into your request header with the value of either true or false to prevent the Webhook from triggering.
+
+Example:
+
+```
+Content-Type: application/json
+X-PreventWebhook: true
+```
+
+### Using Query Parameter
+Now, you can also pass the query parameter prevent_webhook for the same functionality. If both the header and the query parameter are set, the header will be given priority.
+
+Example:
+
+```
+https://api.loginradius.com/v2/login?prevent_webhook=true
+```
+
 ## Accessing the LoginRadius API via a Proxy
 
 When making requests to the LoginRadius API, you will need to set the proxy for your web requests so that requests made to api.loginradius.com will be processed by your proxy.
