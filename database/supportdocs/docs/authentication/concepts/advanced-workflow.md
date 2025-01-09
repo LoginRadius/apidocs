@@ -1,6 +1,6 @@
 # Advanced Workflow
 
-LoginRadius offers advanced settings for registration security which can be configured on your site, which include Case Sensitive Username, Secure Cookie, and Server Side Validation. You can get any of them enabled for your site by contacting <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support</a>.
+LoginRadius offers advanced settings for registration security which can be configured on your site, which include Case Sensitive Username, Secure Cookie, and Server Side Validation. You can get any of them enabled for your site by contacting [LoginRadius Support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
 ## Case Sensitive Username
 
