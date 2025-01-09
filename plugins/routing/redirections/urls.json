@@ -571,10 +571,7 @@
     "oldLink": "api/v2/cms-turn-key-plugins/joomla-customer-identity-extension-instructions-for-v2-x-and-v3-x",
     "newLink": "api/v2/deployment/turn-key-plugins/joomla-v2-x-and-v3-x-customer-identity-module-instructions"
   },
-  {
-    "oldLink": "api/v2/cms-turn-key-plugins/magento-v1-x",
-    "newLink": "api/v2/deployment/turn-key-plugins/magento-1-x-extension"
-  },
+  
   {
     "oldLink": "api/v2/cms-turn-key-plugins/magento-v2-x",
     "newLink": "api/v2/deployment/turn-key-plugins/magento-2-x-extension"
@@ -2606,10 +2603,7 @@
     "oldLink": "getting-started/introduction/loginradius-site-license-overview",
     "newLink": "api/v2/getting-started/loginradius-site-license-overview/"
   },
-  {
-    "oldLink": "getting-started/general-questions/v1-v2-comparison",
-    "newLink": "api/v2/getting-started/v1-v2-comparison/"
-  },
+  
   {
     "oldLink": "getting-started/general-questions/supported-social-networks",
     "newLink": "api/v2/admin-console/social-provider/supported-social-networks/"
@@ -3263,10 +3257,6 @@
     "newLink": "api/v2/admin-console/deployment/custom-domain-and-ssl-configuration/"
   },
   {
-    "oldLink": "api/v2/getting-started/v1-v2-comparison",
-    "newLink": "api/v2/getting-started/introduction/"
-  },
-  {
     "oldLink": "api/v2/customer-identity-api/re-authentication/overview",
     "newLink": "api/v2/customer-identity-api/step-up-authentication/overview/"
   },
@@ -3570,11 +3560,7 @@
     "oldLink": "authentication/FAQ/account-linking",
     "newLink": "authentication/faq/account-linking/"
   },
-  {
-    "oldLink": "single-sign-on/tutorial/Federated-SSO/JWT-login/v1.4.0/JWT-implementation-guide",
-    "newLink": "single-sign-on/tutorial/federated-sso/jwt-login/v1.4.0/jwt-implementation-guide/"
-  },
-  {
+    {
     "oldLink": "single-sign-on/tutorial/Federated-SSO/JWT-login/JWT-implementation-guide",
     "newLink": "single-sign-on/tutorial/federated-sso/jwt-login/jwt-implementation-guide/"
   },
