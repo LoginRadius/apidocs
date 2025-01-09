@@ -1,0 +1,28 @@
+{
+    "name": "Core API Release 36.12.0",
+    "description": "We have rolled out another version of the Core APIs, which brings you new features and improvements.",
+    "changelog":
+    {
+        "ADDED": 
+        [
+            {
+                "text": "Added CORS support for LoginRadius APIs with configurable <code>AllowOriginHeaderValidation</code> to enhance API security."
+            },
+            {
+                "text": "Seven new APIs have been introduced to enhance webhook management capabilities, including setting custom headers, query parameters, and credentials."
+            }
+        ], 
+        "IMPROVED": 
+        [
+            {
+                "text": "Access restriction now supports blacklisting and whitelisting simultaneously."
+            },
+            {
+                "text": "The <code>prevent_webhook</code> parameter can additionally be utilized as a query parameter to disable the triggering of the Webhook."
+            }
+        ]
+    },
+    "auther": "Gurjyot Singh",
+    "created_date": "2025-01-10",
+    "status": "public"
+}
