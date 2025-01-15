@@ -2271,6 +2271,36 @@
         "url": "v2/integrations/webhooks/webhook-unsubscribe/",
         "title": "Webhook Unsubscribe",
         "type": "DELETE"
+      },
+      {
+        "url": "v2/integrations/webhooks/get-webhook-subscription-details/",
+        "title": "Get Webhook Subscription Details",
+        "type": "GET"
+      },
+      {
+        "url": "v2/integrations/webhooks/list-all-webhooks/",
+        "title": "List All Webhooks",
+        "type": "GET"
+      },
+      {
+        "url": "v2/integrations/webhooks/list-all-events/",
+        "title": "List All Events",
+        "type": "GET"
+      },
+      {
+        "url": "v2/integrations/webhooks/create-webhook-subscription/",
+        "title": "Create Webhook Subscription",
+        "type": "POST"
+      },
+      {
+        "url": "v2/integrations/webhooks/update-webhook-subscription/",
+        "title": "Update Webhook Subscription",
+        "type": "PUT"
+      },
+      {
+        "url": "v2/integrations/webhooks/delete-webhook-subscription/",
+        "title": "Delete Webhook Subscription",
+        "type": "DELETE"
       }
     ]
   },
