@@ -179,6 +179,4 @@ The following is the list of features you might want to add-on to the above impl
 
 [Auth Security](/api/v2/admin-console/platform-security/auth-security-configuration/#auth-security)
 
-[Advanced JS Customizations](/api/v2/deployment/js-libraries/advanced-js-customizations/#changingusername8)
-
 [User Registration Overview](/api/v2/customer-identity-api/overview/)
