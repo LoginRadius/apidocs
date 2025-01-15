@@ -9,7 +9,7 @@
                 "text": "Added CORS support for LoginRadius APIs with configurable <code>AllowOriginHeaderValidation</code> to enhance API security."
             },
             {
-                "text": "Seven new APIs have been introduced to enhance webhook management capabilities, including setting custom headers, query parameters, and credentials."
+                "text": "Six new APIs have been introduced to enhance webhook management capabilities, including setting custom headers, query parameters, and credentials."
             }
         ], 
         "IMPROVED": 
