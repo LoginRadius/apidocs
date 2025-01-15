@@ -1,0 +1,82 @@
+{
+    "name": "Create Webhook Subscription",
+    "domain": "https://api.loginradius.com",
+    "path": "/v2/manage/webhook",
+    "method": "POST",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "postparams": {
+        "Event": "eventName",
+        "TargetUrl": "https://example.com/api/webhook",
+        "Name": "Description of the Event",
+        "Headers": {
+            "Custom-Header": "headerValue"
+        },
+        "QueryParams": {
+            "apikey": "yourApiKey"
+        },
+        "Authentication": {
+            "AuthType": "Basic",
+            "BasicAuth": {
+                "Username": "yourUsername",
+                "Password": "yourPassword"
+            }
+        }
+    },    
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to create a new webhook subscription.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ],
+        "Post Params": [
+            {
+                "name": "TargetUrl",
+                "is_required": true,
+                "description": "URL where trigger will send data when it invoke"
+            },
+            {
+                "name": "Event",
+                "is_required": true,
+                "description": "Allowed events: Login, Register, UpdateProfile, ResetPassword, ChangePassword, EmailVerification, AddEmail, RemoveEmail, BlockAccount, DeleteAccount, SetUsername, AssignRoles, UnassignRoles, SetPassword, LinkAccount, UnlinkAccount, UpdatePhoneId, VerifyPhoneNumber, InvalidateEmailVerification, RemoveRoleContext, CreateCustomObject, UpdateCustomObject, DeleteCustomObject, InvalidatePhoneVerification, RemovePhoneId, ConsentProfileUpdate, SetPIN, ResetPIN, ChangePIN, UpdateUid"
+            }
+        ]
+    },
+    "outputFormat": {
+        "Id": "62218e79349528401107cdf4",
+        "TargetUrl": "https://example.com/api/webhook",
+        "Event": "login",
+        "CreatedDate": "2022-03-04T03:58:49.294Z",
+        "LastModifiedDate": "2024-11-27T06:47:12.933Z",
+        "SecretName": "",
+        "IsIntegrationWebhook": false,
+        "Name": "login With Key in QueryParam",
+        "Headers": {
+            "x-test-header": "qa"
+        },
+        "QueryParams": {
+            "apikey": "859faf40a7c54c209360b45376bf529f"
+        },
+        "Authentication": {
+            "AuthType": "Basic",
+            "BasicAuth": {
+                "Username": "lrqaadmin",
+                "Password": ""
+            }
+        }
+    }
+}

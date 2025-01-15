@@ -1,0 +1,64 @@
+{
+    "name": "List All Events",
+    "domain": "https://api.loginradius.com",
+    "path": "/v2/manage/webhook/events",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to get all webhook events.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ]
+    },
+    "outputFormat": {
+      "Data": [
+          "Login",
+          "Register",
+          "UpdateProfile",
+          "ResetPassword",
+          "ChangePassword",
+          "EmailVerification",
+          "AddEmail",
+          "RemoveEmail",
+          "BlockAccount",
+          "DeleteAccount",
+          "SetUsername",
+          "CreateTraditionalAccount",
+          "AssignRoles",
+          "UnassignRoles",
+          "SetPassword",
+          "LinkAccount",
+          "UnlinkAccount",
+          "UpdatePhoneId",
+          "VerifyPhoneNumber",
+          "InvalidateEmailVerification",
+          "RemoveRoleContext",
+          "CreateCustomObject",
+          "UpdateCustomObject",
+          "DeleteCustomObject",
+          "InvalidatePhoneVerification",
+          "RemovePhoneId",
+          "ConsentProfileUpdate",
+          "SetPIN",
+          "ResetPIN",
+          "ChangePIN",
+          "UpdateUid"
+       ]
+   }
+}

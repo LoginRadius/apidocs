@@ -1,0 +1,77 @@
+{
+    "name": "Update Webhook Subscription",
+    "domain": "https://api.loginradius.com",
+    "path": "/v2/manage/webhook/{hookid}",
+    "method": "PUT",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "templateparams": {
+        "hookId": "ID of the webhook subscription"
+    },
+    "postparams": {
+        "Headers": {
+            "x-test-header": "qa"
+         },
+         "QueryParams": {
+            "apikey": "859faf40a7c54c209360b45376bf529f"
+         },
+         "Authentication": {
+            "AuthType": "Basic",
+            "BasicAuth": {
+                "Username": "lrqaadmin",
+                "Password": "ZBz6JcnZadxc2gB7sf5vby87zBIu6q"
+            }
+        }
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to update webhook subscriptions.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ],
+        "Template Params": [
+            {
+                "name": "hookid",
+                "is_required": true,
+                "description": "It is a unique ID of a webhook subscription."
+            }
+        ]
+    },
+    "outputFormat": {
+        "Id": "62218e79349528401107cdf4",
+        "TargetUrl": "2",
+        "Event": "login",
+        "CreatedDate": "2022-03-04T03:58:49.294Z",
+        "LastModifiedDate": "2024-11-27T06:47:12.933Z",
+        "SecretName": "",
+        "IsIntegrationWebhook": false,
+        "Name": "login With Key in QueryParam",
+        "Headers": {
+            "x-test-header": "qa"
+        },
+        "QueryParams": {
+            "apikey": "859faf40a7c54c209360b45376bf529f"
+        },
+        "Authentication": {
+            "AuthType": "Basic",
+            "BasicAuth": {
+                "Username": "lrqaadmin",
+                "Password": ""
+            }
+        }
+    }
+}
