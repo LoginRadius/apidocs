@@ -1,0 +1,63 @@
+{
+    "name": "List All Webhooks",
+    "domain": "https://api.loginradius.com",
+    "path": "/v2/manage/webhook",
+    "method": "GET",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to list all webhook subscriptions.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ]
+    },
+    "outputFormat": {
+        "Data": [
+          {
+            "Id": "62218e79349528401107cdf4",
+            "TargetUrl": "https://domcheck.page2-examplurl.co.uk/page/string",
+            "Event": "login",
+            "CreatedDate": "2022-03-04T03:58:49.294Z",
+            "LastModifiedDate": "2024-11-27T06:47:12.933Z",
+            "SecretName": "",
+            "Name": "",
+            "IsIntegrationWebhook": false,
+            "Headers": {
+              "x-testing": "xxxyyyy"
+            },
+            "QueryParams": {
+              "Test": "nnn"
+            },
+            "Authentication": null
+          },
+          {
+            "Id": "6221d99b098ba46a356fc92e",
+            "TargetUrl": "https://domcheck.page2-examplurl.co.uk/page/string",
+            "Event": "login",
+            "CreatedDate": "2022-03-04T09:19:23.072Z",
+            "LastModifiedDate": "2022-03-04T09:19:23.072Z",
+            "SecretName": "",
+            "Name": "",
+            "IsIntegrationWebhook": false,
+            "Headers": null,
+            "QueryParams": null,
+            "Authentication": null
+          }
+        ]
+    }
+}

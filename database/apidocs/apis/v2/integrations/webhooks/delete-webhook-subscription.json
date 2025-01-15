@@ -1,0 +1,42 @@
+{
+    "name": "Delete Webhook Subscription",
+    "domain": "https://api.loginradius.com",
+    "path": "/v2/manage/webhook/{hookid}",
+    "method": "DELETE",
+    "getparams": {
+        "apikey*": "@apikey@",
+        "apisecret*": "@secret@"
+    },
+    "templateparams": {
+        "hookId": "ID of the webhook subscription"
+    },
+    "headers": {
+        "content-Type": "application/json"
+    },
+    "response": "json",
+    "description": "This API is used to delete webhook subscriptions.",
+    "parameters": {
+        "Get Params": [
+            {
+                "name": "apikey",
+                "is_required": true,
+                "description": "LoginRadius API Key"
+            },
+            {
+                "name": "apisecret",
+                "is_required": true,
+                "description": "LoginRadius API Secret"
+            }
+        ],
+        "Template Params": [
+            {
+                "name": "hookid",
+                "is_required": true,
+                "description": "It is a unique ID of a webhook subscription."
+            }
+        ]
+    },
+    "outputFormat": {
+        "isdeleted": true
+    }
+}
