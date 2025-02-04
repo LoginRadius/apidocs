@@ -925,7 +925,7 @@ $accountAPI = new AccountAPI();
 <h6 id="UpdateAccountByUid-put-">Account Update (PUT)</h6> 
  
 
-This API is used to update the information of existing accounts in your Cloud Storage. See our Advanced API Usage section <a href='https://www.loginradius.com/docs/api/v2/customer-identity-api/advanced-api-usage/'>Here</a> for more capabilities.
+This API is used to update the information of existing accounts in your Cloud Storage. See our Advanced API Usage section <a href='https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/advanced-api-usage/'>Here</a> for more capabilities.
  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update)
 
  ```php

@@ -7,7 +7,7 @@ The LoginRadius [changelog](https://www.loginradius.com/legacy/docs/api/changelo
 
 ## RSS Feed 
 
-You can add the changelogs RSS Feed link ([https://www.loginradius.com/docs/api/changelog/feed/](https://www.loginradius.com/legacy/docs/api/changelog/feed/)) in any of your subscribed RSS feed reader tools/extensions to get the notification to your email. 
+You can add the changelogs RSS Feed link ([https://www.loginradius.com/legacy/docs/api/changelog/feed/](https://www.loginradius.com/legacy/docs/api/changelog/feed/)) in any of your subscribed RSS feed reader tools/extensions to get the notification to your email. 
 
 > **Note:** To subscribe to the feed, you must use some RSS feed reader extension on your browser, and once the extension is installed, you can add the RSS feed in subscribed URLs.
 

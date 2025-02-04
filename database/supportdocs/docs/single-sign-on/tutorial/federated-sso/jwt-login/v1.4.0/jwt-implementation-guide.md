@@ -254,7 +254,7 @@ We've had a look at basic structure and encryption of JWT now we can have a look
 
   - They don’t have the right permissions to access this section in the Admin Console:
 
-    The “API EditThirdPartyCredentials” permission will allow your team member to access this. Please refer to the Manage Team member doc on the list of supported permissions and how to edit the team member permissions: https://www.loginradius.com/docs/api/v2/admin-console/team-management/manage-team-members/
+    The “API EditThirdPartyCredentials” permission will allow your team member to access this. Please refer to the Manage Team member doc on the list of supported permissions and how to edit the team member permissions: https://www.loginradius.com/legacy/docs/api/v2/admin-console/team-management/manage-team-members/
 
   - Check if your Owner/Admin/Manager/Developer has permission to this section. If they are also not able to access this section, it is likely this feature is not part of your plan. Please reach out to the LoginRadius support teams for further insights.
 

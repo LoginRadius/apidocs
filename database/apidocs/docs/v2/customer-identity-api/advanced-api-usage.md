@@ -209,9 +209,9 @@ The Referer HTTP request header contains an absolute or partial address of the p
 
 You can leverage Referer Header for changing the value of the **Registration Source** Field in the user profile with the use of the following API’s.
 
-- https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/ 
+- https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/ 
 
-- https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-create/ 
+- https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-create/ 
 
 You can change the Registration Source value by passing the referer value in the header.
 
