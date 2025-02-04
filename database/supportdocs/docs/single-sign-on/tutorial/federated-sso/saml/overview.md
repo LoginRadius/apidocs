@@ -1,5 +1,5 @@
 # Overview
-This document covers the <a href="https://www.loginradius.com/docs/api/v2/getting-started/glossary/#s15" target=_blank>SAML</a> introduction and its components. It also describes the login flows (Identity Provider Initiated and Service Provider Initiated) that LoginRadius Identity Platform supports.
+This document covers the <a href="https://www.loginradius.com/legacy/docs/api/v2/getting-started/glossary/#s15" target=_blank>SAML</a> introduction and its components. It also describes the login flows (Identity Provider Initiated and Service Provider Initiated) that LoginRadius Identity Platform supports.
 
 ## SAML Introduction
 

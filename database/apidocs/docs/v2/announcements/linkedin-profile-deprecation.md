@@ -13,7 +13,7 @@ As a result of the depreciation, this may affect your LoginRadius implementation
 
 - **User Profile API:** 
 
-https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/user-profile
+https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/user-profile
 
 The following fields will no longer be available from your LinkedIn Profiles:
 

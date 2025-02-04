@@ -1,6 +1,6 @@
 # Overview
 
-<!-- This document covers the <a href ="https://www.loginradius.com/docs/api/v2/getting-started/glossary/#s15" target=_blank>SSO</a> introduction and the various SSO types supported by the LoginRadius Identity Platform. For more details on implementation and deployment of these SSO features refer to the following:
+<!-- This document covers the <a href ="https://www.loginradius.com/legacy/docs/api/v2/getting-started/glossary/#s15" target=_blank>SSO</a> introduction and the various SSO types supported by the LoginRadius Identity Platform. For more details on implementation and deployment of these SSO features refer to the following:
 
 |Tutorials <br><span style="font-weight:normal;color:#fff;">Learn and implement various SSO types and protocols</span>| Concepts <br><span style="font-weight:normal;color:#fff;">Learn the supportive concepts of SSO feature</span>| 
 |---|---|
@@ -65,35 +65,35 @@ Accept tokens and identities issued by niche identity providers of your choice a
         <tr style='height:20px;'>
             <td class="s1" dir="ltr">
                  <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-56-39-288_32938184465c291d76f0821.37660252.png" /><br />
-                 <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/saml-providers/domo/">Domo</a></span>
+                 <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-providers/domo/">Domo</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-55-29-694_209779525965c2934f4be3f5.50282141.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/saml-providers/SharePoint/">Ms SharePoint</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-providers/SharePoint/">Ms SharePoint</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-57-00-434_19216383665c29815230c05.00195915.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/saml-providers/jira/">Atlassian Jira</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-providers/jira/">Atlassian Jira</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-56-16-320_200777099665c3a4c8433ec7.65924437.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/saml-providers/salesforce/">Salesforce</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-providers/salesforce/">Salesforce</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-54-44-045_89379538965c3a6592c7098.73391788.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/">OAuth2</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/">OAuth2</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-53-44-600_165137682965c3a6872e2fe2.15133628.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/jwt-login/jwt-login-overview/">JWT</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/jwt-login/jwt-login-overview/">JWT</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-55-02-730_26154718665c3a81c41a973.69079950.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/">OIDC</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/">OIDC</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-55-55-905_161111230465c3a8c594bd34.39075734.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/federated-sso/saml/overview/">SAML</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/saml/overview/">SAML</a></span>
             </td>
         </tr>
         </tbody>
@@ -113,27 +113,27 @@ Custom OAuth Provider is the most implemented protocol by the customers to set u
         <tr style='height:20px;'>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-57-17-420_15645657365c52276aa2692.23878868.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/custom-idp-provider/doximity/">Doximity</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/single-sign-on/concept/custom-idp-provider/doximity/">Doximity</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-52-58-315_150129219565c5229e7e6a58.90587597.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/custom-idp-provider/alipay/">Alipay</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/single-sign-on/concept/custom-idp-provider/alipay/">Alipay</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-52-14-666_89285097165c5232fc834e5.37839813.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/concept/custom-idp-provider/wechat/">WeChat</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/single-sign-on/concept/custom-idp-provider/wechat/">WeChat</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-54-44-045_89379538965c3a6592c7098.73391788.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/custom-identity-providers/custom-oauth-provider/">OAuth2</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/custom-identity-providers/custom-oauth-provider/">OAuth2</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-53-44-600_165137682965c3a6872e2fe2.15133628.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/custom-identity-providers/custom-jwt-provider/">JWT</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/custom-identity-providers/custom-jwt-provider/">JWT</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-55-55-905_161111230465c3a8c594bd34.39075734.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/single-sign-on/tutorial/custom-identity-providers/custom-saml-provider/">SAML</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/custom-identity-providers/custom-saml-provider/">SAML</a></span>
             </td>
         </tr>
         </tbody>
@@ -155,15 +155,15 @@ LoginRadius provides out of the box SSO Connector solutions to create a Single S
         <tr style='height:20px;'>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-50-18-387_7737014465c5257665c001.57956613.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/libraries/turn-key-plugins/shopify-multipass-integration/">Shopify</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/libraries/turn-key-plugins/shopify-multipass-integration/">Shopify</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-54-22-084_63846301965c525951630e4.90044952.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/libraries/turn-key-plugins/bigcommerce-stencil-plugin/">Big Commerce</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/libraries/turn-key-plugins/bigcommerce-stencil-plugin/">Big Commerce</a></span>
             </td>
             <td class="s1" dir="ltr">
                 <img src="https://apidocs.lrcontent.com/images/Picsart_24-02-05_02-53-19-422_95928217065c525bfe154d5.86587977.png" /><br />
-                <span class="caption"><a target="_blank" href="https://www.loginradius.com/docs/libraries/turn-key-plugins/perfectmind/">Perfect Mind</a></span>
+                <span class="caption"><a target="_blank" href="https://www.loginradius.com/legacy/docs/libraries/turn-key-plugins/perfectmind/">Perfect Mind</a></span>
             </td>
         </tr>
         </tbody>
@@ -188,7 +188,7 @@ For more details on Delegation Auth refer to our documentation [here](/single-si
 
  # Overview
 
-This document covers the <a href ="https://www.loginradius.com/docs/api/v2/getting-started/glossary/#s15" target=_blank>SSO</a> introduction and the various SSO types supported by the LoginRadius Identity Platform. For more details on implementation and deployment of these SSO features refer to the following:
+This document covers the <a href ="https://www.loginradius.com/legacy/docs/api/v2/getting-started/glossary/#s15" target=_blank>SSO</a> introduction and the various SSO types supported by the LoginRadius Identity Platform. For more details on implementation and deployment of these SSO features refer to the following:
 
 |Tutorials <br><span style="font-weight:normal;color:#fff;">Learn and implement various SSO types and protocols</span>| Concepts <br><span style="font-weight:normal;color:#fff;">Learn the supportive concepts of SSO feature</span>| 
 |---|---|

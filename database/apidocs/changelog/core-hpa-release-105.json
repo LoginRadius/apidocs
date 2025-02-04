@@ -14,7 +14,7 @@
     "ADDED":
     [
         {
-            "text": "New <a href='https://www.loginradius.com/docs/api/v2/customer-identity-api/high-concurrency-api-stack/hcas-validate-access-token/'> HPS API </a> that validates the access token."
+            "text": "New <a href='https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/high-concurrency-api-stack/hcas-validate-access-token/'> HPS API </a> that validates the access token."
         }
     ]
     },

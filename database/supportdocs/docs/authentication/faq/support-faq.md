@@ -22,11 +22,11 @@ If the information you are looking for is not available in the quick links, you 
 ![Basic segmentation 2](https://apidocs.lrcontent.com/images/pasted-image-2_1085606f6d43cc6083.58179722.png "enter image title here")
 
 ### Support Docs
-In addition to the **Help Widget** under the LoginRadius Admin Console, you can look for the required <a href = https://www.loginradius.com/docs/ target=_blank>documentation</a> in our public documentation. Navigate to the support documentation from the Admin Console itself by clicking on the **Support Docs** Icon. See the below screenshot for your reference.
+In addition to the **Help Widget** under the LoginRadius Admin Console, you can look for the required <a href = https://www.loginradius.com/legacy/docs/ target=_blank>documentation</a> in our public documentation. Navigate to the support documentation from the Admin Console itself by clicking on the **Support Docs** Icon. See the below screenshot for your reference.
 
 ![Quick links](https://apidocs.lrcontent.com/images/pasted-image-3_22282606f6e61adff05.68628044.png "enter image title here")
 
-If you are not logged in to the Admin Console and want to look at the available documentation, you can directly navigate the <a href = https://www.loginradius.com/docs/ target=_blank>documentation</a>. Here you can learn how to implement the LoginRadius Identity Platform for your application, access comprehensive guides, including quick-starts, implementation tutorials, example code, features, and more.
+If you are not logged in to the Admin Console and want to look at the available documentation, you can directly navigate the <a href = https://www.loginradius.com/legacy/docs/ target=_blank>documentation</a>. Here you can learn how to implement the LoginRadius Identity Platform for your application, access comprehensive guides, including quick-starts, implementation tutorials, example code, features, and more.
 
 If you want to search for any specific term/feature, you can also use the document search directly in the public support documentation. See the below screenshot for reference.
 

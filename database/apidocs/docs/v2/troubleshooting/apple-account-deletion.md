@@ -57,6 +57,6 @@ https://github.com/LoginRadius/apple-client-secret-generator
 
 **3.** On the success response of the step2 API call, delete the account at the LoginRadius end by leveraging the Delete Account APIs.
 
-   a. **Delete Account with Email confirmation**: https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-delete-account-with-email-confirmation/
+   a. **Delete Account with Email confirmation**: https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-delete-account-with-email-confirmation/
     
-   b. **Delete Account**: https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-delete-account/
+   b. **Delete Account**: https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-delete-account/
