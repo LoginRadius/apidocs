@@ -6,7 +6,7 @@ The **LoginRadiusV2.js** is commonly used to automatically generate HTML interfa
 
 This document describes the different function calls that can be made to the various LoginRadius APIs via the JS Form Library, allowing you to easily add support for LoginRadius to your custom built forms.
 
-> **Note:** If you are currently using the automatically generated interfaces provided by **LoginRadiusV2.js** and are looking to add additional customizations/functionality, we recommend using the [JavaScript Hooks](/api/v2/user-registration/javascript-hooks) or our [LoginRadius HTML5 SDK](/api/v2/sdk-libraries/html5-js).
+> **Note:** If you are currently using the automatically generated interfaces provided by **LoginRadiusV2.js** and are looking to add additional customizations/functionality, we recommend using the [JavaScript Hooks](https://www.loginradius.com/legacy/docs/api/v2/user-registration/javascript-hooks) or our [LoginRadius HTML5 SDK](https://www.loginradius.com/legacy/docs/api/v2/sdk-libraries/html5-js).
 
 ## Initialization
 
@@ -31,7 +31,7 @@ Format:
 
 `LRObject.api.login(data, onLoginSuccess, onLoginError);`
 
-- **data**: Data is an object that represents the data required for login. For details on what information you can provide [click here](/api/v2/user-registration/post-auth-login-by-email). Typically it should have the properties **emailid** for the provided email and **password** for the provided password.
+- **data**: Data is an object that represents the data required for login. For details on what information you can provide [click here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/post-auth-login-by-email). Typically it should have the properties **emailid** for the provided email and **password** for the provided password.
 
 - **onSuccess**: Pass in a function you would like to use as a callback for a successful login.
 
@@ -70,7 +70,7 @@ Format:
 
 - **schema**: The schema for the fields being provided. You can leave schema as an empty array unless you're updating complex arrays.
 
-- **data**: Data is an object that represents the user profile that you are creating, you can refer to our [detailed datapoints](/api/v2/user-registration/detailed-data-point) doc for more information on which fields can be updated. Using this API you cannot specify complex array fields directly within this object without using the schema.
+- **data**: Data is an object that represents the user profile that you are creating, you can refer to our [detailed datapoints](https://www.loginradius.com/legacy/docs/api/v2/user-registration/detailed-data-point) doc for more information on which fields can be updated. Using this API you cannot specify complex array fields directly within this object without using the schema.
 
 - **onSuccess**: Pass in a function you would like to use as a callback for a successful registration.
 
@@ -117,7 +117,7 @@ Format:
 
 - **schema**: The schema for the fields being provided. You can leave schema as an empty array unless you're updating complex arrays.
 
-- **data**: Data is an object that represents the fields and their values of the profile that you are updating. You can refer to our [detailed datapoints](/api/v2/user-registration/detailed-data-point) doc for more information on which fields can be updated. Please note that when using this library you cannot specify complex array fields.
+- **data**: Data is an object that represents the fields and their values of the profile that you are updating. You can refer to our [detailed datapoints](https://www.loginradius.com/legacy/docs/api/v2/user-registration/detailed-data-point) doc for more information on which fields can be updated. Please note that when using this library you cannot specify complex array fields.
 
 - **token**: The access_token of the customer.
 
@@ -135,7 +135,7 @@ Format:
 
 `LRObject.api.forgotPassword(data,onSuccess, onError);`
 
-- **data**: Data is an object that contains the object details for the [Auth Forgot Password API](/api/v2/user-registration/auth-forgot-password), this object requires the **email** of the customer.
+- **data**: Data is an object that contains the object details for the [Auth Forgot Password API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-forgot-password), this object requires the **email** of the customer.
 
 - **onSuccess**: Pass in a function you would like to use as a callback when the email was successfully sent.
 
@@ -161,7 +161,7 @@ Format:
 
 `LRObject.api.resetPassword(data, onSuccess, onError);`
 
-- **data**: Data is an object that represents the body params for the [Auth Reset Password API](/api/v2/user-registration/auth-reset-password-by-reset-token) it requires the following:
+- **data**: Data is an object that represents the body params for the [Auth Reset Password API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-reset-password-by-reset-token) it requires the following:
 
   - **resettoken**: The password reset token the customer should have received via email when requesting a password reset.
   - **password**: the new desired password.
@@ -193,9 +193,9 @@ The verification page that has this emailVerification function should be the sam
 
 Alternatively, in the LoginRadius Admin Console in your verification email template, you can also hard code the link to your verification page that has the emailVerification function.
 
-For more details on email verification, we recommend reading our documentation on [Email Workflow Settings](/api/v2/admin-console/email-workflow/email-workflow-settings) and on [Email Template Management](/api/v2/admin-console/email-workflow/email-template-management)
+For more details on email verification, we recommend reading our documentation on [Email Workflow Settings](https://www.loginradius.com/legacy/docs/api/v2/admin-console/email-workflow/email-workflow-settings) and on [Email Template Management](https://www.loginradius.com/legacy/docs/api/v2/admin-console/email-workflow/email-template-management)
 
-Note: This function leverages the [Auth Verify Email API](/api/v2/customer-identity-api/authentication/auth-verify-email). Review this API if you need details on parameters that can be provided in the **Data** object.
+Note: This function leverages the [Auth Verify Email API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-verify-email). Review this API if you need details on parameters that can be provided in the **Data** object.
 
 Format:
 
@@ -254,7 +254,7 @@ LRObject.api.socialLogin({
 
 To resend email verification, you can call **LRObject.api.resendEmailVerification** with the customer's email address.
 
-Note: This function leverages the [Auth Resend Email Verification API](/api/v2/user-registration/auth-resend-email-verification).
+Note: This function leverages the [Auth Resend Email Verification API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-resend-email-verification).
 
 Format:
 
@@ -284,7 +284,7 @@ This section deals with enabling login by sending a One Time Passcode to your cu
 
 ### Phone Send OTP
 
-To get a One Time Password (OTP), call **LRObject.api.otpLogin** with the customer's **phone number**. Note: This API is based on the [Phone Send One time Passcode API](/api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms).
+To get a One Time Password (OTP), call **LRObject.api.otpLogin** with the customer's **phone number**. Note: This API is based on the [Phone Send One time Passcode API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms).
 
 Format:
 
@@ -314,7 +314,7 @@ LRObject.api.otpLogin({
 
 ### Verify OTP
 
-The Verify OTP Login function leverages the [Phone Verification by OTP API](/api/v2/user-registration/phone-verify-otp) to verify a customer's provided phone number via the One Time Passcode.
+The Verify OTP Login function leverages the [Phone Verification by OTP API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-verify-otp) to verify a customer's provided phone number via the One Time Passcode.
 
 Format:
 
@@ -335,7 +335,7 @@ LRObject.api.verifyOTP({
 
 ### Resend OTP
 
-The resendOTP function is used to resend the One Time Passcode to a customer's phone. It is based on the [Phone Resend Verification OTP API](/api/v2/user-registration/phone-resend-otp)
+The resendOTP function is used to resend the One Time Passcode to a customer's phone. It is based on the [Phone Resend Verification OTP API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-resend-otp)
 
 **Format:**
 
@@ -391,7 +391,7 @@ LRObject.api.updatePhone({
 
 _Note:_ This function is intended for flows that interact with the Passwordless Login APIs.
 
-The Verify OTP Login function leverages the [Phone Login Using One Time Passcode API](/api/v2/user-registration/phone-login-using-one-time-passcode) which is part of the Passwordless Login APIs to login a customer instantly by returning an **access_token** along with the customer's profile if the token is valid.
+The Verify OTP Login function leverages the [Phone Login Using One Time Passcode API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-login-using-one-time-passcode) which is part of the Passwordless Login APIs to login a customer instantly by returning an **access_token** along with the customer's profile if the token is valid.
 
 **Format:**
 
@@ -430,7 +430,7 @@ that make use of multiple factors for authentication.
 
 ### Multi-Factor Authentication Login
 
-This function allows you to initiate a traditional login if you have MFA (Multi-Factor Authentication) enabled in your LoginRadius Admin Console, this function leverages the [MFA Email Login API](/api/v2/user-registration/2fa-email-login).
+This function allows you to initiate a traditional login if you have MFA (Multi-Factor Authentication) enabled in your LoginRadius Admin Console, this function leverages the [MFA Email Login API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-email-login).
 
 The format for the MFA Login function is as follows:
 
@@ -444,13 +444,13 @@ The format for the MFA Login function is as follows:
 
 ### Multi-Factor Authentication Update Phone
 
-The **twoFAUpdatePhone** function leverages the [MFA Update Phone Number API](/api/v2/user-registration/2fa-update-phone-number) which is used to update the phone number used to Multi-Factor Authentication by customers.
+The **twoFAUpdatePhone** function leverages the [MFA Update Phone Number API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-update-phone-number) which is used to update the phone number used to Multi-Factor Authentication by customers.
 
 Format:
 
 `LRObject.api.twoFAUpdatePhone(data, onSuccess, onError);`
 
-- **data:** Should be an object which contains all of the parameters required to update the phone number in the [MFA Update Phone Number API](/api/v2/user-registration/2fa-update-phone-number).
+- **data:** Should be an object which contains all of the parameters required to update the phone number in the [MFA Update Phone Number API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-update-phone-number).
 
 - **onSuccess:** Pass in a function you would like to use as a callback when the customer has passed successfully updated the phone number.
 
@@ -471,13 +471,13 @@ LRObject.api.twoFAUpdatePhone({
 
 ### Multi-Factor Authentication Verify OTP
 
-This function leverages the [MFA Validate OTP API](/api/v2/user-registration/2fa-verify-otp) and is used to login via Multi-factor Authentication.
+This function leverages the [MFA Validate OTP API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-verify-otp) and is used to login via Multi-factor Authentication.
 
 Format:
 
 `LRObject.api.twoFAVerifyOTP(data, onSuccess, onError);`
 
-- **data:** Should be an object which contains all of the parameters required to verify the OTP, you can refer to the [MFA Validate OTP API](/api/v2/user-registration/2fa-verify-otp) for details.
+- **data:** Should be an object which contains all of the parameters required to verify the OTP, you can refer to the [MFA Validate OTP API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-verify-otp) for details.
 
 - **onSuccess:** Pass in a function you would like to use as a callback when the customer has been successfully logged in.
 
@@ -947,7 +947,7 @@ Format:
 
 ## Get Social Data
 
-The Get Social Data function is used to call any API from the [Social APIs](/api/v2/social-login/getting-started) that require the "GET" method.
+The Get Social Data function is used to call any API from the [Social APIs](https://www.loginradius.com/legacy/docs/api/v2/social-login/getting-started) that require the "GET" method.
 
 To implement get social data, call **LRObject.api.getSocialData** with the access_token, the success function , error function, the endpoint, and paramQueryString.
 
@@ -961,9 +961,9 @@ Format:
 
 - **onError**: Pass in a function you would like to use as a callback for when the request failed.
 
-- **endpoint**: The desired Endpoint e.g. `/api/v2/like` for the [Like API](/api/v2/social-login/like).
+- **endpoint**: The desired Endpoint e.g. `/api/v2/like` for the [Like API](https://www.loginradius.com/legacy/docs/api/v2/social-login/like).
 
-- **paramQueryString**: The desired query string parameters (Using the [Like API](/api/v2/social-login/like) for our example) e.g. `&access_token`
+- **paramQueryString**: The desired query string parameters (Using the [Like API](https://www.loginradius.com/legacy/docs/api/v2/social-login/like) for our example) e.g. `&access_token`
 
 Example:
 
@@ -978,7 +978,7 @@ LRObject.api.getSocialData("<access_token>",
 
 ## Post Social Data
 
-The Post Social Data function is used to call any API from the [Social APIs](/api/v2/social-login/getting-started) that require the "POST" method.
+The Post Social Data function is used to call any API from the [Social APIs](https://www.loginradius.com/legacy/docs/api/v2/social-login/getting-started) that require the "POST" method.
 
 To implement post social data, call **LRObject.api.postSocialData** with the access_token, a success function, an error function, the desired endpoint, the desired paramQueryString and the postBodyJson.
 
@@ -992,9 +992,9 @@ Format:
 
 - **onError**: Pass in a function you would like to use as a callback for when the request fails.
 
-- **endpoint**: The desired Endpoint e.g. `/api/v2/message` for the [Post Message API](/api/v2/social-login/post-message-api).
+- **endpoint**: The desired Endpoint e.g. `/api/v2/message` for the [Post Message API](https://www.loginradius.com/legacy/docs/api/v2/social-login/post-message-api).
 
-- **paramQueryString**: The desired query string parameters (Using the [Post Message API](/api/v2/social-login/post-message-api) for our example) e.g. `&access_token?to=example%40example.com?subject=welcome?message=hello`
+- **paramQueryString**: The desired query string parameters (Using the [Post Message API](https://www.loginradius.com/legacy/docs/api/v2/social-login/post-message-api) for our example) e.g. `&access_token?to=example%40example.com?subject=welcome?message=hello`
 
 - **postBodyJson**: The desired JSON for the POST body if there are any, otherwise leave this blank.
 
@@ -1278,7 +1278,7 @@ The One Touch Login set of functions is designed to assist you in managing your 
 
 To perform a One Touch Login Action that triggers email or SMS, call **LRObject.api.oneTouchLogin** with the customer's email or phone number.
 
-> **Note:** This API is based on the [One Touch Login by Email API](/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-email-captcha/) and [One Touch Login by Phone API](/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-phone-captcha/)
+> **Note:** This API is based on the [One Touch Login by Email API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-email-captcha/) and [One Touch Login by Phone API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-phone-captcha/)
 
 Format:
 
@@ -1310,7 +1310,7 @@ LRObject.api.oneTouchLogin({
 
 To verify the token or OTP, call **LRObject.api.oneTouchLoginVerify**.
 
-> **Note:** This API is based on the [One Touch Email Verification API](/api/v2/customer-identity-api/one-touch-login/one-touch-email-verification/) and [One Touch OTP Verification](/api/v2/customer-identity-api/one-touch-login/one-touch-otp-verification/).
+> **Note:** This API is based on the [One Touch Email Verification API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-email-verification/) and [One Touch OTP Verification](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-otp-verification/).
 
 Format:
 

@@ -21,7 +21,7 @@ LoginRadius is the cornerstone for satisfying customer compliance and business n
 
 The LoginRadius Admin Console allows you to secure your platform by assigning roles and access permissions according to your team member’s role in the company. It is important to first identify the required access permissions specific to each team member and then assign the appropriate role to minimize accidental or malicious security breaches. 
 
-For example, a marketing team member does not need access to the API feature, and it is for the best, as it will prevent unauthorized changes to the platform that may potentially breach the security of your web applications. For more details about the roles and permissions of team members, you can refer to the [Team Management document](/api/v2/admin-console/team-management/manage-team-members).
+For example, a marketing team member does not need access to the API feature, and it is for the best, as it will prevent unauthorized changes to the platform that may potentially breach the security of your web applications. For more details about the roles and permissions of team members, you can refer to the [Team Management document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/team-management/manage-team-members).
 
 ##Using API Secret
 
@@ -29,9 +29,9 @@ LoginRadius’s API secret is a uniquely generated key that provides access to t
 
 - We strongly recommend against sharing API secrets among unauthorized entities. Since API secret has management capabilities, it is deemed a high-security risk to share it.
 
-- For cases where multiple team members need access to your API secret, we recommend that you leverage our Additional API Secret(s) feature. For more details, refer to this [document](/api/v2/admin-console/deployment/api-key-and-secret#additionalapisecrets2).
+- For cases where multiple team members need access to your API secret, we recommend that you leverage our Additional API Secret(s) feature. For more details, refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/api-key-and-secret#additionalapisecrets2).
 
-- If your API secret is mistakenly shared with an unauthorized entity, we highly recommend an immediate reset of the API secret. Refer to this [document](/api/v2/admin-console/platform-security/api-key-and-secret/#resettingyourapisecret2) for instructions on how to reset the API secret.
+- If your API secret is mistakenly shared with an unauthorized entity, we highly recommend an immediate reset of the API secret. Refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/#resettingyourapisecret2) for instructions on how to reset the API secret.
 
 ##Calling LoginRadius API
 
@@ -57,8 +57,8 @@ Security best practices recommend against storing any confidential information i
 
 ##SSL Verification
 
-To prevent man-in-the middle style attacks, SSL must be enabled on all web properties interacting with LoginRadius. For more information, see our Announcements page [here](/api/v2/announcements/infrastructure-and-api-security).
+To prevent man-in-the middle style attacks, SSL must be enabled on all web properties interacting with LoginRadius. For more information, see our Announcements page [here](https://www.loginradius.com/legacy/docs/api/v2/announcements/infrastructure-and-api-security).
 
 ##Multi-Factor Authentication
 
-Multi-Factor Authentication (MFA) is a multi-step verification process that adds an extra layer of security to user accounts. LoginRadius recommends using MFA to enhance account protection. With MFA, when a user attempts to log in, an authentication code is sent to them, which they must enter to complete the login process. Users can receive this code via SMS, authenticator apps, or email. For more details, refer to this [document](/api/v2/admin-console/platform-security/multi-factor-auth/).
+Multi-Factor Authentication (MFA) is a multi-step verification process that adds an extra layer of security to user accounts. LoginRadius recommends using MFA to enhance account protection. With MFA, when a user attempts to log in, an authentication code is sent to them, which they must enter to complete the login process. Users can receive this code via SMS, authenticator apps, or email. For more details, refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/multi-factor-auth/).

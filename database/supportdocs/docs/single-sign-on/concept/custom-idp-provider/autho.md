@@ -86,19 +86,19 @@ This document provides a step-by-step guide to configure an Auth0 application as
     1.  **Provider Name**- As per your wish e.g.: “auth0”
     
     2.  **Customer Login Endpoint** -To know the Login endpoint of the Auth0 application. Follow the steps mentioned [here  
-    ](/single-sign-on/concept/custom-idp-provider/autho-as-custom-idp/#loginendpointtokenendpointprofileendpoint1)e.g.: https://optesttt.us.auth0.com/authorize
+    ](https://www.loginradius.com/legacy/docs/single-sign-on/concept/custom-idp-provider/autho-as-custom-idp/#loginendpointtokenendpointprofileendpoint1)e.g.: https://optesttt.us.auth0.com/authorize
     
-    3.  **Access Token Endpoint**-To know the Token endpoint of the Auth0 application. Follow the steps mentioned [here](/single-sign-on/concept/custom-idp-provider/autho-as-custom-idp/#loginendpointtokenendpointprofileendpoint1) e.g.: https://optesttt.us.auth0.com/oauth/token
+    3.  **Access Token Endpoint**-To know the Token endpoint of the Auth0 application. Follow the steps mentioned [here](https://www.loginradius.com/legacy/docs/single-sign-on/concept/custom-idp-provider/autho-as-custom-idp/#loginendpointtokenendpointprofileendpoint1) e.g.: https://optesttt.us.auth0.com/oauth/token
     
-    4.  **Application Key**-  To know the Application key from Aut0 application follow the steps [here](/single-sign-on/concept/custom-idp-provider/autho-as-custom-idp/#applicationkeyandapplicationsecret2)
+    4.  **Application Key**-  To know the Application key from Aut0 application follow the steps [here](https://www.loginradius.com/legacy/docs/single-sign-on/concept/custom-idp-provider/autho-as-custom-idp/#applicationkeyandapplicationsecret2)
     
-    5.  **Application Secret**-  To know the Application secret from the Auth0 application follow the steps [here](/single-sign-on/concept/custom-idp-provider/autho-as-custom-idp/#applicationkeyandapplicationsecret2)
+    5.  **Application Secret**-  To know the Application secret from the Auth0 application follow the steps [here](https://www.loginradius.com/legacy/docs/single-sign-on/concept/custom-idp-provider/autho-as-custom-idp/#applicationkeyandapplicationsecret2)
     
     6.  **Scope**- openid email
     
     7.  **Response Type**- code
     
-    8.  **Customer Profile Endpoint** -To know the Profile endpoint of the Auth0 application. Follow the steps mentioned [here](/single-sign-on/concept/custom-idp-provider/autho-as-custom-idp/#loginendpointtokenendpointprofileendpoint1)
+    8.  **Customer Profile Endpoint** -To know the Profile endpoint of the Auth0 application. Follow the steps mentioned [here](https://www.loginradius.com/legacy/docs/single-sign-on/concept/custom-idp-provider/autho-as-custom-idp/#loginendpointtokenendpointprofileendpoint1)
     e.g.: https://optesttt.us.auth0.com/userinfo
     
     9.  **Request Token Http Method**- POST

@@ -22,7 +22,7 @@ As a result of the incoming deprecation of Microsoft’s Live providers, LoginRa
 ## Changes made regarding Advanced Social APIs:
 
  - Contact and Event API data have been mapped differently. The changes can be found below in “Contact Advanced Social API Mapping” and “Event Advanced Social API Mapping”.
- - [Audio](/api/v2/customer-identity-api/social-login/advanced-social-api/audio/), [Album](/api/v2/customer-identity-api/social-login/advanced-social-api/album/), [Photo](/api/v2/customer-identity-api/social-login/advanced-social-api/photo/) and [Video](/api/v2/customer-identity-api/social-login/advanced-social-api/video/) APIs, which were previously supported by the Live provider, have now been deprecated.
+ - [Audio](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/audio/), [Album](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/album/), [Photo](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/photo/) and [Video](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/video/) APIs, which were previously supported by the Live provider, have now been deprecated.
 
 ## Consumer and Work/School Account Mapping
 

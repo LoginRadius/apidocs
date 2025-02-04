@@ -13,7 +13,7 @@ Upon clicking it, it'll redirect you to a page where you can export the API call
 
 ## How to Import
 
-1. Simply go to an API call link such as [here](/api/v2/cloud-directory-api/identity/get-user-identity/)
+1. Simply go to an API call link such as [here](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/identity/get-user-identity/)
 Click the button near the middle-right of the page, and import it to Postman.
 
 ## Configuration

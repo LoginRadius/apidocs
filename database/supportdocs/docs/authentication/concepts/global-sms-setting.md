@@ -17,4 +17,4 @@ Navigate to your **LoginRadius Admin Console ➔ Platform Configuration ➔ Iden
 
 ![Global SMS Settings](https://apidocs.lrcontent.com/images/Communication-Configuration---LoginRadius-User-Dashboard_144715e4af524cb9a74.25485432.png "Global SMS Settings")
 
-Please note that the settings configured on this page are global for all your SMS events. To customize settings and templates for individual SMS events, please refer to this [document](/api/v2/admin-console/platform-configuration/phone-login-configuration).
+Please note that the settings configured on this page are global for all your SMS events. To customize settings and templates for individual SMS events, please refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/phone-login-configuration).

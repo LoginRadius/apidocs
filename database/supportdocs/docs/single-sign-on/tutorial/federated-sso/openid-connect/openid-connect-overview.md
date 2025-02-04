@@ -101,7 +101,7 @@ Each flow requires going through an Authorization Endpoint, essentially the page
 | redirect_uri  | (required) This is the URI to which the response should be sent. This must be whitelisted in the App Section in Admin Console. **Note:** URL added under Login Redirect URL in the OIDC configuration in LoginRadius Admin Console will be given precedence. |
 | response_type | (required) This defines the processing flow to be used when forming the response.<br><br>Authorization Flow:<br>response_type: code<br><br>Implicit Flow:<br>response_type: id_token<br>response_type: token id_token<br><br>Hybrid Flow:<br>response_type: code token<br>response_type: code id_token<br>response_type: code token id_token                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | state         | (optional) It is recommended that the client’s use this parameter to maintain state between the request and the callback. Typically, Cross-Site Request Forgery (CSRF, XSRF) mitigation is done by cryptographically binding the value of this parameter with a browser cookie.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| scope         | (required) This is a space-delimited list of the scopes requested by the client. It must contain the value **openid** to indicate that the application intends to use OIDC. This may also contain other values e.g. `openid`, `profile`,`email`, `phone`, `address` . If you pass only the required parameter **openid** in scope then the id_token in the [userinfo](/api/v2/single-sign-on/federated-sso/openid-connect/userinfo-by-access-token/) API response will contain only the mapped fields under the OIDC configuration in Admin Console.If you are looking to get additional profile fields in the id_token in the [userinfo](/api/v2/single-sign-on/federated-sso/openid-connect/userinfo-by-access-token/) API rsponse, you can pass the additional scopes with **openid**. The list of supported scopes and claims in the id_token can be found [here](#listofscopesandclaims5). |
+| scope         | (required) This is a space-delimited list of the scopes requested by the client. It must contain the value **openid** to indicate that the application intends to use OIDC. This may also contain other values e.g. `openid`, `profile`,`email`, `phone`, `address` . If you pass only the required parameter **openid** in scope then the id_token in the [userinfo](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/openid-connect/userinfo-by-access-token/) API response will contain only the mapped fields under the OIDC configuration in Admin Console.If you are looking to get additional profile fields in the id_token in the [userinfo](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/openid-connect/userinfo-by-access-token/) API rsponse, you can pass the additional scopes with **openid**. The list of supported scopes and claims in the id_token can be found [here](#listofscopesandclaims5). |
 | nonce         | (optional) This serves as a token validation parameter, used to associate a client authentication with an ID Token for mitigating replay attacks. If this value is used, it will be included as a Claim in the ID Token. Clients should verify that this nonce Claim value is equal to the value set in the Authorization Request.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | response_mode | (optional) Informs the Authorization Server of the mechanism to be used for returning parameters from the Authorization Endpoint<br><br>There are three types of response mode<br><br>query → Authorization response will be append in the redirect_uri as the query string.<br> (Ex→ example.com&state=fgfgfg&code=ffgfgfgfgf)<br><br>fragment → Authorization response will be append in the redirect_uri using the fragment (Ex→ example.com#state=fgfgfg&code=ffgfgfgfgf).<br><br>form_post → Authorization response will be posted on the redirect uri, Default Response Mode if not provided<br><br>Authorization code flow → query<br>Implicit Flow → fragment<br>Hybrid Flow → fragment                                                                                                                                                                                                                                                                 |
 | ui_locales    | (optional) End-User's preferred languages and scripts for the user interface, represented as a space-separated list of BCP47 [RFC5646] language tag values, ordered by preference. For instance, the value "fr-CA fr en" represents a preference for French as spoken in Canada, then French (without a region designation), followed by English (without a region designation)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -159,7 +159,7 @@ e.g.
 }
 `
 
-Once you have the code you can request an access_token via the [Access token by OpenID Code](/api/v2/single-sign-on/openid/access-token-by-openid-code) API.
+Once you have the code you can request an access_token via the [Access token by OpenID Code](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/openid/access-token-by-openid-code) API.
 
 #### OpenID PKCE Flow
 
@@ -208,7 +208,7 @@ Steps for using **code_challenge** and **code_challenge_method** in PKCE flow.
 - **Generate the code challenge:** This is passed in the **code_challenge** as a query parameter in the Authorization process and will be generated with the help of the code_verifier value.
     
 
-We provide the ready-to-use **code** to generate the **code_verifier** and **code_challenge**, please refer to this [document](/single-sign-on/tutorial/federated-sso/pkce-flow/#generatingpkcecodeverifierandchallenge0)
+We provide the ready-to-use **code** to generate the **code_verifier** and **code_challenge**, please refer to this [document](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/pkce-flow/#generatingpkcecodeverifierandchallenge0)
 
 The provider will redirect you to the authentication/login page and you'll get the code after successful authentication.
 
@@ -312,7 +312,7 @@ Redirect your user to the following URL to get the login prompt:
 
 - client_id: OIDC Client ID
 - redirect_uri: Callback URL of your site where you want to redirect back your users
-- scope: To get values mapped in the admin console configuration you must need to pass the openid as value. If you are looking to get additional profile fields in the id_token in the [userinfo](/api/v2/single-sign-on/federated-sso/openid-connect/userinfo-by-access-token/) API response, you can pass the additional scopes with **openid**. The list of supported scopes and claims in the id_token can be found [here](#listofscopesandclaims5).
+- scope: To get values mapped in the admin console configuration you must need to pass the openid as value. If you are looking to get additional profile fields in the id_token in the [userinfo](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/openid-connect/userinfo-by-access-token/) API response, you can pass the additional scopes with **openid**. The list of supported scopes and claims in the id_token can be found [here](#listofscopesandclaims5).
 - response_type : possible values are `code token`, `code id_token` or `code token id_token`.
 - state: random string that returned with the access_token in the redirect callback. this parameter will be returned as it is, part of the response.
 - nonce: a unique generated nounce.
@@ -429,7 +429,7 @@ To activate the device code flow functionality for your account, you can easily 
 
 The following explains the implementation sequence for Device Code Flow:
 
-**Step 1:** Use the [**Request Device Code API**](/api/v2/single-sign-on/federated-sso/openid-connect/request-device-code/) to request a new device code, user code from the Device code Endpoint ( you could show a message to ask the consumer to open the verification URL to complete the authetnicaiton on the browser-base device).
+**Step 1:** Use the [**Request Device Code API**](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/openid-connect/request-device-code/) to request a new device code, user code from the Device code Endpoint ( you could show a message to ask the consumer to open the verification URL to complete the authetnicaiton on the browser-base device).
 
   
 |  |  |
@@ -440,7 +440,7 @@ The following explains the implementation sequence for Device Code Flow:
 |Body (json content type)|{<br>"client_id": `<OIDC Client ID>`,<br>"scope": "openid email profile"<br>} <br><br>Note: <br>**1.** Scope: [optional] (e.g email profile)|
 |Response|{<br>"interval": 10,<br>"expires_in": 1800,<br>"device_code": "1522d771f27b408baca35eca7d81c37d",<br>"user_code": "MXD-TPV",<br>"verification_uri":"https://example.com/federation/device/activate.php,<br>"verification_uri_complete":"https://example.com/federation/device/activate.php?user_code=MXD-TPV"<br>}|
 
-**Step 2:** Use the device_code and keep calling [**Device Code Exchange (Ping API)**](/api/v2/single-sign-on/federated-sso/openid-connect/device-code-exchange-token-ping/) till you get the access token.
+**Step 2:** Use the device_code and keep calling [**Device Code Exchange (Ping API)**](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/openid-connect/device-code-exchange-token-ping/) till you get the access token.
 
 |  |  |
 |--|--|
@@ -473,19 +473,19 @@ Once you have obtained a code or access_token (depending on the workflow you've 
 
 If you've obtained an authorization code, you're able to exchange it for an access_token.
 
-Use the [Access token by OpenID Code](/api/v2/single-sign-on/openid/access-token-by-openid-code) API to get the access_token, JWT Token and the refresh_token.
+Use the [Access token by OpenID Code](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/openid/access-token-by-openid-code) API to get the access_token, JWT Token and the refresh_token.
 
 ##### Revoke Refresh Token
 
-You can use the [Revoke Refresh Token](/api/v2/single-sign-on/openid/revoke-refresh-token) API Call to expire a Refresh Token.
+You can use the [Revoke Refresh Token](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/openid/revoke-refresh-token) API Call to expire a Refresh Token.
 
 ##### Refresh Access Token
 
-You can use the [Refresh Access Token](/api/v2/single-sign-on/openid/revoke-refresh-token) API Call to expire a Refresh Token.
+You can use the [Refresh Access Token](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/openid/revoke-refresh-token) API Call to expire a Refresh Token.
 
 ##### Getting the UserInfo
 
-The UserInfo of a logged in user can be retrieved with the [UserInfo by Access Token](/api/v2/single-sign-on/openid/userinfo-by-access-token) API call which will return the UserInfo in a JWT Token.
+The UserInfo of a logged in user can be retrieved with the [UserInfo by Access Token](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/openid/userinfo-by-access-token) API call which will return the UserInfo in a JWT Token.
 
 **Note:** The RSA algorithm is currently the only supported encryption type for the JWT tokens.
 
@@ -495,11 +495,11 @@ Here's some other endpoints you will need in your OpenID workflow.
 
 ##### Getting The JSON Web Key Set
 
-Our [JSON Web Key Set](/api/v2/single-sign-on/openid/get-json-web-key-set) API Call provides the JWKS that can be used to verify any JWT token with the returned JSON Web Key Set (JWKS).
+Our [JSON Web Key Set](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/openid/get-json-web-key-set) API Call provides the JWKS that can be used to verify any JWT token with the returned JSON Web Key Set (JWKS).
 
 ##### OIDC Discovery Endpoint
 
-The [OIDC Discovery](/api/v2/single-sign-on/openid/oidc-discovery) API Endpoint provides a client with configuration details about the OpenID Connect metadata of Loginradius App.
+The [OIDC Discovery](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/openid/oidc-discovery) API Endpoint provides a client with configuration details about the OpenID Connect metadata of Loginradius App.
 
 URL Format:
 `https://{siteurl}/service/oidc/{OIDCAppName}/.well-known/openid-configuration`

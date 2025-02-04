@@ -25,8 +25,8 @@ Salt is a random data used as an additional input in most Hashing function. Ther
 **A per-password salt** is a more secure usage of salt than A system-wide salt. It is also a recommended way to use salt in password security standard. A per-password salt means that when the user generates a new password (more commonly because they forgot their old one), the password system also generates a new salt for its new password. This way old and new password looks different in their hashed form despite being the same input.
 
 
-This concludes our Security lexicon usage. See our [Supported Hashing Algorithm](/development/configuration/supported-password-hashing-algorithms) for more information on our password security.
-For a system-wide password security overview, see [Password Management](/platform-features-overview/user-security/password-management). To see the list of our supported hashing function go
+This concludes our Security lexicon usage. See our [Supported Hashing Algorithm](https://www.loginradius.com/legacy/docs/development/configuration/supported-password-hashing-algorithms) for more information on our password security.
+For a system-wide password security overview, see [Password Management](https://www.loginradius.com/legacy/docs/platform-features-overview/user-security/password-management). To see the list of our supported hashing function go
 
 ## Upgrading Hashing Algorithms
 

@@ -1,6 +1,6 @@
 # Mobile SSO Introduction
 
-The LoginRadius **Mobile SSO** flow is similar to the [LoginRadius Web SSO](/api/v2/single-sign-on/getting-started/) flow, the key difference is that it allows you to have a single login across multiple apps once logged into an app.
+The LoginRadius **Mobile SSO** flow is similar to the [LoginRadius Web SSO](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/getting-started/) flow, the key difference is that it allows you to have a single login across multiple apps once logged into an app.
 
 Mobile SSO works by storing the LoginRadius access token in a shared session, either shared preferences in Android or keychain in iOS. It allows you to identify a currently active session and access the current sessions’ user data to initialize your user account in each linked app.
 
@@ -14,7 +14,7 @@ This guide will take you through the process of implementing SSO in Mobile (Andr
 
 ## Part 1 - Android Apps
 
-If you have multiple Android apps and want to implement single sign-on across all of them, the following are the steps to implement SSO with the [LoginRadius Android SDK](/libraries/mobile-sdk-libraries/android-library/#singlesignon11). 
+If you have multiple Android apps and want to implement single sign-on across all of them, the following are the steps to implement SSO with the [LoginRadius Android SDK](https://www.loginradius.com/legacy/docs/libraries/mobile-sdk-libraries/android-library/#singlesignon11). 
 
 SSO allows a single identity for each customer to be created and recognized across all of your Android app properties and makes it possible for your customers to navigate between the app with one social ID easily. 
 
@@ -106,7 +106,7 @@ Upon completing the above steps, the mobile SSO is set up between your Android a
 
 ## Part 2 - iOS Apps
 
-If you have multiple iOS apps and want to have a single sign-on across them, the following are the steps to implement SSO with the [LoginRadius iOS SDK](/libraries/mobile-sdk-libraries/ios-library/). Under the hood, we use the iOS keychain to do this.
+If you have multiple iOS apps and want to have a single sign-on across them, the following are the steps to implement SSO with the [LoginRadius iOS SDK](https://www.loginradius.com/legacy/docs/libraries/mobile-sdk-libraries/ios-library/). Under the hood, we use the iOS keychain to do this.
 
 Add this to your LoginRadius.plist for your apps:
 
@@ -260,6 +260,6 @@ return
 
 The following are the list of documents you might want to look into:
 
-- [Web SSO](/single-sign-on/web-and-mobile-sso/loginradius-web-sso/#overview0)
-- [Federated SSO](/single-sign-on/tutorial/federated-sso/overview/)
-- [Custom IDP](/single-sign-on/custom-identity-providers/overview/)
+- [Web SSO](https://www.loginradius.com/legacy/docs/single-sign-on/web-and-mobile-sso/loginradius-web-sso/#overview0)
+- [Federated SSO](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/overview/)
+- [Custom IDP](https://www.loginradius.com/legacy/docs/single-sign-on/custom-identity-providers/overview/)

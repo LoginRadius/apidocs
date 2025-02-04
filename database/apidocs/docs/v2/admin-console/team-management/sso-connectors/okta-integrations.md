@@ -65,7 +65,7 @@ For example:
 
    - Enter LoginRadius' Certificate and Key in **SERVICE PROVIDER CERTIFICATE** and **SERVICE PROVIDER CERTIFICATE**.
 
-     >**Note:** **Certificate** and **Key** can be generated using [online tools](/single-sign-on/concept/saml-miscellaneous/certificate/), with Bits
+     >**Note:** **Certificate** and **Key** can be generated using [online tools](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-miscellaneous/certificate/), with Bits
       and Digest Algorithm 2056, SHA256 respectively.The certificate and key should be entered with the header/footer as mentioned below:
 
     > **Certificate**

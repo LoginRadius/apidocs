@@ -30,11 +30,11 @@ To enable this feature for your application, you will need to raise a [Support t
 
 ### Configure Email Provider (Global Configuration)
 
-There is no need to follow this step if the SMTP provider is already set up in Email Configuration. If the SMTP provider is not already set up, then you will need to configure the SMTP provider first. To configure the SMTP provider you can refer to this [document](/authentication/concepts/email-communications/#partsmtpconfiguration1).
+There is no need to follow this step if the SMTP provider is already set up in Email Configuration. If the SMTP provider is not already set up, then you will need to configure the SMTP provider first. To configure the SMTP provider you can refer to this [document](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partsmtpconfiguration1).
 
 ### Customize the Email Template
 
-If the **Mutiple SMTP Domain** feature is enabled on your site and you have configured the SMTP provider, you can customize the **FROM NAME** and **FROM EMAIL** for any of the email templates available in your account (in addition to the existing email template level customizations). For customizing the content for the email templates, you can refer to this [document](/api/v2/admin-console/platform-configuration/standard-login/email-templates/).
+If the **Mutiple SMTP Domain** feature is enabled on your site and you have configured the SMTP provider, you can customize the **FROM NAME** and **FROM EMAIL** for any of the email templates available in your account (in addition to the existing email template level customizations). For customizing the content for the email templates, you can refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/standard-login/email-templates/).
 
 ## Usecases for Multiple SMTP Domain
 

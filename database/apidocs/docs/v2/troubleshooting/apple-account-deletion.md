@@ -25,7 +25,7 @@ Screenshot reference:
   
 Please refer to the following guide:  
   
-1. Fetch the Apple signin token from the LoginRadius GET [user profile API](/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) response.  
+1. Fetch the Apple signin token from the LoginRadius GET [user profile API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) response.  
   
 Under the **Identities** ( type: array of object), check the object having provider as “apple” ie. **"Provider": "apple",** respectively, that object will have **AccessToken** field under the **ProviderAccessCredential** data field, this field contains the user’s Apple sign-in token value.  
   

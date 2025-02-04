@@ -56,5 +56,5 @@ Features include register, login, social login, email verification, forgot passw
 
 * Deploying the Social Login interface on the DOM (using components):
 
-  * **Problem**: Ember templates do not allow script tags, and so the custom interface provided in the [docs](/api/v2/user-registration/user-registration-getting-started#sociallogin8) cannot be used.
-  * **Solution**: [Programmatically create links](/api/v2/user-registration/user-registration-getting-started#_programmatic-link-creation_).
+  * **Problem**: Ember templates do not allow script tags, and so the custom interface provided in the [docs](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#sociallogin8) cannot be used.
+  * **Solution**: [Programmatically create links](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#_programmatic-link-creation_).

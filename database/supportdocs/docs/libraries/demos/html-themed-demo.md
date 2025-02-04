@@ -22,8 +22,8 @@ var LRObject= new LoginRadiusV2(loginRadiusConfig);
 
 **SOTT**:
 
-* You can set a static SOTT from [here](/api/v2/user-registration/sott#staticsott4).  
-* If you want to setup a dynamically-generated SOTT, refer [here](/api/v2/user-registration/sott)
+* You can set a static SOTT from [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/sott#staticsott4).  
+* If you want to setup a dynamically-generated SOTT, refer [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/sott)
 
 
 ## How it Looks

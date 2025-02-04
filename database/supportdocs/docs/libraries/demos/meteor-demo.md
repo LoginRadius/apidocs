@@ -3,7 +3,7 @@
 Meteor is a full-stack JavaScript platform for developing modern web and mobile applications. Meteor includes an essential set of technologies for building connected-client reactive applications, a build tool, and a curated set of packages from the Node.js and general JavaScript community.
 This is an open-source demo, which means you are free to download and customize the functions based on your specific application needs. 
 
-This documentation presumes familiarity with the client-side implementation of the LoginRadius interfaces as this document will show you how to use the LoginRadiusV2.js JavaScript interfaces in MeteorJS. Additional details on this can be found in the [getting started guide](/api/v2/deployment/js-libraries/getting-started). Get a full demo [here](https://github.com/LoginRadius/demo/tree/v2-meteor-demo).
+This documentation presumes familiarity with the client-side implementation of the LoginRadius interfaces as this document will show you how to use the LoginRadiusV2.js JavaScript interfaces in MeteorJS. Additional details on this can be found in the [getting started guide](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/getting-started). Get a full demo [here](https://github.com/LoginRadius/demo/tree/v2-meteor-demo).
 
 > **Prerequisite**: 
 You will need the following installed on your computer:
@@ -12,7 +12,7 @@ You will need the following installed on your computer:
 
 ##Quickstart Guide
 
-To begin, obtain your [API credentials](/api/v2/admin-console/platform-security/api-key-and-secret/) from the LoginRadius Admin Console.
+To begin, obtain your [API credentials](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/) from the LoginRadius Admin Console.
 
 - Clone repository from [here](https://github.com/LoginRadius/demo/tree/v2-meteor-demo).
 - cd into directory and run the following commands in sequence:
@@ -60,5 +60,5 @@ Should you decide to implement LoginRadius on a fresh install of MeteorJS, you w
 ```
 
 - Create a Meteor method in `/client/imports/api` to retrieve sensitive variables from `settings.json`
-- You will need to generate the [SOTT](/api/v2/customer-identity-api/sott-usage) or configure reCAPTCHA for the registration form interface, and you can see how this demo implements generating the SOTT via API in `/imports/api/options.js`
+- You will need to generate the [SOTT](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/sott-usage) or configure reCAPTCHA for the registration form interface, and you can see how this demo implements generating the SOTT via API in `/imports/api/options.js`
 - Call the Meteor method in your React component, which will return the options object you can then use to initiate the LoginRadius interface.

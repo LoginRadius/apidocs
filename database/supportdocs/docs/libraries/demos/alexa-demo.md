@@ -49,7 +49,7 @@ This section will take you through all the necessary steps that you need to foll
    - **Client Id**: << Your LoginRadius API Key >>
    - **Client Secret**: << Your LoginRadius API Secret >>
    - **Client Authentication Scheme**: From the dropdown, select "Credentials in request body".
-   - **Scope**: You must provide the desired scopes as per our [LoginRadius OAuth 2 Single Sign On](/api/v2/single-sign-on/oauth2-single-sign-on) Documentation. e.g. **r_basicprofile**
+   - **Scope**: You must provide the desired scopes as per our [LoginRadius OAuth 2 Single Sign On](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/oauth2-single-sign-on) Documentation. e.g. **r_basicprofile**
    - **Domain List**:
    - Provide the LoginRadius Cloud API Address: cloud-api.loginradius.com
    - Your LoginRadius sitename address: your-loginradius-sitename.hub.loginradius.com

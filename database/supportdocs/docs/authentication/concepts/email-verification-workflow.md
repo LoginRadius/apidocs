@@ -84,7 +84,7 @@ The following are the email verification workflows provided by LoginRadius:
 
 If you want to send an OTP instead of a verification token for the email verification process. In that case, you can enable the **OTP Email Verification** flow by navigate to [Platform Configuration > Identity Workflow > Verification Workflow > Email Workflow](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/verification-workflow/email-workflow) in the Admin Console and clicking the associated toggle button highlighted in the image below.
 
-These settings act as a global setting. However, you can still independently change the **Token Type** for the Verification Email, Forgot Password Email, and Delete Account Email. For more information regarding Token Type, kindly refer to the [Email Template Management](/api/v2/admin-console/platform-configuration/standard-login/email-templates/) document.
+These settings act as a global setting. However, you can still independently change the **Token Type** for the Verification Email, Forgot Password Email, and Delete Account Email. For more information regarding Token Type, kindly refer to the [Email Template Management](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/standard-login/email-templates/) document.
 
 
 ![OTP Email Verification Flow](https://apidocs.lrcontent.com/images/VerificationFlow_4_205066724263ad70218a30a1.52885242.png "OTP Email Verification Flow")
@@ -100,8 +100,8 @@ These settings act as a global setting. However, you can still independently cha
 
 The following is the list of features you might want to add-on to the above implementation:
 
-- [Email Communications](/authentication/concepts/email-communications/)
+- [Email Communications](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/)
 
-- [Standard Login](/authentication/quick-start/standard-login/)
+- [Standard Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/)
 
-- [Social Login](/authentication/quick-start/social-login/)
+- [Social Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)

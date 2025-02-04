@@ -6,14 +6,14 @@ This document explains the process of generating different LoginRadius forms bas
 
 
 > **Prerequisites**
->-  All of the advanced customizations which we have explained here require that the LoginRadius customer Registration Interface is configured on your site. For more details, have a look at the getting started document [here](/api/v2/user-registration/user-registration-getting-started#installation1).
+>-  All of the advanced customizations which we have explained here require that the LoginRadius customer Registration Interface is configured on your site. For more details, have a look at the getting started document [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#installation1).
 >- Basic knowledge of HTML/JavaScript
->- Knowledge of implementation of LoginRadius features using JavaScript, referencing this [document](/libraries/js-libraries/getting-started/).
+>- Knowledge of implementation of LoginRadius features using JavaScript, referencing this [document](https://www.loginradius.com/legacy/docs/libraries/js-libraries/getting-started/).
 
 
 ## Form customization by device 
 
-LoginRadius forms can be customized for better readability for various devices using LoginRadius JS Hooks e.g. you may want to show longer validation/error message on the laptop/desktop and show small message on the smaller devices like mobile/tablet. Please see document on [JS hooks](/api/v2/deployment/js-libraries/javascript-hooks) and [JS Form Library](/api/v2/deployment/js-libraries/js-form-library/)
+LoginRadius forms can be customized for better readability for various devices using LoginRadius JS Hooks e.g. you may want to show longer validation/error message on the laptop/desktop and show small message on the smaller devices like mobile/tablet. Please see document on [JS hooks](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/javascript-hooks) and [JS Form Library](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/js-form-library/)
 about various ways to customize the LoginRadius forms and workflow respectively.  Devices can be recognized using the navigator.userAgent property. The following example can be used as a base for customizing any LoginRadius forms using JS hooks for various devices.
 
 ### Device detection example
@@ -41,7 +41,7 @@ if (navigator.userAgent.match(/Mobile|Windows Phone|Lumia|Android|webOS|iPhone|i
 ```
 ## Form customization by user location
 
-LoginRadius forms can be customized based on user location. It will lead to an easier-to-use interface, more relevant content, and a personalized experience. Please see LoginRadius [Localization](/api/v2/deployment/js-libraries/localization) document for the various ways you can localize your website according to a country or region. The following methods shows, how you can find the user location and display relevant LoginRadius form content.
+LoginRadius forms can be customized based on user location. It will lead to an easier-to-use interface, more relevant content, and a personalized experience. Please see LoginRadius [Localization](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/localization) document for the various ways you can localize your website according to a country or region. The following methods shows, how you can find the user location and display relevant LoginRadius form content.
 
 ### Using Navigator.geolocation 
 
@@ -72,7 +72,7 @@ User’s IP address can be used to get your 'country', 'city  etc. You can make 
 
 ### User location example 
 
-You can customize Google recaptcha on the basis of user country. The following example shows if the user is accessing the website from France, Google recaptcha language will be set French and users from other countries, Google recaptcha language will be set as English. You need to use **v2RecaptchaLanguage** common option for setting the langauge. You can find more details regarding common option in [User Registration Getting Started](/api/v2/deployment/js-libraries/getting-started) document. Please see [Google developer page](https://developers.google.com/recaptcha/docs/language) for multiple languages codes for Google recaptcha.
+You can customize Google recaptcha on the basis of user country. The following example shows if the user is accessing the website from France, Google recaptcha language will be set French and users from other countries, Google recaptcha language will be set as English. You need to use **v2RecaptchaLanguage** common option for setting the langauge. You can find more details regarding common option in [User Registration Getting Started](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/getting-started) document. Please see [Google developer page](https://developers.google.com/recaptcha/docs/language) for multiple languages codes for Google recaptcha.
 
 ```
 var requestUrl = "http://ip-api.com/json";

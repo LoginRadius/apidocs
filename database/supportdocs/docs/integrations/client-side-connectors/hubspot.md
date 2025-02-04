@@ -42,7 +42,7 @@ With Hubspot, the way to identify a user is via a User Profile.
 
 `LRObject.identify("hubspot", response.Profile, mapping, false)`
 
-- The specifics on how to use this is in the [Getting Started](/api/v2/integrations/getting-started)
+- The specifics on how to use this is in the [Getting Started](https://www.loginradius.com/legacy/docs/api/v2/integrations/getting-started)
 
 ```
 <script>

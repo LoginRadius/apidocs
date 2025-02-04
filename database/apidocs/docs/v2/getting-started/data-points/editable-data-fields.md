@@ -19,8 +19,8 @@ Please see the list of data fields which can be edited/updated using UserProfile
 - ProfileName
 - BirthDate
 - Gender
-- EmailId (This field can be update by [Add Remove Email API](/api/v2/user-registration/auth-add-email))
-- Password (This field can be update by [Account Password Reset](/api/v2/user-registration/auth-reset-password-by-reset-token), [Account Password Set](/api/v2/user-registration/account-set-password))
+- EmailId (This field can be update by [Add Remove Email API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-add-email))
+- Password (This field can be update by [Account Password Reset](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-reset-password-by-reset-token), [Account Password Set](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-set-password))
 - ExternalIds
 - Website
 - Country
@@ -112,8 +112,8 @@ Please see the list of data fields which can be edited/updated using UserProfile
 - WebProfiles
 - CustomFields (Key/Value pairs limited to 1000 characters)
 - IsEmailSubscribed
-- UserName (This field can be update by [change username API](/api/v2/user-registration/auth-set-change-user-name))
-- EmailVerified (This field can be update by [Account Update](/api/v2/user-registration/account-update))
-- IsActive (This field can be update by [Account Update](/api/v2/user-registration/account-update))
-- PhoneIdVerified (This field can be update by [Account Update](/api/v2/user-registration/account-update))
-- IsDeleted (This field can be update by [Account Update](/api/v2/user-registration/account-update))
+- UserName (This field can be update by [change username API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-set-change-user-name))
+- EmailVerified (This field can be update by [Account Update](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-update))
+- IsActive (This field can be update by [Account Update](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-update))
+- PhoneIdVerified (This field can be update by [Account Update](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-update))
+- IsDeleted (This field can be update by [Account Update](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-update))

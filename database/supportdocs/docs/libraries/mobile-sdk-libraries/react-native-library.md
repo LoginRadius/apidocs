@@ -56,7 +56,7 @@ The above initialization requires options object with the following parameter:
 
 | Name             | Required                                                                                    | Description                                                                                                                                                                                 |
 | ---------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| apiKey           | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"> | Set to your LoginRadius API Key which you can get [here](/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret).                                                                             |
+| apiKey           | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"> | Set to your LoginRadius API Key which you can get [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret).                                                                             |
 | appName          | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"> | Set to your LoginRadius site name, this is required for User Registration to work with Single Sign On API.                                                                                  |
 | sott             | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"> | Secure One-time Token. Get token from [Admin Console](https://adminconsole.loginradius.com/deployment/apps/mobile-apps) Note: While generating SOTT from Loginradius Admin Console, enable Encode SOTT. |
 | verificationUrl  | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;"> | Set dynamic URL for email verification (Default URL: https://auth.lrcontent.com/mobile/verification/index.html)                                                                             |
@@ -359,7 +359,7 @@ This API is used to perform operations on a user account after the user has auth
 #####Registration By Email
 This API creates a user in the database as well as sends a verification email to the user.
 
-In the following example, we've provided limited user attributes as payload. To view the complete list of user attributes, please have a look at the body parameters of the user registration API [here](/api/v2/user-registration/auth-user-registration-by-email).
+In the following example, we've provided limited user attributes as payload. To view the complete list of user attributes, please have a look at the body parameters of the user registration API [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-user-registration-by-email).
 
 ```
   let payload = {
@@ -527,7 +527,7 @@ LoginRadiusSDK.unlinkSocialIdentities(access_token,provider,providerid, function
 #####Update User Profile
 This API is used to update the user profile by the access token.
 
-In the following example, we've provided limited user attributes as payload. To view the complete list of user attributes, please have a look at the body parameters of the Update Profile by Token API [here](/api/v2/user-registration/auth-update-profile-by-token).
+In the following example, we've provided limited user attributes as payload. To view the complete list of user attributes, please have a look at the body parameters of the Update Profile by Token API [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-update-profile-by-token).
 
 ```
   let payload = {
@@ -1270,7 +1270,7 @@ LoginRadiusSDK.getCustomObjectByRecordIdAndToken(access_token, objectname, objec
 #####Update Custom Object
 This API is used to update the specified custom object data of the specified account. If the value of updatetype is 'replace' then it will fully replace custom object with the new custom object and if the value of updatetype is 'partialreplace' then it will perform an upsert type operation.<br>
 
-updatetype : Possible values: replace, partialreplace. Find more details [here](/api/v2/user-registration/custom-object-update-by-objectrecordid-and-token)
+updatetype : Possible values: replace, partialreplace. Find more details [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/custom-object-update-by-objectrecordid-and-token)
 
 ```
 let payload = {

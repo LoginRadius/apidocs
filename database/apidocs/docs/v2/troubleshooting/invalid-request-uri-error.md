@@ -16,7 +16,7 @@ You might face this error due to SAML feature in the following conditions:
 - SAML is not configured
 - LoginRadius app name/site name invalid
 
-For proper configurations related to SAML, check detailed documentation [here](/api/v2/single-sign-on/saml-security-assertion-markup-language).
+For proper configurations related to SAML, check detailed documentation [here](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/saml-security-assertion-markup-language).
 
 ## Identity Experience Framework
 If you’re facing this error on Identity Experience Framework (i.e. auth.aspx or profile.aspx), it might occur due to following conditions:
@@ -25,6 +25,6 @@ If you’re facing this error on Identity Experience Framework (i.e. auth.aspx o
 - User Registration is not enabled
 - User Registration form is not setup/configured
 
-You should visit this [document](/api/v2/user-registration/hosted-registration) to ensure proper configuration or customizations related to Identity Experience Framework.<br/>
+You should visit this [document](https://www.loginradius.com/legacy/docs/api/v2/user-registration/hosted-registration) to ensure proper configuration or customizations related to Identity Experience Framework.<br/>
 
 If you’re still unable to resolve the issue, please raise a support ticket [here](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).

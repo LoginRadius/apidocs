@@ -2,9 +2,9 @@ Insights API Overview
 ====
 ------
 
-While you can leverage the Cloud Directory's [Identity API](/api/v2/cloud-directory-api/identity/getting-started) to get data on your individual customers, it does not allow you to pull aggregate data. By using the Insights API you're able to query your customer data and obtain aggregated data in return. This means that you can perform analytics directly via LoginRadius on your Customer data. With the data returned from this API, you can also pass it further down to your visualization tools to help you analyze the results. 
+While you can leverage the Cloud Directory's [Identity API](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/identity/getting-started) to get data on your individual customers, it does not allow you to pull aggregate data. By using the Insights API you're able to query your customer data and obtain aggregated data in return. This means that you can perform analytics directly via LoginRadius on your Customer data. With the data returned from this API, you can also pass it further down to your visualization tools to help you analyze the results. 
 
-**NOTE:** In order to use this API, you will need to have an [API Secret](/api/v2/admin-console/platform-security/api-key-and-secret#additionalapisecrets2) that has the **Analytics API** Permission enabled. If you need assistance, please contact the [LoginRadius Support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) team.
+**NOTE:** In order to use this API, you will need to have an [API Secret](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret#additionalapisecrets2) that has the **Analytics API** Permission enabled. If you need assistance, please contact the [LoginRadius Support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) team.
 
 ### Use Case
 

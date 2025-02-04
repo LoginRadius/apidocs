@@ -20,7 +20,7 @@ The following screen will appear:
 
 ![StandardLogin](https://apidocs.lrcontent.com/images/sl1_101615e7869bf11a836.86549102.png "StandardLogin")
 
-**Step 2:** Configure the default Registration form schema by either selecting fields from the [**Normalized LoginRadius User Profile**](/api/v2/getting-started/data-points/detailed-data-points/) (Standard Fields) or adding fields in the **Custom fields**. Expand the field type you would like to add and click the **+**sign to add the field to your registration form.
+**Step 2:** Configure the default Registration form schema by either selecting fields from the [**Normalized LoginRadius User Profile**](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points/detailed-data-points/) (Standard Fields) or adding fields in the **Custom fields**. Expand the field type you would like to add and click the **+**sign to add the field to your registration form.
 
 ![Data Schema on Admin console](https://apidocs.lrcontent.com/images/2_304985e7718177d3a27.77215070.png "Data Schema")
 
@@ -60,7 +60,7 @@ Click the **Edit** button next to any field to begin customizing the field.
 
 ![Advance field settings](https://apidocs.lrcontent.com/images/8_36565e735b08a8a147.05529340.png "change field type")
 
-- **Validation String**: You can add predefined validation rules from our [validation rule](/api/v2/deployment/js-libraries/javascript-hooks/#customvalidationhook15) list or a custom regex to control.
+- **Validation String**: You can add predefined validation rules from our [validation rule](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/javascript-hooks/#customvalidationhook15) list or a custom regex to control.
 
 ![Advance field settings](https://apidocs.lrcontent.com/images/9_222315e735ab3322f98.76587208.png "validation string")
 
@@ -77,7 +77,7 @@ Click the **Edit** button next to any field to begin customizing the field.
 
 The LoginRadius Identity Platform supports various implementation methodologies that allow you to customize customer flows. This guide focuses on the basic Identity Experience Framework implementation but it can be accomplished with any of the other implementation methodologies supported by LoginRadius. 
 
-Full details on these methodologies can be found [here](/api/v2/getting-started/implementation-workflows/).
+Full details on these methodologies can be found [here](https://www.loginradius.com/legacy/docs/api/v2/getting-started/implementation-workflows/).
 
 **Step 1**: Locate the **Auth Page URL** as explained below: 
 
@@ -91,7 +91,7 @@ The Auth Page URL displays your unique hosted page domain in the following forma
 https://<sitename>.hub.loginradius.com/auth.aspx
 ```
 
-In the above URL, [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site.
+In the above URL, [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site.
 
 You can directly navigate to this domain to review your configured interfaces from [Part 1](#partconfiguration1).
 
@@ -106,7 +106,7 @@ Add a link on your webpage for redirecting customers to the Identity Experience 
 In the above URL replace the following:
 
 
-**a.** LoginRadius Site Name : Your unique LoginRadius [sitename](/api/v2/admin-console/deployment/get-site-app-name/) as found in step 1.
+**a.** LoginRadius Site Name : Your unique LoginRadius [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) as found in step 1.
 
 **b.** Desired Action : Following are the action list you can use
 
@@ -154,7 +154,7 @@ var access_token = getParameterByName(“token”);
 
 
 
-> **Note:** We have additional language specific examples [here](/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
+> **Note:** We have additional language specific examples [here](https://www.loginradius.com/legacy/docs/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
 > 
 
 **Step 3:** Store the captured **Access Token** as explained below: 
@@ -197,7 +197,7 @@ localStorage.setItem("lr-session-token", access_token); // First parameter will 
 
 **Step 4:** You can use the **Access Token** as explained below:
 
-Call the [LoginRadius API](/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) to retrieve the customer profile using the Access Token. Alternatively, you can leverage any of our SDKs to accomplish this.
+Call the [LoginRadius API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) to retrieve the customer profile using the Access Token. Alternatively, you can leverage any of our SDKs to accomplish this.
 
 The following is the script example to retrieve the customer profile:
 
@@ -223,14 +223,14 @@ On executing the above deployment steps, you will see obtained customer profile 
 
  The following is the list of features you might want to add to the above implementation:
 
-[Setup Password Policy ](/authentication/concepts/password-policy/)
+[Setup Password Policy ](https://www.loginradius.com/legacy/docs/authentication/concepts/password-policy/)
 
-[Setup Email workflows ](/authentication/concepts/email-communications/)
+[Setup Email workflows ](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/)
 
-[Setup Social Login ](/authentication/quick-start/social-login/)
+[Setup Social Login ](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)
 
-[Implement SSO](/authentication/quick-start/sso-implementation/)
+[Implement SSO](https://www.loginradius.com/legacy/docs/authentication/quick-start/sso-implementation/)
 
-[UI and UX customizations of IDX pages](/authentication/concepts/ui-ux-customizations-idx/)
+[UI and UX customizations of IDX pages](https://www.loginradius.com/legacy/docs/authentication/concepts/ui-ux-customizations-idx/)
 
-[Calling LoginRadius APIs](/api/)
+[Calling LoginRadius APIs](https://www.loginradius.com/legacy/docs/api/)

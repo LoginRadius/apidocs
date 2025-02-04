@@ -83,8 +83,8 @@ The Android SDK requires some variables. They're needed to initialize the LoginR
   
 | **Name** | **Description** | **Required** |
 |--|--|--|
-| **apiKey** | API Key of your LoginRadius site. You can get one from [here](/api/v2/admin-console/platform-security/api-key-and-secret/) | Yes |
-| **siteName** | LoginRadius Site Name. It is needed in social web login. You can get one from [here](/api/v2/admin-console/deployment/get-site-app-name/) | Yes | 
+| **apiKey** | API Key of your LoginRadius site. You can get one from [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/) | Yes |
+| **siteName** | LoginRadius Site Name. It is needed in social web login. You can get one from [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) | Yes | 
 
 
 ### Initialize SDK
@@ -111,7 +111,7 @@ init.setApiKey("<your-api-key>");
 init.setSiteName("<your-site-name>");
 ```
 
-For step by step guide on getting Api Credentials from Login Radius Admin Console, please refer to this [document](/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret).
+For step by step guide on getting Api Credentials from Login Radius Admin Console, please refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret).
 
 #### Referer Header (Optional)
 
@@ -335,13 +335,13 @@ api.login(LoginActivity.this, params, new AsyncHandler < LoginData > () {
 #### Integrate Registration Service
 Registration service supports traditional registration and login methods. Registration Service is done through Authentication API. 
 
-Registration requires a parameter called SOTT. You can create the SOTT token by following this [doc](/api/v2/customer-identity-api/sott-usage/#staticsott4)
+Registration requires a parameter called SOTT. You can create the SOTT token by following this [doc](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/sott-usage/#staticsott4)
 
 **Parameters and their Description:**
 
 |Name|Description|Required|
 |---|----|----|
-|SOTT|Secure One-time Token which you can check information about sott [here](/api/v2/user-registration/sott)|Yes for Registration. <br> You can generate a long term SOTT token from the Admin Console under Deployment -> Apps -> Mobile Apps (SOTT).
+|SOTT|Secure One-time Token which you can check information about sott [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/sott)|Yes for Registration. <br> You can generate a long term SOTT token from the Admin Console under Deployment -> Apps -> Mobile Apps (SOTT).
 |smstemplate|SMS template allow you to customize the formatting and text of sms sent by users who share your content.|NO|
 |emailTemplate|Email templates allow you to customize the formatting and text of emails sent by users who share your content. Templates can be text-only, or HTML and text, in which case the user's email client will determine which is displayed. |NO <br> Go To Platform Configuration -> Standard Login -> Email Templates to get the template names|
 
@@ -738,7 +738,7 @@ Touch ID and Face ID are preferred because these authentication mechanisms let t
 
 Below are the implementation steps to authenticate a user using Face ID or Touch ID :
 
-1.  Login a user with email and password leveraging the LoginRadius [Login by Email](/api/v2/customer-identity-api/authentication/auth-login-by-email/) API in LoginRadius [Android SDK](/libraries/mobile-sdk-libraries/android-library/#login-by-email).
+1.  Login a user with email and password leveraging the LoginRadius [Login by Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-email/) API in LoginRadius [Android SDK](https://www.loginradius.com/legacy/docs/libraries/mobile-sdk-libraries/android-library/#login-by-email).
     
 2.  After the successful authentication, the Access Token session will be created and validated as per the [Access Token lifetime](https://adminconsole.loginradius.com/platform-security/account-protection/session-management/token-lifetime) configured for your site.
     
@@ -757,7 +757,7 @@ Below are the implementation steps to authenticate a user using Face ID or Touch
  ```
   
 
-> **Note:** For more information, please refer to the **Session Login/Logout section** in the [Android SDK](/libraries/mobile-sdk-libraries/android-library/#sessionloginlogout12) documentation.
+> **Note:** For more information, please refer to the **Session Login/Logout section** in the [Android SDK](https://www.loginradius.com/legacy/docs/libraries/mobile-sdk-libraries/android-library/#sessionloginlogout12) documentation.
 
 **4.**  You can make your users authenticate using Touch ID or Face ID each time they open the app, and the session will be continued as per their Access Token lifetime.
     
@@ -770,7 +770,7 @@ Below are the implementation steps to authenticate a user using Face ID or Touch
 
 Refer to the documentation [here](https://developer.android.com/codelabs/biometric-login#0) for more information on logging a user into your application with Touch ID or Face ID.
 
-In the success method, that is called after the success of biometric authentication, you can implement the LoginRadius [Auth Read all Profiles by Token](/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) API and call this API based on the session store token or you may also be able to get the profile as a wall using the below method:
+In the success method, that is called after the success of biometric authentication, you can implement the LoginRadius [Auth Read all Profiles by Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) API and call this API based on the session store token or you may also be able to get the profile as a wall using the below method:
 
   
 ```

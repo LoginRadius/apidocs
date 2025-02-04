@@ -37,7 +37,7 @@ The following screen will appear:
 ![Edit fields](https://apidocs.lrcontent.com/images/pp4_286485e86535a0c88a8.74786788.png "progressive profiling")
 
 
-**Step 4:** All the fields available in the [**data schema**](/authentication/quick-start/standard-login/) will be displayed, as highlighted in the following screen:
+**Step 4:** All the fields available in the [**data schema**](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/) will be displayed, as highlighted in the following screen:
 
 ![data schema](https://apidocs.lrcontent.com/images/pp5_233065e8653d8c06c58.49104814.png "progressive profiling")
 
@@ -62,7 +62,7 @@ The **Custom Fields** panel allows you to add custom fields available in your ac
 
 
 
-> **Note:** For more information and field configuration settings, refer to this [document](/authentication/quick-start/standard-login/).
+> **Note:** For more information and field configuration settings, refer to this [document](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/).
 
 **Step 6:** Click the **Save** button to save the configurations, as highlighted in the following screen:
 
@@ -79,7 +79,7 @@ This guide focuses on the following deployment methods:
 
 - [JavaScript Libraries](#javascriptdeployment4): You should refer to these deployment steps if you are targeting LoginRadius Identity Platform implementation using JavaScript.
 
-However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](/api/v2/getting-started/implementation-workflows/).
+However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](https://www.loginradius.com/legacy/docs/api/v2/getting-started/implementation-workflows/).
 
 ### IDX Deployment
 
@@ -95,7 +95,7 @@ The Auth Page URL displays your unique hosted page domain in the following forma
 
 ```<https://<sitename>.hub.loginradius.com/auth.aspx> ```
 
-In the above URL, the [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
+In the above URL, the [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
 
 **Step 2:** Embed Authentication Pages in your Website as explained below:
 
@@ -195,9 +195,9 @@ var lr_raas_settings= {};
 > var access_token = getParameterByName(“token”);
 > ```
 > 
-> We have additional language-specific examples [here](/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
+> We have additional language-specific examples [here](https://www.loginradius.com/legacy/docs/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
 
-After the above configuration, Progressive Profiling will be reflected on ```https://<sitename>.hub.loginradius.com/profile.aspx``` where [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site.  
+After the above configuration, Progressive Profiling will be reflected on ```https://<sitename>.hub.loginradius.com/profile.aspx``` where [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site.  
 
 > **Note:** Progressive Profiling Interface is displayed only after login.           
 
@@ -268,9 +268,9 @@ LRObject.progressiveProfiling.showInEditor= true;
 
 The following is the list of features you might want to add-on to the above implementation:
 
-[JS Customizations](/api/v2/deployment/js-libraries/getting-started/#login7)
+[JS Customizations](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/getting-started/#login7)
 
-[Customer Data Management](/authentication/concepts/introduction/)
+[Customer Data Management](https://www.loginradius.com/legacy/docs/authentication/concepts/introduction/)
 
 
 

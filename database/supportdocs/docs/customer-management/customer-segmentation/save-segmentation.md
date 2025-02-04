@@ -13,5 +13,5 @@ The following screen will appear:
 
 **Step 2:** The above screen displays the list of already saved segmentation(s). To apply a segment, click the respective **Apply The Segment** button. 
 
-The application redirects you to the respective basic or advanced segment screen with the applied filter. There you can view the results and export data if required. For more details, refer to the [**Basic Segemention**](/customer-management/customer-segmentation/basic-segmentation/) or [**Advanced Segmentation**](/customer-management/customer-segmentation/advanced-segmentation/) section.
+The application redirects you to the respective basic or advanced segment screen with the applied filter. There you can view the results and export data if required. For more details, refer to the [**Basic Segemention**](https://www.loginradius.com/legacy/docs/customer-management/customer-segmentation/basic-segmentation/) or [**Advanced Segmentation**](https://www.loginradius.com/legacy/docs/customer-management/customer-segmentation/advanced-segmentation/) section.
 

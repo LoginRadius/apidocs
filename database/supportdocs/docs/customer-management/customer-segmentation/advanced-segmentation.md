@@ -1,6 +1,6 @@
 # Advanced Segmentation
 
-In addition to the [Basic segmentation](/customer-management/customer-segmentation/basic-segmentation/), the **Advanced Segmentation** option allows you to filter with multiple nested queries and JSON code segmentation.
+In addition to the [Basic segmentation](https://www.loginradius.com/legacy/docs/customer-management/customer-segmentation/basic-segmentation/), the **Advanced Segmentation** option allows you to filter with multiple nested queries and JSON code segmentation.
 
 You can use this option to create more refined criteria as compared to Basic Segmentation. For example, in addition to adding multiple nested queries, you can apply multiple logical operators and can create groups (either from the screen or using the JSON code).
 
@@ -38,7 +38,7 @@ To get the data of resultant customers, click the **Export** button from the abo
 
 ![Advanced Segmentatione](https://apidocs.lrcontent.com/images/cs10_238655e83c0833d74e2.82111239.png "Advanced Segmentation")
 
-Configure the data export as explained in [**this document**](/customer-management/user-data-export/data-export-overview/) and get the resultant customer data in CSV or JSON format.
+Configure the data export as explained in [**this document**](https://www.loginradius.com/legacy/docs/customer-management/user-data-export/data-export-overview/) and get the resultant customer data in CSV or JSON format.
  
 **Save Segmentation:**  To save the created segment for future, click the **Save** Segment button as highlighted in the below screen:
 
@@ -48,7 +48,7 @@ The following pop-up will appear:
 
 ![Save Segmentation](https://apidocs.lrcontent.com/images/cs12_71775e83c23492daa3.37595614.png "Save Segmentation")
 
-Enter the Segment Name in the textbox and click the **Save** button. You can view the saved segment, as explained in the [Save Segment](/customer-management/customer-segmentation/save-segmentation/) section.
+Enter the Segment Name in the textbox and click the **Save** button. You can view the saved segment, as explained in the [Save Segment](https://www.loginradius.com/legacy/docs/customer-management/customer-segmentation/save-segmentation/) section.
 
 ## Example :
 

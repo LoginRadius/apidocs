@@ -31,7 +31,7 @@ To get the data of resultant customers, click the **Export **button from the abo
 
  ![Basic Segmentation](https://apidocs.lrcontent.com/images/cs4_323405e83be14c57287.05187228.png "Basic Segmentation")
  
-Configure the data export as explained in [**this document**](/customer-management/user-data-export/data-export-overview/) and get the resultant customer data in CSV or JSON format.
+Configure the data export as explained in [**this document**](https://www.loginradius.com/legacy/docs/customer-management/user-data-export/data-export-overview/) and get the resultant customer data in CSV or JSON format.
  
 **Save Segmentation:** To save the created segment for future, click the **Save Segment** button as highlighted in the below screen:
 
@@ -43,4 +43,4 @@ The following pop-up will appear:
 ![Basic Segmentation](https://apidocs.lrcontent.com/images/cs6_178515e83becb3b4792.73483270.png "Basic Segmentation")
 
 
-Enter the Segment Name in the textbox and click the **Save** button. You can view the saved segment, as explained in the [Saved Segment](/customer-management/customer-segmentation/save-segmentation/) section.
+Enter the Segment Name in the textbox and click the **Save** button. You can view the saved segment, as explained in the [Saved Segment](https://www.loginradius.com/legacy/docs/customer-management/customer-segmentation/save-segmentation/) section.

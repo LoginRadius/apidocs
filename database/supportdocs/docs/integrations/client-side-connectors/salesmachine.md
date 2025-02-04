@@ -4,7 +4,7 @@
 
 Salesmachine is a customer success platform built to help businesses onboard, retain and grow their customers. The following lists the steps to complete a client-side integration. This enables information contained in LoginRadius profiles to be sent to Salesmachine's admin-console when they log in. Events emmitted by the JS interfaces will also register in Salesmachine's tracking.
 
-\*Note: Before proceeding, make sure you have understood the [Getting Started Guide](/integrations/client-side-connectors/getting-started/).
+\*Note: Before proceeding, make sure you have understood the [Getting Started Guide](https://www.loginradius.com/legacy/docs/integrations/client-side-connectors/getting-started/).
 
 ##Implementation
 
@@ -80,7 +80,7 @@ var commonOptions = {};
 
 ```
 
-- This passes an empty object to the mapping parameter to log the values of all the supported standard keys. Learn more about standard keys [here](/integrations/client-side-connectors/getting-started/).
+- This passes an empty object to the mapping parameter to log the values of all the supported standard keys. Learn more about standard keys [here](https://www.loginradius.com/legacy/docs/integrations/client-side-connectors/getting-started/).
 
 ###Custom Mapping
 If for some reason, you wish to handle user information manually but still use the LoginRadius method, you can do so by setting isCustom == true. The data object needs to be a JSON formatted object for the specified key-values you want to place into a user profile.

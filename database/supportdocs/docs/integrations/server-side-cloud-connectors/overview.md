@@ -89,7 +89,7 @@ You can view and update the cloud connector configuration by clicking the **edit
 ![Connector](https://apidocs.lrcontent.com/images/image-22_298416282c86b49eac9.71666187.png "Connector") 
 
 ## Available Integrations
-A list of some of the integrations supported by LoginRadius can be found [here](/api/v2/integrations/available-integrations).
+A list of some of the integrations supported by LoginRadius can be found [here](https://www.loginradius.com/legacy/docs/api/v2/integrations/available-integrations).
 
 
 

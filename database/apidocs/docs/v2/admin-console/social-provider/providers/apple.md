@@ -209,6 +209,6 @@ The authorization code presented to the Apple IdP is not valid. This error gener
 
 ### Important Related Links
 
-- [Implement Apple Login in iOS Apps](/api/v2/deployment/mobile-sdk-libraries/ios-library/#nativesociallogin9)
-- [Implement Apple Login in Android Apps](/api/v2/deployment/mobile-sdk-libraries/android-library/#integratesociallogin5)
+- [Implement Apple Login in iOS Apps](https://www.loginradius.com/legacy/docs/api/v2/deployment/mobile-sdk-libraries/ios-library/#nativesociallogin9)
+- [Implement Apple Login in Android Apps](https://www.loginradius.com/legacy/docs/api/v2/deployment/mobile-sdk-libraries/android-library/#integratesociallogin5)
 

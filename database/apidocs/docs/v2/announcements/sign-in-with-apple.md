@@ -60,7 +60,7 @@ Please see https://developer.apple.com/documentation/signinwithapplerestapi/gene
 
 *Remainder will be specific to how the client uses these credentials to configure their application*
 
-Please see see our Custom IDP [documentation](/api/v2/single-sign-on/custom-identity-providers/providers/apple) for step by step instructions on how-to configure "Sign In with Apple" whithin LoginRadius.
+Please see see our Custom IDP [documentation](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/custom-identity-providers/providers/apple) for step by step instructions on how-to configure "Sign In with Apple" whithin LoginRadius.
 
 ## Learn More
 Please refer to the following Links to learn more about Apple Sign in:

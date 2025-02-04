@@ -43,7 +43,7 @@ As passwords are critical when managing identities, we have various features to 
 
 - **Complexity Meter:** When enabled, a password complexity meter is displayed during registration that shows the strength of the entered password.
 - **Complexity Change Indicator:** When your password policy changes, we can notify existing users about their non-compliant password the next time they log in and prompt them to update it.
-- **Password Hashing:** LoginRadius always stores passwords using one-way hashing for maxium security and compliance, this means that anyone who can access the data will not able to view passwords. We use the latest industry standard algorithms for password hashing, please see our[ Cryptographic Hashing Algorithms](/security/platform-security/cryptographic-hashing-algorithms/) document for more details .
+- **Password Hashing:** LoginRadius always stores passwords using one-way hashing for maxium security and compliance, this means that anyone who can access the data will not able to view passwords. We use the latest industry standard algorithms for password hashing, please see our[ Cryptographic Hashing Algorithms](https://www.loginradius.com/legacy/docs/security/platform-security/cryptographic-hashing-algorithms/) document for more details .
 
   - **Hashing Algorithm Updates:** We provide a mechanism to update the password hashing algorithm without requiring a password reset. This ensures our customer’s passwords are secured with the latest encryption standards.
 
@@ -126,7 +126,7 @@ This method of authentication is used to prevent access by an unauthorized perso
 5. <b>Push Notification</b> - With the Push Notification workflow, messages are sent from a server to a user's device, commonly used in mobile apps for purposes like authentication. When utilizing push notifications as a method of Multi-Factor Authentication (MFA), the user will receive a notification on their device containing a QR code. The user must then authenticate the login attempt by scanning the QR code with their app, thereby adding an additional layer of security to the login process.
 6. <b>Email Passcode</b>-With Email Passcode Workflow, the consumer receives a verification code on their email id, they need to use this verification code as 2FA to login to the website. 
 
-For more information on this refer the following [overview](/api/v2/admin-console/platform-security/multi-factor-auth/) document of MFA.
+For more information on this refer the following [overview](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/multi-factor-auth/) document of MFA.
 
 ### **Policy-based Step-Up Authentication**
 

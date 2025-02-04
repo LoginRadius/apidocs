@@ -14,10 +14,10 @@ An important aspect of our security features is the emphasis on the end-user sec
 
 LoginRadius has multiple built-in features that can help to mitigate automated form submissions that attempt to brute force their way into an account:
 
-1. **Built-in ReCaptcha Support**- Google ReCaptcha can be enabled on your forms to prevent automated submissions. This supports all of the standard Google ReCaptcha customizations, such as localization and the Invisible ReCaptcha. You can setup Recaptcha for your account with this [document](/api/v1/user-registration/advanced-customization#googlerecaptcha10).
+1. **Built-in ReCaptcha Support**- Google ReCaptcha can be enabled on your forms to prevent automated submissions. This supports all of the standard Google ReCaptcha customizations, such as localization and the Invisible ReCaptcha. You can setup Recaptcha for your account with this [document](https://www.loginradius.com/legacy/docs/api/v1/user-registration/advanced-customization#googlerecaptcha10).
 2. **Automated Lockout**- Your LoginRadius forms can be configured to lockout or prompt users to go through additional verification (login disable, security question, ReCaptcha, etc.) if the system identifies multiple duplicate requests on a given form.
-3. **Security Question**: If a user enters an invalid answer to the security question a specific number of times, they will be blocked from the account. See details on our security questions in our [API documentation](/api/v2/user-registration/get-security-question-by-accesstoken)
-4. **Input validation**: LoginRadius supports, from both client-side as well as server-side, strong validation on all inputs to ensure the consistency of the data or information that is being entered. For example, LoginRadius makes sure that email addresses provided are RFC compliant and prevents insecure inputs, such as script injection. Check out this [document](/api/v2/user-registration/advanced-customization) on some of the additional validations you can apply to your interfaces.
+3. **Security Question**: If a user enters an invalid answer to the security question a specific number of times, they will be blocked from the account. See details on our security questions in our [API documentation](https://www.loginradius.com/legacy/docs/api/v2/user-registration/get-security-question-by-accesstoken)
+4. **Input validation**: LoginRadius supports, from both client-side as well as server-side, strong validation on all inputs to ensure the consistency of the data or information that is being entered. For example, LoginRadius makes sure that email addresses provided are RFC compliant and prevents insecure inputs, such as script injection. Check out this [document](https://www.loginradius.com/legacy/docs/api/v2/user-registration/advanced-customization) on some of the additional validations you can apply to your interfaces.
 
 ### Password Management
 
@@ -26,13 +26,13 @@ There are multiple ways in which LoginRadius can improve the security of your en
 1. **Password Expiration**- Your LoginRadius account can be configured to periodically request an updated password from your end users. The time period for this is fully customizable and it would trigger a password update request once the configured increment has elapsed.
 2. **Password History**- You can restrict the usage of previously used passwords and can customize how many previous passwords would be remembered and disallowed.
 3. **Password Complexity**- You can set both client-side and server-side complexity requirements that would force your users to comply with the configured complexity requirements.
-4. **Security Question during Password Reset**- LoginRadius allow you to configure the security questions feature for resetting passwords in the case of forgot a password. These security questions are highly secure because the stored answers are hashed. As well, if a user fails to enter the correct answer after a specific number of attempts, the user is blocked and only the site admin can unblock the user. Please see the following [link](/platform-features-overview/user-security/password-management) for more details on LoginRadius Password Management.
+4. **Security Question during Password Reset**- LoginRadius allow you to configure the security questions feature for resetting passwords in the case of forgot a password. These security questions are highly secure because the stored answers are hashed. As well, if a user fails to enter the correct answer after a specific number of attempts, the user is blocked and only the site admin can unblock the user. Please see the following [link](https://www.loginradius.com/legacy/docs/platform-features-overview/user-security/password-management) for more details on LoginRadius Password Management.
 
 ### Multi-Factor Authentication (MFA)
 
 LoginRadius supports configuring a second layer of security for your end user accounts. This requires users to verify their access either through SMS messaging or through an authenticator app. We also support the backup code feature for providing access in case the user loses the device that is configured for MFA. The triggers for this feature can be controlled to provide end users with the option to enable this feature for themselves, or you can choose for this feature to be a mandatory requirement for your user base.
 
-For more details on how MFA works see this [document](/api/v2/admin-console/platform-security/multi-factor-auth)
+For more details on how MFA works see this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/multi-factor-auth)
 
 ### Access Restrictions
 
@@ -44,9 +44,9 @@ The LoginRadius Platform maintains secure session management for both server and
 
 ### API level authentication
 
-1. **API Key and Secret**: To perform operations with admin-related APIs, LoginRadius supports the API key and secret combination authentication for securing the API so that only the site owner or authorized users of the LoginRadius site can access the APIs. We also provide the ability to generate additional secrets with specific permissions. Therefore, in the case where multiple people need access to the site, you will provide each team member with their own respective secrets. You will then be able to revoke this if required. See this [document](/api/v2/admin-console/platform-security/api-key-and-secret/) on how to get access to your API key and Secret
+1. **API Key and Secret**: To perform operations with admin-related APIs, LoginRadius supports the API key and secret combination authentication for securing the API so that only the site owner or authorized users of the LoginRadius site can access the APIs. We also provide the ability to generate additional secrets with specific permissions. Therefore, in the case where multiple people need access to the site, you will provide each team member with their own respective secrets. You will then be able to revoke this if required. See this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/) on how to get access to your API key and Secret
 
-2. **API Key and Access Token**: To perform operations for the end user's session related API, LoginRadius support API key and Access Token (limited lifetime) authentication combination to secure APIs. See this [document](/development/configuration/loginradius-tokens) for more details on the tokens that are used in the platform.
+2. **API Key and Access Token**: To perform operations for the end user's session related API, LoginRadius support API key and Access Token (limited lifetime) authentication combination to secure APIs. See this [document](https://www.loginradius.com/legacy/docs/development/configuration/loginradius-tokens) for more details on the tokens that are used in the platform.
 
 ### Privacy Policy Acceptance
 
@@ -54,7 +54,7 @@ Additional opt-ins can be displayed to your end-users and LoginRadius supports b
 
 ### Self Managed Account APIs
 
-LoginRadius provides a full suite of [account management APIs](/api) that allow your admins to facilitate any requests. These APIs can also be integrated into a self-service management flow and displayed directly on your user's profile page. LoginRadius also offers a [pre-built management suite](/profile-management/customer-management) that can be accessed by your customer success or administrators via the LoginRadius Admin Console interface. This suite of tools allows you to handle everything from user creation, user updates, to user deletion.
+LoginRadius provides a full suite of [account management APIs](https://www.loginradius.com/legacy/docs/api) that allow your admins to facilitate any requests. These APIs can also be integrated into a self-service management flow and displayed directly on your user's profile page. LoginRadius also offers a [pre-built management suite](https://www.loginradius.com/legacy/docs/profile-management/customer-management) that can be accessed by your customer success or administrators via the LoginRadius Admin Console interface. This suite of tools allows you to handle everything from user creation, user updates, to user deletion.
 
 ## End-user Management by Administrator
 

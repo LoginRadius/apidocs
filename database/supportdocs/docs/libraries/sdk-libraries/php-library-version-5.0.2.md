@@ -14,7 +14,7 @@ PHP Library
 
 This document contains information and examples regarding the LoginRadius PHP SDK.
 
-It presumes you have worked through the client-side implementation to setup your LoginRadius User Registration interfaces that will serve the initial registration and login process. Details on this can be found in the [getting started guide.](/api/v2/user-registration/user-registration-getting-started-v2).
+It presumes you have worked through the client-side implementation to setup your LoginRadius User Registration interfaces that will serve the initial registration and login process. Details on this can be found in the [getting started guide.](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started-v2).
 
 
 >**NOTE:**Please Make sure you have PHP version 5.6 or greater
@@ -72,7 +72,7 @@ define('PASSWORD', 'PROXY_PASSWORD'); // Replace PROXY_PASSWORD with your proxy 
 define('API_DOMAIN', 'DEFINE_CUSTOM_API_DOMAIN');   // Custom API Domain
 ```
 
->Replace 'LOGINRADIUS_SITE_NAME_HERE', 'LOGINRADIUS_API_KEY_HERE' and  'LOGINRADIUS_API_SECRET_HERE' in the above code with your LoginRadius Site Name, LoginRadius API Key, and Secret which you can get [here](/api/v2/admin-console/platform-security/api-key-and-secret/). 
+>Replace 'LOGINRADIUS_SITE_NAME_HERE', 'LOGINRADIUS_API_KEY_HERE' and  'LOGINRADIUS_API_SECRET_HERE' in the above code with your LoginRadius Site Name, LoginRadius API Key, and Secret which you can get [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/). 
 
 >API Request Signing:- define('API_REQUEST_SIGNING', true); if this option is enabled on you app. It will pass Secret key in header in API calling instead of parameter.
 
@@ -199,7 +199,7 @@ $authenticationObject = new UserAPI (API_KEY, API_SECRET, array('output_format' 
 ##### Auth User Registration By Email
 This API creates a user in the database as well as sends a verification email to the user.
 
-[Try this](/api/v2/user-registration/auth-user-registration-by-email)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-user-registration-by-email)
 ```
 $payload = '{
 "FirstName":"",
@@ -227,7 +227,7 @@ catch (LoginRadiusException $e){
 ##### Auth login By Email
 This API retrieves a copy of the user data based on the Email.
 
-[Try this](/api/v2/user-registration/post-auth-login-by-email)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/post-auth-login-by-email)
 ```
 $payload =
 '{
@@ -252,7 +252,7 @@ catch (LoginRadiusException $e){
 ##### Auth login By Username
 This API retrieves a copy of the user data based on the Username.
 
-[Try this](/api/v2/user-registration/post-auth-login-by-username)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/post-auth-login-by-username)
 ```
 $payload =
 '{
@@ -277,7 +277,7 @@ catch (LoginRadiusException $e){
 ##### Auth Add Email
 This API is used to add additional emails to a user's account.
 
-[Try this](/api/v2/user-registration/auth-add-email)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-add-email)
 ```
 $access_token = "Acceess-Token";
 $email = "Email-Id";
@@ -297,7 +297,7 @@ catch (LoginRadiusException $e){
 ##### Auth Forgot Password
 This API is used to send the reset password url to a specified account. 
 
-[Try this](/api/v2/user-registration/auth-forgot-password)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-forgot-password)
 ```
 $email = "xxx@xxxxxx.com";
 $reset_password_url = "Reset-Password-Url";
@@ -315,7 +315,7 @@ catch (LoginRadiusException $e){
 ##### Auth Check Email Availability 
 This API is used to check the email exists or not on your site.
 
-[Try this](/api/v2/user-registration/auth-check-email-availability)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-check-email-availability)
 ```
 $email = "xxxx@xxxxxx.com";
 
@@ -331,7 +331,7 @@ catch (LoginRadiusException $e){
 ##### Auth Check UserName Availability
 This API is used to check the UserName exists or not on your site.
 
-[Try this](/api/v2/user-registration/auth-check-user-name-availability)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-check-user-name-availability)
 ```
 $username = "xxxxxxxxxx";
 
@@ -347,7 +347,7 @@ catch (LoginRadiusException $e){
 ##### Auth Readall Profiles By Token
 This API retrieves a copy of the user data based on the access token.
 
-[Try this](/api/v2/user-registration/auth-readall-profiles-by-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-readall-profiles-by-token)
 ```
 $access_token = "Access-Token";
 
@@ -363,7 +363,7 @@ catch (LoginRadiusException $e){
 ##### Auth Privacy Policy Accept
 This API is used to update the privacy policy stored in the user's profile.
 
-[Try this](/api/v2/user-registration/auth-privacy-policy-accept)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-privacy-policy-accept)
 ```
 $access_token = "Access-Token";
 
@@ -379,7 +379,7 @@ catch (LoginRadiusException $e){
 ##### Auth Send Welcome Email
 This API will send welcome email.
 
-[Try this](/api/v2/user-registration/auth-send-welcome-email)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-send-welcome-email)
 ```
 $access_token = "Access-Token";
 $welcome_email_template = "Email-Template-Name"; (OPTIONAL)
@@ -396,7 +396,7 @@ catch (LoginRadiusException $e){
 ##### Auth Social Identity
 This API is called just before account linking API and it prevents the raas profile of the second account from getting created.
 
-[Try this](/api/v2/user-registration/auth-social-identity)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-social-identity)
 ```
 $access_token = "Access-Token";
 
@@ -413,7 +413,7 @@ catch (LoginRadiusException $e){
 ##### Auth Validate Access Token
 This api validates access token, if valid then returns a response with its expiry otherwise error.
 
-[Try this](/api/v2/user-registration/token-validate)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/token-validate)
 ```
 $access_token = "Access-Token";
 
@@ -428,7 +428,7 @@ catch (LoginRadiusException $e){
 ##### Auth Verify Email
 This API is used to verify the email of user.
 
-[Try this](/api/v2/user-registration/auth-verify-email)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-verify-email)
 ```
 $vtoken = "Verification-Token";
 $url = "Domain-Url";
@@ -446,7 +446,7 @@ catch (LoginRadiusException $e){
 ##### Auth Delete Account
 This API is used to delete an account by passing it a delete token.
 
-[Try this](/api/v2/user-registration/auth-delete-account)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-delete-account)
 ```
 $deletetoken = "Delete-Token";
 
@@ -462,7 +462,7 @@ catch (LoginRadiusException $e){
 ##### Access Token Invalidate
 This api call invalidates the active access_token or expires an access token's validity.
 
-[Try this](/api/v2/user-registration/token-invalidate)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/token-invalidate)
 
 ```
 $access_token = "Acceess-Token";
@@ -479,7 +479,7 @@ catch (LoginRadiusException $e){
 ##### Get Security Questions By Access Token
 This API is used to retrieve the list of questions on the basis of token.
 
-[Try this](/api/v2/user-registration/get-security-question-by-accesstoken)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/get-security-question-by-accesstoken)
 
 ```
 $access_token = "Acceess-Token";
@@ -496,7 +496,7 @@ catch (LoginRadiusException $e){
 ##### Get Security Questions By Email
 This API is used to retrieve the list of questions on the basis of email.
 
-[Try this](/api/v2/user-registration/get-security-question-by-email)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/get-security-question-by-email)
 
 ```
 $email = "Email-Id";
@@ -513,7 +513,7 @@ catch (LoginRadiusException $e){
 ##### Get Security Questions By User Name
 This API is used to retrieve the list of questions on the basis of username.
 
-[Try this](/api/v2/user-registration/get-security-question-by-username)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/get-security-question-by-username)
 
 ```
 $username = "username";
@@ -530,7 +530,7 @@ catch (LoginRadiusException $e){
 ##### Get Security Questions By Phone
 This API is used to retrieve the list of questions on the basis of phone.
 
-[Try this](/api/v2/user-registration/get-security-question-by-phone)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/get-security-question-by-phone)
 
 ```
 $phone = "Phone-Id";
@@ -546,7 +546,7 @@ catch (LoginRadiusException $e){
 ##### Auth Verify Email by OTP
 This API is used to verify the email of user when the OTP Email verification flow is enabled.
 
-[Try this](/api/v2/user-registration/auth-verify-email-by-otp)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-verify-email-by-otp)
 ```
 $payload = '{
 "otp": "",
@@ -573,7 +573,7 @@ catch (LoginRadiusException $e){
 ##### Auth Change Password
 This API is used to change the accounts password based on the previous password.
 
-[Try this](/api/v2/user-registration/auth-change-password)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-change-password)
 ```
 $access_token = "Access-Token";
 $old_password = "Old-Password";
@@ -590,7 +590,7 @@ catch (LoginRadiusException $e){
 ##### Auth Link Social Identities
 This API is used to link up a social provider account with the specified account based on the access token and the social providers user access token.
 
-[Try this](/api/v2/customer-identity-api/authentication/auth-link-social-identities/)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-link-social-identities/)
 ```
 $access_token = "Acceess-Token";
 $candidate_token = "Candidate-Token";
@@ -607,7 +607,7 @@ catch (LoginRadiusException $e){
 ##### Auth Resend Email Verification
 This API resends the verification email to the user.
 
-[Try this](/api/v2/user-registration/auth-resend-email-verification)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-resend-email-verification)
 ```
 $email = "xxxxx@xxxxx.com"
 $verification_url = "Verification-Url" (optional)
@@ -625,7 +625,7 @@ catch (LoginRadiusException $e){
 ##### Auth Reset Password by Reset Token
 This API is used to set a new password for the specified account.
 
-[Try this](/api/v2/user-registration/auth-reset-password-by-reset-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-reset-password-by-reset-token)
 ```
 $reset_token = "Reset-Token";
 $password = "Password";
@@ -644,7 +644,7 @@ catch (LoginRadiusException $e){
 ##### Auth Reset Password by OTP
 This API is used to set a new password for the specified account.
 
-[Try this](/api/v2/user-registration/auth-reset-password-by-otp)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-reset-password-by-otp)
 ```
 $password  = "Password";
 $otp  = "Otp";
@@ -664,7 +664,7 @@ catch (LoginRadiusException $e){
 ##### Auth Reset Password by Security Answer And Email
 This API is used to reset password for the specified account by security question and email.
 
-[Try this](/api/v2/user-registration/auth-reset-password-by-email)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-reset-password-by-email)
 ```
 $payload = '{
 "securityanswer": {
@@ -687,7 +687,7 @@ catch (LoginRadiusException $e){
 ##### Auth Reset Password by Security Answer And Phone
 This API is used to reset password for the specified account by security question and phone.
 
-[Try this](/api/v2/user-registration/auth-reset-password-by-phone)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-reset-password-by-phone)
 
 ```
 $payload = '{
@@ -710,7 +710,7 @@ catch (LoginRadiusException $e){
 ##### Auth Reset Password by Security Answer And Username
 This API is used to reset password for the specified account by security question and username.
 
-[Try this](/api/v2/user-registration/auth-reset-password-by-username)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-reset-password-by-username)
 
 ```
 $payload = '{
@@ -734,7 +734,7 @@ catch (LoginRadiusException $e){
 ##### Auth Set or Change Username
 This API is used to set or change UserName by access token.
 
-[Try this](/api/v2/user-registration/auth-set-change-user-name)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-set-change-user-name)
 ```
 $access_token = "Acceess-Token";
 $username = "Username";
@@ -751,7 +751,7 @@ catch (LoginRadiusException $e){
 ##### Auth Update Profile By token
 This API is used to update the user's profile by passing the access token.
 
-[Try this](/api/v2/user-registration/auth-update-profile-by-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-update-profile-by-token)
 ```
 $access_token = "Acceess-Token";
 $payload = '{
@@ -779,7 +779,7 @@ catch (LoginRadiusException $e){
 ##### Update Security Question By Access token
 This API is used to update security questions by the access token.
 
-[Try this](/api/v2/user-registration/update-security-question-by-access-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/update-security-question-by-access-token)
 
 ```
 $access_token = "Acceess-Token";
@@ -801,7 +801,7 @@ catch (LoginRadiusException $e){
 ##### Auth Delete Account With Email Confirmation
 This API deletes a user account by passing the user's access token.
 
-[Try this](/api/v2/user-registration/auth-delete-account-with-email-confirmation)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-delete-account-with-email-confirmation)
 ```
 $access_token = "Acceess-Token";
 $delete_url = ""; (OPTIONAL)
@@ -819,7 +819,7 @@ catch (LoginRadiusException $e){
 ##### Auth Remove Email
 This API is used to remove additional emails from a user's account.
 
-[Try this](/api/v2/user-registration/auth-remove-email)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-remove-email)
 ```
 $access_token = "Acceess-Token";
 $email = "xxx@xxxxxxx.com"
@@ -836,7 +836,7 @@ catch (LoginRadiusException $e){
 ##### Auth Unlink Social Identities
 This API is used to unlink up a social provider account with the specified account based on the access token and the social providers user access token.
 
-[Try this](/api/v2/user-registration/auth-unlink-social-identities)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-unlink-social-identities)
 ```
 $access_token = "Acceess-Token";
 $provider_id = "Provider-Id";
@@ -872,7 +872,7 @@ Get list of phone authentication API's.
 ##### Phone Login
 This API retrieves a copy of the user data based on the Phone.
 
-[Try this](/api/v2/user-registration/post-auth-login-by-phone)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/post-auth-login-by-phone)
 ```
 $payload =
 '{
@@ -898,7 +898,7 @@ catch (LoginRadiusException $e){
 ##### Phone Forgot Password By OTP
 This API is used to send the OTP to reset the account password.
 
-[Try this](/api/v2/user-registration/phone-forgot-password-by-otp)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-forgot-password-by-otp)
 ```
 $phone = "Phone-Id";
 $sms_template = "Sms-Template-Name"; (OPTIONAL)
@@ -915,7 +915,7 @@ catch (LoginRadiusException $e){
 ##### Phone Resend OTP
 This API is used to resend a verification OTP to verify a user's Phone Number.
 
-[Try this](/api/v2/user-registration/phone-resend-otp)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-resend-otp)
 ```
 $phone = "Phone-Id";
 $sms_template = "Sms-Template-Name"; (OPTIONAL)
@@ -932,7 +932,7 @@ catch (LoginRadiusException $e){
 ##### Phone Resend OTP By Token
 This API is used to resend a verification OTP to verify a user's Phone Number in cases in which an active token already exists.
 
-[Try this](/api/v2/user-registration/phone-resend-otp-by-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-resend-otp-by-token)
 ```
 $access_token = "Access-Token";
 $phone = "Phone-Id";
@@ -949,7 +949,7 @@ catch (LoginRadiusException $e){
 ##### Phone User Registration by SMS
 This API registers the new users into your Cloud Directory and triggers the phone verification process.
 
-[Try this](/api/v2/user-registration/phone-user-registration-by-sms)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-user-registration-by-sms)
 ```
 $payload = '{
 "Prefix":"",
@@ -982,7 +982,7 @@ catch (LoginRadiusException $e){
 ##### Phone Number Availability
 This API is used to check the Phone Number exists or not on your site.
 
-[Try this](/api/v2/user-registration/phone-number-availability)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-number-availability)
 ```
 $phone = "Phone-Id";
 
@@ -998,7 +998,7 @@ catch (LoginRadiusException $e){
 ##### Phone Number Update
 This API is used to update the login Phone Number of users.
 
-[Try this](/api/v2/user-registration/phone-number-update)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-number-update)
 ```
 $access_token = "Access-Token";
 $phone = "Phone-Id";
@@ -1016,7 +1016,7 @@ catch (LoginRadiusException $e){
 ##### Phone Reset Password By OTP
 This API is used to reset the password.
 
-[Try this](/api/v2/user-registration/phone-reset-password-by-otp)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-reset-password-by-otp)
 ```
 $phone = "The-Registered-Phone-Number";
 $otp = "The-Verification-Code";
@@ -1036,7 +1036,7 @@ catch (LoginRadiusException $e){
 ##### Phone Verify OTP
 This API is used to validate the verification code sent to verify a user's phone number.
 
-[Try this](/api/v2/user-registration/phone-verify-otp)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-verify-otp)
 ```
 $otp = 'xxxxxx';
 $phone = 'xxxxxxxxxx';
@@ -1054,7 +1054,7 @@ catch (LoginRadiusException $e){
 ##### Phone Verification OTP by token
 This API is used to consume the verification code sent to verify a user's phone number. Use this call for front-end purposes in cases where the user is already logged in by passing the user's access token.
 
-[Try this](/api/v2/user-registration/phone-verify-otp-by-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-verify-otp-by-token)
 ```
 $access_token = 'xxxxxxxxxxxx';
 $otp = 'xxxxxx';
@@ -1073,7 +1073,7 @@ catch (LoginRadiusException $e){
 ##### Remove Phone ID by Access Token
 This API is used to delete the Phone ID on a user's account via the access token.
 
-[Try this](/api/v2/user-registration/remove-phone-id-by-access-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/remove-phone-id-by-access-token)
 ```
 $access_token = "Access-Token";
 
@@ -1118,7 +1118,7 @@ This Multi Factor Authentication [MFA] APIs are for managing Multi-Factor-Authen
 ##### MFA Email Login
 This API can be used to login by emailid on a Multi-factor authentication enabled LoginRadius site.
 
-[Try this](/api/v2/user-registration/2fa-email-login)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-email-login)
 
 ```
 $payload =
@@ -1143,7 +1143,7 @@ catch (LoginRadiusException $e){
 ##### MFA UserName Login
 This API can be used to login by username on a Multi factor authentication enabled LoginRadius site.
 
-[Try this](/api/v2/user-registration/2fa-user-name-login)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-user-name-login)
 
 ```
 $payload =
@@ -1168,7 +1168,7 @@ catch (LoginRadiusException $e){
 ##### MFA Phone Login
 This API is used to log in by phone on a Multi-factor authentication enabled LoginRadius site.
 
-[Try this](/api/v2/user-registration/2fa-phone-login)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-phone-login)
 
 ```
 $payload =
@@ -1193,7 +1193,7 @@ catch (LoginRadiusException $e){
 ##### MFA Validate Access Token
 This API is used to configure the Multi-factor authentication after login by using the access_token when MFA is set as optional.
 
-[Try this](/api/v2/user-registration/2fa-by-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-by-token)
 
 ```
 $access_token = "Access-Token";
@@ -1210,7 +1210,7 @@ catch (LoginRadiusException $e){
 ##### MFA Backup Code by Access Token
 This API is used to get a set of backup codes via access_token to allow the user login.
 
-[Try this](/api/v2/user-registration/backup-code-by-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/backup-code-by-token)
 ```
 $access_token = "Access-Token";
 
@@ -1226,7 +1226,7 @@ catch (LoginRadiusException $e){
 ##### Reset Backup Code By Access Token
 API is used to reset the backup codes on a given account via the access token.
 
-[Try this](/api/v2/user-registration/reset-backup-code-by-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/reset-backup-code-by-token)
 ```
 $access_token = "Access-Token";
 
@@ -1242,7 +1242,7 @@ catch (LoginRadiusException $e){
 ##### MFA Validate Backup Code
 This API is used to validate the backup code provided by the user and if valid, we return an access token allowing the user to login.
 
-[Try this](/api/v2/user-registration/validate-backup-code)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/validate-backup-code)
 ```
 $second_factor_auth_token = "Second-factor-authentication-token";
 $backupcode = 'Backup-code-for-login';
@@ -1259,7 +1259,7 @@ catch (LoginRadiusException $e){
 ##### MFA Validate OTP
 This API is used to login via Multi-factor authentication by passing the One Time Password received via SMS.
 
-[Try this](/api/v2/user-registration/2fa-verify-otp)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-verify-otp)
 
 ```
 $second_factor_auth_token = "Second-factor-authentication-token";
@@ -1286,7 +1286,7 @@ catch (LoginRadiusException $e){
 ##### MFA Validate Google Auth Code
 This API is used to login via Multi-factor-authentication by passing the google authenticator code.
 
-[Try this](/api/v2/user-registration/2fa-verify-google-authenticator-code)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-verify-google-authenticator-code)
 
 ```
 $second_factor_auth_token = "Second-factor-authentication-token";
@@ -1304,7 +1304,7 @@ catch (LoginRadiusException $e){
 
 ##### MFA Update Phone Number
 This API is used to update (if configured) the phone number by sending the verification OTP.
-[Try this](/api/v2/user-registration/2fa-update-phone-number)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-update-phone-number)
 
 ```
 $second_factor_auth_token = "Second-factor-authentication-token";
@@ -1323,7 +1323,7 @@ catch (LoginRadiusException $e){
 ##### MFA Update Phone Number By Token
 This API is used to update the Multi-factor authentication phone number by sending the verification OTP.
 
-[Try this](/api/v2/user-registration/2fa-update-phone-number-by-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-update-phone-number-by-token)
 
 ```
 $access_token = "Access-Token";
@@ -1342,7 +1342,7 @@ catch (LoginRadiusException $e){
 ##### Update MFA By Google Auth Code
 This API is used to Enable Multi-factor authentication by access token on user login.
 
-[Try this](/api/v2/user-registration/update-mfa-by-access-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/update-mfa-by-access-token)
 
 ```
 $access_token = "Access-Token";
@@ -1361,7 +1361,7 @@ catch (LoginRadiusException $e){
 ##### Update MFA Setting
 This API is used to trigger the Multi-factor authentication settings after login for secure actions.
 
-[Try this](/api/v2/user-registration/update-mfa-setting)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/update-mfa-setting)
 
 ```
 $access_token = "Access-Token";
@@ -1388,7 +1388,7 @@ catch (LoginRadiusException $e){
 ##### MFA Reset Google Authenticator by Token
 This API Resets the Google Authenticator configurations on a given account via the access token.
 
-[Try this](/api/v2/user-registration/2fa-reset-google-authenticator-by-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-reset-google-authenticator-by-token)
 ```
 $access_token = "Access-Token";
 $googleauthenticator  = true; // pass boolean(true) to remove Google Authenticator
@@ -1404,7 +1404,7 @@ catch (LoginRadiusException $e){
 ##### MFA Reset SMS Authenticator by Token
 This API resets the SMS Authenticator configurations on a given account via the access token.
 
-[Try this](/api/v2/user-registration/2fa-reset-sms-authenticator-by-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-reset-sms-authenticator-by-token)
 ```
 $access_token = "Access-Token";
 $otpauthenticator = true;  //pass boolean(true) to remove SMS Authenticator
@@ -1422,7 +1422,7 @@ catch (LoginRadiusException $e){
 ##### Multi Factor Re-Authenticate
 This API is used to trigger the Multi-Factor Autentication workflow for the provided access token.
 
-[Try this](/api/v2/user-registration/re-auth-2fa)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/re-auth-2fa)
 ```
 $access_token = "Access-Token";
 $sms_template_2fa = ""; (OPTIONAL)
@@ -1439,7 +1439,7 @@ catch (LoginRadiusException $e){
 ##### Validate MFA by Google Authenticator Code
 This API is used to re-authenticate via Multi-factor-authentication by passing the google authenticator code.
 
-[Try this](/api/v2/customer-identity-api/re-authentication/mfa/re-auth-by-google-authenticator-code/)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/re-authentication/mfa/re-auth-by-google-authenticator-code/)
 ```
 $access_token = "Access-Token";
 $google_authenticator = 'xxxxxxxxxx';
@@ -1456,7 +1456,7 @@ catch (LoginRadiusException $e){
 ##### Validate MFA by Backup Code
 This API is used to re-authenticate by set of backup codes via access token.
 
-[Try this](/api/v2/user-registration/validate-mfa-by-backup-code)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/validate-mfa-by-backup-code)
 ```
 $access_token = "Access-Token";
 $backup_code = 'xxxxxxxx';
@@ -1472,7 +1472,7 @@ catch (LoginRadiusException $e){
 ##### Validate MFA by OTP
 This API is used to re-authenticate via Multi-factor authentication by passing the One Time Password received via SMS.
 
-[Try this](/api/v2/customer-identity-api/re-authentication/mfa/re-auth-by-otp/)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/re-authentication/mfa/re-auth-by-otp/)
 ```
 $access_token = "Access-Token";
 $payload = '{
@@ -1496,7 +1496,7 @@ catch (LoginRadiusException $e){
 ```
 ##### Validate MFA by Password
 This API is used to re-authenticate via Multi-factor-authentication by passing the password.
-[Try this](/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/re-auth-by-password)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/re-auth-by-password)
 ```
 $access_token = "Access-Token";
 $payload = '{
@@ -1531,7 +1531,7 @@ catch (LoginRadiusException $e){
 ##### Passwordless Login By Email
 This API is used to send a Passwordless Login verification link to the provided Email ID.
 
-[Try this](/api/v2/user-registration/passwordless-login-by-email)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/passwordless-login-by-email)
 ```
 $email = "Email-Id";
 $verificationurl = ""; (OPTIONAL)
@@ -1549,7 +1549,7 @@ catch (LoginRadiusException $e){
 ##### Passwordless Login By UserName
 This API is used to send a Passwordless Login Verification Link to a user by providing their UserName.
 
-[Try this](/api/v2/user-registration/passwordless-login-by-username)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/passwordless-login-by-username)
 ```
 $username = "username";
 $verificationurl = ""; (OPTIONAL)
@@ -1567,7 +1567,7 @@ catch (LoginRadiusException $e){
 ##### Passwordless Login Verification
 This API is used to verify the Passwordless Login verification link.
 
-[Try this](/api/v2/user-registration/passwordless-login-verification)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/passwordless-login-verification)
 ```
 $verificationtoken = "";
 $welcomeemailtemplate = ""; (OPTIONAL)
@@ -1584,7 +1584,7 @@ catch (LoginRadiusException $e){
 ##### Phone Send One Time Passcode
 API can be used to send a One-time Passcode (OTP) provided that the account has a verified PhoneID.
 
-[Try this](/api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms)
 ```
 $phone = "";
 $sms_template = ""; (OPTIONAL)
@@ -1601,7 +1601,7 @@ catch (LoginRadiusException $e){
 ##### Phone Login Using OTP
 This API verifies an account by OTP and allows the user to login.
 
-[Try this](/api/v2/user-registration/phone-login-using-one-time-passcode)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-login-using-one-time-passcode)
 ```
 $payload = '{
 "phone": "",
@@ -1635,7 +1635,7 @@ catch (LoginRadiusException $e){
 ##### Smart Login By Email
 This API sends a Smart Login link to the user's Email Id.
 
-[Try this](/api/v2/user-registration/smart-login-by-email)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/smart-login-by-email)
 ```
 $clientguid = "";
 $email = "";
@@ -1654,7 +1654,7 @@ catch (LoginRadiusException $e){
 ##### Smart Login By Username
 This API sends a Smart Login link to the user's Email Id.
 
-[Try this](/api/v2/user-registration/smart-login-by-username)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/smart-login-by-username)
 ```
 $clientguid = "";
 $username = "";
@@ -1674,7 +1674,7 @@ catch (LoginRadiusException $e){
 ##### Smart Login Ping
 This API is used to check if the Smart Login link has been clicked or not.
 
-[Try this](/api/v2/user-registration/smart-login-ping)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/smart-login-ping)
 ```
 $clientguid = "";
 
@@ -1690,7 +1690,7 @@ catch (LoginRadiusException $e){
 ##### Smart Login Verify Token
 This API verifies the provided token for Smart Login.
 
-[Try this](/api/v2/user-registration/smart-login-verify-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/smart-login-verify-token)
 ```
 $verificationtoken = "";
 $welcomeemailtemplate = ""; (OPTIONAL)
@@ -1713,7 +1713,7 @@ catch (LoginRadiusException $e){
 ##### One Touch Login by Email
 This API is used to send a link to a specified email for a fricitonless login/registration.
 
-[Try this](/api/v2/one-touch/one-touch-login-by-email)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/one-touch/one-touch-login-by-email)
 ```
 $payload= '{
   "clientguid": "",
@@ -1738,7 +1738,7 @@ catch (LoginRadiusException $e){
 ##### One Touch Login By Phone
 This API is used to send one time password to a given phone number for a frictionless login/registration.
 
-[Try this](/api/v2/one-touch/one-touch-login-by-phone)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/one-touch/one-touch-login-by-phone)
 ```
 $payload = '{
   "phone": "",
@@ -1760,7 +1760,7 @@ catch (LoginRadiusException $e){
 ##### One Touch OTP Verification
 This API is used to verify the otp for One Touch Login.
 
-[Try this](/api/v2/one-touch/one-touch-verify-otp)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/one-touch/one-touch-verify-otp)
 ```
 $otp  = "xxxxxx";
 $phone = "xxxxxxxxxx"; 
@@ -1816,7 +1816,7 @@ $accountObject = new AccountAPI (API_KEY, API_SECRET, array('output_format' => '
 ##### Account Create
 This API is used to create an account.
 
-[Try this](/api/v2/user-registration/account-create)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-create)
 ```
 $payload  = '{
 "FirstName":"",
@@ -1847,7 +1847,7 @@ catch (LoginRadiusException $e){
 ##### Get Email Verification Token
 This API Returns an Email Verification token.
 
-[Try this](/api/v2/user-registration/email-verification-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/email-verification-token)
 ```
 $email = "Email-Id";
 
@@ -1863,7 +1863,7 @@ catch (LoginRadiusException $e){
 ##### Get Forgot Password Token
 This API Returns a forgot password token.
 
-[Try this](/api/v2/user-registration/forgot-password-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/forgot-password-token)
 ```
 $email = "Email-Id";
 
@@ -1879,7 +1879,7 @@ catch (LoginRadiusException $e){
 ##### Account Identities By Email
 This API is used to retrieve all of the identities (UID and Profiles), associated with a specified email.
 
-[Try this](/api/v2/user-registration/account-identities-by-email)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-identities-by-email)
 ```
 $email = "Email-Id";
 
@@ -1895,7 +1895,7 @@ catch (LoginRadiusException $e){
 ##### Account Impersonation API
 The API is used to get LoginRadius access token based on UID.
 
-[Try this](/api/v2/user-registration/impersonation-api)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/impersonation-api)
 ```
 $uid = 'xxxxxxxxx';
 
@@ -1911,7 +1911,7 @@ catch (LoginRadiusException $e){
 ##### Account Password
 This API is use to retrieve the hashed password of a specified account.
 
-[Try this](/api/v2/user-registration/account-password)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-password)
 ```
 $uid = 'xxxxxxxxxxx';
 
@@ -1927,7 +1927,7 @@ catch (LoginRadiusException $e){
 ##### Account Profiles By Email
 This API is used to retrieve all of the profile data, associated with the specified account by email.
 
-[Try this](/api/v2/user-registration/account-profiles-by-email)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-profiles-by-email)
 ```
 $email = 'xxxx@xxxxxx.com';
 
@@ -1943,7 +1943,7 @@ catch (LoginRadiusException $e){
 ##### Account Profiles By UserName
 This API is used to retrieve all of the profile data associated with the specified account by user name.
 
-[Try this](/api/v2/user-registration/account-profiles-by-username)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-profiles-by-username)
 ```
 $username = 'xxxxxxxxx';
 
@@ -1959,7 +1959,7 @@ catch (LoginRadiusException $e){
 ##### Account Profiles By Phone
 This API is used to retrieve all of the profile data, associated with the account by phone number.
 
-[Try this](/api/v2/user-registration/phone-profile-by-phoneid)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-profile-by-phoneid)
 ```
 $phone = 'xxxxxxxxxxxxx';
 
@@ -1975,7 +1975,7 @@ catch (LoginRadiusException $e){
 ##### Account Profiles By Uid
 This API is used to retrieve all of the profile data, associated with the account by UID.
 
-[Try this](/api/v2/user-registration/account-profiles-by-uid)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-profiles-by-uid)
 ```
 $uid = 'xxxxxxxxxx';
 
@@ -1991,7 +1991,7 @@ catch (LoginRadiusException $e){
 ##### Account Set Password
 This API is used to set the password of an account.
 
-[Try this](/api/v2/user-registration/account-set-password)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-set-password)
 ```
 $uid = 'xxxxxx';
 $password = 'xxxxxxxxxx';
@@ -2008,7 +2008,7 @@ catch (LoginRadiusException $e){
 ##### Account Update 
 This API is used to update the information of existing account.
 
-[Try this](/api/v2/user-registration/account-update)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-update)
 ```
 $uid = "xxxxxxxxxxx";
 $payload = '{
@@ -2037,7 +2037,7 @@ catch (LoginRadiusException $e){
 ##### Account Update Security Question
 This API is used to update security questions configuration on an existing account.
 
-[Try this](/api/v2/user-registration/update-security-question-configuration)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/update-security-question-configuration)
 ```
 $uid = "xxxxxxxxx";
 $payload = '{
@@ -2059,7 +2059,7 @@ catch (LoginRadiusException $e){
 ##### Account Invalidate Verification Email
 This API is used to invalidate the Email Verification status on an account.
 
-[Try this](/api/v2/user-registration/account-invalidate-verification-email)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-invalidate-verification-email)
 ```
 $uid = "xxxxxxxx";
 $data = true; (boolean type) if have you no body parameters
@@ -2076,7 +2076,7 @@ catch (LoginRadiusException $e){
 ##### Account Email Delete
 Use this API to Remove emails from a user Account.
 
-[Try this](/api/v2/user-registration/account-email-delete)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-email-delete)
 ```
 $uid = "xxxxxxxxx";
 $email = "xxxx@xxxxxxxx.com";
@@ -2093,7 +2093,7 @@ catch (LoginRadiusException $e){
 ##### Account Delete 
 This API deletes the Users account and allows them to re-register for a new account.
 
-[Try this](/api/v2/user-registration/account-delete)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-delete)
 ```
 $uid = 'xxxxxxxx';
 
@@ -2109,7 +2109,7 @@ catch (LoginRadiusException $e){
 ##### MFA Backup Code By UID
 This API is used to get a set of backup codes to allow the user login.
 
-[Try this](/api/v2/user-registration/backup-code-by-uid)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/backup-code-by-uid)
 ```
 $uid = 'xxxxxxxx';
 
@@ -2125,7 +2125,7 @@ catch (LoginRadiusException $e){
 ##### MFA Reset Backup Code By UID
 This API is used to reset the backup codes on a given account via the UID.
 
-[Try this](/api/v2/user-registration/reset-backup-code-by-uid)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/reset-backup-code-by-uid)
 ```
 $uid = 'xxxxxxxx';
 
@@ -2141,7 +2141,7 @@ catch (LoginRadiusException $e){
 ##### MFA Reset Google Authenticator By UID
 This API resets the Google Authenticator configurations on a given account via the UID.
 
-[Try this](/api/v2/user-registration/2fa-reset-google-authenticator-by-uid)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-reset-google-authenticator-by-uid)
 ```
 $uid = 'xxxxxxxx';
 $googleauthenticator = true; (pass boolean true to remove Google Authenticator).
@@ -2159,7 +2159,7 @@ catch (LoginRadiusException $e){
 ##### MFA Reset SMS Authenticator By UID
 This API resets the SMS Authenticator configurations on a given account via the UID.
 
-[Try this](/api/v2/user-registration/2fa-reset-sms-authenticator-by-uid)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-reset-sms-authenticator-by-uid)
 ```
 $uid = 'xxxxxxxx';
 $otpauthenticator = true;  (pass boolean true to remove SMS Authenticator).
@@ -2176,7 +2176,7 @@ catch (LoginRadiusException $e){
 ##### Reset phone ID verification
 This API Allows you to reset the phone no verification of an end users account.
 
-[Try this](/api/v2/user-registration/reset-phone-verification)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/reset-phone-verification)
 ```
 $uid = 'xxxxxxxx';
 $data = true; (boolean type) if you have no body data parameters
@@ -2214,7 +2214,7 @@ catch (LoginRadiusException $e){
 ##### Generate SOTT Token
 This API allows you to generate SOTT with a given expiration time.
 
-[Try this](/api/v2/customer-identity-api/session/generate-sott-token/)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/session/generate-sott-token/)
 ```
 $time_difference = "10";   // The time difference you would like to pass, If you not pass difference then the default value is 10 minutes
 
@@ -2255,7 +2255,7 @@ $roleObject = new RoleAPI (API_KEY, API_SECRET, array('output_format' => 'json')
 ##### Roles Create
 This API creates a role with permissions.
 
-[Try this](/api/v2/user-registration/roles-create)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-create)
 ```
 
 $roles = '{"Roles":[
@@ -2275,7 +2275,7 @@ catch (LoginRadiusException $e){
 ##### Get Context
 This API Gets the contexts that have been configured and the associated roles and permissions.
 
-[Try this](/api/v2/user-registration/roles-get-context)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-get-context)
 ```
 $uid = "xxxxxxxx";
 
@@ -2291,7 +2291,7 @@ catch (LoginRadiusException $e){
 ##### Roles List
 This API retrieves the complete list of created roles with permissions of your app.
 
-[Try this](/api/v2/user-registration/roles-list)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-list)
 ```
 
 try{
@@ -2307,7 +2307,7 @@ catch (LoginRadiusException $e){
 ##### Get Roles By UID
 API is used to retrieve all the assigned roles of a particular User.
 
-[Try this](/api/v2/user-registration/roles-by-uid)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-by-uid)
 ```
 $uid = 'xxxxxx';
 
@@ -2322,7 +2322,7 @@ catch (LoginRadiusException $e){
 ##### Add Permission To Role
 This API is used to add permissions to a given role
 
-[Try this](/api/v2/user-registration/account-add-permissions-to-role)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-add-permissions-to-role)
 ```
 $role = 'xxxxxx';
 $permissions = '{"Permissions":["EditUser","DeleteUser"]}';
@@ -2339,7 +2339,7 @@ catch (LoginRadiusException $e){
 ##### Assign Roles By UID
 This API is used to assign your desired roles to a given user.
 
-[Try this](/api/v2/user-registration/roles-assign-to-user)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-assign-to-user)
 ```
 $uid = 'xxxxxx';
 $data = '{"Roles":["Role1","Role2"]}';
@@ -2356,7 +2356,7 @@ catch (LoginRadiusException $e){
 ##### Upsert Context
 This API creates a Context with a set of Roles.
 
-[Try this](/api/v2/user-registration/roles-create-context)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-create-context)
 ```
 $uid = "xxxxxxx";
 $payload = '{
@@ -2388,7 +2388,7 @@ catch (LoginRadiusException $e){
 ##### Delete Role
 This API is used to delete a role.
 
-[Try this](/api/v2/user-registration/account-delete-role)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-delete-role)
 ```
 $role = "Name-Of-Role"; 
 
@@ -2404,7 +2404,7 @@ catch (LoginRadiusException $e){
 ##### Unassign Roles by UID
 This API is used to unassign roles from a user.
 
-[Try this](/api/v2/user-registration/roles-unassign-to-user)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-unassign-to-user)
 ```
 $uid = "xxxxxx";
 $payload = '{"Roles":["Role1","Role2"]}';
@@ -2421,7 +2421,7 @@ catch (LoginRadiusException $e){
 ##### Remove Permissions
 API is used to remove permissions from a role.
 
-[Try this](/api/v2/user-registration/account-remove-permissions)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-remove-permissions)
 ```
 $role = 'Role-Name';
 $permissions = '{"Permissions": ["Edit User", "Delete User"]}';
@@ -2438,7 +2438,7 @@ catch (LoginRadiusException $e){
 ##### Delete Context
 This API Deletes the specified Role Context.
 
-[Try this](/api/v2/user-registration/roles-delete-context)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-delete-context)
 ```
 $uid = "xxxxxxx";
 $roleContextName = "";
@@ -2455,7 +2455,7 @@ catch (LoginRadiusException $e){
 ##### Delete Roles From Context
 This API Deletes the specified Role from a Context.
 
-[Try this](/api/v2/user-registration/roles-delete-context-role)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-delete-context-role)
 ```
 $uid = "xxxxx";
 $roleContextName  = "";
@@ -2473,7 +2473,7 @@ catch (LoginRadiusException $e){
 ##### Delete permissions from context
 This API Deletes Additional Permissions from Context.
 
-[Try this](/api/v2/user-registration/roles-delete-context-permission)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-delete-context-permission)
 ```
 $uid = "xxxxxx";
 $roleContextName = "";
@@ -2498,7 +2498,7 @@ Get list of configuration selected in LoginRadius user account.
 ##### Get Configurations
 This API is used to get the configurations which are set in the LoginRadius Admin Console for a particular LoginRadius site/environment.
 
-[Try this](/api/v2/customer-identity-api/configuration/get-configurations)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/configuration/get-configurations)
 ```
 
 try{
@@ -2513,7 +2513,7 @@ catch (LoginRadiusException $e){
 ##### Get Server Time
 This API allows you to query your LoginRadius account for basic server information and server time information which is useful when generating an SOTT token.
 
-[Try this](/api/v2/customer-identity-api/configuration/get-server-time)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/configuration/get-server-time)
 ```
 $time_difference = '10';  // The time difference you would like to pass, If you not pass difference then the default value is 10 minutes.
 
@@ -2564,7 +2564,7 @@ $socialLoginObject = new SocialLoginAPI (API_KEY, API_SECRET, array('output_form
 
 Call the loginradius_exchange_access_token() function to retrieve an access token and the expiration timer.
 
-[Try this](/api/v2/social-login/access-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/access-token)
 ```
 
 $request_token = ""; //Token generated from a successful oauth from social platform
@@ -2585,7 +2585,7 @@ With the access token, we can now invoke any of the following functions to grab 
 
 The UserProfileAPI pulls all available user data. In this example, we just pull all fields that are Strings and not null. The LoginRadiusUltimateUserProfile object contains a large number of fields, and they can be manually retrieved from any PHP object.​
 
-[Try this](/api/v2/social-login/user-profile)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/user-profile)
 ```
 
 $access_token = "Access-Token";
@@ -2603,7 +2603,7 @@ catch (LoginRadiusException $e){
 ##### Album 
 This API returns the photo albums associated with the passed in access tokens Social Profile.
 
-[Try this](/api/v2/social-login/album)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/album)
 ```
 $access_token = "Access-Token";
 $raw = true;  // boolean $raw If true, raw data is fetched.
@@ -2620,7 +2620,7 @@ catch (LoginRadiusException $e){
 ##### Photo
 The Photo API is used to get photo data from the users social account.
 
-[Try this](/api/v2/social-login/photo)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/photo)
 ```
 $access_token = "Access-Token";
 $album_id = "Album-Id";
@@ -2637,7 +2637,7 @@ catch (LoginRadiusException $e){
 ##### Checkin
 This API is used to get checkins data from the users social account.
 
-[Try this](/api/v2/social-login/check-in)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/check-in)
 ```
 $access_token = "Access-Token";
 $raw = true;  // boolean $raw If true, raw data is fetched.
@@ -2654,7 +2654,7 @@ catch (LoginRadiusException $e){
 ##### Audio
 This API is used to get audio data from the users social account.
 
-[Try this](/api/v2/social-login/audio)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/audio)
 ```
 $access_token = "Access-Token";
 $raw = true;  // boolean $raw If true, raw data is fetched.
@@ -2671,7 +2671,7 @@ catch (LoginRadiusException $e){
 ##### Contact
 The Contact API is used to get contacts/friends/connections data from the users social account
 
-[Try this](/api/v2/social-login/contact)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/contact)
 ```
 
 $access_token = "Access-Token";
@@ -2690,7 +2690,7 @@ catch (LoginRadiusException $e){
 ##### Mention
 The Mention API is used to get mentions data from the users social account.
 
-[Try this](/api/v2/social-login/mention)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/mention)
 ```
 $access_token = "Access-Token";
 $raw = true;  // boolean $raw If true, raw data is fetched.
@@ -2707,7 +2707,7 @@ catch (LoginRadiusException $e){
 ##### Following
 Get the following user list from the users social account.
 
-[Try this](/api/v2/social-login/following)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/following)
 ```
 $access_token = "Access-Token";
 $raw = true;  // boolean $raw If true, raw data is fetched.
@@ -2724,7 +2724,7 @@ catch (LoginRadiusException $e){
 
 ##### Event
 This API is used to get the event data from the users social account.
-[Try this](/api/v2/social-login/event)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/event)
 ```
 $access_token = "Access-Token";
 $raw = true;  // boolean $raw If true, raw data is fetched.
@@ -2741,7 +2741,7 @@ catch (LoginRadiusException $e){
 ##### Post
 This API is used to get the post data from the users social account.
 
-[Try this](/api/v2/social-login/post)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/post)
 ```
 $access_token = "Access-Token";
 $raw = true;  // boolean $raw If true, raw data is fetched.
@@ -2758,7 +2758,7 @@ catch (LoginRadiusException $e){
 ##### Company
 This API is used to get the followed companies data from the users social account.
 
-[Try this](/api/v2/social-login/company)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/company)
 ```
 $access_token = "Access-Token";
 $raw = true;  // boolean $raw If true, raw data is fetched.
@@ -2775,7 +2775,7 @@ catch (LoginRadiusException $e){
 ##### Group
 This API is used to get the group data from the users social account.
 
-[Try this](/api/v2/social-login/group)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/group)
 ```
 $access_token = "Access-Token";
 $raw = true;  // boolean $raw If true, raw data is fetched.
@@ -2792,7 +2792,7 @@ catch (LoginRadiusException $e){
 ##### Status
 This API is used to get the status data from the users social account.
 
-[Try this](/api/v2/social-login/status)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/status)
 ```
 $access_token = "Access-Token";
 $raw = true;  // boolean $raw If true, raw data is fetched.
@@ -2809,7 +2809,7 @@ catch (LoginRadiusException $e){
 ##### Video
 This API is used to get the video data from the users social account.
 
-[Try this](/api/v2/social-login/video)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/video)
 ```
 $access_token = "Access-Token";
 $raw = true;  // boolean $raw If true, raw data is fetched.
@@ -2826,7 +2826,7 @@ catch (LoginRadiusException $e){
 ##### Like
 This API is used to get the likes data from the users social account.
 
-[Try this](/api/v2/social-login/like)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/like)
 ```
 $access_token = "Access-Token";
 $raw = true;  // boolean $raw If true, raw data is fetched.
@@ -2843,7 +2843,7 @@ catch (LoginRadiusException $e){
 ##### Page
 This API is used to get the pages data from the users social account.
 
-[Try this](/api/v2/social-login/page)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/page)
 ```
 $access_token = "Access-Token";
 $page_name = "Page-Name";
@@ -2861,7 +2861,7 @@ catch (LoginRadiusException $e){
 ##### Status Posting
 Status API can extract the users status updates. This API is much more specific to the provider being used in that it works with Facebook or Twitter, but wouldn’t work if the user logged in with Github. The API will check the provider being used against those available and will return an error if it is not supported.
 
-[Try this](/api/v2/social-login/post-status-posting)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/post-status-posting)
 ```
 $access_token = "";
 $status = "";
@@ -2883,7 +2883,7 @@ catch (LoginRadiusException $e){
 ##### Send Message
 This API is used to send messages to the users contacts.
 
-[Try this](/api/v2/social-login/post-message-api)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/post-message-api)
 ```
 $access_token = "Access-Token"; 
 $to = ""; 
@@ -2902,7 +2902,7 @@ catch (LoginRadiusException $e){
 ##### Validate Access Token
 This API validates access token
 
-[Try this](/api/v2/social-login/token-validate)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/token-validate)
 ```
 $access_token = "Access-Token"; 
 
@@ -2918,7 +2918,7 @@ catch (LoginRadiusException $e){
 ##### Invalidate Access Token 
 This API invalidates access token
 
-[Try this](/api/v2/social-login/token-invalidate)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/social-login/token-invalidate)
 ```
 $access_token = "Access-Token"; 
 
@@ -2966,7 +2966,7 @@ $advanceSocialLoginObject = new AdvanceSocialLoginAPI (API_KEY, API_SECRET, arra
 ##### Access Token via Facebook Token
 The API is used to get LoginRadius access token by sending Facebook access token.
 
-[Try this](/api/v2/advanced-social-api/access-token-via-facebook-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/advanced-social-api/access-token-via-facebook-token)
 ```
 $fb_access_token = ""; 
 
@@ -2982,7 +2982,7 @@ catch (LoginRadiusException $e){
 ##### Access Token via Twitter Token
 The API is used to get LoginRadius access token by sending Twitter access token
 
-[Try this](/api/v2/advanced-social-api/access-token-via-twitter-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/advanced-social-api/access-token-via-twitter-token)
 ```
 $tw_access_token = "";
 $tw_token_secret = "";
@@ -2999,7 +2999,7 @@ catch (LoginRadiusException $e){
 ##### Refresh UserProfile
 The User Profile API is used to get the latest updated social profile data.
 
-[Try this](/api/v2/customer-identity-api/refresh-token/refresh-user-profile)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/refresh-token/refresh-user-profile)
 ```
 $access_token = "Access-Token";
 
@@ -3015,7 +3015,7 @@ catch (LoginRadiusException $e){
 ##### Access Token
 The Refresh Access Token API is used to refresh the LoginRadius Access Token.
 
-[Try this](/api/v2/advanced-social-api/refresh-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/advanced-social-api/refresh-token)
 ```
 $access_token = "Access-Token";
 
@@ -3030,7 +3030,7 @@ catch (LoginRadiusException $e){
 ##### Get Active Session Details
 This api is used to get all active sessions by Access Token.
 
-[Try this](/api/v2/user-registration/get-active-session-details)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/get-active-session-details)
 ```
 $access_token = "Access-Token";
 
@@ -3046,7 +3046,7 @@ catch (LoginRadiusException $e){
 ##### Trackable Status Fetching
 This API is used to retrieve a tracked post based on the passed in post ID value.
 
-[Try this](/api/v2/advanced-social-api/trackable-status-fetching)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/advanced-social-api/trackable-status-fetching)
 ```
 $postid = "Post-id";
 
@@ -3062,7 +3062,7 @@ catch (LoginRadiusException $e){
 ##### Trackable Status Stats
 The Trackable Status API is used to update the status on the user’s wall and return an Post ID value.
 
-[Try this](/api/v2/advanced-social-api/get-trackable-status-stats)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/advanced-social-api/get-trackable-status-stats)
 ```
 $access_token = "Access-Token";
 $status = "";
@@ -3085,7 +3085,7 @@ catch (LoginRadiusException $e){
 ##### Shorten URL
 The Shorten URL API is used to convert your URLs to the LoginRadius short URL - ish.re
 
-[Try this](/api/v2/advanced-social-api/shorten-url)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/advanced-social-api/shorten-url)
 ```
 $url = "url";
 
@@ -3102,7 +3102,7 @@ catch (LoginRadiusException $e){
 ##### Trackable Status Posting
 The Trackable Status API is used to update the status on the user’s wall and return an Post ID value.
 
-[Try this](/api/v2/advanced-social-api/trackable-status-posting)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/advanced-social-api/trackable-status-posting)
 ```
 $access_token = "Access-Token";
 $status = "";
@@ -3135,7 +3135,7 @@ catch (LoginRadiusException $e){
 ##### Add Registration Data
 This API allows you to fill data into a dropdown list which you have created for user Registeration.
 
-[Try this](/api/v2/custom-registration-data/add-registration-data)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/custom-registration-data/add-registration-data)
 ```
 
 $payload = '{
@@ -3161,7 +3161,7 @@ catch (LoginRadiusException $e){
 ##### Validate Code
 This API allows you to validate code for a particular dropdown member.
 
-[Try this](/api/v2/custom-registration-data/validate-code)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/custom-registration-data/validate-code)
 ```
 
 $payload = '{"recordid": "","code": ""}';
@@ -3177,7 +3177,7 @@ catch (LoginRadiusException $e){
 ##### Get Registration Data
 This API is used to retrieve dropdown data.
 
-[Try this](/api/v2/custom-registration-data/get-registration-data)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/custom-registration-data/get-registration-data)
 ```
 $type = "";
 $parent_id = "";
@@ -3195,7 +3195,7 @@ catch (LoginRadiusException $e){
 ##### Auth Get Registration Data
 This API is used to retrieve dropdown data.
 
-[Try this](/api/v2/custom-registration-data/auth-get-registration-data)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/custom-registration-data/auth-get-registration-data)
 ```
 $type = "";
 $parent_id = "";
@@ -3214,7 +3214,7 @@ catch (LoginRadiusException $e){
 ##### Update Registration Data
 This API allows you to update a dropdown item.
 
-[Try this](/api/v2/custom-registration-data/update-registration-data)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/custom-registration-data/update-registration-data)
 ```
 $recordid = "";
 $payload =  '{
@@ -3237,7 +3237,7 @@ catch (LoginRadiusException $e){
 ##### Delete Registration Data
 This API allows you to delete an item from a dropdown list.
 
-[Try this](/api/v2/custom-registration-data/delete-registration-data)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/custom-registration-data/delete-registration-data)
 ```
 $recordid = "";
 
@@ -3267,7 +3267,7 @@ $authCustomObject = new AuthCustomObjectAPI (API_KEY, API_SECRET, array('output_
 ##### Insert Data in  Custom Object
 This API is used to write information in JSON format to the custom object for the specified account.
 
-[Try this](/api/v2/user-registration/create-custom-object-by-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/create-custom-object-by-token)
 ```
 $access_token = "Access-Token";
 $objectname = "";
@@ -3285,7 +3285,7 @@ catch (LoginRadiusException $e){
 ##### Update Custom Object Data
 This API is used to update the specified custom object data of the specified account.
 
-[Try this](/api/v2/user-registration/custom-object-update-by-objectrecordid-and-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/custom-object-update-by-objectrecordid-and-token)
 ```
 $access_token = "Access-Token";
 $objectname = "";
@@ -3306,7 +3306,7 @@ catch (LoginRadiusException $e){
 ##### Get Custom Object Sets by token
 This API is used to retrieve the specified Custom Object data for the specified account.
 
-[Try this](/api/v2/user-registration/custom-object-by-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/custom-object-by-token)
 ```
 $access_token = "Access-Token";
 $object_name = "";
@@ -3323,7 +3323,7 @@ catch (LoginRadiusException $e){
 ##### Get Custom Object Set By ID
 This API is used to retrieve the Custom Object data for the specified account.
 
-[Try this](/api/v2/user-registration/custom-object-by-objectrecordid-and-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/custom-object-by-objectrecordid-and-token)
 ```
 $access_token = "Access-Token";
 $object_name = "";
@@ -3341,7 +3341,7 @@ catch (LoginRadiusException $e){
 ##### Delete Custom Object Set
 This API is used to remove the specified Custom Object data using ObjectRecordId of a specified account.
 
-[Try this](/api/v2/user-registration/custom-object-delete-by-objectrecordid-and-token)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/user-registration/custom-object-delete-by-objectrecordid-and-token)
 ```
 $access_token = "Access-Token";
 $object_name = "";
@@ -3376,7 +3376,7 @@ $webhookObject = new WebHooksAPI (API_KEY, API_SECRET, array('output_format' => 
 
 ##### Webhooks Settings
 
-[Try this](/api/v2/integrations/web-hook-test)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/integrations/web-hook-test)
 
 ```
 
@@ -3390,7 +3390,7 @@ catch (LoginRadiusException $e){
 ```
 
 ##### WebHooks Subscribe
-[Try this](/api/v2/integrations/web-hook-subscribe-api)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/integrations/web-hook-subscribe-api)
 
 ```
 $target_url = "";
@@ -3406,7 +3406,7 @@ catch (LoginRadiusException $e){
 ```
 
 ##### Webhooks Subscribed URLs
-[Try this](/api/v2/integrations/web-hook-subscribed-urls)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/integrations/web-hook-subscribed-urls)
 
 ```
 
@@ -3421,7 +3421,7 @@ catch (LoginRadiusException $e){
 ```
 
 ##### Webhooks Unsubscribe 
-[Try this](/api/v2/integrations/web-hook-unsubscribe)
+[Try this](https://www.loginradius.com/legacy/docs/api/v2/integrations/web-hook-unsubscribe)
 
 ```
 $target_url = "";

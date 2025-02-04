@@ -17,7 +17,7 @@ e.g.
 
 3) More compatiblity with 3rd Party SAML systems.
 
-If you're upgrading please refer to our [SAML IDP initated](/single-sign-on/tutorial/federated-sso/saml/idp-initiated/) or [SAML SP Initiated](/single-sign-on/tutorial/federated-sso/saml/sp-initiated/) docs for the full list of configurations that you may need to make.
+If you're upgrading please refer to our [SAML IDP initated](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/saml/idp-initiated/) or [SAML SP Initiated](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/saml/sp-initiated/) docs for the full list of configurations that you may need to make.
 
 
 For any additional questions please reach out to [LoginRadius Support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).

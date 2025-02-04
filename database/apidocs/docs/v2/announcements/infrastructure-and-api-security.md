@@ -10,11 +10,11 @@ This means that you will need to ensure your application uses a SNI-based SSL ce
 
 **Standardization:** We are improving and bringing our system in line with security and system best practices. This primarily relates to how you interact with the LoginRadius API and how our systems process requests, including:
 
-- Support for new ways of securely communicating [API access credentials](/api/v2/admin-console/platform-security/api-key-and-secret/), such as through keys and secrets.
+- Support for new ways of securely communicating [API access credentials](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/), such as through keys and secrets.
 - Additional options to restrict access to the API infrastructure by Domain and IP
 - Removing support for invalid or custom HTTP methods
 - Enforce HTTPS requests
-- Enforce [TLS 1.2 SSL requirements](/api/v2/troubleshooting/tls-compatibility)
+- Enforce [TLS 1.2 SSL requirements](https://www.loginradius.com/legacy/docs/api/v2/troubleshooting/tls-compatibility)
 
 **Optimizations:** We are adding multiple improvements to our infrastructure that relate to how we receive and process requests. This allows us to directly improve security and response times while having no impact on customer implementations. We will deploy systems to handle:
 
@@ -32,20 +32,20 @@ This means that you will need to ensure you are using the latest LoginRadius SDK
 
 If you are currently making requests over HTTP, you will need to ensure you update these to secure requests over HTTPS.
 
-**SDK and Plugin Standardization:** We are in the process of standardizing and releasing updated versions of all of our current [SDK](/api/v2/deployment/sdk-libraries/overview) and [CMS](/api/v2/deployment/turn-key-plugins/general-cms-integrations) libraries. This will allow us to unify the support of these systems, so that you will have the same level of service regardless of what platform or technology you are working with. These updated systems will also support all of the latest LoginRadius features and security enhancements.
+**SDK and Plugin Standardization:** We are in the process of standardizing and releasing updated versions of all of our current [SDK](https://www.loginradius.com/legacy/docs/api/v2/deployment/sdk-libraries/overview) and [CMS](https://www.loginradius.com/legacy/docs/api/v2/deployment/turn-key-plugins/general-cms-integrations) libraries. This will allow us to unify the support of these systems, so that you will have the same level of service regardless of what platform or technology you are working with. These updated systems will also support all of the latest LoginRadius features and security enhancements.
 
 **Feature Support:** We continually release new and improved features driven by our customers and internal analysis. We are improving support for some of our existing platforms and features to better support diverse use cases:
 
-- Invisible [CAPTCHA](/api/v2/deployment/js-libraries/advanced-js-customizations#googlerecaptcha23) on all forms
+- Invisible [CAPTCHA](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/advanced-js-customizations#googlerecaptcha23) on all forms
 - Additional CAPTCHA providers to better support a global audience
-- Improved event-based [MFA](/api/v2/customer-identity-api/multi-factor-authentication/overview)
-- Optimized [SMS](/api/v2/admin-console/sms-workflow/overview) and [SMTP](/api/v2/admin-console/email-workflow/overview) message deliveries via our messaging partners
-- Additional [Password Policy](/api/v2/admin-console/platform-security/password-policy) options, Dictionary Words, and Profile Fields
+- Improved event-based [MFA](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/overview)
+- Optimized [SMS](https://www.loginradius.com/legacy/docs/api/v2/admin-console/sms-workflow/overview) and [SMTP](https://www.loginradius.com/legacy/docs/api/v2/admin-console/email-workflow/overview) message deliveries via our messaging partners
+- Additional [Password Policy](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/password-policy) options, Dictionary Words, and Profile Fields
 
 **Automated Security:** New and improved ways to assist your Ops and Security teams in securing your platform. This removes the need to develop or handle common security cases outside the LoginRadius platform, freeing up your teams to focus on other initiatives. These security cases include the following:
 
 - Automated spam email domain restrictions
-- Improved [Adaptive Authentication](/platform-features-overview/user-security/risk-based-authentication) criteria and triggers
+- Improved [Adaptive Authentication](https://www.loginradius.com/legacy/docs/platform-features-overview/user-security/risk-based-authentication) criteria and triggers
 - Streamlined automated lockout procedures
 
-You may have already seen some of these features in our recent release. Stay tuned to see how we are improving our systems on our [Changelog](/api/changelog) and [Blog](https://blog.loginradius.com/)
+You may have already seen some of these features in our recent release. Stay tuned to see how we are improving our systems on our [Changelog](https://www.loginradius.com/legacy/docs/api/changelog) and [Blog](https://blog.loginradius.com/)

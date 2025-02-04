@@ -1,6 +1,6 @@
 # Usage
 
-This document highlights the available actions of the Identity Experience Framework page such as login, registration, forgot password, profile page, etc. You can utilize all of the available actions and customize the user interface as per your needs. Follow the [customization](/libraries/identity-experience-framework/customization/) document for more details.
+This document highlights the available actions of the Identity Experience Framework page such as login, registration, forgot password, profile page, etc. You can utilize all of the available actions and customize the user interface as per your needs. Follow the [customization](https://www.loginradius.com/legacy/docs/libraries/identity-experience-framework/customization/) document for more details.
 
 ## Available Actions
 
@@ -45,7 +45,7 @@ To display the Logout interface, direct your customers to this URL:
 https://<LoginRadius site name>hub.loginradius.com/auth.aspx?action=logout&return_url=<Return URL>
 ```
 
->**Note:** Replace `<LoginRadius site name>` with Your LoginRadius Site Name which you can find with [these instructions](/api/v2/admin-console/deployment/get-site-app-name/) and the `<Return URL>` with the locations you would like to direct customers after successfully completing the action.
+>**Note:** Replace `<LoginRadius site name>` with Your LoginRadius Site Name which you can find with [these instructions](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) and the `<Return URL>` with the locations you would like to direct customers after successfully completing the action.
 
 ## Favicon
 
@@ -55,9 +55,9 @@ You can upload your custom favicon on your website, **Add/Reset** the Favicon UR
 
 ## Token Handling
 
-LoginRadius’ default script sends an [Access-Token](/security/data-management/loginradius-tokens/) in the query string as a `token` parameter the return_url that you specified in the action URL. This can be used to retrieve profile data and handle additional user functionality.
+LoginRadius’ default script sends an [Access-Token](https://www.loginradius.com/legacy/docs/security/data-management/loginradius-tokens/) in the query string as a `token` parameter the return_url that you specified in the action URL. This can be used to retrieve profile data and handle additional user functionality.
 
-Following are the examples utilizing multiple languages and their [SDKs](/api/v2/deployment/sdk-libraries/overview) to identify this token and retrieve user data.
+Following are the examples utilizing multiple languages and their [SDKs](https://www.loginradius.com/legacy/docs/api/v2/deployment/sdk-libraries/overview) to identify this token and retrieve user data.
 
 
 
@@ -279,4 +279,4 @@ init.setApiSecret("<your-loginradius-api-secret>");
 
 ## iframe Flows
 
-The iframe implementation is an extension of the [LoginRadius Identity Experience Framework page](/api/v2/deployment/identity-experience-framework/hosted/overview), this allows you to display the Identity Experience Framework page directly on your website in an iframe. The Identity Experience Framework will emit any events (success and error) directly to the callback handlers on the parent window. Please see our [iframe Implementation Demo](/api/v2/deployment/demos/iframe-implementation-demo) documentation for details.
+The iframe implementation is an extension of the [LoginRadius Identity Experience Framework page](https://www.loginradius.com/legacy/docs/api/v2/deployment/identity-experience-framework/hosted/overview), this allows you to display the Identity Experience Framework page directly on your website in an iframe. The Identity Experience Framework will emit any events (success and error) directly to the callback handlers on the parent window. Please see our [iframe Implementation Demo](https://www.loginradius.com/legacy/docs/api/v2/deployment/demos/iframe-implementation-demo) documentation for details.

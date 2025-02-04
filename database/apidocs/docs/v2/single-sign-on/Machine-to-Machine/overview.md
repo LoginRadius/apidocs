@@ -99,7 +99,7 @@ Refer to the following steps to configure the M2M authorization flow on your app
 
    ![Client Id and Secret](https://apidocs.lrcontent.com/images/Client-Id-and-Secret_82046143a3a9dcaca5.00814031.png "Client Id and Secret")
 
-The client can use these Client ID and Client Secret credentials to generate the M2M Access Token when he leverages our [Generate Access Token Using Client Credential Flow API](/api/v2/single-sign-on/Machine-to-Machine/generate-access-token-using-client-credential-flow/).
+The client can use these Client ID and Client Secret credentials to generate the M2M Access Token when he leverages our [Generate Access Token Using Client Credential Flow API](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/Machine-to-Machine/generate-access-token-using-client-credential-flow/).
 
 ## Steps in the client credentials flow
 
@@ -147,7 +147,7 @@ This section will guide you through implementing the client credentials code(M2M
     ```
 3.  Customer/Server validate the token
 
-4.  Now, with a valid JWT token, the customer can call all [management APIs](/api/v2/single-sign-on/Machine-to-Machine/validating-the-JWT/). APIs will work as per the assigned permissions, and there is no need to use the secret.
+4.  Now, with a valid JWT token, the customer can call all [management APIs](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/Machine-to-Machine/validating-the-JWT/). APIs will work as per the assigned permissions, and there is no need to use the secret.
 
     ```
     curl --request GET \

@@ -50,7 +50,7 @@ The users are identified by passing in the LoginRadius Profile to our Identify f
 
 Calling the identify function in your code with the 'wootric' argument will enable Wootric along with the Integration.
 
-For more details on how to use the Indentify function see our [Getting Started guide.](/api/v2/integrations/getting-started)
+For more details on how to use the Indentify function see our [Getting Started guide.](https://www.loginradius.com/legacy/docs/api/v2/integrations/getting-started)
 
 
 ### Simple Mapping 

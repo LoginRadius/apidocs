@@ -11,4 +11,4 @@ LoginRadius caters to businesses of different sizes, across starkly different in
 
 By enabling a LoginRadius integration, seamlessly feed the data collected through LoginRadius into your CRM, marketing automation system, DMP, and much more. 
 
-For more information on LoginRadius integrations, check our [website](/integrations/overview/).
+For more information on LoginRadius integrations, check our [website](https://www.loginradius.com/legacy/docs/integrations/overview/).

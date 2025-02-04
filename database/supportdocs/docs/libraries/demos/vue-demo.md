@@ -16,7 +16,7 @@ This section will explain the steps included in the setup of the Vue.JS demo and
 
 2. Install the dependencies by typing `npm install` on your command-line interface.
 
-3. Configure your [LoginRadius Credentials](/api/v2/admin-console/platform-security/api-key-and-secret/) in "/src/assets/options.js"
+3. Configure your [LoginRadius Credentials](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/) in "/src/assets/options.js"
 
 4. Run the demo on localhost port 8080 by typing `npm run dev` into your command-line interface.
 5. This will open your demo on your default browser.
@@ -64,7 +64,7 @@ LRObject.init('registration',registration_options);
 Whereas the rest of the logic is located in: /src/components/sociallogin.vue.
 
     
-To learn more about how to customize the Social Login Buttons via our template code, you can refer to our [Getting Started documentation](/api/v2/user-registration/user-registration-getting-started#sociallogin7)
+To learn more about how to customize the Social Login Buttons via our template code, you can refer to our [Getting Started documentation](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#sociallogin7)
 
 ## Features Implemented in the Demo
 
