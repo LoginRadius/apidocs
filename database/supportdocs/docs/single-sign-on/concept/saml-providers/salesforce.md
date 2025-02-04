@@ -66,7 +66,7 @@ The following screen will appear:
 
 - In the **Name** field, enter any App name. This name will be automatically filled in the **API Name**.
 - In the **Issuer** and **EntityID** fields, enter your LoginRadius site URL: `https://<LoginRadius Site Name>.hub.loginradius.com/`.
-- For **Identity Provider Certificate**, refer to this [document](https://www.loginradius.com/docs/single-sign-on/federated-sso/saml/usage/#generateloginradiuscertificateandkey6) for obtaining the LoginRadius Certificate. After getting the LoginRadius certificate value, save it and create a file keeping the file extension as `.cert`. Select the **ChooseFile** and browse to the filename.cert [i.e., the LoginRadius Certificate] and upload the file. 
+- For **Identity Provider Certificate**, refer to this [document](https://www.loginradius.com/legacy/docs/single-sign-on/federated-sso/saml/usage/#generateloginradiuscertificateandkey6) for obtaining the LoginRadius Certificate. After getting the LoginRadius certificate value, save it and create a file keeping the file extension as `.cert`. Select the **ChooseFile** and browse to the filename.cert [i.e., the LoginRadius Certificate] and upload the file. 
 - For **Request Signing Certificate**, select certificate from the previous step.
 - For **Request Signature Method**, select **RSA-SHA1**.
 - For **Assertion Decryption Certificate**, select **Assertion not encrypted**.
@@ -132,7 +132,7 @@ This section covers the required configurations that you need to perform in the 
 **Step 6:** In the **Certificates** section, under **Id Provider Certificate Key**, enter the LoginRadius Certificate Key. This key will be used to establish trust between Identity and Service Provider.
 
 
-> **Note:** Refer to the [generate key](https://www.loginradius.com/docs/single-sign-on/federated-sso/saml/usage/#generateloginradiuscertificateandkey6) section for how to generate private and public keys.
+> **Note:** Refer to the [generate key](https://www.loginradius.com/legacy/docs/single-sign-on/federated-sso/saml/usage/#generateloginradiuscertificateandkey6) section for how to generate private and public keys.
 
 **Step 7:** In the **Id Provider Certificate field**, enter the same certificate value with the headers that you have added in the salesforce application. This certificate will be used to establish trust between Identity and Service Provider.
 
@@ -209,7 +209,7 @@ D. For **RELAY STATE PARAMETER**, enter **RelayState**.
 **Step 3:** After successful authentication, you will be logged into your Salesforce account.
 > **Note**: Customers account should exist under both salesforce and LoginRadius database.
 
-> **Custom Domain:** To configure the SAML workflow for a custom domain, refer to this [document](https://www.loginradius.com/docs/single-sign-on/concept/saml-miscellaneous/Usage/#partcustomdomain6).
+> **Custom Domain:** To configure the SAML workflow for a custom domain, refer to this [document](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-miscellaneous/Usage/#partcustomdomain6).
 
 
 

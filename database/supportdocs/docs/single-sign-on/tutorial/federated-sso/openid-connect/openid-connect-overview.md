@@ -280,7 +280,7 @@ The implicit flow requests tokens without explicit client authentication, using 
   - redirect_uri: Callback URL of your site where you want to redirect back your users
   - response_type : possible values are `token`, `id_token` or `token id_token`.
   - state:  random string that returned with the `access_token` in the redirect callback. this parameter will be returned as it is, part of the response.
-  - scope: To get values mapped in the admin console configuration you must need to pass the openid as value. If you are looking to get additional profile fields in the id_token in the [userinfo](https://www.loginradius.com/docs/api/v2/single-sign-on/federated-sso/openid-connect/userinfo-by-access-token/) API response, you can pass the additional scopes with **openid**. The list of supported scopes and claims in the id_token can be found [here](#listofscopesandclaims5).
+  - scope: To get values mapped in the admin console configuration you must need to pass the openid as value. If you are looking to get additional profile fields in the id_token in the [userinfo](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/openid-connect/userinfo-by-access-token/) API response, you can pass the additional scopes with **openid**. The list of supported scopes and claims in the id_token can be found [here](#listofscopesandclaims5).
   - nonce: a unique generated nounce.
 
 #####Receiving Tokens - Implicit Flow

@@ -64,7 +64,7 @@ Here is the flow for the Single Sign-on (SSO) process:
 
 
 >**Pre-requisites:** Before installing the LoginRadius platform for AEM, make sure that:
-> - You have a [LoginRadius API Key and API Secret](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0).
+> - You have a [LoginRadius API Key and API Secret](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0).
 
 ><br>**Note:** LoginRadius API Key and API Secret will be used to access the customer data stored in the LoginRadius database
 

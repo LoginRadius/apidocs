@@ -579,7 +579,7 @@ Refer to the following sample code to implement the Social login using the above
 
 #### Using LoginRadius SocialLogin library functions
 
-You need to define the **commonOptions.noCallbackForSocialLogin = true** to get the token via the Ping API. LoginRadius starts calling the **SocialLogin by Ping API** automatically and returns the token with the user profile data in the **sl_options.onSuccess** function. Refer to [Social Login](https://www.loginradius.com/docs/libraries/js-libraries/getting-started/#sociallogin8) for more details on how to implement social login workflow using LoginRadius library function.
+You need to define the **commonOptions.noCallbackForSocialLogin = true** to get the token via the Ping API. LoginRadius starts calling the **SocialLogin by Ping API** automatically and returns the token with the user profile data in the **sl_options.onSuccess** function. Refer to [Social Login](https://www.loginradius.com/legacy/docs/libraries/js-libraries/getting-started/#sociallogin8) for more details on how to implement social login workflow using LoginRadius library function.
 
 #### Using Programmatic Link
 
