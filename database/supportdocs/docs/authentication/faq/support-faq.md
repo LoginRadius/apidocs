@@ -42,7 +42,7 @@ You can navigate to the API documentation from The Admin Console itself by click
 
 The API Reference contains all the essential documents and technical specifications regarding the REST APIs, process flows, resources, and available tools to configure and implement the LoginRadius platform to meet your business requirements.
 
-These comprehensive articles will assist you in incorporating the various platform features offered by the LoginRadius CIAM Platform. You can also directly navigate to the API documentation by clicking [here](https://www.loginradius.com/docs/api/v2/getting-started/introduction/).
+These comprehensive articles will assist you in incorporating the various platform features offered by the LoginRadius CIAM Platform. You can also directly navigate to the API documentation by clicking [here](https://www.loginradius.com/legacy/docs/api/v2/getting-started/introduction/).
 
 If you still haven't found the solution you are looking for, feel free to engage with us at any time using any of the following methods. **LoginRadius support** team is available **24X7** to answer your questions.
 

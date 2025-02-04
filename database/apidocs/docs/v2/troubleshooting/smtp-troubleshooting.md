@@ -61,7 +61,7 @@ troubleshooting:
  If your server has firewall protection and you require the IP addresses of LoginRadius services to
 add to the firewall, then LoginRadius has some sought of dedicated IPs that need to be whitelisted and
  it would be good to make sure that all of them are whitelisted. You can find the list of our
-  IPs [here](https://www.loginradius.com/docs/infrastructure-and-security/ip-addresses-list/).
+  IPs [here](https://www.loginradius.com/legacy/docs/infrastructure-and-security/ip-addresses-list/).
 
  ## Issue related to Email Domain
 
@@ -70,7 +70,7 @@ addresses or its occurring globally.
 
 ## Admin Console configuration
 
-Improper SMTP configurations in [Admin Console](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration) also leads to mail sending/ receiving issues. So it’s better to cross-check your SMTP configurations settings there. For more you can refer this [DOC](https://www.loginradius.com/docs/api/v2/admin-console/platform-configuration/communication-configuration/email/email-configuration/#sendgrid-smtp-configuration) 
+Improper SMTP configurations in [Admin Console](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration) also leads to mail sending/ receiving issues. So it’s better to cross-check your SMTP configurations settings there. For more you can refer this [DOC](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/communication-configuration/email/email-configuration/#sendgrid-smtp-configuration) 
 
 
 The above are some common cases that cause email sending/receiving issues and the customer can

@@ -35,15 +35,15 @@ This document provides a step-by-step guide to configure a LoginRadius applicati
     
 -   **Access Token Endpoint**- https://cloud-api.loginradius.com/sso/oauth/access_token
     
--   **Application Key**- Enter the API Key for your LoginRadius Identity Provider application. Please see [here](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret) for how to get the API key in the Admin Console.
+-   **Application Key**- Enter the API Key for your LoginRadius Identity Provider application. Please see [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret) for how to get the API key in the Admin Console.
     
--   **Application Secret**- Enter the API Secret for your LoginRadius Identity Provider application. Please see [here](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret) for how to get the API key in the Admin Console.
+-   **Application Secret**- Enter the API Secret for your LoginRadius Identity Provider application. Please see [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret) for how to get the API key in the Admin Console.
     
 -   **Scope**- email
     
 -   **Response Type**- code
     
--   **Customer Profile Endpoint** -[https://api.loginradius.com/identity/v2/auth/account?apiKey=](https://api.loginradius.com/identity/v2/auth/account?apiKey=)<Identity Provider LoginRadius API key>: Please see [here](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret) for how to get the API key in the Admin Console.
+-   **Customer Profile Endpoint** -[https://api.loginradius.com/identity/v2/auth/account?apiKey=](https://api.loginradius.com/identity/v2/auth/account?apiKey=)<Identity Provider LoginRadius API key>: Please see [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret) for how to get the API key in the Admin Console.
     
 -   **Request Token Http Method**- POST
     

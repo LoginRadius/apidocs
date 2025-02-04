@@ -38,7 +38,7 @@ Create `var config` in project
      }
   }
   ```
-Replace the placeholders in the config object with your LoginRadius credentials apikey, apisecret, sitename. These can be obtained from [here](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/api-key-and-secret) 
+Replace the placeholders in the config object with your LoginRadius credentials apikey, apisecret, sitename. These can be obtained from [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret) 
 
 Pass the proxy configurations if you want to set Http Server Proxy Configuration through your NodeJs SDK. Host and port are required to set Http Server Proxy configuration (username and password are optional).
 
@@ -112,7 +112,7 @@ List of APIs in this Section:<br>
 <h6 id="UpdateProfileByAccessToken-put-"> Auth Update Profile by Token (PUT)</h6>
 
 
- This API is used to update the user's profile by passing the access token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-update-profile-by-token/)
+ This API is used to update the user's profile by passing the access token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-update-profile-by-token/)
 
  
  
@@ -144,7 +144,7 @@ lrv2.authenticationApi.updateProfileByAccessToken(accessToken, userProfileUpdate
  
 <h6 id="UnlockAccountByToken-put-"> Auth Unlock Account by Access Token (PUT)</h6>
 
- This API is used to allow a customer with a valid access token to unlock their account provided that they successfully pass the prompted Bot Protection challenges. The Block or Suspend block types are not applicable for this API. For additional details see our Auth Security Configuration documentation.You are only required to pass the Post Parameters that correspond to the prompted challenges.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token/)
+ This API is used to allow a customer with a valid access token to unlock their account provided that they successfully pass the prompted Bot Protection challenges. The Block or Suspend block types are not applicable for this API. For additional details see our Auth Security Configuration documentation.You are only required to pass the Post Parameters that correspond to the prompted challenges.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token/)
 
  
  
@@ -170,7 +170,7 @@ lrv2.authenticationApi.unlockAccountByToken(accessToken, unlockProfileModel).the
  
 <h6 id="VerifyEmailByOTP-put-"> Auth Verify Email By OTP (PUT)</h6>
 
- This API is used to verify the email of user when the OTP Email verification flow is enabled, please note that you must contact LoginRadius to have this feature enabled.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-verify-email-by-otp/)
+ This API is used to verify the email of user when the OTP Email verification flow is enabled, please note that you must contact LoginRadius to have this feature enabled.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-verify-email-by-otp/)
 
  
  
@@ -199,7 +199,7 @@ lrv2.authenticationApi.verifyEmailByOTP(emailVerificationByOtpModel, fields, url
  
 <h6 id="ResetPasswordBySecurityAnswerAndEmail-put-"> Auth Reset Password by Security Answer and Email (PUT)</h6>
 
- This API is used to reset password for the specified account by security question  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-email)
+ This API is used to reset password for the specified account by security question  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-email)
 
  
  
@@ -225,7 +225,7 @@ lrv2.authenticationApi.resetPasswordBySecurityAnswerAndEmail(resetPasswordBySecu
  
 <h6 id="ResetPasswordBySecurityAnswerAndPhone-put-"> Auth Reset Password by Security Answer and Phone (PUT)</h6>
 
- This API is used to reset password for the specified account by security question  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-phone)
+ This API is used to reset password for the specified account by security question  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-phone)
 
  
  
@@ -252,7 +252,7 @@ lrv2.authenticationApi.resetPasswordBySecurityAnswerAndPhone(resetPasswordBySecu
  
 <h6 id="ResetPasswordBySecurityAnswerAndUserName-put-"> Auth Reset Password by Security Answer and UserName (PUT)</h6>
 
- This API is used to reset password for the specified account by security question  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-username)
+ This API is used to reset password for the specified account by security question  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-username)
 
  
  
@@ -279,7 +279,7 @@ lrv2.authenticationApi.resetPasswordBySecurityAnswerAndUserName(resetPasswordByS
  
 <h6 id="ResetPasswordByResetToken-put-"> Auth Reset Password by Reset Token (PUT)</h6>
 
- This API is used to set a new password for the specified account.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-reset-token)
+ This API is used to set a new password for the specified account.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-reset-token)
 
  
  
@@ -305,7 +305,7 @@ lrv2.authenticationApi.resetPasswordByResetToken(resetPasswordByResetTokenModel)
  
 <h6 id="ResetPasswordByEmailOTP-put-"> Auth Reset Password by OTP (PUT)</h6>
 
- This API is used to set a new password for the specified account.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-otp)
+ This API is used to set a new password for the specified account.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-otp)
 
  
  
@@ -332,7 +332,7 @@ lrv2.authenticationApi.resetPasswordByEmailOTP(resetPasswordByEmailAndOtpModel).
  
 <h6 id="ResetPasswordByOTPAndUserName-put-"> Auth Reset Password by OTP and UserName (PUT)</h6>
 
- This API is used to set a new password for the specified account if you are using the username as the unique identifier in your workflow  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-otp-and-username/)
+ This API is used to set a new password for the specified account if you are using the username as the unique identifier in your workflow  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-otp-and-username/)
 
  
  
@@ -359,7 +359,7 @@ lrv2.authenticationApi.resetPasswordByOTPAndUserName(resetPasswordByUserNameMode
  
 <h6 id="ChangePassword-put-"> Auth Change Password (PUT)</h6>
 
- This API is used to change the accounts password based on the previous password  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-change-password)
+ This API is used to change the accounts password based on the previous password  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-change-password)
 
  
  
@@ -383,7 +383,7 @@ lrv2.authenticationApi.changePassword(accessToken, newPassword, oldPassword).the
  
 <h6 id="SetOrChangeUserName-put-"> Auth Set or Change UserName (PUT)</h6>
 
- This API is used to set or change UserName by access token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-set-or-change-user-name/)
+ This API is used to set or change UserName by access token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-set-or-change-user-name/)
 
  
  
@@ -406,7 +406,7 @@ lrv2.authenticationApi.setOrChangeUserName(accessToken, username).then((response
  
 <h6 id="AuthResendEmailVerification-put-"> Auth Resend Email Verification (PUT)</h6>
 
- This API resends the verification email to the user.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-resend-email-verification/)
+ This API resends the verification email to the user.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-resend-email-verification/)
 
  
  
@@ -430,7 +430,7 @@ lrv2.authenticationApi.authResendEmailVerification(email, emailTemplate, verific
  
 <h6 id="AddEmail-post-"> Auth Add Email (POST)</h6>
 
- This API is used to add additional emails to a user's account.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-add-email)
+ This API is used to add additional emails to a user's account.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-add-email)
 
  
  
@@ -456,7 +456,7 @@ lrv2.authenticationApi.addEmail(accessToken, email, type, emailTemplate, verific
  
 <h6 id="LoginByEmail-post-"> Auth Login by Email (POST)</h6>
 
- This API retrieves a copy of the user data based on the Email  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-login-by-email)
+ This API retrieves a copy of the user data based on the Email  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-email)
 
  
  
@@ -486,7 +486,7 @@ lrv2.authenticationApi.loginByEmail(emailAuthenticationModel, emailTemplate, fie
  
 <h6 id="LoginByUserName-post-"> Auth Login by Username (POST)</h6>
 
- This API retrieves a copy of the user data based on the Username  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-login-by-username)
+ This API retrieves a copy of the user data based on the Username  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-username)
 
  
  
@@ -516,7 +516,7 @@ lrv2.authenticationApi.loginByUserName(userNameAuthenticationModel, emailTemplat
  
 <h6 id="ForgotPassword-post-"> Auth Forgot Password (POST)</h6>
 
- This API is used to send the reset password url to a specified account. Note: If you have the UserName workflow enabled, you may replace the 'email' parameter with 'username'  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-forgot-password)
+ This API is used to send the reset password url to a specified account. Note: If you have the UserName workflow enabled, you may replace the 'email' parameter with 'username'  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-forgot-password)
 
  
  
@@ -540,7 +540,7 @@ lrv2.authenticationApi.forgotPassword(email, resetPasswordUrl, emailTemplate).th
  
 <h6 id="LinkSocialIdentities-post-"> Auth Link Social Identities (POST)</h6>
 
- This API is used to link up a social provider account with an existing LoginRadius account on the basis of access token and the social providers user access token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-link-social-identities)
+ This API is used to link up a social provider account with an existing LoginRadius account on the basis of access token and the social providers user access token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-link-social-identities)
 
  
  
@@ -563,7 +563,7 @@ lrv2.authenticationApi.linkSocialIdentities(accessToken, candidateToken).then((r
  
 <h6 id="LinkSocialIdentitiesByPing-post-"> Auth Link Social Identities By Ping (POST)</h6>
 
- This API is used to link up a social provider account with an existing LoginRadius account on the basis of ping and the social providers user access token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-link-social-identities-by-ping)
+ This API is used to link up a social provider account with an existing LoginRadius account on the basis of ping and the social providers user access token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-link-social-identities-by-ping)
 
  
  
@@ -586,7 +586,7 @@ lrv2.authenticationApi.linkSocialIdentitiesByPing(accessToken, clientGuid).then(
  
 <h6 id="UserRegistrationByEmail-post-"> Auth User Registration by Email (POST)</h6>
 
- This API creates a user in the database as well as sends a verification email to the user.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email)
+ This API creates a user in the database as well as sends a verification email to the user.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email)
 
  
  
@@ -623,7 +623,7 @@ lrv2.authenticationApi.userRegistrationByEmail(authUserRegistrationModel, sott, 
  
 <h6 id="UserRegistrationByCaptcha-post-"> Auth User Registration By Captcha (POST)</h6>
 
- This API creates a user in the database as well as sends a verification email to the user.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-recaptcha)
+ This API creates a user in the database as well as sends a verification email to the user.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-recaptcha)
 
  
  
@@ -661,7 +661,7 @@ lrv2.authenticationApi.userRegistrationByCaptcha(authUserRegistrationModelWithCa
  
 <h6 id="GetSecurityQuestionsByEmail-get-"> Get Security Questions By Email (GET)</h6>
 
- This API is used to retrieve the list of questions that are configured on the respective LoginRadius site.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/security-questions-by-email/)
+ This API is used to retrieve the list of questions that are configured on the respective LoginRadius site.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-email/)
 
  
  
@@ -683,7 +683,7 @@ lrv2.authenticationApi.getSecurityQuestionsByEmail(email).then((response) => {
  
 <h6 id="GetSecurityQuestionsByUserName-get-"> Get Security Questions By UserName (GET)</h6>
 
- This API is used to retrieve the list of questions that are configured on the respective LoginRadius site.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/security-questions-by-user-name/)
+ This API is used to retrieve the list of questions that are configured on the respective LoginRadius site.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-user-name/)
 
  
  
@@ -705,7 +705,7 @@ lrv2.authenticationApi.getSecurityQuestionsByUserName(userName).then((response) 
  
 <h6 id="GetSecurityQuestionsByPhone-get-"> Get Security Questions By Phone (GET)</h6>
 
- This API is used to retrieve the list of questions that are configured on the respective LoginRadius site.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/security-questions-by-phone/)
+ This API is used to retrieve the list of questions that are configured on the respective LoginRadius site.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-phone/)
 
  
  
@@ -727,7 +727,7 @@ lrv2.authenticationApi.getSecurityQuestionsByPhone(phone).then((response) => {
  
 <h6 id="GetSecurityQuestionsByAccessToken-get-"> Get Security Questions By Access Token (GET)</h6>
 
- This API is used to retrieve the list of questions that are configured on the respective LoginRadius site.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/security-questions-by-access-token/)
+ This API is used to retrieve the list of questions that are configured on the respective LoginRadius site.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-access-token/)
 
  
  
@@ -749,7 +749,7 @@ lrv2.authenticationApi.getSecurityQuestionsByAccessToken(accessToken).then((resp
  
 <h6 id="AuthValidateAccessToken-get-"> Auth Validate Access token (GET)</h6>
 
- This api validates access token, if valid then returns a response with its expiry otherwise error.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-validate-access-token/)
+ This api validates access token, if valid then returns a response with its expiry otherwise error.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-validate-access-token/)
 
  
  
@@ -771,7 +771,7 @@ lrv2.authenticationApi.authValidateAccessToken(accessToken).then((response) => {
  
 <h6 id="AuthInValidateAccessToken-get-"> Access Token Invalidate (GET)</h6>
 
- This api call invalidates the active access token or expires an access token's validity.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-invalidate-access-token/)
+ This api call invalidates the active access token or expires an access token's validity.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-invalidate-access-token/)
 
  
  
@@ -794,7 +794,7 @@ lrv2.authenticationApi.authInValidateAccessToken(accessToken, preventRefresh).th
  
 <h6 id="GetAccessTokenInfo-get-"> Access Token Info (GET)</h6>
 
- This api call provide the active access token Information  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-access-token-info/)
+ This api call provide the active access token Information  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-access-token-info/)
 
  
  
@@ -816,7 +816,7 @@ lrv2.authenticationApi.getAccessTokenInfo(accessToken).then((response) => {
  
 <h6 id="GetProfileByAccessToken-get-"> Auth Read all Profiles by Token (GET)</h6>
 
- This API retrieves a copy of the user data based on the access token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/)
+ This API retrieves a copy of the user data based on the access token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/)
 
  
  
@@ -842,7 +842,7 @@ lrv2.authenticationApi.getProfileByAccessToken(accessToken, emailTemplate, field
  
 <h6 id="SendWelcomeEmail-get-"> Auth Send Welcome Email (GET)</h6>
 
- This API sends a welcome email  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-send-welcome-email/)
+ This API sends a welcome email  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-send-welcome-email/)
 
  
  
@@ -865,7 +865,7 @@ lrv2.authenticationApi.sendWelcomeEmail(accessToken, welcomeEmailTemplate).then(
  
 <h6 id="DeleteAccountByDeleteToken-get-"> Auth Delete Account (GET)</h6>
 
- This API is used to delete an account by passing it a delete token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-delete-account/)
+ This API is used to delete an account by passing it a delete token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-delete-account/)
 
  
  
@@ -884,7 +884,7 @@ lrv2.authenticationApi.deleteAccountByDeleteToken(deletetoken).then((response) =
  
  <h6 id="GetProfileByPing-get-">Get Profile By Ping (GET)</h6>
 
-This API is used to get a user's profile using the clientGuid parameter if no callback feature enabled. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/social-login-by-ping/)
+This API is used to get a user's profile using the clientGuid parameter if no callback feature enabled. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/social-login-by-ping/)
 
  
 
@@ -907,7 +907,7 @@ lrv2.authenticationApi.getProfileByPing(clientGuid, emailTemplate, fields, verif
  
 <h6 id="CheckEmailAvailability-get-"> Auth Check Email Availability (GET)</h6>
 
- This API is used to check the email exists or not on your site.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-email-availability/)
+ This API is used to check the email exists or not on your site.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-email-availability/)
 
  
  
@@ -929,7 +929,7 @@ lrv2.authenticationApi.checkEmailAvailability(email).then((response) => {
  
 <h6 id="VerifyEmail-get-"> Auth Verify Email (GET)</h6>
 
- This API is used to verify the email of user. Note: This API will only return the full profile if you have 'Enable auto login after email verification' set in your LoginRadius Admin Console's Email Workflow settings under 'Verification Email'.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-verify-email/)
+ This API is used to verify the email of user. Note: This API will only return the full profile if you have 'Enable auto login after email verification' set in your LoginRadius Admin Console's Email Workflow settings under 'Verification Email'.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-verify-email/)
 
  
  
@@ -954,7 +954,7 @@ lrv2.authenticationApi.verifyEmail(verificationToken, fields, url, welcomeEmailT
  
 <h6 id="CheckUserNameAvailability-get-"> Auth Check UserName Availability (GET)</h6>
 
- This API is used to check the UserName exists or not on your site.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-username-availability/)
+ This API is used to check the UserName exists or not on your site.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-username-availability/)
 
  
  
@@ -976,7 +976,7 @@ lrv2.authenticationApi.checkUserNameAvailability(username).then((response) => {
  
 <h6 id="AcceptPrivacyPolicy-get-"> Auth Privacy Policy Accept (GET)</h6>
 
- This API is used to update the privacy policy stored in the user's profile by providing the access token of the user accepting the privacy policy  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-privacy-policy-accept)
+ This API is used to update the privacy policy stored in the user's profile by providing the access token of the user accepting the privacy policy  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-privacy-policy-accept)
 
  
  
@@ -999,7 +999,7 @@ lrv2.authenticationApi.acceptPrivacyPolicy(accessToken, fields).then((response) 
  
 <h6 id="GetPrivacyPolicyHistoryByAccessToken-get-"> Auth Privacy Policy History By Access Token (GET)</h6>
 
- This API will return all the accepted privacy policies for the user by providing the access token of that user.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/privacy-policy-history-by-access-token/)
+ This API will return all the accepted privacy policies for the user by providing the access token of that user.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/privacy-policy-history-by-access-token/)
 
  
  
@@ -1034,7 +1034,7 @@ lrv2.authenticationApi.authSendVerificationEmailForLinkingSocialProfiles(accessT
  
 <h6 id="DeleteAccountWithEmailConfirmation-delete-"> Auth Delete Account with Email Confirmation (DELETE)</h6>
 
- This API will send a confirmation email for account deletion to the customer's email when passed the customer's access token  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-delete-account-with-email-confirmation/)
+ This API will send a confirmation email for account deletion to the customer's email when passed the customer's access token  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-delete-account-with-email-confirmation/)
 
  
  
@@ -1058,7 +1058,7 @@ lrv2.authenticationApi.deleteAccountWithEmailConfirmation(accessToken, deleteUrl
  
 <h6 id="RemoveEmail-delete-"> Auth Remove Email (DELETE)</h6>
 
- This API is used to remove additional emails from a user's account.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-remove-email)
+ This API is used to remove additional emails from a user's account.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-remove-email)
 
  
  
@@ -1081,7 +1081,7 @@ lrv2.authenticationApi.removeEmail(accessToken, email).then((response) => {
  
 <h6 id="UnlinkSocialIdentities-delete-"> Auth Unlink Social Identities (DELETE)</h6>
 
- This API is used to unlink up a social provider account with the specified account based on the access token and the social providers user access token. The unlinked account will automatically get removed from your database.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-unlink-social-identities)
+ This API is used to unlink up a social provider account with the specified account based on the access token and the social providers user access token. The unlinked account will automatically get removed from your database.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-unlink-social-identities)
 
  
  
@@ -1141,7 +1141,7 @@ List of APIs in this Section:<br>
 
 <h6 id="UpdateAccountByUid-put-"> Account Update (PUT)</h6>
 
- This API is used to update the information of existing accounts in your Cloud Storage. See our Advanced API Usage section <a href='https://www.loginradius.com/docs/api/v2/customer-identity-api/advanced-api-usage/'>Here</a> for more capabilities.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-update)
+ This API is used to update the information of existing accounts in your Cloud Storage. See our Advanced API Usage section <a href='https://www.loginradius.com/docs/api/v2/customer-identity-api/advanced-api-usage/'>Here</a> for more capabilities.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update)
 
  
  
@@ -1169,7 +1169,7 @@ lrv2.accountApi.updateAccountByUid(accountUserProfileUpdateModel, uid, fields, n
  
 <h6 id="UpdatePhoneIDByUid-put-"> Update Phone ID by UID (PUT)</h6>
 
- This API is used to update the PhoneId by using the Uid's. Admin can update the PhoneId's for both the verified and unverified profiles. It will directly replace the PhoneId and bypass the OTP verification process.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/update-phoneid-by-uid)
+ This API is used to update the PhoneId by using the Uid's. Admin can update the PhoneId's for both the verified and unverified profiles. It will directly replace the PhoneId and bypass the OTP verification process.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/update-phoneid-by-uid)
 
  
  
@@ -1193,7 +1193,7 @@ lrv2.accountApi.updatePhoneIDByUid(phone, uid, fields).then((response) => {
  
 <h6 id="SetAccountPasswordByUid-put-"> Account Set Password (PUT)</h6>
 
- This API is used to set the password of an account in Cloud Storage.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-set-password)
+ This API is used to set the password of an account in Cloud Storage.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-set-password)
 
  
  
@@ -1216,7 +1216,7 @@ lrv2.accountApi.setAccountPasswordByUid(password, uid).then((response) => {
  
 <h6 id="InvalidateAccountEmailVerification-put-"> Account Invalidate Verification Email (PUT)</h6>
 
- This API is used to invalidate the Email Verification status on an account.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-invalidate-verification-email)
+ This API is used to invalidate the Email Verification status on an account.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-invalidate-verification-email)
 
  
  
@@ -1240,7 +1240,7 @@ lrv2.accountApi.invalidateAccountEmailVerification(uid, emailTemplate, verificat
  
 <h6 id="ResetPhoneIDVerificationByUid-put-"> Reset phone ID verification (PUT)</h6>
 
- This API Allows you to reset the phone no verification of an end user’s account.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/reset-phone-id-verification)
+ This API Allows you to reset the phone no verification of an end user’s account.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/reset-phone-id-verification)
 
  
  
@@ -1263,7 +1263,7 @@ lrv2.accountApi.resetPhoneIDVerificationByUid(uid, smsTemplate).then((response) 
  
 <h6 id="UpsertEmail-put-"> Upsert Email (PUT)</h6>
 
- This API is used to add/upsert another emails in account profile by different-different email types. If the email type is same then it will simply update the existing email, otherwise it will add a new email in Email array.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/upsert-email)
+ This API is used to add/upsert another emails in account profile by different-different email types. If the email type is same then it will simply update the existing email, otherwise it will add a new email in Email array.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/upsert-email)
 
  
  
@@ -1288,7 +1288,7 @@ lrv2.accountApi.upsertEmail(upsertEmailModel, uid, fields).then((response) => {
  
 <h6 id="AccountUpdateUid-put-"> Update UID (PUT)</h6>
 
- This API is used to update a user's Uid. It will update all profiles, custom objects and consent management logs associated with the Uid.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-update/)
+ This API is used to update a user's Uid. It will update all profiles, custom objects and consent management logs associated with the Uid.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update/)
 
  
  
@@ -1310,7 +1310,7 @@ lrv2.accountApi.accountUpdateUid(updateUidModel, uid).then((response) => {
  
 <h6 id="CreateAccount-post-"> Account Create (POST)</h6>
 
- This API is used to create an account in Cloud Storage. This API bypass the normal email verification process and manually creates the user. <br><br>In order to use this API, you need to format a JSON request body with all of the mandatory fields  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-create)
+ This API is used to create an account in Cloud Storage. This API bypass the normal email verification process and manually creates the user. <br><br>In order to use this API, you need to format a JSON request body with all of the mandatory fields  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-create)
 
  
  
@@ -1340,7 +1340,7 @@ lrv2.accountApi.createAccount(accountCreateModel, fields).then((response) => {
  
 <h6 id="GetForgotPasswordToken-post-"> Forgot Password token (POST)</h6>
 
- This API Returns a Forgot Password Token it can also be used to send a Forgot Password email to the customer. Note: If you have the UserName workflow enabled, you may replace the 'email' parameter with 'username' in the body.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/get-forgot-password-token)
+ This API Returns a Forgot Password Token it can also be used to send a Forgot Password email to the customer. Note: If you have the UserName workflow enabled, you may replace the 'email' parameter with 'username' in the body.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/get-forgot-password-token)
 
  
  
@@ -1365,7 +1365,7 @@ lrv2.accountApi.getForgotPasswordToken(email, emailTemplate, resetPasswordUrl, s
  
 <h6 id="GetEmailVerificationToken-post-"> Email Verification token (POST)</h6>
 
- This API Returns an Email Verification token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/get-email-verification-token)
+ This API Returns an Email Verification token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/get-email-verification-token)
 
  
  
@@ -1425,7 +1425,7 @@ lrv2.accountApi.multipurposeSMSOTPGeneration(multiSmsOtp, smsotptype).then((resp
  
 <h6 id="GetPrivacyPolicyHistoryByUid-get-"> Get Privacy Policy History By Uid (GET)</h6>
 
- This API is used to retrieve all of the accepted Policies by the user, associated with their UID.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/privacy-policy-history-by-uid/)
+ This API is used to retrieve all of the accepted Policies by the user, associated with their UID.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/privacy-policy-history-by-uid/)
 
  
  
@@ -1447,7 +1447,7 @@ lrv2.accountApi.getPrivacyPolicyHistoryByUid(uid).then((response) => {
  
 <h6 id="GetAccountProfileByEmail-get-"> Account Profiles by Email (GET)</h6>
 
- This API is used to retrieve all of the profile data, associated with the specified account by email in Cloud Storage.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-profiles-by-email)
+ This API is used to retrieve all of the profile data, associated with the specified account by email in Cloud Storage.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-email)
 
  
  
@@ -1470,7 +1470,7 @@ lrv2.accountApi.getAccountProfileByEmail(email, fields).then((response) => {
  
 <h6 id="GetAccountProfileByUserName-get-"> Account Profiles by Username (GET)</h6>
 
- This API is used to retrieve all of the profile data associated with the specified account by user name in Cloud Storage.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-profiles-by-user-name)
+ This API is used to retrieve all of the profile data associated with the specified account by user name in Cloud Storage.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-user-name)
 
  
  
@@ -1493,7 +1493,7 @@ lrv2.accountApi.getAccountProfileByUserName(userName, fields).then((response) =>
  
 <h6 id="GetAccountProfileByPhone-get-"> Account Profile by Phone ID (GET)</h6>
 
- This API is used to retrieve all of the profile data, associated with the account by phone number in Cloud Storage.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-profiles-by-phone-id/)
+ This API is used to retrieve all of the profile data, associated with the account by phone number in Cloud Storage.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-phone-id/)
 
  
  
@@ -1516,7 +1516,7 @@ lrv2.accountApi.getAccountProfileByPhone(phone, fields).then((response) => {
  
 <h6 id="GetAccountProfileByUid-get-"> Account Profiles by UID (GET)</h6>
 
- This API is used to retrieve all of the profile data, associated with the account by uid in Cloud Storage.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-profiles-by-uid)
+ This API is used to retrieve all of the profile data, associated with the account by uid in Cloud Storage.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-uid)
 
  
  
@@ -1539,7 +1539,7 @@ lrv2.accountApi.getAccountProfileByUid(uid, fields).then((response) => {
  
 <h6 id="GetAccountPasswordHashByUid-get-"> Account Password (GET)</h6>
 
- This API use to retrive the hashed password of a specified account in Cloud Storage.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-password)
+ This API use to retrive the hashed password of a specified account in Cloud Storage.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-password)
 
  
  
@@ -1561,7 +1561,7 @@ lrv2.accountApi.getAccountPasswordHashByUid(uid).then((response) => {
  
 <h6 id="GetAccessTokenByUid-get-"> Access Token based on UID or User impersonation API (GET)</h6>
 
- The API is used to get LoginRadius access token based on UID.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-impersonation-api)
+ The API is used to get LoginRadius access token based on UID.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-impersonation-api)
 
  
  
@@ -1583,7 +1583,7 @@ lrv2.accountApi.getAccessTokenByUid(uid).then((response) => {
  
 <h6 id="RefreshAccessTokenByRefreshToken-get-"> Refresh Access Token by Refresh Token (GET)</h6>
 
- This API is used to refresh an access token via it's associated refresh token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/refresh-token/refresh-access-token-by-refresh-token)
+ This API is used to refresh an access token via it's associated refresh token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/refresh-token/refresh-access-token-by-refresh-token)
 
  
  
@@ -1605,7 +1605,7 @@ lrv2.accountApi.refreshAccessTokenByRefreshToken(refreshToken).then((response) =
  
 <h6 id="RevokeRefreshToken-get-"> Revoke Refresh Token (GET)</h6>
 
- The Revoke Refresh Access Token API is used to revoke a refresh token or the Provider Access Token, revoking an existing refresh token will invalidate the refresh token but the associated access token will work until the expiry.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/refresh-token/revoke-refresh-token)
+ The Revoke Refresh Access Token API is used to revoke a refresh token or the Provider Access Token, revoking an existing refresh token will invalidate the refresh token but the associated access token will work until the expiry.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/refresh-token/revoke-refresh-token)
 
  
  
@@ -1627,7 +1627,7 @@ lrv2.accountApi.revokeRefreshToken(refreshToken).then((response) => {
  
 <h6 id="GetAccountIdentitiesByEmail-get-"> Account Identities by Email (GET)</h6>
 
- Note: This is intended for specific workflows where an email may be associated to multiple UIDs. This API is used to retrieve all of the identities (UID and Profiles), associated with a specified email in Cloud Storage.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-identities-by-email)
+ Note: This is intended for specific workflows where an email may be associated to multiple UIDs. This API is used to retrieve all of the identities (UID and Profiles), associated with a specified email in Cloud Storage.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-identities-by-email)
 
  
  
@@ -1650,7 +1650,7 @@ lrv2.accountApi.getAccountIdentitiesByEmail(email, fields).then((response) => {
  
 <h6 id="DeleteAccountByUid-delete-"> Account Delete (DELETE)</h6>
 
- This API deletes the Users account and allows them to re-register for a new account.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-delete)
+ This API deletes the Users account and allows them to re-register for a new account.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-delete)
 
  
  
@@ -1672,7 +1672,7 @@ lrv2.accountApi.deleteAccountByUid(uid).then((response) => {
  
 <h6 id="RemoveEmail-delete-"> Account Remove Email (DELETE)</h6>
 
- Use this API to Remove emails from a user Account  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-email-delete)
+ Use this API to Remove emails from a user Account  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-email-delete)
 
  
  
@@ -1707,7 +1707,7 @@ lrv2.accountApi.revokeAllRefreshToken(uid).then((response) => {
  
 <h6 id="AccountDeleteByEmail-delete-"> Delete User Profiles By Email (DELETE)</h6>
 
- This API is used to delete all user profiles associated with an Email.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-email-delete/)
+ This API is used to delete all user profiles associated with an Email.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-email-delete/)
 
  
  
@@ -1747,7 +1747,7 @@ List of APIs in this Section:<br>
  
 <h6 id="ExchangeAccessToken-get-"> Access Token (GET)</h6>
 
- This API Is used to translate the Request Token returned during authentication into an Access Token that can be used with other API calls.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/access-token)
+ This API Is used to translate the Request Token returned during authentication into an Access Token that can be used with other API calls.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/access-token)
 
  
  
@@ -1769,7 +1769,7 @@ lrv2.socialApi.exchangeAccessToken(token).then((response) => {
  
 <h6 id="RefreshAccessToken-get-"> Refresh Token (GET)</h6>
 
- The Refresh Access Token API is used to refresh the provider access token after authentication. It will be valid for up to 60 days on LoginRadius depending on the provider. In order to use the access token in other APIs, always refresh the token using this API.<br><br><b>Supported Providers :</b> Facebook,Yahoo,Google,Twitter, Linkedin.<br><br> Contact LoginRadius support team to enable this API.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/refresh-token/refresh-token)
+ The Refresh Access Token API is used to refresh the provider access token after authentication. It will be valid for up to 60 days on LoginRadius depending on the provider. In order to use the access token in other APIs, always refresh the token using this API.<br><br><b>Supported Providers :</b> Facebook,Yahoo,Google,Twitter, Linkedin.<br><br> Contact LoginRadius support team to enable this API.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/refresh-token/refresh-token)
 
  
  
@@ -1793,7 +1793,7 @@ lrv2.socialApi.refreshAccessToken(accessToken, expiresIn, isWeb).then((response)
  
 <h6 id="ValidateAccessToken-get-"> Token Validate (GET)</h6>
 
- This API validates access token, if valid then returns a response with its expiry otherwise error.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/validate-access-token)
+ This API validates access token, if valid then returns a response with its expiry otherwise error.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/validate-access-token)
 
  
  
@@ -1815,7 +1815,7 @@ lrv2.socialApi.validateAccessToken(accessToken).then((response) => {
  
 <h6 id="InValidateAccessToken-get-"> Access Token Invalidate (GET)</h6>
 
- This api invalidates the active access token or expires an access token validity.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/invalidate-access-token)
+ This api invalidates the active access token or expires an access token validity.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/invalidate-access-token)
 
  
  
@@ -1837,7 +1837,7 @@ lrv2.socialApi.inValidateAccessToken(accessToken).then((response) => {
  
 <h6 id="GetActiveSession-get-"> Get Active Session Details (GET)</h6>
 
- This api is use to get all active session by Access Token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/get-active-session-details)
+ This api is use to get all active session by Access Token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/get-active-session-details)
 
  
  
@@ -1859,7 +1859,7 @@ lrv2.socialApi.getActiveSession(token).then((response) => {
  
 <h6 id="GetActiveSessionByAccountID-get-"> Get Active Session By Account Id (GET)</h6>
 
- This api is used to get all active sessions by AccountID(UID).  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/active-session-by-account-id/)
+ This api is used to get all active sessions by AccountID(UID).  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/active-session-by-account-id/)
 
  
  
@@ -1881,7 +1881,7 @@ lrv2.socialApi.getActiveSessionByAccountID(accountId).then((response) => {
  
 <h6 id="GetActiveSessionByProfileID-get-"> Get Active Session By Profile Id (GET)</h6>
 
- This api is used to get all active sessions by ProfileId.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/active-session-by-profile-id/)
+ This api is used to get all active sessions by ProfileId.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/active-session-by-profile-id/)
 
  
  
@@ -1923,7 +1923,7 @@ List of APIs in this Section:<br>
 
 <h6 id="UpdateCustomObjectByToken-put-"> Custom Object Update by Access Token (PUT)</h6>
 
- This API is used to update the specified custom object data of the specified account. If the value of updatetype is 'replace' then it will fully replace custom object with the new custom object and if the value of updatetype is 'partialreplace' then it will perform an upsert type operation  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-token)
+ This API is used to update the specified custom object data of the specified account. If the value of updatetype is 'replace' then it will fully replace custom object with the new custom object and if the value of updatetype is 'partialreplace' then it will perform an upsert type operation  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-token)
 
  
  
@@ -1950,7 +1950,7 @@ lrv2.customObjectApi.updateCustomObjectByToken(accessToken, objectName, objectRe
  
 <h6 id="UpdateCustomObjectByUid-put-"> Custom Object Update by UID (PUT)</h6>
 
- This API is used to update the specified custom object data of a specified account. If the value of updatetype is 'replace' then it will fully replace custom object with new custom object and if the value of updatetype is partialreplace then it will perform an upsert type operation.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-uid)
+ This API is used to update the specified custom object data of a specified account. If the value of updatetype is 'replace' then it will fully replace custom object with new custom object and if the value of updatetype is partialreplace then it will perform an upsert type operation.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-uid)
 
  
  
@@ -1977,7 +1977,7 @@ lrv2.customObjectApi.updateCustomObjectByUid(objectName, objectRecordId, object,
  
 <h6 id="CreateCustomObjectByToken-post-"> Create Custom Object by Token (POST)</h6>
 
- This API is used to write information in JSON format to the custom object for the specified account.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-token)
+ This API is used to write information in JSON format to the custom object for the specified account.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-token)
 
  
  
@@ -2002,7 +2002,7 @@ lrv2.customObjectApi.createCustomObjectByToken(accessToken, objectName, object).
  
 <h6 id="CreateCustomObjectByUid-post-"> Create Custom Object by UID (POST)</h6>
 
- This API is used to write information in JSON format to the custom object for the specified account.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-uid)
+ This API is used to write information in JSON format to the custom object for the specified account.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-uid)
 
  
  
@@ -2027,7 +2027,7 @@ lrv2.customObjectApi.createCustomObjectByUid(objectName, object, uid).then((resp
  
 <h6 id="GetCustomObjectByToken-get-"> Custom Object by Token (GET)</h6>
 
- This API is used to retrieve the specified Custom Object data for the specified account.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-by-token)
+ This API is used to retrieve the specified Custom Object data for the specified account.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-token)
 
  
  
@@ -2050,7 +2050,7 @@ lrv2.customObjectApi.getCustomObjectByToken(accessToken, objectName).then((respo
  
 <h6 id="GetCustomObjectByRecordIDAndToken-get-"> Custom Object by ObjectRecordId and Token (GET)</h6>
 
- This API is used to retrieve the Custom Object data for the specified account.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-token)
+ This API is used to retrieve the Custom Object data for the specified account.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-token)
 
  
  
@@ -2074,7 +2074,7 @@ lrv2.customObjectApi.getCustomObjectByRecordIDAndToken(accessToken, objectName, 
  
 <h6 id="GetCustomObjectByUid-get-"> Custom Object By UID (GET)</h6>
 
- This API is used to retrieve all the custom objects by UID from cloud storage.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-by-uid)
+ This API is used to retrieve all the custom objects by UID from cloud storage.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-uid)
 
  
  
@@ -2097,7 +2097,7 @@ lrv2.customObjectApi.getCustomObjectByUid(objectName, uid).then((response) => {
  
 <h6 id="GetCustomObjectByRecordID-get-"> Custom Object by ObjectRecordId and UID (GET)</h6>
 
- This API is used to retrieve the Custom Object data for the specified account.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-uid)
+ This API is used to retrieve the Custom Object data for the specified account.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-uid)
 
  
  
@@ -2121,7 +2121,7 @@ lrv2.customObjectApi.getCustomObjectByRecordID(objectName, objectRecordId, uid).
  
 <h6 id="DeleteCustomObjectByToken-delete-"> Custom Object Delete by Record Id And Token (DELETE)</h6>
 
- This API is used to remove the specified Custom Object data using ObjectRecordId of a specified account.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-token)
+ This API is used to remove the specified Custom Object data using ObjectRecordId of a specified account.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-token)
 
  
  
@@ -2145,7 +2145,7 @@ lrv2.customObjectApi.deleteCustomObjectByToken(accessToken, objectName, objectRe
  
 <h6 id="DeleteCustomObjectByRecordID-delete-"> Account Delete Custom Object by ObjectRecordId (DELETE)</h6>
 
- This API is used to remove the specified Custom Object data using ObjectRecordId of specified account.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-uid)
+ This API is used to remove the specified Custom Object data using ObjectRecordId of specified account.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-uid)
 
  
  
@@ -2190,7 +2190,7 @@ List of APIs in this Section:<br>
 
 <h6 id="ResetPasswordByPhoneOTP-put-"> Phone Reset Password by OTP (PUT)</h6>
 
- This API is used to reset the password  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-reset-password-by-otp)
+ This API is used to reset the password  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-reset-password-by-otp)
 
  
  
@@ -2216,7 +2216,7 @@ lrv2.phoneAuthenticationApi.resetPasswordByPhoneOTP(resetPasswordByOTPModel).the
  
 <h6 id="PhoneVerificationByOTP-put-"> Phone Verification OTP (PUT)</h6>
 
- This API is used to validate the verification code sent to verify a user's phone number  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-verify-otp)
+ This API is used to validate the verification code sent to verify a user's phone number  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-verify-otp)
 
  
  
@@ -2241,7 +2241,7 @@ lrv2.phoneAuthenticationApi.phoneVerificationByOTP(otp, phone, fields, smsTempla
  
 <h6 id="PhoneVerificationOTPByAccessToken-put-"> Phone Verification OTP by Token (PUT)</h6>
 
- This API is used to consume the verification code sent to verify a user's phone number. Use this call for front-end purposes in cases where the user is already logged in by passing the user's access token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-verify-otp-by-token)
+ This API is used to consume the verification code sent to verify a user's phone number. Use this call for front-end purposes in cases where the user is already logged in by passing the user's access token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-verify-otp-by-token)
 
  
  
@@ -2265,7 +2265,7 @@ lrv2.phoneAuthenticationApi.phoneVerificationOTPByAccessToken(accessToken, otp, 
  
 <h6 id="UpdatePhoneNumber-put-"> Phone Number Update (PUT)</h6>
 
- This API is used to update the login Phone Number of users  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-number-update)
+ This API is used to update the login Phone Number of users  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-number-update)
 
  
  
@@ -2289,7 +2289,7 @@ lrv2.phoneAuthenticationApi.updatePhoneNumber(accessToken, phone, smsTemplate).t
  
 <h6 id="LoginByPhone-post-"> Phone Login (POST)</h6>
 
- This API retrieves a copy of the user data based on the Phone  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-login)
+ This API retrieves a copy of the user data based on the Phone  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-login)
 
  
  
@@ -2317,7 +2317,7 @@ lrv2.phoneAuthenticationApi.loginByPhone(phoneAuthenticationModel, fields, login
  
 <h6 id="ForgotPasswordByPhoneOTP-post-"> Phone Forgot Password by OTP (POST)</h6>
 
- This API is used to send the OTP to reset the account password.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-forgot-password-by-otp)
+ This API is used to send the OTP to reset the account password.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-forgot-password-by-otp)
 
  
  
@@ -2340,7 +2340,7 @@ lrv2.phoneAuthenticationApi.forgotPasswordByPhoneOTP(phone, smsTemplate).then((r
  
 <h6 id="PhoneResendVerificationOTP-post-"> Phone Resend Verification OTP (POST)</h6>
 
- This API is used to resend a verification OTP to verify a user's Phone Number. The user will receive a verification code that they will need to input  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-resend-otp)
+ This API is used to resend a verification OTP to verify a user's Phone Number. The user will receive a verification code that they will need to input  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-resend-otp)
 
  
  
@@ -2363,7 +2363,7 @@ lrv2.phoneAuthenticationApi.phoneResendVerificationOTP(phone, smsTemplate).then(
  
 <h6 id="PhoneResendVerificationOTPByToken-post-"> Phone Resend Verification OTP By Token (POST)</h6>
 
- This API is used to resend a verification OTP to verify a user's Phone Number in cases in which an active token already exists  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-resend-otp-by-token)
+ This API is used to resend a verification OTP to verify a user's Phone Number in cases in which an active token already exists  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-resend-otp-by-token)
 
  
  
@@ -2387,7 +2387,7 @@ lrv2.phoneAuthenticationApi.phoneResendVerificationOTPByToken(accessToken, phone
  
 <h6 id="UserRegistrationByPhone-post-"> Phone User Registration by SMS (POST)</h6>
 
- This API registers the new users into your Cloud Storage and triggers the phone verification process.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms)
+ This API registers the new users into your Cloud Storage and triggers the phone verification process.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms)
 
  
  
@@ -2425,7 +2425,7 @@ lrv2.phoneAuthenticationApi.userRegistrationByPhone(authUserRegistrationModel, s
  
 <h6 id="CheckPhoneNumberAvailability-get-"> Phone Number Availability (GET)</h6>
 
- This API is used to check the Phone Number exists or not on your site.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-number-availability)
+ This API is used to check the Phone Number exists or not on your site.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-number-availability)
 
  
  
@@ -2447,7 +2447,7 @@ lrv2.phoneAuthenticationApi.checkPhoneNumberAvailability(phone).then((response) 
  
 <h6 id="RemovePhoneIDByAccessToken-delete-"> Remove Phone ID by Access Token (DELETE)</h6>
 
- This API is used to delete the Phone ID on a user's account via the access token  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/remove-phone-id-by-access-token)
+ This API is used to delete the Phone ID on a user's account via the access token  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/remove-phone-id-by-access-token)
 
  
  
@@ -2510,7 +2510,7 @@ List of APIs in this Section:<br>
 
 <h6 id="MFAUpdateSetting-put-"> Update MFA Setting (PUT)</h6>
 
- This API is used to trigger the Multi-factor authentication settings after login for secure actions  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/update-mfa-setting/)
+ This API is used to trigger the Multi-factor authentication settings after login for secure actions  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/update-mfa-setting/)
 
  
  
@@ -2537,7 +2537,7 @@ lrv2.multiFactorAuthenticationApi.mfaUpdateSetting(accessToken, multiFactorAuthM
  
 <h6 id="MFAUpdateByAccessToken-put-"> Update MFA by Access Token (PUT)</h6>
 
- This API is used to Enable Multi-factor authentication by access token on user login  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/update-mfa-by-access-token/)
+ This API is used to Enable Multi-factor authentication by access token on user login  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/update-mfa-by-access-token/)
 
  
  
@@ -2565,7 +2565,7 @@ lrv2.multiFactorAuthenticationApi.mfaUpdateByAccessToken(accessToken, multiFacto
  
 <h6 id="MFAUpdatePhoneNumberByToken-put-"> MFA Update Phone Number by Token (PUT)</h6>
 
- This API is used to update the Multi-factor authentication phone number by sending the verification OTP to the provided phone number  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-update-phone-number-by-token/)
+ This API is used to update the Multi-factor authentication phone number by sending the verification OTP to the provided phone number  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-update-phone-number-by-token/)
 
  
  
@@ -2589,7 +2589,7 @@ lrv2.multiFactorAuthenticationApi.mfaUpdatePhoneNumberByToken(accessToken, phone
  
 <h6 id="MFAValidateEmailOtpByAccessToken-put-"> Verify MFA Email OTP by Access Token (PUT)</h6>
 
- This API is used to set up MFA Email OTP authenticator on profile after login.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-otp-by-access-token/)
+ This API is used to set up MFA Email OTP authenticator on profile after login.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-otp-by-access-token/)
 
  
  
@@ -2616,7 +2616,7 @@ lrv2.multiFactorAuthenticationApi.mfaValidateEmailOtpByAccessToken(accessToken, 
  
 <h6 id="MFASecurityQuestionAnswerByAccessToken-put-"> Update MFA Security Question by Access Token (PUT)</h6>
 
- This API is used to set up MFA Security Question authenticator on profile after login.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/update-mfa-security-question-by-access-token)
+ This API is used to set up MFA Security Question authenticator on profile after login.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/update-mfa-security-question-by-access-token)
 
  
  
@@ -2648,7 +2648,7 @@ lrv2.multiFactorAuthenticationApi.mfaSecurityQuestionAnswerByAccessToken(accessT
  
 <h6 id="MFAValidateOTPByPhone-put-"> MFA Validate OTP (PUT)</h6>
 
- This API is used to login via Multi-factor authentication by passing the One Time Password received via SMS  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-validate-otp/)
+ This API is used to login via Multi-factor authentication by passing the One Time Password received via SMS  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-validate-otp/)
 
  
  
@@ -2679,7 +2679,7 @@ lrv2.multiFactorAuthenticationApi.mfaValidateOTPByPhone(multiFactorAuthModelWith
  
 <h6 id="MFAValidateGoogleAuthCode-put-"> MFA Validate Google Auth Code (PUT)</h6>
 
- This API is used to login via Multi-factor-authentication by passing the google authenticator code.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-validate-google-auth-code/)
+ This API is used to login via Multi-factor-authentication by passing the google authenticator code.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-validate-google-auth-code/)
 
  
  
@@ -2707,7 +2707,7 @@ lrv2.multiFactorAuthenticationApi.mfaValidateGoogleAuthCode(googleAuthenticatorC
  
 <h6 id="MFAValidateBackupCode-put-"> MFA Validate Backup code (PUT)</h6>
 
- This API is used to validate the backup code provided by the user and if valid, we return an access token allowing the user to login incases where Multi-factor authentication (MFA) is enabled and the secondary factor is unavailable. When a user initially downloads the Backup codes, We generate 10 codes, each code can only be consumed once. if any user attempts to go over the number of invalid login attempts configured in the Dashboard then the account gets blocked automatically  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-validate-backup-code/)
+ This API is used to validate the backup code provided by the user and if valid, we return an access token allowing the user to login incases where Multi-factor authentication (MFA) is enabled and the secondary factor is unavailable. When a user initially downloads the Backup codes, We generate 10 codes, each code can only be consumed once. if any user attempts to go over the number of invalid login attempts configured in the Dashboard then the account gets blocked automatically  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-validate-backup-code/)
 
  
  
@@ -2737,7 +2737,7 @@ lrv2.multiFactorAuthenticationApi.mfaValidateBackupCode(multiFactorAuthModelByBa
  
 <h6 id="MFAUpdatePhoneNumber-put-"> MFA Update Phone Number (PUT)</h6>
 
- This API is used to update (if configured) the phone number used for Multi-factor authentication by sending the verification OTP to the provided phone number  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-update-phone-number/)
+ This API is used to update (if configured) the phone number used for Multi-factor authentication by sending the verification OTP to the provided phone number  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-update-phone-number/)
 
  
  
@@ -2761,7 +2761,7 @@ lrv2.multiFactorAuthenticationApi.mfaUpdatePhoneNumber(phoneNo2FA, secondFactorA
  
 <h6 id="MFAValidateEmailOtp-put-"> Verify MFA Email OTP by MFA Token (PUT)</h6>
 
- This API is used to Verify MFA Email OTP by MFA Token  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-email-otp-by-mfa-token/)
+ This API is used to Verify MFA Email OTP by MFA Token  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-email-otp-by-mfa-token/)
 
  
  
@@ -2791,7 +2791,7 @@ lrv2.multiFactorAuthenticationApi.mfaValidateEmailOtp(multiFactorAuthModelByEmai
  
 <h6 id="MFASecurityQuestionAnswer-put-"> Update MFA Security Question by MFA Token (PUT)</h6>
 
- This API is used to set the security questions on the profile with the MFA token when MFA flow is required.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/update-mfa-security-question-by-mfa-token/)
+ This API is used to set the security questions on the profile with the MFA token when MFA flow is required.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/update-mfa-security-question-by-mfa-token/)
 
  
  
@@ -2821,7 +2821,7 @@ lrv2.multiFactorAuthenticationApi.mfaSecurityQuestionAnswer(securityQuestionAnsw
  
 <h6 id="MFALoginByEmail-post-"> MFA Email Login (POST)</h6>
 
- This API can be used to login by emailid on a Multi-factor authentication enabled LoginRadius site.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-email-login)
+ This API can be used to login by emailid on a Multi-factor authentication enabled LoginRadius site.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-email-login)
 
  
  
@@ -2851,7 +2851,7 @@ lrv2.multiFactorAuthenticationApi.mfaLoginByEmail(email, password, emailTemplate
  
 <h6 id="MFALoginByUserName-post-"> MFA UserName Login (POST)</h6>
 
- This API can be used to login by username on a Multi-factor authentication enabled LoginRadius site.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-user-name-login)
+ This API can be used to login by username on a Multi-factor authentication enabled LoginRadius site.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-user-name-login)
 
  
  
@@ -2881,7 +2881,7 @@ lrv2.multiFactorAuthenticationApi.mfaLoginByUserName(password, username, emailTe
  
 <h6 id="MFALoginByPhone-post-"> MFA Phone Login (POST)</h6>
 
- This API can be used to login by Phone on a Multi-factor authentication enabled LoginRadius site.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-phone-login)
+ This API can be used to login by Phone on a Multi-factor authentication enabled LoginRadius site.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-phone-login)
 
  
  
@@ -2911,7 +2911,7 @@ lrv2.multiFactorAuthenticationApi.mfaLoginByPhone(password, phone, emailTemplate
  
 <h6 id="MFAEmailOTP-post-"> Send MFA Email OTP by MFA Token (POST)</h6>
 
- An API designed to send the MFA Email OTP to the email.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/send-mfa-email-otp-by-mfa-token/)
+ An API designed to send the MFA Email OTP to the email.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/send-mfa-email-otp-by-mfa-token/)
 
  
  
@@ -2937,7 +2937,7 @@ lrv2.multiFactorAuthenticationApi.mfaEmailOTP(emailIdModel, secondFactorAuthenti
  
 <h6 id="MFASecurityQuestionAnswerVerification-post-"> Verify MFA Security Question by MFA Token (POST)</h6>
 
- This API is used to resending the verification OTP to the provided phone number  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-security-question-by-mfa-token/)
+ This API is used to resending the verification OTP to the provided phone number  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/verify-mfa-security-question-by-mfa-token/)
 
  
  
@@ -2971,7 +2971,7 @@ lrv2.multiFactorAuthenticationApi.mfaSecurityQuestionAnswerVerification(security
  
 <h6 id="MFAConfigureByAccessToken-get-"> MFA Validate Access Token (GET)</h6>
 
- This API is used to configure the Multi-factor authentication after login by using the access token when MFA is set as optional on the LoginRadius site.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-access-token/)
+ This API is used to configure the Multi-factor authentication after login by using the access token when MFA is set as optional on the LoginRadius site.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-access-token/)
 
  
  
@@ -2994,7 +2994,7 @@ lrv2.multiFactorAuthenticationApi.mfaConfigureByAccessToken(accessToken, smsTemp
  
 <h6 id="MFABackupCodeByAccessToken-get-"> MFA Backup Code by Access Token (GET)</h6>
 
- This API is used to get a set of backup codes via access token to allow the user login on a site that has Multi-factor Authentication enabled in the event that the user does not have a secondary factor available. We generate 10 codes, each code can only be consumed once. If any user attempts to go over the number of invalid login attempts configured in the Dashboard then the account gets blocked automatically  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-backup-code-by-access-token/)
+ This API is used to get a set of backup codes via access token to allow the user login on a site that has Multi-factor Authentication enabled in the event that the user does not have a secondary factor available. We generate 10 codes, each code can only be consumed once. If any user attempts to go over the number of invalid login attempts configured in the Dashboard then the account gets blocked automatically  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-backup-code-by-access-token/)
 
  
  
@@ -3016,7 +3016,7 @@ lrv2.multiFactorAuthenticationApi.mfaBackupCodeByAccessToken(accessToken).then((
  
 <h6 id="MFAResetBackupCodeByAccessToken-get-"> Reset Backup Code by Access Token (GET)</h6>
 
- API is used to reset the backup codes on a given account via the access token. This API call will generate 10 new codes, each code can only be consumed once  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-reset-backup-code-by-access-token/)
+ API is used to reset the backup codes on a given account via the access token. This API call will generate 10 new codes, each code can only be consumed once  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-reset-backup-code-by-access-token/)
 
  
  
@@ -3038,7 +3038,7 @@ lrv2.multiFactorAuthenticationApi.mfaResetBackupCodeByAccessToken(accessToken).t
  
 <h6 id="MFAEmailOtpByAccessToken-get-"> Send MFA Email OTP by Access Token (GET)</h6>
 
- This API is created to send the OTP to the email if email OTP authenticator is enabled in app's MFA configuration.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/send-mfa-email-otp-by-access-token/)
+ This API is created to send the OTP to the email if email OTP authenticator is enabled in app's MFA configuration.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/send-mfa-email-otp-by-access-token/)
 
  
  
@@ -3062,7 +3062,7 @@ lrv2.multiFactorAuthenticationApi.mfaEmailOtpByAccessToken(accessToken, emailId,
  
 <h6 id="MFAResendOTP-get-"> MFA Resend Otp (GET)</h6>
 
- This API is used to resending the verification OTP to the provided phone number  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/resend-twofactorauthentication-otp/)
+ This API is used to resending the verification OTP to the provided phone number  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/resend-twofactorauthentication-otp/)
 
  
  
@@ -3085,7 +3085,7 @@ lrv2.multiFactorAuthenticationApi.mfaResendOTP(secondFactorAuthenticationToken, 
  
 <h6 id="MFABackupCodeByUid-get-"> MFA Backup Code by UID (GET)</h6>
 
- This API is used to reset the backup codes on a given account via the UID. This API call will generate 10 new codes, each code can only be consumed once.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-backup-code-by-uid/)
+ This API is used to reset the backup codes on a given account via the UID. This API call will generate 10 new codes, each code can only be consumed once.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-backup-code-by-uid/)
 
  
  
@@ -3107,7 +3107,7 @@ lrv2.multiFactorAuthenticationApi.mfaBackupCodeByUid(uid).then((response) => {
  
 <h6 id="MFAResetBackupCodeByUid-get-"> MFA Reset Backup Code by UID (GET)</h6>
 
- This API is used to reset the backup codes on a given account via the UID. This API call will generate 10 new codes, each code can only be consumed once.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-reset-backup-code-by-uid/)
+ This API is used to reset the backup codes on a given account via the UID. This API call will generate 10 new codes, each code can only be consumed once.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/mfa-reset-backup-code-by-uid/)
 
  
  
@@ -3129,7 +3129,7 @@ lrv2.multiFactorAuthenticationApi.mfaResetBackupCodeByUid(uid).then((response) =
  
 <h6 id="MFAResetGoogleAuthByToken-delete-"> MFA Reset Google Authenticator by Token (DELETE)</h6>
 
- This API Resets the Google Authenticator configurations on a given account via the access token  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-token/)
+ This API Resets the Google Authenticator configurations on a given account via the access token  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-token/)
 
  
  
@@ -3152,7 +3152,7 @@ lrv2.multiFactorAuthenticationApi.mfaResetGoogleAuthByToken(accessToken, googlea
  
 <h6 id="MFAResetSMSAuthByToken-delete-"> MFA Reset SMS Authenticator by Token (DELETE)</h6>
 
- This API resets the SMS Authenticator configurations on a given account via the access token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-reset-sms-authenticator-by-token/)
+ This API resets the SMS Authenticator configurations on a given account via the access token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-reset-sms-authenticator-by-token/)
 
  
  
@@ -3175,7 +3175,7 @@ lrv2.multiFactorAuthenticationApi.mfaResetSMSAuthByToken(accessToken, otpauthent
  
 <h6 id="MFAResetEmailOtpAuthenticatorByAccessToken-delete-"> Reset MFA Email OTP Authenticator By Access Token (DELETE)</h6>
 
- This API is used to reset the Email OTP Authenticator settings for an MFA-enabled user  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-email-otp-authenticator-access-token/)
+ This API is used to reset the Email OTP Authenticator settings for an MFA-enabled user  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-email-otp-authenticator-access-token/)
 
  
  
@@ -3197,7 +3197,7 @@ lrv2.multiFactorAuthenticationApi.mfaResetEmailOtpAuthenticatorByAccessToken(acc
  
 <h6 id="MFAResetSecurityQuestionAuthenticatorByAccessToken-delete-"> MFA Reset Security Question Authenticator By Access Token (DELETE)</h6>
 
- This API is used to Reset MFA Security Question Authenticator By Access Token  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-security-question-by-access-token/)
+ This API is used to Reset MFA Security Question Authenticator By Access Token  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/reset-mfa-security-question-by-access-token/)
 
  
  
@@ -3219,7 +3219,7 @@ lrv2.multiFactorAuthenticationApi.mfaResetSecurityQuestionAuthenticatorByAccessT
  
 <h6 id="MFAResetSMSAuthenticatorByUid-delete-"> MFA Reset SMS Authenticator By UID (DELETE)</h6>
 
- This API resets the SMS Authenticator configurations on a given account via the UID.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-reset-sms-authenticator-by-uid/)
+ This API resets the SMS Authenticator configurations on a given account via the UID.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-reset-sms-authenticator-by-uid/)
 
  
  
@@ -3242,7 +3242,7 @@ lrv2.multiFactorAuthenticationApi.mfaResetSMSAuthenticatorByUid(otpauthenticator
  
 <h6 id="MFAResetGoogleAuthenticatorByUid-delete-"> MFA Reset Google Authenticator By UID (DELETE)</h6>
 
- This API resets the Google Authenticator configurations on a given account via the UID.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-uid/)
+ This API resets the Google Authenticator configurations on a given account via the UID.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-uid/)
 
  
  
@@ -3265,7 +3265,7 @@ lrv2.multiFactorAuthenticationApi.mfaResetGoogleAuthenticatorByUid(googleauthent
  
 <h6 id="MFAResetEmailOtpAuthenticatorByUid-delete-"> Reset MFA Email OTP Authenticator Settings by Uid (DELETE)</h6>
 
- This API is used to reset the Email OTP Authenticator settings for an MFA-enabled user.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/reset-mfa-email-otp-authenticator-settings-by-uid/)
+ This API is used to reset the Email OTP Authenticator settings for an MFA-enabled user.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/reset-mfa-email-otp-authenticator-settings-by-uid/)
 
  
  
@@ -3287,7 +3287,7 @@ lrv2.multiFactorAuthenticationApi.mfaResetEmailOtpAuthenticatorByUid(uid).then((
  
 <h6 id="MFAResetSecurityQuestionAuthenticatorByUid-delete-"> Reset MFA Security Question Authenticator Settings by Uid (DELETE)</h6>
 
- This API is used to reset the Security Question Authenticator settings for an MFA-enabled user.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/reset-mfa-security-question-authenticator-settings-by-uid/)
+ This API is used to reset the Security Question Authenticator settings for an MFA-enabled user.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/reset-mfa-security-question-authenticator-settings-by-uid/)
 
  
  
@@ -3333,7 +3333,7 @@ List of APIs in this Section:<br>
 
 <h6 id="ResetPINByResetToken-put-"> Reset PIN By ResetToken (PUT)</h6>
 
- This API is used to reset pin using reset token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/pin-authentication/reset-pin-by-resettoken/)
+ This API is used to reset pin using reset token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/reset-pin-by-resettoken/)
 
  
  
@@ -3358,7 +3358,7 @@ lrv2.pinAuthenticationApi.resetPINByResetToken(resetPINByResetToken).then((respo
  
 <h6 id="ResetPINByEmailAndSecurityAnswer-put-"> Reset PIN By SecurityAnswer And Email (PUT)</h6>
 
- This API is used to reset pin using security question answer and email.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/pin-authentication/reset-pin-by-securityanswer-and-email/)
+ This API is used to reset pin using security question answer and email.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/reset-pin-by-securityanswer-and-email/)
 
  
  
@@ -3384,7 +3384,7 @@ lrv2.pinAuthenticationApi.resetPINByEmailAndSecurityAnswer(resetPINBySecurityQue
  
 <h6 id="ResetPINByUsernameAndSecurityAnswer-put-"> Reset PIN By SecurityAnswer And Username (PUT)</h6>
 
- This API is used to reset pin using security question answer and username.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/pin-authentication/reset-pin-by-securityanswer-and-username/)
+ This API is used to reset pin using security question answer and username.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/reset-pin-by-securityanswer-and-username/)
 
  
  
@@ -3410,7 +3410,7 @@ lrv2.pinAuthenticationApi.resetPINByUsernameAndSecurityAnswer(resetPINBySecurity
  
 <h6 id="ResetPINByPhoneAndSecurityAnswer-put-"> Reset PIN By SecurityAnswer And Phone (PUT)</h6>
 
- This API is used to reset pin using security question answer and phone.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/pin-authentication/reset-pin-by-securityanswer-and-phone/)
+ This API is used to reset pin using security question answer and phone.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/reset-pin-by-securityanswer-and-phone/)
 
  
  
@@ -3436,7 +3436,7 @@ lrv2.pinAuthenticationApi.resetPINByPhoneAndSecurityAnswer(resetPINBySecurityQue
  
 <h6 id="ChangePINByAccessToken-put-"> Change PIN By Token (PUT)</h6>
 
- This API is used to change a user's PIN using access token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/pin-authentication/change-pin-by-access-token/)
+ This API is used to change a user's PIN using access token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/change-pin-by-access-token/)
 
  
  
@@ -3463,7 +3463,7 @@ lrv2.pinAuthenticationApi.changePINByAccessToken(accessToken, changePINModel).th
  
 <h6 id="ResetPINByPhoneAndOtp-put-"> Reset PIN by Phone and OTP (PUT)</h6>
 
- This API is used to reset pin using phoneId and OTP.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/pin-authentication/reset-pin-by-phone-and-otp/)
+ This API is used to reset pin using phoneId and OTP.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/reset-pin-by-phone-and-otp/)
 
  
  
@@ -3489,7 +3489,7 @@ lrv2.pinAuthenticationApi.resetPINByPhoneAndOtp(resetPINByPhoneAndOTPModel).then
  
 <h6 id="ResetPINByEmailAndOtp-put-"> Reset PIN by Email and OTP (PUT)</h6>
 
- This API is used to reset pin using email and OTP.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/pin-authentication/reset-pin-by-email-and-otp/)
+ This API is used to reset pin using email and OTP.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/reset-pin-by-email-and-otp/)
 
  
  
@@ -3515,7 +3515,7 @@ lrv2.pinAuthenticationApi.resetPINByEmailAndOtp(resetPINByEmailAndOtpModel).then
  
 <h6 id="ResetPINByUsernameAndOtp-put-"> Reset PIN by Username and OTP (PUT)</h6>
 
- This API is used to reset pin using username and OTP.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/pin-authentication/reset-pin-by-username-and-otp/)
+ This API is used to reset pin using username and OTP.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/reset-pin-by-username-and-otp/)
 
  
  
@@ -3541,7 +3541,7 @@ lrv2.pinAuthenticationApi.resetPINByUsernameAndOtp(resetPINByUsernameAndOtpModel
  
 <h6 id="PINLogin-post-"> PIN Login (POST)</h6>
 
- This API is used to login a user by pin and session token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/pin-authentication/login-by-pin/)
+ This API is used to login a user by pin and session token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/login-by-pin/)
 
  
  
@@ -3566,7 +3566,7 @@ lrv2.pinAuthenticationApi.pinLogin(loginByPINModel, sessionToken).then((response
  
 <h6 id="SendForgotPINEmailByEmail-post-"> Forgot PIN By Email (POST)</h6>
 
- This API sends the reset pin email to specified email address.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/pin-authentication/forgot-pin-by-email/)
+ This API sends the reset pin email to specified email address.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/forgot-pin-by-email/)
 
  
  
@@ -3592,7 +3592,7 @@ lrv2.pinAuthenticationApi.sendForgotPINEmailByEmail(forgotPINLinkByEmailModel, e
  
 <h6 id="SendForgotPINEmailByUsername-post-"> Forgot PIN By UserName (POST)</h6>
 
- This API sends the reset pin email using username.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/pin-authentication/forgot-pin-by-username/)
+ This API sends the reset pin email using username.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/forgot-pin-by-username/)
 
  
  
@@ -3618,7 +3618,7 @@ lrv2.pinAuthenticationApi.sendForgotPINEmailByUsername(forgotPINLinkByUserNameMo
  
 <h6 id="SendForgotPINSMSByPhone-post-"> Forgot PIN By Phone (POST)</h6>
 
- This API sends the OTP to specified phone number  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/pin-authentication/forgot-pin-by-phone/)
+ This API sends the OTP to specified phone number  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/forgot-pin-by-phone/)
 
  
  
@@ -3643,7 +3643,7 @@ lrv2.pinAuthenticationApi.sendForgotPINSMSByPhone(forgotPINOtpByPhoneModel, smsT
  
 <h6 id="SetPINByPinAuthToken-post-"> Set PIN By PinAuthToken (POST)</h6>
 
- This API is used to change a user's PIN using Pin Auth token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/pin-authentication/set-pin-by-pinauthtoken/)
+ This API is used to change a user's PIN using Pin Auth token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/set-pin-by-pinauthtoken/)
 
  
  
@@ -3668,7 +3668,7 @@ lrv2.pinAuthenticationApi.setPINByPinAuthToken(pinRequiredModel, pinAuthToken).t
  
 <h6 id="InValidatePinSessionToken-get-"> Invalidate PIN Session Token (GET)</h6>
 
- This API is used to invalidate pin session token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/pin-authentication/invalidate-pin-session-token/)
+ This API is used to invalidate pin session token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/invalidate-pin-session-token/)
 
  
  
@@ -3712,7 +3712,7 @@ List of APIs in this Section:<br>
 
 <h6 id="MFAReAuthenticateByOTP-put-"> Validate MFA by OTP (PUT)</h6>
 
- This API is used to re-authenticate via Multi-factor authentication by passing the One Time Password received via SMS  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/re-authentication/mfa/re-auth-by-otp/)
+ This API is used to re-authenticate via Multi-factor authentication by passing the One Time Password received via SMS  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/re-authentication/mfa/re-auth-by-otp/)
 
  
  
@@ -3738,7 +3738,7 @@ lrv2.reAuthenticationApi.mfaReAuthenticateByOTP(accessToken, reauthByOtpModel).t
  
 <h6 id="MFAReAuthenticateByBackupCode-put-"> Validate MFA by Backup Code (PUT)</h6>
 
- This API is used to re-authenticate by set of backup codes via access token on the site that has Multi-factor authentication enabled in re-authentication for the user that does not have the device  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/re-authentication/mfa/re-auth-by-backup-code/)
+ This API is used to re-authenticate by set of backup codes via access token on the site that has Multi-factor authentication enabled in re-authentication for the user that does not have the device  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/re-authentication/mfa/re-auth-by-backup-code/)
 
  
  
@@ -3764,7 +3764,7 @@ lrv2.reAuthenticationApi.mfaReAuthenticateByBackupCode(accessToken, reauthByBack
  
 <h6 id="MFAReAuthenticateByGoogleAuth-put-"> Validate MFA by Google Authenticator Code (PUT)</h6>
 
- This API is used to re-authenticate via Multi-factor-authentication by passing the google authenticator code  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/re-auth-by-google-authenticator-code)
+ This API is used to re-authenticate via Multi-factor-authentication by passing the google authenticator code  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/re-auth-by-google-authenticator-code)
 
  
  
@@ -3790,7 +3790,7 @@ lrv2.reAuthenticationApi.mfaReAuthenticateByGoogleAuth(accessToken, reauthByGoog
  
 <h6 id="MFAReAuthenticateByPassword-put-"> Validate MFA by Password (PUT)</h6>
 
- This API is used to re-authenticate via Multi-factor-authentication by passing the password  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/re-auth-by-password)
+ This API is used to re-authenticate via Multi-factor-authentication by passing the password  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/re-auth-by-password)
 
  
  
@@ -3817,7 +3817,7 @@ lrv2.reAuthenticationApi.mfaReAuthenticateByPassword(accessToken, passwordEventB
  
 <h6 id="VerifyPINAuthentication-put-"> MFA Re-authentication by PIN (PUT)</h6>
 
- This API is used to validate the triggered MFA authentication flow with a password.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/re-authentication/pin/re-auth-by-pin/)
+ This API is used to validate the triggered MFA authentication flow with a password.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/re-authentication/pin/re-auth-by-pin/)
 
  
  
@@ -3844,7 +3844,7 @@ lrv2.reAuthenticationApi.verifyPINAuthentication(accessToken, pinAuthEventBasedA
  
 <h6 id="ReAuthValidateEmailOtp-put-"> MFA Re-authentication by Email OTP (PUT)</h6>
 
- This API is used to validate the triggered MFA authentication flow with an Email OTP.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-auth-by-email-otp/)
+ This API is used to validate the triggered MFA authentication flow with an Email OTP.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-auth-by-email-otp/)
 
  
  
@@ -3871,7 +3871,7 @@ lrv2.reAuthenticationApi.reAuthValidateEmailOtp(accessToken, reauthByEmailOtpMod
  
 <h6 id="VerifyMultiFactorOtpReauthentication-post-"> Verify Multifactor OTP Authentication (POST)</h6>
 
- This API is used on the server-side to validate and verify the re-authentication token created by the MFA re-authentication API. This API checks re-authentications created by OTP.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/re-authentication/mfa/re-auth-validate-mfa/)
+ This API is used on the server-side to validate and verify the re-authentication token created by the MFA re-authentication API. This API checks re-authentications created by OTP.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/re-authentication/mfa/re-auth-validate-mfa/)
 
  
  
@@ -3896,7 +3896,7 @@ lrv2.reAuthenticationApi.verifyMultiFactorOtpReauthentication(eventBasedMultiFac
  
 <h6 id="VerifyMultiFactorPasswordReauthentication-post-"> Verify Multifactor Password Authentication (POST)</h6>
 
- This API is used on the server-side to validate and verify the re-authentication token created by the MFA re-authentication API. This API checks re-authentications created by password.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/re-authentication/re-auth-validate-password/)
+ This API is used on the server-side to validate and verify the re-authentication token created by the MFA re-authentication API. This API checks re-authentications created by password.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/re-authentication/re-auth-validate-password/)
 
  
  
@@ -3921,7 +3921,7 @@ lrv2.reAuthenticationApi.verifyMultiFactorPasswordReauthentication(eventBasedMul
  
 <h6 id="VerifyMultiFactorPINReauthentication-post-"> Verify Multifactor PIN Authentication (POST)</h6>
 
- This API is used on the server-side to validate and verify the re-authentication token created by the MFA re-authentication API. This API checks re-authentications created by PIN.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/re-authentication/pin/re-auth-validate-pin/)
+ This API is used on the server-side to validate and verify the re-authentication token created by the MFA re-authentication API. This API checks re-authentications created by PIN.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/re-authentication/pin/re-auth-validate-pin/)
 
  
  
@@ -3946,7 +3946,7 @@ lrv2.reAuthenticationApi.verifyMultiFactorPINReauthentication(eventBasedMultiFac
  
 <h6 id="ReAuthBySecurityQuestion-post-"> MFA Re-authentication by Security Question (POST)</h6>
 
- This API is used to validate the triggered MFA re-authentication flow with security questions answers.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-authentication-by-security-question/)
+ This API is used to validate the triggered MFA re-authentication flow with security questions answers.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-authentication-by-security-question/)
 
  
  
@@ -3977,7 +3977,7 @@ lrv2.reAuthenticationApi.reAuthBySecurityQuestion(accessToken, securityQuestionA
  
 <h6 id="MFAReAuthenticate-get-"> Multi Factor Re-Authenticate (GET)</h6>
 
- This API is used to trigger the Multi-Factor Autentication workflow for the provided access token  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/re-auth-trigger/)
+ This API is used to trigger the Multi-Factor Autentication workflow for the provided access token  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/re-auth-trigger/)
 
  
  
@@ -4000,7 +4000,7 @@ lrv2.reAuthenticationApi.mfaReAuthenticate(accessToken, smsTemplate2FA).then((re
  
 <h6 id="ReAuthSendEmailOtp-get-"> Send MFA Re-auth Email OTP by Access Token (GET)</h6>
 
- This API is used to send the MFA Email OTP to the email for Re-authentication  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/send-mfa-re-auth-email-otp-by-access-token/)
+ This API is used to send the MFA Email OTP to the email for Re-authentication  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/send-mfa-re-auth-email-otp-by-access-token/)
 
  
  
@@ -4040,7 +4040,7 @@ List of APIs in this Section:<br>
 
 <h6 id="UpdateConsentProfileByAccessToken-put-"> Update Consent By Access Token (PUT)</h6>
 
- This API is to update consents using access token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/consent-management/update-consent-by-access-token/)
+ This API is to update consents using access token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-management/update-consent-by-access-token/)
 
  
  
@@ -4069,7 +4069,7 @@ lrv2.consentManagementApi.updateConsentProfileByAccessToken(accessToken, consent
  
 <h6 id="SubmitConsentByConsentToken-post-"> Consent By ConsentToken (POST)</h6>
 
- This API is to submit consent form using consent token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/consent-management/consent-by-consent-token/)
+ This API is to submit consent form using consent token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-management/consent-by-consent-token/)
 
  
  
@@ -4102,7 +4102,7 @@ lrv2.consentManagementApi.submitConsentByConsentToken(consentToken, consentSubmi
  
 <h6 id="SubmitConsentByAccessToken-post-"> Post Consent By Access Token (POST)</h6>
 
- API to provide a way to end user to submit a consent form for particular event type.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/consent-management/consent-by-access-token/)
+ API to provide a way to end user to submit a consent form for particular event type.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-management/consent-by-access-token/)
 
  
  
@@ -4135,7 +4135,7 @@ lrv2.consentManagementApi.submitConsentByAccessToken(accessToken, consentSubmitM
  
 <h6 id="GetConsentLogsByUid-get-"> Get Consent Logs By Uid (GET)</h6>
 
- This API is used to get the Consent logs of the user.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/consent-management/consent-log-by-uid/)
+ This API is used to get the Consent logs of the user.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-management/consent-log-by-uid/)
 
  
  
@@ -4157,7 +4157,7 @@ lrv2.consentManagementApi.getConsentLogsByUid(uid).then((response) => {
  
 <h6 id="GetConsentLogs-get-"> Get Consent Log by Access Token (GET)</h6>
 
- This API is used to fetch consent logs.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/consent-management/consent-log-by-access-token/)
+ This API is used to fetch consent logs.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-management/consent-log-by-access-token/)
 
  
  
@@ -4179,7 +4179,7 @@ lrv2.consentManagementApi.getConsentLogs(accessToken).then((response) => {
  
 <h6 id="VerifyConsentByAccessToken-get-"> Get Verify Consent By Access Token (GET)</h6>
 
- This API is used to check if consent is submitted for a particular event or not.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/consent-management/verify-consent-by-access-token/)
+ This API is used to check if consent is submitted for a particular event or not.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-management/verify-consent-by-access-token/)
 
  
  
@@ -4217,7 +4217,7 @@ List of APIs in this Section:<br>
 
 <h6 id="SmartLoginTokenVerification-get-"> Smart Login Verify Token (GET)</h6>
 
- This API verifies the provided token for Smart Login  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/smart-login/smart-login-verify-token/)
+ This API verifies the provided token for Smart Login  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/smart-login-verify-token/)
 
  
  
@@ -4240,7 +4240,7 @@ lrv2.smartLoginApi.smartLoginTokenVerification(verificationToken, welcomeEmailTe
  
 <h6 id="SmartLoginByEmail-get-"> Smart Login By Email (GET)</h6>
 
- This API sends a Smart Login link to the user's Email Id.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/smart-login/smart-login-by-email)
+ This API sends a Smart Login link to the user's Email Id.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/smart-login-by-email)
 
  
  
@@ -4266,7 +4266,7 @@ lrv2.smartLoginApi.smartLoginByEmail(clientGuid, email, redirectUrl, smartLoginE
  
 <h6 id="SmartLoginByUserName-get-"> Smart Login By Username (GET)</h6>
 
- This API sends a Smart Login link to the user's Email Id.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/smart-login/smart-login-by-username)
+ This API sends a Smart Login link to the user's Email Id.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/smart-login-by-username)
 
  
  
@@ -4292,7 +4292,7 @@ lrv2.smartLoginApi.smartLoginByUserName(clientGuid, username, redirectUrl, smart
  
 <h6 id="SmartLoginPing-get-"> Smart Login Ping (GET)</h6>
 
- This API is used to check if the Smart Login link has been clicked or not  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/smart-login/smart-login-ping)
+ This API is used to check if the Smart Login link has been clicked or not  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/smart-login-ping)
 
  
  
@@ -4330,7 +4330,7 @@ List of APIs in this Section:<br>
 
 <h6 id="OneTouchLoginOTPVerification-put-"> One Touch OTP Verification (PUT)</h6>
 
- This API is used to verify the otp for One Touch Login.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/one-touch-login/one-touch-otp-verification/)
+ This API is used to verify the otp for One Touch Login.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-otp-verification/)
 
  
  
@@ -4355,7 +4355,7 @@ lrv2.oneTouchLoginApi.oneTouchLoginOTPVerification(otp, phone, fields, smsTempla
  
 <h6 id="OneTouchLoginByEmail-post-"> One Touch Login by Email (POST)</h6>
 
- This API is used to send a link to a specified email for a frictionless login/registration  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-email-captcha/)
+ This API is used to send a link to a specified email for a frictionless login/registration  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-email-captcha/)
 
  
  
@@ -4382,7 +4382,7 @@ lrv2.oneTouchLoginApi.oneTouchLoginByEmail(oneTouchLoginByEmailModel, oneTouchLo
 
 <h6 id="OneTouchLoginByPhone-post-"> One Touch Login by Phone (POST)</h6>
 
- This API is used to send one time password to a given phone number for a frictionless login/registration.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-phone-captcha/)
+ This API is used to send one time password to a given phone number for a frictionless login/registration.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-phone-captcha/)
 
  
  
@@ -4405,7 +4405,7 @@ lrv2.oneTouchLoginApi.oneTouchLoginByPhone(oneTouchLoginByPhoneModel, smsTemplat
  
 <h6 id="OneTouchEmailVerification-get-"> One Touch Email Verification (GET)</h6>
 
- This API verifies the provided token for One Touch Login  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/one-touch-login/one-touch-email-verification)
+ This API verifies the provided token for One Touch Login  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-email-verification)
 
  
  
@@ -4428,7 +4428,7 @@ lrv2.oneTouchLoginApi.oneTouchEmailVerification(verificationToken, welcomeEmailT
  
 <h6 id="OneTouchLoginPing-get-"> One Touch Login Ping (GET)</h6>
 
- This API is used to check if the One Touch Login link has been clicked or not.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-ping/)
+ This API is used to check if the One Touch Login link has been clicked or not.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-ping/)
 
  
  
@@ -4468,7 +4468,7 @@ List of APIs in this Section:<br>
 
 <h6 id="PasswordlessLoginPhoneVerification-put-"> Passwordless Login Phone Verification (PUT)</h6>
 
- This API verifies an account by OTP and allows the customer to login.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-phone-verification)
+ This API verifies an account by OTP and allows the customer to login.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-phone-verification)
 
  
  
@@ -4494,7 +4494,7 @@ lrv2.passwordLessLoginApi.passwordlessLoginPhoneVerification(passwordLessLoginOt
  
 <h6 id="PasswordlessLoginVerificationByEmailAndOTP-post-">Passwordless Login Verification By Email And OTP (POST)</h6>
 
-This API is used to verify the otp sent to the email when doing a passwordless login. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-email-and-otp/)
+This API is used to verify the otp sent to the email when doing a passwordless login. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-email-and-otp/)
 
  
  
@@ -4518,7 +4518,7 @@ lrv2.passwordLessLoginApi.passwordlessLoginVerificationByEmailAndOTP(passwordLes
   
 <h6 id="PasswordlessLoginVerificationByUserNameAndOTP-post-">Passwordless Login Verification By User Name And OTP (POST)</h6>
 
-This API is used to verify the otp sent to the email when doing a passwordless login. [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/)
+This API is used to verify the otp sent to the email when doing a passwordless login. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-verify-by-username-and-otp/)
 
  
  
@@ -4543,7 +4543,7 @@ lrv2.passwordLessLoginApi.passwordlessLoginVerificationByUserNameAndOTP(password
  
 <h6 id="PasswordlessLoginByPhone-get-"> Passwordless Login by Phone (GET)</h6>
 
- API can be used to send a One-time Passcode (OTP) provided that the account has a verified PhoneID  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-phone)
+ API can be used to send a One-time Passcode (OTP) provided that the account has a verified PhoneID  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-phone)
 
  
  
@@ -4566,7 +4566,7 @@ lrv2.passwordLessLoginApi.passwordlessLoginByPhone(phone, smsTemplate).then((res
  
 <h6 id="PasswordlessLoginByEmail-get-"> Passwordless Login By Email (GET)</h6>
 
- This API is used to send a Passwordless Login verification link to the provided Email ID  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-email)
+ This API is used to send a Passwordless Login verification link to the provided Email ID  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-email)
 
  
  
@@ -4590,7 +4590,7 @@ lrv2.passwordLessLoginApi.passwordlessLoginByEmail(email, passwordLessLoginTempl
  
 <h6 id="PasswordlessLoginByUserName-get-"> Passwordless Login By UserName (GET)</h6>
 
- This API is used to send a Passwordless Login Verification Link to a customer by providing their UserName  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-username)
+ This API is used to send a Passwordless Login Verification Link to a customer by providing their UserName  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-username)
 
  
  
@@ -4614,7 +4614,7 @@ lrv2.passwordLessLoginApi.passwordlessLoginByUserName(username, passwordLessLogi
  
 <h6 id="PasswordlessLoginVerification-get-"> Passwordless Login Verification (GET)</h6>
 
- This API is used to verify the Passwordless Login verification link. Note: If you are using Passwordless Login by Phone you will need to use the Passwordless Login Phone Verification API  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-verification)
+ This API is used to verify the Passwordless Login verification link. Note: If you are using Passwordless Login by Phone you will need to use the Passwordless Login Phone Verification API  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-verification)
 
  
  
@@ -4649,7 +4649,7 @@ List of APIs in this Section:<br>
 
 <h6 id="GetServerInfo-get-"> Get Server Time (GET)</h6>
 
- This API allows you to query your LoginRadius account for basic server information and server time information which is useful when generating an SOTT token.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/configuration/get-server-time/)
+ This API allows you to query your LoginRadius account for basic server information and server time information which is useful when generating an SOTT token.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/configuration/get-server-time/)
 
  
  
@@ -4667,7 +4667,7 @@ lrv2.configurationApi.getServerInfo(timeDifference).then((response) => {
  ```
  <h6 id="getConfigurations-get-"> Get Configuration (GET)</h6>
 
- This API is used to get the configurations which are set in the LoginRadius Admin Console for a particular LoginRadius site/environment. [More info](https://www.loginradius.com/docs/api/v2/customer-identity-api/configuration/get-configurations)
+ This API is used to get the configurations which are set in the LoginRadius Admin Console for a particular LoginRadius site/environment. [More info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/configuration/get-configurations)
   
   ```js
   lrv2.configurationApi.getConfigurations().then((response) => {
@@ -4703,7 +4703,7 @@ List of APIs in this Section:<br>
 
 <h6 id="AssignRolesByUid-put-"> Assign Roles by UID (PUT)</h6>
 
- This API is used to assign your desired roles to a given user.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/assign-roles-by-uid/)
+ This API is used to assign your desired roles to a given user.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/assign-roles-by-uid/)
 
  
  
@@ -4729,7 +4729,7 @@ lrv2.roleApi.assignRolesByUid(accountRolesModel, uid).then((response) => {
  
 <h6 id="UpdateRoleContextByUid-put-"> Upsert Context (PUT)</h6>
 
- This API creates a Context with a set of Roles  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/upsert-context)
+ This API creates a Context with a set of Roles  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/upsert-context)
 
  
  
@@ -4759,7 +4759,7 @@ lrv2.roleApi.updateRoleContextByUid(accountRoleContextModel, uid).then((response
  
 <h6 id="AddRolePermissions-put-"> Add Permissions to Role (PUT)</h6>
 
- This API is used to add permissions to a given role.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/add-permissions-to-role)
+ This API is used to add permissions to a given role.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/add-permissions-to-role)
 
  
  
@@ -4784,7 +4784,7 @@ lrv2.roleApi.addRolePermissions(permissionsModel, role).then((response) => {
  
 <h6 id="CreateRoles-post-"> Roles Create (POST)</h6>
 
- This API creates a role with permissions.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/roles-create)
+ This API creates a role with permissions.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/roles-create)
 
  
  
@@ -4811,7 +4811,7 @@ lrv2.roleApi.createRoles(rolesModel).then((response) => {
  
 <h6 id="GetRolesByUid-get-"> Roles by UID (GET)</h6>
 
- API is used to retrieve all the assigned roles of a particular User.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/get-roles-by-uid)
+ API is used to retrieve all the assigned roles of a particular User.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/get-roles-by-uid)
 
  
  
@@ -4833,7 +4833,7 @@ lrv2.roleApi.getRolesByUid(uid).then((response) => {
  
 <h6 id="GetRoleContextByUid-get-"> Get Context with Roles and Permissions (GET)</h6>
 
- This API Gets the contexts that have been configured and the associated roles and permissions.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/get-context)
+ This API Gets the contexts that have been configured and the associated roles and permissions.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/get-context)
 
  
  
@@ -4855,7 +4855,7 @@ lrv2.roleApi.getRoleContextByUid(uid).then((response) => {
  
 <h6 id="GetRoleContextByContextName-get-"> Role Context profile (GET)</h6>
 
- The API is used to retrieve role context by the context name.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/role-context-profile/)
+ The API is used to retrieve role context by the context name.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/role-context-profile/)
 
  
  
@@ -4877,7 +4877,7 @@ lrv2.roleApi.getRoleContextByContextName(contextName).then((response) => {
  
 <h6 id="GetRolesList-get-"> Roles List (GET)</h6>
 
- This API retrieves the complete list of created roles with permissions of your app.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/roles-list)
+ This API retrieves the complete list of created roles with permissions of your app.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/roles-list)
 
  
  
@@ -4897,7 +4897,7 @@ lrv2.roleApi.getRolesList().then((response) => {
  
 <h6 id="UnassignRolesByUid-delete-"> Unassign Roles by UID (DELETE)</h6>
 
- This API is used to unassign roles from a user.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/unassign-roles-by-uid)
+ This API is used to unassign roles from a user.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/unassign-roles-by-uid)
 
  
  
@@ -4922,7 +4922,7 @@ lrv2.roleApi.unassignRolesByUid(accountRolesModel, uid).then((response) => {
  
 <h6 id="DeleteRoleContextByUid-delete-"> Delete Role Context (DELETE)</h6>
 
- This API Deletes the specified Role Context  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/delete-context)
+ This API Deletes the specified Role Context  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-context)
 
  
  
@@ -4945,7 +4945,7 @@ lrv2.roleApi.deleteRoleContextByUid(contextName, uid).then((response) => {
  
 <h6 id="DeleteRolesFromRoleContextByUid-delete-"> Delete Role from Context (DELETE)</h6>
 
- This API Deletes the specified Role from a Context.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/delete-role-from-context/)
+ This API Deletes the specified Role from a Context.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-role-from-context/)
 
  
  
@@ -4972,7 +4972,7 @@ lrv2.roleApi.deleteRolesFromRoleContextByUid(contextName, roleContextRemoveRoleM
  
 <h6 id="DeleteAdditionalPermissionFromRoleContextByUid-delete-"> Delete Additional Permission from Context (DELETE)</h6>
 
- This API Deletes Additional Permissions from Context.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/delete-permissions-from-context)
+ This API Deletes Additional Permissions from Context.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-permissions-from-context)
 
  
  
@@ -4999,7 +4999,7 @@ lrv2.roleApi.deleteAdditionalPermissionFromRoleContextByUid(contextName, roleCon
  
 <h6 id="DeleteRole-delete-"> Account Delete Role (DELETE)</h6>
 
- This API is used to delete the role.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/delete-role)
+ This API is used to delete the role.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-role)
 
  
  
@@ -5021,7 +5021,7 @@ lrv2.roleApi.deleteRole(role).then((response) => {
  
 <h6 id="RemoveRolePermissions-delete-"> Remove Permissions (DELETE)</h6>
 
- API is used to remove permissions from a role.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/remove-permissions)
+ API is used to remove permissions from a role.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/remove-permissions)
 
  
  
@@ -5055,7 +5055,7 @@ List of APIs in this Section:<br>
 
 <h6 id="RBALoginByEmail-post-"> Risk Based Authentication Login by Email (POST)</h6>
 
- This API retrieves a copy of the user data based on the Email  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-login-by-email)
+ This API retrieves a copy of the user data based on the Email  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-email)
 
  
  
@@ -5097,7 +5097,7 @@ lrv2.riskBasedAuthenticationApi.rbaLoginByEmail(emailAuthenticationModel, emailT
  
 <h6 id="RBALoginByUserName-post-"> Risk Based Authentication Login by Username (POST)</h6>
 
- This API retrieves a copy of the user data based on the Username  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-login-by-username)
+ This API retrieves a copy of the user data based on the Username  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-username)
 
  
  
@@ -5139,7 +5139,7 @@ lrv2.riskBasedAuthenticationApi.rbaLoginByUserName(userNameAuthenticationModel, 
  
 <h6 id="RBALoginByPhone-post-"> Risk Based Authentication Phone Login (POST)</h6>
 
- This API retrieves a copy of the user data based on the Phone  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-login)
+ This API retrieves a copy of the user data based on the Phone  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-login)
 
  
  
@@ -5192,7 +5192,7 @@ List of APIs in this Section:<br>
 
 <h6 id="GenerateSott-get-"> Generate SOTT (GET)</h6>
 
- This API allows you to generate SOTT with a given expiration time.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/session/generate-sott-token)
+ This API allows you to generate SOTT with a given expiration time.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/session/generate-sott-token)
 
  
  
@@ -5251,7 +5251,7 @@ lrv2.nativeSocialApi.accessTokenViaCustomJWTToken(idToken, providername).then((r
 
 <h6 id="GetAccessTokenByFacebookAccessToken-get-"> Access Token via Facebook Token (GET)</h6>
 
- The API is used to get LoginRadius access token by sending Facebook's access token. It will be valid for the specific duration of time specified in the response.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-facebook-token/)
+ The API is used to get LoginRadius access token by sending Facebook's access token. It will be valid for the specific duration of time specified in the response.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-facebook-token/)
 
  
  
@@ -5274,7 +5274,7 @@ lrv2.nativeSocialApi.getAccessTokenByFacebookAccessToken(fbAccessToken, socialAp
  
 <h6 id="GetAccessTokenByTwitterAccessToken-get-"> Access Token via Twitter Token (GET)</h6>
 
- The API is used to get LoginRadius access token by sending Twitter's access token. It will be valid for the specific duration of time specified in the response.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-twitter-token)
+ The API is used to get LoginRadius access token by sending Twitter's access token. It will be valid for the specific duration of time specified in the response.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-twitter-token)
 
  
  
@@ -5298,7 +5298,7 @@ lrv2.nativeSocialApi.getAccessTokenByTwitterAccessToken(twAccessToken, twTokenSe
  
 <h6 id="GetAccessTokenByGoogleAccessToken-get-"> Access Token via Google Token (GET)</h6>
 
- The API is used to get LoginRadius access token by sending Google's access token. It will be valid for the specific duration of time specified in the response.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-google-token)
+ The API is used to get LoginRadius access token by sending Google's access token. It will be valid for the specific duration of time specified in the response.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-google-token)
 
  
  
@@ -5323,7 +5323,7 @@ lrv2.nativeSocialApi.getAccessTokenByGoogleAccessToken(googleAccessToken, client
  
 <h6 id="GetAccessTokenByGoogleJWTAccessToken-get-"> Access Token using google JWT token for Native Mobile Login (GET)</h6>
 
- This API is used to Get LoginRadius Access Token using google jwt id token for google native mobile login/registration.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-googlejwt)
+ This API is used to Get LoginRadius Access Token using google jwt id token for google native mobile login/registration.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-googlejwt)
 
  
  
@@ -5345,7 +5345,7 @@ lrv2.nativeSocialApi.getAccessTokenByGoogleJWTAccessToken(idToken).then((respons
  
 <h6 id="GetAccessTokenByLinkedinAccessToken-get-"> Access Token via Linkedin Token (GET)</h6>
 
- The API is used to get LoginRadius access token by sending Linkedin's access token. It will be valid for the specific duration of time specified in the response.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-linkedin-token/)
+ The API is used to get LoginRadius access token by sending Linkedin's access token. It will be valid for the specific duration of time specified in the response.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-linkedin-token/)
 
  
  
@@ -5368,7 +5368,7 @@ lrv2.nativeSocialApi.getAccessTokenByLinkedinAccessToken(lnAccessToken, socialAp
  
 <h6 id="GetAccessTokenByFoursquareAccessToken-get-"> Get Access Token By Foursquare Access Token (GET)</h6>
 
- The API is used to get LoginRadius access token by sending Foursquare's access token. It will be valid for the specific duration of time specified in the response.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-foursquare-token/)
+ The API is used to get LoginRadius access token by sending Foursquare's access token. It will be valid for the specific duration of time specified in the response.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-foursquare-token/)
 
  
  
@@ -5390,7 +5390,7 @@ lrv2.nativeSocialApi.getAccessTokenByFoursquareAccessToken(fsAccessToken).then((
  
 <h6 id="GetAccessTokenByAppleIdCode-get-"> Access Token via Apple Id Code (GET)</h6>
 
- The API is used to get LoginRadius access token by sending a valid Apple ID OAuth Code. It will be valid for the specific duration of time specified in the response.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-apple-id-code)
+ The API is used to get LoginRadius access token by sending a valid Apple ID OAuth Code. It will be valid for the specific duration of time specified in the response.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-apple-id-code)
 
  
  
@@ -5413,7 +5413,7 @@ lrv2.nativeSocialApi.getAccessTokenByAppleIdCode(code, socialAppName).then((resp
  
 <h6 id="GetAccessTokenByWeChatCode-get-"> Access Token via WeChat Code (GET)</h6>
 
- This API is used to retrieve a LoginRadius access token by passing in a valid WeChat OAuth Code.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-wechat-code)
+ This API is used to retrieve a LoginRadius access token by passing in a valid WeChat OAuth Code.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-wechat-code)
 
  
  
@@ -5435,7 +5435,7 @@ lrv2.nativeSocialApi.getAccessTokenByWeChatCode(code).then((response) => {
  
 <h6 id="GetAccessTokenByGoogleAuthCode-get-"> Access Token via Google AuthCode (GET)</h6>
 
- The API is used to get LoginRadius access token by sending Google's AuthCode. It will be valid for the specific duration of time specified in the response.  [More Info](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-google-auth-code)
+ The API is used to get LoginRadius access token by sending Google's AuthCode. It will be valid for the specific duration of time specified in the response.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-google-auth-code)
 
  
  
@@ -5472,7 +5472,7 @@ List of APIs in this Section:<br>
 
 <h6 id="WebHookSubscribe-post-"> Webhook Subscribe (POST)</h6>
 
- API can be used to configure a WebHook on your LoginRadius site. Webhooks also work on subscribe and notification model, subscribe your hook and get a notification. Equivalent to RESThook but these provide security on basis of signature and RESThook work on unique URL. Following are the events that are allowed by LoginRadius to trigger a WebHook service call.  [More Info](https://www.loginradius.com/docs/api/v2/integrations/webhooks/webhook-subscribe)
+ API can be used to configure a WebHook on your LoginRadius site. Webhooks also work on subscribe and notification model, subscribe your hook and get a notification. Equivalent to RESThook but these provide security on basis of signature and RESThook work on unique URL. Following are the events that are allowed by LoginRadius to trigger a WebHook service call.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/webhook-subscribe)
 
  
  
@@ -5497,7 +5497,7 @@ lrv2.webHookApi.webHookSubscribe(webHookSubscribeModel).then((response) => {
  
 <h6 id="GetWebHookSubscribedURLs-get-"> Webhook Subscribed URLs (GET)</h6>
 
- This API is used to fatch all the subscribed URLs, for particular event  [More Info](https://www.loginradius.com/docs/api/v2/integrations/webhooks/webhook-subscribed-urls)
+ This API is used to fatch all the subscribed URLs, for particular event  [More Info](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/webhook-subscribed-urls)
 
  
  
@@ -5519,7 +5519,7 @@ lrv2.webHookApi.getWebHookSubscribedURLs(event).then((response) => {
  
 <h6 id="WebhookTest-get-"> Webhook Test (GET)</h6>
 
- API can be used to test a subscribed WebHook.  [More Info](https://www.loginradius.com/docs/api/v2/integrations/webhooks/webhook-test)
+ API can be used to test a subscribed WebHook.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/webhook-test)
 
  
  
@@ -5539,7 +5539,7 @@ lrv2.webHookApi.webhookTest().then((response) => {
  
 <h6 id="WebHookUnsubscribe-delete-"> WebHook Unsubscribe (DELETE)</h6>
 
- API can be used to unsubscribe a WebHook configured on your LoginRadius site.  [More Info](https://www.loginradius.com/docs/api/v2/integrations/webhooks/webhook-unsubscribe)
+ API can be used to unsubscribe a WebHook configured on your LoginRadius site.  [More Info](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/webhook-unsubscribe)
 
  
  
@@ -5622,7 +5622,7 @@ Terminal/Command Line:
    * Client side: `demo/demo/assets/js/options.js`
    * Server side : `demo/server.js`
    
-   Replace the placeholders with your LoginRadius credentials apikey, apisecret, sitename. These can be obtained from [here](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/api-key-and-secret) 
+   Replace the placeholders with your LoginRadius credentials apikey, apisecret, sitename. These can be obtained from [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret) 
 
 4. Navigate to the demo directory, and run: node server.js
 5. Demo will appear on http://localhost:3000

@@ -17,25 +17,25 @@ The image below shows two types of relationships (*one-to-many* and *many-to-man
 1. Creating the Parent Account
     1. Generate a fictional email (e.g. parentacct-342@example.com)
     2. (Optional) - Set a UserName
-    3. Call the [Account Create API](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-create/)
+    3. Call the [Account Create API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-create/)
     4. Grab the Parent Account's **UID** (e.g. 24490de9c54145a4818b0cb688a3f3e2)
 
 2. Creating the Parent Account's Custom Object
-    2. Using the UID obtained from the [Account Create API](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-create/), call the [Create a Custom Object API](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-uid/), and leave the fields blank at this point
+    2. Using the UID obtained from the [Account Create API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-create/), call the [Create a Custom Object API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-uid/), and leave the fields blank at this point
     3. Store the CustomObjectID for later (e.g. 5d1680d35895633610b18ac7)
 
 3. Creating the Child Account
-    3. Using the [Account Create API](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-create/), create the Child Account
+    3. Using the [Account Create API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-create/), create the Child Account
     4. Store the Child Account's **UID** for later (e.g. 8cfdc5ab1ef546169ff1231003caeefb)
 
 4. Creating the Child Account's Custom Object
-    4. Using the UID obtained from the Child Account, call the [Create a Custom Object API](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-uid/)
+    4. Using the UID obtained from the Child Account, call the [Create a Custom Object API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-uid/)
     5. This custom object will contain an array field named **ParentAccounts**, in this field, push the **UID** obtained from the Parent Account
 
-5. [Update the Custom Object](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-uid/) on the Parent Account
+5. [Update the Custom Object](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-uid/) on the Parent Account
     5.  Using the Parent Account’s **UID** and the **CustomObjectID**, include a **PrimaryAccountHolder** field that contains the UID from the child and a **ChildAccounts** array (again, pushing the UIDs of the child accounts)
 
-6. Pull the data when needed by using the [Get Custom Object by UID](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-by-uid/)
+6. Pull the data when needed by using the [Get Custom Object by UID](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-uid/)
     6. Example of pulling the data for the Parent:
 
     ```

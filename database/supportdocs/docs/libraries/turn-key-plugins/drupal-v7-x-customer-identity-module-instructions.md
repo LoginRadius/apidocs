@@ -65,7 +65,7 @@ To configure the module, click on the **Configuration** tab in the top menu, cli
 
 ##  Activation
 
-1. Insert LoginRadius API Key and API Secret under **LoginRadius API Configurations** section that you get from your LoginRadius [Admin Console](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/api-key-and-secret)
+1. Insert LoginRadius API Key and API Secret under **LoginRadius API Configurations** section that you get from your LoginRadius [Admin Console](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret)
 
 2. Click **Save configuration**.
    <br><br>![enter image description here](https://apidocs.lrcontent.com/images/activ_308105e71f37e84f961.04459513.png "enter image title here")

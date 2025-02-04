@@ -208,7 +208,7 @@ if (queryString.language == 'french') {
 ## Google Recaptcha Customization
 <br>
 One can customize Google ReCaptcha as well based on localization. 
-- You need to use v2RecaptchaLanguage common option for localization, to get more details regarding common - options follow [User Registration Getting Started](https://www.loginradius.com/docs/api/v2/user-registration/user-registration-getting-started) document. 
+- You need to use v2RecaptchaLanguage common option for localization, to get more details regarding common - options follow [User Registration Getting Started](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started) document. 
 - You can find multiple languages code[ here](https://developers.google.com/recaptcha/docs/language), a sample implementation using the French language is given below.
 
 ```

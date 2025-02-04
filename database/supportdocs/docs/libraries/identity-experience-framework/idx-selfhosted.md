@@ -43,7 +43,7 @@ If you wish to deploy the Identity Experience Framework directly into your envir
         <script type="text/javascript" src="idx-selfhosted.1.0.0.js"></script></body>
   ```
 
-**Step 2**.  Initialize the LoginRadius commonOptions Object with your desired settings as detailed in the [LoginRadius JS Getting Started guide](https://www.loginradius.com/docs/libraries/js-libraries/getting-started/#initializationofloginradiusobject3), to use Identity Experience Framework make sure you need to set the following settings (at a minimum):
+**Step 2**.  Initialize the LoginRadius commonOptions Object with your desired settings as detailed in the [LoginRadius JS Getting Started guide](https://www.loginradius.com/legacy/docs/libraries/js-libraries/getting-started/#initializationofloginradiusobject3), to use Identity Experience Framework make sure you need to set the following settings (at a minimum):
 
 A) **apiKey** - Your API key, click here for details.
 

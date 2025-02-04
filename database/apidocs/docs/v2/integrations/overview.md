@@ -20,4 +20,4 @@ The LoginRadius Integrations section covers 6 types of Integrations:
 LoginRadius can integrate with dozens of third-party software to work seamlessly with your existing applications, delivering uninterrupted data flow and customer registration.
 Optimize ad campaigns, automatically create lead profiles, increase landing page conversion, and eliminate hundreds of development hours.
 
-Check out the full list of integrations and turn key plugins [here](https://www.loginradius.com/docs/api/v2/integrations/available-integrations).
+Check out the full list of integrations and turn key plugins [here](https://www.loginradius.com/legacy/docs/api/v2/integrations/available-integrations).
