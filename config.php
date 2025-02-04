@@ -5,8 +5,8 @@ $protocal = 'https';
 $domain = isset($_SERVER['HTTP_HOST']) && !empty($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : '';
 $path = isset($_SERVER['SCRIPT_NAME']) && !empty($_SERVER['SCRIPT_NAME']) ? $_SERVER['SCRIPT_NAME'] : '';
 $searchandreplace = array(
-    'docs.loginradius.com'=>'www.loginradius.com/docs',
-    'apidocs-prod.us-east-1.elasticbeanstalk.com'=>'www.loginradius.com/docs'
+    'docs.loginradius.com'=>'www.loginradius.com/legacy/docs/',
+    'apidocs-prod.us-east-1.elasticbeanstalk.com'=>'www.loginradius.com/legacy/docs/'
 );
 $domain = str_replace(array_keys($searchandreplace), array_values($searchandreplace), $domain);
 //$domain = 'docs.loginradius.org/docs';
