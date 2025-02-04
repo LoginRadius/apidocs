@@ -32,7 +32,7 @@ We will be needing  the following information from you so, make sure you are rea
 
 6. **NameIdentifier**: A name identifier, represented by the <NameIdentifier> element in SAML1 and the <NameID> element in SAML2, is a direct way to name the subject of a SAML assertion. Name identifiers can be anything: an email address, a username, or Uid as required by your application. The default value is Uid for this field.
 
-7. **Field mapping values**: Provide mapping for LoginRadius' fields corresponding to the Service Provider fields and required format. Please see https://www.loginradius.com/docs/api/v2/getting-started/data-points/detailed-data-points/ for the available LoginRadius User Profile fields.
+7. **Field mapping values**: Provide mapping for LoginRadius' fields corresponding to the Service Provider fields and required format. Please see https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points/detailed-data-points/ for the available LoginRadius User Profile fields.
 
 ### WS Federation Endpoints
 

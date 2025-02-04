@@ -417,9 +417,9 @@ We suggest you can collect the address information after they log in to your Log
 - **How can our staff member update password for a consumer’s account in the PerfectMind application?**<br>
   As the authentication is managed by LoginRadius, your staff can not update the password in the PerfectMind application. Either your staff can leverage the LoginRadius Admin Console or call our server-side API from the PerfectMind Application to reset the password of a consumer.
 
-  - Please see https://www.loginradius.com/docs/customer-management/profile-view/#view-and-manage-customers for resetting a password for a customer's account in the Admin Console.
+  - Please see https://www.loginradius.com/legacy/docs/customer-management/profile-view/#view-and-manage-customers for resetting a password for a customer's account in the Admin Console.
 
-  - Please see https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-set-password/ for more information on reset password API.
+  - Please see https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-set-password/ for more information on reset password API.
 
 - **We are collecting DOB when signing up for an account in the LoginRadius, however, when the user is redirected to PM, the age shows as 0 in the PerfectMind application.**<br>
   The **Age** field is calculated automatically based on the DOB in the PerfectMind application. So, please remove the mapping for the Age field and add mapping for the birthdate.

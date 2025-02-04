@@ -24,15 +24,15 @@ Based on the above deprecations this may affect your LoginRadius implementation 
 
 - **Albums API:**
 
-	[https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/album](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/album)
+	[https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/album](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/album)
 
 - **Contacts API:**
 
-	[https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/contact](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/contact)
+	[https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/contact](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/contact)
 	
 - **Photos API:**
 
-	[https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/photo](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/photo)
+	[https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/photo](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/photo)
 
 The above deprecations also impact the data you can retrieve via the [User Profile API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/user-profile) from Google. 
 
