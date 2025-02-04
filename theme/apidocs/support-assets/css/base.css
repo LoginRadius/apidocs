@@ -1162,10 +1162,10 @@ article a.external:after {
 article a.external:active:after {
   background-position: left -36px;
 }
-article a[href^="/docs/api"] {
+article a[href^="/legacy/docs/api"] {
   position: relative;
 }
-article a[href^="/docs/api"]:after {
+article a[href^="/legacy/docs/api"]:after {
   content: "";
   position: absolute;
   bottom: 1px;
@@ -1830,11 +1830,11 @@ article ul.next-steps li a:after {
 article ul.next-steps li a:active:after {
   background-position: 0 100%;
 }
-article ul.next-steps li a[href^="/docs/api"] span {
+article ul.next-steps li a[href^="/legacy/docs/api"] span {
   position: relative;
   padding-right: 34px;
 }
-article ul.next-steps li a[href^="/docs/api"] span:after {
+article ul.next-steps li a[href^="/legacy/docs/api"] span:after {
   content: "";
   position: absolute;
   top: 4px;
@@ -1846,7 +1846,7 @@ article ul.next-steps li a[href^="/docs/api"] span:after {
   background-position: 0 0;
   background-repeat: no-repeat;
 }
-article ul.next-steps li a[href^="/docs/api"]:active span:after {
+article ul.next-steps li a[href^="/legacy/docs/api"]:active span:after {
   background-position: 0 100%;
 }
 article ul.next-steps li:not(:first-child) {

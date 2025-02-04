@@ -2212,7 +2212,7 @@ function testSDKDocs(sdk_arr, sdkMarkArray) {
 
     //a textfile that contains all the api names (json file names)
     $.ajax({
-        url: "/docs/theme/apidocs/assets/javascripts/allApiNames.txt",
+        url: "/legacy/docs/theme/apidocs/assets/javascripts/allApiNames.txt",
         success: function (data) {
 
             var hashArr = data.split("\n");
