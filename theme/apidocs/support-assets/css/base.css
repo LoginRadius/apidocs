@@ -1177,7 +1177,7 @@ article a[href^="/legacy/docs/api"]:after {
   background-position: 0 0;
   background-repeat: no-repeat;
 }
-article a[href^="/docs/api"]:active:after {
+article a[href^="/legacy/docs/api"]:active:after {
   background-position: 0 100%;
 }
 article code,
