@@ -3,10 +3,10 @@
     "description": "This release brings new APIs that enable OAuth clients on smart devices to obtain user authorization to access protected resources without using an on-device user-agent.",
     "changelog": {
         "ADDED": [{
-                "text": "Added <a href='https://www.loginradius.com/docs/api/v2/single-sign-on/federated-sso/oauth-2-0/request-device-code/'> Request Device Code </a> API."
+                "text": "Added <a href='https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/oauth-2-0/request-device-code/'> Request Device Code </a> API."
             },
             {
-                "text": "Added <a href='https://www.loginradius.com/docs/api/v2/single-sign-on/federated-sso/oauth-2-0/request-tokens//'> Request Tokens </a> API. "
+                "text": "Added <a href='https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/oauth-2-0/request-tokens//'> Request Tokens </a> API. "
             }
         ]
     },

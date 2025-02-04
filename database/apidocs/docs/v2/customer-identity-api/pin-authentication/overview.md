@@ -136,7 +136,7 @@ This guide focuses on the following deployment methods:
 
 - **JavaScript Libraries:** You should refer to these deployment steps if you are targeting LoginRadius Identity Platform implementation using JavaScript.
 
-However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found here: https://www.loginradius.com/docs/api/v2/getting-started/implementation-workflows/
+However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found here: https://www.loginradius.com/legacy/docs/api/v2/getting-started/implementation-workflows/
 
 > **Note:** 
 > - To  deploy the PIN Authentication using API refer to this [document](/api/v2/customer-identity-api/pin-authentication/login-by-pin/).
