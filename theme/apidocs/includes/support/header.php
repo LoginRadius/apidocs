@@ -210,7 +210,7 @@ $hooks->do_action('init');
 
 
 
-        <div class="custom-algolia-search" style="display: inline-flex;">
+        <!--<div class="custom-algolia-search" style="display: inline-flex;">
 
 
 
@@ -218,7 +218,7 @@ $hooks->do_action('init');
 
 
 
-        </div>
+        </div>-->
         <div class="custom-api-menu">
           <!--                        <nav class="md-nav md-nav--primary">-->
           <div class="account-dropdown top-menu md-header-nav__title">
