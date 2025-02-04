@@ -11,10 +11,10 @@ Leverage the LoginRadius Privacy Policy Versioning feature to seamlessly impleme
 
 LoginRadius offers two different workflows for privacy policy versioning.
 
-- **Moderated**: If this flow is enabled, the customer is prompted to accept the latest privacy policy, and the customer is logged in regardless if they accept or decline the policy. The latest accepted policy for the customer is stored in the [PrivacyPolicy](/api/v2/getting-started/data-points-and-response-codes/detailed-data-points) profile field for future reference, additional logic around the privacy policy can be added as part of your implementation. 
+- **Moderated**: If this flow is enabled, the customer is prompted to accept the latest privacy policy, and the customer is logged in regardless if they accept or decline the policy. The latest accepted policy for the customer is stored in the [PrivacyPolicy](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points-and-response-codes/detailed-data-points) profile field for future reference, additional logic around the privacy policy can be added as part of your implementation. 
 
 
-- **Strict**: If this flow is enabled, the customer must accept the latest version of the privacy policy. If a user does not have the latest version of the privacy policy, they will not be able to login, and will be prompted to accept the new policy. The latest accepted policy for the customer is stored in the [PrivacyPolicy](/api/v2/getting-started/data-points-and-response-codes/detailed-data-points) profile field.
+- **Strict**: If this flow is enabled, the customer must accept the latest version of the privacy policy. If a user does not have the latest version of the privacy policy, they will not be able to login, and will be prompted to accept the new policy. The latest accepted policy for the customer is stored in the [PrivacyPolicy](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points-and-response-codes/detailed-data-points) profile field.
 
 
 ## Configuration
@@ -44,7 +44,7 @@ You can check for the privacy logs for individual customer under the Manage sect
 
 1. If you're using the LoginRadiusV2.js interfaces on your website and you have the **Strict** flow enabled, the customers will automatically be prompted if they need to have the checkmark in the privacy policy acceptance box to proceed further with login or registration, this means that the Privacy Acceptance Message will be prompted automatically on the following interfaces: login, sociallogin, registration. 
 
-2. By default the privacy policy acceptance message that is prompted to the customer is "I agree to the terms of service". To configure the privacy policy acceptance message you will need to use a [Label Customization Hook](/api/v2/deployment/js-libraries/javascript-hooks#labelcustomizationhook1) on any page that uses an interface that might prompt the customer to accept the privacy policy, e.g. login, sociallogin, registration.
+2. By default the privacy policy acceptance message that is prompted to the customer is "I agree to the terms of service". To configure the privacy policy acceptance message you will need to use a [Label Customization Hook](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/javascript-hooks#labelcustomizationhook1) on any page that uses an interface that might prompt the customer to accept the privacy policy, e.g. login, sociallogin, registration.
 
   **Example:**
   ```
@@ -84,7 +84,7 @@ You can check for the privacy logs for individual customer under the Manage sect
 
 1. Prompt your customers to view the privacy policy and allow them to accept it.
 
-2. Based on whether the customer accepts the policy or not, update your payload for the [Auth User Registration by Email API](/api/v2/customer-identity-api/authentication/auth-user-registration-by-email) via the `AcceptPrivacyPolicy` field which takes a boolean.
+2. Based on whether the customer accepts the policy or not, update your payload for the [Auth User Registration by Email API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email) via the `AcceptPrivacyPolicy` field which takes a boolean.
 
 3. If your playload contains `"AcceptPrivacyPolicy": true` the customer will be created, If the payload contains `"AcceptPrivacyPolicy": false` and you have the **Strict** workflow enabled the customer will not be created, if you have the **Moderated** workflow enabled, the customer will be registered. Upon account creation, the privacy policy version will be stored in the `PrivacyPolicy` profile field:
 
@@ -101,7 +101,7 @@ You can check for the privacy logs for individual customer under the Manage sect
 Usage for existing customers
 
 1. The customer provides their credentials, and an API call is made to allow login e.g. [Auth Login by Email
-](/api/v2/customer-identity-api/authentication/auth-login-by-email), [Auth Login by Username API](/api/v2/customer-identity-api/authentication/auth-login-by-username), [Smart Login API](/api/v2/customer-identity-api/smart-login/overview), etc.
+](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-email), [Auth Login by Username API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-username), [Smart Login API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/overview), etc.
 
 2. Depending on which workflow you have enabled the API will respond differently:
 
@@ -122,7 +122,7 @@ Usage for existing customers
     }
    }
 	```
-You can use the provided `access_token` with the [Auth Privacy Policy Accept](/api/v2/customer-identity-api/authentication/auth-privacy-policy-accept) This will update/add the latest privacy policy version in the `PrivacyPolicy` profile field.
+You can use the provided `access_token` with the [Auth Privacy Policy Accept](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-privacy-policy-accept) This will update/add the latest privacy policy version in the `PrivacyPolicy` profile field.
 
 3. The customer is allowed to login, if you have the **Strict** workflow, the customer will be able to continue to login until you update the policy version in the LoginRadius Admin Console.
 

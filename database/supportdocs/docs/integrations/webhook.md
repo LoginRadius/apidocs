@@ -11,7 +11,7 @@ The following are the allowed events:
 Login, Register, UpdateProfile, ResetPassword, ChangePassword, EmailVerification, AddEmail, RemoveEmail, BlockAccount, DeleteAccount, SetUsername, AssignRoles, UnassignRoles, SetPassword, LinkAccount, UnlinkAccount, UpdatePhoneId, VerifyPhoneNumber, UpdateCustomobject, DeleteCustomObject, CreateCustomObject, InvalidateEmailVerification, InvalidatePhoneVerification, RemovePhoneId, RemoveRoleContext, ConsentProfileUpdate, SetPIN, ResetPIN and ChangePIN.
 
 
-The APIs associated with these events can be found [here](/api/v2/integrations/webhooks/overview/#apisassociatedwithwebhookevents0).
+The APIs associated with these events can be found [here](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/overview/#apisassociatedwithwebhookevents0).
 
 ## WebHook sample header
 
@@ -72,38 +72,38 @@ public class Program
 
 | Event                       | Sample Payload                                                        |
 | --------------------------- | --------------------------------------------------------------------- |
-| Login                       | [Link](/integrations/webhooks/samples/#login0)                        |
-| Register                    | [Link](/integrations/webhooks/samples/#register1)                     |
-| UpdateProfile               | [Link](/integrations/webhooks/samples/#updateprofile2)                |
-| ResetPassword               | [Link](/integrations/webhooks/samples/#resetpassword3)                |
-| ChangePassword              | [Link](/integrations/webhooks/samples/#changepassword4)               |
-| emailVerification           | [Link](/integrations/webhooks/samples/#emailverification5)            |
-| AddEmail                    | [Link](/integrations/webhooks/samples/#addemail6)                     |
-| RemoveEmail                 | [Link](/integrations/webhooks/samples/#removeemail7)                  |
-| BlockAccount                | [Link](/integrations/webhooks/samples/#blockaccount8)                 |
-| DeleteAccount               | [Link](/integrations/webhooks/samples/#deleteaccount9)                |
-| SetUsername                 | [Link](/integrations/webhooks/samples/#setusername10)                 |
-| AssignRoles                 | [Link](/integrations/webhooks/samples/#assignroles11)                 |
-| UnassignRoles               | [Link](/integrations/webhooks/samples/#unassignroles12)               |
-| SetPassword                 | [Link](/integrations/webhooks/samples/#setpassword13)                 |
-| LinkAccount                 | [Link](/integrations/webhooks/samples/#linkaccount14)                 |
-| UnlinkAccount               | [Link](/integrations/webhooks/samples/#unlinkaccount15)               |
-| UpdatePhoneId               | [Link](/integrations/webhooks/samples/#updatephoneId16)               |
-| VerifyPhoneNumber           | [Link](/integrations/webhooks/samples/#verifyphonenumber17)           |
-| UpdateCustomobject          | [Link](/integrations/webhooks/samples/#updatecustomobject18)          |
-| DeleteCustomObject          | [Link](/integrations/webhooks/samples/#deletevustomobject19)          |
-| CreateCustomObject          | [Link](/integrations/webhooks/samples/#createcustomobject20)          |
-| InvalidateEmailVerification | [Link](/integrations/webhooks/samples/#invalidateemailverification21) |
-| InvalidatePhoneVerification | [Link](/integrations/webhooks/samples/#invalidatephoneverification22) |
-| RemovePhoneId               | [Link](/integrations/webhooks/samples/#removephoneid23)               |
-| RemoveRoleContext           | [Link](/integrations/webhooks/samples/#removerolecontext24)           |
-| SetPin                      | [Link](/integrations/webhooks/samples/#setpin25)           |
-| ResetPin                    | [Link](/integrations/webhooks/samples/#resetpin26)           |
-| ChangePin                   | [Link](/integrations/webhooks/samples/#changepin27)           |
+| Login                       | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#login0)                        |
+| Register                    | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#register1)                     |
+| UpdateProfile               | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#updateprofile2)                |
+| ResetPassword               | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#resetpassword3)                |
+| ChangePassword              | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#changepassword4)               |
+| emailVerification           | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#emailverification5)            |
+| AddEmail                    | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#addemail6)                     |
+| RemoveEmail                 | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#removeemail7)                  |
+| BlockAccount                | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#blockaccount8)                 |
+| DeleteAccount               | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#deleteaccount9)                |
+| SetUsername                 | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#setusername10)                 |
+| AssignRoles                 | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#assignroles11)                 |
+| UnassignRoles               | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#unassignroles12)               |
+| SetPassword                 | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#setpassword13)                 |
+| LinkAccount                 | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#linkaccount14)                 |
+| UnlinkAccount               | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#unlinkaccount15)               |
+| UpdatePhoneId               | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#updatephoneId16)               |
+| VerifyPhoneNumber           | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#verifyphonenumber17)           |
+| UpdateCustomobject          | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#updatecustomobject18)          |
+| DeleteCustomObject          | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#deletevustomobject19)          |
+| CreateCustomObject          | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#createcustomobject20)          |
+| InvalidateEmailVerification | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#invalidateemailverification21) |
+| InvalidatePhoneVerification | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#invalidatephoneverification22) |
+| RemovePhoneId               | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#removephoneid23)               |
+| RemoveRoleContext           | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#removerolecontext24)           |
+| SetPin                      | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#setpin25)           |
+| ResetPin                    | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#resetpin26)           |
+| ChangePin                   | [Link](https://www.loginradius.com/legacy/docs/integrations/webhooks/samples/#changepin27)           |
 
 ## Configure WebHook
 
-WebHook can be configured on LoginRadius in Admin Console or by leveraging LoginRadius [WebHook](/api/v2/integrations/webhooks/overview/#webhookapis3) APIs.
+WebHook can be configured on LoginRadius in Admin Console or by leveraging LoginRadius [WebHook](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/overview/#webhookapis3) APIs.
 
 Below are the steps to add a WebHook event to LoginRadius via the **Admin Console**.
 
@@ -135,4 +135,4 @@ To **remove** any Webhook event from LoginRadius, click the corresponding **drop
 
 ![Unsubscribe Webhook](https://apidocs.lrcontent.com/images/Webhook---Step-6_6105856666474e06506ae19.01889045.png "Unsubscribe Webhook")
 
-> **Note:** For more details on the APIs associated with WebHooks, its handling, payload information, and the WebHook APIs, refer to the [Webhook API Overview](/api/v2/integrations/webhooks/overview/) document.
+> **Note:** For more details on the APIs associated with WebHooks, its handling, payload information, and the WebHook APIs, refer to the [Webhook API Overview](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/overview/) document.

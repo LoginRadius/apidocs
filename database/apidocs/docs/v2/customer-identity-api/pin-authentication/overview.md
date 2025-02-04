@@ -139,8 +139,8 @@ This guide focuses on the following deployment methods:
 However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found here: https://www.loginradius.com/legacy/docs/api/v2/getting-started/implementation-workflows/
 
 > **Note:** 
-> - To  deploy the PIN Authentication using API refer to this [document](/api/v2/customer-identity-api/pin-authentication/login-by-pin/).
-> - To deploy the PIN Authentication using technology-specific SDK refer to this [document](/api/v2/deployment/sdk-libraries/overview/).
+> - To  deploy the PIN Authentication using API refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/pin-authentication/login-by-pin/).
+> - To deploy the PIN Authentication using technology-specific SDK refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/deployment/sdk-libraries/overview/).
 
 
 ### IDX Deployment
@@ -431,5 +431,5 @@ LRObject.util.ready(function() {
 
 Refer to the below document in case of using PIN feature for Re-Authentication.
 
-[Document](/api/v2/customer-identity-api/re-authentication/pin/overview/)
+[Document](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/re-authentication/pin/overview/)
 

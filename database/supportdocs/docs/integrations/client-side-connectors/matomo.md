@@ -2,7 +2,7 @@
 Matomo, previously known as Piwik, is a open-source analytics platform you can use to track the behaviour of both visitors and registered users of your website. Our integration offers the possibility of tracking events coming from LoginRadius interfaces and custom events from your interface. You can decide to track either category (LoginRadius and custom) of events separately or both categories simultaneously.
 
 ## Implementation
-If you have not read the [Getting Started document](/integrations/client-side-connectors/getting-started/) on client-side integrations, please do so now. Your understanding of the content below depends on having read that document first.
+If you have not read the [Getting Started document](https://www.loginradius.com/legacy/docs/integrations/client-side-connectors/getting-started/) on client-side integrations, please do so now. Your understanding of the content below depends on having read that document first.
 
 ### Load the JavaScript Files
 
@@ -49,7 +49,7 @@ This section covers the use of the _LRObject.identify(integrationName, data, map
 
 ###  Default Mapping: LRObject.identify('matomo', response.Profile, {})
 
-Pass an empty object to the mapping parameter to log the values of **_all_** the supported standard keys supported. For a list of these keys, check the [Getting Started document](/api/v2/integrations/client-side-integrations/getting-started).
+Pass an empty object to the mapping parameter to log the values of **_all_** the supported standard keys supported. For a list of these keys, check the [Getting Started document](https://www.loginradius.com/legacy/docs/api/v2/integrations/client-side-integrations/getting-started).
 
 ### Filtered Mapping: LRObject.identify('matomo', response.Profile, mapping)
 
@@ -77,7 +77,7 @@ There is an order followed when logging the keys' values to Matomo. Standard key
 
 ### Custom Mapping: LRObject.identify('matomo', customObject, '', true)
 
-If the fourth argument - isCustom - is set to true, a custom object must be passed as the second argument. As outlined in the [Getting Started document](/integrations/integration-platform/client-side-integration/), the object must consist of key-value pairs you want to push to the service being integrated. Thus, an example of the customObject is:
+If the fourth argument - isCustom - is set to true, a custom object must be passed as the second argument. As outlined in the [Getting Started document](https://www.loginradius.com/legacy/docs/integrations/integration-platform/client-side-integration/), the object must consist of key-value pairs you want to push to the service being integrated. Thus, an example of the customObject is:
 
 ```
 	var customObject =  {

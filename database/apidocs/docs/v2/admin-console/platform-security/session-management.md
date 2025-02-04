@@ -16,4 +16,4 @@ If enabled, upon Password Reset or Password Change, it will expire all active se
 
 You can enable the Remember Me option to have the customers remain logged in even after the browser closes until the access token expires.
 
-For more information about the configuration of the above way, please refer [here](/authentication/concepts/session-management/).
+For more information about the configuration of the above way, please refer [here](https://www.loginradius.com/legacy/docs/authentication/concepts/session-management/).

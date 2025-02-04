@@ -77,9 +77,9 @@ Follow the steps below to implement MFA via our MFA API which uses a mix of fron
 
     You can use the following methods for the first factor:
 
-    - [MFA Email Login API](/api/v2/user-registration/2fa-email-login): To have a Standard Login flow requiring email and password.
+    - [MFA Email Login API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-email-login): To have a Standard Login flow requiring email and password.
 
-    - [MFA Phone Login](/api/v2/user-registration/2fa-phone-login): If your API has been configured for phone-based authentication, use this API to authenticate the user by phone.
+    - [MFA Phone Login](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-phone-login): If your API has been configured for phone-based authentication, use this API to authenticate the user by phone.
 
     Once a consumer logs in via one of these APIs, you will receive an API response to proceed to the next step, which will look like this:
 
@@ -116,17 +116,17 @@ Follow the steps below to implement MFA via our MFA API which uses a mix of fron
     - **Email**: All registered emails on profile.
     - **EmailOTPStatus**: If OTP has been sent to an email already. In the case where only email authenticator is enabled and only one email is registered in profile.
 
-2.  If `IsEmailOtpAuthenticatorVerified` is false in the response then you can prompt the consumer to select an email from the email list by using [Send MFA Email OTP By MFA Token ](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-mfa-token/)API to trigger the OTP.
+2.  If `IsEmailOtpAuthenticatorVerified` is false in the response then you can prompt the consumer to select an email from the email list by using [Send MFA Email OTP By MFA Token ](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-mfa-token/)API to trigger the OTP.
 
-3.  Allow the consumer to log in by providing the OTP they received on email using the [Verify MFA Email Otp by MFA Token](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/verify-mfa-email-otp-by-mfa-token/) API.
+3.  Allow the consumer to log in by providing the OTP they received on email using the [Verify MFA Email Otp by MFA Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/verify-mfa-email-otp-by-mfa-token/) API.
 
     > **Note:** You will need to provide this API call with the second-factor authentication token from the first-factor authentication with the OTP.
 
-4.  In the case of optional MFA you can use [ Verify Email OTP By Access Token](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/verify-mfa-email-otp-by-access-token/) to set up the MFA Email OTP authenticator on profile after login.
+4.  In the case of optional MFA you can use [ Verify Email OTP By Access Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/verify-mfa-email-otp-by-access-token/) to set up the MFA Email OTP authenticator on profile after login.
 
-5.  After the login you can allow your consumer to trigger the OTP by using [Send MFA Email OTP By Access Token](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-access-token/)API.
+5.  After the login you can allow your consumer to trigger the OTP by using [Send MFA Email OTP By Access Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/send-mfa-email-otp-by-access-token/)API.
 
-6.  Provide additional workflows or options to the consumer by leveraging more MFA Email OTP API. For example, allowing your consumers to reset MFA email otp settings with the [DELETE Reset MFA Email OTP Authenticator Settings](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-access-token/), and also you can leverage this by calling this [ DELETE Reset MFA Email OTP Authenticator Settings by Uid](/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-uid/) API at server side.
+6.  Provide additional workflows or options to the consumer by leveraging more MFA Email OTP API. For example, allowing your consumers to reset MFA email otp settings with the [DELETE Reset MFA Email OTP Authenticator Settings](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-access-token/), and also you can leverage this by calling this [ DELETE Reset MFA Email OTP Authenticator Settings by Uid](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/email-authenticator/reset-mfa-email-otp-authenticator-settings-by-uid/) API at server side.
 
 ### Sample Email template
 

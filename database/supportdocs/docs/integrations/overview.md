@@ -4,7 +4,7 @@ LoginRadius Integrations allow you to sync data from your LoginRadius Cloud Data
 
 ![Integration](https://apidocs.lrcontent.com/images/1_280065ef31d281efac7.08660147.png "Flow Chart")
 
-The LoginRadius Integrations help businesses create a central hub for customer data. Customers can collect data from registration and log in events, along with other attached events such as web page views, button clicks, or other specific actions performed on your app or site, and send it to over 100 different integrations available on the platform. The data that is sent through LoginRadius is normalized into the [LoginRadius data schema](/api/v2/user-registration/detailed-data-point) and will be mapped based on the 3rd party system’s data schema. Click [here](/api/v2/integrations/available-integrations) for a list of integrations supported by the LoginRadius.
+The LoginRadius Integrations help businesses create a central hub for customer data. Customers can collect data from registration and log in events, along with other attached events such as web page views, button clicks, or other specific actions performed on your app or site, and send it to over 100 different integrations available on the platform. The data that is sent through LoginRadius is normalized into the [LoginRadius data schema](https://www.loginradius.com/legacy/docs/api/v2/user-registration/detailed-data-point) and will be mapped based on the 3rd party system’s data schema. Click [here](https://www.loginradius.com/legacy/docs/api/v2/integrations/available-integrations) for a list of integrations supported by the LoginRadius.
 
 
 ## Benefits of using the LoginRadius Integrations
@@ -49,4 +49,4 @@ The LoginRadius Integrations section covers six types of Integrations:
 
 LoginRadius can integrate with dozens of third-party software to work seamlessly with your existing applications, delivering uninterrupted data flow and customer registration. Optimize ad campaigns, automatically create lead profiles, increase landing page conversion, and eliminate hundreds of development hours.
 
-Check out the full list of integrations and turn-key plugins [here](/integrations/available-integrations/).
+Check out the full list of integrations and turn-key plugins [here](https://www.loginradius.com/legacy/docs/integrations/available-integrations/).

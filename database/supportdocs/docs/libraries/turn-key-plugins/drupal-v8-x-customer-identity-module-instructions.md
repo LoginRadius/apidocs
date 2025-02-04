@@ -235,17 +235,17 @@ Composer is now aware that the LoginRadius PHP SDK is required. It will first ad
 - [Registration Form Schema](#registrationformschema26)
 
 ### Enable Passwordless link login
-<br>LoginRadius customers can set up a login flow that allows users to login without a password by enabling this option. At the same time, Customers have to enable passwordless login from Admin console as well. For more details, Please review our [Passwordless Link Login](/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithemail0) documentation.
+<br>LoginRadius customers can set up a login flow that allows users to login without a password by enabling this option. At the same time, Customers have to enable passwordless login from Admin console as well. For more details, Please review our [Passwordless Link Login](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithemail0) documentation.
 <br><br>Passwordless SMS templates can be added/Modified in **Admin Console** which will be displayed in the drupal admin authentication page.
 
 
 ### Enable Passwordless OTP Login
 
- <br>LoginRadius customers can set up a Passwordless OTP flow that lets the end-user enter his phone number and click on the Passwordless OTP login button. Enter the OTP which is received in phone number to login. Customers have to enable Passwordless OTP login from Admin console as well. For more details, Please review our  [Passwordless OTP Login](/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithotp1) documentation.
+ <br>LoginRadius customers can set up a Passwordless OTP flow that lets the end-user enter his phone number and click on the Passwordless OTP login button. Enter the OTP which is received in phone number to login. Customers have to enable Passwordless OTP login from Admin console as well. For more details, Please review our  [Passwordless OTP Login](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithotp1) documentation.
 <br><br>Passwordless SMS templates can be added/Modified in "Admin Console" which will be displayed in the drupal admin authentication page.
 
 ### Enable password strength
-  <br>Password strength is a measure of the effectiveness of a password in resisting guessing and brute-force attacks. The strength of a password is a function of length, complexity, and unpredictability. For more details review our [Javascript Hooks](/api/v2/user-registration/javascript-hooks#passwordstrengthfeature19) documentation.
+  <br>Password strength is a measure of the effectiveness of a password in resisting guessing and brute-force attacks. The strength of a password is a function of length, complexity, and unpredictability. For more details review our [Javascript Hooks](https://www.loginradius.com/legacy/docs/api/v2/user-registration/javascript-hooks#passwordstrengthfeature19) documentation.
   <br><br>![enter image description here](https://apidocs.lrcontent.com/images/passwordless_18395e05c187906b54.03778082.png "enter image title here")
 
 ### Message timeout setting
@@ -283,7 +283,7 @@ Composer is now aware that the LoginRadius PHP SDK is required. It will first ad
   <br><br>![enter image description here](https://apidocs.lrcontent.com/images/terms_319515e05c3b06d2b74.95752237.png "enter image title here")
 
 ### Common Options
-   Admin can also enter the common options of loginRadius JS in **Common options for loginRadius interface** field, click [here](/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3) for details on common options.
+   Admin can also enter the common options of loginRadius JS in **Common options for loginRadius interface** field, click [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3) for details on common options.
   <br><br>For example :
 
 ```
@@ -300,7 +300,7 @@ commonOptions.loginOnEmailVerification = true;
 
 ### Overview
 
-LoginRadius [Single Sign-On](/api/v2/single-sign-on/overview) (SSO) is a feature for multiple site management. It allows your end users to log into one site and when they navigate to other sites belonging to you and are enabled with LoginRadius Single Sign-On(SSO), they are already identified as registered users and logged in automatically to the site
+LoginRadius [Single Sign-On](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/overview) (SSO) is a feature for multiple site management. It allows your end users to log into one site and when they navigate to other sites belonging to you and are enabled with LoginRadius Single Sign-On(SSO), they are already identified as registered users and logged in automatically to the site
 
 ### Configuration
 
@@ -325,7 +325,7 @@ Customers can update their profile after login from the profile editor section.
 
 ## Multi-Factor Authentication
 
-In the case of traditional login, if [Multi-Factor Authentication](/api/v2/user-registration/two-factor-authentication-overview) is enabled on your app then MFA section will be displayed on the profile page. Click on **2-Step Verification** button to enable Multi-Factor Authentication. 
+In the case of traditional login, if [Multi-Factor Authentication](https://www.loginradius.com/legacy/docs/api/v2/user-registration/two-factor-authentication-overview) is enabled on your app then MFA section will be displayed on the profile page. Click on **2-Step Verification** button to enable Multi-Factor Authentication. 
 
   <br>By default, MFA is disabled on your LoginRadius site. To enable MFA for your site, in the Admin Console, go to [**Platform Security > Multi-Layered Security > Multi-Factor Auth**](https://adminconsole.loginradius.com/platform-security/multi-layered-security/multi-factor-authentication/settings). Select the **Enable** option under **Multi-Factor Authentication** and the relevant flow option under the **Select Flow** section.
 

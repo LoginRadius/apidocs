@@ -292,9 +292,9 @@ To configure the obtained credentials(API Hash) in the LoginRadius Identity Plat
 
 The following is the list of features you might want to add-on to the above implementation:
 
-- [SMS Communication and Configuration](/authentication/concepts/sms-communication/)
+- [SMS Communication and Configuration](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/)
 
-- [Email Communication and Configuration](/authentication/concepts/email-communications/)
+- [Email Communication and Configuration](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/)
 
 
 

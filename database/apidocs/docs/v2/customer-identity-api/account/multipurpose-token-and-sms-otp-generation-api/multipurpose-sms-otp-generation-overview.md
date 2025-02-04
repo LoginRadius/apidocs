@@ -1,6 +1,6 @@
 # Multipurpose SMS OTP Generation API Guide
 
-This comprehensive guide will provide all the necessary information and instructions to effectively utilize the [**Multipurpose OTP Generation API**](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation/) that allows you to generate OTPs (One-Time Passwords) for various SMS-based scenarios. To generate OTPs for different use cases, specify the "smsotptype" parameter in the URL.
+This comprehensive guide will provide all the necessary information and instructions to effectively utilize the [**Multipurpose OTP Generation API**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation/) that allows you to generate OTPs (One-Time Passwords) for various SMS-based scenarios. To generate OTPs for different use cases, specify the "smsotptype" parameter in the URL.
 
 Possible SMS OTP Types:
 

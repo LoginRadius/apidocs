@@ -111,9 +111,9 @@ To know the secret click on the **Show Details** button
     To know the domain follow the steps-  
     e.g.: https://testlr.auth.us-east-1.amazoncognito.com/oauth2/token
     
-   <b> **4.** </b>  **Application Key**-  To know the Application key from Cognito follow the steps [here](/single-sign-on/concept/custom-idp-provider/aws-cognito-as-custom-idp/#applicationkeyandsecrete4)
+   <b> **4.** </b>  **Application Key**-  To know the Application key from Cognito follow the steps [here](https://www.loginradius.com/legacy/docs/single-sign-on/concept/custom-idp-provider/aws-cognito-as-custom-idp/#applicationkeyandsecrete4)
     
-   <b> **5.** </b>  **Application Secret**-  To know the Application secret from Cognito follow the steps [here](/single-sign-on/concept/custom-idp-provider/aws-cognito-as-custom-idp/#applicationkeyandsecrete4)
+   <b> **5.** </b>  **Application Secret**-  To know the Application secret from Cognito follow the steps [here](https://www.loginradius.com/legacy/docs/single-sign-on/concept/custom-idp-provider/aws-cognito-as-custom-idp/#applicationkeyandsecrete4)
     
    <b> **6.** </b>  **Scope**- email openid
     
@@ -124,7 +124,7 @@ To know the secret click on the **Show Details** button
    
 Format- https://<Domain>/oauth2/userInfo  
    
-To know the domain follow the steps- [here](/single-sign-on/concept/custom-idp-provider/aws-cognito-as-custom-idp/#datatobeusedinloginradius2)
+To know the domain follow the steps- [here](https://www.loginradius.com/legacy/docs/single-sign-on/concept/custom-idp-provider/aws-cognito-as-custom-idp/#datatobeusedinloginradius2)
     
 e.g.: https://testlr.auth.us-east-1.amazoncognito.com/oauth2/userInfo
     

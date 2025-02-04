@@ -30,7 +30,7 @@ The following screen will appear:
 
 The above screen displays that the Phone Registration is enabled for your account, since the Phone Registration box is in green with the **enabled** text. If not enabled for your account, raise a request to the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
 
-> **Note:** In addition to this feature if you also want to disable the use of **Login APIs**, where password is **required field**, such as [**Auth Login By Email**](/api/v2/customer-identity-api/authentication/auth-login-by-email/), [**Auth Login By Username**](/api/v2/customer-identity-api/authentication/auth-login-by-username/) or [**Auth Login By Phone**](/api/v2/customer-identity-api/phone-authentication/phone-login/), and etc., please raise a request to the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
+> **Note:** In addition to this feature if you also want to disable the use of **Login APIs**, where password is **required field**, such as [**Auth Login By Email**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-email/), [**Auth Login By Username**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-username/) or [**Auth Login By Phone**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-login/), and etc., please raise a request to the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
 
 ## Part 1 - Configuration
 
@@ -53,7 +53,7 @@ To allow the customer to login using the Phone Number, the **Phone ID** should b
 
 To make it mandatory, navigate to the Advanced tab, select the **Mandatory** option in settings and click the **Save** button.
 
-In addition, you can define validation rules for the **Phone ID** field from our [validation rule](/api/v2/deployment/js-libraries/javascript-hooks/#customvalidationhook15) list or by adding a custom regex.
+In addition, you can define validation rules for the **Phone ID** field from our [validation rule](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/javascript-hooks/#customvalidationhook15) list or by adding a custom regex.
 
 The following screen will display the above-explained **Settings** and **Validation String** options of the Advanced tab:
 
@@ -61,7 +61,7 @@ The following screen will display the above-explained **Settings** and **Validat
 
 You can also include other desired fields to the registration form. For more details, refer to the following:
 
-[Registration Form Fields Configurations](/authentication/quick-start/standard-login/)
+[Registration Form Fields Configurations](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/)
 
 Once your customer is registered by providing the Phone Number, a verification OTP is sent on the phone number. The default **OTP Settings** and **SMS Templates** are used for sending the verification OTP. **Step 2** and **Step 3** respectively explain how you can manage them as per your requirements.
 
@@ -161,7 +161,7 @@ The following are the predefined placeholders that you can use in the SMS conten
  * #Email#: Email address from the registered user's profile.
 ```
 
-> **Note:** For details around SMS Gateway Configurations, refer to [SMS Provider documentation](/authentication/concepts/sms-configuration/).
+> **Note:** For details around SMS Gateway Configurations, refer to [SMS Provider documentation](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-configuration/).
 
 ## Part 2 - Deployment 
 
@@ -172,11 +172,11 @@ This guide focuses on the following deployment methods:
 
 - **[JavaScript Libraries](#javascriptdeployment5):** You should refer to these deployment steps if you are targeting LoginRadius Identity Platform implementation using JavaScript.
 
-However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](/api/v2/getting-started/implementation-workflows/).
+However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](https://www.loginradius.com/legacy/docs/api/v2/getting-started/implementation-workflows/).
 
 > **Note:** 
-- To implement the Phone Login using API refer to this [document](/api/v2/customer-identity-api/phone-authentication/overview/).
-- To implement the Phone Login using technology-specific SDK refer to this [document](/api/v2/deployment/sdk-libraries/overview/)
+- To implement the Phone Login using API refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/overview/).
+- To implement the Phone Login using technology-specific SDK refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/deployment/sdk-libraries/overview/)
 
 ### IDX Deployment
 
@@ -194,7 +194,7 @@ The Auth Page URL displays your unique hosted page domain in the following forma
 <https://<sitename>.hub.loginradius.com/auth.aspx>
 ```
 
-In the above URL, [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
+In the above URL, [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
 
 **Step 2:** Embed Authentication Pages in your Website as explained below:
 
@@ -248,7 +248,7 @@ function getParameterByName(name) {
 var access_token = getParameterByName(“token”);
 ```
 
-> **Note:** We have additional language-specific examples [here](/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
+> **Note:** We have additional language-specific examples [here](https://www.loginradius.com/legacy/docs/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
 
 **Step 3:** Store the captured **Access Token** as explained below:
 
@@ -301,7 +301,7 @@ localStorage.setItem("lr-session-token", access_token);// First parameter will b
 
 **Step 4:** You can use the **Access Token** as explained below:
 
-Call the [LoginRadius API](/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) to retrieve the customer profile using the Access Token. Alternatively, you can leverage any of our SDKs to accomplish this.
+Call the [LoginRadius API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) to retrieve the customer profile using the Access Token. Alternatively, you can leverage any of our SDKs to accomplish this.
 
 The following is the script example to retrieve the customer profile:
 
@@ -383,14 +383,14 @@ LRObject.init("login",login_options);
 
 The following is the list of features you might want to add-on to the above implementation:
 
-[Passwordless Login](/authentication/tutorial/passwordless-login)
+[Passwordless Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/passwordless-login)
 
-[SMS Communication](/authentication/concepts/sms-communication/)
+[SMS Communication](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/)
 
-[UI and UX customizations of IDX pages](/authentication/concepts/ui-ux-customizations-idx/)
+[UI and UX customizations of IDX pages](https://www.loginradius.com/legacy/docs/authentication/concepts/ui-ux-customizations-idx/)
 
-[Setup Password Policy](/api/v2/admin-console/platform-security/password-policy/)
+[Setup Password Policy](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/password-policy/)
 
-[PIN Authentication](/api/v2/customer-identity-api/authentication/pin-authentication/overview/)
+[PIN Authentication](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/overview/)
 
-[JS Customizations](/api/v2/deployment/js-libraries/getting-started/#login7)
+[JS Customizations](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/getting-started/#login7)

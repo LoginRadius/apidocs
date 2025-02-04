@@ -8,7 +8,7 @@ This concept is useful when you want to establish SSO among applications that ha
 - And then map the Authentication API's JSON profile output into a format that your application’s existing configuration can consume.
 
 
-The Delegation Login API works the same way as the [Auth Login By Email](/api/v2/customer-identity-api/authentication/auth-login-by-email/) API and requires the same input parameters. 
+The Delegation Login API works the same way as the [Auth Login By Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-email/) API and requires the same input parameters. 
 
 ## Delegation Auth Guide
 
@@ -95,5 +95,5 @@ The following  table displays the Delegation API’s endpoint and related inform
 
 The following is the list of documents you might want to look into:
 
-- [SSO Overview](/single-sign-on/overview/)
-- [Password Delegation](/single-sign-on/password-delegation-api/)
+- [SSO Overview](https://www.loginradius.com/legacy/docs/single-sign-on/overview/)
+- [Password Delegation](https://www.loginradius.com/legacy/docs/single-sign-on/password-delegation-api/)

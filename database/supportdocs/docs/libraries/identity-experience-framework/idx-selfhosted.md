@@ -87,14 +87,14 @@ LRObject.util.ready(function() {
 
 ### IDX Configuration
 
-While you're able to leverage some of the LoginRadiusV2.js options as per the details above in our [LoginRadiusV2.js Configuration](/libraries/js-libraries/getting-started/#initializationofloginradiusobject3) section. The advantage of the Identity Experience Framework only becomes apparent when you look at the options in it that allow you to control
+While you're able to leverage some of the LoginRadiusV2.js options as per the details above in our [LoginRadiusV2.js Configuration](https://www.loginradius.com/legacy/docs/libraries/js-libraries/getting-started/#initializationofloginradiusobject3) section. The advantage of the Identity Experience Framework only becomes apparent when you look at the options in it that allow you to control
 both UI and UX. This section covers these options.
 
 >**Note:** All of the options will be added to the options object:
 `var options = {}`
 
 1) Language: this field provides you a way to set up the page in your preferred language. To have a language be available, you will need to 
-create a file with the translations inside as per our [Languages Customizations](/libraries/js-libraries/javascript-hooks/#languagecustomizations22)
+create a file with the translations inside as per our [Languages Customizations](https://www.loginradius.com/legacy/docs/libraries/js-libraries/javascript-hooks/#languagecustomizations22)
 steps.
 
 e.g.

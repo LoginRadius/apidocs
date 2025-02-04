@@ -21,7 +21,7 @@ Install all package dependencies by running `go get ./...` in the root folder of
 
 Take a peek:
 
-Before making any API calls, the LoginRadius API client must be initialized with your Loginradius API key and API secret, This information can be found in your LoginRadius account as described [here](/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret)
+Before making any API calls, the LoginRadius API client must be initialized with your Loginradius API key and API secret, This information can be found in your LoginRadius account as described [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret)
 Sample code:
 
 ```go
@@ -740,7 +740,7 @@ if err != nil {
 
 This API is used to retrieve the list of security questions configured for a customer using their email.
 
-[Documentation](/api/v2/customer-identity-api/authentication/security-questions-by-email)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-email)
 
 Example:
 
@@ -2346,7 +2346,7 @@ This API is used to re-authenticate via Multi-Factor Authentication by passing i
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](/api/v2/customer-identity-api/step-up-authentication/step-up-auth-validate-password/)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/step-up-authentication/step-up-auth-validate-password/)
 
 Example:
 
@@ -2457,7 +2457,7 @@ if err != nil {
 
 This API is used to translate a LoginRadius Request Token into an Access Token that can be used with all APIs.
 
-For more information on LoginRadius Request Tokens, see [this documentation](/infrastructure-and-security/loginradius-tokens#loginradius-request-token-expiration-15-mins-).
+For more information on LoginRadius Request Tokens, see [this documentation](https://www.loginradius.com/legacy/docs/infrastructure-and-security/loginradius-tokens#loginradius-request-token-expiration-15-mins-).
 
 [Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/access-token)
 

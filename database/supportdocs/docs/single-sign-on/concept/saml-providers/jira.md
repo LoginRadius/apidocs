@@ -86,7 +86,7 @@ The following screens will appear:
 
     **Note:** Your apiKey and SAML App name can be found under the LoginRadius [**Admin Console -> Platform Security -> Data Access Protection -> API Credentials ->Account API Keys**](https://adminconsole.loginradius.com/platform-security/data-access-protection/api-credentials/account-api-keys).
 
-- **X.509 Certificate:** Add your X.509 certificate value here. For more information on how to generate a certificate and key, you can refer to this [document](/single-sign-on/concept/saml-miscellaneous/certificate/).
+- **X.509 Certificate:** Add your X.509 certificate value here. For more information on how to generate a certificate and key, you can refer to this [document](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-miscellaneous/certificate/).
 
 > **Note:**  You need to set **End Of Line** Conversion for Linux Server in X.509 certificates.
 

@@ -16,13 +16,13 @@ Eg: Name, Email, PhoneID, etc., or the other fields you have set in Standard log
 
 In addition to the search feature available in the Admin Console, you can also use our APIs to get the customer details. Please check the below API links.
 
-- [Account Identities by Email](/api/v2/customer-identity-api/account/account-identities-by-email/)
-- [Account Impersonation API](/api/v2/customer-identity-api/account/account-impersonation-api/)
-- [Account Password](/api/v2/customer-identity-api/account/account-password/)
-- [Account Profiles by Email](/api/v2/customer-identity-api/account/account-profiles-by-email/)
-- [Account Profiles by User Name](/api/v2/customer-identity-api/account/account-profiles-by-user-name/)
-- [Account Profiles by Phone ID](/api/v2/customer-identity-api/account/account-profiles-by-phone-id/)
-- [Account Profiles by UID](/api/v2/customer-identity-api/account/account-profiles-by-uid/)
+- [Account Identities by Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-identities-by-email/)
+- [Account Impersonation API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-impersonation-api/)
+- [Account Password](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-password/)
+- [Account Profiles by Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-email/)
+- [Account Profiles by User Name](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-user-name/)
+- [Account Profiles by Phone ID](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-phone-id/)
+- [Account Profiles by UID](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-uid/)
 
 ## Manage Accounts
 
@@ -32,7 +32,7 @@ This option presents you with all of the fields for that particular user.
 
 E.g., "Personal Info", "Custom Fields", Security, Roles, etc.
 
-For more details on fields available on the **Manage** option, you can refer to this [document](/customer-management/profile-view/).
+For more details on fields available on the **Manage** option, you can refer to this [document](https://www.loginradius.com/legacy/docs/customer-management/profile-view/).
 
 ![Manage Button](https://apidocs.lrcontent.com/images/4--Manage-Button_4806630253d8ad2082.72767805.png "Manage Button")
 
@@ -46,9 +46,9 @@ You can block your customers, which will restrict them, or block them from loggi
 
 ![Unblock Customer](https://apidocs.lrcontent.com/images/5--Unblock-Customer_2254963025415efc658.49875367.png "Unblock Customer")
 
-Additionally, you can use our API to unblock users by using the access token. Please check the link below to our [API document](/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token/).
+Additionally, you can use our API to unblock users by using the access token. Please check the link below to our [API document](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token/).
 
-> **Note:** Alternatively, you can block or unblock an account using the [**Account Update API**](/api/v2/customer-identity-api/account/account-update/) by passing the value of the **IsActive** field as **false or true**, respectively. If the passed value is **false**, the account will be **blocked**, whereas if the passed value is **true**, the account will be **unblocked.** 
+> **Note:** Alternatively, you can block or unblock an account using the [**Account Update API**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update/) by passing the value of the **IsActive** field as **false or true**, respectively. If the passed value is **false**, the account will be **blocked**, whereas if the passed value is **true**, the account will be **unblocked.** 
 
 ## Add a new Customer
 
@@ -59,7 +59,7 @@ See the screenshot below to show the process of manually adding a customer.
 
 ![Add New Customer](https://apidocs.lrcontent.com/images/cm-3_14607435196662b22552a357.24276831.png  "Add New Customer")
 
-You can also use our API, which helps you create a user in the database and sends a verification email to the user. Please follow this [link](/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/).
+You can also use our API, which helps you create a user in the database and sends a verification email to the user. Please follow this [link](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/).
 
 
 ## Consumer Audit Logs

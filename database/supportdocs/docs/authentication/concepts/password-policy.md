@@ -103,7 +103,7 @@ It displays the list of current applicable password validations. These validatio
 
 ![Password Validation](https://apidocs.lrcontent.com/images/PV-2_320147402668454e03a44f6.84468249.png "Password Validation")
 
-For more details on the password validations, refer to the [validation rules list](/api/v2/deployment/js-libraries/javascript-hooks/#passwordstrengthfeature21).
+For more details on the password validations, refer to the [validation rules list](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/javascript-hooks/#passwordstrengthfeature21).
 
 
 ### Common Password Protection
@@ -116,7 +116,7 @@ The following screen displays that the Common Password Protection option is enab
 
 ![Common Password Protection](https://apidocs.lrcontent.com/images/CPP-1_190041019566844be1101099.51205717.png "Common Password Protection")
 
-> **Note:** You can refer to this [document](/authentication/concepts/common-password/) for a common password list maintained by LoginRadius and this list is dynamic and it gets updated from time to time.
+> **Note:** You can refer to this [document](https://www.loginradius.com/legacy/docs/authentication/concepts/common-password/) for a common password list maintained by LoginRadius and this list is dynamic and it gets updated from time to time.
 
 ### Dictionary Password Prevention
 
@@ -148,7 +148,7 @@ LRObject.$hooks.call('formValidationRules',{
 });
 ```
 
-For additional information on the usage of custom validation hooks, validation rules, and custom validation rules, please see this [documentation](/api/v2/deployment/js-libraries/javascript-hooks#customvalidationhook15).
+For additional information on the usage of custom validation hooks, validation rules, and custom validation rules, please see this [documentation](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/javascript-hooks#customvalidationhook15).
 
 >**Note:** The Password Complexity rules configured on the Admin Console are front-end validations only. To enable the same Password Complexity configurations with the back-end, please contact the [LoginRadius Support Team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
@@ -182,9 +182,9 @@ The following screen appears:
 ![Password Hashing Algorithm](https://apidocs.lrcontent.com/images/PHA-1_156902497066848e411d9b84.30812792.png "Password Hashing Algorithm")
 
 
-For more details on password hashing, password salting and upgrading the hashing algorithms , you can refer to [this document](/authentication/concepts/password-hashing-and-salting/).
+For more details on password hashing, password salting and upgrading the hashing algorithms , you can refer to [this document](https://www.loginradius.com/legacy/docs/authentication/concepts/password-hashing-and-salting/).
 
-If you want to change the Hashing Algorithm, click the **REQUEST CHANGE** button and raise the support ticket. [This document](/authentication/concepts/password-hashing-and-salting/) explains how LoginRadius will handle hashing of existing and new customers password in case of hashing algorithm upgrade.
+If you want to change the Hashing Algorithm, click the **REQUEST CHANGE** button and raise the support ticket. [This document](https://www.loginradius.com/legacy/docs/authentication/concepts/password-hashing-and-salting/) explains how LoginRadius will handle hashing of existing and new customers password in case of hashing algorithm upgrade.
 
 ## Part 7 - Password Visibility
 
@@ -236,8 +236,8 @@ Once you have selected the events as per your requirements, click on the **Save*
 
 The following is the list of features you might want to add-on to the above implementation:
 
-[Session Management](/authentication/concepts/session-management/)
+[Session Management](https://www.loginradius.com/legacy/docs/authentication/concepts/session-management/)
 
-[Customer Security](/authentication/concepts/customer-security/)
+[Customer Security](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-security/)
 
 

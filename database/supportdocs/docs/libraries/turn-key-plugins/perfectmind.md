@@ -14,12 +14,12 @@ LoginRadius PerfectMind SSO Solution allows you to create a single sign-on exper
 
 ## How SSO Connector Works
 
-After a consumer logs in to the LoginRadius site, LoginRadius creates a session in the LoginRadius site and provides a LoginRadius access token. You can call the [LoginRadius PerfectMind SSO API](/api/v2/single-sign-on/sso-connector/perfectmind/) with the LoginRadius access token to create a session in the PerfectMind site and return a PerfectMind SSO Login URL. You can redirect the customer to the PerfectMind SSO Login URL to access the account in the PerfectMind application in your workflow.
+After a consumer logs in to the LoginRadius site, LoginRadius creates a session in the LoginRadius site and provides a LoginRadius access token. You can call the [LoginRadius PerfectMind SSO API](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/sso-connector/perfectmind/) with the LoginRadius access token to create a session in the PerfectMind site and return a PerfectMind SSO Login URL. You can redirect the customer to the PerfectMind SSO Login URL to access the account in the PerfectMind application in your workflow.
 
-The [LoginRadius PerfectMind SSO API](/api/v2/single-sign-on/sso-connector/perfectmind/) calls the Perfectmind APIs from the server side and checks a corresponding contact with the LoginRadius's consumer email in the PerfectMind site. If no contact exists in the PerfectMind site with the email, LoginRaadius first creates a new account with the mapped data points in the Admin Console and then creates a contact with LoginRadius’s consumer email and links to the newly created account. The [LoginRadius Perfectmind SSO API](/api/v2/single-sign-on/sso-connector/perfectmind/) creates a session in the PerfectMind application and returns the Perfectmind SSO Login URL. You can customize the code on your website by redirecting the customer to the PerfectMind Login URL after successful authentication on your website.
+The [LoginRadius PerfectMind SSO API](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/sso-connector/perfectmind/) calls the Perfectmind APIs from the server side and checks a corresponding contact with the LoginRadius's consumer email in the PerfectMind site. If no contact exists in the PerfectMind site with the email, LoginRaadius first creates a new account with the mapped data points in the Admin Console and then creates a contact with LoginRadius’s consumer email and links to the newly created account. The [LoginRadius Perfectmind SSO API](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/sso-connector/perfectmind/) creates a session in the PerfectMind application and returns the Perfectmind SSO Login URL. You can customize the code on your website by redirecting the customer to the PerfectMind Login URL after successful authentication on your website.
 Hence, on successful authentication to LoginRadius, the customer will be authenticated to both LoginRadius and PerfectMind platforms and you can redirect the customer to the Perfectmind SSO Login URL.
 
-For API documentation, refer to our [PerfectMind API](/api/v2/single-sign-on/sso-connector/perfectmind/) document.
+For API documentation, refer to our [PerfectMind API](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/sso-connector/perfectmind/) document.
 
 **Example flows:**
 
@@ -93,7 +93,7 @@ The following screen will appear:
 
 By default, when a consumer logs in the auth page ( https://sitename.hub.loginradius.com/auth.aspx) , the consumer is redirected to the profile page (https://sitename.hub.loginradius.com/profile.aspx) . You can redirect to the PerfectMind application after login, by making the consumser to log in LoginRadius IDX auth page with some predefined query paramter,e.g,loginflow=PMCMS. You can customize the IDX code base to detect the query parameter and redirect the consumer to PerfectMind SSO Login URL.
 
-Please see the following steps to achieve the above use case with the IDX with Advanced Theme. Please also [Identity Experience Framework Customizations](/libraries/identity-experience-framework/customization/#advancedthemeeditor19) for more information.
+Please see the following steps to achieve the above use case with the IDX with Advanced Theme. Please also [Identity Experience Framework Customizations](https://www.loginradius.com/legacy/docs/libraries/identity-experience-framework/customization/#advancedthemeeditor19) for more information.
 
 1.  A consumer comes to PerfectMind site for login.
 2.  Redirect the consumer from PerfectMind to the following LoginRadius IDX auth page with some predefined query paramter,e.g,loginflow=PMCMS( you can choose any name for query parameter): https://sitename.hub.loginradius.com/auth.aspx?loginflow=PMCMS ( You will need to work with the PerfectMind Team to perform #1 and #2).
@@ -214,8 +214,8 @@ if (access_token && queryString.loginflow && queryString.loginflow == 'PMCMS') {
 
 IDX(basic) theme allows you to customize IDX interfaces leveraging UX in the IDX. Please see the following documents on the basic theme :
 
-- [Identity Experience Framework](/authentication/concepts/ui-ux-customizations-idx/#basictheme0)
-- [Identity Experience Framework Customizations](/libraries/identity-experience-framework/customization/#basicthemeeditor18)
+- [Identity Experience Framework](https://www.loginradius.com/legacy/docs/authentication/concepts/ui-ux-customizations-idx/#basictheme0)
+- [Identity Experience Framework Customizations](https://www.loginradius.com/legacy/docs/libraries/identity-experience-framework/customization/#basicthemeeditor18)
 
 The basic theme calls the callback functions on successful events, e.g., login, registration, etc. You need to call LoginRadius Perfectmind SSO API in the callback function and assign this callback function in the initialized LRObject call. This will execute your code based on the events e.g. login.
 
@@ -321,7 +321,7 @@ When the customer logs out from the PerfectMind site, the customer should be log
 1. When the user logs out from the PerfectMindsite, the PerfectMindsite can redirect the user to `https://sitename.hub.loginradius.com/auth.aspx?action=logout&return_url<returnURL>`. This will invalidate the user's session in LoginRadius and will redirect the user to `<returnURL>`.
 2. You will need to add the **return_url** under the [Deployment > Apps](https://adminconsole.loginradius.com/deployment/apps/web-apps) in the Admin Console.
 
-Please see [Usage](/libraries/identity-experience-framework/usage/#logout5) document for available actions in the IDX use cases.
+Please see [Usage](https://www.loginradius.com/legacy/docs/libraries/identity-experience-framework/usage/#logout5) document for available actions in the IDX use cases.
 
 ## Contact ID in the LoginRadius Profile
 
@@ -351,7 +351,7 @@ We suggest you can collect the address information after they log in to your Log
 
 2. Once the consumer submits the form, you can call the residence status API at your end to check if the address belongs to local or not. Based on the API response, you can update the **Type** field in the Address object.
 
-3. Make an ajax request to LoginRadius [Profile Update by Access Token](/api/v2/customer-identity-api/authentication/auth-update-profile-by-token/) API to update the address object in the profile.
+3. Make an ajax request to LoginRadius [Profile Update by Access Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-update-profile-by-token/) API to update the address object in the profile.
 
 4. After that, you can redirect the customer to the perfectmind site:
 
@@ -395,7 +395,7 @@ We suggest you can collect the address information after they log in to your Log
 
   We will work with your team and will configure the data mapping (Address, Residency flag, etc.) of the LoginRadius and perfectmind application. We will configure the data syncing whenever the profile update event is triggered at the LoginRadius end.
 
-  LoginRadius Cloud Connector will automatically sync the mapped data (Address, Residency flag, etc.) from the LoginRadius DB to the PerfectMind application whenever the profile is updated in the LgoinRAdius application. Please see [Cloud Connectors](/integrations/server-side-cloud-connectors/overview/#cloud-connectors-overview) for more details.
+  LoginRadius Cloud Connector will automatically sync the mapped data (Address, Residency flag, etc.) from the LoginRadius DB to the PerfectMind application whenever the profile is updated in the LgoinRAdius application. Please see [Cloud Connectors](https://www.loginradius.com/legacy/docs/integrations/server-side-cloud-connectors/overview/#cloud-connectors-overview) for more details.
 
   > **Note:** The Cloud Connector syncs data from your LoginRadius Database to your application in real-time. This connector requires no programming on your part, as the heavy lifting is performed by the LoginRadius team during the connectors set up and maintained by the LoginRadius Implementation Team. These have built in Logging, Retry actions, Business logic and other components to ensure data gets where it needs to in the proper format.
 
@@ -404,7 +404,7 @@ We suggest you can collect the address information after they log in to your Log
   Loginradius also provide Webhook feature to build integrations that subscribe to certain events, e.g., profile update on LoginRadius. When the subscribed events, e.g., profile update occur on the LoginRadius site, Webhook will be triggered each time and LoginRadius sends an HTTP POST payload to the WebHook's configured client's URL.
 
   You can leverage the Webhook feature to listen to the **UpdateProfile** webhook event and get the cosumer profile data, including Address information at your end, and call the PerfectMind APIs to update the Address information in the PerfectMind application.
-  Please see [WebHook](/integrations/webhooks/overview/#webhooks) for more details.
+  Please see [WebHook](https://www.loginradius.com/legacy/docs/integrations/webhooks/overview/#webhooks) for more details.
 
 ## FAQs
 

@@ -15,4 +15,4 @@ Add custom field in your Registration interface during field creation on your Lo
 6. Once the field is added you can include it on your Registration form by simply clicking on the field name.
    <br><br>![enter image description here](https://apidocs.lrcontent.com/images/cfl3_194865e91c89abf4843.60539801.png "Custom Fields")
    <br><br>![enter image description here](https://apidocs.lrcontent.com/images/cfl4_51485e91c8b4377497.50566458.png "Custom Fields")
-   <br><br>In order to write data to these fields using the [Update API](/api/v2/user-registration/auth-update-profile-by-token) or [Registration API](/api/v2/user-registration/auth-user-registration-by-email), they must be created as described above.
+   <br><br>In order to write data to these fields using the [Update API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-update-profile-by-token) or [Registration API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-user-registration-by-email), they must be created as described above.

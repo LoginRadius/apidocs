@@ -30,7 +30,7 @@ This section will explain the steps included in the setup of the Codelgnitor dem
 	define('API_REQUEST_SIGNING', ''); // Pass boolean true if this option is enabled on you app.
 	define('AUTH_FLOW', '');
 ```
->**Note:** Replace 'LOGINRADIUS_SITE_NAME_HERE', 'LOGINRADIUS_API_KEY_HERE' and 'LOGINRADIUS_API_SECRET_HERE' in the above code with your LoginRadius Site Name, LoginRadius API Key, and Secret which you can get [here](/api/v2/admin-console/platform-security/api-key-and-secret/).
+>**Note:** Replace 'LOGINRADIUS_SITE_NAME_HERE', 'LOGINRADIUS_API_KEY_HERE' and 'LOGINRADIUS_API_SECRET_HERE' in the above code with your LoginRadius Site Name, LoginRadius API Key, and Secret which you can get [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/).
 > API Request Signing:- define('API_REQUEST_SIGNING', true); if this option is enabled on your app. It will pass Secret key in header in API calling instead of parameter.
 
 5. Also configure your LoginRadius credentials in `/assets/js/option.js` file.

@@ -130,10 +130,10 @@ Some permissions require business verification and/or additional contract signin
 
 The following is the list of features you might want to add-on to the above implementation:
 
-- [Advanced Social Data Points](/api/v2/admin-console/social-provider/advanced-social-data-points/)
-- [Configure Social Data Settings](/api/v2/admin-console/social-provider/advanced-social-data-points/)
-- [Social Provider FAQ](/api/v2/admin-console/social-provider/social-provider-faqs/)
-- [Supported Social Networks](/api/v2/admin-console/social-provider/supported-social-networks/)
+- [Advanced Social Data Points](https://www.loginradius.com/legacy/docs/api/v2/admin-console/social-provider/advanced-social-data-points/)
+- [Configure Social Data Settings](https://www.loginradius.com/legacy/docs/api/v2/admin-console/social-provider/advanced-social-data-points/)
+- [Social Provider FAQ](https://www.loginradius.com/legacy/docs/api/v2/admin-console/social-provider/social-provider-faqs/)
+- [Supported Social Networks](https://www.loginradius.com/legacy/docs/api/v2/admin-console/social-provider/supported-social-networks/)
 
  
  

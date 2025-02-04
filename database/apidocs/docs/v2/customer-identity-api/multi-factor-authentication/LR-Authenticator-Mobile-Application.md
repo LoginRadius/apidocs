@@ -4,7 +4,7 @@ LoginRadius Authenticator is a mobile application that allows a user to implemen
 
 LoginRadius Authenticator is a mobile application that generates passcodes for systems that require one-time password authentication. Passcodes are time-based and valid for one login attempt, which makes them more secure than common static passwords.
 
-In order to use the LoginRadius Authenticator feature, you **must have a** “LoginRadius Authenticator” application on your mobile device and corresponding settings/configuration should be there in LoginRadius Admin console. For further detail about MFA settings in the Admin Console, kindly refer to the Multifactor Authentication Document [here](/api/v2/admin-console/platform-security/multi-factor-auth/).
+In order to use the LoginRadius Authenticator feature, you **must have a** “LoginRadius Authenticator” application on your mobile device and corresponding settings/configuration should be there in LoginRadius Admin console. For further detail about MFA settings in the Admin Console, kindly refer to the Multifactor Authentication Document [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/multi-factor-auth/).
 
 You can add your account on LoginRadius Authenticator via one of the following ways:
 

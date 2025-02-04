@@ -29,7 +29,7 @@
 
    **Ans.** If the certificate is expired then your users won't be able to use SSO to sign in to any SAML applications that use that certificate until you replace it with a new certificate.
    
-   To generate a new certificate you can follow this [document](/single-sign-on/concept/saml-miscellaneous/certificate/). 
+   To generate a new certificate you can follow this [document](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-miscellaneous/certificate/). 
 3. **Can I login with email  and password after the first SSO login?**
 
    **Ans.** Yes, the team members, who do not have access to your SSO application but are added as team members in the Admin Console, can log in with the email and password.

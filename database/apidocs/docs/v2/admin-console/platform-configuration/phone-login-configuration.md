@@ -31,7 +31,7 @@ For each SMS event, you can configure the following settings:
 - OTP Validity Limit (Seconds)
 <br><br>![enter image description here](https://apidocs.lrcontent.com/images/7_116295e736aa3e60ef8.45797649.png)
 
-The individually configured SMS event settings override global sms settings. For more information on configuring your global sms settings, please refer to [this documentation](/api/v2/admin-console/platform-configuration/communication-configuration/sms/global-sms-settings/#session-management-configuration)
+The individually configured SMS event settings override global sms settings. For more information on configuring your global sms settings, please refer to [this documentation](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/communication-configuration/sms/global-sms-settings/#session-management-configuration)
 
 ## Placeholder Tags
 

@@ -62,7 +62,7 @@ Create the LoginRadius Coldfusion component Object
 
 Call the function login by email to get user data based on the LoginRadius Access Token.
 
-[Try the following:](/api/v2/user-registration/auth-readall-profiles-by-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-readall-profiles-by-token)
 
  ```
 <cftry>
@@ -140,7 +140,7 @@ If you have not already initialized the user object, do so now.
 ##### Auth User Registration By Email
 This API creates a user in the database as well as sends a verification email to the user.
 
-[Try the following:](/api/v2/user-registration/auth-user-registration-by-email)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-user-registration-by-email)
 
  ```
  /** 
@@ -164,7 +164,7 @@ Example:
 ##### Auth login By Email
 This API retrieves a copy of the user data based on the Email.
 
-[Try the following:](/api/v2/user-registration/post-auth-login-by-email)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/post-auth-login-by-email)
 
  ```
  /**
@@ -189,7 +189,7 @@ Example:
 ##### Auth login By Username
 This API retrieves a copy of the user data based on the Username.
 
-[Try the following:](/api/v2/user-registration/post-auth-login-by-username)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/post-auth-login-by-username)
 
  ```
  /**
@@ -215,7 +215,7 @@ Example:
 ##### Auth Add Email
 This API is used to add additional emails to a user's account.
 
-[Try the following:](/api/v2/user-registration/auth-add-email)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-add-email)
 ```
  /**
     * @param accesstoken 
@@ -236,7 +236,7 @@ This API is used to add additional emails to a user's account.
 ##### Auth Forgot Password
 This API is used to send the reset password URL to a specified account. 
 
-[Try the following:](/api/v2/user-registration/auth-forgot-password)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-forgot-password)
 ```
  /**
    * @param $email
@@ -255,7 +255,7 @@ This API is used to send the reset password URL to a specified account.
 ##### Auth Email Availability 
 This API is used to check if the email exists or not on your site.
 
-[Try the following:](/api/v2/user-registration/auth-check-email-availability)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-check-email-availability)
 ```
  /**
    * @param email
@@ -272,7 +272,7 @@ This API is used to check if the email exists or not on your site.
 ##### Auth Username Availability
 This API is used to check if the Username exists or not on your site.
 
-[Try the following:](/api/v2/user-registration/auth-check-user-name-availability)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-check-user-name-availability)
 ```
  /**
    * @param username
@@ -288,7 +288,7 @@ This API is used to check if the Username exists or not on your site.
 ##### Auth Read Profiles By Token
 This API retrieves a copy of the user data based on the access token.
 
-[Try the following:](/api/v2/user-registration/auth-readall-profiles-by-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-readall-profiles-by-token)
 ```
  /**
    * @param accesstoken
@@ -305,7 +305,7 @@ This API retrieves a copy of the user data based on the access token.
 ##### Auth Privacy Policy Accept
 This API is used to update the privacy policy stored in the user's profile by providing the access_token of the user accepting the privacy policy.
 
-[Try the following:](/api/v2/user-registration/auth-privacy-policy-accept)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-privacy-policy-accept)
 ```
  /**
    * @param accesstoken
@@ -322,7 +322,7 @@ This API is used to update the privacy policy stored in the user's profile by pr
 ##### Auth Send Welcome Email
 This API will send a welcome email.
 
-[Try the following:](/api/v2/user-registration/auth-send-welcome-email)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-send-welcome-email)
 ```
  /**
    * @param accesstoken
@@ -340,7 +340,7 @@ This API will send a welcome email.
 ##### Auth Social Identity
 This API is called just before account linking API, and it prevents the raas profile of the second account from getting created.
 
-[Try the following:](/api/v2/user-registration/auth-social-identity)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-social-identity)
 ```
  /**
    * @param accesstoken
@@ -357,7 +357,7 @@ This API is called just before account linking API, and it prevents the raas pro
 ##### Auth Validate Access Token
 This API validates the access token if valid, then returns a response with its expiry otherwise error.
 
-[Try the following:](/api/v2/user-registration/token-validate)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/token-validate)
 ```
  /**
    * @param accesstoken
@@ -374,7 +374,7 @@ This API validates the access token if valid, then returns a response with its e
 ##### Auth Verify Email
 This API is used to verify the email of the user.
 
-[Try the following:](/api/v2/user-registration/auth-verify-email)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-verify-email)
 
 ```
  /**
@@ -395,7 +395,7 @@ This API is used to verify the email of the user.
 ##### Auth Delete Account
 This API is used to delete an account by passing it a delete token.
 
-[Try the following:](/api/v2/user-registration/auth-delete-account)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-delete-account)
 ```
  /**
    * @param deletetoken
@@ -412,7 +412,7 @@ This API is used to delete an account by passing it a delete token.
 ##### Auth Invalidate Access Token
 This API call invalidates the active access_token or expires an access token's validity.
 
-[Try the following:](/api/v2/user-registration/token-invalidate)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/token-invalidate)
 ```
  /**
    * @param accesstoken
@@ -429,7 +429,7 @@ This API call invalidates the active access_token or expires an access token's v
 ##### Security Questions By Access Token
 This API is used to retrieve the list of questions using the access token.
 
-[Try the following:](/api/v2/user-registration/get-security-question-by-accesstoken)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/get-security-question-by-accesstoken)
 ```
  /**
    * @param accesstoken
@@ -446,7 +446,7 @@ This API is used to retrieve the list of questions using the access token.
 ##### Security Questions By Email
 This API is used to retrieve the list of questions using email.
 
-[Try the following:](/api/v2/user-registration/get-security-question-by-email)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/get-security-question-by-email)
 ```
  /**
    * @param email
@@ -463,7 +463,7 @@ This API is used to retrieve the list of questions using email.
 ##### Security Questions By User Name
 This API is used to retrieve the list of questions using a username.
 
-[Try the following:](/api/v2/user-registration/get-security-question-by-username)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/get-security-question-by-username)
 ```
  /**
    * @param username
@@ -480,7 +480,7 @@ This API is used to retrieve the list of questions using a username.
 ##### Security Questions By Phone
 This API is used to retrieve the list of questions using the phone.
 
-[Try the following:](/api/v2/user-registration/get-security-question-by-phone)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/get-security-question-by-phone)
 ```
  /**
    * @param phone
@@ -497,7 +497,7 @@ This API is used to retrieve the list of questions using the phone.
 ##### Auth Verify Email by OTP
 This API is used to verify the email of the user when the OTP Email verification flow is enabled.
 
-[Try the following:](/api/v2/user-registration/auth-verify-email-by-otp)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-verify-email-by-otp)
 ```
  /**
    * @param payload
@@ -519,7 +519,7 @@ Example:
 ##### Auth Change Password
 This API is used to change the password of the account based on the previous password.
 
-[Try the following:](/api/v2/user-registration/auth-change-password)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-change-password)
 ```
  /**
    * @param accesstoken
@@ -538,7 +538,7 @@ This API is used to change the password of the account based on the previous pas
 ##### Auth Link Social Identities
 This API is used to link up a social provider account with the specified account based on the access token and the social provider's user access token.
 
-[Try the following:](/api/v2/customer-identity-api/authentication/auth-link-social-identities/)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-link-social-identities/)
 ```
  /**
    * @param accesstoken
@@ -556,7 +556,7 @@ This API is used to link up a social provider account with the specified account
 ##### Auth Resend Email Verification
 This API resends the verification email to the user.
 
-[Try the following:](/api/v2/user-registration/auth-resend-email-verification)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-resend-email-verification)
 ```
  /**
    * @param email
@@ -575,7 +575,7 @@ This API resends the verification email to the user.
 ##### Auth Reset Password by Reset Token
 This API is used to set a new password for the specified account.
 
-[Try the following:](/api/v2/user-registration/auth-reset-password-by-reset-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-reset-password-by-reset-token)
 ```
  /**
    * @param resettoken Reset token received in the email
@@ -595,7 +595,7 @@ This API is used to set a new password for the specified account.
 ##### Auth Reset Password by OTP
 This API is used to set a new password for the specified account.
 
-[Try the following:](/api/v2/user-registration/auth-reset-password-by-otp)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-reset-password-by-otp)
 ```
  /**
    * @param email  User's Email ID
@@ -616,7 +616,7 @@ This API is used to set a new password for the specified account.
 ##### Auth Reset Password By Email
 This API is used to reset the password for the specified account by a security question.
 
-[Try the following:](/api/v2/user-registration/auth-reset-password-by-email)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-reset-password-by-email)
 ```
  /**
    * @param payload
@@ -637,7 +637,7 @@ Example:
 ##### Auth Reset Password By Phone
 This API is used to reset the password for the specified account by a security question.
 
-[Try the following:](/api/v2/user-registration/auth-reset-password-by-phone)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-reset-password-by-phone)
 ```
  /**
    * @param payload
@@ -658,7 +658,7 @@ Example:
 ##### Auth Reset Password By Username
 This API is used to reset the password for the specified account by a security question.
 
-[Try the following:](/api/v2/user-registration/auth-reset-password-by-username)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-reset-password-by-username)
 ```
  /**
    * @param payload
@@ -678,7 +678,7 @@ Example:
 ##### Auth Set or Change User Name
 This API is used to set or change UserName by the access token.
 
-[Try the following:](/api/v2/user-registration/auth-set-change-user-name)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-set-change-user-name)
 ```
  /**
    * @param accesstoken
@@ -696,7 +696,7 @@ This API is used to set or change UserName by the access token.
 ##### Auth Update Profile By token
 This API is used to update the user's profile by passing the access token.
 
-[Try the following:](/api/v2/user-registration/auth-update-profile-by-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-update-profile-by-token)
 
 ```
  /**
@@ -721,7 +721,7 @@ Example:
 ##### Auth Update Security Question By Access token
 This API is used to update security questions by the access token.
 
-[Try the following:](/api/v2/user-registration/update-security-question-by-access-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/update-security-question-by-access-token)
 ```
  /**
    * @param accesstoken
@@ -742,7 +742,7 @@ Example:
 ##### Auth Delete Account With Email Confirmation
 This API deletes a user account by passing the user's access token.
 
-[Try the following:](/api/v2/user-registration/auth-delete-account-with-email-confirmation)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-delete-account-with-email-confirmation)
 ```
  /**
    * @param accesstoken
@@ -761,7 +761,7 @@ This API deletes a user account by passing the user's access token.
 ##### Auth Remove Email
 This API is used to remove additional emails from a user's account.
 
-[Try the following:](/api/v2/user-registration/auth-remove-email)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-remove-email)
 ```
  /**
    * @param accesstoken
@@ -779,7 +779,7 @@ This API is used to remove additional emails from a user's account.
 ##### Auth Unlink Social Identities
 This API is used to unlink up a social provider account with the specified account based on the access token and the social provider's user access token.
 
-[Try the following:](/api/v2/user-registration/auth-unlink-social-identities)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-unlink-social-identities)
 ```
  /**
    * @param accesstoken
@@ -798,7 +798,7 @@ This API is used to unlink up a social provider account with the specified accou
 ##### Validate Code
 This API allows you to validate code for a particular dropdown member.
 
-[Try the following:](/api/v2/custom-registration-data/validate-code)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/custom-registration-data/validate-code)
 ```
  /**
    * @param params  
@@ -818,7 +818,7 @@ params = "{'recordid': '', 'code': ''}"
 ##### Auth Get Registration Data
 This API is used to retrieve dropdown data.
 
-[Try the following:](/api/v2/custom-registration-data/auth-get-registration-data)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/custom-registration-data/auth-get-registration-data)
 ```
  /**
    * @param type     // Type of the Datasource
@@ -853,7 +853,7 @@ params = "{'recordid': '', 'code': ''}"
 ##### Passwordless Login By Email
 This API is used to send a Passwordless Login verification link to the provided Email ID.
 
-[Try the following:](/api/v2/user-registration/passwordless-login-by-email)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/passwordless-login-by-email)
 ```
  /**
    * @param email
@@ -872,7 +872,7 @@ This API is used to send a Passwordless Login verification link to the provided 
 ##### Passwordless Login By UserName
 This API is used to send a Passwordless Login Verification Link to a user by providing their UserName.
 
-[Try the following:](/api/v2/user-registration/passwordless-login-by-username)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/passwordless-login-by-username)
 ```
  /**
    * @param username
@@ -891,7 +891,7 @@ This API is used to send a Passwordless Login Verification Link to a user by pro
 ##### Passwordless Login Verification
 This API is used to verify the Passwordless Login verification link.
 
-[Try the following:](/api/v2/user-registration/passwordless-login-verification)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/passwordless-login-verification)
 ```
  /**
    * @param verificationtoken
@@ -909,7 +909,7 @@ This API is used to verify the Passwordless Login verification link.
 ##### Passwordless Login by Phone
 API can be used to send a One-time Passcode (OTP) provided that the account has a verified PhoneID.
 
-[Try the following:](/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-phone)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-phone)
 ```
  /**
    * @param phone
@@ -927,7 +927,7 @@ API can be used to send a One-time Passcode (OTP) provided that the account has 
 ##### Passwordless Login Phone Verification
 This API verifies an account by OTP and allows the user to login.
 
-[Try the following:](/api/v2/user-registration/phone-login-using-one-time-passcode)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-login-using-one-time-passcode)
 ```
  /**
    * @param payload
@@ -960,7 +960,7 @@ The LoginRadius Smart Login set of APIs that do not require a password to login 
 ##### Smart Login By Email
 This API sends a Smart Login link to the user's Email Id.
 
-[Try the following:](/api/v2/user-registration/smart-login-by-email)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/smart-login-by-email)
 ```
  /**
    * @param email
@@ -981,7 +981,7 @@ This API sends a Smart Login link to the user's Email Id.
 ##### Smart Login By Username
 This API sends a Smart Login link to the user's Email Id.
 
-[Try the following:](/api/v2/user-registration/smart-login-by-username)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/smart-login-by-username)
 ```
  /**
    * @param username
@@ -1002,7 +1002,7 @@ This API sends a Smart Login link to the user's Email Id.
 ##### Smart Login Ping
 This API is used to check if the Smart Login link has been clicked or not.
 
-[Try the following:](/api/v2/user-registration/smart-login-ping)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/smart-login-ping)
 ```
  /**
    * @param clientguid
@@ -1019,7 +1019,7 @@ This API is used to check if the Smart Login link has been clicked or not.
 ##### Smart Login Verify Token
 This API verifies the provided token for Smart Login.
 
-[Try the following:](/api/v2/user-registration/smart-login-verify-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/smart-login-verify-token)
 ```
  /**
    * @param verificationtoken
@@ -1046,7 +1046,7 @@ This API verifies the provided token for Smart Login.
 ##### One Touch Login by Email Captcha
 This API is used to send a link to a specified email for a frictionless login/registration.
 
-[Try the following:](/api/v2/one-touch/one-touch-login-by-email)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/one-touch/one-touch-login-by-email)
 ```
  /**
   * @param payload
@@ -1069,7 +1069,7 @@ Example:
 ##### One Touch Login By Phone Captcha
 This API is used to send a one-time password to a given phone number for a frictionless login/registration.
 
-[Try the following:](/api/v2/one-touch/one-touch-login-by-phone)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/one-touch/one-touch-login-by-phone)
 ```
  /**
   * @param payload
@@ -1090,7 +1090,7 @@ Example:
 ##### One Touch OTP Verification
 This API is used to verify the otp for One Touch Login.
 
-[Try the following:](/api/v2/one-touch/one-touch-verify-otp)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/one-touch/one-touch-verify-otp)
 ```
  /**
   * @param otp
@@ -1138,7 +1138,7 @@ This Multi-Factor Authentication [MFA] APIs are for managing Multi-Factor-Authen
 ##### MFA Email Login
 This API can be used to login by emailid on a Multi-factor authentication enabled LoginRadius site.
 
-[Try the following:](/api/v2/user-registration/2fa-email-login)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-email-login)
 ```
  /**
   * @param payload
@@ -1162,7 +1162,7 @@ Example:
 ##### MFA User Name Login
 This API can be used to login by username on a Multi-factor authentication enabled LoginRadius site.
 
-[Try the following:](/api/v2/user-registration/2fa-user-name-login)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-user-name-login)
 ```
  /**
   * @param payload 
@@ -1187,7 +1187,7 @@ Example:
 ##### MFA Phone Login
 This API is used to log in by phone on a Multi-factor authentication enabled LoginRadius site.
 
-[Try the following:](/api/v2/user-registration/2fa-phone-login)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-phone-login)
 ```
  /**
   * @param payload
@@ -1212,7 +1212,7 @@ Example:
 ##### MFA Validate Access Token
 This API is used to configure the Multi-factor authentication after login by using the access_token when MFA is set as optional.
 
-[Try the following:](/api/v2/user-registration/2fa-by-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-by-token)
 ```
  /**
   * @param accesstoken = 'xxxxxxxx'
@@ -1230,7 +1230,7 @@ This API is used to configure the Multi-factor authentication after login by usi
 ##### MFA Backup Code by Access Token
 This API is used to get a set of backup codes via access token to allow the user login.
 
-[Try the following:](/api/v2/user-registration/backup-code-by-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/backup-code-by-token)
 ```
  /**
   * @param accesstoken
@@ -1247,7 +1247,7 @@ This API is used to get a set of backup codes via access token to allow the user
 ##### MFA Reset Backup Code By Access Token
 API is used to reset the backup codes on a given account via the access token.
 
-[Try the following:](/api/v2/user-registration/reset-backup-code-by-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/reset-backup-code-by-token)
 ```
  /**
   * @param accesstoken
@@ -1264,7 +1264,7 @@ API is used to reset the backup codes on a given account via the access token.
 ##### MFA Validate Backup Code
 This API is used to validate the backup code provided by the user, and if valid, we return an access token allowing the user to login.
 
-[Try the following:](/api/v2/user-registration/validate-backup-code)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/validate-backup-code)
 ```
  /**
   * @param secondfactorauthenticationtoken
@@ -1282,7 +1282,7 @@ This API is used to validate the backup code provided by the user, and if valid,
 ##### MFA Validate OTP
 This API is used to login via Multi-factor authentication by passing the One Time Password received via SMS.
 
-[Try the following:](/api/v2/user-registration/2fa-verify-otp)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-verify-otp)
 ```
  /**
   * @param secondfactorauthenticationtoken
@@ -1301,7 +1301,7 @@ This API is used to login via Multi-factor authentication by passing the One Tim
 ##### MFA Validate Google Auth Code
 This API is used to login via Multi-factor-authentication by passing the google authenticator code.
 
-[Try the following:](/api/v2/user-registration/2fa-verify-google-authenticator-code)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-verify-google-authenticator-code)
 ```
  /**
   * @param secondfactorauthenticationtoken
@@ -1320,7 +1320,7 @@ This API is used to login via Multi-factor-authentication by passing the google 
 ##### MFA Update Phone Number
 This API is used to update (if configured) the phone number by sending the verification OTP.
 
-[Try the following:](/api/v2/user-registration/2fa-update-phone-number)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-update-phone-number)
 ```
  /**
   * @param secondfactorauthenticationtoken  
@@ -1339,7 +1339,7 @@ This API is used to update (if configured) the phone number by sending the verif
 ##### MFA Update Phone Number By Token
 This API is used to update the Multi-factor authentication phone number by sending the verification OTP.
 
-[Try the following:](/api/v2/user-registration/2fa-update-phone-number-by-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-update-phone-number-by-token)
 ```
  /**
   * @param phoneno2fa = 'xxxxxxxxxx'   The Phone Number to be Updated.
@@ -1358,7 +1358,7 @@ This API is used to update the Multi-factor authentication phone number by sendi
 ##### Update MFA by Access Token
 This API is used to Enable Multi-factor authentication by access token on user login.
 
-[Try the following:](/api/v2/user-registration/update-mfa-by-access-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/update-mfa-by-access-token)
 ```
  /**
   * @param googleauthenticatorcode
@@ -1377,7 +1377,7 @@ This API is used to Enable Multi-factor authentication by access token on user l
 ##### Update MFA Setting
 This API is used to trigger the Multi-factor authentication settings after login for secure actions.
 
-[Try the following:](/api/v2/user-registration/update-mfa-setting)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/update-mfa-setting)
 ```
  /**
   * @param payload
@@ -1395,7 +1395,7 @@ This API is used to trigger the Multi-factor authentication settings after login
 ##### MFA Reset Google Authenticator by Token
 This API Resets the Google Authenticator configurations on a given account via the access token.
 
-[Try the following:](/api/v2/user-registration/2fa-reset-google-authenticator-by-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-reset-google-authenticator-by-token)
 ```
  /**
   * @param accesstoken  
@@ -1413,7 +1413,7 @@ This API Resets the Google Authenticator configurations on a given account via t
 ##### MFA Reset SMS Authenticator by Token
 This API resets the SMS Authenticator configurations on a given account via the access token.
 
-[Try the following:](/api/v2/user-registration/2fa-reset-sms-authenticator-by-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-reset-sms-authenticator-by-token)
 ```
  /**
   * @param accesstoken  
@@ -1431,7 +1431,7 @@ This API resets the SMS Authenticator configurations on a given account via the 
 ##### MFA Re-Authenticate
 This API is used to trigger the Multi-Factor Authentication workflow for the provided access token.
 
-[Try the following:](/api/v2/user-registration/re-auth-2fa)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/re-auth-2fa)
 ```
  /**
   * @param accesstoken  
@@ -1449,7 +1449,7 @@ This API is used to trigger the Multi-Factor Authentication workflow for the pro
 ##### Validate MFA by Google Authenticator Code
 This API is used to re-authenticate via Multi-factor-authentication by passing the google authenticator code.
 
-[Try the following:](/api/v2/customer-identity-api/re-authentication/mfa/re-auth-by-google-authenticator-code/)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/re-authentication/mfa/re-auth-by-google-authenticator-code/)
 
 ```
  /**
@@ -1468,7 +1468,7 @@ This API is used to re-authenticate via Multi-factor-authentication by passing t
 ##### Validate MFA by Backup Code
 This API is used to re-authenticate by a set of backup codes via an access token.
 
-[Try the following:](/api/v2/user-registration/validate-mfa-by-backup-code)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/validate-mfa-by-backup-code)
 ```
  /**
   * @param accesstoken  
@@ -1487,7 +1487,7 @@ This API is used to re-authenticate by a set of backup codes via an access token
 ##### Validate MFA by OTP
 This API is used to re-authenticate via Multi-factor authentication by passing the One Time Password received via SMS.
 
-[Try the following:](/api/v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-otp/)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-by-otp/)
 ```
  /**
   * @param accesstoken  
@@ -1509,7 +1509,7 @@ Example:
 ##### Validate MFA by Password
 This API is used to re-authenticate via Multi-factor-authentication by passing the password.
 
-[Try the following:](/api/v2/user-registration/validate-mfa-by-password)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/validate-mfa-by-password)
 ```
  /**
   * @param accesstoken  
@@ -1560,7 +1560,7 @@ If you have not already initialized the phone authentication object, do so now.
 ##### Phone Login
 This API retrieves a copy of the user data based on the Phone.
 
-[Try the following:](/api/v2/user-registration/post-auth-login-by-phone)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/post-auth-login-by-phone)
 ```
  /**
   * @param params json
@@ -1583,7 +1583,7 @@ params = "{ 'phone' : 'xxxxxxxxx', 'password' : 'xxxxxxxxxxx' }"
 ##### Phone Forgot Password By OTP
 This API is used to send the OTP to reset the account password.
 
-[Try the following:](/api/v2/user-registration/phone-forgot-password-by-otp)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-forgot-password-by-otp)
 ```
  /**
   *  @param phone = "xxxxxxxx" The Registered Phone Number
@@ -1602,7 +1602,7 @@ This API is used to send the OTP to reset the account password.
 ##### Phone Resend OTP
 This API is used to resend a verification OTP to verify a user's Phone Number.
 
-[Try the following:](/api/v2/user-registration/phone-resend-otp)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-resend-otp)
 ```
  /**
   *  @param phone = "xxxxxxxx" The Registered Phone Number
@@ -1621,7 +1621,7 @@ This API is used to resend a verification OTP to verify a user's Phone Number.
 ##### Phone Resend OTP By Token
 This API is used to resend a verification OTP to verify a user's Phone Number in cases in which an active token already exists.
 
-[Try the following:](/api/v2/user-registration/phone-resend-otp-by-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-resend-otp-by-token)
 ```
  /**
   *  @param accesstoken
@@ -1642,7 +1642,7 @@ This API is used to resend a verification OTP to verify a user's Phone Number in
 ##### Auth User Registration By Phone
 This API registers the new users into your Cloud Directory and triggers the phone verification process.
 
-[Try the following:](/api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms)
 
  ```
  /** 
@@ -1666,7 +1666,7 @@ Example:
 ##### Phone Number Availability
 This API is used to check the Phone Number exists or not on your site.
 
-[Try the following:](/api/v2/user-registration/phone-number-availability)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-number-availability)
 ```
  /**
   *  @param phone = "xxxxxxxx" The Registered Phone Number
@@ -1684,7 +1684,7 @@ This API is used to check the Phone Number exists or not on your site.
 ##### Phone Number Update
 This API is used to update the login Phone Number of users.
 
-[Try the following:](/api/v2/user-registration/phone-number-update)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-number-update)
 ```
  /**
   *  @param accesstoken
@@ -1704,7 +1704,7 @@ This API is used to update the login Phone Number of users.
 ##### Phone Reset Password By OTP
 This API is used to reset the password.
 
-[Try the following:](/api/v2/user-registration/phone-reset-password-by-otp)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-reset-password-by-otp)
 ```
  /**
   * @param phone  The Registered Phone Number
@@ -1726,7 +1726,7 @@ This API is used to reset the password.
 ##### Phone Verify OTP
 This API is used to validate the verification code sent to verify a user's phone number.
 
-[Try the following:](/api/v2/user-registration/phone-verify-otp)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-verify-otp)
 ```
  /**
   * @param phone  The Phone Number to be verify
@@ -1746,7 +1746,7 @@ This API is used to validate the verification code sent to verify a user's phone
 ##### Phone Verification OTP by token
 This API is used to consume the verification code sent to verify a user's phone number. Use this call for front-end purposes in cases where the user is already logged in by passing the user's access token.
 
-[Try the following:](/api/v2/user-registration/phone-verify-otp-by-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-verify-otp-by-token)
 ```
  /**
   * @param accesstoken
@@ -1766,7 +1766,7 @@ This API is used to consume the verification code sent to verify a user's phone 
 ##### Remove Phone ID by Access Token
 This API is used to delete the Phone ID on a user's account via the access token.
 
-[Try the following:](/api/v2/user-registration/remove-phone-id-by-access-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/remove-phone-id-by-access-token)
 ```
  /**
   * @param accesstoken
@@ -1828,7 +1828,7 @@ If you have not already initialized the account object, do so now.
 ##### Account Create
 This API is used to create an account.
 
-[Try the following:](/api/v2/user-registration/account-create)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-create)
 ```
  /**
   * @param params  This should have a valid JSON object
@@ -1849,7 +1849,7 @@ params = "{'Email': [{'Type': 'Primary', 'Value': 'xxxx@xxxxx.com'}], 'Password'
 ##### Get Email Verification Token
 This API Returns an Email Verification token.
 
-[Try the following:](/api/v2/user-registration/email-verification-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/email-verification-token)
 ```
  /**
   * @param email  = "xxxxx@xxxxxx.com"
@@ -1867,7 +1867,7 @@ This API Returns an Email Verification token.
 ##### Get Forgot Password Token
 This API Returns a forgot password token.
 
-[Try the following:](/api/v2/user-registration/forgot-password-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/forgot-password-token)
 ```
  /**
   * @param email = "xxxxx@xxxxxx.com"
@@ -1885,7 +1885,7 @@ This API Returns a forgot password token.
 ##### Account Identities By Email
 This API is used to retrieve all of the identities (UID and Profiles), associated with a specified email.
 
-[Try the following:](/api/v2/user-registration/account-identities-by-email)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-identities-by-email)
 ```
  /**
   * @param email = "xxxxx@xxxxxx.com"
@@ -1903,7 +1903,7 @@ This API is used to retrieve all of the identities (UID and Profiles), associate
 ##### Account Impersonation API
 The API is used to get LoginRadius access token based on UID.
 
-[Try the following:](/api/v2/user-registration/impersonation-api)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/impersonation-api)
 ```
  /**
   * @param uid = "xxxxxxx"
@@ -1921,7 +1921,7 @@ The API is used to get LoginRadius access token based on UID.
 ##### Account Password
 This API is used to retrieve the hashed password of a specified account.
 
-[Try the following:](/api/v2/user-registration/account-password)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-password)
 ```
  /**
   * @param uid = "xxxxxxx"
@@ -1939,7 +1939,7 @@ This API is used to retrieve the hashed password of a specified account.
 ##### Account Profiles By Email
 This API is used to retrieve all of the profile data associated with the specified account by email.
 
-[Try the following:](/api/v2/user-registration/account-profiles-by-email)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-profiles-by-email)
 ```
  /**
   * @param email = 'xxxx@xxxxxx.com'
@@ -1957,7 +1957,7 @@ This API is used to retrieve all of the profile data associated with the specifi
 ##### Account Profiles By User Name
 This API is used to retrieve all of the profile data associated with the specified account by the user name.
 
-[Try the following:](/api/v2/user-registration/account-profiles-by-username)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-profiles-by-username)
 ```
  /**
   * @param username = 'xxxxxxxxx'
@@ -1975,7 +1975,7 @@ This API is used to retrieve all of the profile data associated with the specifi
 ##### Account Profiles By Phone Id
 This API is used to retrieve all of the profile data associated with the account by phone number.
 
-[Try the following:](/api/v2/customer-identity-api/account/account-profiles-by-phone-id)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-phone-id)
 ```
  /**
   * @param phone = 'xxxxxxxxx'
@@ -1993,7 +1993,7 @@ This API is used to retrieve all of the profile data associated with the account
 ##### Account Profiles By Uid
 This API is used to retrieve all of the profile data associated with the account by UID.
 
-[Try the following:](/api/v2/user-registration/account-profiles-by-uid)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-profiles-by-uid)
 ```
  /**
   * @param uid = 'xxxxxxxxx'
@@ -2011,7 +2011,7 @@ This API is used to retrieve all of the profile data associated with the account
 ##### Account Set Password
 This API is used to set the password of an account.
 
-[Try the following:](/api/v2/user-registration/account-set-password)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-set-password)
 ```
  /**
   * @param uid = 'xxxxxxxxx'
@@ -2030,7 +2030,7 @@ This API is used to set the password of an account.
 ##### Account Update 
 This API is used to update the information of the existing account.
 
-[Try the following:](/api/v2/user-registration/account-update)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-update)
 ```
  /**
   * @param uid = 'xxxxxxxxx'
@@ -2053,7 +2053,7 @@ Example:
 ##### Account Update Security Question
 This API is used to update security questions configuration on an existing account.
 
-[Try the following:](/api/v2/user-registration/update-security-question-configuration)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/update-security-question-configuration)
 ```
  /**
   * @param uid = 'xxxxxxxxx'
@@ -2074,7 +2074,7 @@ Example:
 ##### Account Invalidate Verification Email
 This API is used to invalidate the Email Verification status on an account.
 
-[Try the following:](/api/v2/user-registration/account-invalidate-verification-email)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-invalidate-verification-email)
 ```
  /**
   * @param uid = 'xxxxxxxxx'
@@ -2094,7 +2094,7 @@ This API is used to invalidate the Email Verification status on an account.
 ##### Account Email Delete
 Use this API to Remove emails from a user account.
 
-[Try the following:](/api/v2/user-registration/account-email-delete)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-email-delete)
 ```
  /**
   * @param uid = 'xxxxxxxxx'
@@ -2113,7 +2113,7 @@ Use this API to Remove emails from a user account.
 ##### Account Delete 
 This API deletes the Users account and allows them to re-register for a new account.
 
-[Try the following:](/api/v2/user-registration/account-delete)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-delete)
 ```
  /**
   * @param uid = 'xxxxxxxxx'
@@ -2131,7 +2131,7 @@ This API deletes the Users account and allows them to re-register for a new acco
 ##### MFA Backup Code By UID
 This API is used to get a set of backup codes to allow the user to login.
 
-[Try the following:](/api/v2/user-registration/backup-code-by-uid)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/backup-code-by-uid)
 ```
  /**
   * @param uid = 'xxxxxxxxx'
@@ -2149,7 +2149,7 @@ This API is used to get a set of backup codes to allow the user to login.
 ##### MFA Reset Backup Code By UID
 This API is used to reset the backup codes on a given account via the UID.
 
-[Try the following:](/api/v2/user-registration/reset-backup-code-by-uid)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/reset-backup-code-by-uid)
 ```
  /**
   * @param uid = 'xxxxxxxxx'
@@ -2167,7 +2167,7 @@ This API is used to reset the backup codes on a given account via the UID.
 ##### MFA Reset Google Authenticator By UID
 This API resets the Google Authenticator configurations on a given account via the UID.
 
-[Try the following:](/api/v2/user-registration/2fa-reset-google-authenticator-by-uid)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-reset-google-authenticator-by-uid)
 ```
  /**
   * @param uid = 'xxxxxxxxx'
@@ -2186,7 +2186,7 @@ This API resets the Google Authenticator configurations on a given account via t
 ##### MFA Reset Google Authenticator By UID
 This API resets the Google Authenticator configurations on a given account via the UID.
 
-[Try the following:](/api/v2/user-registration/2fa-reset-google-authenticator-by-uid)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/2fa-reset-google-authenticator-by-uid)
 ```
  /**
   * @param uid = 'xxxxxxxxx'
@@ -2205,7 +2205,7 @@ This API resets the Google Authenticator configurations on a given account via t
 ##### Reset phone ID verification
 This API allows you to reset the phone no verification of an end-users account.
 
-[Try the following:](/api/v2/user-registration/reset-phone-verification)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/reset-phone-verification)
 ```
  /**
   * @param uid = 'xxxxxxxxx'
@@ -2222,7 +2222,7 @@ This API allows you to reset the phone no verification of an end-users account.
 ##### Generate SOTT Token
 This API allows you to generate SOTT with a given expiration time.
 
-[Try the following:](/api/v2/user-registration/generate-sott)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/generate-sott)
 ```
  /**
   * @param timedifference = '20' // The time difference you would like to pass, If you do not pass difference, then the default value is 10 minutes.
@@ -2240,7 +2240,7 @@ This API allows you to generate SOTT with a given expiration time.
 ##### Add Registration Data
 This API allows you to fill data in the dropDownList, which you have created for user Registration.
 
-[Try the following:](/api/v2/custom-registration-data/add-registration-data)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/custom-registration-data/add-registration-data)
 ```
  /**
   * @param params
@@ -2261,7 +2261,7 @@ params = "{'Data': [{'type': '', 'key': '', 'value': '', 'parentid': '', 'code':
 ##### Get Registration Data
 This API is used to retrieve dropdown data.
 
-[Try the following:](/api/v2/custom-registration-data/get-registration-data)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/custom-registration-data/get-registration-data)
 ```
  /**
   * @param type     // Type of the Datasource
@@ -2282,7 +2282,7 @@ This API is used to retrieve dropdown data.
 ##### Update Registration Data
 This API allows you to update members of dropDown.
 
-[Try the following:](/api/v2/custom-registration-data/update-registration-data)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/custom-registration-data/update-registration-data)
 ```
  /**
   * @param recordid     // Dropdown items record id
@@ -2304,7 +2304,7 @@ params = "{'type': '', 'key': '', 'value': '', 'parentid': '', 'code': '', 'isac
 ##### Delete Registration Data
 This API allows you to delete a member from the dropDownList.
 
-[Try the following:](/api/v2/custom-registration-data/delete-registration-data)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/custom-registration-data/delete-registration-data)
 ```
  /**
   * @param recordid     // Dropdown items record id
@@ -2353,7 +2353,7 @@ If you have not already initialized the role object, do so now.
 ##### Roles Create
 This API creates a role with permissions.
 
-[Try the following:](/api/v2/user-registration/roles-create)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-create)
 ```
  /**
   * @param payload     
@@ -2373,7 +2373,7 @@ Example:
 ##### Get Context
 This API Gets the contexts that have been configured and the associated roles and permissions.
 
-[Try the following:](/api/v2/user-registration/roles-get-context)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-get-context)
 ```
  /**
   * @param uid     
@@ -2390,7 +2390,7 @@ This API Gets the contexts that have been configured and the associated roles an
 ##### Roles List
 This API retrieves the complete list of created roles with permissions of your app.
 
-[Try the following:](/api/v2/user-registration/roles-list)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-list)
 ```
  /**
   * @return type Object
@@ -2406,7 +2406,7 @@ This API retrieves the complete list of created roles with permissions of your a
 ##### Roles By UID
 API is used to retrieve all the assigned roles of a particular User.
 
-[Try the following:](/api/v2/user-registration/roles-by-uid)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-by-uid)
 ```
  /**
   * @param uid  
@@ -2423,7 +2423,7 @@ API is used to retrieve all the assigned roles of a particular User.
 ##### Add Permissions To Role
 This API is used to add permissions to a given role.
 
-[Try the following:](/api/v2/customer-identity-api/roles-management/add-permissions-to-role/)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/add-permissions-to-role/)
 ```
  /**
   * @param role  
@@ -2447,7 +2447,7 @@ Example:
 ##### Assign Roles By UID
 This API is used to assign your desired roles to a given user.
 
-[Try the following:](/api/v2/user-registration/assign-roles-by-uid)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/assign-roles-by-uid)
 ```
  /**
   * @param uid  
@@ -2471,7 +2471,7 @@ Example:
 ##### Upsert Context
 This API creates a Context with a set of Roles.
 
-[Try the following:](/api/v2/user-registration/roles-create-context)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-create-context)
 ```
  /**
   * @param uid  
@@ -2498,7 +2498,7 @@ Example:
 ##### Delete Role
 This API is used to delete a role.
 
-[Try the following:](/api/v2/user-registration/delete-role)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/delete-role)
 ```
  /**
   * @param role  
@@ -2516,7 +2516,7 @@ This API is used to delete a role.
 ##### Unassign Roles by UID
 This API is used to the unassign role from a user.
 
-[Try the following:](/api/v2/user-registration/unassign-roles-by-uid)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/unassign-roles-by-uid)
 ```
  /**
   * @param uid  
@@ -2537,7 +2537,7 @@ Example:
 ##### Remove Permissions
 API is used to remove permissions from a role.
 
-[Try the following:](/api/v2/user-registration/remove-permissions)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/remove-permissions)
 ```
  /**
   * @param rolename  
@@ -2558,7 +2558,7 @@ Example:
 ##### Delete Context
 This API Deletes the specified Role Context.
 
-[Try the following:](/api/v2/user-registration/roles-delete-context)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-delete-context)
 ```
  /**
   * @param uid 
@@ -2576,7 +2576,7 @@ This API Deletes the specified Role Context.
 ##### Delete Role From Context
 This API Deletes the specified Role from a Context.
 
-[Try the following:](/api/v2/user-registration/roles-delete-context-role)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-delete-context-role)
 ```
  /**
   * @param uid 
@@ -2598,7 +2598,7 @@ Example:
 ##### Delete Permissions From Context
 This API Deletes Additional Permissions from Context.
 
-[Try the following:](/api/v2/customer-identity-api/roles-management/delete-permissions-from-context)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-permissions-from-context)
 ```
  /**
   * @param uid 
@@ -2650,7 +2650,7 @@ If you have not already initialized the custom object, do so now.
 ##### Create Custom Object by UID
 This API is used to write information in JSON format to the custom object for the specified account. 
 
-[Try the following:](/api/v2/user-registration/create-custom-object-by-uid)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/create-custom-object-by-uid)
 ```
  /**
   * @param uid     
@@ -2673,7 +2673,7 @@ payload = "{'customdata1': 'Store my customdata1 value', 'customdata2': 'Store m
 ##### Create Custom Object By Token
 This API is used to write information in JSON format to the custom object for the specified account. 
 
-[Try the following:](/api/v2/user-registration/create-custom-object-by-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/create-custom-object-by-token)
 ```
  /**
   * @param accesstoken     
@@ -2695,7 +2695,7 @@ payload = "{'customdata1': 'Store my customdata1 value', 'customdata2': 'Store m
 ##### Custom Object By ObjectRecordId And UID
 This API is used to retrieve the Custom Object data for the specified account. 
 
-[Try the following:](/api/v2/user-registration/custom-object-by-objectrecordid-and-uid)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/custom-object-by-objectrecordid-and-uid)
 ```
  /**
   * @param uid     
@@ -2714,7 +2714,7 @@ This API is used to retrieve the Custom Object data for the specified account.
 ##### Custom Object By ObjectRecordId And Token
 This API is used to retrieve the Custom Object data for the specified account. 
 
-[Try the following:](/api/v2/user-registration/custom-object-by-objectrecordid-and-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/custom-object-by-objectrecordid-and-token)
 ```
  /**
   * @param accesstoken     
@@ -2733,7 +2733,7 @@ This API is used to retrieve the Custom Object data for the specified account.
 ##### Custom Object By UID
 This API is used to retrieve all the custom objects by UID. 
 
-[Try the following:](/api/v2/user-registration/custom-object-by-uid)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/custom-object-by-uid)
 ```
  /**
   * @param uid     
@@ -2752,7 +2752,7 @@ This API is used to retrieve all the custom objects by UID.
 ##### Custom Object By Token
 This API is used to retrieve all the custom objects by the access token.
 
-[Try the following:](/api/v2/user-registration/custom-object-by-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/custom-object-by-token)
 ```
  /**
   * @param accesstoken     
@@ -2770,7 +2770,7 @@ This API is used to retrieve all the custom objects by the access token.
 ##### Custom Object Update By ObjectRecordId and UID
 This API is used to update the specified custom object data. 
 
-[Try the following:](/api/v2/user-registration/custom-object-update-by-objectrecordid-and-uid)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/custom-object-update-by-objectrecordid-and-uid)
 ```
  /**
   * @param uid     
@@ -2794,7 +2794,7 @@ payload = "{'field1': 'Store my field1 value', 'field2': 'Store my field2 value'
 ##### Custom Object Update By ObjectRecordId and Token
 This API is used to update the specified custom object data. 
 
-[Try the following:](/api/v2/user-registration/custom-object-update-by-objectrecordid-and-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/custom-object-update-by-objectrecordid-and-token)
 ```
  /**
   * @param accesstoken     
@@ -2817,7 +2817,7 @@ payload = "{'field1': 'Store my field1 value', 'field2': 'Store my field2 value'
 ##### Custom Object Delete By ObjectRecordId and UID
 This API is used to remove the specified Custom Object data. 
 
-[Try the following:](/api/v2/user-registration/custom-object-delete-by-objectrecordid-and-uid)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/custom-object-delete-by-objectrecordid-and-uid)
 ```
  /**
   * @param uid     
@@ -2837,7 +2837,7 @@ This API is used to remove the specified Custom Object data.
 ##### Custom Object Delete By ObjectRecordId and Token
 This API is used to remove the specified Custom Object data. 
 
-[Try the following:](/api/v2/user-registration/custom-object-delete-by-objectrecordid-and-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/custom-object-delete-by-objectrecordid-and-token)
 ```
  /**
   * @param accesstoken     
@@ -2873,7 +2873,7 @@ If you have not already initialized the config object, do so now.
 ```
 
 ##### Get Configurations
-[Try the following:](/api/v2/cloud-api/get-configuration)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/cloud-api/get-configuration)
 ```
  /**
    * @Return object of configurations.
@@ -2889,7 +2889,7 @@ If you have not already initialized the config object, do so now.
 ##### Get Server Time
 This API allows you to query your LoginRadius account for basic server information and server time information, which is useful when generating a SOTT token.
 
-[Try the following:](/api/v2/user-registration/infrastructure-get-server-time)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/user-registration/infrastructure-get-server-time)
 ```
  /**
   * @param timedifference The time difference you would like to pass, If you do not pass difference, then the default value is 10 minutes.
@@ -2927,7 +2927,7 @@ If you have not already initialized the webhook object, do so now.
 ##### WebHook Subscribe
 API can be used to configure a WebHook on your LoginRadius site.
 
-[Try the following:](/api/v2/integrations/webhooks/webhook-subscribe)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/webhook-subscribe)
 ```
  /**
   * @param targeturl 
@@ -2946,7 +2946,7 @@ API can be used to configure a WebHook on your LoginRadius site.
 ##### Webhook Test
 This API can be used to test a subscribed WebHook.
 
-[Try the following:](/api/v2/integrations/webhooks/webhook-test)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/webhook-test)
 ```
 
  /**
@@ -2964,7 +2964,7 @@ This API can be used to test a subscribed WebHook.
 ##### Webhook Subscribed URLs
 This API is used to fetch all the subscribed URLs for a particular event.
 
-[Try the following:](/api/v2/integrations/webhooks/webhook-subscribed-urls)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/webhook-subscribed-urls)
 ```
 
  /**
@@ -2983,7 +2983,7 @@ This API is used to fetch all the subscribed URLs for a particular event.
 ##### WebHook Unsubscribe
 This API can be used to unsubscribe a WebHook configured on your LoginRadius site.
 
-[Try the following:](/api/v2/integrations/webhooks/webhook-unsubscribe)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/webhook-unsubscribe)
 ```
 
  /**
@@ -3048,7 +3048,7 @@ If you have not already initialized the social object, do so now.
 ##### Access Token
 This API Is used to translate the Request Token returned during authentication into an Access Token.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/access-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/access-token)
 ```
  /**
   * @param access_token     
@@ -3065,7 +3065,7 @@ This API Is used to translate the Request Token returned during authentication i
 ##### Validate Access Token
 This API validates access token.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/validate-access-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/validate-access-token)
 ```
  /**
   * @param access_token     
@@ -3082,7 +3082,7 @@ This API validates access token.
 ##### Invalidate Access Token
 This API invalidates the access token.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/invalidate-access-token)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/invalidate-access-token)
 ```
  /**
   * @param access_token     
@@ -3099,7 +3099,7 @@ This API invalidates the access token.
 ##### User Profile
 Get user profile by the access token.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/user-profile)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/user-profile)
 ```
  /**
  * @param access_token
@@ -3116,7 +3116,7 @@ Get user profile by the access token.
 ##### Trackable Status Posting
 The Trackable Status API is used to update the status on the user's wall and return a Post ID value.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/trackable-status-posting)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/trackable-status-posting)
 ```
  /**
  * @param access_token
@@ -3139,7 +3139,7 @@ The Trackable Status API is used to update the status on the user's wall and ret
 ##### Post Message API
 The Message API is used to post messages to the user's contacts.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/post-message-api)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/post-message-api)
 ```
  /**
  * @param access_token
@@ -3159,7 +3159,7 @@ The Message API is used to post messages to the user's contacts.
 ##### Get Trackable Status Stats
 The Trackable Status API is used to update the status on the user's wall and return a Post ID value.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/get-trackable-status-stats)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/get-trackable-status-stats)
 ```
  /**
  * @param access_token
@@ -3182,7 +3182,7 @@ The Trackable Status API is used to update the status on the user's wall and ret
 ##### Trackable Status Fetching
 This API is used to retrieve a tracked post based on the passed in post ID value.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/trackable-status-fetching)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/trackable-status-fetching)
 ```
  /**
  * @param postid
@@ -3199,7 +3199,7 @@ This API is used to retrieve a tracked post based on the passed in post ID value
 ##### Shorten URL
 The Shorten URL API is used to convert your URLs to the LoginRadius short URL - ish.re
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/shorten-url)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/shorten-url)
 ```
  /**
  * @param url
@@ -3216,7 +3216,7 @@ The Shorten URL API is used to convert your URLs to the LoginRadius short URL - 
 ##### Get Active Session Details
 This API is used to get all active sessions by Access Token.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/get-active-session-details)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/get-active-session-details)
 ```
  /**
  * @param access_token
@@ -3232,7 +3232,7 @@ This API is used to get all active sessions by Access Token.
 ##### Album
 Fetch the user's photo albums.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/album)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/album)
 ```
 <cftry>
 <cfset photoAlbumsResult = socialObject.loginradiusGetPhotoAlbums(access_token)>
@@ -3245,7 +3245,7 @@ Fetch the user's photo albums.
 ##### Audio
 Fetch the user's checked in data.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/audio)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/audio)
 ```
 <cftry>
 <cfset getAudioResult = socialObject.loginradiusGetAudio(access_token)>
@@ -3259,7 +3259,7 @@ Fetch the user's checked in data.
 ##### Check In
 The Check-In API is used to get check Ins data from the user's social account.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/check-in)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/check-in)
 ```
 <cftry>
 <cfset getAudioResult = socialObject.loginradiusGetCheckins(access_token)>
@@ -3273,7 +3273,7 @@ The Check-In API is used to get check Ins data from the user's social account.
 ##### Company
 Fetch the user's followed companies.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/company)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/company)
 ```
 <cftry>
 <cfset followedCompaniesResult = socialObject.loginradiusGetFollowedCompanies(access_token)>
@@ -3287,7 +3287,7 @@ Fetch the user's followed companies.
 ##### Contact
 Fetch the user's friends/contacts/followers.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/contact)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/contact)
 ```
 <cftry>
 <cfset getContactsResult = socialObject.loginradiusGetContacts(access_token)>
@@ -3301,7 +3301,7 @@ Fetch the user's friends/contacts/followers.
 ##### Event
 Fetch the user's event data.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/event)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/event)
 ```
 <cftry>
 <cfset getEventsResult = socialObject.loginradiusGetEvents(access_token)>
@@ -3316,7 +3316,7 @@ Fetch the user's event data.
 ##### Following
 Fetch the user's following data.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/following)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/following)
 ```
 <cftry>
 <cfset getFollowingResult = socialObject.loginradiusGetFollowing(access_token)>
@@ -3330,7 +3330,7 @@ Fetch the user's following data.
 ##### Group
 Fetch the user's groups.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/group)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/group)
 ```
 <cftry>
 <cfset getGroupsResult = socialObject.loginradiusGetGroups (access_token)>
@@ -3344,7 +3344,7 @@ Fetch the user's groups.
 ##### Like
 Fetch the user's likes data.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/like)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/like)
 ```
 <cftry>
 <cfset getLikesResult = socialObject.loginradiusGetLikes (access_token)>
@@ -3358,7 +3358,7 @@ Fetch the user's likes data.
 ##### Mention
 Fetch the user's mentions.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/mention)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/mention)
 ```
 <cftry>
 <cfset getMentionsResult = socialObject.loginradiusGetMentions(access_token)>
@@ -3372,7 +3372,7 @@ Fetch the user's mentions.
 ##### Page
 Fetch a specified page data.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/page)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/page)
 ```
 <cftry>
 <cfset userProfileResult = socialObject.loginradiusGetPages (access_token, pageName)>
@@ -3386,7 +3386,7 @@ Fetch a specified page data.
 ##### Photo
 Fetch the user's photos from a specific album.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/photo)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/photo)
 ```
 <cftry>
 <cfset photoResult = socialObject.loginradiusGetPhotos(access_token, albumId)>
@@ -3400,7 +3400,7 @@ Fetch the user's photos from a specific album.
 ##### Post
 Fetch the user's posts.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/post)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/post)
 ```
 <cftry>
 <cfset getPostsResult = socialObject.loginradiusGetPosts (access_token)>
@@ -3414,7 +3414,7 @@ Fetch the user's posts.
 ##### Status Fetching
 Fetch the user's status updates.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/status-fetching)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/status-fetching)
 ```
 <cftry>
 <cfset getStatusResult = socialObject.loginradiusStatusFetching (access_token)>
@@ -3428,7 +3428,7 @@ Fetch the user's status updates.
 ##### Status Posting
 The Status API is used to update the status on the user's wall.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/status-posting)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/status-posting)
 ```
 <cftry>
 <cfset userProfileResult = socialObject.loginradiusStatusPosting (access_token, title, url, imageurl, status, caption, description)>
@@ -3450,7 +3450,7 @@ The Status API is used to update the status on the user's wall.
 ##### Video
 Fetch the user's video files.
 
-[Try the following:](/api/v2/customer-identity-api/social-login/advanced-social-api/video/)
+[Try the following:](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/video/)
 ```
 <cftry>
 <cfset getVideoResult = socialObject.loginradiusGetVideo(access_token)>

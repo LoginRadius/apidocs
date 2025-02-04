@@ -1,6 +1,6 @@
 # Salesforce Setup Document  in Admin Console
 
-This document describes the step by step procedure to setup Salesforce as IDP and LoginRadius Admin Console as an SP in SAML workflow.Please see [here](/single-sign-on/concept/saml-miscellaneous/certificate/) for more details on SAML workflow
+This document describes the step by step procedure to setup Salesforce as IDP and LoginRadius Admin Console as an SP in SAML workflow.Please see [here](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-miscellaneous/certificate/) for more details on SAML workflow
 
 
 ## Configure SAML settings in Salesforce Application
@@ -55,7 +55,7 @@ Please follow the steps mentioned below:
 
       - Select the IdP Certificate **Default IDP certificate**.
 
-      - Select **Verify Request Signatures** only if you want to use **Service Provider Initiated Login   Flow** for Login flow. Please see [here ](/api/v2/single-sign-on/federated-sso/saml/overview/#serviceproviderinitiatedlogin8) for more details on SP initiated Login Flow. If you have selected **Verify Request Signatures**, get the LoginRadius certificate value and save it as with any filename e.g.filename.cert on your computer. Select the **Choose File** and browse to the filename.cert [i.e The LoginRadius Certificate] and upload the file. Please see [here](/single-sign-on/concept/saml-miscellaneous/certificate/) for obtaining the LoginRadius certificate.
+      - Select **Verify Request Signatures** only if you want to use **Service Provider Initiated Login   Flow** for Login flow. Please see [here ](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/saml/overview/#serviceproviderinitiatedlogin8) for more details on SP initiated Login Flow. If you have selected **Verify Request Signatures**, get the LoginRadius certificate value and save it as with any filename e.g.filename.cert on your computer. Select the **Choose File** and browse to the filename.cert [i.e The LoginRadius Certificate] and upload the file. Please see [here](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-miscellaneous/certificate/) for obtaining the LoginRadius certificate.
 
       - **Save** the Settings.
 
@@ -102,7 +102,7 @@ Steps:
 
  **Step-2:** Fill in the below form as: 
 
- - Select your desired flow in the LOGIN FLOW dropdown. Select Identity Provider Initiated Login for IdP Initiated SAML workflow or select Service Provider Initiated Login for SP Initiated SAML workflow. Please see the [SAML](/api/v2/single-sign-on/federated-sso/saml/overview/#loginradiusactsasanidentityprovider6) overview document for more details. 
+ - Select your desired flow in the LOGIN FLOW dropdown. Select Identity Provider Initiated Login for IdP Initiated SAML workflow or select Service Provider Initiated Login for SP Initiated SAML workflow. Please see the [SAML](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/saml/overview/#loginradiusactsasanidentityprovider6) overview document for more details. 
 
  - In **ID Provider Binding**, enter **urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST**.
  
@@ -112,7 +112,7 @@ Steps:
 
  - In **ID Provider Logout Url**, enter the **Single Logout Endpoint** from the Salesforce dashboard (Setup->Administrater->Manage Apps->Connected Apps).
  - In **ID Provider Certificate**, enter the Salesforce certificate from the Salesforce dashboard (Setup->Administrater->Manage Apps->Connected Apps).
- - In **Service Provider Certificate** and **Service Provider Certificate key** enter LoginRadius certificate and key. Please see [here](/single-sign-on/concept/saml-miscellaneous/certificate/) for how to generate the LoginRadius certificate and key.
+ - In **Service Provider Certificate** and **Service Provider Certificate key** enter LoginRadius certificate and key. Please see [here](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-miscellaneous/certificate/) for how to generate the LoginRadius certificate and key.
 
  - For **DATA MAPPING** select the LoginRadius' fields (SP fields) and enter the corresponding Salesforce fields (IdP fields). 
 

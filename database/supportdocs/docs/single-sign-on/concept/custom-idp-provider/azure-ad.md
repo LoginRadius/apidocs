@@ -112,7 +112,7 @@ Follow the steps given below:
     
 10.  For **ID Provider Certificate**, enter the **Azure AD certificate** which you’ve obatiained from the Azure AD dashboard
     
-11.  For **Service Provider Certificate** and **Service Provider Certificate key**, enter LoginRadius certificate and key. Please see [here](/single-sign-on/federated-sso/saml/usage/#generateloginradiuscertificateandkey6) for how to generate LoginRadius certificate and key.
+11.  For **Service Provider Certificate** and **Service Provider Certificate key**, enter LoginRadius certificate and key. Please see [here](https://www.loginradius.com/legacy/docs/single-sign-on/federated-sso/saml/usage/#generateloginradiuscertificateandkey6) for how to generate LoginRadius certificate and key.
     
 > NOTE: Make sure to enter the certificate value with header and footer. 
 

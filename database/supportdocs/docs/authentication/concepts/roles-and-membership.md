@@ -72,7 +72,7 @@ To mark the role(s) as default, select the respective **Default **checkbox and c
 
 ### LoginRadius API
 
-For details regarding the APIs implementation of Roles and Permissions please refer [here.](/api/v2/customer-identity-api/roles-management/overview/#loginradiusapiusageforrolesandpermissions5)
+For details regarding the APIs implementation of Roles and Permissions please refer [here.](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/overview/#loginradiusapiusageforrolesandpermissions5)
 
 
 ### LoginRadius Custom Fields
@@ -144,4 +144,4 @@ The following screen displays the added information from Steps 5 to 8:
 
 ### LoginRadius API  
 
-For details regarding the APIs implementation of Context, kindly refer to this [document](/api/v2/customer-identity-api/roles-management/overview/#loginradiusapiusageforcontext6).
+For details regarding the APIs implementation of Context, kindly refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/overview/#loginradiusapiusageforcontext6).

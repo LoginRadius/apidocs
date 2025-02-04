@@ -19,7 +19,7 @@ LoginRadius currently supports the pre-built templates for the following.
 - Fresh Desk
 - Zendesk
 
-For more details on Integrations, you can refer to the [Pre-Built Connections](/single-sign-on/tutorial/federated-sso/pre-built-connections/) document.
+For more details on Integrations, you can refer to the [Pre-Built Connections](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/pre-built-connections/) document.
 
 
 ## Federated SSO Protocols
@@ -48,7 +48,7 @@ The LoginRadius Admin Console allows you to configure the SAML app by customizin
 
 For more information, refer to the following documents:
 
-- [LoginRadius SAML Docs](/api/v2/single-sign-on/saml-security-assertion-markup-language)
+- [LoginRadius SAML Docs](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/saml-security-assertion-markup-language)
 - [SAML Specs Document](http://saml.xml.org/saml-specifications)
 
 ### JWT
@@ -57,7 +57,7 @@ This protocol allows you to generate a JSON formatted, encrypted token. LoginRad
 
 For more information, refer to the following documents:
 
-- [LoginRadius JWT Document](/api/v2/single-sign-on/jwt-login)
+- [LoginRadius JWT Document](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/jwt-login)
 - [JWT RFC 7519](https://tools.ietf.org/html/rfc7519)
 
 ### OAuth 2.0
@@ -66,14 +66,14 @@ LoginRadius Identity Platform can function as either an OAuth 2.0 Identity Provi
 
 LoginRadius Admin Console allows you to configure the OAuth App. For more information, refer to the following documents:
 
-- [LoginRadius OAuth 2.0 Documentation](/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/)
+- [LoginRadius OAuth 2.0 Documentation](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/)
 - [OAuth 2 RFC 6749](https://tools.ietf.org/html/rfc6749)
 
 ### OpenID Connect
 
 LoginRadius Identity Platform provides a way to integrate your OpenID client with our APIs by following the standards. LoginRadius Admin Console allows you to configure the OAuth App. For more information, refer to the following documents:
 
-- [LoginRadius OpenID Connect Documentation](/api/v2/single-sign-on/openid)
+- [LoginRadius OpenID Connect Documentation](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/openid)
 - [OpenID Connect Specs](https://openid.net/specs/openid-authentication-2_0.html)
 
 
@@ -84,7 +84,7 @@ The delegation concept comes in picture when the SSO needs to be implemented bet
 
 LoginRadius Delegation APIs cover the following two flows that allow you to:
 
-- Delegate the full authentication via the [Delegation Authentication API](/api/v2/single-sign-on/delegation-login-api).
-- Delegate the password management via the [Password Delegation API](/single-sign-on/password-delegation-api/). Password delegation allows you to use a third-party service to store your passwords rather than LoginRadius Cloud Directory.
+- Delegate the full authentication via the [Delegation Authentication API](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/delegation-login-api).
+- Delegate the password management via the [Password Delegation API](https://www.loginradius.com/legacy/docs/single-sign-on/password-delegation-api/). Password delegation allows you to use a third-party service to store your passwords rather than LoginRadius Cloud Directory.
 
 -->

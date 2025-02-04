@@ -70,11 +70,11 @@ LoginRadius allows your team members to log in to LoginRadius Admin Console usin
 
     - In **ID Provider Location**, enter the **IdP-Initiated Login URL** which you will get from the Ping Identity app dashboard or metadata file. 
 
-    - **ID Provider Certificate:** enter Ping Identity SAML value. You can get this from the metadata XML downloaded above. You must format it in the correct format using the [online tool](/single-sign-on/concept/saml-miscellaneous/certificate/).
+    - **ID Provider Certificate:** enter Ping Identity SAML value. You can get this from the metadata XML downloaded above. You must format it in the correct format using the [online tool](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-miscellaneous/certificate/).
 
     - Enter LoginRadius' Certificate and Key in **SERVICE PROVIDER CERTIFICATE** and **SERVICE PROVIDER CERTIFICATE**. 
 
-        >**Note:** Certificate and Key can be generated using [online tools](/single-sign-on/concept/saml-miscellaneous/certificate/), with Bits and Digest Algorithm 2056, SHA256 respectively.
+        >**Note:** Certificate and Key can be generated using [online tools](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-miscellaneous/certificate/), with Bits and Digest Algorithm 2056, SHA256 respectively.
 
     - For **DATA MAPPING**, select the LoginRadius' fields (SP fields) and enter the corresponding Ping Identity, e.g. 
 

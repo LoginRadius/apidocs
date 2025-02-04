@@ -158,7 +158,7 @@ The following screen displays how you can select the **Basic Theme**:
     ```
 3. **END SCRIPT** : This should be another script reference similar to the Before Script and Loads after the page has been loaded.
 
-    > You can use this part of you IDX page files for configuring multiple social apps, for more information, refer to this [document](/api/v2/admin-console/social-provider/multiple-social-apps/).
+    > You can use this part of you IDX page files for configuring multiple social apps, for more information, refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/social-provider/multiple-social-apps/).
 
 4. **Additional Scripts** : You can add in additional scripts and CSS references using the following option.
 
@@ -242,7 +242,7 @@ The following screen will appear:
 
 ![](https://apidocs.lrcontent.com/images/12_14490621356400f7dc0e1af3.66005991.png)
 
-Update the JS file as per your requirements. For advanced JS customizations options available in the LoginRadius Identity Platform, refer to [this document](/api/v2/user-registration/advanced-customization).
+Update the JS file as per your requirements. For advanced JS customizations options available in the LoginRadius Identity Platform, refer to [this document](https://www.loginradius.com/legacy/docs/api/v2/user-registration/advanced-customization).
 
 Also, few customizations options are directly available in the **Auth - Before Script** file and you can make the desired changes as explained below:
 
@@ -573,7 +573,7 @@ You can customize the CSS styling applied to the page by making changes to the p
 ### 3. Custom Scripts
 
 You can control some additional functionality from the default-profile-before-script.js and include any additional JS you would like to further customize the interfaces based on [our documentation
-](/api/v2/user-registration/advanced-customization)
+](https://www.loginradius.com/legacy/docs/api/v2/user-registration/advanced-customization)
 
 The following customizations are included in the provided **default-profile-before-script.js:**
 

@@ -82,7 +82,7 @@ The configuration options will appear on the same screen as displayed below:
 
 **Step 6:** In the **Certificates** section under **Id Provider Certificate Key**, enter the LoginRadius Certificate Key. This Key will be used to establish trust between Identity and Service Provider.
 
->**Note:** Refer to this document, for [details on](/single-sign-on/concept/saml-miscellaneous/certificate/) how to generate private and public keys.
+>**Note:** Refer to this document, for [details on](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-miscellaneous/certificate/) how to generate private and public keys.
 
 **Step 7:** Copy the values of LoginRadius' certificate and key with headers and enter in **ID Provider certificate key** and **ID provider certificate**
 

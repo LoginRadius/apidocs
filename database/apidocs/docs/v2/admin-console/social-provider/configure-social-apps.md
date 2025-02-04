@@ -41,7 +41,7 @@ Once you change/update Client ID and Client secret to the configured social prov
 
 The user will experience the same behaviour as they have experienced first time while registering with that social provider. The specific social provider will ask for allowing access to email or public profile (whatever data points your app is fetching from that social provider).
 
-LoginRadius will link this account with the existing profile (based on the email address), so it will generate new provide [ID](/getting-started/introduction/glossary) but [UID](/getting-started/introduction/glossary)  will remain the same and will not change. And for each of these users, there will be 2 social provider IDs under the same UID.
+LoginRadius will link this account with the existing profile (based on the email address), so it will generate new provide [ID](https://www.loginradius.com/legacy/docs/getting-started/introduction/glossary) but [UID](https://www.loginradius.com/legacy/docs/getting-started/introduction/glossary)  will remain the same and will not change. And for each of these users, there will be 2 social provider IDs under the same UID.
 
 >**Note:** It will not impact those users who have registered via the standard registration process or the users who have logged in via social providers other than that updated one.
 
@@ -51,4 +51,4 @@ We recommend that you verify the changes on your dev app first, and if all looks
 
 > **Additional Note**: We also provide a feature under which you can create multiple instances of same social provider on your Login/Registration page.
 
-> For more details refer to our document on configuring [Multiple Social Apps](/api/v2/admin-console/social-provider/multiple-social-apps/).
+> For more details refer to our document on configuring [Multiple Social Apps](https://www.loginradius.com/legacy/docs/api/v2/admin-console/social-provider/multiple-social-apps/).

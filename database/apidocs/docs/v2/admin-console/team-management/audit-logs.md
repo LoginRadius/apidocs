@@ -13,7 +13,7 @@ Follow the following steps on how to access Audit Logs section:
 
 ![image ](https://apidocs.lrcontent.com/images/a_174986322e9ed1c9767.13485643.png)
 
-Note: By default, the Account Owner, Administrators and Managers have access to this section. For more details, refer to the [Team Managment](/api/v2/admin-console/team-management/manage-team-members/#roleaccesspermissions0) document.
+Note: By default, the Account Owner, Administrators and Managers have access to this section. For more details, refer to the [Team Managment](https://www.loginradius.com/legacy/docs/api/v2/admin-console/team-management/manage-team-members/#roleaccesspermissions0) document.
 
 **3.**  Once you are in the Team Management section, click on Audit Logs on the left-hand side.
     

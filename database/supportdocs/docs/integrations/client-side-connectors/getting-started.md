@@ -44,7 +44,7 @@ Setting up our Client-Side Cloud Connectors to your different platforms is simpl
 | isCustom        | Boolean     | A boolean determining if we should use a standard data mapping, or to use a custom object abiding to the customers' identity platform                                                    | True False                      |
 | callback        | Function    | A callback to capture the success or error response of the call to `LRObject.Identify`| [Read Here](#descriptionofcallback7)
 
-* The identify call should be in your `onSuccess` callbacks.  More info on how to set up the `onSuccess` methods located [here](/api/v2/user-registration/user-registration-getting-started-v2)
+* The identify call should be in your `onSuccess` callbacks.  More info on how to set up the `onSuccess` methods located [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started-v2)
 
 * A good use case would be to put it in the `login_options.onSuccess`.  Therefore, when a person signs into their account, it would trigger the event and notify your platform that a person has logged in.
 

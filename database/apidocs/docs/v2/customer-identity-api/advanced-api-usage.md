@@ -24,7 +24,7 @@ Note: By default nullSupport value will be considered false.
 **NOTE:** <br>
 
 - UserName can be set to null only by using the LoginRadius Management API.
-- You can get more information about editable fields [here](/api/v2/data-points-and-response-code/list-of-editable-data-fields)
+- You can get more information about editable fields [here](https://www.loginradius.com/legacy/docs/api/v2/data-points-and-response-code/list-of-editable-data-fields)
 
 ## How to Remove a JSON Object
 
@@ -228,7 +228,7 @@ The default Registration Source  values are shown in the below table.
 |Identity Experience Framework(IDX page)|URL of the IDX page|
 |Loginradius Docs API /API/Postman/ Registration through Admin console |API|
 
-To update the Registration Source using iOS SDK, see [here](/libraries/mobile-sdk-libraries/ios-library/#registrationbyemail16) and for Android, have a look [here](/libraries/mobile-sdk-libraries/android-library/#refererheaderoptional4).
+To update the Registration Source using iOS SDK, see [here](https://www.loginradius.com/legacy/docs/libraries/mobile-sdk-libraries/ios-library/#registrationbyemail16) and for Android, have a look [here](https://www.loginradius.com/legacy/docs/libraries/mobile-sdk-libraries/android-library/#refererheaderoptional4).
 
 
 ## Prevent Webhooks from triggering via header
@@ -239,7 +239,7 @@ If you are using Webhooks, and you have an event registered.  You can prevent th
 
 For example, let's say you have the "Login" event registered in the Webhooks API, this would normally cause a full profile to be sent to the registered addresses when a Login is triggered via any API that performs a Login.
 
-e.g. [Auth Login by Email API](/api/v2/customer-identity-api/authentication/auth-login-by-email)
+e.g. [Auth Login by Email API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-email)
 
 You can pass `X-PreventWebhook` into your request header with the value of either `true` or `false` to prevent the Webhook from triggering.
 

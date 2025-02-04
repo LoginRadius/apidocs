@@ -87,7 +87,7 @@ This section covers the required configurations that you need to perform to conf
     - Country code, e.g., "CA"
     - default: true
 
-- You can map the above Shopify user profile fields with any [LoginRadius Normalized field](/api/v2/getting-started/data-points/detailed-data-points/) or the [Custom Field](/api/v2/admin-console/platform-configuration/standard-login/data-schema/#customfields4).
+- You can map the above Shopify user profile fields with any [LoginRadius Normalized field](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points/detailed-data-points/) or the [Custom Field](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/standard-login/data-schema/#customfields4).
 
 - The LoginRadius array of object data type fields can be mapped by specifying the key property values or array position, e.g., `Addresses[Type=default].Address1, Addresses[0].Address1`.
 
@@ -138,7 +138,7 @@ This section covers the LoginRadius Shopify Plugin integration under the Shopify
 
 1. After extracting the above file, upload the **Javascript and CSS** files into your theme refer the following JavaScript and CSS files.
    <br><br>**Content:**
-   <br><br>- **raas-settings.js** - The javascript file that handles the LoginRadius initializations and functionality. More details on how the various calls in this file work can be found [here](/api/v2/user-registration/user-registration-getting-started).
+   <br><br>- **raas-settings.js** - The javascript file that handles the LoginRadius initializations and functionality. More details on how the various calls in this file work can be found [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started).
    <br><br>- **lr-raas-style.css** - The default Styles applied to the LoginRadius Interfaces.
    <br><br>- **register.liquid** - A sample Register .liquid file.
    <br><br>- **login.liquid** - A sample Login .liquid file.
@@ -164,7 +164,7 @@ Add the following tags just before the </head> (closing head tag) tag
 
 ## Initialize the LoginRadius User Registration options
 
-The LoginRadius User Registration interfaces require the following options: `apiKey`, `appName` and also an [SOTT](/api/v2/user-registration/sott) token (unless you prefer to use [Google ReCaptcha](/api/v1/user-registration/advanced-customization#googlerecaptcha10)), add the following script just before the </body> (closing body tag) and make sure to replace <API KEY> and <APP NAME> with the LoginRadius API KEY and Site Name respectively provided in your LoginRadius site settings page. Also add the [SOTT](/api/v2/user-registration/sott) token if you want to use SOTT for registration.
+The LoginRadius User Registration interfaces require the following options: `apiKey`, `appName` and also an [SOTT](https://www.loginradius.com/legacy/docs/api/v2/user-registration/sott) token (unless you prefer to use [Google ReCaptcha](https://www.loginradius.com/legacy/docs/api/v1/user-registration/advanced-customization#googlerecaptcha10)), add the following script just before the </body> (closing body tag) and make sure to replace <API KEY> and <APP NAME> with the LoginRadius API KEY and Site Name respectively provided in your LoginRadius site settings page. Also add the [SOTT](https://www.loginradius.com/legacy/docs/api/v2/user-registration/sott) token if you want to use SOTT for registration.
 
 ```
 <script type="text/javascript">
@@ -251,4 +251,4 @@ It will generate the user registration form for you with validation logic. All t
 
 ## Customizations
 
-This implementation requires the [LoginRadius JavaScript Interface](/api/v2/user-registration/user-registration-getting-started), if you want to customize the look and feel or even make some functionality changes, refer to our [LoginRadius JavaScript Interface](/api/v2/user-registration/user-registration-getting-started) documentation.
+This implementation requires the [LoginRadius JavaScript Interface](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started), if you want to customize the look and feel or even make some functionality changes, refer to our [LoginRadius JavaScript Interface](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started) documentation.

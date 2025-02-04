@@ -71,7 +71,7 @@ The above initialization takes a `commonOptions` object with the following param
 
 | Name                         | Required                                                                                      | Description                                                                                                                                                                                 |
 | ---------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| apiKey                       | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;">   | Set to your LoginRadius API Key which you can get [here](/api/v2/admin-console/platform-security/api-key-and-secret/).                                                                             |
+| apiKey                       | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;">   | Set to your LoginRadius API Key which you can get [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/).                                                                             |
 | appName                      | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;">   | Set to your LoginRadius site name, this is required for User Registration to work with Single Sign-On API.                                                                                  |
 | sott                         | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;">   | Secure One-time Token. Get token from [Admin Console](https://adminconsole.loginradius.com/deployment/apps/mobile-apps)                                                                                 |
 | verificationUrl              | <i class="fa fa-check-circle" aria-hidden="true" style="color: #00A856; font-size: 1.5em;">   | Set dynamic URL for email verification (Default URL: https://auth.lrcontent.com/mobile/verification/index.html)                                                                             |
@@ -85,7 +85,7 @@ The above initialization takes a `commonOptions` object with the following param
 | verificationEmailTemplate    | <i class="fa fa-times-circle" aria-hidden="true"  style="color: #B21500; font-size: 1.5em;" > | Email verification template name. This will be used in registration and resend email verification event.                                                                                    |
 | resetPasswordEmailTemplate   | <i class="fa fa-times-circle" aria-hidden="true"  style="color: #B21500; font-size: 1.5em;" > | Reset Password Template                                                                                                                                                                     |
 | smsTemplatePhoneVerification | <i class="fa fa-times-circle" aria-hidden="true"  style="color: #B21500; font-size: 1.5em;" > | Phone Number Verification Template Name                                                                                                                                                     |
-| riskBasedAuthentication      | <i class="fa fa-times-circle" aria-hidden="true"  style="color: #B21500; font-size: 1.5em;" > | To enable the risk based authentication. You also need to contact [LoginRadius support](/getting-started/general-questions/support-faq#how-do-i-contact-loginradiu) to enable this feature. |
+| riskBasedAuthentication      | <i class="fa fa-times-circle" aria-hidden="true"  style="color: #B21500; font-size: 1.5em;" > | To enable the risk based authentication. You also need to contact [LoginRadius support](https://www.loginradius.com/legacy/docs/getting-started/general-questions/support-faq#how-do-i-contact-loginradiu) to enable this feature. |
 | enableHeaderSott             | <i class="fa fa-times-circle" aria-hidden="true"  style="color: #B21500; font-size: 1.5em;" > | Set value false if you want to pass the secure one time token(SOTT) in query string. Default value is true and the SOTT will pass in header, you can pass ‘1’ or true into it.              |
 
 You need to add a LoginRadiusService to your project using a dependency injection in your `Component.ts` file:
@@ -1186,7 +1186,7 @@ Enable Multi-Factor Authentication via the `commonOptions` object:
 commonOptions.twoFactorAuthentication=true;
 ```
 
-Also, ensure that Multi-Factor Authentication is enabled in your [Admin Console](/api/v2/user-registration/multi-factor-authentication-overview#multi-factor-authentication-overview).
+Also, ensure that Multi-Factor Authentication is enabled in your [Admin Console](https://www.loginradius.com/legacy/docs/api/v2/user-registration/multi-factor-authentication-overview#multi-factor-authentication-overview).
 
 ##Smart Login Feature
 

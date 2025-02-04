@@ -172,7 +172,7 @@ Available Query Parameters
 - **redirect_uri:** [required]  Callback URL of your site where you want to redirect back your customers after an authorization code is granted.
     
 
-> **Note:** Make sure to whitelist the redirect_uri, which you are using to redirect your users on your website from your [Admin Console](https://adminconsole.loginradius.com/deployment/apps/web-apps). For more information refer to this [document](/api/v2/admin-console/deployment/sandbox-environments/).
+> **Note:** Make sure to whitelist the redirect_uri, which you are using to redirect your users on your website from your [Admin Console](https://adminconsole.loginradius.com/deployment/apps/web-apps). For more information refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/sandbox-environments/).
 
   
 
@@ -189,7 +189,7 @@ LoginRadius also supports some **additional query parameters** that can be used 
 
 The authorization code is an intermediate credential, which encodes the authorization obtained at  **Step 1**.
 
-To retrieve the access token, the client must submit the code generated in **Step 1** to the authorization server, using the  [Access token by OAuth 2 token API](/api/v2/single-sign-on/oauth2/access-token-by-oauth2-token).
+To retrieve the access token, the client must submit the code generated in **Step 1** to the authorization server, using the  [Access token by OAuth 2 token API](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/oauth2/access-token-by-oauth2-token).
 
 **API Endpoint:**
 ```
@@ -214,7 +214,7 @@ Here is an explanation of the Request Body Parameter :
 
 - **grant_type:** [required] Value for this flow must be 'authorization_code' always.
 
-- **client_secret:** [required] [LoginRadius API secret](/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
+- **client_secret:** [required] [LoginRadius API secret](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/#gettingyourapikeyandsecret0)
     
 - **code:** [required] The parameter received from the Login Dialog redirect above.
     
@@ -233,7 +233,7 @@ Here is an explanation of the Request Body Parameter :
 
 Step 3:  Using the obtained LoginRadius access_token in **Step 2**:
 
-You can use the obtained `access_token` with any of [LoginRadius  APIs](/api/v2/getting-started/introduction/) supporting the `access_token` until the token expires or is revoked.
+You can use the obtained `access_token` with any of [LoginRadius  APIs](https://www.loginradius.com/legacy/docs/api/v2/getting-started/introduction/) supporting the `access_token` until the token expires or is revoked.
 
 #### OAuth 2.0 PKCE Flow
 
@@ -282,7 +282,7 @@ Steps for using **code_challenge** and **code_challenge_method** in PKCE flow.
 - **Generate the code challenge:** This is passed in the **code_challenge** as a query parameter in the Authorization process and will be generated with the help of the code_verifier value.
     
 
-We provide the ready-to-use **code** to generate the **code_verifier** and **code_chalange**, please refer to this [document](/single-sign-on/tutorial/federated-sso/pkce-flow/#generatingpkcecodeverifierandchallenge0)
+We provide the ready-to-use **code** to generate the **code_verifier** and **code_chalange**, please refer to this [document](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/pkce-flow/#generatingpkcecodeverifierandchallenge0)
 
   
 
@@ -388,7 +388,7 @@ The access token request will contain the following parameters. Here is an expla
     
 -   **redirect_uri:** [required] Callback URL of your site where you want to redirect back the customers after an authorization code is granted.
     
-> **Note:** Make sure that you have whitelisted the Redirect_uri in your LoginRadius [Admin Console.](https://adminconsole.loginradius.com/deployment/apps/web-apps) For more information, refer to this [document](/api/v2/admin-console/deployment/sandbox-environments/).
+> **Note:** Make sure that you have whitelisted the Redirect_uri in your LoginRadius [Admin Console.](https://adminconsole.loginradius.com/deployment/apps/web-apps) For more information, refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/sandbox-environments/).
 
 -   **scope:** [optional] The value under scope will be sent on the IDX Page.
     
@@ -404,7 +404,7 @@ The access token request will contain the following parameters. Here is an expla
 
 **Step 2:** Utilize Access Token:
 
-Now you can use the obtained `access_token`  with any of [LoginRadius  APIs](/api/v2/getting-started/introduction/) supporting the `access_token` until the token expires or revokes.
+Now you can use the obtained `access_token`  with any of [LoginRadius  APIs](https://www.loginradius.com/legacy/docs/api/v2/getting-started/introduction/) supporting the `access_token` until the token expires or revokes.
 
 LoginRadius also supports some **additional query parameters** that can be used in the authorization endpoint, to know more about this please click [here](#authorizationendpointsupportedparameters14).
 
@@ -422,7 +422,7 @@ The following explains the implementation sequence for Resource Owner Password C
 
 The Resource Owner Password Credentials Grant flow allows you to obtain an access_token by utilizing the customer’s traditional username/email/phoneid and password credentials.
 
-**Step 1:** Use the [Access Token by Account Password](/api/v2/single-sign-on/oauth2/access-token-by-account-password)  to obtain an access_token.
+**Step 1:** Use the [Access Token by Account Password](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/oauth2/access-token-by-account-password)  to obtain an access_token.
 
 **API Endpoint:**
 ```
@@ -471,7 +471,7 @@ Here is an explanation of the Request Body Parameters :
 
 **Step 2:**  Using the obtained LoginRadius access_token in **Step 1**:
 
-You can use the obtained access_token with any of [LoginRadius  APIs](/api/v2/getting-started/introduction/) supporting the access_token until the token expires or revokes.
+You can use the obtained access_token with any of [LoginRadius  APIs](https://www.loginradius.com/legacy/docs/api/v2/getting-started/introduction/) supporting the access_token until the token expires or revokes.
   
 ## Device Code Flow
 
@@ -621,7 +621,7 @@ Request url:
 
   
 
-Once you have obtained an access_token, you can use the  [Refresh Access Token API](/api/v2/single-sign-on/oauth2/access-token-by-refresh-token)  to refresh the access_token.
+Once you have obtained an access_token, you can use the  [Refresh Access Token API](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/oauth2/access-token-by-refresh-token)  to refresh the access_token.
 
 **Available Request Body Parameters:**
 
@@ -670,7 +670,7 @@ Here is an explanation of the Request Body Parameter:
     - There is no limit to adding the Authorization Server API or redirect URLs.
 
 -   **While calling the OAuth Authorization endpoint can we open this inside popup instead of redirection?**
-    - You can refer to this [document](/libraries/identity-experience-framework/customization/#implementingthepageasapopup24) for a step by step guide to implement the Popup feature.
+    - You can refer to this [document](https://www.loginradius.com/legacy/docs/libraries/identity-experience-framework/customization/#implementingthepageasapopup24) for a step by step guide to implement the Popup feature.
 
 -   **Can we share Access Token or code generated in Oauth workflow with a third party application?**
     - Due to security reasons we never recommend sharing a user Access token or Code with a third party.
@@ -679,10 +679,10 @@ Here is an explanation of the Request Body Parameter:
 
 The following is the list of documents you might want to look into:
 
--   [JWT](/single-sign-on/tutorial/federated-sso/jwt-login/jwt-implementation-guide/)
+-   [JWT](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/jwt-login/jwt-implementation-guide/)
     
--   [Open ID Connect](/single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/)
+-   [Open ID Connect](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/)
     
--   [SAML](/single-sign-on/tutorial/federated-sso/saml/overview/)
+-   [SAML](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/saml/overview/)
     
--   [Multipass](/single-sign-on/tutorial/federated-sso/overview/)
+-   [Multipass](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/overview/)

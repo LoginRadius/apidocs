@@ -17,8 +17,8 @@ Progressive profiling automates the gradual gathering of data from consumers. Th
 
 Customer Registration Progressive Profiling allows you to split a potentially complicated registration process into multiple steps. This allows you to capture business critical information upfront and then slowly build out a holistic view of your consumers through subsequent steps/actions. The subsequent steps often take the place of secondary registration forms or event-driven calls to actions for your consumers to supply additional profile metadata.
 
-By default, these progressive fields are available only at the first invocation, and if the consumer wants to edit some of his details later on, then they cannot edit/modify the same. With the progressive fields feature, the LoginRadius platform allows the consumer to modify the progressive fields on the profile editor page. You can refer to the [**Progressive Profiling customization**](/api/v2/deployment/js-libraries/advanced-js-customizations/#progressiveprofiling27) for more details.
+By default, these progressive fields are available only at the first invocation, and if the consumer wants to edit some of his details later on, then they cannot edit/modify the same. With the progressive fields feature, the LoginRadius platform allows the consumer to modify the progressive fields on the profile editor page. You can refer to the [**Progressive Profiling customization**](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/advanced-js-customizations/#progressiveprofiling27) for more details.
 
   
 
-For more detail information regarding the configuration of Progressive Profiling and how it works you can refer to this [**document**](/authentication/concepts/progressive-profiling/).
+For more detail information regarding the configuration of Progressive Profiling and how it works you can refer to this [**document**](https://www.loginradius.com/legacy/docs/authentication/concepts/progressive-profiling/).

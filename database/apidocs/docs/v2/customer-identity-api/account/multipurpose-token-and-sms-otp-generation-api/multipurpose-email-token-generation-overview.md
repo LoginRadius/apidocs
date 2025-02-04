@@ -1,7 +1,7 @@
 # Multipurpose Email Token Generation API Guide
 
 
-This comprehensive document will provide you with all the necessary information and instructions to effectively utilize the [**Multipurpose Token Generation API**](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation/) in your applications. This API offers a versatile solution for generating various types of tokens to support different usecases and functionalities.
+This comprehensive document will provide you with all the necessary information and instructions to effectively utilize the [**Multipurpose Token Generation API**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation/) in your applications. This API offers a versatile solution for generating various types of tokens to support different usecases and functionalities.
 
 The following are the possible token types that can be used:
 

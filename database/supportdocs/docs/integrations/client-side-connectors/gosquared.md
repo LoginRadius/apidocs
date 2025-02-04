@@ -28,7 +28,7 @@ Call the LRObject.identify() method to link profiles.
 LRObject.identify("gosquared", <Profile Data>, <Mapping Object>, <isCustom>);
 ```
 
-This method should be called after the onSuccess callback from login, as the response profile data needs to be passed as its argument. Specifics on the mapping object can be found in the [Getting Started](/api/v2/integrations/getting-started#descriptionofmapping2) document.
+This method should be called after the onSuccess callback from login, as the response profile data needs to be passed as its argument. Specifics on the mapping object can be found in the [Getting Started](https://www.loginradius.com/legacy/docs/api/v2/integrations/getting-started#descriptionofmapping2) document.
 
 The following is an example of a mapping object containing all the standard keys that are included in GoSquared's common properties. Standard keys that are not included in GoSquared's common properties are listed under the custom key-value pairs, which maps a LoginRadius profile key to a custom property in GoSquared.
 

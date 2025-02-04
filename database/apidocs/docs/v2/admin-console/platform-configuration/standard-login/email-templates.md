@@ -36,7 +36,7 @@ Follow the below steps to **Manage Email Templates**:
    **FROM NAME :** The Sender's name applicable to the Template<br>
    **FROM EMAIL :** The Sender's email applicable to the Template<br>
 
-   > **Note:** If you want to customize the sender's name and email instead of utilizing the global values from your [configured SMTP](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/email-configuration), you can raise a request to [LoginRadius support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) to enable the **Multiple SMTP Domain** feature for your account. This will enable the **FROM NAME** and **FROM EMAIL** field for every email template available in your account. For more details, refer to [Multiple SMTP Domain](/api/v2/admin-console/platform-configuration/standard-login/multiple-smtp-domain/) document.
+   > **Note:** If you want to customize the sender's name and email instead of utilizing the global values from your [configured SMTP](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/email-configuration), you can raise a request to [LoginRadius support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) to enable the **Multiple SMTP Domain** feature for your account. This will enable the **FROM NAME** and **FROM EMAIL** field for every email template available in your account. For more details, refer to [Multiple SMTP Domain](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/standard-login/multiple-smtp-domain/) document.
 
    **HTML BODY :** The HTML body of the Template can be added here. The content/template added here will appear in the email client which supports HTML content in the email. Additional details on customizing the body of the template can be found in the next section.<br>
    **TEXT BODY :** A plain text version of the template can be added here. This template will appear in the email client which supports only plain text emails.
@@ -63,7 +63,7 @@ Below are the predefined placeholders that can be included in your email message
 - **#Name#**: This gets replaced with the user's name as defined in the registration form.
 - **#GUID#**: appended to the query parameter "vtoken" in order to identify the user after clicking on the link.
 - **#OTP#**: If you have enabled the numeric code feature (where verification token is sent as a numeric code), you can replace #GUID# with the #OTP#.
-- **#Url#**: This gets replaced with the URL passed in JavaScript options. For email verification, it is `commonOptions.verificationUrl,` and for reset password it is `commonOptions.resetPasswordUrl.` Check the [User Registration Getting Started](/api/v2/user-registration/user-registration-getting-started) document for more information.
+- **#Url#**: This gets replaced with the URL passed in JavaScript options. For email verification, it is `commonOptions.verificationUrl,` and for reset password it is `commonOptions.resetPasswordUrl.` Check the [User Registration Getting Started](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started) document for more information.
 - **#Providers#**: This gets replaced with the social provider name through which the user logged in.
 - **#Email#**: Email address from the registered user's profile.
 - **#FirstName#**: First name from the registered user's profile.
@@ -109,7 +109,7 @@ Regards<br/>
 
 ```
 
-> **Note:**If you pass commonOptions.verificationUrl option through [User Registration Getting Started](/api/v2/user-registration/user-registration-getting-started) than you should use #Url# tag instead of static URL (&lt;Site_URL&gt;)
+> **Note:**If you pass commonOptions.verificationUrl option through [User Registration Getting Started](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started) than you should use #Url# tag instead of static URL (&lt;Site_URL&gt;)
 
 2.Reset Password
 

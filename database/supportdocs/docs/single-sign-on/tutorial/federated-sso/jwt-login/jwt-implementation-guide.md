@@ -10,7 +10,7 @@ To implement the JWT in Loginradius use the following two ways:
 
 **Step 1:** First of all, configure a JWT app in your LoginRadius Admin Console. Refer to the [JWT Admin Console Configuration](#adminconsoleconfiguration1) section for how to configure JWT in the LoginRadius Admin Console.
 
-**Step 2:** Whitelist the service provider URL in the LoginRadius Admin Console. Follow this [document](/api/v2/admin-console/deployment/production-environments/) for information on how to whitelist URLs in the LoginRadius Admin console.
+**Step 2:** Whitelist the service provider URL in the LoginRadius Admin Console. Follow this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/production-environments/) for information on how to whitelist URLs in the LoginRadius Admin console.
 
 **Step 3:** Redirect the customer to the following LoginRadius JWT SSO URL for retrieving the JWT Token
 
@@ -27,7 +27,7 @@ To implement the JWT in Loginradius use the following two ways:
 - siteurl: This field contains the LoginRadius IDX/Custom Domain url. E.g., if your LoginRadius app name is company name then the siteurl will be companyname.hub.loginradius.com. If you are using a custom domain for your IDX page, then use custom domain value in place of site URL
 - jwtappname: JWT App Name
 
-> **Note:** This is the latest JWT API endpoint. If you are still working with the old JWT API endpoint which would be depricated soon, then refer to [JWT Implementation Guide](/single-sign-on/tutorial/Federated-SSO/JWT-login/v1.4.0/JWT-implementation-guide/) documentation.
+> **Note:** This is the latest JWT API endpoint. If you are still working with the old JWT API endpoint which would be depricated soon, then refer to [JWT Implementation Guide](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/Federated-SSO/JWT-login/v1.4.0/JWT-implementation-guide/) documentation.
 
 **Step 4:** The JWT SSO URL will redirect to your LoginRadius Identity Experience Framework hosted page (`https://<LRsitename>.hub.loginradius.com`)
 
@@ -102,7 +102,7 @@ The secret will be a plain string and the same string used to verify the generat
 
   - Enter any value for the key column (left column), these values will be used as keys for claims in the payload.
 
-  - Select the desired LoginRadius profile field name either through the list or by searching in the profile key (right column). The values for these fields from the customer's profile in LoginRadius will be returned to the JWT payload. Refer to the [LoginRadius data points](/api/v2/getting-started/data-points/detailed-data-points/) document for available profile fields.
+  - Select the desired LoginRadius profile field name either through the list or by searching in the profile key (right column). The values for these fields from the customer's profile in LoginRadius will be returned to the JWT payload. Refer to the [LoginRadius data points](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points/detailed-data-points/) document for available profile fields.
 
   > **Note:** We need to make sure that for some of the profile fields, you will need to use dot notation to access them. For the [Advanced](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/data-schema) field values in the customer profile, use the dot notation. For example, if the advanced field name is **Position**, enter **Position.Positionsummary** as the attribute value. If you don't find the field in the drop-down list, select **Others** and add the fields's value using dot notation.
 
@@ -177,10 +177,10 @@ Step 1: First of all, configure a JWT app in your LoginRadius Admin Console. Ref
 
 Step 2: If you are directly implementing your Login forms or already have an access token or want to generate a JWT based on email/username/Phone number or a password, you can leverage the following APIs:
 
-- [JWT Token](/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token/): This GET API is used to exchange access token with your JWT.
-- [JWT Token by Email](/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token-by-email/): This API is used to get a JWT by Email and Password.
-- [JWT Token by Username](/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token-by-username/): This API is used to get JWT by Username and password.
-- [JWT Token by Phone](/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token-by-phone/): This API is used to get JWT by Phone and password.
+- [JWT Token](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token/): This GET API is used to exchange access token with your JWT.
+- [JWT Token by Email](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token-by-email/): This API is used to get a JWT by Email and Password.
+- [JWT Token by Username](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token-by-username/): This API is used to get JWT by Username and password.
+- [JWT Token by Phone](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token-by-phone/): This API is used to get JWT by Phone and password.
 
 The response from the above APIs will look like this:
 
@@ -201,7 +201,7 @@ For more information on `<JWTresponse>`, refer to [JWT Token Structure](#jsonweb
 
 - **Logout the Jwt app session on IDX:** If you are leveraging LoginRadius IDX: redirect the users to `https://<site name>.hub.loginradius.com?action=logout&return_url=< your return url>` to invalidate the client side tokens. These will log out the users from the IDX.
 
-- **Refreshing the JWT:** There is no direct way to refresh the JWT token but you can use the [JWT token by access token](/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token/) API to generate a new JWT token.
+- **Refreshing the JWT:** There is no direct way to refresh the JWT token but you can use the [JWT token by access token](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token/) API to generate a new JWT token.
 
 ## JWT best practices
 
@@ -257,7 +257,7 @@ We've had a look at basic structure and encryption of JWT now we can have a look
 
   Yes, the access token generated from the login API can be used to generate the JWT token.
 
-  For e.g: Access token generated by [Auth Login by Email](/api/v2/customer-identity-api/authentication/auth-login-by-email/) API can be used in [JWT token by Access Token](/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token/) API for getting JWT token.
+  For e.g: Access token generated by [Auth Login by Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-email/) API can be used in [JWT token by Access Token](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/jwt-login/jwt-token/) API for getting JWT token.
 
 - **How can we give the permission to our Team members to access the Federated SSO section in the admin console?**
 
@@ -273,14 +273,14 @@ We've had a look at basic structure and encryption of JWT now we can have a look
 
 The following is the list of documents you might want to look into:
 
-[SSO deployment via JS Libraries](/single-sign-on/tutorial/web-sso/overview/#partdeployment2)
+[SSO deployment via JS Libraries](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/web-sso/overview/#partdeployment2)
 
-[Implementation Example of SSO](/single-sign-on/tutorial/web-sso/overview/#partimplementationexamples7)
+[Implementation Example of SSO](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/web-sso/overview/#partimplementationexamples7)
 
-[Multipass](/single-sign-on/tutorial/federated-sso/multipass/)
+[Multipass](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/multipass/)
 
-[OAuth 2.0](/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/)
+[OAuth 2.0](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/)
 
-[Open ID Connect](/single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/)
+[Open ID Connect](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/)
 
-[SAML](/single-sign-on/tutorial/federated-sso/saml/overview/)
+[SAML](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/saml/overview/)

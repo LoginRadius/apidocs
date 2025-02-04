@@ -1018,7 +1018,7 @@ lrv2.authenticationApi.getPrivacyPolicyHistoryByAccessToken(accessToken).then((r
  
 <h6 id="authSendVerificationEmailForLinkingSocialProfiles-get-"> Auth send verification Email for linking social profiles (GET)</h6>
 
-This API is used to Send verification email to the unverified email of the social profile. This API can be used only incase of optional verification workflow. [More Info](/api/v2/customer-identity-api/authentication/auth-send-verification-for-social-email/)
+This API is used to Send verification email to the unverified email of the social profile. This API can be used only incase of optional verification workflow. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-send-verification-for-social-email/)
 
 ```js
 var accessToken = "<accessToken>"; //Required
@@ -1384,7 +1384,7 @@ lrv2.accountApi.getEmailVerificationToken(email).then((response) => {
  
 <h6 id="multipurposeEmailTokenGeneration-post-"> Multipurpose Email Token Generation API (POST)</h6>
 
-This API generate Email tokens and Email OTPs for Email verification, Add email, Forgot password, Delete user, Passwordless login, Forgot pin, One-touch login and Auto login. [More Info](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation/)
+This API generate Email tokens and Email OTPs for Email verification, Add email, Forgot password, Delete user, Passwordless login, Forgot pin, One-touch login and Auto login. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation/)
 
 ```js
 var multiEmailToken ={ 
@@ -1405,7 +1405,7 @@ lrv2.accountApi.multipurposeEmailTokenGeneration(multiEmailToken, tokentype).the
 ```
   <h6 id="multipurposeSMSOTPGeneration-post-"> Multipurpose SMS OTP Generation API (POST)</h6>
 
-  This API generates SMS OTP for Add phone, Phone Id verification, Forgot password, Forgot pin, One-touch login, smart login and Passwordless login. [More Info](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation/)
+  This API generates SMS OTP for Add phone, Phone Id verification, Forgot password, Forgot pin, One-touch login, smart login and Passwordless login. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation/)
 
   
 ```js
@@ -1693,7 +1693,7 @@ lrv2.accountApi.removeEmail(email, uid, fields).then((response) => {
  
  <h6 id="revokeAllRefreshToken-delete-"> Revoke All Refresh Token (DELETE)</h6>
 
- The Revoke All Refresh Access Token API is used to revoke all refresh tokens for a specific user. [More Info](/api/v2/customer-identity-api/refresh-token/revoke-all-refresh-token/)
+ The Revoke All Refresh Access Token API is used to revoke all refresh tokens for a specific user. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/refresh-token/revoke-all-refresh-token/)
 
  ```js
 var uid = "<uid>"; //Required
@@ -5236,7 +5236,7 @@ List of APIs in this Section:<br>
 
 <h6 id="accessTokenViaCustomJWTToken-get-"> Access Token via Custom JWT Token (GET)</h6>
 
-This API is used to retrieve a LoginRadius access token by passing in a valid custom JWT token. [More Info](/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-by-custom-jwt-token/)
+This API is used to retrieve a LoginRadius access token by passing in a valid custom JWT token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-by-custom-jwt-token/)
 
 ```js
 var idToken = "<idToken>"; //Required

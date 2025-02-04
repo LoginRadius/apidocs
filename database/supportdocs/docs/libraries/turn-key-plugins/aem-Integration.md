@@ -81,25 +81,25 @@ Using LoginRadius CIAM, you can achieve different Auth workflows like Email Regi
 
 LoginRadius CIAM provides various methods of login :
 
-⦁ [Standard Login](/authentication/quick-start/standard-login/)
+⦁ [Standard Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/)
 
-⦁ [Phone Login](/authentication/tutorial/phone-login/)
+⦁ [Phone Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/)
 
-⦁ [Social Login](/authentication/quick-start/social-login/)
+⦁ [Social Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)
 
-⦁ [Smart Login](/authentication/tutorial/smart-login/)
+⦁ [Smart Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/smart-login/)
 
-⦁ [One Touch Login](/authentication/tutorial/one-touch-login/)
+⦁ [One Touch Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/one-touch-login/)
 
 ##Customer insights 
 
-LoginRadius provides useful charts and analytic tools to view and measure the overall performance of your site, in terms of customer registration and login. The information is aggregated and categorized into identity analytics, provider analytics, login analytics and comparative analysis. For more information refer to [Customer Insight](/customer-insights/identity-analytics/) section of our document.
+LoginRadius provides useful charts and analytic tools to view and measure the overall performance of your site, in terms of customer registration and login. The information is aggregated and categorized into identity analytics, provider analytics, login analytics and comparative analysis. For more information refer to [Customer Insight](https://www.loginradius.com/legacy/docs/customer-insights/identity-analytics/) section of our document.
 In LoginRadius Admin Console, navigate to [Insights > Identity Analytics >  Customer Stats](https://adminconsole.loginradius.com/insights/identity-analytics/customer-stats) and the following screen appears to show the available insight options:
 
 
 ##Set Up Social Login
 
-To use the extension in Social Login mode, you need to create a Social Login Component to use in your website. The LoginRadius Social Login component can be inserted in any secure (HTTPS) page in your website, where it will display as social network buttons (To configure the social provider, you can refer to our social provider [document](/authentication/quick-start/social-login/)).
+To use the extension in Social Login mode, you need to create a Social Login Component to use in your website. The LoginRadius Social Login component can be inserted in any secure (HTTPS) page in your website, where it will display as social network buttons (To configure the social provider, you can refer to our social provider [document](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)).
 
 
 ![enter image description here](https://apidocs.lrcontent.com/images/6_77445d304dbf7bf257.08806666.png "enter image title here")

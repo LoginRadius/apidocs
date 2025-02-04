@@ -42,7 +42,7 @@ This document provides an installation guide for the Magento v1.x Customer Ident
 
 ###Account Configuration
 
-> **Note:** The full functionality of this extension requires a LoginRadius Site name, LoginRadius API Key, and a LoginRadius API Secret. If you do not have this data. Please find further documentation on how you can obtain this data [here](/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret)
+> **Note:** The full functionality of this extension requires a LoginRadius Site name, LoginRadius API Key, and a LoginRadius API Secret. If you do not have this data. Please find further documentation on how you can obtain this data [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret)
 <br>
 
 ###Activation Steps
@@ -114,7 +114,7 @@ To add the email template manually using JS, please follow the below steps.
 
 - Similarly for reset password you can use `commonOptions.resetPasswordEmailTemplate ="<reset-password-template-name>"`
 
-Please refer to the [Email Template Customization](/libraries/js-libraries/localization/#emailandsmstemplatecustomization1) document to know more about Common options for various email templates.
+Please refer to the [Email Template Customization](https://www.loginradius.com/legacy/docs/libraries/js-libraries/localization/#emailandsmstemplatecustomization1) document to know more about Common options for various email templates.
 
 
 >**Note:** If you are migrating from the LoginRadius APIV1 Magento extension to the LoginRadius APIV2, you should make sure that you have completely removed the existing V1 module. Kindly follow the below steps to do that manually.

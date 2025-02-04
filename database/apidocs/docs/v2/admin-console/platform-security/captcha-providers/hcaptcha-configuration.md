@@ -72,7 +72,7 @@ The hCaptcha feature has 2 option in the Admin Console:
 
 ![Admin Console](https://apidocs.lrcontent.com/images/pasted-image-0-4_534226621648dfc3b5c8f11.87656351.png "Admin Console")
 
-According to your configuration it triggers the challenge if the form submission is detected by some bots instead of a human being. Code to implement the hCaptcha in the login form will be same as Google reCAPTCHA which can be found [**here**](/api/v2/admin-console/platform-security/captcha-providers/google-recaptcha-configuration/#displayinvisiblerecaptchaatloginform2).
+According to your configuration it triggers the challenge if the form submission is detected by some bots instead of a human being. Code to implement the hCaptcha in the login form will be same as Google reCAPTCHA which can be found [**here**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/captcha-providers/google-recaptcha-configuration/#displayinvisiblerecaptchaatloginform2).
 
 - In the case of the **CAPTCHA Checkbox and Challenge**, your registration page will look something like below.
 

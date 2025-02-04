@@ -14,7 +14,7 @@ This guide will take you through the following aspects of Customer Management av
 
 Search Customers screen displays the list of the customers registered in your account. You can filter or search the customers based on the search parameters available in the dropdown. The fields mainly used as search parameters are Name, Email Address, UID, ID, PhoneID.
 
-> **Note:** You can update these search parameters or fields by adding the custom fields in the Standard Login [Data Schema](/authentication/quick-start/standard-login/) section.
+> **Note:** You can update these search parameters or fields by adding the custom fields in the Standard Login [Data Schema](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/) section.
 
 The following explains how you can search and manage the customers registered in your application:
 
@@ -41,7 +41,7 @@ Search results are filtered based on the following:
 
 You need to enter the customer details in the textbox based on the fields selected from above.
 
-> **Note:** You can update the search parameters(fields) by adding the custom fields in the Standard Login [Data Schema](/authentication/quick-start/standard-login/) section.
+> **Note:** You can update the search parameters(fields) by adding the custom fields in the Standard Login [Data Schema](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/) section.
 
 Step 3: Click the **Manage** button to manage the customer profile as highlighted in the following screen:
 
@@ -75,13 +75,13 @@ You can view the following customer information, as highlighted in the **left** 
 
 > **Note:** In addition to the Search and Manage customers features available in the LoginRadius Admin Console, you can use the following Account APIs to get the customer details:
 >
-> - [Account Identities by Email](/api/v2/customer-identity-api/account/account-identities-by-email/)
-> - [Account Impersonation API](/api/v2/customer-identity-api/account/account-impersonation-api/)
-> - [Account Password](/api/v2/customer-identity-api/account/account-password/)
-> - [Account Profiles by Email](/api/v2/customer-identity-api/account/account-profiles-by-email/)
-> - [Account Profiles by User Name](/api/v2/customer-identity-api/account/account-profiles-by-user-name)
-> - [Account Profiles by Phone ID](/api/v2/customer-identity-api/account/account-profiles-by-phone-id/)
-> - [Account Profiles by UID](/api/v2/customer-identity-api/account/account-profiles-by-uid/)
+> - [Account Identities by Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-identities-by-email/)
+> - [Account Impersonation API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-impersonation-api/)
+> - [Account Password](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-password/)
+> - [Account Profiles by Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-email/)
+> - [Account Profiles by User Name](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-user-name)
+> - [Account Profiles by Phone ID](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-phone-id/)
+> - [Account Profiles by UID](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-uid/)
 
 ## Part 2 - Blocked Customers
 
@@ -108,9 +108,9 @@ The following screen displays the search result displayed based on the applied s
 
 > **Notes:**
 
-> - You block the customers from LoginRadius Admin Console, or they get blocked on reaching the maximum wrong login attempts if configured in the [Brute Force Lockout](/authentication/concepts/customer-security/) feature.
+> - You block the customers from LoginRadius Admin Console, or they get blocked on reaching the maximum wrong login attempts if configured in the [Brute Force Lockout](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-security/) feature.
 
-> - You can also unblock customers by using [Auth Unlock Account by Access Token](/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token/) API.
+> - You can also unblock customers by using [Auth Unlock Account by Access Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token/) API.
 
 ## Part 3 - Add a New Customer
 
@@ -122,22 +122,22 @@ The following explains how you can add a new customer to your application:
 
 ![Add customer](https://apidocs.lrcontent.com/images/cm9_325725e84e3065f1276.10421768.png "Add customer")
 
-> **Note:** The registration fields displayed in the above screen are based on registration form <a href = https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/data-schema target=_blank>schema configuration</a>. For more details on registration field configuration, refer to [this document](/authentication/quick-start/standard-login/).
+> **Note:** The registration fields displayed in the above screen are based on registration form <a href = https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/data-schema target=_blank>schema configuration</a>. For more details on registration field configuration, refer to [this document](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/).
 
 **Step 2:** Enter the required details and click the **Add Customer** button, as highlighted in the following screen:
 
 ![Button](https://apidocs.lrcontent.com/images/cm10_177665e84e4b9624fd1.69431474.png "Button")
 
-> **Note:** You can also add a new customer by using [Auth User Registration by Email API](/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/), which creates a customer in the database and also sends a verification email to the customer.
+> **Note:** You can also add a new customer by using [Auth User Registration by Email API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/), which creates a customer in the database and also sends a verification email to the customer.
 
 ## Part 4 - Next Steps
 
 The following is the list of features you might want to add-on to the above implementation:
 
-[Customer Data Export](/authentication/concepts/customer-data-export/)
+[Customer Data Export](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-data-export/)
 
-[Customer Segmentation](/authentication/concepts/customer-segmentation/)
+[Customer Segmentation](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-segmentation/)
 
-[Customer Data Query](/authentication/concepts/customer-data-query/)
+[Customer Data Query](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-data-query/)
 
-[Progressive Profiling](/authentication/concepts/progressive-profiling/)
+[Progressive Profiling](https://www.loginradius.com/legacy/docs/authentication/concepts/progressive-profiling/)

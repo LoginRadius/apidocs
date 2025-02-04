@@ -33,7 +33,7 @@ Our Traffic Manager automatically detects the  CDN availability and retrieves th
 
 ### 2.  Client-side JS Failover
 
-This failover is applied directly to the client browser, and it's necessary to incorporate the script mentioned [here](/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3) on your website to implement this failover. If the content fails to reach its destination or load, the script will retrieve the content from the failover location.
+This failover is applied directly to the client browser, and it's necessary to incorporate the script mentioned [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3) on your website to implement this failover. If the content fails to reach its destination or load, the script will retrieve the content from the failover location.
 
 
 

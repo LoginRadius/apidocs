@@ -8,7 +8,7 @@ LoginRadius Identity Platform allows you to implement the One Touch Login featur
 
 - [**One Touch Login by SMS**](#onetouchloginbysms3): The customer can log into a web/mobile application directly entering the OTP received on their phone number.
 
-> **Note**: One Touch Login SMS will work only if the [**Phone Login**](/authentication/tutorial/phone-login/) feature is enabled.
+> **Note**: One Touch Login SMS will work only if the [**Phone Login**](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/) feature is enabled.
 
 
 ## One Touch Login Guide
@@ -30,7 +30,7 @@ The following screen appears:
 
 The above screen displays that the One Touch Login is enabled for your account since the One Touch Login box is in green with the enabled text. If not **enabled** for your account, raise a request to the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>
 
-> **Note:** In addition to this feature if you also want to disable the use of **Login APIs**, where password is **required field**, such as [**Auth Login By Email**](/api/v2/customer-identity-api/authentication/auth-login-by-email/), [**Auth Login By Username**](/api/v2/customer-identity-api/authentication/auth-login-by-username/) or [**Auth Login By Phone**](/api/v2/customer-identity-api/phone-authentication/phone-login/), and etc., please raise a request to the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
+> **Note:** In addition to this feature if you also want to disable the use of **Login APIs**, where password is **required field**, such as [**Auth Login By Email**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-email/), [**Auth Login By Username**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-username/) or [**Auth Login By Phone**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-login/), and etc., please raise a request to the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
 
 ## Part 1 - Configuration
 
@@ -52,7 +52,7 @@ The following screen appears:
 
 ![template](https://apidocs.lrcontent.com/images/image-39_8647230326687aa9a3785b6.22460222.png "template")
 
-**Step 2:** Expand the **One Touch Login Email Settings** panel. Enter the desired [**Request Limit**](/authentication/concepts/email-communications/#partglobalemailsettings5), [**Request disabled Period**](/authentication/concepts/email-communications/#partglobalemailsettings5) and [**One touch Login  Email Token Validity Limit**](/authentication/concepts/email-communications/#partglobalemailsettings5) as highlighted in the following screen:
+**Step 2:** Expand the **One Touch Login Email Settings** panel. Enter the desired [**Request Limit**](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partglobalemailsettings5), [**Request disabled Period**](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partglobalemailsettings5) and [**One touch Login  Email Token Validity Limit**](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partglobalemailsettings5) as highlighted in the following screen:
 
 
 ![one touch email settings](https://apidocs.lrcontent.com/images/image-40_8980025226687a83f1ca774.63722230.png "one touch email settings")
@@ -64,7 +64,7 @@ Click the **Save** button.
 
 ![one touch](https://apidocs.lrcontent.com/images/unnamed-22_4313771796687a8f0586806.44255834.png "one touch")
 
-You can perform actions such as [**Add Template**](/authentication/concepts/email-communications/#partemailtemplates6), [**Edit Template**](/authentication/concepts/email-communications/#partemailtemplates6), [**Send Test Email**](/authentication/concepts/email-communications/#partemailtemplates6) and [**Delete Template**](/authentication/concepts/email-communications/#partemailtemplates6).
+You can perform actions such as [**Add Template**](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partemailtemplates6), [**Edit Template**](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partemailtemplates6), [**Send Test Email**](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partemailtemplates6) and [**Delete Template**](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partemailtemplates6).
 
 
 > **Note:** You can only delete the new template(s) that you have created i.e. you will not be able to delete the default template.
@@ -80,7 +80,7 @@ The following screen appears:
 
 ![sms](https://apidocs.lrcontent.com/images/unnamed-23_13713026006687a941538c44.47453721.png "sms")
 
-**Step 2**: Expand the **One Touch Login SMS Settings** panel. Enter the desired [**Request Limit**](/authentication/concepts/sms-communication/#partsmstemplatesettings1), [**Request disabled Period**](/authentication/concepts/sms-communication/#partsmstemplatesettings1) and [**One touch Login OTP Validity Limit**](/authentication/concepts/sms-communication/#partsmstemplatesettings1) as highlighted in the following screen:
+**Step 2**: Expand the **One Touch Login SMS Settings** panel. Enter the desired [**Request Limit**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#partsmstemplatesettings1), [**Request disabled Period**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#partsmstemplatesettings1) and [**One touch Login OTP Validity Limit**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#partsmstemplatesettings1) as highlighted in the following screen:
 
 ![sms](https://apidocs.lrcontent.com/images/unnamed-24_15637772526687a9b6b6dcf7.48188032.png "sms")
 
@@ -88,7 +88,7 @@ The following screen appears:
 
 ![template](https://apidocs.lrcontent.com/images/unnamed-23_17915257876687aa005c6127.88790850.png "template")
 
-You can perform actions such as [**Add**](/authentication/concepts/sms-communication/#addtemplate4), [**Edit**](/authentication/concepts/sms-communication/#edittemplate3), [**Reset**](/authentication/concepts/sms-communication/#resettemplate6) and [**Delete**](/authentication/concepts/sms-communication/#deletetemplate5) template. 
+You can perform actions such as [**Add**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#addtemplate4), [**Edit**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#edittemplate3), [**Reset**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#resettemplate6) and [**Delete**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#deletetemplate5) template. 
 
 ## Part 2 - Deployment 
 
@@ -102,11 +102,11 @@ This guide focuses on the following deployment methods:
 - [**JavaScript Libraries**](#javascriptdeployment6): You should refer to these deployment steps if you are targeting LoginRadius Identity Platform implementation using JavaScript.
 
 
-However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](/api/v2/getting-started/implementation-workflows/).
+However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](https://www.loginradius.com/legacy/docs/api/v2/getting-started/implementation-workflows/).
 
 >**Note:**
-> - To implement the One Touch Login using API refer to this [document](/api/v2/customer-identity-api/one-touch-login/one-touch-login-overview/)
-> - To implement the One Touch Login using technology-specific SDK refer to this [document](/api/v2/deployment/sdk-libraries/overview/)
+> - To implement the One Touch Login using API refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-overview/)
+> - To implement the One Touch Login using technology-specific SDK refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/deployment/sdk-libraries/overview/)
 
 ### IDX Deployment
 
@@ -127,7 +127,7 @@ The Auth Page URL displays your unique hosted page domain in the following forma
  
 ```
 
-In the above URL, [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
+In the above URL, [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
 
 **Step 2:** Embed Authentication Pages in your Website, as explained below:
 
@@ -139,7 +139,7 @@ Add a link on your webpage for redirecting customers to the Identity Experience 
 
 In the above URL replace the following: 
 
-**a.** LoginRadius Site Name : Your unique LoginRadius [sitename](/api/v2/admin-console/deployment/get-site-app-name/) as found in step 1.
+**a.** LoginRadius Site Name : Your unique LoginRadius [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) as found in step 1.
 
 **b.** Desired Action: Following are the action list you can use 
 
@@ -226,7 +226,7 @@ Try this link out on your page; you should be redirected over to the LoginRadius
 
      ![default](https://apidocs.lrcontent.com/images/Deployment---LoginRadius-User-Dashboard-3_11500620c2ecde77e76.59996532.png "default")
 
-6. Navigate to your Auth page URL (`https://<sitename>.hub.loginradius.com/auth.aspx`) , where [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
+6. Navigate to your Auth page URL (`https://<sitename>.hub.loginradius.com/auth.aspx`) , where [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
 
      ![hosted page](https://apidocs.lrcontent.com/images/otl5_171405e864c9ca08094.63588959.png "hosted page")
 
@@ -246,7 +246,7 @@ function getParameterByName(name) {
 var access_token = getParameterByName(“token”);
 ```
 
-> We have additional language specific examples [here](/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
+> We have additional language specific examples [here](https://www.loginradius.com/legacy/docs/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
 
 ### JavaScript Deployment
 
@@ -274,7 +274,7 @@ commonOptions.appName = "<LoginRadius site name>";
 var LRObject= new LoginRadiusV2(commonOptions);
 ```
 
-> **Note:** The LoginRadius Identity Platform uses the default email/sms template available in the LoginRadius Admin Console. To use the custom [Email Templates](/authentication/concepts/email-communications/)/[SMS Templates](/authentication/concepts/sms-communication/), you can utilize the following common options:
+> **Note:** The LoginRadius Identity Platform uses the default email/sms template available in the LoginRadius Admin Console. To use the custom [Email Templates](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/)/[SMS Templates](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/), you can utilize the following common options:
 
 >commonOptions.onetouchLoginEmailTemplate=”<templateName>”;
 commonOptions.smsTemplateOneTouchLoginWelcome=”<templateName>”;
@@ -311,8 +311,8 @@ HTML element can be used as below
 The following is the list of features you might want to add-on to the above implementation:
 
 
-[Passwordless Login](/authentication/tutorial/passwordless-login#partnextsteps3)
+[Passwordless Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/passwordless-login#partnextsteps3)
 
-[Smart Login](/authentication/tutorial/smart-login/)
+[Smart Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/smart-login/)
 
-[JS Customizations](/api/v2/deployment/js-libraries/getting-started/#login7)
+[JS Customizations](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/getting-started/#login7)

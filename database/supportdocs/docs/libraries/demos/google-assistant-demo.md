@@ -48,7 +48,7 @@ Actions on Google is the official collection of tools, documentation, and APIs f
    - Run the command `cd` to directory
    - Run the command `npm install`
 4. Install node.js and run node index.js` through command line to start your server.
-5. In your LoginRadius Admin Console, [whitelist](/api/v2/admin-console/dev-stagin-sandbox-environment) your server's secure URL: `https://oauth-redirect.googleusercontent.com`
+5. In your LoginRadius Admin Console, [whitelist](https://www.loginradius.com/legacy/docs/api/v2/admin-console/dev-stagin-sandbox-environment) your server's secure URL: `https://oauth-redirect.googleusercontent.com`
 6. Under **Build > Action** go to Dialogflow Admin Console and click **Fulfillment** on the left side menu, and enable the **Webhook** option, enter the secure URL to your server and click on **Save** button.
 
 ## Testing

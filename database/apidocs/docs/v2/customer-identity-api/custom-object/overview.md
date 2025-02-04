@@ -91,35 +91,35 @@ You can also refer to this image for a better understanding:
 
 We have some dedicated APIs to interact with custom objects for which the list of the APIs to make queries to custom objects are given below:
 
-- [Create Custom Object by UID](/api/v2/customer-identity-api/custom-object/create-custom-object-by-uid)
+- [Create Custom Object by UID](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-uid)
 This API is used to post object inside the custom objects using the user’s UID.
 
-- [Create Custom Object by Token](/api/v2/customer-identity-api/custom-object/create-custom-object-by-token)
+- [Create Custom Object by Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-token)
 This API is used to post object inside the custom objects using the user’s token
 .
-- [Custom Object by ObjectRecordId and UID](/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-uid)
+- [Custom Object by ObjectRecordId and UID](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-uid)
 This API is used to fetch custom object using objectRecordID and UID.
 
-- [Custom Object by ObjectRecordId and Token](/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-token)
+- [Custom Object by ObjectRecordId and Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-token)
 This API is used to fetch custom object using objectRecordID and token.
 
-- [Custom Object by Token](/api/v2/customer-identity-api/custom-object/custom-object-by-token)
+- [Custom Object by Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-token)
 This API is used to retrieve the specified Custom Object data for the specified account using the      access token.
 
-- [Custom Object By UID](/api/v2/customer-identity-api/custom-object/custom-object-by-uid)
+- [Custom Object By UID](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-uid)
 This API is used to retrieve all the custom objects by UID from .
 
-- [Custom Object Update by ObjectRecordId and UID](/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-uid)
+- [Custom Object Update by ObjectRecordId and UID](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-uid)
 This API is used to update the specified custom object data of a specified account. If the value of updatetype is 'replace' then it will fully replace the custom object with new custom object and if the value of updatetype is partialreplace then it will perform an upsert type operation.
 
-- [Custom Object Update by ObjectRecordId and Token](/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-token)
+- [Custom Object Update by ObjectRecordId and Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-token)
 This API is used to update the specified custom object data of the specified account. If the value of updatetype is 'replace' then it will fully replace custom object with the new custom object and if the value of updatetype is 'partialreplace' then it will perform an upsert type operation.
 
-- [Custom Object Delete by ObjectRecordId and Token](/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-token)
+- [Custom Object Delete by ObjectRecordId and Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-token)
 This API is used to remove the specified Custom Object data using ObjectRecordId of a specified account.
 
 
-- [Custom Object Delete by ObjectRecordId and UID](/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-uid)
+- [Custom Object Delete by ObjectRecordId and UID](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-uid)
 This API is used to remove the specified Custom Object data using ObjectRecordId of the specified account.
 
 
@@ -127,11 +127,11 @@ This API is used to remove the specified Custom Object data using ObjectRecordId
 
 A query can be applied to the custom object for analysis or segmentation to obtain details on how Custom Objects data is stored in your LoginRadius Cloud Directory.
 
-LoginRadius provides [Cloud Directory Custom Object APIs](/api/v2/cloud-directory-api/custom-object/overview#queryingbasicfields5) that can be leveraged for querying on custom object data.
+LoginRadius provides [Cloud Directory Custom Object APIs](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/custom-object/overview#queryingbasicfields5) that can be leveraged for querying on custom object data.
 
-In order to use [Cloud Directory Custom Object APIs](/api/v2/cloud-directory-api/custom-object/overview#queryingbasicfields5), it is required to set up the schema and define the indexing on the schema. Indexing is a data structure process for improving the performance of data retrieval queries.
+In order to use [Cloud Directory Custom Object APIs](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/custom-object/overview#queryingbasicfields5), it is required to set up the schema and define the indexing on the schema. Indexing is a data structure process for improving the performance of data retrieval queries.
 
-For more details, refer to the Cloud Directory Custom Object API [document](/api/v2/cloud-directory-api/custom-object/overview).
+For more details, refer to the Cloud Directory Custom Object API [document](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/custom-object/overview).
 
 >**NOTE:** In case if you want to do any changes, updates  or need to add operation on a custom object and it’s schema, then you can reach out to our support team at [support@loginradius.com](mailto:support@loginradius.com) for assistance.
 
