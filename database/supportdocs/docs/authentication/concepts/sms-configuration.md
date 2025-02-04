@@ -14,7 +14,7 @@ The following steps explain the working of SMS communication in the LoginRadius 
 
 
 1. The customer initiates a login request in the application via LoginRadius' API.
-3. LoginRadius retrieves the message content and generates the [OTP code](https://www.loginradius.com/docs/infrastructure-and-security/loginradius-tokens#phone-otp-one-time-password-). LoginRadius then makes a call to your desired SMS Service Provider with the message content and generates the OTP code to form the SMS message.
+3. LoginRadius retrieves the message content and generates the [OTP code](https://www.loginradius.com/legacy/docs/infrastructure-and-security/loginradius-tokens#phone-otp-one-time-password-). LoginRadius then makes a call to your desired SMS Service Provider with the message content and generates the OTP code to form the SMS message.
 
 5. On success, the SMS provider returns a response to LoginRadius, which is then relayed to the initiating application. The SMS message containing the message content and OTP code is sent by the SMS Service Provider back to the customer.
  
@@ -260,7 +260,7 @@ The following displays the login screen:
 
 ![enter image description here](https://apidocs.lrcontent.com/images/14_288085e7f240f571d22.76547345.png "enter image title here")
 
-Click the **Save New Key** button. It will whitelist the entered IP addresses. You can find the complete list of IPs used by LoginRadius [here.](https://www.loginradius.com/docs/infrastructure-and-security/ip-addresses-list)
+Click the **Save New Key** button. It will whitelist the entered IP addresses. You can find the complete list of IPs used by LoginRadius [here.](https://www.loginradius.com/legacy/docs/infrastructure-and-security/ip-addresses-list)
 
 **Step 5:** Upon API Key creation, you will be redirected to the following API Key List screen:
 

@@ -68,6 +68,6 @@ Here's what a mapping with minimal settings should look like:
 
 ## Part 2: Setting up the Custom Doximity Social Login Icon
 
-> **Note:** For this next step we highly recommend you familiarize yourself with customizing your social provider icons [here](https://www.loginradius.com/docs/api/v2/user-registration/user-registration-getting-started#socialinterfacecustomization10). Once you're ready to have the Doximity Social Login icon displayed on your website you will need to inject it via code.
+> **Note:** For this next step we highly recommend you familiarize yourself with customizing your social provider icons [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#socialinterfacecustomization10). Once you're ready to have the Doximity Social Login icon displayed on your website you will need to inject it via code.
 
-See our general all-purpose document on setting up a Custom OAuth Provider Icon for this step [here](https://www.loginradius.com/docs/api/v2/custom-identity-provider/custom-oauth-provider#settingupthecustomicon1). Once this is complete you should now have Doximity available as a social icon:
+See our general all-purpose document on setting up a Custom OAuth Provider Icon for this step [here](https://www.loginradius.com/legacy/docs/api/v2/custom-identity-provider/custom-oauth-provider#settingupthecustomicon1). Once this is complete you should now have Doximity available as a social icon:

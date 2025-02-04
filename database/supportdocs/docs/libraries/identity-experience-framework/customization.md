@@ -390,7 +390,7 @@ The following screen will appear:
 
 ![IDX-Profile-Pages-Before-Script](https://apidocs.lrcontent.com/images/19_13626280856400fb17845e66.56776090.png "IDX-Profile-Pages-Before-Script")
 
-Click the **Save** button to load the JS file. Update the JS file as per your requirements. For advanced JS customizations options available in the LoginRadius Identity Platform, refer to [this document](https://www.loginradius.com/docs/api/v2/user-registration/advanced-customization).
+Click the **Save** button to load the JS file. Update the JS file as per your requirements. For advanced JS customizations options available in the LoginRadius Identity Platform, refer to [this document](https://www.loginradius.com/legacy/docs/api/v2/user-registration/advanced-customization).
 
 Also, few customizations options are directly available in the default **Profile- Before Script** file and you can make the desired changes as explained below:
 

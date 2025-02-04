@@ -61,7 +61,7 @@ This document provides an installation guide for the Magento v1.x Customer Ident
    > **Note**: If you have 404 error after navigating to the Authentication page, just log out from Magento admin and login again.
    > <br>
 
-**Step 3**: Insert LoginRadius [**API Key, and API Secret**](https://www.loginradius.com/docs/account/get-api-key-and-secret) provided on your LoginRadius Admin Console.
+**Step 3**: Insert LoginRadius [**API Key, and API Secret**](https://www.loginradius.com/legacy/docs/account/get-api-key-and-secret) provided on your LoginRadius Admin Console.
 
 **Step 4**. **Save** the Configuration.
 

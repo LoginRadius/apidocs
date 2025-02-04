@@ -19,4 +19,4 @@ Thus to access 3.10.0, the CDN URL will be:
 
 `https://auth.lrcontent.com/v2/LoginRadius-v3.10.0.js`
 
-For more details, please see our [Developer Documentation](https://www.loginradius.com/docs/api/v2/deployment/js-libraries/getting-started/#installation1).
+For more details, please see our [Developer Documentation](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/getting-started/#installation1).

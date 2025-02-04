@@ -33,7 +33,7 @@
             {
                 "name": "updatetype",
                 "is_required": true,
-                "description": "Possible values: replace, partialreplace. Find more details <a href='/docs/api/v2/customer-identity-api/advanced-api-usage#customobjectupdatetype6'>here</a>"
+                "description": "Possible values: replace, partialreplace. Find more details <a href='/legacy/docs/api/v2/customer-identity-api/advanced-api-usage#customobjectupdatetype6'>here</a>"
             }
         ],
 		"Headers Parameters": [{

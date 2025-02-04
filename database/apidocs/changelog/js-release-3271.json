@@ -5,7 +5,7 @@
     "changelog": {
         "ADDED": [
             {
-                "text": "We have added the option to implement the newly released Passkey feature in <a href='/docs/libraries/js-libraries/advanced-js-customizations/'>LoginRadius v2 JS</a>."
+                "text": "We have added the option to implement the newly released Passkey feature in <a href='/legacy/docs/libraries/js-libraries/advanced-js-customizations/'>LoginRadius v2 JS</a>."
             }
         ]
     },
