@@ -4,7 +4,7 @@ Social login refers to the practice of allowing users to log in to a website or 
 
 It's important to note that the specific data points collected during social registration may vary depending on the platform, the permissions granted to the application, and the user's consent.
 
-The availability of data points may depend on the specific social provider you are requesting them from. Kindly refer to the documentation [here](/governance/advanced-social-data-points/#advanced-data-points-requirements-and-retrieval).
+The availability of data points may depend on the specific social provider you are requesting them from. Kindly refer to the documentation [here](https://www.loginradius.com/legacy/docs/governance/advanced-social-data-points/#advanced-data-points-requirements-and-retrieval).
 
 ## Amazon
 

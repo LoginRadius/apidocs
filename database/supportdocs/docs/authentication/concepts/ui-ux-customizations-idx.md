@@ -121,7 +121,7 @@ The following screen will appear:
 
 ![](https://apidocs.lrcontent.com/images/U7_215665ee2158772d656.46675228.png)
 
-Update the JS file as per your requirements. For advanced JS customizations options available in the LoginRadius Identity Platform, refer to [this document](/api/v2/user-registration/advanced-customization).
+Update the JS file as per your requirements. For advanced JS customizations options available in the LoginRadius Identity Platform, refer to [this document](https://www.loginradius.com/legacy/docs/api/v2/user-registration/advanced-customization).
 
 Also, few customizations options are directly available in the **Auth - Before Script** file and you can make the desired changes as explained below:
 

@@ -9,7 +9,7 @@ LoginRadius Passwordless Login provides customers with the ability to login to t
 
 ## Passwordless Login Workflow
 
-1. The customer with an existing account begins the Passwordless Login flow using the [Passwordless Login By Email API](/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-email), [ Passwordless Login By Username API](/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-username)
+1. The customer with an existing account begins the Passwordless Login flow using the [Passwordless Login By Email API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-email), [ Passwordless Login By Username API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-username)
    or Passwordless Login By Phone.
 2. If the Passwordless Login is initiated with a phone or a mobile device, an SMS is sent to the device with a One Time Passcode (OTP). Otherwise, an email is sent to the customer to login via a login link or verification token.
 3. The Passwordless Login Phone Verification [API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-phone-verification) validates the OTP sent to the SMS and returns the standard Login response with a Profile object and an access token.

@@ -7,7 +7,7 @@ Here we will see how hooks can be implemented in JavaScript to change/alter the 
 > **Prerequisites:**
    > -  All of the advanced customizations which we have explained here require that the LoginRadius User Registration Interface is configured on your site. Have a look at the getting started document here for more details.
 > - Basic knowledge of HTML/JavaScript
-> - Knowledge of implementation of LoginRadius features using JavaScript, referencing [this document](/libraries/js-libraries/getting-started/).
+> - Knowledge of implementation of LoginRadius features using JavaScript, referencing [this document](https://www.loginradius.com/legacy/docs/libraries/js-libraries/getting-started/).
 
 ## JavaScript Hooks Customization Guide
 This guide will tell you all about the JavaScript hooks available in LoginRadius and the customization steps around them. 
@@ -908,6 +908,6 @@ Then call this hook with the name of your locale object as a parameter before LR
 LRObject.$hooks.call('setLocaleBasedInfo',french);
 ```
 
-Now include code for your form(for eg: login form) in the script tag of your web page as per the documentation [here](/api/v2/user-registration/user-registration-getting-started-v2#login6).
+Now include code for your form(for eg: login form) in the script tag of your web page as per the documentation [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started-v2#login6).
 
 

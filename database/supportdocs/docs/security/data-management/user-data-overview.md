@@ -12,15 +12,15 @@ The LoginRadius Data Management Platform encompasses a number of features and to
 
 ### Customer Data Migration
 
-LoginRadius provides a turn-key customer data migration software to migrate existing customer data from either a single source or multiple sources to the LoginRadius cloud data storage. The [LoginRadius Data Structure](/user-profiling/custom-fields-and-custom-objects) can support any existing data format and [Password Hashing Algorithm](/development/configuration/supported-password-hashing-algorithms) to import the data into the LoginRadius . The main goal of this process is to provide the least amount of impact to your existing customers, and we have various custom workflows of providing a low impact transition, such as sending welcome or password reset emails to your customers during the migration process. During the process of migrating existing customer data into the LoginRadius , we provide a seamless transition, with zero downtime, for both you and your customers.
+LoginRadius provides a turn-key customer data migration software to migrate existing customer data from either a single source or multiple sources to the LoginRadius cloud data storage. The [LoginRadius Data Structure](https://www.loginradius.com/legacy/docs/user-profiling/custom-fields-and-custom-objects) can support any existing data format and [Password Hashing Algorithm](https://www.loginradius.com/legacy/docs/development/configuration/supported-password-hashing-algorithms) to import the data into the LoginRadius . The main goal of this process is to provide the least amount of impact to your existing customers, and we have various custom workflows of providing a low impact transition, such as sending welcome or password reset emails to your customers during the migration process. During the process of migrating existing customer data into the LoginRadius , we provide a seamless transition, with zero downtime, for both you and your customers.
 
-For more information on data migration, see this [document](/api/v1/getting-started/data-migration).
+For more information on data migration, see this [document](https://www.loginradius.com/legacy/docs/api/v1/getting-started/data-migration).
 
 ### Dynamic Data Schema
 
 The LoginRadius dataset has multiple methods of data storage which allows us to store and manage any format of data. Among the LoginRadius normalized user profile, custom fields, and custom objects, there is no data that cannot be stored in LoginRadius.
 
-For more information on our dynamic data schema see this [document](/user-profiling/custom-fields-and-custom-objects).
+For more information on our dynamic data schema see this [document](https://www.loginradius.com/legacy/docs/user-profiling/custom-fields-and-custom-objects).
 
 ### Auto Indexing and Normalization
 
@@ -28,13 +28,13 @@ Accessing your customer data is important and, with large data sets, this should
 
 ### Single Data Layout
 
-LoginRadius supports over 30 different [identity providers](/platform-features-overview/registration-services/social-login-feature) out-of-the-box, along with the ability to support an unlimited number of [additional providers](/api/v2/custom-identity-provider/custom-oauth-provider). In order to simplify the consumption of this data, LoginRadius allows you to normalize all of your data from different sources into a single normalized format. Therefore, consuming the data will not require different code bases or mappings.
+LoginRadius supports over 30 different [identity providers](https://www.loginradius.com/legacy/docs/platform-features-overview/registration-services/social-login-feature) out-of-the-box, along with the ability to support an unlimited number of [additional providers](https://www.loginradius.com/legacy/docs/api/v2/custom-identity-provider/custom-oauth-provider). In order to simplify the consumption of this data, LoginRadius allows you to normalize all of your data from different sources into a single normalized format. Therefore, consuming the data will not require different code bases or mappings.
 
 ### JSON Data Format
 
 All APIs and interfaces return LoginRadius normalized data profiles and API responses in an easy to use JSON format. This web standard format makes the data easy to consume and pass to other systems.
 
-For a detailed outline of our JSON data format see this [document](/api/v2/user-registration/detailed-data-point).
+For a detailed outline of our JSON data format see this [document](https://www.loginradius.com/legacy/docs/api/v2/user-registration/detailed-data-point).
 
 ### Data Governance and Security
 
@@ -53,28 +53,28 @@ In addition to storing the customer data in the LoginRadius secure , we provide 
 
 LoginRadius provides a full suite of customer management tools. These give your admins or customer service team the ability to fully manage any requests from your customers directly in the LoginRadius dashboard without needing to create your own management console via LoginRadius APIs
 
-For an overview of the features supported in the customer management platform, see this [document](/profile-management/customer-management).
+For an overview of the features supported in the customer management platform, see this [document](https://www.loginradius.com/legacy/docs/profile-management/customer-management).
 
 ### Customer Segmentation
 
 To better understand your customer base and create customized lists of targeted customers that you can easily feed into your marketing or BI platforms, LoginRadius offers an Admin Console driven segmentation tool. This includes a full query building tool with which you can set up and save custom filters to retrieve custom segmented lists of your customers. These lists can be downloaded in CSV or JSON format and can easily be imported into your third-party platforms.
 
-For an overview of the features supported in the customer segmentation platform, see this [document](/user-management/segment-users).
+For an overview of the features supported in the customer segmentation platform, see this [document](https://www.loginradius.com/legacy/docs/user-management/segment-users).
 
 ### Customer Data Export
 
 Similar to Customer Segmentation, LoginRadius provides the ability to export your customers directly in JSON or CSV formats. This can be set up to retrieve customers in a given timeframe or as a full export of your entire customer base. The export of these reports can be scheduled on a daily, weekly, or monthly bases in order to monitor your customer growth. You are also able to perform one-time exports as needed.
 
-For details on how you can export your customer data see this [document](/getting-started/general-questions/data-export).
+For details on how you can export your customer data see this [document](https://www.loginradius.com/legacy/docs/getting-started/general-questions/data-export).
 
 ### Account REST APIs
 
-If you would like to directly embed the customer management console into your own internal management platform, LoginRadius provides a full suite of APIs that handle all aspects of customer management such as providing new accounts, reset passwords, block/delete accounts, and more. Check out our [API documentation](/api) for an API playground that allows you to try out individual APIs as required.
+If you would like to directly embed the customer management console into your own internal management platform, LoginRadius provides a full suite of APIs that handle all aspects of customer management such as providing new accounts, reset passwords, block/delete accounts, and more. Check out our [API documentation](https://www.loginradius.com/legacy/docs/api) for an API playground that allows you to try out individual APIs as required.
 
-For a complete listing of our APIs see or [API reference documentation](/api).
+For a complete listing of our APIs see or [API reference documentation](https://www.loginradius.com/legacy/docs/api).
 
 ### Identity Storage API
 
 Need to tie the reporting and exporting features directly to your systems? LoginRadius has an API for that. All of the data access features described above are also available via API, so you can programmatically access and pass this data to your systems.
 
-For a listing of our Identity APIs and details on how to use them see this [document](/api/v2/cloud-directory-api/overview).
+For a listing of our Identity APIs and details on how to use them see this [document](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/overview).

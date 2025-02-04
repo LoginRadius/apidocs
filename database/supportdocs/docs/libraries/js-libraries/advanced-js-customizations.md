@@ -5,9 +5,9 @@ Here we will see how we can customize JavaScript to Add the functionality of a s
 
 > **Prerequisites**:
 >
-> - All of the advanced customizations which we have explained here require that the LoginRadius User Registration Interface is configured on your site. For more information have a look at the [getting started document](/api/v2/user-registration/user-registration-getting-started#installation1)
+> - All of the advanced customizations which we have explained here require that the LoginRadius User Registration Interface is configured on your site. For more information have a look at the [getting started document](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#installation1)
 
-> - Before proceeding with further JS Customizations, please make sure that the `LRObject` is initiated correctly and for initialization, you can refer [here](/libraries/js-libraries/getting-started/#initializationofloginradiusobject3).
+> - Before proceeding with further JS Customizations, please make sure that the `LRObject` is initiated correctly and for initialization, you can refer [here](https://www.loginradius.com/legacy/docs/libraries/js-libraries/getting-started/#initializationofloginradiusobject3).
 
 
 > - Basic knowledge of HTML/JavaScript
@@ -50,9 +50,9 @@ LRObject.init("verifyEmail", verifyemail_options);
 
 ## Risk Based Authentication
 
-This section covers how to setup [Risk-Based Authentication](/api/v2/admin-console/platform-security/risk-based-auth) in your LoginRadius Implementation via our JavaScript Interface.
+This section covers how to setup [Risk-Based Authentication](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/risk-based-auth) in your LoginRadius Implementation via our JavaScript Interface.
 
-1. Make sure you have configured Risk-Based Authentication with the desired options in your LoginRadius Admin Console as per our documentation [here](/api/v2/admin-console/platform-security/risk-based-auth).
+1. Make sure you have configured Risk-Based Authentication with the desired options in your LoginRadius Admin Console as per our documentation [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/risk-based-auth).
 
 2. In your LoginRadius JavaScript initialization options, you will need to add the following parameters:
    ` Options.riskBasedAuthentication = true; // If you configured to prompt for Multi-Factor Authentication // via SMS you will need enable the Phone Login parameter Options.phoneLogin = true; `
@@ -124,7 +124,7 @@ LRObject.init("deleteUserConfirm", deleteuser_confirm_options);
 
 ## Account Linking
 
-Account Linking allows you to provide a flow for customers to link their social provider accounts into a single unified account. For more information on this have a look at [Account Linking documentation](/libraries/identity-experience-framework/features-use-cases/#accountlinking2).
+Account Linking allows you to provide a flow for customers to link their social provider accounts into a single unified account. For more information on this have a look at [Account Linking documentation](https://www.loginradius.com/legacy/docs/libraries/identity-experience-framework/features-use-cases/#accountlinking2).
 
 This section covers the technical aspects of implementing Account Linking. The following steps will only work when the customer is logged in.
 
@@ -238,9 +238,9 @@ LRObject.init("unLinkAccount", unlink_options);
 **Method 2: REST APIs for Account Linking and Unlinking**
 While it's easy to implement account linking using our JavaScript interfaces, we also provide API calls that you can make on the client-side to accomplish the same goal:
 
-1 . You can use our [Link Social Identities API](/api/v2/customer-identity-api/authentication/auth-link-social-identities/) to link accounts.
+1 . You can use our [Link Social Identities API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-link-social-identities/) to link accounts.
 
-2 . You can use our [Unlink Social Identities API](/api/v2/customer-identity-api/authentication/auth-unlink-social-identities/) to unlink accounts.
+2 . You can use our [Unlink Social Identities API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-unlink-social-identities/) to unlink accounts.
 
 **Sample Code**
 
@@ -399,7 +399,7 @@ LRObject.init("profileEditor",profileeditor_options);
 <div id="profileeditor-container"></div>
 ```
 
-When the Profile Editor is initialized, it loads all of the fields specified in your [Registration Form Schema](/libraries/js-libraries/getting-started/#registrationformschema6) excluding the **password** fields. The schema is located within the LRObject: `LRObject.registrationFormSchema` and can be hard coded to any custom schema that you would like to present the customer for profile editing.
+When the Profile Editor is initialized, it loads all of the fields specified in your [Registration Form Schema](https://www.loginradius.com/legacy/docs/libraries/js-libraries/getting-started/#registrationformschema6) excluding the **password** fields. The schema is located within the LRObject: `LRObject.registrationFormSchema` and can be hard coded to any custom schema that you would like to present the customer for profile editing.
 
 > **Note:** At the moment the Profile Editor does not provide support for complex fields / arrays of objects.
 
@@ -675,7 +675,7 @@ The Security Question workflow allows you to verify the customer’s identities 
 This workflow needs to be configured In LoginRadius Admin Console navigate to:
 [Platform Security --> Multi-Layered Security-->Security Question-->Settings](https://adminconsole.loginradius.com/platform-security/multi-layered-security/security-question/settings)
 
-For a step-by-step guide on configuring security questions through your LoginRadius Admin Console, as well as in-depth coverage on relevant API end points, see [this documentation](/api/v2/admin-console/platform-security/security-question/).
+For a step-by-step guide on configuring security questions through your LoginRadius Admin Console, as well as in-depth coverage on relevant API end points, see [this documentation](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/security-question/).
 
 Customers will then be asked upon registration via the registration form to fill out the questions. see below for details on the other use cases:
 
@@ -882,7 +882,7 @@ LRObject.init("smartLogin",options);
 
 ## Email Template Customizations
 
-All of the automated emails used in our User Registration system are completely customizable. Refer to [email template configuration documentation](/api/v2/admin-console/email-workflow/email-template-management) for more information.
+All of the automated emails used in our User Registration system are completely customizable. Refer to [email template configuration documentation](https://www.loginradius.com/legacy/docs/api/v2/admin-console/email-workflow/email-template-management) for more information.
 
 ## Multiple Social Login Interfaces on the Same Page
 
@@ -969,7 +969,7 @@ LRObject.sessionData.getToken();
 
 ## Standard and Phone Login
 
-LoginRadius provides you with the ability to have both Standard and Phone Login at the same time. You can learn more about this workflow [here](/platform-features-overview/registration-services/standard-and-phone-authentication). This section covers setting up the workflow using the LoginRadius JavaScript interface.
+LoginRadius provides you with the ability to have both Standard and Phone Login at the same time. You can learn more about this workflow [here](https://www.loginradius.com/legacy/docs/platform-features-overview/registration-services/standard-and-phone-authentication). This section covers setting up the workflow using the LoginRadius JavaScript interface.
 
 > **Note:**
 > To enable this feature contact <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>
@@ -979,13 +979,13 @@ LoginRadius provides you with the ability to have both Standard and Phone Login 
 
 Click the **Advanced tab**, set Email as **optional**, and click **Save**. Repeat this step with Phone ID Finally, click on **Save** Configuration.
 
-2 . Add the **phoneLogin** parameter to your LoginRadius JS [Initialization Object](/api/v2/user-registration/user-registration-getting-started).
+2 . Add the **phoneLogin** parameter to your LoginRadius JS [Initialization Object](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started).
 
 `options.phoneLogin = true;`
 
 ## PIN Setup on Registration
 
-For a customer to leverage the [PIN Authentication](/api/v2/customer-identity-api/authentication/pin-authentication/overview/) features they must first set one on their given account. Pin setup can be implemented at two places: **Registration or during Login** (depending on your requirements).
+For a customer to leverage the [PIN Authentication](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/pin-authentication/overview/) features they must first set one on their given account. Pin setup can be implemented at two places: **Registration or during Login** (depending on your requirements).
 
 With the help of the flag **"AskOnRegistration"** flag, we can prompt the customer to provide the PIN at the time of registration only.
 
@@ -1029,7 +1029,7 @@ PIN configuration, at the time of login is needed when the PIN is not setup earl
 1. **AskOnLogin** is true
 2. **AskOnlyOnFirstLogin** is true and customer is logging in first time.
 
-> **Note:** The Point is to be noted that if PIN configuration is **mandatory** then at the time of login, if any of the above two condition meet the criteria the core API would send an Error code "1243" and accordingly we have to set pin using **pinauthtoken**. But in case if PIN configuration is **optional**, then core API would not handle any PIN handling, and at that time JS would be showing PIN configuration schema along with skip button. Now here we can use [profile update API](/api/v2/customer-identity-api/authentication/auth-update-profile-by-token/) to update PIN data. If skipped here (since it is optional) then PIN skipped value would be sent to true.
+> **Note:** The Point is to be noted that if PIN configuration is **mandatory** then at the time of login, if any of the above two condition meet the criteria the core API would send an Error code "1243" and accordingly we have to set pin using **pinauthtoken**. But in case if PIN configuration is **optional**, then core API would not handle any PIN handling, and at that time JS would be showing PIN configuration schema along with skip button. Now here we can use [profile update API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-update-profile-by-token/) to update PIN data. If skipped here (since it is optional) then PIN skipped value would be sent to true.
 
 ### AskOnLogin : true
 
@@ -1064,7 +1064,7 @@ This scenario comes into existence only when the customer has not setup his pin 
 }
 ```
 
-In this case customer core API would not restrict customer profile response in login API, however customer would be prompted to setup the pin at JS end. In this case the [account update API](/api/v2/customer-identity-api/account/account-update/) would be used to set the pin in the customer profile.
+In this case customer core API would not restrict customer profile response in login API, however customer would be prompted to setup the pin at JS end. In this case the [account update API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update/) would be used to set the pin in the customer profile.
 
 ### AskOnlyOnFirstLogin : true
 
@@ -1195,7 +1195,7 @@ LRObject.util.ready(function() {
 
 ## PIN Step-Up Authentication
 
-If you wish to prompt your customers to provide their PIN as part of [PIN Step-Up Authentication](/api/v2/customer-identity-api/re-authentication/pin/overview/) you can use the `pinreauthentication` interface.
+If you wish to prompt your customers to provide their PIN as part of [PIN Step-Up Authentication](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/re-authentication/pin/overview/) you can use the `pinreauthentication` interface.
 
 Below is the Sample code:
 
@@ -1222,9 +1222,9 @@ LRObject.util.ready(function() {
 
 ## Duo Authentication
 
-In the **MFA required flow**, if Duo Authentication is enabled, the JavaScript will display a "_Verify identity via Duo Security_" button during the MFA login process. The JavaScript will then call the [LoginRadius APIs](/api/v2/customer-identity-api/multi-factor-authentication/duo-security-authenticator/overview/) to authenticate the user using the `code` and `state` provided by Duo.
+In the **MFA required flow**, if Duo Authentication is enabled, the JavaScript will display a "_Verify identity via Duo Security_" button during the MFA login process. The JavaScript will then call the [LoginRadius APIs](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/duo-security-authenticator/overview/) to authenticate the user using the `code` and `state` provided by Duo.
 
-In the **MFA optional flow**, the "_Verify identity via Duo Security_" button will be available on the profile page. When clicked, the JavaScript will call the [LoginRadius APIs](/api/v2/customer-identity-api/multi-factor-authentication/duo-security-authenticator/overview/) to authenticate the user using the `code` and `state` returned by Duo.
+In the **MFA optional flow**, the "_Verify identity via Duo Security_" button will be available on the profile page. When clicked, the JavaScript will call the [LoginRadius APIs](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/duo-security-authenticator/overview/) to authenticate the user using the `code` and `state` returned by Duo.
 
 ### JavaScript API Integration for Duo
 
@@ -1262,17 +1262,17 @@ LRObject.api.duoVerifyByAccessToken(duoData, function(response) {
 ## Projection of Fields
 
 > **Note:**
-> This section covers the Projection of Fields when using the LoginRadius JS Interfaces. If you're looking to configure the Projection of Fields when directly using our APIs, see our [Advanced API Usage](/api/v2/user-registration/extended-features#projectionoffields11) documentation.
+> This section covers the Projection of Fields when using the LoginRadius JS Interfaces. If you're looking to configure the Projection of Fields when directly using our APIs, see our [Advanced API Usage](https://www.loginradius.com/legacy/docs/api/v2/user-registration/extended-features#projectionoffields11) documentation.
 
 Using the LoginRadius JS Interfaces you're able to limit which primary/root fields you would like to be returned in your API response, **For Example**, the profile, access_token. This allows you to streamline your process and only get the data that you need as part of your workflow.
 
 The structure is as follows:
 
-**Action Name**: This is the name of the JavaScript Interface action that is called in your init method that you will be expecting a response from,**For Example** "login, registration". You can find a list of all possible actions in the actions table of our [Getting Started](/api/v2/user-registration/user-registration-getting-started#initmethod4) guide.
+**Action Name**: This is the name of the JavaScript Interface action that is called in your init method that you will be expecting a response from,**For Example** "login, registration". You can find a list of all possible actions in the actions table of our [Getting Started](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#initmethod4) guide.
 
 **Field Name:** The names of the primary / root fields you would like to be returned in your API response. These fields vary depending on the JavaScript Interface you're targeting. The fields that are not included here will be left out from the API response.
 
-To apply this selection, you need add the **projectionFields** parameter as part of your options in your [Initialization Object](/api/v2/user-registration/user-registration-getting-started).
+To apply this selection, you need add the **projectionFields** parameter as part of your options in your [Initialization Object](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started).
 
 The **projectionFields** parameter takes an object with the action names as the key and the field names as values inside an array:
 
@@ -1318,7 +1318,7 @@ commonOptions.integrationName = "<your jwt configuration integration app name>";
 ```
 
 > **Note:**
-> Additional details on configuring, generating ,and consuming the JWT token can be found [here](/api/v2/single-sign-on/jwt-login).
+> Additional details on configuring, generating ,and consuming the JWT token can be found [here](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/jwt-login).
 
 ## Progressive Profiling
 
@@ -1372,7 +1372,7 @@ Use the following snippet in your code wherever you have a desired event during 
 </script>
 ```
 
-For details on customizing the Social Login Interface Template you can refer to the Social Login section of our [Getting Started](/api/v2/deployment/js-libraries/getting-started#sociallogininterface9) doc.
+For details on customizing the Social Login Interface Template you can refer to the Social Login section of our [Getting Started](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/getting-started#sociallogininterface9) doc.
 
 Use the following snippet in your code if you would like to show progressive profile fields to customers on the profile page. This will allow the customer to edit the progressive profile fields.
 

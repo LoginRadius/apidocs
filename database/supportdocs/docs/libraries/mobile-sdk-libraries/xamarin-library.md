@@ -36,7 +36,7 @@ Open [Admin Console](https://adminconsole.loginradius.com/deployment/apps/web-ap
 
 Initialize the SDK with your API key and Sitename
 
-- Details on obtaining Site name [here](/api/v2/admin-console/deployment/get-site-app-name/) and API key [here](/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret)<br>
+- Details on obtaining Site name [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) and API key [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret)<br>
 
 - Details on verificationUrl for email verification we give default url(Default URL: https://auth.lrcontent.com/mobile/verification/index.html)<br>
 

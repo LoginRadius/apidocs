@@ -5,7 +5,7 @@ In this document section, you can find out the API endpoints provided by LoginRa
 
 Security questions configured through your Admin Console will be stored as **key-value pairs** . A random string will be generated and used as the _QuestionId_ of the configured security question.
 
-- [Account Get Configurations API](/api/v2/customer-identity-api/configuration/get-configurations#protactedContent): This API is used to retrieve your site's configuration, in response, it returns the configured_ questions_ and generated _QuestionId_ on your site.
+- [Account Get Configurations API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/configuration/get-configurations#protactedContent): This API is used to retrieve your site's configuration, in response, it returns the configured_ questions_ and generated _QuestionId_ on your site.
 
 For an example here is sample return of security questions:
  ```
@@ -32,13 +32,13 @@ For an example here is sample return of security questions:
 
 There are several API endpoints for returning the security question your customer has configured:
 
-- [Get Security Questions By Access Token](/api/v2/customer-identity-api/authentication/security-questions-by-access-token/): This API is used to retrieve the list of security questions based on user’s Access Token.
+- [Get Security Questions By Access Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-access-token/): This API is used to retrieve the list of security questions based on user’s Access Token.
 
-- [Get Security Questions By Email](/api/v2/customer-identity-api/authentication/security-questions-by-email/): This API is used to retrieve the list of security questions based on the user’s email id.
+- [Get Security Questions By Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-email/): This API is used to retrieve the list of security questions based on the user’s email id.
 
-- [Get Security Questions By User Name](/api/v2/customer-identity-api/authentication/security-questions-by-user-name/): This API is used to retrieve the list of security questions based on the username of the user.
+- [Get Security Questions By User Name](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-user-name/): This API is used to retrieve the list of security questions based on the username of the user.
 
-- [Get Security Question By Phone Id](/api/v2/customer-identity-api/authentication/security-questions-by-phone/): This API is used to retrieve the list of security questions based on user’s phone id.
+- [Get Security Question By Phone Id](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-phone/): This API is used to retrieve the list of security questions based on user’s phone id.
 
 These API endpoints will only return the question(s) the user has configured upon registration for an example : 
 ```
@@ -53,7 +53,7 @@ These API endpoints will only return the question(s) the user has configured upo
 ## Update the security question answer for a customer 
 
 
- - [Put Auth Update Security Question](/api/v2/customer-identity-api/authentication/auth-update-security-question-by-access-token/): This API endpoint will be used to update the security question answer for a customer with their access token. 
+ - [Put Auth Update Security Question](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-update-security-question-by-access-token/): This API endpoint will be used to update the security question answer for a customer with their access token. 
 
 Please note that the body must be submitted in this format, with the random string QuestionId as the key holding the answer as value.
 
@@ -72,6 +72,6 @@ For the API used to update this setting, please read on to the next section.
 ## Update the customer’s configured security questions
 
 
-- [Put Account Update Security Question API](/api/v2/customer-identity-api/account/account-update-security-question): This API endpoint will be used to update the security questions configured on an existing account.
+- [Put Account Update Security Question API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update-security-question): This API endpoint will be used to update the security questions configured on an existing account.
 
 If your customer has only configured Question 1 at the time of registration and has not provided an answer for Security Question 2, calling this API with the answer and QuestionID of Security Question 2 will result in Question 2 being configured for them in addition to Question 1. From this point on, calling retrieve security question with access token/email/username/phone ID endpoints will result in both security questions being returned for this customer.

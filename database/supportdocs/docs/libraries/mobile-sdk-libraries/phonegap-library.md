@@ -109,9 +109,9 @@ The above initialization requires an `options` object with the following paramet
 
 | Name                         | Description                                                                                                                                                                        | Required  |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| apiKey                       | Your LoginRadius [API Key](/api/v2/admin-console/platform-security/api-key-and-secret/)                                                                                                         | Yes       |
-| appName                      | Your LoginRadius [App Name](/api/v2/admin-console/deployment/get-site-app-name/)                                                                                                                                                          | Yes       |
-| sott                         | A [Secure One-Time Token](/api/v2/customer-identity-api/sott-usage)                                                                                                                | Yes       |
+| apiKey                       | Your LoginRadius [API Key](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/)                                                                                                         | Yes       |
+| appName                      | Your LoginRadius [App Name](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/)                                                                                                                                                          | Yes       |
+| sott                         | A [Secure One-Time Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/sott-usage)                                                                                                                | Yes       |
 | verificationUrl              | A dynamic URL for email verification Default: https://auth.lrcontent.com/mobile/verification/index.html                                                                            | Yes       |
 | forgotPasswordUrl            | A dynamic URL for resetting a password                                                                                                                                             | Yes       |
 | formValidationMessage        | `true`: Shows form validation message just below the form elements <br>`false`: No form validation message                                                                         | Yes       |
@@ -766,11 +766,11 @@ options.customScopeEnabled = true;
 
 ###Alternative Language Support
 
-Hooks are supported for customizing forms to handle localization. Further information can be found [here](/api/v2/deployment/js-libraries/javascript-hooks).
+Hooks are supported for customizing forms to handle localization. Further information can be found [here](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/javascript-hooks).
 
 ##Demo
 
-The Demo project can be found [here](https://github.com/LoginRadius/phonegap-sdk). In `index.html`, enter your `apiKey` and `appName`, which can be found in the [Admin Console](/api/v2/admin-console/platform-security/api-key-and-secret/).
+The Demo project can be found [here](https://github.com/LoginRadius/phonegap-sdk). In `index.html`, enter your `apiKey` and `appName`, which can be found in the [Admin Console](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/).
 
 ```
 var commonOptions = {};
@@ -803,7 +803,7 @@ Running the demo project should display the following interfaces:
 
 ### Social APIs
 
-A successful login or registration will generate an access token, which can be used to access LoginRadius' APIs. The Social APIs below are provider-specific. Further information on Data Points can be found [here](/api/v2/getting-started/data-points-and-response-codes/data-points).
+A successful login or registration will generate an access token, which can be used to access LoginRadius' APIs. The Social APIs below are provider-specific. Further information on Data Points can be found [here](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points-and-response-codes/data-points).
 
 #####User Profile API
 

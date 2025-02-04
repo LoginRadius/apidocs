@@ -12,7 +12,7 @@ This demo will help you with a quick implementation of the LoginRadius platform 
 ## Getting Started
 
 - Download our HTML and JS demo project from Github [here](https://github.com/LoginRadius/demo), and put it in the root directory of your server.
-- Open the **option.js** file and add LoginRadius [API Key](/api/v2/admin-console/platform-security/api-key-and-secret/), [Sitename](/api/v2/admin-console/deployment/get-site-app-name/), and [SOTT](/api/v2/user-registration/sott#staticsott4) in it. Also, if you want to generate a dynamic SOTT refer to the guide [here](/api/v2/user-registration/sott).
+- Open the **option.js** file and add LoginRadius [API Key](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/), [Sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/), and [SOTT](https://www.loginradius.com/legacy/docs/api/v2/user-registration/sott#staticsott4) in it. Also, if you want to generate a dynamic SOTT refer to the guide [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/sott).
 
 ```
 var commonOptions = {};
@@ -27,5 +27,5 @@ var LRObject= new LoginRadiusV2(commonOptions);
 - After configuring the above options, go to your web browser and type in the root directory URL that your server is hosting.
 - Now, you can start the demo and play with the available features in it.
 
->**Note:**You can edit the registration scheme from LoginRadius [Admin Console](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/data-schema) and you can also configure social logins from [here](/api/v2/customer-identity-api/social-login/getting-started/).
+>**Note:**You can edit the registration scheme from LoginRadius [Admin Console](https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/data-schema) and you can also configure social logins from [here](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/getting-started/).
 

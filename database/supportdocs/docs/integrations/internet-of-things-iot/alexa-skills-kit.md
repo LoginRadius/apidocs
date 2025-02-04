@@ -6,7 +6,7 @@ Alexa Skills Kit (ASK) is the official collection of tools, documentation and AP
 
 ## Configuration
 
-1. This Integration makes use of the [LoginRadius OAuth 2 Single Sign On](/api/v2/single-sign-on/oauth2-single-sign-on) feature.  We recommend reading the documentation on this feature before proceeding. 
+1. This Integration makes use of the [LoginRadius OAuth 2 Single Sign On](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/oauth2-single-sign-on) feature.  We recommend reading the documentation on this feature before proceeding. 
 
 2. Go to your desired [Alexa Skill](https://developer.amazon.com/alexa) and on the left sidepanel click "Account Linking".
 ![Go to Account Linking](https://apidocs.lrcontent.com/images/GotoAccountLinking_236345b51158047c182.96028951.png "Go to Account Linking")
@@ -28,7 +28,7 @@ Alexa Skills Kit (ASK) is the official collection of tools, documentation and AP
 
 	- **Client Authentication Scheme:** From the dropdown choose "Credentials in request body".
 
-	- **Scope:** You must provide the desired scopes as per our [LoginRadius OAuth 2 Single Sign On](/api/v2/single-sign-on/oauth2-single-sign-on) Documentation. e.g. **r_basicprofile**
+	- **Scope:** You must provide the desired scopes as per our [LoginRadius OAuth 2 Single Sign On](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/oauth2-single-sign-on) Documentation. e.g. **r_basicprofile**
 
 	- **Domain List:**
 

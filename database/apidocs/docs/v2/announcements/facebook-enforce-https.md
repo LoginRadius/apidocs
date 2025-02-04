@@ -35,6 +35,6 @@ return LRObject.util.openWindow('https://<LoginRadius Site Name>.hub.loginradius
 
 ## Updating to HTTPS
 
-In order to update your applications to support HTTPS configuration changes are required from the LoginRadius operations team. This will cause all social provider endpoints to be generated in HTTPS format. In order to ensure that this transition is seamless you should follow the [upgrade document](/api/v2/admin-console/social-provider/configure-social-apps) and updated all of your configured social providers to support an HTTPS redirect flow. 
+In order to update your applications to support HTTPS configuration changes are required from the LoginRadius operations team. This will cause all social provider endpoints to be generated in HTTPS format. In order to ensure that this transition is seamless you should follow the [upgrade document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/social-provider/configure-social-apps) and updated all of your configured social providers to support an HTTPS redirect flow. 
 
 Once you have made the required configuration changes on each of your social provider apps to support HTTPS, you can reach out to LoginRadius support or your Customer Success Manager in order to have the HTTPS feature enabled. 

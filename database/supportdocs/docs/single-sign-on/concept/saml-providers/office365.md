@@ -51,7 +51,7 @@ This section covers everything you need to configure in your **LoginRadius Admin
     
 **6.**  Enter your desired SAML app name in the **SAML App Name** field.
     
-**7.**  Enter the LoginRadius Certificate key under [ID Provider Certificate Key](/single-sign-on/concept/saml-miscellaneous/certificate/).
+**7.**  Enter the LoginRadius Certificate key under [ID Provider Certificate Key](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-miscellaneous/certificate/).
 
 **8.**  Enter the LoginRadius Certificate in **ID Provider Certificate field.**
     
@@ -73,7 +73,7 @@ This section covers everything you need to configure in your **LoginRadius Admin
 | IDPEmail| urn:oasis:names:tc:SAML:2.0 :attrname-format:unspecified | Email |
 
 
-> **Note:** In **Value**, enter the LoginRadius mapping field name. Get the allowed fields of LoginRadius from [here](/api/v2/single-sign-on/federated-sso/saml/saml-security-assertion-markup-language-#saml-security-assertion-markup-language-)
+> **Note:** In **Value**, enter the LoginRadius mapping field name. Get the allowed fields of LoginRadius from [here](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/saml/saml-security-assertion-markup-language-#saml-security-assertion-markup-language-)
 
 **11.**  Select **`urn:oasis:names:tc:SAML:2.0:nameid-format:persistent`** for **Name Id Format.**
     

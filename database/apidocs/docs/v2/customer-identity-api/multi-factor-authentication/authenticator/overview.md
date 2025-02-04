@@ -52,9 +52,9 @@ To implement this, please follow the below steps:
 
 Follow the steps below to integrate MFA using the LoginRadius JavaScript Interface.
 
-1.  Has the JavaScript Login interface been initialized on your page, as [shown here](/api/v2/user-registration/user-registration-getting-started#login6).
+1.  Has the JavaScript Login interface been initialized on your page, as [shown here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#login6).
 
-2.  Add the desired parameter options for MFA in your [initialization options](/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3).
+2.  Add the desired parameter options for MFA in your [initialization options](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3).
 
     Here are the available options:
 
@@ -64,7 +64,7 @@ Follow the steps below to integrate MFA using the LoginRadius JavaScript Interfa
 
 3.  Upon successful login, you can add an additional interface for the customer to be able to customize their Multi-Factor settings. For example, disable Multi-Factor (if the MFA workflow mode is optional).
 
-    If you wish to add this, please see our [JavaScript Interface instructions](/api/v2/user-registration/user-registration-getting-started#createtwofactorauthentication26).
+    If you wish to add this, please see our [JavaScript Interface instructions](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#createtwofactorauthentication26).
 
 ### Authenticator API Implementation
 
@@ -121,8 +121,8 @@ Follow the steps below to implement MFA using a mix of front-end and back-end AP
 
     > **Note:** The response contains a link to the QR code to be displayed to the user.
 
-2.  Allow the consumer to log in by providing the passcode received via their Authenticator mobile app using either the [MFA Validate Authenticator Code](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-authenticator-code), which takes the passcode, or the second-factor authentication token.
+2.  Allow the consumer to log in by providing the passcode received via their Authenticator mobile app using either the [MFA Validate Authenticator Code](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-validate-authenticator-code), which takes the passcode, or the second-factor authentication token.
 
-3. In the case of optional MFA, you can use [MFA Verify Authenticator Code](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-verify-authenticator-code) API to validate an Authenticator Code as part of the MFA process.
+3. In the case of optional MFA, you can use [MFA Verify Authenticator Code](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-verify-authenticator-code) API to validate an Authenticator Code as part of the MFA process.
 
-4.  Provide additional workflows or options to the consumer by leveraging the MFA API. For example, allow your consumers to remove Multi-Factor Authentication from their login process by using the [MFA Reset Authenticator by Token API](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/) API call, and you can remove MFA from their login by calling [MFA Reset Authenticator by UID API](/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-uid/) API on the server-side.
+4.  Provide additional workflows or options to the consumer by leveraging the MFA API. For example, allow your consumers to remove Multi-Factor Authentication from their login process by using the [MFA Reset Authenticator by Token API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-token/) API call, and you can remove MFA from their login by calling [MFA Reset Authenticator by UID API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/authenticator/mfa-reset-authenticator-by-uid/) API on the server-side.

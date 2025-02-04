@@ -47,7 +47,7 @@ Now, let's delve deeper into the configuration steps for each of them by first n
 
     ![Advanced Configuration](https://apidocs.lrcontent.com/images/Federated-SSO---Pre-Built-Connections---Step-6_207064057565889b24e6d848.02877630.png "Advanced Configuration")
 
-For comprehensive details and step-by-step configuration instructions for setting up the Salesforce, refer to the [LoginRadius as IDP with Salesforce as SP](/single-sign-on/concept/saml-providers/salesforce) document.
+For comprehensive details and step-by-step configuration instructions for setting up the Salesforce, refer to the [LoginRadius as IDP with Salesforce as SP](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-providers/salesforce) document.
    
 ## Configuring Fresh Desk
 
@@ -113,4 +113,4 @@ For comprehensive details and step-by-step configuration instructions for settin
 
     ![Advanced Configuration](https://apidocs.lrcontent.com/images/Federated-SSO---Pre-Built-Connections---Step-13_1692480496588a55ece8f30.80539568.png "Advanced Configuration")
 
-For comprehensive details and step-by-step configuration instructions for setting up the SSO with SAML, refer to the [Identity Provider Initiated SSO](/single-sign-on/tutorial/federated-sso/saml/idp-initiated/#partconfigurationinadminconsole2) and [Service Provider Initiated SSO](/single-sign-on/tutorial/federated-sso/saml/sp-initiated) document.
+For comprehensive details and step-by-step configuration instructions for setting up the SSO with SAML, refer to the [Identity Provider Initiated SSO](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/saml/idp-initiated/#partconfigurationinadminconsole2) and [Service Provider Initiated SSO](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/saml/sp-initiated) document.

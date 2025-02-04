@@ -6,7 +6,7 @@ This document highlights the fields provided by LoginRadius for user registratio
 
 Standard Fields are the most commonly used fields for registration forms, we have provided around 30 predefined Basic Standard fields, which have fields like First name, Last name, State, Date of Birth, User Name, etc.
 
-Kindly refer this [document](/governance/data-schema/#standardfieldsbasic1) for more information.
+Kindly refer this [document](https://www.loginradius.com/legacy/docs/governance/data-schema/#standardfieldsbasic1) for more information.
 
 ## Standard Fields (Advanced)
 
@@ -20,10 +20,10 @@ We have provided around seven advanced predefined fields in Standard Fields. The
 - Positions
 - Sports
 
-Kindly refer this [document](/governance/data-schema/#standardfieldsadvanced2) for more information.
+Kindly refer this [document](https://www.loginradius.com/legacy/docs/governance/data-schema/#standardfieldsadvanced2) for more information.
 
 ## Custom Fields
 
 The custom fields are fields that you can create for your own specific needs and use on registration forms. They allow you to create new fields (up to 15) that are not listed under Standard Field (Basic and Advanced). If a field is not listed in the Standard Field list, you can create a new one, add it and configure it.
 
-Kindly refer this [document](/governance/data-schema/#customfields3) for more information.
+Kindly refer this [document](https://www.loginradius.com/legacy/docs/governance/data-schema/#customfields3) for more information.

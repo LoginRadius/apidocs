@@ -81,15 +81,15 @@ Using LoginRadius CIAM, you can achieve different Auth workflows like Email Regi
 
 LoginRadius CIAM provides various methods of login
 
-- [Standard Login](/authentication/quick-start/standard-login/)
-- [Phone Login](/authentication/tutorial/phone-login/)
-- [Social Login](/authentication/quick-start/social-login/)
-- [Smart Login](/authentication/tutorial/smart-login/)
-- [One Touch Login](/authentication/tutorial/one-touch-login/)
+- [Standard Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/)
+- [Phone Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/)
+- [Social Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)
+- [Smart Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/smart-login/)
+- [One Touch Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/one-touch-login/)
 
 ### 3. Data Sync
 
-Loginradius CIAM provides the feature of syncing the data to 3rd party applications using webhook. WebHooks allow you to build or set up integrations which subscribe to certain events on LoginRadius. When one of these events is triggered, LoginRadius will automatically send a POST payload over HTTPs to the WebHook's configured URL in real time. WebHooks can be used to update an external tracker or update a backup mirror. For more information about webhook you can refer to this [**document** ](/api/v2/integrations/webhooks/overview/).
+Loginradius CIAM provides the feature of syncing the data to 3rd party applications using webhook. WebHooks allow you to build or set up integrations which subscribe to certain events on LoginRadius. When one of these events is triggered, LoginRadius will automatically send a POST payload over HTTPs to the WebHook's configured URL in real time. WebHooks can be used to update an external tracker or update a backup mirror. For more information about webhook you can refer to this [**document** ](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/overview/).
 
 ### 4. Customer insights
 Loginradius provides useful charts and analytic tools to view and measure the overall performance of your site in terms of customer registration and login. The information is aggregated and categorized into identity analytics, provider analytics, login analytics, and comparative analysis.  In LoginRadius Admin Console, navigate to [**Insights > Identity Analytics >  Customer Stats**](https://adminconsole.loginradius.com/insights/identity-analytics/customer-stats) and the following screen appears to show the available insight options:
@@ -98,12 +98,12 @@ Loginradius provides useful charts and analytic tools to view and measure the ov
 
 
 ### 5. Set Up Social Login
-To use the extension in Social Login mode, you need to create a Social Login Component to use on your website. The LoginRadius Social Login component can be inserted in any secure (HTTPS) page on your website, where it will display as social network buttons (To configure the social provider, you can refer to our social provider [document](/api/v2/admin-console/social-provider/configure-social-apps/).
+To use the extension in Social Login mode, you need to create a Social Login Component to use on your website. The LoginRadius Social Login component can be inserted in any secure (HTTPS) page on your website, where it will display as social network buttons (To configure the social provider, you can refer to our social provider [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/social-provider/configure-social-apps/).
  
 ![enter image description here](https://apidocs.lrcontent.com/images/6_77445d304dbf7bf257.08806666.png "enter image title here")
 
 ### 6. Consent Management
-LoginRadius Consent Management feature allows you to build custom consent forms. In addition, this feature makes it easy to modify existing consents prompted to your customers or apply new ones retroactively. Each consent you prompt can be enforced as either Optional or Strict depending on the workflow requirements. Consent Management helps your business adhere to strict regulations such as GDPR. GDPR outlines that the information taken from the customer must be explicit, unambiguous, well documented, freely given, and easily withdrawn. To have more information around consent management, you can refer to [this document](/governance/customer-profiling/consent-management).
+LoginRadius Consent Management feature allows you to build custom consent forms. In addition, this feature makes it easy to modify existing consents prompted to your customers or apply new ones retroactively. Each consent you prompt can be enforced as either Optional or Strict depending on the workflow requirements. Consent Management helps your business adhere to strict regulations such as GDPR. GDPR outlines that the information taken from the customer must be explicit, unambiguous, well documented, freely given, and easily withdrawn. To have more information around consent management, you can refer to [this document](https://www.loginradius.com/legacy/docs/governance/customer-profiling/consent-management).
 
 ### 7. Field mapping
 The following Sitecore fields are mapped by default from LoginRadius to Sitecore on registration, login, and profile update.
@@ -116,7 +116,7 @@ Apart from these 2 fields, we can map additional necessary fields but for that, 
 
 ### 8. Purchase Synchronization
 
-After activating LoginRadius Commerce Cloud Extension, LoginRadius custom object should be enabled. Custom Object is a schema-less object that can be attached to a specific account. It can have a dynamic storage container that is updated with additional fields or data formats on the fly. A Custom Object should be used if you are looking to store large amounts of customer data and the data can’t be formatted in a structured format because the data format could be different for each customer. You can find more details regarding the custom object in [this document](/api/v2/customer-identity-api/custom-object/overview/).
+After activating LoginRadius Commerce Cloud Extension, LoginRadius custom object should be enabled. Custom Object is a schema-less object that can be attached to a specific account. It can have a dynamic storage container that is updated with additional fields or data formats on the fly. A Custom Object should be used if you are looking to store large amounts of customer data and the data can’t be formatted in a structured format because the data format could be different for each customer. You can find more details regarding the custom object in [this document](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/overview/).
 
 
 **An example of a Custom Object’s schema:**

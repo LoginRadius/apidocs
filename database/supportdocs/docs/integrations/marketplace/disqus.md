@@ -4,7 +4,7 @@
 
 [Disqus](http://disqus.com/) is a commenting platform that enables website discussions and communities. This sample integration is an example of a Disqus implementation with the LoginRadius social login. Find our integrations repository [here](https://github.com/LoginRadius/integrations)
 
-**Important: Please ensure your LoginRadius account has been set up with at least one Social Login provider (e.g Facebook, Twitter, Google). If you need help with this please refer to [this](/authentication/quick-start/social-login/#configuresocialprovider2) document.**
+**Important: Please ensure your LoginRadius account has been set up with at least one Social Login provider (e.g Facebook, Twitter, Google). If you need help with this please refer to [this](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/#configuresocialprovider2) document.**
 
 **To obtain the Disqus Secret and Public Key you will need to enable the Disqus SSO, which is done by requesting Disqus to enable it for your account. You may contact Disqus [here](https://disqus.com/support/?article=contact_SSO) to request this.**
 

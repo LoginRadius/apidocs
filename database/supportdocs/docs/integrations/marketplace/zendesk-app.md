@@ -27,7 +27,7 @@ The LoginRadius Zendesk App Integration allows you to get quick access to recent
 
 
 
-6. You will be prompted with a configuration form –you can leave most of the fields at their default values unless you plan on changing them. However, you **must** provide your [LoginRadius API Key and Secret](/api/v2/admin-console/get-api-key-and-secret) along with your [LoginRadius Sitename](/api/v2/admin-console/deployment/get-site-app-name/). Hit "Install" once you're ready.
+6. You will be prompted with a configuration form –you can leave most of the fields at their default values unless you plan on changing them. However, you **must** provide your [LoginRadius API Key and Secret](https://www.loginradius.com/legacy/docs/api/v2/admin-console/get-api-key-and-secret) along with your [LoginRadius Sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/). Hit "Install" once you're ready.
 
 	![enter image description here](https://apidocs.lrcontent.com/images/ZendeskAppConfig_119015b3fe52b9c68e1.48709828.png "enter image title here")
 	

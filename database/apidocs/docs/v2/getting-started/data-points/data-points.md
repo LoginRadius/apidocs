@@ -4,7 +4,7 @@
 
 LoginRadius normalizes all data points gathered through traditional forms or by different social providers. Even so, it is always recommended to review which data points are made available to you with each social provider you have configured for your site or app's social login, as there are unique restrictions imposed by each.
 
-An updated chart of all retrievable data points broken down by each provider can be found [here](/api/v2/getting-started/data-points/social-provider-data-fields/).
+An updated chart of all retrievable data points broken down by each provider can be found [here](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points/social-provider-data-fields/).
 
 ## Data Structure
 
@@ -18,7 +18,7 @@ When a user first registers with a given property for the first time, a UID (or 
 
 Whenever a user logs in with a social provider account, such as Facebook or Apple, LoginRadius creates a social profile in the database. Additionally, if an RAAS/Email profile (primary account) does not already exist, one will be created automatically.
 
-New social accounts can also be added to this UID using the [Account Linking API](/api/v2/customer-identity-api/authentication/auth-link-social-identities) and including the Profile ID (ID) for the social provider that you are trying to link.
+New social accounts can also be added to this UID using the [Account Linking API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-link-social-identities) and including the Profile ID (ID) for the social provider that you are trying to link.
 
 During the initial registration, an Email profile is always created (even when registering via Social Provider). This profile contains the **Identities** parameter, which includes the attached Social Profiles. The Email profile is also the profile that is updated when using the various user management API calls (e.g., Update, Change password, etc.).
 

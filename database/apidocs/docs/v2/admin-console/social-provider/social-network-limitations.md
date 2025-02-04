@@ -23,7 +23,7 @@ Before moving forward, make sure you check our datapoint page, it provides usefu
 
 For an apps administrator, developer, or testers, they automatically have all permissions to access every datapoint/feature, but for normal users, the app needs to be reviewed first then the users can start to use the advanced features.
 
-Learn how to submit an app for review [here](/development/social-network/facebook-app-review).
+Learn how to submit an app for review [here](https://www.loginradius.com/legacy/docs/development/social-network/facebook-app-review).
 
 
 

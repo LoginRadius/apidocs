@@ -10,15 +10,15 @@ Currently, LoginRadius supports the following authentication methods for MFA:
 4. **Security Questions**
 5. **Push Notification**
 
-With **SMS Passcode Workflow**, a text message containing a One Time Passcode (OTP) is sent to the consumer to be consumed on your website after the consumer has passed the traditional login procedure.For more details regarding the implementation, please click [here](/api/v2/customer-identity-api/multi-factor-authentication/SMS-Authenticator/overview/).
+With **SMS Passcode Workflow**, a text message containing a One Time Passcode (OTP) is sent to the consumer to be consumed on your website after the consumer has passed the traditional login procedure.For more details regarding the implementation, please click [here](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/SMS-Authenticator/overview/).
 
-With **Authenticator Workflow**, the user receives an OTP via an Authenticator App installed on their mobile device to be consumed on your website after the user has passed the traditional login procedure.For more details regarding the implementation of Google Authenticator, please click [here](/api/v2/customer-identity-api/multi-factor-authentication/Google-Authenticator/overview/).
+With **Authenticator Workflow**, the user receives an OTP via an Authenticator App installed on their mobile device to be consumed on your website after the user has passed the traditional login procedure.For more details regarding the implementation of Google Authenticator, please click [here](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/Google-Authenticator/overview/).
 
 > **Note:** LoginRadius supports configuring **Google Authenticator**, **Microsoft Authenticator**, **Twilio Authy Authenticator**, **LastPass**, **Dashlane**, **Duo** and various other authenticator applications that support both time-based one-time passwords (**TOTP**) and HMAC-based one-time passwords (**HOTP**) for authentication. You can conveniently manage these settings through the [Platform Security > Multi Factor Authentication > Authenticator Apps](https://adminconsole.loginradius.com/platform-security/multi-layered-security/multi-factor-authentication/authenticator-apps) section of the Admin Console. For further information, please reach out to [LoginRadius support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 
-With **Email Passcode Workflow**, the consumer receives a verification code on their email id, they need to use this verification code as 2FA to login to the website. For more details regarding the implementation, please click [here](/api/v2/customer-identity-api/multi-factor-authentication/Email-Authenticator/overview/).
+With **Email Passcode Workflow**, the consumer receives a verification code on their email id, they need to use this verification code as 2FA to login to the website. For more details regarding the implementation, please click [here](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/Email-Authenticator/overview/).
 
-With **Security Questions Workflow**, the consumer needs to set up a security question/answer at the time of registration or at first login and use that answer as 2FA to login to the website. For more details regarding the implementation, please click [here](/api/v2/customer-identity-api/multi-factor-authentication/Security-Question-Authenticator/overview/).
+With **Security Questions Workflow**, the consumer needs to set up a security question/answer at the time of registration or at first login and use that answer as 2FA to login to the website. For more details regarding the implementation, please click [here](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/Security-Question-Authenticator/overview/).
 
 **Flow Diagram:**
 ![Generalized MFA Workflow](https://apidocs.lrcontent.com/images/Generalized-MFA-Workflow_294536103026e0c0267-96536517-1_24381636665bc93731bc061.74767903.png "Generalized MFA Workflow diagram")
@@ -122,7 +122,7 @@ If you want to change the display order of Authenticators, then you can change t
 
 ## Login Lockouts in different MFA Authenticators
 
-If a consumer fails multiple times in validating the Second factor authentication, the account will be locked, the user will be asked to login again with credentials, and the settings of [Brute force lockout](/api/v2/admin-console/platform-security/auth-security-configuration/#bruteforcelockout2) will be followed.
+If a consumer fails multiple times in validating the Second factor authentication, the account will be locked, the user will be asked to login again with credentials, and the settings of [Brute force lockout](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/auth-security-configuration/#bruteforcelockout2) will be followed.
 
 Case 1: When Lockout type is **suspended** in Bruteforce settings
 
@@ -148,17 +148,17 @@ Case 4: When Lockout type is **Block** in Bruteforce settings
 
   ![Contact Admin](https://apidocs.lrcontent.com/images/29--Contact-Admin_21796610316b7be0f95.42579403.png "Contact Admin")
 
-  > **Note:** When the consumer’s account is locked, and there is no other way to unlock the account, the consumer can use the [Backup Codes](/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/overview/#backup-codes).
+  > **Note:** When the consumer’s account is locked, and there is no other way to unlock the account, the consumer can use the [Backup Codes](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/backup-codes/overview/#backup-codes).
 
 ## Multi-Factor Authentication with Risk-Based Authentication
 
 Risk-Based Authentication is a user's action-based authentication that works on a certain event which gets triggered based on consumers action. It can be described as a matrix of certain factors whose combination results in a risk profile. Based on this risk profile, additional authentication layer requirements can be added.
 
-> **Note:** For more information on MFA with Risk-Based Authentication, please refer to this document [here](/api/v2/customer-identity-api/multi-factor-authentication/MFA-with-Risk-Based-Authentication/).
+> **Note:** For more information on MFA with Risk-Based Authentication, please refer to this document [here](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/MFA-with-Risk-Based-Authentication/).
 
 ## Disabling Multi-Factor Authenticator
 
-Provided that you have MFA configured on your LoginRadius site/environment, LoginRadius provides your customers the ability to disable the Multi-Factor Authenticator on their accounts. They will only be able to disable it depending on your MFA configurations and the circumstances. Below are two scenarios and the corresponding actions that can be taken based on them. Kindly refer to our documentation [here](/libraries/js-libraries/advanced-js-customizations/#createmultifactorauthenticationmfa13) for more details on JS implementation to integrate option for disabling MFA.
+Provided that you have MFA configured on your LoginRadius site/environment, LoginRadius provides your customers the ability to disable the Multi-Factor Authenticator on their accounts. They will only be able to disable it depending on your MFA configurations and the circumstances. Below are two scenarios and the corresponding actions that can be taken based on them. Kindly refer to our documentation [here](https://www.loginradius.com/legacy/docs/libraries/js-libraries/advanced-js-customizations/#createmultifactorauthenticationmfa13) for more details on JS implementation to integrate option for disabling MFA.
 
 **When MFA is configured as Mandatory in your LoginRadius Environment:** Since MFA is required in this case, the customer can only disable one of the MFA methods on their accounts. For example, assuming that the customer has both OTP and Authenticator Apps enabled on their account, the customer can disable the OTP method, but will still need to use Authenticator App for login.
 

@@ -26,7 +26,7 @@ config :loginradius,
   customapidomain: <Custom API Domain if any, "" if none>
 ```
 
-The API key and secret can be obtained from the LoginRadius Admin Console. Details on retrieving your key and secret can be found [here](/api/v2/admin-console/get-api-key-and-secret#retrieve-your-api-key-and-secret).
+The API key and secret can be obtained from the LoginRadius Admin Console. Details on retrieving your key and secret can be found [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/get-api-key-and-secret#retrieve-your-api-key-and-secret).
 
 All API wrappers contained in the SDK will return either an ok or error tuple in the following format:
 
@@ -89,7 +89,7 @@ Secured One Time Tokens can be generated locally using the provided helper funct
 
 ##### Auth Add Email
 
-Adds additional emails to a user's account. [More Info](/api/v2/customer-identity-api/authentication/auth-add-email)
+Adds additional emails to a user's account. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-add-email)
 
 Example:
 
@@ -110,7 +110,7 @@ response = access_token
 
 ##### Auth Forgot Password
 
-Sends a reset password url to a specified account. [More Info](/api/v2/customer-identity-api/authentication/auth-forgot-password)
+Sends a reset password url to a specified account. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-forgot-password)
 
 Example:
 
@@ -129,7 +129,7 @@ response = reset_password_url
 
 ##### Auth User Registration by Email
 
-Creates a user in the database and sends a verification email to the user. [More Info](/api/v2/customer-identity-api/authentication/auth-user-registration-by-email)
+Creates a user in the database and sends a verification email to the user. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email)
 
 Example:
 
@@ -154,7 +154,7 @@ response = data
 
 ##### Auth Login by Email
 
-Retrieves a copy of user data based on email. [More Info](/api/v2/customer-identity-api/authentication/auth-login-by-email)
+Retrieves a copy of user data based on email. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-email)
 
 Example:
 
@@ -174,7 +174,7 @@ response = data
 
 ##### Auth Login by Username
 
-Retrieves a copy of user data based on username. [More Info](/api/v2/customer-identity-api/authentication/auth-login-by-username)
+Retrieves a copy of user data based on username. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-username)
 
 Example:
 
@@ -194,7 +194,7 @@ response = data
 
 ##### Auth Email Availability
 
-Check if the specified email exists on your site. [More Info](/api/v2/customer-identity-api/authentication/auth-email-availability)
+Check if the specified email exists on your site. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-email-availability)
 
 Example:
 
@@ -209,7 +209,7 @@ response = email
 
 ##### Auth Username Availability
 
-Check if the specified username exists on your site. [More Info](/api/v2/customer-identity-api/authentication/auth-username-availability)
+Check if the specified username exists on your site. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-username-availability)
 
 Example:
 
@@ -224,7 +224,7 @@ response = username
 
 ##### Auth Read Profiles by Token
 
-Retrieves a copy of user data based on access token. [More Info](/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token)
+Retrieves a copy of user data based on access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token)
 
 Example:
 
@@ -239,7 +239,7 @@ response = access_token
 
 ##### Auth Privacy Policy Accept
 
-Updates the privacy policy status in a user's profile based on access token. [More Info](/api/v2/customer-identity-api/authentication/auth-privacy-policy-accept)
+Updates the privacy policy status in a user's profile based on access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-privacy-policy-accept)
 
 Example:
 
@@ -254,7 +254,7 @@ response = access_token
 
 ##### Auth Send Welcome Email
 
-Sends a welcome email. [More Info](/api/v2/customer-identity-api/authentication/auth-send-welcome-email)
+Sends a welcome email. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-send-welcome-email)
 
 Example:
 
@@ -270,7 +270,7 @@ response = access_token
 
 ##### Auth Social Identity
 
-Prevents RAAS profile of the second account from getting created (called before account linking API). [More Info](/api/v2/customer-identity-api/authentication/auth-social-identity)
+Prevents RAAS profile of the second account from getting created (called before account linking API). [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-social-identity)
 
 Example:
 
@@ -285,7 +285,7 @@ response = access_token
 
 ##### Auth Validate Access Token
 
-Validates access token, returns an error if token is invalid. [More Info](/api/v2/customer-identity-api/authentication/auth-validate-access-token)
+Validates access token, returns an error if token is invalid. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-validate-access-token)
 
 Example:
 
@@ -300,7 +300,7 @@ response = access_token
 
 ##### Auth Verify Email
 
-Verifies the email of a user. [More Info](/api/v2/customer-identity-api/authentication/auth-verify-email)
+Verifies the email of a user. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-verify-email)
 
 Example:
 
@@ -316,7 +316,7 @@ response = verification_token
 
 ##### Auth Delete Account
 
-Delete an account based on delete token. [More Info](/api/v2/customer-identity-api/authentication/auth-delete-account)
+Delete an account based on delete token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-delete-account)
 
 Example:
 
@@ -330,7 +330,7 @@ response = delete_token
 <br>
  
 ##### Auth Invalidate Access Token
-Invalidates an active access token. [More Info](/api/v2/customer-identity-api/authentication/auth-invalidate-access-token)
+Invalidates an active access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-invalidate-access-token)
 
 Example:
 
@@ -345,7 +345,7 @@ response = access_token
 
 ##### Security Questions by Access Token
 
-Retrieves the list of security questions that have been configured for an account by access token. [More Info](/api/v2/customer-identity-api/authentication/security-questions-by-access-token)
+Retrieves the list of security questions that have been configured for an account by access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-access-token)
 
 Example:
 
@@ -360,7 +360,7 @@ response = access_token
 
 ##### Security Questions by Email
 
-Retrieves the list of security questions that have been configured for an account by email. [More Info](/api/v2/customer-identity-api/authentication/security-questions-by-email)
+Retrieves the list of security questions that have been configured for an account by email. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-email)
 
 Example:
 
@@ -375,7 +375,7 @@ response = email
 
 ##### Security Questions by User Name
 
-Retrieves the list of security questions that have been configured for an account by username. [More Info](/api/v2/customer-identity-api/authentication/security-questions-by-user-name)
+Retrieves the list of security questions that have been configured for an account by username. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-user-name)
 
 Example:
 
@@ -390,7 +390,7 @@ response = username
 
 ##### Security Questions by Phone
 
-Retrieves the list of security questions that have been configured for an account by phone ID. [More Info](/api/v2/customer-identity-api/authentication/security-questions-by-phone)
+Retrieves the list of security questions that have been configured for an account by phone ID. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-phone)
 
 Example:
 
@@ -405,7 +405,7 @@ response = phone_id
 
 ##### Auth Verify Email by OTP
 
-Verifies the email of a user when OTP Email verification flow is enabled. [More Info](/api/v2/customer-identity-api/authentication/auth-verify-email-by-otp)
+Verifies the email of a user when OTP Email verification flow is enabled. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-verify-email-by-otp)
 
 Example:
 
@@ -424,7 +424,7 @@ response = data
 
 ##### Auth Change Password
 
-Changes an account's password based on previous password. [More Info](/api/v2/customer-identity-api/authentication/auth-change-password)
+Changes an account's password based on previous password. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-change-password)
 
 Example:
 
@@ -443,7 +443,7 @@ response = access_token
 
 ##### Auth Link Social Identities
 
-Links a social provider account with a specified account based on access token and social provider's user access token. [More Info](/api/v2/customer-identity-api/authentication/auth-link-social-identities)
+Links a social provider account with a specified account based on access token and social provider's user access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-link-social-identities)
 
 Example:
 
@@ -461,7 +461,7 @@ response = access_token
 
 ##### Auth Resend Email Verification
 
-Resends a verification email to the user. [More Info](/api/v2/customer-identity-api/authentication/auth-resend-email-verification)
+Resends a verification email to the user. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-resend-email-verification)
 
 Example:
 
@@ -480,7 +480,7 @@ response = data
 
 ##### Auth Reset Password by Reset Token
 
-Sets a new password for a specified account using a reset token. [More Info](/api/v2/customer-identity-api/authentication/auth-reset-password-by-reset-token)
+Sets a new password for a specified account using a reset token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-reset-token)
 
 Example:
 
@@ -500,7 +500,7 @@ response = data
 
 ##### Auth Reset Password by OTP
 
-Sets a new password for a specified account using a One Time Passcode. [More Info](/api/v2/customer-identity-api/authentication/auth-reset-password-by-otp)
+Sets a new password for a specified account using a One Time Passcode. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-otp)
 
 Example:
 
@@ -521,7 +521,7 @@ response = data
 
 ##### Reset Password by Security Answer and Email (PUT)
 
-Sets a new password for a specified account using a security answer and email. [More Info](/api/v2/customer-identity-api/authentication/auth-reset-password-by-email)
+Sets a new password for a specified account using a security answer and email. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-email)
 
 Example:
 
@@ -543,7 +543,7 @@ response = data
 
 ##### Reset Password by Security Answer and Phone (PUT)
 
-Sets a new password for a specified account using a security answer and phone. [More Info](/api/v2/customer-identity-api/authentication/auth-reset-password-by-phone)
+Sets a new password for a specified account using a security answer and phone. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-phone)
 
 Example:
 
@@ -565,7 +565,7 @@ response = data
 
 ##### Reset Password by Security Answer and Username (PUT)
 
-Sets a new password for a specified account using a security answer and username. [More Info](/api/v2/customer-identity-api/authentication/auth-reset-password-by-username)
+Sets a new password for a specified account using a security answer and username. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-username)
 
 Example:
 
@@ -587,7 +587,7 @@ response = data
 
 ##### Auth Set or Change User Name
 
-Sets or changes a username using an access token. [More Info](/api/v2/customer-identity-api/authentication/auth-set-or-change-user-name)
+Sets or changes a username using an access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-set-or-change-user-name)
 
 Example:
 
@@ -605,7 +605,7 @@ response = access_token
 
 ##### Auth Update Profile by Token
 
-Updates a user's profile using an access token. [More Info](/api/v2/customer-identity-api/authentication/auth-update-profile-by-token)
+Updates a user's profile using an access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-update-profile-by-token)
 
 Example:
 
@@ -624,7 +624,7 @@ response = access_token
 
 ##### Auth Update Security Question by Access Token
 
-Updates security questions using an access token. [More Info](/api/v2/customer-identity-api/authentication/auth-update-security-question-by-access-token)
+Updates security questions using an access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-update-security-question-by-access-token)
 
 Example:
 
@@ -644,7 +644,7 @@ response = access_token
 
 ##### Auth Delete Account with Email Confirmation
 
-Deletes a user account using its access token. [More Info](/api/v2/customer-identity-api/authentication/auth-delete-account-with-email-confirmation)
+Deletes a user account using its access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-delete-account-with-email-confirmation)
 
 Example:
 
@@ -660,7 +660,7 @@ response = access_token
 
 ##### Auth Remove Email
 
-Removes additional emails from a user's account. [More Info](/api/v2/customer-identity-api/authentication/auth-remove-email)
+Removes additional emails from a user's account. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-remove-email)
 
 Example:
 
@@ -678,7 +678,7 @@ response = access_token
 
 ##### Auth Unlink Social Identities
 
-Unlinks a social provider account with a specified account using its access token. [More Info](/api/v2/customer-identity-api/authentication/auth-unlink-social-identities)
+Unlinks a social provider account with a specified account using its access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-unlink-social-identities)
 
 Example:
 
@@ -718,7 +718,7 @@ response = access_token
 
 ##### Account Create
 
-Creates an account in LoginRadius Cloud Directory, bypassing the normal email verification process. [More Info](/api/v2/customer-identity-api/account/account-create)
+Creates an account in LoginRadius Cloud Directory, bypassing the normal email verification process. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-create)
 
 Example:
 
@@ -741,7 +741,7 @@ response = data
 
 ##### Get Email Verification Token
 
-Retrieves an Email Verification token. [More Info](/api/v2/customer-identity-api/account/get-email-verification-token)
+Retrieves an Email Verification token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/get-email-verification-token)
 
 Example:
 
@@ -758,7 +758,7 @@ response = data
 
 ##### Get Forgot Password Token
 
-Retrieves a Forgot Password token. [More Info](/api/v2/customer-identity-api/account/get-forgot-password-token)
+Retrieves a Forgot Password token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/get-forgot-password-token)
 
 Example:
 
@@ -774,7 +774,7 @@ response = data
 <br>
  
 ##### Account Identities by Email
-Retrieves all identities associated with a specified email. [More Info](/api/v2/customer-identity-api/account/account-identities-by-email)
+Retrieves all identities associated with a specified email. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-identities-by-email)
 
 Example:
 
@@ -789,7 +789,7 @@ response = email
 
 ##### Account Impersonation
 
-Retrieves a LoginRadius access token based on UID. [More Info](/api/v2/customer-identity-api/account/account-impersonation-api)
+Retrieves a LoginRadius access token based on UID. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-impersonation-api)
 
 Example:
 
@@ -804,7 +804,7 @@ response = uid
 
 ##### Account Password
 
-Retrieves the hashed password of an account based on UID. [More Info](/api/v2/customer-identity-api/account/account-password)
+Retrieves the hashed password of an account based on UID. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-password)
 
 Example:
 
@@ -819,7 +819,7 @@ response = uid
 
 ##### Account Profiles by Email
 
-Retrieves profile data based on email. [More Info](/api/v2/customer-identity-api/account/account-profiles-by-email)
+Retrieves profile data based on email. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-email)
 
 Example:
 
@@ -834,7 +834,7 @@ response = email
 
 ##### Account Profiles by Username
 
-Retrieves profile data based on username. [More Info](/api/v2/customer-identity-api/account/account-profiles-by-user-name)
+Retrieves profile data based on username. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-user-name)
 
 Example:
 
@@ -849,7 +849,7 @@ response = username
 
 ##### Account Profiles by Phone ID
 
-Retrieves profile data based on phone ID. [More Info](/api/v2/customer-identity-api/account/account-profiles-by-phone-id)
+Retrieves profile data based on phone ID. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-phone-id)
 
 Example:
 
@@ -864,7 +864,7 @@ response = phone_id
 
 ##### Account Profiles by UID
 
-Retrieves profile data based on UID. [More Info](/api/v2/customer-identity-api/account/account-profiles-by-uid)
+Retrieves profile data based on UID. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-uid)
 
 Example:
 
@@ -879,7 +879,7 @@ response = uid
 
 ##### Account Set Password
 
-Sets the password of an account. [More Info](/api/v2/customer-identity-api/account/account-set-password)
+Sets the password of an account. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-set-password)
 
 Example:
 
@@ -897,7 +897,7 @@ response = uid
 
 ##### Account Update
 
-Updates the information of an existing account based on UID. [More Info](/api/v2/customer-identity-api/account/account-update)
+Updates the information of an existing account based on UID. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update)
 
 Example:
 
@@ -915,7 +915,7 @@ response = uid
 
 ##### Account Update Security Question
 
-Updates the security questions configuration of an existing account based on UID. [More Info](/api/v2/customer-identity-api/account/account-update-security-question)
+Updates the security questions configuration of an existing account based on UID. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update-security-question)
 
 Example:
 
@@ -935,7 +935,7 @@ response = uid
 
 ##### Account Invalidate Verification Email
 
-Invalidates the Email Verification status of an account. [More Info](/api/v2/customer-identity-api/account/account-invalidate-verification-email)
+Invalidates the Email Verification status of an account. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-invalidate-verification-email)
 
 Example:
 
@@ -952,7 +952,7 @@ response = uid
 
 ##### Account Email Delete
 
-Removes an email on an existing account based on UID. [More Info](/api/v2/customer-identity-api/account/account-email-delete)
+Removes an email on an existing account based on UID. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-email-delete)
 
 Example:
 
@@ -970,7 +970,7 @@ response = uid
 
 ##### Account Delete
 
-Removes an existing user account based on UID. [More Info](/api/v2/customer-identity-api/account/account-delete)
+Removes an existing user account based on UID. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-delete)
 
 Example:
 
@@ -1003,7 +1003,7 @@ response = uid
 
 ##### Roles Create
 
-Creates roles with permissions. [More Info](/api/v2/customer-identity-api/roles-management/roles-create)
+Creates roles with permissions. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/roles-create)
 
 Example:
 
@@ -1028,7 +1028,7 @@ response = data
 
 ##### Get Context
 
-Retrieves the contexts which have been configured for a user and its associated roles and permissions. [More Info](/api/v2/customer-identity-api/roles-management/get-context)
+Retrieves the contexts which have been configured for a user and its associated roles and permissions. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/get-context)
 
 Example:
 
@@ -1043,7 +1043,7 @@ response = uid
 
 ##### Roles List
 
-Retrieves complete list of created roles with permissions of your app. [More Info](/api/v2/customer-identity-api/roles-management/roles-list)
+Retrieves complete list of created roles with permissions of your app. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/roles-list)
 
 Example:
 
@@ -1055,7 +1055,7 @@ response = LoginRadius.RolesManagement.roles_list()
 
 ##### Get Roles by UID
 
-Retrieves all assigned roles of a particular user by uid. [More Info](/api/v2/customer-identity-api/roles-management/get-roles-by-uid)
+Retrieves all assigned roles of a particular user by uid. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/get-roles-by-uid)
 
 Example:
 
@@ -1070,7 +1070,7 @@ response = uid
 
 ##### Add Permissions to Role
 
-Adds permissions to a given role. [More Info](/api/v2/customer-identity-api/roles-management/add-permissions-to-role)
+Adds permissions to a given role. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/add-permissions-to-role)
 
 Example:
 
@@ -1091,7 +1091,7 @@ response = role_name
 
 ##### Assign Roles by UID
 
-Assigns created roles to a user. [More Info](/api/v2/customer-identity-api/roles-management/assign-roles-by-uid)
+Assigns created roles to a user. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/assign-roles-by-uid)
 
 Example:
 
@@ -1111,7 +1111,7 @@ response = uid
 
 ##### Upsert Context
 
-Creates a context with a set of roles. [More Info](/api/v2/customer-identity-api/roles-management/upsert-context)
+Creates a context with a set of roles. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/upsert-context)
 
 Example:
 
@@ -1142,7 +1142,7 @@ response = uid
 
 ##### Delete Role
 
-Deletes a role given a role name. [More Info](/api/v2/customer-identity-api/roles-management/delete-role)
+Deletes a role given a role name. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-role)
 
 Example:
 
@@ -1157,7 +1157,7 @@ response = role_name
 
 ##### Unassign Roles by UID
 
-Unassigns roles from a user given uid. [More Info](/api/v2/customer-identity-api/roles-management/unassign-roles-by-uid)
+Unassigns roles from a user given uid. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/unassign-roles-by-uid)
 
 Example:
 
@@ -1177,7 +1177,7 @@ response = uid
 
 ##### Remove Permissions
 
-Removes permissions from a role. [More Info](/api/v2/customer-identity-api/roles-management/remove-permissions)
+Removes permissions from a role. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/remove-permissions)
 
 Example:
 
@@ -1197,7 +1197,7 @@ response = role_name
 
 ##### Delete Context
 
-Deletes a specified role context given UID and role context name. [More Info](/api/v2/customer-identity-api/roles-management/delete-context)
+Deletes a specified role context given UID and role context name. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-context)
 
 Example:
 
@@ -1213,7 +1213,7 @@ response = uid
 
 ##### Delete Role from Context
 
-Deletes a specified role from a context. [More Info](/api/v2/customer-identity-api/roles-management/delete-role-from-context)
+Deletes a specified role from a context. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-role-from-context)
 
 Example:
 
@@ -1234,7 +1234,7 @@ response = uid
 
 ##### Delete Permissions from Context
 
-Deletes additional permissions from context. [More Info](/api/v2/customer-identity-api/roles-management/delete-permissions-from-context)
+Deletes additional permissions from context. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-permissions-from-context)
 
 Example:
 
@@ -1283,7 +1283,7 @@ response = uid
 
 ##### Post Message API
 
-Posts messages to a user's contacts. This is part of the Friend Invite System. Used after the Contact API, and requires setting of permissions in LoginRadius Admin Console. Supported: Twitter, LinkedIn. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/post-message-api)
+Posts messages to a user's contacts. This is part of the Friend Invite System. Used after the Contact API, and requires setting of permissions in LoginRadius Admin Console. Supported: Twitter, LinkedIn. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/post-message-api)
 
 Example:
 
@@ -1301,7 +1301,7 @@ response = access_token
 
 ##### Get Trackable Status Stats
 
-Updates the status on a user's wall. Supported: Facebook, Twitter, LinkedIn. [More Info](/api/v2/social-login/post-status-posting)
+Updates the status on a user's wall. Supported: Facebook, Twitter, LinkedIn. [More Info](https://www.loginradius.com/legacy/docs/api/v2/social-login/post-status-posting)
 
 Example:
 
@@ -1322,7 +1322,7 @@ response = access_token
 
 ##### Access Token
 
-Translates the request token returned during social provider authentication into an access token that can be used with LoginRadius API calls. [More Info](/api/v2/customer-identity-api/social-login/access-token)
+Translates the request token returned during social provider authentication into an access token that can be used with LoginRadius API calls. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/access-token)
 
 Example:
 
@@ -1337,7 +1337,7 @@ response = request_token
 
 ##### Validate Access Token
 
-Validates an access token, returns error if invalid. [More Info](/api/v2/customer-identity-api/social-login/validate-access-token)
+Validates an access token, returns error if invalid. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/validate-access-token)
 
 Example:
 
@@ -1352,7 +1352,7 @@ response = access_token
 
 ##### Invalidate Access Token
 
-Invalidates an active access token. [More Info](/api/v2/customer-identity-api/social-login/invalidate-access-token)
+Invalidates an active access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/invalidate-access-token)
 
 Example:
 
@@ -1367,7 +1367,7 @@ response = access_token
 
 ##### Album
 
-Retrieves the photo albums associated with an access token. Supported: Facebook, Google, Live, Vkontakte. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/album)
+Retrieves the photo albums associated with an access token. Supported: Facebook, Google, Live, Vkontakte. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/album)
 
 Example:
 
@@ -1382,7 +1382,7 @@ response = access_token
 
 ##### Audio
 
-Retrieves the audio files associated with an access token. Supported: Live, Vkontakte. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/audio)
+Retrieves the audio files associated with an access token. Supported: Live, Vkontakte. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/audio)
 
 Example:
 
@@ -1397,7 +1397,7 @@ response = access_token
 
 ##### Check-In
 
-Retrieves the check in data associated with an access token. Supported: Facebook, Foursquare, Vkontakte. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/check-in)
+Retrieves the check in data associated with an access token. Supported: Facebook, Foursquare, Vkontakte. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/check-in)
 
 Example:
 
@@ -1412,7 +1412,7 @@ response = access_token
 
 ##### Company
 
-Retrieves a user's followed companies data associated with an access token. Supported: Facebook, LinkedIn. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/company)
+Retrieves a user's followed companies data associated with an access token. Supported: Facebook, LinkedIn. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/company)
 
 Example:
 
@@ -1427,7 +1427,7 @@ response = access_token
 
 ##### Contact
 
-Retrieves the contacts/friends/connections data associated with an access token. This is part of the LoginRadius Friend Invite System, and requires permissions to be set in the LoginRadius Admin Console. Supported: Facebook, Foursquare, Google, LinkedIn, Live, Twitter, Vkontakte, Yahoo. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/contact)
+Retrieves the contacts/friends/connections data associated with an access token. This is part of the LoginRadius Friend Invite System, and requires permissions to be set in the LoginRadius Admin Console. Supported: Facebook, Foursquare, Google, LinkedIn, Live, Twitter, Vkontakte, Yahoo. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/contact)
 
 Example:
 
@@ -1442,7 +1442,7 @@ response = access_token
 
 ##### Event
 
-Retrieves Event data associated with an access token. Supported: Facebook, Live. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/event)
+Retrieves Event data associated with an access token. Supported: Facebook, Live. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/event)
 
 Example:
 
@@ -1457,7 +1457,7 @@ response = access_token
 
 ##### Following
 
-Retrieves Following user list associated with an access token. Supported: Twitter. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/following)
+Retrieves Following user list associated with an access token. Supported: Twitter. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/following)
 
 Example:
 
@@ -1472,7 +1472,7 @@ response = access_token
 
 ##### Group
 
-Retrieves Group data associated with an access token. Supported: Facebook, Vkontakte. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/group)
+Retrieves Group data associated with an access token. Supported: Facebook, Vkontakte. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/group)
 
 Example:
 
@@ -1487,7 +1487,7 @@ response = access_token
 
 ##### Like
 
-Retrieves Like data associated with an access token. Supported: Facebook. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/like)
+Retrieves Like data associated with an access token. Supported: Facebook. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/like)
 
 Example:
 
@@ -1502,7 +1502,7 @@ response = access_token
 
 ##### Mention
 
-Retrieves Mentions data associated with an access token. Supported: Twitter. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/mention)
+Retrieves Mentions data associated with an access token. Supported: Twitter. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/mention)
 
 Example:
 
@@ -1517,7 +1517,7 @@ response = access_token
 
 ##### Get Message API
 
-Posts messages to a user's contacts. This is part of the Friend Invite System. Used after the Contact API, and requires setting of permissions in LoginRadius Admin Console. Identical to Message (POST). Supported: LinkedIn, Twitter. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/get-message-api)
+Posts messages to a user's contacts. This is part of the Friend Invite System. Used after the Contact API, and requires setting of permissions in LoginRadius Admin Console. Identical to Message (POST). Supported: LinkedIn, Twitter. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/get-message-api)
 
 Example:
 
@@ -1535,7 +1535,7 @@ response = access_token
 
 ##### Page
 
-Retrieves page data associated with an access token. Supported: Facebook, LinkedIn. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/page)
+Retrieves page data associated with an access token. Supported: Facebook, LinkedIn. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/page)
 
 Example:
 
@@ -1551,7 +1551,7 @@ response = access_token
 
 ##### Photo
 
-Retrieves photo data associated with an access token. Supported: Facebook, Foursquare, Google, Live, Vkontakte. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/photo)
+Retrieves photo data associated with an access token. Supported: Facebook, Foursquare, Google, Live, Vkontakte. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/photo)
 
 Example:
 
@@ -1567,7 +1567,7 @@ response = access_token
 
 ##### Post
 
-Retrieves Post message data associated with an access token. Supported: Facebook. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/post)
+Retrieves Post message data associated with an access token. Supported: Facebook. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/post)
 
 Example:
 
@@ -1582,7 +1582,7 @@ response = access_token
 
 ##### Status Fetching
 
-Retrieves status messages associated with an access token. Supported: Facebook, LinkedIn, Twitter, Vkontakte. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/status-fetching)
+Retrieves status messages associated with an access token. Supported: Facebook, LinkedIn, Twitter, Vkontakte. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/status-fetching)
 
 Example:
 
@@ -1597,7 +1597,7 @@ response = access_token
 
 ##### Status Posting
 
-Updates the status on a user (associated with an access token)'s wall. Identical to Status Posting (POST). Supported: Facebook, Twitter, LinkedIn. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/status-posting)
+Updates the status on a user (associated with an access token)'s wall. Identical to Status Posting (POST). Supported: Facebook, Twitter, LinkedIn. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/status-posting)
 
 Example:
 
@@ -1618,7 +1618,7 @@ response = access_token
 
 ##### User Profile
 
-Retrieves social profile data associated with an access token. Supported: All. [More Info](/api/v2/customer-identity-api/social-login/user-profile)
+Retrieves social profile data associated with an access token. Supported: All. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/user-profile)
 
 Example:
 
@@ -1633,7 +1633,7 @@ response = access_token
 
 ##### Video
 
-Retrieves video files data associated with an access token. Supported: Facebook, Google, Live, Vkontakte. [More Info](/api/v2/customer-identity-api/social-login/advanced-social-api/video)
+Retrieves video files data associated with an access token. Supported: Facebook, Google, Live, Vkontakte. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/video)
 
 Example:
 
@@ -1667,7 +1667,7 @@ response = access_token
 
 ##### Phone Login
 
-Retrieves a copy of user data based on Phone ID. [More Info](/api/v2/customer-identity-api/phone-authentication/phone-login)
+Retrieves a copy of user data based on Phone ID. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-login)
 
 Example:
 
@@ -1688,7 +1688,7 @@ response = data
 
 ##### Phone Forgot Password by OTP
 
-Sends OTP to reset the account password. [More Info](/api/v2/customer-identity-api/phone-authentication/phone-forgot-password-by-otp)
+Sends OTP to reset the account password. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-forgot-password-by-otp)
 
 Example:
 
@@ -1706,7 +1706,7 @@ response = data
 
 ##### Phone Resend OTP
 
-Resends a verification OTP to verify a user's phone number. User will receive a verification code that they will need to input. [More Info](/api/v2/customer-identity-api/phone-authentication/phone-resend-otp)
+Resends a verification OTP to verify a user's phone number. User will receive a verification code that they will need to input. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-resend-otp)
 
 Example:
 
@@ -1724,7 +1724,7 @@ response = data
 
 ##### Phone Resend OTP by Token
 
-Resends a verification OTP to verify a user's phone number in cases where an active token already exists. [More Info](/api/v2/customer-identity-api/phone-authentication/phone-resend-otp-by-token)
+Resends a verification OTP to verify a user's phone number in cases where an active token already exists. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-resend-otp-by-token)
 
 Example:
 
@@ -1743,7 +1743,7 @@ response = data
 
 ##### Phone User Registration by SMS
 
-Registers a new user into Cloud Directory and triggers the phone verification process. [More Info](/api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms)
+Registers a new user into Cloud Directory and triggers the phone verification process. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms)
 
 Example:
 
@@ -1768,7 +1768,7 @@ response = data
 
 ##### Phone Number Availability
 
-Checks if the specified phone number already exists on your site. [More Info](/api/v2/customer-identity-api/phone-authentication/phone-number-availability)
+Checks if the specified phone number already exists on your site. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-number-availability)
 
 Example:
 
@@ -1783,7 +1783,7 @@ response = phone_id
 
 ##### Phone Send OTP
 
-Sends a One Time Passcode by verified phone ID. [More Info](/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-phone/)
+Sends a One Time Passcode by verified phone ID. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-phone/)
 
 Example:
 
@@ -1799,7 +1799,7 @@ response = phone_id
 
 ##### Phone Login Using OTP
 
-Verifies a login by One Time Passcode. [More Info](/api/v2/customer-identity-api/passwordless-login/phone-login-using-otp)
+Verifies a login by One Time Passcode. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/phone-login-using-otp)
 
 Example:
 
@@ -1817,7 +1817,7 @@ response = data
 
 ##### Phone Number Update
 
-Updates a user's login phone number. [More Info](/api/v2/customer-identity-api/phone-authentication/phone-number-update)
+Updates a user's login phone number. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-number-update)
 
 Example:
 
@@ -1835,7 +1835,7 @@ response = access_token
 
 ##### Phone Reset Password by OTP
 
-Resets a user's password using OTP. [More Info](/api/v2/customer-identity-api/phone-authentication/phone-reset-password-by-otp)
+Resets a user's password using OTP. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-reset-password-by-otp)
 
 Example:
 
@@ -1854,7 +1854,7 @@ response = data
 
 ##### Phone Verify by OTP
 
-This API is used to validate the verification code sent to verify a user's phone number. [More Info](/api/v2/customer-identity-api/phone-authentication/phone-verify-otp)
+This API is used to validate the verification code sent to verify a user's phone number. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-verify-otp)
 
 Example:
 
@@ -1872,7 +1872,7 @@ response = otp
 
 ##### Phone Verify OTP by Access Token
 
-Consumes the verification code sent to verify a user's phone number. For use in front-end where user has already logged in by passing user's access token. [More Info](/api/v2/customer-identity-api/phone-authentication/phone-verify-otp-by-token)
+Consumes the verification code sent to verify a user's phone number. For use in front-end where user has already logged in by passing user's access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-verify-otp-by-token)
 
 Example:
 
@@ -1888,7 +1888,7 @@ response = access_token
 
 ##### Reset Phone ID Verification
 
-Resets phone number verification of a user's account. [More Info](/api/v2/customer-identity-api/phone-authentication/reset-phone-id-verification)
+Resets phone number verification of a user's account. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/reset-phone-id-verification)
 
 Example:
 
@@ -1903,7 +1903,7 @@ response = uid
 
 ##### Remove Phone ID by Access Token
 
-Deletes the Phone ID on a user's account using access token. [More Info](/api/v2/customer-identity-api/phone-authentication/remove-phone-id-by-access-token)
+Deletes the Phone ID on a user's account using access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/remove-phone-id-by-access-token)
 
 Example:
 
@@ -1942,7 +1942,7 @@ response = access_token
 
 ##### MFA Email Login
 
-Logs in by Email ID on a Multi-Factor Authentication enabled site. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-email-login)
+Logs in by Email ID on a Multi-Factor Authentication enabled site. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-email-login)
 
 Example:
 
@@ -1960,7 +1960,7 @@ response = data
 
 ##### MFA Username Login
 
-Logs in by Username on a MFA enabled site. API wrapper is identical to email, except data object contains username instead of email. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-user-name-login)
+Logs in by Username on a MFA enabled site. API wrapper is identical to email, except data object contains username instead of email. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-user-name-login)
 
 Example:
 
@@ -1978,7 +1978,7 @@ response = data
 
 ##### MFA Phone Login
 
-Logs in by Phone ID on a MFA enabled site. API wrapper is identical to email, except data object contains phone instead of email. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-phone-login)
+Logs in by Phone ID on a MFA enabled site. API wrapper is identical to email, except data object contains phone instead of email. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-phone-login)
 
 Example:
 
@@ -1996,7 +1996,7 @@ response = data
 
 ##### MFA Validate Access Token
 
-Configures MFA after login using access token. For use with MFA set to optional. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-access-token)
+Configures MFA after login using access token. For use with MFA set to optional. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-access-token)
 
 Example:
 
@@ -2011,7 +2011,7 @@ response = access_token
 
 ##### MFA Backup Code by Access Token
 
-Retrieves a set of backup codes using access token to allow user login on a site with MFA enabled in the event that the user does not have a secondary factor available. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-backup-code-by-access-token)
+Retrieves a set of backup codes using access token to allow user login on a site with MFA enabled in the event that the user does not have a secondary factor available. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-backup-code-by-access-token)
 
 Example:
 
@@ -2026,7 +2026,7 @@ response = access_token
 
 ##### MFA Reset Backup Code by Access Token
 
-Resets the backup codes on a given account using access token. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-backup-code-by-access-token)
+Resets the backup codes on a given account using access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-backup-code-by-access-token)
 
 Example:
 
@@ -2041,7 +2041,7 @@ response = access_token
 
 ##### MFA Backup Code by UID
 
-Retrieves a set of backup codes using UID. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-backup-code-by-uid)
+Retrieves a set of backup codes using UID. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-backup-code-by-uid)
 
 Example:
 
@@ -2056,7 +2056,7 @@ response = uid
 
 ##### MFA Reset Backup Code by UID
 
-Resets the backup codes on a given account using UID. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-backup-code-by-uid)
+Resets the backup codes on a given account using UID. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-backup-code-by-uid)
 
 Example:
 
@@ -2071,7 +2071,7 @@ response = uid
 
 ##### MFA Validate Backup Code
 
-Validates the backup code provided by the user, returns an access token allowing user to login. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-backup-code)
+Validates the backup code provided by the user, returns an access token allowing user to login. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-backup-code)
 
 Example:
 
@@ -2089,7 +2089,7 @@ response = second_factor_authentication_token
 
 ##### MFA Validate OTP
 
-Validates the One Time Passcode received via SMS for use with MFA. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-otp)
+Validates the One Time Passcode received via SMS for use with MFA. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-otp)
 
 Example:
 
@@ -2107,7 +2107,7 @@ response = second_factor_authentication_token
 
 ##### MFA Validate Google Auth Code
 
-Validates google authenticator code for use with MFA. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-google-auth-code)
+Validates google authenticator code for use with MFA. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-google-auth-code)
 
 Example:
 
@@ -2125,7 +2125,7 @@ response = second_factor_authentication_token
 
 ##### MFA Update Phone Number
 
-Updates (if configured) the phone number used for MFA. API authenticates using the second factor authentication token. Sends a verification OTP to provided phone number. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-update-phone-number)
+Updates (if configured) the phone number used for MFA. API authenticates using the second factor authentication token. Sends a verification OTP to provided phone number. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-update-phone-number)
 
 Example:
 
@@ -2144,7 +2144,7 @@ response = second_factor_authentication_token
 
 ##### MFA Update Phone Number by Access Token
 
-Updates the MFA phone number by sending a verification OTP to the provided phone number. API authenticates using user's login access token. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-update-phone-number-by-token)
+Updates the MFA phone number by sending a verification OTP to the provided phone number. API authenticates using user's login access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-update-phone-number-by-token)
 
 Example:
 
@@ -2163,7 +2163,7 @@ response = access_token
 
 ##### Update MFA by Access Token
 
-Enables Multi Factor Authentication by access token upon user login. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/update-mfa-by-access-token)
+Enables Multi Factor Authentication by access token upon user login. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/update-mfa-by-access-token)
 
 Example:
 
@@ -2181,7 +2181,7 @@ response = access_token
 
 ##### Update MFA Setting
 
-Enables Multi Factor Authentication by OTP upon user login. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/update-mfa-setting)
+Enables Multi Factor Authentication by OTP upon user login. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/update-mfa-setting)
 
 Example:
 
@@ -2199,7 +2199,7 @@ response = access_token
 
 ##### MFA Reset Google Authenticator by Access Token
 
-Resets the Google Authenticator configurations on a given account using user's access token. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-google-authenticator-by-token)
+Resets the Google Authenticator configurations on a given account using user's access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-google-authenticator-by-token)
 
 Example:
 
@@ -2217,7 +2217,7 @@ response = access_token
 
 ##### MFA Reset SMS Authenticator by Access Token
 
-Resets the SMS Authenticator configurations on a given account using user's access token. Identical to Reset Google Authenticator by Access Token except data object has key otpauthenticator instead of googleauthenticator. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-sms-authenticator-by-token)
+Resets the SMS Authenticator configurations on a given account using user's access token. Identical to Reset Google Authenticator by Access Token except data object has key otpauthenticator instead of googleauthenticator. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-sms-authenticator-by-token)
 
 Example:
 
@@ -2235,7 +2235,7 @@ response = access_token
 
 ##### MFA Reset Google Authenticator by UID
 
-Resets the Google Authenticator configurations on a given account using user's UID. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-google-authenticator-by-uid)
+Resets the Google Authenticator configurations on a given account using user's UID. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-google-authenticator-by-uid)
 
 Example:
 
@@ -2253,7 +2253,7 @@ response = uid
 
 ##### MFA Reset SMS Authenticator by UID
 
-Resets the SMS Authenticator configurations on a given account using user's UID. Identical to Reset Google Authenticator by UID except data object has key otpauthenticator instead of googleauthenticator. [More Info](/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-sms-authenticator-by-uid)
+Resets the SMS Authenticator configurations on a given account using user's UID. Identical to Reset Google Authenticator by UID except data object has key otpauthenticator instead of googleauthenticator. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-sms-authenticator-by-uid)
 
 Example:
 
@@ -2279,7 +2279,7 @@ response = uid
 
 ##### Passwordless Login by Email
 
-Sends a Passwordless Login verification link to provided email. [More Info](/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-email)
+Sends a Passwordless Login verification link to provided email. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-email)
 
 Example:
 
@@ -2296,7 +2296,7 @@ response = email
 
 ##### Passwordless Login by Username
 
-Sends a Passwordless Login verification link to provided username. [More Info](/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-username)
+Sends a Passwordless Login verification link to provided username. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-username)
 
 Example:
 
@@ -2313,7 +2313,7 @@ response = username
 
 ##### Passwordless Login Verification
 
-Verifies a Passwordless Login verification link. [More Info](/api/v2/customer-identity-api/passwordless-login/passwordless-login-verification)
+Verifies a Passwordless Login verification link. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-verification)
 
 Example:
 
@@ -2338,7 +2338,7 @@ response = verification_token
 
 ##### Smart Login By Email
 
-Sends a Smart Login link to a user's email using specified email. [More Info](/api/v2/customer-identity-api/smart-login/smart-login-by-email)
+Sends a Smart Login link to a user's email using specified email. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/smart-login-by-email)
 
 Example:
 
@@ -2357,7 +2357,7 @@ response = email
 
 ##### Smart Login by Username
 
-Sends a Smart Login link to a user's email using specified username. [More Info](/api/v2/customer-identity-api/smart-login/smart-login-by-username)
+Sends a Smart Login link to a user's email using specified username. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/smart-login-by-username)
 
 Example:
 
@@ -2376,7 +2376,7 @@ response = username
 
 ##### Smart Login Ping
 
-Checks if the Smart Login link has been clicked or not. [More Info](/api/v2/customer-identity-api/smart-login/smart-login-ping)
+Checks if the Smart Login link has been clicked or not. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/smart-login-ping)
 
 Example:
 
@@ -2391,7 +2391,7 @@ response = client_guid
 
 ##### Smart Login Verify Token
 
-Verifies the provided token for Smart Login. [More Info](/api/v2/customer-identity-api/smart-login/smart-login-verify-token)
+Verifies the provided token for Smart Login. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/smart-login-verify-token)
 
 Example:
 
@@ -2416,7 +2416,7 @@ response = verification_token
 
 ##### One Touch Login by Email
 
-Sends a link to a specified email for frictionless login. [More Info](/api/v2/one-touch/one-touch-login-by-email)
+Sends a link to a specified email for frictionless login. [More Info](https://www.loginradius.com/legacy/docs/api/v2/one-touch/one-touch-login-by-email)
 
 Example:
 
@@ -2436,7 +2436,7 @@ response = email
 
 ##### One Touch Login by Phone
 
-Sends a One Time Password to a given phone number for a frictionless login. [More Info](/api/v2/one-touch/one-touch-login-by-phone)
+Sends a One Time Password to a given phone number for a frictionless login. [More Info](https://www.loginradius.com/legacy/docs/api/v2/one-touch/one-touch-login-by-phone)
 
 Example:
 
@@ -2453,7 +2453,7 @@ response = phone_id
 
 ##### One Touch Email Verification
 
-Verifies the provided token for One Touch Login by email. [More Info](/api/v2/customer-identity-api/one-touch-login/one-touch-email-verification)
+Verifies the provided token for One Touch Login by email. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-email-verification)
 
 Example:
 
@@ -2469,7 +2469,7 @@ response = verification_token
 
 ##### One Touch OTP Verification
 
-Verifies the One Time Passcode for One Touch Login. [More Info](/api/v2/customer-identity-api/one-touch-login/one-touch-otp-verification)
+Verifies the One Time Passcode for One Touch Login. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-otp-verification)
 
 Example:
 
@@ -2503,7 +2503,7 @@ response = otp
 
 ##### Create Custom Object by UID
 
-Writes data to a custom object for a specified account by uid. [More Info](/api/v2/customer-identity-api/custom-object/create-custom-object-by-uid)
+Writes data to a custom object for a specified account by uid. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-uid)
 
 Example:
 
@@ -2523,7 +2523,7 @@ response = uid
 
 ##### Create Custom Object by Token
 
-Writes data to a custom object for a specified account by access token. [More Info](/api/v2/customer-identity-api/custom-object/create-custom-object-by-token)
+Writes data to a custom object for a specified account by access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-token)
 
 Example:
 
@@ -2543,7 +2543,7 @@ response = access_token
 
 ##### Custom Object by ObjectRecordId and UID
 
-Retrieves Custom Object data for a specified account by object name, id, and account uid. [More Info](/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-uid)
+Retrieves Custom Object data for a specified account by object name, id, and account uid. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-uid)
 
 Example:
 
@@ -2560,7 +2560,7 @@ response = uid
 
 ##### Custom Object by ObjectRecordId and Token
 
-Retrieves Custom Object data for a specified account by object name, id, and access token. [More Info](/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-token)
+Retrieves Custom Object data for a specified account by object name, id, and access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-token)
 
 Example:
 
@@ -2577,7 +2577,7 @@ response = access_token
 
 ##### Custom Object by Token
 
-Retrieves Custom Object data for a specified account by object name and access token. [More Info](/api/v2/customer-identity-api/custom-object/custom-object-by-token)
+Retrieves Custom Object data for a specified account by object name and access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-token)
 
 Example:
 
@@ -2591,7 +2591,7 @@ response = access_token
 
 ##### Custom Object by UID
 
-Retrieves Custom Object data for a specified account by object name and account uid. [More Info](/api/v2/customer-identity-api/custom-object/custom-object-by-uid)
+Retrieves Custom Object data for a specified account by object name and account uid. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-uid)
 
 Example:
 
@@ -2607,7 +2607,7 @@ response = uid
 
 ##### Custom Object Update by ObjectRecordId and UID
 
-Updates Custom Object data for a specified account by object name, id, and account uid. If updatetype = replace, object will be replaced with new object. If updatetype = partialreplace, new object will be upserted(merged). [More Info](/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-uid)
+Updates Custom Object data for a specified account by object name, id, and account uid. If updatetype = replace, object will be replaced with new object. If updatetype = partialreplace, new object will be upserted(merged). [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-uid)
 
 Example:
 
@@ -2628,7 +2628,7 @@ response = uid
 
 ##### Custom Object Update by ObjectRecordId and Token
 
-This API is used to update the specified custom object data of the specified account. [More Info](/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-token)
+This API is used to update the specified custom object data of the specified account. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-token)
 
 Example:
 
@@ -2649,7 +2649,7 @@ response = access_token
 
 ##### Custom Object Delete by ObjectRecordId and UID
 
-Deletes Custom Object data from a specified account by object name, id, and account uid. [More Info](/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-uid)
+Deletes Custom Object data from a specified account by object name, id, and account uid. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-uid)
 
 Example:
 
@@ -2666,7 +2666,7 @@ response = uid
 
 ##### Custom Object Delete by ObjectRecordId and Access Token
 
-Deletes Custom Object data from a specified account by object name, id, and access token. [More Info](/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-token)
+Deletes Custom Object data from a specified account by object name, id, and access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-token)
 
 Example:
 
@@ -2694,7 +2694,7 @@ response = access_token
 
 ##### Add Registration Data
 
-Adds data to your custom DropDownList configured for user registration. [More Info](/api/v2/customer-identity-api/custom-registration-data/add-registration-data)
+Adds data to your custom DropDownList configured for user registration. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-registration-data/add-registration-data)
 
 Example:
 
@@ -2720,7 +2720,7 @@ response = data
 
 ##### Validate Code
 
-Adds data to your custom DropDownList configured for user registration. [More Info](/api/v2/customer-identity-api/custom-registration-data/validate-code)
+Adds data to your custom DropDownList configured for user registration. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-registration-data/validate-code)
 
 Example:
 
@@ -2738,7 +2738,7 @@ response = data
 
 ##### Get Registration Data
 
-Retrieves dropdown data. [More Info](/api/v2/customer-identity-api/custom-registration-data/get-registration-data)
+Retrieves dropdown data. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-registration-data/get-registration-data)
 
 Example:
 
@@ -2756,7 +2756,7 @@ response = type
 
 ##### Auth Get Registration Data
 
-Retrieves dropdown data. [More Info](/api/v2/customer-identity-api/custom-registration-data/auth-get-registration-data)
+Retrieves dropdown data. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-registration-data/auth-get-registration-data)
 
 Example:
 
@@ -2774,7 +2774,7 @@ response = type
 
 ##### Update Registration Data
 
-Updates a member of configured DropDownList. [More Info](/api/v2/customer-identity-api/custom-registration-data/update-registration-data)
+Updates a member of configured DropDownList. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-registration-data/update-registration-data)
 
 Example:
 
@@ -2797,7 +2797,7 @@ response = record_id
 
 ##### Delete Registration Data
 
-Deletes a member of configured DropDownList. [More Info](/api/v2/customer-identity-api/custom-registration-data/delete-registration-data)
+Deletes a member of configured DropDownList. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-registration-data/delete-registration-data)
 
 Example:
 
@@ -2821,7 +2821,7 @@ response = record_id
 
 ##### Get Configurations
 
-Gets set configurations from the LoginRadius Admin Console for a particular site from apikey. [More Info](/api/v2/customer-identity-api/configuration/get-configurations)
+Gets set configurations from the LoginRadius Admin Console for a particular site from apikey. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/configuration/get-configurations)
 
 Example:
 
@@ -2833,7 +2833,7 @@ response = LoginRadius.Configuration.get_configurations()
 
 ##### Get Server Time
 
-Queries for basic server information. Time difference is used to generate values for SOTT generation. [More Info](/api/v2/customer-identity-api/configuration/get-server-time)
+Queries for basic server information. Time difference is used to generate values for SOTT generation. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/configuration/get-server-time)
 
 Example:
 
@@ -2848,7 +2848,7 @@ response = time_difference
 
 ##### Generate SOTT Token
 
-Generates a Secured One Time Token. [More Info](/api/v2/customer-identity-api/session/generate-sott-token)
+Generates a Secured One Time Token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/session/generate-sott-token)
 
 Example:
 
@@ -2889,7 +2889,7 @@ sott = validity_length
 
 ##### Access Token via Facebook Token
 
-Retrieves a LoginRadius access token by sending Facebook's access token. [More Info](/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-facebook-token)
+Retrieves a LoginRadius access token by sending Facebook's access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-facebook-token)
 
 Example:
 
@@ -2904,7 +2904,7 @@ response = fb_access_token
 
 ##### Access Token via Twitter Token
 
-Retrieves a LoginRadius access token by sending Twitter's access token and token secret. [More Info](/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-twitter-token)
+Retrieves a LoginRadius access token by sending Twitter's access token and token secret. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-twitter-token)
 
 Example:
 
@@ -2920,7 +2920,7 @@ response = tw_access_token
 
 ##### Access Token via Vkontakte Token
 
-Retrieves a LoginRadius access token by sending Vkontakte's access token. [More Info](/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-vkontakte-token)
+Retrieves a LoginRadius access token by sending Vkontakte's access token. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-vkontakte-token)
 
 Example:
 
@@ -2935,7 +2935,7 @@ response = vk_access_token
 
 ##### Refresh User Profile
 
-Retrieves the latest updated social profile data after authentication. [More Info](/api/v2/customer-identity-api/refresh-token/refresh-user-profile)
+Retrieves the latest updated social profile data after authentication. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/refresh-token/refresh-user-profile)
 
 Example:
 
@@ -2950,7 +2950,7 @@ response = access_token
 
 ##### Refresh Token
 
-Refreshes the LoginRadius access token after authentication. Also refreshes the provider access token if available. Supported Providers: Facebook, Yahoo, Google, Twitter, Linkedin. [More Info](/api/v2/customer-identity-api/refresh-token/refresh-token)
+Refreshes the LoginRadius access token after authentication. Also refreshes the provider access token if available. Supported Providers: Facebook, Yahoo, Google, Twitter, Linkedin. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/refresh-token/refresh-token)
 
 Example:
 
@@ -2965,7 +2965,7 @@ response = access_token
 
 ##### Get Active Session Details
 
-Retrieves all active sessions by an access token. Supported Providers: Facebook, Yahoo, Google, Twitter, Linkedin. [More Info](/api/v2/customer-identity-api/social-login/get-active-session-details)
+Retrieves all active sessions by an access token. Supported Providers: Facebook, Yahoo, Google, Twitter, Linkedin. [More Info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/get-active-session-details)
 
 Example:
 
@@ -2989,7 +2989,7 @@ response = access_token
 
 ##### Webhook Subscribe
 
-Subscribes a Webhook on your LoginRadius site. [More Info](/api/v2/integrations/web-hook-subscribe-api)
+Subscribes a Webhook on your LoginRadius site. [More Info](https://www.loginradius.com/legacy/docs/api/v2/integrations/web-hook-subscribe-api)
 
 Example:
 
@@ -3007,7 +3007,7 @@ response = data
 
 ##### Webhook Test
 
-Tests subscribed Webhooks. [More Info](/api/v2/integrations/web-hook-test)
+Tests subscribed Webhooks. [More Info](https://www.loginradius.com/legacy/docs/api/v2/integrations/web-hook-test)
 
 Example:
 
@@ -3019,7 +3019,7 @@ response = LoginRadius.Webhooks.test()
 
 ##### Webhook Subscribed URLs
 
-Retrieves all subscribed URLs for a particular event. [More Info](/api/v2/integrations/web-hook-subscribed-urls)
+Retrieves all subscribed URLs for a particular event. [More Info](https://www.loginradius.com/legacy/docs/api/v2/integrations/web-hook-subscribed-urls)
 
 Example:
 
@@ -3034,7 +3034,7 @@ response = event
 
 ##### Webhook Unsubscribe
 
-Unsubscribes a Webhook configured on your LoginRadius site. [More Info](/api/v2/integrations/web-hook-unsubscribe)
+Unsubscribes a Webhook configured on your LoginRadius site. [More Info](https://www.loginradius.com/legacy/docs/api/v2/integrations/web-hook-unsubscribe)
 
 Example:
 

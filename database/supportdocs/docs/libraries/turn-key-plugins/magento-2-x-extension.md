@@ -57,7 +57,7 @@ php bin/magento indexer:reindex
 
 ### Account Configuration
 
-> **Note:** The full functionality of this module requires a LoginRadius API Key and a LoginRadius API Secret. Refer to the following documentation on how you can obtain this from [LoginRadius Admin Console](/api/v2/admin-console/platform-security/api-key-and-secret)
+> **Note:** The full functionality of this module requires a LoginRadius API Key and a LoginRadius API Secret. Refer to the following documentation on how you can obtain this from [LoginRadius Admin Console](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret)
 
 ### Activation Steps
 
@@ -116,18 +116,18 @@ Admin can configure the following redirection options:
 ## Advanced Settings
 
    - **Enable Passwordless link login**
-<br>LoginRadius customers can set up a login flow that allows customers to login without a password by enabling this option. At the same time, Customers have to enable passwordless login from Admin console as well. For more details, review our [Passwordless Link Login](/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithemail0) documentation.
+<br>LoginRadius customers can set up a login flow that allows customers to login without a password by enabling this option. At the same time, Customers have to enable passwordless login from Admin console as well. For more details, review our [Passwordless Link Login](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithemail0) documentation.
 <br><br>Passwordless SMS templates can be added/Modified in **Admin Console** which will be displayed in the Magento admin authentication page.
 
 
   - **Enable Passwordless OTP Login**
- <br>LoginRadius customers can set up a Passwordless OTP flow that lets the customer enter his phone number and click on the Passwordless OTP login button. Enter the OTP which is received on the phone number to login. Customers have to enable Passwordless OTP to login from the Admin console as well. For more details, review our [Passwordless OTP Login](/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithotp1) documentation.
+ <br>LoginRadius customers can set up a Passwordless OTP flow that lets the customer enter his phone number and click on the Passwordless OTP login button. Enter the OTP which is received on the phone number to login. Customers have to enable Passwordless OTP to login from the Admin console as well. For more details, review our [Passwordless OTP Login](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithotp1) documentation.
 <br>Passwordless SMS templates can be added/Modified in **Admin Console** which will be displayed in the Magento admin authentication page.
 .
 
   - **Enable password strength**
 
-    Password strength is a measure of the effectiveness of a password in resisting guessing and brute-force attacks. The strength of a password is a function of length, complexity, and unpredictability. For more details review our [Javascript Hooks](/api/v2/user-registration/javascript-hooks#passwordstrengthfeature19) documentation.
+    Password strength is a measure of the effectiveness of a password in resisting guessing and brute-force attacks. The strength of a password is a function of length, complexity, and unpredictability. For more details review our [Javascript Hooks](https://www.loginradius.com/legacy/docs/api/v2/user-registration/javascript-hooks#passwordstrengthfeature19) documentation.
 
   - **Message timeout setting**
 
@@ -156,7 +156,7 @@ If **No** is selected: customer will be deleted from Magento only but still exis
 
  - **Common Options**
 
-   Admin can also enter the common options of LoginRadius JS in **Common options for loginradius interface** field, click [here](/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3) for details on common options.
+   Admin can also enter the common options of LoginRadius JS in **Common options for loginradius interface** field, click [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3) for details on common options.
   <br><br>For example :
 
 ```
@@ -196,7 +196,7 @@ After login customers can also update their profile from the profile editor sect
 
 ## Multi-Factor Authentication
 
-- In the case of traditional login, if [Multi-Factor Authentication](/api/v2/user-registration/two-factor-authentication-overview) is enabled on your app then MFA section will be displayed on the profile page. Click on "2-Step Verification" button to enable Multi-Factor Authentication. <br>By default, MFA is disabled on your LoginRadius site. To enable MFA for your site, in the Admin Console, go to [Platform Security > Multi-Layered Security > Multi-Factor Auth](https://adminconsole.loginradius.com/platform-security/multi-layered-security/multi-factor-authentication/settings). Select the **Enable** option under **Multi-Factor Authentication** and the relevant flow option under the **Select Flow** section.
+- In the case of traditional login, if [Multi-Factor Authentication](https://www.loginradius.com/legacy/docs/api/v2/user-registration/two-factor-authentication-overview) is enabled on your app then MFA section will be displayed on the profile page. Click on "2-Step Verification" button to enable Multi-Factor Authentication. <br>By default, MFA is disabled on your LoginRadius site. To enable MFA for your site, in the Admin Console, go to [Platform Security > Multi-Layered Security > Multi-Factor Auth](https://adminconsole.loginradius.com/platform-security/multi-layered-security/multi-factor-authentication/settings). Select the **Enable** option under **Multi-Factor Authentication** and the relevant flow option under the **Select Flow** section.
 
   <br><br>![enter image description here](https://apidocs.lrcontent.com/images/mfaa_26765ef47036240a41.17244127.png "enter image title here")
 

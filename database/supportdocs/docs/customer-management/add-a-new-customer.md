@@ -9,12 +9,12 @@ The following explains how you can add a new customer to your application:
 
 ![How to add](https://apidocs.lrcontent.com/images/ac-1_11099057066661b4783c2589.95011752.png  "How to add")
 
->**Note:** The registration fields displayed in the above screen are based on the registration form <a href = https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/data-schema target=_blank>schema configuration</a>. For more details on registration field configuration, refer to this [document](/authentication/quick-start/standard-login/).
+>**Note:** The registration fields displayed in the above screen are based on the registration form <a href = https://adminconsole.loginradius.com/platform-configuration/authentication-configuration/standard-login/data-schema target=_blank>schema configuration</a>. For more details on registration field configuration, refer to this [document](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/).
 
 **Step 2:** Enter the required details and click the Add Customer button, as highlighted in the following screen:
 
 ![Click on add](https://apidocs.lrcontent.com/images/ac-2_7060967536661b4aa4b3448.51577254.png "fill the details")
 
 
->**Note:** You can also add a new customer by using [Auth User Registration](/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/) by Email API, which creates a customer in the database and sends a verification email to the customer.
+>**Note:** You can also add a new customer by using [Auth User Registration](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/) by Email API, which creates a customer in the database and sends a verification email to the customer.
 

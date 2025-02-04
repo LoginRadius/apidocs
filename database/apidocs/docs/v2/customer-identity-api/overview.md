@@ -9,34 +9,34 @@ The LoginRadius User Registration system utilizes two identifiers in order to un
 
 **Profile ID (ID):** The ID is the unique identifier for each profile attached to a LoginRadius UID. There will be a unique ID for each profile (i.e. "Facebook", "Twitter", "Email", etc.) associated with a given UID.
 
-You can see an outline of the data structure [here](/api/v2/data-points-and-response-code/data-points).
+You can see an outline of the data structure [here](https://www.loginradius.com/legacy/docs/api/v2/data-points-and-response-code/data-points).
 
 ## Registration
 
 ![Access-Token API](https://apidocs.lrcontent.com/images/Sequence-Charts---Registration_1443258ac0e14495278.42896836.png "Registration")
 
-1. [Initialize the LoginRadius User Registration](/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3) system and [display the Registration Interface](/api/v2/user-registration/user-registration-getting-started#registration5) on the page.
-2. You can manage the [Email templates](/api/v2/admin-console/platform-configuration/standard-login/email-templates/) and the [SMTP details](/infrastructure-and-security/smtp-overview) from your LoginRadius [Admin Console](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration).
+1. [Initialize the LoginRadius User Registration](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3) system and [display the Registration Interface](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#registration5) on the page.
+2. You can manage the [Email templates](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/standard-login/email-templates/) and the [SMTP details](https://www.loginradius.com/legacy/docs/infrastructure-and-security/smtp-overview) from your LoginRadius [Admin Console](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration).
 3. The email will contain a URL with a one-time email-token which should point to a page with the Email Verification function initialized. When the user navigates to the page with the Email Verification function and the correct parameters then the user's Email will be verified and they can now login.
 
 ## Login and Social Login
 
 ![enter image description here](https://apidocs.lrcontent.com/images/Sequence-Charts---Login-_1366758ac0eb1d80741.72710112.png "Login")
 
-1. Initialize the [Social Login](/api/v2/user-registration/user-registration-getting-started#sociallogin8) or [Login](/api/v2/user-registration/user-registration-getting-started#login7) form to allow the user to authenticate.
+1. Initialize the [Social Login](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#sociallogin8) or [Login](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#login7) form to allow the user to authenticate.
 2. User Initiates the Login process
-3. After a successful authentication, you will receive an access token that you can use to get the [user's profile](/api/v2/social-login/user-profile) data.
+3. After a successful authentication, you will receive an access token that you can use to get the [user's profile](https://www.loginradius.com/legacy/docs/api/v2/social-login/user-profile) data.
 4. The User Profile Object is returned in JSON format and will contain the user's ID and UID which are used in the User Registration REST APIs.
-5. You can pass the ID or UID with the required parameters into the REST APIs detailed on the [LoginRadius API docs](/api/v2/data-points-and-response-code/data-points) in order to handle admin functionality or setup additional features.
+5. You can pass the ID or UID with the required parameters into the REST APIs detailed on the [LoginRadius API docs](https://www.loginradius.com/legacy/docs/api/v2/data-points-and-response-code/data-points) in order to handle admin functionality or setup additional features.
 6. All of the REST APIs return responses in JSON format.
 
 ## Forgot Password
 
 ![enter image description here](https://apidocs.lrcontent.com/images/Sequence-Charts---Forgot-Password_2244958ac0f7790edb9.87329839.png "Forgot-Password")
 
-1. To handle Forgot Password functionality initialize the [Forgot Password Interface](/api/v2/user-registration/user-registration-getting-started#forgotpassword12).
-2. You can [manage the Email templates and the SMTP details](/api/v2/admin-console/platform-configuration/standard-login/email-templates/#email-template-management) from your LoginRadius [Admin Console](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration).
-3. The email will contain a URL with a one-time password-token which should point to a page with the [Reset Password interface](/api/v2/deployment/js-libraries/getting-started/#resetpassword13) initialized. When the user navigates to the page with the Reset Password interface and the correct parameters in the URL then the user will be prompted to input a new password.
+1. To handle Forgot Password functionality initialize the [Forgot Password Interface](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#forgotpassword12).
+2. You can [manage the Email templates and the SMTP details](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/standard-login/email-templates/#email-template-management) from your LoginRadius [Admin Console](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration).
+3. The email will contain a URL with a one-time password-token which should point to a page with the [Reset Password interface](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/getting-started/#resetpassword13) initialized. When the user navigates to the page with the Reset Password interface and the correct parameters in the URL then the user will be prompted to input a new password.
 4. This will return a JSON response with either a success or error response. If successful the user will now be able to login with the new password.
 
 ##UserName Login
@@ -71,7 +71,7 @@ Given that the UserName is the unique identifier in the UserName Login Flow, you
 - Auto Login is supported by providing the UserName.
 - Magic link is supported by providing the UserName.
 
-**NOTE**: You need to contact [LoginRadius support](/getting-started/general-questions/support-faq#how-do-i-contact-loginradius-support-) to enable this feature on your LoginRadius site.
+**NOTE**: You need to contact [LoginRadius support](https://www.loginradius.com/legacy/docs/getting-started/general-questions/support-faq#how-do-i-contact-loginradius-support-) to enable this feature on your LoginRadius site.
 
 ##Demo
 You can get a simplified demo of the system from our Git repo here: [https://github.com/LoginRadius/demo](https://github.com/LoginRadius/demo)

@@ -18,7 +18,7 @@ This document will take you through configuring all available LoginRadius featur
 
 ## Phone Authentication
 
-It may be useful to tie the accounts to a phone number, such as when your main product is a mobile app and you want your users to go through a registration process. In this case, allowing them to register by providing a phone number and password for registration as opposed to an email and password might be a better experience. You can find the settings on the Admin Console, follow the Phone Login Configuration document [here](/authentication/tutorial/phone-login/).
+It may be useful to tie the accounts to a phone number, such as when your main product is a mobile app and you want your users to go through a registration process. In this case, allowing them to register by providing a phone number and password for registration as opposed to an email and password might be a better experience. You can find the settings on the Admin Console, follow the Phone Login Configuration document [here](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/).
 
 Phone Authentication is disabled by default in the LoginRadius Admin Console. To enable this feature please contact <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
 
@@ -40,11 +40,11 @@ If the feature is not enabled then navigate to [**Platform Configuration > Authe
 
 ##### Identity Experience Framework Page Customization Steps
 
-This is a default flow and no customization is required, refer to the [Javascript Hooks](/api/v2/user-registration/javascript-hooks) document for details on how to make stylistic or functional changes such as renaming labels as per your requirements.
+This is a default flow and no customization is required, refer to the [Javascript Hooks](https://www.loginradius.com/legacy/docs/api/v2/user-registration/javascript-hooks) document for details on how to make stylistic or functional changes such as renaming labels as per your requirements.
 
 ## Account Linking
 
-LoginRadius provides an Account Linking feature that will link customer's profiles from different providers. You can learn more about account linking with the help of this [document](/libraries/identity-experience-framework/features-use-cases/#accountlinking2).
+LoginRadius provides an Account Linking feature that will link customer's profiles from different providers. You can learn more about account linking with the help of this [document](https://www.loginradius.com/legacy/docs/libraries/identity-experience-framework/features-use-cases/#accountlinking2).
 
 This feature is already enabled by default on your Identity Experience Framework page so no further action needs to be taken to utilize this feature. You can link any configured social account by the following steps:
 
@@ -59,13 +59,13 @@ This will link your social accounts with the logged in account and upon login wi
 
 ## Multi-Factor Authentication
 
-Providing your customers with two factors of authentication is one of the most powerful security tools you can provide your customers with, for usage details please see our [Multi-Factor Authentication Overview](/api/v2/customer-identity-api/multi-factor-authentication/overview).
+Providing your customers with two factors of authentication is one of the most powerful security tools you can provide your customers with, for usage details please see our [Multi-Factor Authentication Overview](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/overview).
 
 To check if this feature is enabled or not for your app go to **Platform Security > Multi-Layered Security > Multi-Factor Authentication**. his feature is disabled by default in the LoginRadius Admin Console. An explicit request has to be made by contacting <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a> to enable it.
 
 ##### WHERE YOU CAN CONFIGURE MFA
 
-Follow the [Multi Factor Authentication Configuration](/api/v2/customer-identity-api/multi-factor-authentication/overview#smsdashboardconfiguration1) document to configure **Multi-Factor Authentication settings** from the Admin Console.
+Follow the [Multi Factor Authentication Configuration](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/overview#smsdashboardconfiguration1) document to configure **Multi-Factor Authentication settings** from the Admin Console.
 
 ##### Identity Experience Framework Page Customization Steps
 
@@ -294,11 +294,11 @@ div#backupcode-table-body {
 
 ## Passwordless Authentication
 
-Passwordless Authentication is a great way to remove all of the difficulties that come with password management, for more details please see our [Passwordless Login Overview](/api/v2/customer-identity-api/passwordless-login/passwordless-login-overview).
+Passwordless Authentication is a great way to remove all of the difficulties that come with password management, for more details please see our [Passwordless Login Overview](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-overview).
 
 To check if this feature is enabled or not for your app go to **Platform Configuration -> Authentication Configuration -> PasswordLess Login** section. If this section is disabled for your site contact <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
 
-Follow the [Passwordless Login Configuration](/api/v2/admin-console/platform-configuration/passwordless-login-configuration) document to configure passwordless Login settings from the Admin Console.
+Follow the [Passwordless Login Configuration](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/passwordless-login-configuration) document to configure passwordless Login settings from the Admin Console.
 
 ##### IDX Page Customization
 
@@ -308,7 +308,7 @@ This is a default flow and no customization is required after enabling the Passw
 
 ## One Touch Login
 
-One Touch Login is another method of authentication that does not require a password to login, what makes it unique is that it has a ping API that can be leveraged to see if a customer has logged in, this is useful if you're delegating the authentication to another safer device which is common practice with IoT Devices. You can learn more about One Touch Login in our [documentation](/platform-features-overview/registration-services/overview#one-touch-login).
+One Touch Login is another method of authentication that does not require a password to login, what makes it unique is that it has a ping API that can be leveraged to see if a customer has logged in, this is useful if you're delegating the authentication to another safer device which is common practice with IoT Devices. You can learn more about One Touch Login in our [documentation](https://www.loginradius.com/legacy/docs/platform-features-overview/registration-services/overview#one-touch-login).
 
 To check if this feature is enabled or not for your app, navigate to **Platform configuration > Authentication Configuration > Advance Login Methods > One Touch Login Settings**. If this section is disabled for your site, contact <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
 
@@ -426,7 +426,7 @@ updatephoneonprofile();
 
 ## Privacy Policy
 
-LoginRadius provides you with the tools to assist you with your Privacy Policy Management, this is particularly useful if your business has regulatory/legal requirements for collecting consent from your end-customers, you can find additional details in our [Privacy Policy Versioning](/api/v2/admin-console/data-governance/privacy-policy#overview0) document.
+LoginRadius provides you with the tools to assist you with your Privacy Policy Management, this is particularly useful if your business has regulatory/legal requirements for collecting consent from your end-customers, you can find additional details in our [Privacy Policy Versioning](https://www.loginradius.com/legacy/docs/api/v2/admin-console/data-governance/privacy-policy#overview0) document.
 
 ##### Identity Experience Framework Page Customization Steps
 
@@ -469,11 +469,11 @@ If you're looking to get set up with Custom Data Object storage, please reach ou
 
 The following are APIs related to Custom object:
 
-- [Create Custom Object by Token API](/api/v2/user-registration/create-custom-object-by-token)
+- [Create Custom Object by Token API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/create-custom-object-by-token)
 
-- Fetch a custom object from the [Custom Object by ObjectRecordId and Token API](/api/v2/user-registration/custom-object-by-objectrecordid-and-token)
+- Fetch a custom object from the [Custom Object by ObjectRecordId and Token API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/custom-object-by-objectrecordid-and-token)
 
-For customization refer this [IDX Customizations document](/api/v2/deployment/identity-experience-framework/hosted/customization#hosted-page-customizations)
+For customization refer this [IDX Customizations document](https://www.loginradius.com/legacy/docs/api/v2/deployment/identity-experience-framework/hosted/customization#hosted-page-customizations)
 
 ## Social Login
 

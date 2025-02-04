@@ -22,7 +22,7 @@ This section shows the complete list of team members that have access to your Lo
 
 ## Audit Logs
 
-[Audit Logs](/api/v2/admin-console/team-management/audit-logs) contains records of all recent account activities. You can view the records of your LoginRadius site or any other sites you are a member of.
+[Audit Logs](https://www.loginradius.com/legacy/docs/api/v2/admin-console/team-management/audit-logs) contains records of all recent account activities. You can view the records of your LoginRadius site or any other sites you are a member of.
 The details include
 - “TIMESTAMP” which displays the time at which the activity happened,
 - “ACTIVITY TYPE” which displays the short description of the activity.
@@ -30,11 +30,11 @@ The details include
 
 ## Add Team Member
 
-From this section, you can add a new team member to your LoginRadius Site by providing the member's details and assigning the desired permissions.  To know more about the permissions based on roles, please refer to the [Role Access Permissions](/api/v2/admin-console/team-management/manage-team-members#roleaccesspermissions0) section of our [Manage Team Members](/api/v2/admin-console/team-management/manage-team-members#roleaccesspermissions0) doc.
+From this section, you can add a new team member to your LoginRadius Site by providing the member's details and assigning the desired permissions.  To know more about the permissions based on roles, please refer to the [Role Access Permissions](https://www.loginradius.com/legacy/docs/api/v2/admin-console/team-management/manage-team-members#roleaccesspermissions0) section of our [Manage Team Members](https://www.loginradius.com/legacy/docs/api/v2/admin-console/team-management/manage-team-members#roleaccesspermissions0) doc.
 
 ## Single Sign-On
 
-The service allows you to setup [Single-Sign-On](/api/v2/single-sign-on/web-and-mobile-sso/loginradius-web-sso) on different platforms and it allows users to sign-in with the same credentials of your site. We support following platforms to integrate LoginRadius with which are as follows:
+The service allows you to setup [Single-Sign-On](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/web-and-mobile-sso/loginradius-web-sso) on different platforms and it allows users to sign-in with the same credentials of your site. We support following platforms to integrate LoginRadius with which are as follows:
 
 - Traditional Login
 - Azure AD
@@ -46,4 +46,4 @@ You can set up the Single-Sign-On as per your needs.
 
 ## Ownership Settings
 
-From here you can transfer the ownership of your LoginRadius site to any other team member by selecting him/her from the list of team members. For more information on transferring the **Ownership settings**, please refer to our [Transfer Site Ownership](/api/v2/admin-console/team-management/transfer-site-ownership) doc. 
+From here you can transfer the ownership of your LoginRadius site to any other team member by selecting him/her from the list of team members. For more information on transferring the **Ownership settings**, please refer to our [Transfer Site Ownership](https://www.loginradius.com/legacy/docs/api/v2/admin-console/team-management/transfer-site-ownership) doc. 

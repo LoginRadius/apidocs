@@ -55,4 +55,4 @@ Now, let's delve deeper into the configuration steps.
 
     ![Advanced Configurations](https://apidocs.lrcontent.com/images/Custom-IDP---Pre-Built-Connections---Step-10_192023964165887d5bdaeb74.47364644.png "Advanced Configurations")
 
-For comprehensive details and step-by-step configuration instructions for setting up the SAML provider, refer to the [Custom SAML Provider](/single-sign-on/tutorial/custom-identity-providers/custom-saml-provider/) document.
+For comprehensive details and step-by-step configuration instructions for setting up the SAML provider, refer to the [Custom SAML Provider](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/custom-identity-providers/custom-saml-provider/) document.

@@ -10,7 +10,7 @@ SOTT is used to provide an extra layer of security for the bot protection in **A
 
 2. **Using SOTT:** SOTT is also used on the Web. Similar to a Mobile device  every time, when a new registration is done on the web a new SOTT will be generated, and that SOTT will be passed in the **Auth Registration API**.
 
-> **Note:** The default expiration time of automatically generated SOTT is 10 mins. However, by using the other methods to generate the SOTT, like Management SOTT APIs, Admin Console, or by using the SOTT generation logic provided in this [**document**](/api/v2/customer-identity-api/sott-usage/#sott-secured-one-time-token-), you  can customize the expiration time of SOTT.
+> **Note:** The default expiration time of automatically generated SOTT is 10 mins. However, by using the other methods to generate the SOTT, like Management SOTT APIs, Admin Console, or by using the SOTT generation logic provided in this [**document**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/sott-usage/#sott-secured-one-time-token-), you  can customize the expiration time of SOTT.
 
 ## Steps to generate SOTT
 
@@ -35,7 +35,7 @@ const DateFormat = "YYYY/MM/DD H:i:s";<br>
 
 ### Generate SOTT for PHP
 
-**Implement the PHP SDK using this [document](/libraries/sdk-libraries/php-library/)**
+**Implement the PHP SDK using this [document](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/php-library/)**
 
 Now add the following code:
 
@@ -58,7 +58,7 @@ $sott = $sottObj->encrypt($timeDifference,$getLRserverTime,$apiKey,$apiSecret);
 
 ### Generate SOTT for DotNet
 
-**Implement the DotNet SDK using this [document](/libraries/sdk-libraries/asp-net-library/)**
+**Implement the DotNet SDK using this [document](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/asp-net-library/)**
 
 Now add the following code:
 
@@ -89,7 +89,7 @@ var generatedSott=_sott.GetSott(sott,apiKey,apiSecret);
 
 ### Generate SOTT for JAVA
 
-**Implement the JAVA SDK using this [document](/libraries/sdk-libraries/java-library/)**
+**Implement the JAVA SDK using this [document](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/java-library/)**
 
 Now add the following code:
 
@@ -133,7 +133,7 @@ try {
 
 ### Generate SOTT for Python
 
-**Implement the Python SDK using this [document](/libraries/sdk-libraries/python-library/)**
+**Implement the Python SDK using this [document](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/python-library/)**
 
 Now add the following code:
 
@@ -158,7 +158,7 @@ print(sott_data)
 
 ### Generate SOTT for Ruby
 
-**Implement the Ruby SDK using this [document](/libraries/sdk-libraries/ruby-library/)**
+**Implement the Ruby SDK using this [document](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/ruby-library/)**
 
 Now add the following code:
 
@@ -178,7 +178,7 @@ print sott
 
 ### Generate SOTT for Node.js
 
-**Implement the Node.js SDK using this [document](/libraries/sdk-libraries/node-js-library/)**
+**Implement the Node.js SDK using this [document](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/node-js-library/)**
 
 Now follow these **steps**:
 
@@ -221,7 +221,7 @@ This will print the SOTT value on the console.<br>
 
 - startDate and endDate are optional parameters. The default valid token time will be 10 minutes if you don't pass startDate and endDate.
 - startDate and endDate should be in yyyy-mm-dd H:i:s format.
-- You can use our [Get Server Time API](/api/v2/user-registration/infrastructure-get-server-time) to get startDate and endDate with any valid timeDifference in minutes.
+- You can use our [Get Server Time API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/infrastructure-get-server-time) to get startDate and endDate with any valid timeDifference in minutes.
 
 **Example:**
 <br>
@@ -266,7 +266,7 @@ After you follow step 5, you can copy the SOTT to your clipboard and use it as i
 ### Generate SOTT using account API
 
 You can use our account API to generate SOTT and can use it directly to register a user.
-Try this API [here](/api/v2/user-registration/generate-sott).
+Try this API [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/generate-sott).
 
 Response:
 

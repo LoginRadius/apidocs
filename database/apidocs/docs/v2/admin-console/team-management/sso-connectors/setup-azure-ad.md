@@ -180,7 +180,7 @@ To configure Azure AD single sign-on with LoginRadius, perform the following ste
     ```
 
   
-   d. Kindly follow [Generate LoginRadius' Certificate and Key document](/single-sign-on/concept/saml-miscellaneous/certificate/) to get the details for the values under **SERVICE PROVIDER CERTIFICATE** and **SERVICE PROVIDER CERTIFICATE KEY**.     
+   d. Kindly follow [Generate LoginRadius' Certificate and Key document](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-miscellaneous/certificate/) to get the details for the values under **SERVICE PROVIDER CERTIFICATE** and **SERVICE PROVIDER CERTIFICATE KEY**.     
   
    > **NOTE:** Please make sure to enter the certificate value with header and footer  
       E.g.  
@@ -300,7 +300,7 @@ In this section, you will enable Britta Simon to use Azure single sign-on by gra
 >**NOTE:** Make sure to use the same email id here that you used in Azure AD.
 
   
-To know more about the permissions based on roles, please refer to the [Role Access Permissions](/api/v2/admin-console/team-management/manage-team-members#roleaccesspermissions0) section of our [Manage Team Members](/api/v2/admin-console/team-management/manage-team-members#roleaccesspermissions0) documents. Users must be created and activated before you use single sign-on.
+To know more about the permissions based on roles, please refer to the [Role Access Permissions](https://www.loginradius.com/legacy/docs/api/v2/admin-console/team-management/manage-team-members#roleaccesspermissions0) section of our [Manage Team Members](https://www.loginradius.com/legacy/docs/api/v2/admin-console/team-management/manage-team-members#roleaccesspermissions0) documents. Users must be created and activated before you use single sign-on.
 
 ### Test single sign-on
 

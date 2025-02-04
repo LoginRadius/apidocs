@@ -14,16 +14,16 @@ There are four available selections in the the Admin Console under Platform Secu
 
 The CAPTCHA Setting area allows you to enable Google reCAPTCHA/QQ TENCENT CAPTCHA/hCaptcha as part of your log in & registration flows for additional security.
 
-Review our [Auth Security](/api/v2/admin-console/platform-security/auth-security-configuration#captchasetting0) documentation for more details.
+Review our [Auth Security](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/auth-security-configuration#captchasetting0) documentation for more details.
 
 ## Access Restrictions
 
 The Access Restrictions area can be used to block registration from spam or disposable emails and allows you to control access or registration to your LoginRadius site based on your end-users' email addresses.
 
-Review our [Auth Security](/api/v2/admin-console/platform-security/auth-security-configuration#accessrestrictions1) documentation for more details.
+Review our [Auth Security](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/auth-security-configuration#accessrestrictions1) documentation for more details.
 
 ## Brute Force Lockout
 
 In this section, you are able to further customize your registration form by enabling/disabling and configuring the Brute Force Lockout feature. This allows you to restrict account access based on failed log in attempts.
 
-Review our [Auth Security](/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout2) documentation for more details.
+Review our [Auth Security](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout2) documentation for more details.

@@ -2,7 +2,7 @@
 
 There are multiple ways in which LoginRadius can improve the security of your end-users to utilize this feature.
 
->**Note:**- Please follow this [documentation](/api/v2/customer-identity-api/security-question-api-usage/) if you are looking for detailed API usage for Security Questions.
+>**Note:**- Please follow this [documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/security-question-api-usage/) if you are looking for detailed API usage for Security Questions.
 
  When you login to your LoginRadius Admin Console, navigate to the top header and select **Platform Security** . Under **Multi-Layered Security** select **Security Question**; on the left-hand panel you will be provided with **Settings** to manage your security question(s).
 
@@ -26,4 +26,4 @@ The **Security Question attempt LIMIT on reset password** allows you to set a li
 
 ## Relevant JavaScript customizations
 
-Please follow this [documentation](/api/v2/deployment/js-libraries/advanced-js-customizations#securityquestion17) for instructions on how to implement the update security question answer feature, as well as the reset password by security question feature.
+Please follow this [documentation](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/advanced-js-customizations#securityquestion17) for instructions on how to implement the update security question answer feature, as well as the reset password by security question feature.

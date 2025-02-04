@@ -2,7 +2,7 @@
 
 ## Overview
 
-Risk-Based authentication is also sometimes referred to as adaptive authentication because actions taken in this type of authentication are completely based on the certain events which get triggered based on the consumer's action. This feature uses a set of information to determine if the consumer’s behavior is different relative to their past activity and triggers the additional actions at the LoginRadius end. To know more about RBA, kindly visit our detailed document [here](/api/v2/admin-console/platform-security/risk-based-auth/#risk-based-auth).
+Risk-Based authentication is also sometimes referred to as adaptive authentication because actions taken in this type of authentication are completely based on the certain events which get triggered based on the consumer's action. This feature uses a set of information to determine if the consumer’s behavior is different relative to their past activity and triggers the additional actions at the LoginRadius end. To know more about RBA, kindly visit our detailed document [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/risk-based-auth/#risk-based-auth).
 
 This document will take you through the process and knowledge of MFA with Risk-Based Authentication. It covers everything you need to configure this on your LoginRadius account and deploy it onto your web application for implementing the Risk-Based Authentication as an additional layer of security on top of Second Factor Authentication to allow secure user authentication. 
 
@@ -36,7 +36,7 @@ This flow diagram shows the working of Risk Based Authentication workflow with M
 
 # RBA Configuration with MFA via Admin Console
 
-Refer to the following document [here](/api/v2/admin-console/platform-security/multi-factor-auth/) for how to configure MFA settings in the Admin Console. 
+Refer to the following document [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/multi-factor-auth/) for how to configure MFA settings in the Admin Console. 
 
 Below are the step by step instructions to add RBA on the top of MFA feature in the Admin console:
 

@@ -101,8 +101,8 @@ You can also optionally map other WeChat fields to other 	LoginRadius fields as 
 
 ####Setting up the Custom WeChat Social Login Icon
 
-**Note:** For this next step we highly recommend you familiarize yourself with customizing your social provider icons [here](/api/v2/user-registration/user-registration-getting-started#socialinterfacecustomization10). Once you're ready to have the WeChat Social Login icon displayed on your website you will need to inject it via code.
+**Note:** For this next step we highly recommend you familiarize yourself with customizing your social provider icons [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#socialinterfacecustomization10). Once you're ready to have the WeChat Social Login icon displayed on your website you will need to inject it via code.
 
-See our general all-purpose document on setting up a Custom OAuth Provider Icon for this step [here](/api/v2/custom-identity-provider/custom-oauth-provider#settingupthecustomicon1). Once this is complete you should now have WeChat available as a social icon:
+See our general all-purpose document on setting up a Custom OAuth Provider Icon for this step [here](https://www.loginradius.com/legacy/docs/api/v2/custom-identity-provider/custom-oauth-provider#settingupthecustomicon1). Once this is complete you should now have WeChat available as a social icon:
 
 ![WeChat Social Login](https://apidocs.lrcontent.com/images/Social-Login_33285a062123839806.18218724.png "WeChat Social Login")

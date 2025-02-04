@@ -94,7 +94,7 @@ function getParameterByName(name) {
             }
 getParameterByName(token);
 ```
-> **Note:** We have additional language-specific examples [here](/libraries/identity-experience-framework/usage/#tokenhandling8) if you want to capture this token in other programming languages.
+> **Note:** We have additional language-specific examples [here](https://www.loginradius.com/legacy/docs/libraries/identity-experience-framework/usage/#tokenhandling8) if you want to capture this token in other programming languages.
 
 **Step 3:** You can leverage the following CommonOptions for Cross-Device SSO in the JS code:
 
@@ -142,12 +142,12 @@ LRObject.util.ready(function() {
 
 > **Note:** The QR code will be displayed for 60 seconds by default. You can define the time as well accordingly.
 
-**Step 5:** Now, in order to scan the QR code, you need to create a mobile application that can scan the QR code and send the QR code (along with the existing access token on the mobile app) to the LoginRadius server using the [Add QR Token API](/api/v2/single-sign-on/cross-device-sso/add-qr-token/). Once the token reaches the server, you will be automatically logged in to your web application.
+**Step 5:** Now, in order to scan the QR code, you need to create a mobile application that can scan the QR code and send the QR code (along with the existing access token on the mobile app) to the LoginRadius server using the [Add QR Token API](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/cross-device-sso/add-qr-token/). Once the token reaches the server, you will be automatically logged in to your web application.
 
 ## Part 2 - Next Steps
 
 The following is the list of features you might want to add to the above implementation:
 
-- [Generate QR Code String API](/api/v2/single-sign-on/cross-device-sso/generate-qr-code-string/)
-- [Add QR Token API](/api/v2/single-sign-on/cross-device-sso/add-qr-token/)
-- [Get Access Token By QR Code API](/api/v2/single-sign-on/cross-device-sso/get-access-token-by-qr-code/)
+- [Generate QR Code String API](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/cross-device-sso/generate-qr-code-string/)
+- [Add QR Token API](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/cross-device-sso/add-qr-token/)
+- [Get Access Token By QR Code API](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/cross-device-sso/get-access-token-by-qr-code/)

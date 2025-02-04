@@ -2,13 +2,13 @@
 
 The purpose of this policy is to outline the acceptable use of the LoginRadius Identity Platform. These rules are in place to protect the customer and the LoginRadius Identity Platform, inappropriate use exposes risks on customer account including performance, security, and availability of the platform.
 
-If you go over the rate limits for a set of API calls you will receive the error message **Too many requests** with the **429 HTTP status** on any subsequent API calls to this endpoint. For more information about HTTP codes refer to [customer identity API codes](/api/v2/getting-started/response-codes/customer-identity-api-codes/#httpresponsedescriptions1) documents.
+If you go over the rate limits for a set of API calls you will receive the error message **Too many requests** with the **429 HTTP status** on any subsequent API calls to this endpoint. For more information about HTTP codes refer to [customer identity API codes](https://www.loginradius.com/legacy/docs/api/v2/getting-started/response-codes/customer-identity-api-codes/#httpresponsedescriptions1) documents.
 
 If your app triggers the API rate limits you should not make any further requests to the endpoint until the rate limit threshold resets.
 
 ## Customer Identity API Rate Limits :
 
-The following are the default API Rate limits are applied to the [Customer Identity APIs](/api/v2/customer-identity-api/overview/) for the customer with Enterprise CIAM platform only.
+The following are the default API Rate limits are applied to the [Customer Identity APIs](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/overview/) for the customer with Enterprise CIAM platform only.
 
 ### Production Environment:
 

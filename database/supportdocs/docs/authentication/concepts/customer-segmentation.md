@@ -40,7 +40,7 @@ Similarly, you can add multiple conditions by clicking the + icon.
 To get the data of resultant customers, click the **Export **button from the above screen. The following pop-up will appear with the filter query as already applied in the basic segment section:
  ![Basic Segmentation](https://apidocs.lrcontent.com/images/cs4_323405e83be14c57287.05187228.png "Basic Segmentation")
  
-Configure the data export as explained in [this document](/authentication/concepts/customer-data-export/) and get the resultant customer data in CSV or JSON format.
+Configure the data export as explained in [this document](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-data-export/) and get the resultant customer data in CSV or JSON format.
  
 **Save Segmentation:** To save the created segment for future, click the **Save Segment** button as highlighted in the below screen:
 ![Basic Segmentation](https://apidocs.lrcontent.com/images/cs5_203935e83be9f963c13.42803577.png "Basic Segmentation")
@@ -51,7 +51,7 @@ The following pop-up will appear:
 ![Basic Segmentation](https://apidocs.lrcontent.com/images/cs6_178515e83becb3b4792.73483270.png "Basic Segmentation")
 
 
-Enter the Segment Name in the textbox and click the **Save **button. You can view the saved segment, as explained in the [Saved Segment](/authentication/concepts/customer-segmentation/#savedsegmentation2) section.
+Enter the Segment Name in the textbox and click the **Save **button. You can view the saved segment, as explained in the [Saved Segment](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-segmentation/#savedsegmentation2) section.
 
 
 ## Part 2 - Advanced Segmentation
@@ -91,7 +91,7 @@ To get the data of resultant customers, click the **Export** button from the abo
 
 ![Advanced Segmentatione](https://apidocs.lrcontent.com/images/cs10_238655e83c0833d74e2.82111239.png "Advanced Segmentation")
 
-Configure the data export as explained in [this document](/authentication/concepts/customer-data-export/) and get the resultant customer data in CSV or JSON format.
+Configure the data export as explained in [this document](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-data-export/) and get the resultant customer data in CSV or JSON format.
  
 **Save Segmentation:**  To save the created segment for future, click the **Save** Segment button as highlighted in the below screen:
 ![Save Segmentation](https://apidocs.lrcontent.com/images/cs11_212695e83c1d0a52ee8.96979382.png "Save Segmentation")
@@ -100,7 +100,7 @@ The following pop-up will appear:
 
 ![Save Segmentation](https://apidocs.lrcontent.com/images/cs12_71775e83c23492daa3.37595614.png "Save Segmentation")
 
-Enter the Segment Name in the textbox and click the **Save** button. You can view the saved segment, as explained in the [Saved Segment](/authentication/concepts/customer-segmentation/#savedsegmentation2) section.
+Enter the Segment Name in the textbox and click the **Save** button. You can view the saved segment, as explained in the [Saved Segment](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-segmentation/#savedsegmentation2) section.
 
 ## Part 3 - Saved Segmentation
 

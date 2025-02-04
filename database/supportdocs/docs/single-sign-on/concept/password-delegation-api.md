@@ -5,7 +5,7 @@ The Password Delegation feature allows you to authenticate a user for which pass
 ## Password Delegation Guide
 This guide will take you through the process to set up and implement the **Password Delegation** feature for a third party application that doesn't want you to migrate passwords away from their platform. 
 
-**For example**, if you are using a **BigCommerce** application, which doesn't allow you to migrate passwords or password hashes from BigCommerce to LoginRadius, you can leverage the Password Delegation API to validate the login credentials. Once you receive a success message in the response, you can ask the customer to create a password in LoginRadius/ your application. Once the password is updated in LoginRadius, you can use the [Auth Login By Email](/api/v2/customer-identity-api/authentication/auth-login-by-email/) to authenticate the user using LoginRadius API.
+**For example**, if you are using a **BigCommerce** application, which doesn't allow you to migrate passwords or password hashes from BigCommerce to LoginRadius, you can leverage the Password Delegation API to validate the login credentials. Once you receive a success message in the response, you can ask the customer to create a password in LoginRadius/ your application. Once the password is updated in LoginRadius, you can use the [Auth Login By Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-email/) to authenticate the user using LoginRadius API.
 
 ## Part 1 - Configuration
 
@@ -56,7 +56,7 @@ This section explains how you can configure the LoginRadius Password Delegation 
 
 > Note:  Important for Data Migration   
 >    To enable BigCommerce for Password Delegation, after exporting customer data from big commerce during migration [customerid](https://support.bigcommerce.com/s/question/0D51300003cGxRz/customer-id) and [storeid](https://support.bigcommerce.com/s/question/0D54O00006QpiLnSAJ/where-i-get-store-hash-code) will be migrated with LoginRadius User Profile.
->    You can also update the ExternalIds through the [Account Update API](/api/v2/customer-identity-api/account/account-update/) 
+>    You can also update the ExternalIds through the [Account Update API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update/) 
     ``ExternalIds": [
     { 
     "Source": "BigCommerce-{storeId}",
@@ -80,6 +80,6 @@ The following table displays the Password Delegation API’s endpoint and relate
 ## Part 4 - Next Steps 
 
 The following is the list of documents you might want to look into:
-- [Delegation Auth API](/single-sign-on/concept/delegation-login-api/)
-- [Service Provider Initiated Login workflow](/single-sign-on/overview/) 
-- [Identity Provider Initiated SSO](/single-sign-on/tutorial/federated-sso/saml/idp-initiated/)
+- [Delegation Auth API](https://www.loginradius.com/legacy/docs/single-sign-on/concept/delegation-login-api/)
+- [Service Provider Initiated Login workflow](https://www.loginradius.com/legacy/docs/single-sign-on/overview/) 
+- [Identity Provider Initiated SSO](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/saml/idp-initiated/)

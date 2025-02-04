@@ -73,7 +73,7 @@ Read more about this condition [here](https://support.google.com/analytics/answe
 </script>
 ```
 
-- The specifics on how to use this is in the [Getting Started](/api/v2/integrations/getting-started)
+- The specifics on how to use this is in the [Getting Started](https://www.loginradius.com/legacy/docs/api/v2/integrations/getting-started)
 
 - Once you call this method, we handle the linking between a persons' UID -> Google's Client ID
 

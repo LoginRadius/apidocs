@@ -82,7 +82,7 @@ LRObject.identify("mixpanel",response.Profile,mapping)
 </script>
 ```
 
-The 'mapping' passed in the identified method, can be read in more detail in the [Getting Started](/api/v2/integrations/getting-started)
+The 'mapping' passed in the identified method, can be read in more detail in the [Getting Started](https://www.loginradius.com/legacy/docs/api/v2/integrations/getting-started)
 
 ### Custom Mapping
 

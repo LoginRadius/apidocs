@@ -827,7 +827,7 @@ $result = $authenticationAPI->getPrivacyPolicyHistoryByAccessToken($access_token
  ```
 <h6 id="authSendVerificationEmailForLinkingSocialProfiles-get-">Auth send verification Email for linking social profiles (GET)</h6> 
 
-This API is used to Send verification email to the unverified email of the social profile. This API can be used only incase of optional verification workflow. [More info](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation)
+This API is used to Send verification email to the unverified email of the social profile. This API can be used only incase of optional verification workflow. [More info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation)
  
 ```php
 $access_token = "access_token"; //Required 
@@ -1093,7 +1093,7 @@ $result = $accountAPI->getEmailVerificationToken($email);
 
 <h6 id="multipurposeEmailTokenGeneration($payload,$tokentype)-post-">Multipurpose Email Token Generation API (POST)</h6> 
 
-This API generate Email tokens and Email OTPs for Email verification, Add email, Forgot password, Delete user, Passwordless login, Forgot pin, One-touch login and Auto login. [More info](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation/)
+This API generate Email tokens and Email OTPs for Email verification, Add email, Forgot password, Delete user, Passwordless login, Forgot pin, One-touch login and Auto login. [More info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-email-token-generation/)
 
 ```php
 $payload = '{
@@ -1111,7 +1111,7 @@ $result = $accountAPI->multipurposeEmailTokenGeneration($payload,$tokentype);
 
 <h6 id="multipurposeSMSOTPGeneration-post-">Multipurpose SMS OTP Generation API (POST)</h6> 
 
-This API generates SMS OTP for Add phone, Phone Id verification, Forgot password, Forgot pin, One-touch login, smart login and Passwordless login. [More info](/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation/)
+This API generates SMS OTP for Add phone, Phone Id verification, Forgot password, Forgot pin, One-touch login, smart login and Passwordless login. [More info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/multipurpose-token-and-sms-otp-generation-api/multipurpose-sms-otp-generation/)
 
 ```php
 
@@ -1288,7 +1288,7 @@ $result = $accountAPI->removeEmail($email,$uid,$fields);
  ```
 <h6 id="revokeAllRefreshToken-delete-">Revoke All Refresh Token (DELETE)</h6> 
 
-The Revoke All Refresh Access Token API is used to revoke all refresh tokens for a specific user. [More info](/api/v2/customer-identity-api/refresh-token/revoke-all-refresh-token/)
+The Revoke All Refresh Access Token API is used to revoke all refresh tokens for a specific user. [More info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/refresh-token/revoke-all-refresh-token/)
 
 ```php
 $uid = "uid"; //Required
@@ -3710,7 +3710,7 @@ $nativeSocialAPI = new NativeSocialAPI();
 
 <h6 id="accessTokenViaCustomJWTToken-get-">Get Access Token via Custom JWT Token (GET)</h6> 
 
-This API is used to retrieve a LoginRadius access token by passing in a valid custom JWT token. [More info](/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-by-custom-jwt-token/)
+This API is used to retrieve a LoginRadius access token by passing in a valid custom JWT token. [More info](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-by-custom-jwt-token/)
 
 ```php
 $id_Token = "id_Token"; //Required 

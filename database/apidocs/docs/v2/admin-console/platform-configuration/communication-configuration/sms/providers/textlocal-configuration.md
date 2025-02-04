@@ -24,7 +24,7 @@ Textlocal supports 3 different methods of authentication. Please choose one of t
 
 	![](https://apidocs.lrcontent.com/images/APIKeys_Step2_39515b7c5ad786d5e4-42944935_91015e4498c58e1650.97968545.png)
 
-3. You will need to whitelist all of the IP addresses used by LoginRadius. You can find the complete list of IPs [here:](/infrastructure-and-security/ip-addresses-list)
+3. You will need to whitelist all of the IP addresses used by LoginRadius. You can find the complete list of IPs [here:](https://www.loginradius.com/legacy/docs/infrastructure-and-security/ip-addresses-list)
 
 	![](https://apidocs.lrcontent.com/images/APIkeysStep3_88155b7c5b24260123-99953550_87635e4498ea0d6384.09364419.png)
 

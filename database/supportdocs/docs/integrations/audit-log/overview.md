@@ -4,7 +4,7 @@ LoginRadius is introducing a new feature where you can configure the consumer Au
 
 These integrations make it simple to monitor performance and traffic while also providing analysis of structured data from any source throughout any timescale. With these capabilities, you can keep a comprehensive track of your LoginRadius platform and ensure its top-notch condition.
 
-> **Note:** Before proceeding to set up audit log integration, first, you have to make sure the Consumer Audit log feature is enabled or not. For more details, kindly refer to this [**document**](/security/data-management/consumer-audit-log/#overview0).
+> **Note:** Before proceeding to set up audit log integration, first, you have to make sure the Consumer Audit log feature is enabled or not. For more details, kindly refer to this [**document**](https://www.loginradius.com/legacy/docs/security/data-management/consumer-audit-log/#overview0).
 
 - To enable this feature, please contact [**LoginRadius Support**](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 

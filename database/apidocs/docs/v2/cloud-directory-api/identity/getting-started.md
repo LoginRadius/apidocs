@@ -4,7 +4,7 @@ Cloud Directory Getting Started
 
 If you are looking to analyze or get details on how a registered users' data is stored in your LoginRadius Cloud Directory, you will need to call the User Identity or Aggregation API.
 
-**NOTE:** This API does not support querying Custom Objects, please refer to our [Custom Object API](/api/v2/cloud-directory-api/custom-object/overview/) to query custom objects
+**NOTE:** This API does not support querying Custom Objects, please refer to our [Custom Object API](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/custom-object/overview/) to query custom objects
 
 
 ## Cloud Directory Overview

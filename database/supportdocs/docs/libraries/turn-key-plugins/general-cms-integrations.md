@@ -8,7 +8,7 @@ The detail around the LoginRadius flows included in CMS integration is explained
 
 ## CMS Social Login/Registration
 
-[Social Login](/authentication/quick-start/social-login/) is a quick and convenient approach for registration and login, as it allows your customers to skip filling traditional registration forms. It also increases customer conversion rates, by enabling them to sign-in to your website with their existing social media accounts like Facebook, Twitter, Google+ and more. Below is the flow diagram which explains the process of Social Login.
+[Social Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/) is a quick and convenient approach for registration and login, as it allows your customers to skip filling traditional registration forms. It also increases customer conversion rates, by enabling them to sign-in to your website with their existing social media accounts like Facebook, Twitter, Google+ and more. Below is the flow diagram which explains the process of Social Login.
 
 ![enter image description here](https://apidocs.lrcontent.com/images/CMS-Social-Login-Flowchart-V2---Page-1-1_248159518d87d9ba44.59810710.png "")
 
@@ -27,7 +27,7 @@ The following steps explain the above flowchart:
 ## CMS Traditional Login
 
 
-Traditional Login is also known as [Standard Login](/authentication/quick-start/standard-login/), which is a fundamental component of LoginRadius. This flow allows you to provide your customers with a seamless authentication flow leveraging a unique ID (Email, Username, and PhoneID) and password. Below is the flow diagram which explains the process of Traditional Login.
+Traditional Login is also known as [Standard Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/), which is a fundamental component of LoginRadius. This flow allows you to provide your customers with a seamless authentication flow leveraging a unique ID (Email, Username, and PhoneID) and password. Below is the flow diagram which explains the process of Traditional Login.
 
 ![enter image description here](https://apidocs.lrcontent.com/images/-CMS-Traditional-Login-Flowchart-V2---Page-1_998159518d18043ba7.09911532.png "")
 

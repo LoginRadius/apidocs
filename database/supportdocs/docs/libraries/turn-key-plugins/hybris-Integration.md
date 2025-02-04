@@ -72,7 +72,7 @@ The following diagram displays the flow for the Single Sign-on (SSO) process:
                                                                                                                                                                                        
 ## Installation and Implementation 
 
-> **Prerequisites:** Before installing the LoginRadius platform for AEM, make sure that You have LoginRadius [API Key and API Secret](/api/v2/admin-console/platform-security/api-key-and-secret/) as it will be used to access the user data stored in the LoginRadius database.
+> **Prerequisites:** Before installing the LoginRadius platform for AEM, make sure that You have LoginRadius [API Key and API Secret](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/) as it will be used to access the user data stored in the LoginRadius database.
 
 ## Authentication Flow 
 
@@ -99,17 +99,17 @@ LoginRadius Identity Platform provides you the following various methods of logi
 
 ## Data Sync
 
-Loginradius Identity Platform provides you the feature of syncing the data to 3rd party applications using webhook. WebHooks allow you to build or set up integrations that subscribe to certain events on LoginRadius. When one of these events is triggered, LoginRadius will automatically send a POST payload over HTTPs to the WebHook's configured URL in real-time. WebHooks can be used to update an external tracker or update a backup mirror. For more information about webhook refer to the document [here](/api/v2/integrations/webhooks/overview/).
+Loginradius Identity Platform provides you the feature of syncing the data to 3rd party applications using webhook. WebHooks allow you to build or set up integrations that subscribe to certain events on LoginRadius. When one of these events is triggered, LoginRadius will automatically send a POST payload over HTTPs to the WebHook's configured URL in real-time. WebHooks can be used to update an external tracker or update a backup mirror. For more information about webhook refer to the document [here](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/overview/).
 
 ## Customer insights 
 
-LoginRadius provides useful charts and analytic tools (as shown below) to view and measure the overall performance of your site, in terms of customer registration and login. The information is aggregated and categorized into identity analytics, provider analytics, login analytics, and comparative analysis. For more information refer to our [Customer Insight](/customer-insights/identity-analytics/) document.
+LoginRadius provides useful charts and analytic tools (as shown below) to view and measure the overall performance of your site, in terms of customer registration and login. The information is aggregated and categorized into identity analytics, provider analytics, login analytics, and comparative analysis. For more information refer to our [Customer Insight](https://www.loginradius.com/legacy/docs/customer-insights/identity-analytics/) document.
 
 ![enter image description here](https://apidocs.lrcontent.com/images/insights_272595d30e438dd4638.98956599.png "enter image title here")
 
 ## Set Up Social Login
 
-To use the extension in Social Login mode, you need to create a Social Login Component to use on your website. The LoginRadius Social Login component can be inserted in any secure (HTTPS) page on your website, where it will display as social network buttons (As shown below). To configure the social provider, you can refer to our social provider [document](/api/v2/admin-console/social-provider/configure-social-apps/).
+To use the extension in Social Login mode, you need to create a Social Login Component to use on your website. The LoginRadius Social Login component can be inserted in any secure (HTTPS) page on your website, where it will display as social network buttons (As shown below). To configure the social provider, you can refer to our social provider [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/social-provider/configure-social-apps/).
 
 
 ![enter image description here](https://apidocs.lrcontent.com/images/6_77445d304dbf7bf257.08806666.png "enter image title here")

@@ -16,7 +16,7 @@ To eliminate any exposure during this sensitive transition of user data, LoginRa
 - **One-way password hashing:** LoginRadius only accepts one-way hashed passwords, meaning that it is impossible to decrypt and therefore impossible for anyone (even the LoginRadius team) to see your users' passwords. We support the most up-to-date security algorithms and are able to assist in rolling your existing passwords over into the most secure algorithm if your currently used algorithm is dated.
 
 - **Infrastructure Security:** The LoginRadius infrastructure security is built-into the data migration process:
-- **System-wide Security protocols**: We use our standard security policies and practices to make sure that we are compliant with security standards. All of the SFTP servers, data files storage, etc are behind the firewall and protected in LoginRadius Infrastructure. Full details on the system infrastructure security can be found [here](/infrastructure-and-security/threat-prevention)
+- **System-wide Security protocols**: We use our standard security policies and practices to make sure that we are compliant with security standards. All of the SFTP servers, data files storage, etc are behind the firewall and protected in LoginRadius Infrastructure. Full details on the system infrastructure security can be found [here](https://www.loginradius.com/legacy/docs/infrastructure-and-security/threat-prevention)
 - **Data Perseverance**: All data is maintained in the transit storage temporarily. Once the data migration process is complete, data is disposed of based on industry standard data governance procedures for deletion of records.
 
 ### Data Migration Sanitization

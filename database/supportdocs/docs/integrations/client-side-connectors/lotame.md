@@ -35,7 +35,7 @@ Call the LRObject.identify() method to link profiles.
 LRObject.identify("lotame", <Profile Data>, <Mapping Object>, <isCustom>);
 ```
 
-This method should be called after the onSuccess callback from login, as the response profile data needs to be passed as its argument. Specifics on the mapping object can be found in the [Getting Started](/api/v2/integrations/getting-started#descriptionofmapping2) document.
+This method should be called after the onSuccess callback from login, as the response profile data needs to be passed as its argument. Specifics on the mapping object can be found in the [Getting Started](https://www.loginradius.com/legacy/docs/api/v2/integrations/getting-started#descriptionofmapping2) document.
 
 > **Note:** Personally Identifiable Information (PII) should not be passed into Lotame. Therefore, not all of LoginRadius' standard keys are supported in the `mapping` object.
 

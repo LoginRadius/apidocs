@@ -80,11 +80,11 @@ Once the configuration is saved with the domain name, upon entering an email ID 
 
 - **Query Param:** Pass the Query params from Provider in key and value pair (if the provider supports query params).
 
-- **Data Mapping:** Enter field mappings (mandatory) between OAuth Provider and LoginRadius [user profile properties](/api/v2/getting-started/data-points/detailed-data-points/).
+- **Data Mapping:** Enter field mappings (mandatory) between OAuth Provider and LoginRadius [user profile properties](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points/detailed-data-points/).
   <br><br> - **Select Field(Dropdown):** Select the LoginRadius field name, which you want to map with the field in OAuth Provider.
   <br> - **The profile Key:** Enter the OAuth Provider field name corresponding to the LoginRadius field name.
 
-> **Note:** The LoginRadius ‘ID’ field is the unique identifier for each profile attached to a LoginRadius customer account. Refer to the LoginRadius [Data structure](/api/v2/getting-started/data-points/data-points/#datastructure0) document for more details. The mapping of the LoginRadius 'ID' field (Loginradius field) is required for the OAuth Provider. A user will not be able to register/login if the value is missing for this mapping in the OAuth Provider.
+> **Note:** The LoginRadius ‘ID’ field is the unique identifier for each profile attached to a LoginRadius customer account. Refer to the LoginRadius [Data structure](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points/data-points/#datastructure0) document for more details. The mapping of the LoginRadius 'ID' field (Loginradius field) is required for the OAuth Provider. A user will not be able to register/login if the value is missing for this mapping in the OAuth Provider.
 
 **Step 17:** Now, click the **Save** button to add and save settings.
 
@@ -92,13 +92,13 @@ Once the configuration is saved with the domain name, upon entering an email ID 
 
 Once you have set up the OAuth Provider from the LoginRadius Admin Console, you can start configuring the new Custom OAuth Provider Icon. The configured icon will be displayed with your existing Social Provider icons, if any.
 
-> **Note:** We highly recommend you to familiarize yourself with customizing your social provider icons first. You can find more information on that [here](/libraries/js-libraries/getting-started/#sociallogininterface9).
+> **Note:** We highly recommend you to familiarize yourself with customizing your social provider icons first. You can find more information on that [here](https://www.loginradius.com/legacy/docs/libraries/js-libraries/getting-started/#sociallogininterface9).
 
 **Step 1:** To configure your custom Id provider icon, you need to choose a social provider, next to whom you want to place your custom provider.
 
 **For example**, you are adding **Spotify** as a Custom OAuth Provider, and want it to list after **LinkedIn** Social provider.
 
-**Step 2:** To customize your custom provider interface follow the guidelines given in the **Getting Started Guide** [document](/libraries/js-libraries/getting-started/#socialinterfacecustomization11) and make sure you do to customizations inside the div id **"loginradiuscustom_tmpl"**.
+**Step 2:** To customize your custom provider interface follow the guidelines given in the **Getting Started Guide** [document](https://www.loginradius.com/legacy/docs/libraries/js-libraries/getting-started/#socialinterfacecustomization11) and make sure you do to customizations inside the div id **"loginradiuscustom_tmpl"**.
 
 **Step 3:** Once you have the code for the initial customizations in your div, go to [Admin Console](https://adminconsole.loginradius.com/deployment/idx) and navigate to **Deployment > Identity Experience Framework (Hosted) > Auth Page File**. Then search for **id=“loginradiuscustom_tmpl”** in auth.aspx file and add the following block of code to get Spotify to show after LinkedIn:
 
@@ -142,16 +142,16 @@ alt="Sign in with <#=Name#>">
 
 ```
 
-> **Note:** If you are not using LoginRadius JavaScript Interface to load the social buttons, you can also use our [Programmatic Link Creation](/api/v2/user-registration/user-registration-getting-started#_programmatic-link-creation_) feature.
+> **Note:** If you are not using LoginRadius JavaScript Interface to load the social buttons, you can also use our [Programmatic Link Creation](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#_programmatic-link-creation_) feature.
 
 ## Part 3 - Next Steps
 
 The following is the list of documents you might want to look into:
 
-[Custom JWT Provider](/single-sign-on/custom-identity-providers/custom-jwt-provider/)
+[Custom JWT Provider](https://www.loginradius.com/legacy/docs/single-sign-on/custom-identity-providers/custom-jwt-provider/)
 
-[Doximity](/single-sign-on/custom-identity-providers/providers/doximity/)
+[Doximity](https://www.loginradius.com/legacy/docs/single-sign-on/custom-identity-providers/providers/doximity/)
 
-[WeChat](/single-sign-on/custom-identity-providers/providers/alipay/)
+[WeChat](https://www.loginradius.com/legacy/docs/single-sign-on/custom-identity-providers/providers/alipay/)
 
-[AliPay](/single-sign-on/custom-identity-providers/providers/alipay/)
+[AliPay](https://www.loginradius.com/legacy/docs/single-sign-on/custom-identity-providers/providers/alipay/)

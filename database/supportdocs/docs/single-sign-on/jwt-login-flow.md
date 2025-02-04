@@ -24,7 +24,7 @@ This method allows you to leverage all of the standard LoginRadius JS interfaces
 
 Follow these steps to retrieve a JWT token via the Javascript interfaces: 
 
-1. Setup the Standard Login or Social Login Forms based on [this document](/api/v2/user-registration/user-registration-getting-started/) or [this demo project](https://github.com/LoginRadius/demo).
+1. Setup the Standard Login or Social Login Forms based on [this document](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started/) or [this demo project](https://github.com/LoginRadius/demo).
 2. Add the following parameters to your initialiation Object: 
 ```
 commonOptions.tokenType = "jwt";
@@ -46,14 +46,14 @@ This flow is recommended if you are directly implementing your Login forms or us
 
 The below APIs are used to generate JWT tokens based on different parameters: 
 
-- JWT from Access Token: [link](/api/v2/single-sign-on/jwt-login/get-jwt-token/)
-- JWT from Email and Password: [link](/api/v2/single-sign-on/jwt-login/get-jwt-token-by-email/)
-- JWT from UserName and Password: [link](/api/v2/single-sign-on/jwt-login/get-jwt-token-by-username) 
-- JWT from Phone and Password: [link](/api/v2/single-sign-on/jwt-login/get-jwt-token-by-phone)
+- JWT from Access Token: [link](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/jwt-login/get-jwt-token/)
+- JWT from Email and Password: [link](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/jwt-login/get-jwt-token-by-email/)
+- JWT from UserName and Password: [link](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/jwt-login/get-jwt-token-by-username) 
+- JWT from Phone and Password: [link](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/jwt-login/get-jwt-token-by-phone)
 
 
 ### Single Sign On Redirect Flow
 
-Also supported is a delegated redirect Single Sign On flow where you can redirect a user to a [LoginRadius Identity Experience Framework](/api/v2/user-registration/hosted-registration) where the user can do account actions such as: Login, Register, Forgot password etc. Upon successful completion of a login or social login the user will be redirected based on a defined redirect parameter along with the JWT token for this Authentication session. 
+Also supported is a delegated redirect Single Sign On flow where you can redirect a user to a [LoginRadius Identity Experience Framework](https://www.loginradius.com/legacy/docs/api/v2/user-registration/hosted-registration) where the user can do account actions such as: Login, Register, Forgot password etc. Upon successful completion of a login or social login the user will be redirected based on a defined redirect parameter along with the JWT token for this Authentication session. 
 
-More details on this flow can be found here: [Link](/api/v2/single-sign-on/jwt-login)
+More details on this flow can be found here: [Link](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/jwt-login)

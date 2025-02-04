@@ -20,9 +20,9 @@ To get started, you will need to first log in to the LoginRadius dashboard and n
 
 There are two available options for Data Export:
 
-- [On-Demand Export](/integrations/user-data-export/on-demand-export/)
+- [On-Demand Export](https://www.loginradius.com/legacy/docs/integrations/user-data-export/on-demand-export/)
 
-- [Scheduled Export](/integrations/user-data-export/scheduled-export/)
+- [Scheduled Export](https://www.loginradius.com/legacy/docs/integrations/user-data-export/scheduled-export/)
     
 
 ## On-Demand Export
@@ -35,4 +35,4 @@ The Scheduled Export area will allow you to request a Recurring, Scheduled Expor
 
 ## Export Logs
 
-Download the Data Export from [Export Logs](/integrations/user-data-export/export-logs/) within LoginRadius Admin Console for security purpose.
+Download the Data Export from [Export Logs](https://www.loginradius.com/legacy/docs/integrations/user-data-export/export-logs/) within LoginRadius Admin Console for security purpose.

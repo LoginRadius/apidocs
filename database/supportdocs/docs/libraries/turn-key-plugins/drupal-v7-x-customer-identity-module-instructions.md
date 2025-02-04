@@ -126,17 +126,17 @@ To configure the module, click on the **Configuration** tab in the top menu, cli
 
 
   - **Enable Passwordless link login**
-<br>LoginRadius customers can set up a login flow that allows customers to login without a password by enabling this option. At the same time, Customers have to enable passwordless login from the Admin console as well. For more details, refer our [Passwordless Link Login](/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithemail0) documentation.
+<br>LoginRadius customers can set up a login flow that allows customers to login without a password by enabling this option. At the same time, Customers have to enable passwordless login from the Admin console as well. For more details, refer our [Passwordless Link Login](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithemail0) documentation.
 <br><br>Passwordless SMS templates can be added/Modified in "Admin Console" which will be displayed in the drupal admin authentication page.
 
 
   - **Enable Passwordless OTP Login**
- <br>LoginRadius customers can set up a Passwordless OTP flow that lets the customer enter his phone number and click on the Passwordless OTP login button. Enter the OTP which is received in the phone number to login. Customers have to enable Passwordless OTP login from Admin console as well. For more details, refer our  [Passwordless OTP Login](/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithotp1) documentation.
+ <br>LoginRadius customers can set up a Passwordless OTP flow that lets the customer enter his phone number and click on the Passwordless OTP login button. Enter the OTP which is received in the phone number to login. Customers have to enable Passwordless OTP login from Admin console as well. For more details, refer our  [Passwordless OTP Login](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithotp1) documentation.
 <br><br>Passwordless SMS templates can be added/Modified in "Admin Console" which will be displayed in the drupal admin authentication page.
 
   - **Enable password strength**
 
-    Password strength is a measure of the effectiveness of a password in resisting guessing and brute-force attacks. The strength of a password is a function of length, complexity, and unpredictability. For more details review our [Javascript Hooks](/api/v2/user-registration/javascript-hooks#passwordstrengthfeature19) documentation.
+    Password strength is a measure of the effectiveness of a password in resisting guessing and brute-force attacks. The strength of a password is a function of length, complexity, and unpredictability. For more details review our [Javascript Hooks](https://www.loginradius.com/legacy/docs/api/v2/user-registration/javascript-hooks#passwordstrengthfeature19) documentation.
 
   <br>![enter image description here](https://apidocs.lrcontent.com/images/pssstr_114295e70640944d9a9.54264362.png "enter image title here")
 
@@ -161,7 +161,7 @@ To configure the module, click on the **Configuration** tab in the top menu, cli
 
  - **Common Options**
 
-   Admin can also enter the common options of loginradius JS in **Common options for loginradius interface** field, click [here](/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3) for details on common options.
+   Admin can also enter the common options of loginradius JS in **Common options for loginradius interface** field, click [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3) for details on common options.
   <br><br>For example :
 
 ```
@@ -178,7 +178,7 @@ commonOptions.loginOnEmailVerification = true;
 
 ### Overview
 
-LoginRadius [Single Sign-On](/api/v2/single-sign-on/overview) (SSO) is a feature for multiple site management. It allows your customers to log into one site, then when they navigate themselves to other sites belonging to you and enabled with LoginRadius Single Sign-On(SSO), they are already identified as registered customers and logged in to the site.
+LoginRadius [Single Sign-On](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/overview) (SSO) is a feature for multiple site management. It allows your customers to log into one site, then when they navigate themselves to other sites belonging to you and enabled with LoginRadius Single Sign-On(SSO), they are already identified as registered customers and logged in to the site.
 
 ### Configuration
 
@@ -206,7 +206,7 @@ Customers can update their profile after login from the profile editor section.
 
 ## Multi-Factor Authentication
 
-- In the case of traditional login, if [Multi-Factor Authentication](/api/v2/user-registration/two-factor-authentication-overview) is enabled on your app then the MFA section will be displayed on the profile page. Click on the "2-Step Verification" button to enable Multi-Factor Authentication. <br>By default, MFA is disabled on your LoginRadius site. To enable MFA for your site, in the Admin Console, go to Platform Security > Multi-Layered Security > Multi-Factor Auth. Select the “Enable” option under “Multi-Factor Authentication” and the relevant flow option under the “Select Flow” section.
+- In the case of traditional login, if [Multi-Factor Authentication](https://www.loginradius.com/legacy/docs/api/v2/user-registration/two-factor-authentication-overview) is enabled on your app then the MFA section will be displayed on the profile page. Click on the "2-Step Verification" button to enable Multi-Factor Authentication. <br>By default, MFA is disabled on your LoginRadius site. To enable MFA for your site, in the Admin Console, go to Platform Security > Multi-Layered Security > Multi-Factor Auth. Select the “Enable” option under “Multi-Factor Authentication” and the relevant flow option under the “Select Flow” section.
 
   <br><br>![enter image description here](https://apidocs.lrcontent.com/images/twofa_255705e05da17d06ba8-47973491_276695e1313a63b8000.94628344.png "enter image title here")
   <br><br>**Note:** For Multi-Factor Authentication, by default OTP authenticator is enabled on the app and, in order to enable Google Authenticator, you will need to enable it from the LoginRadius Admin Console.

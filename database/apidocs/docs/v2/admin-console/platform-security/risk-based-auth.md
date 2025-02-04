@@ -4,7 +4,7 @@ Risk-Based Authentication (RBA) is an additional layer of security used to trigg
 
 To access the RBA configurations, log in to your LoginRadius account and navigate to [Platform Security > Multi-Layered Security > Risk-Based Authentication](https://adminconsole.loginradius.com/platform-security/multi-layered-security/risk-based-authentication/rba-settings). On the left-hand panel, you will be provided with the supported **RBA Settings**.
 
-> **Note:** For further details on implementing Risk-Based Authentication on your site, see [Advanced Customization](/libraries/js-libraries/advanced-js-customizations/#riskbasedauthentication1).
+> **Note:** For further details on implementing Risk-Based Authentication on your site, see [Advanced Customization](https://www.loginradius.com/legacy/docs/libraries/js-libraries/advanced-js-customizations/#riskbasedauthentication1).
 
 ## RBA Settings
 
@@ -32,7 +32,7 @@ Add emails of your admins who will receive triggered RBA notifications.
 
 ## Email Templates
 
-This section allows you to fully customize the email template that will be sent to customers and admins in case a risk is detected. Please see [Email Template Customization](/api/v2/admin-console/platform-configuration/standard-login/email-templates/#emailtemplatecustomization0) for more details.
+This section allows you to fully customize the email template that will be sent to customers and admins in case a risk is detected. Please see [Email Template Customization](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/standard-login/email-templates/#emailtemplatecustomization0) for more details.
 
 ![enter image description here](https://apidocs.lrcontent.com/images/175_915620414219ca828.27333292.png "enter image title here")
 

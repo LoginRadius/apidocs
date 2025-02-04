@@ -77,12 +77,12 @@ The following flow chart shows how JWT flow works between IDP and SP, where IDP 
 
 ![JWT LF](https://apidocs.lrcontent.com/images/jwtloginflow-1_126366193a9697f6702.36918209.png "JWT login Flow")
 
-LoginRadius supports a delegated redirect SSO flow through which you can redirect your customer to [LoginRadius Identity Experience Framework](/api/v2/user-registration/hosted-registration), where your customer can do account management actions.
+LoginRadius supports a delegated redirect SSO flow through which you can redirect your customer to [LoginRadius Identity Experience Framework](https://www.loginradius.com/legacy/docs/api/v2/user-registration/hosted-registration), where your customer can do account management actions.
 
 Upon successful login or social login, the customer will be redirected to the return URL along with the JWT for this authentication session.  Implementation of JWT in Loginradius:
 
-- [Implementation of JWT in IDX](/single-sign-on/tutorial/federated-sso/jwt-login/jwt-implementation-guide/#implementationofjwtinidx0)
+- [Implementation of JWT in IDX](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/jwt-login/jwt-implementation-guide/#implementationofjwtinidx0)
 
-- [Direct Implementation of API](/single-sign-on/tutorial/federated-sso/jwt-login/jwt-implementation-guide/#directimplementationofjwtusingloginradiusapis3)
+- [Direct Implementation of API](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/jwt-login/jwt-implementation-guide/#directimplementationofjwtusingloginradiusapis3)
 
 

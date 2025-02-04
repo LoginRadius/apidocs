@@ -32,7 +32,7 @@ Yes, there are the following ways by which your customers can login with:
 
 2. **If the customer has more than one social login:** Your customer will be able to log in through other social providers.
 
-3. **If the customer has traditional login & social login:** Your customer will be able to access his account, they can link other social providers using our [account linking](/authentication/FAQ/account-linking/#account-linking) workflow.
+3. **If the customer has traditional login & social login:** Your customer will be able to access his account, they can link other social providers using our [account linking](https://www.loginradius.com/legacy/docs/authentication/FAQ/account-linking/#account-linking) workflow.
 4. You can send **Reset Password** email through the LoginRadius Admin Console by following steps:
 <br> - Login to the Admin Console and navigate to [**Profile management -> Customer Management -> Search customer**](https://adminconsole.loginradius.com/profile-management/customer-management/search-customers).
 <br> - Click on the **Manage** button,  a popup will appear then click on **Send Reset Password Mail** button.

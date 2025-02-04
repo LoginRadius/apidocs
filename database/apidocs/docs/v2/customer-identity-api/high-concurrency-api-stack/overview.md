@@ -9,7 +9,7 @@ The API stack is in its first version and currently supports the following featu
 - Traditional Login Authentication
 - Customer Registration
 - Basic Customer Profile Information
-- [Brute Force Lockout](/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout2) (Limited to 3 attempts per 24 hours)
+- [Brute Force Lockout](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout2) (Limited to 3 attempts per 24 hours)
 - Checks Availability for Email, Username, and Phone Number
 
 ##When Should I Use This API?
@@ -35,8 +35,8 @@ While the features of the High Concurrency API stack are based on existing Login
 Please see the list of current limitations below:
 
 - Only one authentication flow is supported. Customers can use one method of authentication on their web or mobile application: email, username or phone number. For example, you cannot offer both log in via email and username at the same time, you have to select one.
-- [Brute Force Lockout](/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout2) is available but cannot be customized. If enabled, the default setting will be used and users will be locked out after 3 attempts for 24 hours.
-- MFA ([Multi-Factor Authentication](/platform-features-overview/user-security/multi-factor-authentication)) is not supported when using this API stack. You can still use LoginRadius API v2 for MFA but it won’t be able to support high peak volumes.
+- [Brute Force Lockout](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/auth-security-configuration#bruteforcelockout2) is available but cannot be customized. If enabled, the default setting will be used and users will be locked out after 3 attempts for 24 hours.
+- MFA ([Multi-Factor Authentication](https://www.loginradius.com/legacy/docs/platform-features-overview/user-security/multi-factor-authentication)) is not supported when using this API stack. You can still use LoginRadius API v2 for MFA but it won’t be able to support high peak volumes.
 
 ##Enabling The High Concurrency API Stack
 

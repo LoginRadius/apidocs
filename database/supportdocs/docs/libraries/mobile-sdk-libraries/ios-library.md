@@ -126,7 +126,7 @@ And the same changes should also be applied to your **Reset Password Email Templ
 
 **Obtaining Sitename and API key**
 
-> Details on obtaining Sitename can be found [**here**](/api/v2/admin-console/deployment/get-site-app-name/#locate-your-loginradius-site-name-on-the-admin-console) and for API key click [**here**](/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret)
+> Details on obtaining Sitename can be found [**here**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/#locate-your-loginradius-site-name-on-the-admin-console) and for API key click [**here**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/#api-key-and-secret)
 
 1. Import the module in your source code.
 
@@ -270,13 +270,13 @@ Registration service supports traditional registration and login methods.
 
 Registration Service is done through the Authentication API.
 
-Registration requires a parameter called SOTT. You can create the SOTT token by following this [doc](/api/v2/customer-identity-api/sott-usage/#staticsott4)
+Registration requires a parameter called SOTT. You can create the SOTT token by following this [doc](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/sott-usage/#staticsott4)
 
 **Parameters and their Description:**
 
 |Name|Description|Required|
 |---|----|----|
-|SOTT|Secure One-time Token which you can check information about sott [here](/api/v2/user-registration/sott)|Yes for Registration. <br> You can generate a long term SOTT token from the Admin Console under Deployment -> Apps -> Mobile Apps (SOTT).
+|SOTT|Secure One-time Token which you can check information about sott [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/sott)|Yes for Registration. <br> You can generate a long term SOTT token from the Admin Console under Deployment -> Apps -> Mobile Apps (SOTT).
 |smstemplate|SMS template allows you to customize the formatting and text of SMS sent by users who share your content.|NO|
 |emailTemplate|Email templates allow you to customize the formatting and text of emails sent by users who share your content. Templates can be text-only, or HTML and text, in which case the user's email client will determine which is displayed. |NO <br> Go To API Configuration -> Email Workflow to get the template names|
 
@@ -330,7 +330,7 @@ AuthenticationAPI.authInstance().userRegistration(withSott:sott,payload:paramete
 
 > Registration API will only create a user. To retrieve userprofile and access_token, please call Login API.
 
-For all the possible payload fields, please check the Auth User Registration by Email [API](/api/v2/user-registration/auth-user-registration-by-email)
+For all the possible payload fields, please check the Auth User Registration by Email [API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-user-registration-by-email)
 
 **Registration by Phone:**
 
@@ -669,7 +669,7 @@ To integrate Web Social Login. Follow the steps
 
 * Call `loginWithProvider:inController:completionHandler:` method with the appropriate params in your Application to start Web Social Login.
 
-    For complete list of social login providers: Ref to this [support doc](/getting-started/general-questions/supported-social-networks)
+    For complete list of social login providers: Ref to this [support doc](https://www.loginradius.com/legacy/docs/getting-started/general-questions/supported-social-networks)
 
     Example:
 
@@ -709,7 +709,7 @@ LoginRadiusSocialLoginManager.sharedInstance().login(withProvider: "facebook", i
 <br>
 **Apple native login**
 
->For Native Apple login to work, create and configure your apple app as per [loginradius docs](/api/v2/announcements/sign-in-with-apple/#signin-with-appleid).
+>For Native Apple login to work, create and configure your apple app as per [loginradius docs](https://www.loginradius.com/legacy/docs/api/v2/announcements/sign-in-with-apple/#signin-with-appleid).
 
 Apple sign-in is being done by the Xcode inbuild apple authentication services. This is an inbuilt service that provides Sign in with Apple Feature. By adding the Apple sign in from Xcode prebuild libraries, get added, and for implementing apple sign in for IOS, please follow the below steps.
 
@@ -1516,7 +1516,7 @@ Touch ID and Face ID are preferred because these authentication mechanisms let t
 
 Below are the implementation steps to authenticate a user using Face ID or Touch ID :
 
-1.  Login a user with email and password leveraging the LoginRadius [Login by Email](/api/v2/customer-identity-api/authentication/auth-login-by-email/) API in LoginRadius [iOS SDK](/libraries/mobile-sdk-libraries/ios-library/#loginbyemail17).
+1.  Login a user with email and password leveraging the LoginRadius [Login by Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-email/) API in LoginRadius [iOS SDK](https://www.loginradius.com/legacy/docs/libraries/mobile-sdk-libraries/ios-library/#loginbyemail17).
     
 2.  After the successful authentication, the Access Token session will be created and validated as per the [Access Token lifetime](https://adminconsole.loginradius.com/platform-security/account-protection/session-management/token-lifetime) configured for your site.
     
@@ -1536,7 +1536,7 @@ LRSession.init(accessToken:access_token as String, userProfile:data!)
 
 Refer to the documentation [here](https://developer.apple.com/documentation/localauthentication/logging_a_user_into_your_app_with_face_id_or_touch_id) for more information on logging a user into your application with Touch ID or Face ID.
 
-In the success method, that is called after the success of biometric authentication, you can implement the LoginRadius [Auth Read all Profiles by Token](/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) API and call this API based on the session store token or you may also be able to get the profile as a well using the below method:
+In the success method, that is called after the success of biometric authentication, you can implement the LoginRadius [Auth Read all Profiles by Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) API and call this API based on the session store token or you may also be able to get the profile as a well using the below method:
 
 ```
 NSDictionary *profile = [[[LoginRadiusSDK sharedInstance] session] userProfile];
@@ -2172,7 +2172,7 @@ This API is used to perform operations on a user account after the user has auth
 ### Registration By Email
 
 This API creates a user in the database as well as sends a verification email to the user.
-For all the possible payload fields, please check the Auth User Registration by Email [API](/api/v2/user-registration/auth-user-registration-by-email)
+For all the possible payload fields, please check the Auth User Registration by Email [API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-user-registration-by-email)
 
 <div class="tabssections">
 <div class="tabs">
@@ -2449,7 +2449,7 @@ AuthenticationAPI.authInstance().unlinkSocialIdentities(withAccessToken:"<access
 
 ### Update User Profile
 This API is used to update the user profile by the access token.
-For all the possible payload fields, please check the Auth Update Profile by Token [API](/api/v2/user-registration/auth-update-profile-by-token)
+For all the possible payload fields, please check the Auth Update Profile by Token [API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/auth-update-profile-by-token)
 
 <div class="tabssections">
 <div class="tabs">
@@ -3409,7 +3409,7 @@ This API is used to perform operations on a user account by Phone after the user
 
 #####Registration By Phone
 This API registers the new users into your Cloud Directory and triggers the phone verification process.
-For all the possible payload fields, please check the Auth User Registration by Email [API](/api/v2/user-registration/phone-user-registration-by-sms)
+For all the possible payload fields, please check the Auth User Registration by Email [API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/phone-user-registration-by-sms)
 
 <div class="tabssections">
 <div class="tabs">
