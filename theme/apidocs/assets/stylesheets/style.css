@@ -11,6 +11,7 @@ Values: (blank, outputs flex), (flex), (inline-flex)
 .container {
     .flex-direction(row);
 }
+    
 Values: (blank, outputs row), (row), (row-reverse), (column), (column-reverse)
 */
 /* Flex Container - flex-wrap ------------------------------------------------------------------- */
@@ -6034,4 +6035,8 @@ img.icon-svg {
   background: #fff;
   padding: 8px;
   mix-blend-mode: color-burn;
+}
+
+.custom-algolia-search {
+  display: none !important;  /* Hide the entire container */
 }
