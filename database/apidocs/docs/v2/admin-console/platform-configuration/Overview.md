@@ -27,7 +27,7 @@ Under this feature LoginRadius allow users to customize their identity workflows
 
 Using this feature, users can change the flow of their enabled Identity workflow applied to their Admin Console.
 
-### [Standard Login](/authentication/quick-start/standard-login/)
+### [Standard Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/)
 
 Using this feature, users customize the fields, schema and some other advanced options related to the hosted page.
 

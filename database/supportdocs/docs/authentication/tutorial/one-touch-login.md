@@ -8,7 +8,7 @@ LoginRadius Identity Platform allows you to implement the One Touch Login featur
 
 - [**One Touch Login by SMS**](#onetouchloginbysms3): The customer can log into a web/mobile application directly entering the OTP received on their phone number.
 
-> **Note**: One Touch Login SMS will work only if the [**Phone Login**](/authentication/tutorial/phone-login/) feature is enabled.
+> **Note**: One Touch Login SMS will work only if the [**Phone Login**](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/) feature is enabled.
 
 
 ## One Touch Login Guide
@@ -52,7 +52,7 @@ The following screen appears:
 
 ![template](https://apidocs.lrcontent.com/images/image-39_8647230326687aa9a3785b6.22460222.png "template")
 
-**Step 2:** Expand the **One Touch Login Email Settings** panel. Enter the desired [**Request Limit**](/authentication/concepts/email-communications/#partglobalemailsettings5), [**Request disabled Period**](/authentication/concepts/email-communications/#partglobalemailsettings5) and [**One touch Login  Email Token Validity Limit**](/authentication/concepts/email-communications/#partglobalemailsettings5) as highlighted in the following screen:
+**Step 2:** Expand the **One Touch Login Email Settings** panel. Enter the desired [**Request Limit**](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partglobalemailsettings5), [**Request disabled Period**](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partglobalemailsettings5) and [**One touch Login  Email Token Validity Limit**](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partglobalemailsettings5) as highlighted in the following screen:
 
 
 ![one touch email settings](https://apidocs.lrcontent.com/images/image-40_8980025226687a83f1ca774.63722230.png "one touch email settings")
@@ -64,7 +64,7 @@ Click the **Save** button.
 
 ![one touch](https://apidocs.lrcontent.com/images/unnamed-22_4313771796687a8f0586806.44255834.png "one touch")
 
-You can perform actions such as [**Add Template**](/authentication/concepts/email-communications/#partemailtemplates6), [**Edit Template**](/authentication/concepts/email-communications/#partemailtemplates6), [**Send Test Email**](/authentication/concepts/email-communications/#partemailtemplates6) and [**Delete Template**](/authentication/concepts/email-communications/#partemailtemplates6).
+You can perform actions such as [**Add Template**](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partemailtemplates6), [**Edit Template**](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partemailtemplates6), [**Send Test Email**](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partemailtemplates6) and [**Delete Template**](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partemailtemplates6).
 
 
 > **Note:** You can only delete the new template(s) that you have created i.e. you will not be able to delete the default template.
@@ -80,7 +80,7 @@ The following screen appears:
 
 ![sms](https://apidocs.lrcontent.com/images/unnamed-23_13713026006687a941538c44.47453721.png "sms")
 
-**Step 2**: Expand the **One Touch Login SMS Settings** panel. Enter the desired [**Request Limit**](/authentication/concepts/sms-communication/#partsmstemplatesettings1), [**Request disabled Period**](/authentication/concepts/sms-communication/#partsmstemplatesettings1) and [**One touch Login OTP Validity Limit**](/authentication/concepts/sms-communication/#partsmstemplatesettings1) as highlighted in the following screen:
+**Step 2**: Expand the **One Touch Login SMS Settings** panel. Enter the desired [**Request Limit**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#partsmstemplatesettings1), [**Request disabled Period**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#partsmstemplatesettings1) and [**One touch Login OTP Validity Limit**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#partsmstemplatesettings1) as highlighted in the following screen:
 
 ![sms](https://apidocs.lrcontent.com/images/unnamed-24_15637772526687a9b6b6dcf7.48188032.png "sms")
 
@@ -88,7 +88,7 @@ The following screen appears:
 
 ![template](https://apidocs.lrcontent.com/images/unnamed-23_17915257876687aa005c6127.88790850.png "template")
 
-You can perform actions such as [**Add**](/authentication/concepts/sms-communication/#addtemplate4), [**Edit**](/authentication/concepts/sms-communication/#edittemplate3), [**Reset**](/authentication/concepts/sms-communication/#resettemplate6) and [**Delete**](/authentication/concepts/sms-communication/#deletetemplate5) template. 
+You can perform actions such as [**Add**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#addtemplate4), [**Edit**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#edittemplate3), [**Reset**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#resettemplate6) and [**Delete**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#deletetemplate5) template. 
 
 ## Part 2 - Deployment 
 
@@ -274,7 +274,7 @@ commonOptions.appName = "<LoginRadius site name>";
 var LRObject= new LoginRadiusV2(commonOptions);
 ```
 
-> **Note:** The LoginRadius Identity Platform uses the default email/sms template available in the LoginRadius Admin Console. To use the custom [Email Templates](/authentication/concepts/email-communications/)/[SMS Templates](/authentication/concepts/sms-communication/), you can utilize the following common options:
+> **Note:** The LoginRadius Identity Platform uses the default email/sms template available in the LoginRadius Admin Console. To use the custom [Email Templates](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/)/[SMS Templates](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/), you can utilize the following common options:
 
 >commonOptions.onetouchLoginEmailTemplate=”<templateName>”;
 commonOptions.smsTemplateOneTouchLoginWelcome=”<templateName>”;
@@ -311,8 +311,8 @@ HTML element can be used as below
 The following is the list of features you might want to add-on to the above implementation:
 
 
-[Passwordless Login](/authentication/tutorial/passwordless-login#partnextsteps3)
+[Passwordless Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/passwordless-login#partnextsteps3)
 
-[Smart Login](/authentication/tutorial/smart-login/)
+[Smart Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/smart-login/)
 
 [JS Customizations](/api/v2/deployment/js-libraries/getting-started/#login7)

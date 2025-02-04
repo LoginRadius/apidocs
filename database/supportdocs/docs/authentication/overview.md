@@ -8,7 +8,7 @@ For more details on the implementation and deployment of these authentication fe
 
 |Quick Starts <br><span style="font-weight:normal;color:#fff;">Learn and implement the basics</span> |Tutorials <br><span style="font-weight:normal;color:#fff;">Learn and implement authentication features</span>| Concepts <br><span style="font-weight:normal;color:#fff;">Learn the supportive concepts of authentication features</span>| 
 |---|---|---|
-|  [Standard Login](/authentication/quick-start/standard-login/) <br>[Social Login](/authentication/quick-start/social-login/)<br>[Single Sign On](/authentication/quick-start/sso-implementation/)  | [Phone Login](/authentication/tutorial/phone-login/) <br>[One Touch Login](/authentication/tutorial/one-touch-login)<br>[Passwordless Login](/authentication/tutorial/passwordless-login/) <br>[Smart Login](/authentication/tutorial/smart-login/)<br> [Username Login](/authentication/tutorial/username-login/)| [Password Policy](/authentication/concepts/password-policy/)<br>[Email Communication & Configuration](/authentication/concepts/email-communications/)<br> [SMS Provider Configuration](/authentication/concepts/sms-configuration)<br> [Roles, Permissions, and Context](/authentication/concepts/roles-and-membership/)<br>[UI and UX Customization of IDX](/authentication/concepts/ui-ux-customizations-idx/)<br> [Email Verification Workflow](/authentication/concepts/email-verification-workflow/)<br> [Session Management](/authentication/concepts/session-management/)<br>[SMS Communication and Configuration](/authentication/concepts/sms-communication/)<br>[Customer Security](/authentication/concepts/customer-security/)<br>[Progressive Profiling](/authentication/concepts/progressive-profiling/)<br>[Customer Data Management](/authentication/concepts/introduction/) | 
+|  [Standard Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/) <br>[Social Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)<br>[Single Sign On](https://www.loginradius.com/legacy/docs/authentication/quick-start/sso-implementation/)  | [Phone Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/) <br>[One Touch Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/one-touch-login)<br>[Passwordless Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/passwordless-login/) <br>[Smart Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/smart-login/)<br> [Username Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/username-login/)| [Password Policy](https://www.loginradius.com/legacy/docs/authentication/concepts/password-policy/)<br>[Email Communication & Configuration](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/)<br> [SMS Provider Configuration](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-configuration)<br> [Roles, Permissions, and Context](https://www.loginradius.com/legacy/docs/authentication/concepts/roles-and-membership/)<br>[UI and UX Customization of IDX](https://www.loginradius.com/legacy/docs/authentication/concepts/ui-ux-customizations-idx/)<br> [Email Verification Workflow](https://www.loginradius.com/legacy/docs/authentication/concepts/email-verification-workflow/)<br> [Session Management](https://www.loginradius.com/legacy/docs/authentication/concepts/session-management/)<br>[SMS Communication and Configuration](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/)<br>[Customer Security](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-security/)<br>[Progressive Profiling](https://www.loginradius.com/legacy/docs/authentication/concepts/progressive-profiling/)<br>[Customer Data Management](https://www.loginradius.com/legacy/docs/authentication/concepts/introduction/) | 
 
 
 ##Authentication Type 
@@ -39,7 +39,7 @@ It is mostly used in public websites and apps like food delivery, cab services, 
 
 Username Authentication is the process of registering for and accessing an account using a username. While you can request an email address during registration, customers log in using their unique username and password.
 
-The [Username Registration](/authentication/tutorial/username-login/) and Login feature is a prime example of this authentication method. It is particularly useful in applications where identifying customers by their usernames, rather than their real names or other identities, is a requirement.
+The [Username Registration](https://www.loginradius.com/legacy/docs/authentication/tutorial/username-login/) and Login feature is a prime example of this authentication method. It is particularly useful in applications where identifying customers by their usernames, rather than their real names or other identities, is a requirement.
 
 
 ###Social Authentication
@@ -59,7 +59,7 @@ The [Social Login](#sociallogin7) feature is an example of social authentication
 - An optional field with a dropdown menu of specific types of flowers for the users to choose their favorite
 - A field for the user to input their favorite color
 
-Refer to this [document](/authentication/quick-start/standard-login/) to configure the Standard Login feature.
+Refer to this [document](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/) to configure the Standard Login feature.
 
 ###Social Login
 
@@ -73,7 +73,7 @@ Refer to this [document](/authentication/quick-start/standard-login/) to configu
 > **Note:** When users log in with a social provider, the application they are accessing will never have access to the password of their social provider account.
 
 
-Refer to this [document](/authentication/quick-start/social-login/) to configure the Social Login feature.
+Refer to this [document](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/) to configure the Social Login feature.
 
 
 
@@ -85,7 +85,7 @@ Refer to this [document](/authentication/quick-start/social-login/) to configure
 
 In addition, you can allow them to register using their Phone Number and OTP, this way, they don’t have to remember another password to log into your application.
 
-Refer to [this document](/authentication/tutorial/phone-login/) to configure the Phone Login feature.
+Refer to [this document](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/) to configure the Phone Login feature.
 
 ###One Touch Login
 
@@ -100,7 +100,7 @@ While there are a variety of use cases for this type of authentication workflow,
 
 Similarly, the verification link or OTP can be sent on the email instead of Phone Number. Thus, you can utilize this feature as per the business requirements.
 
-Refer to [this document](/authentication/tutorial/one-touch-login) to configure the One Touch Login feature.
+Refer to [this document](https://www.loginradius.com/legacy/docs/authentication/tutorial/one-touch-login) to configure the One Touch Login feature.
 
 ###Passwordless Login
 
@@ -115,7 +115,7 @@ Refer to [this document](/authentication/tutorial/one-touch-login) to configure 
 
 Similarly, instead of the link, an OTP can be sent on the traveler’s phone number. Thus, you can utilize this feature as per the business requirements.
 
-Refer to [this document](/authentication/tutorial/passwordless-login) to configure the Passwordless Login feature.
+Refer to [this document](https://www.loginradius.com/legacy/docs/authentication/tutorial/passwordless-login) to configure the Passwordless Login feature.
 
 ###Smart Login
 
@@ -128,7 +128,7 @@ The Smart Login feature does not require a password and is designed to help you 
 The user opens the email on a mobile or web device and clicks the link within the message. A success message is displayed on the mobile or web device, and simultaneously, the user is authenticated on the Video Channel Service on the TV. This seamless process allows the user to continue enjoying the video channel without the hassle of remembering a password.
 
 
-Refer to [this document](/authentication/tutorial/smart-login/) to configure the Smart Login feature.
+Refer to [this document](https://www.loginradius.com/legacy/docs/authentication/tutorial/smart-login/) to configure the Smart Login feature.
 
 ###Standard and Phone Login Overview
 
@@ -151,7 +151,7 @@ Your customer can verify one or both (Email ID and Phone Number). The verified m
 - If your customer has verified the phone number, the customer can log in by entering the Phone Number and Password.
 - If your customer has verified both email ID and phone number, the customer can log in by entering Email ID OR Phone Number and Password.
 
-Refer to [Advanced Customization](/api/v2/user-registration/advanced-customization#standardandphonelogin18) and [Phone Login Configuration](/authentication/tutorial/phone-login/) documents to configure this workflow.
+Refer to [Advanced Customization](/api/v2/user-registration/advanced-customization#standardandphonelogin18) and [Phone Login Configuration](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/) documents to configure this workflow.
 
 ### Custom Provider Registration
 

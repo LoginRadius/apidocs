@@ -15,7 +15,7 @@ We provide various guides to assist with your app setup, as well as some best pr
 
 3. [Social Provider Limitations:](/development/social-network/social-networks-limitations)
 
-4. [Social Provider Specific Datapoint Retrieval:](/authentication/quick-start/social-login/)advanced-social-points-data-points
+4. [Social Provider Specific Datapoint Retrieval:](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)advanced-social-points-data-points
 
 5. [Social Provider Image Sizes:](/development/social-network/social-networks-image-size)
 

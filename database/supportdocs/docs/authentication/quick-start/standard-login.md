@@ -223,14 +223,14 @@ On executing the above deployment steps, you will see obtained customer profile 
 
  The following is the list of features you might want to add to the above implementation:
 
-[Setup Password Policy ](/authentication/concepts/password-policy/)
+[Setup Password Policy ](https://www.loginradius.com/legacy/docs/authentication/concepts/password-policy/)
 
-[Setup Email workflows ](/authentication/concepts/email-communications/)
+[Setup Email workflows ](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/)
 
-[Setup Social Login ](/authentication/quick-start/social-login/)
+[Setup Social Login ](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)
 
-[Implement SSO](/authentication/quick-start/sso-implementation/)
+[Implement SSO](https://www.loginradius.com/legacy/docs/authentication/quick-start/sso-implementation/)
 
-[UI and UX customizations of IDX pages](/authentication/concepts/ui-ux-customizations-idx/)
+[UI and UX customizations of IDX pages](https://www.loginradius.com/legacy/docs/authentication/concepts/ui-ux-customizations-idx/)
 
 [Calling LoginRadius APIs](/api/)

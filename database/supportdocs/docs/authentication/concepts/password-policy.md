@@ -116,7 +116,7 @@ The following screen displays that the Common Password Protection option is enab
 
 ![Common Password Protection](https://apidocs.lrcontent.com/images/CPP-1_190041019566844be1101099.51205717.png "Common Password Protection")
 
-> **Note:** You can refer to this [document](/authentication/concepts/common-password/) for a common password list maintained by LoginRadius and this list is dynamic and it gets updated from time to time.
+> **Note:** You can refer to this [document](https://www.loginradius.com/legacy/docs/authentication/concepts/common-password/) for a common password list maintained by LoginRadius and this list is dynamic and it gets updated from time to time.
 
 ### Dictionary Password Prevention
 
@@ -182,9 +182,9 @@ The following screen appears:
 ![Password Hashing Algorithm](https://apidocs.lrcontent.com/images/PHA-1_156902497066848e411d9b84.30812792.png "Password Hashing Algorithm")
 
 
-For more details on password hashing, password salting and upgrading the hashing algorithms , you can refer to [this document](/authentication/concepts/password-hashing-and-salting/).
+For more details on password hashing, password salting and upgrading the hashing algorithms , you can refer to [this document](https://www.loginradius.com/legacy/docs/authentication/concepts/password-hashing-and-salting/).
 
-If you want to change the Hashing Algorithm, click the **REQUEST CHANGE** button and raise the support ticket. [This document](/authentication/concepts/password-hashing-and-salting/) explains how LoginRadius will handle hashing of existing and new customers password in case of hashing algorithm upgrade.
+If you want to change the Hashing Algorithm, click the **REQUEST CHANGE** button and raise the support ticket. [This document](https://www.loginradius.com/legacy/docs/authentication/concepts/password-hashing-and-salting/) explains how LoginRadius will handle hashing of existing and new customers password in case of hashing algorithm upgrade.
 
 ## Part 7 - Password Visibility
 
@@ -236,8 +236,8 @@ Once you have selected the events as per your requirements, click on the **Save*
 
 The following is the list of features you might want to add-on to the above implementation:
 
-[Session Management](/authentication/concepts/session-management/)
+[Session Management](https://www.loginradius.com/legacy/docs/authentication/concepts/session-management/)
 
-[Customer Security](/authentication/concepts/customer-security/)
+[Customer Security](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-security/)
 
 

@@ -100,8 +100,8 @@ These settings act as a global setting. However, you can still independently cha
 
 The following is the list of features you might want to add-on to the above implementation:
 
-- [Email Communications](/authentication/concepts/email-communications/)
+- [Email Communications](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/)
 
-- [Standard Login](/authentication/quick-start/standard-login/)
+- [Standard Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/)
 
-- [Social Login](/authentication/quick-start/social-login/)
+- [Social Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)

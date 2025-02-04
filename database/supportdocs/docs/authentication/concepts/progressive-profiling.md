@@ -37,7 +37,7 @@ The following screen will appear:
 ![Edit fields](https://apidocs.lrcontent.com/images/pp4_286485e86535a0c88a8.74786788.png "progressive profiling")
 
 
-**Step 4:** All the fields available in the [**data schema**](/authentication/quick-start/standard-login/) will be displayed, as highlighted in the following screen:
+**Step 4:** All the fields available in the [**data schema**](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/) will be displayed, as highlighted in the following screen:
 
 ![data schema](https://apidocs.lrcontent.com/images/pp5_233065e8653d8c06c58.49104814.png "progressive profiling")
 
@@ -62,7 +62,7 @@ The **Custom Fields** panel allows you to add custom fields available in your ac
 
 
 
-> **Note:** For more information and field configuration settings, refer to this [document](/authentication/quick-start/standard-login/).
+> **Note:** For more information and field configuration settings, refer to this [document](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/).
 
 **Step 6:** Click the **Save** button to save the configurations, as highlighted in the following screen:
 
@@ -270,7 +270,7 @@ The following is the list of features you might want to add-on to the above impl
 
 [JS Customizations](/api/v2/deployment/js-libraries/getting-started/#login7)
 
-[Customer Data Management](/authentication/concepts/introduction/)
+[Customer Data Management](https://www.loginradius.com/legacy/docs/authentication/concepts/introduction/)
 
 
 

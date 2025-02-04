@@ -16,4 +16,4 @@ Search and manage the list of customers who have been blocked from logging into 
 
 ## Search Customers
 
-In this section, choose from a number of different fields to [search for customers](/customer-management/search-customers). There are standard fields such as name or email address. You can also choose customized fields particular to your use case, such as company ID or newsletter. These fields correspond to those data points that are specified in the Data Schema section (see [Standard Login](/authentication/quick-start/standard-login/) for more information).
+In this section, choose from a number of different fields to [search for customers](/customer-management/search-customers). There are standard fields such as name or email address. You can also choose customized fields particular to your use case, such as company ID or newsletter. These fields correspond to those data points that are specified in the Data Schema section (see [Standard Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/) for more information).

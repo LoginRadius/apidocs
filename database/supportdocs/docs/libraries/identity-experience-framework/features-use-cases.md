@@ -18,7 +18,7 @@ This document will take you through configuring all available LoginRadius featur
 
 ## Phone Authentication
 
-It may be useful to tie the accounts to a phone number, such as when your main product is a mobile app and you want your users to go through a registration process. In this case, allowing them to register by providing a phone number and password for registration as opposed to an email and password might be a better experience. You can find the settings on the Admin Console, follow the Phone Login Configuration document [here](/authentication/tutorial/phone-login/).
+It may be useful to tie the accounts to a phone number, such as when your main product is a mobile app and you want your users to go through a registration process. In this case, allowing them to register by providing a phone number and password for registration as opposed to an email and password might be a better experience. You can find the settings on the Admin Console, follow the Phone Login Configuration document [here](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/).
 
 Phone Authentication is disabled by default in the LoginRadius Admin Console. To enable this feature please contact <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
 

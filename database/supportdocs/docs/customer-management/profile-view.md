@@ -4,7 +4,7 @@ This guide will take you through searching the customers registered in your Logi
 
 Search Customers screen displays the list of the customers registered in your account. You can filter or search the customers based on the search parameters available in the dropdown. The fields mainly used as search parameters are Name, Email Address, UID, ID, PhoneID.
 
-> **Note:** You can update these search parameters or fields by adding the custom fields in the Standard Login [Data Schema](/authentication/quick-start/standard-login/) section.
+> **Note:** You can update these search parameters or fields by adding the custom fields in the Standard Login [Data Schema](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/) section.
 
 The following explains how you can search and manage the customers registered in your application:
 
@@ -31,7 +31,7 @@ Search results are filtered based on the following:
 
 You need to enter the customer details in the textbox based on the fields selected from above.
 
-> **Note:** You can update the search parameters(fields) by adding the custom fields in the Standard Login [Data Schema](/authentication/quick-start/standard-login/) section.
+> **Note:** You can update the search parameters(fields) by adding the custom fields in the Standard Login [Data Schema](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/) section.
 
 From step 3 it will explain you can **Manage** the customers registered in your application.
 
@@ -71,7 +71,7 @@ You can view the following customer information, as highlighted in the **left** 
 - **Account Info** - This contains information like ID, Full name, Emails(Primary and Secondary), Email Verified, and ExternalIds.
 
 - **Security** - Security section contains the information like Last Password Change Date, Password Expiration Date, Last Password Change Token, Is Deleted, Is Login Locked, Disable Login.
-- **Roles** - From this section, you can configure the **Context** for your application after selecting the created **Roles**. Refer to this [document](/authentication/concepts/roles-and-membership/#partrolesandpermissionsconfiguration0) for detailed information regarding the configuration.
+- **Roles** - From this section, you can configure the **Context** for your application after selecting the created **Roles**. Refer to this [document](https://www.loginradius.com/legacy/docs/authentication/concepts/roles-and-membership/#partrolesandpermissionsconfiguration0) for detailed information regarding the configuration.
 - **Activity** - This section provides you with the customer login information like whether the account is active or not which you can identify by the field **Is Active**, other details like Last Login Date, Last Login Location, No Of Logins, and the Modified Date. 
 - **Insights** - This section contains information like account Created Data, Signup Date, Registration source, Signup Log, and User-Agent.
 - **Profile Info** - This contains the customer information like Full name, Last name, Prefix, Suffix, Phone numbers, Addresses, Time Zone, Birth data, and Age. You can update these customer details from this section.

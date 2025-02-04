@@ -314,4 +314,4 @@ The section will take you through the ways to automate and customize the email v
 - **Optional Email Verification**: Your customers will receive an email verification link on successful registration. However, the email id verification will be optional to access the account on your application.
 - **No Email Verification**: Your customers will not receive an verification email on successful registration and can access their account post registration.
 
-> To know more about the working and configuration of the Email Workflows, you can refer to [this document](/authentication/concepts/email-verification-workflow/).
+> To know more about the working and configuration of the Email Workflows, you can refer to [this document](https://www.loginradius.com/legacy/docs/authentication/concepts/email-verification-workflow/).

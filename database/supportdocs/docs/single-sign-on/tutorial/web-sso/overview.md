@@ -467,7 +467,7 @@ LRObject.init("ssoNotLoginThenLogout", options);
 
 ## Part 4 - Next Steps
 
-[Setup Social Login](/authentication/quick-start/social-login/)
+[Setup Social Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)
 
 [Federated SSO](/single-sign-on/tutorial/federated-sso/overview/)
 

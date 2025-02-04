@@ -14,7 +14,7 @@ LoginRadius Identity Platform allows you to implement the Passwordless Login fea
 
 2. [**Passwordless Login with OTP:**](#passwordlessloginwithotp4) A verification OTP is sent to the customer’s phone number and the OTP verification will log the customer into the account.
 
->**Note:** Passwordless Login with OTP will work only if the [Phone Login](/authentication/tutorial/phone-login/) feature is enabled. If you have both email and phone login feature implemented, you can utilize both the passwordless login options.
+>**Note:** Passwordless Login with OTP will work only if the [Phone Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/) feature is enabled. If you have both email and phone login feature implemented, you can utilize both the passwordless login options.
 
 
 ## Passwordless Login Guide
@@ -93,7 +93,7 @@ The following screen will appear:
 
 ![enter image description here](https://apidocs.lrcontent.com/images/Passwordless-Login---LoginRadius-User-Dashboard-3-1_285625e76291b50bc02.69139203.png "enter image title here")
 
-You can perform actions such as **Add Template**, **Edit Template**, and **Delete Template** by taking our [Phone Login](/authentication/tutorial/phone-login/) Template setting document as a reference.
+You can perform actions such as **Add Template**, **Edit Template**, and **Delete Template** by taking our [Phone Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/) Template setting document as a reference.
 
 >**Note:** You can only delete the new template(s) that you have created i.e. you will not be able to delete the default template.
 
@@ -316,13 +316,13 @@ For details regarding **Passwordless Login API**, kindly refer this [**document*
 
 ## Part 3 - Next Steps 
 
-[Global Email settings](/authentication/concepts/email-communications#partglobalemailsettings5)
+[Global Email settings](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications#partglobalemailsettings5)
 
-[Email Template Management](/authentication/concepts/email-communications/#partemailtemplates6)
+[Email Template Management](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partemailtemplates6)
 
-[Phone Login Template setting document](/authentication/tutorial/phone-login/)
+[Phone Login Template setting document](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/)
 
-[SMS Configuration](/authentication/concepts/sms-configuration/)
+[SMS Configuration](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-configuration/)
 
 [JS Customizations](/api/v2/deployment/js-libraries/getting-started/#login7)
 

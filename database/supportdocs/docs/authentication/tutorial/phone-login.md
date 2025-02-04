@@ -61,7 +61,7 @@ The following screen will display the above-explained **Settings** and **Validat
 
 You can also include other desired fields to the registration form. For more details, refer to the following:
 
-[Registration Form Fields Configurations](/authentication/quick-start/standard-login/)
+[Registration Form Fields Configurations](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/)
 
 Once your customer is registered by providing the Phone Number, a verification OTP is sent on the phone number. The default **OTP Settings** and **SMS Templates** are used for sending the verification OTP. **Step 2** and **Step 3** respectively explain how you can manage them as per your requirements.
 
@@ -161,7 +161,7 @@ The following are the predefined placeholders that you can use in the SMS conten
  * #Email#: Email address from the registered user's profile.
 ```
 
-> **Note:** For details around SMS Gateway Configurations, refer to [SMS Provider documentation](/authentication/concepts/sms-configuration/).
+> **Note:** For details around SMS Gateway Configurations, refer to [SMS Provider documentation](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-configuration/).
 
 ## Part 2 - Deployment 
 
@@ -383,11 +383,11 @@ LRObject.init("login",login_options);
 
 The following is the list of features you might want to add-on to the above implementation:
 
-[Passwordless Login](/authentication/tutorial/passwordless-login)
+[Passwordless Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/passwordless-login)
 
-[SMS Communication](/authentication/concepts/sms-communication/)
+[SMS Communication](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/)
 
-[UI and UX customizations of IDX pages](/authentication/concepts/ui-ux-customizations-idx/)
+[UI and UX customizations of IDX pages](https://www.loginradius.com/legacy/docs/authentication/concepts/ui-ux-customizations-idx/)
 
 [Setup Password Policy](/api/v2/admin-console/platform-security/password-policy/)
 

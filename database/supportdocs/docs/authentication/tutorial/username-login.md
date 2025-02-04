@@ -44,7 +44,7 @@ and select the **User Name** field from the Standard Fields (Basic) section on t
 
 You can also include other desired fields to the registration form. For more details, refer to the following:
 
-> [Registration Form Fields Configurations](/authentication/quick-start/standard-login/#partconfiguration1)
+> [Registration Form Fields Configurations](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/#partconfiguration1)
 
 **Step 2:** To allow your customers to login only via the Username feature, in that case you should make the Username field mandatory for your customers during the registration process.
 
@@ -175,7 +175,7 @@ The following displays the Identity Experience Framework Login page with enabled
 
 The following is the list of features you might want to add-on to the above implementation:
 
-[Smart Login](/authentication/tutorial/smart-login/)
+[Smart Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/smart-login/)
 
 [Auth Security](/api/v2/admin-console/platform-security/auth-security-configuration/#auth-security)
 

@@ -32,8 +32,8 @@ TThe following steps explain the working of SMS communication in the LoginRadius
 
 Now let's go through the other aspects of SMS configuration, which are **Global SMS/Text/Voice OTP Settings** and **SMS Template Settings**, which are available in the **LoginRadius Admin Console**.
 
-- [**Global SMS/Text/Voice OTP Settings:**](/authentication/concepts/sms-communication/#partglobalsmstextvoiceotpsettings0)  You can customize various global SMS settings like OTP length, OTP type, and more.
-- [**SMS Templates:**](/authentication/concepts/sms-communication/#partsmstemplatesettings1) You can view the existing list of default SMS templates available for various events like phone number registration, forgot password, and more. In addition, you can manage existing SMS templates or create a new SMS template based on the requirements.
+- [**Global SMS/Text/Voice OTP Settings:**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#partglobalsmstextvoiceotpsettings0)  You can customize various global SMS settings like OTP length, OTP type, and more.
+- [**SMS Templates:**](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#partsmstemplatesettings1) You can view the existing list of default SMS templates available for various events like phone number registration, forgot password, and more. In addition, you can manage existing SMS templates or create a new SMS template based on the requirements.
 
 ## Part 1 - Global SMS/Text/Voice OTP Settings
 
@@ -87,18 +87,18 @@ The following screen displays the above settings configured for the **Phone Numb
 
 The SMS Templates are available with their respective feature in the LoginRadius Admin Console. Each SMS Template has the following customization options available:
 
-- [Edit Template](/authentication/concepts/sms-communication/#edittemplate3)
-- [Add Template](/authentication/concepts/sms-communication/#addtemplate4)
-- [Delete Template](/authentication/concepts/sms-communication/#deletetemplate5)
-- [Reset Template](/authentication/concepts/sms-communication/#resettemplate6)
+- [Edit Template](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#edittemplate3)
+- [Add Template](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#addtemplate4)
+- [Delete Template](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#deletetemplate5)
+- [Reset Template](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#resettemplate6)
 
-While adding or editing the content of SMS templates, you can also use predefined [placeholder tags](/authentication/concepts/sms-communication/#placeholdertags7).
+While adding or editing the content of SMS templates, you can also use predefined [placeholder tags](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#placeholdertags7).
 
 The following explains how you can manage the SMS templates available in the LoginRadius Admin Console: 
 
 #### Edit Template
 
-For all SMS templates, you can edit the content or add/update [placeholders](/authentication/concepts/sms-communication/#placeholdertags7) as explained below:
+For all SMS templates, you can edit the content or add/update [placeholders](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#placeholdertags7) as explained below:
 
 Select the desired template from the left navigation panel and click the **Edit Template** button. For example, to edit the **Phone Number Verification** template, select it from the left navigation panel and then click the **Edit** button. 
 
@@ -106,9 +106,9 @@ The following screen will appear in edit mode:
 
 ![SMS Communication and Configuration](https://apidocs.lrcontent.com/images/smsedit_87025e81317aeb07a0.12905932.png "SMS Communication and Configuration")
 
- In the **SMS CONTENT** section, you can update the given text or use [Placeholder Tags](/authentication/concepts/sms-communication/#placeholdertags7) from the predefined list. Save the template once you are done with the updates.
+ In the **SMS CONTENT** section, you can update the given text or use [Placeholder Tags](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-communication/#placeholdertags7) from the predefined list. Save the template once you are done with the updates.
 
-Similarly, you can manage SMS templates available for other features like [Passwordless Login](/authentication/tutorial/passwordless-login), [One Touch Login](/authentication/tutorial/one-touch-login/), [Multi-Factor Authentication](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/multi-factor-auth/#multi-factor-authentication-configuration) and more.
+Similarly, you can manage SMS templates available for other features like [Passwordless Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/passwordless-login), [One Touch Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/one-touch-login/), [Multi-Factor Authentication](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/multi-factor-auth/#multi-factor-authentication-configuration) and more.
 
 #### Add Template
 

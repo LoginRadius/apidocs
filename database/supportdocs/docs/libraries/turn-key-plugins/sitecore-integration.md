@@ -81,11 +81,11 @@ Using LoginRadius CIAM, you can achieve different Auth workflows like Email Regi
 
 LoginRadius CIAM provides various methods of login
 
-- [Standard Login](/authentication/quick-start/standard-login/)
-- [Phone Login](/authentication/tutorial/phone-login/)
-- [Social Login](/authentication/quick-start/social-login/)
-- [Smart Login](/authentication/tutorial/smart-login/)
-- [One Touch Login](/authentication/tutorial/one-touch-login/)
+- [Standard Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/standard-login/)
+- [Phone Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/)
+- [Social Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)
+- [Smart Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/smart-login/)
+- [One Touch Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/one-touch-login/)
 
 ### 3. Data Sync
 

@@ -30,7 +30,7 @@ To enable this feature for your application, you will need to raise a [Support t
 
 ### Configure Email Provider (Global Configuration)
 
-There is no need to follow this step if the SMTP provider is already set up in Email Configuration. If the SMTP provider is not already set up, then you will need to configure the SMTP provider first. To configure the SMTP provider you can refer to this [document](/authentication/concepts/email-communications/#partsmtpconfiguration1).
+There is no need to follow this step if the SMTP provider is already set up in Email Configuration. If the SMTP provider is not already set up, then you will need to configure the SMTP provider first. To configure the SMTP provider you can refer to this [document](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/#partsmtpconfiguration1).
 
 ### Customize the Email Template
 

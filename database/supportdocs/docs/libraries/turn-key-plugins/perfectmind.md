@@ -214,7 +214,7 @@ if (access_token && queryString.loginflow && queryString.loginflow == 'PMCMS') {
 
 IDX(basic) theme allows you to customize IDX interfaces leveraging UX in the IDX. Please see the following documents on the basic theme :
 
-- [Identity Experience Framework](/authentication/concepts/ui-ux-customizations-idx/#basictheme0)
+- [Identity Experience Framework](https://www.loginradius.com/legacy/docs/authentication/concepts/ui-ux-customizations-idx/#basictheme0)
 - [Identity Experience Framework Customizations](/libraries/identity-experience-framework/customization/#basicthemeeditor18)
 
 The basic theme calls the callback functions on successful events, e.g., login, registration, etc. You need to call LoginRadius Perfectmind SSO API in the callback function and assign this callback function in the initialized LRObject call. This will execute your code based on the events e.g. login.

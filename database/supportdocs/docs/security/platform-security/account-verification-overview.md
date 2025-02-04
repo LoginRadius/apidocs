@@ -13,7 +13,7 @@ When a customer provides an email address at registration, we have two ways to v
 
 2. **One Time Password (OTP)**: Our system sends a One Time Passcode (OTP) to the registered email address and the customer will be  prompted to enter the OTP for system validation.
 
-> **Note**: LoginRadius supports various [email verification workflows](/authentication/concepts/email-verification-workflow/). Based on workflows, there are different validation processes.
+> **Note**: LoginRadius supports various [email verification workflows](https://www.loginradius.com/legacy/docs/authentication/concepts/email-verification-workflow/). Based on workflows, there are different validation processes.
 
 - For **No Email Verification**, no account verification is required.
 - For **Optional Email Verification**, account verification is optional.

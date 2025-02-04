@@ -21,4 +21,4 @@ By default, these progressive fields are available only at the first invocation,
 
   
 
-For more detail information regarding the configuration of Progressive Profiling and how it works you can refer to this [**document**](/authentication/concepts/progressive-profiling/).
+For more detail information regarding the configuration of Progressive Profiling and how it works you can refer to this [**document**](https://www.loginradius.com/legacy/docs/authentication/concepts/progressive-profiling/).

@@ -2,7 +2,7 @@
 
 [Tencent Captcha](https://open.captcha.qq.com/) is a popular China-based CAPTCHA service. It is part of Tencent QQ owned by the Chinese technology giant Tencent Holdings Limited. QQ also offers services that provide online social games, music, shopping, microblogging, movies, and group and voice chat software. This section describes configuring a Tencent Captcha with LoginRadius.
 
-For more conceptual information on the Tencent CAPTCHA, refer to the documentation [here](/authentication/concepts/customer-security/#partcaptcha0).
+For more conceptual information on the Tencent CAPTCHA, refer to the documentation [here](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-security/#partcaptcha0).
 
 ## Configuration
 

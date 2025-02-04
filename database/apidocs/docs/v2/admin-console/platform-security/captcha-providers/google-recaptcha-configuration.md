@@ -2,7 +2,7 @@
 
 [Google reCAPTCHA](https://www.google.com/recaptcha/about/) is a popular CAPTCHA-like system that provides bot protection for websites introduced on May 27, 2007. Currently, LoginRadius supports both v2 and v3 Google reCAPTCHAs and this section covers configuring the different Google reCAPTCHAs with your LoginRadius implementation.
 
-For more conceptual information on the Google reCAPTCHA, refer to the documentation [here](/authentication/concepts/customer-security/#partcaptcha0).
+For more conceptual information on the Google reCAPTCHA, refer to the documentation [here](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-security/#partcaptcha0).
 
 ## Configuration
 

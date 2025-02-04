@@ -12,7 +12,7 @@ A LoginRadius Site License encompasses the following:
 
 - A unique LoginRadius [site name](/api/v2/admin-console/deployment/get-site-app-name)
 - A dedicated LoginRadius [Cloud Directory](/api/v2/cloud-directory-api/overview) database instance
-- A single set of LoginRadius configurations and [social provider apps](/authentication/quick-start/social-login/)
+- A single set of LoginRadius configurations and [social provider apps](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)
 - A single user base that will be shared across all registered digital properties
 
 Let's say that the LoginRadius Operations Team has provisioned you one LoginRadius Site, and this site has been called "CompanyName".

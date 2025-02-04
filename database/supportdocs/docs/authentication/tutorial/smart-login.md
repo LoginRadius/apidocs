@@ -60,8 +60,8 @@ The LoginRadius Identity Platform supports a variety of implementation methodolo
 
 This guide focuses on the following deployment methods:
 
-- [Identity Experience Framework](/authentication/tutorial/smart-login/#idxdeployment4)
-- [JavaScript Libraries](/authentication/tutorial/smart-login/#javascriptdeployment5) 
+- [Identity Experience Framework](https://www.loginradius.com/legacy/docs/authentication/tutorial/smart-login/#idxdeployment4)
+- [JavaScript Libraries](https://www.loginradius.com/legacy/docs/authentication/tutorial/smart-login/#javascriptdeployment5) 
 
 However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here:](/api/v2/getting-started/implementation-workflows/)
 
@@ -227,10 +227,10 @@ smartLogin : "Click Me"
 
 ## Part 3 - Next Steps
 
-[One-Touch Login](/authentication/tutorial/one-touch-login/)
+[One-Touch Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/one-touch-login/)
 
-[Passwordless Login](/authentication/tutorial/passwordless-login/)
+[Passwordless Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/passwordless-login/)
 
-[Phone Login](/authentication/tutorial/phone-login/)
+[Phone Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/)
 
-[Email Communications](/authentication/concepts/email-communications/)
+[Email Communications](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/)

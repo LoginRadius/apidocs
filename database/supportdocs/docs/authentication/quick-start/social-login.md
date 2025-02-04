@@ -208,7 +208,7 @@ xhr.send();
 </script>
 ```
 
-> **Note:** Once a consumer logs in through a configured social provider, account linking is handled at LoginRadius end, for more details around Account Linking you can refer to this [document](/authentication/faq/account-linking/).
+> **Note:** Once a consumer logs in through a configured social provider, account linking is handled at LoginRadius end, for more details around Account Linking you can refer to this [document](https://www.loginradius.com/legacy/docs/authentication/faq/account-linking/).
 
 &nbsp;
 
@@ -220,16 +220,16 @@ The following is the list of features you might need to add-on to the above impl
 
 [Multiple Social Apps](/api/v2/admin-console/social-provider/multiple-social-apps/)
 
-[Implement SSO](/authentication/quick-start/sso-implementation/)
+[Implement SSO](https://www.loginradius.com/legacy/docs/authentication/quick-start/sso-implementation/)
 
 [Apple Sign In](/api/v2/single-sign-on/custom-identity-providers/providers/apple/)
 
-[Setup Email workflows](/authentication/concepts/email-communications/)
+[Setup Email workflows](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/)
 
-[Session Management](/authentication/concepts/session-management/)
+[Session Management](https://www.loginradius.com/legacy/docs/authentication/concepts/session-management/)
 
-[UI and UX customizations of IDX](/authentication/concepts/ui-ux-customizations-idx/)
+[UI and UX customizations of IDX](https://www.loginradius.com/legacy/docs/authentication/concepts/ui-ux-customizations-idx/)
 
 [JS Customization](/api/v2/deployment/js-libraries/getting-started/)
 
-[Customer Security](/authentication/concepts/customer-security/)
+[Customer Security](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-security/)

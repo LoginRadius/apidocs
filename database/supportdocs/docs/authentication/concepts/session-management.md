@@ -95,7 +95,7 @@ The following screen will appear:
 
 > **Note:** 
 > - The **Remember Me** expiration token time should always be less than the **Access Token** expiration time.
-> - You can deploy the Remember Me feature on your IDX (Hosted) as explained [here](/authentication/concepts/ui-ux-customizations-idx/).
+> - You can deploy the Remember Me feature on your IDX (Hosted) as explained [here](https://www.loginradius.com/legacy/docs/authentication/concepts/ui-ux-customizations-idx/).
 
 The following displays the Identity Experience Framework page with the **Remember Me** button:
 
@@ -127,11 +127,11 @@ In all scenarios, if a user tries to exceed their session limit, they will be no
 
 The following is the list of features you might want to add-on to the above implementation:
 
-[Password Policy](/authentication/concepts/password-policy/)
+[Password Policy](https://www.loginradius.com/legacy/docs/authentication/concepts/password-policy/)
 
-[Roles and Permission](/authentication/concepts/roles-and-membership)
+[Roles and Permission](https://www.loginradius.com/legacy/docs/authentication/concepts/roles-and-membership)
 
-[Customer Security](/authentication/concepts/customer-security/)
+[Customer Security](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-security/)
 
 
 

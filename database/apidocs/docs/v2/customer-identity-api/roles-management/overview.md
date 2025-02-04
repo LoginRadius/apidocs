@@ -26,13 +26,13 @@ The role is the title given to the set of Permissions you will grant the user. A
 
 Permissions are used to define what type of permissions you want to grant each role.
 
-For the Admin Console Configuration of Roles and Permission you can refer to this [document.](/authentication/concepts/roles-and-membership/#partrolesandpermissionsconfiguration0)  
+For the Admin Console Configuration of Roles and Permission you can refer to this [document.](https://www.loginradius.com/legacy/docs/authentication/concepts/roles-and-membership/#partrolesandpermissionsconfiguration0)  
 
 ## Context
 
 Contexts in our APIs are essentially containers/data storage for custom roles and permissions.
   
-For the Admin Console Configuration of Conntext you can refer to this [document.](/authentication/concepts/roles-and-membership/#partcontextconfiguration4)
+For the Admin Console Configuration of Conntext you can refer to this [document.](https://www.loginradius.com/legacy/docs/authentication/concepts/roles-and-membership/#partcontextconfiguration4)
 
 ### LoginRadius API usage for Roles and Permissions
 

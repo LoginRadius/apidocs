@@ -22,7 +22,7 @@ The following aspects of customer security are available in the LoginRadius Iden
 
 > **Note:** The **Account APIs** utilize the API secret and have **management capabilities**. These are usually leveraged for backend processes; hence, they do not comply with the security settings in the Admin Console. For example, Even if you have set restrictions on certain domains under the [Platform Security > Account Protection > Auth Security > Access Restriction](https://adminconsole.loginradius.com/platform-security/account-protection/auth-security/access-restriction) section, you can still create an account with those blacklisted domains using the Account Create API.
 
-For more security aspects supported by LoginRadius Identity Platform, you can refer to the [Session Management](/authentication/concepts/session-management/) and [Password Policy](/authentication/concepts/password-policy) documents.
+For more security aspects supported by LoginRadius Identity Platform, you can refer to the [Session Management](https://www.loginradius.com/legacy/docs/authentication/concepts/session-management/) and [Password Policy](https://www.loginradius.com/legacy/docs/authentication/concepts/password-policy) documents.
 
 > **Pre-requisites**: Basic knowledge of HTML and JavaScript.
 
@@ -122,7 +122,7 @@ The LoginRadius Identity Platform supports the following four lockout types:
 
 To handle this further, you can implement the logic in your application, for the scenario, where the security question is answered wrong by the customer.
 
-- **Block:** Select this option to block the customer, on reaching the failed login attempt threshold. It will prevent the customer from logging in until unblocked by your admin team. Blocked customers can be managed from the [Profile Management](/authentication/concepts/customer-management/#partblockedcustomers1) tab.
+- **Block:** Select this option to block the customer, on reaching the failed login attempt threshold. It will prevent the customer from logging in until unblocked by your admin team. Blocked customers can be managed from the [Profile Management](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-management/#partblockedcustomers1) tab.
 
 > **Note:** If a customer did not reach the **Brute Force Lockout Threshold** and logged in successfully, the API's counter for the failed login attempts will be reset to zero automatically.
 
@@ -186,6 +186,6 @@ The following screen will appear:
 
 The following is the list of features you might want to add-on to the above implementation:
 
-[Session Management](/authentication/concepts/session-management/)
+[Session Management](https://www.loginradius.com/legacy/docs/authentication/concepts/session-management/)
 
-[Password Policy](/authentication/concepts/password-policy/)
+[Password Policy](https://www.loginradius.com/legacy/docs/authentication/concepts/password-policy/)
