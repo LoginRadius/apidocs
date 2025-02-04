@@ -32,7 +32,7 @@ Login Radius maintains standards in in safeguarding data and enhancing informati
 
 The European Union’s General Data Protection Regulation (GDPR) became effective as of May 2018. This regulation was a concerted effort to give individuals more control over their data and to create a business ecosystem with equal standards for businesses operating within the EU.
 
-With LoginRadius, you don’t need to compromise your business goals to remain compliant with GDPR. We provide a number of methods that respect those standards relevant for authentication, such as the nature of consent and the right to be forgotten. One example is the [LoginRadius Privacy Policy Versioning tool](/governance/customer-profiling/privacy-policy/#privacy-policy-versioning), whereby you can easily provide updated privacy policy versions and track which version your customers have opted into.
+With LoginRadius, you don’t need to compromise your business goals to remain compliant with GDPR. We provide a number of methods that respect those standards relevant for authentication, such as the nature of consent and the right to be forgotten. One example is the [LoginRadius Privacy Policy Versioning tool](https://www.loginradius.com/legacy/docs/governance/customer-profiling/privacy-policy/#privacy-policy-versioning), whereby you can easily provide updated privacy policy versions and track which version your customers have opted into.
 
 ## Age Verification
 

@@ -9,15 +9,15 @@ LoginRadius promotes and encourages our customer to comply with the social netwo
 
 We provide various guides to assist with your app setup, as well as some best practices and informational documents: 
 
-1. [Configuring Social Provider Apps:](/api/v2/admin-console/social-provider/configure-social-apps/)
+1. [Configuring Social Provider Apps:](https://www.loginradius.com/legacy/docs/api/v2/admin-console/social-provider/configure-social-apps/)
 
-2. [Common Questions:](/development/social-network/social-provider-faqs)
+2. [Common Questions:](https://www.loginradius.com/legacy/docs/development/social-network/social-provider-faqs)
 
-3. [Social Provider Limitations:](/development/social-network/social-networks-limitations)
+3. [Social Provider Limitations:](https://www.loginradius.com/legacy/docs/development/social-network/social-networks-limitations)
 
 4. [Social Provider Specific Datapoint Retrieval:](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)advanced-social-points-data-points
 
-5. [Social Provider Image Sizes:](/development/social-network/social-networks-image-size)
+5. [Social Provider Image Sizes:](https://www.loginradius.com/legacy/docs/development/social-network/social-networks-image-size)
 
 ## Major Social Network Privacy Policies
 Below we go over some of the most popular social providers globally and the specific considerations and documentation around them
@@ -30,7 +30,7 @@ Facebook is one of the more regulated social providers and requires you to go th
 - Restricts access to advanced graph APIs
 - Provides limited access to a user's friends data.
 
-LoginRadius provides all of the guidelines and hosts the Facebook application for you. We also have a step-by-step process on how to obtain app approval from Facebook, which is detailed in the following link: [Facebook App Approval](/development/social-network/facebook-app-review)
+LoginRadius provides all of the guidelines and hosts the Facebook application for you. We also have a step-by-step process on how to obtain app approval from Facebook, which is detailed in the following link: [Facebook App Approval](https://www.loginradius.com/legacy/docs/development/social-network/facebook-app-review)
 
 For further details, please refer to the following:
 
@@ -43,7 +43,7 @@ Twitter has the most flexible platform and once you sign up for a developer acco
 - Restricts access to email
 - Restricts access to push notifications and direct messaging.
 
-In order to retrieve the email of your Twitter users, you will need first to request the access to this from Twitter. Please refer to this link for details: [Twitter Email Access Request](/api/v2/admin-console/social-provider/app-reviews/twitter-app-review#howtorequestemailaddressesfromtwitter0)
+In order to retrieve the email of your Twitter users, you will need first to request the access to this from Twitter. Please refer to this link for details: [Twitter Email Access Request](https://www.loginradius.com/legacy/docs/api/v2/admin-console/social-provider/app-reviews/twitter-app-review#howtorequestemailaddressesfromtwitter0)
 
 If you need more details, please refer to the following:
 - Twitter Platform Terms of use: https://dev.twitter.com/overview/terms
@@ -62,7 +62,7 @@ In the past year, LinkedIn has improved the security around accessing their APIs
 - Restricts access to share and push notification APIs
 - Restricts access to work history, education, and other professional information and you need to comply with Supported Use cases in order to access the Partner program for this data.
 
-In order to extend your access and LinkedIn permission, you will need to either request additional access or join their partner program. You can follow the guide below to walk you through the application process: [LinkedIn App Review](/api/v2/admin-console/social-provider/app-reviews/linkedin-app-review#howtorequestemailaddressesfromtwitter0)
+In order to extend your access and LinkedIn permission, you will need to either request additional access or join their partner program. You can follow the guide below to walk you through the application process: [LinkedIn App Review](https://www.loginradius.com/legacy/docs/api/v2/admin-console/social-provider/app-reviews/linkedin-app-review#howtorequestemailaddressesfromtwitter0)
 
 For more details on LinkedIn’s policies and privacy agreements please see the below links:
 - LinkedIn API Terms and Conditions: https://developer.linkedin.com/legal/api-terms-of-use

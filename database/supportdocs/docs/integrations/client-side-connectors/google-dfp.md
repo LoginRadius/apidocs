@@ -16,8 +16,8 @@ DFP provides a number of useful features to help you maximize your revenue. One 
 To begin, you will need to set up the following accounts:
 
 a. A Google DFP account (which also requires a Google AdSense account)
-b. A LoginRadius user account ([how to setup?](/getting-started/introduction/implementation-guides))
-c. Have [LoginRadius Interface](/api/v2/user-registration/user-registration-getting-started) ready for your website
+b. A LoginRadius user account ([how to setup?](https://www.loginradius.com/legacy/docs/getting-started/introduction/implementation-guides))
+c. Have [LoginRadius Interface](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started) ready for your website
 
 Also, you will need to understand the process of creating an order and an ad unit in DFP.
 

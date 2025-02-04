@@ -30,4 +30,4 @@ logged in, even after closing the browser. You are also able to specify how long
 
 **Note**: The Remember Me token can only be set to expire at a time thatis less than that of the access token.
 
-Review our [Session Management](/api/v2/admin-console/platform-security/session-management/) documentation for more details.
+Review our [Session Management](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/session-management/) documentation for more details.

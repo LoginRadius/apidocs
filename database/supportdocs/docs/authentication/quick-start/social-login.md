@@ -78,7 +78,7 @@ The following screen will appear where the **Basic Data** option is enabled by d
 
 The LoginRadius Identity Platform supports a range of implementation methodologies, providing you with the flexibility to customize customer flows to meet your specific needs. This guide focuses on the basic Identity Experience Framework implementation, but the same goals can be achieved using any of the other implementation methodologies supported by LoginRadius.
 
-Full details on these methodologies can be found [here](/api/v2/getting-started/implementation-workflows/).
+Full details on these methodologies can be found [here](https://www.loginradius.com/legacy/docs/api/v2/getting-started/implementation-workflows/).
 
 **Step 1:** Locate the **Auth Page URL** as explained below:
 
@@ -92,7 +92,7 @@ The **Auth Page URL** displays your unique IDX domain in the following format:
 <https://<sitename>.hub.loginradius.com/auth.aspx>
 ```
 
-In the above URL, [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site.
+In the above URL, [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site.
 
 You can directly navigate to this domain to review your configured interfaces from [Part 1](#partconfiguration1).
 
@@ -106,7 +106,7 @@ Add a link on your webpage to redirect customers to the Identity Experience Fram
 
 In the above URL, replace the following:
 
-1. **LoginRadius Site Name**: Your unique LoginRadius [sitename](/api/v2/admin-console/deployment/get-site-app-name/).
+1. **LoginRadius Site Name**: Your unique LoginRadius [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/).
 
 2. **Desired Action**: The following are the action lists you can use.
    <br><br> Login
@@ -137,7 +137,7 @@ Try this link out on your page. You should be redirected to the LoginRadius Host
  <a href="https://<LoginRadius site name>.hub.loginradius.com/profile.aspx">View Profile</a>
 ```
 
-> **Note:** We have additional language-specific examples [here](/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
+> **Note:** We have additional language-specific examples [here](https://www.loginradius.com/legacy/docs/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
 
 **Step 3:** Store the captured Access Token as explained below:
 
@@ -188,7 +188,7 @@ localStorage.setItem("lr-session-token", access_token);// First parameter will b
 
 **Step 4:** You can use the Access Token as explained below:
 
-Call the [LoginRadius API](/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) to retrieve the customer profile using the Access Token. Alternatively, you can leverage any of our SDKs to accomplish this.
+Call the [LoginRadius API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) to retrieve the customer profile using the Access Token. Alternatively, you can leverage any of our SDKs to accomplish this.
 
 The following is the script example to retrieve the customer profile:
 
@@ -218,11 +218,11 @@ xhr.send();
 
 The following is the list of features you might need to add-on to the above implementation:
 
-[Multiple Social Apps](/api/v2/admin-console/social-provider/multiple-social-apps/)
+[Multiple Social Apps](https://www.loginradius.com/legacy/docs/api/v2/admin-console/social-provider/multiple-social-apps/)
 
 [Implement SSO](https://www.loginradius.com/legacy/docs/authentication/quick-start/sso-implementation/)
 
-[Apple Sign In](/api/v2/single-sign-on/custom-identity-providers/providers/apple/)
+[Apple Sign In](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/custom-identity-providers/providers/apple/)
 
 [Setup Email workflows](https://www.loginradius.com/legacy/docs/authentication/concepts/email-communications/)
 
@@ -230,6 +230,6 @@ The following is the list of features you might need to add-on to the above impl
 
 [UI and UX customizations of IDX](https://www.loginradius.com/legacy/docs/authentication/concepts/ui-ux-customizations-idx/)
 
-[JS Customization](/api/v2/deployment/js-libraries/getting-started/)
+[JS Customization](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/getting-started/)
 
 [Customer Security](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-security/)

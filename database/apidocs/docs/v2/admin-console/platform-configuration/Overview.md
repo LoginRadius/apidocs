@@ -23,7 +23,7 @@ Under this feature LoginRadius allow users to customize their identity workflows
 - Passwordless Login
 - Advanced Workflow
 
-### [Identity Workflow](/platform-features-overview/registration-services/email-workflow)
+### [Identity Workflow](https://www.loginradius.com/legacy/docs/platform-features-overview/registration-services/email-workflow)
 
 Using this feature, users can change the flow of their enabled Identity workflow applied to their Admin Console.
 
@@ -31,23 +31,23 @@ Using this feature, users can change the flow of their enabled Identity workflow
 
 Using this feature, users customize the fields, schema and some other advanced options related to the hosted page.
 
-### [Social Login](/platform-features-overview/registration-services/social-login-feature)
+### [Social Login](https://www.loginradius.com/legacy/docs/platform-features-overview/registration-services/social-login-feature)
 
 Using this feature, users can customize the settings related to social providers in order to enable social login over the hosted page.
 
-### [Phone Login](/platform-features-overview/registration-services/phone-authentication-feature)
+### [Phone Login](https://www.loginradius.com/legacy/docs/platform-features-overview/registration-services/phone-authentication-feature)
 
 Under this feature, users can customize the settings in order to bring up the phone login over the hosted page.
 
-### [Passwordless Login](/platform-features-overview/registration-services/passwordless-login)
+### [Passwordless Login](https://www.loginradius.com/legacy/docs/platform-features-overview/registration-services/passwordless-login)
 
 Using this feature, users can customize the settings to bring up passwordless login feature to their hosted page.
 
-### [Advanced Workflow](/platform-features-overview/registration-services/advanced-workflow)
+### [Advanced Workflow](https://www.loginradius.com/legacy/docs/platform-features-overview/registration-services/advanced-workflow)
 
 Advanced Workflow refers to advanced settings for registration security which can be configured on your site.
 
-## [Account Protection](/platform-features-overview/user-security/fraud-prevention)
+## [Account Protection](https://www.loginradius.com/legacy/docs/platform-features-overview/user-security/fraud-prevention)
 
 Under this section of Platform configuration, LoginRadius allow users to customize their security and privacy settings related to their hosted page.
 
@@ -58,21 +58,21 @@ Under this section of Platform configuration, LoginRadius allow users to customi
 - Multi-Factor Auth
 - Token Management
 
-### [Auth Security](/api/v2/dashboard/platform-security/auth-security-configuration#auth-security)
+### [Auth Security](https://www.loginradius.com/legacy/docs/api/v2/dashboard/platform-security/auth-security-configuration#auth-security)
 
 Under this feature, users have multiple settings to ensure the security of their hosted page.
 For Example Captcha, Bot Protection etc.
 
-### [Password Policy](/api/v2/dashboard/platform-security/password-policy#password-policy)
+### [Password Policy](https://www.loginradius.com/legacy/docs/api/v2/dashboard/platform-security/password-policy#password-policy)
 
 Under this feature, users have multiple settings related to password, where user can apply different complexity and other rules related to the password.
 For Example Password expiration, complexity etc.
 
-### [Multi-Factor Auth](/platform-features-overview/user-security/multi-factor-authentication)
+### [Multi-Factor Auth](https://www.loginradius.com/legacy/docs/platform-features-overview/user-security/multi-factor-authentication)
 
 Using this feature, users can add an extra layer of security to their property, which needs to be passed in order to access that.
 
-### [Token Management](/api/v2/dashboard/platform-security/token-management#token-management-configuration)
+### [Token Management](https://www.loginradius.com/legacy/docs/api/v2/dashboard/platform-security/token-management#token-management-configuration)
 
 Under this feature, users can manipulate the setting related to the access token.
 Note: To request the change, customers have to raise a support ticket.
@@ -88,18 +88,18 @@ Under this feature, LoginRadius facilitate users the option to apply settings re
 - ID Provider Apps
 - Role Management
 
-### [Web SSO](/platform-features-overview/user-access-management/web-sso)
+### [Web SSO](https://www.loginradius.com/legacy/docs/platform-features-overview/user-access-management/web-sso)
 
 Under this feature, users can apply or change settings in order to enable SSO between their own multiple properties(websites).
 
-### [Federated SSO](/platform-features-overview/user-access-management/federated-sso)
+### [Federated SSO](https://www.loginradius.com/legacy/docs/platform-features-overview/user-access-management/federated-sso)
 
 Under this feature, the user has the facility to enable SSO between two differently owned websites.
 
-### [ID Provider Apps](/platform-features-overview/user-access-management/identity-provider-apps)
+### [ID Provider Apps](https://www.loginradius.com/legacy/docs/platform-features-overview/user-access-management/identity-provider-apps)
 
 Under this feature, users can set/enable their own required social/ID provider which is not in our pre-configured providers' list.
 
-### [Role Management](/platform-features-overview/user-access-management/roles-and-permissions)
+### [Role Management](https://www.loginradius.com/legacy/docs/platform-features-overview/user-access-management/roles-and-permissions)
 
 Under this feature, a customer can grant/assign different Role Management as per requirement to their end users.

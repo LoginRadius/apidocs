@@ -2,7 +2,7 @@
 
 ---
 
-In this document, we will go through the **Service Provider (SP)** initiated SAML flow. SP initiated login flow is the process in which **Service Provider** creates a SAML **request** and forwards the user and the SAML request to the Identity Provider, after authentication the Identity Provider sends a signed SAML response having an [assertion](/single-sign-on/federated-sso/saml/overview/#assertions3) to the **Service Provider Assertion Consumer Service** endpoint. This flow will be initiated by a login button in the Service Provider.
+In this document, we will go through the **Service Provider (SP)** initiated SAML flow. SP initiated login flow is the process in which **Service Provider** creates a SAML **request** and forwards the user and the SAML request to the Identity Provider, after authentication the Identity Provider sends a signed SAML response having an [assertion](https://www.loginradius.com/legacy/docs/single-sign-on/federated-sso/saml/overview/#assertions3) to the **Service Provider Assertion Consumer Service** endpoint. This flow will be initiated by a login button in the Service Provider.
 
 Flow diagram for **SP initiated** SAML workflow:
 
@@ -174,14 +174,14 @@ After opening the downloaded metadata file, the certificate will be visible as b
 
 The following is the list of documents you might want to look into:
 
-[Identity Provider Initiated Login workflow](/single-sign-on/federated-sso/saml/config/idp-initiated/)
+[Identity Provider Initiated Login workflow](https://www.loginradius.com/legacy/docs/single-sign-on/federated-sso/saml/config/idp-initiated/)
 
-[SAML FAQ](/single-sign-on/concept/saml-miscellaneous/samlfaq/)
+[SAML FAQ](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-miscellaneous/samlfaq/)
 
-[SAML Miscellaneous](/single-sign-on/concept/saml-miscellaneous/usage/)
+[SAML Miscellaneous](https://www.loginradius.com/legacy/docs/single-sign-on/concept/saml-miscellaneous/usage/)
 
-[SAML Overview](/single-sign-on/tutorial/federated-sso/saml/overview/)
+[SAML Overview](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/saml/overview/)
 
-[OAuth 2.0](/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/)
+[OAuth 2.0](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/oauth-2-0/oauth-2-0-overview/)
 
-[Open ID Connect](/single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/)
+[Open ID Connect](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/openid-connect/openid-connect-overview/)

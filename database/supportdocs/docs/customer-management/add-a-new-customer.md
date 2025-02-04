@@ -16,5 +16,5 @@ The following explains how you can add a new customer to your application:
 ![Click on add](https://apidocs.lrcontent.com/images/ac-2_7060967536661b4aa4b3448.51577254.png "fill the details")
 
 
->**Note:** You can also add a new customer by using [Auth User Registration](/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/) by Email API, which creates a customer in the database and sends a verification email to the customer.
+>**Note:** You can also add a new customer by using [Auth User Registration](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/) by Email API, which creates a customer in the database and sends a verification email to the customer.
 

@@ -8,7 +8,7 @@ In order to send out SMS, Text and voice OTP (One-Time Password) messages from y
 
 To configure them, you can Navigate to your LoginRadius [**Admin Console ➔ Platform Configuration ➔ Identity Workflow ➔ Communication Configuration**](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/email-configuration),  and click on the third tab called **"SMS/Text/Voice OTP Configuration"**.
 
-On this page, you can update the configuration details for your **SMS/Text/Voice OTP provider** in the Admin Console. For information on the supported providers and how to configure them, refer to the documentation [**here**](/api/v2/admin-console/platform-configuration/communication-configuration/sms/providers/twilio-configuration/).
+On this page, you can update the configuration details for your **SMS/Text/Voice OTP provider** in the Admin Console. For information on the supported providers and how to configure them, refer to the documentation [**here**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/communication-configuration/sms/providers/twilio-configuration/).
 
 
 ## Global SMS/Text/Voice OTP Settings

@@ -40,11 +40,11 @@ Please check the below additional security options that LoginRadius provides for
 
 ## Block Fraudulent Domains:
 
-Our system can prevent fraudulent email domains thus ensuring that you are blocking out known fraudulent or undesired domains and preventing malicious users from accessing your site. For more detailed information refer to this [document](/security/user-security/fraud-prevention/#blockfraudulentdomains2).
+Our system can prevent fraudulent email domains thus ensuring that you are blocking out known fraudulent or undesired domains and preventing malicious users from accessing your site. For more detailed information refer to this [document](https://www.loginradius.com/legacy/docs/security/user-security/fraud-prevention/#blockfraudulentdomains2).
 
 ## IPs Access Control:
 
-We provide the ability to control access to the LoginRadius APIs by configuring either to allow or deny certain IP addresses. For more detailed information refer to this [document](/api/v2/admin-console/platform-security/api-security/#ip-access-restriction).
+We provide the ability to control access to the LoginRadius APIs by configuring either to allow or deny certain IP addresses. For more detailed information refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-security/#ip-access-restriction).
 
 
 ## Validating SSN with 3rd Party APIs:

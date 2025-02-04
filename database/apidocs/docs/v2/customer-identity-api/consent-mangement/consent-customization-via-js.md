@@ -3,7 +3,7 @@
 
 The LoginRadius Consent Management feature allows you to collect consent information from your new or existing customers. This feature is provided to you in order to help you fulfil the requirements of some regulations such as the GDPR which requires that you may only use your customer's data provided that you have obtained prior consent.
 
-For more details on the Consent Management feature’s functional specification click [here](/api/v2/customer-identity-api/consent-mangement/overview/). 
+For more details on the Consent Management feature’s functional specification click [here](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-mangement/overview/). 
 
 This guide will take you through the process to set up and implement Consent Management via V2JS. It covers everything you need to know on how to configure Consent Management in the LoginRadius Identity Platform and deploy it onto your web application.
 
@@ -13,7 +13,7 @@ This guide will take you through the process to set up and implement Consent Man
 
 ## Part 1- Consent Configuration via Admin Console
 
-In order to start with consent configuration, there are setting which needs to be done from the LoginRadius Admin Console. For more information regarding Admin Console configuration, refer to this [document](/api/v2/customer-identity-api/consent-mangement/overview/#partadminconsoleconfigurations4).
+In order to start with consent configuration, there are setting which needs to be done from the LoginRadius Admin Console. For more information regarding Admin Console configuration, refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-mangement/overview/#partadminconsoleconfigurations4).
 
 ## Part 2 - Deployment via V2JS
 The following are the sequential steps to deploy the Consent Management feature using the LoginRadius JavaScript Libraries:
@@ -123,7 +123,7 @@ And after adding the above code add the div container for this as given below:
 <div id="customeventconsent-container"></div>
 ```
 
-> Note: Similarly, for providing the template to the custom events, you can use the template form given [above](/api/v2/customer-identity-api/consent-mangement/consent-customization-via-js/#stepprovidingconsentformtemplate5).
+> Note: Similarly, for providing the template to the custom events, you can use the template form given [above](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-mangement/consent-customization-via-js/#stepprovidingconsentformtemplate5).
 
 
 ### Step 2: Consent Editing
@@ -154,15 +154,15 @@ And after adding the above code add the div container for this as given below:
 ```
 
 
-> Note: Similarly, for providing the template for consent editor, you can use the template form given [above](/api/v2/customer-identity-api/consent-mangement/consent-customization-via-js/#stepprovidingconsentformtemplate5).
+> Note: Similarly, for providing the template for consent editor, you can use the template form given [above](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-mangement/consent-customization-via-js/#stepprovidingconsentformtemplate5).
 
 
 ## Part 4- More related Information
 
 ### Consent Management Overview
 
-For more details on consent functionalities, please refer to this [document](/api/v2/customer-identity-api/consent-mangement/overview/).
+For more details on consent functionalities, please refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-mangement/overview/).
 
 ### Leveraging Consent APIs
 
-For more details on leveraging consent APIs, please refer the API document [here](/api/v2/customer-identity-api/consent-management/consent-by-consent-token/).
+For more details on leveraging consent APIs, please refer the API document [here](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-management/consent-by-consent-token/).

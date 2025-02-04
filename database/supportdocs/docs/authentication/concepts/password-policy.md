@@ -103,7 +103,7 @@ It displays the list of current applicable password validations. These validatio
 
 ![Password Validation](https://apidocs.lrcontent.com/images/PV-2_320147402668454e03a44f6.84468249.png "Password Validation")
 
-For more details on the password validations, refer to the [validation rules list](/api/v2/deployment/js-libraries/javascript-hooks/#passwordstrengthfeature21).
+For more details on the password validations, refer to the [validation rules list](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/javascript-hooks/#passwordstrengthfeature21).
 
 
 ### Common Password Protection
@@ -148,7 +148,7 @@ LRObject.$hooks.call('formValidationRules',{
 });
 ```
 
-For additional information on the usage of custom validation hooks, validation rules, and custom validation rules, please see this [documentation](/api/v2/deployment/js-libraries/javascript-hooks#customvalidationhook15).
+For additional information on the usage of custom validation hooks, validation rules, and custom validation rules, please see this [documentation](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/javascript-hooks#customvalidationhook15).
 
 >**Note:** The Password Complexity rules configured on the Admin Console are front-end validations only. To enable the same Password Complexity configurations with the back-end, please contact the [LoginRadius Support Team](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket).
 

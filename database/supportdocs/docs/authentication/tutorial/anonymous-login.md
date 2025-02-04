@@ -217,7 +217,7 @@ To implement Anonymous Login on Android, you'll need to use the LoginRadius Andr
 
 ## Anonymous Login API
 
-The Anonymous Login API enables you to get details on anonymous customers and their activities. The data is stored in your LoginRadius Cloud Directory, you will need to call the [Anonymous Login API](/api/v2/cloud-directory-api/anonymous-auth/get-anonymous-users).
+The Anonymous Login API enables you to get details on anonymous customers and their activities. The data is stored in your LoginRadius Cloud Directory, you will need to call the [Anonymous Login API](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/anonymous-auth/get-anonymous-users).
 
   
   
@@ -425,4 +425,4 @@ Example rule:
   
   
 
-For more information on the formatting query, visit our [Formatting your Identity Queries](/api/v2/cloud-directory-api/identity/getting-started#formattingyouridentityqueries1) section on the Identity page.
+For more information on the formatting query, visit our [Formatting your Identity Queries](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/identity/getting-started#formattingyouridentityqueries1) section on the Identity page.

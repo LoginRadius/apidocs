@@ -13,7 +13,7 @@ Furthermore, several tokens are generated throughout the authentication process.
 
 > **Note:** 
 > - The default life of the LoginRadius access token is 15 minutes and for refresh token is 60 days. 
-> - For more details, look for the Access Token APIs [here](/api/v2/customer-identity-api/authentication/authentication-overview/).
+> - For more details, look for the Access Token APIs [here](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/authentication-overview/).
 
 
 ### Access Token Lifetime Configuration
@@ -26,7 +26,7 @@ The following screen will appear:
 
 ![Session Management](https://apidocs.lrcontent.com/images/Session-Management-LoginRadius-User-Dashboard_387376796474871f9a1ca3.13757565.png "Session Management")
 
-**Step 2:** To get the information about the Access Token expiration time change process, click [here](/api/v2/admin-console/platform-security/session-management/#updatetokenexpirationslidingtokenexpiration1).
+**Step 2:** To get the information about the Access Token expiration time change process, click [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/session-management/#updatetokenexpirationslidingtokenexpiration1).
 
 > **Note:**
 > - You can change time from 1 to 129600 minutes (90 days) and if you want more than this, contact **LoginRadius support**.
@@ -50,10 +50,10 @@ Following are two important features of Refresh Token:
 
 - **Refresh tokens are long-lived**: It means whenever LoginRadius issues a refresh token, it must be stored securely. If a refresh token is leaked, it can be used to obtain new access tokens until it is expired. You can mitigate this risk by providing the customer with a short-lived access token (E.g. 15 minutes).
 
-> **Note:** Revoking the refresh token does not invalidate associated access token if you wish to invalidate the access token, use the [**Invalidate Access Token API**](/api/v2/customer-identity-api/authentication/auth-invalidate-access-token).
+> **Note:** Revoking the refresh token does not invalidate associated access token if you wish to invalidate the access token, use the [**Invalidate Access Token API**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-invalidate-access-token).
 
 
-For more details, refer to the [**RefreshToken APIs**.](/api/v2/customer-identity-api/refresh-token/overview/)
+For more details, refer to the [**RefreshToken APIs**.](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/refresh-token/overview/)
 
 ## Part 2 - Force Logout
 

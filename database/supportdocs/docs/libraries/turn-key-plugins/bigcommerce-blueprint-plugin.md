@@ -84,12 +84,12 @@ It is recommended that you backup your theme before making any modifications in 
 
         1. storeName- Add your BigCommerce Site Name
           * This should be a string in the API PATH when your BigCommerce ACCESS TOKEN, CLIENT ID, and CLIENT SECRET was generated. E.g. - if your API PATH is `https://api.bigcommerce.com/stores/pqshk245fh/v3/`, then your storeName value should be `pqshk245fh`
-        1. option.apiKey- Add your [LoginRadius API Key](/account/get-api-key-and-secret)
-        1. option.appName- Add your [LoginRadius App Name](/libraries/overview/)
-        1. option.sott- Add a valid [LoginRadius Sott](/api/v2/customer-identity-api/sott-usage/#sott-secured-one-time-token-)
+        1. option.apiKey- Add your [LoginRadius API Key](https://www.loginradius.com/legacy/docs/account/get-api-key-and-secret)
+        1. option.appName- Add your [LoginRadius App Name](https://www.loginradius.com/legacy/docs/libraries/overview/)
+        1. option.sott- Add a valid [LoginRadius Sott](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/sott-usage/#sott-secured-one-time-token-)
         1. option.verificationUrl- You can leave this default unless you want to direct customers to a specific location to validate the emails. This is required if you are using the Email add/remove panel.
 
-    You can add additional parameters to this options object if you want to include additional LoginRadius features or logic based on the parameters list [here](/libraries/js-libraries/getting-started/#initmethod4).
+    You can add additional parameters to this options object if you want to include additional LoginRadius features or logic based on the parameters list [here](https://www.loginradius.com/legacy/docs/libraries/js-libraries/getting-started/#initmethod4).
 
 2.  Include the reference files for LoginRadius in your header section by including the following code in your webdav/Panels/header.html or webdav/Panels/HTMLHead.html just before the closing `</header>` tag
 
@@ -146,6 +146,6 @@ The following options are available to render specific interfaces:
 
 2. If you are using a customizable Checkout Page you can directly include the lrauth panel and apply custom styling to bring this in line with your Checkout page branding.
 
-3. If you want to display customer profile details such as a customer's first name or other data stored in LoginRadius directly from the LoginRadius session you can utilize the LoginRadius HTML SDK to retrieve this data clientside and display as required (See the documentation for [ HTML/js SDK](/api/v1/sdk-libraries/html5-js)) but take care, if you are using V2JS then no need to use HTML SDK (See the documentation for [LoginRadius V2JS](/libraries/js-libraries/getting-started/).
+3. If you want to display customer profile details such as a customer's first name or other data stored in LoginRadius directly from the LoginRadius session you can utilize the LoginRadius HTML SDK to retrieve this data clientside and display as required (See the documentation for [ HTML/js SDK](https://www.loginradius.com/legacy/docs/api/v1/sdk-libraries/html5-js)) but take care, if you are using V2JS then no need to use HTML SDK (See the documentation for [LoginRadius V2JS](https://www.loginradius.com/legacy/docs/libraries/js-libraries/getting-started/).
 
 4. If you are migrating customers from an existing BigCommerce site and need to preserve the customer's passwords. Reach out to the LoginRadius Support team for details on how to configure this.

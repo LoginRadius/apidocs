@@ -43,7 +43,7 @@ LoginRadius provides Joomla Customer Identity and Access Management Extension fo
 4. Click on the **Components** on the top menu, and click on **CIAM LoginRadius** tab as shown in the below screen:
 <br><br>![enter image description here](https://apidocs.lrcontent.com/images/CIAM_LoginRadius_joomla_site_Administration-2_214285f0d75edde24a9.05451001.png "")
 
-5. Under the **Activation** tab, insert Login radius [Site Name](/api/v2/admin-console/deployment/get-site-app-name/), [API Key & Secret Key](/api/v2/admin-console/platform-security/api-key-and-secret/), and **Save** the settings to activate the plugin as shown in the below screen.
+5. Under the **Activation** tab, insert Login radius [Site Name](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/), [API Key & Secret Key](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret/), and **Save** the settings to activate the plugin as shown in the below screen.
 
 **Note:** Refer **PREFIX_loginradius_users** table to look user details in the database:
 

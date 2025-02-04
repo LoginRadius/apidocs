@@ -59,7 +59,7 @@ This is caused by the Facebook API v 2.0 release, which has deprecated certain s
 
 If you have correctly configured your LoginRadius account to request the correct permissions for extended profile data and Post messaging(push notifications), and it is working for other providers but the correct dataset and posting features do not seem to be available on Facebook, then you have most likely not verified your Facebook app. Facebook mandates an app review and approval process for apps requesting access to extended data points and features like posting messages to a user's wall.
 
-You can refer to [Facebook App Review document](/development/social-network/facebook-app-review) for help with submitting your app for review.
+You can refer to [Facebook App Review document](https://www.loginradius.com/legacy/docs/development/social-network/facebook-app-review) for help with submitting your app for review.
 
 ##Why do I have to set up my own social provider apps? Shouldn't that be handled by LoginRadius?
 

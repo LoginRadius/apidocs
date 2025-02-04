@@ -16,7 +16,7 @@ On successful authentication, that application redirects the customer back to yo
 
 > **Note:** JSON Web Tokens (JWTs) can be signed using a secret (with the HMAC or other algorithms) or a public/private key pair using RSA.
 
-The UI/UX for the JWT login workflow will be similar to social login. There will be an icon or link for this JWT IDP flow in the Social Login form rendered by LoginRadius V2.js on your website if the **Include In Social Schema** is selected while configuring the JWT app. The look, feel, and behavior for the JWT login workflow can be customized by leveraging the LoginRadius [Social Interface Customization](/libraries/js-libraries/getting-started/#socialinterfacecustomization11) feature.
+The UI/UX for the JWT login workflow will be similar to social login. There will be an icon or link for this JWT IDP flow in the Social Login form rendered by LoginRadius V2.js on your website if the **Include In Social Schema** is selected while configuring the JWT app. The look, feel, and behavior for the JWT login workflow can be customized by leveraging the LoginRadius [Social Interface Customization](https://www.loginradius.com/legacy/docs/libraries/js-libraries/getting-started/#socialinterfacecustomization11) feature.
 
 The following explains the JWT login workflow in steps:
 
@@ -132,7 +132,7 @@ Checks the JWT token for this field and matches it if **IsMandatory** is enabled
 - **Match Value:** If this is enabled, LoginRadius checks the JWT for this field and matches it with the expected value.
 - **Is Mandatory:** If this is enabled, LoginRadius checks the JWT contains the **Aud (Audience)** claim.
 
-**Step 14: Data Mapping,** Enter field mappings between JWT fields and LoginRadius [user profile properties](/api/v2/getting-started/data-points/detailed-data-points/).
+**Step 14: Data Mapping,** Enter field mappings between JWT fields and LoginRadius [user profile properties](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points/detailed-data-points/).
 
 - **Select Field (Dropdown):** Select the LoginRadius field name, which you want to map with the respective JWT field.
 - **Profile Key:** Enter the JWT field name corresponding to the LoginRadius field name.
@@ -153,4 +153,4 @@ Here's what a mapping with minimal settings should look like:
 
 The following is the list of documents you might want to look into:
 
-[Custom OAuth Provider](/single-sign-on/tutorial/custom-identity-providers/custom-oauth-provider/)
+[Custom OAuth Provider](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/custom-identity-providers/custom-oauth-provider/)

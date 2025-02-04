@@ -108,12 +108,12 @@ It is recommended that you backup your theme before making any modifications in 
 
         1. storeName- Add your BigCommerce Site Name
           * This should be a string in the API PATH when your BigCommerce ACCESS TOKEN, CLIENT ID, and CLIENT SECRET was generated. E.g. - if your API PATH is `https://api.bigcommerce.com/stores/pqshk245fh/v3/`, then your storeName value should be `pqshk245fh`
-        1. option.apiKey- Add your [LoginRadius API Key](/account/get-api-key-and-secret)
-        1. option.appName- Add your [LoginRadius App Name](/api/v2/admin-console/deployment/get-site-app-name/)
-        1. option.sott- Add a valid [LoginRadius Sott](/api/v2/user-registration/sott)
+        1. option.apiKey- Add your [LoginRadius API Key](https://www.loginradius.com/legacy/docs/account/get-api-key-and-secret)
+        1. option.appName- Add your [LoginRadius App Name](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/)
+        1. option.sott- Add a valid [LoginRadius Sott](https://www.loginradius.com/legacy/docs/api/v2/user-registration/sott)
         1. option.verificationUrl- You can leave this default unless you want to direct users to a specific location to validate the emails. This is required if you are using the Email add/remove panel.
 
-    You can add additional parameters to this options object if you want to include additional LoginRadius features or logic based on the parameters list [here](/api/v2/user-registration/user-registration-getting-started#initmethod4).
+    You can add additional parameters to this options object if you want to include additional LoginRadius features or logic based on the parameters list [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#initmethod4).
 
 1.  Include the reference files for LoginRadius in your header section by including the following code in your theme->templates->components->common->header.html just before the closing </header> tag
 
@@ -223,7 +223,7 @@ The LoginRadius mapping of BigCommerce customer_id to ExternalIds also supports 
 
 2. If you are using a customizable Checkout Page you can directly include the auth component and apply custom styling to bring this in line with your Checkout page branding.
 
-3. If you want to display user profile details such as a user's first name or other data stored in LoginRadius directly from the LoginRadius session you can utilize the LoginRadius HTML SDK to retrieve this data clientside and display as required (See the documentation for [ HTML/js SDK](/api/v1/sdk-libraries/html5-js)) but please take care, if you are using V2JS then no need to use HTML SDK (See the documentation for [LoginRadius V2JS](/api/v2/user-registration/user-registration-getting-started)).
+3. If you want to display user profile details such as a user's first name or other data stored in LoginRadius directly from the LoginRadius session you can utilize the LoginRadius HTML SDK to retrieve this data clientside and display as required (See the documentation for [ HTML/js SDK](https://www.loginradius.com/legacy/docs/api/v1/sdk-libraries/html5-js)) but please take care, if you are using V2JS then no need to use HTML SDK (See the documentation for [LoginRadius V2JS](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started)).
 
 4. If you are migrating users from an existing BigCommerce site and need to preserve the user's passwords. Please reach out to the LoginRadius Support team for details on how to configure this.
 

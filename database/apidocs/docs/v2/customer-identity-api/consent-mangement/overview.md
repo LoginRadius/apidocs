@@ -22,7 +22,7 @@ This guide will take you through the process to set up and implement Consent Man
 
 ### Consent Management with Registration Flow
 
-Leverage the [Auth User Registration By Email](/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/)API for registration when the Consent Management feature is enabled. For example pass the following JSON in the body parameter:
+Leverage the [Auth User Registration By Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/)API for registration when the Consent Management feature is enabled. For example pass the following JSON in the body parameter:
 
 ```
 {
@@ -56,7 +56,7 @@ Leverage the [Auth User Registration By Email](/api/v2/customer-identity-api/aut
 ```
 >**Note:** 
 - Consent parameters may vary on the basis of your configurations made over Admin Console.
-- In the response of this API call you will receive the **ErrorCode** 1226 along with the **ConsentToken**. You can use the received consent token to leverage other Consent [APIs](/api/v2/customer-identity-api/consent-management/consent-by-consent-token/)
+- In the response of this API call you will receive the **ErrorCode** 1226 along with the **ConsentToken**. You can use the received consent token to leverage other Consent [APIs](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-management/consent-by-consent-token/)
 
 ## Part 2- Pre-defined conditions for Consent Management
 
@@ -169,9 +169,9 @@ This guide focuses on the following deployment methods:
 
 * **[JavaScript Libraries](#javascriptdeployment7):** You should refer to these deployment steps if you are targeting LoginRadius Identity Platform implementation using JavaScript.
 
-However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](/api/v2/getting-started/implementation-workflows/).
+However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](https://www.loginradius.com/legacy/docs/api/v2/getting-started/implementation-workflows/).
 
->**Note:** To deploy the Consent Management using API, refer to this [document](/api/v2/customer-identity-api/consent-management/consent-by-consent-token/).
+>**Note:** To deploy the Consent Management using API, refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-management/consent-by-consent-token/).
 
 ### IDX Deployment
 
@@ -188,7 +188,7 @@ The **Auth Page URL** displays your unique IDX domain in the following format:
 ```
 <https://<sitename>.hub.loginradius.com/auth.aspx> 
 ```
-In the above URL, [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
+In the above URL, [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
 
 **Step 2:** Embed Authentication Pages in your Website as explained below:
 
@@ -200,7 +200,7 @@ Add a link on your webpage for redirecting customers to the Identity Experience 
 
 In the above URL replace the following: 
 
-1. **LoginRadius Site Name** : Your unique LoginRadius [sitename](/api/v2/admin-console/deployment/get-site-app-name/). 
+1. **LoginRadius Site Name** : Your unique LoginRadius [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/). 
 
 2. **Desired Action** : Following are the action list you can use.
 <br><br> Login

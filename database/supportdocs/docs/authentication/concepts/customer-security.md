@@ -36,11 +36,11 @@ As a part of your Login and Registration flows, LoginRadius CAPTCHA settings all
 
   Currently, LoginRadius supports Invisible reCAPTCHA that provides a better experience to the customers by tracking mouse movements to identify if a human is interacting with the application or is it a bot. If identified as a bot, it displays the CAPTCHA option on the screen.
 
-  For more information regarding the configuring of Invisible reCAPTCHA, refer to the documentation [here](/api/v2/admin-console/platform-security/captcha-providers/google-recaptcha-configuration/).
+  For more information regarding the configuring of Invisible reCAPTCHA, refer to the documentation [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/captcha-providers/google-recaptcha-configuration/).
 
 - **QQ Tencent CAPTCHA**: Tencent CAPTCHA is a popular China-based CAPTCHA service. It prevents bot registration and protects web applications from spam and abuse.
 
-  For more information regarding the configuring of QQ Tencent CAPTCHA, refer to the documentation [here](/api/v2/admin-console/platform-security/captcha-providers/tencent-captcha-configuration/).
+  For more information regarding the configuring of QQ Tencent CAPTCHA, refer to the documentation [here](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/captcha-providers/tencent-captcha-configuration/).
 
 ## Part 2 - Access Restriction
 
@@ -116,7 +116,7 @@ The LoginRadius Identity Platform supports the following four lockout types:
 
 > **Pre-requisites:** You must have [Google reCAPTCHA V2](#googlerecaptchaconfiguration2) or [Tencent Captcha](#tencentcaptchaconfiguration3) configured in your LoginRadius Identity Platform.
 
-- **Security Question:** Select this option to prompt the customer to answer a [Security Question](/api/v2/admin-console/platform-security/security-question/) to log in, if the account is locked.
+- **Security Question:** Select this option to prompt the customer to answer a [Security Question](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/security-question/) to log in, if the account is locked.
 
 > **Pre-requisites:** At least one Security Question must be configured in your account, and the customer who is being prompted to answer the question must have already provided a valid answer.
 
@@ -126,18 +126,18 @@ To handle this further, you can implement the logic in your application, for the
 
 > **Note:** If a customer did not reach the **Brute Force Lockout Threshold** and logged in successfully, the API's counter for the failed login attempts will be reset to zero automatically.
 
-You can get the locked customer profile by calling [Account Profiles by Email API](/api/v2/customer-identity-api/account/account-profiles-by-email/).
+You can get the locked customer profile by calling [Account Profiles by Email API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-email/).
 In the response, you will get a field named **IsLoginLocked** with the value set as **true** and **LoginLockedType** with the LockoutType value.
 
 ### Unlocking Account
 
 Please refer the following ways to unlock your locked account regardless of if you've passed the given challenges:
 
-1. **Admin Console:** You can unblock the account directly via the Admin Console. Please refer to our Customer management [document](/docs/customer-management/overview/)for more details regarding the same.
+1. **Admin Console:** You can unblock the account directly via the Admin Console. Please refer to our Customer management [document](https://www.loginradius.com/legacy/docs/docs/customer-management/overview/)for more details regarding the same.
 
-2. **Account update API:** You can leverage our [Account Update API](/api/v2/customer-identity-api/account/account-update/) to unlock the locked account.
+2. **Account update API:** You can leverage our [Account Update API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update/) to unlock the locked account.
    <br><br>**Case 1:** For Lockout type: Suspend, Recaptcha, and Security Question
-   <br><br>Update the **"IsLoginLocked"** field on the user's profile by [Account Update API](/api/v2/customer-identity-api/account/account-update/) to unblock the account. For example,
+   <br><br>Update the **"IsLoginLocked"** field on the user's profile by [Account Update API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update/) to unblock the account. For example,
 
 ```
 {
@@ -146,7 +146,7 @@ Please refer the following ways to unlock your locked account regardless of if y
 ```
 
 <b><br> **Case 2:** For Lockout Type: Block
-<br><br>Update the **“IsActive”** and **"IsLoginLocked"** field together on the user's profile by [Account Update API](/api/v2/customer-identity-api/account/account-update/) to unblock the account. For example,
+<br><br>Update the **“IsActive”** and **"IsLoginLocked"** field together on the user's profile by [Account Update API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update/) to unblock the account. For example,
 
 ```
 {
@@ -155,11 +155,11 @@ Please refer the following ways to unlock your locked account regardless of if y
 }
 ```
 
-- **Auth Unlock Account By Access Token API:** You can also leverage our [Auth Unlock Account by Access Token API](/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token) with a valid access_token, please note that this API is applicable for the Recaptcha, and Security Question Lockout Types.
+- **Auth Unlock Account By Access Token API:** You can also leverage our [Auth Unlock Account by Access Token API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token) with a valid access_token, please note that this API is applicable for the Recaptcha, and Security Question Lockout Types.
 
 > **Note:**
 
-- You can leverage our [Account impersonation API](/api/v2/customer-identity-api/account/account-impersonation-api/) in order to get a valid Access Token.
+- You can leverage our [Account impersonation API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-impersonation-api/) in order to get a valid Access Token.
 - Once configured, no separate deployment is required to access this feature in the IDX or JS implementation of the LoginRadius Identity Platform
 
 ## Part 4 - Force Logout

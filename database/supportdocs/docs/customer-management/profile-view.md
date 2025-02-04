@@ -75,19 +75,19 @@ You can view the following customer information, as highlighted in the **left** 
 - **Activity** - This section provides you with the customer login information like whether the account is active or not which you can identify by the field **Is Active**, other details like Last Login Date, Last Login Location, No Of Logins, and the Modified Date. 
 - **Insights** - This section contains information like account Created Data, Signup Date, Registration source, Signup Log, and User-Agent.
 - **Profile Info** - This contains the customer information like Full name, Last name, Prefix, Suffix, Phone numbers, Addresses, Time Zone, Birth data, and Age. You can update these customer details from this section.
-- **Social Info** - This section contains the Advanced Data-points that LoginRadius provides. Refer to this [document](/api/v2/admin-console/social-provider/advanced-social-data-points/#facebook0) for more information.
+- **Social Info** - This section contains the Advanced Data-points that LoginRadius provides. Refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/social-provider/advanced-social-data-points/#facebook0) for more information.
 - **Custom Fields** - From this section, you can check all the active and inactive(optional) custom fields and update them if required.
 - **Custom Objects** - You can check the set custom objects from this section.
-- **Consent Info** - This section will show you the **status** of whether the customer has accepted consent or not with a lot of other information like ID, Title, description, and last modified date. To get detailed information regarding **Consent** refer to this [document](/api/v2/customer-identity-api/consent-mangement/overview/).
+- **Consent Info** - This section will show you the **status** of whether the customer has accepted consent or not with a lot of other information like ID, Title, description, and last modified date. To get detailed information regarding **Consent** refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/consent-mangement/overview/).
 
 > **Note:** In addition to the Search and Manage customers features available in the LoginRadius Admin Console, you can use the following Account APIs to get the customer details:
-> * [Account Identities by Email](/api/v2/customer-identity-api/account/account-identities-by-email/)
-  > * [Account Impersonation API](/api/v2/customer-identity-api/account/account-impersonation-api/)
-  > * [Account Password](/api/v2/customer-identity-api/account/account-password/)
-  > * [Account Profiles by Email](/api/v2/customer-identity-api/account/account-profiles-by-email/)
-  > * [Account Profiles by User Name](/api/v2/customer-identity-api/account/account-profiles-by-user-name)
-  > * [Account Profiles by Phone ID](/api/v2/customer-identity-api/account/account-profiles-by-phone-id/)
-  > * [Account Profiles by UID](/api/v2/customer-identity-api/account/account-profiles-by-uid/)
+> * [Account Identities by Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-identities-by-email/)
+  > * [Account Impersonation API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-impersonation-api/)
+  > * [Account Password](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-password/)
+  > * [Account Profiles by Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-email/)
+  > * [Account Profiles by User Name](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-user-name)
+  > * [Account Profiles by Phone ID](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-phone-id/)
+  > * [Account Profiles by UID](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-uid/)
 
 
 

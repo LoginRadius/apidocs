@@ -10,8 +10,8 @@ So, you have one set of LoginRadius credentials, which allow you to log in into 
 
 A LoginRadius Site License encompasses the following:
 
-- A unique LoginRadius [site name](/api/v2/admin-console/deployment/get-site-app-name)
-- A dedicated LoginRadius [Cloud Directory](/api/v2/cloud-directory-api/overview) database instance
+- A unique LoginRadius [site name](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name)
+- A dedicated LoginRadius [Cloud Directory](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/overview) database instance
 - A single set of LoginRadius configurations and [social provider apps](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)
 - A single user base that will be shared across all registered digital properties
 
@@ -21,7 +21,7 @@ Let's say that the LoginRadius Operations Team has provisioned you one LoginRadi
 - Any API configurations, social log in provider apps, and any other settings applied to this site will be applicable to all added domains and apps.
 - All websites, mobile apps, and other digital properties that you choose to connect to your LoginRadius site will share a single LoginRadius Cloud Directory database instance, and hence, a single userbase. Because of this, all users registered with one connected property will be registered with the others as well.
 
-  > If you need to restrict access on a per-property basis, you can do so by setting up custom [roles and permissions](/api/v2/user-registration/roles-management-overview).
+  > If you need to restrict access on a per-property basis, you can do so by setting up custom [roles and permissions](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-management-overview).
 
 ##When You Will Need More Than One LoginRadius Site License
 

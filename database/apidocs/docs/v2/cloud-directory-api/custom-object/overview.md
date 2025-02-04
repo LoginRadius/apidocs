@@ -397,10 +397,10 @@ Custom Object with Identity API provides your customer’s identity information 
 
 We are providing the following APIs in this section:
 
-- [User Identity With Custom Object API](/api/v2/cloud-directory-api/custom-object/user-identity-with-custom-object/): This API is used to retrieve customer profiles also with custom object data attached to the profile. 
-- [Get User identity with Custom Object](/api/v2/cloud-directory-api/custom-object/get-user-identity-with-custom-object-by-page/): This API is used to get the next batch of identity and custom objects with Pagination ID.
+- [User Identity With Custom Object API](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/custom-object/user-identity-with-custom-object/): This API is used to retrieve customer profiles also with custom object data attached to the profile. 
+- [Get User identity with Custom Object](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/custom-object/get-user-identity-with-custom-object-by-page/): This API is used to get the next batch of identity and custom objects with Pagination ID.
 
-Refer to our [Identity document](/api/v2/cloud-directory-api/identity/getting-started/#formattingyouridentityqueries1) for the details around formatting your queries. For more information about queries refer to the [document](/api/v2/cloud-directory-api/identity/getting-started/#queryingbasicfields5).
+Refer to our [Identity document](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/identity/getting-started/#formattingyouridentityqueries1) for the details around formatting your queries. For more information about queries refer to the [document](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/identity/getting-started/#queryingbasicfields5).
 
 ### Base URL
 

@@ -123,5 +123,5 @@ Detailed Technical information for each Hashing Algorithm:
 | NT Hash                  | None              | None               | $hash = NT[P]                                  | N/A                      | 
 
 Password -> P, Salt -> S, Per user Salt -> RS
-[Contact LoginRadius support](/getting-started/general-questions/support-faq#how-do-i-contact-loginradius-support-) to configure the desired algorithm for your account. 
+[Contact LoginRadius support](https://www.loginradius.com/legacy/docs/getting-started/general-questions/support-faq#how-do-i-contact-loginradius-support-) to configure the desired algorithm for your account. 
 

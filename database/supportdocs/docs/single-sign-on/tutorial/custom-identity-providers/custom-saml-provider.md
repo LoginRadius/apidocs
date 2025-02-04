@@ -111,5 +111,5 @@ After opening the downloaded metadata file, the certificate will be visible as b
 
 The following is the list of documents you might want to look into:
 
-- [Custom OAuth Provider](/single-sign-on/tutorial/custom-identity-providers/custom-oauth-provider/)
-- [Custom JWT Provider](/single-sign-on/custom-identity-providers/custom-jwt-provider/)
+- [Custom OAuth Provider](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/custom-identity-providers/custom-oauth-provider/)
+- [Custom JWT Provider](https://www.loginradius.com/legacy/docs/single-sign-on/custom-identity-providers/custom-jwt-provider/)

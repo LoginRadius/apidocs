@@ -75,13 +75,13 @@ You can view the following customer information, as highlighted in the **left** 
 
 > **Note:** In addition to the Search and Manage customers features available in the LoginRadius Admin Console, you can use the following Account APIs to get the customer details:
 >
-> - [Account Identities by Email](/api/v2/customer-identity-api/account/account-identities-by-email/)
-> - [Account Impersonation API](/api/v2/customer-identity-api/account/account-impersonation-api/)
-> - [Account Password](/api/v2/customer-identity-api/account/account-password/)
-> - [Account Profiles by Email](/api/v2/customer-identity-api/account/account-profiles-by-email/)
-> - [Account Profiles by User Name](/api/v2/customer-identity-api/account/account-profiles-by-user-name)
-> - [Account Profiles by Phone ID](/api/v2/customer-identity-api/account/account-profiles-by-phone-id/)
-> - [Account Profiles by UID](/api/v2/customer-identity-api/account/account-profiles-by-uid/)
+> - [Account Identities by Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-identities-by-email/)
+> - [Account Impersonation API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-impersonation-api/)
+> - [Account Password](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-password/)
+> - [Account Profiles by Email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-email/)
+> - [Account Profiles by User Name](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-user-name)
+> - [Account Profiles by Phone ID](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-phone-id/)
+> - [Account Profiles by UID](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-uid/)
 
 ## Part 2 - Blocked Customers
 
@@ -110,7 +110,7 @@ The following screen displays the search result displayed based on the applied s
 
 > - You block the customers from LoginRadius Admin Console, or they get blocked on reaching the maximum wrong login attempts if configured in the [Brute Force Lockout](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-security/) feature.
 
-> - You can also unblock customers by using [Auth Unlock Account by Access Token](/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token/) API.
+> - You can also unblock customers by using [Auth Unlock Account by Access Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token/) API.
 
 ## Part 3 - Add a New Customer
 
@@ -128,7 +128,7 @@ The following explains how you can add a new customer to your application:
 
 ![Button](https://apidocs.lrcontent.com/images/cm10_177665e84e4b9624fd1.69431474.png "Button")
 
-> **Note:** You can also add a new customer by using [Auth User Registration by Email API](/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/), which creates a customer in the database and also sends a verification email to the customer.
+> **Note:** You can also add a new customer by using [Auth User Registration by Email API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email/), which creates a customer in the database and also sends a verification email to the customer.
 
 ## Part 4 - Next Steps
 

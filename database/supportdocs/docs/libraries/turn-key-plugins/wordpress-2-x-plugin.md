@@ -95,15 +95,15 @@ For the advanced tab setting please refer to the below screenshot.
 
   - **Enable Passwordless link login**
 
-    LoginRadius customers can set up a login flow that allows users to login without a password. Please review our [Passwordless Link Login](/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithemail0) documentation for more details.
+    LoginRadius customers can set up a login flow that allows users to login without a password. Please review our [Passwordless Link Login](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithemail0) documentation for more details.
 
   - **Enable Passwordless OTP Login**
 
-    Enabling this option on the LoginRadius site lets the end-user enter his phone number and click on the instant OTP login button. Now enter the OTP which you received in your phone number to login, for more details review our [Passwordless OTP Login](/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithotp1) documentation.
+    Enabling this option on the LoginRadius site lets the end-user enter his phone number and click on the instant OTP login button. Now enter the OTP which you received in your phone number to login, for more details review our [Passwordless OTP Login](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/passwordless-login-configuration/#passwordlessloginwithotp1) documentation.
 
   - **Enable password strength**
 
-    Password strength is a measure of the effectiveness of a password in resisting guessing and brute-force attacks. The strength of a password is a function of length, complexity, and unpredictability. For more details review our [Javascript Hooks](/api/v2/user-registration/javascript-hooks#passwordstrengthfeature19) documentation.
+    Password strength is a measure of the effectiveness of a password in resisting guessing and brute-force attacks. The strength of a password is a function of length, complexity, and unpredictability. For more details review our [Javascript Hooks](https://www.loginradius.com/legacy/docs/api/v2/user-registration/javascript-hooks#passwordstrengthfeature19) documentation.
 
   ![enter image description here](https://apidocs.lrcontent.com/images/2019-10-18_1457_242935da98fd5065401.87440997.png "enter image title here")
 
@@ -114,7 +114,7 @@ For the advanced tab setting please refer to the below screenshot.
 - Admin can set Terms and Conditions by entering the content that he wants to be displayed on the registration form. This text editor also compatible with the TinyMCE text editor.
   <br><br>![enter image description here](https://apidocs.lrcontent.com/images/Authentication-Settings-‹termsnew_85745ddcc2e1bfd718.68347221.png "enter image title here")
 
-- Admin can also enter the common options of loginradius JS in **Common options for loginradius interface** field, click [here](/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3) for details on common options.
+- Admin can also enter the common options of loginradius JS in **Common options for loginradius interface** field, click [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#initializationofloginradiusobject3) for details on common options.
   <br><br>For example :
 
 ```
@@ -135,7 +135,7 @@ commonOptions.loginOnEmailVerification = true;
 
 ### Single Sign-On
 
-LoginRadius [Single Sign-On](/api/v2/single-sign-on/overview)(SSO) is a feature for multiple site management. To enable the SSO, navigate to Wordpress Admin Panel->CIAM->SSO. In SSO tab enable the radio button under the 'Enable SSO' tab and then click Save Settings button.
+LoginRadius [Single Sign-On](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/overview)(SSO) is a feature for multiple site management. To enable the SSO, navigate to Wordpress Admin Panel->CIAM->SSO. In SSO tab enable the radio button under the 'Enable SSO' tab and then click Save Settings button.
 ![enter image description here](https://apidocs.lrcontent.com/images/2019-10-18_1503_264655da990f45b51f8.98151152.png "enter image title here")
 
 
@@ -147,7 +147,7 @@ LoginRadius [Single Sign-On](/api/v2/single-sign-on/overview)(SSO) is a feature 
 
 ### Multi-Factor Authentication
 
-- In the case of traditional login, if [Multi-Factor Authentication](/api/v2/user-registration/two-factor-authentication-overview) is enabled on your app then its section will be displayed on the profile page. Click on "2-Step Verification" button to enable Multi-Factor Authentication. By default, MFA is disabled on your LoginRadius site. To enable MFA for your site, in the Admin Console, go to Platform Security > Multi-Layered Security > Multi-Factor Auth. Select the “Enable” option under “Multi-Factor Authentication”and the relevant flow option under the “Select Flow” section.
+- In the case of traditional login, if [Multi-Factor Authentication](https://www.loginradius.com/legacy/docs/api/v2/user-registration/two-factor-authentication-overview) is enabled on your app then its section will be displayed on the profile page. Click on "2-Step Verification" button to enable Multi-Factor Authentication. By default, MFA is disabled on your LoginRadius site. To enable MFA for your site, in the Admin Console, go to Platform Security > Multi-Layered Security > Multi-Factor Auth. Select the “Enable” option under “Multi-Factor Authentication”and the relevant flow option under the “Select Flow” section.
 
   <br><br>![enter image description here](https://apidocs.lrcontent.com/images/Profile-‹-mfa_165005dde37b7890623.19585768.png "enter image title here")
   <br><br>**Note:** For Multi-Factor Authentication, by default OTP authenticator is enabled on the app and, in order to enable Google Authenticator, you will need to enable it from the LoginRadius Admin Console.
@@ -221,7 +221,7 @@ Default WP Login Form is used for admin purpose. If the admin wants to bypass th
 
 ###Add additional email
 
-The customer can add additional email to their account. This email will get saved into the LoginRadius [Cloud Directory](/api/v2/cloud-directory-api/overview/) and can be used to manage the account.
+The customer can add additional email to their account. This email will get saved into the LoginRadius [Cloud Directory](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/overview/) and can be used to manage the account.
 
 The customer can delete the other email if want to delete.
 
@@ -248,7 +248,7 @@ In order to customize the LoginRadius Interface like Login, Register, forgot pas
   <br><br>To make the designing customization like interface layout, popup designing or interface elements, use the current theme's CSS file for overriding the design.
 
 - **Language Customization**
-  <br><br>To customize the form’s field label or button label, please follow our [Javascript Hooks](/api/v2/user-registration/javascript-hooks#languagecustomizations20) document.
+  <br><br>To customize the form’s field label or button label, please follow our [Javascript Hooks](https://www.loginradius.com/legacy/docs/api/v2/user-registration/javascript-hooks#languagecustomizations20) document.
 
 ### Where to look user details in database?
 

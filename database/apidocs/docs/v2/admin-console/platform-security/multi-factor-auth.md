@@ -96,7 +96,7 @@ Send push notifications for Multi-Factor Authentication to users, and they can r
 
 Check the box labeled Enable Push Notifications to activate the feature.
 
-Additionally, for detailed configuration steps, please refer to our [Push Notification Overview](/api/v2/customer-identity-api/multi-factor-authentication/push-notification/overview/) document.
+Additionally, for detailed configuration steps, please refer to our [Push Notification Overview](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/push-notification/overview/) document.
 
 **Login Screen:** Once push notifications are enabled and configured, users will see the following screen when they attempt to log in:
 

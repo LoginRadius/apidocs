@@ -151,10 +151,10 @@ Your customer can verify one or both (Email ID and Phone Number). The verified m
 - If your customer has verified the phone number, the customer can log in by entering the Phone Number and Password.
 - If your customer has verified both email ID and phone number, the customer can log in by entering Email ID OR Phone Number and Password.
 
-Refer to [Advanced Customization](/api/v2/user-registration/advanced-customization#standardandphonelogin18) and [Phone Login Configuration](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/) documents to configure this workflow.
+Refer to [Advanced Customization](https://www.loginradius.com/legacy/docs/api/v2/user-registration/advanced-customization#standardandphonelogin18) and [Phone Login Configuration](https://www.loginradius.com/legacy/docs/authentication/tutorial/phone-login/) documents to configure this workflow.
 
 ### Custom Provider Registration
 
 If enabled, this feature will allow customers to register via a custom provider. If you don’t wish your users to be able to register via a custom provider, you can disable this feature from this section.
 
-For more details regarding the custom provider, please refer [here](/single-sign-on/tutorial/custom-identity-providers/overview/).
+For more details regarding the custom provider, please refer [here](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/custom-identity-providers/overview/).

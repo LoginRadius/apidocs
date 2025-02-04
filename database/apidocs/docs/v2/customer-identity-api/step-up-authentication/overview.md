@@ -18,17 +18,17 @@ All of the Step-Up Authentication APIs have the following pattern:
 
 5. The `secondfactorauthenticationtoken` is passed back to your back-end where you can validate if the `secondfactorauthenticationtoken` is valid. If it is valid you can proceed in giving access to the requested resource.
 
-**Note:** The workflow may vary if you're performing [PIN Step-Up Authentication](/api/v2/customer-identity-api/step-up-authentication/pin/overview/) or Multi-Factor Step-Up Authentication, please refer to our documentation on each for details.
+**Note:** The workflow may vary if you're performing [PIN Step-Up Authentication](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/step-up-authentication/pin/overview/) or Multi-Factor Step-Up Authentication, please refer to our documentation on each for details.
 
 ## Step-Up Authentication using Email Authenticator workflow
 
-1. Consumer will get the MFA setting on the profile for Step-Up Auth using [Step-Up Authentication trigger API](/api/v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-trigger/)
+1. Consumer will get the MFA setting on the profile for Step-Up Auth using [Step-Up Authentication trigger API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/step-up-authentication/mfa/step-up-auth-trigger/)
 
 2. If `IsEmailOtpAuthenticatorVerified` is true in response then the you can prompt the consumer to perform Step-Up Authentication by an email from the email list.
 
-3. Consumer will select an email and [GET Send MFA Step-Up Authentication Email OTP by Access Token](/api/v2/customer-identity-api/step-up-authentication/mfa/send-mfa-step-up-auth-email-otp-by-access-token/) API will be called. It will send an OTP on email.
+3. Consumer will select an email and [GET Send MFA Step-Up Authentication Email OTP by Access Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/step-up-authentication/mfa/send-mfa-step-up-auth-email-otp-by-access-token/) API will be called. It will send an OTP on email.
 
-4. Consumer will pass the OTP and will get verify using [PUT MFA Step-Up Authentication by Email OTP](/api/v2/customer-identity-api/step-up-authentication/mfa/mfa-step-up-authentication-by-email-otp/) API
+4. Consumer will pass the OTP and will get verify using [PUT MFA Step-Up Authentication by Email OTP](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/step-up-authentication/mfa/mfa-step-up-authentication-by-email-otp/) API
 
 ## Step-Up Authentication by Email OTP (without MFA)
 
@@ -42,9 +42,9 @@ The Step-Up Authentication by Email OTP feature enables re-authentication of a u
 
 1. **Login & Access Token Retrieval:** The user logs in using their standard credentials, and an access token is obtained upon successful login.
 
-2. **Send OTP to User:** The OTP process is initiated by providing the necessary parameters, including the user's email ID. The [Send Email OTP for Step Up Authentication](/api/v2/customer-identity-api/step-up-authentication/send-email-otp-for-step-up-auth-without-mfa/) API sends an OTP to the provided email address.
+2. **Send OTP to User:** The OTP process is initiated by providing the necessary parameters, including the user's email ID. The [Send Email OTP for Step Up Authentication](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/step-up-authentication/send-email-otp-for-step-up-auth-without-mfa/) API sends an OTP to the provided email address.
 
-3. **OTP Verification:** The user provides the OTP, which is leveraged in the [Verify Email OTP for Step Up Authentication](/api/v2/customer-identity-api/step-up-authentication/verify-email-otp-for-step-up-auth-without-mfa/) API. Upon successful verification, a SecondFactorToken is received in the API response.
+3. **OTP Verification:** The user provides the OTP, which is leveraged in the [Verify Email OTP for Step Up Authentication](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/step-up-authentication/verify-email-otp-for-step-up-auth-without-mfa/) API. Upon successful verification, a SecondFactorToken is received in the API response.
 
 4. **Verify SecondFactorToken:** The SecondFactorToken is then verified to proceed with further actions, ensuring a successful authentication.
 

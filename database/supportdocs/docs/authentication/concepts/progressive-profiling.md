@@ -79,7 +79,7 @@ This guide focuses on the following deployment methods:
 
 - [JavaScript Libraries](#javascriptdeployment4): You should refer to these deployment steps if you are targeting LoginRadius Identity Platform implementation using JavaScript.
 
-However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](/api/v2/getting-started/implementation-workflows/).
+However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](https://www.loginradius.com/legacy/docs/api/v2/getting-started/implementation-workflows/).
 
 ### IDX Deployment
 
@@ -95,7 +95,7 @@ The Auth Page URL displays your unique hosted page domain in the following forma
 
 ```<https://<sitename>.hub.loginradius.com/auth.aspx> ```
 
-In the above URL, the [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
+In the above URL, the [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
 
 **Step 2:** Embed Authentication Pages in your Website as explained below:
 
@@ -195,9 +195,9 @@ var lr_raas_settings= {};
 > var access_token = getParameterByName(“token”);
 > ```
 > 
-> We have additional language-specific examples [here](/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
+> We have additional language-specific examples [here](https://www.loginradius.com/legacy/docs/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
 
-After the above configuration, Progressive Profiling will be reflected on ```https://<sitename>.hub.loginradius.com/profile.aspx``` where [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site.  
+After the above configuration, Progressive Profiling will be reflected on ```https://<sitename>.hub.loginradius.com/profile.aspx``` where [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site.  
 
 > **Note:** Progressive Profiling Interface is displayed only after login.           
 
@@ -268,7 +268,7 @@ LRObject.progressiveProfiling.showInEditor= true;
 
 The following is the list of features you might want to add-on to the above implementation:
 
-[JS Customizations](/api/v2/deployment/js-libraries/getting-started/#login7)
+[JS Customizations](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/getting-started/#login7)
 
 [Customer Data Management](https://www.loginradius.com/legacy/docs/authentication/concepts/introduction/)
 

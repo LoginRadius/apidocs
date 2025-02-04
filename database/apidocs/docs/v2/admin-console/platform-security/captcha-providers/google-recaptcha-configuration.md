@@ -36,7 +36,7 @@ Refer to the below-mentioned steps to configure the Google reCAPTCHA  with your 
    - **If you select the reCAPTCHA v2 then there will be 3 option on the screen as below:**
 
    ![V2 recaptcha](https://apidocs.lrcontent.com/images/v2_2168302476465ed6c835df3.03233141.png "V2 recaptcha")
-   > **Note:** Please be informed that as per the [**release**](/api/changelog/admin-console-release-25102/), LoginRadius does not support “I’m not a robot” checkbox challenge. There is only an invisible reCaptcha option is available to configure captcha.
+   > **Note:** Please be informed that as per the [**release**](https://www.loginradius.com/legacy/docs/api/changelog/admin-console-release-25102/), LoginRadius does not support “I’m not a robot” checkbox challenge. There is only an invisible reCaptcha option is available to configure captcha.
 
    - **If you select the reCAPTCHA v3 then only invisible reCaptcha is deployed for security**
    ![reCAPTCHA v3](https://apidocs.lrcontent.com/images/pasted-image-0_588922025648df3d92618f9.63651586.png "reCAPTCHA v3")

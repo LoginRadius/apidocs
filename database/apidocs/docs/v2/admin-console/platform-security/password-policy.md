@@ -2,11 +2,11 @@
 
 There are multiple ways in which LoginRadius can improve the security of your end users. Navigate to your LoginRadius [**Admin Console**](https://adminconsole.loginradius.com/dashboard) from the top header and select **Platform Security**. Under **Account Protection**, select **Password Policy.** On the left-hand panel, you will be see the supported password management settings that are as below:
 
-1.  [**Password Expiration**](/api/v2/admin-console/platform-security/password-policy/#passwordexpiration0)
+1.  [**Password Expiration**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/password-policy/#passwordexpiration0)
     
-2.  [**Password History**](/api/v2/admin-console/platform-security/password-policy/#passwordhistory1)
+2.  [**Password History**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/password-policy/#passwordhistory1)
     
-3.  [**Password Complexity**](/api/v2/admin-console/platform-security/password-policy/#passwordcomplexity2)
+3.  [**Password Complexity**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/password-policy/#passwordcomplexity2)
     
 
 ### Password Expiration

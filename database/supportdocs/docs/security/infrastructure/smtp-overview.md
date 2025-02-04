@@ -24,12 +24,12 @@ The SMTP server is also often used to identify you and your company which is cri
 ## How LoginRadius utilizes your SMTP server
 
 
-LoginRadius requires an SMTP server to send out emails to your users as part of the [Email Workflow](/platform-features-overview/registration-services/email-workflow) when they need to verify their email, when they do a password reset or simply to send them out a Welcome email once they register. As part of the workflow, LoginRadius simply pushes the emails that need to be send to your users through the SMTP Server and your SMTP server handles the sending.
+LoginRadius requires an SMTP server to send out emails to your users as part of the [Email Workflow](https://www.loginradius.com/legacy/docs/platform-features-overview/registration-services/email-workflow) when they need to verify their email, when they do a password reset or simply to send them out a Welcome email once they register. As part of the workflow, LoginRadius simply pushes the emails that need to be send to your users through the SMTP Server and your SMTP server handles the sending.
 
 
 
 
-If you would like to learn more about setting up your SMTP server please see our documentation on [Customizing Email Templates and Configuring Your SMTP](/api/v2/admin-console/platform-configuration/standard-login/email-templates).
+If you would like to learn more about setting up your SMTP server please see our documentation on [Customizing Email Templates and Configuring Your SMTP](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/standard-login/email-templates).
 
 
 ## How LoginRadius handles SMTP security
@@ -38,7 +38,7 @@ LoginRadius takes all of the best practices into consideration when connecting t
 
 1. Connection over TLS: You can utilize TLS for end-to-end encryption in transit.
 
-2. Static IPs: LoginRadius provides [Static IPs](/development/configuration/ip-addresses-list) that can be used for whitelisting on your SMTP server to ensure that it is only LoginRadius accessing your server.
+2. Static IPs: LoginRadius provides [Static IPs](https://www.loginradius.com/legacy/docs/development/configuration/ip-addresses-list) that can be used for whitelisting on your SMTP server to ensure that it is only LoginRadius accessing your server.
 
 3. Encrypted credentials for your SMTP connection: All of your SMTP credentials are securely Encrypted with AES 256 CBC.
 

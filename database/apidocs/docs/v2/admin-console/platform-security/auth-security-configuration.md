@@ -8,7 +8,7 @@ CAPTCHA Setting makes use of either Google reCAPTCHA, Tencent's Captcha or hCapt
 
 ![recaptcha](https://apidocs.lrcontent.com/images/recaptcha_1801426989647f37dbbe5937.86151874.png "recaptcha")
 
-Please see our [Google reCAPTCHA Configuration](/api/v2/admin-console/platform-security/captcha-providers/google-recaptcha-configuration) or [Tencent Captcha Configuration](/api/v2/admin-console/platform-security/captcha-providers/tencent-captcha-configuration) documentation for details.
+Please see our [Google reCAPTCHA Configuration](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/captcha-providers/google-recaptcha-configuration) or [Tencent Captcha Configuration](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/captcha-providers/tencent-captcha-configuration) documentation for details.
 
 ## Access Restrictions
 
@@ -61,8 +61,8 @@ Brute Force Lockout allows you to restrict account access based on the number of
 </tr>
 <tr >
 <td class="s2" dir="ltr">Captcha</td>
-<td class="s3" dir="ltr">Prompt the user to complete a [Captcha](/api/v2/admin-console/platform-security/auth-security-configuration#captchasetting0) in order to login. If attempting to login via API, you can pass the reCAPTCHA response via the 'g-recaptcha-response' body parameter (if using reCAPTCHA V2) or if you're using QQ you must provide the `qq_captcha_ticket` and the `qq_captcha_ticket` </td>
-<td class="s4" dir="ltr">You must have [Google reCAPTCHA V2](/platform-features-overview/user-security/registration-security#recaptcha-settings) or [Tencent Captcha](/api/v2/admin-console/platform-security/captcha-providers/tencent-captcha-configuration) configured in your LoginRadius Admin Console.</td>
+<td class="s3" dir="ltr">Prompt the user to complete a [Captcha](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/auth-security-configuration#captchasetting0) in order to login. If attempting to login via API, you can pass the reCAPTCHA response via the 'g-recaptcha-response' body parameter (if using reCAPTCHA V2) or if you're using QQ you must provide the `qq_captcha_ticket` and the `qq_captcha_ticket` </td>
+<td class="s4" dir="ltr">You must have [Google reCAPTCHA V2](https://www.loginradius.com/legacy/docs/platform-features-overview/user-security/registration-security#recaptcha-settings) or [Tencent Captcha](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/captcha-providers/tencent-captcha-configuration) configured in your LoginRadius Admin Console.</td>
 <td class="s5" dir="ltr">
 ```
 {
@@ -77,7 +77,7 @@ Brute Force Lockout allows you to restrict account access based on the number of
 </tr>
 <tr >
 <td class="s2" dir="ltr">SecurityQuestion</td>
-<td class="s3" dir="ltr">Prompt the user to answer a [Security Question](/api/v2/admin-console/platform-security/password-policy#securityquestion3) in order to login. If attempting to login via API, you can pass the user's answer via the 'securityanswer' body parameter.</td>
+<td class="s3" dir="ltr">Prompt the user to answer a [Security Question](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/password-policy#securityquestion3) in order to login. If attempting to login via API, you can pass the user's answer via the 'securityanswer' body parameter.</td>
 <td class="s4" dir="ltr">You must have atleast one Security Question configured in your Admin Console, and the user being prompted to answer the question must have already provided a valid answer.</td>
 <td class="s5" dir="ltr">
 ```
@@ -94,7 +94,7 @@ Brute Force Lockout allows you to restrict account access based on the number of
 <tr>
 <tr>
 <td class="s2" dir="ltr">Block</td>
-<td class="s3" dir="ltr">Prevent the user from logging in until unblocked by your admin team. Blocked users can be managed within the [Profile Management](/customer-management/profile-view/) tab. users may be also be unblocked via the [Account Update API](/api/v2/customer-identity-api/account/account-update/) by setting `"isActive":true"` in the request body.</td>
+<td class="s3" dir="ltr">Prevent the user from logging in until unblocked by your admin team. Blocked users can be managed within the [Profile Management](https://www.loginradius.com/legacy/docs/customer-management/profile-view/) tab. users may be also be unblocked via the [Account Update API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update/) by setting `"isActive":true"` in the request body.</td>
 <td class="s4" dir="ltr">Lockout Type "Block" must be selected in the Admin Console.</td>
 <td class="s5" dir="ltr">
 ```
@@ -114,17 +114,17 @@ Brute Force Lockout allows you to restrict account access based on the number of
 
 > **Note:** If a user did not reach the Brute Force Lockout Threshold, and logs in successfully the API's counter for the failed login attempts will be reset to zero automatically.
 
-Additionally, if you wish to unlock an account regardless of if they've passed the given challenges, you can use the [Account Update API](/api/v2/user-registration/account-update) to unlock the locked account.
+Additionally, if you wish to unlock an account regardless of if they've passed the given challenges, you can use the [Account Update API](https://www.loginradius.com/legacy/docs/api/v2/user-registration/account-update) to unlock the locked account.
 
 This is done by updating the `"IsLoginLocked"` field on the user's profile to unblock the account.
 
 `"IsLoginLocked": false`
 
-You can also leverage the [Auth Unlock Account by Access Token API](/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token), this API allows a user to unlock the locked account with a valid access_token.
+You can also leverage the [Auth Unlock Account by Access Token API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token), this API allows a user to unlock the locked account with a valid access_token.
 
 ## Disable Login
 
-This feature works with the [Account Update API](/api/v2/customer-identity-api/account/account-update). By using this feature you can disable traditional login for a particular user.
+This feature works with the [Account Update API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update). By using this feature you can disable traditional login for a particular user.
 
 > **Note:** This will only disable traditional login and will not block or delete the user's profile.
 

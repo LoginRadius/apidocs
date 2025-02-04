@@ -25,7 +25,7 @@ The following flowchart illustrates the above-explained process:
 
 ![enter image description here](https://apidocs.lrcontent.com/images/Custom-identity-provider-workflow-1_166465cdaff91f00cf4-10300796_84125ecdd62fbe51d0.94023878.png "Flow Chart")
 
-> **Note**: The above representation is a simplified description of the actual communication process between your application, LoginRadius, and identity provider. The actual communication process follows industry standards, and for the same, LoginRadius supports  [OAuth2](/single-sign-on/custom-identity-providers/custom-oauth-provider/) and [JWT](/single-sign-on/custom-identity-providers/custom-jwt-provider/) protocols.
+> **Note**: The above representation is a simplified description of the actual communication process between your application, LoginRadius, and identity provider. The actual communication process follows industry standards, and for the same, LoginRadius supports  [OAuth2](https://www.loginradius.com/legacy/docs/single-sign-on/custom-identity-providers/custom-oauth-provider/) and [JWT](https://www.loginradius.com/legacy/docs/single-sign-on/custom-identity-providers/custom-jwt-provider/) protocols.
 
 The details of these two protocols are explained in the section below.
 
@@ -40,7 +40,7 @@ Presently, LoginRadius supports the pre-built integration template for the provi
 - PingIdentity
 - Okta
 
-You can refer to the [Pre-Built Connections](/single-sign-on/tutorial/custom-identity-providers/pre-built-connections/) document for more details on Integrations.
+You can refer to the [Pre-Built Connections](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/custom-identity-providers/pre-built-connections/) document for more details on Integrations.
 
 ### OAuth2
 
@@ -75,7 +75,7 @@ To implement this without LoginRadius would require you to develop your logic an
 By configuring LoginRadius as the client, you delegate the communications to obtain authorization to LoginRadius. When the response from **OAUTH_CIP**, the authorization server, is received by LoginRadius, your server can grant the resource **account.html** to your front-end application running on the customer’s browser. 
 
 
-> **Note**: To set up a Custom OAuth, refer to this [document](/api/v2/single-sign-on/custom-identity-providers/custom-oauth-provider).
+> **Note**: To set up a Custom OAuth, refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/custom-identity-providers/custom-oauth-provider).
 
 
 
@@ -93,11 +93,11 @@ JSON Web Token (JWT) is an open standard that defines a compact and self-suffici
 JWT (JSON Web Token) is a popular SSO method, which is widely used by B2C apps, through this system, you can allow your customers to log into an app that supports JWT.
 
  
-> **Note**: To set up a JWT as a custom identity provider, refer to this [document](/single-sign-on/custom-identity-providers/custom-jwt-provider/).
+> **Note**: To set up a JWT as a custom identity provider, refer to this [document](https://www.loginradius.com/legacy/docs/single-sign-on/custom-identity-providers/custom-jwt-provider/).
 
 ### SAML
 
-SAML is an XML-based markup language for security assertions. Security assertions are statements used to make access-control decisions. SAML is an open standard for exchanging authentication and authorization data between entities, you can review our [SAML overview](/api/v2/single-sign-on/federated-sso/saml/overview/) document for more details.
+SAML is an XML-based markup language for security assertions. Security assertions are statements used to make access-control decisions. SAML is an open standard for exchanging authentication and authorization data between entities, you can review our [SAML overview](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/federated-sso/saml/overview/) document for more details.
 
 When you configure a third-party custom identity provider using SAML, the configured identity provider effectively becomes the Identity Provider. Individual implementations may differ, and the following example serves only as of the beginning of a reference point:
 
@@ -115,4 +115,4 @@ To implement this without LoginRadius would require you to develop your own SAML
 
 By configuring Loginradius as a service provider, you have delegated the communications to exchange authentication and authorization data to Loginradius; when the response from **SAML_CIP**, the identity provider, is received by Loginradius, your server can then begin the process of allowing access control of the principal to the requested resource.
   
-> **Note:** To set up a SAML as a custom identity provider, refer to [this document](/single-sign-on/tutorial/custom-identity-providers/custom-saml-provider/).
+> **Note:** To set up a SAML as a custom identity provider, refer to [this document](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/custom-identity-providers/custom-saml-provider/).

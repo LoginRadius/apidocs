@@ -63,11 +63,11 @@ This guide focuses on the following deployment methods:
 - [Identity Experience Framework](https://www.loginradius.com/legacy/docs/authentication/tutorial/smart-login/#idxdeployment4)
 - [JavaScript Libraries](https://www.loginradius.com/legacy/docs/authentication/tutorial/smart-login/#javascriptdeployment5) 
 
-However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here:](/api/v2/getting-started/implementation-workflows/)
+However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here:](https://www.loginradius.com/legacy/docs/api/v2/getting-started/implementation-workflows/)
 
 >**Note:**
-> - To implement the Smart Login using API refer to this [document](/api/v2/customer-identity-api/smart-login/overview/)
-> - To implement the Smart Login using technology-specific SDK refer to this [document](/api/v2/deployment/sdk-libraries/overview/)
+> - To implement the Smart Login using API refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/overview/)
+> - To implement the Smart Login using technology-specific SDK refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/deployment/sdk-libraries/overview/)
 
 ### IDX Deployment
 
@@ -83,7 +83,7 @@ The** Auth Page URL** displays your unique hosted page domain in the following f
 
 ``` <https://<sitename>.hub.loginradius.com/auth.aspx> ```
 
-In the above URL, [sitename ](/api/v2/admin-console/deployment/get-site-app-name/)is the name of your LoginRadius Site. 
+In the above URL, [sitename ](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/)is the name of your LoginRadius Site. 
 
 **Step 2:** Embed Authentication Pages in your Website as explained below:
 
@@ -142,7 +142,7 @@ var access_token = getParameterByName(“token”);
 
 **Step 3:** You can use the **Access Token** as explained below: 
 
-Call the [LoginRadius API](/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) to retrieve the customer profile using the Access Token. Alternatively, you can leverage any of our SDKs to accomplish this. 
+Call the [LoginRadius API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) to retrieve the customer profile using the Access Token. Alternatively, you can leverage any of our SDKs to accomplish this. 
 
 The following is the script example to retrieve the customer profile:
 

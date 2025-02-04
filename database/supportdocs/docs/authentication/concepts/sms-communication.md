@@ -15,7 +15,7 @@ TThe following steps explain the working of SMS communication in the LoginRadius
 
 **1.** The customer initiates a login request in the application via LoginRadius' API.
 
-**2.** LoginRadius retrieves the message content and generates the [OTP code](/infrastructure-and-security/loginradius-tokens#phone-otp-one-time-password-). LoginRadius then makes a call to your desired SMS Service Provider with the message content and generates the OTP code to form the SMS message.
+**2.** LoginRadius retrieves the message content and generates the [OTP code](https://www.loginradius.com/legacy/docs/infrastructure-and-security/loginradius-tokens#phone-otp-one-time-password-). LoginRadius then makes a call to your desired SMS Service Provider with the message content and generates the OTP code to form the SMS message.
 
 **3.** On success, the SMS provider returns a response to LoginRadius, which is then relayed to the initiating application. The SMS message containing the message content and OTP code is sent by the SMS Service Provider back to the customer.
 
@@ -27,7 +27,7 @@ TThe following steps explain the working of SMS communication in the LoginRadius
 
 > - By default, the LoginRadius only supports **Twilio**. However, if you would like to configure **SMS/Text/Voice OTP services** with other providers such as **InstaAlerts**, **MessageBird**, **Textlocal**, or even **Twilio with WhatsApp**, you can select the [**Custom Text/SMS Provider**](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/text-and-sms-and-voice-otp-configuration) and proceed to configure the same.
 
-> - For more details on configuring these providers, kindly refer to this [**document**](/api/v2/admin-console/platform-configuration/communication-configuration/sms/overview/).
+> - For more details on configuring these providers, kindly refer to this [**document**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/communication-configuration/sms/overview/).
 
 
 Now let's go through the other aspects of SMS configuration, which are **Global SMS/Text/Voice OTP Settings** and **SMS Template Settings**, which are available in the **LoginRadius Admin Console**.

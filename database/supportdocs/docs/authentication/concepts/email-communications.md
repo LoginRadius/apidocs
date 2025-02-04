@@ -60,7 +60,7 @@ The following are the configuration steps if you have decided to go ahead with t
 
    ![2. Communication Configuration - SendGrid](https://apidocs.lrcontent.com/images/Communication-Configuration-LoginRadius-User-Dashboard-4_9570618726622bafca23159.36313056.png "2. Communication Configuration - SendGrid")
 
-   Kindly refer to [SendGrid SMTP Configuration](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/sendgrid/) documentation for more details on configuring SendGrid as your SMTP provider.
+   Kindly refer to [SendGrid SMTP Configuration](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/sendgrid/) documentation for more details on configuring SendGrid as your SMTP provider.
 
 3. Verify your configuration by clicking the **Verify** button. The following screen will appear:
 
@@ -72,14 +72,14 @@ The following are the configuration steps if you have decided to go ahead with t
 
 > **Note:** The following is the list of default SMTP providers:
 >
-> - [**Gmail**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/gmail/)
-> - [**Mandrill**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/mandrill/)
-> - [**Rackspace-mailgun**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/mailgun/)
-> - [**SendGrid**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/sendgrid/)
-> - [**Yahoo**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/yahoo/)
-> - [**Amazon SES (US East)**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/aws/)
-> - [**Amazon SES (US West)**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/aws/)
-> - [**Amazon SES (EU)**](/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/aws/)
+> - [**Gmail**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/gmail/)
+> - [**Mandrill**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/mandrill/)
+> - [**Rackspace-mailgun**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/mailgun/)
+> - [**SendGrid**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/sendgrid/)
+> - [**Yahoo**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/yahoo/)
+> - [**Amazon SES (US East)**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/aws/)
+> - [**Amazon SES (US West)**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/aws/)
+> - [**Amazon SES (EU)**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/communication-configuration/email/providers/aws/)
 
 ### Configure your own Custom SMTP Provider
 
@@ -185,7 +185,7 @@ The following displays the actions available for the default email templates:
 - **FROM NAME :** The Sender's name applicable to the Template<br>
 - **FROM EMAIL :** The Sender's email applicable to the Template<br>
 
-   > **Note:** If you want to customize the sender's name and email instead of utilizing the global values from your [configured SMTP](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/email-configuration), you can raise a request to [LoginRadius support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) to enable the **Multiple SMTP Domain** feature for your account. This will enable the **FROM NAME** and **FROM EMAIL** field for every email template available in your account. For more details, refer to [Multiple SMTP Domain](/api/v2/admin-console/platform-configuration/standard-login/multiple-smtp-domain/) document.
+   > **Note:** If you want to customize the sender's name and email instead of utilizing the global values from your [configured SMTP](https://adminconsole.loginradius.com/platform-configuration/identity-workflow/communication-configuration/email-configuration), you can raise a request to [LoginRadius support](https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket) to enable the **Multiple SMTP Domain** feature for your account. This will enable the **FROM NAME** and **FROM EMAIL** field for every email template available in your account. For more details, refer to [Multiple SMTP Domain](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/standard-login/multiple-smtp-domain/) document.
 
 - **HTML BODY**: The HTML body of the template can be added here. The content added here will appear in the email client which supports HTML content in the email. Additional details on customizing the body of the template can be found in the [next](#emailtemplatecustomization8) section.
 - **TEXT BODY**: A plain text version of the template can be added here. This template will appear in the email client which supports only plain text emails. You will be able to send a test email only if the required email configuration has been done as explained in the [SMTP Configuration](#partsmtpconfiguration2).
@@ -214,7 +214,7 @@ You can use the following predefined placeholders in your email messages:
 - **#GUID#**: Appended to the query parameter **vtoken** in order to identify the customer after clicking on the link.
 - **#Url#**: Displays the URL passed in JavaScript options. For email verification, it is **commonOptions.verificationUrl**, and for reset password it is **commonOptions.resetPasswordUrl**.
 
-Check the [Customer Registration Getting Started](/api/v2/deployment/js-libraries/getting-started) document for more information.
+Check the [Customer Registration Getting Started](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/getting-started) document for more information.
 
 - **#Providers#**: Displays the social provider name through which your customer logged in.
 - **#Email#**: Displays the email address of your registered customer’s profile
@@ -292,19 +292,19 @@ The LoginRadius Email Templates do not require additional deployment settings if
 
 However, if your implementation has been done using the API, refer the following APIs:
 
-- [Welcome Email API](/api/v2/customer-identity-api/authentication/auth-send-welcome-email/)
-- [Resend Email Verification](/api/v2/customer-identity-api/authentication/auth-resend-email-verification/)
-- [Password reset by mail](/api/v2/customer-identity-api/authentication/auth-reset-password-by-email/)
-- [Passwordless Login by email](/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-email/)
-- [One-touch login By email](/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-email-captcha/)
-- [Smart login by email](/api/v2/customer-identity-api/smart-login/smart-login-by-email/)
-- [Delete an account with email confirmation](/api/v2/customer-identity-api/authentication/auth-delete-account-with-email-confirmation/)
-- [Add email](/api/v2/customer-identity-api/authentication/auth-add-email/)
+- [Welcome Email API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-send-welcome-email/)
+- [Resend Email Verification](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-resend-email-verification/)
+- [Password reset by mail](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-email/)
+- [Passwordless Login by email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-email/)
+- [One-touch login By email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-email-captcha/)
+- [Smart login by email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/smart-login-by-email/)
+- [Delete an account with email confirmation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-delete-account-with-email-confirmation/)
+- [Add email](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-add-email/)
 
 > **Note**: While sending the template directly via API, make sure **template name** is used inside the **email template** parameter field.</br> </br>
 > If no template name is used in the API call, it will send the default email template for the respective action.
 
-Similarly, refer to [this document](/api/v2/deployment/sdk-libraries/overview/), if the implementation has been done using the technology-specific SDK.
+Similarly, refer to [this document](https://www.loginradius.com/legacy/docs/api/v2/deployment/sdk-libraries/overview/), if the implementation has been done using the technology-specific SDK.
 
 ## Part 4 - Email Workflow
 

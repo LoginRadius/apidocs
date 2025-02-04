@@ -41,34 +41,34 @@ If you have any flows that go beyond adding default Roles and Permissions to you
 
 **Steps to implement via API:**
 
-1. Create a Role using the [Roles Create API Call](/api/v2/user-registration/roles-create).This will add the role to the list of roles you have created (the same that's in your Admin Console) if you need to access this list via API you can use our [Roles list API Call](/api/v2/user-registration/roles-list).
+1. Create a Role using the [Roles Create API Call](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-create).This will add the role to the list of roles you have created (the same that's in your Admin Console) if you need to access this list via API you can use our [Roles list API Call](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-list).
 
-2. Check if a user has a Role - You can easily check if a user has a Role using our [Roles by UID API Call](/api/v2/user-registration/roles-by-uid).
-
-  
-
-3. If you wish to add a Role to a user that doesn't have one you can simply use our [Roles Assign to User API Call](/api/v2/user-registration/roles-assign-to-user).
+2. Check if a user has a Role - You can easily check if a user has a Role using our [Roles by UID API Call](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-by-uid).
 
   
 
-4. If you wish to remove a role from a specific user you can use our [Roles UnAssign to User](/api/v2/user-registration/roles-unassign-to-user).
+3. If you wish to add a Role to a user that doesn't have one you can simply use our [Roles Assign to User API Call](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-assign-to-user).
 
   
 
-5. Customize your workflow - Anything beyond basic functionality can be added with the Roles Management API. For Example if you wish to provide new permissions to roles instead of doing it from the Admin Console you can use our [Account Add Permissions to Role API Call](/api/v2/customer-identity-api/roles-management/add-permissions-to-role/) or if there's an additional permission you'd like to only be applied in a specific Context you can leverage our [Upsert Context API Call](/api/v2/user-registration/roles-create-context).
+4. If you wish to remove a role from a specific user you can use our [Roles UnAssign to User](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-unassign-to-user).
+
+  
+
+5. Customize your workflow - Anything beyond basic functionality can be added with the Roles Management API. For Example if you wish to provide new permissions to roles instead of doing it from the Admin Console you can use our [Account Add Permissions to Role API Call](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/add-permissions-to-role/) or if there's an additional permission you'd like to only be applied in a specific Context you can leverage our [Upsert Context API Call](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-create-context).
 
 
 ### LoginRadius API usage for Context
 
-1. **Create Context:** You can create a context with a set of existing roles using the [Upsert Context API.](/api/v2/user-registration/roles-create-context).
+1. **Create Context:** You can create a context with a set of existing roles using the [Upsert Context API.](https://www.loginradius.com/legacy/docs/api/v2/user-registration/roles-create-context).
 
-2. **Delete Context:** You can delete a context using the [Delete Context API.](/api/v2/customer-identity-api/roles-management/delete-context/).
+2. **Delete Context:** You can delete a context using the [Delete Context API.](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-context/).
 
-3. **Delete Role from Context:** You can delete a role from the context using the [Delete Role from Context API.](/api/v2/customer-identity-api/roles-management/delete-role-from-context/).
+3. **Delete Role from Context:** You can delete a role from the context using the [Delete Role from Context API.](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-role-from-context/).
 
-4. **Delete Permissions from Context:** You can delete additional permission(s) from the context using the [Delete Permissions from Context API.](/api/v2/customer-identity-api/roles-management/delete-role-from-context/).
+4. **Delete Permissions from Context:** You can delete additional permission(s) from the context using the [Delete Permissions from Context API.](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-role-from-context/).
 
-5. **Get Context:** You can get the contexts that have been configured and the associated roles and permissions using the [Get Context API](/api/v2/customer-identity-api/roles-management/get-context/).
+5. **Get Context:** You can get the contexts that have been configured and the associated roles and permissions using the [Get Context API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/get-context/).
   
 
 ### Example

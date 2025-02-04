@@ -62,7 +62,7 @@ Each authentication system is unique and might require different configuration s
    | Email   |  email |
    |FullName  |  username   | 
 
->**Note:**  Please see [ADFS](/api/v2/admin-console/team-management/sso-connectors/adfs-setup-in-admin-console), [Azure AD](/api/v2/admin-console/team-management/setup-azure-ad), salesforce for specific examples for implementing SSO in Admin Console using SAML.
+>**Note:**  Please see [ADFS](https://www.loginradius.com/legacy/docs/api/v2/admin-console/team-management/sso-connectors/adfs-setup-in-admin-console), [Azure AD](https://www.loginradius.com/legacy/docs/api/v2/admin-console/team-management/setup-azure-ad), salesforce for specific examples for implementing SSO in Admin Console using SAML.
 
 ###  **Configure From Metadata**
 

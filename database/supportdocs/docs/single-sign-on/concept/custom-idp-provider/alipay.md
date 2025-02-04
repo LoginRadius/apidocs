@@ -163,20 +163,20 @@ The following screen will appear:
 
 **Step 13:** Pass the **Query params (optional)** from AliPay Provider in key and value pairs (if the AliPay supports query params).
 
-**Step 14:** **Data Mapping** - Enter field mappings between AliPay fields and LoginRadius [user profile properties](/api/v2/getting-started/data-points/detailed-data-points/).
+**Step 14:** **Data Mapping** - Enter field mappings between AliPay fields and LoginRadius [user profile properties](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points/detailed-data-points/).
 
 - **Select Field(Dropdown):** Select the LoginRadius field name which you want to map with respective Doximity field.
 - **The profile Key:** Enter the Doximity field name corresponding to the LoginRadius field name.
 
 You can also map more fields (as per your requirements) by clicking on the **Add Row** button. 
 > **Notes:**
-- The LoginRadius ‘ID’ field is the unique identifier for each profile attached to a LoginRadius customer account. Refer to the LoginRadius [Data structure](/api/v2/getting-started/data-points/data-points/#datastructure0) document for more details. The mapping of the LoginRadius 'ID' field (Loginradius field) is required for the OAuth Provider. A user will not be able to register/login if the value is missing for this mapping in the OAuth Provider.
+- The LoginRadius ‘ID’ field is the unique identifier for each profile attached to a LoginRadius customer account. Refer to the LoginRadius [Data structure](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points/data-points/#datastructure0) document for more details. The mapping of the LoginRadius 'ID' field (Loginradius field) is required for the OAuth Provider. A user will not be able to register/login if the value is missing for this mapping in the OAuth Provider.
 - To make this social login work, you need to map the only field that is the **LoginRadius ID** field to the **AliPay unionid** field (it’s mandatory). 
 
 **Step 15:** Now, click on the **ADD** button to add and save settings.
 
 ## Part 3- Custom AliPay Social Login Icon Configuration
 
-For this step, we highly recommend you to familiarize yourself with customizing your social provider icons [here](/api/v2/user-registration/user-registration-getting-started#socialinterfacecustomization10). OOnce you're ready to have the AliPay Social Login icon displayed on your website, you will need to add it via code. 
+For this step, we highly recommend you to familiarize yourself with customizing your social provider icons [here](https://www.loginradius.com/legacy/docs/api/v2/user-registration/user-registration-getting-started#socialinterfacecustomization10). OOnce you're ready to have the AliPay Social Login icon displayed on your website, you will need to add it via code. 
 
-Refer to our general all-purpose document on setting up a Custom OAuth Provider Icon for this step [here](/api/v2/custom-identity-provider/custom-oauth-provider#settingupthecustomicon1). Once this is complete, you should have AliPay available as a social icon.
+Refer to our general all-purpose document on setting up a Custom OAuth Provider Icon for this step [here](https://www.loginradius.com/legacy/docs/api/v2/custom-identity-provider/custom-oauth-provider#settingupthecustomicon1). Once this is complete, you should have AliPay available as a social icon.

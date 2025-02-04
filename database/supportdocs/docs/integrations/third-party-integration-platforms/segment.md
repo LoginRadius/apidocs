@@ -2,7 +2,7 @@
 
 Segment is a popular platform for standardizing data streams across different integrations. The LoginRadius Segment Client Side Integration allows you to easily feed profile data into Segment, which will then pass the data to all of your other integrations.
 
-**Note:** This Integration makes use of the [Client Side Integrations Platform](/api/v2/integrations/client-side-integrations/getting-started), please see our Client Side Integrations Platform's [Getting Started](/api/v2/integrations/client-side-integrations/getting-started) Doc if this is your first Client Side LoginRadius Integration.
+**Note:** This Integration makes use of the [Client Side Integrations Platform](https://www.loginradius.com/legacy/docs/api/v2/integrations/client-side-integrations/getting-started), please see our Client Side Integrations Platform's [Getting Started](https://www.loginradius.com/legacy/docs/api/v2/integrations/client-side-integrations/getting-started) Doc if this is your first Client Side LoginRadius Integration.
 
 ## Implementation
 
@@ -44,7 +44,7 @@ The users are identified by passing in the LoginRadius Profile to our Identify f
 
 Calling the identify function in your code with the 'segment' argument will enable the Integration.
 
-For more details on how to use the `Identify` function see our [Getting Started guide.](/api/v2/integrations/client-side-integrations/getting-started)
+For more details on how to use the `Identify` function see our [Getting Started guide.](https://www.loginradius.com/legacy/docs/api/v2/integrations/client-side-integrations/getting-started)
 
 ### Standard Mapping
 
@@ -214,7 +214,7 @@ If you want to track the behavior when specific events are fired, use the follow
 
 ### Custom Tracking
 
-The Segment Integration supports [Custom Tracking](/integrations/client-side-connectors/gosquared/#customtracking6), and does not require any special formatting, please refer to our [Custom Tracking](/integrations/client-side-connectors/gosquared/#customtracking6) documentation for details.
+The Segment Integration supports [Custom Tracking](https://www.loginradius.com/legacy/docs/integrations/client-side-connectors/gosquared/#customtracking6), and does not require any special formatting, please refer to our [Custom Tracking](https://www.loginradius.com/legacy/docs/integrations/client-side-connectors/gosquared/#customtracking6) documentation for details.
 
 ## View the Data in Segment
 

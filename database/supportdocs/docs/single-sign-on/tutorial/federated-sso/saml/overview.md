@@ -92,7 +92,7 @@ For the IDP initiated login, a customer is logged on to the LoginRadius site and
 https://<LoginRadius Site Name>/service/saml/idp/login?appname=<SAMLAppName>
 ```
 
-For implementing IDP Initiated Login using LoginRadius Identity Platform, refer to [this document](/single-sign-on/tutorial/federated-sso/saml/idp-initiated/).
+For implementing IDP Initiated Login using LoginRadius Identity Platform, refer to [this document](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/saml/idp-initiated/).
 
 The following sequence diagram summarizes the steps while proceeding with IDP Initiated Login:
 
@@ -104,7 +104,7 @@ The following sequence diagram summarizes the steps while proceeding with IDP In
 
 In the Service Provider initiated login, a customer attempts to access a protected resource directly on an SP Website without logging on. The SP sends an authentication SAML request as a string query parameter in the HTTP GET or HTTP POST parameter (after it has been deflated, base64 encoded, and URL encoded) depending on the binding configuration to the SP initiated LoginRadius URL. 
 
-For implementing SP Initiated Login using LoginRadius Identity Platform, refer to [this document](/single-sign-on/tutorial/federated-sso/saml/sp-initiated/).
+For implementing SP Initiated Login using LoginRadius Identity Platform, refer to [this document](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/saml/sp-initiated/).
 
 The following sequence diagram summarizes the steps while proceeding with SP Initiated Login:
 

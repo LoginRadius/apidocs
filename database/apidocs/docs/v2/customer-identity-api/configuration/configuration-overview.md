@@ -4,12 +4,12 @@ The Configuration APIs are a pair of APIs that are used to fetch configuration i
 
 The two APIs included in the set are as follows:
 
-1. [Get Configurations](/api/v2/customer-identity-api/configuration/get-configurations)
-2. [Get Server Time](/api/v2/customer-identity-api/configuration/get-server-time)
+1. [Get Configurations](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/configuration/get-configurations)
+2. [Get Server Time](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/configuration/get-server-time)
 
 ## Get Configurations
 
-The [Get Configurations API](/api/v2/customer-identity-api/configuration/get-configurations) is used to get the configurations which are set in the LoginRadius Admin Console for a particular LoginRadius site/environment.
+The [Get Configurations API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/configuration/get-configurations) is used to get the configurations which are set in the LoginRadius Admin Console for a particular LoginRadius site/environment.
 
 Below is a table of the different configurations returned by the API. These configurations can be changed through the [LoginRadius Admin Console](https://adminconsole.loginradius.com). Changing these settings will affect how the Get Configurations API will behave and the changes that you do on user Admin Console will reflect in this API.
 
@@ -55,4 +55,4 @@ Below is a table of the different configurations returned by the API. These conf
 
 ## Get Server Time
 
-The [Get Server Time API](/api/v2/customer-identity-api/configuration/get-server-time) is used to get the current time for the server associated with your LoginRadius account. Data returned includes the server location, the server name, current time and information that will help to generate a [SOTT token](/api/v2/customer-identity-api/sott-usage#sott-secured-one-time-token-).
+The [Get Server Time API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/configuration/get-server-time) is used to get the current time for the server associated with your LoginRadius account. Data returned includes the server location, the server name, current time and information that will help to generate a [SOTT token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/sott-usage#sott-secured-one-time-token-).

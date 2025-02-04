@@ -29,4 +29,4 @@ The following screen displays the search result displayed based on the applied s
 
 > - You block the customers from LoginRadius Admin Console, or they get blocked on reaching the maximum wrong login attempts if configured in the [Brute Force Lockout](https://www.loginradius.com/legacy/docs/authentication/concepts/customer-security/) feature.
 
-> - You can also unblock customers by using [Auth Unlock Account by Access Token](/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token/) API.
+> - You can also unblock customers by using [Auth Unlock Account by Access Token](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-unlock-account-by-access-token/) API.

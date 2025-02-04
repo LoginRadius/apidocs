@@ -6,16 +6,16 @@ The navigation menu on the left breaks down the reference guide into these main 
 
 Here is a brief summary for each section:
 
-- [**Getting Started**](/api/v2/getting-started/introduction) has an introduction to our various implementation methodologies, an overview of the recommended Security Best Practices, and details on the data point structure, data storage and response/error codes. It also describes how to use Postman to make calls to LoginRadius APIs.
-- [**Admin Console**](/api/v2/admin-console/overview) provides an overview and instructions on how the different features can be configured from the Admin Console.
-- [**Deployment**](/api/v2/deployment/overview) explains the methodologies and tools like JS Libraries, mobile and web SDKs etc. to implement the LoginRadius solution onto your application. It also includes use cases and links to demos.
-- [** LoginRadius Customer Identity API**](/api/v2/customer-identity-api/overview) provides information on LoginRadius APIs that manage various workflows related to customer identity. It also contains a live testing HTTP tool with instructions on how to make API calls. This tool makes it easy to test, develop and document APIs by allowing make simple and complex HTTP requests.
-- [**Cloud Directory API**](/api/v2/cloud-directory-api/overview) describes the LoginRadius Cloud Directory system and APIs. These APIs are used to retrieve your entire user database records to generate an aggregate view of your user base.
-- [**Single Sign-On**](/api/v2/single-sign-on/overview) outlines the methodologies and tools available to unify your user base across all your web properties or third party applications.
-- [**Integrations**](/api/v2/integrations/overview) cover the various ways of integrating third party applications with the LoginRadius platform to leverage user data among applications.
+- [**Getting Started**](https://www.loginradius.com/legacy/docs/api/v2/getting-started/introduction) has an introduction to our various implementation methodologies, an overview of the recommended Security Best Practices, and details on the data point structure, data storage and response/error codes. It also describes how to use Postman to make calls to LoginRadius APIs.
+- [**Admin Console**](https://www.loginradius.com/legacy/docs/api/v2/admin-console/overview) provides an overview and instructions on how the different features can be configured from the Admin Console.
+- [**Deployment**](https://www.loginradius.com/legacy/docs/api/v2/deployment/overview) explains the methodologies and tools like JS Libraries, mobile and web SDKs etc. to implement the LoginRadius solution onto your application. It also includes use cases and links to demos.
+- [** LoginRadius Customer Identity API**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/overview) provides information on LoginRadius APIs that manage various workflows related to customer identity. It also contains a live testing HTTP tool with instructions on how to make API calls. This tool makes it easy to test, develop and document APIs by allowing make simple and complex HTTP requests.
+- [**Cloud Directory API**](https://www.loginradius.com/legacy/docs/api/v2/cloud-directory-api/overview) describes the LoginRadius Cloud Directory system and APIs. These APIs are used to retrieve your entire user database records to generate an aggregate view of your user base.
+- [**Single Sign-On**](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/overview) outlines the methodologies and tools available to unify your user base across all your web properties or third party applications.
+- [**Integrations**](https://www.loginradius.com/legacy/docs/api/v2/integrations/overview) cover the various ways of integrating third party applications with the LoginRadius platform to leverage user data among applications.
 
-- [**Troubleshooting**](/api/v2/troubleshooting/invalid-request-uri-error) provides details on troubleshooting the types of errors that may occur during implementation.
-- [**Announcements**](/api/v2/announcements/linkedin-profile-deprecation) post updates from LoginRadius and various other third-party platforms on changes that may affect your applications.
+- [**Troubleshooting**](https://www.loginradius.com/legacy/docs/api/v2/troubleshooting/invalid-request-uri-error) provides details on troubleshooting the types of errors that may occur during implementation.
+- [**Announcements**](https://www.loginradius.com/legacy/docs/api/v2/announcements/linkedin-profile-deprecation) post updates from LoginRadius and various other third-party platforms on changes that may affect your applications.
 
 ##API Documents
 
@@ -41,9 +41,9 @@ Try It Out provides a testing tool to make HTTP calls to LoginRadius APIs for yo
 
 In the Request, enter information into the fields, as detailed in the Definitions tab. Once you send the request, a response will appear in the Response area.
 
-In the response section, the Request column shows request parameters sent in the HTTP request to the LoginRadius API and response column displays the details of the response received from HTTP call to the API. If the request fails, it will show an error code as part of the response and a description of why it failed. You can get details on the LoginRadius error codes and some suggestions to resolve them in the [Response/Error Codes](/api/v2/getting-started/response-codes/sso-api-codes/) section.
+In the response section, the Request column shows request parameters sent in the HTTP request to the LoginRadius API and response column displays the details of the response received from HTTP call to the API. If the request fails, it will show an error code as part of the response and a description of why it failed. You can get details on the LoginRadius error codes and some suggestions to resolve them in the [Response/Error Codes](https://www.loginradius.com/legacy/docs/api/v2/getting-started/response-codes/sso-api-codes/) section.
 
-You can also manage and test LoginRadius APIs in Postman. To export LoginRadius API to Postman, click **Run in Postman** in the right bottom of the page. You can find more details on export API to Postman [here](/api/v2/getting-started/export-to-postman).
+You can also manage and test LoginRadius APIs in Postman. To export LoginRadius API to Postman, click **Run in Postman** in the right bottom of the page. You can find more details on export API to Postman [here](https://www.loginradius.com/legacy/docs/api/v2/getting-started/export-to-postman).
 
 ![TryItOut](https://apidocs.lrcontent.com/images/gs2_6235e930dc2498e36.73382061.png)
 

@@ -40,4 +40,4 @@ For simplicity purposes, this demo implements only some of all of the functional
 Following are some key points you want to keep in mind when implementing the LoginRadius services using the Preact framework:
 
 - Most of the time, you want to instantiate the LoginRadiusV2 class only once, following the singleton design pattern. This is the case in this demo. Function getLoginObject() in ./src/util/getLoginObject.js ensures this by always returning the same LoginRadiusV2 object.
-- Given the similarities between React and Preact, it _might_ be useful to read the "Noted Differences in React" section in the [React demo](/api/v2/deployment/demos/react-demo).
+- Given the similarities between React and Preact, it _might_ be useful to read the "Noted Differences in React" section in the [React demo](https://www.loginradius.com/legacy/docs/api/v2/deployment/demos/react-demo).

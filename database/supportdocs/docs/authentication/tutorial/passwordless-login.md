@@ -115,11 +115,11 @@ This guide focuses on the following deployment methods:
 
 * **[JavaScript Libraries](#javascriptdeployment7):** You should refer to these deployment steps if you are targeting LoginRadius Identity Platform implementation using JavaScript.
 
-However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](/api/v2/getting-started/implementation-workflows/).
+However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](https://www.loginradius.com/legacy/docs/api/v2/getting-started/implementation-workflows/).
 
 >**Note:** 
-* To  implement the Passwordless Login using API refer to this [document](/api/v2/customer-identity-api/passwordless-login/passwordless-login-overview/).
-* To implement the Passwordless Login using technology-specific SDK refer to this [document](/api/v2/deployment/sdk-libraries/overview/).
+* To  implement the Passwordless Login using API refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-overview/).
+* To implement the Passwordless Login using technology-specific SDK refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/deployment/sdk-libraries/overview/).
 
 ### IDX Deployment
 
@@ -136,7 +136,7 @@ The **Auth Page URL** displays your unique IDX domain in the following format:
 ```
 <https://<sitename>.hub.loginradius.com/auth.aspx> 
 ```
-In the above URL, [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
+In the above URL, [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
 
 **Step 2:** Embed Authentication Pages in your Website as explained below:
 
@@ -148,7 +148,7 @@ Add a link on your webpage for redirecting customers to the Identity Experience 
 
 In the above URL replace the following: 
 
-1. **LoginRadius Site Name** : Your unique LoginRadius [sitename](/api/v2/admin-console/deployment/get-site-app-name/). 
+1. **LoginRadius Site Name** : Your unique LoginRadius [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/). 
 
 2. **Desired Action** : Following are the action list you can use.
 <br><br> Login
@@ -189,7 +189,7 @@ function getParameterByName(name) {
 getParameterByName(token);
 ```
 
->**Note:** We have additional language specific examples [here](/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
+>**Note:** We have additional language specific examples [here](https://www.loginradius.com/legacy/docs/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
 
 **Step 3:** Store the captured Access Token as explained below:
 
@@ -238,7 +238,7 @@ localStorage.setItem("lr-session-token", access_token);// First parameter will b
 ```
 **Step 4:** You can use the Access Token as explained below: 
 
-Call the [LoginRadius API](/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) to retrieve the customer profile using the Access Token. Alternatively, you can leverage any of our SDKs to accomplish this. 
+Call the [LoginRadius API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) to retrieve the customer profile using the Access Token. Alternatively, you can leverage any of our SDKs to accomplish this. 
 
 The following is the script example to retrieve the customer profile:
 
@@ -259,7 +259,7 @@ xhr.send();
 ```
 On executing the above deployment steps, you will see obtained customer profile data in Console Log of your browser. You can then link the obtained data to your applications. 
 
-After the above configuration, Passwordless Login will reflect on your `https://<sitename>.hub.loginradius.com/auth.aspx` where [Sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site.  
+After the above configuration, Passwordless Login will reflect on your `https://<sitename>.hub.loginradius.com/auth.aspx` where [Sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site.  
 
 The following displays the Identity Experience Framework page with the **Email me a link to Sign 
 In** and **Send an OTP to Sign In** button:
@@ -310,9 +310,9 @@ LRObject.init('passwordlessLoginValidate', passwordless_options);
 });
 ```
 
-> **Note:** If both Passwordless Login and [Two Factor Authentication (2FA)](/api/v2/admin-console/platform-security/multi-factor-auth/) are implemented for your application, the Passwordless Login will not work for your consumers.
+> **Note:** If both Passwordless Login and [Two Factor Authentication (2FA)](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/multi-factor-auth/) are implemented for your application, the Passwordless Login will not work for your consumers.
 
-For details regarding **Passwordless Login API**, kindly refer this [**document**](/api/v2/customer-identity-api/passwordless-login/passwordless-login-overview)
+For details regarding **Passwordless Login API**, kindly refer this [**document**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-overview)
 
 ## Part 3 - Next Steps 
 
@@ -324,7 +324,7 @@ For details regarding **Passwordless Login API**, kindly refer this [**document*
 
 [SMS Configuration](https://www.loginradius.com/legacy/docs/authentication/concepts/sms-configuration/)
 
-[JS Customizations](/api/v2/deployment/js-libraries/getting-started/#login7)
+[JS Customizations](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/getting-started/#login7)
 
 
 

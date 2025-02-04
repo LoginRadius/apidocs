@@ -7,19 +7,19 @@ It is hosted at LoginRadius, and you can perform all the actions on the Identity
 In this section, we will cover IDX customization, Usages, Feature Usecase, and Multi Branding Configuration details.
 
 ## Customization 
-This section will cover the details about how you can customize different aspects of the Identity Experience Framework. More details can be found on the customization document [here](/libraries/identity-experience-framework/customization/).
+This section will cover the details about how you can customize different aspects of the Identity Experience Framework. More details can be found on the customization document [here](https://www.loginradius.com/legacy/docs/libraries/identity-experience-framework/customization/).
 
 ## Usages
-In this section, we will provide the details around various options available on IDX  like Login, Registration, forgot password, profile page, etc, and how you can customize them as per your requirement. More details can be found on the usage document [here](/libraries/identity-experience-framework/usage/).
+In this section, we will provide the details around various options available on IDX  like Login, Registration, forgot password, profile page, etc, and how you can customize them as per your requirement. More details can be found on the usage document [here](https://www.loginradius.com/legacy/docs/libraries/identity-experience-framework/usage/).
 
 ## Feature Usecase
-This document will explain to you how you can configure various LoginRadius Features on IDX pages like social login,multi-factor authentication, etc. More details can be found in the usecase document [here](/libraries/identity-experience-framework/features-use-cases/).
+This document will explain to you how you can configure various LoginRadius Features on IDX pages like social login,multi-factor authentication, etc. More details can be found in the usecase document [here](https://www.loginradius.com/legacy/docs/libraries/identity-experience-framework/features-use-cases/).
 
 ## Multi Branding Configuration
-On the IDX page If you want to display different branding based on how the customer got to the page will be covered in this [document](/libraries/identity-experience-framework/multi-branding-configuration/).
+On the IDX page If you want to display different branding based on how the customer got to the page will be covered in this [document](https://www.loginradius.com/legacy/docs/libraries/identity-experience-framework/multi-branding-configuration/).
 
 ## Custom Domain
-If you want to use your own domain instead of the LoginRadius domain then you can use the Custom Domain feature. For more details, please refer to Custom Domain [document](/api/v2/admin-console/deployment/custom-domain-and-ssl-configuration/)
+If you want to use your own domain instead of the LoginRadius domain then you can use the Custom Domain feature. For more details, please refer to Custom Domain [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/custom-domain-and-ssl-configuration/)
 
 ### URL of IDX
 The default URL of your IDX page will be `https://<your-site-name>.hub.loginradius.com/auth.aspx` where you need to replace `<your-site-name>` with your LoginRadius site name.

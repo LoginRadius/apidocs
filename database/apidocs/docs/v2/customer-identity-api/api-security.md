@@ -33,7 +33,7 @@ Some of the LoginRadius APIs (Account API, Roles Management API, Custom Object A
 
 #####API Key and Secret via Headers
 
-This method allows you to call our back-end APIs by passing in the [API Key and Secret](/account/get-api-key-and-secret) via Headers instead of passing them as query parameters.
+This method allows you to call our back-end APIs by passing in the [API Key and Secret](https://www.loginradius.com/legacy/docs/account/get-api-key-and-secret) via Headers instead of passing them as query parameters.
 
 Simply pass them as Headers as shown below:
 
@@ -45,7 +45,7 @@ X-LoginRadius-ApiSecret: <<YOUR API SECRET>>
 
 #####API Key and Secret via Query String
 
-The [API Key and Secret](/account/get-api-key-and-secret) can be passed by Query String with the parameter names: apikey and apisecret
+The [API Key and Secret](https://www.loginradius.com/legacy/docs/account/get-api-key-and-secret) can be passed by Query String with the parameter names: apikey and apisecret
 
 E.g. `https://api.loginradius.com/identity/v2/manage/account?apikey=********-****-****-****-************&apisecret=********-****-****-****-************`
 

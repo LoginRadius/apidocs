@@ -1,6 +1,6 @@
 # Web SSO Introduction
 
-Web SSO is a method of browser-based session management that utilizes browser storage mechanisms like sessionStorage, localStorage, cookies to maintain the user’s session across your applications. A centralized domain managed by LoginRadius [IDX](/getting-started/glossary/#h7) is utilized to perform the authentication. When requested, this centralized domain shares the session with authorized applications.
+Web SSO is a method of browser-based session management that utilizes browser storage mechanisms like sessionStorage, localStorage, cookies to maintain the user’s session across your applications. A centralized domain managed by LoginRadius [IDX](https://www.loginradius.com/legacy/docs/getting-started/glossary/#h7) is utilized to perform the authentication. When requested, this centralized domain shares the session with authorized applications.
 
 So that the users logged in to one application automatically logs into other applications, independent of technology, platform or domain the user is using.
 
@@ -14,7 +14,7 @@ The following displays the sequence diagram of the Web SSO process:
 
 The following explains the working of above sequence diagram:
 
-1. When your customer lands on a page included in the SSO grouping, the first step is to [check for an active SSO session](/api/v2/single-sign-on/getting-started#userloggedincheck5). It is handled by the [ssoNotLoginThenLogout](#-step-3-3-sso-not-login-then-logout-) function, which checks the presence of a browser cookie on the [LoginRadius SiteName].hub.loginradius.com domain. If a cookie is present, it goes into either the success handler (function) or the error handler.
+1. When your customer lands on a page included in the SSO grouping, the first step is to [check for an active SSO session](https://www.loginradius.com/legacy/docs/api/v2/single-sign-on/getting-started#userloggedincheck5). It is handled by the [ssoNotLoginThenLogout](#-step-3-3-sso-not-login-then-logout-) function, which checks the presence of a browser cookie on the [LoginRadius SiteName].hub.loginradius.com domain. If a cookie is present, it goes into either the success handler (function) or the error handler.
 
 2. The function triggers the [AJAX call](#settingthessotokenviaajaxcall4) that returns a response based on the presence of the 'lr-user--token' cookie.
 
@@ -328,8 +328,8 @@ LRObject.init("ssoNotLoginThenLogout", check_options);
 
 > **Note:**
 
-- The LoginRadius web SSO uses the cross-domain API call to set, remove or retrieve the token from the cookie on the centralized domain. Safari's newer version is blocking cross-domain API calls to manage cookies. Hence, it is recommended to leverage the LoginRadius [Custom Domain](/libraries/identity-experience-framework/overview/#customdomain6) feature to make the same domain API calls to manage cookies on the centralized domain (hub.loginradius.com).
-- You can use the Access Token obtained from the above steps to call the [LoginRadius API](/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) and retrieve the customer profile. Alternatively, you can leverage any of our SDKs to accomplish this.
+- The LoginRadius web SSO uses the cross-domain API call to set, remove or retrieve the token from the cookie on the centralized domain. Safari's newer version is blocking cross-domain API calls to manage cookies. Hence, it is recommended to leverage the LoginRadius [Custom Domain](https://www.loginradius.com/legacy/docs/libraries/identity-experience-framework/overview/#customdomain6) feature to make the same domain API calls to manage cookies on the centralized domain (hub.loginradius.com).
+- You can use the Access Token obtained from the above steps to call the [LoginRadius API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token/) and retrieve the customer profile. Alternatively, you can leverage any of our SDKs to accomplish this.
 
 The following is the script example to retrieve the customer profile:
 
@@ -469,10 +469,10 @@ LRObject.init("ssoNotLoginThenLogout", options);
 
 [Setup Social Login](https://www.loginradius.com/legacy/docs/authentication/quick-start/social-login/)
 
-[Federated SSO](/single-sign-on/tutorial/federated-sso/overview/)
+[Federated SSO](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/federated-sso/overview/)
 
-[Calling LoginRadius APIs](/api/v2/customer-identity-api/overview/)
+[Calling LoginRadius APIs](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/overview/)
 
-[Mobile SSO](/single-sign-on/tutorial/mobile-sso/overview/)
+[Mobile SSO](https://www.loginradius.com/legacy/docs/single-sign-on/tutorial/mobile-sso/overview/)
 
-[Other implementation Guides](/api/v2/getting-started/implementation-workflows/)
+[Other implementation Guides](https://www.loginradius.com/legacy/docs/api/v2/getting-started/implementation-workflows/)

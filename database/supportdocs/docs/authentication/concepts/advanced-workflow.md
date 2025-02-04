@@ -16,4 +16,4 @@ Navigate to [Platform Configuration > Identity Workflow > Authentication Workflo
 
 ![Advanced Workflow - Social login via ping API](https://apidocs.lrcontent.com/images/Advanced-Workflow---Social-login-via-ping-API_325496281ffaec7daf5.68545325.png "Advanced Workflow - Social login via ping API")
 
-If this feature is enabled, then in the social login workflow, after successful authentication, the access token is captured via Ping API on the parent window. Kindly refer to [Social Login with Ping API](/api/v2/customer-identity-api/social-login/getting-started/#socialloginwithpingapi3) document for more information.
+If this feature is enabled, then in the social login workflow, after successful authentication, the access token is captured via Ping API on the parent window. Kindly refer to [Social Login with Ping API](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/getting-started/#socialloginwithpingapi3) document for more information.

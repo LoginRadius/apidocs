@@ -93,7 +93,7 @@ LoginRadius CIAM provides various methods of login :
 
 ##Customer insights 
 
-LoginRadius provides useful charts and analytic tools to view and measure the overall performance of your site, in terms of customer registration and login. The information is aggregated and categorized into identity analytics, provider analytics, login analytics and comparative analysis. For more information refer to [Customer Insight](/customer-insights/identity-analytics/) section of our document.
+LoginRadius provides useful charts and analytic tools to view and measure the overall performance of your site, in terms of customer registration and login. The information is aggregated and categorized into identity analytics, provider analytics, login analytics and comparative analysis. For more information refer to [Customer Insight](https://www.loginradius.com/legacy/docs/customer-insights/identity-analytics/) section of our document.
 In LoginRadius Admin Console, navigate to [Insights > Identity Analytics >  Customer Stats](https://adminconsole.loginradius.com/insights/identity-analytics/customer-stats) and the following screen appears to show the available insight options:
 
 

@@ -24,7 +24,7 @@ As AMP does not allow author-written JavaScript on pages, you can set a link to 
 
 ##### Step 1
 
-AMP has built-in support for `<a>` tags, as such, it will allow us to leverage the [Actions](/api/v2/deployment/hosted-registration/usage) feature in the Identity Experience Framework to select the interface you want the customer to be presented with. 
+AMP has built-in support for `<a>` tags, as such, it will allow us to leverage the [Actions](https://www.loginradius.com/legacy/docs/api/v2/deployment/hosted-registration/usage) feature in the Identity Experience Framework to select the interface you want the customer to be presented with. 
 
 ```
 <a href="https://<<Your-LoginRadius-Environment-Name>>.hub.loginradius.com/auth.aspx?action=login">Login</a>

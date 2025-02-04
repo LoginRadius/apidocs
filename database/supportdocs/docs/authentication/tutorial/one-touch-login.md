@@ -30,7 +30,7 @@ The following screen appears:
 
 The above screen displays that the One Touch Login is enabled for your account since the One Touch Login box is in green with the enabled text. If not **enabled** for your account, raise a request to the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>
 
-> **Note:** In addition to this feature if you also want to disable the use of **Login APIs**, where password is **required field**, such as [**Auth Login By Email**](/api/v2/customer-identity-api/authentication/auth-login-by-email/), [**Auth Login By Username**](/api/v2/customer-identity-api/authentication/auth-login-by-username/) or [**Auth Login By Phone**](/api/v2/customer-identity-api/phone-authentication/phone-login/), and etc., please raise a request to the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
+> **Note:** In addition to this feature if you also want to disable the use of **Login APIs**, where password is **required field**, such as [**Auth Login By Email**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-email/), [**Auth Login By Username**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-username/) or [**Auth Login By Phone**](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-login/), and etc., please raise a request to the <a href = https://adminconsole.loginradius.com/support/tickets/open-a-new-ticket target=_blank> LoginRadius Support Team</a>.
 
 ## Part 1 - Configuration
 
@@ -102,11 +102,11 @@ This guide focuses on the following deployment methods:
 - [**JavaScript Libraries**](#javascriptdeployment6): You should refer to these deployment steps if you are targeting LoginRadius Identity Platform implementation using JavaScript.
 
 
-However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](/api/v2/getting-started/implementation-workflows/).
+However, you can similarly accomplish the deployment with any of the implementation methodologies. Full details on these methodologies can be found [here](https://www.loginradius.com/legacy/docs/api/v2/getting-started/implementation-workflows/).
 
 >**Note:**
-> - To implement the One Touch Login using API refer to this [document](/api/v2/customer-identity-api/one-touch-login/one-touch-login-overview/)
-> - To implement the One Touch Login using technology-specific SDK refer to this [document](/api/v2/deployment/sdk-libraries/overview/)
+> - To implement the One Touch Login using API refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-overview/)
+> - To implement the One Touch Login using technology-specific SDK refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/deployment/sdk-libraries/overview/)
 
 ### IDX Deployment
 
@@ -127,7 +127,7 @@ The Auth Page URL displays your unique hosted page domain in the following forma
  
 ```
 
-In the above URL, [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
+In the above URL, [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
 
 **Step 2:** Embed Authentication Pages in your Website, as explained below:
 
@@ -139,7 +139,7 @@ Add a link on your webpage for redirecting customers to the Identity Experience 
 
 In the above URL replace the following: 
 
-**a.** LoginRadius Site Name : Your unique LoginRadius [sitename](/api/v2/admin-console/deployment/get-site-app-name/) as found in step 1.
+**a.** LoginRadius Site Name : Your unique LoginRadius [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) as found in step 1.
 
 **b.** Desired Action: Following are the action list you can use 
 
@@ -226,7 +226,7 @@ Try this link out on your page; you should be redirected over to the LoginRadius
 
      ![default](https://apidocs.lrcontent.com/images/Deployment---LoginRadius-User-Dashboard-3_11500620c2ecde77e76.59996532.png "default")
 
-6. Navigate to your Auth page URL (`https://<sitename>.hub.loginradius.com/auth.aspx`) , where [sitename](/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
+6. Navigate to your Auth page URL (`https://<sitename>.hub.loginradius.com/auth.aspx`) , where [sitename](https://www.loginradius.com/legacy/docs/api/v2/admin-console/deployment/get-site-app-name/) is the name of your LoginRadius Site. 
 
      ![hosted page](https://apidocs.lrcontent.com/images/otl5_171405e864c9ca08094.63588959.png "hosted page")
 
@@ -246,7 +246,7 @@ function getParameterByName(name) {
 var access_token = getParameterByName(“token”);
 ```
 
-> We have additional language specific examples [here](/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
+> We have additional language specific examples [here](https://www.loginradius.com/legacy/docs/api/v2/deployment/identity-experience-framework/hosted/usage/#tokenhandling1) if you want to capture this token in other programming languages.
 
 ### JavaScript Deployment
 
@@ -315,4 +315,4 @@ The following is the list of features you might want to add-on to the above impl
 
 [Smart Login](https://www.loginradius.com/legacy/docs/authentication/tutorial/smart-login/)
 
-[JS Customizations](/api/v2/deployment/js-libraries/getting-started/#login7)
+[JS Customizations](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/getting-started/#login7)
