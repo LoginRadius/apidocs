@@ -4,7 +4,7 @@
     "changelog": {
         "ADDED": [
             {
-                "text": "Added the following options to the available <a href='/docs/libraries/js-libraries/getting-started/#initializationofloginradiusobject3'> commonOptions </a> : <br> vNextUX <br> disableResendOTPButton <br> disableResendOTPButtonDelay"
+                "text": "Added the following options to the available <a href='/legacy/docs/libraries/js-libraries/getting-started/#initializationofloginradiusobject3'> commonOptions </a> : <br> vNextUX <br> disableResendOTPButton <br> disableResendOTPButtonDelay"
             }
         ],
         "FIXED": [

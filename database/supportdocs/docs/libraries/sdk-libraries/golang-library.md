@@ -197,7 +197,7 @@ data, ok := obj["data"].([]interface{}); ok {
 }
 ```
 
-A detailed list of LoginRadius datapoints and their types can be found [here.](https://www.loginradius.com/docs/api/v2/getting-started/data-points/detailed-data-points)
+A detailed list of LoginRadius datapoints and their types can be found [here.](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points/detailed-data-points)
 
 An alternative to dynamically unmarshalling the body is to create a struct based on the expected return, and unmarshal the body into the struct; this would be marginally faster, but will not be able to handle all future changes in the API returns. The returned `httprutils.Response` struct contains two fields: string `Body` and []byte `OrigBody` to allow more flexibility in your implementation of the SDK.
 
@@ -405,7 +405,7 @@ import (
 
 This API is used to add emails to an existing account.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-add-email)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-add-email)
 
 Example:
 
@@ -433,7 +433,7 @@ if err != nil {
 
 This API is used to initiate the Forgot Password workflow.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-forgot-password)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-forgot-password)
 
 Example:
 
@@ -459,7 +459,7 @@ if err != nil {
 
 This API is used to register a user with the authentication API.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-user-registration-by-email)
 
 Example:
 
@@ -489,7 +489,7 @@ if err != nil {
 
 This API is used to create an access token for the account used, along with fetching profile data.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-login-by-email)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-email)
 
 Example:
 
@@ -514,7 +514,7 @@ if err != nil {
 
 This API is used to create an access token for the account used, along with fetching profile data. Uses a username instead of email.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-login-by-username)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-login-by-username)
 
 Example:
 
@@ -539,7 +539,7 @@ if err != nil {
 
 This API is used to check used to check whether an email exists or not on your site.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-email-availability)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-email-availability)
 
 Example:
 
@@ -556,7 +556,7 @@ if err != nil {
 
 This API is used to check used to check whether a username exists or not on your site.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-username-availability)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-username-availability)
 
 Example:
 
@@ -572,7 +572,7 @@ if err != nil {
 
 This API is used to get the profile data of a user with an access token.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-read-profiles-by-token)
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
@@ -593,7 +593,7 @@ This API is used to update the privacy policy of a user using their access token
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-privacy-policy-accept)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-privacy-policy-accept)
 
 Example:
 
@@ -611,7 +611,7 @@ if err != nil {
 
 This API is used to send a welcome email to the user associated with the access token.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-send-welcome-email)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-send-welcome-email)
 
 Example:
 
@@ -630,7 +630,7 @@ This API is called before the account linking API to prevent a second profile fr
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-social-identity)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-social-identity)
 
 Example:
 
@@ -650,7 +650,7 @@ This API is used to validate the access token passed in.
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-validate-access-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-validate-access-token)
 
 Example:
 
@@ -667,7 +667,7 @@ if err != nil {
 
 This API is used to verify the account using the verification token sent in the verification email.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-verify-email)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-verify-email)
 
 Example:
 
@@ -685,7 +685,7 @@ if err != nil {
 
 This API is used to delete an account using a delete token sent to the user's email.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-delete-account)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-delete-account)
 
 Example:
 
@@ -703,7 +703,7 @@ if err != nil {
 
 This API is used to invalidate the access token passed in.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-invalidate-access-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-invalidate-access-token)
 
 Example:
 
@@ -720,9 +720,9 @@ if err != nil {
 
 This API is used to retrieve the list of security questions configured for a user using the access token.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/security-questions-by-access-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-access-token)
 
-For additional information on security questions, please refer the [documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/security-questions-by-access-token/)
+For additional information on security questions, please refer the [documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-access-token/)
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
@@ -758,7 +758,7 @@ if err != nil {
 
 This API is used to retrieve the list of security questions configured for a user using their username.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/security-questions-by-user-name)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-user-name)
 
 Example:
 
@@ -775,7 +775,7 @@ if err!= nil {
 
 This API is used to retrieve the list of security questions configured for a user using their phone number.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/security-questions-by-phone)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/security-questions-by-phone)
 
 Example:
 
@@ -793,7 +793,7 @@ if err != nil {
 
 This API is used to verify an account with an OTP. OTP workflow must be enabled in the customer account.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-verify-email-by-otp)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-verify-email-by-otp)
 
 Example:
 
@@ -816,7 +816,7 @@ This API is used to change the user's password.
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-change-password)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-change-password)
 
 Example:
 
@@ -839,7 +839,7 @@ This API is used to link the user's account with a social account.
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-link-social-identities)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-link-social-identities)
 
 Example:
 
@@ -859,7 +859,7 @@ if err != nil {
 
 This API is used to resend the email verification to the user's email.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-resend-email-verification)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-resend-email-verification)
 
 Example:
 
@@ -877,7 +877,7 @@ if err != nil {
 
 This API is used to reset the password for a user using a reset token received from the user's email.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-reset-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-reset-token)
 
 Example:
 
@@ -899,7 +899,7 @@ if err != nil {
 
 This API is used to reset the password for a user using an OTP received from the user's email. OTP workflow must be enabled for the customer for them to receive an OTP by email.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-otp)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-otp)
 
 Example:
 
@@ -922,9 +922,9 @@ if err != nil {
 
 This API is used to initiate reset password using a security answer and the user's email.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-email)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-email)
 
-For additional information on security questions, please refer the [documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-email/)
+For additional information on security questions, please refer the [documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-email/)
 
 Example:
 
@@ -965,9 +965,9 @@ if err != nil {
 
 This API is used to initiate reset password using a security answer and the user's phone number.
 
-For additional information on security questions, please refer the [documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-phone/)
+For additional information on security questions, please refer the [documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-phone/)
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-phone)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-phone)
 
 Example:
 
@@ -1007,9 +1007,9 @@ if err != nil {
 
 This API is used to initiate reset password using a security answer and the username.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-username)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-reset-password-by-username)
 
-For additional information on security questions, please refer the [documentation](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/password-policy/#password-policy)
+For additional information on security questions, please refer the [documentation](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/password-policy/#password-policy)
 
 Example:
 
@@ -1051,7 +1051,7 @@ This API is used to add a username to an account, or to update the current usern
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-set-or-change-user-name)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-set-or-change-user-name)
 
 Example:
 
@@ -1071,7 +1071,7 @@ This API is used to update the profile of a user using an access token associate
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-update-profile-by-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-update-profile-by-token)
 
 Example:
 
@@ -1094,9 +1094,9 @@ This API is used to update the security questions using a user's access token.
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-For additional information on security questions, please refer the [documentation](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/security-question/#password-policy)
+For additional information on security questions, please refer the [documentation](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/security-question/#password-policy)
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-update-security-question-by-access-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-update-security-question-by-access-token)
 
 Example:
 
@@ -1135,7 +1135,7 @@ This API is used to delete a user account by passing in their access token.
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-delete-account-with-email-confirmation)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-delete-account-with-email-confirmation)
 
 Example:
 
@@ -1154,7 +1154,7 @@ have at least one email at all times when used as an identifier.
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-remove-email)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-remove-email)
 
 Example:
 
@@ -1170,7 +1170,7 @@ if err != nil {
 
 This API is used to unlink a social provider account from the user associated with the access token.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/authentication/auth-unlink-social-identities)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/authentication/auth-unlink-social-identities)
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
@@ -1227,7 +1227,7 @@ import (
 
 This API is used to create an account which bypasses email verification.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-create)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-create)
 
 Example:
 
@@ -1256,7 +1256,7 @@ if err != nil {
 
 This API is used to generate an email verification token.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/get-email-verification-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/get-email-verification-token)
 
 Example:
 
@@ -1274,7 +1274,7 @@ if err != nil {
 
 This API is used to generate a token to reset the user's password.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/get-forgot-password-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/get-forgot-password-token)
 
 Example:
 
@@ -1293,7 +1293,7 @@ if err != nil {
 
 This API is used to fetch the account identities associated with an email.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-identities-by-email)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-identities-by-email)
 
 Example:
 
@@ -1319,7 +1319,7 @@ uid := profile["Uid"].(string) // get id of first profile
 
 This API is used to generate a token by passing in a User ID.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-impersonation-api)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-impersonation-api)
 
 Example:
 
@@ -1334,7 +1334,7 @@ if err != nil {
 
 This API is used to get the hashed password for an account.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-password)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-password)
 
 Example:
 
@@ -1349,7 +1349,7 @@ if err != nil {
 
 This API is used to get the profile of an account associated with the passed in email.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-profiles-by-email)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-email)
 
 Example:
 
@@ -1366,7 +1366,7 @@ if err != nil {
 
 This API is used to get the profile of an account associated with the passed in username.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-profiles-by-user-name/)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-user-name/)
 
 Example:
 
@@ -1383,7 +1383,7 @@ if err != nil {
 
 This API is used to get the profile of an account associated with the passed in phone number.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-profiles-by-phone-id)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-phone-id)
 
 Example:
 
@@ -1400,7 +1400,7 @@ if err != nil {
 
 This API is used to get the profile of an account associated with the passed in user ID.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-profiles-by-uid)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-profiles-by-uid)
 
 Example:
 
@@ -1416,7 +1416,7 @@ if err != nil {
 
 This API will be used to Refresh Access token using the refresh token API.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/refresh-token/refresh-access-token-by-refresh-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/refresh-token/refresh-access-token-by-refresh-token)
 
 Example:
 
@@ -1434,7 +1434,7 @@ if err != nil {
 
 This API will be used to Revoke the Refresh token.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/refresh-token/revoke-refresh-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/refresh-token/revoke-refresh-token)
 
 Example:
 
@@ -1452,7 +1452,7 @@ if err != nil {
 
 This API is used to set the password for a user.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-set-password)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-set-password)
 
 Example:
 
@@ -1471,7 +1471,7 @@ if err != nil {
 
 This API is used to update the profile of a user.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-update)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update)
 
 Example:
 
@@ -1492,9 +1492,9 @@ if err != nil {
 
 This API is used to update security question configurations for an account.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-update-security-question)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-update-security-question)
 
-For additional information on security questions, please refer the [documentation](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/security-question/#password-policy)
+For additional information on security questions, please refer the [documentation](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/security-question/#password-policy)
 
 Example:
 
@@ -1533,7 +1533,7 @@ if err != nil {
 
 This API is used to invalidate the verification email status on an account.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-invalidate-verification-email)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-invalidate-verification-email)
 
 Example:
 
@@ -1548,7 +1548,7 @@ if err != nil {
 
 This API is used to delete an email off of an account. When emails are set as identifiers, an account should always have at least one email.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-email-delete)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-email-delete)
 
 Example:
 
@@ -1566,7 +1566,7 @@ if err != nil {
 
 This API is used to delete an account.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/account/account-delete)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/account/account-delete)
 
 Example:
 
@@ -1610,7 +1610,7 @@ import (
 
 This API is used to create a role.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/roles-create)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/roles-create)
 
 Example:
 
@@ -1636,7 +1636,7 @@ if err != nil {
 
 This API is used to get a context associated with an account.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/get-context)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/get-context)
 
 Example:
 
@@ -1652,7 +1652,7 @@ if err != nil {
 
 This API is used to get a list of roles within the customer account.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/roles-list)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/roles-list)
 
 Example:
 
@@ -1668,7 +1668,7 @@ if err != nil {
 
 This API is used to retrieve all the assigned roles for a particular user.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/get-roles-by-uid)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/get-roles-by-uid)
 
 Example:
 
@@ -1683,7 +1683,7 @@ if err != nil {
 
 This API is used to add permissions to an existing role.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/add-permissions-to-role)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/add-permissions-to-role)
 
 Example:
 
@@ -1704,7 +1704,7 @@ if err != nil {
 
 This API is used to assign your desired roles to a given user.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/assign-roles-by-uid)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/assign-roles-by-uid)
 
 Example:
 
@@ -1724,7 +1724,7 @@ if err != nil {
 
 This API is used to create a context with a set of rules.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/upsert-context)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/upsert-context)
 
 Example:
 
@@ -1746,7 +1746,7 @@ if err != nil {
 
 This API is used to delete a role.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/delete-role)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-role)
 
 Example:
 
@@ -1762,7 +1762,7 @@ if err != nil {
 
 This API is used to unassign a role.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/unassign-roles-by-uid)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/unassign-roles-by-uid)
 
 Example:
 
@@ -1782,7 +1782,7 @@ if err != nil {
 
 This API is used to remove permissions from a role.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/remove-permissions)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/remove-permissions)
 
 Example:
 
@@ -1802,7 +1802,7 @@ if err != nil {
 
 This API deletes the passed in role context.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/delete-context)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-context)
 
 Example:
 
@@ -1821,7 +1821,7 @@ if err != nil {
 
 This API deletes the specified role from a context.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/delete-role-from-context)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-role-from-context)
 
 Example:
 
@@ -1843,7 +1843,7 @@ if err != nil {
 
 This API deletes additional permissions from a context.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/roles-management/delete-permissions-from-context)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/roles-management/delete-permissions-from-context)
 
 Example:
 
@@ -1899,7 +1899,7 @@ import (
 
 This API uses the multi-factor process to perform an authentication using email.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-email-login)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-email-login)
 
 Example:
 
@@ -1919,7 +1919,7 @@ if err != nil {
 
 This API uses the multi-factor process to perform an authentication using username.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-user-name-login)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-user-name-login)
 
 Example:
 
@@ -1940,7 +1940,7 @@ if err != nil {
 
 This API uses the multi-factor process to perform an authentication using phone.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-phone-login)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-phone-login)
 
 Example:
 
@@ -1963,7 +1963,7 @@ This API validates the access token after logging in with an optional MFA settin
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-access-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-access-token)
 
 Example:
 
@@ -1985,7 +1985,7 @@ This API creates backup codes for user login after passing in a valid access tok
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-backup-code-by-access-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-backup-code-by-access-token)
 
 Example:
 
@@ -2003,7 +2003,7 @@ This API resets any backup codes created for the account when passed in an acces
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-backup-code-by-access-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-backup-code-by-access-token)
 
 Example:
 
@@ -2019,7 +2019,7 @@ if err != nil {
 
 This API creates backup codes for a user after passing in a UID. The UID passed in must have an account with a valid Multi-Factor Authentication setup.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-backup-code-by-uid)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-backup-code-by-uid)
 
 Example:
 
@@ -2035,7 +2035,7 @@ if err != nil {
 
 This API resets any backup codes created for the account when passed in a UID. The UID passed in must have an account with a valid Multi-Factor Authentication setup.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-backup-code-by-uid)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-reset-backup-code-by-uid)
 
 Example:
 
@@ -2053,7 +2053,7 @@ This API validates the passed in backup code and returns a multi-factor access t
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-backup-code)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/mfa-validate-backup-code)
 
 Example:
 
@@ -2069,7 +2069,7 @@ if err != nil {
 
 This API validates the OTP sent for Multi-Factor Authentication. For more information on the Multi-Factor Authentication token, read the overview document for Multi-Factor Authentication. It can be obtained from calling one of the multi-factor login APIs.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-validate-otp)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-validate-otp)
 
 Example:
 
@@ -2089,7 +2089,7 @@ if err != nil {
 
 This API validates the Google Auth Code generated for Multi-Factor Authentication. For more information on the Multi-Factor Authentication token, read the overview document for Multi-Factor Authentication. It can be obtained from calling one of the multi-factor login APIs.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-validate-google-auth-code/)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-validate-google-auth-code/)
 
 Example:
 
@@ -2110,7 +2110,7 @@ if err != nil {
 
 This API updates the phone number associated with MFA OTPs if configured for the account. For more information on the Multi-factor Authentication token, read the overview document for Multi-Factor Authentication. It can be obtained from calling one of the multi-factor login APIs.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-update-phone-number)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-update-phone-number)
 
 Example:
 
@@ -2133,7 +2133,7 @@ This API updates the phone number associated with MFA OTPs if configured for the
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-update-phone-number-by-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-update-phone-number-by-token)
 
 Example:
 
@@ -2155,7 +2155,7 @@ This API enables MFA authentication through Google Authenticator Codes when the 
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/update-mfa-by-access-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/update-mfa-by-access-token)
 
 Example:
 
@@ -2171,7 +2171,7 @@ if err != nil {
 
 This API enables MFA authentication through OTP after login.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/update-mfa-setting)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/update-mfa-setting)
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
@@ -2195,7 +2195,7 @@ This API resets the MFA configuration for a Google Authenticator associated with
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-token)
 
 Example:
 
@@ -2211,7 +2211,7 @@ if err != nil {
 
 This API resets the MFA configuration for a phone device associated with a user's account.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-reset-sms-authenticator-by-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-reset-sms-authenticator-by-token)
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
@@ -2229,7 +2229,7 @@ if err != nil {
 
 This API resets the MFA configuration for a Google Authenticator associated with a user's account.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-uid)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/google-authenticator/mfa-reset-google-authenticator-by-uid)
 
 Example:
 
@@ -2245,7 +2245,7 @@ if err != nil {
 
 This API resets the MFA configuration for a phone device associated with a user's account.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-reset-sms-authenticator-by-uid)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/sms-authenticator/mfa-reset-sms-authenticator-by-uid)
 
 Example:
 
@@ -2263,7 +2263,7 @@ This API is used to trigger the Multi-Factor Autentication workflow for the prov
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-authenticate)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/mfa-re-authenticate)
 
 Example:
 
@@ -2280,7 +2280,7 @@ This API is used to re-authenticate via Multi-Factor Authentication by passing t
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/re-authentication/mfa/re-auth-by-google-authenticator-code/)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/re-authentication/mfa/re-auth-by-google-authenticator-code/)
 
 Example:
 
@@ -2302,7 +2302,7 @@ This API is used to re-authenticate via Multi-Factor Authentication by passing t
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/re-authentication/mfa/re-auth-by-otp)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/re-authentication/mfa/re-auth-by-otp)
 
 Example:
 
@@ -2324,7 +2324,7 @@ This API is used to re-authenticate by set of backup codes via access_token on t
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/validate-mfa-by-backup-code)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/multi-factor-authentication/re-authentication/validate-mfa-by-backup-code)
 
 Example:
 
@@ -2404,7 +2404,7 @@ This API is used to send messages through the user's provider account.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/post-message-api)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/post-message-api)
 
 Example:
 
@@ -2430,7 +2430,7 @@ This API is used to post a new status for the user through their provider accoun
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/trackable-status-posting)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/trackable-status-posting)
 
 Example:
 
@@ -2459,7 +2459,7 @@ This API is used to translate a LoginRadius Request Token into an Access Token t
 
 For more information on LoginRadius Request Tokens, see [this documentation](/infrastructure-and-security/loginradius-tokens#loginradius-request-token-expiration-15-mins-).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/access-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/access-token)
 
 Example:
 
@@ -2477,7 +2477,7 @@ This API validates the passed in access token for social API usage.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/validate-access-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/validate-access-token)
 
 Example:
 
@@ -2495,7 +2495,7 @@ This API invalidates the access token passed in.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/invalidate-access-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/invalidate-access-token)
 
 Example:
 
@@ -2513,7 +2513,7 @@ This API retrieves Album data associated with the user's provider.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/album)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/album)
 
 Example:
 
@@ -2531,7 +2531,7 @@ This API retrieves Audio associated with the user's provider.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/audio)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/audio)
 
 Example:
 
@@ -2549,7 +2549,7 @@ This API retrieves Check-in data associated with the user's provider.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/check-in)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/check-in)
 
 Example:
 
@@ -2566,7 +2566,7 @@ This API retrieves Company data associated with the user's provider.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/company)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/company)
 
 Example:
 
@@ -2583,7 +2583,7 @@ This API retrieves Contact data associated with the user's provider.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/contact)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/contact)
 
 Example:
 
@@ -2601,7 +2601,7 @@ This API retrieves Event data associated with the user's provider.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/event)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/event)
 
 Example:
 
@@ -2619,7 +2619,7 @@ This API retrieves follower data associated with the user's provider.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/following)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/following)
 
 Example:
 
@@ -2636,7 +2636,7 @@ This API retrieves Group data associated with the user's provider.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/group)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/group)
 
 Example:
 
@@ -2653,7 +2653,7 @@ This API retrieves Like data associated with the user's provider.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/like)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/like)
 
 Example:
 
@@ -2670,7 +2670,7 @@ This API retrieves Mention data associated with the user's provider.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/mention)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/mention)
 
 Example:
 
@@ -2693,7 +2693,7 @@ GET and POST Message APIs work the same way except the API method is different.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/get-message-api)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/get-message-api)
 
 Example:
 
@@ -2722,7 +2722,7 @@ This API retrieves Page data for the page passed in. The passed in page typicall
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/page)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/page)
 
 Example:
 
@@ -2739,7 +2739,7 @@ This API retrieves Photo data associated with a passed in Album ID.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/photo)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/photo)
 
 Example:
 
@@ -2758,7 +2758,7 @@ This API retrieves Post data associated with a user's account.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/post)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/post)
 
 Example:
 
@@ -2776,7 +2776,7 @@ This API retrieves Status data associated with a user's account.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/status-fetching)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/status-fetching)
 
 Example:
 
@@ -2793,7 +2793,7 @@ This API is used to post a new status for the user through their provider accoun
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/status-posting)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/status-posting)
 
 Example:
 
@@ -2819,7 +2819,7 @@ This API retrieves Video data associated with a user's account.
 
 Please note this API requires the access token to be passed in. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/advanced-social-api/video)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/advanced-social-api/video)
 Example:
 
 ```go
@@ -2863,7 +2863,7 @@ import (
 
 This API logs in a user using their PhoneId and returns an access token and profile data.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-login)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-login)
 
 Example:
 
@@ -2883,7 +2883,7 @@ if err != nil {
 
 This API starts the forgot password flow for a phone user by sending a forgot password OTP to their phone.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-forgot-password-by-otp)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-forgot-password-by-otp)
 
 Example:
 
@@ -2903,7 +2903,7 @@ if err != nil {
 
 This API resends the account verification OTP to the PhoneId associated with the user account.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-resend-otp)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-resend-otp)
 
 Example:
 
@@ -2923,7 +2923,7 @@ if err != nil {
 
 This API resends the account verification OTP to the PhoneId associated with the user account in cases where an active token exists.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-resend-otp-by-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-resend-otp-by-token)
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
@@ -2945,7 +2945,7 @@ if err != nil {
 
 This API registers a user with the profile data provided in the body.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-user-registration-by-sms)
 
 Example:
 
@@ -2985,7 +2985,7 @@ if err != nil {
 
 This API sends an OTP to the phone. This API is part of the Passwordless Login module.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-phone)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-phone)
 
 Example:
 
@@ -3005,7 +3005,7 @@ if err != nil {
 
 This API checks whether a phone number is available for use within the database.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-number-availability)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-number-availability)
 
 Example:
 
@@ -3025,7 +3025,7 @@ if err != nil {
 
 This API logs in a user using an OTP. This API is part of the Passwordless Login module.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-phone-verification)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-phone-verification)
 
 Example:
 
@@ -3047,7 +3047,7 @@ This API updates a user's SMS PhoneId.
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-number-update)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-number-update)
 
 Example:
 
@@ -3067,7 +3067,7 @@ if err != nil {
 
 This API resets the user's password by passing in an OTP.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-reset-password-by-otp)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-reset-password-by-otp)
 
 Example:
 
@@ -3087,7 +3087,7 @@ if err != nil {
 
 This API verifies a user account by validating an OTP sent to the user's device. Take note that OTP is a query parameter in this function.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-verify-otp)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-verify-otp)
 
 Example:
 
@@ -3110,7 +3110,7 @@ This API verifies a user account that is already logged in using an OTP.
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/phone-verify-otp-by-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/phone-verify-otp-by-token)
 
 Example:
 
@@ -3130,7 +3130,7 @@ if err != nil {
 
 This API resets the verified status of a PhoneId on a user's account.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/reset-phone-id-verification)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/reset-phone-id-verification)
 
 Example:
 
@@ -3148,7 +3148,7 @@ This API deletes the PhoneId on a user's account.
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/phone-authentication/remove-phone-id-by-access-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/phone-authentication/remove-phone-id-by-access-token)
 
 Example:
 
@@ -3189,7 +3189,7 @@ import (
 
 This API creates a custom object for a user using the UID.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-uid)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-uid)
 
 Example:
 
@@ -3216,7 +3216,7 @@ if err != nil {
 
 This API creates a custom object for a user using the token.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/create-custom-object-by-token)
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
@@ -3242,7 +3242,7 @@ if err!= nil {
 
 This API gets the custom objects for a user with an object record ID and their UID.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-uid)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-uid)
 
 Example:
 
@@ -3264,7 +3264,7 @@ This API gets the custom objects for a user with an object record ID and their a
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-objectrecordid-and-token)
 
 Example:
 
@@ -3282,7 +3282,7 @@ if err != nil {
 
 This API gets the custom objects for a user with their UID.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-by-uid)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-uid)
 
 Example:
 
@@ -3303,7 +3303,7 @@ This API gets the custom objects for a user with their access token.
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-by-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-by-token)
 
 Example:
 
@@ -3319,7 +3319,7 @@ if err != nil {
 
 ##### Custom Object Update By ObjectRecordID and UID
 
-This API updates a custom object associated with a user UID and a Object Record ID. There are different update types - please refer the [documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-uid) for details.
+This API updates a custom object associated with a user UID and a Object Record ID. There are different update types - please refer the [documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-uid) for details.
 
 Example:
 
@@ -3346,7 +3346,7 @@ if err != nil {
 
 This API updates a custom object associated with a user access token and a Object Record ID. There are different update types that can be found [here]().
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-update-by-objectrecordid-and-token)
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 Example:
@@ -3373,7 +3373,7 @@ if err != nil {
 
 This API deletes a custom object associated with a user UID and an ObjectRecordID.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-uid)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-uid)
 
 Example:
 
@@ -3393,7 +3393,7 @@ if err != nil {
 
 This API deletes a custom object associated with a user access token and an ObjectRecordID.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/custom-object/custom-object-delete-by-objectrecordid-and-token)
 
 Example:
 
@@ -3431,7 +3431,7 @@ import (
 
 This API sends a Smart Login link to the user's email to sign in.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/smart-login/smart-login-by-email)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/smart-login-by-email)
 
 Example:
 
@@ -3451,7 +3451,7 @@ if err != nil {
 
 This API sends a Smart Login link to the user's email to sign in.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/smart-login/smart-login-by-username)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/smart-login-by-username)
 
 Example:
 
@@ -3471,7 +3471,7 @@ if err != nil {
 
 This API checks if the Smart Login link for a client GUID has been accessed and verified.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/smart-login/smart-login-ping)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/smart-login-ping)
 
 Example:
 
@@ -3489,7 +3489,7 @@ if err != nil {
 
 This API validates the token generated by a Smart Login link.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/smart-login/smart-login-verify-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/smart-login/smart-login-verify-token)
 
 Example:
 
@@ -3524,7 +3524,7 @@ import (
 
 This API sends a link to an email to start the One Touch Login workflow.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-email-captcha)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-email-captcha)
 
 Example:
 
@@ -3546,7 +3546,7 @@ if err!= nil {
 
 This API sends an OTP to an SMS device to start the One Touch Login workflow.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-phone-captcha)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-login-by-phone-captcha)
 
 Example:
 
@@ -3568,7 +3568,7 @@ if err!= nil {
 
 This API verifies an OTP sent to a user SMS and returns a user profile and access token if valid.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/one-touch-login/one-touch-otp-verification)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/one-touch-login/one-touch-otp-verification)
 
 Example:
 
@@ -3606,7 +3606,7 @@ import (
 
 This API gets the configuration for the customer admin console.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/configuration/get-configurations)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/configuration/get-configurations)
 
 Example:
 
@@ -3622,7 +3622,7 @@ if err != nil {
 
 This API queries the LoginRadius account for server information and time.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/configuration/get-server-time)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/configuration/get-server-time)
 
 Example:
 
@@ -3638,7 +3638,7 @@ if err != nil {
 
 This API generates a SOTT which can be used for account creation.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/session/generate-sott-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/session/generate-sott-token)
 
 Example:
 
@@ -3656,7 +3656,7 @@ This API gets all the active sessions that exist with the access token.
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/get-active-session-details)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/get-active-session-details)
 
 Example:
 
@@ -3692,7 +3692,7 @@ import (
 
 This API generates a token that can be used with Facebook compatible Social APIs.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-facebook-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-facebook-token)
 
 Example:
 
@@ -3710,7 +3710,7 @@ if err != nil {
 
 This API generates a token that can be used with Twitter compatible Social APIs.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-twitter-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-twitter-token)
 
 Example:
 
@@ -3731,7 +3731,7 @@ if err != nil {
 
 This API generates a token that can be used with VKontakte compatible Social APIs.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-vkontakte-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/social-login/native-social-login-api/access-token-via-vkontakte-token)
 
 Example:
 
@@ -3751,7 +3751,7 @@ Refreshes the user profile on the LoginRadius account by passing in a Social acc
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/refresh-token/refresh-user-profile)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/refresh-token/refresh-user-profile)
 
 Example:
 
@@ -3769,7 +3769,7 @@ Refreshes and increases the lifetime of the token to up to 60 days.
 
 Please note this API requires the access token to be passed in the `Authorization Bearer` header. The LoginRadius API client struct [must be initialized with a token](#Intializing-the-LoginRadius-Client).
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/refresh-token/refresh-token)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/refresh-token/refresh-token)
 
 Example:
 
@@ -3787,7 +3787,7 @@ WebHooks allow you to build or set up integrations which subscribe to certain ev
 
 Each WebHook can be configured on LoginRadius or a specific LoginRadius site. Once configured, they will be triggered each time one or more subscribed events occur on that LoginRadius site.
 
-For additional information, see [here](https://www.loginradius.com/docs/api/v2/integrations/webhooks/overview).
+For additional information, see [here](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/overview).
 
 To call a Web Hooks API, import the `webhook` package like so:
 
@@ -3808,7 +3808,7 @@ import (
 
 Configures a webhook onto a website where data will be sent when an event is triggered.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/integrations/webhooks/webhook-subscribe)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/webhook-subscribe)
 
 Example:
 
@@ -3830,7 +3830,7 @@ if err != nil {
 
 This API is used to test a subscribed webhook.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/integrations/webhooks/webhook-test)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/webhook-test)
 
 Example:
 
@@ -3846,7 +3846,7 @@ if err != nil {
 
 This API is used to fetch all subscribed URLs for a particular event.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/integrations/webhooks/webhook-subscribed-urls)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/webhook-subscribed-urls)
 
 Example:
 
@@ -3864,7 +3864,7 @@ if err != nil {
 
 This API is used to fetch all subscribed URLs for a particular event.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/integrations/webhooks/webhook-unsubscribe)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/integrations/webhooks/webhook-unsubscribe)
 
 Example:
 
@@ -3904,7 +3904,7 @@ import (
 
 This API is used to send an email containing a link to start the passwordless login flow.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-email)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-email)
 
 Example:
 
@@ -3922,7 +3922,7 @@ if err != nil {
 
 This API is used to send an email containing a link to start the passwordless login flow.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-username)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-by-username)
 
 Example:
 
@@ -3940,7 +3940,7 @@ if err != nil {
 
 This API is to verify the passwordless login token and returns the user profile and access token.
 
-[Documentation](https://www.loginradius.com/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-verification)
+[Documentation](https://www.loginradius.com/legacy/docs/api/v2/customer-identity-api/passwordless-login/passwordless-login-verification)
 
 Example:
 

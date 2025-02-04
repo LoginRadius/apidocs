@@ -76,7 +76,7 @@ option.appName = "<LoginRadius Site Name>";
 
 ## **Display Different CAPTCHAs**
 
-By default, when you set up a CAPTCHA with the LoginRadiusV2.js, it is applied to the registration form site-wide. However, if you need to use a different CAPTCHA based on the form displayed, this can be handled via our[ eventCalls](https://www.loginradius.com/docs/api/v2/deployment/js-libraries/javascript-hooks#eventcallshook17) and[ beforeInit](https://www.loginradius.com/docs/api/v2/deployment/js-libraries/javascript-hooks#beforeactioninithook0) JavaScript hooks.
+By default, when you set up a CAPTCHA with the LoginRadiusV2.js, it is applied to the registration form site-wide. However, if you need to use a different CAPTCHA based on the form displayed, this can be handled via our[ eventCalls](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/javascript-hooks#eventcallshook17) and[ beforeInit](https://www.loginradius.com/legacy/docs/api/v2/deployment/js-libraries/javascript-hooks#beforeactioninithook0) JavaScript hooks.
 
 In this example below, we display the Google Invisible reCAPTCHA if the user is facing the registration form. If the user is facing any other form, we show Google reCAPTCHA V2 as the CAPTCHA.
 

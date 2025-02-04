@@ -108,7 +108,7 @@ The following screen will appear in edit mode:
 
  In the **SMS CONTENT** section, you can update the given text or use [Placeholder Tags](/authentication/concepts/sms-communication/#placeholdertags7) from the predefined list. Save the template once you are done with the updates.
 
-Similarly, you can manage SMS templates available for other features like [Passwordless Login](/authentication/tutorial/passwordless-login), [One Touch Login](/authentication/tutorial/one-touch-login/), [Multi-Factor Authentication](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/multi-factor-auth/#multi-factor-authentication-configuration) and more.
+Similarly, you can manage SMS templates available for other features like [Passwordless Login](/authentication/tutorial/passwordless-login), [One Touch Login](/authentication/tutorial/one-touch-login/), [Multi-Factor Authentication](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/multi-factor-auth/#multi-factor-authentication-configuration) and more.
 
 #### Add Template
 

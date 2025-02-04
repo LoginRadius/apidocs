@@ -45,7 +45,7 @@
         {
           "name": "securityanswer",
           "is_required": false,
-          "description": "Valid JSON object of Unique Security Question ID and Answer of set Security Question. It is only required for locked accounts when logging in. Details about this feature <a href='/docs/platform-features-overview/user-security/password-management#security-question-during-password-reset-or-account-lockout'>here</a>"
+          "description": "Valid JSON object of Unique Security Question ID and Answer of set Security Question. It is only required for locked accounts when logging in. Details about this feature <a href='/legacy/docs/platform-features-overview/user-security/password-management#security-question-during-password-reset-or-account-lockout'>here</a>"
         }
       ]
     },

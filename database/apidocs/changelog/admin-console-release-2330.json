@@ -7,7 +7,7 @@
           "text": "Enhanced Data ETL Service feature, allowing you to perform the Update and Delete action."
         },
         {
-          "text": "Improved rendering time of <a href='/docs/customer-intelligence/api-analytics/'> API Analytics </a> metrics."
+          "text": "Improved rendering time of <a href='/legacy/docs/customer-intelligence/api-analytics/'> API Analytics </a> metrics."
         },
         {
           "text": "Removed Risk Based Authentication feature."

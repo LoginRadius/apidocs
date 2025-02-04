@@ -10,7 +10,7 @@
         ],
         "IMPROVED": [
             {
-                "text": "We've introduced the <strong>qrCodeAuthentication</strong> commonOptions into our <a href='/docs/libraries/js-libraries/getting-started/#initializationofloginradiusobject3'>JS Libraries</a> to facilitate compatibility with generic Authenticators."
+                "text": "We've introduced the <strong>qrCodeAuthentication</strong> commonOptions into our <a href='/legacy/docs/libraries/js-libraries/getting-started/#initializationofloginradiusobject3'>JS Libraries</a> to facilitate compatibility with generic Authenticators."
             }
         ]
     },

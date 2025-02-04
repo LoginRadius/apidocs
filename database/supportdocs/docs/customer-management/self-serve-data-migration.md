@@ -31,7 +31,7 @@ This guide will take you through the process to start the data migration. It cov
 
 - There is a limit for CSV file, it should be smaller than 50MBs, and must contain fewer than 10000 lines.
 
-> **Note:** To perform full Data Migration please refer to this [document](https://www.loginradius.com/docs/api/v2/getting-started/data-migration/#data-migration). This service will allow you to migrate your existing customer data to LoginRadius. <br><br>
+> **Note:** To perform full Data Migration please refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-migration/#data-migration). This service will allow you to migrate your existing customer data to LoginRadius. <br><br>
 
 > **Pre-requisites:**
 > CSV file of customer profiles.

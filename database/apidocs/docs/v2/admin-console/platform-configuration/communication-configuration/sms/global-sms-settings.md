@@ -20,4 +20,4 @@ Navigate to your LoginRadius Admin Console ➔ Platform Configuration ➔ Identi
 
 ![enter image description here](https://apidocs.lrcontent.com/images/pasted-image-0_32465e7b5f234ccb25.14993495.png "enter image title here")
 
-Please note that the settings configured on this page are global for all your SMS events. To customize settings and templates for individual SMS events, please refer to this [document](https://www.loginradius.com/docs/api/v2/admin-console/platform-configuration/phone-login-configuration). 
+Please note that the settings configured on this page are global for all your SMS events. To customize settings and templates for individual SMS events, please refer to this [document](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-configuration/phone-login-configuration). 

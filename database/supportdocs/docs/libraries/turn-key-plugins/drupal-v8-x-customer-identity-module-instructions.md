@@ -160,7 +160,7 @@ Composer is now aware that the LoginRadius PHP SDK is required. It will first ad
 
 1. Click on the **Configuration tab** in the top menu, click on **LoginRadius** under **People** section.
    <br><br>![enter image description here](https://apidocs.lrcontent.com/images/loginradius1_240955df85feaea94f1.24303377.png "enter image title here")
-2. Insert LoginRadius API Key, and API Secret as provided in your [LoginRadius Admin Console](https://www.loginradius.com/docs/api/v2/admin-console/platform-security/api-key-and-secret)
+2. Insert LoginRadius API Key, and API Secret as provided in your [LoginRadius Admin Console](https://www.loginradius.com/legacy/docs/api/v2/admin-console/platform-security/api-key-and-secret)
 
 3. Click **Save configuration**.
    <br><br>![enter image description here](https://apidocs.lrcontent.com/images/dpactivation_204025e05a344344e62.00540316.png "enter image title here")

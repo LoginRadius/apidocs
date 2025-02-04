@@ -325,7 +325,7 @@ Please see [Usage](/libraries/identity-experience-framework/usage/#logout5) docu
 
 ## Contact ID in the LoginRadius Profile
 
-LoginRadius PerfectMind SSO API creates a corresponding contact in the PerfectMind site and stores the PerfectMind contactID under the **ExternalIds** field in the LoginRadius user profile. The **ExternalIds** field is an array of object type with Source and ScourceId properties. Please see the [LoginRadius Data Point](https://www.loginradius.com/docs/api/v2/getting-started/data-points/detailed-data-points/) document for more details. E.g.
+LoginRadius PerfectMind SSO API creates a corresponding contact in the PerfectMind site and stores the PerfectMind contactID under the **ExternalIds** field in the LoginRadius user profile. The **ExternalIds** field is an array of object type with Source and ScourceId properties. Please see the [LoginRadius Data Point](https://www.loginradius.com/legacy/docs/api/v2/getting-started/data-points/detailed-data-points/) document for more details. E.g.
 
 ```
 "ExternalIds": [{
