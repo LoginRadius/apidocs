@@ -294,7 +294,7 @@ $hooks->do_action('init');
 
 
 
-           <!-- <div class="custom-algolia-search" style="display: inline-flex;">
+          <div class="custom-algolia-search" style="display: inline-flex;">
             <div class="ToggleNightModecontainer">
               <label for="nightModeToggle">Dark Mode</label>
               </breadCrumbRedirect>
@@ -309,7 +309,7 @@ $hooks->do_action('init');
             <?php require_once 'search.php'; ?>
 
 
-          </div>-->
+          </div>
           <div class="custom-api-menu">
             <div class="account-dropdown top-menu md-header-nav__title">
 
