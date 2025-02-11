@@ -41,6 +41,14 @@ $hooks->do_action('init');
     }
   </script>
 
+<script>
+    setInterval(function() {
+        fetch(window.location.href, { method: 'GET', cache: 'no-store' })
+        .then(response => console.log('Session refreshed'))
+        .catch(error => console.error('Error refreshing session:', error));
+    }, 100,000); // Every 5 minutes
+</script>
+
   <script>
     var errorPage = "<?php echo ROOT_PATH . '404'; ?>";
     var rootPath = "<?php echo ROOT_PATH; ?>";

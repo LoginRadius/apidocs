@@ -2,6 +2,9 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.+)(/?)$ index.php?document=$1 [L,QSA]
+Header always set Access-Control-Allow-Origin "*"
+Header always set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+Header always set Access-Control-Allow-Headers "X-Requested-With, Content-Type"
 <IfModule mod_headers.c>
     Header set X-XSS-Protection "1; mode=block"
 </IfModule>
