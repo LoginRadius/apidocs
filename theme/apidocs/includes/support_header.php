@@ -46,7 +46,7 @@ $hooks->do_action('init');
         fetch(window.location.href, { method: 'GET', cache: 'no-store' })
         .then(response => console.log('Session refreshed'))
         .catch(error => console.error('Error refreshing session:', error));
-    }, 300000); // Every 5 minutes
+    }, 200000); // Every 5 minutes
 </script>
 
   <script>
