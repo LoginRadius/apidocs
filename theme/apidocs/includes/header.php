@@ -532,7 +532,7 @@ $hooks->do_action('init');
       <div class="md-main__inner md-grid esp_md-grid" data-md-component="container">
 
         <script>
-          var docsPath = window.location.origin + '/docs' + '/api/'
+          var docsPath = window.location.origin + '/legacy/docs' + '/api/'
           var baseUrl = "<?php echo API_DOCS_URL . '/'; ?>";
 
           function addBreadCrumb(currentUrl, isMenu, isSeoDescription) {
