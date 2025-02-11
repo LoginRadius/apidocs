@@ -25,6 +25,13 @@ $hooks->do_action('init');
   <?php docs_enqueue_script("https://google.com/recaptcha/api.js?onload=initRecaptcha&render=explicit"); ?>
 
   <script>
+    setInterval(function() {
+        fetch(window.location.href, { method: 'GET', cache: 'no-store' })
+        .then(response => console.log('Session refreshed'))
+        .catch(error => console.error('Error refreshing session:', error));
+    }, 200000); // Every 3 minutes
+</script>
+  <script>
     if (window.jQuery) {
 
       //document.write(unescape('%3Clink href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono"    rel="stylesheet" type="text/css"%3E'));
