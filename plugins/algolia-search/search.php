@@ -1,83 +1,85 @@
+
+
+
 <?php
 if (!defined('ROOT_PATH')) {
     header("Location: /");
 }
 global $hooks;
 
-$hooks->add_action('docs_head_script', 'algoliaSearchScript', 10, 0);
-$hooks->add_action('docs_footer_script', 'algoliaSearchScriptCall', 10, 0);
-$hooks->add_action('docs_searching', 'algoliaSearchHTML');
+$hooks->add_action('docs_head_script', 'inkeepSearch', 10, 0);
 
-function algoliaSearchScript() {
-    docs_enqueue_style(PLUGIN_URL . "algolia-search/assets/css/docsearch.min.css");
-    docs_enqueue_script(PLUGIN_URL . "algolia-search/assets/js/docsearch.min.js");
-
-}
+$hooks->add_action('docs_searching', 'inkeepSearchHTML');
 
 
-
-function algoliaSearchScriptCall() {
+function inkeepSearch() {
     ?>
-    <script type="text/javascript">
-        docsearch({
-            apiKey:"<?php echo ALGOLIA_API_KEY; ?>",
-            appId: "<?php echo ALGOLIA_APP_ID;?>",
-            indexName: 'loginradius',
-            inputSelector: '#algoliasearch',
-            debug: false,
-            autocompleteOptions: {
-                autoselect: false
+    <script id="inkeep-script" src="https://unpkg.com/@inkeep/uikit-js@0.3.19/dist/embed.js" type="module" defer></script>
+    <script >
+const inkeepScript = document.getElementById("inkeep-script");
+ 
+ // configure and initialize the widget
+ const addInkeepWidget = (componentType, targetElementId) => {
+   const inkeepWidget = Inkeep().embed({
+     componentType,
+     ...(componentType !== "ChatButton"
+       ? { targetElement: targetElementId }
+       : {}),
+     properties: {
+       baseSettings: {
+        apiKey: "<?php echo INKEEP_API_KEY; ?>", // required
+        integrationId: "<?php echo INKEEP_INTEGRATION_ID; ?>", // required
+        organizationId: "<?php echo INKEEP_ORGANIZATION_ID; ?>", // required
+         primaryBrandColor: "#FFFFFF", // your brand color, widget color scheme is derived from this
+         organizationDisplayName: "LoginRadius",
+       },
+       colorMode: {
+        enableSystem: true,
+    },
+      
+  
+       aiChatSettings: {
+        chatSubjectName: "LoginRadius",
+        botAvatarSrcUrl: "https://www.loginradius.com/blog/static/59a8962050016aa118585d686adbcd57/e5715/logo-1024x991.png",
+        botAvatarDarkSrcUrl: "https://www.loginradius.com/docs/img/logoonly-dark.svg",
+        getHelpCallToActions: [
+            {
+                name: "Contact",
+                url: "https://www.loginradius.com/contact-sales/",
+                
+                icon: {
+                    builtIn: "IoChatbubblesOutline"
+                }
             }
-        });
+        ],
+        quickQuestions: [
+            "How does the LoginRadius User Registration System work?",
+            "Invalid Request URI Error?",
+            "Consumer Audit Logs?"
+        ]
+    }
+     },
+   });
+ };
+ 
+ inkeepScript.addEventListener("load", () => {
+   const widgetContainer = document.getElementById("inkeepSearchBar");
+   
+   addInkeepWidget("ChatButton");
+   widgetContainer && addInkeepWidget("SearchBar", "#inkeepSearchBar");
+ });
+   
     </script>
+
     <?php
 }
 
-function algoliaSearchHTML($searchType) {
-    ?><style>
-        .md-header  .algolia-autocomplete{
-        width: calc(100% - 68px);
-    }
-    .md-header .algolia-autocomplete .ds-dropdown-menu:before{
-        display: none !important;
-    }
-.md-header .algolia-autocomplete {
-    vertical-align: top;
-}
+function inkeepSearchHTML($searchType) {
+    ?>
+   <div id="inkeepSearchBar"></div>&nbsp;
 
-.md-header #algolia-autocomplete-listbox-0{
-    box-shadow: 0 2px 5px rgba(0,0,0,.26);
-    margin-top: 9px;
-    margin-left: -44px;
-}
 
-.md-header #algolia-autocomplete-listbox-0:before{
-    content: unset;
-}
-
-.md-header #algolia-autocomplete-listbox-0 .algolia-autocomplete .ds-dropdown-menu [class^=ds-dataset-]{
-    border: 0px solid transparent
-}
-        
-        
-        
-        
-        
-        
-        .md-header #algolia-autocomplete-listbox-0{font-size:2em;width:100%}
-        <?php
-        if ($searchType == 'support') {
-            ?>.algolia-autocomplete {
-                width: 115%;
-            }
-            <?php
-        } else {
-            ?>
-            
-            <?php
-        }
-        ?>
-    </style>
-    <input id="algoliasearch" type="text" placeholder="Search"></input>
     <?php
 }
+
+

@@ -67,14 +67,14 @@ jQuery(document).ready(function ($) {
 
   // ************************************ SEARCH **************************************
 
-  $("#mobile_search").click(function () {
-    if (!searchOpened) {
-      searchOpen();
-    }
-  });
+  // $("#mobile_search").click(function () {
+  //   if (!searchOpened) {
+  //     //searchOpen();
+  //   }
+  // });
 
   $("#algoliasearch").focusout(function () {
-    searchClose();
+    //searchClose();
   });
 
   function searchOpen() {
@@ -215,12 +215,12 @@ jQuery(document).ready(function ($) {
     // control search based on first breakpoint
     if (windowWidth >= bp1 + 1) {
       bp1Active = false;
-      searchReset();
+      //searchReset();
     } else if (searchOpened) {
       bp1Active = true;
     } else {
       bp1Active = true;
-      searchClose();
+      //searchClose();
     }
 
     // control mobile menu based on second breakpoint

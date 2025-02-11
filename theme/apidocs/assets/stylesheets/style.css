@@ -6036,7 +6036,3 @@ img.icon-svg {
   padding: 8px;
   mix-blend-mode: color-burn;
 }
-
-.custom-algolia-search {
-  display: none !important;  /* Hide the entire container */
-}
