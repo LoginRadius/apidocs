@@ -100,6 +100,10 @@ define('S3_BUCKET_NAME',  getenv('S3_BUCKET_NAME'));
 define('ALGOLIA_API_KEY',  getenv('ALGOLIA_API_KEY'));
 define('ALGOLIA_APP_ID',  getenv('ALGOLIA_APP_ID'));
 
+define('INKEEP_API_KEY',  getenv('INKEEP_API_KEY'));
+define('INKEEP_INTEGRATION_ID',  getenv('INKEEP_INTEGRATION_ID'));
+define('INKEEP_ORGANIZATION_ID',  getenv('INKEEP_ORGANIZATION_ID'));
+
 
 
 /*Google Recaptcha Config*/

@@ -282,11 +282,11 @@ $hooks->do_action('init');
               <img src="<?php echo THEME_URL; ?>assets/images/menu-icon.svg" width="4px" alt="menu-icon">
             </a>
           </div>
-          <div class="mobile_search">
+          <!--<div class="mobile_search">
             <a tabindex="0" id="mobile_search">
               <img src="<?php echo THEME_URL; ?>assets/images/search-icon.svg" width="15px" alt="search-icon">
             </a>
-          </div>
+          </div>-->
           <!-- <div class="mobile_menu">
             <a tabindex="0" id="mobile_menu">
               <img src="<?php echo THEME_URL; ?>assets/images/side-menu-icon.svg" width="15px">
@@ -304,6 +304,7 @@ $hooks->do_action('init');
 
           <div class="custom-algolia-search" style="display: inline-flex;">
             <div class="ToggleNightModecontainer">
+            <?php require_once 'search.php'; ?>&nbsp
               <label for="nightModeToggle">Dark Mode</label>
               </breadCrumbRedirect>
               <label class="switch">
@@ -314,7 +315,7 @@ $hooks->do_action('init');
 
 
 
-            <?php require_once 'search.php'; ?>
+            
 
 
           </div>
