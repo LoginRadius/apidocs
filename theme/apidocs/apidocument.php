@@ -47,7 +47,6 @@ require_once 'includes/header.php';
     });
 </script>
 
-<script src="<?php echo THEME_URL; ?>assets/javascripts/navigation.min.js" type="text/javascript"></script>
 
 
 </body>
