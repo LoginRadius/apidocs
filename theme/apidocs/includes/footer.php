@@ -35,4 +35,6 @@ if (!defined('ROOT_PATH')) {
 docs_enqueue_script(THEME_URL . "assets/javascripts/functions.min.js");
 
 docs_enqueue_script(THEME_URL . "assets/javascripts/split.min.js");
+docs_enqueue_script(THEME_URL . "assets/javascripts/navigation.min.js");
+
 $hooks->do_action('docs_footer_script');
