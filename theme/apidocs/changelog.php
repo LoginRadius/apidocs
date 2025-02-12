@@ -35,5 +35,4 @@ require_once 'includes/header.php';
         </div>
     </div>
     <div class="close-overlay"></div>
-    <script src="<?php echo THEME_URL; ?>assets/javascripts/navigation.min.js" type="text/javascript"></script>
 </div>
