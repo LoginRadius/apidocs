@@ -212,11 +212,11 @@ jQuery(document).ready(function(){
     if (jQuery(window).width() <= 1024) {
     $(".custom-algolia-search").hide();
     $(".custom-api-menu").hide();
-    $(".mobile_search").click(function(){       
-        $(".custom-algolia-search").slideToggle();
-        $(".custom-api-menu").hide();
-        $('#material_sel-option').removeClass();
-    });
+    // $(".mobile_search").click(function(){       
+    //     $(".custom-algolia-search").slideToggle();
+    //     $(".custom-api-menu").hide();
+    //     $('#material_sel-option').removeClass();
+    // });
     $(".mobile_menu").click(function(){
         $(".custom-api-menu").slideToggle();
         $(".custom-algolia-search").hide();

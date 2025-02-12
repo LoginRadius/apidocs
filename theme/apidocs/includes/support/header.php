@@ -190,11 +190,11 @@ $hooks->do_action('init');
             <img src="<?php echo THEME_URL; ?>assets/images/menu-icon.svg" width="4px" alt="menu-icon">
           </a>
         </div>
-        <div class="mobile_search">
+        <!--<div class="mobile_search">
           <a tabindex="0" id="mobile_search">
             <img src="<?php echo THEME_URL; ?>assets/images/search-icon.svg" width="15px" alt="search-icon">
           </a>
-        </div>
+        </div>-->
         <!-- <div class="mobile_menu">
                         <a tabindex="0" id="mobile_menu">
                             <img src="<?php echo THEME_URL; ?>assets/images/side-menu-icon.svg" width="15px">
