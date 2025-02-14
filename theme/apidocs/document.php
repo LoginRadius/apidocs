@@ -102,7 +102,8 @@ require_once 'includes/header.php';
 </div>
 
 
-<script src="<?php echo THEME_URL; ?>assets/javascripts/marked.min.js" type="text/javascript"></script>
+<?php docs_enqueue_script(THEME_URL . "assets/javascripts/marked.min.js");
+ ?>
 <script>
     jQuery(document).ready(function($) {
         loadVersion();
