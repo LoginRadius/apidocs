@@ -66,8 +66,6 @@ $hooks->do_action('init');
   </style>
   <?php
 
-  //        docs_enqueue_style(THEME_URL . "assets/stylesheets/application-bc099a55ca.css");
-  //        docs_enqueue_style(THEME_URL . "assets/stylesheets/application-02ce7adcc2.palette.css");
   docs_enqueue_style(THEME_URL . "assets/stylesheets/style.css");
   echo $hooks->do_action('docs_head_script');
   ?>

@@ -18,14 +18,14 @@ The LoginRadius supported Web SDKs are listed below.
 
 | Web Technology|  SDK Reference Document |  GitHub Reference Link|
 |----------|:-------------:|------:|
-| HTML5 Library|  [HTML5 Library Guide](https://www.loginradius.com/legacy/docs/api/v2/deployment/sdk-libraries/html5-library) | [SDK and GitHub reference](https://github.com/LoginRadius/html5-sdk) |
-| ASP.Net Library|  [ASP.Net Library Guide](https://www.loginradius.com/legacy/docs/api/v2/sdk-libraries/aspnet) | [SDK and GitHub reference](https://github.com/LoginRadius/dot-net-sdk) |
-| Java Library|  [Java Library Guide](https://www.loginradius.com/legacy/docs/api/v2/sdk-libraries/java-library) | [SDK and GitHub reference](https://github.com/LoginRadius/java-sdk) |
-| PHP Library |  [PHP Library Guide](https://www.loginradius.com/legacy/docs/api/v2/sdk-libraries/php) | [SDK and GitHub reference](https://github.com/LoginRadius/php-sdk)|
-| Coldfusion Library|  [Coldfusion Library Guide](https://www.loginradius.com/legacy/docs/api/v2/deployment/sdk-libraries/coldfusion-library) | [SDK and GitHub reference](https://github.com/LoginRadius/coldfusion-sdk)|
-| Node.js Library|  [Node.js Library Guide](https://www.loginradius.com/legacy/docs/api/v2/sdk-libraries/nodejs) | [SDK and GitHub reference](https://github.com/LoginRadius/node-js-sdk) |
-| Python Library|  [Python Library Guide](https://www.loginradius.com/legacy/docs/api/v2/sdk-libraries/python) | [SDK and GitHub reference](https://github.com/LoginRadius/python-sdk) |
-| Ruby Library|  [Ruby Library Guide](https://www.loginradius.com/legacy/docs/api/v2/deployment/sdk-libraries/ruby-library) | [SDK and GitHub reference](https://github.com/LoginRadius/ruby-on-rails-sdk) |
-| Golang Library|  [Golang Library Guide](https://www.loginradius.com/legacy/docs/api/v2/deployment/sdk-libraries/golang-library) | [SDK and GitHub reference](https://github.com/LoginRadius/go-sdk)|
-| Elixir Library|  [Elixir Library Guide](https://www.loginradius.com/legacy/docs/api/v2/deployment/sdk-libraries/elixir-library) | [SDK and GitHub reference](https://github.com/LoginRadius/elixir-sdk)|
+| HTML5 Library|  [HTML5 Library Guide](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/html5-library) | [SDK and GitHub reference](https://github.com/LoginRadius/html5-sdk) |
+| ASP.Net Library|  [ASP.Net Library Guide](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/asp-net-library/) | [SDK and GitHub reference](https://github.com/LoginRadius/dot-net-sdk) |
+| Java Library|  [Java Library Guide](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/java-library) | [SDK and GitHub reference](https://github.com/LoginRadius/java-sdk) |
+| PHP Library |  [PHP Library Guide](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/php-library/) | [SDK and GitHub reference](https://github.com/LoginRadius/php-sdk)|
+| Coldfusion Library|  [Coldfusion Library Guide](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/coldfusion-library) | [SDK and GitHub reference](https://github.com/LoginRadius/coldfusion-sdk)|
+| Node.js Library|  [Node.js Library Guide](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/node-js-library/) | [SDK and GitHub reference](https://github.com/LoginRadius/node-js-sdk) |
+| Python Library|  [Python Library Guide](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/python-library/) | [SDK and GitHub reference](https://github.com/LoginRadius/python-sdk) |
+| Ruby Library|  [Ruby Library Guide](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/ruby-library) | [SDK and GitHub reference](https://github.com/LoginRadius/ruby-on-rails-sdk) |
+| Golang Library|  [Golang Library Guide](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/golang-library) | [SDK and GitHub reference](https://github.com/LoginRadius/go-sdk)|
+| Elixir Library|  [Elixir Library Guide](https://www.loginradius.com/legacy/docs/libraries/sdk-libraries/elixir-library) | [SDK and GitHub reference](https://github.com/LoginRadius/elixir-sdk)|
 
