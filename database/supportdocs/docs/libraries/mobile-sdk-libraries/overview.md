@@ -19,11 +19,11 @@ The LoginRadius supported mobile SDKs are listed below:
 |----------|:-------------:|------:|
 | Android|  [Android Library Guide](https://www.loginradius.com/legacy/docs/api/v2/mobile-libraries/android) | [SDK and GitHub reference](https://github.com/LoginRadius/android-sdk) |
 | Ionic | [Ionic Library Guide](https://www.loginradius.com/legacy/docs/api/v2/mobile-libraries/ionic)|   [SDK and GitHub reference](https://github.com/LoginRadius/ionic-sdk) |
-| Ionic 2 | [Ionic 2 Library Guide](https://www.loginradius.com/legacy/docs/api/v2/mobile-libraries/ionic-2) |    [SDK and GitHub reference](https://github.com/LoginRadius/ionic2-sdk) |
+| Ionic 2 | [Ionic 2 Library Guide](https://www.loginradius.com/legacy/docs/libraries/mobile-sdk-libraries/ionic-2-library/) |    [SDK and GitHub reference](https://github.com/LoginRadius/ionic2-sdk) |
 | iOS | [iOS Library Guide](https://www.loginradius.com/legacy/docs/api/v2/mobile-libraries/ios-library) |    [SDK and GitHub reference](https://github.com/LoginRadius/ios-sdk) |
 | PhoneGap | [PhoneGap Library Guide](https://www.loginradius.com/legacy/docs/libraries/mobile-sdk-libraries/phonegap-library/) |   [SDK and GitHub reference](https://github.com/LoginRadius/phonegap-sdk) |
-| Xamarin | [Xamarin Library Guide](https://www.loginradius.com/legacy/docs/api/v2/deployment/mobile-sdk-libraries/xamarin-library) |    [SDK and GitHub reference](https://github.com/LoginRadius/xamarin-sdk)|
-| React Native | [React Native Library Guide](https://www.loginradius.com/legacy/docs/api/v2/deployment/mobile-sdk-libraries/react-native-library) |    [SDK and GitHub reference](https://github.com/LoginRadius/react-native-sdk)|
+| Xamarin | [Xamarin Library Guide](https://www.loginradius.com/legacy/docs/libraries/mobile-sdk-libraries/xamarin-library/) |    [SDK and GitHub reference](https://github.com/LoginRadius/xamarin-sdk)|
+| React Native | [React Native Library Guide](https://www.loginradius.com/legacy/docs/libraries/mobile-sdk-libraries/react-native-library/) |    [SDK and GitHub reference](https://github.com/LoginRadius/react-native-sdk)|
 
 
 
