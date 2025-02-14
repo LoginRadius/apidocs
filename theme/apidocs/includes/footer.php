@@ -32,9 +32,7 @@ if (!defined('ROOT_PATH')) {
     docs_enqueue_script("//cdn.lrcontent.com/hub/prod/js/CustomInterface.2.js");
     docs_enqueue_script(THEME_URL . "assets/javascripts/html5sdk.min.js");
 }
-docs_enqueue_style(THEME_URL . "assets/stylesheets/mega-menu.css");
-docs_enqueue_script(THEME_URL . "assets/javascripts/mega-menu.min.js");
-docs_enqueue_style(THEME_URL . "assets/stylesheets/style.css");
+
 docs_enqueue_script(THEME_URL . "assets/javascripts/functions.min.js");
 
 docs_enqueue_script(THEME_URL . "assets/javascripts/split.min.js");
