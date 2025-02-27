@@ -18,7 +18,6 @@ $hooks->do_action('init');
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="noindex">
   <link rel="shortcut icon" href="<?php echo THEME_URL; ?>assets/images/favicon-lr.png">
   <link rel="icon" href="<?php echo THEME_URL; ?>assets/images/favicon-lr.png" type="image/x-icon">
   <?php docs_enqueue_script("//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"); ?>
