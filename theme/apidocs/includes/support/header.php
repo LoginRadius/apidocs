@@ -13,6 +13,7 @@ $hooks->do_action('init');
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
   <meta name="description" content="The LoginRadius Identity Platform includes comprehensive and developer-friendly support documentation for immediate help.">
   <link rel="shortcut icon" href="<?php echo THEME_URL; ?>assets/images/favicon-lr.png">
   <link rel="icon" href="<?php echo THEME_URL; ?>assets/images/favicon-lr.png" type="image/x-icon">
